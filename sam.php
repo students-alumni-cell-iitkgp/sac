@@ -53,7 +53,7 @@ max-width:100%;
       </div>
     </div>
      <div class="row">
-  <?php include 'internalslider.php';?>
+  <?php include 'gallery.php';?>
   </div>
   </div>
   <?php include 'footer.php';?>

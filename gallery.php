@@ -1,5 +1,5 @@
 <head>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
 
 <!-- Add fancyBox -->
 <link rel="stylesheet" href="css/fancybox.css" type="text/css" media="screen" />
@@ -28,8 +28,8 @@ div.row
 {
     margin-bottom: 5px;
 }
-.col-lg-2{height: 150px; width: 210px;}
-.col-lg-4{height:300px;width:420px;}
+.img-col-l2{height: 150px; width: 210px;padding: 10px;}
+.img-col-l4{height:300px;width:420px;padding: 10px;}
 
 
 </style>
@@ -39,75 +39,75 @@ div.row
               new WOW().init();
               </script>
 </head>
-<body style="background:url('img/aadhavinay.jpg')">
+<body >
 <div class="container-fluid">
 <div class="wow fadeIn">
 <div class="row">
     
-    <div class="col-lg-6">
-        <div class="col-lg-2">
-              <a id="single_2" href="images/1.JPG"><img class="two" src="images/1.JPG"></a><br>
-               <a id="single_2" href="images/50.JPG">
-                <img class="two" src="images/50.JPG"></a>
+    <div class="col l6">
+        <div class="col l2 img-col-2">
+              <a id="single_2" href="img/gallery/1.JPG"><img class="two" src="img/gallery/1.JPG"></a><br>
+               <a id="single_2" href="img/gallery/50.JPG">
+                <img class="two" src="img/gallery/50.JPG"></a>
         </div>
-        <div class="col-lg-2">
-            <a id="single_2" href="images/2.jpg"><img class="two" src="images/2.jpg"></a><br>
-                        <a id="single_2" href="images/60.JPG"><img class="two" src="images/60.JPG"></a>
+        <div class="col l2 img-col-2">
+            <a id="single_2" href="img/gallery/2.jpg"><img class="two" src="img/gallery/2.jpg"></a><br>
+                        <a id="single_2" href="img/gallery/60.JPG"><img class="two" src="img/gallery/60.JPG"></a>
 
         </div>
-        <div class="col-lg-2">
-            <a id="single_2" href="images/7.JPG"><img class="two" src="images/7.JPG"></a><br>
-                        <a id="single_2" href="images/85.JPG"><img class="two" src="images/85.JPG"></a>
+        <div class="col l2 img-col-2">
+            <a id="single_2" href="img/gallery/7.JPG"><img class="two" src="img/gallery/7.JPG"></a><br>
+                        <a id="single_2" href="img/gallery/85.JPG"><img class="two" src="img/gallery/85.JPG"></a>
 
         </div>
     </div>
 
     
-    <div class="col-lg-6">
-        <div class="col-lg-4">
-            <a id="single_2" href="images/44.JPG">
-            <img class="four" src="images/44.JPG">
+    <div class="col l6">
+        <div class="col l4 img-col-4">
+            <a id="single_2" href="img/gallery/44.JPG">
+            <img class="four" src="img/gallery/44.JPG">
         </a>
         </div>
-        <div class="col-lg-2">
-            <a id="single_2" href="images/9.JPG">
-                <img class="two" src="images/9.JPG"></a>
+        <div class="col l2 img-col-2">
+            <a id="single_2" href="img/gallery/9.JPG">
+                <img class="two" src="img/gallery/9.JPG"></a>
         <br>
-            <a id="single_2" href="images/35.JPG"><img class="two" src="images/35.JPG"></a>
+            <a id="single_2" href="img/gallery/35.JPG"><img class="two" src="img/gallery/35.JPG"></a>
         </div>
     </div>
 </div>
 <div class="row">
    
-    <div class="col-lg-6">
-        <div class="col-lg-2">
-            <a id="single_2" href="images/63.JPG"><img class="two" src="images/63.JPG"></a>
+    <div class="col l6">
+        <div class="col l2 img-col-2">
+            <a id="single_2" href="img/gallery/63.JPG"><img class="two" src="img/gallery/63.JPG"></a>
             <br>
-            <a id="single_2" href="images/57.JPG"><img class="two" src="images/57.JPG"></a>
+            <a id="single_2" href="img/gallery/57.JPG"><img class="two" src="img/gallery/57.JPG"></a>
         </div>
 
-        <div class="col-lg-4">
-            <a id="single_2" href="images/18.JPG">
-            <img class="four" src="images/18.JPG">
+        <div class="col l4 img-col-4">
+            <a id="single_2" href="img/gallery/18.JPG">
+            <img class="four" src="img/gallery/18.JPG">
         </a>
         </div>
     </div>
    
-    <div class="col-lg-6">
-        <div class="col-lg-2">
-            <a id="single_2" href="images/66.JPG"><img class="two" src="images/66.JPG"></a><br>
-                        <a id="single_2" href="images/43.JPG"><img class="two" src="images/43.JPG"></a>
+    <div class="col l6">
+        <div class="col l2 img-col-2">
+            <a id="single_2" href="img/gallery/66.JPG"><img class="two" src="img/gallery/66.JPG"></a><br>
+                        <a id="single_2" href="img/gallery/43.JPG"><img class="two" src="img/gallery/43.JPG"></a>
 
         </div>
-        <div class="col-lg-2">
-            <a id="single_2" href="images/22.JPG"><img class="two" src="images/22.JPG"></a><br>
-                        <a id="single_2" href="images/31.JPG"><img class="two" src="images/31.JPG"></a>
+        <div class="col l2 img-col-2">
+            <a id="single_2" href="img/gallery/22.JPG"><img class="two" src="img/gallery/22.JPG"></a><br>
+                        <a id="single_2" href="img/gallery/31.JPG"><img class="two" src="img/gallery/31.JPG"></a>
 
         </div>
-        <div class="col-lg-2">
-            <a id="single_2" href="images/15.JPG"><img class="two" src="images/15.JPG"></a><br>
-            <a id="single_2" href="images/46.JPG">
-            <img class="two" src="images/46.JPG">
+        <div class="col l2 img-col-2">
+            <a id="single_2" href="img/gallery/15.JPG"><img class="two" src="img/gallery/15.JPG"></a><br>
+            <a id="single_2" href="img/gallery/46.JPG">
+            <img class="two" src="img/gallery/46.JPG">
         </a>
         </div>
     </div>
@@ -119,10 +119,10 @@ div.row
 
 
 
-<!-- Add jQuery library -->
+<!-- Add jQuery library >
 <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 
-<script type="text/javascript" src="js/fancybox.js"></script>
+<!--script type="text/javascript" src="js/fancybox.js"></script>
 
 <script type="text/javascript">
     $(document).ready(function() {
@@ -139,5 +139,5 @@ div.row
         }
     });
     });
-</script>
+</script-->
 </body>

@@ -60,7 +60,7 @@
   </div>
   </div>
   <div class="info row">
-  <?php include 'internalslider.php';?>
+  <?php include 'gallery.php';?>
   </div>
   </div>
   <?php include 'footer.php';?>
