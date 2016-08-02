@@ -12,24 +12,25 @@ img
     margin-bottom: 1px;
 }
 
-img.two
+.two
 {
-    width: 200px;
-    height: 150px;
+    width: 200px !important;
+    height: 150px !important;
+    padding: 10px;
 }
 
-img.four
+.four
 {
-    width: 410px;
-    height: 300px;
+    width: 410px !important;
+    height: 300px !important;
 }
 
-div.row
+.row
 {
     margin-bottom: 5px;
 }
-.img-col-l2{height: 150px; width: 210px;padding: 10px;}
-.img-col-l4{height:300px;width:420px;padding: 10px;}
+.img-col-2{height: 150px; width: 210px !important;padding: 10px;}
+.img-col-4{height:300px;width:420px !important;padding: 10px;}
 
 
 </style>
