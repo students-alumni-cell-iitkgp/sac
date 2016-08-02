@@ -13,7 +13,8 @@
       height: 240px;
     }
      .summit{
-      padding: 0px 100px;
+      padding: 10px 100px;
+      text-align: justify;
     }
       .ac-summit img{
         margin-left: 80px;
@@ -101,7 +102,7 @@ max-width:100%;
           </div>
         </div>
   </div>
-  <div class="row" style="margin:auto;width:90%;">
+  <div class="row leader" style="margin:auto;width:90%;">
         <div class="col s12 m4 l4">
           <div class="card z-depth-0 _card">
             <div class="card-image">
