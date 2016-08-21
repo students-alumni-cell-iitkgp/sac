@@ -3,6 +3,6 @@ $(document).ready(function(){
       $('.parallax').parallax();
       $('.slider').css('height','580px');
       $('.slides').css('height','580px');
-      var height=$('._footer').height();
-      $('._wrapper').css('margin-bottom',height);
+      //var height=$('._footer').height();
+     // $('._wrapper').css('margin-bottom',height);
 });      

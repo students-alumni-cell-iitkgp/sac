@@ -10,8 +10,11 @@
       alignment: 'left' // Displays dropdown with edge aligned to the left of button
     }
     );
+
   });
-  
+    $(document).ready(function(){
+   $(".button-collapse").sideNav();
+ });
 </script>
 <div class="navbar-fixed white">
   <ul id="events" class="dropdown-content">
@@ -45,10 +48,14 @@
 
       </ul>
       <ul class="side-nav" id="mobile-demo">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">Javascript</a></li>
-        <li><a href="mobile.html">Mobile</a></li>
+        <li><a href="index.php">Home</a></li>
+        <li><a class="dropdown-button" href="#!">Events</a></li>
+        <li><a class="dropdown-button" href="#!" >Initiatives</a></li>
+        <li><a class="dropdown-button" href="#!" >Publications</a></li>
+        <li><a href="team.php">The Team</a></li>
+        <li><a href="alumni_chapter.php">Alumni Chapters</a></li>
+
+        <li><a href="association.php">Association</a></li>
       </ul>
     </div>
   </nav>

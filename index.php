@@ -243,5 +243,4 @@
 <?php include 'footer.php';?>
 </body>
 <script type="text/javascript" src="js/style.js"></script>
-
 </html>
