@@ -1,0 +1,36 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<title>SimpleViewer Gallery</title>
+	<style type="text/css">
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  </style>
+	<script type="text/javascript">
+	var searchStr, searchStrParams, parameters, parameter, i;
+	var searchStr = window.location.search.substr(1);
+	var searchStrParams = searchStr.split('&');
+	parameters = {};
+	for (i = 0; i < searchStrParams.length; i += 1) {
+	  parameter = searchStrParams[i].split('=');
+	  parameters[parameter[0]] = decodeURIComponent(parameter[1]);
+	}
+	
+	var svMobile = true;
+	var svGalleryPath = parameters.galleryURL.substr(0, parameters.galleryURL.lastIndexOf('/') + 1);
+	</script>
+	<script type="text/javascript" src="js/simpleviewer.js"></script>
+	<script type="text/javascript">
+	simpleviewer.ready(function () {
+	  simpleviewer.load('sv-container', '100%', '100%', parameters.bg, false, {galleryURL: parameters.galleryURL || 'gallery.xml'});
+	});
+	</script>
+</head>
+
+<body>
+  <div id="sv-container"></div> 
+</body>
+</html>

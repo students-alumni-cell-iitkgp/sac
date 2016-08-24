@@ -1,0 +1,111 @@
+/* http://www.menucool.com/jquery-slider */
+
+    #closeBtn {
+        display:block;
+        position:fixed;
+        top:12px;
+        right:6px;
+        font:bold 18px/26px Arial;
+        color:white;
+        width:80px;
+        height:26px;
+        border:1px solid rgba(255,255,255,0.4);
+        background-color:rgba(255,0,0,0.85);
+        cursor:pointer;
+        text-align:center;
+        z-index:2;
+    }
+
+#thumbs2 {
+    margin:0 auto; /*center-aligned*/
+    height:100%;
+    display:block;
+    padding:0px;
+    position:fixed;
+    background-color:rgba(0,0,0,0.5);
+    left:0;right:0;top:0;bottom:0;
+    z-index: 9999;
+    -webkit-user-select: none;
+    user-select:none;
+}
+
+#thumbs2 div.inner {
+    padding:0 20px;
+    background-color:rgba(0,0,0,0.2);
+
+    /*the followings should not be changed */
+    height:100%;
+    box-sizing:content-box;
+    position:relative;
+    overflow:hidden;
+    margin:0 auto;
+}
+
+ 
+#thumbs2 div.inner ul {
+    
+    /*the followings should not be changed */
+    position:relative;
+    left:0; top:0;
+    list-style:none;
+    font-size:0;
+    padding:0;
+    margin:0;
+    float:left!important;
+    width:auto!important;
+    height:auto!important;
+}
+
+#thumbs2 ul li {
+    background-color:black;
+    display:block;
+    margin:8px 0; /* Spacing between thumbs*/
+    transition:all 0.5s;
+    box-sizing:content-box;
+    
+    text-align:center;
+    padding:0;
+    position:relative;
+    list-style:none;
+    backface-visibility:hidden;
+
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+
+#thumbs2 ul li.active {
+    opacity:1;
+	-webkit-filter: initial;
+	filter: initial;
+}
+
+#thumbs2 li:hover {
+	-webkit-filter: grayscale(50%);
+	filter: grayscale(50%);
+}
+
+
+#thumbs2 .thumb {
+    opacity:0.5;
+    
+    width:100%;
+    height: 100%;
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center center;
+    display:block;
+    position:absolute;
+}
+
+#thumbs2 ul li.active .thumb {
+    opacity:1;
+}
+/* --------- navigation controls ------- */
+/* The nav id should be: slider id + ("-prev", "-next", and "-pause-play") */
+
+#thumbs2-pause-play {display:none;} /*.pause*/
+
+#thumbs2-prev, #thumbs2-next
+{
+    display:none;
+}

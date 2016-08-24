@@ -1,0 +1,167 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Demo 1: Menucool jQuery Slider</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="1/thumbs2.css" rel="stylesheet" />
+    <link href="1/thumbnail-slider.css" rel="stylesheet" type="text/css" />
+    <script src="1/thumbnail-slider.js" type="text/javascript"></script>
+    <style>
+        body {font: normal 0.9em Arial;color: #222;}
+        header {display:block; font-size:1.2em; margin-bottom:100px;}
+        header a, header span {
+            display: inline-block;
+            padding: 4px 8px;
+            margin-right: 10px;
+            border: 2px solid #000;
+            background: #DDD;
+            color: #000;
+            text-decoration: none;
+            text-align: center;
+            height: 20px;
+        }
+        header span {background:white;}
+        a {color: #1155CC;}
+    </style>
+</head>
+<body>
+    <!--start-->
+    <div style="max-width:900px;margin:0 auto;padding:100px 0;">
+
+        <div style="float:left;padding-top:98px;">
+            <div id="thumbnail-slider">
+                <div class="inner">
+                    <ul>
+                        <li>
+                            <a href="/">
+                                <span class="thumb" style="background-image:url(img/1.jpg)">
+                                    This slide demonstrates how to link the thumbnail image to another web page.
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="thumb" href="img/2.jpg"></a>
+                        </li>
+                        <li>
+                            <a class="thumb" href="img/3.jpg"></a>
+                        </li>
+                        <li>
+                            <a class="thumb" href="img/4.jpg"></a>
+                        </li>
+                        <li>
+                            <a class="thumb" href="img/5.jpg"></a>
+                        </li>
+                        <li>
+                            <a class="thumb" href="img/6.jpg"></a>
+                        </li>
+                        <li>
+                            <a class="thumb" href="img/7.jpg"></a>
+                        </li>
+                        <li>
+                            <a class="thumb" href="img/8.jpg"></a>
+                        </li>
+                        <li>
+                            <a class="thumb" href="img/9.jpg"></a>
+                        </li>
+                        <li>
+                            <a class="thumb" href="img/10.jpg"></a>
+                        </li>
+                        <li>
+                            <a class="thumb" href="img/11.jpg"></a>
+                        </li>
+                        <li>
+                            <a class="thumb" href="img/12.jpg"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div style="float:left;padding-left:100px;">
+            <div id="thumbs2">
+                <div class="inner">
+                    <ul>
+                        <li>
+                            <a href="/">
+                                <span class="thumb" style="background-image:url(img/1.jpg)">
+                                    This slide demonstrates how to link the thumbnail image to another web page.
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="thumb" href="img/2.jpg"></a>
+                        </li>
+                        <li>
+                            <a class="thumb" href="img/3.jpg"></a>
+                        </li>
+                        <li>
+                            <a class="thumb" href="img/4.jpg"></a>
+                        </li>
+                        <li>
+                            <a class="thumb" href="img/5.jpg"></a>
+                        </li>
+                        <li>
+                            <a class="thumb" href="img/6.jpg"></a>
+                        </li>
+                        <li>
+                            <a class="thumb" href="img/7.jpg"></a>
+                        </li>
+                        <li>
+                            <a class="thumb" href="img/8.jpg"></a>
+                        </li>
+                        <li>
+                            <a class="thumb" href="img/9.jpg"></a>
+                        </li>
+                        <li>
+                            <a class="thumb" href="img/10.jpg"></a>
+                        </li>
+                        <li>
+                            <a class="thumb" href="img/11.jpg"></a>
+                        </li>
+                        <li>
+                            <a class="thumb" href="img/12.jpg"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div style="clear:both;"></div>
+
+    </div>
+    <!--end-->
+    <div style="max-width:700px;margin:0 auto 80px;">
+        <header><span>Demo 1</span> <a href="demo2.html">Demo 2</a> <a href="demo3.html">Demo 3</a> <a href="demo4.html">Demo 4</a> <a href="demo5.html">Demo 5</a> <a href="demo6.html">Demo 6</a></header>
+        <h1>Demo 1: Menucool jQuery Slider</h1>
+        <p>This demo contains two thumbnail sliders: one is horizontal and another is vertical.</p>
+        <p>If you use this demo's source code, and you only need one slider, you should remove the other slider from the source code.</p>
+        <p>For example, when you only need the horizontal slider, you should:</p>
+        <ol>
+            <li><h4>HTML:</h4>
+            Remove the markup of the unused slider:
+            <h5>Before update:</h5>
+            <code><pre>&lt;div style="float:left;padding-top:98px;"&gt;
+    &lt;div id="thumbnail-slider"&gt;...&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="float:left;padding-left:100px;"&gt;
+    &lt;div id="thumbs2"&gt;...&lt;/div&gt;
+&lt;/div&gt;
+&lt;div style="clear:both;"&gt;&lt;/div&gt;</pre></code>
+                <h5>After update:</h5>
+                <code>&lt;div id="thumbnail-slider"&gt;...&lt;/div&gt;</code>
+            </li>
+            <li><h4>CSS:</h4>
+            Remove the stylesheet:
+            <code>&lt;link href="1/thumbs2.css" rel="stylesheet" /&gt;</code>
+            </li>
+            <li><h4>JavaScript:</h4>
+            Remove the following settings in the <em>thumbnail-slider.js</em>:
+            <code><pre><strike>var thumbs2Op = { ... };</strike>
+var mcThumbnailSlider = new ThumbnailSlider(thumbnailSliderOptions);<span style="color:green;">//Note: this line is still needed.</span>
+<strike>var mcThumbs2 = new ThumbnailSlider(thumbs2Op);</strike></pre></code>
+            </li>
+        </ol>
+        <p><a href="http://www.menucool.com/jquery-slider">Full documentation of the image slider</a>.</p>
+    </div>
+</body>
+</html>

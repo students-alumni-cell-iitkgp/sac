@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Demo 5: Show thumbnail details with Tooltip widget</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="5/tooltip.css" rel="stylesheet" />
+    <script src="5/tooltip.js"></script>
+    <link href="5/thumbnail-slider.css" rel="stylesheet" type="text/css" />
+    <script src="5/thumbnail-slider.js" type="text/javascript"></script>
+    <style>
+        body {font: normal 0.9em Arial;color: #222;margin:0;}
+        header {display: block;font-size: 1.2em;margin-bottom:100px;}        
+        header a, header span {
+            display: inline-block;
+            padding: 4px 8px;
+            margin-right: 10px;
+            border: 2px solid #000;
+            background: #DDD;
+            color: #000;
+            text-decoration: none;
+            text-align: center;
+            height: 20px;
+        }
+        header span {background:white;}
+        a {color: #1155CC;}
+    </style>
+</head>
+<body>
+    <!--start-->
+    <div style="padding:220px 0 100px;background:#708aa8; ">
+        <div id="thumbnail-slider">
+            <div class="inner">
+                <ul>
+                    <li>
+                        <a href="/">
+                            <div class="thumb" style="background-image:url(img/1.jpg)">
+                                <h3>Links to the Homepage</h3>
+                                This slide demonstrates how to link the thumbnail image to another web page.
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="thumb" href="img/2.jpg">
+                            <h3>Pellentesque at Felis</h3>
+                            Nulla porttitor fringilla dui vel pulvinar. Nam sodales, diam eu faucibus convallis.
+                        </a>
+                    </li>
+                    <li>
+                        <a class="thumb" href="img/3.jpg">
+                            <h3>Condimentum Posuere</h3>
+                            Sed tincidunt mi ut ligula rutrum dictum. Nam varius in nunc eget viverra.
+                        </a>
+                    </li>
+                    <li>
+                        <a class="thumb" href="img/4.jpg">
+                            <h3>Lorem Ipsum</h3>
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+                        </a>
+                    </li>
+                    <li>
+                        <a class="thumb" href="img/5.jpg">
+                            <h3>Mauris Suscipit</h3>
+                            Quisque luctus, dui nec condimentum interdum et sodales nulla ante at nunc.
+                        </a>
+                    </li>
+                    <li>
+                        <a class="thumb" href="img/6.jpg">
+                            <h3>Felis at Volutpat</h3>
+                            Maecenas volutpat accumsan nibh ut gravida. Praesent id laoreet libero. Felis at volutpat egestas.
+                        </a>
+                    </li>
+                    <li>
+                        <a class="thumb" href="img/7.jpg">
+                            <h3>Quisque Quam Eros</h3>
+                            Vivamus dictum pulvinar sem in ultricies. Vestibulum sit amet posuere dui.
+                        </a>
+                    </li>
+                    <li>
+                        <a class="thumb" href="img/8.jpg">
+                            <h3>Duis Faucibus Aliquam Tincidunt</h3>
+                            Nunc tempor massa in purus lobortis dapibus ac eget nulla.
+                        </a>
+                    </li>
+                    <li>
+                        <a class="thumb" href="img/9.jpg">
+                            <h3>Aliquam Rutrum Condimentum</h3>
+                            Fusce quis eros vitae mauris porta vulputate non et orci. A convallis augue aliquet at.
+                        </a>
+                    </li>
+                    <li>
+                        <a class="thumb" href="img/10.jpg">
+                            <h3>Mauris a Imperdiet</h3>
+                            In blandit quam. Mauris iaculis libero consequat elit molestie, sed lobortis lorem posuere.
+                        </a>
+                    </li>
+                    <li>
+                        <a class="thumb" href="img/11.jpg">
+                            <h3>Nulla Aliquet Eros Tellus</h3>
+                            Eget semper lacus mollis vel. Mauris ut placerat dui, sit amet tristique tellus.
+                        </a>
+                    </li>
+                    <li>
+                        <a class="thumb" href="img/12.jpg">
+                            <h3>Cras Viverra Nisi Purus</h3>
+                            At gravida nunc condimentum id. Morbi gravida accumsan mauris at scelerisque
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script>
+        //Note: this script should be placed at the bottom of the page, or after the slider markup. It cannot be placed in the head section of the page.
+        var slides = document.getElementById("thumbnail-slider").getElementsByTagName("li");
+        for (var i = 0; i < slides.length; i++) {
+            slides[i].onmouseover = function (e) {
+                var li = this;
+                if (li.thumb) {
+                    var content = "<div class='tip-wrap' style='background-image:url(" + li.thumbSrc + ");'><div class='tip-text'>" + li.thumb.innerHTML + "</div></div>";
+                    tooltip.pop(li, content);
+                }
+            };
+        }
+    </script>
+    <!--end-->
+    <div style="width:700px;margin:40px auto 80px;">
+        <header><a href="demo1.html">Demo 1</a> <a href="demo2.html">Demo 2</a> <a href="demo3.html">Demo 3</a> <a href="demo4.html">Demo 4</a> <span>Demo 5</span> <a href="demo6.html">Demo 6</a></header>
+        <h1>Demo 5: Show thumbnail details with Tooltip widget</h1>
+        <p>&nbsp;</p>
+        <p>Hovering over each thumbnail in the image carousel will launch a tooltip window displaying the details of the thumb.</p>
+        <p>Please visit <a href="http://www.menucool.com/slider/slider-with-tooltip">Demo 5: Show thumbnail details with Tooltip widget</a> for detailed instructions, or 
+            visit the <a href="http://www.menucool.com/jquery-slider">Full documentation of the image slider</a>.</p>
+    </div>
+</body>
+</html>

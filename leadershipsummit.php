@@ -18,9 +18,6 @@
     }
       .ac-summit img{
         margin-left: 80px;
-
-
-
     }
    } 
     @media only screen and (max-width: 468px){
@@ -31,11 +28,18 @@ max-width:100%;
 
     }
    } 
+   .modal { width: 90% !important ; max-height: 85% !important }
 </style>
 	  <script>
 	  $(document).ready(function(){
       $('.slider').slider({full_width: true});
     });
+
+
+      $(document).ready(function(){
+    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+    $('.modal-trigger').leanModal();
+  });
 	  </script>
 </head>
 <body>
@@ -148,6 +152,113 @@ max-width:100%;
             </div>
           </div>
         </div>
+          <!-- Modal Trigger -->
+          <a class="waves-effect waves-black btn modal-trigger" href="#modal1">View More</a>
+          <!-- Modal Structure -->
+          <div id="modal1" class="modal">
+            <div class="modal-content">
+              <h4>Alumni</h4>
+              <p>
+              <!--  ***************************************************************************** Modal content *********************************************************************  -->
+        <div class="col s12 m4 l4">
+          <div class="card z-depth-0 _card">
+            <div class="card-image">
+              <img src="img/leadership_speakers/arunabhkumar.jpg">
+              <span class="card-title">Arunab Kumar</span>
+            </div>
+            <div class="card-content">
+              <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action">
+              <a href="#">This is a link</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m7 l4">
+          <div class="card z-depth-0 _card">
+            <div class="card-image">
+              <img src="img/leadership_speakers/arjunmalhotra.jpg">
+              <span class="card-title">Arjun Malhotra</span>
+            </div>
+            <div class="card-content">
+              <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action">
+              <a href="#">This is a link</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m7 l4">
+          <div class="card z-depth-0 _card">
+            <div class="card-image">
+              <img src="img/leadership_speakers/anjanraichaudhuri.jpg">
+              <span class="card-title">Anjan Rai Chaudhuri</span>
+            </div>
+            <div class="card-content">
+              <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action">
+              <a href="#">This is a link</a>
+            </div>
+          </div>
+        </div>
+  </div>
+  <div class="row leader" style="margin:auto;width:90%;">
+        <div class="col s12 m4 l4">
+          <div class="card z-depth-0 _card">
+            <div class="card-image">
+              <img src="img/leadership_speakers/gopalrajgarhia.jpg">
+              <span class="card-title">Gopal Raj</span>
+            </div>
+            <div class="card-content">
+              <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action">
+              <a href="#">This is a link</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m7 l4">
+          <div class="card z-depth-0 _card">
+            <div class="card-image">
+              <img src="img/leadership_speakers/prasadrmenon.jpg">
+              <span class="card-title">Prasad Menon</span>
+            </div>
+            <div class="card-content">
+              <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action">
+              <a href="#">This is a link</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m7 l4">
+          <div class="card z-depth-0 _card">
+            <div class="card-image">
+              <img src="img/leadership_speakers/sakyasinharoy.jpg">
+              <span class="card-title">Sakya Sinha Roy</span>
+            </div>
+            <div class="card-content">
+              <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+            </div>
+            <div class="card-action">
+              <a href="#">This is a link</a>
+            </div>
+          </div>
+        </div>
+         <!--  *****************************************************************************/ Modal content *********************************************************************  -->
+              </p>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+          </div>
   </div>
   </div>
   </div>
