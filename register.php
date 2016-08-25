@@ -28,6 +28,7 @@ $department = $_POST["department"];
 $hall = $_POST["hall"];
 $graduatingYear = $_POST["graduatingYear"];
 $accompanyingNo = $_POST["accompanyingNo"];
+$time=date("Y-m-d H:i:s"); 
 /*
 echo "$email : email<br>";
 echo "$password : password<br>";
@@ -57,8 +58,8 @@ echo "$hall : hall<br>";
 echo "$graduatingYear : graduatingYear<br>";
 */
 include 'connection.php';
-$sql = "INSERT INTO users (email, name, password, address, city, state, country, zipCode, mobile, dob, marital, industry, profession, orgName, designation, work_city, work_state, work_country, work_zipCode, work_address, rollNum, joinYear, degree, department, hall, graduatingYear, accompanyingNo)
-        VALUES ('$email', '$name', '$password', '$address', '$city', '$state', '$country', '$zipCode', '$mobile', '$dob', '$marital', '$industry', '$profession', '$orgName', '$designation', '$work_city', '$work_state', '$work_country', '$work_zipCode', '$work_address', '$rollNum', '$joinYear', '$degree', '$department', '$hall', '$graduatingYear', '$accompanyingNo')";
+$sql = "INSERT INTO users (email,Time, name, password, address, city, state, country, zipCode, mobile, dob, marital, industry, profession, orgName, designation, work_city, work_state, work_country, work_zipCode, work_address, rollNum, joinYear, degree, department, hall, graduatingYear, accompanyingNo)
+        VALUES ('$email','$time', '$name', '$password', '$address', '$city', '$state', '$country', '$zipCode', '$mobile', '$dob', '$marital', '$industry', '$profession', '$orgName', '$designation', '$work_city', '$work_state', '$work_country', '$work_zipCode', '$work_address', '$rollNum', '$joinYear', '$degree', '$department', '$hall', '$graduatingYear', '$accompanyingNo')";
 $_SESSION["email"] = $email;
 if ($connection->query($sql)) {
   $connection->close();
