@@ -6,6 +6,12 @@
 	  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	  <link rel="stylesheet" type="text/css" href="css/style.css">
+<script type="text/javascript">
+  if(window.location.href!='http://www.sac.iitkgp.ac.in/signup.php'){
+    window.location.assign("http://www.sac.iitkgp.ac.in/signup.php");
+  }
+
+</script>
 <style type="text/css">
   
    @media only screen and (min-width: 768px){
