@@ -117,7 +117,7 @@
       <div class="input-field col s12">
      
         <input  type="date" id="dob" name="dob">
-         <label for="dob"></label>
+         <label for="dob">DOB</label>
       </div>
       <div class="input-field col s12">
    
