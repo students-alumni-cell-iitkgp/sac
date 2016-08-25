@@ -1,6 +1,7 @@
 <html>
 <head>
 <link rel="stylesheet" href="css/materialize.min.css">
+<link rel="icon"  href="img/meet_14.png">
 	  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 	  <script src="js/materialize.min.js"></script>
 	  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -19,8 +20,8 @@
     .mentor-top {
       margin-top: 20px;
       margin-left: 60px;
-      width: 860px;
-      height: 60px;
+      width: 800px;
+      height: 80px;
       border-radius: 6px;
       margin-bottom: 20px;
     }
@@ -34,12 +35,9 @@
         margin: 0px auto;
         max-width:100%;
 
-    }
-    .mentor-top {
-      max-width: 100%;
-      height: 60px;
-    }
-   } 
+    } }
+   
+    
 </style>
 	  <script>
 	  $(document).ready(function(){
@@ -56,7 +54,7 @@
     <img src="img/mp.jpg"  class="mentor-top">
     <span class="mentor-text" >
     <p class="z-depth-2" style="position:relative;left:60px;padding:6px;">
-    The Student Alumni Mentorship Programme, an initiative of the Students’ Alumni Cell, IIT Kharagpur was started in the academic session 2011-12, with a motive to help the current students to interact and learn from their Alumni on a personal level. It has been, ever since, a fruitful two-way platform for the exchange of ideas and experiences between the alumni and the current batches of IIT Kharagpur. Under this programme, we invite our alumni across the globe and from different fields to interact with the students and help them build their network and gain new perspective on the possibilities open to them, after graduation.
+   The Student Alumni Mentorship Programme, an initiative of the Students’ Alumni Cell, IIT Kharagpur was started in the academic session 2011-12, with a motive to help the current students to interact and learn from their Alumni on a personal level. It has been, ever since, a fruitful two-way platform for the exchange of ideas and experiences between the alumni and the current batches of IIT Kharagpur. Under this programme, we invite our alumni across the globe and from different fields to interact with the students and help them build their network and gain new perspective on the possibilities open to them, after graduation.
 For availing this opportunity, register here for the programme..
     </p>
     </span>

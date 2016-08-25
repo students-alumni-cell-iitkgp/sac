@@ -10,13 +10,10 @@
       alignment: 'left' // Displays dropdown with edge aligned to the left of button
     }
     );
-
   });
-    $(document).ready(function(){
-   $(".button-collapse").sideNav();
- });
+  
 </script>
-<div class="navbar-fixed white">
+<div class="navbar-fixed white" id="nav">
   <ul id="events" class="dropdown-content">
     <li><a href="aam.php">Annual Alumni Meet</a></li>
     <li><a href="sam.php">Student Alumni Meet</a></li>
@@ -34,7 +31,7 @@
   </ul>
   <nav>
     <div class="nav-wrapper white">
-      <a href="#!" class="brand-logo"><img src="img/logo/sac_logo.png" width="200" height="70"></a>
+      <a href="#!" class="brand-logo"><img src="img/logo/sac_logo.png" width="180" height="70"></a>
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down _textcolor">
         <li><a href="index.php">Home</a></li>
@@ -42,20 +39,16 @@
         <li><a class="dropdown-button" href="#!" data-activates="initiatives">Initiatives</a></li>
         <li><a class="dropdown-button" href="#!" data-activates="publications">Publications</a></li>
         <li><a href="team.php">The Team</a></li>
-        <li><a href="alumni_chapter.php">Alumni Chapters</a></li>
+       
 
         <li><a href="association.php">Association</a></li>
 
       </ul>
       <ul class="side-nav" id="mobile-demo">
-        <li><a href="index.php">Home</a></li>
-        <li><a class="dropdown-button" href="#!">Events</a></li>
-        <li><a class="dropdown-button" href="#!" >Initiatives</a></li>
-        <li><a class="dropdown-button" href="#!" >Publications</a></li>
-        <li><a href="team.php">The Team</a></li>
-        <li><a href="alumni_chapter.php">Alumni Chapters</a></li>
-
-        <li><a href="association.php">Association</a></li>
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">Javascript</a></li>
+        <li><a href="mobile.html">Mobile</a></li>
       </ul>
     </div>
   </nav>

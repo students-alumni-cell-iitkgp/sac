@@ -1,11 +1,12 @@
 <html>
 <head>
 <link rel="stylesheet" href="css/materialize.min.css">
-	  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-	  <script src="js/materialize.min.js"></script>
-	  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	  <link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="icon"  href="img/meet_14.png">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 <style type="text/css">
    @media only screen and (min-width: 768px){
     .aam-reg{
@@ -28,11 +29,11 @@
     }
    } 
 </style>
-	  <script>
-	  $(document).ready(function(){
+    <script>
+    $(document).ready(function(){
       $('.slider').slider({full_width: true});
     });
-	  </script>
+    </script>
 </head>
 <body>
 <div class="_wrapper">
@@ -50,11 +51,11 @@
   </div>
   </div>
   <div class="col l4 s12 m4">
-  <div class="info z-depth-2 aam-reg">
+  <div class="info z-depth-2 aam-reg" class="valign-wrapper">
 
-<a href="signup.php" target="_blank"><input type="submit" value="Register" class="waves-effect waves-light btn-large" style="width:250px;margin-left:100px"></a>
+<a href="signup.php" target="_blank"><input type="submit" value="Register" class="waves-effect waves-light btn-large" style="width:250px;margin-left:100px; padding-top: 1em; "></a>
 
-<a href="#login"  target="_blank"><input type="submit" value="Login" class="waves-effect waves-light btn-large" style="width:250px;margin-left:100px"></a>
+<a href="#login"  target="_blank"><input type="submit" value="Login" class="waves-effect waves-light btn-large" style="width:250px;margin-left:100px; padding-top: 1em; "></a>
   
   </div>
   </div>
