@@ -121,7 +121,7 @@
 	<div class="col l4 ">
 	<div class="card small hoverable">
     <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="img/team/shruti1.jpg">
+      <img class="activator" src="img/team/shruti.jpg">
     </div>
     <div class="card-content">
       <span class="card-title activator grey-text text-darken-4">Shruti Sagar</span>
