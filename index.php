@@ -1,8 +1,8 @@
 <html>
 <head>
     <title>Students' Alumni Cell &middot; IIT Kharagpur</title>
+    <link rel="icon" href="img/meet_14.png">
     <link rel="stylesheet" href="css/materialize.min.css">
-    <link rel="icon"  href="img/meet_14.png">
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="js/materialize.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -20,7 +20,7 @@
    </style>
     <script>
     $(document).ready(function(){
-      //$('.slider').slider({full_width: true});
+      // $('.slider').slider({full_width: true});
       // $('.parallax').parallax();
       // $('.slider').css('height','580px');
       // $('.slides').css('height','580px');
@@ -44,7 +44,7 @@
 <div class="_wrapper">
 <?php include 'navbar.php';?> 
 <!--slider-->
-<div class="slider" style="margin:2em; width:inherit; height: inherit; ">
+<div class="slider">
     <ul class="slides">
       <li>
               <img src="img/indexslider/annualalumnimeet1.jpg" /> <!-- random image -->
