@@ -1,6 +1,7 @@
 <html>
 <head>
   <link rel="stylesheet" href="css/materialize.min.css">
+  <link rel="icon"  href="img/meet_14.png">
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -39,7 +40,7 @@ max-width:100%;
         <img src="img/sam3.jpg" class="">
     </div>
     <div class="row">
-      <div class="col l8 s12 m8">
+      <div class="col l8 s12 m8 offset-l2 offset-m2" >
         <div class="info z-depth-2">
           <p>We live our day to day lives oblivious to the beauty that surrounds us. And by the time we do realise what exactly it is that we’ve been blessed with, it’s generally too late. But when the good ol’ days call yet again, nostalgia surrounds us as we walk the hallowed boulevards of our youth.
            The Annual Alumni Meet brings to the esteemed alumni a chance to reconnect with their Alma Mater. It lets them relive the carefree days of their college lives as they get a chance to visit all the locations they once frequented. With department and hall visits, and events like Illumination and Musical Night, the Meet rekindles the romance between the alumni and their institute. Apart from these, informal fun events like bonfire and kite flying bring out the child in all those present.
@@ -47,10 +48,7 @@ max-width:100%;
            As the years pass by and winds of change keep blowing, the Alumni Meet too shall keep evolving with the changing times, hoping to bring to the alumni an experience that they may cherish all their lives. </p>
          </div>
        </div>
-       <div class="col l4 s12 m4">
-        <div class="info z-depth-2">
-        </div>
-      </div>
+       
     </div>
      <div class="row">
   <?php include 'gallery.php';?>

@@ -1,12 +1,13 @@
 <html>
 <head>
-	  <title>Students' Alumni Cell &middot; IIT Kharagpur</title>
-	  <link rel="stylesheet" href="css/materialize.min.css">
-	  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-	  <script src="js/materialize.min.js"></script>
-	  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	  <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Students' Alumni Cell &middot; IIT Kharagpur</title>
+    <link rel="icon" href="img/meet_14.png">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
   
     <script src="http://maps.googleapis.com/maps/api/js"></script>
     <style> 
@@ -18,7 +19,7 @@
     }
    </style>
     <script>
-	  $(document).ready(function(){
+    $(document).ready(function(){
       // $('.slider').slider({full_width: true});
       // $('.parallax').parallax();
       // $('.slider').css('height','580px');
@@ -37,7 +38,7 @@
 
     });
 
-	  </script>
+    </script>
 </head>
 <body>
 <div class="_wrapper">
@@ -243,4 +244,5 @@
 <?php include 'footer.php';?>
 </body>
 <script type="text/javascript" src="js/style.js"></script>
+
 </html>

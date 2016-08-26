@@ -1,11 +1,12 @@
 <html>
 <head>
 <link rel="stylesheet" href="css/materialize.min.css">
-	  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-	  <script src="js/materialize.min.js"></script>
-	  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	  <link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="icon"  href="img/meet_14.png">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 <style type="text/css">
    @media only screen and (min-width: 768px){
       .ac-aam img{
@@ -21,15 +22,15 @@
     }
    } 
 </style>
-	  <script>
-	  $(document).ready(function(){
+    <script>
+    $(document).ready(function(){
       $('.slider').slider({full_width: true});
     });
-	  </script>
+    </script>
 </head>
 <body>
 <div class="_wrapper">
-<?php include 'navbar.php';?>
+<?php include 'navbar.php';?> <br>
  <div class="row ac-aam">
         <img src="img/indexslider/alvida.jpg" >
     </div>
