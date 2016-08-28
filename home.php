@@ -1,7 +1,19 @@
 <?php
-require 'core.inc.php';
-require 'connect.inc.php';
-
+require 'connection.php';
+ob_start(); 
+session_start();
+if ($_SESSION["user_id"] == "") {
+  header('Location: aam.php');
+  exit();
+}
+function getfield($field){
+  $query=' SELECT  '.$field.' FROM users where email="'.$_SESSION['user_id'].'"';
+  if ($query_run=mysql_query($query)) {
+    if($query_result= mysql_result($query_run, 0,$field)) {
+      return $query_result;
+    }
+  }
+}
 include 'navbar.php';
 ?>
 
@@ -39,7 +51,15 @@ include 'navbar.php';
     max-width:100%;
 
     }
+   }
+   #button{
+    position: absolute;
+    top: 80px;
+    right: 10px;
    } 
+   .card{
+    height: 500px;
+   }
 </style>
     <script>
     $(document).ready(function(){
@@ -52,17 +72,55 @@ include 'navbar.php';
 	<div id="wrapper">
 		
 		<div id="header">
-		<h1>Home Page</h1>
 		</div><!-- #header -->
 		
 		<div id="content">
-				<div id="message">
-				<?php 
-				$name=getfield('name');
-	            echo 'WELCOME , '.$name.'.<br><br> <a class="waves-effect waves-light btn" href="logout.php">Log Out</a>';
-				?>
-				</div>
-					</div>
+          <div class="container">
+        <div class="container-fluid">
+          <div align="center">
+        <div id="message">
+        <?php 
+        $name=getfield('name');
+              echo '<h3>Welcome  Mr '.$name.'.<h3>';
+        ?>
+        </div><a class="waves-effect waves-light btn" href="logout.php" id="button">Log Out</a>
+          </div>
+          <p>
+            We will be showing you important information regarding the meet here. Check back in a few days to find out more about the Alumni Meet.
+          </p>
+          <div class="container" >
+            <div class="card-panel teal lighten-5">
+              <div class="card-title">
+                Payment Details
+              </div>
+                Every visiting alumnus of the batch of 1966, 1976, 1991 is to pay INR 5000. This includes your accomodation, fooding and conveyance charge at Kharagpur. If there is any other person accompanying you an additional payment of INR 2500 per head will have
+                to be made.
+                <br> Payment methods:-
+                <ul class="">
+                  <li class="">
+                    <strong>1. Demand Draft</strong>
+                    <br> You can pay by sending a cheque or demand draft (DD) if favour of "Annual Alumni Meet" payable at Kharagpur on the address:
+                    <br> Students' Alumni Cell
+                    <br> Office of Alumni Affairs and International Relations
+                    <br> Indian Institute of Technology Kharagpur
+                    <br> Kharagpur - 721302
+                    <br> West Bengal (INDIA)
+                  </li>
+                  <li class="">
+                    <strong>2. NEFT</strong>
+                    <br> You can also transfer the payment through Internet Banking and email us the receipt.
+                    <br> Account Details
+                    <br> Bank Name: Syndicate Bank
+                    <br> Branch: IIT Kharagpur, SRIC
+                    <br> IFSC Code: SYNB0009556
+                    <br> A/C No.: 95562200012031
+                    <br> Account Name: Annual Alumni Meet
+                  </li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </div>
 					
 		</div><!-- #content -->
 		
