@@ -1,3 +1,47 @@
+<?php
+
+require 'core.inc.php';
+require 'connect.inc.php';
+if (!loggedin()) {
+
+} else{
+        $name=getfield('name');
+        header('location:home.php');
+}
+?>
+<?php 
+
+if (isset($_POST['username'])&&isset($_POST['password'])) {
+  $username=$_POST['username'];
+  $password=$_POST['password'];
+  $password_hash=md5($password);
+  if (!empty($username)&&!empty($password)) {
+    
+    $query="SELECT id FROM users WHERE username='$username' AND password='$password_hash'";
+
+    if($query_run=mysql_query($query)) {
+      $query_num_rows=mysql_num_rows($query_run);
+
+      if ($query_num_rows==0) {
+        echo '<script language="javascript">alert("Invalid USERNAME/PASSWORD ");</script>';
+      }elseif ($query_num_rows==1) {
+      
+        $user_id=mysql_result($query_run, 0,'id');
+        $_SESSION['user_id']=$user_id;
+        header('location:aam.php');
+
+
+      }
+    } 
+
+  }else {
+    echo '<script language="javascript">alert("You must supply USERNAME and PASSWORD");</script>';
+  }
+}
+
+?>
+
+
 <html>
 <head>
 <link rel="stylesheet" href="css/materialize.min.css">
@@ -7,6 +51,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+          // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+          $('.modal-trigger').leanModal();
+        });
+    </script>
+
 <style type="text/css">
    @media only screen and (min-width: 768px){
     .aam-reg{
@@ -53,9 +105,45 @@
   <div class="col l4 s12 m4">
   <div class="info z-depth-2 aam-reg" class="valign-wrapper">
 
-<a href="signup.php" target="_blank"><input type="submit" value="Register" class="waves-effect waves-light btn-large" style="width:250px;margin-left:100px; padding-top: 1em; "></a>
+<a href="signup.php" target="_blank"><input type="submit" value="Register" class="waves-effect waves-light btn-large" style="width:250px;margin-left:100px; padding: 18px; "></a>
+<!-- **************************************************************************************************************************************** -->
+ 
+<div class="row section">
+  <div class="col">
+    <!-- Modal Trigger -->
+    <a class="waves-effect waves-light btn-large modal-trigger" href="#modal1" style="width:250px;margin-left:100px; ">LOGIN</a>
+  </div>
+</div>
+<!-- Modal Structure -->
+<div id="modal1" class="modal ">
+  <div class="modal-content">
 
-<a href="#login"  target="_blank"><input type="submit" value="Login" class="waves-effect waves-light btn-large" style="width:250px;margin-left:100px; padding-top: 1em; "></a>
+  <div class="row">
+    <form class="col s12 center-align" action="<?php echo $current_file; ?>" method="POST">
+      <div class="row">
+      <h2>LOGIN</h2>
+        <div class="input-field col s12">
+          <i class="material-icons prefix">account_circle</i>
+          <input id="icon_prefix" type="text" class="validate" name="username">
+          <label for="icon_prefix">First Name</label>
+        </div>
+        <div class="input-field col s12">
+          <i class="material-icons prefix">vpn_key</i>
+          <input id="icon_telephone" type="password" class="validate" name="password">
+          <label for="icon_telephone">Password</label>
+        </div>
+            <button class="btn-large waves-effect waves-light " type="submit" name="action" style="margin-top:15px; width:200px;">Log In
+            <i class="material-icons right">send</i>
+      </div>
+    </form>
+  </div>
+  </div>
+  <div class="modal-footer">
+    <a href="#!" class=" modal-action modal-close waves-effect waves-blue btn-flat">CLOSE</a>
+  </div>
+</div>
+
+<!-- ***************************************************************************************************************************************  -->
   
   </div>
   </div>
