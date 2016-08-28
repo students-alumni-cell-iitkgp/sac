@@ -11,7 +11,7 @@ function loggedin() {
     }
 }
 function getfield($field){
-	$query=' SELECT  '.$field.' FROM users where id="'.$_SESSION['user_id'].'"';
+	$query=' SELECT  '.$field.' FROM users where email="'.$_SESSION['user_id'].'"';
 	if ($query_run=mysql_query($query)) {
 		if($query_result= mysql_result($query_run, 0,$field)) {
 			return $query_result;

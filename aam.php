@@ -11,22 +11,22 @@ if (!loggedin()) {
 ?>
 <?php 
 
-if (isset($_POST['username'])&&isset($_POST['password'])) {
-  $username=$_POST['username'];
+if (isset($_POST['email'])&&isset($_POST['password'])) {
+  $email=$_POST['email'];
   $password=$_POST['password'];
   $password_hash=md5($password);
-  if (!empty($username)&&!empty($password)) {
+  if (!empty($email)&&!empty($password)) {
     
-    $query="SELECT id FROM users WHERE username='$username' AND password='$password_hash'";
+    $query="SELECT email FROM users WHERE email='$email' AND password='$password_hash'";
 
     if($query_run=mysql_query($query)) {
       $query_num_rows=mysql_num_rows($query_run);
 
       if ($query_num_rows==0) {
-        echo '<script language="javascript">alert("Invalid USERNAME/PASSWORD ");</script>';
+        echo '<script language="javascript">alert("Invalid Email ID/PASSWORD ");</script>';
       }elseif ($query_num_rows==1) {
       
-        $user_id=mysql_result($query_run, 0,'id');
+        $user_id=mysql_result($query_run, 0,'email');
         $_SESSION['user_id']=$user_id;
         header('location:aam.php');
 
@@ -35,7 +35,7 @@ if (isset($_POST['username'])&&isset($_POST['password'])) {
     } 
 
   }else {
-    echo '<script language="javascript">alert("You must supply USERNAME and PASSWORD");</script>';
+    echo '<script language="javascript">alert("You must supply Email ID and PASSWORD");</script>';
   }
 }
 
@@ -124,8 +124,8 @@ if (isset($_POST['username'])&&isset($_POST['password'])) {
       <h2>LOGIN</h2>
         <div class="input-field col s12">
           <i class="material-icons prefix">account_circle</i>
-          <input id="icon_prefix" type="text" class="validate" name="username">
-          <label for="icon_prefix">First Name</label>
+          <input id="icon_prefix" type="email" class="validate" name="email">
+          <label for="icon_prefix">Email ID</label>
         </div>
         <div class="input-field col s12">
           <i class="material-icons prefix">vpn_key</i>
