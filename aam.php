@@ -1,12 +1,12 @@
 <?php
 
-/*if(isset($_POST['action'])){
+if(isset($_POST['action'])){
   
-}
 
 
-ob_start(); 
-session_start();
+  require 'connection.php';
+  ob_start(); 
+  session_start();
 $current_file=$_SERVER['SCRIPT_NAME'];
 @$http_referer=$_SERVER['HTTP_REFERER'];
 function loggedin() {
@@ -32,13 +32,11 @@ if (!loggedin()) {
 }
   
 }
-*/?>
+?>
 <?php 
 
 if (isset($_POST['email'])&&isset($_POST['password'])) {
-  require 'connection.php';
-  ob_start(); 
-  session_start();
+
   
   $email=$_POST['email'];
   $password=$_POST['password'];
