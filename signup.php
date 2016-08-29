@@ -1,5 +1,6 @@
 <html>
 <head>
+<title>Register | Annual Alumni Meet &middot; IIT Kharagpur</title>
 <link rel="stylesheet" href="css/materialize.min.css">
 	  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 	  <script src="js/materialize.min.js"></script>
@@ -206,8 +207,8 @@
       <label for="hall">Hall *</label>
       </div>
       <div class="input-field col s12">
-        <input  type="number" min="1955" max="2010" id="yog" name="graduatingYear">
-       <label for="yog">Year of Graduating</label>
+        <input  type="number" min="1955" max="2010" id="yog" name="graduatingYear" required>
+       <label for="yog">Year of Graduating *</label>
       </div>
       <div class="input-field col s12"  style="margin-bottom:20px;">
       

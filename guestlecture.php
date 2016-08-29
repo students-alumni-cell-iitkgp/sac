@@ -1,5 +1,6 @@
 <html>
 <head>
+<title>Guest Lectures</title>
 <link rel="stylesheet" href="css/materialize.min.css">
 <link rel="icon"  href="img/meet_14.png">
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
