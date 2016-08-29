@@ -11,6 +11,12 @@
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+<script type="text/javascript">
+  if(window.location.href!='http://www.sac.iitkgp.ac.in/signup.php'){
+    window.location.assign("http://www.sac.iitkgp.ac.in/signup.php");
+  }
+
+</script>
 <style type="text/css">
   
    @media only screen and (min-width: 768px){
