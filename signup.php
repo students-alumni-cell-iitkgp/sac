@@ -1,17 +1,18 @@
 <html>
 <head>
+<title>Register | Annual Alumni Meet &middot; IIT Kharagpur</title>
 <link rel="stylesheet" href="css/materialize.min.css">
 	  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 	  <script src="js/materialize.min.js"></script>
 	  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	  <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script type="text/javascript">
-  if(window.location.href!='http://www.sac.iitkgp.ac.in/signup.php'){
+    <!--<script type="text/javascript">
+    if(window.location.href!='http://www.sac.iitkgp.ac.in/signup.php'){
     window.location.assign("http://www.sac.iitkgp.ac.in/signup.php");
   }
 
-</script> 
+</script> --> 
 <style type="text/css">
   
    @media only screen and (min-width: 768px){
