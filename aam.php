@@ -133,22 +133,13 @@ if (isset($_POST['email'])&&isset($_POST['password'])) {
   <div class="info z-depth-2 aam-reg" class="valign-wrapper" style="height:380px;">
 <center>
   <a href="signup.php" target="_blank"><input type="submit" value="Register" class="waves-effect waves-light btn-large" style="width:250px;padding-top: 1em; "></a>
-</center>
-
-<<<<<<< HEAD
-<center>
-  <a href="#login"  target="_blank"><input type="submit" value="Login" class="waves-effect waves-light btn-large" style="width:250px;padding-top: 1em; "></a>
 </center>  
-=======
-<a href="signup.php" target="_blank"><input type="submit" value="Register" class="waves-effect waves-light btn-large" style="width:250px;margin-left:100px; padding: 18px; "></a>
-<!-- **************************************************************************************************************************************** -->
  
-<div class="row section">
-  <div class="col">
-    <!-- Modal Trigger -->
-    <a class="waves-effect waves-light btn-large modal-trigger" href="#modal1" style="width:250px;margin-left:100px; ">LOGIN</a>
-  </div>
-</div>
+<!-- Modal Trigger -->
+  <center>
+    <a class="waves-effect waves-light btn-large modal-trigger" href="#modal1" style="width:250px;">LOGIN</a>
+  </center>
+  
 <!-- Modal Structure -->
 <div id="modal1" class="modal ">
   <div class="modal-content">
@@ -178,9 +169,6 @@ if (isset($_POST['email'])&&isset($_POST['password'])) {
   </div>
 </div>
 
-<!-- ***************************************************************************************************************************************  -->
-  
->>>>>>> 4cf801831cbe5952207847d9a20026b2e85a3912
   </div>
   </div>
   </div>

@@ -153,7 +153,7 @@
       </div>
       <div class="input-field col s12">
       
-        <input  type="password" id="city" name="work_city">
+        <input  type="text" id="city" name="work_city">
         <label for="city">City</label>
       </div>
       <div class="input-field col s12">
