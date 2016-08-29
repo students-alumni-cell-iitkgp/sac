@@ -6,12 +6,6 @@
 	  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	  <link rel="stylesheet" type="text/css" href="css/style.css">
-<script type="text/javascript">
-  if(window.location.href!='http://www.sac.iitkgp.ac.in/signup.php'){
-    window.location.assign("http://www.sac.iitkgp.ac.in/signup.php");
-  }
-
-</script>
 <style type="text/css">
   
    @media only screen and (min-width: 768px){
@@ -69,7 +63,7 @@
     
       <div class="input-field col s12">
        
-        <input  type="text"  name="name" id="name" class="validate">
+        <input  type="text"  name="name" id="name" class="validate"  required>
          <label for="name">Name</label>
       </div>
    
@@ -86,37 +80,37 @@
       </div>
       <div class="input-field col s12">
        
-        <input  type="text" name="address" id="address">
+        <input  type="text" name="address" id="address"  required>
          <label for="address">Address</label>
       </div>
       <div class="input-field col s12">
-        <input  type="text" id="city" name="city">
+        <input  type="text" id="city" name="city" required>
         <label for="city">City</label>
       </div>
       <div class="input-field col s12">
        
        
-        <input  type="text" id="state" name="state">
+        <input  type="text" id="state" name="state"  required>
        <label for="state">State</label>
       </div>
       <div class="input-field col s12">
        
-        <input  type="text"  name="country" id="country">
+        <input  type="text"  name="country" id="country" required>
          <label for="country">Country</label>
       </div>
       <div class="input-field col s12">
        
-        <input  type="text" id="zipcode" name="zipCode">
+        <input  type="text" id="zipcode" name="zipCode" required>
        <label for="zipcode">Zip Code</label>
       </div>
       <div class="input-field col s12">
       
-        <input  type="text"  name="mobile" id="mobile">
+        <input  type="text"  name="mobile" id="mobile" required>
           <label for="mobile">Mobile</label>
       </div>
       <div class="input-field col s12">
      
-        <input  type="date" id="dob" name="dob">
+        <input  type="date" class="datepicker" name="dob" required>
          <label for="dob">DOB</label>
       </div>
       <div class="input-field col s12">
@@ -126,28 +120,28 @@
       </div>
      
      <div class="heading">
-      <center>
-        <h class="subheading"><b>Where do you work ?</b> </h>
+      <center><br>
+        <h class="subheading" ><b>Where do you work ?</b> </h>
       </center>
     </div>
       <div class="input-field col s12">
       
-        <input  type="text" id="ind" name="industry">
+        <input  type="text" id="ind" name="industry"  required>
           <label for="ind">Industry</label>
       </div>
       <div class="input-field col s12">
         
-        <input  type="text" id="prof" name="profession">
+        <input  type="text" id="prof" name="profession" required>
         <label for="prof">Profession</label>
       </div>
       <div class="input-field col s12">
     
-        <input  type="text" id="org" name="orgName">
+        <input  type="text" id="org" name="orgName" required>
         <label for="org">Organisation Name</label>
       </div>
       <div class="input-field col s12">
      
-        <input  type="text" id="desig" name="designation">
+        <input  type="text" id="desig" name="designation" required>
         <label for="desig">Designation</label>
       </div>
       <div class="input-field col s12">
@@ -176,7 +170,7 @@
        <label for="address">Address</label>
       </div>
        <div class="heading">
-      <center>
+      <center><br>
         <h class="subheading"><b>Nostalgic Section</b> </h>
       </center>
     </div>
@@ -187,27 +181,27 @@
       </div>
       <div class="input-field col s12">
        
-        <input  type="number" id="join" name="joinYear">
+        <input  type="number" id="join" name="joinYear" required>
      <label for="join">Join Year</label>
       </div>
       <div class="input-field col s12">
       
-        <input  type="text" id="degree" name="degree">
+        <input  type="text" id="degree" name="degree" required>
         <label for="degree">Degree</label>
       </div>
       <div class="input-field col s12">
      
-        <input  type="text" id="dept" name="department">
+        <input  type="text" id="dept" name="department" required>
          <label for="dept">Department</label>
       </div>
       <div class="input-field col s12">
         
-        <input  type="text" id="hall" name="hall">
+        <input  type="text" id="hall" name="hall" required>
       <label for="hall">Hall</label>
       </div>
       <div class="input-field col s12">
        
-        <input  type="number" id="yog" name="graduatingYear">
+        <input  type="number" id="yog" name="graduatingYear" required>
        <label for="yog">Year of Graduating</label>
       </div>
       <div class="input-field col s12">

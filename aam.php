@@ -32,7 +32,7 @@ if (!loggedin()) {
 if (isset($_POST['email'])&&isset($_POST['password'])) {
   $email=$_POST['email'];
   $password=$_POST['password'];
-  $password_hash=md5($password);
+  $password_hash=hash('sha256', $password);
   if (!empty($email)&&!empty($password)) {
     
     $query="SELECT email FROM users WHERE email='$email' AND password='$password_hash'";
