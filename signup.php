@@ -6,6 +6,12 @@
 	  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	  <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript">
+  if(window.location.href!='http://www.sac.iitkgp.ac.in/signup.php'){
+    window.location.assign("http://www.sac.iitkgp.ac.in/signup.php");
+  }
+
+</script> 
 <style type="text/css">
   
    @media only screen and (min-width: 768px){
@@ -111,6 +117,7 @@
       <div class="input-field col s12">
      
         <input  type="date" class="datepicker" name="dob" required>
+        <input  type="text" id="dob" name="dob">
          <label for="dob">DOB</label>
       </div>
       <div class="input-field col s12">
@@ -180,8 +187,7 @@
       <label for="roll">Roll Number</label>
       </div>
       <div class="input-field col s12">
-       
-        <input  type="number" id="join" name="joinYear" required>
+        <input  type="number" min="1951" max="2006" id="join" name="joinYear">
      <label for="join">Join Year</label>
       </div>
       <div class="input-field col s12">
@@ -200,17 +206,18 @@
       <label for="hall">Hall</label>
       </div>
       <div class="input-field col s12">
-       
-        <input  type="number" id="yog" name="graduatingYear" required>
+        <input  type="number" min="1955" max="2010" id="yog" name="graduatingYear">
        <label for="yog">Year of Graduating</label>
       </div>
       <div class="input-field col s12">
       
-        <input  type="number" id="accompanyingNo" name="accompanyingNo">
+        <input  type="number" min="1" id="accompanyingNo" name="accompanyingNo">
         <label for="accompanyingNo">Accompaniments</label>
       </div>
-      <div class="col s12" style="text-align:center">
-      <button type="submit" class="btn btn-success btn-lg btn-block" name="button" style="width:100%">SUBMIT</button>
+      <div class="col s12">
+      <center>
+        <button type="submit" class="btn btn-success btn-lg btn-block" name="button" style="width:25%">SUBMIT</button>
+      </center>
       </div>
     </form>
  </div>

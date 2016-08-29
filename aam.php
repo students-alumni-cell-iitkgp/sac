@@ -1,8 +1,12 @@
 <?php
-require 'connection.php';
 
-ob_start(); 
-session_start();
+if(isset($_POST['action'])){
+  
+
+
+  require 'connection.php';
+  ob_start(); 
+  session_start();
 $current_file=$_SERVER['SCRIPT_NAME'];
 @$http_referer=$_SERVER['HTTP_REFERER'];
 function loggedin() {
@@ -26,10 +30,14 @@ if (!loggedin()) {
 } else{
         header('location:home.php');
 }
+  
+}
 ?>
 <?php 
 
 if (isset($_POST['email'])&&isset($_POST['password'])) {
+
+  
   $email=$_POST['email'];
   $password=$_POST['password'];
   $password_hash=hash('sha256', $password);
@@ -46,7 +54,7 @@ if (isset($_POST['email'])&&isset($_POST['password'])) {
       
         $user_id=mysql_result($query_run, 0,'email');
         $_SESSION['user_id']=$user_id;
-        header('location:aam.php');
+        header('location:home.php');
 
 
       }
