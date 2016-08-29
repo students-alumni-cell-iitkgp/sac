@@ -1,3 +1,73 @@
+<?php
+
+if(isset($_POST['action'])){
+  
+
+
+  require 'connection.php';
+  ob_start(); 
+  session_start();
+$current_file=$_SERVER['SCRIPT_NAME'];
+@$http_referer=$_SERVER['HTTP_REFERER'];
+function loggedin() {
+  if(isset($_SESSION['user_id'])&&!empty($_SESSION['user_id'])) {
+  return true;
+     } else {
+  return false;
+    }
+}
+function getfield($field){
+  $query=' SELECT  '.$field.' FROM users where email="'.$_SESSION['user_id'].'"';
+  if ($query_run=mysql_query($query)) {
+    if($query_result= mysql_result($query_run, 0,$field)) {
+      return $query_result;
+    }
+  }
+}
+
+if (!loggedin()) {
+
+} else{
+        header('location:home.php');
+}
+  
+}
+?>
+<?php 
+
+if (isset($_POST['email'])&&isset($_POST['password'])) {
+
+  
+  $email=$_POST['email'];
+  $password=$_POST['password'];
+  $password_hash=md5($password);
+  if (!empty($email)&&!empty($password)) {
+    
+    $query="SELECT email FROM users WHERE email='$email' AND password='$password_hash'";
+
+    if($query_run=mysql_query($query)) {
+      $query_num_rows=mysql_num_rows($query_run);
+
+      if ($query_num_rows==0) {
+        echo '<script language="javascript">alert("Invalid Email ID/PASSWORD ");</script>';
+      }elseif ($query_num_rows==1) {
+      
+        $user_id=mysql_result($query_run, 0,'email');
+        $_SESSION['user_id']=$user_id;
+        header('location:home.php');
+
+
+      }
+    } 
+
+  }else {
+    echo '<script language="javascript">alert("You must supply Email ID and PASSWORD");</script>';
+  }
+}
+
+?>
+
+
 <html>
 <head>
 <title>Annual Alumni Meet &middot; IIT Kharagpur</title>
@@ -8,6 +78,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+          // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+          $('.modal-trigger').leanModal();
+        });
+    </script>
+
 <style type="text/css">
    @media only screen and (min-width: 768px){
     .aam-reg{
@@ -57,9 +135,52 @@
   <a href="signup.php" target="_blank"><input type="submit" value="Register" class="waves-effect waves-light btn-large" style="width:250px;padding-top: 1em; "></a>
 </center>
 
+<<<<<<< HEAD
 <center>
   <a href="#login"  target="_blank"><input type="submit" value="Login" class="waves-effect waves-light btn-large" style="width:250px;padding-top: 1em; "></a>
 </center>  
+=======
+<a href="signup.php" target="_blank"><input type="submit" value="Register" class="waves-effect waves-light btn-large" style="width:250px;margin-left:100px; padding: 18px; "></a>
+<!-- **************************************************************************************************************************************** -->
+ 
+<div class="row section">
+  <div class="col">
+    <!-- Modal Trigger -->
+    <a class="waves-effect waves-light btn-large modal-trigger" href="#modal1" style="width:250px;margin-left:100px; ">LOGIN</a>
+  </div>
+</div>
+<!-- Modal Structure -->
+<div id="modal1" class="modal ">
+  <div class="modal-content">
+
+  <div class="row">
+    <form class="col s12 center-align" action="<?php echo $current_file; ?>" method="POST">
+      <div class="row">
+      <h2>LOGIN</h2>
+        <div class="input-field col s12">
+          <i class="material-icons prefix">account_circle</i>
+          <input id="icon_prefix" type="email" class="validate" name="email">
+          <label for="icon_prefix">Email ID</label>
+        </div>
+        <div class="input-field col s12">
+          <i class="material-icons prefix">vpn_key</i>
+          <input id="icon_telephone" type="password" class="validate" name="password">
+          <label for="icon_telephone">Password</label>
+        </div>
+            <button class="btn-large waves-effect waves-light " type="submit" name="action" style="margin-top:15px; width:200px;">Log In
+            <i class="material-icons right">send</i>
+      </div>
+    </form>
+  </div>
+  </div>
+  <div class="modal-footer">
+    <a href="#!" class=" modal-action modal-close waves-effect waves-blue btn-flat">CLOSE</a>
+  </div>
+</div>
+
+<!-- ***************************************************************************************************************************************  -->
+  
+>>>>>>> 4cf801831cbe5952207847d9a20026b2e85a3912
   </div>
   </div>
   </div>
