@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>Students' Alumni Cell &middot; IIT Kharagpur</title>
+	<title>Yearnings of Yore</title>
 	  <link rel="stylesheet" href="css/materialize.min.css">
 	  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 	  <script src="js/materialize.min.js"></script>
@@ -31,7 +31,7 @@
 	<div class="col s6 m6 l4">
           <div class="card z-depth-0 _card">
             <div class="card-image">
-              <img src="img/yoy/2015.jpg">
+              <img src="img/yoy/2015.jpg" height="480px">
              
             </div>
             <div class="card-content">
@@ -45,7 +45,7 @@
 	<div class="col s6 m6 l4">
           <div class="card z-depth-0 _card">
             <div class="card-image">
-              <img src="img/yoy/2015.jpg">
+              <img src="img/yoy/2015.jpg" height="480px">
              
             </div>
             <div class="card-content">
@@ -59,7 +59,7 @@
 	<div class="col s6 m6 l4">
           <div class="card z-depth-0 _card">
             <div class="card-image">
-              <img src="img/yoy/2014.jpg">
+              <img src="img/yoy/2014.jpg" height="480px">
              
             </div>
             <div class="card-content">
@@ -75,7 +75,7 @@
 	<div class="col s6 m6 l4">
           <div class="card z-depth-0 _card">
             <div class="card-image">
-              <img src="img/yoy/2010.jpg">
+              <img src="img/yoy/2010.jpg" height="480px">
              
             </div>
             <div class="card-content">
@@ -89,7 +89,7 @@
 	<div class="col s6 m6 l4">
           <div class="card z-depth-0 _card">
             <div class="card-image">
-              <img src="img/yoy/2008.jpg">
+              <img src="img/yoy/2008.jpg" height="480px">
              
             </div>
             <div class="card-content">
@@ -103,7 +103,7 @@
 	<div class="col s6 m6 l4">
           <div class="card z-depth-0 _card">
             <div class="card-image">
-              <img src="img/yoy/2006.jpg">
+              <img src="img/yoy/2006.jpg" height="480px">
              
             </div>
             <div class="card-content">
