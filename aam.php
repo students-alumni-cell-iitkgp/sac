@@ -52,11 +52,13 @@
   </div>
   <div class="col l4 s12 m4">
   <div class="info z-depth-2 aam-reg" class="valign-wrapper">
+<center>
+  <a href="signup.php" target="_blank"><input type="submit" value="Register" class="waves-effect waves-light btn-large" style="width:250px;padding-top: 1em; "></a>
+</center>
 
-<a href="signup.php" target="_blank"><input type="submit" value="Register" class="waves-effect waves-light btn-large" style="width:250px;margin-left:100px; padding-top: 1em; "></a>
-
-<a href="#login"  target="_blank"><input type="submit" value="Login" class="waves-effect waves-light btn-large" style="width:250px;margin-left:100px; padding-top: 1em; "></a>
-  
+<center>
+  <a href="#login"  target="_blank"><input type="submit" value="Login" class="waves-effect waves-light btn-large" style="width:250px;padding-top: 1em; "></a>
+</center>  
   </div>
   </div>
   </div>
