@@ -1,5 +1,5 @@
 <?php
-
+/*
 if(isset($_POST['action'])){
   session_start();
 if ($_SESSION["email"] != "") {
@@ -29,7 +29,7 @@ if ($result->num_rows > 0) {
       /*
       else {
         header('Location: ./signin.php?err=pass');
-      }*/
+      }
     } else {
       header('Location: ./aam.php?err=email');
     }
@@ -41,10 +41,10 @@ if ($result->num_rows > 0) {
 }
 }
 }
-
+*/
 ?>
 <?php 
-/*
+
 if (isset($_POST['action'])) {
 require 'connection.php';
   ob_start(); 
@@ -65,7 +65,7 @@ require 'connection.php';
       }elseif ($query_num_rows==1) {
       
         $user_id=mysql_result($query_run, 0,'email');
-        $_SESSION['user_id']=$user_id;
+        $_SESSION['email']=$email;
         header('location:home.php');
 
 
@@ -76,7 +76,7 @@ require 'connection.php';
     echo '<script language="javascript">alert("You must supply Email ID and PASSWORD");</script>';
   }
 }
-*/
+
 ?>
 
 
