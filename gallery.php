@@ -64,7 +64,7 @@
     <label for="id10">
         <img src="img/gallery/22.jpg" width="200"/>
     </label>
-    <img src="img/gallery/22" width="600" height="300"/>
+    <img src="img/gallery/22.jpg" width="600" height="300"/>
     <input type="radio" name="slide_switch" id="id11"/>
 
     <label for="id11">
