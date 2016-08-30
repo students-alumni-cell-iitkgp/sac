@@ -233,7 +233,7 @@
     </div>
     <div class="card-reveal">
       <span class="card-title grey-text text-darken-4">Yearbook<i class="material-icons right">close</i></span>
-      <p>Continuing with its yearlong series of Guest Lectures by eminent alumni, the Students Alumni Cell recently hostel Mr. Veerendra Jaitltey, an alumnus of the ECE department, 1979. He delivered a motivational lecture with the theme ‘We Can, We Can’. </p>
+      <p>The Yearbook is a collection of photographs and memories presented every year at the time of the convocation to the graduating batch by the Students' Alumni Cell. It is the perfect souvenir for everyone about to leave their home away from home, KGP.....  </p>
     </div>
   </div>
 </div>
