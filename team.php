@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>The Team | Students' Alumni Cell &middot; IIT Kharagpur</title>
+	<title>Students' Alumni Cell &middot; IIT Kharagpur</title>
 	  <link rel="stylesheet" href="css/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="css/social_icon.css">
 	  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
