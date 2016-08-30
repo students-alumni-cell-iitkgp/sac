@@ -41,7 +41,11 @@
         <li><a href="team.php">The Team</a></li>
        
 
+<<<<<<< cda441a9a0caa064a6c9e2d6b5bc758d2d7d92af
         <li><a href="association.php">Our Sponsers</a></li>
+=======
+        <li><a href="association.php">Sponsers</a></li>
+>>>>>>> changed gallery, added video, changed images, added images to index, added sponsers
 
       </ul>
       <ul class="side-nav" id="mobile-demo">
