@@ -1,5 +1,5 @@
 <?php
-
+/*
 if(isset($_POST['action'])){
   
 
@@ -32,11 +32,14 @@ if (!loggedin()) {
 }
   
 }
+*/
 ?>
 <?php 
 
-if (isset($_POST['email'])&&isset($_POST['password'])) {
-
+if (isset($_POST['action'])) {
+require 'connection.php';
+  ob_start(); 
+  session_start();
   
   $email=$_POST['email'];
   $password=$_POST['password'];
