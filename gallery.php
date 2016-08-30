@@ -65,10 +65,7 @@
         <img src="img/gallery/22.jpg" width="200"/>
     </label>
     <img src="img/gallery/22.jpg" width="600" height="300"/>
-<<<<<<< cda441a9a0caa064a6c9e2d6b5bc758d2d7d92af
-=======
 
->>>>>>> changed gallery, added video, changed images, added images to index, added sponsers
     <input type="radio" name="slide_switch" id="id11"/>
 
     <label for="id11">
@@ -93,10 +90,7 @@
         <img src="img/gallery/35.jpg" width="200"/>
     </label>
     <img src="img/gallery/35.jpg" width="600" height="300"/>
-<<<<<<< cda441a9a0caa064a6c9e2d6b5bc758d2d7d92af
-=======
     
->>>>>>> changed gallery, added video, changed images, added images to index, added sponsers
     <input type="radio" name="slide_switch" id="id15"/>
 
     <label for="id15">

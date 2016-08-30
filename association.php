@@ -24,7 +24,7 @@
   <div class="container" align="center">
    <div class="heading">
     <center>
-      <h class="subheading"><b>Association</b></h>
+      <h class="subheading"><b>Sponsors</b></h>
     </center>
   </div>
     <br><br>
