@@ -41,7 +41,7 @@
         <li><a href="team.php">The Team</a></li>
        
 
-        <li><a href="association.php">Association</a></li>
+        <li><a href="association.php">Our Sponsors</a></li>
 
       </ul>
       <ul class="side-nav" id="mobile-demo">

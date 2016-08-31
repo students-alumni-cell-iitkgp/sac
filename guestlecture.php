@@ -1,6 +1,5 @@
 <html>
 <head>
-<title>Guest Lectures</title>
 <link rel="stylesheet" href="css/materialize.min.css">
 <link rel="icon"  href="img/meet_14.png">
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
@@ -59,24 +58,14 @@ max-width:100%;
           <h class="subheading"><b>Videos</b></h>
         </center>
       </div>
-    <div class="col l3 s12 m3">
+    <div class="col l3 s12 m3 offset-l3 m3">
     <div class="video-container">
-       <iframe class="frame" src="https://www.youtube.com/embed/gQ2AYloadeY" frameborder="0" allowfullscreen></iframe>
+       <iframe class="frame" src="https://www.youtube.com/embed/7iWNDuyiJYA" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
     <div class="col l3 s12 m3">
     <div class="video-container">
-        <iframe class="frame" src="https://www.youtube.com/embed/gQ2AYloadeY" frameborder="0" allowfullscreen></iframe>
-      </div>
-    </div>
-    <div class="col l3 s12 m3">
-    <div class="video-container">
-<iframe class="frame" src="https://www.youtube.com/embed/gQ2AYloadeY" frameborder="0" allowfullscreen></iframe>
-      </div>
-    </div>
-    <div class="col l3 s12 m3">
-    <div class="video-container">
-<iframe class="frame" src="https://www.youtube.com/embed/gQ2AYloadeY" frameborder="0" allowfullscreen></iframe>
+        <iframe class="frame" src="https://www.youtube.com/embed/_mZLjVCMrrc" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
     </div>
