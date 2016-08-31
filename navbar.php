@@ -31,7 +31,7 @@
   </ul>
   <nav>
     <div class="nav-wrapper white">
-      <a href="#!" class="brand-logo"><img src="img/logo/sac_logo.png" width="180" height="70"></a>
+      <a href="#!" class="brand-logo"><img src="img/logo/sac_logo.png" width="180" height="70" style="margin-top:-8px;"></a>
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down _textcolor">
         <li><a href="index.php">Home</a></li>
@@ -39,7 +39,9 @@
         <li><a class="dropdown-button" href="#!" data-activates="initiatives">Initiatives</a></li>
         <li><a class="dropdown-button" href="#!" data-activates="publications">Publications</a></li>
         <li><a href="team.php">The Team</a></li>
-        <li><a href="association.php">Sponsors</a></li>
+       
+
+        <li><a href="association.php">Association</a></li>
 
       </ul>
       <ul class="side-nav" id="mobile-demo">

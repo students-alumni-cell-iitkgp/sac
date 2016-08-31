@@ -1,5 +1,6 @@
 <html>
 <head>
+<title>Sponsors</title>
 <link rel="stylesheet" href="css/materialize.min.css">
 	  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 	  <script src="js/materialize.min.js"></script>
@@ -24,7 +25,7 @@
   <div class="container" align="center">
    <div class="heading">
     <center>
-      <h class="subheading"><b>Sponsors</b></h>
+      <h class="subheading"><b>Association</b></h>
     </center>
   </div>
     <br><br>
