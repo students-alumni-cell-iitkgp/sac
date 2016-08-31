@@ -47,30 +47,33 @@ if ($result->num_rows > 0) {
 
 if (isset($_POST['action'])) {
 require 'connection.php';
-  ob_start(); 
+
   session_start();
   
-  $email=$_POST['email'];
+ $email=$_POST['email'];
   $password=$_POST['password'];
   $password_hash=hash('sha256', $password);
   if (!empty($email)&&!empty($password)) {
     
-    $query="SELECT email FROM users WHERE email='$email' AND password='$password_hash'";
-
-    if($query_run=mysql_query($query)) {
-      $query_num_rows=mysql_num_rows($query_run);
-
-      if ($query_num_rows==0) {
+    $query="SELECT * FROM users WHERE email='".$email."' AND password='".$password_hash."'";
+    //echo "cont..";
+$result = $connection->query($query);
+     // $query_num_rows=mysqli_num_rows($result);
+      //echo  $query_num_rows;
+      /*if ($query_num_rows==10) {
         echo '<script language="javascript">alert("Invalid Email ID/PASSWORD ");</script>';
-      }elseif ($query_num_rows==1) {
+      }*/
+      echo $result->num_rows;
+      if ($result->num_rows > 0)  {
       
-        $user_id=mysql_result($query_run, 0,'email');
+        //$user_id=mysql_result($query_run, 0,'email');
         $_SESSION['email']=$email;
+         echo '<script language="javascript">alert("Logging you in");</script>';
         header('location:home.php');
 
 
       }
-    } 
+    //} 
 
   }else {
     echo '<script language="javascript">alert("You must supply Email ID and PASSWORD");</script>';
