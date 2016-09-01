@@ -180,9 +180,9 @@
 <div class="col l3 s6 m6">
 <div class="card z-depth-0">
     <div class="card-image waves-effect waves-block waves-light">
-     <img class="activator" src="img/latest programs/classgift.jpg" >
+     <img class="activator" src="img/latest programs/classgift.jpg" style="height: 225px;" >
     </div>
-    <div class="card-content">
+    <div class ="card-content">
       <span class="card-title activator grey-text text-darken-4">Class Gift of 2015<i class="material-icons right">more_vert</i></span>
       <p><a href="#">Campus Benches</a></p>
     </div>
@@ -198,11 +198,11 @@
       <img class="activator" src="img/latest programs/mentor.jpg">
     </div>
     <div class="card-content">
-      <span class="card-title activator grey-text text-darken-4">Mentorship Programme<i class="material-icons right">more_vert</i></span>
+      <span class="card-title activator grey-text text-darken-4">Mentorship<i class="material-icons right">more_vert</i></span>
       <p><a href="#">Phase 1</a></p>
     </div>
     <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">Mentorship Programme<i class="material-icons right">close</i></span>
+      <span class="card-title grey-text text-darken-4">Mentorship <i class="material-icons right">close</i> <br> Programme</span>
       <p>The Students’ Alumni Cell will begin the second phase of this year’s Student Alumni Mentorship Programme, one of its most successful initiatives, in October.The SAMP Program saw a participation of more t han 700 student and 300 alumni in its previous phase.</p>
     </div>
   </div>

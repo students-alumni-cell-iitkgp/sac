@@ -1,6 +1,7 @@
 <html>
 <head>
 	<title>Yearnings of Yore</title>
+   <link rel="icon" href="img/meet_14.png">
 	  <link rel="stylesheet" href="css/materialize.min.css">
 	  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 	  <script src="js/materialize.min.js"></script>
