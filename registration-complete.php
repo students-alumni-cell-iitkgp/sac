@@ -25,7 +25,7 @@
           </p>
           <div class="row">
           <div class="col l6">
-            <a href="./login.php" class="btn btn-success btn-block">Click here to login</a>
+            <a href="./aam.php" class="btn btn-success btn-block">Click here to login</a>
           </div>
           <div class="col l6">
             <a href="./index.php" class="btn btn-success btn-block">Visit Home</a>
