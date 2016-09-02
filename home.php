@@ -2,18 +2,11 @@
 require 'connection.php';
 ob_start(); 
 session_start();
-if ($_SESSION["user_id"] == "") {
+if ($_SESSION["email"] == "") {
   header('Location: aam.php');
   exit();
 }
-function getfield($field){
-  $query=' SELECT  '.$field.' FROM users where email="'.$_SESSION['user_id'].'"';
-  if ($query_run=mysql_query($query)) {
-    if($query_result= mysql_result($query_run, 0,$field)) {
-      return $query_result;
-    }
-  }
-}
+
 include 'navbar.php';
 ?>
 
@@ -42,14 +35,12 @@ include 'navbar.php';
     }
    } 
    #wrapper{
-   	padding: 20px;
+    padding: 20px;
    }
     @media only screen and (max-width: 468px){
       .ac-aam img{
-
     margin: 0px auto;
     max-width:100%;
-
     }
    }
    #button{
@@ -69,19 +60,26 @@ include 'navbar.php';
 </head>
 
 <body>
-	<div id="wrapper">
-		
-		<div id="header">
-		</div><!-- #header -->
-		
-		<div id="content">
+  <div id="wrapper">
+    
+    <div id="header">
+    </div><!-- #header -->
+    
+    <div id="content">
           <div class="container">
         <div class="container-fluid">
           <div align="center">
         <div id="message">
         <?php 
-        $name=getfield('name');
+          $query="SELECT name FROM users WHERE email='".$_SESSION["email"]."'";
+
+          if( $query_run = mysqli_query($connection, $query) ){
+            
+            $row = mysqli_fetch_assoc($query_run);
+            $name = $row['name'];
+
               echo '<h3>Welcome  Mr '.$name.'.<h3>';
+            }
         ?>
         </div><a class="waves-effect waves-light btn" href="logout.php" id="button">Log Out</a>
           </div>
@@ -121,14 +119,14 @@ include 'navbar.php';
           </div>
         </div>
       </div>
-					
-		</div><!-- #content -->
-		
-		<div id="footer">
-		</div><!-- #footer -->
-		
-	</div><!-- #wrapper -->
-	
+          
+    </div><!-- #content -->
+    
+    <div id="footer">
+    </div><!-- #footer -->
+    
+  </div><!-- #wrapper -->
+  
 </body>
 
 </html>

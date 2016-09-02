@@ -122,10 +122,10 @@
         <input  type="text"  name="mobile" id="mobile" required>
           <label for="mobile">Mobile *</label>
       </div>
-      <div class="input-field col s12">
-     
-        <input  type="text" class="datepicker" name="dob" required id="dob">
+      <div class="col s12" style="margin-top:15px;">
          <label for="dob">DOB *</label>
+        <input  type="date" name="dob" required id="dob">
+        
       </div>
       <div class="input-field col s12" style="margin-bottom:30px;">
    

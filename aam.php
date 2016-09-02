@@ -63,7 +63,7 @@ $result = $connection->query($query);
       /*if ($query_num_rows==10) {
         echo '<script language="javascript">alert("Invalid Email ID/PASSWORD ");</script>';
       }*/
-      echo $result->num_rows;
+      //echo $result->num_rows;
       if ($result->num_rows > 0)  {
       
         //$user_id=mysql_result($query_run, 0,'email');
@@ -72,7 +72,8 @@ $result = $connection->query($query);
         header('location:home.php');
 
 
-      }
+      }else
+        echo '<script language="javascript">alert("Invalid Email ID/ Password");</script>';
     //} 
 
   }else {
@@ -160,7 +161,7 @@ $result = $connection->query($query);
   <div class="modal-content">
 
   <div class="row">
-    <form class="col s12 center-align" action="<?php echo $current_file; ?>" method="POST">
+    <form class="col s12 center-align" action="aam.php" method="POST">
       <div class="row">
       <h2>LOGIN</h2>
         <div class="input-field col s12">
