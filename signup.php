@@ -13,7 +13,7 @@
     <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
 <script type="text/javascript">
   if(window.location.href!='http://www.sac.iitkgp.ac.in/signup.php'){
-   // window.location.assign("http://www.sac.iitkgp.ac.in/signup.php");
+    window.location.assign("http://www.sac.iitkgp.ac.in/signup.php");
   }
 
 </script>
