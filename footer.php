@@ -33,7 +33,7 @@
 
   <div class="footer-copyright grey darken-3">
     <div class="container">
-    © 2016 Student Alumni Cell
+    &copy; 2016 Student Alumni Cell
 
     </div>
 
