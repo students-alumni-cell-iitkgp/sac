@@ -2,14 +2,15 @@
 <head>
     <title>Students' Alumni Cell &middot; IIT Kharagpur</title>
     <link rel="icon" href="img/meet_14.png">
-    <link rel="stylesheet" href="css/materialize.min.css">
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="js/materialize.min.js"></script>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-  
+    <link rel="stylesheet" href="css/materialize.min.css">
+
     <script src="http://maps.googleapis.com/maps/api/js"></script>
+    <script src="js/materialize.min.js"></script>
     <style> 
      @media only screen and (min-width: 768px){
      .about{
@@ -39,10 +40,12 @@
     });
 
     </script>
+
+   
 </head>
 <body>
 <div class="_wrapper">
-<?php include 'navbar.php';?> 
+<?php include 'navbar.php';?>
 <!--slider-->
 <div class="slider">
     <ul class="slides">
@@ -243,6 +246,7 @@
 </div>
 <?php include 'footer.php';?>
 </body>
+
 <script type="text/javascript" src="js/style.js"></script>
 
 </html>

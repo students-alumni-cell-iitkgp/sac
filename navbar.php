@@ -11,9 +11,24 @@
     }
     );
   });
+
+  
   
 </script>
-<div class="navbar-fixed white" id="nav">
+
+<style>  @media only screen and (max-width: 992px){
+    nav .brand-logo {
+      left: 87%;
+      -webkit-transform: translateX(-50%);
+
+    }
+  }
+  @media only screen and (max-width: 600px){
+    nav .brand-logo {
+      top: -10px;
+    }
+  }</style>
+<div  class="navbar-fixed white" id="nav">
   <ul id="events" class="dropdown-content">
     <li><a href="aam.php">Annual Alumni Meet</a></li>
     <li><a href="sam.php">Student Alumni Meet</a></li>
@@ -44,12 +59,56 @@
         <li><a href="association.php">Association</a></li>
 
       </ul>
-      <ul class="side-nav" id="mobile-demo">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">Javascript</a></li>
-        <li><a href="mobile.html">Mobile</a></li>
+
+
+      <ul id="mobile-demo" class="side-nav">
+        <li><a href="index.php">Home</a></li>
+        <li class="no-padding">
+          <ul class="collapsible collapsible-accordion">
+            <li>
+              <a class="collapsible-header">Events<i class="mdi-navigation-arrow-drop-down"></i></a>
+              <div class="collapsible-body">
+                <ul>
+                  <li><a href="aam.php">Annual Alumni Meet</a></li>
+                  <li><a href="sam.php">Student Alumni Meet</a></li>
+                  <li><a href="guestlecture.php">Guest Lectures</a></li>
+                  <li><a href="leadershipsummit.php">Leadership Summit</a></li>
+                  <li><a href="alvida.php">Alvida</a></li>
+                </ul>
+    </div></li></ul></li>
+        <li class="no-padding">
+          <ul class="collapsible collapsible-accordion">
+            <li>
+              <a class="collapsible-header">Initiatives<i class="mdi-navigation-arrow-drop-down"></i></a>
+              <div class="collapsible-body">
+                <ul>
+                  <li><a href="mentorship.php">Mentorship Program</a></li>
+                  <li><a href="imprint.php">My Imprint</a></li>
+
+                </ul>
+              </div></li></ul></li>
+        <li class="no-padding">
+          <ul class="collapsible collapsible-accordion">
+            <li>
+              <a class="collapsible-header">Publications<i class="mdi-navigation-arrow-drop-down"></i></a>
+              <div class="collapsible-body">
+                <ul>
+                  <li><a href="yearbook.php">Yearbook</a></li>
+                  <li><a href="yoy.php">Yearnings of Yore</a></li>
+
+                </ul>
+              </div></li></ul></li>
+
+
+        <li><a href="#!">The Team</a></li>
+        <li><a href="#!">Association</a></li>
+
+
+
+
+
       </ul>
-    </div>
+
+
   </nav>
 </div>
