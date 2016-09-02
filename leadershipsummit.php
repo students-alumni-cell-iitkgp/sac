@@ -68,11 +68,10 @@ max-width:100%;
               <span class="card-title">Arunab Kumar</span>
             </div>
             <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.</p>
+              <p></p> 
             </div>
             <div class="card-action">
-              <a href="#">This is a link</a>
+           <a href="#"></a>   
             </div>
           </div>
         </div>
@@ -83,11 +82,10 @@ max-width:100%;
               <span class="card-title">Arjun Malhotra</span>
             </div>
             <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.</p>
+              <p></p>
             </div>
             <div class="card-action">
-              <a href="#">This is a link</a>
+              <a href="#"></a>
             </div>
           </div>
         </div>
@@ -98,11 +96,10 @@ max-width:100%;
               <span class="card-title">Anjan Rai Chaudhuri</span>
             </div>
             <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.</p>
+              <p> </p>
             </div>
             <div class="card-action">
-              <a href="#">This is a link</a>
+              <a href="#"></a>
             </div>
           </div>
         </div>
@@ -115,11 +112,10 @@ max-width:100%;
               <span class="card-title">Gopal Raj</span>
             </div>
             <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.</p>
+              <p></p>
             </div>
             <div class="card-action">
-              <a href="#">This is a link</a>
+              <a href="#"></a>
             </div>
           </div>
         </div>
@@ -130,11 +126,10 @@ max-width:100%;
               <span class="card-title">Prasad Menon</span>
             </div>
             <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.</p>
+              <p></p>
             </div>
             <div class="card-action">
-              <a href="#">This is a link</a>
+              <a href="#"></a>
             </div>
           </div>
         </div>
@@ -145,11 +140,10 @@ max-width:100%;
               <span class="card-title">Sakya Sinha Roy</span>
             </div>
             <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.</p>
+              <p></p>
             </div>
             <div class="card-action">
-              <a href="#">This is a link</a>
+              <a href="#"></a>
             </div>
           </div>
         </div>
@@ -168,11 +162,10 @@ max-width:100%;
               <span class="card-title">Arunab Kumar</span>
             </div>
             <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.</p>
+              <p></p>
             </div>
             <div class="card-action">
-              <a href="#">This is a link</a>
+              <a href="#"></a>
             </div>
           </div>
         </div>
@@ -183,11 +176,10 @@ max-width:100%;
               <span class="card-title">Arjun Malhotra</span>
             </div>
             <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.</p>
+              <p> </p>
             </div>
             <div class="card-action">
-              <a href="#">This is a link</a>
+              <a href="#"></a>
             </div>
           </div>
         </div>
@@ -198,11 +190,10 @@ max-width:100%;
               <span class="card-title">Anjan Rai Chaudhuri</span>
             </div>
             <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.</p>
+              <p></p>
             </div>
             <div class="card-action">
-              <a href="#">This is a link</a>
+              <a href="#"></a>
             </div>
           </div>
         </div>
@@ -215,11 +206,10 @@ max-width:100%;
               <span class="card-title">Gopal Raj</span>
             </div>
             <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.</p>
+              <p></p>
             </div>
             <div class="card-action">
-              <a href="#">This is a link</a>
+              <a href="#"></a>
             </div>
           </div>
         </div>
@@ -230,11 +220,10 @@ max-width:100%;
               <span class="card-title">Prasad Menon</span>
             </div>
             <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.</p>
+              <p></p>
             </div>
             <div class="card-action">
-              <a href="#">This is a link</a>
+              <a href="#"></a>
             </div>
           </div>
         </div>
@@ -245,11 +234,10 @@ max-width:100%;
               <span class="card-title">Sakya Sinha Roy</span>
             </div>
             <div class="card-content">
-              <p>I am a very simple card. I am good at containing small bits of information.
-              I am convenient because I require little markup to use effectively.</p>
+              <p></p>
             </div>
             <div class="card-action">
-              <a href="#">This is a link</a>
+              <a href="#"></a>
             </div>
           </div>
         </div>
