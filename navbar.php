@@ -28,6 +28,7 @@
       top: -10px;
     }
   }</style>
+
 <div  class="navbar-fixed white" id="nav">
   <ul id="events" class="dropdown-content">
     <li><a href="aam.php">Annual Alumni Meet</a></li>
@@ -44,6 +45,13 @@
     <li><a href="yearbook.php">Yearbook</a></li>
     <li><a href="yoy.php">Yearnings of Yore</a></li>
   </ul>
+  <ul id="sponsors" class="dropdown-content">
+    <li><a href="sponsors2016.php">2016</a></li>
+    <li><a href="sponsors2015.php">2015</a></li>
+    <li><a href="sponsors2014.php">2014</a></li>
+    <li><a href="sponsors2013.php">2013</a></li>
+    <li><a href="sponsors2012.php">2012</a></li>
+  </ul>
   <nav>
     <div class="nav-wrapper white">
       <a href="#!" class="brand-logo"><img src="img/logo/sac_logo.png" width="180" height="70"></a>
@@ -56,7 +64,7 @@
         <li><a href="team.php">The Team</a></li>
        
 
-        <li><a href="association.php">Association</a></li>
+         <li><a class="dropdown-button" href="#!" data-activates="sponsors">Our Sponsors</a></li>
 
       </ul>
 
@@ -101,7 +109,21 @@
 
 
         <li><a href="#!">The Team</a></li>
-        <li><a href="#!">Association</a></li>
+       <li class="no-padding">
+          <ul class="collapsible collapsible-accordion">
+            <li>
+              <a class="collapsible-header">Our Sponsors<i class="mdi-navigation-arrow-drop-down"></i></a>
+              <div class="collapsible-body">
+                <ul>
+                  <li><a href="sponsors2016.php">2016</a></li>
+    <li><a href="sponsors2015.php">2015</a></li>
+    <li><a href="sponsors2014.php">2014</a></li>
+    <li><a href="sponsors2013.php">2013</a></li>
+    <li><a href="sponsors2012.php">2012</a></li>
+
+                </ul>
+
+              </div></li></ul></li>
 
 
 
