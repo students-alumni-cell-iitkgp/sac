@@ -137,7 +137,7 @@
     </div>
     <div class="card-reveal">
       <span class="card-title grey-text text-darken-4">For Alumni<i class="material-icons right">close</i></span>
-      <p>The Students’ Alumni Cell works towards ensuring mutual benefit of the Students as well as the Alumni. The cell helps the alumni in staying connected to the institute. Through regular interactions with the next generation of KGPians, the alumni too get to learn a lot as learning is a continuous process and each generation has their own set of skills to boast of.</p>
+      <p>The Students' Alumni Cell works towards ensuring mutual benefit of the Students as well as the Alumni. The cell helps the alumni in staying connected to the institute. Through regular interactions with the next generation of KGPians, the alumni too get to learn a lot as learning is a continuous process and each generation has their own set of skills to boast of.</p>
     </div>
   </div>
 </div>
