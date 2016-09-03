@@ -64,7 +64,7 @@
         <li><a href="team.php">The Team</a></li>
        
 
-         <li><a class="dropdown-button" href="#!" data-activates="sponsors">Our Sponsors</a></li>
+         <li><a class="dropdown-button" href="#!" data-activates="sponsors">Sponsors</a></li>
 
       </ul>
 

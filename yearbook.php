@@ -37,9 +37,7 @@
             <div class="card-content">
               <p>Yearbook 2016</p>
             </div>
-            <div class="card-action">
-              <a href="#">Click to download</a>
-            </div>
+            
           </div>
 	</div>
 	<div class="col s6 m6 l3">
@@ -51,9 +49,7 @@
             <div class="card-content">
               <p>Yearbook 2015</p>
             </div>
-            <div class="card-action">
-              <a href="#">Click to download</a>
-            </div>
+            
           </div>
 	</div>
 	<div class="col s6 m6 l3">
@@ -65,9 +61,7 @@
             <div class="card-content">
               <p>Yearbook 2014</p>
             </div>
-            <div class="card-action">
-              <a href="#">Click to download</a>
-            </div>
+            
           </div>
 	</div>
 	</div>
@@ -81,9 +75,7 @@
             <div class="card-content">
               <p>Yearbook 2016</p>
             </div>
-            <div class="card-action">
-              <a href="#">Click to download</a>
-            </div>
+            
           </div>
 	</div>
 	
