@@ -11,7 +11,6 @@
     }
     );
   });
-
   
   
 </script>
@@ -20,14 +19,24 @@
     nav .brand-logo {
       left: 87%;
       -webkit-transform: translateX(-50%);
-
     }
   }
-  @media only screen and (max-width: 600px){
+ 
+@media only screen and (max-width: 600px){
     nav .brand-logo {
       top: -10px;
+      left:80%;
     }
-  }</style>
+  }
+  @media only screen and (max-width: 400px){
+    nav .brand-logo {
+      top: -10px;
+      left:75%;
+    }
+  }
+
+
+  </style>
 
 <div  class="navbar-fixed white" id="nav">
   <ul id="events" class="dropdown-content">

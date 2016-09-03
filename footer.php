@@ -47,3 +47,4 @@
 
 </footer>
 </div>
+<script type="text/javascript" src="js/style.js"></script>
