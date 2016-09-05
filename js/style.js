@@ -6,3 +6,9 @@ $(document).ready(function(){
       //var height=$('._footer').height();
      // $('._wrapper').css('margin-bottom',height);
 });
+$('.button-collapse').sideNav({
+          menuWidth: 300, // Default is 240
+          edge: 'left', // Choose the horizontal origin
+          closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+    }
+);

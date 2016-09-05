@@ -12,8 +12,33 @@
     );
   });
   
+  
 </script>
-<div class="navbar-fixed white" id="nav">
+
+<style>  @media only screen and (max-width: 992px){
+    nav .brand-logo {
+      left: 87%;
+      -webkit-transform: translateX(-50%);
+    }
+  }
+ 
+@media only screen and (max-width: 600px){
+    nav .brand-logo {
+      top: -10px;
+      left:80%;
+    }
+  }
+  @media only screen and (max-width: 400px){
+    nav .brand-logo {
+      top: -10px;
+      left:75%;
+    }
+  }
+
+
+  </style>
+
+<div  class="navbar-fixed white" id="nav">
   <ul id="events" class="dropdown-content">
     <li><a href="aam.php">Annual Alumni Meet</a></li>
     <li><a href="sam.php">Student Alumni Meet</a></li>
@@ -29,9 +54,16 @@
     <li><a href="yearbook.php">Yearbook</a></li>
     <li><a href="yoy.php">Yearnings of Yore</a></li>
   </ul>
+  <ul id="sponsors" class="dropdown-content">
+    <li><a href="sponsors2016.php">2016</a></li>
+    <li><a href="sponsors2015.php">2015</a></li>
+    <li><a href="sponsors2014.php">2014</a></li>
+    <li><a href="sponsors2013.php">2013</a></li>
+    <li><a href="sponsors2012.php">2012</a></li>
+  </ul>
   <nav>
     <div class="nav-wrapper white">
-      <a href="#!" class="brand-logo"><img src="img/logo/sac_logo.png" width="180" height="70" style="margin-top:-8px;"></a>
+      <a href="#!" class="brand-logo"><img src="img/logo/sac_logo.png" width="180" height="70"></a>
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down _textcolor">
         <li><a href="index.php">Home</a></li>
@@ -41,15 +73,73 @@
         <li><a href="team.php">The Team</a></li>
        
 
-        <li><a href="association.php">Association</a></li>
+         <li><a class="dropdown-button" href="#!" data-activates="sponsors">Sponsors</a></li>
 
       </ul>
-      <ul class="side-nav" id="mobile-demo">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">Javascript</a></li>
-        <li><a href="mobile.html">Mobile</a></li>
+
+
+      <ul id="mobile-demo" class="side-nav">
+        <li><a href="index.php">Home</a></li>
+        <li class="no-padding">
+          <ul class="collapsible collapsible-accordion">
+            <li>
+              <a class="collapsible-header">Events<i class="mdi-navigation-arrow-drop-down"></i></a>
+              <div class="collapsible-body">
+                <ul>
+                  <li><a href="aam.php">Annual Alumni Meet</a></li>
+                  <li><a href="sam.php">Student Alumni Meet</a></li>
+                  <li><a href="guestlecture.php">Guest Lectures</a></li>
+                  <li><a href="leadershipsummit.php">Leadership Summit</a></li>
+                  <li><a href="alvida.php">Alvida</a></li>
+                </ul>
+    </div></li></ul></li>
+        <li class="no-padding">
+          <ul class="collapsible collapsible-accordion">
+            <li>
+              <a class="collapsible-header">Initiatives<i class="mdi-navigation-arrow-drop-down"></i></a>
+              <div class="collapsible-body">
+                <ul>
+                  <li><a href="mentorship.php">Mentorship Program</a></li>
+                  <li><a href="imprint.php">My Imprint</a></li>
+
+                </ul>
+              </div></li></ul></li>
+        <li class="no-padding">
+          <ul class="collapsible collapsible-accordion">
+            <li>
+              <a class="collapsible-header">Publications<i class="mdi-navigation-arrow-drop-down"></i></a>
+              <div class="collapsible-body">
+                <ul>
+                  <li><a href="yearbook.php">Yearbook</a></li>
+                  <li><a href="yoy.php">Yearnings of Yore</a></li>
+
+                </ul>
+              </div></li></ul></li>
+
+
+        <li><a href="#!">The Team</a></li>
+       <li class="no-padding">
+          <ul class="collapsible collapsible-accordion">
+            <li>
+              <a class="collapsible-header">Our Sponsors<i class="mdi-navigation-arrow-drop-down"></i></a>
+              <div class="collapsible-body">
+                <ul>
+                  <li><a href="sponsors2016.php">2016</a></li>
+    <li><a href="sponsors2015.php">2015</a></li>
+    <li><a href="sponsors2014.php">2014</a></li>
+    <li><a href="sponsors2013.php">2013</a></li>
+    <li><a href="sponsors2012.php">2012</a></li>
+
+                </ul>
+
+              </div></li></ul></li>
+
+
+
+
+
       </ul>
-    </div>
+
+
   </nav>
 </div>

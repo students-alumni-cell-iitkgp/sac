@@ -1,6 +1,7 @@
 <html>
 <head>
 	<title>Yearnings of Yore</title>
+   <link rel="icon" href="img/meet_14.png">
 	  <link rel="stylesheet" href="css/materialize.min.css">
 	  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 	  <script src="js/materialize.min.js"></script>
@@ -31,15 +32,13 @@
 	<div class="col s6 m6 l4">
           <div class="card z-depth-0 _card">
             <div class="card-image">
-              <img src="img/yoy/2015.jpg" height="480px">
+              <img src="img/yoy/2016.jpg" height="480px">
              
             </div>
             <div class="card-content">
               <p>Yearnings of Yore  2016</p>
             </div>
-            <div class="card-action">
-              <a href="#">Click to download</a>
-            </div>
+            
           </div>
 	</div>
 	<div class="col s6 m6 l4">
@@ -51,9 +50,7 @@
             <div class="card-content">
               <p>Yearnings of Yore  2015</p>
             </div>
-            <div class="card-action">
-              <a href="#">Click to download</a>
-            </div>
+            
           </div>
 	</div>
 	<div class="col s6 m6 l4">
@@ -65,9 +62,7 @@
             <div class="card-content">
               <p>Yearnings of Yore  2014</p>
             </div>
-            <div class="card-action">
-              <a href="#">Click to download</a>
-            </div>
+            
           </div>
 	</div>
 	</div>
@@ -81,9 +76,7 @@
             <div class="card-content">
               <p>Yearnings of Yore 2010</p>
             </div>
-            <div class="card-action">
-              <a href="#">Click to download</a>
-            </div>
+            
           </div>
 	</div>
 	<div class="col s6 m6 l4">
@@ -95,9 +88,7 @@
             <div class="card-content">
               <p>Yearnings of Yore  2008</p>
             </div>
-            <div class="card-action">
-              <a href="#">Click to download</a>
-            </div>
+            
           </div>
 	</div>
 	<div class="col s6 m6 l4">
@@ -109,9 +100,7 @@
             <div class="card-content">
               <p>Yearnings of Yore 2006</p>
             </div>
-            <div class="card-action">
-              <a href="#">Click to download</a>
-            </div>
+           
           </div>
 	</div>
 	</div>

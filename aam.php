@@ -1,64 +1,80 @@
 <?php
-
+/*
 if(isset($_POST['action'])){
-  
-
-
-  require 'connection.php';
-  ob_start(); 
   session_start();
-$current_file=$_SERVER['SCRIPT_NAME'];
-@$http_referer=$_SERVER['HTTP_REFERER'];
-function loggedin() {
-  if(isset($_SESSION['user_id'])&&!empty($_SESSION['user_id'])) {
-  return true;
-     } else {
-  return false;
-    }
+if ($_SESSION["email"] != "") {
+  header('Location: ./home.php');
+  exit();
 }
-function getfield($field){
-  $query=' SELECT  '.$field.' FROM users where email="'.$_SESSION['user_id'].'"';
-  if ($query_run=mysql_query($query)) {
-    if($query_result= mysql_result($query_run, 0,$field)) {
-      return $query_result;
+include 'connection.php';
+$email = $_POST["email"];
+$q="SELECT password FROM users WHERE email=$email";
+$password = $connection->query($q);
+ $password = hash('sha256', $password);
+echo "Email ID $email <br>";
+echo "Password after hash: $password <br>";
+
+$sql = "SELECT email, password FROM users";
+$result = $connection->query($sql);
+if ($result->num_rows > 0) {
+  // output num rows
+  while ($row = $result->fetch_assoc()) {
+    // echo "email: " . $row["email"]. " - password: " . $row["password"]."<br>";
+    if ($email == $row["email"]) {
+      if ($password == $row["password"]) {
+        $_SESSION["email"] = $email;
+        $connection->close();
+        header('Location: ./home.php');
+        exit;
+      /*
+      else {
+        header('Location: ./signin.php?err=pass');
+      }
+    } else {
+      header('Location: ./aam.php?err=email');
     }
   }
+} else {
+  $connection->close();
+  header('Location: ./signup.php?alert=Please register before logging in.');
+  exit;
 }
-
-if (!loggedin()) {
-
-} else{
-        header('location:home.php');
 }
-  
 }
+*/
 ?>
 <?php 
 
-if (isset($_POST['email'])&&isset($_POST['password'])) {
+if (isset($_POST['action'])) {
+require 'connection.php';
 
+  session_start();
   
-  $email=$_POST['email'];
+ $email=$_POST['email'];
   $password=$_POST['password'];
-  $password_hash=md5($password);
+  $password_hash=hash('sha256', $password);
   if (!empty($email)&&!empty($password)) {
     
-    $query="SELECT email FROM users WHERE email='$email' AND password='$password_hash'";
-
-    if($query_run=mysql_query($query)) {
-      $query_num_rows=mysql_num_rows($query_run);
-
-      if ($query_num_rows==0) {
+    $query="SELECT * FROM users WHERE email='".$email."' AND password='".$password_hash."'";
+    //echo "cont..";
+$result = $connection->query($query);
+     // $query_num_rows=mysqli_num_rows($result);
+      //echo  $query_num_rows;
+      /*if ($query_num_rows==10) {
         echo '<script language="javascript">alert("Invalid Email ID/PASSWORD ");</script>';
-      }elseif ($query_num_rows==1) {
+      }*/
+      //echo $result->num_rows;
+      if ($result->num_rows > 0)  {
       
-        $user_id=mysql_result($query_run, 0,'email');
-        $_SESSION['user_id']=$user_id;
+        //$user_id=mysql_result($query_run, 0,'email');
+        $_SESSION['email']=$email;
+         echo '<script language="javascript">alert("Logging you in");</script>';
         header('location:home.php');
 
 
-      }
-    } 
+      }else
+        echo '<script language="javascript">alert("Invalid Email ID/ Password");</script>';
+    //} 
 
   }else {
     echo '<script language="javascript">alert("You must supply Email ID and PASSWORD");</script>';
@@ -145,7 +161,7 @@ if (isset($_POST['email'])&&isset($_POST['password'])) {
   <div class="modal-content">
 
   <div class="row">
-    <form class="col s12 center-align" action="<?php echo $current_file; ?>" method="POST">
+    <form class="col s12 center-align" action="aam.php" method="POST">
       <div class="row">
       <h2>LOGIN</h2>
         <div class="input-field col s12">

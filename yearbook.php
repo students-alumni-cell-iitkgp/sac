@@ -1,6 +1,7 @@
 <html>
 <head>
 	<title>Yearbook</title>
+   <link rel="icon" href="img/meet_14.png">
 	  <link rel="stylesheet" href="css/materialize.min.css">
 	  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 	  <script src="js/materialize.min.js"></script>
@@ -36,9 +37,7 @@
             <div class="card-content">
               <p>Yearbook 2016</p>
             </div>
-            <div class="card-action">
-              <a href="#">Click to download</a>
-            </div>
+            
           </div>
 	</div>
 	<div class="col s6 m6 l3">
@@ -50,9 +49,7 @@
             <div class="card-content">
               <p>Yearbook 2015</p>
             </div>
-            <div class="card-action">
-              <a href="#">Click to download</a>
-            </div>
+            
           </div>
 	</div>
 	<div class="col s6 m6 l3">
@@ -64,9 +61,7 @@
             <div class="card-content">
               <p>Yearbook 2014</p>
             </div>
-            <div class="card-action">
-              <a href="#">Click to download</a>
-            </div>
+            
           </div>
 	</div>
 	</div>
@@ -80,9 +75,7 @@
             <div class="card-content">
               <p>Yearbook 2016</p>
             </div>
-            <div class="card-action">
-              <a href="#">Click to download</a>
-            </div>
+            
           </div>
 	</div>
 	
