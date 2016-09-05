@@ -105,7 +105,7 @@ $result = $connection->query($query);
 <style type="text/css">
    @media only screen and (min-width: 768px){
     .aam-reg{
-      height: 320px;
+      height: 380px;
     }
      .aam-reg a{
       margin-top: 60px;
@@ -117,12 +117,22 @@ $result = $connection->query($query);
    } 
     @media only screen and (max-width: 468px){
       .ac-aam img{
-
     margin: 0px auto;
     max-width:100%;
 
     }
-   } 
+    .info {
+      width: 330px;
+      text-align: center;
+    }
+    .aam-reg{
+      height: 150px;
+      margin-top: 10px;
+    }
+    .aam-reg a{
+      margin-top: 10px;
+    }
+  } 
 </style>
     <script>
     $(document).ready(function(){
@@ -133,9 +143,9 @@ $result = $connection->query($query);
 <body>
 <div class="_wrapper">
 <?php include 'navbar.php';?>
- <div class="row ac-aam">
-        <img src="img/indexslider/annualalumnimeet1.jpg" >
-    </div>
+  <div class="row ac-aam">
+    <img src="img/indexslider/annualalumnimeet1.jpg" align="middle">
+  </div>
   <div class="row">
   <div class="col l8 s8 m8">
   <div class="info z-depth-2">
@@ -146,15 +156,14 @@ $result = $connection->query($query);
   </div>
   </div>
   <div class="col l4 s12 m4">
-  <div class="info z-depth-2 aam-reg" class="valign-wrapper" style="height:380px;">
-<center>
-  <a href="signup.php" target="_blank"><input type="submit" value="Register" class="waves-effect waves-light btn-large" style="width:250px;padding-top: 1em; "></a>
-</center>  
- 
+  <div class="info z-depth-2 aam-reg" class="valign-wrapper">
+    <center>
+      <a href="signup.php" target="_blank"><input type="submit" value="Register" class="waves-effect waves-light btn-large" style="width:250px;padding-top: 1em; "></a>
+    </center>  
 <!-- Modal Trigger -->
-  <center>
-    <a class="waves-effect waves-light btn-large modal-trigger" href="#modal1" style="width:250px;">LOGIN</a>
-  </center>
+    <center>
+      <a class="waves-effect waves-light btn-large modal-trigger" href="#modal1" style="width:250px;">LOGIN</a>
+    </center>
   
 <!-- Modal Structure -->
 <div id="modal1" class="modal ">
