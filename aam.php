@@ -152,7 +152,7 @@ $result = $connection->query($query);
   <div class="row">
   <div class="col l8 s8 m8">
   <div class="info z-depth-2">
-        <div class="heading" class="ac-head">
+        <div class="heading ac-head" >
       <center>
         <h class="subheading"><b>14th Annual Alumni Meet</b></h>
       </center>
