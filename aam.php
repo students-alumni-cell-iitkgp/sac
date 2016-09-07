@@ -165,7 +165,7 @@ $result = $connection->query($query);
   <div class="col l4 s12 m4">
   <div class="info z-depth-2 aam-reg" class="valign-wrapper">
     <center>
-      <a href="signup.php" target="_blank"><input type="submit" value="Register" class="waves-effect waves-light btn-large" style="width:250px;padding:6px;"></a>
+      <a href="signup.php" class="waves-effect waves-light btn-large modal-trigger" style="width:250px;" target="_blank">Register</a>
     </center>  
 <!-- Modal Trigger -->
     <center>
