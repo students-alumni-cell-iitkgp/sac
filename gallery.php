@@ -37,6 +37,7 @@
    <div class="row">
    <div class="col l3 m3 s12">
         <img class="materialboxed" src="img/gallery/ten.JPG" width="200"/> 
+    </div>    
    <div class="col l3 m3 s12">
         <img class="materialboxed" src="img/gallery/eleven.JPG" width="200"/>
    </div>
