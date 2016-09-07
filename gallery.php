@@ -36,29 +36,28 @@
    </div> </div>
    <div class="row">
    <div class="col l3 m3 s12">
-        <img class="materialboxed" src="img/gallery/ten.jpg" width="200"/>
+        <img class="materialboxed" src="img/gallery/ten.JPG
+   <div class="col l3 m3 s12">
+        <img class="materialboxed" src="img/gallery/eleven.JPG" width="200"/>
    </div>
    <div class="col l3 m3 s12">
-        <img class="materialboxed" src="img/gallery/eleven.jpg" width="200"/>
+        <img class="materialboxed" src="img/gallery/twelve.JPG" width="200"/>
    </div>
    <div class="col l3 m3 s12">
-        <img class="materialboxed" src="img/gallery/twelve.jpg" width="200"/>
-   </div>
-   <div class="col l3 m3 s12">
-        <img class="materialboxed" src="img/gallery/thirteen.jpg" width="200"/>
+        <img class="materialboxed" src="img/gallery/thirteen.JPG" width="200"/>
    </div> </div>
    <div class="row">
    <div class="col l3 m3 s12">
         <img class="materialboxed" src="img/gallery/forteen.jpg" width="200"/>
 </div>
 <div class="col l3 m3 s12">
-        <img class="materialboxed" src="img/gallery/fifteen.jpg" width="200"/>
+        <img class="materialboxed" src="img/gallery/fifteen.JPG" width="200"/>
    </div>
    <div class="col l3 m3 s12">
-        <img class="materialboxed" src="img/gallery/sixteen.jpg" width="200"/>
+        <img class="materialboxed" src="img/gallery/sixteen.JPG" width="200"/>
         </div> 
         <div class="col l3 m3 s12">
-        <img class="materialboxed" src="img/gallery/one.jpg" width="200">
+        <img class="materialboxed" src="img/gallery/one.JPG" width="200">
         </div> </div>
         </center>
 
