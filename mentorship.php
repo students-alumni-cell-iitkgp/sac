@@ -11,10 +11,12 @@
 <style type="text/css">
   
    @media only screen and (min-width: 768px){
-    .mentor-reg a{
+    .mentor-reg a{ margin-left: 100px;
+
       margin-top: 30px;
       display: inline-block;
     }
+
     .mentor-text {
       margin-left: 60px !important;
     }
@@ -29,6 +31,9 @@
       .ac-mentor img{
         margin-left: 80px;
     }
+    p{position:relative;
+left: 60px;
+      padding:6px;}
     }
     
     @media only screen and (max-width: 468px){
@@ -36,7 +41,11 @@
         margin: 0px auto;
         max-width:100%;
 
-    } }
+    }
+     .mentor-text{margin: 0px;}
+     .mentor-top { margin-left:0px;
+      width: 100%;}
+       .mentor-reg a{margin-left: 0px;} }
    
     
 </style>
@@ -52,9 +61,9 @@
 <div class="row">
   <div class="col l8 m8 s12">
 
-    <img src="img/mp.jpg"  class="mentor-top">
+    <img src="img/mp.jpg"  class="mentor-top ">
     <span class="mentor-text" >
-    <p class="z-depth-2" style="position:relative;left:60px;padding:6px;">
+    <p class="z-depth-2">
    The Student Alumni Mentorship Programme, an initiative of the Students&#39; Alumni Cell, IIT Kharagpur was started in the academic session 2011-12, with a motive to help the current students to interact and learn from their Alumni on a personal level. It has been, ever since, a fruitful two-way platform for the exchange of ideas and experiences between the alumni and the current batches of IIT Kharagpur. Under this programme, we invite our alumni across the globe and from different fields to interact with the students and help them build their network and gain new perspective on the possibilities open to them, after graduation.
 For availing this opportunity, register here for the programme..
     </p>
@@ -63,9 +72,9 @@ For availing this opportunity, register here for the programme..
 
   <div  class="col l4 m4 s12 mentor-reg">
     
-<a href="http://www.mentorship.iitkgp.ernet.in/mainpage/index" target="_blank"><input type="submit" value="Students" class="waves-effect waves-light btn-large" style="width:250px;padding-top:15px;margin-left:100px"></a>
+<a href="http://www.mentorship.iitkgp.ernet.in/mainpage/index" target="_blank "><input type="submit" value="Students" class="waves-effect waves-light btn-large" style="width:250px;padding-top:15px;"></a>
 
-<a href="http://www.mentorship.iitkgp.ernet.in/mainpage/index"  target="_blank"><input type="submit" value="Alumni" class="waves-effect waves-light btn-large" style="width:250px;padding-top:15px;margin-left:100px"></a>
+<a href="http://www.mentorship.iitkgp.ernet.in/mainpage/index"  target="_blank "><input type="submit" value="Alumni" class="waves-effect waves-light btn-large" style="width:250px;padding-top:15px;"></a>
   </div>
 </div>
  <div class="row ac-mentor">
