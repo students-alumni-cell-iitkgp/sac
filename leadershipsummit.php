@@ -1,6 +1,7 @@
 <html>
 <head>
 <title>Leadership Summit</title>
+<link rel="icon" href="img/meet_14.png">
 	<link rel="stylesheet" href="css/materialize.min.css">
 	  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 	  <script src="js/materialize.min.js"></script>
@@ -148,13 +149,13 @@ max-width:100%;
           </div>
         </div>
           <!-- Modal Trigger -->
-          <a class="waves-effect waves-black btn modal-trigger" href="#modal1">View More</a>
-          <!-- Modal Structure -->
+         <!-- <a class="waves-effect waves-black btn modal-trigger" href="#modal1">View More</a>
+           Modal Structure 
           <div id="modal1" class="modal">
             <div class="modal-content">
               <h4>Alumni</h4>
               <p>
-              <!--  ***************************************************************************** Modal content *********************************************************************  -->
+              ***************************************************************************** Modal content *********************************************************************
         <div class="col s12 m4 l4">
           <div class="card z-depth-0 _card">
             <div class="card-image">
@@ -241,13 +242,13 @@ max-width:100%;
             </div>
           </div>
         </div>
-         <!--  *****************************************************************************/ Modal content *********************************************************************  -->
+           *****************************************************************************/ Modal content *********************************************************************  
               </p>
             </div>
             <div class="modal-footer">
               <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
             </div>
-          </div>
+          </div> -->
   </div>
   </div>
   </div>

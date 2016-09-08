@@ -177,7 +177,7 @@
   </center>
 </div>
 <div class="row">
-<div class="col l3 s6 m6">
+<div class="col l3 s12 m6">
 <div class="card z-depth-0">
     <div class="card-image waves-effect waves-block waves-light">
      <img class="activator" src="img/latest programs/classgift.jpg" style="height: 225px;" >
@@ -192,7 +192,7 @@
     </div>
   </div>
 </div>
-<div class="col l3 s6 m6">
+<div class="col l3 s12 m6">
 <div class="card z-depth-0">
     <div class="card-image waves-effect waves-block waves-light">
       <img class="activator" src="img/latest programs/mentor.jpg">
@@ -207,7 +207,7 @@
     </div>
   </div>
 </div>
-<div class="col l3 s6 m6">
+<div class="col l3 s12 m6">
 <div class="card z-depth-0">
     <div class="card-image waves-effect waves-block waves-light">
       <img class="activator" src="img/latest programs/guestlecture.jpg">
@@ -222,7 +222,7 @@
     </div>
   </div>
 </div>
-<div class="col l3 s6 m6">
+<div class="col l3 s12 m6">
 <div class="card z-depth-0">
     <div class="card-image waves-effect waves-block waves-light">
       <img class="activator" src="img/latest programs/yearbook.jpg">
