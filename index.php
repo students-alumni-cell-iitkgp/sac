@@ -9,7 +9,7 @@
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
   
-    <script src="http://maps.googleapis.com/maps/api/js"></script>
+    
     <style> 
      @media only screen and (min-width: 768px) {
          .about {
@@ -25,24 +25,7 @@
     }
    </style>
     <script>
-    $(document).ready(function(){
-      // $('.slider').slider({full_width: true});
-      // $('.parallax').parallax();
-      // $('.slider').css('height','580px');
-      // $('.slides').css('height','580px');
-      // var height=$('._footer').height();
-      // $('._wrapper').css('margin-bottom',height);
-      function initialize() {
-       var mapProp = {
-        center:new google.maps.LatLng(51.508742, -0.120850),
-        zoom: 7,
-        mapTypeId: google.maps.MapTypeId.ROADMAP
-      };
-      var map=new google.maps.Map(document.getElementById("googleMap"), mapProp);
-      google.maps.event.addDomListener(window, 'load', initialize);  
-    }
 
-    });
 
     </script>
 </head>

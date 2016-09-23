@@ -10,47 +10,47 @@
 <body> <center>
 	<div class="row">
 		<div class="col l4 m4 s6">
-			<img class="materialboxed" src="img/Alvida/3.jpg" height="160" width="250" >
+			<img class="materialboxed" src="img/Alvida/three.jpg" height="160" width="250" >
 		</div>
 		<div class="col l4 m4 s6">
-			<img class="materialboxed" src="img/Alvida/4.jpg" width="250">
+			<img class="materialboxed" src="img/Alvida/four.jpg" width="250">
 		</div>
 		<div class="col l4 m4 s6">
-			<img  class="materialboxed" src="img/Alvida/5.jpg" height="160" width="250" />
+			<img  class="materialboxed" src="img/Alvida/five.jpg" height="160" width="250" />
 		</div>
 		</div>
 	<div class="row">
 		<div class="col l4 m4 s6">
-			<img class="materialboxed" src="img/Alvida/6.jpg" width="250" >
+			<img class="materialboxed" src="img/Alvida/six.jpg" width="250" >
 		</div>
 		<div class="col l4 m3 s6">
-			<img class="materialboxed" src="img/Alvida/7.jpg" width="250">
+			<img class="materialboxed" src="img/Alvida/seven.jpg" width="250">
 		</div>
 		<div class="col l4 m3 s6">
-			<img  class="materialboxed" src="img/Alvida/8.jpg" width="250" />
+			<img  class="materialboxed" src="img/Alvida/eight.jpg" width="250" />
 		</div>
 	</div>
 	   <div class=" row">
 		   <div class="col l4 m4 s6">
-			   <img class="materialboxed" src="img/Alvida/9.jpg" width="250" >
+			   <img class="materialboxed" src="img/Alvida/nine.jpg" width="250" >
 		   </div>
 		   <div class="col l4 m3 s6">
-			   <img class="materialboxed" src="img/Alvida/10.jpg" width="250">
+			   <img class="materialboxed" src="img/Alvida/ten.jpg" width="250">
 		   </div>
 		   <div class="col l4 m3 s6">
-			   <img  class="materialboxed" src="img/Alvida/11.jpg" width="250" />
+			   <img  class="materialboxed" src="img/Alvida/eleven.jpg" width="250" />
 		   </div>
 
 		</div>
 	<div class=" row">
 		<div class="col l4 m4 s6">
-			<img class="materialboxed" src="img/Alvida/12.jpg" width="250" >
+			<img class="materialboxed" src="img/Alvida/twelve.jpg" width="250" >
 		</div>
 		<div class="col l4 m3 s6">
-			<img class="materialboxed" src="img/Alvida/13.jpg" width="250">
+			<img class="materialboxed" src="img/Alvida/thirteen.jpg" width="250">
 		</div>
 		<div class="col l4 m3 s6">
-			<img  class="materialboxed" src="img/Alvida/14.jpg" width="250" />
+			<img  class="materialboxed" src="img/Alvida/fourteen.jpg" width="250" />
 		</div>
 
 	</div>
