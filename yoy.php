@@ -29,7 +29,7 @@
 </div>
  <div class="container" style="width:100%;">
 	<div class="row" style="margin:auto;width:90%;">
-	<div class="col s6 m6 l4">
+	<div class="col s5.5 m6 l4">
           <div class="card z-depth-0 _card">
             <div class="card-image">
               <img src="img/yoy/2016.jpg" height="480px">
@@ -41,7 +41,7 @@
             
           </div>
 	</div>
-	<div class="col s6 m6 l4">
+	<div class="col s5.5 m6 l4">
           <div class="card z-depth-0 _card">
             <div class="card-image">
               <img src="img/yoy/2015.jpg" height="480px">
@@ -53,7 +53,7 @@
             
           </div>
 	</div>
-	<div class="col s6 m6 l4">
+	<div class="col s5.5 m6 l4">
           <div class="card z-depth-0 _card">
             <div class="card-image">
               <img src="img/yoy/2014.jpg" height="480px">
@@ -67,7 +67,7 @@
 	</div>
 	</div>
 	<div class="row" style="margin:auto;width:90%;">
-	<div class="col s6 m6 l4">
+	<div class="col s5.5 m6 l4">
           <div class="card z-depth-0 _card">
             <div class="card-image">
               <img src="img/yoy/2010.jpg" height="480px">
@@ -79,7 +79,7 @@
             
           </div>
 	</div>
-	<div class="col s6 m6 l4">
+	<div class="col s5.5 m6 l4">
           <div class="card z-depth-0 _card">
             <div class="card-image">
               <img src="img/yoy/2008.jpg" height="480px">
@@ -91,7 +91,7 @@
             
           </div>
 	</div>
-	<div class="col s6 m6 l4">
+	<div class="col s5.5 m6 l4">
           <div class="card z-depth-0 _card">
             <div class="card-image">
               <img src="img/yoy/2006.jpg" height="480px">
