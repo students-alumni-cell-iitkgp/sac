@@ -103,7 +103,18 @@ $result = $connection->query($query);
     </script>
 
 <style type="text/css">
-   @media only screen and (min-width: 768px){
+
+    @media only screen and (max-width: 769px){
+        ._wrapper{
+            width: 160%;
+
+        }
+
+
+    }
+
+
+   @media only screen and (min-width: 769px){
      .ac-head{
        margin-top:-20px;
      }
@@ -117,6 +128,7 @@ $result = $connection->query($query);
       .ac-aam img{
         margin-left: 80px;
     }
+
    } 
     @media only screen and (max-width: 468px){
       .ac-aam img{
@@ -146,6 +158,7 @@ $result = $connection->query($query);
 <body>
 <div class="_wrapper">
 <?php include 'navbar.php';?>
+    
   <div class="row ac-aam">
     <img src="img/indexslider/annualalumnimeet1.jpg" align="middle">
   </div>

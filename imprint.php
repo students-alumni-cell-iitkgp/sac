@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script src="http://maps.googleapis.com/maps/api/js"></script>
+
 <style type="text/css">
   
    @media only screen and (min-width: 768px){

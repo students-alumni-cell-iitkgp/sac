@@ -9,34 +9,23 @@
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
   
-    <script src="http://maps.googleapis.com/maps/api/js"></script>
+
     <style> 
-     @media only screen and (min-width: 768px){
-     .about{
-      padding: 6px 100px;
-    }
+     @media only screen and (min-width: 768px) {
+         .about {
+             padding: 6px 100px;
+         }
+
+     }
+         @media only screen and (max-width: 414px){
+             .about{
+                 padding-left: .5em;
+             }
       
     }
    </style>
     <script>
-    $(document).ready(function(){
-      // $('.slider').slider({full_width: true});
-      // $('.parallax').parallax();
-      // $('.slider').css('height','580px');
-      // $('.slides').css('height','580px');
-      // var height=$('._footer').height();
-      // $('._wrapper').css('margin-bottom',height);
-      function initialize() {
-       var mapProp = {
-        center:new google.maps.LatLng(51.508742, -0.120850),
-        zoom: 7,
-        mapTypeId: google.maps.MapTypeId.ROADMAP
-      };
-      var map=new google.maps.Map(document.getElementById("googleMap"), mapProp);
-      google.maps.event.addDomListener(window, 'load', initialize);  
-    }
 
-    });
 
     </script>
 </head>
@@ -113,7 +102,7 @@
     </div>
     <div class="row " >
     <div class="z-depth-2 about">
-      <p>The Students&#8217; Alumni Cell, IIT Kharagpur is a voluntary student body working under the aegis 
+      <p>The Students&#8217; Alumni Cell, IIT Kharagpur is a voluntary student body working under the aegis
       of the Office of Alumni Affairs and International Relations. 
       It strives to bridge the gap between IIT Kharagpur and its esteemed alumni community
       . Over the course of past few years, the Students' Alumni Cell has emerged as a key organ of the Office of Alumni Affairs and International Relations in executing its yearlong events and activities. The Students' Alumni Cell continuously endeavours to strengthen the relations of the alumni of this institute and their alma mater. Formed as and operating under the Dean, Alumni Affairs and International Relations, the Students' Alumni Cell has been instrumental in organising the Annual Alumni Meet, publishing the quarterly alumni newsletter (KGPian), the annual literary magazine (Yearnings of Yore) and the Annual Yearbook (Colours Of Life) and among other things like organising regular guest lectures by distinguished alumni in the campus. The Students' Alumni Cell also operates the Student - Alumni Mentorship Programme, My Imprint (Giving Back - Alumni contribution) and organises Alvida (the annual farewell dinner). We look forward to taking up more initiatives and organizing more such events to foster the bond between the institute and the alumni.
