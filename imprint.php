@@ -8,7 +8,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+<<<<<<< HEAD
+
+=======
    
+>>>>>>> 50c413e47c716e8da9b081651931089a223ec420
 <style type="text/css">
   
    @media only screen and (min-width: 768px){
