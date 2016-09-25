@@ -200,7 +200,23 @@
       
      </div>
 
-    <div id="2014" class="col s12">2014</div>
+    <div id="2014" class="col s12">
+    	<div class="row">
+    		<ul>
+    			<span><b>
+    			<li>Arpit Gupta</li>
+    			<li>Manish Goyal</li>
+    			<li>Aditi Shrivastav</li>
+    			<li>Atal A. Aggarwal</li>
+    			<li>Bhupender Singh</li>
+    			<li>Chandreyee Bhaumik</li>
+    			<li>Naman Nishesh</li>
+    			<li>Rahul Mishra</li>
+    			<li>Satyajit Kumar</li><br>
+    			</b></span>
+    		</ul>
+    	</div>
+    </div>
     <div id="2013" class="col s12">2013</div>
     <div id="2012" class="col s12">2012</div>
   </div>
