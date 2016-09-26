@@ -5,8 +5,15 @@
         @media only screen and (max-width: 992px){
             #map{
                 display: none;
+
             }
+
         }
+        #social_icon{
+            padding-left: 4em;
+
+        }
+
 
     </style>
     </head>
@@ -17,7 +24,7 @@
     <div class="row">
       <div class="col m10 l4">
                 <!--h5 class="white-text">Footer Content</h5-->
-                <p class="grey-text text-lighten-4">Office of Alumni Affairs & International Relations,<br>
+                <p class="grey-text text-lighten-4" style="padding-left: 1em">Office of Alumni Affairs & International Relations,<br>
                    Indian Institute of Technology, Kharagpur<br>
                     Pin-721302, West Bengal, India<br>
                     Ph: 03222-282236 <br>
@@ -28,7 +35,7 @@
 
         <div id="social_icons" class="col l4 m6 ac-soc">
 
-            <ul class="soc" style="padding-left: 5em">
+            <ul id="social_icon" class="soc">
                 <li><a class="soc-facebook" href="http://www.facebook.com/iitkgp.alumnicell?fref=ts&ref=br_tf" target="_blank"></a></li>
                 <li><a class="soc-twitter"  href="http://twitter.com/IITKgpAlumni" target="_blank"></a></li>
 

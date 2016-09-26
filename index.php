@@ -9,7 +9,7 @@
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
   
-    
+
     <style> 
      @media only screen and (min-width: 768px) {
          .about {
