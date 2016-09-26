@@ -28,6 +28,14 @@
         }
 
     }
+      @media only screen and (max-width: 415px){
+       
+       #senior_class_gift{
+
+            font-size: 56%;
+        }
+
+    }
 
    @media only screen and (min-width: 768px){
     
