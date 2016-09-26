@@ -10,7 +10,14 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
 <style type="text/css">
-  
+    @media only screen and (max-width: 768px){
+
+        .class_gift_Img{
+
+            padding-left: 9%;
+        }
+    }
+
    @media only screen and (min-width: 768px){
     
     .imprint-top {
@@ -81,7 +88,7 @@
         <h class="subheading"><b> Class Gift 2015 </b> </h>
       </center>
     </div>
-   <img src="img/latest programs/classgift.jpg" style="max-width:100%;">
+   <img class="class_gift_Img" src="img/latest programs/classgift.jpg" style="max-width:100%;">
     </div>
      <div class="col l6 s12 m12">
       <div class="heading">
@@ -89,7 +96,7 @@
         <h class="subheading"><b> Class Gift 2014</b> </h>
       </center>
     </div>
-<img src="img/im14.jpg" style="max-width:100%;">
+<img src="img/im14.jpg" class="class_gift_Img" style="max-width:100%;">
     </div>
   </div>
   </div>
