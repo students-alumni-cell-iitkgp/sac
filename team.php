@@ -190,8 +190,9 @@
         <li>Manognya Deepthi G</li>
          
         <li> Soumyadeep Ghosh</li>
-        <li> Sanket Rihen</li> 
-        <li>Chheda Raja Barnwal</li>
+        <li> Sanket</li> 
+        <li>Rihen Chheda</li>
+        <li> Raja Barnwal</li>
         <li>Siddharth Kannan</li>
         <li>Ashish Verma</li> </b> </span>
       </ul>
