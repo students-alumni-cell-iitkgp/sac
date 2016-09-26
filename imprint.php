@@ -10,12 +10,19 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
 <style type="text/css">
-    @media only screen and (max-width: 768px){
+    @media only screen and (max-width: 769px){
 
         .class_gift_Img{
 
             padding-left: 9%;
         }
+    }
+    @media only screen and (max-width: 415px){
+        .class_gift_Img{
+
+            padding-left: 2%;
+        }
+
     }
 
    @media only screen and (min-width: 768px){
