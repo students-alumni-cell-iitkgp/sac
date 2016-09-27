@@ -67,3 +67,7 @@
 ::-webkit-scrollbar {
 	display: none;
 }
+.text_align{
+
+	text-align: justify;
+}
