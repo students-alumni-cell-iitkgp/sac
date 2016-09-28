@@ -12,6 +12,29 @@
 <div class="col l3 m3 s12">
         <img class="materialboxed" src="img/gallery/two.jpg" width="200" >
     </div>
+<<<<<<< HEAD
+    <div class="col l3 m3 s6">
+        <img class="materialboxed" src="img/gallery/7.jpg" width="200">
+</div>
+<div class="col l3 m3 s6">
+        <img  class="materialboxed" src="img/gallery/9.jpg" width="200" height="140"/>
+    </div>
+    <div class="col l3 m3 s6">
+        <img class="materialboxed" src="img/gallery/63.jpg" width="200"/> 
+</div> </div>
+<div class="row">
+<div class="col l3 m3 s6">
+        <img class="materialboxed" src="img/gallery/18.jpg" width="200" height="140"/>
+</div>
+<div class="col l3 m3 s6">
+        <img class="materialboxed" src="img/gallery/43.jpg" width="200"/>
+    </div>
+    <div class="col l3 m3 s6">
+        <img  class="materialboxed" src="img/gallery/31.jpg" width="200"/>
+    </div>
+    <div class="col l3 m3 s6">
+        <img class="materialboxed" src="img/gallery/46.jpg" width="200"/>
+=======
     <div class="col l3 m3 s12">
         <img class="materialboxed" src="img/gallery/three.JPG" width="200">
 </div>
@@ -33,6 +56,7 @@
     </div>
     <div class="col l3 m3 s12">
         <img class="materialboxed" src="img/gallery/nine.JPG" width="200"/>
+>>>>>>> e6e1453ca114f3777a31acde221251db7d9dd4d5
    </div> </div>
    <div class="row">
    <div class="col l3 m3 s12">
