@@ -213,13 +213,27 @@
     			<li>Chandreyee Bhaumik</li>
     			<li>Naman Nishesh</li>
     			<li>Rahul Mishra</li>
-    			<li>Satyajit Kumar</li><br>
+    			<li>Satyajit Kumar</li><br><br>
     			</b></span>
     		</ul>
     	</div>
     </div>
     <div id="2013" class="col s12">2013</div>
-    <div id="2012" class="col s12">2012</div>
+    <div id="2012" class="col s12">
+      <div class="row">
+        <ul>
+          <span><b>                          
+            <li>Nimish Goel</li>
+            <li>Tanya Mondal</li>                       
+            <li>Akshay Kumar</li>
+            <li>Karan Kakwani</li>
+            <li>Himanshu Shrivastava</li>
+            <li>Sahil Jalan</li>
+            <li>utkarsh jain</li><br><br><br><br>
+          </b></span>
+        </ul>
+      </div>
+    </div>
   </div>
   
   <?php include 'footer.php';?>
