@@ -181,15 +181,11 @@ $result = $connection->query($query);
   <div class="col l4 s12 m4">
   <div class="info z-depth-2 aam-reg" class="valign-wrapper">
     <center>
-<<<<<<< HEAD
-      <a href="signup.php" target="_blank"><input type="submit" value="Register" class="waves-effect waves-light btn-large" style="width:200px;padding-top: 1em; "></a>
-=======
       <a href="signup.php" class="waves-effect waves-light btn-large" style="width:250px;" target="_blank">Register</a>
->>>>>>> e6e1453ca114f3777a31acde221251db7d9dd4d5
     </center>  
 <!-- Modal Trigger -->
     <center>
-      <a class="waves-effect waves-light btn-large modal-trigger" href="#modal1" style="width:200px;">LOGIN</a>
+      <a class="waves-effect waves-light btn-large modal-trigger" href="#modal1" style="width:250px;">LOGIN</a>
     </center>
   
 <!-- Modal Structure -->
