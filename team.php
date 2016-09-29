@@ -194,7 +194,7 @@
         <li>Rihen Chheda</li>
         <li> Raja Barnwal</li>
         <li>Siddharth Kannan</li>
-        <li>Ashish Verma</li> </b> </span>
+        <li>Ashish Verma</li> <br></b> </span>
       </ul>
      </div>
      
@@ -213,12 +213,29 @@
     			<li>Chandreyee Bhaumik</li>
     			<li>Naman Nishesh</li>
     			<li>Rahul Mishra</li>
-    			<li>Satyajit Kumar</li><br><br>
+    			<li>Satyajit Kumar</li><br><br><br>
     			</b></span>
     		</ul>
     	</div>
     </div>
-    <div id="2013" class="col s12">2013</div>
+    <div id="2013" class="col s12">
+      <div class="row">
+        <ul><span><b>
+        <li>Vedang Deshpande</li>
+        <li>Aditi Sharma</li>
+        <li>Saumaric Dangwal</li>
+        <li>Abhinay Vyas</li>
+        <li>Pursottam Soni</li>
+        <li>Subramani Bharathi</li>
+        <li>Niharika Tomar</li>
+        <li>Abhishek Kanchi</li>
+        <li>Mridul Mittal</li>
+        <li>Suman Agarwal</li>
+        <li>Anuj Bothra</li>
+        <li>Uday Shankar Das</li>
+        </b></span></ul>
+      </div>
+    </div>
     <div id="2012" class="col s12">
       <div class="row">
         <ul>
@@ -229,7 +246,7 @@
             <li>Karan Kakwani</li>
             <li>Himanshu Shrivastava</li>
             <li>Sahil Jalan</li>
-            <li>utkarsh jain</li><br><br><br><br>
+            <li>utkarsh jain</li><br><br><br><br><br>
           </b></span>
         </ul>
       </div>
