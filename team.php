@@ -239,14 +239,16 @@
     <div id="2012" class="col s12">
       <div class="row">
         <ul>
-          <span><b>                          
+          <span><b>  
+          <li>Apoorv Jain</li>
+          <li>Utkarsh Jain</li>                        
             <li>Nimish Goel</li>
             <li>Tanya Mondal</li>                       
             <li>Akshay Kumar</li>
             <li>Karan Kakwani</li>
             <li>Himanshu Shrivastava</li>
             <li>Sahil Jalan</li>
-            <li>utkarsh jain</li><br><br><br><br><br>
+            <br><br><br><br>
           </b></span>
         </ul>
       </div>
