@@ -140,6 +140,9 @@ $result = $connection->query($query);
       width: 330px;
       text-align: center;
     }
+    .subheading {
+      font-size: 22px;
+    }
     .aam-reg{
       height: 150px;
       margin-top: 10px;
