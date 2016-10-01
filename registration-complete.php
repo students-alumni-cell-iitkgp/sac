@@ -20,7 +20,7 @@
           <div align="center">
             <h2>Successfully registered!</h2>
           </div>
-          <p>
+          <p class="text_align">
             You have successfully registered for the 14th Annual Alumni Meet. We will send you an email when you need to come back here!
           </p>
           <div class="row">

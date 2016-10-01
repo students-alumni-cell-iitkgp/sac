@@ -10,7 +10,33 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
 <style type="text/css">
-  
+    @media only screen and (max-width: 769px){
+
+        .class_gift_Img{
+
+            padding-left: 9%;
+        }
+    }
+    @media only screen and (max-width: 415px){
+        .class_gift_Img{
+
+            padding-left: 2%;
+        }
+        #senior_class_gift{
+
+            font-size: 75%;
+        }
+
+    }
+      @media only screen and (max-width: 415px){
+       
+       #senior_class_gift{
+
+            font-size: 56%;
+        }
+
+    }
+
    @media only screen and (min-width: 768px){
     
     .imprint-top {
@@ -67,11 +93,11 @@
   </div>
   <div class="row">
     <div class="heading">
-      <center>
-        <h class="subheading"><b>What is Senior Class Gift 2015 ?</b> </h>
+      <center >
+        <h  class="subheading"><b id="senior_class_gift">What is Senior Class Gift 2015 ?</b> </h>
       </center>
     </div>
-                <p style="padding:20px;" class="z-depth-2">Under this program, the graduating batches are given the chance to forfeit their caution deposits and the amount generated is partially utilized currently in making their Graduating Class Gift and partially goes towards endowment for future use albeit for students&#39; services only. It is an opportunity for the soon to be alumni to get a head-start in paying their tributes to their alma mater. Their gifts would impact the lives of their juniors for years to come. This challenge offers the senior class not only to make a gift but to leave behind an imprint. Other than the obvious visible benefits in the form of amenities and services, the Class Gift also contributes to the brand value of IIT Kgp, the same brand that propels them ahead of others in their professional and personal lives after college.</p> <hr>
+                <p style="padding:20px;" class="z-depth-2 text_align">Under this program, the graduating batches are given the chance to forfeit their caution deposits and the amount generated is partially utilized currently in making their Graduating Class Gift and partially goes towards endowment for future use albeit for students&#39; services only. It is an opportunity for the soon to be alumni to get a head-start in paying their tributes to their alma mater. Their gifts would impact the lives of their juniors for years to come. This challenge offers the senior class not only to make a gift but to leave behind an imprint. Other than the obvious visible benefits in the form of amenities and services, the Class Gift also contributes to the brand value of IIT Kgp, the same brand that propels them ahead of others in their professional and personal lives after college.</p> <hr>
 
   </div>
   <div class="row">
@@ -81,7 +107,7 @@
         <h class="subheading"><b> Class Gift 2015 </b> </h>
       </center>
     </div>
-   <img src="img/latest programs/classgift.jpg" style="max-width:100%;">
+   <img class="class_gift_Img" src="img/latest programs/classgift.jpg" style="max-width:100%;">
     </div>
      <div class="col l6 s12 m12">
       <div class="heading">
@@ -89,7 +115,7 @@
         <h class="subheading"><b> Class Gift 2014</b> </h>
       </center>
     </div>
-<img src="img/im14.jpg" style="max-width:100%;">
+<img src="img/im14.jpg" class="class_gift_Img" style="max-width:100%;">
     </div>
   </div>
   </div>
