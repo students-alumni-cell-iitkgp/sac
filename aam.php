@@ -87,7 +87,7 @@ $result = $connection->query($query);
 <html>
 <head>
 <title>Annual Alumni Meet &middot; IIT Kharagpur</title>
-<link rel="stylesheet" href="css/materialize.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
 <link rel="icon"  href="img/meet_14.png">
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="js/materialize.min.js"></script>
@@ -191,7 +191,7 @@ $result = $connection->query($query);
   </div>
   </div>
   <div class="col l4 s12 m4">
-  <div class="info z-depth-2 aam-reg" class="valign-wrapper">
+  <div class="info aam-reg" class="valign-wrapper">
     <center>
       <a href="signup.php" class="waves-effect waves-light btn-large" style="width:250px;" target="_blank">Register</a>
     </center>  
