@@ -24,7 +24,7 @@
     <div class="row">
       <div class="col m10 l4">
                 <!--h5 class="white-text">Footer Content</h5-->
-                <p class="grey-text text-lighten-4" style="padding-left: 1em">Office of Alumni Affairs & International Relations,<br>
+                <p class="grey-text text-lighten-4 text_align" style="padding-left: 1em">Office of Alumni Affairs & International Relations,<br>
                    Indian Institute of Technology, Kharagpur<br>
                     Pin-721302, West Bengal, India<br>
                     Ph: 03222-282236 <br>
