@@ -1,27 +1,27 @@
 <html>
 <head>
-	<title>The Team | Students' Alumni Cell &middot; IIT Kharagpur</title>
+  <title>The Team | Students' Alumni Cell &middot; IIT Kharagpur</title>
    <link rel="icon" href="img/meet_14.png">
-	  <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/materialize.min.css">
     <link rel="stylesheet" type="text/css" href="css/social_icon.css">
-	  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-	  <script src="js/materialize.min.js"></script>
-	  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	  <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 <?php include'navbar.php';?>
-	
-	<div class="container">
-	<div class="row">
-	<div class="heading">
-		<center>
-			<h class="subheading "><b>General Secretaries</b></h>
-		</center>
-	</div>
-	<div class="col l4 offset-l2">
-	<div class="card small hoverable">
+  
+  <div class="container">
+  <div class="row">
+  <div class="heading">
+    <center>
+      <h class="subheading "><b>General Secretaries</b></h>
+    </center>
+  </div>
+  <div class="col l4 offset-l2">
+  <div class="card small hoverable">
     <div class="card-image waves-effect waves-block waves-light">
       <img class="activator responsive-img " src="img/team/vaibhav.jpg">
     </div>
@@ -32,9 +32,9 @@
     </div>
    
   </div>
-	</div>
-	<div class="col l4 ">
-	<div class="card small hoverable">
+  </div>
+  <div class="col l4 ">
+  <div class="card small hoverable">
     <div class="card-image waves-effect waves-block waves-light">
       <img class="activator" src="img/team/mridul.jpg">
     </div>
@@ -45,16 +45,16 @@
     </div>
     
   </div>
-	</div>
-	</div>
+  </div>
+  </div>
   <div class="heading">
     <center>
       <h class="subheading"><b>Coordinators</b></h>
     </center>
   </div>
-	<div class="row">
-	<div class="col l4">
-	<div class="card small hoverable">
+  <div class="row">
+  <div class="col l4">
+  <div class="card small hoverable">
     <div class="card-image waves-effect waves-block waves-light">
       <img class="activator" src="img/team/afzal.jpg">
     </div>
@@ -65,9 +65,9 @@
     </div>
     
   </div>
-	</div>
-	<div class="col l4 ">
-	<div class="card small hoverable">
+  </div>
+  <div class="col l4 ">
+  <div class="card small hoverable">
     <div class="card-image waves-effect waves-block waves-light">
       <img class="activator" src="img/team/ashay.jpg">
     </div>
@@ -78,9 +78,9 @@
     </div>
     
   </div>
-	</div>
-	<div class="col l4">
-	<div class="card small hoverable">
+  </div>
+  <div class="col l4">
+  <div class="card small hoverable">
     <div class="card-image waves-effect waves-block waves-light">
       <img class="activator" src="img/team/ikde.jpg">
     </div>
@@ -91,9 +91,9 @@
     </div>
     
   </div>
-	</div>
-	<div class="col l4 ">
-	<div class="card small hoverable">
+  </div>
+  <div class="col l4 ">
+  <div class="card small hoverable">
     <div class="card-image waves-effect waves-block waves-light">
       <img class="activator" src="img/team/harsh.jpg">
     </div>
@@ -104,10 +104,10 @@
     </div>
     
   </div>
-	</div>
-	
-	<div class="col l4 ">
-	<div class="card small hoverable">
+  </div>
+  
+  <div class="col l4 ">
+  <div class="card small hoverable">
     <div class="card-image waves-effect waves-block waves-light">
       <img class="activator" src="img/team/pallavi.jpg">
     </div>
@@ -118,9 +118,9 @@
     </div>
    
   </div>
-	</div>
-	<div class="col l4 ">
-	<div class="card small hoverable">
+  </div>
+  <div class="col l4 ">
+  <div class="card small hoverable">
     <div class="card-image waves-effect waves-block waves-light">
       <img class="activator" src="img/team/shruti.jpg">
     </div>
@@ -132,14 +132,14 @@
     </div>
    
   </div>
-	</div>
+  </div>
   </div>
   <div class="heading">
     <center><h class="subheading"><b>Web Heads</b></h></center>
   </div>
-		<div class="row">
-	<div class="col l4 offset-l2">
-	<div class="card small hoverable">
+    <div class="row">
+  <div class="col l4 offset-l2">
+  <div class="card small hoverable">
     <div class="card-image waves-effect waves-block waves-light">
       <img class="activator" src="img/team/punit.jpg">
     </div>
@@ -150,9 +150,9 @@
     </div>
     
   </div>
-	</div>
-	<div class="col l4 ">
-	<div class="card small hoverable">
+  </div>
+  <div class="col l4 ">
+  <div class="card small hoverable">
     <div class="card-image waves-effect waves-block waves-light">
       <img class="activator" src="img/team/utsav.jpg">
     </div>
@@ -163,99 +163,96 @@
     </div>
    
   </div>
-	</div>
-	
-	</div>
+  </div>
   
-	</div>
+  </div>
+  
+  </div>
+  <div class="heading">
+    <center><h class="subheading">Previous Teams</h></center>
+  </div>
 <div class="row">
-    <div class="col s12">
-      <ul class="tabs">
-        <li class="tab col s3"><a href="#2015">2015</a></li>
-        <li class="tab col s3"><a href="#2014">2014</a></li>
-        <li class="tab col s3"><a href="#2013">2013</a></li>
-        <li class="tab col s3"><a href="#2012">2012</a></li>
-      </ul>
-    </div>
+    
+      <ul><b>
+        <li class="col l3 center-align">2015</li>
+        <li class="col l3 center-align">2014</li>
+        <li class="col l3 center-align">2013</li>
+        <li class="col l3 center-align">2012</li>
+      </b></ul>
+     </div>
+<hr>
+    <div class="row">
 
-     <div id="2015" class="col s12">
+     <div id="2015" class="col l3 center-align">
      
-      <div class="row">
+      
       
       <ul>
         <span><b> <li>Pranshu Jain</li>
         <li>Rohan Gupta</li>
         <li>Akash Tulsani</li>
         <li>Ankit Sharma</li>
+        <li>Ashish Verma</li>
         <li>Manognya Deepthi G</li>
-         
-        <li> Soumyadeep Ghosh</li>
-        <li> Sanket</li> 
-        <li>Rihen Chheda</li>
         <li> Raja Barnwal</li>
+        <li>Rihen Chheda</li>
+        <li> Sanket</li>
         <li>Siddharth Kannan</li>
-        <li>Ashish Verma</li> <br></b> </span>
-      </ul>
-     </div>
+        <li> Soumyadeep Ghosh</li>
+          <br></b> </span>
+          </ul>
+           </div>
      
       
-     </div>
 
-    <div id="2014" class="col s12">
-    	<div class="row">
-    		<ul>
-    			<span><b>
-    			<li>Arpit Gupta</li>
-    			<li>Manish Goyal</li>
-    			<li>Aditi Shrivastav</li>
-    			<li>Atal A. Aggarwal</li>
-    			<li>Bhupender Singh</li>
-    			<li>Chandreyee Bhaumik</li>
-    			<li>Naman Nishesh</li>
-    			<li>Rahul Mishra</li>
-    			<li>Satyajit Kumar</li><br><br><br>
-    			</b></span>
-    		</ul>
-    	</div>
-    </div>
-    <div id="2013" class="col s12">
-      <div class="row">
-        <ul><span><b>
-        <li>Vedang Deshpande</li>
-        <li>Aditi Sharma</li>
-        <li>Saumaric Dangwal</li>
-        <li>Abhinay Vyas</li>
-        <li>Pursottam Soni</li>
-        <li>Subramani Bharathi</li>
-        <li>Niharika Tomar</li>
-        <li>Abhishek Kanchi</li>
-        <li>Mridul Mittal</li>
-        <li>Suman Agarwal</li>
-        <li>Anuj Bothra</li>
-        <li>Uday Shankar Das</li>
-        </b></span></ul>
+    <div id="2014" class="col l3 center-align">
+        <ul>
+          <span><b>
+          <li>Arpit Gupta</li>
+          <li>Manish Goyal</li>
+          <li>Aditi Shrivastav</li>
+          <li>Atal A. Aggarwal</li>
+          <li>Chandreyee Bhaumik</li>
+          <li>Naman Nishesh</li>
+          <li>Rahul Mishra</li>
+          <li>Satyajit Kumar</li><br><br><br><br>
+          </b></span>
+        </ul>
       </div>
-    </div>
-    <div id="2012" class="col s12">
-      <div class="row">
+    <div id="2013" class="col l3 center-align">
+        <ul><span><b>
+        <li>Aditi Sharma</li>
+        <li>Vedang Deshpande</li>
+
+         <li>Abhinay Vyas</li>
+          <li>Abhishek Kanchi</li>
+           <li>Anuj Bothra</li>
+          <li>Saumaric Dangwal</li>
+          <li>Mridul Mittal</li>
+          <li>Niharika Tomar</li>
+         <li>Pursottam Soni</li>
+         <li>Subramani Bharathi</li>
+         <li>Suman Agarwal</li>
+         <li>Uday Shankar Das</li>
+           </b></span></ul>
+            </div>
+    <div id="2012" class="col l3 center-align">
         <ul>
           <span><b>  
           <li>Apoorv Jain</li>
           <li>Utkarsh Jain</li>                        
-            <li>Nimish Goel</li>
-            <li>Tanya Mondal</li>                       
             <li>Akshay Kumar</li>
-            <li>Karan Kakwani</li>
             <li>Himanshu Shrivastava</li>
+            <li>Karan Kakwani</li>     
+            <li>Nimish Goel</li>
             <li>Sahil Jalan</li>
-            <br><br><br><br>
-          </b></span>
-        </ul>
+            <li>Tanya Mondal</li>                       
+              <br><br><br><br>
+              </b></span>
+              </ul>
       </div>
     </div>
-  </div>
-  
-  <?php include 'footer.php';?>
+   <?php include 'footer.php';?>
 </body>
 
 </html>
