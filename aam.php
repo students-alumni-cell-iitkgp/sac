@@ -126,11 +126,15 @@ $result = $connection->query($query);
       display: inline-block;
     }
       .ac-aam img{
-        margin-left: 80px;
+        margin-left: 0px;
     }
 
    } 
     @media only screen and (max-width: 468px){
+    *{
+    margin:0px;
+    padding:0px;}
+
       .ac-aam img{
     margin: 0px auto;
     max-width:100%;
@@ -149,8 +153,16 @@ $result = $connection->query($query);
     }
     .aam-reg a{
       margin-top: 10px;
-    }
-  } 
+    } 
+    .view{
+    position:absolute;
+    left:0px;
+
+}
+   .foter{
+   position:relative;
+   top:2200px;}
+  }
 </style>
     <script>
     $(document).ready(function(){
@@ -220,11 +232,13 @@ $result = $connection->query($query);
   </div>
   </div>
   </div>
-  <div class="info row">
+  
+  <div class="info row view">
   <?php include 'gallery.php';?>
   </div>
   </div>
-  <?php include 'footer.php';?>
+  <div class="foter">
+  <?php include 'footer.php';?></div>
  
   </body>
   </html>
