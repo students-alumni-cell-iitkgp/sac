@@ -179,7 +179,7 @@ $result = $connection->query($query);
   </div>
   </div>
   <div class="col l4 s12 m4">
-  <div class="info z-depth-2 aam-reg" class="valign-wrapper">
+  <div class="info aam-reg" class="valign-wrapper">
     <center>
       <a href="signup.php" class="waves-effect waves-light btn-large" style="width:250px;" target="_blank">Register</a>
     </center>  
