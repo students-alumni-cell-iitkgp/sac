@@ -28,7 +28,7 @@ if ($(window).width()<767 ) {$("#loader").remove();}
 <head>
     <title>Students Alumni Cell &middot; IIT Kharagpur</title>
     <link rel="icon" href="img/meet_14.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+    <link rel="stylesheet" href="css/materialize.min.css">
      <script src="js/materialize.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">

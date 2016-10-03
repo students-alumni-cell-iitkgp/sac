@@ -21,7 +21,7 @@
     </center>
   </div> </div>
   <div class="row">
-  <div class="col l4 offset-l2">
+  <div class="col l4 m6 s12 m6 s12 offset-l2">
   <div class="card small hoverable">
     <div class="card-image ">
       <img class=" responsive-img " src="img/team/vaibhav.jpg">
@@ -39,7 +39,7 @@
   </div>
   </div> 
 
-  <div class="col l4 ">
+  <div class="col l4 m6 s12 ">
   <div class="card small hoverable">
     <div class="card-image">
       <img class="responsive-img" src="img/team/mridul.jpg">
@@ -66,7 +66,7 @@
     </center>
   </div>
   <div class="row">
-  <div class="col l4">
+  <div class="col l4 m6 s12">
   <div class="card small hoverable">
     <div class="card-image ">
       <img class="responsive-img" src="img/team/afzal.jpg">
@@ -83,7 +83,7 @@
   </div>
   </div>
 
-  <div class="col l4 ">
+  <div class="col l4 m6 s12 ">
   <div class="card small hoverable">
     <div class="card-image ">
       <img class="" src="img/team/ashay.jpg">
@@ -101,7 +101,7 @@
   </div>
   </div>
 
-  <div class="col l4">
+  <div class="col l4 m6 s12">
   <div class="card small hoverable">
     <div class="card-image ">
       <img class="" src="img/team/ikde.jpg">
@@ -119,7 +119,7 @@
   </div>
   </div>
   <div class="row">
-  <div class="col l4 ">
+  <div class="col l4 m6 s12 ">
   <div class="card small hoverable">
     <div class="card-image ">
       <img class="" src="img/team/harsh.jpg">
@@ -135,7 +135,7 @@
     </div>
   </div> </div>
   
-  <div class="col l4 ">
+  <div class="col l4 m6 s12 ">
   <div class="card small hoverable">
     <div class="card-image ">
       <img class="" src="img/team/pallavi.jpg">
@@ -152,7 +152,7 @@
     </div>
   </div> </div>
         
-  <div class="col l4 ">
+  <div class="col l4 m6 s12 ">
   <div class="card small hoverable">
     <div class="card-image ">
       <img class="" src="img/team/shruti.jpg">
@@ -174,7 +174,7 @@
     <center><h class="subheading"><b>Web Heads</b></h></center>
   </div>
     <div class="row">
-  <div class="col l4 offset-l2">
+  <div class="col l4 m6 s12 offset-l2">
   <div class="card small hoverable">
     <div class="card-image ">
       <img class="" src="img/team/punit.jpg">
@@ -191,7 +191,7 @@
     </div>
   </div>
    </div>
-  <div class="col l4 ">
+  <div class="col l4 m6 s12 ">
   <div class="card small hoverable">
     <div class="card-image ">
       <img class="" src="img/team/utsav.jpg">
@@ -215,16 +215,16 @@
 <div class="row">
     
       <ul><b>
-        <li class="col l3 center-align">2015</li>
-        <li class="col l3 center-align">2014</li>
-        <li class="col l3 center-align">2013</li>
-        <li class="col l3 center-align">2012</li>
+        <li class="col l3 m3 s3 center-align">2015</li>
+        <li class="col l3 m3 s3 center-align">2014</li>
+        <li class="col l3 m3 s3 center-align">2013</li>
+        <li class="col l3 m3 s3 center-align">2012</li>
       </b></ul>
      </div>
 <hr>
     <div class="row">
 
-     <div id="2015" class="col l3 center-align">
+     <div id="2015" class="col l3 m3 s3 center-align">
      
       
       
@@ -246,7 +246,7 @@
      
       
 
-    <div id="2014" class="col l3 center-align">
+    <div id="2014" class="col l3 m3 s3 center-align">
         <ul>
           <span><b>
           <li>Arpit Gupta</li>
@@ -260,7 +260,7 @@
           </b></span>
         </ul>
       </div>
-    <div id="2013" class="col l3 center-align">
+    <div id="2013" class="col l3 m3 s3 center-align">
         <ul><span><b>
         <li>Aditi Sharma</li>
         <li>Vedang Deshpande</li>
@@ -277,7 +277,7 @@
          <li>Uday Shankar Das</li>
            </b></span></ul>
             </div>
-    <div id="2012" class="col l3 center-align">
+    <div id="2012" class="col l3 m3 s3 center-align">
         <ul>
           <span><b>  
           <li>Apoorv Jain</li>
