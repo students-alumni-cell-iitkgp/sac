@@ -1,10 +1,35 @@
+
 <html>
+<div id="full_width" style="width: 100%; height: 100%; z-index: 999; background: white; position: fixed;"><div id="loader"></div></div>
+<style type="text/css">
+ div#loader{ width: 50%;height: 50%; background: #FFFFFF url('img/finalone.svg') no-repeat center center;
+
+z-index: 999; position:fixed; display:block; left: 50%; top: 50%;transform: translate(-50%,-50%);
+animation: dash 3s linear;
+}
+</style>
+
+ <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script type="text/javascript">
+if ($(window).width()<767 ) {$("#loader").remove();}
+
+  jQuery(document).ready(function(){
+ 
+   
+
+    $(window).load(function() {
+    
+    $('#full_width').fadeOut(2400,function(){$(this).remove();
+    });
+    });
+  });
+
+</script>
 <head>
-    <title>Students' Alumni Cell &middot; IIT Kharagpur</title>
+    <title>Students Alumni Cell &middot; IIT Kharagpur</title>
     <link rel="icon" href="img/meet_14.png">
     <link rel="stylesheet" href="css/materialize.min.css">
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="js/materialize.min.js"></script>
+     <script src="js/materialize.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -32,7 +57,6 @@
      }
 
    </style>
-
 </head>
 <body>
  <div id="fb-root"></div>
@@ -256,6 +280,34 @@
 <!--div id="googleMap" style="width:100%;height:90%;background:white;"></div-->
 </div>
 <?php include 'footer.php';?>
+<script type="text/javascript">
+  $(".card").mouseenter(function(e){
+  if ($(this).find('> .card-reveal').length) {
+    if ($(e.target).is($('.card .activator')) || $(e.target).is($('.card .activator i')) ) {
+    // Make Reveal animate up
+    $(this).find('.card-reveal').css({ display: 'block'}).velocity("stop", false).velocity({translateY: '-100%'}, {duration: 300, queue: false, easing: 'easeInOutQuad'});
+        }
+      }
+
+      $('.card-reveal').closest('.card').css('overflow', 'hidden');
+
+});
+
+$(".card").mouseleave(function(){
+  // Make Reveal animate down and display none
+  $(this).find('.card-reveal').velocity(
+    {translateY: 0}, 
+    {
+      duration: 225,
+      queue: false,
+      easing: 'easeInOutQuad',
+      complete: function() {
+        $(this).css({ display: 'none'});
+      }
+    });
+});
+</script>
+
 </body>
 
 
