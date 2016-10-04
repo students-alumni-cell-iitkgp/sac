@@ -127,6 +127,8 @@ $result = $connection->query($query);
     }
       .ac-aam img{
         margin-left: 0px;
+        width:100%;
+        
     }
 
    } 
