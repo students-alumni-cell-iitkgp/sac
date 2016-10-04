@@ -215,16 +215,17 @@
 <div class="row">
     
       <ul><b>
-        <li class="col l3 m3 s3 center-align">2015</li>
-        <li class="col l3 m3 s3 center-align">2014</li>
-        <li class="col l3 m3 s3 center-align">2013</li>
-        <li class="col l3 m3 s3 center-align">2012</li>
+        <li class="col l2 m2 s2 offset-l1 s1 m1 center-align">2015</li>
+        <li class="col l2 m2 s2 center-align">2014</li>
+        <li class="col l2 m2 s2 center-align">2013</li>
+        <li class="col l2 m2 s2 center-align">2012</li>
+        <li class="col l2 m2 s2 center-align">2011</li>
       </b></ul>
      </div>
 <hr>
     <div class="row">
 
-     <div id="2015" class="col l3 m3 s3 center-align">
+     <div id="2015" class="col l2 m2 s2 offset-l1 m1 s1 center-align">
      
       
       
@@ -246,7 +247,7 @@
      
       
 
-    <div id="2014" class="col l3 m3 s3 center-align">
+    <div id="2014" class="col l2 m2 s2 center-align">
         <ul>
           <span><b>
           <li>Arpit Gupta</li>
@@ -260,7 +261,7 @@
           </b></span>
         </ul>
       </div>
-    <div id="2013" class="col l3 m3 s3 center-align">
+    <div id="2013" class="col l2 m2 s2 center-align">
         <ul><span><b>
         <li>Aditi Sharma</li>
         <li>Vedang Deshpande</li>
@@ -277,7 +278,7 @@
          <li>Uday Shankar Das</li>
            </b></span></ul>
             </div>
-    <div id="2012" class="col l3 m3 s3 center-align">
+    <div id="2012" class="col l2 m2 s2 center-align">
         <ul>
           <span><b>  
           <li>Apoorv Jain</li>
@@ -291,6 +292,21 @@
               <br><br><br><br>
               </b></span>
               </ul>
+      </div>
+      <div id="2011" class="col l2 m2 s2 center-align">
+      <ul>
+        <span><b>
+          <li>Nikunj Mall</li>
+          <li>Akshat Prakash</li>
+          <li>Aditi Kadmawala</li>
+          <li>Alshay Chalikwar</li>
+          <li>Deepika Bajaj</li>
+          <li>Rupinder Singh</li>
+          <li>Sai Sachin</li>
+          <li>Siddarth Mall</li>
+        </b></span>
+      </ul>
+        
       </div>
     </div> </div> </div>
    <?php include 'footer.php';?>
