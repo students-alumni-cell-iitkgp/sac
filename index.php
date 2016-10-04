@@ -225,7 +225,7 @@ if ($(window).width()<767 ) {$("#loader").remove();}
       <p class="text_align"><a href="#">Campus Benches</a></p>
     </div>
     <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4"><a>Class Gift of 2015</a></span>
+      <span class="card-title grey-text text-darken-4">Class Gift of 2015</span>
       <p class="text_align">The Senior Class Gift, an initiative under the My Imprint Program saw a large number of graduating students signing up for the program. The program gives an opportunity to the graduating batch to give something back to the institute, the moment they are about to leave the institute.</p>
     </div>
   </div>
@@ -240,7 +240,7 @@ if ($(window).width()<767 ) {$("#loader").remove();}
       <p class="text_align"><a href="#">Phase 1</a></p>
     </div>
     <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4"><a>Mentorship Programme</a></span>
+      <span class="card-title grey-text text-darken-4">Mentorship Programme</span>
       <p class="text_align">The Students&#8217; Alumni Cell will begin the second phase of this year&#8217;s Student Alumni Mentorship Programme, one of its most successful initiatives, in October.The SAMP Program saw a participation of more t han 700 student and 300 alumni in its previous phase.</p>
     </div>
   </div>
@@ -255,7 +255,7 @@ if ($(window).width()<767 ) {$("#loader").remove();}
       <p class="text_align"><a href="#">& E-Guest Lectures</a></p>
     </div>
     <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4"><a>Guest Lecture</a></span>
+      <span class="card-title grey-text text-darken-4">Guest Lecture</span>
       <p class="text_align">Continuing with its yearlong series of Guest Lectures by eminent alumni, the Students Alumni Cell recently hostel Mr. Veerendra Jaitltey, an alumnus of the ECE department, 1979. He delivered a motivational lecture with the theme &#8217;We Can, We Can&#8217;.</p>
     </div>
   </div>
