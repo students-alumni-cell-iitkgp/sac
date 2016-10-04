@@ -197,7 +197,7 @@
     </div>
     <div class ="card-content">
       <span class="card-title activator grey-text text-darken-4">Class Gift of 2015<i class="material-icons right">more_vert</i></span>
-      <p class="text_align"><a href="#">Campus Benches</a></p>
+      <p class="text_align"><a href="http://www.webteam.iitkgp.ernet.in/scg/">Campus Benches</a></p>
     </div>
     <div class="card-reveal">
       <span class="card-title grey-text text-darken-4">Class Gift of 2015<i class="material-icons right">close</i></span>
@@ -212,7 +212,7 @@
     </div>
     <div class="card-content">
       <span class="card-title activator grey-text text-darken-4">Mentorship<i class="material-icons right">more_vert</i></span>
-      <p class="text_align"><a href="#">Phase 1</a></p>
+      <p class="text_align"><a href="http://www.sac.iitkgp.ac.in/mentorship.php">Phase 1</a></p>
     </div>
     <div class="card-reveal">
       <span class="card-title grey-text text-darken-4">Mentorship <i class="material-icons right">close</i> <br> Programme</span>
@@ -227,7 +227,7 @@
     </div>
     <div class="card-content">
       <span class="card-title activator grey-text text-darken-4">Guest Lecture<i class="material-icons right">more_vert</i></span>
-      <p class="text_align"><a href="#">& E-Guest Lectures</a></p>
+      <p class="text_align"><a href="http://www.sac.iitkgp.ac.in/guestlecture.php">& E-Guest Lectures</a></p>
     </div>
     <div class="card-reveal">
       <span class="card-title grey-text text-darken-4">Guest Lecture<i class="material-icons right">close</i></span>
@@ -242,7 +242,7 @@
     </div>
     <div class="card-content">
       <span class="card-title activator grey-text text-darken-4">Yearbook<i class="material-icons right">more_vert</i></span>
-      <p class="text_align"><a href="#">2015</a></p>
+      <p class="text_align"><a href="http://www.sac.iitkgp.ac.in/yearbook.php">2015</a></p>
     </div>
     <div class="card-reveal">
       <span class="card-title grey-text text-darken-4">Yearbook<i class="material-icons right">close</i></span>
