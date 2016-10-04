@@ -58,7 +58,7 @@
 </center>
 
 <script type="text/javascript">
-	$(dicument).ready(function(){
+	$(document).ready(function(){
 		$('.materialboxed').materialbox();
 	});
 </script>
