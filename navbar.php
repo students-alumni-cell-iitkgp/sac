@@ -59,7 +59,7 @@ if ($(window).width()>992) {
 
 
   </style>
-  <div class="row" id="logo" style="background-color: white; margin-bottom: 0px; "><div class="col l12 m12 s12 center-align"><img style=" width:139px;" src="img/logo/sac_logo.png"> </div> </div>
+  <div class="row" id="logo" style="background-color: white; margin-bottom: 0px; "><div class="col l12 m12 s12 center-align"><img style=" width:200px;" src="img/logo/sac_logo.png"> </div> </div>
 
 <div  class="white" id="nav" style="margin-top: 0px;">
   <ul id="events" class="dropdown-content">
@@ -86,7 +86,7 @@ if ($(window).width()>992) {
   </ul>
   <nav>
     <div class="nav-wrapper white">
-      <a href="#!" class="brand-logo"><img src="img/logo/sac_logo.png" width="180" height="70"></a>
+      <a href="index.php" class="brand-logo"><img src="img/logo/sac_logo.png" width="180" height="70"></a>
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
       <div class="row">
       <ul class="hide-on-med-and-down _textcolor">
