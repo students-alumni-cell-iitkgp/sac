@@ -1,16 +1,32 @@
 <script>
   $(document).ready(function(){
+if ($(window).width()>992) {
+     (function($){ $('.brand-logo').hide();
+      var $navbar= $('#nav'),
+      y_pos =$navbar.offset().top,
+      height= $navbar.height();
+      $(document).scroll(function(){
+        var scrollTop =$(this).scrollTop();
+        if (scrollTop>y_pos) {$('#logo').hide();$navbar.addClass("navbar-fixed")}
+      else if(scrollTop<=y_pos){$('#logo').show();$navbar.removeClass("navbar-fixed")}
+      });
+     
+    })(jQuery, undefined); }
+    else{$('#logo').remove();
+    $('#nav').addClass("navbar-fixed")}
+
     $('.dropdown-button').dropdown({
       inDuration: 300,
       outDuration: 225,
-      constrain_width: false, // Does not change width of dropdown to that of the activator
+      constrain_width: true, // Does not change width of dropdown to that of the activator
       hover: true, // Activate on hover
       gutter: 0, // Spacing from edge
       belowOrigin: true, // Displays dropdown below the button
       alignment: 'left' // Displays dropdown with edge aligned to the left of button
-    }
-    );
+    });
+
   });
+
   
   
 </script>
@@ -43,8 +59,9 @@
 
 
   </style>
+  <div class="row" id="logo" style="background-color: white; margin-bottom: 0px; "><div class="col l12 m12 s12 center-align"><img style=" width:200px;" src="img/logo/sac_logo.png"> </div> </div>
 
-<div  class="navbar-fixed white" id="nav">
+<div  class="white" id="nav" style="margin-top: 0px;">
   <ul id="events" class="dropdown-content">
     <li><a href="aam.php">Annual Alumni Meet</a></li>
     <li><a href="sam.php">Student Alumni Meet</a></li>
@@ -71,17 +88,16 @@
     <div class="nav-wrapper white">
       <a href="index.php" class="brand-logo"><img src="img/logo/sac_logo.png" width="180" height="70"></a>
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-      <ul class="right hide-on-med-and-down _textcolor">
-        <li><a href="index.php">Home</a></li>
-        <li><a class="dropdown-button" href="#!" data-activates="events">Events</a></li>
-        <li><a class="dropdown-button" href="#!" data-activates="initiatives">Initiatives</a></li>
-        <li><a class="dropdown-button" href="#!" data-activates="publications">Publications</a></li>
-        <li><a href="team.php">The Team</a></li>
-       
+      <div class="row">
+      <ul class="hide-on-med-and-down _textcolor">
+        <li class="col l2"><a href="index.php">Home</a></li>
+        <li class="col l2"><a class="dropdown-button" href="#!" data-activates="events">Events</a></li>
+        <li class="col l2"><a class="dropdown-button" href="#!" data-activates="initiatives">Initiatives</a></li>
+        <li class="col l2"><a class="dropdown-button" href="#!" data-activates="publications">Publications</a></li>
+        <li class="col l2"><a href="team.php">The Team</a></li>
+         <li class="col l2"><a class="dropdown-button" href="#!" data-activates="sponsors">Sponsors</a></li>
 
-         <li><a class="dropdown-button" href="#!" data-activates="sponsors">Sponsors</a></li>
-
-      </ul>
+      </ul> </div>
 
 
       <ul id="mobile-demo" class="side-nav">
