@@ -27,15 +27,19 @@
       <img class=" responsive-img " src="img/team/vaibhav.jpg">
     </div>
     <div class="card-content" style="padding-top: 0; padding-left: 1em;height: 100%;">
-     <div class="row">
+     <div class="row" style="margin-bottom: 0;">
     <div class="col l9 m9 s9">
       <span class="card-title  grey-text text-darken-4" >Vaibhav Chauhan</span> </div>
       <div class="col l3 m3 s3"><ul class="soc"><li><a class="soc-linkedin" href="https://www.linkedin.com/in/vaibhavchauhan6"></a></li></ul> </div>
 </div>
+<div class="row" style="margin-top: : 0px;">
+<div class="col l9 m9 s9">
 
        <ul><li>+91-8145844393</li>
        <li>vaibhavchauhan612@gmail.com</li></ul>
     </div>
+    <div class="col l3 m3 s3"><ul class="soc"><li><a class="soc-facebook" href="https://www.facebook.com/vaibhavchauhan06"></a></li></ul></div> </div>
+     </div>
   </div>
   </div> 
 
@@ -45,15 +49,17 @@
       <img class="responsive-img" src="img/team/mridul.jpg">
     </div>
     <div class="card-content" style="padding-top: 0; padding-left: 1em;height: 100%;">
-    <div class="row">
+    <div class="row" style="margin-bottom: 0;">
     <div class="col l9 m9 s9">
       <span class="card-title grey-text text-darken-4">Mridul Pant</span>
 </div>
 <div class="col l3 m3 s3"><ul class="soc"><li><a class="soc-linkedin" href="https://www.linkedin.com/in/mridul-pant-752a6537"></a></li></ul> </div>
 </div>
-
-       <ul><li>+91-9933935867</li>
-       <li>mridul2010@gmail.com</li></ul>
+<div class="row" style="margin-top: : 0px;">
+<div class="col l9 m9 s9">
+<ul><li>+91-9933935867</li>
+<li>mridul2010@gmail.com</li></ul> </div>
+    <div class="col l3 m3 s3"><ul class="soc"><li><a class="soc-facebook" href="https://www.facebook.com/mridul.pant?"></a></li></ul></div> </div>
     </div>
   </div>
   </div>
@@ -72,13 +78,15 @@
       <img class="responsive-img" src="img/team/afzal.jpg">
     </div>
     <div class="card-content" style="padding-top: 0; padding-left: 1em;height: 100%;">
-     <div class="row">
+     <div class="row"  style="margin-bottom: 0;">
     <div class="col l9 m9 s9">
       <span class="card-title  grey-text text-darken-4">Afzal Ahmed</span> </div>
       <div class="col l3 m3 s3"><ul class="soc"><li><a class="soc-linkedin" href="https://www.linkedin.com/in/afzal-jawed-ahmed-571987103"></a></li></ul> </div>
 </div>
+<div class="row"  style="margin-top: : 0px;">
+<div class="col l9 m9 s9">
 <ul><li>+91-8016283598</li>
-       <li>afzaljawedahmed01@gmail.com</li></ul>
+       <li>afzaljawedahmed01@gmail.com</li></ul> </div><div class="col l3 m3 s3"><ul class="soc"><li><a class="soc-facebook" href="https://www.facebook.com/afzal.ahmed.754"></a></li></ul></div> </div>
     </div>
   </div>
   </div>
@@ -89,14 +97,15 @@
       <img class="" src="img/team/ashay.jpg">
     </div>
     <div class="card-content" style="padding-top: 0; padding-left: 1em;height: 100%;">
-<div class="row">
+<div class="row" style="margin-bottom: 0;">
     <div class="col l9 m9 s9">
       <span class="card-title grey-text text-darken-4">Ashay Walke</span> </div>
       <div class="col l3 m3 s3"><ul class="soc"><li><a class="soc-linkedin" href="https://www.linkedin.com/in/ashaywalke"></a></li></ul> </div>
 </div>
-
+<div class="row"  style="margin-top: : 0px;">
+<div class="col l9 m9 s9">
        <ul><li>+91-9933995693</li>
-       <li>ashay17awalke@gmail.com</li></ul>
+       <li>ashay17awalke@gmail.com</li></ul> </div><div class="col l3 m3 s3"><ul class="soc"><li><a class="soc-facebook" href="https://www.facebook.com/ashay.walke"></a></li></ul></div> </div>
     </div>
   </div>
   </div>
@@ -107,14 +116,15 @@
       <img class="" src="img/team/ikde.jpg">
     </div>
     <div class="card-content" style="padding-top: 0; padding-left: 1em;height: 100%;">
-    <div class="row">
+    <div class="row" style="margin-bottom: 0;">
     <div class="col l9 m9 s9">
       <span class="card-title  grey-text text-darken-4">Ashutosh Ikade</span></div>
       <div class="col l3 m3 s3"><ul class="soc"><li><a class="soc-linkedin" href="https://www.linkedin.com/in/ashutoshikade"></a></li></ul> </div>
 </div>
-
+<div class="row"  style="margin-top: : 0px;">
+<div class="col l9 m9 s9">
        <ul><li>+91-9933923913</li>
-       <li>ashutoshikade33@gmail.com</li></ul>
+       <li>ashutoshikade33@gmail.com</li></ul> </div><div class="col l3 m3 s3"><ul class="soc"><li><a class="soc-facebook" href="https://www.facebook.com/ashutosh.ikade"></a></li></ul></div> </div>
     </div>
   </div>
   </div>
@@ -124,14 +134,16 @@
     <div class="card-image ">
       <img class="" src="img/team/harsh.jpg">
     </div>
-    <div class="card-content" style="padding-top: 0; padding-left: 1em;height: 100%;"><div class="row">
+    <div class="card-content" style="padding-top: 0; padding-left: 1em;height: 100%;">
+    <div class="row" style="margin-bottom: 0;">
     <div class="col l9 m9 s9">
       <span class="card-title  grey-text text-darken-4">Harsh Kumar</span></div>
       <div class="col l3 m3 s3"><ul class="soc"><li><a class="soc-linkedin" href="https://www.linkedin.com/in/harsh-kumar-sharan-b41986103"></a></li></ul> </div>
 </div>
-
+<div class="row"  style="margin-top: : 0px;">
+<div class="col l9 m9 s9">
        <ul><li>+91-9933980534</li>
-       <li>harsh.k.sharan@gmail.com</li></ul>
+       <li>harsh.k.sharan@gmail.com</li></ul> </div><div class="col l3 m3 s3"><ul class="soc"><li><a class="soc-facebook" href="https://www.facebook.com/harsh.sharan.7"></a></li></ul></div> </div>
     </div>
   </div> </div>
   
@@ -141,15 +153,16 @@
       <img class="" src="img/team/pallavi.jpg">
     </div>
     <div class="card-content" style="padding-top: 0; padding-left: 1em;height: 100%;">
-    <div class="row">
+    <div class="row" style="margin-bottom: 0;">
     <div class="col l9 m9 s9">
       <span class="card-title  grey-text text-darken-4">Pallavi Das</span> </div>
       <div class="col l3 m3 s3"><ul class="soc"><li><a class="soc-linkedin" href="https://www.linkedin.com/in/pallavi-das-025a10b0"></a></li></ul> </div>
 </div>
-
+<div class="row"  style="margin-top: : 0px;">
+<div class="col l9 m9 s9">
        <ul><li>+91-7044177494</li>
-       <li>pallavi1995das@gmail.com</li></ul>
-    </div>
+       <li>pallavi1995das@gmail.com</li></ul> </div><div class="col l3 m3 s3"><ul class="soc"><li><a class="soc-facebook" href="https://www.facebook.com/das.pallavi"></a></li></ul></div> </div>
+    </div> 
   </div> </div>
         
   <div class="col l4 m6 s12 ">
@@ -158,14 +171,15 @@
       <img class="" src="img/team/shruti.jpg">
     </div>
     <div class="card-content" style="padding-top: 0; padding-left: 1em;height: 100%;">
-      <div class="row">
+      <div class="row"style="margin-bottom: 0;">
       <div class="col l9 m9 s9">
       <span class="card-title  grey-text text-darken-4">Shruti Sagar</span> </div>
        <div class="col l3 m3 s3"><ul class="soc"><li><a class="soc-linkedin" href="https://www.linkedin.com/in/shruti-sagar-720b28103"></a></li></ul> </div>
 </div>
-
+<div class="row"  style="margin-top: : 0px;">
+<div class="col l9 m9 s9">
        <ul><li>+91-9933952668</li>
-       <li>shruti.sagar.iitkgp@gmail.com</li></ul>
+       <li>shruti.sagar.iitkgp@gmail.com</li></ul> </div><div class="col l3 m3 s3"><ul class="soc"><li><a class="soc-facebook" href="https://www.facebook.com/profile.php?id=100004483579064"></a></li></ul></div> </div>
     </div>
   </div>
    </div>
@@ -180,15 +194,16 @@
       <img class="" src="img/team/punit.jpg">
     </div>
     <div class="card-content" style="padding-top: 0; padding-left: 1em;height: 100%;">
-    <div class="row">
+    <div class="row" style="margin-bottom: 0;">
       <div class="col l9 m9 s9">
       <span class="card-title  grey-text text-darken-4">Punit Kumar</span> </div>
       <div class="col l3 m3 s3"><ul class="soc"><li><a class="soc-linkedin" href="https://www.linkedin.com/in/punit121"></a></li></ul> </div>
 </div>
-
+<div class="row"  style="margin-top: : 0px;">
+<div class="col l9 m9 s9">
        <ul><li>+91-9933989831</li>
-       <li>punitkumar166@gmail.com</li></ul>
-    </div>
+       <li>punitkumar166@gmail.com</li></ul> </div><div class="col l3 m3 s3"><ul class="soc"><li><a class="soc-facebook" href="https://www.facebook.com/punit.kumar.9809672"></a></li></ul></div> </div>
+    </div> 
   </div>
    </div>
   <div class="col l4 m6 s12 ">
@@ -197,14 +212,15 @@
       <img class="" src="img/team/utsav.jpg">
     </div>
     <div class="card-content" style="padding-top: 0; padding-left: 1em;height: 100%;">
-    <div class="row">
+    <div class="row" style="margin-bottom: 0;">
       <div class="col l9 m9 s9">
       <span class="card-title  grey-text text-darken-4">Utsav Agarwal</span> </div>
        <div class="col l3 m3 s3"><ul class="soc"><li><a class="soc-linkedin" href="https://www.linkedin.com/in/utsav-agarwal-b23164b5"></a></li></ul> </div>
 </div>
-
+<div class="row"  style="margin-top: : 0px;">
+<div class="col l9 m9 s9">
        <ul><li>+91-9932369828</li>
-       <li>uaggarwal744@gmail.com</li></ul>
+       <li>uaggarwal744@gmail.com</li></ul> </div><div class="col l3 m3 s3"><ul class="soc"><li><a class="soc-facebook" href="https://www.facebook.com/uagarwal744"></a></li></ul></div> </div>
     </div>
   </div>
    </div>
@@ -215,16 +231,17 @@
 <div class="row">
     
       <ul><b>
-        <li class="col l3 m3 s3 center-align">2015</li>
-        <li class="col l3 m3 s3 center-align">2014</li>
-        <li class="col l3 m3 s3 center-align">2013</li>
-        <li class="col l3 m3 s3 center-align">2012</li>
+        <li class="col l2 m2 s2 offset-l1 m1 s1 center-align">2015</li>
+        <li class="col l2 m2 s2 center-align">2014</li>
+        <li class="col l2 m2 s2 center-align">2013</li>
+        <li class="col l2 m2 s2 center-align">2012</li>
+         <li class="col l2 m2 s2 center-align">2011</li>
       </b></ul>
      </div>
 <hr>
     <div class="row">
 
-     <div id="2015" class="col l3 m3 s3 center-align">
+     <div id="2015" class="col l2 m2 s2 offset-l1 m1 center-align">
      
       
       
@@ -246,7 +263,7 @@
      
       
 
-    <div id="2014" class="col l3 m3 s3 center-align">
+    <div id="2014" class="col l2 m2 s2 center-align">
         <ul>
           <span><b>
           <li>Arpit Gupta</li>
@@ -260,7 +277,7 @@
           </b></span>
         </ul>
       </div>
-    <div id="2013" class="col l3 m3 s3 center-align">
+    <div id="2013" class="col l2 m2 s2 center-align">
         <ul><span><b>
         <li>Aditi Sharma</li>
         <li>Vedang Deshpande</li>
@@ -277,7 +294,22 @@
          <li>Uday Shankar Das</li>
            </b></span></ul>
             </div>
-    <div id="2012" class="col l3 m3 s3 center-align">
+    <div id="2012" class="col l2 m2 s2 center-align">
+        <ul>
+          <span><b>  
+          <li>Apoorv Jain</li>
+          <li>Utkarsh Jain</li>                        
+            <li>Akshay Kumar</li>
+            <li>Himanshu Shrivastava</li>
+            <li>Karan Kakwani</li>     
+            <li>Nimish Goel</li>
+            <li>Sahil Jalan</li>
+            <li>Tanya Mondal</li>                       
+              <br><br><br><br>
+              </b></span>
+              </ul>
+      </div>
+       <div id="2011" class="col l2 m2 s2 center-align">
         <ul>
           <span><b>  
           <li>Apoorv Jain</li>
