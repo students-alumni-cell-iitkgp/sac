@@ -218,7 +218,7 @@
       </div>
       <div class="input-field col s12"  style="margin-bottom:20px;">
       
-        <input  type="number" min="1" id="accompanyingNo" name="accompanyingNo">
+        <input  type="number" min="0" id="accompanyingNo" name="accompanyingNo">
         <label for="accompanyingNo">Accompaniments</label>
       </div>
       <div class="col s12">
