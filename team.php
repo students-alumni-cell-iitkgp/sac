@@ -312,14 +312,14 @@
        <div id="2011" class="col l2 m2 s2 center-align">
         <ul>
           <span><b>  
-          <li>Apoorv Jain</li>
-          <li>Utkarsh Jain</li>                        
-            <li>Akshay Kumar</li>
-            <li>Himanshu Shrivastava</li>
-            <li>Karan Kakwani</li>     
-            <li>Nimish Goel</li>
-            <li>Sahil Jalan</li>
-            <li>Tanya Mondal</li>                       
+         <li>Nikunj Mall</li>
+          <li>Akshat Prakash</li>
+          <li>Aditi Kadmawala</li>
+          <li>Alshay Chalikwar</li>
+          <li>Deepika Bajaj</li>
+          <li>Rupinder Singh</li>
+          <li>Sai Sachin</li>
+          <li>Siddarth Mall</li>                      
               <br><br><br><br>
               </b></span>
               </ul>
