@@ -103,7 +103,9 @@ $result = $connection->query($query);
     </script>
 
 <style type="text/css">
-
+  .subheading{
+  height:200px;
+  }
     @media only screen and (max-width: 769px){
         ._wrapper{
             width: 160%;
