@@ -184,7 +184,7 @@ $result = $connection->query($query);
   <div class="info z-depth-2">
         <div class="heading ac-head" >
       <center>
-        <h class="subheading"><b>14th Annual Alumni Meet</b></h>
+        <h class="subheading"><b>14th Annual Alumni Meet</b><br>13th to 15th January 2017 </h>
       </center>
     </div>
   <p class="text_align" style="text-align:justify;">The Annual Alumni Meet brings to the esteemed alumni a chance to reconnect with their Alma Mater. It lets them relive the carefree days of their college lives as they get a chance to visit all the locations they once frequented. With department and hall visits, and events like Illumination and Musical Night, the Meet rekindles the romance between the alumni and their institute. Apart from these, informal fun events like bonfire and kite flying bring out the child in all those present.
