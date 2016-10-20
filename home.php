@@ -91,7 +91,7 @@ include 'navbar.php';
               <div class="card-title text_align">
                 Payment Details
               </div>
-                Every visiting alumnus of the batch of 1966, 1976, 1991 is to pay INR 5000. This includes your accomodation, fooding and conveyance charge at Kharagpur. If there is any other person accompanying you an additional payment of INR 2500 per head will have
+                Every visiting alumnus has to pay INR 5000. This includes your accomodation, fooding and conveyance charge at Kharagpur. If there is any other person accompanying you an additional payment of INR 2500 per head will have
                 to be made.
                 <br> Payment methods:-
                 <ul class="">

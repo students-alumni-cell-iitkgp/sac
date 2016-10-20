@@ -1,30 +1,9 @@
 
 <html>
-<div id="full_width" style="width: 100%; height: 100%; z-index: 999; background: white; position: fixed;"><div id="loader"></div></div>
-<style type="text/css">
- div#loader{ width: 50%;height: 50%; background: #FFFFFF url('img/finalone.svg') no-repeat center center;
 
-z-index: 999; position:fixed; display:block; left: 50%; top: 50%;transform: translate(-50%,-50%);
-animation: dash 3s linear;
-}
-</style>
+
 
  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-<script type="text/javascript">
-if ($(window).width()<767 ) {$("#loader").remove();}
-
-  jQuery(document).ready(function(){
- 
-   
-
-    $(window).load(function() {
-    
-    $('#full_width').fadeOut(2400,function(){$(this).remove();
-    });
-    });
-  });
-
-</script>
 <head>
     <title>Students Alumni Cell &middot; IIT Kharagpur</title>
     <link rel="icon" href="img/meet_14.png">
@@ -225,7 +204,7 @@ if ($(window).width()<767 ) {$("#loader").remove();}
       <p class="text_align"><a href="#">Campus Benches</a></p>
     </div>
     <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">Class Gift of 2015<i class="material-icons right">close</i></span>
+      <span class="card-title grey-text text-darken-4">Class Gift of 2015</span>
       <p class="text_align">The Senior Class Gift, an initiative under the My Imprint Program saw a large number of graduating students signing up for the program. The program gives an opportunity to the graduating batch to give something back to the institute, the moment they are about to leave the institute.</p>
     </div>
   </div>
@@ -240,7 +219,7 @@ if ($(window).width()<767 ) {$("#loader").remove();}
       <p class="text_align"><a href="#">Phase 1</a></p>
     </div>
     <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">Mentorship <i class="material-icons right">close</i> <br> Programme</span>
+      <span class="card-title grey-text text-darken-4">Mentorship Programme</span>
       <p class="text_align">The Students&#8217; Alumni Cell will begin the second phase of this year&#8217;s Student Alumni Mentorship Programme, one of its most successful initiatives, in October.The SAMP Program saw a participation of more t han 700 student and 300 alumni in its previous phase.</p>
     </div>
   </div>
@@ -255,7 +234,7 @@ if ($(window).width()<767 ) {$("#loader").remove();}
       <p class="text_align"><a href="#">& E-Guest Lectures</a></p>
     </div>
     <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">Guest Lecture<i class="material-icons right">close</i></span>
+      <span class="card-title grey-text text-darken-4">Guest Lecture</span>
       <p class="text_align">Continuing with its yearlong series of Guest Lectures by eminent alumni, the Students Alumni Cell recently hostel Mr. Veerendra Jaitltey, an alumnus of the ECE department, 1979. He delivered a motivational lecture with the theme &#8217;We Can, We Can&#8217;.</p>
     </div>
   </div>
@@ -270,7 +249,7 @@ if ($(window).width()<767 ) {$("#loader").remove();}
       <p class="text_align"><a href="#">2015</a></p>
     </div>
     <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">Yearbook<i class="material-icons right">close</i></span>
+      <span class="card-title grey-text text-darken-4"><a>Yearbook</a></span>
       <p class="text_align">The Yearbook is a collection of photographs and memories presented every year at the time of the convocation to the graduating batch by the Students&#8217; Alumni Cell. It is the perfect souvenir for everyone about to leave their home away from home, KGP.....  </p>
     </div>
   </div>

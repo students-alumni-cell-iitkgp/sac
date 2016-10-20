@@ -5,60 +5,88 @@
     <script src="js/materialize.min.js"></script>
     <link rel="stylesheet" href="css/materialize.min.css">
 <title>Gallery</title>
-
+<style type="text/css">
+	.normal{
+		margin: 10px;
+	}
+	@media only screen and (max-width: 1350px) {
+   	.normal{
+		width: 25vw;
+		padding: 10px;
+	}
+    .bigg {
+    	width: 48vw !important;
+    	padding-right: 0;
+    }
+}
+	@media only screen and (max-width: 992px) {
+    .normal {
+       height: 200px;
+       width: 45vw;
+    }
+}
+	@media only screen and (max-width: 600px) {
+    .normal {
+       height: 200px;
+       width: 350px;
+       margin:10px;
+    }
+    .bigg{
+       height: 200px;
+       width: 350px !important;
+       margin:10px;
+       padding-right: 10;
+    }
+}
+</style>
 </head>
 <body> <center>
 <div class="row">
-<div class="col l3 m3 s12">
-        <img class="materialboxed" src="img/gallery/two.jpg" width="200" >
-    </div>
-    <div class="col l3 m3 s12">
-        <img class="materialboxed" src="img/gallery/three.JPG" width="200">
+<div class="col l3 m6 s12">
+        <img class="materialboxed normal" src="img/gallery/two.jpg" height="200px" >
+        <img class="materialboxed normal" src="img/gallery/three.JPG" height="200px" style="margin-top: 20px;">
 </div>
-<div class="col l3 m3 s12">
-        <img  class="materialboxed" src="img/gallery/four.JPG" width="200" height="140"/>
+<div class="col l6 m6 s12">
+        <img  class="materialboxed normal bigg" src="img/gallery/four.JPG" height="420px" />
     </div>
-    <div class="col l3 m3 s12">
-        <img class="materialboxed" src="img/gallery/five.JPG" width="200"/> 
-</div> </div>
-<div class="row">
-<div class="col l3 m3 s12">
-        <img class="materialboxed" src="img/gallery/six.JPG" width="200" height="140"/>
+    <div class="col l3 m6 s12">
+        <img class="materialboxed normal" src="img/gallery/five.JPG" height="200px"/> 
+</div> 
+<div class="col l3 m6 s12">
+        <img class="materialboxed normal" src="img/gallery/six.JPG" height="200px" />
 </div>
-<div class="col l3 m3 s12">
-        <img class="materialboxed" src="img/gallery/seven.JPG" width="200"/>
+<div class="col l6 m6 s12">
+        <img class="materialboxed normal bigg" src="img/gallery/seven.JPG" height="420px"/>
     </div>
-    <div class="col l3 m3 s12">
-        <img  class="materialboxed" src="img/gallery/eight.JPG" width="200"/>
+    <div class="col l3 m6 s12">
+        <img  class="materialboxed normal" src="img/gallery/eight.JPG" height="200px"/>
     </div>
-    <div class="col l3 m3 s12">
-        <img class="materialboxed" src="img/gallery/nine.JPG" width="200"/>
-   </div> </div>
-   <div class="row">
-   <div class="col l3 m3 s12">
-        <img class="materialboxed" src="img/gallery/ten.JPG" width="200"/> 
+    <div class="col l3 m6 s12">
+        <img class="materialboxed normal" src="img/gallery/nine.JPG" height="200px"/>
+   </div> 
+   <div class="col l3 m6 s12">
+        <img class="materialboxed normal" src="img/gallery/ten.JPG" height="200px"/> 
     </div>    
-   <div class="col l3 m3 s12">
-        <img class="materialboxed" src="img/gallery/eleven.JPG" width="200"/>
+   <div class="col l3 m6 s12">
+        <img class="materialboxed normal" src="img/gallery/eleven.JPG" height="200px"/>
    </div>
-   <div class="col l3 m3 s12">
-        <img class="materialboxed" src="img/gallery/twelve.JPG" width="200"/>
+   <div class="col l3 m6 s12">
+        <img class="materialboxed normal" src="img/gallery/twelve.JPG" height="200px"/>
    </div>
-   <div class="col l3 m3 s12">
-        <img class="materialboxed" src="img/gallery/thirteen.JPG" width="200"/>
-   </div> </div>
-   <div class="row">
-   <div class="col l3 m3 s12">
-        <img class="materialboxed" src="img/gallery/forteen.jpg" width="200"/>
+   <div class="col l3 m6 s12">
+        <img class="materialboxed normal" src="img/gallery/thirteen.JPG" height="200px"/>
+   </div> 
+   <div class="col l3 m6 s12">
+        <img class="materialboxed normal" src="img/gallery/forteen.jpg" height="200px"/>
 </div>
-<div class="col l3 m3 s12">
-        <img class="materialboxed" src="img/gallery/fifteen.JPG" width="200"/>
+<div class="col l3 m6 s12">
+        <img class="materialboxed normal" src="img/gallery/fifteen.JPG" height="200px"/>
    </div>
-   <div class="col l3 m3 s12">
-        <img class="materialboxed" src="img/gallery/sixteen.JPG" width="200"/>
+   <div class="col l6 m6 s12">
+        <img class="materialboxed normal bigg" src="img/gallery/sixteen.JPG" height="420px"/>
         </div> 
-        <div class="col l3 m3 s12">
-        <img class="materialboxed" src="img/gallery/one.JPG" width="200">
+        <div class="col l6 m6 s12">
+        <img class="materialboxed normal bigg" src="img/gallery/one.JPG" height="420px">
         </div> </div>
         </center>
 
