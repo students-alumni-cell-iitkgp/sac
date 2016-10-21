@@ -1,3 +1,8 @@
+<?php
+require 'connection.php';
+ob_start(); 
+@session_start();
+?>
 <script>
   $(document).ready(function(){
 if ($(window).width()>992) {
@@ -61,7 +66,19 @@ if ($(window).width()>992) {
   text-align: center !important;
 }
   </style>
-  <div class="row" id="logo" style="background-color: white; margin-bottom: 0px; "><div class="col l12 m12 s12 center-align"><img style=" width:200px;" src="img/logo/sac_logo.png"> </div> </div>
+  <div class="row" id="logo" style="background-color: white; margin-bottom: 0px; "><div class="col l12 m12 s12 center-align"><img style=" width:200px;" src="img/logo/sac_logo.png">
+  <a href="home.php">
+  <div id="loggedin" class="right-align" style="position: absolute;font-size: 20px;top: 10px ; right: 10; cursor: pointer;">
+    <i class="material-icons" style="font-size: 40px;position: relative;top: 7px; ">perm_identity</i>
+    <?php
+  if (@$_SESSION['email']) {
+    echo @$_SESSION['email'];
+  } else {
+    echo "Login";
+  }
+        
+     ?>
+  </div> </a></div>   </div>
 
 <div  class="white" id="nav" style="margin-top: 0px;">
   <ul id="events" class="dropdown-content">
