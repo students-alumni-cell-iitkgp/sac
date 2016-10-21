@@ -68,7 +68,7 @@ if ($(window).width()>992) {
   </style>
   <div class="row" id="logo" style="background-color: white; margin-bottom: 0px; "><div class="col l12 m12 s12 center-align"><img style=" width:200px;" src="img/logo/sac_logo.png">
   <a href="home.php">
-  <div id="loggedin" class="right-align" style="position: absolute;font-size: 20px;top: 10px ; right: 10; cursor: pointer;">
+  <div id="loggedin" class="right-align" style="position: absolute;font-size: 20px;top: 10px ; right: 15px; cursor: pointer;">
     <i class="material-icons" style="font-size: 40px;position: relative;top: 7px; ">perm_identity</i>
     <?php
   if (@$_SESSION['email']) {
