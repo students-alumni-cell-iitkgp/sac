@@ -120,11 +120,10 @@
     <div class="center-align">
         <div class="row">
             <div class="col l8">  <div>
-                    <p class="z-depth-2 text_align" style="font-size: 16px;padding: 1em 1.5em">The Students&#8217; Alumni Cell, IIT Kharagpur is a voluntary student body working under the aegis
-                        of the Office of Alumni Affairs and International Relations.
-                        It strives to bridge the gap between IIT Kharagpur and its esteemed alumni community
-                        . Over the course of past few years, the Students' Alumni Cell has emerged as a key organ of the Office of Alumni Affairs and International Relations in executing its yearlong events and activities. The Students' Alumni Cell continuously endeavours to strengthen the relations of the alumni of this institute and their alma mater. Formed as and operating under the Dean, Alumni Affairs and International Relations, the Students' Alumni Cell has been instrumental in organising the Annual Alumni Meet, publishing the quarterly alumni newsletter (KGPian), the annual literary magazine (Yearnings of Yore) and the Annual Yearbook (Colours Of Life) and among other things like organising regular guest lectures by distinguished alumni in the campus. The Students' Alumni Cell also operates the Student - Alumni Mentorship Programme, My Imprint (Giving Back - Alumni contribution) and organises Alvida (the annual farewell dinner). We look forward to taking up more initiatives and organizing more such events to foster the bond between the institute and the alumni.
-                        For any queries/information, do write to us: aao@hijli.iitkgp.ernet.in</p>
+                    <p class="z-depth-2 text_align" style="font-size: 18px;padding: 1.5em 3em">The Students’ Alumni Cell, IIT Kharagpur is a voluntary student body working under the aegis of the Office of Alumni Affairs and International Relations. It strives to bridge the gap between IIT Kharagpur and its esteemed alumni community .<br>
+
+                        The Students' Alumni Cell continuously endeavours to strengthen the relations of the alumni of this institute and their alma mater. It has been instrumental in organising the Annual Alumni Meet, publishing the annual literary magazine (Yearnings of Yore) and the Annual Yearbook and amongst other things too for instance organising regular guest lectures by distinguished alumni in the campus. The Students' Alumni Cell also operates the Student - Alumni Mentorship Programme, My Imprint (Giving Back - Alumni contribution) and organises Alvida (the annual farewell dinner).
+                    </p>
                 </div></div>
             <div class="col l4" style="margin-top: 1em">
                 <div id="fbplug" style="padding-left:1em;padding-right:1em" class="z-depth-2 fb-page" data-href="https://www.facebook.com/iitkgp.alumnicell/?fref=ts" data-tabs="timeline" data-height="320px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/iitkgp.alumnicell/?fref=ts" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/iitkgp.alumnicell/?fref=ts">Alumni Cell, IIT Kharagpur</a></blockquote></div>
@@ -154,7 +153,8 @@
     </div>
     <div class="card-reveal">
       <span class="card-title grey-text text-darken-4">For Alumni<i class="material-icons right">close</i></span>
-      <p class="text_align">The Students' Alumni Cell works towards ensuring mutual benefit of the Students as well as the Alumni. The cell helps the alumni in staying connected to the institute. Through regular interactions with the next generation of KGPians, the alumni too get to learn a lot as learning is a continuous process and each generation has their own set of skills to boast of.</p>
+      <p class="text_align">The Students' Alumni Cell works towards ensuring mutual benefit of the Students as well as the Alumni. The cell helps the alumni in staying connected to their alma mater. Through regular interactions with the students, the alumni get a chance to share their experiences and impart the knowledge they have acquired to the next generation of KGPians. Also, with this interchange, they get a glimpse of the young minds of the nation.
+      </p>
     </div>
   </div>
 </div>
@@ -168,7 +168,7 @@
     </div>
     <div class="card-reveal">
       <span class="card-title grey-text text-darken-4">For Institute<i class="material-icons right">close</i></span>
-      <p class="text_align">The alumni of an institute are always interested in its workings and the prevalent conditions. Students' Alumni Cell reconnects the institute and alumni, providing the alumni with an avenue to give back to their alma mater. The Institution Development Program (IDP) aims to promote the institute's domestic ranking while simultaneously improving the international stature.</p>
+      <p class="text_align">The alumni community often takes keen interest in the institute’s workings and the prevalent conditions. Students' Alumni Cell reconnects the institute and alumni, providing the alumni with an avenue to give back to their alma mater. The Institution Development Program (IDP) aims to promote the institute's domestic ranking while simultaneously improving the international stature. </p>
     </div>
   </div>
 </div>
@@ -182,7 +182,7 @@
     </div>
     <div class="card-reveal">
       <span class="card-title grey-text text-darken-4">For Students<i class="material-icons right">close</i></span>
-      <p class="text_align">Students' Alumni Cell works in conjunction with the student administration bodies and is therefore constantly in touch with the needs and wants of the students. It connects the students with the alumni, giving them a chance to interact with some of the most eminent personalities in all fields of work..</p>
+      <p class="text_align">Students' Alumni Cell works in conjunction with the student administration bodies and is therefore constantly in touch with the needs and wants of the students. It connects the students with the alumni, giving them a chance to interact with some of the most eminent personalities in all fields of work. It works towards making their learning experience more holistic.</p>
     </div>
   </div>
 </div>
