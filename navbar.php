@@ -1,3 +1,8 @@
+<?php
+require 'connection.php';
+ob_start(); 
+@session_start();
+?>
 <script>
   $(document).ready(function(){
 if ($(window).width()>992) {
@@ -57,9 +62,23 @@ if ($(window).width()>992) {
     }
   }
 
-
+.dropdown-content li {
+  text-align: center !important;
+}
   </style>
-  <div class="row" id="logo" style="background-color: white; margin-bottom: 0px; "><div class="col l12 m12 s12 center-align"><img style=" width:200px;" src="img/logo/sac_logo.png"> </div> </div>
+  <div class="row" id="logo" style="background-color: white; margin-bottom: 0px; "><div class="col l12 m12 s12 center-align"><img style=" width:200px;" src="img/logo/sac_logo.png">
+  <a href="home.php">
+  <div id="loggedin" class="right-align" style="position: absolute;font-size: 20px;top: 10px ; right: 15px; cursor: pointer;">
+    <i class="material-icons" style="font-size: 40px;position: relative;top: 7px; ">perm_identity</i>
+    <?php
+  if (@$_SESSION['email']) {
+    echo @$_SESSION['email'];
+  } else {
+    echo "Login";
+  }
+        
+     ?>
+  </div> </a></div>   </div>
 
 <div  class="white" id="nav" style="margin-top: 0px;">
   <ul id="events" class="dropdown-content">
@@ -77,7 +96,7 @@ if ($(window).width()>992) {
     <li><a href="yearbook.php">Yearbook</a></li>
     <li><a href="yoy.php">Yearnings of Yore</a></li>
   </ul>
-  <ul id="sponsors" class="dropdown-content">
+  <ul id="sponsors" class="dropdown-content" >
     <li><a href="sponsors2016.php">2016</a></li>
     <li><a href="sponsors2015.php">2015</a></li>
     <li><a href="sponsors2014.php">2014</a></li>
@@ -89,7 +108,7 @@ if ($(window).width()>992) {
       <a href="index.php" class="brand-logo"><img src="img/logo/sac_logo.png" width="180" height="70"></a>
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
       <div class="row">
-      <ul class="hide-on-med-and-down _textcolor">
+      <ul class="hide-on-med-and-down _textcolor center-align">
         <li class="col l2"><a href="index.php">Home</a></li>
         <li class="col l2"><a class="dropdown-button" href="#!" data-activates="events">Events</a></li>
         <li class="col l2"><a class="dropdown-button" href="#!" data-activates="initiatives">Initiatives</a></li>
