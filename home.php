@@ -6,8 +6,6 @@ if ($_SESSION["email"] == "") {
   header('Location: aam.php');
   exit();
 }
-
-include 'navbar.php';
 ?>
 
 <!DOCTYPE html>
@@ -22,47 +20,24 @@ include 'navbar.php';
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
 <style type="text/css">
-   @media only screen and (min-width: 768px){
-    .aam-reg{
-      height: 320px;
-    }
-     .aam-reg a{
-      margin-top: 60px;
-      display: inline-block;
-    }
-      .ac-aam img{
-        margin-left: 80px;
-    }
-   } 
-   #wrapper{
-    padding: 20px;
-   }
-    @media only screen and (max-width: 468px){
-      .ac-aam img{
-    margin: 0px auto;
-    max-width:100%;
-    }
-   }
-   #button{
+    #button{
     position: absolute;
-    top: 80px;
+    top: 155px;
     right: 10px;
    } 
    .card{
     height: 500px;
    }
 </style>
-    <script>
-    $(document).ready(function(){
-      $('.slider').slider({full_width: true});
-    });
-    </script>
 </head>
 
 <body>
   <div id="wrapper">
     
-    <div id="header">
+    <div id="header" style="margin: 0;">
+    <?php
+include 'navbar.php';
+?>
     </div><!-- #header -->
     
     <div id="content">
