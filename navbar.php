@@ -44,6 +44,9 @@ ob_start();
       left: 87%;
       -webkit-transform: translateX(-50%);
     }
+    #switch{
+      display: none;
+    }
   }
  
 @media only screen and (max-width: 600px){
@@ -69,19 +72,32 @@ ob_start();
   text-align: center !important;
 }
   </style>
-  <div class="row" id="logo" style="background-color: white; margin-bottom: 0px;  display: none;"><div class="col l12 m12 s12 center-align"><img style=" width:200px;" src="img/logo/sac_logo.png">
-  <a href="home.php">
-  <div id="loggedin" class="right-align" style="position: absolute;font-size: 20px;top: 10px ; right: 15px; cursor: pointer;">
-    <i class="material-icons" style="font-size: 40px;position: relative;top: 7px; ">perm_identity</i>
-    <?php
+  <div class="row" id="logo" style="background-color: white; margin-bottom: 0px; "><div class="col l12 m12 s12 center-align"><img style=" width:200px;" src="img/logo/sac_logo.png">
+    
+
+
+  
+   </div><div id="switch"><?php
   if (@$_SESSION['email']) {
-    echo @$_SESSION['email'];
+          $query="SELECT name FROM users WHERE email='".$_SESSION["email"]."'";
+
+          if( $query_run = mysqli_query($connection, $query) ){
+            
+            $row = mysqli_fetch_assoc($query_run);
+            $name = $row['name'];
+
+              echo "<a class='dropdown-button ' href='#' data-activates='dropdown1' style='position: absolute;right: 10px;top:  width: auto; margin-top: 10px;font-size: 20px;'><i class='material-icons' style='font-size: 40px;position:relative;top:10px;'>perm_identity</i>".$name."</a>
+  <ul id='dropdown1' class='dropdown-content' style='position: relative;margin-top: 10px;'>
+    <li><a href='home.php'><i class='material-icons' style='position: relative;top: 5px;padding-right: 5px'>home</i>Home</a></li>
+    <li class='divider'></li>
+    <li><a href='logout.php'><i class='material-icons' style='position: relative;top: 5px;padding-right: 5px'>power_settings_new</i>LogOut</a></li>
+  </ul>";
+            }
   } else {
-    echo "Login";
+    echo '<div style="position: absolute;top: 10px;right: 10px;"><a href="aam.php"><i class="material-icons" style="font-size: 40px;position: relative;top: 7px;">perm_identity</i>Login</a><a href="signup.php"><i class="material-icons" style="font-size: 40px;position: relative;top: 12px;">add</i>Register</a></div>';
   }
         
-     ?>
-  </div> </a></div>   </div>
+     ?></div></div>
 
 <div  class="white" id="nav" style="margin-top: 0px;">
   <ul id="events" class="dropdown-content" style="min-width: 200px;">
@@ -177,6 +193,33 @@ ob_start();
                 </ul>
 
               </div></li></ul></li>
+              <?php
+  if (@$_SESSION['email']) {
+          $query="SELECT name FROM users WHERE email='".$_SESSION["email"]."'";
+
+          if( $query_run = mysqli_query($connection, $query) ){
+            
+            $row = mysqli_fetch_assoc($query_run);
+            $name = $row['name'];
+
+              echo '        
+          <li class="no-padding">
+          <ul class="collapsible collapsible-accordion">
+            <li>
+              <a class="collapsible-header">'.$name.'<i class="mdi-navigation-arrow-drop-down"></i></a>
+              <div class="collapsible-body">
+                <ul>
+                  <li><a href="home.php">Home</a></li>
+                  <li><a href="logout.php">LogOut</a></li>
+
+                </ul>
+              </div></li></ul></li>';
+            }
+  } else {
+    echo '<li><a href="aam.php">Login</a></li><li><a href="signup.php">Register</a></li>';
+  }
+        
+     ?>
 
 
 
