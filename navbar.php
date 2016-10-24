@@ -2,6 +2,33 @@
 require 'connection.php';
 ob_start(); 
 @session_start();
+if (isset($_POST['action'])) {
+$email=$_POST['email'];
+  $password=$_POST['password'];
+  $password_hash=hash('sha256', $password);
+  if (!empty($email)&&!empty($password)) {
+    
+    $query="SELECT * FROM users WHERE email='".$email."' AND password='".$password_hash."'";
+    //echo "cont..";
+$result = $connection->query($query);
+     // $query_num_rows=mysqli_num_rows($result);
+      //echo  $query_num_rows;
+      /*if ($query_num_rows==10) {
+        echo '<script language="javascript">alert("Invalid Email ID/PASSWORD ");</script>';
+      }*/
+      //echo $result->num_rows;
+      if ($result->num_rows > 0)  {
+      
+        //$user_id=mysql_result($query_run, 0,'email');
+        $_SESSION['email']=$email;
+         echo '<script language="javascript">alert("Logging you in");</script>';
+        header('location:home.php');
+      }else
+        echo '<script language="javascript">alert("Invalid Email ID/ Password");</script>';
+    //} 
+  }else {
+    echo '<script language="javascript">alert("You must supply Email ID and PASSWORD");</script>';
+  }}
 ?>
 <script>
    $(document).ready(function(){
@@ -35,7 +62,10 @@ ob_start();
 
   });
 
-  
+  $(document).ready(function(){
+    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+    $('.modal-trigger').leanModal();
+  });
   
 </script>
 
@@ -87,14 +117,14 @@ ob_start();
             $name = $row['name'];
 
               echo "<a class='dropdown-button ' href='#' data-activates='dropdown1' style='position: absolute;right: 10px;top:  width: auto; margin-top: 10px;font-size: 20px;'><i class='material-icons' style='font-size: 40px;position:relative;top:10px;'>perm_identity</i>".$name."</a>
-  <ul id='dropdown1' class='dropdown-content' style='position: relative;margin-top: 10px;'>
+  <ul id='dropdown1' class='dropdown-content' style='position: relative;margin-top: 10px;right:10px;'>
     <li><a href='home.php'><i class='material-icons' style='position: relative;top: 5px;padding-right: 5px'>home</i>Home</a></li>
     <li class='divider'></li>
     <li><a href='logout.php'><i class='material-icons' style='position: relative;top: 5px;padding-right: 5px'>power_settings_new</i>LogOut</a></li>
   </ul>";
             }
   } else {
-    echo '<div style="position: absolute;top: 10px;right: 10px;"><a href="aam.php"><i class="material-icons" style="font-size: 40px;position: relative;top: 7px;">perm_identity</i>Login</a><a href="signup.php"><i class="material-icons" style="font-size: 40px;position: relative;top: 12px;">add</i>Register</a></div>';
+    echo '<div style="position: absolute;top: 10px;right: 10px;"><a class=" modal-trigger" href="#modal1"><i class="material-icons" style="font-size: 40px;position: relative;top: 7px;">perm_identity</i>Login</a><a href="signup.php"><i class="material-icons" style="font-size: 40px;position: relative;top: 12px;">add</i>Register</a></div>';
   }
         
      ?></div></div>
@@ -229,4 +259,31 @@ ob_start();
 
 
   </nav>
+</div>
+<div id="modal1" class="modal ">
+  <div class="modal-content">
+
+  <div class="row">
+    <form class="col s12 center-align" action="aam.php" method="POST">
+      <div class="row">
+      <h2>LOGIN</h2>
+        <div class="input-field col s12">
+          <i class="material-icons prefix">account_circle</i>
+          <input id="icon_prefix" type="email" class="validate" name="email">
+          <label for="icon_prefix">Email ID</label>
+        </div>
+        <div class="input-field col s12">
+          <i class="material-icons prefix">vpn_key</i>
+          <input id="icon_telephone" type="password" class="validate" name="password">
+          <label for="icon_telephone">Password</label>
+        </div>
+            <button class="btn-large waves-effect waves-light " type="submit" name="action" style="margin-top:15px; width:200px;">Log In
+            <i class="material-icons right">send</i>
+      </div>
+    </form>
+  </div>
+  </div>
+  <div class="modal-footer">
+    <a href="#!" class=" modal-action modal-close waves-effect waves-blue btn-flat">CLOSE</a>
+  </div>
 </div>
