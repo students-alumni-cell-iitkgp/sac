@@ -44,6 +44,9 @@ ob_start();
       left: 87%;
       -webkit-transform: translateX(-50%);
     }
+    #switch{
+      display: none;
+    }
   }
  
 @media only screen and (max-width: 600px){
@@ -74,7 +77,7 @@ ob_start();
 
 
   
-   </div><?php
+   </div><div id="switch"><?php
   if (@$_SESSION['email']) {
           $query="SELECT name FROM users WHERE email='".$_SESSION["email"]."'";
 
@@ -94,7 +97,7 @@ ob_start();
     echo '<div style="position: absolute;top: 10px;right: 10px;"><a href="aam.php"><i class="material-icons" style="font-size: 40px;position: relative;top: 7px;">perm_identity</i>Login</a><a href="signup.php"><i class="material-icons" style="font-size: 40px;position: relative;top: 12px;">add</i>Register</a></div>';
   }
         
-     ?></div>
+     ?></div></div>
 
 <div  class="white" id="nav" style="margin-top: 0px;">
   <ul id="events" class="dropdown-content" style="min-width: 200px;">
@@ -190,6 +193,33 @@ ob_start();
                 </ul>
 
               </div></li></ul></li>
+              <?php
+  if (@$_SESSION['email']) {
+          $query="SELECT name FROM users WHERE email='".$_SESSION["email"]."'";
+
+          if( $query_run = mysqli_query($connection, $query) ){
+            
+            $row = mysqli_fetch_assoc($query_run);
+            $name = $row['name'];
+
+              echo '        
+          <li class="no-padding">
+          <ul class="collapsible collapsible-accordion">
+            <li>
+              <a class="collapsible-header">'.$name.'<i class="mdi-navigation-arrow-drop-down"></i></a>
+              <div class="collapsible-body">
+                <ul>
+                  <li><a href="home.php">Home</a></li>
+                  <li><a href="logout.php">LogOut</a></li>
+
+                </ul>
+              </div></li></ul></li>';
+            }
+  } else {
+    echo '<li><a href="aam.php">Login</a></li><li><a href="signup.php">Register</a></li>';
+  }
+        
+     ?>
 
 
 
