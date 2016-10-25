@@ -1,3 +1,13 @@
+<?php
+require 'connection.php';
+ob_start(); 
+session_start();
+if ($_SESSION["email"] == "") {
+  header('Location: aam.php');
+  exit();
+}
+?>
+
 <html>
 <head>
 <title>Home</title>
@@ -11,15 +21,7 @@
 
 </head>
 <body>
-<?php
- // Start the session
-session_start();
- 
-if ($_SESSION["email"] == "") {
-  header('Location: aam.php');
-  exit();
-}
- include 'navbar.php';?>
+<?php include 'navbar.php';?>
 <style type="text/css">
 body {
 }

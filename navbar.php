@@ -1,35 +1,3 @@
-<?php
-require 'connection.php';
-ob_start(); 
-@session_start();
-if (isset($_POST['action'])) {
-$email=$_POST['email'];
-  $password=$_POST['password'];
-  $password_hash=hash('sha256', $password);
-  if (!empty($email)&&!empty($password)) {
-    
-    $query="SELECT * FROM users WHERE email='".$email."' AND password='".$password_hash."'";
-    //echo "cont..";
-$result = $connection->query($query);
-     // $query_num_rows=mysqli_num_rows($result);
-      //echo  $query_num_rows;
-      /*if ($query_num_rows==10) {
-        echo '<script language="javascript">alert("Invalid Email ID/PASSWORD ");</script>';
-      }*/
-      //echo $result->num_rows;
-      if ($result->num_rows > 0)  {
-      
-        //$user_id=mysql_result($query_run, 0,'email');
-        $_SESSION['email']=$email;
-         echo '<script language="javascript">alert("Logging you in");</script>';
-        header('location:home.php');
-      }else
-        echo '<script language="javascript">alert("Invalid Email ID/ Password");</script>';
-    //} 
-  }else {
-    echo '<script language="javascript">alert("You must supply Email ID and PASSWORD");</script>';
-  }}
-?>
 <script>
    $(document).ready(function(){
    if ($(window).width()>992) {
@@ -61,12 +29,6 @@ $result = $connection->query($query);
 
 
   });
-
-  $(document).ready(function(){
-    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
-    $('.modal-trigger').leanModal();
-  });
-  
 </script>
 
 <style>  @media only screen and (max-width: 992px){
@@ -110,27 +72,9 @@ $result = $connection->query($query);
 
 
   
-   </div><div id="switch"><?php
-  if (@$_SESSION['email']) {
-          $query="SELECT name FROM users WHERE email='".$_SESSION["email"]."'";
+   </div>
 
-          if( $query_run = mysqli_query($connection, $query) ){
-            
-            $row = mysqli_fetch_assoc($query_run);
-            $name = $row['name'];
-
-              echo "<a class='dropdown-button ' href='#' data-activates='dropdown1' style='position: absolute;right: 10px;top:  width: auto; margin-top: 10px;font-size: 20px;'><i class='material-icons' style='font-size: 40px;position:relative;top:10px;'>perm_identity</i>".$name."</a>
-  <ul id='dropdown1' class='dropdown-content' style='position: relative;margin-top: 10px;right:10px;'>
-    <li><a href='home.php'><i class='material-icons' style='position: relative;top: 5px;padding-right: 5px'>home</i>Home</a></li>
-    <li class='divider'></li>
-    <li><a href='logout.php'><i class='material-icons' style='position: relative;top: 5px;padding-right: 5px'>power_settings_new</i>LogOut</a></li>
-  </ul>";
-            }
-  } else {
-    echo '<div style="position: absolute;top: 10px;right: 10px;"><a class=" modal-trigger" href="#modal1"><i class="material-icons" style="font-size: 40px;position: relative;top: 7px;">perm_identity</i>Login</a><a href="signup.php"><i class="material-icons" style="font-size: 40px;position: relative;top: 12px;">add</i>Register</a></div>';
-  }
-        
-     ?></div></div>
+  </div>
 
 <div  class="white" id="nav" style="margin-top: 0px;">
   <ul id="events" class="dropdown-content" style="min-width: 200px;">
@@ -164,7 +108,7 @@ $result = $connection->query($query);
         <li class="col l2"><a href="index.php">Home</a></li>
         <li class="col l2"><a href="#!" class="dropdown-button" data-activates="events">Events</a></li>
         <li class="col l2"><a id="drop1" class="dropdown-button" href="#!" data-activates="initiatives">Initiatives</a></li>
-        <li class="col l2"><a id="drop2" class="dropdown-button" href="#!" data-activates="publications">Publications</a></li>
+        <li class="col l2"><a id="drop2" class="dropdown-button" href="#!" data-activates="publications" style="min-width: 100; margin-left: 0;">Publications</a></li>
         <li class="col l2"><a href="team.php">The&nbspTeam</a></li>
         <li class="col l2"><a id="drop3" class="dropdown-button" href="#!" data-activates="sponsors">Sponsors</a></li>
         <li></li>
@@ -200,7 +144,7 @@ $result = $connection->query($query);
         <li class="no-padding">
           <ul class="collapsible collapsible-accordion">
             <li>
-              <a class="collapsible-header">Publications<i class="mdi-navigation-arrow-drop-down"></i></a>
+              <a class="collapsible-header" >Publications<i class="mdi-navigation-arrow-drop-down"></i></a>
               <div class="collapsible-body">
                 <ul>
                   <li><a href="yearbook.php">Yearbook</a></li>
@@ -226,33 +170,6 @@ $result = $connection->query($query);
                 </ul>
 
               </div></li></ul></li>
-              <?php
-  if (@$_SESSION['email']) {
-          $query="SELECT name FROM users WHERE email='".$_SESSION["email"]."'";
-
-          if( $query_run = mysqli_query($connection, $query) ){
-            
-            $row = mysqli_fetch_assoc($query_run);
-            $name = $row['name'];
-
-              echo '        
-          <li class="no-padding">
-          <ul class="collapsible collapsible-accordion">
-            <li>
-              <a class="collapsible-header">'.$name.'<i class="mdi-navigation-arrow-drop-down"></i></a>
-              <div class="collapsible-body">
-                <ul>
-                  <li><a href="home.php">Home</a></li>
-                  <li><a href="logout.php">LogOut</a></li>
-
-                </ul>
-              </div></li></ul></li>';
-            }
-  } else {
-    echo '<li><a href="aam.php">Login</a></li><li><a href="signup.php">Register</a></li>';
-  }
-        
-     ?>
 
 
 

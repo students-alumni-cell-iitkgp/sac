@@ -52,53 +52,25 @@
 <div class="slider">
     <ul class="slides">
       <li>
-              <img src="img/indexslider/annualalumnimeet1.jpg" /> <!-- random image -->
-        <div class="caption center-align">
-          <h3>Annual Alumni Meet</h3>
-          <h5 class="light grey-text text-lighten-3"></h5>
-        </div>
+              <img src="img/indexslider/annualalumnimeet1.jpg" /> 
       </li>
       <li>
-        <img src="img/indexslider/sam4.jpg"/><!-- random image -->
-        <div class="caption left-align">
-          <h3>Student Alumni Meet</h3>
-          <h5 class="light grey-text text-lighten-3"></h5>
-        </div>
+        <img src="img/indexslider/sam4.jpg"/>
       </li>
       <li>
-       <img src="img/indexslider/mentorship1.jpg" /><!-- random image -->
-        <div class="caption right-align">
-          <h3>Mentorship</h3>
-          <h5 class="light grey-text text-lighten-3"></h5>
-        </div>
+       <img src="img/indexslider/mentorship1.jpg" />
       </li>
       <li>
-       <img src="img/indexslider/guest.jpg" /> <!-- random image -->
-        <div class="caption center-align">
-          <h3>Guest Lectures</h3>
-          <h5 class="light grey-text text-lighten-3"></h5>
-        </div>
+       <img src="img/indexslider/guest.jpg" />
       </li>
        <li>
-      <img src="img/indexslider/givingback.jpg" /> <!-- random image -->
-        <div class="caption center-align">
-          <h3>My Imprint</h3>
-          <h5 class="light grey-text text-lighten-3"></h5>
-        </div>
+      <img src="img/indexslider/givingback.jpg" />
       </li>
       <li>
-     <img src="img/indexslider/yoy.jpg" /> <!-- random image -->
-        <div class="caption center-align">
-          <h3>Yearnings of yore</h3>
-          <h5 class="light grey-text text-lighten-3"></h5>
-        </div>
+     <img src="img/indexslider/yoy.jpg" /> 
       </li>
       <li>
-     <img src="img/indexslider/alvida.jpg" /> <!-- random image -->
-        <div class="caption center-align">
-          <h3>Alvida</h3>
-          <h5 class="light grey-text text-lighten-3"></h5>
-        </div>
+     <img src="img/indexslider/alvida.jpg" />
       </li>
     </ul>
   </div>
@@ -120,7 +92,7 @@
     <div class="center-align">
         <div class="row">
             <div class="col l8">  <div>
-                    <p class="z-depth-2 text_align" style="font-size: 18px;padding: 1.5em 3em">The Students’ Alumni Cell, IIT Kharagpur is a voluntary student body working under the aegis of the Office of Alumni Affairs and International Relations. It strives to bridge the gap between IIT Kharagpur and its esteemed alumni community .<br>
+                    <p class="z-depth-2 text_align" style="font-size: 16px;padding: 3.3em 3em">The Students' Alumni Cell, IIT Kharagpur is a voluntary student body working under the aegis of the Office of Alumni Affairs and International Relations. It strives to bridge the gap between IIT Kharagpur and its esteemed alumni community .<br>
 
                         The Students' Alumni Cell continuously endeavours to strengthen the relations of the alumni of this institute and their alma mater. It has been instrumental in organising the Annual Alumni Meet, publishing the annual literary magazine (Yearnings of Yore) and the Annual Yearbook and amongst other things too for instance organising regular guest lectures by distinguished alumni in the campus. The Students' Alumni Cell also operates the Student - Alumni Mentorship Programme, My Imprint (Giving Back - Alumni contribution) and organises Alvida (the annual farewell dinner).
                     </p>
