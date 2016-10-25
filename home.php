@@ -12,6 +12,9 @@
 </head>
 <body>
 <?php
+ // Start the session
+session_start();
+ 
 if ($_SESSION["email"] == "") {
   header('Location: aam.php');
   exit();
