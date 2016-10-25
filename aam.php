@@ -164,11 +164,11 @@ $result = $connection->query($query);
   </div>
   <div class="row">
   <div class="col l8 s8 m8">
-  <div class="info z-depth-2">
+  <div class="info z-depth-1">
           <center >
 <div class="heading ac-head" style="border:3px black solid; display: inline-block; padding-top: 2px; margin: 3px;padding-right: 20px;padding-left: 20px;" >
         <h4 style="margin-bottom: 0px;" ><b>14th Annual Alumni Meet</b> </h4> <br>
-      <h5  style="margin-top: 0px;">13th to 15th January,2017</h5> </div>
+      <h5  style="margin-top: 0px;">13th to 15th January, 2017</h5> </div>
       </center>
   <p class="text_align" style="text-align:justify;">The Annual Alumni Meet brings to the esteemed alumni a chance to reconnect with their Alma Mater. It lets them relive the carefree days of their college lives as they get a chance to visit all the locations they once frequented. With department and hall visits, and events like Illumination and Musical Night, the Meet rekindles the romance between the alumni and their institute. Apart from these, informal fun events like bonfire and kite flying bring out the child in all those present.
  From what used to be a simple dinner till its 7th year, the Annual Annual Meet has now evolved into a three day event that stirs up quite a buzz days before it takes place. The alumni enthusiastically look forward to getting back together with their batch mates and chatting up on what was and what has been. Each year now the Golden, Ruby and Silver Jubilee batches are invited to the meet as special guests of honor. The Meet is now a major event anticipated by both the alumni and the students.
