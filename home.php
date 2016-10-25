@@ -11,7 +11,12 @@
 
 </head>
 <body>
-<?php include 'navbar.php';?>
+<?php
+if ($_SESSION["email"] == "") {
+  header('Location: aam.php');
+  exit();
+}
+ include 'navbar.php';?>
 <style type="text/css">
 body {
 }
