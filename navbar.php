@@ -108,7 +108,7 @@
         <li class="col l2"><a href="index.php">Home</a></li>
         <li class="col l2"><a href="#!" class="dropdown-button" data-activates="events">Events</a></li>
         <li class="col l2"><a id="drop1" class="dropdown-button" href="#!" data-activates="initiatives">Initiatives</a></li>
-        <li class="col l2"><a id="drop2" class="dropdown-button" href="#!" data-activates="publications">Publications</a></li>
+        <li class="col l2"><a id="drop2" class="dropdown-button" href="#!" data-activates="publications" style="min-width: 100; margin-left: 0;">Publications</a></li>
         <li class="col l2"><a href="team.php">The&nbspTeam</a></li>
         <li class="col l2"><a id="drop3" class="dropdown-button" href="#!" data-activates="sponsors">Sponsors</a></li>
         <li></li>
@@ -144,7 +144,7 @@
         <li class="no-padding">
           <ul class="collapsible collapsible-accordion">
             <li>
-              <a class="collapsible-header">Publications<i class="mdi-navigation-arrow-drop-down"></i></a>
+              <a class="collapsible-header" >Publications<i class="mdi-navigation-arrow-drop-down"></i></a>
               <div class="collapsible-body">
                 <ul>
                   <li><a href="yearbook.php">Yearbook</a></li>
