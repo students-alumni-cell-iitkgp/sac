@@ -166,7 +166,7 @@ $result = $connection->query($query);
   <div class="col l8 s8 m8">
   <div class="info z-depth-2">
           <center >
-<div class="heading ac-head" style="border:3px black solid; display: inline-block; padding-top: 2px; margin: 3px;" >
+<div class="heading ac-head" style="border:3px black solid; display: inline-block; padding-top: 2px; margin: 3px;padding-right: 20px;padding-left: 20px;" >
         <h4 style="margin-bottom: 0px;" ><b>14th Annual Alumni Meet</b> </h4> <br>
       <h5  style="margin-top: 0px;">13th to 15th January,2017</h5> </div>
       </center>
