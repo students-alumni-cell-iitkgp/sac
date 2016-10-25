@@ -110,7 +110,7 @@ $result = $connection->query($query);
 
 
   
-   </div><div id="switch"><?php
+   </div><div id="switch"  style="display: none;"><?php
   if (@$_SESSION['email']) {
           $query="SELECT name FROM users WHERE email='".$_SESSION["email"]."'";
 
@@ -225,7 +225,7 @@ $result = $connection->query($query);
 
                 </ul>
 
-              </div></li></ul></li>
+              </div></li></ul></li><div style="display: none;">
               <?php
   if (@$_SESSION['email']) {
           $query="SELECT name FROM users WHERE email='".$_SESSION["email"]."'";
@@ -252,7 +252,7 @@ $result = $connection->query($query);
     echo '<li><a href="aam.php">Login</a></li><li><a href="signup.php">Register</a></li>';
   }
         
-     ?>
+     ?></div>
 
 
 
