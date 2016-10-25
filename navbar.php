@@ -101,6 +101,9 @@ $result = $connection->query($query);
 .dropdown-content li {
   text-align: center !important;
 }
+#nav {
+  z-index: 5;
+}
   </style>
   <div class="row" id="logo" style="background-color: white; margin-bottom: 0px; "><div class="col l12 m12 s12 center-align"><img style=" width:200px;" src="img/logo/sac_logo.png">
     
