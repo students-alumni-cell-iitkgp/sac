@@ -1,47 +1,82 @@
-<?php
-require 'connection.php';
-ob_start(); 
-session_start();
-if ($_SESSION["email"] == "") {
-  header('Location: aam.php');
-  exit();
-}
-?>
-
-<!DOCTYPE html>
 <html>
 <head>
+<title>Home</title>
+ <link rel="icon" href="img/meet_14.png">
 <link rel="stylesheet" href="css/materialize.min.css">
-<link rel="icon"  href="img/meet_14.png">
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="js/materialize.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
-<style type="text/css">
-    #button{
-    position: absolute;
-    top: 155px;
-    right: 10px;
-   } 
-   .card{
-    height: 500px;
-   }
-</style>
 </head>
-
 <body>
-  <div id="wrapper">
-    
-    <div id="header" style="margin: 0;">
-    <?php
-include 'navbar.php';
-?>
-    </div><!-- #header -->
-    
-    <div id="content">
-          <div class="container">
+<?php include 'navbar.php';?>
+<style type="text/css">
+body {
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 55;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align:center;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+
+}
+
+.sidenav a:hover{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#ajax{
+  width: 60%;
+  background-color: #fff;
+  margin-left: 20%;
+  padding: 50px;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+  #ajax{
+    width: 90%;
+    margin:5%;
+  }
+}
+</style>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div id="ajax" class="card-panel"></div>
+</div>
+<div class="container" >
         <div class="container-fluid">
           <div align="center">
         <div id="message">
@@ -56,12 +91,12 @@ include 'navbar.php';
               echo '<h3>Welcome  Mr '.$name.'.<h3>';
             }
         ?>
-        </div><a class="waves-effect waves-light btn" href="logout.php" id="button">Log Out</a>
+        </div>
           </div>
           <p class="text_align">
             We will be showing you important information regarding the meet here. Check back in a few days to find out more about the Alumni Meet.
           </p>
-          <div class="container" >
+          <div class="container" style="width: 100%">
             <div class="card-panel teal lighten-5">
               <div class="card-title text_align">
                 Payment Details
@@ -94,17 +129,24 @@ include 'navbar.php';
           </div>
         </div>
       </div>
-          
-    </div><!-- #content -->
-    
-    <div id="footer">
-    </div><!-- #footer -->
-    
-  </div><!-- #wrapper -->
-  
-</body>
+          <div style="width: 100%;" class="container center"><span style="font-size:20px;cursor:pointer; " onclick="openNav()" id="button01" class="waves-effect waves-light btn-large "> Travel and Accomodation Registeration</span></div>
 
-</html>
-<?php  
-include 'footer.php';
-?>
+
+<script>
+  $(document).ready(function(){
+    $('#button01').click(function(){
+      $('#ajax').load('acco-travel-form.php');
+    });
+  });
+function openNav() {
+    document.getElementById("mySidenav").style.width = "100%";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+<?php include 'footer.php';?>
+ 
+  </body>
+  </html>
