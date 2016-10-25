@@ -79,6 +79,12 @@ body {
     margin:5%;
   }
 }
+@media screen and (min-height: 992px) {
+  #button{
+    display: none;
+  }
+
+}
 </style>
 <body>
 
@@ -140,6 +146,11 @@ body {
         </div>
       </div>
           <div style="width: 100%;" class="container center"><span style="font-size:20px;cursor:pointer; " onclick="openNav()" id="button01" class="waves-effect waves-light btn-large "> Travel and Accomodation Registeration</span></div>
+  <div class="fixed-action-btn" style="bottom: 25px; right: 25px;" id="power">
+    <a class="btn-floating btn-large" href="logout.php" title="Logout" >
+      <i class="large material-icons" style="font-size: 30px">power_settings_new</i>
+    </a>
+  </div>
 
 
 <script>
