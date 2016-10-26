@@ -140,7 +140,7 @@
     </div>
     <div class="card-reveal">
       <span class="card-title grey-text text-darken-4">For Institute<i class="material-icons right">close</i></span>
-      <p class="text_align">The alumni community often takes keen interest in the institute’s workings and the prevalent conditions. Students' Alumni Cell reconnects the institute and alumni, providing the alumni with an avenue to give back to their alma mater. The Institution Development Program (IDP) aims to promote the institute's domestic ranking while simultaneously improving the international stature. </p>
+      <p class="text_align">The alumni community often takes keen interest in the institute&#8217;s workings and the prevalent conditions. Students' Alumni Cell reconnects the institute and alumni, providing the alumni with an avenue to give back to their alma mater. The Institution Development Program (IDP) aims to promote the institute's domestic ranking while simultaneously improving the international stature. </p>
     </div>
   </div>
 </div>
