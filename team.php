@@ -14,12 +14,12 @@
 <?php include'navbar.php';?>
   
   <div class="container">
-  <div class="row">
+  
   <div class="heading">
     <center>
       <h class="subheading "><b>General Secretaries</b></h>
     </center>
-  </div> </div>
+   </div>
   <div class="row">
   <div class="col l4 m6 s12 m6 s12 offset-l2">
   <div class="card small hoverable">
@@ -226,11 +226,11 @@
    </div>
 </div> </div> </div>
   <div class="heading">
-    <center><h class="subheading">Previous Teams</h></center>
+    <center><h class="subheading">Former Team Members</h></center>
   </div>
-<div class="row">
+<div class="row" style="margin-top: 50px;">
     
-      <ul><b>
+      <ul style="font-size: 20;"><b>
         <li class="col l2 m2 s2 offset-l1 m1 s1 center-align">2015</li>
         <li class="col l2 m2 s2 center-align">2014</li>
         <li class="col l2 m2 s2 center-align">2013</li>
