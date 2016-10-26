@@ -11,9 +11,12 @@
 	}
 	@media only screen and (max-width: 1350px) {
    	.normal{
-		width: 25vw;
-		padding: 10px;
-	}
+    width: 25vw;
+  }.video-container{
+    width: 25vw;
+    margin-left: 20px;
+    height: 400px;
+  }
     .bigg {
     	width: 48vw !important;
     	padding-right: 0;
@@ -47,7 +50,9 @@
         <img class="materialboxed normal" src="img/gallery/three.JPG" height="200px" style="margin-top: 20px;">
 </div>
 <div class="col l6 m6 s12">
-        <img  class="materialboxed normal bigg" src="img/gallery/four.JPG" height="420px" />
+        <div class="video-container normal bigg" style="height:420px; padding-left: 20px;  ">
+       <iframe class="frame" src="https://www.youtube.com/embed/TvkgR5gS2j4" frameborder="0" allowfullscreen ></iframe>
+      </div>
     </div>
     <div class="col l3 m6 s12">
         <img class="materialboxed normal" src="img/gallery/five.JPG" height="200px"/> 
