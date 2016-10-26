@@ -63,7 +63,7 @@ left: 60px;
 
     
     <span class="mentor-text">
-    <p class="z-depth-2 text_align" style="padding:6% 10% 6% 10%; background:white;">
+    <p class="z-depth-1 text_align" style="padding:6% 10% 6% 10%; background:white;">
       The Student Alumni Mentorship Programme, an initiative of the Students' Alumni Cell, IIT Kharagpur was started in the academic session 2011-12, with a motive to help the current students to interact and learn from their Alumni on a personal level. It has been, ever since, a fruitful two-way platform for the exchange of ideas and experiences between the alumni and the current batches of IIT Kharagpur.
     </p>
     </span>
@@ -83,7 +83,7 @@ left: 60px;
 
 <div class="row" style="padding:6% 8% 3% 0%;">
 
-  <p class="summit z-depth-2 text_align" style="padding:6% 10% 6% 10%; background:white;">
+  <p class="summit z-depth-1 text_align" style="padding:6% 10% 6% 10%; background:white;">
     Under this programme, we invite our alumni across the globe and from different fields to interact with the students and help them build their network and gain a new perspective on the possibilities open to them, after graduation.
     <br><br>
     With the students facing crossroads at every other turn and unable to choose what's best for them due to a lack of insight into how things would actually materialize with each road that they choose to take, it becomes crucial that they get advice from people who have faced the very same crossroads in their student life and the big bad competitive world beyond it.
@@ -103,4 +103,3 @@ left: 60px;
  
   </body>
   </html>
-
