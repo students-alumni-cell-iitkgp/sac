@@ -36,7 +36,12 @@
         <img src="img/indexslider/alvida.jpg" >
     </div>
 
-   <div class="row" style="padding:6% 8% 6% 8%; ">
+   <div class="row" style="padding:0% 8% 6% 8%; ">
+       <div class="heading" style="font-stretch: extra-expanded">
+           <center>
+               <h class="subheading"><b>Alvida</b> - The Annual Farewell Dinner</h>
+           </center>
+       </div>
    <div class="col l12 s12 m12"> 
   
   
