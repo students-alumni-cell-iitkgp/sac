@@ -40,7 +40,12 @@ max-width:100%;
     <div class="row ac-sam-cov">
         <img src="img/sam3.jpg" class="">
     </div>
-      <div class="row" style="padding:6% 8% 6% 8%;">
+      <div class="row" style="padding:0% 8% 6% 8%;">
+          <div class="heading">
+              <center>
+                  <h class="subheading"><b>Student </b>Alumni Meet</h>
+              </center>
+          </div>
           <div class="center-align" >
               <div class="col l12" style="background-color: ">
                   
