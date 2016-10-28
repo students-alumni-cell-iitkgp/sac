@@ -1,8 +1,3 @@
-<?php
-require 'connection.php';
-ob_start(); 
-@session_start();
-?>
 <script>
    $(document).ready(function(){
    if ($(window).width()>992) {
@@ -34,15 +29,15 @@ ob_start();
 
 
   });
-
-  
-  
 </script>
 
 <style>  @media only screen and (max-width: 992px){
     nav .brand-logo {
       left: 87%;
       -webkit-transform: translateX(-50%);
+    }
+    #switch{
+      display: none;
     }
   }
  
@@ -68,20 +63,18 @@ ob_start();
 .dropdown-content li {
   text-align: center !important;
 }
+#nav {
+  z-index: 5;
+}
   </style>
-  <div class="row" id="logo" style="background-color: white; margin-bottom: 0px;  display: none;"><div class="col l12 m12 s12 center-align"><img style=" width:200px;" src="img/logo/sac_logo.png">
-  <a href="home.php">
-  <div id="loggedin" class="right-align" style="position: absolute;font-size: 20px;top: 10px ; right: 15px; cursor: pointer;">
-    <i class="material-icons" style="font-size: 40px;position: relative;top: 7px; ">perm_identity</i>
-    <?php
-  if (@$_SESSION['email']) {
-    echo @$_SESSION['email'];
-  } else {
-    echo "Login";
-  }
-        
-     ?>
-  </div> </a></div>   </div>
+  <div class="row" id="logo" style="background-color: white; margin-bottom: 0px; "><div class="col l12 m12 s12 center-align"><img style=" width:200px;" src="img/logo/sac_logo.png">
+    
+
+
+  
+   </div>
+
+  </div>
 
 <div  class="white" id="nav" style="margin-top: 0px;">
   <ul id="events" class="dropdown-content" style="min-width: 200px;">
@@ -115,7 +108,7 @@ ob_start();
         <li class="col l2"><a href="index.php">Home</a></li>
         <li class="col l2"><a href="#!" class="dropdown-button" data-activates="events">Events</a></li>
         <li class="col l2"><a id="drop1" class="dropdown-button" href="#!" data-activates="initiatives">Initiatives</a></li>
-        <li class="col l2"><a id="drop2" class="dropdown-button" href="#!" data-activates="publications">Publications</a></li>
+        <li class="col l2"><a id="drop2" class="dropdown-button" href="#!" data-activates="publications" style="min-width: 100; margin-left: 0;">Publications</a></li>
         <li class="col l2"><a href="team.php">The&nbspTeam</a></li>
         <li class="col l2"><a id="drop3" class="dropdown-button" href="#!" data-activates="sponsors">Sponsors</a></li>
         <li></li>
@@ -151,7 +144,7 @@ ob_start();
         <li class="no-padding">
           <ul class="collapsible collapsible-accordion">
             <li>
-              <a class="collapsible-header">Publications<i class="mdi-navigation-arrow-drop-down"></i></a>
+              <a class="collapsible-header" >Publications<i class="mdi-navigation-arrow-drop-down"></i></a>
               <div class="collapsible-body">
                 <ul>
                   <li><a href="yearbook.php">Yearbook</a></li>
@@ -186,4 +179,31 @@ ob_start();
 
 
   </nav>
+</div>
+<div id="modal1" class="modal ">
+  <div class="modal-content">
+
+  <div class="row">
+    <form class="col s12 center-align" action="aam.php" method="POST">
+      <div class="row">
+      <h2>LOGIN</h2>
+        <div class="input-field col s12">
+          <i class="material-icons prefix">account_circle</i>
+          <input id="icon_prefix" type="email" class="validate" name="email">
+          <label for="icon_prefix">Email ID</label>
+        </div>
+        <div class="input-field col s12">
+          <i class="material-icons prefix">vpn_key</i>
+          <input id="icon_telephone" type="password" class="validate" name="password">
+          <label for="icon_telephone">Password</label>
+        </div>
+            <button class="btn-large waves-effect waves-light " type="submit" name="action" style="margin-top:15px; width:200px;">Log In
+            <i class="material-icons right">send</i>
+      </div>
+    </form>
+  </div>
+  </div>
+  <div class="modal-footer">
+    <a href="#!" class=" modal-action modal-close waves-effect waves-blue btn-flat">CLOSE</a>
+  </div>
 </div>
