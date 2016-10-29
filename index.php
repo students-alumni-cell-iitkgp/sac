@@ -81,7 +81,7 @@
   <div class="row">
     <div class="heading">
       <center>
-        <h class="subheading"><b>About</b> Us</h>
+        <h class="subheading"><b>About Us</b></h>
       </center>
     </div>
     <!--div class="parallax-container col l6 m6 s6 _about">
@@ -111,7 +111,7 @@
   <div class="" style="width:100%;">
   <div class="heading">
     <center>
-      <h class="subheading"><b>What</b> We Do</h>
+      <h class="subheading"><b>What We Do</b></h>
     </center>
   </div>
 <div class="row" style="margin:auto;width:90%;">
@@ -162,7 +162,7 @@
 </div>
 <div class="heading">
   <center>
-    <h class="subheading"><b>Latest</b> Programs</h>
+    <h class="subheading"><b>Latest Programs</b></h>
   </center>
 </div>
 <div class="row">
