@@ -231,7 +231,7 @@ The <b>14th Annual Alumni Meet </b>would be organised from <b>13th to 15th Janua
   </div>
   
   <div class="info row view">
-  <?php include 'gallery.php';?>
+  <?php include 'gallery1.php';?>
   </div>
   </div>
   <div class="foter">
