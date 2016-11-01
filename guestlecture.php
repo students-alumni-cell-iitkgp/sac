@@ -1,4 +1,4 @@
-<html>
+<html xmlns="http://www.w3.org/1999/html">
 <head>
 <link rel="stylesheet" href="css/materialize.min.css">
 <link rel="icon"  href="img/meet_14.png">
@@ -61,6 +61,72 @@ max-width:100%;
 
 
 </div>
+
+<div class="row"><center>
+    <div class="heading">
+        <center>
+            <h class="subheading"><b>Tips from Top</b></h>
+        </center>
+    </div>
+    
+    <div class="col l2">
+        <center>
+        <img class="materialboxed normal" src="img/guest-lecture/Tips_from_Top/a.jpg" width="250">
+        </center>
+    </div>
+    <div class="col l5">
+        <center>
+        <img class="materialboxed normal" src="img/guest-lecture/Tips_from_Top/b.jpg" width="470" height="380" style="margin-left: 80px" ></center>
+    </div>
+    <div class="col l5">
+        <center>
+        <img class="materialboxed normal" src="img/guest-lecture/Tips_from_Top/c.jpg" width="470"  height="380"></center>
+    </div></center>
+</div>
+
+<div class="row"><center>
+        <div class="heading">
+            <center>
+                <h class="subheading"><b>Mr Veerendra Jaitly</b></h>
+            </center>
+        </div>
+
+        <div class="col l4">
+            <center>
+                <img class="materialboxed normal" src="img/guest-lecture/Mr_Veerendra_Jaitly/a.jpg" width="430">
+            </center>
+        </div>
+        <div class="col l4">
+            <center>
+                <img class="materialboxed normal" src="img/guest-lecture/Mr_Veerendra_Jaitly/b.jpg" width="430"></center>
+        </div>
+        <div class="col l4">
+            <center>
+                <img class="materialboxed normal" src="img/guest-lecture/Mr_Veerendra_Jaitly/c.jpg" width="430" ></center>
+        </div></center>
+</div>
+<div class="row"><center>
+        <div class="heading">
+            <center>
+                <h class="subheading"><b>KGP Beyond</b></h>
+            </center>
+        </div>
+
+        <div class="col l4">
+            <center>
+                <img class="materialboxed normal" src="img/guest-lecture/kgp_beyond/a.jpg" width="430">
+            </center>
+        </div>
+        <div class="col l4">
+            <center>
+                <img class="materialboxed normal" src="img/guest-lecture/kgp_beyond/b.jpg" width="430" ></center>
+        </div>
+        <div class="col l4">
+            <center>
+                <img class="materialboxed normal" src="img/guest-lecture/kgp_beyond/c.jpg" width="430" ></center>
+        </div></center>
+</div>
+
     <div class="row">
       <div class="heading">
         <center>
