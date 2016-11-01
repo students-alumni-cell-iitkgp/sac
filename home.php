@@ -114,7 +114,7 @@ body {
           </p>
           <div class="container" style="width: 100%">
             <div class="card-panel teal lighten-5">
-              <div class="card-title text_align">
+              <div class="card-title text_align" style="font-weight: bold;font-size: 30px;">
                 Payment Details
               </div>
                 Every visiting alumnus has to pay INR 5000. This includes your accomodation, fooding and conveyance charge at Kharagpur. If there is any other person accompanying you an additional payment of INR 2500 per head will have
@@ -142,10 +142,18 @@ body {
                   </li>
                 </ul>
             </div>
+            <div class="card-panel teal lighten-5">
+              <div class="card-title text_align" style="font-weight: bold;font-size: 30px;">
+                Transportation Details
+              </div>
+              Conveyance from Kharagpur Railway Station to IIT Kharagpur will be provided by us.<br><br>
+              If you require transportation from Kolkata to IIT Kharagpur, it can be arranged through us on chargeable basis. Kindly Fill your details in this form.<br> 
+          <div style="width: 100%;" class="container center"><span style="font-size:20px;cursor:pointer; " onclick="openNav()" id="button01" class="waves-effect waves-light btn-large "> Travel and Accomodation Registeration</span></div>
+
+            </div>
           </div>
         </div>
       </div>
-          <div style="width: 100%;" class="container center"><span style="font-size:20px;cursor:pointer; " onclick="openNav()" id="button01" class="waves-effect waves-light btn-large "> Travel and Accomodation Registeration</span></div>
   <div class="fixed-action-btn" style="bottom: 25px; right: 25px;" id="power">
     <a class="btn-floating btn-large" href="logout.php" title="Logout" >
       <i class="large material-icons" style="font-size: 30px">power_settings_new</i>
