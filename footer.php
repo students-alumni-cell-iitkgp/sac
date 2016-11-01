@@ -49,7 +49,7 @@
 
   <div class="footer-copyright grey darken-3">
     <div class="container">
-    &copy; 2016 Student Alumni Cell
+    &copy; 2016 Students' Alumni Cell
 
     </div>
 

@@ -52,53 +52,25 @@
 <div class="slider">
     <ul class="slides">
       <li>
-              <img src="img/indexslider/annualalumnimeet1.jpg" /> <!-- random image -->
-        <div class="caption center-align">
-          <h3>Annual Alumni Meet</h3>
-          <h5 class="light grey-text text-lighten-3"></h5>
-        </div>
+              <img src="img/indexslider/annualalumnimeet1.jpg" /> 
       </li>
       <li>
-        <img src="img/indexslider/sam4.jpg"/><!-- random image -->
-        <div class="caption left-align">
-          <h3>Student Alumni Meet</h3>
-          <h5 class="light grey-text text-lighten-3"></h5>
-        </div>
+        <img src="img/indexslider/sam4.jpg"/>
       </li>
       <li>
-       <img src="img/indexslider/mentorship1.jpg" /><!-- random image -->
-        <div class="caption right-align">
-          <h3>Mentorship</h3>
-          <h5 class="light grey-text text-lighten-3"></h5>
-        </div>
+       <img src="img/indexslider/mentorship1.jpg" />
       </li>
       <li>
-       <img src="img/indexslider/guest.jpg" /> <!-- random image -->
-        <div class="caption center-align">
-          <h3>Guest Lectures</h3>
-          <h5 class="light grey-text text-lighten-3"></h5>
-        </div>
+       <img src="img/indexslider/guest.jpg" />
       </li>
        <li>
-      <img src="img/indexslider/givingback.jpg" /> <!-- random image -->
-        <div class="caption center-align">
-          <h3>My Imprint</h3>
-          <h5 class="light grey-text text-lighten-3"></h5>
-        </div>
+      <img src="img/indexslider/givingback.jpg" />
       </li>
       <li>
-     <img src="img/indexslider/yoy.jpg" /> <!-- random image -->
-        <div class="caption center-align">
-          <h3>Yearnings of yore</h3>
-          <h5 class="light grey-text text-lighten-3"></h5>
-        </div>
+     <img src="img/indexslider/yoy.jpg" /> 
       </li>
       <li>
-     <img src="img/indexslider/alvida.jpg" /> <!-- random image -->
-        <div class="caption center-align">
-          <h3>Alvida</h3>
-          <h5 class="light grey-text text-lighten-3"></h5>
-        </div>
+     <img src="img/indexslider/alvida.jpg" />
       </li>
     </ul>
   </div>
@@ -109,7 +81,7 @@
   <div class="row">
     <div class="heading">
       <center>
-        <h class="subheading"><b>About</b> Us</h>
+        <h class="subheading"><b>About Us</b></h>
       </center>
     </div>
     <!--div class="parallax-container col l6 m6 s6 _about">
@@ -119,14 +91,22 @@
 <div>
     <div class="center-align">
         <div class="row">
+<<<<<<< HEAD
             <div class="col l8">  <div>
                     <p class="z-depth-2 text_align" style="font-size: 16px;padding: 1em 1.5em">The Students&#8217; Alumni Cell, IIT Kharagpur is a voluntary student body working under the aegis
                         of the Office of Alumni Affairs and International Relations.
                         It strives to bridge the gap between IIT Kharagpur and its esteemed alumni community
                         .<br><br>The Students' Alumni Cell continuously endeavours to strengthen the relations of the alumni of this institute and their alma mater. It has been instrumental in organising the Annual Alumni Meet, publishing the annual literary magazine (Yearnings of Yore) and the Annual Yearbook and amongst other things too for instance organising regular guest lectures by distinguished alumni in the campus. The Students' Alumni Cell also operates the Student - Alumni Mentorship Programme, My Imprint (Giving Back - Alumni contribution) and organises Alvida (the annual farewell dinner).</p>
+=======
+            <div class="col l8">  <div style="background-color: white;">
+                    <p class="z-depth-1 text_align" style="font-size: 16px;padding: 3.3em 3em">The Students' Alumni Cell, IIT Kharagpur is a voluntary student body working under the aegis of the Office of Alumni Affairs and International Relations. It strives to bridge the gap between IIT Kharagpur and its esteemed alumni community .<br>
+
+                       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The Students' Alumni Cell continuously endeavours to strengthen the relations of the alumni of this institute and their alma mater. It has been instrumental in organising the Annual Alumni Meet, publishing the annual literary magazine (Yearnings of Yore) and the Annual Yearbook and amongst other things too for instance organising regular guest lectures by distinguished alumni in the campus. The Students' Alumni Cell also operates the Student - Alumni Mentorship Programme, My Imprint (Giving Back - Alumni contribution) and organises Alvida (the annual farewell dinner).
+                    </p>
+>>>>>>> 088a3636c32463fd02f8b317a2aff304dd85da8a
                 </div></div>
-            <div class="col l4" style="margin-top: 1em">
-                <div id="fbplug" style="padding-left:1em;padding-right:1em" class="z-depth-2 fb-page" data-href="https://www.facebook.com/iitkgp.alumnicell/?fref=ts" data-tabs="timeline" data-height="320px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/iitkgp.alumnicell/?fref=ts" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/iitkgp.alumnicell/?fref=ts">Alumni Cell, IIT Kharagpur</a></blockquote></div>
+            <div class="col l4" style="margin-top: 1em;">
+                <div id="fbplug" style="width: 425px; background-color: #fff" class="z-depth-1 fb-page" data-href="https://www.facebook.com/iitkgp.alumnicell/?fref=ts" data-tabs="timeline" data-height="320px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/iitkgp.alumnicell/?fref=ts" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/iitkgp.alumnicell/?fref=ts">Alumni Cell, IIT Kharagpur</a></blockquote></div>
             </div>
         </div>
     </div>
@@ -139,7 +119,7 @@
   <div class="" style="width:100%;">
   <div class="heading">
     <center>
-      <h class="subheading"><b>What</b> We Do</h>
+      <h class="subheading"><b>What We Do</b></h>
     </center>
   </div>
 <div class="row" style="margin:auto;width:90%;">
@@ -153,7 +133,12 @@
     </div>
     <div class="card-reveal">
       <span class="card-title grey-text text-darken-4">For Alumni<i class="material-icons right">close</i></span>
+<<<<<<< HEAD
       <p class="text_align">The Students' Alumni Cell works towards ensuring mutual benefit of the Students as well as the Alumni. The cell helps the alumni in staying connected to their alma mater. Through regular interactions with the students, the alumni get a chance to share their experiences and impart the knowledge they have acquired to the next generation of KGPians. Also, with this interchange, they get a glimpse of the young minds of the nation.</p>
+=======
+      <p class="text_align">The Students' Alumni Cell works towards ensuring mutual benefit of the Students as well as the Alumni. The cell helps the alumni in staying connected to their alma mater. Through regular interactions with the students, the alumni get a chance to share their experiences and impart the knowledge they have acquired to the next generation of KGPians. Also, with this interchange, they get a glimpse of the young minds of the nation.
+      </p>
+>>>>>>> 088a3636c32463fd02f8b317a2aff304dd85da8a
     </div>
   </div>
 </div>
@@ -167,7 +152,11 @@
     </div>
     <div class="card-reveal">
       <span class="card-title grey-text text-darken-4">For Institute<i class="material-icons right">close</i></span>
+<<<<<<< HEAD
       <p class="text_align">The alumni community often takes keen interest in the institute&#39;s workings and the prevalent conditions. Students' Alumni Cell reconnects the institute and alumni, providing the alumni with an avenue to give back to their alma mater. The Institution Development Program (IDP) aims to promote the institute&#39;s domestic ranking while simultaneously improving the international stature.</p>
+=======
+      <p class="text_align">The alumni community often takes keen interest in the institute&#8217;s workings and the prevalent conditions. Students' Alumni Cell reconnects the institute and alumni, providing the alumni with an avenue to give back to their alma mater. The Institution Development Program (IDP) aims to promote the institute's domestic ranking while simultaneously improving the international stature. </p>
+>>>>>>> 088a3636c32463fd02f8b317a2aff304dd85da8a
     </div>
   </div>
 </div>
@@ -189,7 +178,7 @@
 </div>
 <div class="heading">
   <center>
-    <h class="subheading"><b>Latest</b> Programs</h>
+    <h class="subheading"><b>Latest Programs</b></h>
   </center>
 </div>
 <div class="row">

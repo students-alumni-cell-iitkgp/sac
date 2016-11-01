@@ -50,26 +50,32 @@ max-width:100%;
 <div class="row ac-summit">
   <img src="img/summit.jpg" >  
 </div>
-<div class="row">
-  
-  
-  
-    <p class="summit z-depth-2 text_align">The Students' Alumni Cell, IIT Kharagpur is a voluntary student body working under the aegis of the Office of Alumni Affairs and International Relations. It strives to bridge the gap between IIT Kharagpur and its esteemed alumni community. Over the course of past few years, the Students' Alumni Cell has emerged as a key organ of the Office of Alumni Affairs and International Relations in executing its yearlong events and activities.
-    The Students' Alumni Cell continuously endeavours to strengthen the relations of the alumni of this institute and their alma mater. Formed as and operating under the Dean, Alumni Affairs and International Relations, the Students' Alumni Cell has been instrumental in organising the Annual Alumni Meet, publishing the quarterly alumni newsletter (KGPian), the annual literary magazine (Yearnings of Yore) and the Annual Yearbook (Colours Of Life) and among other things like organising regular guest lectures by distinguished alumni in the campus.
-    The Students' Alumni Cell also operates the Student - Alumni Mentorship Programme, My Imprint (Giving Back - Alumni contribution) and organises Alvida (the annual farewell dinner). We look forward to taking up more initiatives and organizing more such events to foster the bond between the institute and the alumni.
-    </p>
-  
-</div>
-  <div class="container" style="width:100%;">
+    <div class="row" style="padding:0% 8% 0% 8%;">
+
+        <div class="center-align" >
+            <div class="col l12 z-depth-1" style=" ">
+                <div class="heading" style="margin-top: -5px">
+                    <center>
+                        <h class="subheading"><b>Leadership Summit</b></h>
+                    </center>
+                </div>
+
+                <p class="summit text_align" style="padding:1% 10% 6% 10%;">
+                    The Students' Alumni Cell, IIT Kharagpur is a voluntary student body working under the aegis of the Office of Alumni Affairs and International Relations. It strives to bridge the gap between IIT Kharagpur and its esteemed alumni community. Over the course of past few years, the Students' Alumni Cell has emerged as a key organ of the Office of Alumni Affairs and International Relations in executing its yearlong events and activities. The Students' Alumni Cell continuously endeavours to strengthen the relations of the alumni of this institute and their alma mater. Formed as and operating under the Dean, Alumni Affairs and International Relations, the Students' Alumni Cell has been instrumental in organising the Annual Alumni Meet, publishing the quarterly alumni newsletter (KGPian), the annual literary magazine (Yearnings of Yore) and the Annual Yearbook (Colours Of Life) and among other things like organising regular guest lectures by distinguished alumni in the campus. The Students' Alumni Cell also operates the Student - Alumni Mentorship Programme, My Imprint (Giving Back - Alumni contribution) and organises Alvida (the annual farewell dinner). We look forward to taking up more initiatives and organizing more such events to foster the bond between the institute and the alumni.
+                    </p>
+            </div>
+        </div>
+    </div>
+ <div class="container" style="width:100%;">
   <div class="row leader" style="margin:auto;width:90%;">
         <div class="col s12 m4 l4">
           <div class="card z-depth-0 _card">
             <div class="card-image">
               <img src="img/leadership_speakers/arunabhkumar.jpg">
-              <span class="card-title">Arunab Kumar</span>
+              <span class="card-title"></span>
             </div>
             <div class="card-content">
-              <p></p> 
+              <p>Arunab Kumar</p> 
             </div>
             <div class="card-action">
            <a href="#"></a>   
@@ -80,10 +86,10 @@ max-width:100%;
           <div class="card z-depth-0 _card">
             <div class="card-image">
               <img src="img/leadership_speakers/arjunmalhotra.jpg">
-              <span class="card-title">Arjun Malhotra</span>
+              <span class="card-title"></span>
             </div>
             <div class="card-content">
-              <p></p>
+              <p>Arjun Malhotra</p>
             </div>
             <div class="card-action">
               <a href="#"></a>
@@ -94,10 +100,10 @@ max-width:100%;
           <div class="card z-depth-0 _card">
             <div class="card-image">
               <img src="img/leadership_speakers/anjanraichaudhuri.jpg">
-              <span class="card-title">Anjan Rai Chaudhuri</span>
+              <span class="card-title"></span>
             </div>
             <div class="card-content">
-              <p> </p>
+              <p>Anjan Rai Chaudhuri </p>
             </div>
             <div class="card-action">
               <a href="#"></a>
@@ -110,10 +116,10 @@ max-width:100%;
           <div class="card z-depth-0 _card">
             <div class="card-image">
               <img src="img/leadership_speakers/gopalrajgarhia.jpg">
-              <span class="card-title">Gopal Raj</span>
+              <span class="card-title"></span>
             </div>
             <div class="card-content">
-              <p></p>
+              <p>Gopal Raj</p>
             </div>
             <div class="card-action">
               <a href="#"></a>
@@ -124,10 +130,10 @@ max-width:100%;
           <div class="card z-depth-0 _card">
             <div class="card-image">
               <img src="img/leadership_speakers/prasadrmenon.jpg">
-              <span class="card-title">Prasad Menon</span>
+              <span class="card-title"></span>
             </div>
             <div class="card-content">
-              <p></p>
+              <p>Prasad Menon</p>
             </div>
             <div class="card-action">
               <a href="#"></a>
@@ -138,10 +144,10 @@ max-width:100%;
           <div class="card z-depth-0 _card">
             <div class="card-image">
               <img src="img/leadership_speakers/sakyasinharoy.jpg">
-              <span class="card-title">Sakya Sinha Roy</span>
+              <span class="card-title"></span>
             </div>
             <div class="card-content">
-              <p></p>
+              <p>Sakya Sinha Roy</p>
             </div>
             <div class="card-action">
               <a href="#"></a>
