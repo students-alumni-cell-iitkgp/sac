@@ -40,9 +40,9 @@ max-width:100%;
     <div class="row">
         <div class="col l10 s12 m12 offset-l1">
             <div class="info z-depth-1">
-                <div class="heading">
+                <div class="heading" style="margin-top:-20px">
                     <center >
-                        <h  class="subheading"><b id="senior_class_gift">GuestLectures</b> </h>
+                        <h  class="subheading"><b id="senior_class_gift">Guest Lectures</b> </h>
                     </center>
                 </div>
                 <p class="text_align" style="padding: 20px">Since its inception in 1951, IIT Kharagpur has mentored some of the most eminent personalities in the history of the nation. The guest-lectures provide a medium for the alumni to give back to the institute by imparting their experience to the students and preparing them for the real world. The topics are spread all over - from personality development to department related technical lectures.
@@ -62,32 +62,38 @@ max-width:100%;
 
 </div>
 
-<div class="row"><center>
-    <div class="heading">
-        <center>
-            <h class="subheading"><b>Tips from Top</b></h>
-        </center>
-    </div>
-    
-    <div class="col l2">
-        <center>
-        <img class="materialboxed normal" src="img/guest-lecture/Tips_from_Top/a.jpg" width="250">
-        </center>
-    </div>
-    <div class="col l5">
-        <center>
-        <img class="materialboxed normal" src="img/guest-lecture/Tips_from_Top/b.jpg" width="470" height="380" style="margin-left: 80px" ></center>
-    </div>
-    <div class="col l5">
-        <center>
-        <img class="materialboxed normal" src="img/guest-lecture/Tips_from_Top/c.jpg" width="470"  height="380"></center>
-    </div></center>
-</div>
+<div class="row">
+    <center>
+        <div class="row"><center>
+                <div class="heading">
+                    <center>
+                        <h class="subheading"><b>Tips from Top</b></h>
+                    </center>
+                </div>
 
-<div class="row"><center>
-        <div class="heading">
+                <div class="col l4">
+                    <center>
+                        <img class="materialboxed normal" src="img/guest-lecture/Tips_from_Top/a.jpg" width="430">
+                    </center>
+                </div>
+                <div class="col l4">
+                    <center>
+                        <img class="materialboxed normal" src="img/guest-lecture/Tips_from_Top/b.jpg" width="430"></center>
+                </div>
+                <div class="col l4">
+                    <center>
+                        <img class="materialboxed normal" src="img/guest-lecture/Tips_from_Top/c.jpg" width="430" ></center>
+                </div></center>
+
+
+
+    
+
+
+<div class="row" ><center>
+        <div class="heading" style="margin-top: 350px">
             <center>
-                <h class="subheading"><b>Mr Veerendra Jaitly</b></h>
+                <h class="subheading"><b>Guest Lecture</b> - Mr Veerendra Jaitly</h>
             </center>
         </div>
 
@@ -108,7 +114,7 @@ max-width:100%;
 <div class="row"><center>
         <div class="heading">
             <center>
-                <h class="subheading"><b>KGP Beyond</b></h>
+                <h class="subheading"><b>KGP & Beyond</b></h>
             </center>
         </div>
 
