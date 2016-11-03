@@ -65,7 +65,10 @@ if($result1!=FALSE && $result2!=FALSE) {
 
 else {
 	$_SESSION['form_submit']='fail';
-	header('Location:home.php');
+	echo '<script type="text/javascript">'; 
+	echo 'alert(" There is some problem, Please try again. ");'; 
+	echo 'window.location.href = "home.php";';
+	echo '</script>';
 }
 
 ?>
