@@ -92,7 +92,7 @@
 
       <div class="heading" style="margin-top: -10px;">
           <center >
-              <h  class="subheading"><b id="senior_class_gift">What is Senior Class Gift 2015 ?</b> </h>
+              <h  class="subheading"><b id="senior_class_gift">What is Senior Class Gift ?</b> </h>
           </center>
       </div>
 
