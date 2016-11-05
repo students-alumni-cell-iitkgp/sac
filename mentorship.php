@@ -3,11 +3,11 @@
 <title>Mentorship Program</title>
 <link rel="stylesheet" href="css/materialize.min.css">
 <link rel="icon"  href="img/meet_14.png">
-	  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-	  <script src="js/materialize.min.js"></script>
-	  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	  <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 <style type="text/css">
   
    @media only screen and (min-width: 768px){
@@ -49,13 +49,14 @@ left: 60px;
    
     
 </style>
-	  <script>
-	  $(document).ready(function(){
+    <script>
+    $(document).ready(function(){
       $('.slider').slider({full_width: true});
     });
-	  </script>
+    </script>
 </head>
 <body>
+  
 <div class="_wrapper">
 <?php include 'navbar.php';?>
 
@@ -74,16 +75,16 @@ left: 60px;
     
     <span class="mentor-text">
     <p class="z-depth-1 text_align" style="padding:6% 10% 6% 10%; background:white;">
-    Student Alumni Mentorship Program (SAMP) is an unique initiative undertaken by the Students’ Alumni Cell, IIT Kharagpur. Through this program students are connected with alumni who serve both as a guide and a source of inspiration for them. SAMP is launched with the goal of keeping the alumni connected to their alma mater as well as share their valuable experience with the current students.
+    Student Alumni Mentorship Program (SAMP) is a unique initiative undertaken by the Students’ Alumni Cell, IIT Kharagpur. Through this program students are connected with alumni who serve both as a guide and a source of inspiration for them. SAMP is launched with the goal of keeping the alumni connected to their alma mater as well as share their valuable experience with the current students.
     </p>
     </span>
   </div>
 <br>
   <div  class="col l4 m4 s12 mentor-reg">
 <center>
-<a href="http://www.mentorship.iitkgp.ernet.in/mainpage/index" target="_blank "><input type="submit" value="Students" class="waves-effect waves-light btn-large" style="width:250px;padding-top:15px;"></a><br><br>
+<a href="http://www.mentorship.iitkgp.ernet.in/" target="_blank "><input type="submit" value="Students" class="waves-effect waves-light btn-large" style="width:250px;padding-top:15px;"></a><br><br>
 
-<a href="http://www.mentorship.iitkgp.ernet.in/mainpage/index"  target="_blank "><input type="submit" value="Alumni" class="waves-effect waves-light btn-large" style="width:250px;padding-top:15px;"></a>
+<a href="http://www.mentorship.iitkgp.ernet.in/"  target="_blank "><input type="submit" value="Alumni" class="waves-effect waves-light btn-large" style="width:250px;padding-top:15px;"></a>
 </center>
   </div>
 </div>
