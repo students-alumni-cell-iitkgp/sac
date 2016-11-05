@@ -259,7 +259,7 @@
           <li>Arpit Gupta</li>
           <li>Manish Goyal</li>
           <li>Aditi Shrivastav</li>
-          <li>Atal A. Agarwal</li>
+          <li>Atal A. Aggarwal</li>
           <li>Chandreyee Bhaumik</li>
           <li>Naman Nishesh</li>
           <li>Rahul Mishra</li>
