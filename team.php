@@ -228,18 +228,7 @@
   <div class=" col l12 m12 s12 heading">
     <center><h class="subheading" >Former Team Members</h></center>
   </div>
-<div class="row" style="margin-top: 50px;">
-    
-      <ul style="font-size: 20;"><b>
-        <li class="col l2 m2 s2 offset-l1 m1 s1 center-align">2015</li>
-        <li class="col l2 m2 s2 center-align">2014</li>
-        <li class="col l2 m2 s2 center-align">2013</li>
-        <li class="col l2 m2 s2 center-align">2012</li>
-         <li class="col l2 m2 s2 center-align">2011</li>
-      </b></ul>
-     </div>
-<hr>
-    <div class="row">
+    <div class="row" style="margin-top: 50px;">
 
      <div id="2015" class="col l2 m6 s12 center-align">
      

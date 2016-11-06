@@ -51,7 +51,7 @@
 <!--slider-->
 <div class="slider">
     <ul class="slides">
-      <li>
+    <li>
               <img src="img/indexslider/annualalumnimeet1.jpg" /> 
       </li>
       <li>
@@ -71,6 +71,9 @@
       </li>
       <li>
      <img src="img/indexslider/alvida.jpg" />
+      </li>
+      <li>
+              <img src="img/indexslider/annualalumnimeet.jpg" /> 
       </li>
     </ul>
   </div>

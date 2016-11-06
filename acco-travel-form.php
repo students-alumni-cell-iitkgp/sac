@@ -1,4 +1,29 @@
- <div class="container-fluid">
+<?php
+
+    require 'connection.php';
+    session_start();
+    $email=$_SESSION['email'];
+    $query1=" SELECT * FROM travel WHERE email= '$email' ";
+    $query3=" SELECT * FROM  accommodation WHERE email= '$email' ";
+    $query_run1=$connection->query($query1);
+    $query_run2=$connection->query($query3);
+    if (($query_run1)&&($query_run2)) {
+      if(($query_run1->num_rows > 0)&&($query_run2->num_rows > 0)){       
+            echo '<script language="javascript">alert("Response already submitted. ");';
+            echo 'window.location.href = "home.php";';
+            echo '</script>';
+
+
+      }else {
+        
+
+    }
+      
+    } 
+    
+
+
+?> <div class="container-fluid">
   	<form action="acco-travel-form-continue.php" method="post" style="text-align: left;">
        <h3> Travel Details </h3>
     <div class="input-field col s12">
