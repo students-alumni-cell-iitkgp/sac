@@ -40,14 +40,21 @@ max-width:100%;
     <div class="row ac-sam-cov">
         <img src="img/sam3.jpg" class="">
     </div>
-      <div class="row" style="padding:6% 8% 6% 8%;">
+      <div class="row" style="padding:0% 8% 6% 8%;">
+
           <div class="center-align" >
-              <div class="col l12" style="background-color: ">
-                  <div class="info z-depth-2">
-                      <p class="summit z-depth-2 text_align" style="padding:6% 10% 6% 10%;">We live our day to day lives oblivious to the beauty that surrounds us. And by the time we do realise what exactly it is that we&#39;ve been blessed with, it&#39;s generally too late. But when the good ol&#39; days call yet again, nostalgia surrounds us as we walk the hallowed boulevards of our youth.
-                          The Annual Alumni Meet brings to the esteemed alumni a chance to reconnect with their Alma Mater. It lets them relive the carefree days of their college lives as they get a chance to visit all the locations they once frequented. With department and hall visits, and events like Illumination and Musical Night, the Meet rekindles the romance between the alumni and their institute. Apart from these, informal fun events like bonfire and kite flying bring out the child in all those present.
-                          From what used to be a simple dinner till its 7th year, the Annual Annual Meet has now evolved into a three day event that stirs up quite a buzz days before it takes place. The alumni enthusiastically look forward to getting back together with their batch mates and chatting up on what was and what has been. Each year now the Golden, Ruby and Silver Jubilee batches are invited to the meet as special guests of honor. The 14th Annual Alumni Meet celebrates 60 years of the graduation of the batch of 1955  &#34;the first graduating batch of IIT Kharagpur&#34; by bringing them back to their roots. The Meet is now a major event anticipated by both the alumni and the students.
-                          As the years pass by and winds of change keep blowing, the Alumni Meet too shall keep evolving with the changing times, hoping to bring to the alumni an experience that they may cherish all their lives. </p>
+              <div class="col l12 z-depth-1" style=" ">
+                  <div class="heading">
+                      <center>
+                          <h class="subheading"><b>Student Alumni Meet</b></h>
+                      </center>
+                  </div>
+                  
+                      <p class="summit text_align" style="padding:1% 10% 6% 10%;">
+                          IIT Kharagpur, a premier institute of the nation has a vast Alumni Network spread over various locations across the world. With an aim to bring together the students and the alumni, not just in the premises of the institute, but also regionally, Student Alumni Meets have been initiated. In collaboration with the regional chapters, SAMs bring together the students and the alumni under one roof and encourage interactive dialogue. Many such Student Alumni Meets have been conducted till now in various cities across India. Last year, Bangalore and Delhi witnessed such get togethers. SAMs play a very important role in strengthening the bond with alumni. They also play a very important role in forming a strong alumni network by connecting the alumni not just with each other but also with the students at a regional level.
+                          <br>
+                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Student Alumni Meets have facilitated the implementation of various initiatives of SAC like Mentorship, guest lectures and many others. Further, a platform for the introduction as well as the implementation of many more future initiatives is provided. Most of all, SAMs connect the alumni and the students at a very personal level and ensure long term interaction and strong bonding thus proving to be extremely beneficial to the students as well as the alumni. Student Alumni Meets will continue to play a very important role in the functioning of Students' Alumni Cell
+                      </p>
                   </div>
               </div>
           </div>
@@ -55,7 +62,7 @@ max-width:100%;
      <div class="row">
   <?php include 'gallery.php';?>
   </div>
-  </div>
+  
   <?php include 'footer.php';?>
 </body>
 </html>

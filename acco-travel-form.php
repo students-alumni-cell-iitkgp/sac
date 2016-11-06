@@ -2,8 +2,7 @@
   	<form action="acco-travel-form-continue.php" method="post" style="text-align: left;">
        <h3> Travel Details </h3>
     <div class="input-field col s12">
-    <select name="arrDate">
-      <option value="" disabled selected>Choose your option</option>
+    <select name="arrDate" required>
       <option >12th January 2017</option>
       <option >13th January 2017</option>
       <option >14th January 2017</option>
@@ -15,7 +14,7 @@
   </div>
       <div class="col s12">
         <label for="Name">Arrival Time</label>
-        <input  type="time" placeholder="Arrival Time" name="arrTime">
+        <input  type="time" placeholder="Arrival Time" name="arrTime" required>
       </div>
       <div class="input-field col s12">
           <input id="last_name" type="text" class="validate" name="arrSt">
@@ -34,7 +33,7 @@
           <label for="last_name">Number of Accompanying Person</label>
         </div>
       <div class="input-field col s12">
-          <input id="last_name" type="number" class="validate" name="secPhone">
+          <input id="last_name" type="number" class="validate" name="secPhone" required>
           <label for="last_name">Your Secondary Phone Number</label>
         </div>
       <div >
@@ -69,7 +68,7 @@
       <br><br>
        <div >
         <label for="Name">Departure Date</label>
-        <select name="depDate" >
+        <select name="depDate" required>
             <option>14th January 2017</option>
             <option>15th January 2017</option>
             <option>16th January 2017</option>
