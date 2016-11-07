@@ -160,7 +160,7 @@ $result = $connection->query($query);
 <?php include 'navbar.php';?>
     
   <div class="row ac-aam">
-    <img src="img/indexslider/annualalumnimeet1.jpg" align="middle">
+    <img src="img/indexslider/annualalumnimeet.jpg" align="middle">
   </div>
   <div class="row">
   <div class="col l8 s8 m8">

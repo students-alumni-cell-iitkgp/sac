@@ -51,7 +51,7 @@
 <!--slider-->
 <div class="slider">
     <ul class="slides">
-      <li>
+    <li>
               <img src="img/indexslider/annualalumnimeet1.jpg" /> 
       </li>
       <li>
@@ -71,6 +71,9 @@
       </li>
       <li>
      <img src="img/indexslider/alvida.jpg" />
+      </li>
+      <li>
+              <img src="img/indexslider/annualalumnimeet.jpg" /> 
       </li>
     </ul>
   </div>
@@ -125,8 +128,12 @@
     </div>
     <div class="card-reveal">
       <span class="card-title grey-text text-darken-4">For Alumni<i class="material-icons right">close</i></span>
+<<<<<<< HEAD
+      <p class="text_align">The Students' Alumni Cell works towards ensuring mutual benefit of the Students as well as the Alumni. The cell helps the alumni in staying connected to their alma mater. Through regular interactions with the students, the alumni get a chance to share their experiences and impart the knowledge they have acquired to the next generation of KGPians. Also, with this interchange, they get a glimpse of the young minds of the nation.</p>
+=======
       <p class="text_align">The Students' Alumni Cell works towards ensuring mutual benefit of the Students as well as the Alumni. The cell helps the alumni in staying connected to their alma mater. Through regular interactions with the students, the alumni get a chance to share their experiences and impart the knowledge they have acquired to the next generation of KGPians. Also, with this interchange, they get a glimpse of the young minds of the nation.
       </p>
+>>>>>>> 088a3636c32463fd02f8b317a2aff304dd85da8a
     </div>
   </div>
 </div>
@@ -140,7 +147,11 @@
     </div>
     <div class="card-reveal">
       <span class="card-title grey-text text-darken-4">For Institute<i class="material-icons right">close</i></span>
+<<<<<<< HEAD
+      <p class="text_align">The alumni community often takes keen interest in the institute&#39;s workings and the prevalent conditions. Students' Alumni Cell reconnects the institute and alumni, providing the alumni with an avenue to give back to their alma mater. The Institution Development Program (IDP) aims to promote the institute&#39;s domestic ranking while simultaneously improving the international stature.</p>
+=======
       <p class="text_align">The alumni community often takes keen interest in the institute&#8217;s workings and the prevalent conditions. Students' Alumni Cell reconnects the institute and alumni, providing the alumni with an avenue to give back to their alma mater. The Institution Development Program (IDP) aims to promote the institute's domestic ranking while simultaneously improving the international stature. </p>
+>>>>>>> 088a3636c32463fd02f8b317a2aff304dd85da8a
     </div>
   </div>
 </div>
