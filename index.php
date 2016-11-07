@@ -49,31 +49,31 @@
 <div class="_wrapper">
  <?php include 'navbar.php';?> 
 <!--slider-->
-<div class="slider">
+<div class="slider" >
     <ul class="slides">
     <li>
               <img src="img/indexslider/annualalumnimeet1.jpg" /> 
       </li>
       <li>
-        <img src="img/indexslider/sam4.jpg"/>
+        <img src="img/indexslider/sam4.jpg" />
       </li>
       <li>
-       <img src="img/indexslider/mentorship1.jpg" />
+       <img src="img/indexslider/mentorship1.jpg"/>
       </li>
       <li>
-       <img src="img/indexslider/guest.jpg" />
+       <img src="img/indexslider/guest.jpg"/>
       </li>
        <li>
-      <img src="img/indexslider/givingback.jpg" />
+      <img src="img/indexslider/givingback.jpg"/>
       </li>
       <li>
-     <img src="img/indexslider/yoy.jpg" /> 
+     <img src="img/indexslider/yoy.jpg"/> 
       </li>
       <li>
-     <img src="img/indexslider/alvida.jpg" />
+     <img src="img/indexslider/alvida.jpg"/>
       </li>
       <li>
-              <img src="img/indexslider/annualalumnimeet.jpg" /> 
+              <img src="img/indexslider/annualalumnimeet.jpg" style="size:100%;"/> 
       </li>
     </ul>
   </div>
