@@ -61,7 +61,7 @@ left: 60px;
 <?php include 'navbar.php';?>
 
 <div class="row ac-mentor">
-        <img src="img/mentorship.jpg"  > 
+        <img src="img/mentorship.jpg"> 
 </div>
 
 <div class="row">
@@ -74,23 +74,44 @@ left: 60px;
    
     
     <span class="mentor-text">
+    <p class="z-depth-2 text_align" style="padding:20px;">
+   The Student Alumni Mentorship Programme, an initiative of the Students&#8217; Alumni Cell, IIT Kharagpur was started in the academic session 2011-12, with a motive to help the current students to interact and learn from their Alumni on a personal level. It has been, ever since, a fruitful two-way platform for the exchange of ideas and experiences between the alumni and the current batches of IIT Kharagpur.
     <p class="z-depth-1 text_align" style="padding:6% 10% 6% 10%; background:white;">
-    Student Alumni Mentorship Program (SAMP) is a unique initiative undertaken by the Students’ Alumni Cell, IIT Kharagpur. Through this program students are connected with alumni who serve both as a guide and a source of inspiration for them. SAMP is launched with the goal of keeping the alumni connected to their alma mater as well as share their valuable experience with the current students.
+    Student Alumni Mentorship Program (SAMP) is a unique initiative undertaken by the Students&#39; Alumni Cell, IIT Kharagpur. Through this program students are connected with alumni who serve both as a guide and a source of inspiration for them. SAMP is launched with the goal of keeping the alumni connected to their alma mater as well as share their valuable experience with the current students.
+      The Student Alumni Mentorship Programme, an initiative of the Students' Alumni Cell, IIT Kharagpur was started in the academic session 2011-12, with a motive to help the current students to interact and learn from their Alumni on a personal level. It has been, ever since, a fruitful two-way platform for the exchange of ideas and experiences between the alumni and the current batches of IIT Kharagpur.
     </p>
     </span>
   </div>
 <br>
   <div  class="col l4 m4 s12 mentor-reg">
 <center>
-<a href="http://www.mentorship.iitkgp.ernet.in/" target="_blank "><input type="submit" value="Students" class="waves-effect waves-light btn-large" style="width:250px;padding-top:15px;"></a><br><br>
+<a href="http://www.mentorship.iitkgp.ernet.in/" target="_blank "><input type="submit" value="Register" class="waves-effect waves-light btn-large" style="width:250px;padding-top:15px;"></a><br><br>
 
-<a href="http://www.mentorship.iitkgp.ernet.in/"  target="_blank "><input type="submit" value="Alumni" class="waves-effect waves-light btn-large" style="width:250px;padding-top:15px;"></a>
 </center>
   </div>
 </div>
- 
-
-
+ <div class="row ac-mentor">
+        <img src="img/mentorship.jpg"  >
+    </div>
+  <div class="row">
+  <div class="col l11 m8 s12">
+  <div class="info">
+  <p class="z-depth-2 text_align" style="padding:20px;">Under this programme, we invite our alumni across the globe and from different fields to interact with the students and help them build their network and gain a new perspective on the possibilities open to them, after graduation.
+  <br>
+With the students facing crossroads at every other turn and unable to choose what's best for them due to a lack of insight into how things would actually materialize with each road that they choose to take, it becomes crucial that they get advice from people who have faced the very same crossroads in their student life and the big bad competitive world beyond it.
+<br>
+The Alumni with their vast repository of personal experiences can help improve insight among students into so many diverse aspects of life which include academics, extracurriculars, the professional life after college or the general way of life. This is where the Student Alumni Mentorship Programme comes into the picture. 
+<br>
+It facilitates a medium where the student connects with an Alumnus from a field he has a profound interest in. He gives his preference of field, year and place while registering online and he is accordingly allotted a mentor based on a predefined code. In the process of learning the ropes in that particular field he takes home so much more from the guide, coach, supporter and motivator, he finds in his mentor.</p>
+  </div>
+  </div>
+  <!--div class="col l4 s12 m4">
+  <div class="info z-depth-2">
+  </div>
+  </div-->
+  </div>
+  
+  </div>
 
 <div class="row" style="padding:1% 8% 0% 1%;">
   
@@ -120,11 +141,12 @@ left: 60px;
 
 
 <div class='iframe' style="padding:3% 7% 0% 5.5%;">
-<iframe id="iframe_container" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" 
-src="https://prezi.com/embed/-fsmajtmfbtn/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=1&amp;autohide_ctrls=0&amp;landing_data=bHVZZmNaNDBIWnNjdEVENDRhZDFNZGNIUE1vbGxLeUtRdXkycVhRdXRFSWpYT1o1NlRPQitXOHFCK21KWUtLMThPWT0&amp;landing_sign=A8O0_dOvlPwENyI2JD4QhpECGMiTEXS_N5hYHvOVag0" 
-width="104%" height="500" frameborder="0"></iframe>
+  <iframe id="iframe_container" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" 
+  src="https://prezi.com/embed/4zvbjzz_cb-w/?bgcolor=ffffff&amp;lock_to_path=0&amp;autoplay=1&amp;autohide_ctrls=0&amp;landing_data=bHVZZmNaNDBIWnNjdEVENDRhZDFNZGNIUE1vbGxLeUtRdXkycVhRdXRFSnl1ZnJUYnVZUy83ajVCVEFyUThBVlFqUT0&amp;landing_sign=1SVtH5kwPfthIk3XOVRVH2fgKGozX45M83gki9TR_Jg" 
+  width="104%" height="500" frameborder="0"></iframe>
 
 </div>
+
   <?php include 'footer.php';?>
  
   </body>

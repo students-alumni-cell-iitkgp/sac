@@ -204,7 +204,7 @@
 
 <div class="row">
      <div class="col l3"><a href="http://www.prestogifts.com/" target="_blank">
-        <img class="spons" src="img/spons/sponsors16/pics/Presto.jpg" width="190" height="80">
+        <img class="spons" src="img/spons/sponsors16/pics/presto.jpg" width="190" height="80">
       </a>
 
       </div>
