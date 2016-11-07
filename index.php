@@ -94,19 +94,11 @@
 <div>
     <div class="center-align">
         <div class="row">
-<<<<<<< HEAD
-            <div class="col l8">  <div>
-                    <p class="z-depth-2 text_align" style="font-size: 16px;padding: 1em 1.5em">The Students&#8217; Alumni Cell, IIT Kharagpur is a voluntary student body working under the aegis
-                        of the Office of Alumni Affairs and International Relations.
-                        It strives to bridge the gap between IIT Kharagpur and its esteemed alumni community
-                        .<br><br>The Students' Alumni Cell continuously endeavours to strengthen the relations of the alumni of this institute and their alma mater. It has been instrumental in organising the Annual Alumni Meet, publishing the annual literary magazine (Yearnings of Yore) and the Annual Yearbook and amongst other things too for instance organising regular guest lectures by distinguished alumni in the campus. The Students' Alumni Cell also operates the Student - Alumni Mentorship Programme, My Imprint (Giving Back - Alumni contribution) and organises Alvida (the annual farewell dinner).</p>
-=======
             <div class="col l8">  <div style="background-color: white;">
                     <p class="z-depth-1 text_align" style="font-size: 16px;padding: 3.3em 3em">The Students' Alumni Cell, IIT Kharagpur is a voluntary student body working under the aegis of the Office of Alumni Affairs and International Relations. It strives to bridge the gap between IIT Kharagpur and its esteemed alumni community .<br>
 
                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The Students' Alumni Cell continuously endeavours to strengthen the relations of the alumni of this institute and their alma mater. It has been instrumental in organising the Annual Alumni Meet, publishing the annual literary magazine (Yearnings of Yore) and the Annual Yearbook and amongst other things too for instance organising regular guest lectures by distinguished alumni in the campus. The Students' Alumni Cell also operates the Student - Alumni Mentorship Programme, My Imprint (Giving Back - Alumni contribution) and organises Alvida (the annual farewell dinner).
                     </p>
->>>>>>> 088a3636c32463fd02f8b317a2aff304dd85da8a
                 </div></div>
             <div class="col l4" style="margin-top: 1em;">
                 <div id="fbplug" style="width: 425px; background-color: #fff" class="z-depth-1 fb-page" data-href="https://www.facebook.com/iitkgp.alumnicell/?fref=ts" data-tabs="timeline" data-height="320px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/iitkgp.alumnicell/?fref=ts" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/iitkgp.alumnicell/?fref=ts">Alumni Cell, IIT Kharagpur</a></blockquote></div>

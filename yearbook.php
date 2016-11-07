@@ -13,17 +13,6 @@
 <div class="_wrapper">
 <?php include 'navbar.php';?>
 <div class="row">
-<<<<<<< HEAD
-  <div class="heading">
-    <center>
-      <h class="subheading"><b>Yearbook </b></h>
-    </center>
-  </div>
-  
-  <div class="col l12 m12 s12  z-depth-2">
-    <p class="text_align" style="text-align:center">The yearbook is a bounded volume that captures the nostalgic memories of the graduating batches of our institute.The beautiful years spent in the institute are engraved and expressed via photos and writeups which is given as a souvenir of departure from the institute . Few years down the road when they will walk down the memory lane, the yearbook will be the light which will lit up the faded memories and show the path through the old forgotten ways. The visuals of those old fleeting memories, photographs of their batch-mates, stills from the events that took place, inspiring words from that professor they looked up to and the aroma of the institute that assisted them to foster their real self lies hidden in the pages of the yearbook. It gives them an opportunity to relive the golden days of their life.  A beautiful chapter that always made the preface of their biography.<br>
-The Students' Alumni Cell works throughout the year to publish three separate yearbooks, one for each of the graduating batches of the Undergraduate, Post Graduate and Research Scholar programs. The Director, the Dean of Alumni Affairs and International Relations, are among many professors who wish the graduating batches for their lives beyond KGP in their own ways. Sections, dedicated to each of the departments include a message from the Head Of Departments other than mentioning the names and photographs of its graduating students. The yearbooks also showcase all the events that IIT Kharagpur had organized in the preceding year. It features the works of the societies, cells, and organization; the same societies which used up most of their evenings at Kharagpur, which the KGPians would agree weren't always their will. Each year, the Students' Alumni Cell strives to make the yearbook as wholesome and complete which could entail the different prospects of life of the alumni.
-=======
 
  <div style="padding:3% 8% 6% 8%;">
 
@@ -36,7 +25,6 @@ The Students' Alumni Cell works throughout the year to publish three separate ye
     <p class="text_align" style="padding:1% 10% 6% 10%">The yearbook is a hardbound book that attempts to capture memories for the graduating batches of any institute. &#39;Where would we be in thirty years?&#39; &#39;How would I remember my friends with whom I have studied, played, laughed, cried, partied, fought and lived for the past four or five odd years of my life.&#39; These are the questions that bog the minds of the senior year students. This is where the yearbook emerges as the savior. In nostalgic moments of looking back, the yearbook supplements the alumni with visuals to those fleeting memories, photographs of their batch-mates, stills from the events that took place, inspiring words from that professor they looked up to. It gives them an opportunity to relive their golden days.
     The Students&#39; Alumni Cell works throughout the year to produce three separate yearbooks, one for each of the graduating batches of the Undergraduate, Post Graduate and Research Scholar programs. The Director, the Dean of Alumni Affairs and International Relations, are among many professors who wish the graduating batches well for their lives after KGP in their own ways. Sections, dedicated to each of the departments include a message from the Head Of Departments other than mentioning the names and photographs of its graduating students. The yearbooks also showcase all the events that IIT Kharagpur organized in the year that passed. It features what the societies, cells, and organizations have been up to, the same societies that used up most of their evenings at Kharagpur, which as KGpians would agree weren&#39;t always to their liking.
     Each year, the Students&#39; Alumni Cell strives to make the yearbook as wholesome and eliciting of emotion and spirit for the alumni.
->>>>>>> 088a3636c32463fd02f8b317a2aff304dd85da8a
     </p>
   </div>
   </div>
