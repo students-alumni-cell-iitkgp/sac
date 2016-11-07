@@ -55,7 +55,7 @@
   }
   @media only screen and (max-width: 330px){
     nav .brand-logo {
-      top: -10px;
+      top: -10px; 
       left:70%;
     }
   }
