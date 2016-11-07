@@ -13,6 +13,18 @@
 <div class="_wrapper">
 <?php include 'navbar.php';?>
 <div class="row">
+<<<<<<< HEAD
+  <div class="heading">
+    <center>
+      <h class="subheading"><b>Yearnings of Yore </b></h>
+    </center>
+  </div>
+ 
+  <div class=" col l12 m12 s12 z-depth-2 ">
+    <p class="text_align">Few years down the road, the only thing that remains intact are the memories we create. The transition from a place completely unknown and unexplored to a place which is synonymous to life and friendship is what we attain in the span of few years in Kharagpur.<br>
+Yearnings of Yore is a magical treasury of memoirs and photographs, which provides us an insight to the life lived by the alumni in KGP. The gist  is clear from the name itself which expresses an intense longing for former times The Magazine is gifted as a souvenir to all alumni attending the meet. It aims to create a sense of nostalgia among the alumni community who relive their beautiful old memories through literary pieces related to their presence in the institute. It helps the alumni reconnect to long lost memories hidden under the veil due to the breach of time. Through this initiative, the alumni who attended the grand reunion as well as those who were not able to attend the meet due to some reasons get a chance to walk down the memory lane.<br>
+Hence, every alumni is  requested to share articles, photos , stories or any other media relating to their memories of the institute.  Literary pieces by the current batch of students are also incorporated in this collection. This incorporation assists the alumni to get an insight to the current students' perspective towards the institute The last edition of the memoir featured various mesmerizing articles by both the student and the alumni community. From a short dictionary written by an alumnus, describing words used exclusively in Kharagpur over time to a poem written by a student, describing his journey since the first year, every piece entails a unique aspect. Yearnings of Yore doesn&#39;t only serve as a memoir rather it is a mirror which reflects the past to the present and predicts the future to the past.
+=======
 
  <div style="padding:3% 10% 8% 10%;">
   <div class=" col l12 m12 s12 z-depth-2" >
@@ -25,6 +37,7 @@
       Through this initiative, not only the alumni attending the meet, but also those who have to give it a miss due to some reasons, get a chance to connect to fellow alumni. Every alumnus is requested to share articles, photos , stories or any other media relating to their memories of the institute.
       Also, literary pieces by the current batch of students are incorporated in the collection. This helps the alumni to get an idea of the current students&#39; perspective towards the institute 
       The last edition of the memoir features various mesmerizing articles by both the student and the alumni community. From a short dictionary written by an alumnus, describing words used exclusively in Kharagpur over time to a poem written by a student, describing his journey since the first year, every piece had a unique aspect.Thus, Yearnings of Yore ends up becoming something much more than a memoir. It&#39;s a mirror showing the present generation, the life of the past and vice versa.
+>>>>>>> 088a3636c32463fd02f8b317a2aff304dd85da8a
     </p>
     </div>
   </div>
