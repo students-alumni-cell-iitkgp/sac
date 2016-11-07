@@ -75,16 +75,15 @@ left: 60px;
     
     <span class="mentor-text">
     <p class="z-depth-1 text_align" style="padding:6% 10% 6% 10%; background:white;">
-    Student Alumni Mentorship Program (SAMP) is a unique initiative undertaken by the Students’ Alumni Cell, IIT Kharagpur. Through this program students are connected with alumni who serve both as a guide and a source of inspiration for them. SAMP is launched with the goal of keeping the alumni connected to their alma mater as well as share their valuable experience with the current students.
+    Student Alumni Mentorship Program (SAMP) is a unique initiative undertaken by the Students&#39; Alumni Cell, IIT Kharagpur. Through this program students are connected with alumni who serve both as a guide and a source of inspiration for them. SAMP is launched with the goal of keeping the alumni connected to their alma mater as well as share their valuable experience with the current students.
     </p>
     </span>
   </div>
 <br>
   <div  class="col l4 m4 s12 mentor-reg">
 <center>
-<a href="http://www.mentorship.iitkgp.ernet.in/" target="_blank "><input type="submit" value="Students" class="waves-effect waves-light btn-large" style="width:250px;padding-top:15px;"></a><br><br>
+<a href="http://www.mentorship.iitkgp.ernet.in/" target="_blank "><input type="submit" value="Register" class="waves-effect waves-light btn-large" style="width:250px;padding-top:15px;"></a><br><br>
 
-<a href="http://www.mentorship.iitkgp.ernet.in/"  target="_blank "><input type="submit" value="Alumni" class="waves-effect waves-light btn-large" style="width:250px;padding-top:15px;"></a>
 </center>
   </div>
 </div>
