@@ -1,3 +1,4 @@
+
 <?php
 require 'connection.php';
 ob_start(); 
@@ -170,4 +171,4 @@ function closeNav() {
 <?php include 'footer.php';?>
  
   </body>
-  </html>
+</html>

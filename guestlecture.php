@@ -1,4 +1,5 @@
-<html>
+
+<html xmlns="http://www.w3.org/1999/html">
 <head>
 <link rel="stylesheet" href="css/materialize.min.css">
 <link rel="icon"  href="img/meet_14.png">
@@ -40,13 +41,13 @@ max-width:100%;
     <div class="row">
         <div class="col l10 s12 m12 offset-l1">
             <div class="info z-depth-1">
-                <div class="heading">
+                <div class="heading" style="margin-top:-20px">
                     <center >
-                        <h  class="subheading"><b id="senior_class_gift">GuestLectures</b> </h>
+                        <h  class="subheading"><b id="senior_class_gift">Guest Lectures</b> </h>
                     </center>
                 </div>
                 <p class="text_align" style="padding: 20px">
-                  Since its inception in 1951, IIT Kharagpur has mentored some of the most eminent personalities in the history of the nation. 
+                    Since its inception in 1951, IIT Kharagpur has mentored some of the most eminent personalities in the history of the nation. 
 
 The guest-lectures provide a medium for the alumni to give back to the institute by imparting their experience to the students and preparing them for the real world.
  
@@ -63,7 +64,7 @@ This event is looked forward to by the students since it exposes them to a lot o
 This allow alumni to stay in touch with their Alma Mater and bring the students up to date with what they can achieve if they set their minds to it.
 
                 </p> </div>
-        </div>
+                
         <!--div class="col l4 s12 m4">
         <div class="info z-depth-2">
         </div>
@@ -75,6 +76,78 @@ This allow alumni to stay in touch with their Alma Mater and bring the students 
 
 
 </div>
+
+<div class="row">
+    <center>
+        <div class="row"><center>
+                <div class="heading">
+                    <center>
+                        <h class="subheading"><b>Tips from Top</b></h>
+                    </center>
+                </div>
+
+                <div class="col l4">
+                    <center>
+                        <img class="materialboxed normal" src="img/guest-lecture/Tips_from_Top/a.jpg" width="430">
+                    </center>
+                </div>
+                <div class="col l4">
+                    <center>
+                        <img class="materialboxed normal" src="img/guest-lecture/Tips_from_Top/b.jpg" width="430"></center>
+                </div>
+                <div class="col l4">
+                    <center>
+                        <img class="materialboxed normal" src="img/guest-lecture/Tips_from_Top/c.jpg" width="430" ></center>
+                </div></center>
+
+
+
+    
+
+
+<div class="row" ><center>
+        <div class="heading" style="margin-top: 350px">
+            <center>
+                <h class="subheading"><b>Guest Lecture</b> - Mr Veerendra Jaitly</h>
+            </center>
+        </div>
+
+        <div class="col l4">
+            <center>
+                <img class="materialboxed normal" src="img/guest-lecture/Mr_Veerendra_Jaitly/a.jpg" width="430">
+            </center>
+        </div>
+        <div class="col l4">
+            <center>
+                <img class="materialboxed normal" src="img/guest-lecture/Mr_Veerendra_Jaitly/b.jpg" width="430"></center>
+        </div>
+        <div class="col l4">
+            <center>
+                <img class="materialboxed normal" src="img/guest-lecture/Mr_Veerendra_Jaitly/c.jpg" width="430" ></center>
+        </div></center>
+</div>
+<div class="row"><center>
+        <div class="heading">
+            <center>
+                <h class="subheading"><b>KGP & Beyond</b></h>
+            </center>
+        </div>
+
+        <div class="col l4">
+            <center>
+                <img class="materialboxed normal" src="img/guest-lecture/kgp_beyond/a.jpg" width="430">
+            </center>
+        </div>
+        <div class="col l4">
+            <center>
+                <img class="materialboxed normal" src="img/guest-lecture/kgp_beyond/b.jpg" width="430" ></center>
+        </div>
+        <div class="col l4">
+            <center>
+                <img class="materialboxed normal" src="img/guest-lecture/kgp_beyond/c.jpg" width="430" ></center>
+        </div></center>
+</div>
+
     <div class="row">
       <div class="heading">
         <center>
@@ -97,3 +170,4 @@ This allow alumni to stay in touch with their Alma Mater and bring the students 
   </body>
   <script type="text/javascript" src="js/style.js"></script>
   </html>
+

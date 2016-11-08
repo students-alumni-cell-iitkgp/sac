@@ -1,4 +1,3 @@
-
 <html>
 <head>
 <link rel="icon" href="img/meet_14.png">
@@ -8,35 +7,35 @@
 <title>Gallery</title>
 <style type="text/css">
 	.normal{
-		margin: 10px;
+    margin: 10px;
 	}
 	@media only screen and (max-width: 1350px) {
-   	.normal{
-    width: 25vw;
+    .normal{
+        width: 25vw;
   }.video-container{
-    width: 25vw;
+        width: 25vw;
     margin-left: 20px;
     height: 400px;
   }
     .bigg {
-    	width: 48vw !important;
+        width: 48vw !important;
     	padding-right: 0;
     }
 }
 	@media only screen and (max-width: 992px) {
     .normal {
-       height: 200px;
+        height: 200px;
        width: 45vw;
     }
 }
 	@media only screen and (max-width: 600px) {
     .normal {
-       height: 200px;
+        height: 200px;
        width: 350px;
        margin:10px;
     }
     .bigg{
-       height: 200px;
+        height: 200px;
        width: 350px !important;
        margin:10px;
        padding-right: 10;
@@ -56,8 +55,8 @@
       </div>
     </div>
     <div class="col l3 m6 s12">
-        <img class="materialboxed normal" src="img/gallery/five.JPG" height="200px"/> 
-</div> 
+        <img class="materialboxed normal" src="img/gallery/five.JPG" height="200px"/>
+</div>
 <div class="col l3 m6 s12">
         <img class="materialboxed normal" src="img/gallery/six.JPG" height="200px" />
 </div>
@@ -69,10 +68,10 @@
     </div>
     <div class="col l3 m6 s12">
         <img class="materialboxed normal" src="img/gallery/nine.JPG" height="200px"/>
-   </div> 
+   </div>
    <div class="col l3 m6 s12">
-        <img class="materialboxed normal" src="img/gallery/ten.JPG" height="200px"/> 
-    </div>    
+        <img class="materialboxed normal" src="img/gallery/ten.JPG" height="200px"/>
+    </div>
    <div class="col l3 m6 s12">
         <img class="materialboxed normal" src="img/gallery/eleven.JPG" height="200px"/>
    </div>
@@ -81,7 +80,7 @@
    </div>
    <div class="col l3 m6 s12">
         <img class="materialboxed normal" src="img/gallery/thirteen.JPG" height="200px"/>
-   </div> 
+   </div>
    <div class="col l3 m6 s12">
         <img class="materialboxed normal" src="img/gallery/forteen.jpg" height="200px"/>
 </div>
@@ -90,7 +89,7 @@
    </div>
    <div class="col l6 m6 s12">
         <img class="materialboxed normal bigg" src="img/gallery/sixteen.JPG" height="420px"/>
-        </div> 
+        </div>
         <div class="col l6 m6 s12">
         <img class="materialboxed normal bigg" src="img/gallery/one.JPG" height="420px">
         </div> </div>
@@ -104,3 +103,9 @@
 
 </body>
 </html>
+<?php /**
+ * Created by PhpStorm.
+ * User: naoh
+ * Date: 11/1/2016
+ * Time: 10:43 PM
+ */
