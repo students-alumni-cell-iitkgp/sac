@@ -207,5 +207,4 @@
   <div class="modal-footer">
     <a href="#!" class=" modal-action modal-close waves-effect waves-blue btn-flat">CLOSE</a>
   </div>
->>>>>>> 60b96261030ae14279cf87234dd30ccbd6f6099b
 </div>
