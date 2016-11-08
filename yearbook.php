@@ -77,7 +77,7 @@ The Students' Alumni Cell works throughout the year to publish three separate ye
               <span class="card-title">Card Title</span>
             </div>
             <div class="card-content">
-              <p>Yearbook 2016</p>
+              <p>Yearbook 2013</p>
             </div>
             
           </div>
