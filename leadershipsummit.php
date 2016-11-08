@@ -1,3 +1,4 @@
+
 <html>
 <head>
 <title>Leadership Summit</title>
@@ -62,7 +63,11 @@ max-width:100%;
                 </div>
                 
                 <p class="summit text_align" style="padding:1% 10% 6% 10%;">
-                     A leader is the one who knows the way, goes the way and shows the way. Leadership Summit, organized as a part of guest lectures, sees the participation of professionals and corporate tycoons sharing the same stage talking about their experiences and guiding the students to become future world leaders. The summit organized in 2013 and 2014 was appreciated by the students as well as alumni and witnessed huge turnout of the students.
+                     A leader is the one who knows the way, goes the way and shows the way. 
+                     Leadership Summit, organized as a part of guest-lectures, sees the participation of professionals and 
+                     corporate tycoons sharing the same stage talking about their experiences and guiding the students to become 
+                     future world leaders. The summit organized in 2013 and 2014 was appreciated by the students as well as alumni 
+                     and witnessed huge turnout of the students.
                     </p>
             </div>
         </div>
@@ -76,7 +81,7 @@ max-width:100%;
               <span class="card-title"></span>
             </div>
             <div class="card-content">
-              <p>Arunab Kumar</p> 
+              <p>Arunabh Kumar</p> 
             </div>
             <div class="card-action">
            <a href="#"></a>   
@@ -263,3 +268,6 @@ max-width:100%;
 <script type="text/javascript" src="js/style.js"></script>	
 </body>
 </html>
+
+
+            
