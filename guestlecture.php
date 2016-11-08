@@ -45,11 +45,23 @@ max-width:100%;
                         <h  class="subheading"><b id="senior_class_gift">Guest Lectures</b> </h>
                     </center>
                 </div>
-                <p class="text_align" style="padding: 20px">Since its inception in 1951, IIT Kharagpur has mentored some of the most eminent personalities in the history of the nation. The guest-lectures provide a medium for the alumni to give back to the institute by imparting their experience to the students and preparing them for the real world. The topics are spread all over - from personality development to department related technical lectures.
-                    The guest-lectures pave a way for interaction between the alumni and the current students. Having a large alumni base to learn from has always been an integral benefit of being a student of IIT Kharagpur and these lectures ensure exactly that. Moreover, this also provides the alumni with an opportunity to pitch their ideas or products to the student audience.
-                    IIT Kharagpur also organizes the Leadership Summit - an event where Kharagpur alumni who are reputed leaders in their respective fields come together on one platform and enthusiastically share the secrets to their success. This event is looked forward to by the students since it exposes them to a lot of a practical knowledge that can help them move up the corporate ladder with ease.
-                    guest-lectures form a very important part of the working of Students' Alumni Cell by bridging the gap between alumni and students and bringing them closer together. They allow alumni to stay in touch with their Alma Mater and bring the students up to date with what they can achieve if they set their minds to it.</p> </div>
-        </div>
+                <p class="text_align" style="padding: 20px">
+                    Since its inception in 1951, IIT Kharagpur has mentored some of the most eminent personalities in the history of the nation. 
+
+The guest-lectures provide a medium for the alumni to give back to the institute by imparting their experience to the students and preparing them for the real world.
+ 
+The topics are spread all over - from personality development to department related technical lectures. 
+
+The guest-lectures pave a way for interaction between the alumni and the current students.
+ 
+Having a large alumni base to learn from has always been an integral benefit of being a student of IIT Kharagpur and these lectures ensure exactly that. 
+
+ IIT Kharagpur also organizes the Leadership Summit - an event where Kharagpur alumni who are reputed leaders in their respective fields come together on one platform and enthusiastically share the secrets of their success. 
+This event is looked forward to by the students since it exposes them to a lot of a practical knowledge that can help them move up the corporate ladder with ease.
+ Guest-lectures form a very important part of the working of Students' Alumni Cell by bridging the gap between the alumni and students and bringing them closer together. 
+This allow alumni to stay in touch with their Alma Mater and bring the students up to date with what they can achieve if they set their minds to it.
+
+                </p> </div>
         <!--div class="col l4 s12 m4">
         <div class="info z-depth-2">
         </div>
