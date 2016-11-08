@@ -57,7 +57,6 @@ The guest-lectures pave a way for interaction between the alumni and the current
  
 Having a large alumni base to learn from has always been an integral benefit of being a student of IIT Kharagpur and these lectures ensure exactly that. 
 
-Moreover, this also provides the alumni with an opportunity to pitch their ideas or products to the student audience.
  IIT Kharagpur also organizes the Leadership Summit - an event where Kharagpur alumni who are reputed leaders in their respective fields come together on one platform and enthusiastically share the secrets of their success. 
 This event is looked forward to by the students since it exposes them to a lot of a practical knowledge that can help them move up the corporate ladder with ease.
  Guest-lectures form a very important part of the working of Students' Alumni Cell by bridging the gap between the alumni and students and bringing them closer together. 

@@ -97,8 +97,8 @@
         <div class="row">
             <div class="col l8">  <div style="background-color: white;">
                     <p class="z-depth-1 text_align" style="font-size: 16px;padding: 3.3em 3em">The Students' Alumni Cell, IIT Kharagpur is a voluntary student body working under the aegis of the Office of Alumni Affairs and International Relations. It strives to bridge the gap between IIT Kharagpur and its esteemed alumni community .<br>
-
-                       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The Students' Alumni Cell continuously endeavours to strengthen the relations of the alumni of this institute and their alma mater. It has been instrumental in organising the Annual Alumni Meet, publishing the annual literary magazine (Yearnings of Yore) and the Annual Yearbook and amongst other things too for instance organising regular guest lectures by distinguished alumni in the campus. The Students' Alumni Cell also operates the Student - Alumni Mentorship Programme, My Imprint (Giving Back - Alumni contribution) and organises Alvida (the annual farewell dinner).
+                            <br>
+                       The Students' Alumni Cell continuously endeavours to strengthen the relations of the alumni of this institute and their alma mater. It has been instrumental in organising the Annual Alumni Meet, publishing the annual literary magazine (Yearnings of Yore) and the Annual Yearbook and amongst other things too for instance organising regular guest lectures by distinguished alumni in the campus. The Students' Alumni Cell also operates the Student - Alumni Mentorship Programme, My Imprint (Giving Back - Alumni contribution) and organises Alvida (the annual farewell dinner).
                     </p>
                 </div></div>
             <div class="col l4" style="margin-top: 1em;">
