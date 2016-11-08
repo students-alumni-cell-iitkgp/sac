@@ -16,10 +16,8 @@
    } 
     @media only screen and (max-width: 468px){
       .ac-aam img{
-
     margin: 0px auto;
     max-width:100%;
-
     }
    } 
 </style>
@@ -31,7 +29,7 @@
 </head>
 <body>
 <div class="_wrapper">
-<?php include 'navbar.php';?> <br>
+<?php include 'navbar.php';?> 
  <div class="row ac-aam">
         <img src="img/indexslider/alvida.jpg" >
     </div>
@@ -46,11 +44,11 @@
                 </div>
 
                 <p class="summit text_align" style="padding:1% 10% 6% 10%;">
-                    The time spent at IIT Kharagpur is cited by the students to have been the most memorable and cherishable time of their lives.The strangers who turned out be great friends, the unknown roads which became familiar with their footsteps and the experiences which would be cherished as beautiful memories forever are some of the gems embedded in their overwhelming hearts as they leave the place. To treasure these moments we have Alvida - the annual farewell dinner held for the passing out batch to get together and share their memorable stories of the moments they spent in the institute.
+                    When we look back to our college days we plunge into a pool of nostalgia and savour the sweet and salty taste of life that was offered to us then.The strangers who turned out be great friends, the unknown roads which became familiar and the experiences that would be cherished as beautiful memories forever are some of the gems embedded in their overwhelming hearts as they leave the place. To treasure these moments we have Alvida - the annual farewell dinner held for the passing out batch to get together and share their memorable stories of the moments they spent in the institute. 
                     <br><br>
                     The farewell dinner - Alvida - is generally held in the month of April. It has gained popularity among the final year batches as something to look forward to. It's rare to have most of your batchmates together at one location - sharing a great dinner, laughing at the fun stories they created and discussing about what lies ahead; Alvida gives the students exactly this opportunity. Since the event is also attended by the faculty of IIT Kharagpur, it also gives the graduating students a chance to thank their teachers for preparing them to face the challenging world out there and imparting to them the knowledge they would need to become winners in life.
                     <br><br>
-                    Alvida is not a goodbye to the graduating students as the name might indicate. It is IIT Kharagpur wishing its graduating batch good luck for what lies ahead. The connection between the students and the institute is one made for life and the event simply cements the essence of this relationship. Alvida is not the end but the beginning of a new chapter.
+                    Alvida is not a goodbye to the graduating students as the name might indicate. It is IIT Kharagpur wishing its graduating batch good luck for the new roads. The connection between the students and the institute is one made for life and the event simply cements the essence of this relationship. Alvida is not the end but the beginning of a new chapter.
 
                 </p>
             </div>
@@ -80,4 +78,4 @@
   <?php include 'footer.php';?>
  
   </body>
-  </html>
+</html>

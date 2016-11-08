@@ -47,7 +47,7 @@
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));</script>
 <div class="_wrapper">
-<?php include 'navbar.php';?> 
+ <?php include 'navbar.php';?> 
 <!--slider-->
 <div class="slider">
     <ul class="slides">
@@ -192,7 +192,7 @@
     </div>
     <div class="card-reveal">
       <span class="card-title grey-text text-darken-4">Mentorship Programme</span>
-      <p class="text_align">The Students&#8217; Alumni Cell will begin the second phase of this year&#8217;s Student Alumni Mentorship Programme, one of its most successful initiatives, in October.The SAMP Program saw a participation of more t han 700 student and 300 alumni in its previous phase.</p>
+      <p class="text_align">The Students&#8217; Alumni Cell will begin the second phase of this year&#8217;s Student Alumni Mentorship Programme, one of its most successful initiatives, in October.The SAMP Program saw a participation of more than 700 student and 300 alumni in its previous phase.</p>
     </div>
   </div>
 </div>
@@ -207,7 +207,7 @@
     </div>
     <div class="card-reveal">
       <span class="card-title grey-text text-darken-4">Guest Lecture</span>
-      <p class="text_align">Continuing with its yearlong series of Guest Lectures by eminent alumni, the Students Alumni Cell recently hostel Mr. Veerendra Jaitltey, an alumnus of the ECE department, 1979. He delivered a motivational lecture with the theme &#8217;We Can, We Can&#8217;.</p>
+      <p class="text_align">Continuing with its yearlong series of Guest Lectures by eminent alumni, the Students Alumni Cell recently hosted Mr. Veerendra Jaitltey, an alumnus of the ECE department, 1979. He delivered a motivational lecture with the theme &#8217;We Can, We Can&#8217;.</p>
     </div>
   </div>
 </div>

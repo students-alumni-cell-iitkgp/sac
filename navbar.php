@@ -23,7 +23,7 @@
        constrain_width: false, 
       hover: true, // Activate on hover
       gutter: 0, // Spacing from edge
-      belowOrigin: true, // Displays dropdown below the button
+      beloworigin: true, // Displays dropdown below the button
       alignment: 'left' // Displays dropdown with edge aligned to the left of button
     });
 
@@ -63,11 +63,9 @@
 .dropdown-content li {
   text-align: center !important;
 }
-#nav {
-  z-index: 5;
-}
   </style>
-  <div class="row" id="logo" style="background-color: white; margin-bottom: 0px; "><div class="col l12 m12 s12 center-align"><img style=" width:200px;" src="img/logo/sac_logo.png">
+  <div class="row" id="logo" style="background-color: white; margin-bottom: 0px; ">
+    <div class="col l12 m12 s12 center-align"><img style=" width:200px;" src="img/logo/sac_logo.png">
     
 
 

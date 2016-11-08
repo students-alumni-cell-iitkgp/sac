@@ -235,7 +235,7 @@
       
       
       <ul>
-       <span><b><li center-align" style="font-size: 20;">2015</li> <hr>
+       <span><b><li center-align style="font-size: 20;">2015</li> <hr>
          <li>Pranshu Jain</li>
         <li>Rohan Gupta</li>
         <li>Akash Tulsani</li>
@@ -255,11 +255,11 @@
 
     <div id="2014" class="col l2 m6 s12 center-align">
         <ul>
-          <span><b> <li center-align" style="font-size: 20;">2014</li> <hr>
+          <span><b> <li center-align style="font-size: 20;">2014</li> <hr>
           <li>Arpit Gupta</li>
           <li>Manish Goyal</li>
           <li>Aditi Shrivastav</li>
-          <li>Atal A. Aggarwal</li>
+          <li>Atal A. Agarwal</li>
           <li>Chandreyee Bhaumik</li>
           <li>Naman Nishesh</li>
           <li>Rahul Mishra</li>
@@ -268,7 +268,7 @@
         </ul>
       </div>
     <div id="2013" class="col l2 m6 s12 center-align">
-        <ul><span><b><li center-align" style="font-size: 20;">2013</li> <hr>
+        <ul><span><b><li center-align style="font-size: 20;">2013</li> <hr>
         <li>Aditi Sharma</li>
         <li>Vedang Deshpande</li>
 
@@ -286,7 +286,7 @@
             </div>
     <div id="2012" class="col l2 m6 s12 center-align">
         <ul>
-          <span><b><li center-align" style="font-size: 20;">2012</li> <hr>  
+          <span><b><li center-align style="font-size: 20;">2012</li> <hr>  
           <li>Apoorv Jain</li>
           <li>Utkarsh Jain</li>                        
             <li>Akshay Kumar</li>
@@ -301,11 +301,11 @@
       </div>
        <div id="2011" class="col l2 m6 s12 center-align">
         <ul>
-          <span><b><li center-align" style="font-size: 20;">2011</li><hr>
+          <span><b><li center-align style="font-size: 20;">2011</li><hr>
          <li>Nikunj Mall</li>
           <li>Akshat Prakash</li>
           <li>Aditi Kadmawala</li>
-          <li>Alshay Chalikwar</li>
+          <li>Akshay Chalikwar</li>
           <li>Deepika Bajaj</li>
           <li>Rupinder Singh</li>
           <li>Sai Sachin</li>
@@ -319,7 +319,7 @@
       
       
       <ul>
-        <span><b><li center-align" style="font-size: 20;">2010</li><hr>
+        <span><b><li center-align style="font-size: 20;">2010</li><hr>
         <li>Drishti Guin </li>                                
         <li> Harshal Maniyar</li>
         <li>Sumeet Mavani</li>
