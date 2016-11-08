@@ -170,17 +170,16 @@ $result = $connection->query($query);
         <h4 style="margin-bottom: 0px;" ><b>14th Annual Alumni Meet</b> </h4> <br>
       <h5  style="margin-top: 0px;">13th to 15th January, 2017</h5> </div>
       </center><br><br>
-
-  <p class="text_align" style="text-align:justify; backgound:white;">
-    We live our day to day lives oblivious to the beauty that surrounds us. And by the time we do realise what exactly it is that we've been blessed with, it's generally too late. But when the good ol' days call yet again, nostalgia surrounds us as we walk the hallowed boulevards of our youth. The Annual Alumni Meet brings to our alumni a chance to reconnect with their Alma Mater. It lets them relive the carefree days of their college lives as they get a chance to visit all the locations they once frequented. 
+<p class="text_align" style="text-align:justify; backgound:white;">
+    We live our day to day lives oblivious to the beauty that surrounds us and by the time we do realise what exactly it is that we've been blessed with, it's generally too late. However when the good ol' days call yet again, nostalgia surrounds us as we walk the hallowed boulevards of our youth. The Annual Alumni Meet brings to our alumni a chance to reconnect with their Alma Mater. It lets them relive the carefree days of their college lives as they get a chance to visit all the locations they once frequented. 
 <br><br>
 
-With department and hall visits, and events like Illumination and Musical Night, the Meet rekindles the bond between the alumni and their institute. Apart from these, informal fun events like bonfire and kite flying bring out the child in them. From what used to be a simple dinner till its 7th year, the Annual Annual Meet has now evolved into a three day event that stirs up quite a buzz days before it takes place. The alumni enthusiastically look forward to getting back together with their batch mates and chatting up on what was and what has been. Each year now the Golden, Ruby and Silver Jubilee batches are invited to the meet as special guests of honor. 
+With department and hall visits, and events like Illumination and Musical Night, the Meet rekindles the bond between the alumni and their institute. Apart from these, informal fun events like bonfire and kite flying bring out the child in them. From what used to be a simple dinner till its 7th year, the Annual Annual Meet has now evolved into a three day event that stirs up quite a buzz days before it takes place. The alumni enthusiastically look forward to getting back together with their batch mates and chatting up on what was and what has been. Every year the Golden, Ruby and Silver Jubilee batches are invited to the meet as special guests of honor. 
 
 <br><br>
 
 
-The <b>14th Annual Alumni Meet </b>would be organised from <b>13th to 15th January, 2017</b> at our Institute campus. This year the <b>Golden Jubilee batch of 1967</b>, the <b>Ruby Jubilee batch of 1977 </b>and the <b>Silver Jubilee batch of 1992</b> are the special guests of honour. The Meet is now a major event anticipated by both the alumni and the students. As the years pass by and winds of change keep blowing, the Alumni Meet too shall keep evolving with the changing times, hoping to bring to the alumni an experience that they may cherish all their lives.
+The <b>14th Annual Alumni Meet </b>would be organised from <b>13th to 15th January, 2017</b> at our Institute campus. This year the <b>Golden Jubilee batch of 1967</b>, the <b>Ruby Jubilee batch of 1977 </b>and the <b>Silver Jubilee batch of 1992</b> are the special guests of honor. The Meet is now a major event anticipated by both the alumni and the students. As the years pass by and winds of change keep blowing, the Alumni Meet too shall keep evolving with the pace of time, hoping to bring to the alumni an experience that they may cherish all their lives.
  
 
   </p>
