@@ -1,3 +1,4 @@
+
 <script>
    $(document).ready(function(){
    if ($(window).width()>992) {

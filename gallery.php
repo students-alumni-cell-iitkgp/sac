@@ -1,3 +1,4 @@
+
 <html>
 <head>
 <link rel="icon" href="img/meet_14.png">
@@ -44,79 +45,55 @@
 </style>
 </head>
 <body> <center>
-    <div class="heading" style="margin-top: -5px">
-        <center>
-            <h class="subheading"><b>Student Alumni Meet</b> - Kolkata</h>
-        </center>
-    </div>
-    <br>
 <div class="row">
-<div class="col l3 m3 s3">
-        <img class="materialboxed normal" src="img/sam/Kolkata/sam.jpg" width="310px" height="420px"   >
-
+<div class="col l3 m6 s12">
+        <img class="materialboxed normal" src="img/gallery/two.jpg" height="200px" >
+        <img class="materialboxed normal" src="img/gallery/three.JPG" height="200px" style="margin-top: 20px;">
 </div>
-<div class="col l6 m6 s6">
-
-       <img  class="materialboxed normal" src="img/sam/Kolkata/sam2.jpg" height="420px" style="margin-left: -9px">
-
+<div class="col l6 m6 s12">
+        <div class="video-container normal bigg" style="height:420px; padding-left: 20px;  ">
+       <iframe class="frame" src="https://www.youtube.com/embed/TvkgR5gS2j4" frameborder="0" allowfullscreen ></iframe>
+      </div>
     </div>
-
-    <div class="col l3 m6 s6">
-        <img class="materialboxed normal" src="img/sam/Kolkata/sam1.jpg" height="200px"/>
+    <div class="col l3 m6 s12">
+        <img class="materialboxed normal" src="img/gallery/five.JPG" height="200px"/> 
 </div> 
-<div class="col l3 m3 s3">
-        <img class="materialboxed normal" src="img/sam/Kolkata/sam3.jpg" height="200px" />
+<div class="col l3 m6 s12">
+        <img class="materialboxed normal" src="img/gallery/six.JPG" height="200px" />
 </div>
+<div class="col l6 m6 s12">
+        <img class="materialboxed normal bigg" src="img/gallery/seven.JPG" height="420px"/>
+    </div>
+    <div class="col l3 m6 s12">
+        <img  class="materialboxed normal" src="img/gallery/eight.JPG" height="200px"/>
+    </div>
+    <div class="col l3 m6 s12">
+        <img class="materialboxed normal" src="img/gallery/nine.JPG" height="200px"/>
+   </div> 
+   <div class="col l3 m6 s12">
+        <img class="materialboxed normal" src="img/gallery/ten.JPG" height="200px"/> 
+    </div>    
+   <div class="col l3 m6 s12">
+        <img class="materialboxed normal" src="img/gallery/eleven.JPG" height="200px"/>
+   </div>
+   <div class="col l3 m6 s12">
+        <img class="materialboxed normal" src="img/gallery/twelve.JPG" height="200px"/>
+   </div>
+   <div class="col l3 m6 s12">
+        <img class="materialboxed normal" src="img/gallery/thirteen.JPG" height="200px"/>
+   </div> 
+   <div class="col l3 m6 s12">
+        <img class="materialboxed normal" src="img/gallery/forteen.jpg" height="200px"/>
 </div>
-
-    <div class="row" style="margin-top: -30px">
-    <div class="col l4 m4 s4">
-        <div class="col l4">
-            <img class="materialboxed normal" src="img/sam/Kolkata/sam6.jpg" width="430">
-        </div>
-    </div>
-        <div class="col l4 m4 s4" style="margin-right: -20px">
-            <img class="materialboxed normal" src="img/sam/Kolkata/sam4.jpg" width="430">
-        </div>
-        <div class="col l4 m4 s4">
-            <div class="col l4 m4 s4">
-                <img class="materialboxed normal" src="img/sam/Kolkata/sam5.jpg" width="430">
-            </div>
-        </div>
-
-    </div>
-
-
-    <div class="heading" style="margin-top: -5px">
-        <center>
-            <h class="subheading"><b>Student Alumni Meet</b> - Bangalore</h>
-        </center>
-    </div>
-    <br>
-
-    <div class="row" >
-        <div class="col l4 m4 s4">
-
-                <img class="materialboxed normal" src="img/sam/Bangalore/a.jpg" width="430"><br>
-            <img class="materialboxed normal" src="img/sam/Bangalore/e.jpg" width="430">
-
-        </div>
-        <div class="col l4 m4 s4" >
-            <img class="materialboxed normal" src="img/sam/Bangalore/b.jpg" width="430"><br>
-            <img class="materialboxed normal" src="img/sam/Bangalore/d.jpg" width="430">
-        </div>
-        <div class="col l4 m4 s4">
-
-                <img class="materialboxed normal" src="img/sam/Bangalore/c.jpg" width="410" >
-
-        </div>
-
-
-    </div>
-
-   
-
-
+<div class="col l3 m6 s12">
+        <img class="materialboxed normal" src="img/gallery/fifteen.JPG" height="200px"/>
+   </div>
+   <div class="col l6 m6 s12">
+        <img class="materialboxed normal bigg" src="img/gallery/sixteen.JPG" height="420px"/>
+        </div> 
+        <div class="col l6 m6 s12">
+        <img class="materialboxed normal bigg" src="img/gallery/one.JPG" height="420px">
+        </div> </div>
         </center>
 
 <script type="text/javascript">
@@ -126,4 +103,4 @@
 </script>
 
 </body>
-</html>   
+</html>

@@ -1,33 +1,10 @@
-<?php
 
-    require 'connection.php';
-    session_start();
-    $email=$_SESSION['email'];
-    $query1=" SELECT * FROM travel WHERE email= '$email' ";
-    $query3=" SELECT * FROM  accommodation WHERE email= '$email' ";
-    $query_run1=$connection->query($query1);
-    $query_run2=$connection->query($query3);
-    if (($query_run1)&&($query_run2)) {
-      if(($query_run1->num_rows > 0)&&($query_run2->num_rows > 0)){       
-            echo '<script language="javascript">alert("Response already submitted. ");';
-            echo 'window.location.href = "home.php";';
-            echo '</script>';
-
-
-      }else {
-        
-
-    }
-      
-    } 
-    
-
-
-?> <div class="container-fluid">
+ <div class="container-fluid">
   	<form action="acco-travel-form-continue.php" method="post" style="text-align: left;">
        <h3> Travel Details </h3>
     <div class="input-field col s12">
-    <select name="arrDate" required>
+    <select name="arrDate">
+      <option value="" disabled selected>Choose your option</option>
       <option >12th January 2017</option>
       <option >13th January 2017</option>
       <option >14th January 2017</option>
@@ -39,7 +16,7 @@
   </div>
       <div class="col s12">
         <label for="Name">Arrival Time</label>
-        <input  type="time" placeholder="Arrival Time" name="arrTime" required>
+        <input  type="time" placeholder="Arrival Time" name="arrTime">
       </div>
       <div class="input-field col s12">
           <input id="last_name" type="text" class="validate" name="arrSt">
@@ -58,7 +35,7 @@
           <label for="last_name">Number of Accompanying Person</label>
         </div>
       <div class="input-field col s12">
-          <input id="last_name" type="number" class="validate" name="secPhone" required>
+          <input id="last_name" type="number" class="validate" name="secPhone">
           <label for="last_name">Your Secondary Phone Number</label>
         </div>
       <div >
@@ -93,7 +70,7 @@
       <br><br>
        <div >
         <label for="Name">Departure Date</label>
-        <select name="depDate" required>
+        <select name="depDate" >
             <option>14th January 2017</option>
             <option>15th January 2017</option>
             <option>16th January 2017</option>

@@ -1,3 +1,4 @@
+
 <html>
 <head>
   <title>Student Alumni Meet &middot; IIT Kharagpur</title>
@@ -52,8 +53,8 @@ max-width:100%;
                   
                       <p class="summit text_align" style="padding:1% 10% 6% 10%;">
                           IIT Kharagpur, a premier institute of the nation has a vast Alumni Network spread over various locations across the world. With an aim to bring together the students and the alumni, not just in the premises of the institute, but also regionally, Student Alumni Meets have been initiated. In collaboration with the regional chapters, SAMs bring together the students and the alumni under one roof and encourage interactive dialogue. Many such Student Alumni Meets have been conducted till now in various cities across India. Last year, Bangalore and Delhi witnessed such get togethers. SAMs play a very important role in strengthening the bond with alumni. They also play a very important role in forming a strong alumni network by connecting the alumni not just with each other but also with the students at a regional level.
-                          <br>
-                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Student Alumni Meets have facilitated the implementation of various initiatives of SAC like Mentorship, guest lectures and many others. Further, a platform for the introduction as well as the implementation of many more future initiatives is provided. Most of all, SAMs connect the alumni and the students at a very personal level and ensure long term interaction and strong bonding thus proving to be extremely beneficial to the students as well as the alumni. Student Alumni Meets will continue to play a very important role in the functioning of Students' Alumni Cell
+                          <br><br>
+                          Student Alumni Meets have facilitated the implementation of various initiatives of SAC like Mentorship, guest lectures and many others. Further, a platform for the introduction as well as the implementation of many more future initiatives is provided. Most of all, SAMs connect the alumni and the students at a very personal level and ensure long term interaction and strong bonding thus proving to be extremely beneficial to the students as well as the alumni. Student Alumni Meets will continue to play a very important role in the functioning of Students' Alumni Cell.
                       </p>
                   </div>
               </div>
