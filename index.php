@@ -97,13 +97,21 @@
         <div class="row">
             <div class="col l8">  <div style="background-color: white;">
                     <p class="z-depth-1 text_align" style="font-size: 16px;padding: 3.3em 3em">
-                      The Students' Alumni Cell, IIT Kharagpur is a voluntary student body working under the aegis of the Office of Alumni Affairs and International Relations. It strives to bridge the gap between IIT Kharagpur and its esteemed alumni community .<br>
+                      The Students' Alumni Cell, IIT Kharagpur is a voluntary student body working under the aegis 
+                      of the Dean of Alumni Affairs and International Relations. It strives to bridge the gap between 
+                      IIT Kharagpur and its esteemed alumni community.<br>
                             <br>
-                       The Students' Alumni Cell continuously endeavours to strengthen the relations of the alumni of this institute and their alma mater. It has been instrumental in organising the Annual Alumni Meet, publishing the annual literary magazine (Yearnings of Yore) and the Annual Yearbook and amongst other things too for instance organising regular guest lectures by distinguished alumni in the campus. The Students' Alumni Cell also operates the Student - Alumni Mentorship Programme, My Imprint (Giving Back - Alumni contribution) and organises Alvida (the annual farewell dinner).
+                       The Students' Alumni Cell continuously endeavours to strengthen the relations of 
+                       the alumni of this institute and their alma mater. 
+                       It has been instrumental in organising the Annual Alumni Meet, Regional Student Alumni Meet, 
+                       regular guest lectures by distinguished alumni in the campus, publishing the annual 
+                       literary magazine (Yearnings of Yore) & the Annual Yearbook.  
+                       The Students' Alumni Cell also operates the Student - Alumni Mentorship Programme, My Imprint
+                      (Giving Back - Alumni contribution) and organises Alvida (the annual farewell dinner).
                     </p>
                 </div></div>
             <div class="col l4" style="margin-top: 1em;">
-                <div id="fbplug" style="width: 425px; background-color: #fff" class="z-depth-1 fb-page" data-href="https://www.facebook.com/iitkgp.alumnicell/?fref=ts" data-tabs="timeline" data-height="320px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/iitkgp.alumnicell/?fref=ts" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/iitkgp.alumnicell/?fref=ts">Alumni Cell, IIT Kharagpur</a></blockquote></div>
+                <div id="fbplug" style="width: 425px; background-color: #fff" class="z-depth-1 fb-page" data-href="https://www.facebook.com/iitkgp.alumnicell/?fref=ts" data-tabs="timeline" data-height="347px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/iitkgp.alumnicell/?fref=ts" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/iitkgp.alumnicell/?fref=ts">Alumni Cell, IIT Kharagpur</a></blockquote></div>
             </div>
         </div>
     </div>
@@ -130,8 +138,8 @@
     </div>
     <div class="card-reveal">
       <span class="card-title grey-text text-darken-4">For Alumni<i class="material-icons right">close</i></span>
-      <p class="text_align">The Students' Alumni Cell works towards ensuring mutual benefit of the Students as well as the Alumni. The cell helps the alumni in staying connected to their alma mater. Through regular interactions with the students, the alumni get a chance to share their experiences and impart the knowledge they have acquired to the next generation of KGPians. Also, with this interchange, they get a glimpse of the young minds of the nation.
-      </p>
+            <p class="text_align">The Students' Alumni Cell works towards ensuring mutual benefit of the Students as well as the Alumni. The cell helps the alumni in staying connected to their alma mater. Through regular interactions with the students, the alumni get a chance to share their experiences and impart the knowledge they have acquired to the next generation of KGPians. Also, with this interchange, they get a glimpse of the young minds of the nation.</p>
+
     </div>
   </div>
 </div>
@@ -145,8 +153,8 @@
     </div>
     <div class="card-reveal">
       <span class="card-title grey-text text-darken-4">For Institute<i class="material-icons right">close</i></span>
-      <p class="text_align">The alumni community often takes keen interest in the institute&#8217;s workings and the prevalent conditions. Students' Alumni Cell reconnects the institute and alumni, providing the alumni with an avenue to give back to their alma mater. The Institution Development Program (IDP) aims to promote the institute's domestic ranking while simultaneously improving the international stature. </p>
-    </div>
+            <p class="text_align">The alumni community often takes keen interest in the institute&#8217;s workings and the prevalent conditions. Students' Alumni Cell reconnects the institute and alumni, providing the alumni with an avenue to give back to their alma mater. The Institution Development Program (IDP) aims to promote the institute's domestic ranking while simultaneously improving the international stature. </p>
+</div>
   </div>
 </div>
 <div class="col l4 s12 m4">
@@ -159,8 +167,8 @@
     </div>
     <div class="card-reveal">
       <span class="card-title grey-text text-darken-4">For Students<i class="material-icons right">close</i></span>
-      <p class="text_align">Students' Alumni Cell works in conjunction with the student administration bodies and is therefore constantly in touch with the needs and wants of the students. It connects the students with the alumni, giving them a chance to interact with some of the most eminent personalities in all fields of work. It works towards making their learning experience more holistic.</p>
-    </div>
+            <p class="text_align">Students' Alumni Cell works in conjunction with the student administration bodies and is therefore constantly in touch with the needs and wants of the students. It connects the students with the alumni, giving them a chance to interact with some of the most eminent personalities in all fields of work. It works towards making their learning experience more holistic.</p>
+     </div>      
   </div>
 </div>
 </div>
@@ -182,7 +190,8 @@
     </div>
     <div class="card-reveal">
       <span class="card-title grey-text text-darken-4">Class Gift of 2015</span>
-      <p class="text_align">The Senior Class Gift, an initiative under the My Imprint Program saw a large number of graduating students signing up for the program. The program gives an opportunity to the graduating batch to give something back to the institute, the moment they are about to leave the institute.</p>
+            <p class="text_align">The Senior Class Gift, an initiative under the My Imprint Program saw a large number of graduating students signing up for the program. The program gives an opportunity to the graduating batch to give something back to the institute, the moment they are about to leave the institute.</p>
+
     </div>
   </div>
 </div>
@@ -193,11 +202,12 @@
     </div>
     <div class="card-content">
       <span class="card-title activator grey-text text-darken-4">Mentorship<i class="material-icons right">more_vert</i></span>
-      <p class="text_align"><a href="#">Phase 1</a></p>
+      <p class="text_align">Phase 1</p>
     </div>
     <div class="card-reveal">
       <span class="card-title grey-text text-darken-4">Mentorship Programme</span>
-      <p class="text_align">The Students&#8217; Alumni Cell will begin the second phase of this year&#8217;s Student Alumni Mentorship Programme, one of its most successful initiatives, in October.The SAMP Program saw a participation of more than 700 student and 300 alumni in its previous phase.</p>
+            <p class="text_align">The Students&#8217; Alumni Cell will begin the second phase of this year&#8217;s Student Alumni Mentorship Programme, one of its most successful initiatives, in October. The SAMP Program saw a participation of more than 700 students and 300 alumni in its previous phase.</p>
+
     </div>
   </div>
 </div>
@@ -208,26 +218,28 @@
     </div>
     <div class="card-content">
       <span class="card-title activator grey-text text-darken-4">Guest Lecture<i class="material-icons right">more_vert</i></span>
-      <p class="text_align"><a href="#">& E-Guest Lectures</a></p>
+      <p class="text_align">& E-Guest Lectures</p>
     </div>
     <div class="card-reveal">
       <span class="card-title grey-text text-darken-4">Guest Lecture</span>
-      <p class="text_align">Continuing with its yearlong series of Guest Lectures by eminent alumni, the Students Alumni Cell recently hosted Mr. Veerendra Jaitltey, an alumnus of the ECE department, 1979. He delivered a motivational lecture with the theme &#8217;We Can, We Can&#8217;.</p>
+            <p class="text_align">Continuing with its yearlong series of Guest Lectures by eminent alumni, the Students&#8217; Alumni Cell recently organised "Tips from Top", an open house with prominent alumni in the fields of Entrepreneurship, Civil Services and Research.</p>
     </div>
   </div>
 </div>
 <div class="col l3 s12 m6">
 <div class="card z-depth-0">
     <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="img/latest programs/yearbook.jpg">
+      <img class="activator" src="img/yearbook/year16.jpg" style="height:225px" >
     </div>
     <div class="card-content">
       <span class="card-title activator grey-text text-darken-4">Yearbook<i class="material-icons right">more_vert</i></span>
-      <p class="text_align"><a href="#">2015</a></p>
+      <p class="text_align">2016</p>
     </div>
     <div class="card-reveal">
       <span class="card-title grey-text text-darken-4"><a>Yearbook</a></span>
-      <p class="text_align">The Yearbook is a collection of photographs and memories presented every year at the time of the convocation to the graduating batch by the Students&#8217; Alumni Cell. It is the perfect souvenir for everyone about to leave their home away from home, KGP.....  </p>
+            <p class="text_align">The Yearbook is a collection of photographs and memories presented every year at the time of the convocation to the graduating batch by the Students&#8217; Alumni Cell. It is the perfect souvenir for everyone about to leave their home away from home, KGP.  </p>
+
+
     </div>
   </div>
 </div>
