@@ -64,7 +64,7 @@ max-width:100%;
                 
                 <p class="summit text_align" style="padding:1% 10% 6% 10%;">
                      A leader is the one who knows the way, goes the way and shows the way. 
-                     Leadership Summit, organized as a part of guest-lectures, sees the participation of professionals and 
+                     Leadership Summit, organized as a part of Guest Lectures, sees the participation of professionals and 
                      corporate tycoons sharing the same stage talking about their experiences and guiding the students to become 
                      future world leaders. The summit organized in 2013 and 2014 was appreciated by the students as well as alumni 
                      and witnessed huge turnout of the students.
