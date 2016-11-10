@@ -36,10 +36,12 @@ max-width:100%;
 <body>
   <div class="_wrapper">
     <?php include 'navbar.php';?>
-   
+
     <div class="row ac-sam-cov">
         <img src="img/sam3.jpg" class="">
     </div>
+   
+    
       <div class="row" style="padding:0% 8% 6% 8%;">
 
           <div class="center-align" >
@@ -58,7 +60,7 @@ max-width:100%;
                           have been conducted till now in various cities across India. Last year, Bangalore and Delhi witnessed huge participation.
                           <br><br>
                           Furthermore, Student Alumni Meets have facilitated the implementation of various initiatives of 
-                          SAC like Mentorship, guest lectures and many others. Further, a platform for the introduction as well as the implementation of many more future initiatives is provided. Most of all, SAMs connect the alumni and the students at a very personal level and ensure long term interaction and strong bonding thus proving to be extremely beneficial to the students as well as the alumni. Student Alumni Meets will continue to play a very important role in the functioning of Students' Alumni Cell.
+                          SAC like Mentorship, Guest Lectures and many others. Further, a platform for the introduction as well as the implementation of many more future initiatives is provided. Most of all, SAMs connect the alumni and the students at a very personal level and ensure long term interaction and strong bonding thus proving to be extremely beneficial to the students as well as the alumni. Student Alumni Meets will continue to play a very important role in the functioning of Students' Alumni Cell.
                       </p>
                   </div>
               </div>
