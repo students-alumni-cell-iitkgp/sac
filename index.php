@@ -186,7 +186,7 @@
     </div>
     <div class ="card-content">
       <span class="card-title activator grey-text text-darken-4">Class Gift of 2015<i class="material-icons right">more_vert</i></span>
-      <p class="text_align"><a href="#">Campus Benches</a></p>
+      <p class="text_align">Campus Benches</p>
     </div>
     <div class="card-reveal">
       <span class="card-title grey-text text-darken-4">Class Gift of 2015</span>
@@ -198,7 +198,7 @@
 <div class="col l3 s12 m6">
 <div class="card z-depth-0">
     <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="img/latest programs/mentor.jpg">
+      <img class="activator" src="img/latest programs/mentor.jpg" style="height:225px">
     </div>
     <div class="card-content">
       <span class="card-title activator grey-text text-darken-4">Mentorship<i class="material-icons right">more_vert</i></span>
@@ -214,7 +214,7 @@
 <div class="col l3 s12 m6">
 <div class="card z-depth-0">
     <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="img/latest programs/guestlecture.jpg">
+      <img class="activator" src="img/latest programs/guestlecture.jpg" style="height:225px">
     </div>
     <div class="card-content">
       <span class="card-title activator grey-text text-darken-4">Guest Lecture<i class="material-icons right">more_vert</i></span>
@@ -229,7 +229,7 @@
 <div class="col l3 s12 m6">
 <div class="card z-depth-0">
     <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="img/yearbook/year16.jpg" style="height:225px" >
+      <img class="activator" src="img/yearbook/yearbook.jpg" style="height:225px" >
     </div>
     <div class="card-content">
       <span class="card-title activator grey-text text-darken-4">Yearbook<i class="material-icons right">more_vert</i></span>
