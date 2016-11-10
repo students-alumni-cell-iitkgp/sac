@@ -46,7 +46,9 @@
                 </div>
 
                 <p class="summit text_align" style="padding:1% 10% 6% 10%;">
-                    When we look back to our college days we plunge into a pool of nostalgia and savour the sweet and salty taste of life that was offered to us then.The strangers who turned out be great friends, the unknown roads which became familiar and the experiences that would be cherished as beautiful memories forever are some of the gems embedded in their overwhelming hearts as they leave the place. To treasure these moments we have Alvida - the annual farewell dinner held for the passing out batch to get together and share their memorable stories of the moments they spent in the institute. 
+                    When we look back to our college days, we plunge into a pool of nostalgia and savour 
+                    the sweet and salty taste of life that was offered to us then.The strangers who turned 
+                    out be great friends, the unknown roads which became familiar and the experiences that would be cherished as beautiful memories forever are some of the gems embedded in their overwhelming hearts as they leave the place. To treasure these moments, we have Alvida - the annual farewell dinner held for the passing out batch to get together and share their memorable stories of the moments they spent in the institute. 
                     <br><br>
                     The farewell dinner - Alvida - is generally held in the month of April. It has gained popularity among the final year batches as something to look forward to. It's rare to have most of your batchmates together at one location - sharing a great dinner, laughing at the fun stories they created and discussing about what lies ahead; Alvida gives the students exactly this opportunity. Since the event is also attended by the faculty of IIT Kharagpur, it also gives the graduating students a chance to thank their teachers for preparing them to face the challenging world out there and imparting to them the knowledge they would need to become winners in life.
                     <br><br>

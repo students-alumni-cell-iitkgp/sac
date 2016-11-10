@@ -75,7 +75,7 @@ left: 60px;
     
     <span class="mentor-text">
     <p class="z-depth-1 text_align" style="padding:6% 10% 6% 10%; background:white;">
-    <b>Student Alumni Mentorship Program (SAMP)</b> is a unique initiative undertaken by the Students’ Alumni Cell, IIT Kharagpur. Through this program students are connected with alumni who serve both as a guide and a source of inspiration for them.<b> SAMP</b> is launched with the goal of keeping the alumni connected to their alma mater as well as share their valuable experience with the current students.
+    <b>Student Alumni Mentorship Program (SAMP)</b> is a unique initiative undertaken by the Students&#39 Alumni Cell, IIT Kharagpur. Through this program students are connected with alumni who serve both as a guide and a source of inspiration for them.<b> SAMP</b> is launched with the goal of keeping the alumni connected to their alma mater as well as share their valuable experience with the current students.
     </p>
     </span>
   </div>
@@ -111,7 +111,14 @@ left: 60px;
     It facilitates a medium where the student connects with an Alumnus from a field he has a profound interest in. He gives his preference of field, year and place while registering online and he is accordingly allotted a mentor based on a predefined code. In the process of learning the ropes in that particular field he takes home so much more from the guide, coach, supporter and motivator, he finds in his mentor.
     <br> <br>
     <b style="font-size:150%">Connecting with our Alumni</b><br><br>
-    <b>The Student Alumni Mentorship Programme</b> is also an active step to keep the alumni in touch with all the happenings at IIT Kharagpur. The institute witnesses many changes from time to time. While some are quite evident like the construction and commencement of classes at the imposing new Nalanda Complex, a couple of years ago, others are a bit subtle like the formation of interesting new societies, changes in the General Championship standings and the intense heat surrounding it and all other bits of information that students know best. With an all year round interaction with the students, the Students Alumni Mentorship Programme ensures that the Alumni be in the know of the events as they occur and helps them relieve their own KGP days.
+    <b>The Student Alumni Mentorship Programme</b> is also an active step to keep the alumni in touch with all the 
+    happenings at IIT Kharagpur. 
+    The Institute has undergone many changes from time to time- While some are quite evident like the construction and 
+    commencement of classes at the new Nalanda Complex, others are a bit subtle like the formation of interesting 
+    new societies, changes in the General Championship standings and other transitions that the Institute is undergoing.
+     With an 
+     all year round interaction with the students, the Students&#39; Alumni Mentorship Programme ensures that the Alumni be 
+     in the know of the events as they occur and helps them relive their own KGP days.
 
            </p>
         

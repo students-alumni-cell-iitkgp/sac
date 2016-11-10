@@ -51,37 +51,37 @@
     </div>
     <br>
 <div class="row">
-<div class="col l3 m3 s3">
+<div class="col l3 m3 s12">
         <img class="materialboxed normal" src="img/sam/Kolkata/sam.jpg" width="310px" height="420px"   >
 
 </div>
-<div class="col l6 m6 s6">
+<div class="col l6 m6 s12">
 
        <img  class="materialboxed normal" src="img/sam/Kolkata/sam2.jpg" height="420px" style="margin-left: -9px">
 
     </div>
 
-    <div class="col l3 m6 s6">
+    <div class="col l3 m6 s12">
         <img class="materialboxed normal" src="img/sam/Kolkata/sam1.jpg" height="200px"/>
 </div> 
-<div class="col l3 m3 s3">
+<div class="col l3 m3 s12">
         <img class="materialboxed normal" src="img/sam/Kolkata/sam3.jpg" height="200px" />
 </div>
 </div>
 
     <div class="row" style="margin-top: -30px">
-    <div class="col l4 m4 s4">
-        <div class="col l4">
+    <div class="col l4 m4 s12">
+        
             <img class="materialboxed normal" src="img/sam/Kolkata/sam6.jpg" width="430">
-        </div>
-    </div>
-        <div class="col l4 m4 s4" style="margin-right: -20px">
+        
+            </div>
+        <div class="col l4 m4 s12" style="margin-right: -20px">
             <img class="materialboxed normal" src="img/sam/Kolkata/sam4.jpg" width="430">
         </div>
-        <div class="col l4 m4 s4">
-            <div class="col l4 m4 s4">
+        <div class="col l4 m4 s12">
+            
                 <img class="materialboxed normal" src="img/sam/Kolkata/sam5.jpg" width="430">
-            </div>
+            
         </div>
 
     </div>
@@ -95,17 +95,17 @@
     <br>
 
     <div class="row" >
-        <div class="col l4 m4 s4">
+        <div class="col l4 m4 s12">
 
                 <img class="materialboxed normal" src="img/sam/Bangalore/a.jpg" width="430"><br>
             <img class="materialboxed normal" src="img/sam/Bangalore/e.jpg" width="430">
 
         </div>
-        <div class="col l4 m4 s4" >
+        <div class="col l4 m4 s12" >
             <img class="materialboxed normal" src="img/sam/Bangalore/b.jpg" width="430"><br>
             <img class="materialboxed normal" src="img/sam/Bangalore/d.jpg" width="430">
         </div>
-        <div class="col l4 m4 s4">
+        <div class="col l4 m4 s12">
 
                 <img class="materialboxed normal" src="img/sam/Bangalore/c.jpg" width="410" >
 
