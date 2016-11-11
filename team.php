@@ -225,27 +225,18 @@
   </div>
    </div>
 </div> </div> </div>
-<<<<<<< HEAD
+
     <center><div class="heading" style="border:3px black solid; display: inline-block; padding-top: 2px; margin: 3px;padding-right: 20px;padding-left: 20px;" >
      <h4>Former Team Members</h4> </div></center>
-  
-=======
-  <div class=" col l12 m12 s12 heading">
-    <center><h class="subheading" >Former Team Members</h></center>
-  </div>
->>>>>>> 612771aa7f801de8606a0a87ce6d3db16bf18940
-    <div class="row" style="margin-top: 50px;">
+     <div class="row" style="margin-top: 50px;">
 
      <div id="2015" class="col l2 m6 s12 center-align">
      
       
       
       <ul>
-<<<<<<< HEAD
+
        <span><b><li center-align style="font-size: 20;">2015</li> <hr>
-=======
-       <span><b><li center-align" style="font-size: 20;">2015</li> <hr>
->>>>>>> 612771aa7f801de8606a0a87ce6d3db16bf18940
          <li>Pranshu Jain</li>
         <li>Rohan Gupta</li>
         <li>Akash Tulsani</li>
@@ -265,11 +256,7 @@
 
     <div id="2014" class="col l2 m6 s12 center-align">
         <ul>
-<<<<<<< HEAD
           <span><b> <li center-align style="font-size: 20;">2014</li> <hr>
-=======
-          <span><b> <li center-align" style="font-size: 20;">2014</li> <hr>
->>>>>>> 612771aa7f801de8606a0a87ce6d3db16bf18940
           <li>Arpit Gupta</li>
           <li>Manish Goyal</li>
           <li>Aditi Shrivastav</li>
@@ -282,12 +269,8 @@
         </ul>
       </div>
     <div id="2013" class="col l2 m6 s12 center-align">
-<<<<<<< HEAD
         <ul><span><b><li center-align style="font-size: 20;">2013</li> <hr>
-=======
-        <ul><span><b><li center-align" style="font-size: 20;">2013</li> <hr>
->>>>>>> 612771aa7f801de8606a0a87ce6d3db16bf18940
-        <li>Aditi Sharma</li>
+         <li>Aditi Sharma</li>
         <li>Vedang Deshpande</li>
 
          <li>Abhinay Vyas</li>
@@ -302,13 +285,10 @@
          <li>Uday Shankar Das</li>
            </b></span></ul>
             </div>
+
     <div id="2012" class="col l2 m6 s12 center-align">
         <ul>
-<<<<<<< HEAD
-          <span><b><li center-align style="font-size: 20;">2012</li> <hr>  
-=======
-          <span><b><li center-align" style="font-size: 20;">2012</li> <hr>  
->>>>>>> 612771aa7f801de8606a0a87ce6d3db16bf18940
+         <span><b><li center-align" style="font-size: 20;">2012</li> <hr>  
           <li>Apoorv Jain</li>
           <li>Utkarsh Jain</li>                        
             <li>Akshay Kumar</li>
@@ -323,11 +303,7 @@
       </div>
        <div id="2011" class="col l2 m6 s12 center-align">
         <ul>
-<<<<<<< HEAD
           <span><b><li center-align style="font-size: 20;">2011</li><hr>
-=======
-          <span><b><li center-align" style="font-size: 20;">2011</li><hr>
->>>>>>> 612771aa7f801de8606a0a87ce6d3db16bf18940
          <li>Nikunj Mall</li>
           <li>Akshat Prakash</li>
           <li>Aditi Kadmawala</li>
@@ -345,11 +321,7 @@
       
       
       <ul>
-<<<<<<< HEAD
-        <span><b><li center-align style="font-size: 20;">2010</li><hr>
-=======
         <span><b><li center-align" style="font-size: 20;">2010</li><hr>
->>>>>>> 612771aa7f801de8606a0a87ce6d3db16bf18940
         <li>Drishti Guin </li>                                
         <li> Harshal Maniyar</li>
         <li>Sumeet Mavani</li>
