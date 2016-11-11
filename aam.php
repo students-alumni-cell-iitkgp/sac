@@ -82,8 +82,8 @@ $result = $connection->query($query);
 <title>Annual Alumni Meet &middot; IIT Kharagpur</title>
 <link rel="stylesheet" href="css/materialize.min.css">
 <link rel="icon"  href="img/meet_14.png">
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="js/materialize.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+ <script src="js/materialize.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -96,12 +96,7 @@ $result = $connection->query($query);
     </script>
 
 <style type="text/css">
-    @media only screen and (max-width: 769px){
-        ._wrapper{
-            width: 160%;
-        }
-    }
-   @media only screen and (min-width: 769px){
+   @media only screen and (min-width: 768px){
      .ac-head{
        margin-top:-20px;
      }
@@ -112,9 +107,9 @@ $result = $connection->query($query);
       margin-top: 60px;
       display: inline-block;
     }
-      .ac-aam img{
+      .ac-aam{
         margin-left: 0px;
-        width:100%;
+        width:100vw;
         
     }
    } 
@@ -130,9 +125,7 @@ $result = $connection->query($query);
       width: 330px;
       text-align: center;
     }
-    .subheading {
-      font-size: 22px;
-    }
+    
     .aam-reg{
       height: 150px;
       margin-top: 10px;
@@ -144,23 +137,16 @@ $result = $connection->query($query);
     position:absolute;
     left:0px;
 }
-   .foter{
-   position:relative;
-   top:2200px;}
+
   }
 </style>
-    <script>
-    $(document).ready(function(){
-      $('.slider').slider({full_width: true});
-    });
-    </script>
 </head>
 <body>
-<div class="_wrapper">
+<div class="_wrapper" style="overflow: hidden;">
 <?php include 'navbar.php';?>
     
-  <div class="row ac-aam">
-    <img src="img/indexslider/annualalumnimeet.jpg" align="middle">
+  <div class="row ac-aam">                                 
+    <img   style="width: 100%;" src="img/indexslider/annualalumnimeet.jpg">
   </div>
   <div class="row">
   <div class="col l8 s8 m8">
@@ -215,7 +201,7 @@ The <b>14th Annual Alumni Meet </b>would be organised from <b>13th to 15th Janua
           <label for="icon_telephone">Password</label>
         </div>
             <button class="btn-large waves-effect waves-light " type="submit" name="action" style="margin-top:15px; width:200px;">Log In
-            <i class="material-icons right">send</i>
+            <i class="material-icons right">send</i> </button>
       </div>
     </form>
   </div>
@@ -229,12 +215,10 @@ The <b>14th Annual Alumni Meet </b>would be organised from <b>13th to 15th Janua
   </div>
   </div>
   
-  <div class="info row view">
+  <div class="row">
   <?php include 'gallery1.php';?>
   </div>
   </div>
-  <div class="foter">
-  <?php include 'footer.php';?></div>
- 
+  <?php include"footer.php";  ?>
   </body>
   </html>

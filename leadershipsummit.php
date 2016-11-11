@@ -55,12 +55,13 @@ max-width:100%;
     <div class="row" style="padding:0% 8% 0% 8%;">
 
         <div class="center-align" >
-            <div class="col l12 z-depth-1" style=" ">
-                <div class="heading" style="margin-top: -5px">
+            <div class="col l12 m12 s12 z-depth-1">
+                
                     <center>
-                        <h class="subheading"><b>Leadership Summit</b></h>
-                    </center>
-                </div>
+                     <div class="heading ac-head" style="border:3px black solid; display: inline-block; padding-top: 2px; margin: 3px;padding-right: 20px;padding-left: 20px;" >
+                           <h4><b>Leadership Summit</b></h4> </div>
+                    </center> 
+                
                 
                 <p class="summit text_align" style="padding:1% 10% 6% 10%;">
                      A leader is the one who knows the way, goes the way and shows the way. 

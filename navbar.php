@@ -44,7 +44,7 @@
 @media only screen and (max-width: 600px){
     nav .brand-logo {
       top: -10px;
-      left:80%;
+      left:77%;
     }
   }
   @media only screen and (max-width: 400px){
@@ -56,7 +56,7 @@
   @media only screen and (max-width: 330px){
     nav .brand-logo {
       top: -10px; 
-      left:70%;
+      left:62%;
     }
   }
 
@@ -65,7 +65,7 @@
 }
 
   </style>
-  <div class="row" id="logo" style="background-color: white; margin-bottom: 0px; "><div class="col l12 m12 s12 center-align"><img style=" width:200px;" src="img/logo/sac_logo.png">
+  <div class="row" id="logo" style="background-color: white; margin-bottom: 0px; display: none;"><div class="col l12 m12 s12 center-align"><img style=" width:200px;" src="img/logo/sac_logo.png">
     
 
 
@@ -152,7 +152,7 @@
               </div></li></ul></li>
 
 
-        <li><a href="#!">The Team</a></li>
+        <li><a href="team.php">The Team</a></li>
        <li class="no-padding">
           <ul class="collapsible collapsible-accordion">
             <li>
