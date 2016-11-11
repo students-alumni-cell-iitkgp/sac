@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+
 <style type="text/css">
    @media only screen and (min-width: 768px){
       .ac-aam img{
@@ -39,11 +40,9 @@
 
         <div class="center-align" >
             <div class="col l12 z-depth-1" style=" ">
-                <div class="heading" style="margin-top: 10px">
-                    <center>
-                        <h class="subheading"><b>Alvida</b> - The Annual Farewell Dinner</h>
+                    <center> <div class="heading ac-head" style="border:3px black solid; display: inline-block; padding-top: 2px; margin: 3px;padding-right: 20px;padding-left: 20px;" >
+                         <h4><b>Alvida</b> - The Annual Farewell Dinner</h4> </div>
                     </center>
-                </div>
 
                 <p class="summit text_align" style="padding:1% 10% 6% 10%;">
                     When we look back to our college days, we plunge into a pool of nostalgia and savour 
@@ -56,16 +55,7 @@
 
                 </p>
             </div>
-        </div>
-    </div>
-
-  
-  
-
-</div>
-  </div>    
-  
-</div>
+        </div> </div>
 
 
 
@@ -75,7 +65,6 @@
   </div>
   </div-->
  
-  <div class="row">
   <?php include 'alvida_slider.php';?>
   </div>
   

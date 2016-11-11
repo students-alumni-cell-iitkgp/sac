@@ -65,11 +65,10 @@ left: 60px;
 </div>
 
 <div class="row">
-  <div class="heading">
-                      <center>
-                          <h class="subheading"><b>Student Alumni Mentorship Program</b></h>
+ 
+                      <center> <div class="heading ac-head" style="border:3px black solid; display: inline-block; padding-top: 2px; margin: 3px;padding-right: 20px;padding-left: 20px;" >
+                          <h4><b>Student Alumni Mentorship Program</b></h4> </div>
                       </center>
-                  </div>
   <div class="col l8 m8 s12">
    
     

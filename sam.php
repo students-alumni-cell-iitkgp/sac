@@ -3,7 +3,7 @@
   <title>Student Alumni Meet &middot; IIT Kharagpur</title>
   <link rel="icon"  href="img/meet_14.png">
   <link rel="stylesheet" href="css/materialize.min.css">
-  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
   <script src="js/materialize.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -11,7 +11,7 @@
   <style type="text/css">
  
    @media only screen and (min-width: 768px){
-      .ac-sam-cov img{
+      .ac-sam-cov img{ width: 100%;
         margin-left: 80px;
 
 
@@ -34,23 +34,22 @@ max-width:100%;
  </script>
 </head>
 <body>
-  <div class="_wrapper">
+  <div class="_wrapper" style="overflow: hidden;" >
     <?php include 'navbar.php';?>
 
-    <div class="row ac-sam-cov">
-        <img src="img/sam3.jpg" class="">
+    <div class="row ac-sam">
+        <img src="img/sam3.jpg" style="width: 100%">
     </div>
    
     
       <div class="row" style="padding:0% 8% 6% 8%;">
 
           <div class="center-align" >
-              <div class="col l12 z-depth-1" style=" ">
-                  <div class="heading">
-                      <center>
-                          <h class="subheading"><b>Student Alumni Meet</b></h>
-                      </center>
-                  </div>
+              <div class="col l12 z-depth-1">
+                  <div class="heading ac-head" style="border:3px black solid; display: inline-block; padding-top: 2px; margin: 3px;padding-right: 20px;padding-left: 20px;" >
+       
+                          <h4><b>Student Alumni Meet</b></h4> </div>
+                                        
                   
                        <p class="summit text_align" style="padding:1% 10% 6% 10%;">
                           IIT Kharagpur, a premier institute of the nation has a vast alumni network spread over various locations across the world. With an aim to bring together the students and the alumni, not just in the 
@@ -65,10 +64,9 @@ max-width:100%;
                   </div>
               </div>
           </div>
-      </div>
-     <div class="row">
+
   <?php include 'gallery.php';?>
-  </div>
+</div>
   
   <?php include 'footer.php';?>
 </body>

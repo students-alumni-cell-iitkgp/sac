@@ -14,12 +14,12 @@
 <?php include'navbar.php';?>
   
   <div class="container">
-  
-  <div class="heading">
-    <center>
-      <h class="subheading "><b>General Secretaries</b></h>
-    </center>
-   </div>
+   <center>
+  <div class="heading" style="border:3px black solid; display: inline-block; padding-top: 2px;padding-right: 20px;padding-left: 20px;" >
+   
+      <h4><b>General Secretaries</b></h4>
+    
+   </div> </center>
   <div class="row">
   <div class="col l4 m6 s12 m6 s12 offset-l2">
   <div class="card small hoverable">
@@ -225,16 +225,17 @@
   </div>
    </div>
 </div> </div> </div>
-  <div class=" col l12 m12 s12 heading">
-    <center><h class="subheading" >Former Team Members</h></center>
-  </div>
-    <div class="row" style="margin-top: 50px;">
+
+    <center><div class="heading" style="border:3px black solid; display: inline-block; padding-top: 2px; margin: 3px;padding-right: 20px;padding-left: 20px;" >
+     <h4>Former Team Members</h4> </div></center>
+     <div class="row" style="margin-top: 50px;">
 
      <div id="2015" class="col l2 m6 s12 center-align">
      
       
       
       <ul>
+
        <span><b><li center-align style="font-size: 20;">2015</li> <hr>
          <li>Pranshu Jain</li>
         <li>Rohan Gupta</li>
@@ -269,7 +270,7 @@
       </div>
     <div id="2013" class="col l2 m6 s12 center-align">
         <ul><span><b><li center-align style="font-size: 20;">2013</li> <hr>
-        <li>Aditi Sharma</li>
+         <li>Aditi Sharma</li>
         <li>Vedang Deshpande</li>
 
          <li>Abhinay Vyas</li>
@@ -284,9 +285,10 @@
          <li>Uday Shankar Das</li>
            </b></span></ul>
             </div>
+
     <div id="2012" class="col l2 m6 s12 center-align">
         <ul>
-          <span><b><li center-align style="font-size: 20;">2012</li> <hr>  
+         <span><b><li center-align" style="font-size: 20;">2012</li> <hr>  
           <li>Apoorv Jain</li>
           <li>Utkarsh Jain</li>                        
             <li>Akshay Kumar</li>
@@ -319,7 +321,7 @@
       
       
       <ul>
-        <span><b><li center-align style="font-size: 20;">2010</li><hr>
+        <span><b><li center-align" style="font-size: 20;">2010</li><hr>
         <li>Drishti Guin </li>                                
         <li> Harshal Maniyar</li>
         <li>Sumeet Mavani</li>

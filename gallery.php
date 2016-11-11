@@ -1,54 +1,51 @@
 <html>
 <head>
-<link rel="icon" href="img/meet_14.png">
-  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="js/materialize.min.js"></script>
-    <link rel="stylesheet" href="css/materialize.min.css">
-<title>Gallery</title>
+  <title>Gallery</title>
 <style type="text/css">
-	.normal{
-		margin: 10px;
-	}
+	
 	@media only screen and (max-width: 1350px) {
-   	.normal{
-    width: 25vw;
-  }.video-container{
-    width: 25vw;
-    margin-left: 20px;
-    height: 400px;
-  }
-    .bigg {
+
+        .normal{
+        margin: 10px;
+         width: 25vw;
+    }
+    
+ 
+    .bigg { 
     	width: 48vw !important;
     	padding-right: 0;
+        margin: 10px;
     }
 }
 	@media only screen and (max-width: 992px) {
-    .normal {
+    .normal { margin-left: -9px;
        height: 200px;
        width: 45vw;
     }
+    .bigg{ margin-left: -9px; }
 }
 	@media only screen and (max-width: 600px) {
     .normal {
        height: 200px;
        width: 350px;
        margin:10px;
+       margin-left: -9px;
     }
     .bigg{
        height: 200px;
        width: 350px !important;
        margin:10px;
+       margin-left: -9px;
        padding-right: 10;
     }
 }
 </style>
 </head>
-<body> <center>
-    <div class="heading" style="margin-top: -5px">
+<body> 
         <center>
-            <h class="subheading"><b>Student Alumni Meet</b> - Kolkata</h>
+         <div class="heading ac-head" style="border:3px black solid; display: inline-block; padding-top: 2px; margin: 3px;padding-right: 20px;padding-left: 20px;" >
+            <h4><b>Student Alumni Meet</b> - Kolkata</h4> </div>
         </center>
-    </div>
     <br>
 <div class="row">
 <div class="col l3 m3 s12">
@@ -62,20 +59,20 @@
     </div>
 
     <div class="col l3 m6 s12">
-        <img class="materialboxed normal" src="img/sam/Kolkata/sam1.jpg" height="200px"/>
+        <img class="materialboxed normal" src="img/sam/Kolkata/sam1.jpg" height="200px" style="margin-bottom: 10px;" />
 </div> 
 <div class="col l3 m3 s12">
-        <img class="materialboxed normal" src="img/sam/Kolkata/sam3.jpg" height="200px" />
+        <img class="materialboxed normal" src="img/sam/Kolkata/sam3.jpg" height="200px" style="margin-top: 10px;" />
 </div>
 </div>
 
-    <div class="row" style="margin-top: -30px">
+    <div class="row">
     <div class="col l4 m4 s12">
         
             <img class="materialboxed normal" src="img/sam/Kolkata/sam6.jpg" width="430">
         
             </div>
-        <div class="col l4 m4 s12" style="margin-right: -20px">
+        <div class="col l4 m4 s12">
             <img class="materialboxed normal" src="img/sam/Kolkata/sam4.jpg" width="430">
         </div>
         <div class="col l4 m4 s12">
@@ -87,11 +84,12 @@
     </div>
 
 
-    <div class="heading" style="margin-top: -5px">
+   
         <center>
-            <h class="subheading"><b>Student Alumni Meet</b> - Bangalore</h>
+         <div class="heading ac-head" style="border:3px black solid; display: inline-block; padding-top: 2px; margin: 3px;padding-right: 20px;padding-left: 20px;" >
+            <h4><b>Student Alumni Meet</b> - Bangalore</h4>
+            </div>
         </center>
-    </div>
     <br>
 
     <div class="row" >
@@ -116,8 +114,6 @@
 
    
 
-
-        </center>
 
 <script type="text/javascript">
     $(document).ready(function(){

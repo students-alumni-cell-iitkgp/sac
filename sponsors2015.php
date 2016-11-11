@@ -23,7 +23,7 @@
     </script>
 </head>
 <body>
-
+<div class="_wrapper" style="overflow: hidden; background-color: white;">
 <?php include 'navbar.php';?> <br>
 <div class="container">
   <div class="row">
@@ -53,7 +53,7 @@
 <div class="row">
 <div class="col l12" align="center">
     <a href="http://www.hindustantimes.com" target="_blank">
-      <img class="spons" src="img/spons/2015/media.png" width="500px" height="100" />
+      <img class="spons" src="img/spons/2015/ht.jpg" />
     </a> </div> </div>
       
       <div class="row">
@@ -64,7 +64,7 @@
     <div class="row"> 
     <div class="col l12 s12 m12"  align="center">
     <a href="http://www.sesasterlite.com/our-operations/copper.aspx" target="_blank">
-      <img class="spons" src="img/spons/2015/major.png" width="500px" height="100px" />
+      <img class="spons" src="img/spons/2015/major.png" width="400px" height="100px" />
     </a>
     </div> </div>
     <div class="row">
@@ -235,7 +235,7 @@
       <img class="spons"   src="img/spons/2015/omp2.png" width="305px" height="100px" />
     </a>
    </div>
-   </div> </div>
+   </div> </div> </div> </div>
    <?php include 'footer.php';?>
 </body>
 
