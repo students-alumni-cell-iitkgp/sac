@@ -24,7 +24,7 @@
     }
    } 
     @media only screen and (max-width: 468px){
-      .ac-summit img{
+      .ac-summit img{ height: 30%;
 
 margin: 0px auto;
 max-width:100%;

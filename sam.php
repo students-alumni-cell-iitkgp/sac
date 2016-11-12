@@ -11,7 +11,7 @@
   <style type="text/css">
  
    @media only screen and (min-width: 768px){
-      .ac-sam-cov img{ width: 100%;
+      .ac-sam img{ width: 100%;
         margin-left: 80px;
 
 
@@ -19,8 +19,8 @@
     }
    } 
     @media only screen and (max-width: 468px){
-      .ac-sam-cov{
-
+      .ac-sam img{
+height: 25%;
 margin: 0px auto;
 max-width:100%;
 
