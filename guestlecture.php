@@ -31,8 +31,8 @@
        margin:10px;
        margin-left: -9px;
     }
-    .ac-guest img{ height: 30%;
 
+    .ac-guest img{ height: 30%;
 margin: 0px auto;
 max-width:100%;
 
