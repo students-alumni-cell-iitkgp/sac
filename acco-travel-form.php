@@ -184,7 +184,7 @@
           <input id="last_name" type="text" placeholder="Name of Person" class="validate" name="prefName">
         </div>
         <div class="input-field col s12">
-          <input id="last_name" Year of Graduation of Preferred Person: type="number" class="validate" name="prefYear">
+          <input id="last_name" type="number" placeholder="Year of Graduation of Preferred Person:" class="validate" name="prefYear">
         </div>
         <div class="input-field col s12">
           <input id="last_name" type="text" placeholder="Department of the person" class="validate" name="prefDep">
