@@ -11,11 +11,7 @@
   <style type="text/css">
  
    @media only screen and (min-width: 768px){
-<<<<<<< HEAD
-      .ac-sam img{ width: 100%;
-=======
       .ac-sam-cov img{ width: 100%;
->>>>>>> 507d60bec1814cc5a60a92ad06fd1647a1d40fda
         margin-left: 80px;
 
 
@@ -23,8 +19,8 @@
     }
    } 
     @media only screen and (max-width: 468px){
-      .ac-sam img{
-height: 25%;
+      .ac-sam-cov{
+
 margin: 0px auto;
 max-width:100%;
 

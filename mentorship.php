@@ -28,7 +28,7 @@
       border-radius: 6px;
       margin-bottom: 20px;
     }
-      .ac-mentor img{ 
+      .ac-mentor img{
         margin-left: 80px;
     }
     p{position:relative;
@@ -37,7 +37,7 @@ left: 60px;
     }
     
     @media only screen and (max-width: 468px){
-      .ac-mentor img{ height: 30%;
+      .ac-mentor img{
         margin: 0px auto;
         max-width:100%;
 

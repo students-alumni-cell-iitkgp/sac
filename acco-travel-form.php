@@ -42,19 +42,24 @@
         <input  type="time" placeholder="Arrival Time" name="arrTime" required>
       </div>
       <div class="input-field col s12">
-          <input id="last_name" type="text" placeholder="Arrival Station/Airport" class="validate" name="arrSt">
+          <input id="last_name" type="text" class="validate" name="arrSt">
+          <label for="last_name">Arrival Station/Airport</label>
         </div>
       <div class="input-field col s12">
-          <input id="last_name" type="text" placeholder="Train/Flight Name" class="validate" name="trainName">
+          <input id="last_name" type="text" class="validate" name="trainName">
+          <label for="last_name">Train/Flight Name</label>
         </div>
       <div class="input-field col s12">
-          <input id="last_name" type="text" placeholder="Train/Flight Number" class="validate" name="trainNo">
+          <input id="last_name" type="text" class="validate" name="trainNo">
+          <label for="last_name">Train/Flight Number</label>
         </div>
       <div class="input-field col s12">
-          <input id="last_name" type="number" placeholder="Number of Accompanying Persons" class="validate" name="accNo">
+          <input id="last_name" type="number" class="validate" name="accNo">
+          <label for="last_name">Number of Accompanying Person</label>
         </div>
       <div class="input-field col s12">
-          <input id="last_name" type="number" placeholder="Your Secondary Phone Number" class="validate" name="secPhone" required>
+          <input id="last_name" type="number" class="validate" name="secPhone" required>
+          <label for="last_name">Your Secondary Phone Number</label>
         </div>
       <div >
         <label for="Name">Do you require a cab from Kolkata to IIT Kharagpur?</label>
@@ -69,10 +74,13 @@
           <input id="last_name" type="text" class="validate" name="cabWhere">
           <label for="last_name">Pickup Destination</label>
         </div>
-        <input  type="date" placeholder="Pickup Date"  name="cabDate">
-        <input  type="time"  placeholder="Pickup Time" name="cabWhen">
+        <label for="Name">Pickup Date</label>
+        <input  type="date"  name="cabDate">
+        <label for="Name">Pickup Time</label>
+        <input  type="time"  name="cabWhen">
         <div class="input-field col s12">
-          <input id="last_name" type="number" placeholder="Total Number of People travelling in cab" class="validate" name="cabPpl">
+          <input id="last_name" type="number" class="validate" name="cabPpl">
+          <label for="last_name">Total Number of People travelling in cab</label>
         </div>
         <label for="Name">Cab Preference</label>
         <select name="acabPref" >
@@ -102,7 +110,7 @@
         </select>
       </div>
       <div  style="display:none; margin-left:5%" id="ifcab2">
-        <label for="Name">If Cab is required:</label><br>
+        <label for="Name">If Cab is required</label><br>
         <div >
         <label for="Name">Departure Time</label>
         <input  type="time" placeholder="Arrival Time" name="depTime">
@@ -123,7 +131,7 @@
 
       <h3> Accommodation Details </h3>
       <div >
-        <label for="Name">Number of people Accompanying Person</label>
+        <label for="Name">Number of Accompanying Person</label>
         <select  name="accNo2" onchange="checkAcc(this)">
           <option>0</option>
           <option>1</option>
@@ -181,16 +189,20 @@
       <div  style="margin-top:20px;">
       <label>Preferred Alumni You Want to Share the room/take adjacent room with:</label><br>
         <div class="input-field col s12">
-          <input id="last_name" type="text" placeholder="Name of Person" class="validate" name="prefName">
+          <input id="last_name" type="text" class="validate" name="prefName">
+          <label for="last_name">Name of Person</label>
         </div>
         <div class="input-field col s12">
-          <input id="last_name" Year of Graduation of Preferred Person: type="number" class="validate" name="prefYear">
+          <input id="last_name" type="number" class="validate" name="prefYear">
+          <label for="last_name">Year of Graduation of Preferred Person:</label>
         </div>
         <div class="input-field col s12">
-          <input id="last_name" type="text" placeholder="Department of the person" class="validate" name="prefDep">
+          <input id="last_name" type="text" class="validate" name="prefDep">
+          <label for="last_name">Department of the person</label>
         </div>
         <div class="input-field col s12">
-          <input id="last_name" type="text" placeholder="Hall of the person" class="validate" name="prefHall">
+          <input id="last_name" type="text" class="validate" name="prefHall">
+          <label for="last_name">Hall of the person</label>
         </div>
         </div>
       <button type="submit" class="btn cyan waves-effect waves-light right" name="button">SUBMIT <i class="mdi-content-send right"></i></button>
