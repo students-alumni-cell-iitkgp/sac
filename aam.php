@@ -117,7 +117,7 @@ $result = $connection->query($query);
     *{
     margin:0px;
     padding:0px;}
-      .ac-aam img{ height: 30%;
+      .ac-aam img{
     margin: 0px auto;
     max-width:100%;
     }

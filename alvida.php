@@ -16,7 +16,7 @@
     }
    } 
     @media only screen and (max-width: 468px){
-      .ac-aam img{ height: 30%;
+      .ac-aam img{
 
     margin: 0px auto;
     max-width:100%;
