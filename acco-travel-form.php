@@ -1,5 +1,4 @@
 <?php
-
     require 'connection.php';
     session_start();
     $email=$_SESSION['email'];
@@ -11,13 +10,10 @@
       if(($query_run1->num_rows > 0)&&($query_run2->num_rows > 0)){       
             $query2 = mysqli_fetch_assoc($query_run1);
             $query4 = mysqli_fetch_assoc($query_run2);
-
       }
       
     } 
     
-
-
 ?>
  <div class="container-fluid">
     <form action="acco-travel-form-continue.php" method="post" style="text-align: left;">
@@ -216,7 +212,6 @@
         document.getElementById("ifcab").style.display="none";
       }
     }
-
     function checkCab2(x) {
       if(x.options[x.selectedIndex].text=="Yes") {
         document.getElementById("ifcab2").style.display="block";
@@ -225,7 +220,6 @@
         document.getElementById("ifcab2").style.display="none";
       }
     }
-
     function checkAcc(x) {
       var n=x.options[x.selectedIndex].text;
       var y= new Array("ifacc1","ifacc2","ifacc3");
