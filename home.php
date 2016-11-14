@@ -210,10 +210,7 @@ body {
               }
                ?></div>
             </div>
-            <div class="row">
-              <div class="col l6 m12 s12 center headl">Payment Status</div>
-              <div class="col l6 m12 s12 input center">Pending</div><br>
-            </div><?php if ($query_run2->num_rows > 0) {
+            <?php if ($query_run2->num_rows > 0) {
                 echo '<div class="row">
                     <div style="width: 100%;" class="container center l12"><span style="font-size:20px;cursor:pointer;background-color: #666; " onclick="openNav()" id="button02" class="waves-effect waves-light btn-large "> Edit Response</span></div>
                     </div>';
