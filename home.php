@@ -6,7 +6,6 @@ if ($_SESSION["email"] == "") {
   header('Location: aam.php');
   exit();
 }
-
     $email=$_SESSION['email'];
     $query1=" SELECT * FROM travel WHERE email= '$email' ";
     $query3=" SELECT * FROM  accommodation WHERE email= '$email' ";
@@ -16,14 +15,12 @@ if ($_SESSION["email"] == "") {
       if(($query_run1->num_rows > 0)&&($query_run2->num_rows > 0)){       
             $query2 = mysqli_fetch_assoc($query_run1);
             $query4 = mysqli_fetch_assoc($query_run2);
-
       }
       
     } 
 ?>
 <?php 
           $query="SELECT name FROM users WHERE email='".$_SESSION["email"]."'";
-
           if( $query_run = mysqli_query($connection, $query) ){
             
             $row = mysqli_fetch_assoc($query_run);
@@ -49,11 +46,9 @@ body {
 }
 #intro{
   line-height: 40px;
-
 }
 .card-panel{
   width: 100% !important;
-
 }
 .headl{
   background-color: #666;
@@ -61,16 +56,13 @@ body {
   border-radius: 5px;
   border-color: black;
 }
-
 .input{
   background-color: silver;
   text-align: center;
   border-radius: 5px;
   border-color: black;
   display: inline-block;
-
 }
-
 .sidenav {
     height: 100%;
     width: 0;
@@ -85,7 +77,6 @@ body {
     padding-top: 60px;
     text-align:center;
 }
-
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
@@ -93,13 +84,10 @@ body {
     color: #818181;
     display: block;
     transition: 0.3s
-
 }
-
 .sidenav a:hover{
     color: #f1f1f1;
 }
-
 .sidenav .closebtn {
     position: absolute;
     top: 0;
@@ -107,7 +95,6 @@ body {
     font-size: 36px;
     margin-left: 50px;
 }
-
 #ajax{
   width: 60% !important;
   background-color: #fff;
@@ -116,7 +103,6 @@ body {
   margin-bottom: 50px;
   z-index: 50000;
 }
-
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
@@ -129,7 +115,6 @@ body {
   #button{
     display: none;
   }
-
 }
 </style>
 <body>
@@ -210,10 +195,7 @@ body {
               }
                ?></div>
             </div>
-            <div class="row">
-              <div class="col l6 m12 s12 center headl">Payment Status</div>
-              <div class="col l6 m12 s12 input center">Pending</div><br>
-            </div><?php if ($query_run2->num_rows > 0) {
+            <?php if ($query_run2->num_rows > 0) {
                 echo '<div class="row">
                     <div style="width: 100%;" class="container center l12"><span style="font-size:20px;cursor:pointer;background-color: #666; " onclick="openNav()" id="button02" class="waves-effect waves-light btn-large "> Edit Response</span></div>
                     </div>';
@@ -247,7 +229,6 @@ body {
 function openNav() {
     document.getElementById("mySidenav").style.width = "100%";
 }
-
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
