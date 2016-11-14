@@ -178,18 +178,18 @@ body {
               <div class="col l6 m12 s12 input center"><?php  echo $name;  ?></div>
             </div>
             <div class="row">
-              <div class="col l6 m12 s12 center headl">Travel Status</div>
+              <div class="col l6 m12 s12 center headl">Travel Details</div>
               <div class="col l6 m12 s12 input center"><?php if ($query_run1->num_rows > 0) {
-                echo "Success";
+                echo "Provided";
               } else {
                 echo "Pending";
               }
                ?></div>
             </div>
             <div class="row">
-              <div class="col l6 m12 s12 center headl">Accomodation Status</div>
+              <div class="col l6 m12 s12 center headl">Accomodation Preference</div>
               <div class="col l6 m12 s12 input center"><?php if ($query_run2->num_rows > 0) {
-                echo "Success";
+                echo "Provided";
               } else {
                 echo "Pending";
               }
@@ -201,7 +201,7 @@ body {
                     </div>';
               } else {
                 echo '<div class="row">
-                    <div style="width: 100%;" class="container center l12"><span style="font-size:20px;cursor:pointer;height: auto;background-color: #666; " onclick="openNav()" id="button01" class="waves-effect waves-light btn-large "> Travel and Accomodation Registeration</span></div>
+                    <div style="width: 100%;" class="container center l12"><span style="font-size:20px;cursor:pointer;height: auto;background-color: #666; " onclick="openNav()" id="button01" class="waves-effect waves-light btn-large ">Provide Your Travel Details and Accomodation Preferences</span></div>
                           </div>';
               }
                ?>
