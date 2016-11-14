@@ -9,25 +9,21 @@
     $query_run2=$connection->query($query3);
     if (($query_run1)&&($query_run2)) {
       if(($query_run1->num_rows > 0)&&($query_run2->num_rows > 0)){       
-            echo '<script language="javascript">alert("Response already submitted. ");';
-            echo 'window.location.href = "home.php";';
-            echo '</script>';
+            $query2 = mysqli_fetch_assoc($query_run1);
+            $query4 = mysqli_fetch_assoc($query_run2);
 
-
-      }else {
-        
-
-    }
+      }
       
     } 
     
 
 
-?> <div class="container-fluid">
-  	<form action="acco-travel-form-continue.php" method="post" style="text-align: left;">
+?>
+ <div class="container-fluid">
+    <form action="acco-travel-form-continue.php" method="post" style="text-align: left;">
        <h3> Travel Details </h3>
     <div class="input-field col s12">
-    <select name="arrDate" required>
+    <select name="arrDate" required value="<?php echo @$query2['arrivaldate']; ?>">
       <option >12th January 2017</option>
       <option >13th January 2017</option>
       <option >14th January 2017</option>
@@ -39,26 +35,31 @@
   </div>
       <div class="col s12">
         <label for="Name">Arrival Time</label>
-        <input  type="time" placeholder="Arrival Time" name="arrTime" required>
+        <input  type="time" placeholder="Arrival Time" name="arrTime" value="<?php echo @$query2['arrivaltime']; ?>" required>
       </div>
       <div class="input-field col s12">
-          <input id="last_name" type="text" placeholder="Arrival Station/Airport" class="validate" name="arrSt">
+          <input id="last_name" type="text" class="validate" name="arrSt" value="<?php echo @$query2['arrivalstation']; ?>">
+          <label for="last_name">Arrival Station/Airport</label>
         </div>
       <div class="input-field col s12">
-          <input id="last_name" type="text" placeholder="Train/Flight Name" class="validate" name="trainName">
+          <input id="last_name" type="text" class="validate" name="trainName" value="<?php echo @$query2['trainname']; ?>">
+          <label for="last_name">Train/Flight Name</label>
         </div>
       <div class="input-field col s12">
-          <input id="last_name" type="text" placeholder="Train/Flight Number" class="validate" name="trainNo">
+          <input id="last_name" type="text" class="validate" name="trainNo" value="<?php echo @$query2['trainno']; ?>">
+          <label for="last_name">Train/Flight Number</label>
         </div>
       <div class="input-field col s12">
-          <input id="last_name" type="number" placeholder="Number of Accompanying Persons" class="validate" name="accNo">
+          <input id="last_name" type="number" class="validate" name="accNo" value="<?php echo @$query2['accompanyno']; ?>">
+          <label for="last_name">Number of Accompanying Person</label>
         </div>
       <div class="input-field col s12">
-          <input id="last_name" type="number" placeholder="Your Secondary Phone Number" class="validate" name="secPhone" required>
+          <input id="last_name" type="number" class="validate" name="secPhone" required value="<?php echo @$query2['secondaryphone']; ?>">
+          <label for="last_name">Your Secondary Phone Number</label>
         </div>
       <div >
         <label for="Name">Do you require a cab from Kolkata to IIT Kharagpur?</label>
-        <select name="iscab"  onchange="checkCab(this)">
+        <select name="iscab"  onchange="checkCab(this)" value="<?php echo @$query2['cabreq']; ?>">
           <option>No</option>
           <option>Yes</option>
         </select>
@@ -66,16 +67,19 @@
       <div  style="display:none; margin-left:5%" id="ifcab">
         <label for="Name">If Cab is required:</label><br>
         <div class="input-field col s12">
-          <input id="last_name" type="text" class="validate" name="cabWhere">
+          <input id="last_name" type="text" class="validate" name="cabWhere" value="<?php echo @$query2['cabfrom']; ?>">
           <label for="last_name">Pickup Destination</label>
         </div>
-        <input  type="date" placeholder="Pickup Date"  name="cabDate">
-        <input  type="time"  placeholder="Pickup Time" name="cabWhen">
+        <label for="Name">Pickup Date</label>
+        <input  type="date"  name="cabDate" value="<?php echo @$query2['departdate']; ?>">
+        <label for="Name">Pickup Time</label>
+        <input  type="time"  name="cabWhen" value="<?php echo @$query2['cabat']; ?>">
         <div class="input-field col s12">
-          <input id="last_name" type="number" placeholder="Total Number of People travelling in cab" class="validate" name="cabPpl">
+          <input id="last_name" type="number" class="validate" name="cabPpl" value="<?php echo @$query2['cabpeople']; ?>">
+          <label for="last_name">Total Number of People travelling in cab</label>
         </div>
         <label for="Name">Cab Preference</label>
-        <select name="acabPref" >
+        <select name="acabPref" value="<?php echo @$query2['arrivalcabpref']; ?>" >
           <option>Swift dezire</option>
           <option>Scorpio</option>
           <option>Honda City</option>
@@ -85,7 +89,7 @@
       <br><br>
        <div >
         <label for="Name">Departure Date</label>
-        <select name="depDate" required>
+        <select name="depDate" required value="<?php echo @$query2['departdate']; ?>">
             <option>14th January 2017</option>
             <option>15th January 2017</option>
             <option>16th January 2017</option>
@@ -96,23 +100,23 @@
       </div>
       <div >
         <label for="Name">On Departure, Do you require a cab to Kolkata?</label>
-        <select name="iscab2"  onchange="checkCab2(this)">
+        <select name="iscab2"  onchange="checkCab2(this)" value="<?php echo @$query2['depcabreq']; ?>">
           <option>No</option>
           <option>Yes</option>
         </select>
       </div>
       <div  style="display:none; margin-left:5%" id="ifcab2">
-        <label for="Name">If Cab is required:</label><br>
+        <label for="Name">If Cab is required</label><br>
         <div >
         <label for="Name">Departure Time</label>
-        <input  type="time" placeholder="Arrival Time" name="depTime">
+        <input  type="time" placeholder="Arrival Time" name="depTime" value="<?php echo @$query2['departtime']; ?>">
         </div>
         <div class="input-field col s12">
-          <input id="last_name" type="text" class="validate" name="depSt">
+          <input id="last_name" type="text" class="validate" name="depSt" value="<?php echo @$query2['departstation']; ?>">
           <label for="last_name">Departure Station/Airport</label>
         </div>
         <label for="Name">Cab Preference</label>
-        <select name="dcabPref" >
+        <select name="dcabPref" value="<?php echo @$query2['depcabpref']; ?>">
           <option>Swift dezire</option>
           <option>Scorpio</option>
           <option>Honda City</option>
@@ -123,8 +127,8 @@
 
       <h3> Accommodation Details </h3>
       <div >
-        <label for="Name">Number of people Accompanying Person</label>
-        <select  name="accNo2" onchange="checkAcc(this)">
+        <label for="Name">Number of Accompanying Person</label>
+        <select  name="accNo2" onchange="checkAcc(this)" value="<?php echo @$query4['accompanyno']; ?>">
           <option>0</option>
           <option>1</option>
           <option>2</option>
@@ -135,45 +139,45 @@
         <label for="Name">Accompanying Persons</label><br>
         <label for="Name">1.</label><br>
         <div class="input-field col s12">
-          <input id="last_name" type="text" class="validate" name="accName1">
+          <input id="last_name" type="text" class="validate" name="accName1" value="<?php echo @$query4['accname1']; ?>">
           <label for="last_name">Name of Person</label>
         </div>
         <div class="input-field col s12">
-          <input id="last_name" type="text" class="validate" name="accRel1">
+          <input id="last_name" type="text" class="validate" name="accRel1" value="<?php echo @$query4['accrel1']; ?>">
           <label for="last_name">Relationship with the Person</label>
         </div>
         <div class="input-field col s12">
-          <input id="last_name" type="number" class="validate" name="accAge1">
+          <input id="last_name" type="number" class="validate" name="accAge1" value="<?php echo @$query4['accage1']; ?>">
           <label for="last_name">Age</label>
         </div>
       </div>
       <div  style="display:none; margin-left:5%" id="ifacc2" >
         <label for="Name">2.</label><br>
         <div class="input-field col s12">
-          <input id="last_name" type="text" class="validate" name="accName2">
+          <input id="last_name" type="text" class="validate" name="accName2" value="<?php echo @$query4['accname2']; ?>">
           <label for="last_name">Name of Person</label>
         </div>
         <div class="input-field col s12">
-          <input id="last_name" type="text" class="validate" name="accRel2">
+          <input id="last_name" type="text" class="validate" name="accRel2" value="<?php echo @$query4['accrel2']; ?>">
           <label for="last_name">Relationship with the Person</label>
         </div>
         <div class="input-field col s12">
-          <input id="last_name" type="number" class="validate" name="accAge2">
+          <input id="last_name" type="number" class="validate" name="accAge2" value="<?php echo @$query4['accage2']; ?>">
           <label for="last_name">Age</label>
         </div>
       </div>
       <div  style="display:none; margin-left:5%" id="ifacc3" >
         <label for="Name">3.</label><br>
         <div class="input-field col s12">
-          <input id="last_name" type="text" class="validate" name="accName3">
+          <input id="last_name" type="text" class="validate" name="accName3" value="<?php echo @$query4['accname3']; ?>">
           <label for="last_name">Name of Person</label>
         </div>
         <div class="input-field col s12">
-          <input id="last_name" type="text" class="validate" name="accRel3">
+          <input id="last_name" type="text" class="validate" name="accRel3" value="<?php echo @$query4['accrel3']; ?>">
           <label for="last_name">Relationship with the Person</label>
         </div>
         <div class="input-field col s12">
-          <input id="last_name" type="number" class="validate" name="accAge3">
+          <input id="last_name" type="number" class="validate" name="accAge3" value="<?php echo @$query4['accage3']; ?>">
           <label for="last_name">Age</label>
         </div>
       </div>
@@ -181,16 +185,20 @@
       <div  style="margin-top:20px;">
       <label>Preferred Alumni You Want to Share the room/take adjacent room with:</label><br>
         <div class="input-field col s12">
-          <input id="last_name" type="text" placeholder="Name of Person" class="validate" name="prefName">
+          <input id="last_name" type="text" class="validate" name="prefName" value="<?php echo @$query4['prefname']; ?>">
+          <label for="last_name">Name of Person</label>
         </div>
         <div class="input-field col s12">
-          <input id="last_name" type="number" placeholder="Year of Graduation of Preferred Person:" class="validate" name="prefYear">
+          <input id="last_name" type="number" class="validate" name="prefYear" value="<?php echo @$query4['prefyear']; ?>">
+          <label for="last_name">Year of Graduation of Preferred Person:</label>
         </div>
         <div class="input-field col s12">
-          <input id="last_name" type="text" placeholder="Department of the person" class="validate" name="prefDep">
+          <input id="last_name" type="text" class="validate" name="prefDep" value="<?php echo @$query4['prefdep']; ?>">
+          <label for="last_name">Department of the person</label>
         </div>
         <div class="input-field col s12">
-          <input id="last_name" type="text" placeholder="Hall of the person" class="validate" name="prefHall">
+          <input id="last_name" type="text" class="validate" name="prefHall" value="<?php echo @$query4['prefhall']; ?>">
+          <label for="last_name">Hall of the person</label>
         </div>
         </div>
       <button type="submit" class="btn cyan waves-effect waves-light right" name="button">SUBMIT <i class="mdi-content-send right"></i></button>

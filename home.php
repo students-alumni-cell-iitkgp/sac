@@ -6,8 +6,30 @@ if ($_SESSION["email"] == "") {
   header('Location: aam.php');
   exit();
 }
-?>
 
+    $email=$_SESSION['email'];
+    $query1=" SELECT * FROM travel WHERE email= '$email' ";
+    $query3=" SELECT * FROM  accommodation WHERE email= '$email' ";
+    $query_run1=$connection->query($query1);
+    $query_run2=$connection->query($query3);
+    if (($query_run1)&&($query_run2)) {
+      if(($query_run1->num_rows > 0)&&($query_run2->num_rows > 0)){       
+            $query2 = mysqli_fetch_assoc($query_run1);
+            $query4 = mysqli_fetch_assoc($query_run2);
+
+      }
+      
+    } 
+?>
+<?php 
+          $query="SELECT name FROM users WHERE email='".$_SESSION["email"]."'";
+
+          if( $query_run = mysqli_query($connection, $query) ){
+            
+            $row = mysqli_fetch_assoc($query_run);
+            $name = $row['name'];
+            }
+        ?>
 <html>
 <head>
 <title>Home</title>
@@ -24,6 +46,29 @@ if ($_SESSION["email"] == "") {
 <?php include 'navbar.php';?>
 <style type="text/css">
 body {
+}
+#intro{
+  line-height: 40px;
+
+}
+.card-panel{
+  width: 100% !important;
+
+}
+.headl{
+  background-color: #666;
+  color: white;
+  border-radius: 5px;
+  border-color: black;
+}
+
+.input{
+  background-color: silver;
+  text-align: center;
+  border-radius: 5px;
+  border-color: black;
+  display: inline-block;
+
 }
 
 .sidenav {
@@ -64,11 +109,12 @@ body {
 }
 
 #ajax{
-  width: 60%;
+  width: 60% !important;
   background-color: #fff;
   margin-left: 20%;
   padding: 50px;
   margin-bottom: 50px;
+  z-index: 50000;
 }
 
 @media screen and (max-height: 450px) {
@@ -92,26 +138,13 @@ body {
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <div id="ajax" class="card-panel"></div>
 </div>
-<div class="container" >
-        <div class="container-fluid">
-          <div align="center">
-        <div id="message">
-        <?php 
-          $query="SELECT name FROM users WHERE email='".$_SESSION["email"]."'";
-
-          if( $query_run = mysqli_query($connection, $query) ){
-            
-            $row = mysqli_fetch_assoc($query_run);
-            $name = $row['name'];
-
-              echo '<h3>Welcome  Mr '.$name.'.<h3>';
-            }
-        ?>
-        </div>
-          </div>
-          <p class="text_align">
+<div class="container-fluid" style="padding-left: 50px;padding-right: 50px;">
+<p class="center">
             We will be showing you important information regarding the meet here. Check back in a few days to find out more about the Alumni Meet.
-          </p>
+</p>
+<div class="row">
+      <div class="col l7">
+        <div class="container-fluid">
           <div class="container" style="width: 100%">
             <div class="card-panel teal lighten-5">
               <div class="card-title text_align" style="font-weight: bold;font-size: 30px;">
@@ -148,11 +181,52 @@ body {
               </div>
               Conveyance from Kharagpur Railway Station to IIT Kharagpur will be provided by us.<br><br>
               If you require transportation from Kolkata to IIT Kharagpur, it can be arranged through us on chargeable basis. Kindly Fill your details in this form.<br> 
-          <div style="width: 100%;" class="container center"><span style="font-size:20px;cursor:pointer; " onclick="openNav()" id="button01" class="waves-effect waves-light btn-large "> Travel and Accomodation Registeration</span></div>
-
             </div>
           </div>
         </div>
+        </div>
+        <div class="col l5 m12 s12" id="intro">
+            <div class="card-panel teal lighten-5 " style="width: 100%;text-align: 40px;">
+            <h3 style="width: 100%; text-align: center;" >Welcome</h3>
+            <div class="row">
+              <div class="col l6 m12 s12 center headl">Name</div>
+              <div class="col l6 m12 s12 input center"><?php  echo $name;  ?></div>
+            </div>
+            <div class="row">
+              <div class="col l6 m12 s12 center headl">Travel Status</div>
+              <div class="col l6 m12 s12 input center"><?php if ($query_run1->num_rows > 0) {
+                echo "Success";
+              } else {
+                echo "Pending";
+              }
+               ?></div>
+            </div>
+            <div class="row">
+              <div class="col l6 m12 s12 center headl">Accomodation Status</div>
+              <div class="col l6 m12 s12 input center"><?php if ($query_run2->num_rows > 0) {
+                echo "Success";
+              } else {
+                echo "Pending";
+              }
+               ?></div>
+            </div>
+            <div class="row">
+              <div class="col l6 m12 s12 center headl">Payment Status</div>
+              <div class="col l6 m12 s12 input center">Pending</div><br>
+            </div><?php if ($query_run2->num_rows > 0) {
+                echo '<div class="row">
+                    <div style="width: 100%;" class="container center l12"><span style="font-size:20px;cursor:pointer;background-color: #666; " onclick="openNav()" id="button02" class="waves-effect waves-light btn-large "> Edit Response</span></div>
+                    </div>';
+              } else {
+                echo '<div class="row">
+                    <div style="width: 100%;" class="container center l12"><span style="font-size:20px;cursor:pointer;height: auto;background-color: #666; " onclick="openNav()" id="button01" class="waves-effect waves-light btn-large "> Travel and Accomodation Registeration</span></div>
+                          </div>';
+              }
+               ?>
+            </div>
+        </div>
+      </div>
+
       </div>
   <div class="fixed-action-btn" style="bottom: 25px; right: 25px;" id="power">
     <a class="btn-floating btn-large" href="logout.php" title="Logout" >
@@ -164,6 +238,9 @@ body {
 <script>
   $(document).ready(function(){
     $('#button01').click(function(){
+      $('#ajax').load('acco-travel-form.php');
+    });
+    $('#button02').click(function(){
       $('#ajax').load('acco-travel-form.php');
     });
   });
