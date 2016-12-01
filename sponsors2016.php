@@ -13,18 +13,10 @@
     font-size: 15px !important;
   }
 </style>
-    <script type="text/javascript">
-        $(document).ready(function(){
-            // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
-            $('.modal-trigger').leanModal();
-        });
-    </script>
-
 </head>
 <body>
 <div class="_wrapper" style="overflow: hidden; background-color: white;">
 <?php include 'navbar.php';?>
-    <?php include 'join_us.php' ?>
 
   <div class="container" align="center">
    
