@@ -178,7 +178,7 @@
 
   </nav>
 </div>
-<div id="modal1" class="modal ">
+<!--  <div id="modal1" class="modal ">
   <div class="modal-content">
 
   <div class="row">
@@ -204,4 +204,4 @@
   <div class="modal-footer">
     <a href="#!" class=" modal-action modal-close waves-effect waves-blue btn-flat">CLOSE</a>
   </div>
-</div>
+</div> -->
