@@ -16,10 +16,19 @@
   
 
     <style> 
+    ul.indicators{z-index: 3;}
      @media only screen and (min-width: 768px) {
          .about {
              padding: 6px 100px;
          }
+
+
+         .slider .slides li #img1 {
+    background-size: 80% 100%;
+    background-color: #FCFBF9;
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
 
      }
@@ -50,8 +59,14 @@
 <div class="_wrapper">
  <?php include 'navbar.php';?> 
 <!--slider-->
-<div class="slider" >
+<div class="slider"  style="overflow: hidden;">
     <ul class="slides">
+    <li>
+    <img id="img1" src="img/indexslider/sac-logo.jpg"/> 
+    </li>
+     <li >
+              <img src="img/indexslider/annualalumnimeet.jpg"/ > 
+      </li>
     <li>
               <img src="img/indexslider/annualalumnimeet1.jpg" /> 
       </li>
@@ -73,9 +88,7 @@
       <li>
      <img src="img/indexslider/alvida.jpg"/>
       </li>
-      <li>
-              <img src="img/indexslider/annualalumnimeet.jpg" style="size:100%;"/> 
-      </li>
+     
     </ul>
   </div>
   <!--sliderover-->
