@@ -17,10 +17,6 @@
 
     <style> 
     ul.indicators{z-index: 3;}
-    .slider .indicators .indicator-item{ width: 50px; height: 10px; border-radius: 0px; margin: 5px 12px; background-color: #c1c5cc; }
-       .slider .indicators .indicator-item.active {
-    background-color: #585a5e;
-}
      @media only screen and (min-width: 768px) {
          .about {
              padding: 6px 100px;
@@ -28,7 +24,6 @@
 
 
          .slider .slides li #img1 {
-    
     background-size: 80% 100%;
     background-color: #FCFBF9;
     background-repeat: no-repeat;
@@ -64,7 +59,7 @@
 <div class="_wrapper">
  <?php include 'navbar.php';?> 
 <!--slider-->
-<div class="slider">
+<div class="slider"  style="overflow: hidden;">
     <ul class="slides">
     <li>
     <img id="img1" src="img/indexslider/sac-logo.jpg"/> 
