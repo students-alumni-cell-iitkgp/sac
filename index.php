@@ -23,6 +23,14 @@
          }
 
 
+         .slider .slides li #img1 {
+    background-size: 80% 100%;
+    background-color: #FCFBF9;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
      }
 
          @media only screen and (max-width: 414px){
@@ -51,12 +59,12 @@
 <div class="_wrapper">
  <?php include 'navbar.php';?> 
 <!--slider-->
-<div class="slider" >
+<div class="slider"  style="overflow: hidden;">
     <ul class="slides">
     <li>
-    <img src="img/indexslider/sac-logo.jpg" /> 
+    <img id="img1" src="img/indexslider/sac-logo.jpg"/> 
     </li>
-     <li>
+     <li >
               <img src="img/indexslider/annualalumnimeet.jpg"/ > 
       </li>
     <li>
