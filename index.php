@@ -64,7 +64,7 @@
 <div class="_wrapper">
  <?php include 'navbar.php';?> 
 <!--slider-->
-<div class="slider"  style="overflow: hidden;">
+<div class="slider">
     <ul class="slides">
     <li>
     <img id="img1" src="img/indexslider/sac-logo.jpg"/> 
