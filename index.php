@@ -17,6 +17,9 @@
 
     <style> 
     ul.indicators{z-index: 3;}
+    .slider .indicators .indicator-item{ height: 10px; width: 50px; border-radius: 0px; margin: 5px 12px; background-color: #a4a9b2; }
+    .slider .indicators .indicator-item.active{ background-color: #717375; }
+
      @media only screen and (min-width: 768px) {
          .about {
              padding: 6px 100px;
