@@ -44,7 +44,7 @@
 @media only screen and (max-width: 600px){
     nav .brand-logo {
       top: -10px;
-      left:77%;
+      left:80%;
     }
   }
   @media only screen and (max-width: 400px){
@@ -56,7 +56,7 @@
   @media only screen and (max-width: 330px){
     nav .brand-logo {
       top: -10px; 
-      left:62%;
+      left:70%;
     }
   }
 
@@ -65,7 +65,7 @@
 }
 
   </style>
-  <div class="row" id="logo" style="background-color: white; margin-bottom: 0px; display: none;"><div class="col l12 m12 s12 center-align"><img style=" width:200px;" src="img/logo/sac_logo.png">
+  <div class="row" id="logo" style="background-color: white; margin-bottom: 0px; "><div class="col l12 m12 s12 center-align"><img style=" width:200px;" src="img/logo/sac_logo.png">
     
 
 
@@ -85,6 +85,7 @@
   <ul id="initiatives" class="dropdown-content" style="min-width: 200px;">
     <li><a href="mentorship.php">Mentorship Program</a></li>
     <li><a href="imprint.php">My Imprint</a></li>
+    <li><a href="sparc.php">SPARC</a></li>
   </ul>
   <ul id="publications" class="dropdown-content" style="min-width: 200px;">
     <li><a href="yearbook.php">Yearbook</a></li>
@@ -136,6 +137,7 @@
                 <ul>
                   <li><a href="mentorship.php">Mentorship Program</a></li>
                   <li><a href="imprint.php">My Imprint</a></li>
+                  <li><a href="sparc.php">SPARC</a></li>
 
                 </ul>
               </div></li></ul></li>
@@ -152,7 +154,7 @@
               </div></li></ul></li>
 
 
-        <li><a href="team.php">The Team</a></li>
+        <li><a href="#!">The Team</a></li>
        <li class="no-padding">
           <ul class="collapsible collapsible-accordion">
             <li>
@@ -178,7 +180,7 @@
 
   </nav>
 </div>
-<!--  <div id="modal1" class="modal ">
+<div id="modal1" class="modal ">
   <div class="modal-content">
 
   <div class="row">
@@ -204,4 +206,4 @@
   <div class="modal-footer">
     <a href="#!" class=" modal-action modal-close waves-effect waves-blue btn-flat">CLOSE</a>
   </div>
-</div> -->
+</div>
