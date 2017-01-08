@@ -46,13 +46,13 @@
 
     <div class="col l3 m6 s6 offset-l3" style="align:center;">
        <a href="http://www.mangrove.com.hk/en/introduction.asp" target="_blank">
-         <img class="spons"  src="img/spons/2017/Apparel Partner/m.png" width="280" height="200" />
+         <img class="spons"  src="img/spons/2017/Apparel partner/m.png" width="280" height="200" />
       </a>
  </div>
 
     <div class="col l3 m6 s6">  
        <a href="http://mkapparel.org/" target="_blank">
-         <img class="spons"  src="img/spons/2017/Apparel Partner/mk.png" width="180" height="160" />
+         <img class="spons"  src="img/spons/2017/Apparel partner/mk.png" width="180" height="160" />
       </a>
 
     </div>  
@@ -71,7 +71,7 @@
 
   
   <div class="row">
-    <div class="col l12"> <h2 style="text-align:center;">SMS Partner <hr></h2> </div>
+    <div class="col l12 m12 s12"> <h2 style="text-align:center;">SMS Partner <hr></h2> </div>
   
     <div class="col l4 m4 s12"><a href="http://www.siegsms.com/" target="_blank" >
         <img class="spons"  src="img/spons/2017/SMS Partner/s.gif" width="200" height="170" />
@@ -150,7 +150,7 @@
   <div class="col l12 m12 s12"> <h2 style="text-align:center;">Electronics Partner<hr></h2> </div>
   <div class="col l12 m12 s12" align="center">
         <a href="http://www.ambraneindia.com/" target="_blank">
-          <img class="spons" src="img/spons/2017/Electronics Partner/a-min.png" width="350px" height="200px"  />
+          <img class="spons" src="img/spons/2017/Electronics partner/a-min.png" width="350px" height="200px"  />
         </a>
       </div>
 
@@ -196,7 +196,7 @@
 
     <div class="col l3 m3 s12"  align="">  
        <a href="http://www.blivusbags.com/" target="_blank"><br> <br>
-         <img class="spons"  src="img/spons/2017/Gift Partner/bb.jpg" width="190" height="140" /> 
+         <img class="spons"  src="img/spons/2017/Gift Partner/bb.JPG" width="190" height="140" /> 
       </a> </div>
 
       <div class="col l3 m3 s12"  align="">  
@@ -213,7 +213,7 @@
   <div class="col l12 m12 s12"> <h2 style="text-align:center;">Banking Partner<hr></h2> </div>
 
      <div class=" col l12 m12 s12" align="center"><a href="http://www.bankofbaroda.co.in/" target="_blank" >
-        <img class="spons" src="img/spons/2017/Banking Partner/bob.png" width="290" height="140" >
+        <img class="spons" src="img/spons/2017/Banking partner/bob.png" width="290" height="140" >
       </a>
       </div>
 
