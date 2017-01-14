@@ -26,8 +26,6 @@
       belowOrigin: true, // Displays dropdown below the button
       alignment: 'left' // Displays dropdown with edge aligned to the left of button
     });
-
-
   });
 </script>
 
@@ -59,11 +57,9 @@
       left:62%;
     }
   }
-
 .dropdown-content li {
   text-align: center !important;
 }
-
   </style>
   <div class="row" id="logo" style="background-color: white; margin-bottom: 0px; display: none;"><div class="col l12 m12 s12 center-align"><img style=" width:200px;" src="img/logo/sac_logo.png">
     
@@ -85,6 +81,7 @@
   <ul id="initiatives" class="dropdown-content" style="min-width: 200px;">
     <li><a href="mentorship.php">Mentorship Program</a></li>
     <li><a href="imprint.php">My Imprint</a></li>
+    <li><a href="sparc.php">SPARC</a></li>
   </ul>
   <ul id="publications" class="dropdown-content" style="min-width: 200px;">
     <li><a href="yearbook.php">Yearbook</a></li>
@@ -137,7 +134,7 @@
                 <ul>
                   <li><a href="mentorship.php">Mentorship Program</a></li>
                   <li><a href="imprint.php">My Imprint</a></li>
-
+                  <li><a href="sparc.php">SPARC</a></li>
                 </ul>
               </div></li></ul></li>
         <li class="no-padding">
@@ -181,7 +178,6 @@
 </div>
 <!--  <div id="modal1" class="modal ">
   <div class="modal-content">
-
   <div class="row">
     <form class="col s12 center-align" action="aam.php" method="POST">
       <div class="row">
