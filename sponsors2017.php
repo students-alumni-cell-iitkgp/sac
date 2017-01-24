@@ -32,8 +32,12 @@
   <div class="row" >
    <div class="col l12">  <h2 style="text-align:center;">Major Sponsor <hr></h2> </div> 
       
-        <div class="col l12" align="center"><br><a href="http://www.archiesonline.com/" target="_blank" >
+        <div class="col l6" align="center"><br><a href="http://www.archiesonline.com/" target="_blank" >
           <img class="spons" src="img/spons/2017/Major Sponsor/a.png" width="350" height="170" />
+        </a>
+        </div>
+        <div class="col l6" align="center"><br><a href="http://www.wbsetcl.in/" target="_blank" >
+          <img class="spons" src="img/spons/2017/Major Sponsor/wbsetcl.jpg" width="200" height="170" />
         </a>
         </div>
 
