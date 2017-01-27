@@ -61,35 +61,47 @@
 
     </div>  
 </div> <br> <br>
+      <div class="row">
+
+          <div class="col l12 m12 s12"> <h2 style="text-align:center;">Apparel Partner <hr></h2> </div>
+
+          <div class="col l3 m6 s6 offset-l3" style="align:center;">
+              <a href="http://www.mangrove.com.hk/en/introduction.asp" target="_blank">
+                  <img class="spons"  src="img/spons/2017/Apparel partner/m.png" width="280" height="200" />
+              </a>
+          </div>
+
+          <div class="col l3 m6 s6">
+              <a href="http://mkapparel.org/" target="_blank">
+                  <img class="spons"  src="img/spons/2017/Apparel partner/mk.png" width="180" height="160" />
+              </a>
+
+          </div>
+      </div> <br> <br>
 
 <div class="row">
 
   <div class="col l12 m12 s12"> <h2 style="text-align:center;">Event Sponsors <hr></h2> </div>
-  <div class="col l12 m12 s12" align="center">
+  <div class="col l4 m4 s12" align="center" style="margin-top: 20px">
         <a href="https://hurix.com/digital-education/" target="_blank">
-          <img class="spons" src="img/spons/2017/Event Sponsor/a.png" width="320px" height="200px"  />
+          <img class="spons" src="img/spons/2017/Event Sponsor/a.png" width="" height=""  />
         </a>
       </div>
+    <div class="col l4 m4 s12" align="center">
+        <a href="#" target="_blank">
+            <img class="spons" src="img/spons/2017/Event Sponsor/ISA.png" width="" height="120"  />
+        </a>
+    </div>
+    <div class="col l4 m4 s12" align="center">
+        <a href="http://www.ultragreencc.in/" target="_blank">
+            <img class="spons" src="img/spons/2017/Event Sponsor/Ultra%20Green.png" width="" height="120"  />
+        </a>
+    </div>
 
   </div> <br> <br>
 
   
-  <div class="row">
-    <div class="col l12 m12 s12"> <h2 style="text-align:center;">SMS Partner <hr></h2> </div>
-  
-    <div class="col l4 m4 s12"><a href="http://www.siegsms.com/" target="_blank" >
-        <img class="spons"  src="img/spons/2017/SMS Partner/s.gif" width="200" height="170" />
-      </a>
-      </div>
 
-    <div class="col l4 m4 s12"><a href="https://www.textlocal.in/" target="_blank" ><br><br>
-        <img class="spons" src="img/spons/2017/SMS Partner/t.png" width="350" height="100" />
-      </a>
-      </div>      
-       <div class="col l4 m4 s12"><a href="http://www.truebulksms.com/" target="_blank" ><br>
-        <img class="spons"   src="img/spons/2017/SMS Partner/tb.png" width="170" height="120" />
-      </a>
-      </div> </div> <br> <br>
 
   <div class="row">
 
@@ -257,7 +269,7 @@
   
   <div class="row"> 
 
-   <div class="col l12 m12 s12"> <h2 class="spons_head" style="text-align:center;" >Online Media Partner <hr></h2> </div>
+   <div class="col l12 m12 s12"> <h2 class="spons_head" style="text-align:center;" >Online Media Partners <hr></h2> </div>
    
      
    
@@ -277,7 +289,27 @@
        <a href="http://beingstudent.com/" target="_blank"><br> <br>
          <img class="spons"  src="img/spons/2017/Online Media Partner/bs.png" width="190" height="80" />
       </a> </div>
-       </div> </div> </div>
+       </div> </div>
+
+      <br><br>
+      <div class="row">
+          <div class="col l12 m12 s12"> <h2 style="text-align:center;">SMS Partners <hr></h2> </div>
+
+          <div class="col l4 m4 s12"><a href="http://www.siegsms.com/" target="_blank" >
+                  <img class="spons"  src="img/spons/2017/SMS Partner/s.gif" width="200" height="170" />
+              </a>
+          </div>
+
+          <div class="col l4 m4 s12"><a href="https://www.textlocal.in/" target="_blank" ><br><br>
+                  <img class="spons" src="img/spons/2017/SMS Partner/t.png" width="350" height="100" />
+              </a>
+          </div>
+          <div class="col l4 m4 s12"><a href="http://www.truebulksms.com/" target="_blank" ><br>
+                  <img class="spons"   src="img/spons/2017/SMS Partner/tb.png" width="170" height="120" />
+              </a>
+          </div> </div> <br> <br>
+
+  </div>
       </div>
   <?php include 'footer.php';?>
  
