@@ -216,8 +216,8 @@
 
   <div class="col l12 m12 s12"> <h2 style="text-align:center;">Banquet Partner <hr></h2> </div>
   <div class="col l12 m12 s12" align="center">
-        <a href="http://www.glucorade.com/" target="_blank">
-          <img class="spons" src="img/spons/2017/Energy Partner/ge.png" width="200px" height="200px"  />
+        <a href="http://www.mioamore.net/" target="_blank">
+          <img class="spons" src="img\spons\2017\Banquet Partner\mio amore.jpg" width="200px" height="200px"  />
         </a>
       </div>
 
