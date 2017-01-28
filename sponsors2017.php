@@ -3,11 +3,11 @@
 <title>Sponsors</title>
 <link rel="icon" href="img/meet_14.png">
 <link rel="stylesheet" href="css/materialize.min.css">
-	  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-	  <script src="js/materialize.min.js"></script>
-	  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	  <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 <style type="text/css">
   html {
     font-size: 15px !important;
@@ -216,8 +216,8 @@
 
   <div class="col l12 m12 s12"> <h2 style="text-align:center;">Banquet Partner <hr></h2> </div>
   <div class="col l12 m12 s12" align="center">
-        <a href="http://www.glucorade.com/" target="_blank">
-          <img class="spons" src="img/spons/2017/Energy Partner/ge.png" width="200px" height="200px"  />
+        <a href="http://www.mioamore.net/" target="_blank">
+          <img class="spons" src="img\spons\2017\Banquet Partner\mio amore.jpg" width="200px" height="200px"  />
         </a>
       </div>
 
