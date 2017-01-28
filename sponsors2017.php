@@ -30,6 +30,12 @@
    
 
   <div class="row" >
+   <div class="col l12">  <h2 style="text-align:center;">Co Sponsor <hr></h2> </div> 
+      <a href="http://www.tatamotors.com/" target="_blank" >
+          <img class="spons" src="img/spons/2017/Co-Sponsor/TATA-Motors.png" width="350" height="170" />
+      </a>
+   </div>  <br> <br>
+   <div class="row" >
    <div class="col l12">  <h2 style="text-align:center;">Major Sponsor <hr></h2> </div> 
       
         <div class="col l6" align="center"><br><a href="http://www.archiesonline.com/" target="_blank" >
@@ -40,45 +46,20 @@
           <img class="spons" src="img/spons/2017/Major Sponsor/wbsetcl.jpg" width="200" height="170" />
         </a>
         </div>
+        <div class="col l4" align="center"><br><a href="http://www.acclimited.com/" target="_blank" >
+          <img class="spons" src="img/spons/2017/Major Sponsor/acc.jpg" width="200" height="170" />
+        </a>
+        </div>
+        <div class="col l4" align="center"><br><a href="http://www.shapoorjipallonji.in/" target="_blank" >
+          <img class="spons" src="img/spons/2017/Major Sponsor/Shapoorji.jpg" width="200" height="170" />
+        </a>
+        </div>
+        <div class="col l4" align="center"><br><a href="http://www.tatasteel.com/" target="_blank" >
+          <img class="spons" src="img/spons/2017/Major Sponsor/tata.jpg" width="200" height="170" />
+        </a>
+        </div>
 
-       </div>
-
-
-  <div class="row">
-
-  <div class="col l12 m12 s12"> <h2 style="text-align:center;">Apparel Partner <hr></h2> </div>  
-
-    <div class="col l3 m6 s6 offset-l3" style="align:center;">
-       <a href="http://www.mangrove.com.hk/en/introduction.asp" target="_blank">
-         <img class="spons"  src="img/spons/2017/Apparel partner/m.png" width="280" height="200" />
-      </a>
- </div>
-
-    <div class="col l3 m6 s6">  
-       <a href="http://mkapparel.org/" target="_blank">
-         <img class="spons"  src="img/spons/2017/Apparel partner/mk.png" width="180" height="160" />
-      </a>
-
-    </div>  
-</div> <br> <br>
-      <div class="row">
-
-          <div class="col l12 m12 s12"> <h2 style="text-align:center;">Apparel Partner <hr></h2> </div>
-
-          <div class="col l3 m6 s6 offset-l3" style="align:center;">
-              <a href="http://www.mangrove.com.hk/en/introduction.asp" target="_blank">
-                  <img class="spons"  src="img/spons/2017/Apparel partner/m.png" width="280" height="200" />
-              </a>
-          </div>
-
-          <div class="col l3 m6 s6">
-              <a href="http://mkapparel.org/" target="_blank">
-                  <img class="spons"  src="img/spons/2017/Apparel partner/mk.png" width="180" height="160" />
-              </a>
-
-          </div>
-      </div> <br> <br>
-
+       </div> <br> <br>
 <div class="row">
 
   <div class="col l12 m12 s12"> <h2 style="text-align:center;">Event Sponsors <hr></h2> </div>
@@ -100,55 +81,88 @@
 
   </div> <br> <br>
 
-  
+  <div class="row"> 
+  <div class="col l12 m12 s12"> <h2 style="text-align:center;">Banking Partner<hr></h2> </div>
 
-
-  <div class="row">
-
-  <div class="col l12 m12 s12"> <h2 style="text-align:center;">Energy Partner <hr></h2> </div>
-  <div class="col l12 m12 s12" align="center">
-        <a href="http://www.glucorade.com/" target="_blank">
-          <img class="spons" src="img/spons/2017/Energy Partner/ge.png" width="200px" height="200px"  />
-        </a>
+     <div class=" col l12 m12 s12" align="center"><a href="http://www.bankofbaroda.co.in/" target="_blank" >
+        <img class="spons" src="img/spons/2017/Banking partner/bob.png" width="290" height="140" >
+      </a>
       </div>
+
+
+
+  </div> <br> <br>
+ <div class="row"> 
+  <div class="col l12 m12 s12"> <h2 style="text-align:center;">In Association With<hr></h2> </div>
+
+     <div class=" col l12 m12 s12" align="center"><a href="https://www.telegraphindia.com/" target="_blank" >
+        <img class="spons" src="img\spons\2017\In Association with\Telegraph.jpg" width="290" height="140" >
+      </a>
+      </div>
+
+
 
   </div> <br> <br>
 
-    <div class="row">
-  <h2 style="text-align:center">Food Partner<hr></h2>
-  <div class="row">
-    <div class="col l3 offset-l2"><a href="http://www.marinofoods.in/" target="_blank" >
-        <img class="spons"  src="img/spons/2017/Food Partner_/m.png" width="290" height="140" />
+ <div class="row"> 
+  <div class="col l12 m12 s12"> <h2 style="text-align:center;">Media Partner<hr></h2> </div>
+
+     <div class=" col l12 m12 s12" align="center"><a href="https://www.inshorts.com" target="_blank" >
+        <img class="spons" src="img\spons\2017\Media Partner\logo_inshorts.png" width="290" height="140" >
       </a>
       </div>
-      <div class="col l3 push-l1"><a href="http://unibicindia.com/" target="_blank" >
-        <img class="spons" style="position:relative;top:8px;" src="img/spons/2017/Food Partner_/u.png" width="290" height="100" />
-      </a>
-      </div> </div>
-      <br>
 
+
+
+  </div> <br> <br>
+
+     <div class="row">
+       <div class="col l12 m12 s12">
+         <h2 style="text-align:center"> Suitings Partner <hr></h2> </div> </div>
 <div class="row">
+         <div class="col l12 m12 s12" align="center"> <a href="http://www.siyaram.com//" target="_blank">
+        <img class="spons" src="img/spons/2017/Premium Suitings Partner/sr.jpg" width="200" height="90" />
+      </a>
 
-  <div class="col l12 m12 s12"> <h2 style="text-align:center;">Luggage Partner <hr></h2> </div>
-  <div class="col l12 m12 s12" align="center">
-        <a href="" target="_blank">
-          <img class="spons" src="img/spons/2017/Luggage Partner/b.jpg" width="250px" height="250px"  />
-        </a>
-      </div>
+      </div> </div>
 
-  </div> 
-  </div>
+    <br> <br>
+
+
+
+  <div class="row"> 
+
+   <div class="col l12 m12 s12 "> <h2 class="spons_head" style="text-align:center;" >Luxury Gift Partners <hr></h2> </div> 
+
+    <div class="col l6 m6 s6 " style="align:center;">
+       <a href="https://www.giftease.com/" target="_blank">
+         <img class="spons"  src="img/spons/2017/LUXURY GIFT PARTNER/Giftease_Logo.png" width="280" height="200" />
+      </a>
+ </div>
+    <div class="col l6 m6 s6 " style="align:center;">
+       <a href="https://www.woodgeekstore.com/" target="_blank">
+         <img class="spons"  src="img/spons/2017/LUXURY GIFT PARTNER/unnamed.png" width="280" height="200" />
+      </a>
+ </div>
+   </div>
+ <br> <br>
 
   <div class="row">
 
-  <div class="col l12 m12 s12"> <h2 style="text-align:center;">Freshness partner<hr></h2> </div>
-  <div class="col l12 m12 s12" align="center">
-        <a href="http://www.dizzle.com/" target="_blank">
-          <img class="spons" src="img/spons/2017/Freshness partner/Dizzle.jpg" width="250px" height="250px"  />
+  <div class="col l12 m12 s12"> <h2 style="text-align:center;">Electronics Partner<hr></h2> </div>
+  <div class="col l6 m12 s12" align="center">
+        <a href="http://www.ambraneindia.com/" target="_blank">
+          <img class="spons" src="img/spons/2017/Electronics partner/a-min.png" width="350px" height="200px"  />
+        </a>
+      </div>
+  <div class="col l6 m12 s12" align="center">
+        <a href="http://krishproducts.com/" target="_blank">
+          <img class="spons" src="img/spons/2017/Electronics partner/Krish.png" width="350px" height="200px"  />
         </a>
       </div>
 
-  </div>
+  </div>  <br> <br>
+
 
   <div class="row">
 
@@ -161,21 +175,93 @@
 
   </div> 
 
+ <br> <br>
   <div class="row">
 
-  <div class="col l12 m12 s12"> <h2 style="text-align:center;">Electronics Partner<hr></h2> </div>
+  <div class="col l12 m12 s12"> <h2 style="text-align:center;">Energy Partner <hr></h2> </div>
   <div class="col l12 m12 s12" align="center">
-        <a href="http://www.ambraneindia.com/" target="_blank">
-          <img class="spons" src="img/spons/2017/Electronics partner/a-min.png" width="350px" height="200px"  />
+        <a href="http://www.glucorade.com/" target="_blank">
+          <img class="spons" src="img/spons/2017/Energy Partner/ge.png" width="200px" height="200px"  />
         </a>
       </div>
 
-  </div> <br>
+  </div> <br> <br>
+
+  <div class="row">
+
+  <div class="col l12 m12 s12"> <h2 style="text-align:center;">Online Shopping Partner <hr></h2> </div>
+  <div class="col l12 m12 s12" align="center">
+        <a href="#" target="_blank">
+          <img class="spons" src="img/spons/2017/ONLINE SHOPPING PARTNER/modalogo.png" width="300px" height="100px"  />
+        </a>
+      </div>
+
+  </div> <br> <br>
 
 
+  <div class="row">
+
+  <div class="col l12 m12 s12"> <h2 style="text-align:center;">Beverage Partner <hr></h2> </div>
+  <div class="col l12 m12 s12" align="center">
+        <a href="http://www.coca-colacompany.com/" target="_blank">
+          <img class="spons" src="img\spons\2017\Beverage Partner\coca-cola-logo.jpg" width="400px" height="300px"  />
+        </a>
+      </div>
+
+  </div> <br> <br>
+
+
+
+  <div class="row">
+
+  <div class="col l12 m12 s12"> <h2 style="text-align:center;">Banquet Partner <hr></h2> </div>
+  <div class="col l12 m12 s12" align="center">
+        <a href="http://www.glucorade.com/" target="_blank">
+          <img class="spons" src="img/spons/2017/Energy Partner/ge.png" width="200px" height="200px"  />
+        </a>
+      </div>
+
+  </div> <br> <br>
+
+  <div class="row">
+
+  <div class="col l12 m12 s12"> <h2 style="text-align:center;">Apparel Partner <hr></h2> </div>  
+
+    <div class="col l3 m6 s6 offset-l3" style="align:center;">
+       <a href="http://www.mangrove.com.hk/en/introduction.asp" target="_blank">
+         <img class="spons"  src="img/spons/2017/Apparel partner/m.png" width="280" height="200" />
+      </a>
+ </div>
+
+    <div class="col l3 m6 s6">  
+       <a href="http://mkapparel.org/" target="_blank">
+         <img class="spons"  src="img/spons/2017/Apparel partner/mk.png" width="180" height="160" />
+      </a>
+
+    </div>  
+</div> <br> <br>
+
+      
+      
+       
+        <div class="row">  
+       <div class="col l12 m12 s12"> 
+         <h2 style="text-align:center">Stationary Partner <hr></h2> </div> </div>
+         <div class="row">
+      <div class="col l6 m12 s12" align="center"> <a href="http://www.jlcollection.de/" target="_blank">
+         <img class="spons" src="img/spons/2017/Stationery Partner/jl.jpg" width="300" height="150" />
+      </a>
+    </div>
+      <div class="col l6 m12 s12" align="center"> <a href="https://www.kokuyocamlin.com/" target="_blank">
+         <img class="spons" src="img/spons/2017/Stationery Partner/Camlin.jpg" width="200" height="150" />
+      </a>
+    </div>
+    </div> <br> <br>
+
+  
   <div class="row"> 
 
-   <div class="col l12 m12 s12 "> <h2 class="spons_head" style="text-align:center;" >Luxury Gift Partners <hr></h2> </div>
+   <div class="col l12 m12 s12 "> <h2 class="spons_head" style="text-align:center;" >Gift Partners <hr></h2> </div>
    
      <div class="col s12 m12 l12">
 
@@ -220,52 +306,79 @@
          <img class="spons"  src="img/spons/2017/Gift Partner/capricon.png" width="190" height="140" /> 
       </a> </div>
 
-       </div> </div>
+       </div> 
+    </div>
  
+ <br> <br>
 
-   
-
-  <div class="row"> 
-  <div class="col l12 m12 s12"> <h2 style="text-align:center;">Banking Partner<hr></h2> </div>
-
-     <div class=" col l12 m12 s12" align="center"><a href="http://www.bankofbaroda.co.in/" target="_blank" >
-        <img class="spons" src="img/spons/2017/Banking partner/bob.png" width="290" height="140" >
+    <div class="row">
+  <h2 style="text-align:center">Food Partner<hr></h2>
+  <div class="row">
+    <div class="col l4"><a href="http://www.marinofoods.in/" target="_blank" >
+        <img class="spons"  src="img/spons/2017/Food Partner_/m.png" width="290" height="140" />
       </a>
       </div>
+      <div class="col l4"><a href="http://www.bittuchanachur.com/" target="_blank" >
+        <img class="spons" style="position:relative;top:8px;" src="img/spons/2017/Food Partner_/bittu.jpg" width="290" height="100" />
+      </a>
+      </div> 
+      <div class="col l4"><a href="http://unibicindia.com/" target="_blank" >
+        <img class="spons" style="position:relative;top:8px;" src="img/spons/2017/Food Partner_/u.png" width="290" height="100" />
+      </a>
+      </div> 
+      </div> <br> <br>
+  <div class="row">
 
-
+  <div class="col l12 m12 s12"> <h2 style="text-align:center;">Freshness partner<hr></h2> </div>
+  <div class="col l12 m12 s12" align="center">
+        <a href="http://www.dizzle.com/" target="_blank">
+          <img class="spons" src="img/spons/2017/Freshness partner/Dizzle.jpg" width="250px" height="250px"  />
+        </a>
+      </div>
 
   </div> <br> <br>
+  <div class="row">
 
+  <div class="col l12 m12 s12"> <h2 style="text-align:center;">Ride partner<hr></h2> </div>
+  <div class="col l12 m12 s12" align="center">
+        <a href="http://unirox-gr.com/" target="_blank">
+          <img class="spons" src="img/spons/2017/RIDE PARTNER\unirox.jpg" width="250px" height="200px"  />
+        </a>
+      </div>
 
-      
-      
-       
-        <div class="row">  
-       <div class="col l12 m12 s12"> 
-         <h2 style="text-align:center">Stationary Partner <hr></h2> </div> </div>
-         <div class="row">
-      <div class="col l12 m12 s12" align="center"> <a href="" target="_blank">
-         <img class="spons" src="img/spons/2017/Stationery Partner/jl.jpg" width="190" height="70" />
-      </a>
-    </div> </div> <br> <br>
-
-      
-
-     <div class="row">
-       <div class="col l12 m12 s12">
-         <h2 style="text-align:center">Premium Suitings Partner <hr></h2> </div> </div>
+  </div> <br> <br>
 <div class="row">
-         <div class="col l12 m12 s12" align="center"> <a href="http://www.siyaram.com//" target="_blank">
-        <img class="spons" src="img/spons/2017/Premium Suitings Partner/sr.jpg" width="200" height="90" />
-      </a>
 
-      </div> </div>
+  <div class="col l12 m12 s12"> <h2 style="text-align:center;">Luggage Partner <hr></h2> </div>
+  <div class="col l12 m12 s12" align="center">
+        <a href="http://www.bleubags.com/" target="_blank">
+          <img class="spons" src="img/spons/2017/Luggage Partner/bleu.jpg" width="250px" height="150px"  />
+        </a>
+      </div>
 
-    <br> <br>
+  </div> 
+  </div> <br> <br>
 
+      <div class="row">
+          <div class="col l12 m12 s12"> <h2 style="text-align:center;">SMS Partners <hr></h2> </div>
 
-  
+          <div class="col l3 m4 s12"><a href="http://www.siegsms.com/" target="_blank" >
+                  <img class="spons"  src="img/spons/2017/SMS Partner/s.gif" width="200" height="170" />
+              </a>
+          </div>
+
+          <div class="col l3 m4 s12"><a href="https://www.textlocal.in/" target="_blank" ><br><br>
+                  <img class="spons" src="img/spons/2017/SMS Partner/t.png" width="200" height="100" />
+              </a>
+          </div>
+          <div class="col l3 m4 s12"><a href="http://www.truebulksms.com/" target="_blank" ><br>
+                  <img class="spons"   src="img/spons/2017/SMS Partner/tb.png" width="170" height="120" />
+              </a>
+          </div>
+          <div class="col l3 m4 s12"><a href="http://www.nettyfish.com/" target="_blank" ><br>
+                  <img class="spons"   src="img/spons/2017/SMS Partner/Nettyfish.png" width="230" height="120" />
+              </a>
+          </div> </div> <br> <br>
   
   <div class="row"> 
 
@@ -274,6 +387,16 @@
      
    
     <div class="col l12 m12 s12">
+
+      <div class="col l6 m4 s12" align="center">  <a href="https://www.crazyengineers.com/" target="_blank"> <br> <br>
+         <img class="spons"  src="img/spons/2017/Online Media Partner/Crazy Engineers.png" width="190" height="80" />
+      </a> </div>
+
+    <div class="col l6 m4 s12"  align="center">
+       <a href="http://www.fuccha.in/" target="_blank"> <br> <br>
+         <img class="spons"  src="img/spons/2017/Online Media Partner/Fuccha.png" width="190" height="80" />
+      </a>
+</div> 
 
       <div class="col l4 m4 s12" align="center">  <a href="http://campfestiva.com/" target="_blank"> <br> <br>
          <img class="spons"  src="img/spons/2017/Online Media Partner/cam.png" width="190" height="80" />
@@ -292,22 +415,6 @@
        </div> </div>
 
       <br><br>
-      <div class="row">
-          <div class="col l12 m12 s12"> <h2 style="text-align:center;">SMS Partners <hr></h2> </div>
-
-          <div class="col l4 m4 s12"><a href="http://www.siegsms.com/" target="_blank" >
-                  <img class="spons"  src="img/spons/2017/SMS Partner/s.gif" width="200" height="170" />
-              </a>
-          </div>
-
-          <div class="col l4 m4 s12"><a href="https://www.textlocal.in/" target="_blank" ><br><br>
-                  <img class="spons" src="img/spons/2017/SMS Partner/t.png" width="350" height="100" />
-              </a>
-          </div>
-          <div class="col l4 m4 s12"><a href="http://www.truebulksms.com/" target="_blank" ><br>
-                  <img class="spons"   src="img/spons/2017/SMS Partner/tb.png" width="170" height="120" />
-              </a>
-          </div> </div> <br> <br>
 
   </div>
       </div>
