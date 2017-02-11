@@ -97,6 +97,17 @@ $result = $connection->query($query);
     </script>
 
 <style type="text/css">
+.hr{
+
+	align-conten
+}
+   
+   #button{
+
+    padding:10px;
+   	display:inline;
+   }
+
    @media only screen and (min-width: 768px){
      .ac-head{
        margin-top:-20px;
@@ -138,6 +149,16 @@ $result = $connection->query($query);
     position:absolute;
     left:0px;
 }
+  #button{
+  	display: inherit;
+  	width: 300px;
+  	padding: 0px
+
+  }
+ .hr{
+
+ 	margin-left: 13%;
+ }
 
   }
 </style>
@@ -166,16 +187,16 @@ $result = $connection->query($query);
   </center>
   </div>
 </div>
-<hr style="color:grey;width:70%">
+<hr class="hr" style="color:grey;width:70%">
 <div class="images" style="background:white;">
   <div class="row">
-  	<div class="col l6 s6 m6">
+  	<div class="col l6">
       <center>
       	<br>
   		<img src="img/14th_aam/reunion.jpg" style="width:90%;">
   	  </center>
   	</div>
-  	<div class="col l6 s6 m6">
+  	<div class="col l6">
   	  <br>
   	  <center>
   	  	<h4 style="padding-top:20px">Grand Reunion</h4>
@@ -185,9 +206,9 @@ $result = $connection->query($query);
   	  </center>
   	</div>
   </div>
-  <hr style="color:grey;width:70%">
+  <hr class="hr" style="color:grey;width:70%">
   <div class="row">
-  	<div class="col l6 s6 m6">
+  	<div class="col l6">
   	  <br>
   	  <center>
   	  	<h4 style="padding-top:20px">Arena</h4>
@@ -196,22 +217,22 @@ $result = $connection->query($query);
   		</p>
   	  </center>
   	</div>
-  	<div class="col l6 s6 m6">
+  	<div class="col l6">
       <center>
       	<br>
   		<img src="img/14th_aam/arena.jpg" style="width:90%;">
   	  </center>
   	</div>
   </div>
-  <hr style="color:grey;width:70%">
+  <hr class="hr" style="color:grey;width:70%">
   <div class="row">
-  	<div class="col l6 s6 m6">
+  	<div class="col l6">
       <center>
       	<br>
   		<img src="img/14th_aam/dept_visit.jpg" style="width:90%;">
   	  </center>
   	</div>
-  	<div class="col l6 s6 m6">
+  	<div class="col l6">
   	  <br>
   	  <center>
   	  	<h4 style="font-style:;padding-top:20px">Department Visit</h4>
@@ -221,9 +242,9 @@ $result = $connection->query($query);
   	  </center>
   	</div>
   </div>
-  <hr style="color:grey;width:70%">
+  <hr class="hr" style="color:grey;width:70%">
   <div class="row">
-  	<div class="col l6 s6 m6">
+  	<div class="col l6">
   	  <br>
   	  <center>
   	  	<h4 style="font-style:;padding-top:20px">Musical Night</h4>
@@ -232,22 +253,22 @@ $result = $connection->query($query);
   		</p>
   	  </center>
   	</div>
-  	<div class="col l6 s6 m6">
+  	<div class="col l6">
       <center>
       	<br>
   		<img src="img/14th_aam/musical_night.jpg" style="width:90%;">
   	  </center>
   	</div>
   </div>
-  <hr style="color:grey;width:70%">
+  <hr class="hr" style="color:grey;width:70%">
   <div class="row">
-  	<div class="col l6 s6 m6">
+  	<div class="col l6">
       <center>
       	<br>
   		<img src="img/14th_aam/hall_visit.jpg" style="width:90%;">
   	  </center>
   	</div>
-  	<div class="col l6 s6 m6">
+  	<div class="col l6">
   	  <br>
   	  <center>
   	  	<h4 style="font-style:;padding-top:20px">Hall Visit</h4>
@@ -257,9 +278,9 @@ $result = $connection->query($query);
   	  </center>
   	</div>
   </div>
-  <hr style="color:grey;width:70%">
+  <hr class="hr" style="color:grey;width:70%">
   <div class="row">
-  	<div class="col l6 s6 m6">
+  	<div class="col l6">
   	  <br>
   	  <center>
   	  	<h4 style="padding-top:20px">Campus Tour</h4>
@@ -268,22 +289,22 @@ $result = $connection->query($query);
   		</p>
   	  </center>
   	</div>
-  	<div class="col l6 s6 m6">
+  	<div class="col l6">
       <center>
       	<br>
   		<img src="img/14th_aam/campus_tour.jpg" style="width:90%;">
   	  </center>
   	</div>
   </div>
-  <hr style="color:grey;width:70%">
+  <hr class="hr" style="color:grey;width:70%">
   <div class="row">
-  	<div class="col l6 s6 m6">
+  	<div class="col l6">
       <center>
       	<br>
   		<img src="img/14th_aam/kite_flying.jpg" style="width:90%;">
   	  </center>
   	</div>
-  	<div class="col l6 s6 m6">
+  	<div class="col l6">
   	  <br>
   	  <center>
   	  	<h4 style="font-style:;padding-top:20px">Games & Kite Flying</h4>
@@ -293,9 +314,9 @@ $result = $connection->query($query);
   	  </center>
   	</div>
   </div>
-  <hr style="color:grey;width:70%">
+  <hr class="hr" style="color:grey;width:70%">
   <div class="row">
-  	<div class="col l6 s6 m6">
+  	<div class="col l6">
   	  <br>
   	  <center>
   	   <h4 style="font-style:;padding-top:20px">Entertainia</h4>
@@ -304,22 +325,22 @@ $result = $connection->query($query);
   		</p>
   	  </center>
   	</div>
-  	<div class="col l6 s6 m6">
+  	<div class="col l6">
       <center>
       	<br>
   		<img src="img/14th_aam/entertania.jpg" style="width:90%;">
   	  </center>
   	</div>
   </div>
-  <hr style="color:grey;width:70%">
+  <hr class="hr" style="color:grey;width:70%">
   <div class="row">
-  	<div class="col l6 s6 m6">
+  	<div class="col l6">
       <center>
       	<br>
   		<img src="img/14th_aam/illu.jpg" style="width:90%;">
   	  </center>
   	</div>
-  	<div class="col l6 s6 m6">
+  	<div class="col l6">
   	  <br>
   	  <center>
   	  	<h4 style="font-style:;padding-top:20px">Illumination</h4>
@@ -329,9 +350,9 @@ $result = $connection->query($query);
   	  </center>
   	</div>
   </div>
-  <hr style="color:grey;width:70%">
+  <hr class="hr" style="color:grey;width:70%">
   <div class="row">
-  	<div class="col l6 s6 m6">
+  	<div class="col l6">
   	  <br>
   	  <center>
   	  <h4 style="font-style:;padding-top:20px">2.2 Marathon</h4>
@@ -340,7 +361,7 @@ $result = $connection->query($query);
   		</p>
   	  </center>
   	</div>
-  	<div class="col l6 s6 m6">
+  	<div class="col l6">
       <center>
       	<br>
   		<img src="img/14th_aam/marathon.jpg" style="width:90%;">
@@ -348,12 +369,12 @@ $result = $connection->query($query);
   	</div>
   </div>
 </div>
-<hr style="color:grey;width:70%">
+<hr class="hr" style="color:grey;width:70%">
 </div>
 <div class="photos" style="padding-bottom:10px">
   <center>
   	<p style="width:90%;padding:5px;display: inline;font-size:17px">For more photos, kindly click on:</p>
-  	<a class="waves-effect waves-light btn" href=" https://goo.gl/photos/iDMk6fwtfjKMyVAw8" style="display:inline;padding:10px">14th Annual Alumni Meet Memories</a>
+  	<a id="button" class="waves-effect waves-light btn" href=" https://goo.gl/photos/iDMk6fwtfjKMyVAw8">14th Annual Alumni Meet Memories</a>
   </center>
 </div>
 <?php include"footer.php";  ?>
