@@ -1,13 +1,31 @@
 <html>
 <head>
-	<title>SPARC</title>
+  <title>SPARC</title>
    <link rel="icon" href="img/meet_14.png">
-	  <link rel="stylesheet" href="css/materialize.min.css">
-	  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-	  <script src="js/materialize.min.js"></script>
-	  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	  <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <style type="text/css">
+       @media only screen and (max-width: 468px){
+
+        #h1{
+          font-size: 12px;
+        }
+        #h2{
+          font-size: 25px;
+        }
+        #h3{
+
+          font-size: 15px;
+        }
+        #h4{
+          font-size: 25px;
+        }
+       }
+    </style>
 </head>
 <body>
 <div class="_wrapper" style="background:white">
@@ -16,10 +34,10 @@
 
  <div style="padding:3% 8% 6% 8%;">
 
-  <div class="col l12 m12 s12  z-depth-1">
-      <div class="heading">
+  <div  class="col l12 m12 s12  z-depth-1">
+      <div  class="heading">
           <center>
-              <h class="subheading"><b>Students&#39 Pan IIT Alumni Relation Cell</b></h>
+              <h id="h1" class="subheading"><b>Students&#39 Pan IIT Alumni Relation Cell</b></h>
           </center>
       </div>
       <center>
@@ -34,11 +52,11 @@
 </div>
 </div>
  <div class="container" style="width:100%;">
-	<div class="row" style="margin:auto;width:89%;">
+  <div class="row" style="margin:auto;width:89%;">
   <div class="col l12 m12 s12 z-depth-1">
   <div class="heading">
     <center>
-      <h class="subheading"><b>Benefits of SPARC</b></h>
+      <h id="h2" class="subheading"><b>Benefits of SPARC</b></h>
     </center>
   </div>
     <ul class="browser-default">
@@ -54,14 +72,14 @@
       </li>
     </ul>
   </div>
-	
-	</div>
+  
+  </div>
   <br><br>
   <div class="row" style="margin:auto;width:89%;">
   <div class="col l12 m12 s12 z-depth-1">
   <div class="heading">
     <center>
-      <h class="subheading"><b>Student's Alumni Meet, Bangalore</b></h>
+      <h id="h3" class="subheading"><b>Student's Alumni Meet, Bangalore</b></h>
     </center>
   </div>
     <p class="text_align" style="padding:1% 10% 2% 10%">
@@ -77,7 +95,7 @@
       <div class="col l12 m12 s12 z-depth-1">
           <div class="heading">
             <center>
-              <h class="subheading"><b>Future Initiatives</b></h>
+              <h id="h4" class="subheading"><b>Future Initiatives</b></h>
             </center>
           </div>
           <center>
