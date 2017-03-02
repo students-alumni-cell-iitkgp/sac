@@ -28,7 +28,7 @@
     </div>
     <div class="card-content" style="padding-top: 0; padding-left: 1em;height: 100%;">
      <div class="row" style="margin-bottom: 0;">
-    <div class="col l9 m9 s9">
+    <div style="font-size:10px" class="col l9 m9 s9">
       <span class="card-title  grey-text text-darken-4" >Vaibhav Chauhan</span> </div>
       <div class="col l3 m3 s3"><ul class="soc"><li><a class="soc-linkedin" href="https://www.linkedin.com/in/vaibhavchauhan6"></a></li></ul> </div>
 </div>
