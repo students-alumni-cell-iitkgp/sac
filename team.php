@@ -28,7 +28,7 @@
     </div>
     <div class="card-content" style="padding-top: 0; padding-left: 1em;height: 100%;">
      <div class="row" style="margin-bottom: 0;">
-    <div class="col l9 m9 s9">
+    <div style="font-size:10px" class="col l9 m9 s9">
       <span class="card-title  grey-text text-darken-4" >Vaibhav Chauhan</span> </div>
       <div class="col l3 m3 s3"><ul class="soc"><li><a class="soc-linkedin" href="https://www.linkedin.com/in/vaibhavchauhan6"></a></li></ul> </div>
 </div>
@@ -230,14 +230,10 @@
      <h4>Former Team Members</h4> </div></center>
      <div class="row" style="margin-top: 50px;">
 
-     <div id="2015" class="col l2 m6 s12 center-align">
-     
-      
-      
+     <div id="2015" class="col l2 m6 s12">
       <ul>
-
-       <span><b><li center-align style="font-size: 20;">2015</li> <hr>
-         <li>Pranshu Jain</li>
+      <span><b><li center-align style="font-size: 20;">2015</li> <hr>
+        <li>Pranshu Jain</li>
         <li>Rohan Gupta</li>
         <li>Akash Tulsani</li>
         <li>Ankit Sharma</li>
@@ -252,9 +248,7 @@
           </ul>
            </div>
      
-      
-
-    <div id="2014" class="col l2 m6 s12 center-align">
+      <div id="2014" class="col l2 m6 s12">
         <ul>
           <span><b> <li center-align style="font-size: 20;">2014</li> <hr>
           <li>Arpit Gupta</li>
@@ -268,43 +262,42 @@
           </b></span>
         </ul>
       </div>
-    <div id="2013" class="col l2 m6 s12 center-align">
+    <div id="2013" class="col l2 m6 s12">
         <ul><span><b><li center-align style="font-size: 20;">2013</li> <hr>
-         <li>Aditi Sharma</li>
-        <li>Vedang Deshpande</li>
-
-         <li>Abhinay Vyas</li>
+          <li>Aditi Sharma</li>
+          <li>Vedang Deshpande</li>
+          <li>Abhinay Vyas</li>
           <li>Abhishek Kanchi</li>
-           <li>Anuj Bothra</li>
+          <li>Anuj Bothra</li>
           <li>Saumaric Dangwal</li>
           <li>Mridul Mittal</li>
           <li>Niharika Tomar</li>
-         <li>Pursottam Soni</li>
-         <li>Subramani Bharathi</li>
-         <li>Suman Agarwal</li>
-         <li>Uday Shankar Das</li>
+          <li>Pursottam Soni</li>
+          <li>Subramani Bharathi</li>
+          <li>Suman Agarwal</li>
+          <li>Uday Shankar Das</li>
            </b></span></ul>
             </div>
 
-    <div id="2012" class="col l2 m6 s12 center-align">
+    <div id="2012" class="col l2 m6 s12">
         <ul>
          <span><b><li center-align" style="font-size: 20;">2012</li> <hr>  
-          <li>Apoorv Jain</li>
-          <li>Utkarsh Jain</li>                        
+            <li>Apoorv Jain</li>
+            <li>Utkarsh Jain</li>                        
             <li>Akshay Kumar</li>
             <li>Himanshu Shrivastava</li>
             <li>Karan Kakwani</li>     
             <li>Nimish Goel</li>
             <li>Sahil Jalan</li>
             <li>Tanya Mondal</li>                       
-              
-              </b></span>
-              </ul>
-      </div>
-       <div id="2011" class="col l2 m6 s12 center-align">
+            </b></span>
+            </ul>
+            </div>
+       
+       <div id="2011" class="col l2 m6 s12">
         <ul>
-          <span><b><li center-align style="font-size: 20;">2011</li><hr>
-         <li>Nikunj Mall</li>
+        <span><b><li center-align style="font-size: 20;">2011</li><hr>
+        <li>Nikunj Mall</li>
           <li>Akshat Prakash</li>
           <li>Aditi Kadmawala</li>
           <li>Akshay Chalikwar</li>
@@ -316,27 +309,38 @@
               </b></span>
               </ul>
       </div>
-       <div id="2010" class="col l2 m6 s12 center-align">
+
+       <div id="2010" class="col l2 m6 s12">
      
-      
-      
       <ul>
-        <span><b><li center-align" style="font-size: 20;">2010</li><hr>
-        <li>Drishti Guin </li>                                
+        <span><b>
+        <li style="font-size: 20;">2010</li><hr>
+        <li>Drishti Guin </li> 
+        <li>Vishnu Rajeev</li>                               
         <li> Harshal Maniyar</li>
         <li>Sumeet Mavani</li>
         <li>Neeraj Daswani</li>
         <li>Gautham Kokku</li>
         <li>Swetha Reddy</li>
         <li> Tarun Trivedi</li>
-        
-          </b> </span>
-          </ul>
+        </b> </span>
+        </ul>
+     
+      <ul>
+        <span><b>
+        <li style="font-size: 20;">2009</li><hr>
+        <li>Chirag Fialoke</li> 
+        <li>Abhishek Narain</li> 
+        <li>Suruchi Prakash</li>
+        <li>Jyotika Gupta</li>
+        <li>Abhijeet Khanna</li>
+        <li>Abhigyan Mandal</li> 
+        <li>Digvijay Singh</li>
+        </b> </span>
+        </ul>
            </div>
     </div> 
-    <div class="row">
-      
-    </div>
+   
    <?php include 'footer.php';?>
 </body>
 
