@@ -9,11 +9,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <script type="text/javascript">
+	$(document).ready(function(){
+   if ($(window).width()<1200) {
+   	$('#container').addClass('container-fluid');
+	}
+	else{
+		$("#cont").addClass('container');
+	}
+});
+</script>
 </head>
 <body>
 <?php include'navbar.php';?>
-  
-  <div class="container">
+   <div id="cont">
    <center>
   <div class="heading" style="border:3px black solid; display: inline-block; padding-top: 2px;padding-right: 20px;padding-left: 20px;" >
    
