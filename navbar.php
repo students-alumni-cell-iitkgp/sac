@@ -79,7 +79,7 @@
     <li><a href="alvida.php">Alvida</a></li>
   </ul>
   <ul id="initiatives" class="dropdown-content" style="min-width: 200px;">
-    <li><a href="mentorship.php">Mentorship Program</a></li>
+    <li><a href="mentorship.php">Mentorship Programme</a></li>
     <li><a href="imprint.php">My Imprint</a></li>
     <li><a href="sparc.php">SPARC</a></li>
   </ul>
