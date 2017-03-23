@@ -24,7 +24,7 @@
               <h4><b>Yearbook </b></h4> </div>
           </center>
       
-    <p class="text_align" style="padding:1% 10% 6% 10%">
+    <p class="text_align" style="padding:1% 10% 1% 10%">
       The yearbook is a dedicated volume that captures the nostalgic memories of the graduating batch of our Institute.
        The beautiful years spent in the Institute are engraved and expressed via photos and writeups which is given as a souvenir of departure from the Institute. Few years down the road when they will walk down the memory lane, the yearbook will be the light which will lit up the faded memories and show the path through the old forgotten ways. The visuals of those old fleeting memories, photographs of their batch-mates, stills from the events that took place, inspiring words from that professor they looked up to and the aroma of the Institute that assisted them to foster their real self lies hidden in the pages of the yearbook. It gives them an opportunity to relive the golden days of their life, a beautiful chapter that always made the preface of their biography.
      <br><br>
@@ -35,7 +35,9 @@
       departments include a message from the Head of Departments other than mentioning the names and photographs of its graduating students. 
       The yearbook also showcase all the events that IIT Kharagpur had organized in the preceding year.
         Each year, the Students' Alumni Cell strives to make the yearbook as wholesome and complete which could entail the different prospects of life of the alumni. 
-     
+        <form action="http://www.sac.iitkgp.ac.in/yearbook/plugin/index.php" style="width: 100%;margin-top: 0" class="center" method="">
+       <button class="btn waves-effect waves-light" type="submit" name="action">Visit Yearbook' 17</button>
+       </form>
     </p>
   </div>
   </div>
