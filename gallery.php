@@ -139,6 +139,31 @@
 
     </div>
 
+    <!-- <center>
+         <div class="heading ac-head" style="border:3px black solid; display: inline-block; padding-top: 2px; margin: 3px;padding-right: 20px;padding-left: 20px;" >
+            <h4><b>Student Alumni Meet</b> - Hyderabad</h4>
+            </div>
+        </center>
+    <br>
+
+     <div class="row">
+    <div class="col l4 m4 s12">
+        
+            <img class="materialboxed normal" src="img/sam/Delhi/one.jpg" width="430">
+        
+            </div>
+        <div class="col l4 m4 s12">
+            <img class="materialboxed normal" src="img/sam/Delhi/two.jpg" width="430">
+        </div>
+        <div class="col l4 m4 s12">
+            
+                <img class="materialboxed normal" src="img/sam/Delhi/three.jpg" width="430">
+            
+        </div>
+
+    </div>
+ -->
+
    
 
 
