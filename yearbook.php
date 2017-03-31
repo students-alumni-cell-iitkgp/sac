@@ -36,7 +36,7 @@
       The yearbook also showcase all the events that IIT Kharagpur had organized in the preceding year.
         Each year, the Students' Alumni Cell strives to make the yearbook as wholesome and complete which could entail the different prospects of life of the alumni. 
         <form action="http://www.sac.iitkgp.ac.in/yearbook/plugin/index.php" style="width: 100%;margin-top: 0" class="center" method="">
-       <button class="btn waves-effect waves-light" type="submit" name="action">Visit Yearbook' 17</button>
+       <button class="btn waves-effect waves-light" type="submit" name="action">Go to Yearbook Portal 2k17</button>
        </form>
     </p>
   </div>
