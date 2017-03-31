@@ -178,11 +178,11 @@ and motivate the students to achieve their dreams.
         <center>
            <div class="heading ac-head" style="border:3px black solid; display: inline-block; padding-top: 2px; margin: 3px;padding-right: 20px;padding-left: 20px;">
 
-          <h4><b>Videos</b></h4>
+          <h4><b>E-Guest Lectures</b></h4>
         </center>
       </div>
       <div class="row">
-    <div class="col l3 s12 m3 offset-l3 m3">
+    <div class="col l3 s12 m3 m3">
     <div class="video-container">
        <iframe class="frame" src="https://www.youtube.com/embed/7iWNDuyiJYA" frameborder="1" allowfullscreen></iframe>
       </div>
@@ -191,7 +191,18 @@ and motivate the students to achieve their dreams.
     <div class="video-container">
         <iframe class="frame" src="https://www.youtube.com/embed/_mZLjVCMrrc" frameborder="1" allowfullscreen></iframe>
       </div>
-    </div> </div>
+    </div>
+    <div class="col l3 s12 m3 m3">
+    <div class="video-container">
+       <iframe src="https://www.youtube.com/embed/D96tjgVG1kQ" frameborder="1" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="col l3 s12 m3 m3">
+    <div class="video-container">
+       <iframe src="https://www.youtube.com/embed/-xeGNz5P5F4" frameborder="1" allowfullscreen></iframe>
+      </div>
+    </div>
+     </div>
     </div>
 
     <?php include 'footer.php';?>  
