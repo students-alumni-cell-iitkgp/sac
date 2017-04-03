@@ -65,24 +65,35 @@
 <div class="slider"  style="overflow: hidden;">
     <ul class="slides">
     <li>
-    <img id="img1" src="img/indexslider/sac-logo.jpg"/> 
+    <img id="img1" src="img/indexslider/sac-logo.jpg"/>
     </li>
+        <li>
+            <img src="img/14th_aam/aam_cover.jpg" />
+        </li>
 
         <li>
         <img src="img/indexslider/sam4.jpg" />
       </li>
-      <li>
+
+        <li>
        <img src="img/indexslider/mentorship1.jpg"/>
       </li>
+        <li>
+            <img src="img/indexslider/phonathon1.jpg" />
+        </li>
       <li>
        <img src="img/indexslider/guest.jpg"/>
       </li>
        <li>
       <img src="img/indexslider/givingback.jpg"/>
       </li>
+        <li>
+            <img src="img/indexslider/yoy1.jpg"/>
+        </li> <li>
+            <img src="img/indexslider/alvida1.jpg"/>
+        </li>
 
 
-     
     </ul>
   </div>
   <!--sliderover-->

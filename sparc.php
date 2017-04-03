@@ -90,6 +90,27 @@
   </div>
   <br><br>
   </div>
+<div class="timeline-head">
+    <div class="row" style="margin:auto;width:85%;">
+        <div class="col l12 m12 s12 z-depth-1">
+            <div class="heading">
+                <center>
+                    <h id="h4" class="subheading"><b>Dean's Meet</b></h>
+                </center>
+            </div>
+            <center>
+
+                <div class="row">
+                    <div class="col l6"><img height="350" src="img/deansmeet2.jpg" alt=""></div>
+                    <div class="col l6"><img height="350" src="img/deansmeet1.jpg" alt=""> </div>
+                </div>
+
+            </center>
+        </div>
+
+    </div>
+    <br><br>
+</div>
   <div class="timeline-head">
     <div class="row" style="margin:auto;width:85%;">
       <div class="col l12 m12 s12 z-depth-1">
