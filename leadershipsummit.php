@@ -75,7 +75,7 @@ max-width:100%;
     </div>
  <div class="container" style="width:100%;">
   <div class="row leader" style="margin:auto;width:90%;">
-        <div class="col s12 m3 l3 offset-l1">
+        <div class="col s12 m4 l4">
           <div class="card z-depth-0 _card">
             <div class="card-image">
               <img src="img/leadership_speakers/arunabhkumar.jpg">
@@ -89,7 +89,7 @@ max-width:100%;
             </div>
           </div>
         </div>
-        <div class="col s12 m7 l3">
+        <div class="col s12 m7 l4">
           <div class="card z-depth-0 _card">
             <div class="card-image">
               <img src="img/leadership_speakers/arjunmalhotra.jpg">
@@ -103,7 +103,7 @@ max-width:100%;
             </div>
           </div>
         </div>
-        <div class="col s12 m7 l3">
+        <div class="col s12 m7 l4">
           <div class="card z-depth-0 _card">
             <div class="card-image">
               <img src="img/leadership_speakers/anjanraichaudhuri.jpg">
@@ -119,7 +119,7 @@ max-width:100%;
         </div>
   </div>
   <div class="row leader" style="margin:auto;width:90%;">
-        <div class="col s12 m4 l3 offset-l1">
+        <div class="col s12 m4 l4">
           <div class="card z-depth-0 _card">
             <div class="card-image">
               <img src="img/leadership_speakers/gopalrajgarhia.jpg">
@@ -133,7 +133,7 @@ max-width:100%;
             </div>
           </div>
         </div>
-        <div class="col s12 m7 l3">
+        <div class="col s12 m7 l4">
           <div class="card z-depth-0 _card">
             <div class="card-image">
               <img src="img/leadership_speakers/prasadrmenon.jpg">
@@ -147,7 +147,7 @@ max-width:100%;
             </div>
           </div>
         </div>
-        <div class="col s12 m7 l3">
+        <div class="col s12 m7 l4">
           <div class="card z-depth-0 _card">
             <div class="card-image">
               <img src="img/leadership_speakers/sakyasinharoy.jpg">
