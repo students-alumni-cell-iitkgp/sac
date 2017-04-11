@@ -74,6 +74,7 @@
   <ul id="events" class="dropdown-content" style="min-width: 200px;">
     <li><a href="aam.php">Annual Alumni Meet</a></li>
     <li><a href="sam.php">Student Alumni Meet</a></li>
+    <li><a href="phonathon.php">Phonathon</a></li>
     <li><a href="guestlecture.php">Guest Lectures</a></li>
     <li><a href="leadershipsummit.php">Leadership Summit</a></li>
     <li><a href="alvida.php">Alvida</a></li>
@@ -86,7 +87,6 @@
   <ul id="publications" class="dropdown-content" style="min-width: 200px;">
     <li><a href="yearbook.php">Yearbook</a></li>
     <li><a href="yoy.php">Yearnings of Yore</a></li>
-    <!-- <li><a onclick="window.open('brochure.pdf')" target="_blank">SAMP Brochure</a></li> -->
   </ul>
   <ul id="sponsors" class="dropdown-content" style="min-width: 200px;">
     <li><a href="sponsors2017.php">2017</a></li>
@@ -122,6 +122,7 @@
                 <ul>
                   <li><a href="aam.php">Annual Alumni Meet</a></li>
                   <li><a href="sam.php">Student Alumni Meet</a></li>
+                  <li><a href="sam.php">Phonathon</a></li>
                   <li><a href="guestlecture.php">Guest Lectures</a></li>
                   <li><a href="leadershipsummit.php">Leadership Summit</a></li>
                   <li><a href="alvida.php">Alvida</a></li>
