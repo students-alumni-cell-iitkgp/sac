@@ -182,6 +182,23 @@ and motivate the students to achieve their dreams.
         </center>
       </div>
       <div class="row">
+
+    <div class="col l3 s12 m3">
+    <div class="video-container">
+        <iframe class="frame" src="https://youtu.be/embed/D96tjgVG1kQ" frameborder="1" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="col l3 s12 m3">
+    <div class="video-container">
+    <iframe width="854" height="480" src="https://www.youtube.com/embed/-xeGNz5P5F4" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="col l3 s12 m3">
+    <div class="video-container">
+    <iframe width="854" height="480" src="https://www.youtube.com/embed/oDPfzLblZ1c" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+
     <div class="col l3 s12 m3 offset-l3 m3">
     <div class="video-container">
        <iframe class="frame" src="https://www.youtube.com/embed/7iWNDuyiJYA" frameborder="1" allowfullscreen></iframe>
