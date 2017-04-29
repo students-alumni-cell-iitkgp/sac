@@ -74,12 +74,13 @@
   <ul id="events" class="dropdown-content" style="min-width: 200px;">
     <li><a href="aam.php">Annual Alumni Meet</a></li>
     <li><a href="sam.php">Student Alumni Meet</a></li>
+    <li><a href="phonathon.php">Phonathon</a></li>
     <li><a href="guestlecture.php">Guest Lectures</a></li>
     <li><a href="leadershipsummit.php">Leadership Summit</a></li>
     <li><a href="alvida.php">Alvida</a></li>
   </ul>
   <ul id="initiatives" class="dropdown-content" style="min-width: 200px;">
-    <li><a href="mentorship.php">Mentorship Program</a></li>
+    <li><a href="mentorship.php">Mentorship Programme</a></li>
     <li><a href="imprint.php">My Imprint</a></li>
     <li><a href="sparc.php">SPARC</a></li>
   </ul>
@@ -121,6 +122,7 @@
                 <ul>
                   <li><a href="aam.php">Annual Alumni Meet</a></li>
                   <li><a href="sam.php">Student Alumni Meet</a></li>
+                  <li><a href="sam.php">Phonathon</a></li>
                   <li><a href="guestlecture.php">Guest Lectures</a></li>
                   <li><a href="leadershipsummit.php">Leadership Summit</a></li>
                   <li><a href="alvida.php">Alvida</a></li>

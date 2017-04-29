@@ -63,19 +63,24 @@
 <div class="row">
 
   <div class="col l12 m12 s12"> <h2 style="text-align:center;">Event Sponsors <hr></h2> </div>
-  <div class="col l4 m4 s12" align="center" style="margin-top: 20px">
+  <div class="col l3 m3 s12" align="center" style="margin-top: 20px;margin-left: -90px">
         <a href="https://hurix.com/digital-education/" target="_blank">
           <img class="spons" src="img/spons/2017/Event Sponsor/a.png" width="" height=""  />
         </a>
       </div>
-    <div class="col l4 m4 s12" align="center">
+    <div class="col l3 m3 s12" align="center">
         <a href="#" target="_blank">
             <img class="spons" src="img/spons/2017/Event Sponsor/ISA.png" width="" height="120"  />
         </a>
     </div>
-    <div class="col l4 m4 s12" align="center">
+    <div class="col l3 m3 s12" align="center">
         <a href="http://www.ultragreencc.in/" target="_blank">
             <img class="spons" src="img/spons/2017/Event Sponsor/Ultra%20Green.png" width="" height="120"  />
+        </a>
+    </div>
+    <div class="col l3 m3 s12" align="center">
+        <a href="#" target="_blank">
+            <img class="spons" src="img/spons/sponsors/oil.png" width="" height="120"  />
         </a>
     </div>
 

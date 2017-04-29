@@ -65,33 +65,35 @@
 <div class="slider"  style="overflow: hidden;">
     <ul class="slides">
     <li>
-    <img id="img1" src="img/indexslider/sac-logo.jpg"/> 
+    <img id="img1" src="img/indexslider/sac-logo.jpg"/>
     </li>
-     <li >
-              <img src="img/indexslider/annualalumnimeet.jpg"/ > 
-      </li>
-    <li>
-              <img src="img/indexslider/annualalumnimeet1.jpg" /> 
-      </li>
-      <li>
+        <li>
+            <img src="img/14th_aam/aam_cover.jpg" />
+        </li>
+
+        <li>
         <img src="img/indexslider/sam4.jpg" />
       </li>
-      <li>
+
+        <li>
        <img src="img/indexslider/mentorship1.jpg"/>
       </li>
+        <li>
+            <img src="img/indexslider/phonathon1.jpg" />
+        </li>
       <li>
        <img src="img/indexslider/guest.jpg"/>
       </li>
        <li>
       <img src="img/indexslider/givingback.jpg"/>
       </li>
-      <li>
-     <img src="img/indexslider/yoy.jpg"/> 
-      </li>
-      <li>
-     <img src="img/indexslider/alvida.jpg"/>
-      </li>
-     
+        <li>
+            <img src="img/indexslider/yoy1.jpg"/>
+        </li> <li>
+            <img src="img/indexslider/alvida1.jpg"/>
+        </li>
+
+
     </ul>
   </div>
   <!--sliderover-->
@@ -232,10 +234,9 @@
     </div>
     <div class="card-reveal">
       <span class="card-title grey-text text-darken-4">Mentorship Programme</span>
-            <p class="text_align">The Students&#8217; Alumni Cell will begin the second phase of 
-              this year&#8217;s Student Alumni Mentorship Programme, one of its most successful initiatives, 
-              in October. The SAMP Programme saw a participation of more than 700 students and 300 alumni in 
-              its previous phase.</p>
+            <p class="text_align">Students’ Alumni Cell brings to you Student Alumni Mentorship Programme. A plat
+                form to share the valuable experience of our esteemed alumni community with the current students. For more Information,
+                Kindly check out <a target="_blank" href="http://www.mentorship.iitkgp.ernet.in">Mentorship</a> Website.</p>
 
     </div>
   </div>

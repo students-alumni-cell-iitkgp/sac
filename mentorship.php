@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Mentorship Program</title>
+<title>Mentorship Programme</title>
 <link rel="stylesheet" href="css/materialize.min.css">
 <link rel="icon"  href="img/meet_14.png">
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
@@ -67,22 +67,21 @@ left: 60px;
 <div class="row">
  
                       <center> <div class="heading ac-head" style="border:3px black solid; display: inline-block; padding-top: 2px; margin: 3px;padding-right: 20px;padding-left: 20px;" >
-                          <h4><b>Student Alumni Mentorship Program</b></h4> </div>
+                          <h4><b>Student Alumni Mentorship Programme</b></h4> </div>
                       </center>
   <div class="col l8 m8 s12">
    
     
     <span class="mentor-text">
     <p class="z-depth-1 text_align" style="padding:6% 10% 6% 10%; background:white;">
-    <b>Student Alumni Mentorship Program (SAMP)</b> is a unique initiative undertaken by the Students&#39 Alumni Cell, IIT Kharagpur. Through this program students are connected with alumni who serve both as a guide and a source of inspiration for them.<b> SAMP</b> is launched with the goal of keeping the alumni connected to their alma mater as well as share their valuable experience with the current students.
+    <b>Student Alumni Mentorship Programme (SAMP)</b> is a unique initiative undertaken by the Students&#39 Alumni Cell, IIT Kharagpur. Through this programme students are connected with alumni who serve both as a guide and a source of inspiration for them.<b> SAMP</b> is launched with the goal of keeping the alumni connected to their alma mater as well as share their valuable experience with the current students.
     </p>
     </span>
   </div>
-<br><br><br>
-  <div  class="col l4 m4 s12 mentor-reg">
+    <div  class="col l4 m4 s12 mentor-reg">
 <center>
-<a href="http://www.mentorship.iitkgp.ernet.in/" target="_blank "><input type="submit" value="Go to Mentorship portal" class="waves-effect waves-light btn-large" style="width:250px;padding-top:15px;"></a><br><br>
-
+<a href="http://www.mentorship.iitkgp.ernet.in/" target="_blank "><input type="submit" value="Go to Mentorship portal" class="waves-effect waves-light btn-large" style="width:250px;padding:15px;"></a><br><br>
+    <a href="https://medium.com/@studentsalumnicell.iitkgp" target="_blank "><input type="submit" value="Go to Mentorship blog" class="waves-effect waves-light btn-large" style="width:250px;padding:15px;"></a>
 </center>
   </div>
 </div>
@@ -94,7 +93,7 @@ left: 60px;
   
   
         <p class="summit z-depth-1 text_align" style="padding:6% 10% 6% 10%; background:white;">
-             <b style="font-size:150%">Framework of Mentorship Program</b><br><br>
+             <b style="font-size:150%">Framework of Mentorship Programme</b><br><br>
               Under this programme, we invite our alumni across the globe and from different fields to interact with the students and help them build their network and gain a new perspective on the possibilities open to them, after graduation.
 
     <br><br>
