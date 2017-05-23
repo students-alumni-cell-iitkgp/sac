@@ -168,9 +168,12 @@ $result = $connection->query($query);
 <?php include 'navbar.php';?>
     
   <div class="row ac-aam">
-  	<center>                                 
-      <img style="width: 100%;padding: 10px 30px 10px 10px" src="img/14th_aam/aam_cover.jpg">
-    </center>
+
+      <img style="width: 75%;padding: 10px 30px 10px 10px" src="img/14th_aam/aam_cover.jpg">
+	  <a class="waves-effect waves-light btn" href="signup.php" style="    padding: 50px;
+    padding-top: 4px;
+    padding-bottom: 76px;margin-top: -40em;margin-left: -1em">15th Annual Alumni Meet <br> Registration</a>
+
   </div>
   <div class="row">
   <div class="col l12 s12 m12">
