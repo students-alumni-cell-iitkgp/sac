@@ -279,7 +279,7 @@
         <li>Afzal Ahmed</li>
         <li>Ashay Walke</li>
         <li>Ashutosh Ikade</li>
-        <li>Harsh Kumar</li>
+        <li>Harsh Kumar Sharan</li>
         <li> Pallavi Das</li>
         <li>Shruti Sagar</li>
         <li> Punit Kumar</li>
