@@ -40,7 +40,7 @@
      <div class="row" style="margin-bottom: 0;">
     <div style="font-size:10px" class="col l9 m9 s9">
       <span class="card-title  grey-text text-darken-4" >Bharat Chandra</span> </div>
-      <div class="col l3 m3 s3"><ul class="soc"><li><a class="soc-linkedin" href="https://www.linkedin.com/in/bharat-chandra-obili-421781126/"></a></li></ul> </div>
+      <div class="col l3 m3 s3"><ul class="soc"><li><a target="_blank" class="soc-linkedin" href="https://www.linkedin.com/in/bharat-chandra-obili-421781126/"></a></li></ul> </div>
 </div>
 <div class="row" style="margin-top: : 0px;">
 <div class="col l9 m9 s9">
@@ -48,7 +48,7 @@
        <ul><li>+91-9932544235</li>
        <li>imbharat16@gmail.com</li></ul>
     </div>
-    <div class="col l3 m3 s3"><ul class="soc"><li><a class="soc-facebook" href="https://www.facebook.com/bharat.chandra.97"></a></li></ul></div> </div>
+    <div class="col l3 m3 s3"><ul class="soc"><li><a target="_blank" class="soc-facebook" href="https://www.facebook.com/bharat.chandra.97"></a></li></ul></div> </div>
      </div>
   </div>
   </div> 
@@ -63,13 +63,13 @@
     <div class="col l9 m9 s9">
       <span class="card-title grey-text text-darken-4">Vishal Singh</span>
 </div>
-<div class="col l3 m3 s3"><ul class="soc"><li><a class="soc-linkedin" href="https://www.linkedin.com/in/vishal-singh-284a89125/"></a></li></ul> </div>
+<div class="col l3 m3 s3"><ul class="soc"><li><a target="_blank" class="soc-linkedin" href="https://www.linkedin.com/in/vishal-singh-284a89125/"></a></li></ul> </div>
 </div>
 <div class="row" style="margin-top: : 0px;">
 <div class="col l9 m9 s9">
 <ul><li>+91-8769797343</li>
 <li>vishalsingh08.iitkgp@gmail.com</li></ul> </div>
-    <div class="col l3 m3 s3"><ul class="soc"><li><a class="soc-facebook" href="https://www.facebook.com/profile.php?id=100010338962799"></a></li></ul></div> </div>
+    <div class="col l3 m3 s3"><ul class="soc"><li><a target="_blank" class="soc-facebook" href="https://www.facebook.com/profile.php?id=100010338962799"></a></li></ul></div> </div>
     </div>
   </div>
   </div>
@@ -91,12 +91,12 @@
      <div class="row"  style="margin-bottom: 0;">
     <div class="col l9 m9 s9">
       <span class="card-title  grey-text text-darken-4">Anmol Thakkar</span> </div>
-      <div class="col l3 m3 s3"><ul class="soc"><li><a class="soc-linkedin" href="https://www.linkedin.com/in/anmolthakkar/"></a></li></ul> </div>
+      <div class="col l3 m3 s3"><ul class="soc"><li><a target="_blank" class="soc-linkedin" href="https://www.linkedin.com/in/anmolthakkar/"></a></li></ul> </div>
 </div>
 <div class="row"  style="margin-top: : 0px;">
 <div class="col l9 m9 s9">
 <ul><li>+91-9475240720</li>
-       <li>anmolbt@gmail.com</li></ul> </div><div class="col l3 m3 s3"><ul class="soc"><li><a class="soc-facebook" href="https://www.facebook.com/anmol2112"></a></li></ul></div> </div>
+       <li>anmolbt@gmail.com</li></ul> </div><div class="col l3 m3 s3"><ul class="soc"><li><a target="_blank" class="soc-facebook" href="https://www.facebook.com/anmol2112"></a></li></ul></div> </div>
     </div>
   </div>
   </div>
@@ -236,7 +236,7 @@
    </div>
 </div>
       <div class="heading">
-          <center><h class="subheading"><b>Design Heads</b></h></center>
+          <center><h class="subheading"><b>Design Head</b></h></center>
       </div>
       <div class="row">
           <div class="col l4 m6 s12 offset-l4">
