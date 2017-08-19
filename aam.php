@@ -169,18 +169,21 @@ $result = $connection->query($query);
     
   <div class="row ac-aam">
 
-      <img style="width: 75%;padding: 10px 30px 10px 10px" src="img/14th_aam/aam_cover.jpg">
-	  <a class="waves-effect waves-light btn" href="signup.php" style="    padding: 50px;
-    padding-top: 4px;
-    padding-bottom: 76px;margin-top: -40em;margin-left: -1em">15th Annual Alumni Meet <br> Registration</a>
-
-  </div>
+      <div class="col l9"><img style="width: 98%;padding: 10px 30px 10px 10px" src="img/14th_aam/aam_cover.jpg"></div>
+      <div class="col l3" style="margin-top:3%;margin-left: -2.5%">
+          <div align="center" style="font-size: 25px;font-weight: 700">
+              15th Annual Alumni Meet
+          </div>
+          <div style="margin-top: 30%"><a class="waves-effect waves-light btn-large modal-trigger" href="#modal1" style="width: 105%" >LOGIN</a>
+              <br><br><a class="waves-effect waves-light btn" href="signup.php" style="width: 105%;height: 5em">15th Annual Alumni Meet <br> Registration</a>
+          </div>
+          </div></div>
   <div class="row">
   <div class="col l12 s12 m12">
     <center>
 	  <div class="heading ac-head" style="border:3px black solid;display:inline-block;padding-top:2px;margin:3px;padding-right:20px;padding-left:20px;">
-        <h4 style="margin-bottom: 0px;" ><b>14th Annual Alumni Meet</b> </h4> <br>
-      	<h5  style="margin-top: 0px;">13th to 15th January, 2017</h5> 
+        <h4 style="margin-bottom: 0px;" ><b>15th Annual Alumni Meet</b> </h4> <br>
+      	<h5  style="margin-top: 0px;">12th to 14th January, 2018</h5>
       </div>
     </center>
     <center>
@@ -191,6 +194,35 @@ $result = $connection->query($query);
   </div>
 </div>
 <hr class="hr" style="color:grey;width:70%">
+    <!-------  Modal Structure For login --------------------------------->
+    <div id="modal1" class="modal ">
+        <div class="modal-content">
+
+            <div class="row">
+                <form class="col s12 center-align" action="aam.php" method="POST">
+                    <div class="row">
+                        <h2>LOGIN</h2>
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">account_circle</i>
+                            <input id="icon_prefix" type="email" class="validate" name="email">
+                            <label for="icon_prefix">Email ID</label>
+                        </div>
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">vpn_key</i>
+                            <input id="icon_telephone" type="password" class="validate" name="password">
+                            <label for="icon_telephone">Password</label>
+                        </div>
+                        <button class="btn-large waves-effect waves-light " type="submit" name="action" style="margin-top:15px; width:200px;">Log In
+                            <i class="material-icons right">send</i> </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class=" modal-action modal-close waves-effect waves-blue btn-flat">CLOSE</a>
+        </div>
+    </div>
+  <!-- login Modal end -->
 <div class="images" style="background:white;">
   <div class="row">
   	<div class="col l6">
