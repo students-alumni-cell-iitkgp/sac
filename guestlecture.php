@@ -185,13 +185,13 @@ and motivate the students to achieve their dreams.
 
     <div class="col l3 s12 m3">
     <div class="video-container">
-        <iframe class="frame" src="https://youtu.be/embed/D96tjgVG1kQ" frameborder="1" allowfullscreen></iframe>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/v8xICuf_yAs" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
 	
 	<div class="col l3 s12 m3">
     <div class="video-container">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/v8xICuf_yAs" frameborder="0" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/D96tjgVG1kQ" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
 	
