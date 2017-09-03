@@ -205,6 +205,10 @@ body {
                           </div>';
               }
                ?>
+              <div class="row">
+                    <div style="width: 100%;" class="container center l12"><a style="font-size:20px;cursor:pointer;height: auto;background-color: #666; width: 100% " class="waves-effect waves-light btn-large" href="edit.php">Edit Registeration form</a>
+                    </div>
+              </div>
             </div>
         </div>
       </div>
