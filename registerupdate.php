@@ -1,8 +1,6 @@
 <?php
 session_start();
 $email = $_POST["email"];
-$password = $_POST["password"];
-$password = hash('sha256', $password);
 $name = $_POST["name"];
 $address = $_POST["address"];
 $city = $_POST["city"];
@@ -28,10 +26,8 @@ $department = $_POST["department"];
 $hall = $_POST["hall"];
 $graduatingYear = $_POST["graduatingYear"];
 $accompanyingNo = $_POST["accompanyingNo"];
-$hobbies=$_POST["hobbies"];
-$involvements=$_POST["involvements"];
 date_default_timezone_set('Asia/Kolkata');
-$time=date("Y-m-d H:i:s"); 
+$time=date("Y-m-d H:i:s");
 /*
 echo "$email : email<br>";
 echo "$password : password<br>";
@@ -61,12 +57,11 @@ echo "$hall : hall<br>";
 echo "$graduatingYear : graduatingYear<br>";
 */
 include 'connection.php';
-$sql = "INSERT INTO users (email,Time, name, password, address, city, state, country, zipCode, mobile, dob, marital, industry, profession, orgName, designation, work_city, work_state, work_country, work_zipCode, work_address, rollNum, joinYear, degree, department, hall, graduatingYear, accompanyingNo,hobbies,involvements)
-        VALUES ('$email','$time', '$name', '$password', '$address', '$city', '$state', '$country', '$zipCode', '$mobile', '$dob', '$marital', '$industry', '$profession', '$orgName', '$designation', '$work_city', '$work_state', '$work_country', '$work_zipCode', '$work_address', '$rollNum', '$joinYear', '$degree', '$department', '$hall', '$graduatingYear', '$accompanyingNo','$hobbies', '$involvements')";
+$sql = "UPDATE users SET email='$email',Time='$time', name='$name', address='$address', city='$city', state='$state', country='$country', zipCode='$zipCode', mobile='$mobile', dob='$dob', marital='$marital', industry='$industry', profession='$profession', orgName='$orgName', designation='$designation', work_city='$work_city', work_state='$work_state', work_country='$work_country', work_zipCode='$work_zipCode', work_address='$work_address', rollNum='$rollNum', joinYear='$joinYear', degree='$degree', department='$department', hall='$hall', graduatingYear='$graduatingYear', accompanyingNo='$accompanyingNo'   WHERE email='$email'";
 $_SESSION["email"] = $email;
 if ($connection->query($sql)) {
   $connection->close();
-  header('Location: ./registration-complete.php');
+  header('Location: home.php');
   exit;
 } else {
   echo "Error: " . $connection->error;

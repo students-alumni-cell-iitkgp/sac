@@ -16,7 +16,7 @@
     
 ?>
  <div class="container-fluid">
-    <form action="acco-travel-form-continue.php" method="post" style="text-align: left;">
+    <form action="acco-travel-form-continue2.php" method="post" style="text-align: left;">
        <h3> Travel Details </h3>
     <div class="input-field col s12">
     <select name="arrDate" required value="<?php echo @$query2['arrivaldate']; ?>">
@@ -229,3 +229,4 @@
       }
     }
   </script>
+
