@@ -43,19 +43,15 @@ include 'connection.php';
 @$prefDep=$_POST['prefDep'];
 @$prefHall=$_POST['prefHall'];
 
-$query1="INSERT INTO travel set email='$email', arrivaldate='$arrDate', arrivalstation='$arrSt', trainname='$trainName', trainno='$trainNo', accompanyno='$accNo', 
+$query1="UPDATE `sac`.`travel` SET arrivaldate='$arrDate', arrivalstation='$arrSt', trainname='$trainName', trainno='$trainNo', accompanyno='$accNo', 
 secondaryphone='$secPhone' , cabreq='$iscab', cabfrom='$cabWhere', cabat='$cabWhen',arrivaltime='$arrTime' , cabdate='$cabDate' , arrivalcabpref='$acabPref' , departdate='$depDate' ,
- departtime='$depTime' , departtrain='$dtrainName' , departtrainno='$dtrainNo' , departstation='$depSt' , depcabreq='$iscab2' , depcabpref='$dcabPref', cabpeople='$cabPpl' ON DUPLICATE KEY UPDATE  email='$email', arrivaldate='$arrDate', arrivalstation='$arrSt', trainname='$trainName', trainno='$trainNo', accompanyno='$accNo', 
-secondaryphone='$secPhone' , cabreq='$iscab', cabfrom='$cabWhere', cabat='$cabWhen',arrivaltime='$arrTime' , cabdate='$cabDate' , arrivalcabpref='$acabPref' , departdate='$depDate' ,
- departtime='$depTime' , departtrain='$dtrainName' , departtrainno='$dtrainNo' , departstation='$depSt' , depcabreq='$iscab2' , depcabpref='$dcabPref', cabpeople='$cabPpl'";
+ departtime='$depTime' , departtrain='$dtrainName' , departtrainno='$dtrainNo' , departstation='$depSt' , depcabreq='$iscab2' , depcabpref='$dcabPref', cabpeople='$cabPpl' WHERE `travel`.`email`='$email' ";
 
 $result1=$connection->query($query1);
 
-$query2="INSERT INTO accommodation SET email='$email', accompanyno='$accNo2', accname1='$accName1', accrel1='$accRel1', accage1='$accAge1', accname2='$accName2', 
+$query2="UPDATE `sac`.`accommodation` SET accompanyno='$accNo2', accname1='$accName1', accrel1='$accRel1', accage1='$accAge1', accname2='$accName2', 
 accrel2='$accRel2', accage2='$accAge2', accname3='$accName3', accrel3='$accRel3', accage3='$accAge3', prefname='$prefName', prefyear='$prefYear', prefdep='$prefDep', 
-prefhall='$prefHall' ON DUPLICATE KEY UPDATE  email='$email', accompanyno='$accNo2', accname1='$accName1', accrel1='$accRel1', accage1='$accAge1', accname2='$accName2', 
-accrel2='$accRel2', accage2='$accAge2', accname3='$accName3', accrel3='$accRel3', accage3='$accAge3', prefname='$prefName', prefyear='$prefYear', prefdep='$prefDep', 
-prefhall='$prefHall'";
+prefhall='$prefHall' WHERE  `accomodation`.`email`='$email' ";
 
 $result2=$connection->query($query2);
 
@@ -76,3 +72,4 @@ else {
 }
 
 ?>
+

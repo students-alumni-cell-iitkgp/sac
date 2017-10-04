@@ -1,6 +1,6 @@
 <?php
 require 'connection.php';
-ob_start(); 
+ob_start();
 session_start();
 if ($_SESSION["email"] == "") {
   header('Location: aam.php');
@@ -12,17 +12,17 @@ if ($_SESSION["email"] == "") {
     $query_run1=$connection->query($query1);
     $query_run2=$connection->query($query3);
     if (($query_run1)&&($query_run2)) {
-      if(($query_run1->num_rows > 0)&&($query_run2->num_rows > 0)){       
+      if(($query_run1->num_rows > 0)&&($query_run2->num_rows > 0)){
             $query2 = mysqli_fetch_assoc($query_run1);
             $query4 = mysqli_fetch_assoc($query_run2);
       }
-      
-    } 
+
+    }
 ?>
-<?php 
+<?php
           $query="SELECT name FROM users WHERE email='".$_SESSION["email"]."'";
           if( $query_run = mysqli_query($connection, $query) ){
-            
+
             $row = mysqli_fetch_assoc($query_run);
             $name = $row['name'];
             }
@@ -135,7 +135,7 @@ body {
               <div class="card-title text_align" style="font-weight: bold;font-size: 30px;">
                 Payment Details
               </div>
-                Every visiting alumnus has to pay INR 5000. This includes your accomodation, fooding and conveyance charge at Kharagpur. If there is any other person accompanying you an additional payment of INR 2500 per head will have
+                Every visiting alumnus has to pay INR 7000. This includes your accomodation, fooding and conveyance charge at Kharagpur. If there is any other person accompanying you an additional payment of INR 4000 per head will have
                 to be made.
                 <br> Payment methods:-
                 <ul class="">
@@ -165,7 +165,7 @@ body {
                 Transportation Details
               </div>
               Conveyance from Kharagpur Railway Station to IIT Kharagpur will be provided by us.<br><br>
-              If you require transportation from Kolkata to IIT Kharagpur, it can be arranged through us on chargeable basis. Kindly Fill your details in this form.<br> 
+              If you require transportation from Kolkata to IIT Kharagpur, it can be arranged through us on chargeable basis. Kindly Fill your details in this form.<br>
             </div>
           </div>
         </div>
@@ -197,7 +197,7 @@ body {
             </div>
             <?php if ($query_run2->num_rows > 0) {
                 echo '<div class="row">
-                    <div style="width: 100%;" class="container center l12"><span style="font-size:20px;cursor:pointer;background-color: #666; " onclick="openNav()" id="button02" class="waves-effect waves-light btn-large "> Edit Response</span></div>
+                    <div style="width: 100%;" class="container center l12"><span style="font-size:20px;cursor:pointer;background-color: #666;height:110px; " onclick="openNav()" id="button02" class="waves-effect waves-light btn-large "> Edit Transportation and Accomodation details</span></div>
                     </div>';
               } else {
                 echo '<div class="row">
@@ -205,6 +205,10 @@ body {
                           </div>';
               }
                ?>
+              <div class="row">
+                    <div style="width: 100%;" class="container center l12"><a style="font-size:20px;cursor:pointer;height: auto;background-color: #666; width: 100% " class="waves-effect waves-light btn-large" href="edit.php">Edit Registration form</a>
+                    </div>
+              </div>
             </div>
         </div>
       </div>
@@ -234,6 +238,6 @@ function closeNav() {
 }
 </script>
 <?php include 'footer.php';?>
- 
+
   </body>
   </html>

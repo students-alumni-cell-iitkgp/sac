@@ -8,10 +8,7 @@
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/style.css">
 <style type="text/css">
-
-
 @media only screen and (max-width: 1350px) {
-
         .normal{
         margin: 10px;
          width: 25vw;
@@ -31,14 +28,11 @@
        margin:10px;
        margin-left: -9px;
     }
-
     .ac-guest img{ height: 30%;
 margin: 0px auto;
 max-width:100%;
-
     }
     }
-
 @media only screen and (min-width: 768px){
       .ac-guest img{
         margin-left: 80px;

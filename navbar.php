@@ -83,6 +83,7 @@
     <li><a href="mentorship.php">Mentorship Programme</a></li>
     <li><a href="imprint.php">My Imprint</a></li>
     <li><a href="sparc.php">SPARC</a></li>
+    <li><a href="acap.php">ACAP</a></li>
   </ul>
   <ul id="publications" class="dropdown-content" style="min-width: 200px;">
     <li><a href="yearbook.php">Yearbook</a></li>
@@ -137,6 +138,7 @@
                   <li><a href="mentorship.php">Mentorship Program</a></li>
                   <li><a href="imprint.php">My Imprint</a></li>
                   <li><a href="sparc.php">SPARC</a></li>
+                  <li><a href="acap.php">ACAP</a></li>
                 </ul>
               </div></li></ul></li>
         <li class="no-padding">
