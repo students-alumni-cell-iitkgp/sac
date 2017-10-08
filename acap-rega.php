@@ -11,11 +11,12 @@
 
 
 <?php
+session_start();
 
-$DB_NAME = 'sac_acap';
+$DB_NAME = 'acap';
 $DB_HOST = 'localhost';
-$DB_USER = 'sac';
-$DB_PASS = 'saciitkgp123';
+$DB_USER = 'root';
+$DB_PASS = '';
 $connection = new mysqli($DB_HOST, $DB_USER, $DB_PASS, $DB_NAME);
 if ($connection->connect_error) {
   // die("Connecton failed: ".$connection->connect_error);
@@ -34,6 +35,11 @@ $pc1 = $_POST["city"];
 $pc2 = $_POST["expertise"];
 $pc3 = $_POST["designation"];
 $year = $_POST["gradyear"];
+$pc5=$_POST["PC6"];
+
+
+if($_SESSION['captcha_code1'] == $pc5){
+
 if($name!='' && $phone != "" && $email != "" && $roll != ""&& $pc1 != ""&& $pc2 != "" && $pc3 != ""){
 
 $sql = "INSERT INTO alumni (name,email,phone,current_company,current_designation,current_city,area_expertise,gradyear)
@@ -99,6 +105,34 @@ else {
   </script>
   </body>';
 
+}
+}
+else
+{
+  echo '<body>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
+  <!-- Modal Trigger -->
+  <a class="waves-effect waves-light btn modal-trigger" style="display: none;" href="#modal1">Specialization</a>
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Error</h4>
+      <p> WRONG CAPTCHA
+  </p>
+    </div>
+    <div class="modal-footer">
+      <a href="acap.php" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+    $("#modal1").openModal();
+  });
+  </script>
+  </body>';
 }
 
 ?>

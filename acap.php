@@ -305,6 +305,23 @@ Thus, we encourage all alumni to sign up for the Program and start off on the tr
 
 </div>
 
+<div class="row">
+
+<?php
+ @session_start();
+include 'demo1.php';
+     ?>
+
+   <div class="input-field col s12">
+     <input placeholder="ENTER CAPTCHA" name="PC6" type="text" class="validate">
+
+     <label for="email">ENTER CAPTCHA</label>
+
+
+   </div>
+
+ </div>
+
 </div>
 
 
@@ -466,9 +483,33 @@ Thus, we encourage all alumni to sign up for the Program and start off on the tr
 
  </div>
 
+<div class="row">
+
+<?php
+ @session_start();
+include 'demo.php';
+     ?>
+
+   <div class="input-field col s12">
+     <input placeholder="ENTER CAPTCHA" name="PC5" type="text" class="validate">
+
+     <label for="email">ENTER CAPTCHA</label>
+
+
+   </div>
+
+ </div>
+ 
+
+    
+
+   
+
+
 </div>
 
 </div>
+
 
 
 
@@ -515,7 +556,6 @@ $(document).ready(function(){
 });
 
 </script>
-
 
 
 
