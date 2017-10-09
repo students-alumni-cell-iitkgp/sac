@@ -309,11 +309,11 @@ Thus, we encourage all alumni to sign up for the Program and start off on the tr
 
 <?php
  @session_start();
-include 'demo1.php';
+include 'captcha_gen_a.php';
      ?>
 
    <div class="input-field col s12">
-     <input placeholder="ENTER CAPTCHA" name="PC6" type="text" class="validate">
+     <input placeholder="ENTER CAPTCHA" name="captcha_a" type="text" class="validate">
 
      <label for="email">ENTER CAPTCHA</label>
 
@@ -487,11 +487,11 @@ include 'demo1.php';
 
 <?php
  @session_start();
-include 'demo.php';
+include 'captcha_gen_s.php';
      ?>
 
    <div class="input-field col s12">
-     <input placeholder="ENTER CAPTCHA" name="PC5" type="text" class="validate">
+     <input placeholder="ENTER CAPTCHA" name="captcha_s" type="text" class="validate">
 
      <label for="email">ENTER CAPTCHA</label>
 

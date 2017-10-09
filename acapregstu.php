@@ -36,9 +36,9 @@ $pc1 = $_POST["PC1"];
 $pc2 = $_POST["PC2"];
 $pc3 = $_POST["PC3"];
 $pc4=$_POST["PC4"];
-$pc5=$_POST["PC5"];
+$captcha_s=$_POST["captcha_s"];
 
-if($_SESSION['captcha_code'] == $pc5){
+if($_SESSION['captcha_code'] == $captcha_s){
 
 
 if($name!='' && $phone != "" && $email != "" && $roll != ""&& $pc1 != ""&& $pc2 != "" && $pc3 != ""){

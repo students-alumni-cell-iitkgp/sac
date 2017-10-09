@@ -35,10 +35,10 @@ $pc1 = $_POST["city"];
 $pc2 = $_POST["expertise"];
 $pc3 = $_POST["designation"];
 $year = $_POST["gradyear"];
-$pc5=$_POST["PC6"];
+$captcha_a=$_POST["captcha_a"];
 
 
-if($_SESSION['captcha_code1'] == $pc5){
+if($_SESSION['captcha_code1'] == $captcha_a){
 
 if($name!='' && $phone != "" && $email != "" && $roll != ""&& $pc1 != ""&& $pc2 != "" && $pc3 != ""){
 

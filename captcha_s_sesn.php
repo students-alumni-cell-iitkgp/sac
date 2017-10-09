@@ -1,8 +1,5 @@
 <?php
-/*phptext class, version 1.0
-created by www.w3schools.in (Gautam kumar)
-April 26, 2014
-*/
+
 class phptextClass
 {	
 	public function phptext($text,$textColor,$backgroundColor='',$fontSize,$imgWidth,$imgHeight,$dir,$fileName)
@@ -23,7 +20,7 @@ class phptextClass
 			$backgroundColor = imagecolorallocate($im, $backgroundColor['r'],$backgroundColor['g'],$backgroundColor['b']);
 		}
 		
-		//imagefill($im,0,0,$backgroundColor);	
+		imagefill($im,0,0,$backgroundColor);	
 		list($x, $y) = $this->ImageTTFCenter($im, $text, $font, $fontSize);	
 		imagettftext($im, $fontSize, 0, $x, $y, $textColor, $font, $text);
 		if(imagejpeg($im,$dir.$fileName,90)){/*save image as JPG*/

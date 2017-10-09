@@ -1,6 +1,6 @@
 <?php
 	session_start();
-	include("./phptextClass.php");	
+	include("./captcha_a_sesn.php");	
 	
 	/*create class object*/
 	$phptextObj = new phptextClass();	

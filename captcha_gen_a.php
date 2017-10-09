@@ -9,7 +9,7 @@
 
 
     
-   <img src="captcha1.php?rand=<?php echo rand();?>" id='captchaimg'>
+   <img src="captcha_a.php?rand=<?php echo rand();?>" id='captchaimg'>
         <br>
         
         <br>
