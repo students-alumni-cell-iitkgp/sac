@@ -12,11 +12,8 @@
 
 <?php
 session_start();
-
+require 'connection.php';
 $DB_NAME = 'acap';
-$DB_HOST = 'localhost';
-$DB_USER = 'root';
-$DB_PASS = '';
 $connection = new mysqli($DB_HOST, $DB_USER, $DB_PASS, $DB_NAME);
 if ($connection->connect_error) {
   // die("Connecton failed: ".$connection->connect_error);
