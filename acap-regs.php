@@ -13,9 +13,7 @@
 <?php
 
 $DB_NAME = 'sac_acap';
-$DB_HOST = 'localhost';
-$DB_USER = 'sac';
-$DB_PASS = 'saciitkgp123';
+require 'connection.php'
 $connection = new mysqli($DB_HOST, $DB_USER, $DB_PASS, $DB_NAME);
 if ($connection->connect_error) {
   // die("Connecton failed: ".$connection->connect_error);
