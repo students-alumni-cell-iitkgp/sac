@@ -13,7 +13,7 @@
 
 session_start();
 
-require 'connection.php'
+require 'connection.php';
 $DB_NAME = 'sac_acap';
 $connection = new mysqli($DB_HOST, $DB_USER, $DB_PASS, $DB_NAME);
 if ($connection->connect_error) {
