@@ -35,8 +35,8 @@
       departments include a message from the Head of Departments other than mentioning the names and photographs of its graduating students. 
       The yearbook also showcase all the events that IIT Kharagpur had organized in the preceding year.
         Each year, the Students' Alumni Cell strives to make the yearbook as wholesome and complete which could entail the different prospects of life of the alumni. 
-        <form action="http://www.sac.iitkgp.ac.in/yearbook/plugin/index.php" style="width: 100%;margin-top: 0" class="center" method="">
-       <button class="btn waves-effect waves-light" type="submit" name="action">Go to Yearbook Portal 2k17</button>
+        <form action="https://drive.google.com/drive/folders/0ByPZPiiPCG8_dl9fc2I2bFdHUmc" style="width: 100%;margin-top: 0" class="center" method="">
+       <button class="btn waves-effect waves-light" type="submit" name="action" >Go to Yearbook 2k17</button>
        </form>
     </p>
   </div>
@@ -48,7 +48,19 @@
 	<div class="col s12 m6 l3 offset-l1">
           <div class="card z-depth-0 _card">
             <div class="card-image">
-              <img src="img/yearbook/year16.jpg">
+              <img src="img/yearbook/year17.jpg">
+              
+            </div>
+            <div class="card-content">
+              <p>Yearbook 2017</p>
+            </div>
+            
+          </div>
+	</div>
+    <div class="col s12 m6 l3">
+          <div class="card z-depth-0 _card">
+            <div class="card-image">
+             <img src="img/yearbook/year16.jpg">
               
             </div>
             <div class="card-content">
@@ -56,7 +68,7 @@
             </div>
             
           </div>
-	</div>
+  </div>
 	<div class="col s12 m6 l3">
           <div class="card z-depth-0 _card">
             <div class="card-image">
@@ -69,7 +81,10 @@
             
           </div>
 	</div>
-	<div class="col s12 m6 l3">
+
+	</div>
+	<div class="row" style="margin:auto;width:90%;">
+      <div class="col s12 m6 l3 offset-l1">
           <div class="card z-depth-0 _card">
             <div class="card-image">
               <img src="img/yearbook/year2014.jpg">
@@ -80,10 +95,8 @@
             </div>
             
           </div>
-	</div>
-	</div>
-	<div class="row" style="margin:auto;width:90%;">
-	<div class="col s12 m6 l3 offset-l4">
+  </div>
+	<div class="col s12 m6 l3">
           <div class="card z-depth-0 _card">
             <div class="card-image">
               <img src="img/yearbook/year2013.jpg">
