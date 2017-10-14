@@ -48,7 +48,7 @@
 	<div class="col s12 m6 l3 offset-l1">
           <div class="card z-depth-0 _card">
             <div class="card-image">
-              <img src="img/yearbook/year17.jpg">
+              <img height: 51%; src="img/yearbook/year17.jpg">
               
             </div>
             <div class="card-content">
@@ -83,11 +83,11 @@
 	</div>
 
 	</div>
-	<div class="row" style="margin:auto;width:90%;">
-      <div class="col s12 m6 l3 offset-l1">
+	<div class="row" style="width:90%;">
+      <div class="col s12 m6 l2 offset-l1">
           <div class="card z-depth-0 _card">
             <div class="card-image">
-              <img src="img/yearbook/year2014.jpg">
+              <img height: 47%; src="img/yearbook/year2014.jpg">
               
             </div>
             <div class="card-content">
@@ -99,7 +99,7 @@
 	<div class="col s12 m6 l3">
           <div class="card z-depth-0 _card">
             <div class="card-image">
-              <img src="img/yearbook/year2013.jpg">
+              <img height: 47%; src="img/yearbook/year2013.jpg">
               
             </div>
             <div class="card-content">
