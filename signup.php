@@ -238,10 +238,7 @@
       <input  type="number" min="0" id="accompanyingNo" name="accompanyingNo">
       <label for="accompanyingNo">Accompaniments(Number of guests)</label>
     </div>
-     <div class="input-field col s12"  style="margin-bottom:20px;margin-top:3%">      
-      <input  type="text" min="0" id="captcha" name="captcha">
-      <label for="captcha">Enter Captcha</label>
-    </div>
+     
      
     <div class="col s12">
       <center>
