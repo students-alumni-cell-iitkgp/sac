@@ -5,11 +5,11 @@
 <head>
 <title>Register | Annual Alumni Meet &middot; IIT Kharagpur</title>
 <link rel="stylesheet" href="css/materialize.min.css">
-	  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-	  <script src="js/materialize.min.js"></script>
-	  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	  <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -58,14 +58,14 @@
     }
    } 
 </style>
-	  <script>
-	  $(document).ready(function(){
+    <script>
+    $(document).ready(function(){
       $('.slider').slider({full_width: true});
     });
   $( function() {
     $( ".datepicker" ).datepicker({ dateFormat: 'dd-mm-yy' ,maxDate: '0'});
   } );
-	  </script>
+    </script>
 </head>
 <body>
 <div class="_wrapper">
