@@ -238,6 +238,18 @@ Current or past work experiences as per relevance
         <input  type="number" min="0" id="accompanyingNo" name="accompanyingNo">
         <label for="accompanyingNo">Accompaniments(Number of guests)</label>
       </div>
+      <div class="input-field col s3"  style="margin-bottom:20px;margin-top:3%"> 
+        <?php
+ @session_start();
+include 'captcha_gen_a.php';
+     ?>  
+   </div>
+      <div class="input-field col s9"  style="margin-bottom:20px;margin-top:3%"> 
+
+   
+        <input  type="text" id="captcha" name="captcha">
+        <label for="captcha">CAPTCHA</label>
+      </div>
       <div class="col s12">
       <center>
         <button type="submit" class="btn btn-success btn-lg btn-block" name="button" style="width:25%">SUBMIT</button>
