@@ -194,11 +194,10 @@ $result = $connection->query($query);
   </div>
 </div>
 <hr class="hr" style="color:grey;width:70%">
-<<<<<<< HEAD
+
     <!---  Modal Structure For login - -->
-=======
-    <!-------  Modal Structure For login-->
->>>>>>> 91a0d6dfaaea12302c94e79aaeef1869ddd7b13a
+    <!---  Modal Structure For login-->
+
     <div id="modal1" class="modal ">
         <div class="modal-content">
 
