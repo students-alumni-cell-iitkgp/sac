@@ -9,7 +9,7 @@ if(isset($_POST['commit'])){
     $var5=$_POST['add'];
     
     include 'connection.php';
-    $sql = "INSERT INTO chapter (name,desi, email,contact,phone ,city)
+    $sql = "INSERT INTO joinus (name,desi, email,contact,phone ,city)
     VALUES ('$var1','$var6','$var2','$var3','$var4','$var5')";
     if (mysqli_query($connection, $sql)) {
         echo "<h1><script>alert('Thanks! Your message has been succesfully sent');</script></h1>";
