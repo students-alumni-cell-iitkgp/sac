@@ -27,7 +27,7 @@ $hall = $_POST["hall"];
 $graduatingYear = $_POST["graduatingYear"];
 $accompanyingNo = $_POST["accompanyingNo"];
 date_default_timezone_set('Asia/Kolkata');
-$time=date("Y-m-d H:i:s"); 
+$time=date("Y-m-d H:i:s");
 /*
 echo "$email : email<br>";
 echo "$password : password<br>";

@@ -2,19 +2,19 @@
 <head>
 <title>Register | Annual Alumni Meet &middot; IIT Kharagpur</title>
 <link rel="stylesheet" href="css/materialize.min.css">
-	  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-	  <script src="js/materialize.min.js"></script>
-	  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	  <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
 <script type="text/javascript">
-  if(window.location.href!='http://www.sac.iitkgp.ac.in/signup.php'){
-    window.location.assign("http://www.sac.iitkgp.ac.in/signup.php");
-  }
+//  if(window.location.href!='http://www.sac.iitkgp.ac.in/signup.php'){
+  //  window.location.assign("http://www.sac.iitkgp.ac.in/signup.php");
+ // }
 
 </script>
 <style type="text/css">
@@ -53,16 +53,26 @@
       max-width: 100%;
       height: 60px;
     }
-   } 
+
+   }
+   .heading{
+  padding-top: 10px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+} 
 </style>
-	  <script>
-	  $(document).ready(function(){
+    <script>
+    $(document).ready(function(){
       $('.slider').slider({full_width: true});
     });
   $( function() {
     $( ".datepicker" ).datepicker({ dateFormat: 'dd-mm-yy' ,maxDate: '0'});
   } );
-	  </script>
+  $(document).ready(function(){
+          // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+          $('.modal-trigger').leanModal();
+        });
+    </script>
 </head>
 <body>
 <div class="_wrapper">
@@ -71,8 +81,14 @@
  <form action="register.php" method="post">
       <div class="heading">
       <center>
+
+          <div><a class="waves-effect waves-light btn-large modal-trigger" href="aam.php#modal1" >LOGIN - If already Registered</a></div>
+      <hr><hr><br>
+
+<p style="text-align:center">The registration fee per alumnus/alumna: Rs. 7000 and Rs. 4000 per additional guest. It covers all expenses the moment you step into your campus. It includes food, accommodation and entertainment. The payment can be made via cheque, DD or NEFT. Please fill the registration form below and take note of the password for future login. You will be contacted by Students' Alumni Cell. </p><br><hr><hr><br>
+<br>
         <h class="subheading"><b>Personal Details</b> </h>
-      </center>
+ </center>
     </div>
     
       <div class="input-field col s12">
@@ -90,7 +106,7 @@
       
       
         <input  type="password" id="password" name="password" required>
-        <label for="password">Password *</label>
+        <label for="password">Password (For future login) *</label>
       </div>
       <div class="input-field col s12">
        
@@ -135,9 +151,11 @@
      
      <div class="heading">
       <center>
-        <h class="subheading" ><b>Where do you work ?</b> </h>
-      </center>
-    </div>
+        <h class="subheading" >Work Experience</h>
+         
+      </center><br><center style="color:#9e9e9e">
+Current or past work experiences as per relevance
+   </center> </div>
       <div class="input-field col s12">
       
         <input  type="text" id="ind" name="industry"  required>
@@ -216,10 +234,31 @@
         <input  type="number" min="1955" max="2010" id="yog" name="graduatingYear" required>
        <label for="yog">Year of Graduating *</label>
       </div>
-      <div class="input-field col s12"  style="margin-bottom:20px;">
-      
+      <div class="input-field col s12">
+        <input  type="text" id="involvements" name="involvements">
+       <label for="yog">Involvements within the campus(societies,hall events,etc)?</label>
+      </div>
+      <div class="input-field col s12">
+        <input  type="text" id="hobbies" name="hobbies">
+       <label for="yog">Hobbies.</label>
+      </div>
+
+<br>
+      <div class="input-field col s12"  style="margin-bottom:20px;margin-top:3%">      
         <input  type="number" min="0" id="accompanyingNo" name="accompanyingNo">
-        <label for="accompanyingNo">Accompaniments</label>
+        <label for="accompanyingNo">Accompaniments(Number of guests)</label>
+      </div>
+      <div class="input-field col s3"  style="margin-bottom:20px;margin-top:3%"> 
+        <?php
+ @session_start();
+include 'captcha_gen_a.php';
+     ?>  
+   </div>
+      <div class="input-field col s9"  style="margin-bottom:20px;margin-top:3%"> 
+
+   
+        <input  type="text" id="captcha" name="captcha">
+        <label for="captcha">CAPTCHA</label>
       </div>
       <div class="col s12">
       <center>

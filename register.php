@@ -1,5 +1,6 @@
 <?php
 session_start();
+$captcha = $_POST["captcha"];
 $email = $_POST["email"];
 $password = $_POST["password"];
 $password = hash('sha256', $password);
@@ -28,6 +29,8 @@ $department = $_POST["department"];
 $hall = $_POST["hall"];
 $graduatingYear = $_POST["graduatingYear"];
 $accompanyingNo = $_POST["accompanyingNo"];
+$hobbies=$_POST["hobbies"];
+$involvements=$_POST["involvements"];
 date_default_timezone_set('Asia/Kolkata');
 $time=date("Y-m-d H:i:s"); 
 /*
@@ -58,9 +61,11 @@ echo "$department : department<br>";
 echo "$hall : hall<br>";
 echo "$graduatingYear : graduatingYear<br>";
 */
+
+if($_SESSION['captcha_code1'] == $captcha){
 include 'connection.php';
-$sql = "INSERT INTO users (email,Time, name, password, address, city, state, country, zipCode, mobile, dob, marital, industry, profession, orgName, designation, work_city, work_state, work_country, work_zipCode, work_address, rollNum, joinYear, degree, department, hall, graduatingYear, accompanyingNo)
-        VALUES ('$email','$time', '$name', '$password', '$address', '$city', '$state', '$country', '$zipCode', '$mobile', '$dob', '$marital', '$industry', '$profession', '$orgName', '$designation', '$work_city', '$work_state', '$work_country', '$work_zipCode', '$work_address', '$rollNum', '$joinYear', '$degree', '$department', '$hall', '$graduatingYear', '$accompanyingNo')";
+$sql = "INSERT INTO users (email,Time, name, password, address, city, state, country, zipCode, mobile, dob, marital, industry, profession, orgName, designation, work_city, work_state, work_country, work_zipCode, work_address, rollNum, joinYear, degree, department, hall, graduatingYear, accompanyingNo,hobbies,involvements)
+        VALUES ('$email','$time', '$name', '$password', '$address', '$city', '$state', '$country', '$zipCode', '$mobile', '$dob', '$marital', '$industry', '$profession', '$orgName', '$designation', '$work_city', '$work_state', '$work_country', '$work_zipCode', '$work_address', '$rollNum', '$joinYear', '$degree', '$department', '$hall', '$graduatingYear', '$accompanyingNo','$hobbies', '$involvements')";
 $_SESSION["email"] = $email;
 if ($connection->query($sql)) {
   $connection->close();
@@ -69,4 +74,33 @@ if ($connection->query($sql)) {
 } else {
   echo "Error: " . $connection->error;
 }
+}
+else
+{
+  echo '<body>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
+  <!-- Modal Trigger -->
+  <a class="waves-effect waves-light btn modal-trigger" style="display: none;" href="#modal1">Specialization</a>
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Error</h4>
+      <p> WRONG CAPTCHA
+  </p>
+    </div>
+    <div class="modal-footer">
+      <a href="aam.php" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+    $("#modal1").openModal();
+  });
+  </script>
+  </body>';
+}
+
 ?>
