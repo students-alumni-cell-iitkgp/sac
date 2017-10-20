@@ -37,7 +37,7 @@ if(($query_run3)){
  </div>
  <div id="1968" class="col s12">
   <?php 
-  @$query7=" SELECT name, hall, department FROM users WHERE email!= '$email' AND graduatingYear= '1968' 
+  @$query7=" SELECT name, hall, department FROM users WHERE graduatingYear= '1968' 
   ORDER BY department ASC";
   $query_run4=$connection->query($query7);
   if($query_run4->num_rows > 0){
@@ -130,7 +130,7 @@ if(($query_run3)){
 </div>
 <div id="1978" class="col s12">
   <?php 
-  @$query7=" SELECT name, hall, department FROM users WHERE email!= '$email' AND graduatingYear= '1978' 
+  @$query7=" SELECT name, hall, department FROM users WHERE graduatingYear= '1978' 
   ORDER BY department ASC";
   $query_run4=$connection->query($query7);
   if($query_run4->num_rows > 0){
@@ -224,7 +224,7 @@ if(($query_run3)){
 </div>
 <div id="1993" class="col s12">
   <?php 
-  @$query7=" SELECT name, hall, department FROM users WHERE email!= '$email' AND graduatingYear= '1993' 
+  @$query7=" SELECT name, hall, department FROM users WHERE graduatingYear= '1993' 
   ORDER BY department ASC";
   $query_run4=$connection->query($query7);
   if($query_run4->num_rows > 0){
@@ -318,7 +318,7 @@ if(($query_run3)){
 </div>
 <div id="others" class="col s12">
   <?php 
-  @$query7=" SELECT name, hall, department FROM users WHERE email!= '$email' AND graduatingYear != '1968' AND graduatingYear != '1978'
+  @$query7=" SELECT name, hall, department FROM users WHERE graduatingYear != '1968' AND graduatingYear != '1978'
   AND graduatingYear != '1993'
   ORDER BY department ASC";
   $query_run4=$connection->query($query7);
