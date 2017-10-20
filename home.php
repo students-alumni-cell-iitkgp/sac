@@ -21,7 +21,7 @@ if (($query_run1)&&($query_run2)) {
 }
 ?>
 <?php
-$query="SELECT name FROM users WHERE email='".$_SESSION["email"]."'";
+$query="SELECT * FROM users WHERE email='".$_SESSION["email"]."'";
 if( $query_run = mysqli_query($connection, $query) ){
   $row = mysqli_fetch_assoc($query_run);
   $name = $row['name'];
@@ -172,11 +172,22 @@ if( $query_run = mysqli_query($connection, $query) ){
       </div>
       <div class="col l5 m12 s12" id="intro">
         <div class="card-panel teal lighten-5 " style="width: 100%;text-align: 40px;">
+          <div class="container">
+            <?php 
+            include 'profile_pic.php';
+            ?>
+          </div>
+        </div>
+      </div>
+      <div class="col l5 m12 s12" id="intro">
+        <div class="card-panel teal lighten-5 " style="width: 100%;text-align: 40px;">
           <div class="row">
             <div style="width: 100%;" class="container center l12"><a style="font-size:20px;cursor:pointer;background-color: #666;height:auto; "  class="waves-effect waves-light btn modal-trigger " href="#modal1">View Registered Alumni </a></div>
           </div>
           <h3 style="width: 100%; text-align: center;" >Welcome</h3>
+
           <div class="row">
+            <div class="col l6 m12 s12 center headl"></div>
             <div class="col l6 m12 s12 center headl">Name</div>
             <div class="col l6 m12 s12 input center"><?php  echo $name;  ?></div>
           </div>
