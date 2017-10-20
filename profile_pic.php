@@ -42,7 +42,7 @@ $url = $row['url'];
       <div class="file-field input-field">
         <div class="btn">
           <span>Browse your image</span>
-          <input type="file" name="fileToUpload" id="fileToUpload">
+          <input type="file" name="filetoupload" id="fileToUpload">
         </div>
         <div class="file-path-wrapper">
           <input class="file-path validate" type="text" required="required">

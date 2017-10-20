@@ -8,7 +8,7 @@ if( $query_run = mysqli_query($connection, $query) ){
   $name = $row['name'];
 }
 
-@$file_name = $name.'.'.end(explode(".",$_FILES["fileToUpload"]["name"] ));
+@$file_name = $name.'.'.end(explode(".",$_FILES["filetoupload"]["name"] ));
 
 $target_dir = "upload/";
 $target_file = $target_dir . basename($file_name);
@@ -16,7 +16,7 @@ $uploadOk = 1;
 $imageFileType = pathinfo($target_file,PATHINFO_EXTENSION);
 // Check if image file is a actual image or fake image
 if(isset($_POST["submit"])) {
-  @$check = getimagesize($_FILES["fileToUpload"]["tmp_name"]);
+  @$check = getimagesize($_FILES["filetoupload"]["tmp_name"]);
   if($check !== false) {
     $message =  "File is an image - " . $check["mime"] . ".";
     $uploadOk = 1;
@@ -32,7 +32,7 @@ if (file_exists($target_file)) {
   $uploadOk = 0;
 }*/
 // Check file size
-if ($_FILES["fileToUpload"]["size"] > 100000) {
+if ($_FILES["filetoupload"]["size"] > 100000) {
   $message1 =  "Your picture is too large, must be less than 100 Kb";
   $uploadOk = 0;
 }
@@ -49,7 +49,7 @@ if ($uploadOk == 0) {
 }
 else
 {
-  if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_file))
+  if (move_uploaded_file($_FILES["filetoupload"]["tmp_name"], $target_file))
   {
     $sql = "UPDATE users SET url ='$target_file' WHERE email='".$_SESSION["email"]."'";
 
