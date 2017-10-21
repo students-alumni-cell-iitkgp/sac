@@ -42,39 +42,70 @@ if ($result->num_rows > 0) {
 }
 */
 ?>
-<?php 
-if (isset($_POST['action'])) {
-require 'connection.php';
-  session_start();
-  
- $email=$_POST['email'];
-  $password=$_POST['password'];
-  $password_hash=hash('sha256', $password);
-  if (!empty($email)&&!empty($password)) {
-    
-    $query="SELECT * FROM users WHERE email='".$email."' AND password='".$password_hash."'";
-    //echo "cont..";
-$result = $connection->query($query);
-     // $query_num_rows=mysqli_num_rows($result);
-      //echo  $query_num_rows;
-      /*if ($query_num_rows==10) {
-        echo '<script language="javascript">alert("Invalid Email ID/PASSWORD ");</script>';
-      }*/
-      //echo $result->num_rows;
-      if ($result->num_rows > 0)  {
-      
-        //$user_id=mysql_result($query_run, 0,'email');
-        $_SESSION['email']=$email;
-         echo '<script language="javascript">alert("Logging you in");</script>';
-        header('location:home.php');
-      }else
-        echo '<script language="javascript">alert("Invalid Email ID/ Password");</script>';
-    //} 
-  }else {
-    echo '<script language="javascript">alert("You must supply Email ID and PASSWORD");</script>';
-  }
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+
+
+
+
+
+
+<script type="text/javascript">
+$(function () {
+
+        $('#form1').on('submit', function (e) {
+
+          e.preventDefault();
+
+          $.ajax({
+            type: 'post',
+            url: 'aamlogin.php',
+            data: $('#form1').serialize(),
+            success: function (response) {
+               if(response=='0')
+               {
+                swal({
+  title: "INCOMPLETE DETAILS!",
+  text: "Please enter email-id and password!",
+  icon: "error",
+  buttons: true,
+  dangerMode: true,
+}).then((value) => {
+ 
+});
 }
-?>
+else if(response=='1')
+               {
+                swal({
+  title: "INVALID LOGIN!",
+  text: "Please re-enter your email and password!",
+  icon: "error",
+  buttons: true,
+  dangerMode: true,
+}).then((value) => {
+ 
+});
+}
+else if(response=='2')
+  {
+ window.location="home.php";
+//alert(response);
+}
+else
+{
+  alert(response);
+}
+            }
+          });
+
+        });
+
+      });
+</script> 
+
 
 
 <html>
@@ -200,7 +231,7 @@ $result = $connection->query($query);
         <div class="modal-content">
 
             <div class="row">
-                <form class="col s12 center-align" action="aam.php" method="POST">
+                <form class="col s12 center-align" id="form1">
                     <div class="row">
                         <h2>LOGIN</h2>
                         <div class="input-field col s12">
