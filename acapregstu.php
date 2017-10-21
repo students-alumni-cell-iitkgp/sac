@@ -1,14 +1,3 @@
-
-
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-</head>
-
-</html>
-
-
 <?php
 
 session_start();
@@ -42,30 +31,7 @@ if($name!='' && $phone != "" && $email != "" && $roll != ""&& $pc1 != ""&& $pc2 
 
 $sql = "INSERT INTO students (name,roll,phone,email,pref1,pref2,pref3,prefcompany)
         VALUES ('$name','$roll','$phone','$email','$pc1','$pc2','$pc3','$pc3')";
-echo '<body>
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css" />
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
-<!-- Modal Trigger -->
-<a class="waves-effect waves-light btn modal-trigger" style="display: none;" href="#modal1">Specialization</a>
-<div id="modal1" class="modal">
-  <div class="modal-content">
-    <h4>Confirmation</h4>
-    <p> Congratulations. Your registration is complete
-</p>
-  </div>
-  <div class="modal-footer">
-    <a href="acap.php" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
-  </div>
-</div>
-
-<script type="text/javascript">
-	$(document).ready(function() {
-  $("#modal1").openModal();
-});
-</script>
-</body>';
+echo '2';//returning 2 to server if data is added
 
 if ($connection->query($sql)) {
   $connection->close();
@@ -78,59 +44,12 @@ if ($connection->query($sql)) {
 }
 
 else {
-  echo '<body>
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css" />
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
-  <!-- Modal Trigger -->
-  <a class="waves-effect waves-light btn modal-trigger" style="display: none;" href="#modal1">Specialization</a>
-  <div id="modal1" class="modal">
-    <div class="modal-content">
-      <h4>Error</h4>
-      <p> Please fill ALL the details properly
-  </p>
-    </div>
-    <div class="modal-footer">
-      <a href="acap.php" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
-    </div>
-  </div>
-
-  <script type="text/javascript">
-  	$(document).ready(function() {
-    $("#modal1").openModal();
-  });
-  </script>
-  </body>';
+  echo '1';//returning 1 to server if data is incomplete
 
 }
 }
 else
 {
-  echo '<body>
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css" />
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
-  <!-- Modal Trigger -->
-  <a class="waves-effect waves-light btn modal-trigger" style="display: none;" href="#modal1">Specialization</a>
-  <div id="modal1" class="modal">
-    <div class="modal-content">
-      <h4>Error</h4>
-      <p> WRONG CAPTCHA
-  </p>
-    </div>
-    <div class="modal-footer">
-      <a href="acap.php" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
-    </div>
-  </div>
-
-  <script type="text/javascript">
-    $(document).ready(function() {
-    $("#modal1").openModal();
-  });
-  </script>
-  </body>';
+  echo '0';//returning 0 to server if captcha is wrong
 }
 ?>
-

@@ -73,30 +73,24 @@ if ($connection->query($sql)) {
 }
 
 else {
-  echo '<body>
+  echo '<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+<script type="text/javascript">
+ $(document).ready(function() {
+swal({
+  title: "WRONG CAPTCHA!",
+  text: "Please re-enter the captcha!",
+  icon: "error",
+  buttons: true,
+  dangerMode: true,
+}).then((value) => {
+                window.history.back();
+});
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css" />
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
-  <!-- Modal Trigger -->
-  <a class="waves-effect waves-light btn modal-trigger" style="display: none;" href="#modal1">Specialization</a>
-  <div id="modal1" class="modal">
-    <div class="modal-content">
-      <h4>Error</h4>
-      <p> Please fill ALL the details properly
-  </p>
-    </div>
-    <div class="modal-footer">
-      <a href="acap.php" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
-    </div>
-  </div>
-
-  <script type="text/javascript">
-  	$(document).ready(function() {
-    $("#modal1").openModal();
   });
-  </script>
-  </body>';
+
+
+</script>';
 
 }
 
