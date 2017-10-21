@@ -11,7 +11,141 @@
 
 
  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
 
+
+
+
+
+
+<script type="text/javascript">
+$(function () {
+
+        $('#form1').on('submit', function (e) {
+
+          e.preventDefault();
+
+          $.ajax({
+            type: 'post',
+            url: 'acap-rega.php',
+            data: $('#form1').serialize(),
+            success: function (response) {
+               if(response=='0')
+               {
+                swal({
+  title: "WRONG CAPTCHA!",
+  text: "Please re-enter the captcha!",
+  icon: "error",
+  buttons: true,
+  dangerMode: true,
+}).then((value) => {
+ 
+});
+}
+else if(response=='1')
+               {
+                swal({
+  title: "INCOMPLETE DETAILS!",
+  text: "Please fill all the details!",
+  icon: "error",
+  buttons: true,
+  dangerMode: true,
+}).then((value) => {
+ 
+});
+}
+else if(response=='2')
+  {
+ swal({
+  title: "REGISTRATED!",
+  text: "You can login now!",
+  icon: "success",
+  buttons: true,
+  dangerMode: true,
+}).then((value) => {
+  window.location="acap.php";
+ 
+});
+//alert(response);
+}
+else
+{
+  alert(response);
+}
+            }
+          });
+
+        });
+
+      });
+</script> 
+
+
+
+
+
+<script type="text/javascript">
+$(function () {
+
+        $('#form2').on('submit', function (e) {
+
+          e.preventDefault();
+
+          $.ajax({
+            type: 'post',
+            url: 'acapregstu.php',
+            data: $('#form2').serialize(),
+            success: function (response) {
+               if(response=='0')
+               {
+                swal({
+  title: "WRONG CAPTCHA!",
+  text: "Please re-enter the captcha!",
+  icon: "error",
+  buttons: true,
+  dangerMode: true,
+}).then((value) => {
+ 
+});
+}
+else if(response=='1')
+               {
+                swal({
+  title: "INCOMPLETE DETAILS!",
+  text: "Please fill all the details!",
+  icon: "error",
+  buttons: true,
+  dangerMode: true,
+}).then((value) => {
+ 
+});
+}
+else if(response=='2')
+  {
+ swal({
+  title: "REGISTERED!",
+  text: "You can login now!",
+  icon: "success",
+  buttons: true,
+  dangerMode: true,
+}).then((value) => {
+  window.location="acap.php";
+ 
+});
+//alert(response);
+}
+else
+{
+  alert(response);
+}
+            }
+          });
+
+        });
+
+      });
+</script> 
 <head>
 
     <title>Students Alumni Cell &middot; IIT Kharagpur</title>
@@ -201,7 +335,7 @@ Thus, we encourage all alumni to sign up for the Program and start off on the tr
 
   <div id="modal1" class="modal">
 
-    <form class="col s12" action="acap-rega.php" method="post" >
+    <form class="col s12"  id="form1">
 
          <div class="modal-content">
 
@@ -372,7 +506,7 @@ include 'captcha_gen_a.php';
 
   <div id="modal2" class="modal">
 
-    <form class="col s12" action="acapregstu.php" method="post" >
+    <form class="col s12" id="form2" >
 
          <div class="modal-content">
 

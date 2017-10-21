@@ -5,14 +5,9 @@
       var $navbar= $('#nav'),
       y_pos =$navbar.offset().top,
       height = $navbar.height();
-      $(document).scroll(function(){
-        var scrollTop =$(this).scrollTop();
-        if (scrollTop>y_pos){$('#logo').hide();$navbar.addClass("navbar-fixed");$('.brand-logo').show(); $('.hide-on-med-and-down').addClass('right'); 
-      }
-      else if(scrollTop<=y_pos){$('#logo').show();$navbar.removeClass("navbar-fixed"); $('.brand-logo').hide(); $('.hide-on-med-and-down').removeClass('right'); 
-      
-    }
-      });
+
+      $('#logo').hide();$navbar.addClass("navbar-fixed");$('.brand-logo').show(); $('.hide-on-med-and-down').addClass('right'); 
+    
      
     })(jQuery, undefined); }
     else{$('#logo').remove(); $('.brand-logo').show();

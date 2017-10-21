@@ -77,30 +77,7 @@ if ($connection->query($sql)) {
 }
 else
 {
-  echo '<body>
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css" />
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
-  <!-- Modal Trigger -->
-  <a class="waves-effect waves-light btn modal-trigger" style="display: none;" href="#modal1">Specialization</a>
-  <div id="modal1" class="modal">
-    <div class="modal-content">
-      <h4>Error</h4>
-      <p> WRONG CAPTCHA
-  </p>
-    </div>
-    <div class="modal-footer">
-      <a href="aam.php" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
-    </div>
-  </div>
-
-  <script type="text/javascript">
-    $(document).ready(function() {
-    $("#modal1").openModal();
-  });
-  </script>
-  </body>';
+  echo '0';
 }
 
 ?>

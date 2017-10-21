@@ -11,12 +11,75 @@
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
 <script type="text/javascript">
 //  if(window.location.href!='http://www.sac.iitkgp.ac.in/signup.php'){
   //  window.location.assign("http://www.sac.iitkgp.ac.in/signup.php");
  // }
 
 </script>
+
+<script>
+
+$(function () {
+
+        $('form').on('submit', function (e) {
+
+          e.preventDefault();
+
+          $.ajax({
+            type: 'post',
+            url: 'register.php',
+            data: $('form').serialize(),
+            success: function (response) {
+               if(response=='0')
+               {
+                swal({
+  title: "WRONG CAPTCHA!",
+  text: "Please re-enter the captcha!",
+  icon: "error",
+  buttons: true,
+  dangerMode: true,
+}).then((value) => {
+ 
+});
+}
+else
+  {
+   swal({
+  title: "REGISTRATED!",
+  text: "You can login now!",
+  icon: "success",
+  buttons: true,
+  dangerMode: true,
+}).then((value) => {
+  window.location="registration-complete.php";
+ 
+});
+//alert('success');
+}
+            }
+          });
+
+        });
+
+      });
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
 <style type="text/css">
   
    @media only screen and (min-width: 768px){
@@ -74,7 +137,7 @@
 <div class="_wrapper">
 <?php include 'navbar.php';?>
 <div class="row signup">
- <form action="register.php" method="post">
+ <form >
       <div class="heading">
       <center>
 
@@ -258,7 +321,7 @@ include 'captcha_gen_a.php';
       </div>
       <div class="col s12">
       <center>
-        <button type="submit" class="btn btn-success btn-lg btn-block" name="button" style="width:25%">SUBMIT</button>
+        <button type="submit" class="btn btn-success btn-lg btn-block" name="button" style="width:25%" >SUBMIT</button>
       </center>
       </div>
     </form>
