@@ -90,8 +90,6 @@ swal({
   });
 
 
-//swal("Hello world!");
-//alert("hello");
 </script>';
 
 }

@@ -1,7 +1,7 @@
 <?php
 session_start();
 require 'connection.php';
-$DB_NAME = 'acap';
+$DB_NAME = 'sac_acap';
 $connection = new mysqli($DB_HOST, $DB_USER, $DB_PASS, $DB_NAME);
 if ($connection->connect_error) {
   // die("Connecton failed: ".$connection->connect_error);
@@ -40,13 +40,13 @@ if ($connection->query($sql)) {
 }
 
 else {
-  echo '1';
+  echo '1';//returning 1 if incomplete data
 
 }
 }
 else
 {
-  echo '0';
+  echo '0';//returning  0 to server if wrong captcha
 }
 
 ?>

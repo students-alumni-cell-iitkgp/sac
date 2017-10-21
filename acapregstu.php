@@ -3,7 +3,7 @@
 session_start();
 
 require 'connection.php';
-$DB_NAME = 'acap';
+$DB_NAME = 'sac_acap';
 $connection = new mysqli($DB_HOST, $DB_USER, $DB_PASS, $DB_NAME);
 if ($connection->connect_error) {
   // die("Connecton failed: ".$connection->connect_error);
@@ -31,7 +31,7 @@ if($name!='' && $phone != "" && $email != "" && $roll != ""&& $pc1 != ""&& $pc2 
 
 $sql = "INSERT INTO students (name,roll,phone,email,pref1,pref2,pref3,prefcompany)
         VALUES ('$name','$roll','$phone','$email','$pc1','$pc2','$pc3','$pc3')";
-echo '2';
+echo '2';//returning 2 to server if data is added
 
 if ($connection->query($sql)) {
   $connection->close();
@@ -44,12 +44,12 @@ if ($connection->query($sql)) {
 }
 
 else {
-  echo '1';
+  echo '1';//returning 1 to server if data is incomplete
 
 }
 }
 else
 {
-  echo '0';
+  echo '0';//returning 0 to server if captcha is wrong
 }
 ?>
