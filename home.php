@@ -172,15 +172,6 @@ if( $query_run = mysqli_query($connection, $query) ){
       </div>
       <div class="col l5 m12 s12" id="intro">
         <div class="card-panel teal lighten-5 " style="width: 100%;text-align: 40px;">
-          <div class="container">
-            <?php 
-            include 'profile_pic.php';
-            ?>
-          </div>
-        </div>
-      </div>
-      <div class="col l5 m12 s12" id="intro">
-        <div class="card-panel teal lighten-5 " style="width: 100%;text-align: 40px;">
           <div class="row">
             <div style="width: 100%;" class="container center l12"><a style="font-size:20px;cursor:pointer;background-color: #666;height:auto; "  class="waves-effect waves-light btn modal-trigger " href="#modal1">View Registered Alumni </a></div>
           </div>
@@ -231,6 +222,20 @@ if( $query_run = mysqli_query($connection, $query) ){
           </div>
         </div>
       </div>
+      <div class="col l5 m12 s12" id="profilepic">
+      <div class="card-panel teal lighten-5 " style="width: 100%;text-align: 40px;">
+        <div class="container">
+          <h3 style="width: 100%; text-align: center;" >Picture for Alumni Card</h3>
+          <p>
+            Alumni Card is officially distributed to all alumni during the Annual Alumni Meet.
+            Kindly upload a picture below to be printed in your Alumni Card (preferably a passport size photograph, image size should be less than 100 Kb and of jpg,jpeg and png format)
+          </p>
+          <?php 
+          include 'profile_pic.php';
+          ?>
+        </div>
+      </div>
+    </div>
     </div>
 
   </div>

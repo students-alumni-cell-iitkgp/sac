@@ -23,12 +23,12 @@ $url = $row['url'];
     <?php 
     if(empty($row['url']))
     {
-      echo '<a class="btn-floating halfway-fab waves-effect waves-light red btn modal-trigger" href="#modal_pic"><i class="material-icons">add</i></a>';
+      echo '<a class="btn-floating halfway-fab waves-effect waves-light red btn modal-trigger right" href="#modal_pic"><i class="material-icons">add</i></a>';
     }
     else
     {
 
-      echo '<a class="btn-floating halfway-fab waves-effect waves-light red btn modal-trigger" href="#modal_pic"><i class="material-icons">edit</i></a>';
+      echo '<a class="btn-floating halfway-fab waves-effect waves-light red btn modal-trigger right" href="#modal_pic"><i class="material-icons">edit</i></a>';
     }
 
     ?>
