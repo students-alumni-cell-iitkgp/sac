@@ -237,7 +237,6 @@ if( $query_run = mysqli_query($connection, $query) ){
       </div>
     </div>
   </div>
-
 </div>
 <div class="fixed-action-btn" style="bottom: 25px; right: 25px;" id="power">
   <a class="btn-floating btn-large" href="logout.php" title="Logout" >
