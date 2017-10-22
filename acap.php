@@ -97,7 +97,7 @@ $(function () {
             url: 'acapregstu.php',
             data: $('#form2').serialize(),
             success: function (response) {
-               if(response=='0')
+               if(response== 0 )
                {
                 swal({
   title: "WRONG CAPTCHA!",
@@ -109,7 +109,7 @@ $(function () {
  
 });
 }
-else if(response=='1')
+else if(response== 1 )
                {
                 swal({
   title: "INCOMPLETE DETAILS!",
@@ -121,7 +121,7 @@ else if(response=='1')
  
 });
 }
-else if(response=='2')
+else if(response== 2 )
   {
  swal({
   title: "REGISTERED!",
