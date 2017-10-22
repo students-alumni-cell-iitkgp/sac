@@ -5,7 +5,7 @@ if(($query_run3)){
   if(($query_run3->num_rows > 0)){
     $row1= mysqli_fetch_assoc($query_run3);
     $gradyear= $row1['graduatingYear'];
-  } 
+} 
 }
 
 
@@ -19,23 +19,23 @@ if(($query_run3)){
 <style type="text/css">
   .tabs .tab a {
     color: #26a69a !important ;
-  }
-  .tabs .indicator
-   {
+}
+.tabs .indicator
+{
     background-color: #26a69a !important ;
-  }
+}
 </style>
 <div class="row">
- <div class="col s12">
-   <ul class="tabs tabs-fixed-width">
-     <li class="tab col s3" style="color: #26a69a"><a class="active" href="#1968">1968</a></li>
-     <li class="tab col s3"><a  href="#1978">1978</a></li>
-     <li class="tab col s3"><a href="#1993">1993</a></li>
-     <li class="tab col s3"><a href="#others">others</a></li>
+   <div class="col s12">
+     <ul class="tabs tabs-fixed-width">
+       <li class="tab col s3" style="color: #26a69a"><a class="active" href="#1968">1968</a></li>
+       <li class="tab col s3"><a  href="#1978">1978</a></li>
+       <li class="tab col s3"><a href="#1993">1993</a></li>
+       <li class="tab col s3"><a href="#others">others</a></li>
 
    </ul>
- </div>
- <div id="1968" class="col s12">
+</div>
+<div id="1968" class="col s12">
   <?php 
   @$query7=" SELECT name, hall, department FROM users WHERE graduatingYear= '1968' 
   ORDER BY department ASC";
@@ -113,20 +113,20 @@ if(($query_run3)){
         break;
         default:
         break;
-      }
-      echo "<tr><td>" .$var .")"."</td><td>". $row2["name"]. "</td><td>" . $hallfull. " </td><td>" . $row2["department"]. "</td></tr>";
-      $var++;
     }
-    echo "</table>";
-  }
-  else {
+    echo "<tr><td>" .$var .")"."</td><td>". $row2["name"]. "</td><td>" . $hallfull. " </td><td>" . $row2["department"]. "</td></tr>";
+    $var++;
+}
+echo "</table>";
+}
+else {
     echo "0 Results";
-  }
-  ?>
+}
+?>
 
 
 
-  
+
 </div>
 <div id="1978" class="col s12">
   <?php 
@@ -206,20 +206,20 @@ if(($query_run3)){
         break;
         default:
         break;
-      }
-      echo "<tr><td>" .$var .")"."</td><td>". $row2["name"]. "</td><td>" . $hallfull. " </td><td>" . $row2["department"]. "</td></tr>";
-      $var++;
     }
-    echo "</table>";
-  }
-  else {
+    echo "<tr><td>" .$var .")"."</td><td>". $row2["name"]. "</td><td>" . $hallfull. " </td><td>" . $row2["department"]. "</td></tr>";
+    $var++;
+}
+echo "</table>";
+}
+else {
     echo "0 Results";
-  }
-  ?>
+}
+?>
 
 
 
-  
+
 
 </div>
 <div id="1993" class="col s12">
@@ -300,20 +300,20 @@ if(($query_run3)){
         break;
         default:
         break;
-      }
-      echo "<tr><td>" .$var .")"."</td><td>". $row2["name"]. "</td><td>" . $hallfull. " </td><td>" . $row2["department"]. "</td></tr>";
-      $var++;
     }
-    echo "</table>";
-  }
-  else {
+    echo "<tr><td>" .$var .")"."</td><td>". $row2["name"]. "</td><td>" . $hallfull. " </td><td>" . $row2["department"]. "</td></tr>";
+    $var++;
+}
+echo "</table>";
+}
+else {
     echo "0 Results";
-  }
-  ?>
+}
+?>
 
 
 
-  
+
 
 </div>
 <div id="others" class="col s12">
@@ -395,23 +395,18 @@ if(($query_run3)){
         break;
         default:
         break;
-      }
-      echo "<tr><td>" .$var .")"."</td><td>". $row2["name"]. "</td><td>" . $hallfull. " </td><td>" . $row2["department"]. "</td></tr>";
-      $var++;
     }
-    echo "</table>";
-  }
-  else {
+    echo "<tr><td>" .$var .")"."</td><td>". $row2["name"]. "</td><td>" . $hallfull. " </td><td>" . $row2["department"]. "</td></tr>";
+    $var++;
+}
+echo "</table>";
+}
+else {
     echo "0 Results";
-  }
-  ?>
-
-
-
-  
+}
+?>  
 </div>
 
 </div>
 <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script src='http://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js'></script>
-
