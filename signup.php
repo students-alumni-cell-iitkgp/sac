@@ -33,7 +33,7 @@ $(function () {
             url: 'register.php',
             data: $('form').serialize(),
             success: function (response) {
-               if(response=='0')
+               if(response== 0 )
                {
                 swal({
   title: "WRONG CAPTCHA!",

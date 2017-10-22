@@ -65,7 +65,7 @@ $(function () {
             url: 'aamlogin.php',
             data: $('#form1').serialize(),
             success: function (response) {
-               if(response=='0')
+               if(response== 0 )
                {
                 swal({
   title: "INCOMPLETE DETAILS!",
@@ -77,7 +77,7 @@ $(function () {
  
 });
 }
-else if(response=='1')
+else if(response== 1 )
                {
                 swal({
   title: "INVALID LOGIN!",
@@ -89,7 +89,7 @@ else if(response=='1')
  
 });
 }
-else if(response=='2')
+else if(response== 2 )
   {
  window.location="home.php";
 //alert(response);
