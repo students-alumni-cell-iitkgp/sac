@@ -59,7 +59,7 @@ else if(response== 2 )
   {
  swal({
   title: "REGISTRATED!",
-  text: "You can login now!",
+  text: "Registration successful!",
   icon: "success",
   buttons: true,
   dangerMode: true,
@@ -125,7 +125,7 @@ else if(response== 2 )
   {
  swal({
   title: "REGISTERED!",
-  text: "You can login now!",
+  text: "Registration successful!",
   icon: "success",
   buttons: true,
   dangerMode: true,
