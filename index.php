@@ -67,6 +67,14 @@
     <li>
     <img id="img1" src="img/indexslider/sac-logo.jpg"/>
     </li>
+     <li>
+            <img src="img/indexslider/aam18.jpg" width="100%" />
+        </li>
+ <li>
+            <img src="img/indexslider/acap.jpg" width="100%" />
+        </li>
+
+
         <li>
             <img src="img/14th_aam/aam_cover.jpg" />
         </li>
@@ -92,8 +100,7 @@
         </li> <li>
             <img src="img/indexslider/alvida1.jpg"/>
         </li>
-
-
+        
     </ul>
   </div>
   <!--sliderover-->

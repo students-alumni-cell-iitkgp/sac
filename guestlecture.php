@@ -99,6 +99,30 @@ and motivate the students to achieve their dreams.
                     <center>
                     <div class="heading ac-head" style="border:3px black solid; display: inline-block; padding-top: 2px; margin: 3px;padding-right: 20px;padding-left: 20px;" >
 
+                        <h4><b>Alumni Talk</b></h4> </div>
+                    </center>
+                
+
+                <div class="col l4 m4 s12">
+                    <center>
+                        <img class="materialboxed normal" src="img/guest-lecture/alumni_talk_oyo/a.jpg" width="430">
+                    </center>
+                </div>
+                <div class="col l4 m4 s12">
+                    <center>
+                        <img class="materialboxed normal" src="img/guest-lecture/alumni_talk_oyo/b.jpg" width="430"></center>
+                </div>
+                <div class="col l4 m4 s12">
+                    <center>
+                        <img class="materialboxed normal" src="img/guest-lecture/alumni_talk_oyo/c.jpg" width="430"></center>
+                </div>
+                 </center> </div>
+
+<div class="row"><center>
+                
+                    <center>
+                    <div class="heading ac-head" style="border:3px black solid; display: inline-block; padding-top: 2px; margin: 3px;padding-right: 20px;padding-left: 20px;" >
+
                         <h4><b>Tips from Top</b></h4> </div>
                     </center>
                 
@@ -199,18 +223,25 @@ and motivate the students to achieve their dreams.
     <iframe width="854" height="480" src="https://www.youtube.com/embed/oDPfzLblZ1c" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
-	
-    <div class="col l3 s12 m3 offset-l3 m3">
+	</div>
+    <div class="row">
+    <div class="col l3 s12 m3 offset-l2 m2">
     <div class="video-container">
-       <iframe class="frame" src="https://www.youtube.com/embed/7iWNDuyiJYA" frameborder="1" allowfullscreen></iframe>
+       <iframe class="frame" src="https://www.youtube.com/embed/7iWNDuyiJYA"  allowfullscreen></iframe>
       </div>
     </div>
     <div class="col l3 s12 m3">
     <div class="video-container">
-        <iframe class="frame" src="https://www.youtube.com/embed/_mZLjVCMrrc" frameborder="1" allowfullscreen></iframe>
+        <iframe class="frame" src="https://www.youtube.com/embed/_mZLjVCMrrc" allowfullscreen></iframe>
       </div>
-    </div> </div>
+    </div> 
+    <div class="col l3 s12 m3">
+    <div class="video-container">
+        <iframe width="854" height="480" src="https://www.youtube.com/embed/OpQI9aVbPeQ" frameborder="0" gesture="media" allowfullscreen></iframe>
+      </div>
     </div>
+    </div>
+    
 
     <?php include 'footer.php';?>  
   </body>
