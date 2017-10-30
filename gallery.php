@@ -42,6 +42,44 @@
 </style>
 </head>
 <body> 
+
+
+
+
+
+ <center>
+         <div class="heading ac-head" style="border:3px black solid; display: inline-block; padding-top: 2px; margin: 3px;padding-right: 20px;padding-left: 20px;" >
+            <h4><b>Student Alumni Meet'17</b> -Mumbai</h4>
+            </div>
+        </center>
+    <br>
+
+     <div class="row">
+    <div class="col l4 m4 s12">
+        
+            <img class="materialboxed normal" src="img/sam/Mumbai/1.jpg" width="430">
+        
+            </div>
+        <div class="col l4 m4 s12">
+            <img class="materialboxed normal" src="img/sam/Mumbai/2.jpg" width="430">
+        </div>
+        <div class="col l4 m4 s12">
+            
+                <img class="materialboxed normal" src="img/sam/Mumbai/3.jpg" width="430">
+            
+        </div>
+
+    </div>
+
+   
+
+
+
+
+
+
+
+
         <center>
          <div class="heading ac-head" style="border:3px black solid; display: inline-block; padding-top: 2px; margin: 3px;padding-right: 20px;padding-left: 20px;" >
             <h4><b>Student Alumni Meet</b> - Kolkata</h4> </div>
