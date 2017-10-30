@@ -267,7 +267,7 @@ if( $query_run = mysqli_query($connection, $query) ){
   <div class="modal-content">
 
 
-   <?php
+   <?php 
    include('aam_registeredalum.php');
    ?>
  </div>
