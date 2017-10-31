@@ -48,7 +48,7 @@ $(function () {
 else
   {
    swal({
-  title: "REGISTRATED!",
+  title: "REGISTERED!",
   text: "You can login now!",
   icon: "success",
   buttons: true,

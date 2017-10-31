@@ -207,7 +207,7 @@
 </div>
 <div class="heading">
   <center>
-    <h class="subheading"><b>Latest Programs</b></h>
+    <h class="subheading"><b>Latest Programmes</b></h>
   </center>
 </div>
 <div class="row">
@@ -217,11 +217,11 @@
      <img class="activator" src="img/latest programs/classgift.jpg" style="height: 225px;" >
     </div>
     <div class ="card-content">
-      <span class="card-title activator grey-text text-darken-4">Class Gift of 2015<i class="material-icons right">more_vert</i></span>
-      <p class="text_align">Campus Benches</p>
+      <span class="card-title activator grey-text text-darken-4">Class Gift of 2017<i class="material-icons right">more_vert</i></span>
+      <p class="text_align"><br></p>
     </div>
     <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">Class Gift of 2015</span>
+      <span class="card-title grey-text text-darken-4">Class Gift of 2017</span>
             <p class="text_align">The Senior Class Gift, an initiative under the 
               My Imprint Programme saw a large number of graduating students signing up for the programme.
                The programme gives an opportunity to the graduating batch to give something back to the Institute,
@@ -254,8 +254,8 @@
       <img class="activator" src="img/latest programs/guestlecture.jpg" style="height:225px">
     </div>
     <div class="card-content">
-      <span class="card-title activator grey-text text-darken-4">Guest Lecture<i class="material-icons right">more_vert</i></span>
-      <p class="text_align">& E-Guest Lectures</p>
+      <span class="card-title activator grey-text text-darken-4">Alumni Talks<i class="material-icons right">more_vert</i></span>
+      <p class="text_align"><br /></p>
     </div>
     <div class="card-reveal">
       <span class="card-title grey-text text-darken-4">Guest Lecture</span>
@@ -266,7 +266,7 @@
 <div class="col l3 s12 m6">
 <div class="card z-depth-0">
     <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="img/yearbook/yearbook.jpg" style="height:225px" >
+      <img class="activator" src="img/latest programs/year17.jpg" style="height:225px" >
     </div>
     <div class="card-content">
       <span class="card-title activator grey-text text-darken-4">Yearbook<i class="material-icons right">more_vert</i></span>
