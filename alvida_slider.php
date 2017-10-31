@@ -40,13 +40,53 @@
 </style>
 
 </head>
-<body> <center>
+<body> 
+	<div class="heading" style="margin-top:-20px">
+                    <center >
+                        <h  class="subheading"><b id="senior_class_gift">Alvida 2017</b> </h>
+                    </center>
+                </div>
+<center>
+	<div class="row">
+		<div class="col l3 m6 s12">
+			<img class="materialboxed normal long" height="300px" src="img/Alvida/Alvida_2017/six.JPG"  >
+		</div>
+		<div class="col l3 m6 s12">
+			<img class="materialboxed normal long" height="300px" src="img/Alvida/Alvida_2017/two.JPG"  >
+		</div>
+		<div class="col l3 m6 s12">
+			<img class="materialboxed normal long" height="300px" src="img/Alvida/Alvida_2017/three.JPG"  >
+		</div>
+		<div class="col l3 m6 s12">
+			<img class="materialboxed normal long" height="300px" src="img/Alvida/Alvida_2017/four.JPG"  >
+		</div>
+		
+		<div class="col l3 m6 s12">
+			<img class="materialboxed normal long" height="200px" src="img/Alvida/Alvida_2017/one.JPG"  >
+		</div>
+		<div class="col l3 m6 s12">
+			<img class="materialboxed normal long" height="200px" src="img/Alvida/Alvida_2017/seven.JPG"  >
+		</div>
+		<div class="col l3 m6 s12">
+			<img class="materialboxed normal long" height="200px" src="img/Alvida/Alvida_2017/five.JPG"  >
+		</div>
+		<div class="col l3 m6 s12">
+			<img class="materialboxed normal long" height="200px" src="img/Alvida/Alvida_2017/nine.JPG"  >
+		</div>
+
+	</div>
+
+	<div class="heading" style="margin-top:-20px">
+                    <center >
+                        <h  class="subheading"><b id="senior_class_gift">Alvida 2014</b> </h>
+                    </center>
+                </div>
 	<div class="row">
 		<div class="col l3 m6 s12">
 			<img class="materialboxed normal long" src="img/Alvida/three.jpg" height="420" >
 		</div>
 		<div class="col l6 m6 s12">
-			<img class="materialboxed normal bigg" src="img/Alvida/six.jpg" height="420">
+			<img class="materialboxed normal bigg" src="img/Alvida/six.jpg" height="420" wi>
 		</div>
 		<div class="col l3 m6 s12">
 			<img  class="materialboxed normal long" src="img/Alvida/five.jpg" height="420" />

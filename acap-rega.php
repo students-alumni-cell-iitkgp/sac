@@ -48,5 +48,4 @@ else
 {
   echo '0';//returning  0 to server if wrong captcha
 }
-
 ?>

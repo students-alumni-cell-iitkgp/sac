@@ -40,7 +40,7 @@
                 <li><a class="soc-facebook" href="http://www.facebook.com/iitkgp.alumnicell?fref=ts&ref=br_tf" target="_blank"></a></li>
                 <li><a class="soc-twitter"  href="http://twitter.com/IITKgpAlumni" target="_blank"></a></li>
                 <li><a class="soc-linkedin"  href="https://www.linkedin.com/company-beta/13273135/" target="_blank"></a></li>
-                <li><a class="soc-youtube soc-icon-last" href="http://www.youtube.com/channel/UCtnSs1CT59Rd8L6VlOAxzRA" target="_blank"></a></li>
+                <li><a class="soc-youtube soc-icon-last" href="https://www.youtube.com/user/alumnicelliitkgp/videos" target="_blank"></a></li>
             </ul>
         </div>
 
@@ -50,7 +50,7 @@
 
   <div class="footer-copyright grey darken-3">
     <div class="container">
-    &copy; 2016 Students' Alumni Cell
+    &copy; 2017 Students' Alumni Cell
 
     </div>
 
