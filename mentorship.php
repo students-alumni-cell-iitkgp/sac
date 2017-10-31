@@ -80,8 +80,12 @@ left: 60px;
   </div>
     <div  class="col l4 m4 s12 mentor-reg">
 <center>
+<br>
+<br>
+<br>
+<br>
 <a href="http://www.mentorship.iitkgp.ernet.in/" target="_blank "><input type="submit" value="Go to Mentorship portal" class="waves-effect waves-light btn-large" style="width:250px;padding:15px;"></a><br><br>
-    <a href="https://medium.com/@studentsalumnicell.iitkgp" target="_blank "><input type="submit" value="Go to Mentorship blog" class="waves-effect waves-light btn-large" style="width:250px;padding:15px;"></a>
+
 </center>
   </div>
 </div>
