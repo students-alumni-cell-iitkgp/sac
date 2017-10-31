@@ -9,8 +9,19 @@
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <style type="text/css">
-       @media only screen and (max-width: 468px){
 
+       @media only screen and (min-width: 768px){
+        .ac-sparc img{
+       
+        max-width: 100%;
+    }
+       }
+       @media only screen and (max-width: 468px){
+        .ac-sparc img{
+        margin: 0px auto;
+        max-width:100%;
+
+        }
         #h1{
           font-size: 12px;
         }
@@ -25,15 +36,37 @@
           font-size: 25px;
         }
        }
+     @media only screen and (max-width: 995px){
+         #fbplug{
+            display: none;
+        }
+     }
+
+    
     </style>
 </head>
 <body>
+<!--script for connecting to fb page -->
+        <script>(function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.7&appId=1066517953466827";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
 <div class="_wrapper" style="background:white">
 <?php include 'navbar.php';?>
+
+ <div class="row ac-sparc">
+        <img src="img/sparccrousel.jpg"  >
+    </div>
+<div>
+<div class="center-align">
 <div class="row">
 
- <div style="padding:3% 8% 6% 8%;">
 
+<div class="col l8"> 
   <div  class="col l12 m12 s12  z-depth-1">
       <div  class="heading">
           <center>
@@ -49,8 +82,16 @@
     </p>
   </div>
   </div>
+
+            <div class="col l4" >
+                <div id="fbplug" style="width: 425px; background-color: #fff" class="z-depth-1 fb-page" data-href="https://www.facebook.com/sparc.iit/" data-tabs="timeline" data-height="490px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/sparc.iit/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/sparc.iit/">Sparc, IIT Kharagpur</a></blockquote></div>
+            </div>
+ 
 </div>
 </div>
+</div>
+</div>
+
  <div class="container" style="width:100%;">
   <div class="row" style="margin:auto;width:89%;">
   <div class="col l12 m12 s12 z-depth-1">

@@ -79,10 +79,13 @@
     <li><a href="imprint.php">My Imprint</a></li>
     <li><a href="sparc.php">SPARC</a></li>
     <li><a href="acap.php">ACAP</a></li>
+    <li><a href="https://medium.com/@studentsalumnicell.iitkgp">Alumni Blog</a></li>
+
   </ul>
   <ul id="publications" class="dropdown-content" style="min-width: 200px;">
     <li><a href="yearbook.php">Yearbook</a></li>
     <li><a href="yoy.php">Yearnings of Yore</a></li>
+    <li><a href="temposhout_final_6.pdf" target="_blank">Tempo Shout</a></li>
   </ul>
   <ul id="sponsors" class="dropdown-content" style="min-width: 200px;">
     <li><a href="sponsors2017.php">2017</a></li>
@@ -134,6 +137,7 @@
                   <li><a href="imprint.php">My Imprint</a></li>
                   <li><a href="sparc.php">SPARC</a></li>
                   <li><a href="acap.php">ACAP</a></li>
+                  <li><a href="https://medium.com/@studentsalumnicell.iitkgp">Alumni Blog</a></li>
                 </ul>
               </div></li></ul></li>
         <li class="no-padding">
@@ -144,7 +148,7 @@
                 <ul>
                   <li><a href="yearbook.php">Yearbook</a></li>
                   <li><a href="yoy.php">Yearnings of Yore</a></li>
-
+                  <li><a href="temposhout_final_6.pdf" target="_blank">Tempo Shout</a></li> 
                 </ul>
               </div></li></ul></li>
 
