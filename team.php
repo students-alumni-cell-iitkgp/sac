@@ -34,7 +34,7 @@
       <div class="col l4 m6 s12 m6 s12 offset-l2">
         <div class="card z-depth-0">
           <div class="card-image waves-effect waves-block waves-light">
-          <img class="activator" src="img/team/acellteam17/bharat.jpg" style="height: 210px;" >
+          <img class="activator" src="img/team/acellteam17/bharattest.jpg" style="height: 210px;" >
          </div>
          <div class ="card-content" style="padding-top: 0;"">
           <div class="row" style="margin-bottom: 0;">
@@ -67,7 +67,7 @@
     <div class="col l4 m6 s12 ">
       <div class="card z-depth-0">
         <div class="card-image waves-effect waves-block waves-light">
-         <img class="activator" src="img/team/acellteam17/vishal.jpg" style="height: 210px;" >
+         <img class="activator" src="img/team/acellteam17/vishaltest.jpg" style="height: 210px;" >
        </div>
        <div class ="card-content" style="padding-top: 0;"">
         <div class="row" style="margin-bottom: 0;">
@@ -110,7 +110,7 @@
  <div class="col l4 m6 s12 ">
   <div class="card z-depth-0">
     <div class="card-image waves-effect waves-block waves-light">
-     <img class="activator" src="img/team/acellteam17/thakkar.jpg" style="height: 210px;" >
+     <img class="activator" src="img/team/acellteam17/thakkartest.jpg" style="height: 210px;" >
    </div>
    <div class ="card-content" style="padding-top: 0;"">
     <div class="row" style="margin-bottom: 0;">
@@ -143,7 +143,7 @@
 <div class="col l4 m6 s12 ">
   <div class="card z-depth-0">
     <div class="card-image waves-effect waves-block waves-light">
-     <img class="activator" src="img/team/acellteam17/daksh.jpg" style="height: 210px;" >
+     <img class="activator" src="img/team/acellteam17/dakshtest.jpg" style="height: 210px;" >
    </div>
    <div class ="card-content" style="padding-top: 0;"">
     <div class="row" style="margin-bottom: 0;">
@@ -177,7 +177,7 @@
 <div class="col l4 m6 s12 ">
   <div class="card z-depth-0">
     <div class="card-image waves-effect waves-block waves-light">
-     <img class="activator" src="img/team/acellteam17/rohit.jpg" style="height: 210px;" >
+     <img class="activator" src="img/team/acellteam17/rohittest.jpg" style="height: 210px;" >
    </div>
    <div class ="card-content" style="padding-top: 0;"">
     <div class="row" style="margin-bottom: 0;">
@@ -213,7 +213,7 @@
  <div class="col l4 m6 s12 ">
   <div class="card z-depth-0">
     <div class="card-image waves-effect waves-block waves-light">
-     <img class="activator" src="img/team/acellteam17/sreelata.jpg" style="height: 210px;" >
+     <img class="activator" src="img/team/acellteam17/sreelatatest1.jpg" style="height: 210px;" >
    </div>
    <div class ="card-content" style="padding-top: 0;"">
     <div class="row" style="margin-bottom: 0;">
@@ -244,7 +244,7 @@
 <div class="col l4 m6 s12 ">
   <div class="card z-depth-0">
     <div class="card-image waves-effect waves-block waves-light">
-     <img class="activator" src="img/team/acellteam17/utkarsh.jpg" style="height: 210px;" >
+     <img class="activator" src="img/team/acellteam17/utkarshtest.jpg" style="height: 210px;" >
    </div>
    <div class ="card-content" style="padding-top: 0;"">
     <div class="row" style="margin-bottom: 0;">
@@ -272,7 +272,7 @@
 <div class="col l4 m6 s12 ">
   <div class="card z-depth-0">
     <div class="card-image waves-effect waves-block waves-light">
-     <img class="activator" src="img/team/acellteam17/patil.JPG" style="height: 210px;" >
+     <img class="activator" src="img/team/acellteam17/patil.jpg" style="height: 210px;" >
    </div>
    <div class ="card-content" style="padding-top: 0;"">
     <div class="row" style="margin-bottom: 0;">
@@ -304,7 +304,7 @@
   <div class="col l4 m6 s12 offset-l2">
     <div class="card z-depth-0">
       <div class="card-image waves-effect waves-block waves-light">
-       <img class="activator" src="img/team/acellteam17/karan.jpg" style="height: 210px;" >
+       <img class="activator" src="img/team/acellteam17/karantest.jpg" style="height: 210px;" >
      </div>
      <div class ="card-content" style="padding-top: 0;"">
       <div class="row" style="margin-bottom: 0;">
@@ -333,7 +333,7 @@
 <div class="col l4 m6 s12 ">
   <div class="card z-depth-0">
     <div class="card-image waves-effect waves-block waves-light">
-     <img class="activator" src="img/team/acellteam17/yugam.jpg" style="height: 210px;" >
+     <img class="activator" src="img/team/acellteam17/yugamtest.jpg" style="height: 210px;" >
    </div>
    <div class ="card-content" style="padding-top: 0;"">
     <div class="row" style="margin-bottom: 0;">
@@ -366,7 +366,7 @@
  <div class="col l4 m6 s12 offset-l4">
   <div class="card z-depth-0">
     <div class="card-image waves-effect waves-block waves-light">
-     <img class="activator" src="img/team/acellteam17/aman.jpg" style="height: 210px;" >
+     <img class="activator" src="img/team/acellteam17/amantest.jpg" style="height: 210px;" >
    </div>
    <div class ="card-content" style="padding-top: 0;"">
     <div class="row" style="margin-bottom: 0;">
