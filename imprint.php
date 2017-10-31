@@ -76,7 +76,7 @@
 <?php include 'navbar.php';?>
 
  <div class="row ac-imprint">
-        <img src="img/mi.jpg"  >
+        <img src="img/myimprint.jpg"  >
     </div>
 
   <div class="row">
