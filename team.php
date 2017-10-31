@@ -272,7 +272,7 @@
 <div class="col l4 m6 s12 ">
   <div class="card z-depth-0">
     <div class="card-image waves-effect waves-block waves-light">
-     <img class="activator" src="img/team/acellteam17/patil.jpg" style="height: 210px;" >
+     <img class="activator" src="img/team/acellteam17/patil.JPG" style="height: 210px;" >
    </div>
    <div class ="card-content" style="padding-top: 0;"">
     <div class="row" style="margin-bottom: 0;">
