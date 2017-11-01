@@ -50,15 +50,15 @@
 		<div class="row">
 
 			<div class="col l6 m6 s12">
-				<img class=" materialboxed normal " src="img/Alvida/Alvida_2017/6.jpg" height="420px">
+				<img class=" materialboxed normal bigg" src="img/Alvida/Alvida_2017/6.jpg" height="420px">
 			</div>
 			
 			<div class="col l6 m6 s12">
-				<img class=" materialboxed normal " src="img/Alvida/Alvida_2017/2.jpg" height="420px">
+				<img class=" materialboxed normal bigg " src="img/Alvida/Alvida_2017/2.jpg" height="420px">
 			</div>
 
 			<div class="col l6 m6 s12">
-				<img class=" materialboxed normal " src="img/Alvida/Alvida_2017/8.jpg" height="420">
+				<img class=" materialboxed normal bigg " src="img/Alvida/Alvida_2017/8.jpg" height="420">
 			</div>
 			<div class="col l3 m6 s12">
 				<img class=" materialboxed normal" src="img/Alvida/Alvida_2017/4.jpg" height="200">
