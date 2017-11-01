@@ -263,12 +263,14 @@
     </div>
     </div>
          <div class="row">
-      <div class="col l6 m12 s12" align="center"> <a href="http://www.matrikas.co.in/" target="_blank">
-         <img class="spons" src="img/spons/2017/Stationery Partner/matrikas.jpg" width="300" height="150" />
+
+      <div class="col l6 m12 s12" align="center"> <a href="http://www.sfaprint.co.in/" target="_blank">
+         <img class="spons" src="img/spons/2017/Stationery Partner/sfa.png" width="300" height="150" />
       </a>
     </div>
-      <div class="col l6 m12 s12" align="center"> <a href="http://www.sfaprint.co.in/" target="_blank">
-         <img class="spons" src="img/spons/2017/Stationery Partner/sfa.png" width="200" height="150" />
+      <div class="col l6 m12 s12" align="center"> <a href="http://www.matrikas.co.in/" target="_blank">
+         <img class="spons" src="img/spons/2017/Stationery Partner/matrikas.jpg" width="250" height="150" />
+
       </a>
     </div>
     </div> <br> <br>
