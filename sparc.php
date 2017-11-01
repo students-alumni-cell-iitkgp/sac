@@ -116,11 +116,43 @@
   
   </div>
   <br><br>
+<div class="row">
+  <div class="col l12 m12 s12 z-depth-1">
+    <br><br>
+ <center>
+         <div class="heading ac-head" style="border:3px black solid; display: inline-block; padding-top: 2px; margin: 3px;padding-right: 20px;padding-left: 20px;" >
+            <h4><b>Student Alumni Meet '17</b> - Mumbai</h4>
+            </div>
+        </center>
+    <br><br>
+
+     <div class="row">
+    <div class="col l4 m4 s12">
+        
+            <img class="materialboxed normal" src="img/sam/Mumbai/1.jpg" width="410">
+        
+            </div>
+        <div class="col l4 m4 s12">
+            <img class="materialboxed normal" src="img/sam/Mumbai/2.jpg" width="410">
+        </div>
+        <div class="col l4 m4 s12">
+            
+                <img class="materialboxed normal" src="img/sam/Mumbai/3.jpg" width="410">
+            
+        </div>
+
+    </div>
+    <br>
+  </div>
+</div>
+
+<br><br>
+
   <div class="row" style="margin:auto;width:89%;">
   <div class="col l12 m12 s12 z-depth-1">
   <div class="heading">
     <center>
-      <h id="h3" class="subheading"><b>Student's Alumni Meet, Bangalore</b></h>
+      <h id="h3" class="subheading"><b>Student Alumni Meet '16</b> - Bangalore</h>
     </center>
   </div>
     <p class="text_align" style="padding:1% 10% 2% 10%">
