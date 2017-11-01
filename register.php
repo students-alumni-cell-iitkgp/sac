@@ -1,6 +1,6 @@
 <?php
 session_start();
-$captcha = $_POST["captcha"];
+
 $email = $_POST["email"];
 $password = $_POST["password"];
 $password = hash('sha256', $password);
@@ -62,22 +62,19 @@ echo "$hall : hall<br>";
 echo "$graduatingYear : graduatingYear<br>";
 */
 
-if($_SESSION['captcha_code1'] == $captcha){
+
 include 'connection.php';
 $sql = "INSERT INTO users (email,Time, name, password, address, city, state, country, zipCode, mobile, dob, marital, industry, profession, orgName, designation, work_city, work_state, work_country, work_zipCode, work_address, rollNum, joinYear, degree, department, hall, graduatingYear, accompanyingNo,hobbies,involvements)
         VALUES ('$email','$time', '$name', '$password', '$address', '$city', '$state', '$country', '$zipCode', '$mobile', '$dob', '$marital', '$industry', '$profession', '$orgName', '$designation', '$work_city', '$work_state', '$work_country', '$work_zipCode', '$work_address', '$rollNum', '$joinYear', '$degree', '$department', '$hall', '$graduatingYear', '$accompanyingNo','$hobbies', '$involvements')";
 $_SESSION["email"] = $email;
 if ($connection->query($sql)) {
   $connection->close();
-  header('Location: ./registration-complete.php');
+ echo '1';
   exit;
 } else {
   echo "Error: " . $connection->error;
 }
-}
-else
-{
-  echo '0';
-}
+
+
 
 ?>
