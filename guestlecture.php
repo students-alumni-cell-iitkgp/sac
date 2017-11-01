@@ -50,7 +50,7 @@ max-width:100%;
 <div class="_wrapper" style="overflow: hidden;">
 <?php include 'navbar.php';?>
  <div class="row ac-guest">
-        <img src="img/guest.jpg" >
+        <img src="img/alumnitalks.jpg" >
     </div>
 
     <div class="row">
@@ -58,23 +58,23 @@ max-width:100%;
             <div class="info z-depth-1">
                 <div class="heading" style="margin-top:-20px">
                     <center >
-                        <h  class="subheading"><b id="senior_class_gift">Guest Lectures</b> </h>
+                        <h  class="subheading"><b id="senior_class_gift">Alumni Talks</b> </h>
                     </center>
                 </div>
 <p class="text_align" style="padding: 20px">
                     Since its inception in 1951, IIT Kharagpur has mentored some of the most eminent personalities in the history of the nation. 
 
-The Guest Lectures provide a medium for the alumni to give back to the institute by imparting their experience to the students and preparing them for the real world.
+The Alumni Talks provide a medium for the alumni to give back to the institute by imparting their experience to the students and preparing them for the real world.
  
 The topics are spread all over - from personality development to department related technical lectures. 
 
-The Guest Lectures pave a way for interaction between the alumni and the current students.
+The Alumni Talks pave a way for interaction between the alumni and the current students.
  
 Having a large alumni base to learn from has always been an integral benefit of being a student of IIT Kharagpur and these lectures ensure exactly that. 
 
  IIT Kharagpur also organizes the Leadership Summit - an event where IIT Kharagpur alumni who are reputed leaders in their respective fields come together on one platform and enthusiastically share the secrets of their success. 
 This event is looked forward to by the students since it exposes them to a lot of a practical knowledge that can help them move up the corporate ladder with ease.
- Guest Lectures form a very important part of the working of Students' Alumni Cell by bridging the gap between the alumni and students and bringing them closer together. 
+ Alumni Talks form a very important part of the working of Students' Alumni Cell by bridging the gap between the alumni and students and bringing them closer together. 
 
 This gives the alumni an opportunity
 and bring the students up to date with what they can achieve if they set their mind to it 
@@ -99,7 +99,7 @@ and motivate the students to achieve their dreams.
                     <center>
                     <div class="heading ac-head" style="border:3px black solid; display: inline-block; padding-top: 2px; margin: 3px;padding-right: 20px;padding-left: 20px;" >
 
-                        <h4><b>Alumni Talk</b></h4> </div>
+                        <h4><b>Alumni Talks</b></h4> </div>
                     </center>
                 
 
