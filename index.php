@@ -218,7 +218,7 @@
     </div>
     <div class ="card-content">
       <span class="card-title activator grey-text text-darken-4">Class Gift of 2017<i class="material-icons right">more_vert</i></span>
-      <p class="text_align"><br></p>
+      <p class="text_align">Bus stand at Nalanda Complex</p>
     </div>
     <div class="card-reveal">
       <span class="card-title grey-text text-darken-4">Class Gift of 2017</span>
@@ -259,7 +259,9 @@
     </div>
     <div class="card-reveal">
       <span class="card-title grey-text text-darken-4">Alumni Talks</span>
+
             <p class="text_align">Continuing with its yearlong series of Alumni Talks by eminent alumni, the Students&#8217; Alumni Cell recently organised "Tips from Top", an open house with prominent alumni in the fields of Entrepreneurship, Civil Services and Research.</p>
+
     </div>
   </div>
 </div>

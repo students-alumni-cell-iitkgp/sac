@@ -139,7 +139,7 @@
         <h class="subheading"><b> Class Gift 2015 </b> </h>
       </center>
     </div>
-   <img class="class_gift_Img" src="img/latest programs/classgift.jpg" style="max-width:100%;">
+   <img class="class_gift_Img" src="img/latest programs/classgift2015.jpg" style="max-width:100%;">
     </div>
      <div class="col l6 s12 m12">
       <div class="heading">
