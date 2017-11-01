@@ -33,7 +33,7 @@
 <body>
 <div class="_wrapper">
 <?php include 'navbar.php';?>
- <div class="row ac-aam">
+ <div class="row ac-aam center">
         <img src="img/indexslider/alvida_2017.jpg" >
     </div>
     <div class="row" style="padding:0% 8% 0% 8%;">
