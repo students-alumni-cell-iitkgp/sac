@@ -99,7 +99,7 @@ and motivate the students to achieve their dreams.
                     <center>
                     <div class="heading ac-head" style="border:3px black solid; display: inline-block; padding-top: 2px; margin: 3px;padding-right: 20px;padding-left: 20px;" >
 
-                        <h4><b>Alumni Talk</b></h4> </div>
+                        <h4><b>Alumni Talks</b></h4> </div>
                     </center>
                 
 
@@ -199,20 +199,36 @@ and motivate the students to achieve their dreams.
           <h4><b>Videos</b></h4>
         </center>
       </div>
-      <div class="row">
 
-    <div class="col l3 s12 m3">
+    <div class="row">
+    <div class="col l4 s12 m3">
     <div class="video-container">
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/v8xICuf_yAs" frameborder="0" allowfullscreen></iframe>
+        <iframe width="854" height="480" src="https://www.youtube.com/embed/OpQI9aVbPeQ" frameborder="0" gesture="media" allowfullscreen></iframe>
       </div>
     </div>
-	
-	<div class="col l3 s12 m3">
+
+    <div class="col l4 s12 m3">
+    <div class="video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/v8xICuf_yAs" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <div class="col l4 s12 m3">
     <div class="video-container">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/D96tjgVG1kQ" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
-	
+
+
+
+    </div>
+
+      <div class="row">
+
+
+    
+
+    
     <div class="col l3 s12 m3">
     <div class="video-container">
     <iframe width="854" height="480" src="https://www.youtube.com/embed/-xeGNz5P5F4" frameborder="0" allowfullscreen></iframe>
@@ -223,9 +239,7 @@ and motivate the students to achieve their dreams.
     <iframe width="854" height="480" src="https://www.youtube.com/embed/oDPfzLblZ1c" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
-	</div>
-    <div class="row">
-    <div class="col l3 s12 m3 offset-l2 m2">
+    <div class="col l3 s12 m3 ">
     <div class="video-container">
        <iframe class="frame" src="https://www.youtube.com/embed/7iWNDuyiJYA"  allowfullscreen></iframe>
       </div>
@@ -235,11 +249,7 @@ and motivate the students to achieve their dreams.
         <iframe class="frame" src="https://www.youtube.com/embed/_mZLjVCMrrc" allowfullscreen></iframe>
       </div>
     </div> 
-    <div class="col l3 s12 m3">
-    <div class="video-container">
-        <iframe width="854" height="480" src="https://www.youtube.com/embed/OpQI9aVbPeQ" frameborder="0" gesture="media" allowfullscreen></iframe>
-      </div>
-    </div>
+
     </div>
     
 
