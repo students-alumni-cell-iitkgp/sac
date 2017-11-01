@@ -70,7 +70,7 @@
     <li><a href="aam.php">Annual Alumni Meet</a></li>
     <li><a href="sam.php">Student Alumni Meet</a></li>
     <li><a href="phonathon.php">Phonathon</a></li>
-    <li><a href="guestlecture.php">Guest Lectures</a></li>
+    <li><a href="guestlecture.php">Alumni Talks</a></li>
     <li><a href="leadershipsummit.php">Leadership Summit</a></li>
     <li><a href="alvida.php">Alvida</a></li>
   </ul>
@@ -122,7 +122,7 @@
                   <li><a href="aam.php">Annual Alumni Meet</a></li>
                   <li><a href="sam.php">Student Alumni Meet</a></li>
                   <li><a href="sam.php">Phonathon</a></li>
-                  <li><a href="guestlecture.php">Guest Lectures</a></li>
+                  <li><a href="guestlecture.php">Alumni Talks</a></li>
                   <li><a href="leadershipsummit.php">Leadership Summit</a></li>
                   <li><a href="alvida.php">Alvida</a></li>
                 </ul>
