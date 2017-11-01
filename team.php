@@ -20,6 +20,25 @@
     }
   });
 </script>
+
+<style type="text/css">
+  .card-content{
+    height:50px;
+  }
+  .card{
+    height:280px;
+  }
+  .row .col.l8{
+    width:64% !important;
+  }
+  .row .col{
+    padding:0 0.6rem !important;
+  }
+  .card .card-reveal{
+    padding:0px !important;
+  }
+</style>
+
 </head>
 <body>
   <?php include'navbar.php';?>
@@ -34,15 +53,18 @@
       <div class="col l4 m6 s12 m6 s12 offset-l2">
         <div class="card z-depth-0">
           <div class="card-image waves-effect waves-block waves-light">
-          <img class="activator" src="img/team/acellteam17/bharattest.jpg" style="height: 210px;" >
+          <img class="activator" src="img/team/acellteam17/bharattest.jpg" style="height: 230px;" >
          </div>
-         <div class ="card-content" style="padding-top: 0;"">
+         <div class ="card-content" style="padding-top: 0;">
           <div class="row" style="margin-bottom: 0;">
-            <div style="font-size:10px" class="col l9 m9 s9">
-              <ul>  <li><span class="card-title activator grey-text text-darken-4">Bharat Chandra</span></li>
+            <div style="font-size:10px" class="col l8 m8 s8">
+              <span class="card-title activator grey-text text-darken-4">Bharat Chandra</span>
 
-               <li><strong style="font-size:15px">+91-9932544235</strong>  </li></ul>
+
              </div>
+
+<div class="col l2 m2 s2"><ul class="soc"><li><a target="_blank" class="soc-linkedin"  href="https://www.linkedin.com/in/bharat-chandra-obili-421781126/"></a></li></ul> </div>
+              <div class="col l2 m2 s2"><ul class="soc"><li><a target="_blank" class="soc-facebook" href="https://www.facebook.com/bharat.chandra.97"></a></li></ul></div>
 
            </div>
 
@@ -67,15 +89,16 @@
     <div class="col l4 m6 s12 ">
       <div class="card z-depth-0">
         <div class="card-image waves-effect waves-block waves-light">
-         <img class="activator" src="img/team/acellteam17/vishaltest.jpg" style="height: 210px;" >
+         <img class="activator" src="img/team/acellteam17/vishaltest.jpg" style="height: 230px;" >
        </div>
-       <div class ="card-content" style="padding-top: 0;"">
+       <div class ="card-content" style="padding-top: 0;">
         <div class="row" style="margin-bottom: 0;">
-          <div style="font-size:10px" class="col l9 m9 s9">
-            <ul>  <li><span class="card-title activator grey-text text-darken-4">Vishal Singh</span></li>
-
-             <li><strong style="font-size:15px">+91-8769797343</strong>  </li></ul>
+          <div style="font-size:10px" class="col l8 m8 s8">
+            <span class="card-title activator grey-text text-darken-4">Vishal Singh</span>
            </div>
+
+<div class="col l2 m2 s2"><ul class="soc"><li><a target="_blank" class="soc-linkedin" href="https://www.linkedin.com/in/vishal-singh-284a89125/"></a></li></ul> </div>
+            <div class="col l2 m2 s2"><ul class="soc"><li><a target="_blank" class="soc-facebook" href="https://www.facebook.com/profile.php?id=100010338962799"></a></li></ul></div>
 
          </div>
 
@@ -110,16 +133,15 @@
  <div class="col l4 m6 s12 ">
   <div class="card z-depth-0">
     <div class="card-image waves-effect waves-block waves-light">
-     <img class="activator" src="img/team/acellteam17/thakkartest.jpg" style="height: 210px;" >
+     <img class="activator" src="img/team/acellteam17/thakkartest.jpg" style="height: 230px;" >
    </div>
-   <div class ="card-content" style="padding-top: 0;"">
+   <div class ="card-content" style="padding-top: 0;">
     <div class="row" style="margin-bottom: 0;">
-      <div style="font-size:10px" class="col l9 m9 s9">
-        <ul>  <li><span class="card-title activator grey-text text-darken-4">Anmol Thakkar</span></li>
-
-         <li><strong style="font-size:15px">+91-9475240720</strong>  </li></ul>
+      <div style="font-size:10px" class="col l8 m8 s8">
+        <span class="card-title activator grey-text text-darken-4">Anmol Thakkar</span>
        </div>
-
+<div class="col l2 m2 s2"><ul class="soc"><li><a target="_blank" class="soc-linkedin" href="https://www.linkedin.com/in/anmolthakkar/"></a></li></ul> </div>
+        <div class="col l2 m2 s2"><ul class="soc"><li><a target="_blank" class="soc-facebook" href="https://www.facebook.com/anmol2112"></a></li></ul></div>
      </div>
 
 
@@ -143,16 +165,15 @@
 <div class="col l4 m6 s12 ">
   <div class="card z-depth-0">
     <div class="card-image waves-effect waves-block waves-light">
-     <img class="activator" src="img/team/acellteam17/dakshtest.jpg" style="height: 210px;" >
+     <img class="activator" src="img/team/acellteam17/dakshtest.jpg" style="height: 230px;" >
    </div>
-   <div class ="card-content" style="padding-top: 0;"">
+   <div class ="card-content" style="padding-top: 0;">
     <div class="row" style="margin-bottom: 0;">
-      <div style="font-size:10px" class="col l9 m9 s9">
-        <ul>  <li><span class="card-title activator grey-text text-darken-4">Daksh Thakkur</span></li>
-
-         <li><strong style="font-size:15px">+91-9460300246</strong>  </li></ul>
+      <div style="font-size:10px" class="col l8 m8 s8">
+        <span class="card-title activator grey-text text-darken-4">Daksh Thakkur</span>
        </div>
-
+<div class="col l2 m2 s2"><ul class="soc"><li><a target="_blank" class="soc-linkedin" href="https://www.linkedin.com/in/daksh-thakkur-4b0378b7/"></a></li></ul> </div>
+        <div class="col l2 m2 s2"><ul class="soc"><li><a target="_blank" class="soc-facebook" href="https://www.facebook.com/daksh.thakkur"></a></li></ul></div>
      </div>
 
 
@@ -177,16 +198,15 @@
 <div class="col l4 m6 s12 ">
   <div class="card z-depth-0">
     <div class="card-image waves-effect waves-block waves-light">
-     <img class="activator" src="img/team/acellteam17/rohittest.jpg" style="height: 210px;" >
+     <img class="activator" src="img/team/acellteam17/rohittest.jpg" style="height: 230px;" >
    </div>
-   <div class ="card-content" style="padding-top: 0;"">
+   <div class ="card-content" style="padding-top: 0;">
     <div class="row" style="margin-bottom: 0;">
-      <div style="font-size:10px" class="col l9 m9 s9">
-        <ul>  <li><span class="card-title activator grey-text text-darken-4">Rohit Sonawane</span></li>
-
-         <li><strong style="font-size:15px">+91-9932428981</strong>  </li></ul>
+      <div style="font-size:10px" class="col l8 m8 s8">
+        <span class="card-title activator grey-text text-darken-4">Rohit Sonawane</span>
        </div>
-
+<div class="col l2 m2 s2"><ul class="soc"><li><a target="_blank" class="soc-linkedin" href="https://www.linkedin.com/in/rohit-sonawane-268139103/"></a></li></ul> </div>
+        <div class="col l2 m2 s2"><ul class="soc"><li><a target="_blank" class="soc-facebook" href="https://www.facebook.com/rohit.sonawane.3701779"></a></li></ul></div>
      </div>
 
 
@@ -213,16 +233,15 @@
  <div class="col l4 m6 s12 ">
   <div class="card z-depth-0">
     <div class="card-image waves-effect waves-block waves-light">
-     <img class="activator" src="img/team/acellteam17/sreelatatest1.jpg" style="height: 210px;" >
+     <img class="activator" src="img/team/acellteam17/sreelatatest1.jpg" style="height: 230px;" >
    </div>
-   <div class ="card-content" style="padding-top: 0;"">
+   <div class ="card-content" style="padding-top: 0;">
     <div class="row" style="margin-bottom: 0;">
-      <div style="font-size:10px" class="col l9 m9 s9">
-        <ul>  <li><span class="card-title activator grey-text text-darken-4">Sreelatha Challa</span></li>
-
-         <li><strong style="font-size:15px">+91-9932432473</strong>  </li></ul>
+      <div style="font-size:10px" class="col l8 m8 s8">
+        <span class="card-title activator grey-text text-darken-4">Sreelatha Challa</span>
        </div>
-
+ <div class="col l2 m2 s2"><ul class="soc"><li><a target="_blank" class="soc-linkedin" href="https://www.linkedin.com/in/sreelatha-challa/"></a></li></ul> </div>
+        <div class="col l2 m2 s2"><ul class="soc"><li><a target="_blank" class="soc-facebook" href="https://www.facebook.com/sreelatha.challa.1"></a></li></ul></div>
      </div>
 
 
@@ -244,16 +263,15 @@
 <div class="col l4 m6 s12 ">
   <div class="card z-depth-0">
     <div class="card-image waves-effect waves-block waves-light">
-     <img class="activator" src="img/team/acellteam17/utkarshtest.jpg" style="height: 210px;" >
+     <img class="activator" src="img/team/acellteam17/utkarshtest.jpg" style="height: 230px;" >
    </div>
-   <div class ="card-content" style="padding-top: 0;"">
+   <div class ="card-content" style="padding-top: 0;">
     <div class="row" style="margin-bottom: 0;">
-      <div style="font-size:10px" class="col l9 m9 s9">
-        <ul>  <li><span class="card-title activator grey-text text-darken-4">Utkarsh Sinha</span></li>
-
-         <li><strong style="font-size:15px">+91-8969169656</strong>  </li></ul>
+      <div style="font-size:10px" class="col l8 m8 s8">
+        <span class="card-title activator grey-text text-darken-4">Utkarsh Sinha</span>
        </div>
-
+<div class="col l2 m2 s2"><ul class="soc"><li><a target="_blank" class="soc-linkedin" href="https://www.linkedin.com/in/utksn15/"></a></li></ul> </div>
+        <div class="col l2 m2 s2"><ul class="soc"><li><a target="_blank" class="soc-facebook" href="https://www.facebook.com/utkarsh.sinha.186"></a></li></ul></div>
      </div>
    </div>
    <div class="card-reveal">
@@ -272,16 +290,15 @@
 <div class="col l4 m6 s12 ">
   <div class="card z-depth-0">
     <div class="card-image waves-effect waves-block waves-light">
-     <img class="activator" src="img/team/acellteam17/patil.JPG" style="height: 210px;" >
+     <img class="activator" src="img/team/acellteam17/patil.JPG" style="height: 230px;" >
    </div>
-   <div class ="card-content" style="padding-top: 0;"">
+   <div class ="card-content" style="padding-top: 0;">
     <div class="row" style="margin-bottom: 0;">
-      <div style="font-size:10px" class="col l9 m9 s9">
-        <ul>  <li><span class="card-title activator grey-text text-darken-4">Yash Patil</span></li>
-
-         <li><strong style="font-size:15px">+91-8554996899</strong>  </li></ul>
+      <div style="font-size:10px" class="col l8 m8 s8">
+        <span class="card-title activator grey-text text-darken-4">Yash Patil</span>
        </div>
-
+<div class="col l2 m2 s2"><ul class="soc"><li><a target="_blank" class="soc-linkedin" href="https://www.linkedin.com/in/yash-patil-570417118/"></a></li></ul> </div>
+        <div class="col l2 m2 s2"><ul class="soc"><li><a target="_blank" class="soc-facebook" href="https://www.facebook.com/profile.php?id=100009957672577"></a></li></ul></div>
      </div>
    </div>
    <div class="card-reveal">
@@ -304,16 +321,15 @@
   <div class="col l4 m6 s12 offset-l2">
     <div class="card z-depth-0">
       <div class="card-image waves-effect waves-block waves-light">
-       <img class="activator" src="img/team/acellteam17/karantest.jpg" style="height: 210px;" >
+       <img class="activator" src="img/team/acellteam17/karantest.jpg" style="height: 230px;" >
      </div>
-     <div class ="card-content" style="padding-top: 0;"">
+     <div class ="card-content" style="padding-top: 0;">
       <div class="row" style="margin-bottom: 0;">
-        <div style="font-size:10px" class="col l9 m9 s9">
-          <ul>  <li><span class="card-title activator grey-text text-darken-4">Karan Pratap</span></li>
-
-           <li><strong style="font-size:15px">+91-9800525888</strong>  </li></ul>
+        <div style="font-size:10px" class="col l8 m8 s8">
+          <span class="card-title activator grey-text text-darken-4">Karan Pratap</span>
          </div>
-
+<div class="col l2 m2 s2"><ul class="soc"><li><a target="_blank" class="soc-linkedin" href="https://www.linkedin.com/in/karan-pratap-singh-naoh/"></a></li></ul> </div>
+          <div class="col l2 m2 s2"><ul class="soc"><li><a target="_blank" class="soc-facebook" href="https://www.facebook.com/karannaoh"></a></li></ul></div>
        </div>
      </div>
      <div class="card-reveal">
@@ -333,16 +349,15 @@
 <div class="col l4 m6 s12 ">
   <div class="card z-depth-0">
     <div class="card-image waves-effect waves-block waves-light">
-     <img class="activator" src="img/team/acellteam17/yugamtest.jpg" style="height: 210px;" >
+     <img class="activator" src="img/team/acellteam17/yugamtest.jpg" style="height: 230px;" >
    </div>
-   <div class ="card-content" style="padding-top: 0;"">
+   <div class ="card-content" style="padding-top: 0;">
     <div class="row" style="margin-bottom: 0;">
-      <div style="font-size:10px" class="col l9 m9 s9">
-        <ul>  <li><span class="card-title activator grey-text text-darken-4">Yugam</span></li>
-
-         <li><strong style="font-size:15px">+91-9932509195</strong>  </li></ul>
+      <div style="font-size:10px" class="col l8 m8 s8">
+        <span class="card-title activator grey-text text-darken-4">Yugam</span>
        </div>
-
+<div class="col l2 m2 s2"><ul class="soc"><li><a target="_blank" class="soc-linkedin" href="https://www.linkedin.com/in/yugam-prasad-15a645126/"></a></li></ul> </div>
+        <div class="col l2 m2 s2"><ul class="soc"><li><a target="_blank" class="soc-facebook" href="https://www.facebook.com/yugam1?fref=ufi"></a></li></ul></div>
      </div>
    </div>
    <div class="card-reveal">
@@ -366,16 +381,15 @@
  <div class="col l4 m6 s12 offset-l4">
   <div class="card z-depth-0">
     <div class="card-image waves-effect waves-block waves-light">
-     <img class="activator" src="img/team/acellteam17/amantest.jpg" style="height: 210px;" >
+     <img class="activator" src="img/team/acellteam17/amantest.jpg" style="height: 230px;" >
    </div>
-   <div class ="card-content" style="padding-top: 0;"">
+   <div class ="card-content" style="padding-top: 0;">
     <div class="row" style="margin-bottom: 0;">
-      <div style="font-size:10px" class="col l9 m9 s9">
-        <ul>  <li><span class="card-title activator grey-text text-darken-4">Aman Kumar</span></li>
-
-         <li><strong style="font-size:15px">+91-9609808183</strong>  </li></ul>
+      <div style="font-size:10px" class="col l8 m8 s8">
+        <span class="card-title activator grey-text text-darken-4">Aman Kumar</span>
        </div>
-
+<div class="col l2 m2 s2"><ul class="soc"><li><a target="_blank" class="soc-linkedin" href="https://www.linkedin.com/in/aman-kumar-agarwal-99bb72102/"></a></li></ul> </div>
+        <div class="col l2 m2 s2"><ul class="soc"><li><a target="_blank" class="soc-facebook" href="https://www.facebook.com/profile.php?id=100006869627967"></a></li></ul></div>
      </div>
    </div>
    <div class="card-reveal">
