@@ -260,7 +260,7 @@
     <div class="card-reveal">
       <span class="card-title grey-text text-darken-4">Alumni Talks</span>
 
-            <p class="text_align">Continuing with its yearlong series of Alumni Talks by eminent alumni, the Students&#8217; Alumni Cell recently organised "Tips from Top", an open house with prominent alumni in the fields of Entrepreneurship, Civil Services and Research.</p>
+            <p class="text_align">Continuing with its yearlong series of Guest Lectures by eminent alumni, the Students&#8217; Alumni Cell recently organised "Alumni Talks", an open house with prominent alumni in the fields of Entrepreneurship, Civil Services and Research.</p>
 
     </div>
   </div>
