@@ -59,7 +59,7 @@
 <?php include 'navbar.php';?>
 
  <div class="row ac-sparc">
-        <img src="img/sparccrousel.jpg"  >
+        <img src="img/sparccover.jpg"  >
     </div>
 <div>
 <div class="center-align">
