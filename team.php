@@ -39,6 +39,15 @@
           font-size:15px;
           font-weight: bold;
          }
+         .card .card-reveal .card-title{
+          font-size:20px;
+         }
+         .soc{
+          margin-left: 0px !important;
+         }
+         .soc li a {
+          margin-right: 0px !important;
+         }
       </style>
    </head>
    <body>
@@ -73,25 +82,27 @@
                      </div>
                   </div>
                   <div class="card-reveal">
-                     <span class="card-title grey-text text-darken-4" style="padding-left: 15px;">Bharat Chandra</span>
+                    <center>
+                     <span class="card-title grey-text text-darken-4" >Bharat Chandra</span>
                      <p class="text_align">
                      <ul>
-                        <li style="padding-left: 15px;">+91-9932544235</li>
-                        <li style="padding-left: 15px;">imbharat16@gmail.com</li>
+                        <li >+91-9932544235</li>
+                        <li >imbharat16@gmail.com</li>
                         <li>
-                           <div class="col l3 m3 s3">
-                              <ul class="soc">
+                           <div class="col l6 m6 s6">
+                              <ul class="soc" style="text-align: right;">
                                  <li><a target="_blank" class="soc-linkedin" href="https://www.linkedin.com/in/bharat-chandra-obili-421781126/"></a></li>
                               </ul>
                            </div>
-                           <div class="col l3 m3 s3">
-                              <ul class="soc">
+                           <div class="col l6 m6 s6">
+                              <ul class="soc" style="text-align: left;">
                                  <li><a target="_blank" class="soc-facebook" href="https://www.facebook.com/bharat.chandra.97"></a></li>
                               </ul>
                            </div>
                         </li>
                      </ul>
                      </p>
+                   </center>
                   </div>
                </div>
             </div>
@@ -118,25 +129,27 @@
                      </div>
                   </div>
                   <div class="card-reveal">
-                     <span class="card-title grey-text text-darken-4" style="padding-left: 15px;">Vishal Singh</span>
+                    <center>
+                     <span class="card-title grey-text text-darken-4" >Vishal Singh</span>
                      <p class="text_align">
                      <ul>
-                        <li style="padding-left: 15px;">+91-8769797343</li>
-                        <li style="padding-left: 15px;">vishalsingh08.iitkgp@gmail.com</li>
+                        <li >+91-8769797343</li>
+                        <li >vishalsingh08.iitkgp@gmail.com</li>
                         <li>
-                           <div class="col l3 m3 s3">
-                              <ul class="soc">
+                           <div class="col l6 m6 s6">
+                              <ul class="soc" style="text-align: right;">
                                  <li><a target="_blank" class="soc-linkedin" href="https://www.linkedin.com/in/vishal-singh-284a89125/"></a></li>
                               </ul>
                            </div>
-                           <div class="col l3 m3 s3">
-                              <ul class="soc">
+                           <div class="col l6 m6 s6">
+                              <ul class="soc" style="text-align: left;">
                                  <li><a target="_blank" class="soc-facebook" href="https://www.facebook.com/profile.php?id=100010338962799"></a></li>
                               </ul>
                            </div>
                         </li>
                      </ul>
                      </p>
+                   </center>
                   </div>
                </div>
             </div>
@@ -170,25 +183,27 @@
                      </div>
                   </div>
                   <div class="card-reveal">
-                     <span class="card-title grey-text text-darken-4" style="padding-left: 15px;">Anmol Thakkar</span>
+                    <center>
+                     <span class="card-title grey-text text-darken-4" >Anmol Thakkar</span>
                      <p class="text_align">
                      <ul>
-                        <li style="padding-left: 15px;">+91-9475240720</li>
-                        <li style="padding-left: 15px;">anmolbt@gmail.com</li>
+                        <li >+91-9475240720</li>
+                        <li >anmolbt@gmail.com</li>
                         <li>
-                           <div class="col l3 m3 s3">
-                              <ul class="soc">
+                           <div class="col l6 m6 s6">
+                              <ul class="soc" style="text-align: right;">
                                  <li><a target="_blank" class="soc-linkedin" href="https://www.linkedin.com/in/anmolthakkar/"></a></li>
                               </ul>
                            </div>
-                           <div class="col l3 m3 s3">
-                              <ul class="soc">
+                           <div class="col l6 m6 s6">
+                              <ul class="soc" style="text-align: left;">
                                  <li><a target="_blank" class="soc-facebook" href="https://www.facebook.com/anmol2112"></a></li>
                               </ul>
                            </div>
                         </li>
                      </ul>
                      </p>
+                   </center>
                   </div>
                </div>
             </div>
@@ -215,25 +230,27 @@
                      </div>
                   </div>
                   <div class="card-reveal">
-                     <span class="card-title grey-text text-darken-4" style="padding-left: 15px;">Daksh Thakkur</span>
+                    <center>
+                     <span class="card-title grey-text text-darken-4" >Daksh Thakkur</span>
                      <p class="text_align">
                      <ul>
-                        <li style="padding-left: 15px;">+91-9460300246</li>
-                        <li style="padding-left: 15px;">daksh.thakkur@gmail.com</li>
+                        <li >+91-9460300246</li>
+                        <li >daksh.thakkur@gmail.com</li>
                         <li>
-                           <div class="col l3 m3 s3">
-                              <ul class="soc">
+                           <div class="col l6 m6 s6">
+                              <ul class="soc" style="text-align: right;">
                                  <li><a target="_blank" class="soc-linkedin" href="https://www.linkedin.com/in/daksh-thakkur-4b0378b7/"></a></li>
                               </ul>
                            </div>
-                           <div class="col l3 m3 s3">
-                              <ul class="soc">
+                           <div class="col l6 m6 s6">
+                              <ul class="soc" style="text-align: left;">
                                  <li><a target="_blank" class="soc-facebook" href="https://www.facebook.com/daksh.thakkur"></a></li>
                               </ul>
                            </div>
                         </li>
                      </ul>
                      </p>
+                   </center>
                   </div>
                </div>
             </div>
@@ -260,25 +277,27 @@
                      </div>
                   </div>
                   <div class="card-reveal">
-                     <span class="card-title grey-text text-darken-4" style="padding-left: 15px;">Rohit Sonawane</span>
+                    <center>
+                     <span class="card-title grey-text text-darken-4" >Rohit Sonawane</span>
                      <p class="text_align">
                      <ul>
-                        <li style="padding-left: 15px;">+91-9932428981</li>
-                        <li style="padding-left: 15px;">sonawanerohit803@gmail.com</li>
+                        <li >+91-9932428981</li>
+                        <li >sonawanerohit803@gmail.com</li>
                         <li>
-                           <div class="col l3 m3 s3">
-                              <ul class="soc">
+                           <div class="col l6 m6 s6">
+                              <ul class="soc" style="text-align: right;">
                                  <li><a target="_blank" class="soc-linkedin" href="https://www.linkedin.com/in/rohit-sonawane-268139103/"></a></li>
                               </ul>
                            </div>
-                           <div class="col l3 m3 s3">
-                              <ul class="soc">
+                           <div class="col l6 m6 s6">
+                              <ul class="soc" style="text-align: left;">
                                  <li><a target="_blank" class="soc-facebook" href="https://www.facebook.com/rohit.sonawane.3701779"></a></li>
                               </ul>
                            </div>
                         </li>
                      </ul>
                      </p>
+                   </center>
                   </div>
                </div>
             </div></div>
@@ -307,25 +326,27 @@
                         </div>
                      </div>
                      <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4" style="padding-left: 15px;">Sreelatha Challa</span>
+                      <center>
+                        <span class="card-title grey-text text-darken-4" >Sreelatha Challa</span>
                         <p class="text_align">
                         <ul>
-                           <li style="padding-left: 15px;">+91-9932432473</li>
-                           <li style="padding-left: 15px;">sreelathachalla9@gmail.com</li>
+                           <li >+91-9932432473</li>
+                           <li >sreelathachalla9@gmail.com</li>
                            <li>
-                              <div class="col l3 m3 s3">
-                                 <ul class="soc">
+                              <div class="col l6 m6 s6">
+                                 <ul class="soc" style="text-align: right;">
                                     <li><a target="_blank" class="soc-linkedin" href="https://www.linkedin.com/in/sreelatha-challa/"></a></li>
                                  </ul>
                               </div>
-                              <div class="col l3 m3 s3">
-                                 <ul class="soc">
+                              <div class="col l6 m6 s6">
+                                 <ul class="soc" style="text-align: left;">
                                     <li><a target="_blank" class="soc-facebook" href="https://www.facebook.com/sreelatha.challa.1"></a></li>
                                  </ul>
                               </div>
                            </li>
                         </ul>
                         </p>
+                      </center>
                      </div>
                   </div>
                </div>
@@ -352,25 +373,27 @@
                         </div>
                      </div>
                      <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4" style="padding-left: 15px;">Utkarsh Sinha</span>
+                      <center>
+                        <span class="card-title grey-text text-darken-4" >Utkarsh Sinha</span>
                         <p class="text_align">
                         <ul>
-                           <li style="padding-left: 15px;">+91-8969169656</li>
-                           <li style="padding-left: 15px;">utksn15@gmail.com</li>
+                           <li >+91-8969169656</li>
+                           <li >utksn15@gmail.com</li>
                            <li>
-                              <div class="col l3 m3 s3">
-                                 <ul class="soc">
+                              <div class="col l6 m6 s6">
+                                 <ul class="soc" style="text-align: right;">
                                     <li><a target="_blank" class="soc-linkedin" href="https://www.linkedin.com/in/utksn15/"></a></li>
                                  </ul>
                               </div>
-                              <div class="col l3 m3 s3">
-                                 <ul class="soc">
+                              <div class="col l6 m6 s6">
+                                 <ul class="soc" style="text-align: left;">
                                     <li><a target="_blank" class="soc-facebook" href="https://www.facebook.com/utkarsh.sinha.186"></a></li>
                                  </ul>
                               </div>
                            </li>
                         </ul>
                         </p>
+                      </center>
                      </div>
                   </div>
                </div>
@@ -397,25 +420,27 @@
                         </div>
                      </div>
                      <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4" style="padding-left: 15px;">Yash Patil</span>
+                      <center>
+                        <span class="card-title grey-text text-darken-4" >Yash Patil</span>
                         <p class="text_align">
                         <ul>
-                           <li style="padding-left: 15px;">+91-8554996899</li>
-                           <li style="padding-left: 15px;">yashpatil.iitkgp@gmail.com</li>
+                           <li >+91-8554996899</li>
+                           <li >yashpatil.iitkgp@gmail.com</li>
                            <li>
-                              <div class="col l3 m3 s3">
-                                 <ul class="soc">
+                              <div class="col l6 m6 s6">
+                                 <ul class="soc" style="text-align: right;">
                                     <li><a target="_blank" class="soc-linkedin" href="https://www.linkedin.com/in/yash-patil-570417118/"></a></li>
                                  </ul>
                               </div>
-                              <div class="col l3 m3 s3">
-                                 <ul class="soc">
+                              <div class="col l6 m6 s6">
+                                 <ul class="soc" style="text-align: left;">
                                     <li><a target="_blank" class="soc-facebook" href="https://www.facebook.com/profile.php?id=100009957672577"></a></li>
                                  </ul>
                               </div>
                            </li>
                         </ul>
                         </p>
+                      </center>
                      </div>
                   </div>
                </div>
@@ -449,25 +474,27 @@
                         </div>
                      </div>
                      <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4" style="padding-left: 15px;">Karan Pratap Singh</span>
+                      <center>
+                        <span class="card-title grey-text text-darken-4" >Karan Pratap Singh</span>
                         <p class="text_align">
                         <ul>
-                           <li style="padding-left: 15px;">+91-9800525888</li>
-                           <li style="padding-left: 15px;">karanpratapsingh43@gmail.com</li>
+                           <li >+91-9800525888</li>
+                           <li >karanpratapsingh43@gmail.com</li>
                            <li>
-                              <div class="col l3 m3 s3">
-                                 <ul class="soc">
+                              <div class="col l6 m6 s6">
+                                 <ul class="soc" style="text-align: right;">
                                     <li><a target="_blank" class="soc-linkedin" href="https://www.linkedin.com/in/karan-pratap-singh-naoh/"></a></li>
                                  </ul>
                               </div>
-                              <div class="col l3 m3 s3">
-                                 <ul class="soc">
+                              <div class="col l6 m6 s6">
+                                 <ul class="soc" style="text-align: left;">
                                     <li><a target="_blank" class="soc-facebook" href="https://www.facebook.com/karannaoh"></a></li>
                                  </ul>
                               </div>
                            </li>
                         </ul>
                         </p>
+                      </center>
                      </div>
                   </div>
                </div>
@@ -494,25 +521,27 @@
                         </div>
                      </div>
                      <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4" style="padding-left: 15px;">Yugam</span>
+                      <center>
+                        <span class="card-title grey-text text-darken-4" >Yugam</span>
                         <p class="text_align">
                         <ul>
-                           <li style="padding-left: 15px;">+91-9932509195</li>
-                           <li style="padding-left: 15px;">yugam66@gmail.com</li>
+                           <li >+91-9932509195</li>
+                           <li >yugam66@gmail.com</li>
                            <li>
-                              <div class="col l3 m3 s3">
-                                 <ul class="soc">
+                              <div class="col l6 m6 s6">
+                                 <ul class="soc" style="text-align: right;">
                                     <li><a target="_blank" class="soc-linkedin" href="https://www.linkedin.com/in/yugam-prasad-15a645126/"></a></li>
                                  </ul>
                               </div>
-                              <div class="col l3 m3 s3">
-                                 <ul class="soc">
+                              <div class="col l6 m6 s6">
+                                 <ul class="soc" style="text-align: left;">
                                     <li><a target="_blank" class="soc-facebook" href="https://www.facebook.com/yugam1?fref=ufi"></a></li>
                                  </ul>
                               </div>
                            </li>
                         </ul>
                         </p>
+                      </center>
                      </div>
                   </div>
                </div>
@@ -546,25 +575,27 @@
                         </div>
                      </div>
                      <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4" style="padding-left: 15px;">Aman Kumar</span>
+                      <center>
+                        <span class="card-title grey-text text-darken-4" >Aman Kumar</span>
                         <p class="text_align">
                         <ul>
-                           <li style="padding-left: 15px;">+91-9609808183</li>
-                           <li style="padding-left: 15px;">amankumaragarwal2@gmail.com</li>
+                           <li >+91-9609808183</li>
+                           <li >amankumaragarwal2@gmail.com</li>
                            <li>
-                              <div class="col l3 m3 s3">
-                                 <ul class="soc">
+                              <div class="col l6 m6 s6">
+                                 <ul class="soc" style="text-align: right;">
                                     <li><a target="_blank" class="soc-linkedin" href="https://www.linkedin.com/in/aman-kumar-agarwal-99bb72102/"></a></li>
                                  </ul>
                               </div>
-                              <div class="col l3 m3 s3">
-                                 <ul class="soc">
+                              <div class="col l6 m6 s6">
+                                 <ul class="soc" style="text-align: left;">
                                     <li><a target="_blank" class="soc-facebook" href="https://www.facebook.com/profile.php?id=100006869627967"></a></li>
                                  </ul>
                               </div>
                            </li>
                         </ul>
                         </p>
+                      </center>
                      </div>
                   </div>
                </div>
