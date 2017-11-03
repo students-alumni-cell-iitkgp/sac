@@ -14,16 +14,7 @@
 <style type="text/css">
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900,900italic);
 
-body {
-  font-family: 'Source Sans Pro', sans-serif;
-  line-height: 1.5;
-  color: #323232;
-  font-size: 15px;
-  font-weight: 400;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-font-smoothing: antialiased;
-}
+
 .heading-title {
   margin-bottom: 100px;
 }
@@ -142,7 +133,7 @@ body {
 }
 body {
   background: #e2e1e0;
-  text-align: center;
+  
 }
 
 .card {
