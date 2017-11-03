@@ -241,7 +241,7 @@
     </div>
     <div class="card-reveal">
       <span class="card-title grey-text text-darken-4">Mentorship Programme</span>
-            <p class="text_align">Students’ Alumni Cell brings to you Student Alumni Mentorship Programme. A plat
+            <p class="text_align">Students&rsquo; Alumni Cell brings to you Student Alumni Mentorship Programme. A plat
                 form to share the valuable experience of our esteemed alumni community with the current students. For more Information,
                 Kindly check out <a target="_blank" href="http://www.mentorship.iitkgp.ernet.in">Mentorship</a> Website.</p>
 
