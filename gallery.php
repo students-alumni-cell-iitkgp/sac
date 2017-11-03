@@ -114,18 +114,18 @@
             </div>
         </center>
     <br>
-
+    <!--
      <div class="row">
     
-        <div class="col l4 m4 s12">
+        <div class="col l3 m4 s12">
             <img class="materialboxed normal" src="img/sam/samh/2.jpg" width="430">
         </div>
-        <div class="col l4 m4 s12">
+        <div class="col l6 m4 s12">
         
-            <img class="materialboxed normal" src="img/sam/samh/1.jpg" width="430">
+            <img class="materialboxed normal " src="img/sam/samh/1.jpg" width="430">
         
             </div>
-        <div class="col l4 m4 s12">
+        <div class="col l3 m4 s12">
             
                 <img class="materialboxed normal" src="img/sam/samh/5.jpg" width="430">
             
@@ -148,7 +148,30 @@
         </div>
 
     </div>
+        -->
+        <div class="row">
+           <div class="col l3 m3 s12">
+                <div class="row">
+                    <img class="materialboxed normal" src="img/sam/samh/2.jpg" height="230px" >
+                </div>
+                <div class="row">
+                    <img class="materialboxed normal" src="img/sam/samh/5.jpg" height="230px">
+                </div>
+            </div>
+            <div class="col l6 m6 s12">
+                <img class="materialboxed normal " src="img/sam/samh/samh.jpg" height="480px">
+            </div>
+            <div class="col l3 m3 s12">
+                <div class="row">
+                    <img class="materialboxed normal" src="img/sam/samh/3.jpg" height="230px">
+                </div>
+                <div class="row">
+                    <img class="materialboxed normal" src="img/sam/samh/4.jpg" height="230px">
+                </div>
+            </div>
 
+
+        </div>
 
 
 
