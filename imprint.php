@@ -51,6 +51,10 @@
        
         max-width: 100%;
     }
+    #imgleft
+    {
+      margin-left: 8%;
+    }
     }
     
     @media only screen and (max-width: 468px){
@@ -76,7 +80,7 @@
 <?php include 'navbar.php';?>
 
  <div class="row ac-imprint">
-        <img src="img/myimprint.jpg"  >
+        <img src="img/latest programs/imprint.jpg"  >
     </div>
 
   <div class="row">
@@ -136,10 +140,36 @@
     <div class="col l6 s12 m12">
       <div class="heading">
       <center>
-        <h class="subheading"><b> Class Gift 2015 </b> </h>
+        <h class="subheading"><b> Class Gift 2017 </b> </h>
+        </div>
+         </center>
+      <div class="offset-11">
+   <img class="class_gift_Img" id="imgleft" src="img/latest programs/classgift.jpg" style="width: 600px;">
+   </div>
+  
+    
+    </div>
+     <div class="col l6 s12 m12">
+      <div class="heading">
+      <center>
+        <h class="subheading"><b> Class Gift 2016</b> </h>
       </center>
     </div>
-   <img class="class_gift_Img" src="img/latest programs/classgift2015.jpg" style="max-width:100%;">
+<img src="img/latest programs/classgift16.jpg" class="class_gift_Img" style="max-width:100%;">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col l6 s12 m12">
+      <div class="heading">
+      <center>
+        <h class="subheading"><b> Class Gift 2015 </b> </h>
+        </div>
+         </center>
+      <div class="offset-11">
+   <img class="class_gift_Img" id="imgleft" src="img/latest programs/classgift2015.jpg" style="max-width:100%;">
+   </div>
+  
+    
     </div>
      <div class="col l6 s12 m12">
       <div class="heading">

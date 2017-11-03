@@ -34,7 +34,7 @@
     <div class="col s5.5 m6 l4">
       <div class="card z-depth-0 _card">
         <div class="card-image">
-          <img src="img/yoy/2017.jpg" height="480px">
+          <img src="img/yoy/yoy17.jpg" height="480px">
 
         </div>
         <div class="card-content">
