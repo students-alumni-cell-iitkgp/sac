@@ -301,7 +301,7 @@
                   </div>
                </div>
             </div></div>
-            <br><br>
+            <br>
             <div class="row">
                <div class="col l4 m6 s12 ">
                   <div class="card z-depth-0">
@@ -481,15 +481,20 @@
                            <li >+91-9800525888</li>
                            <li >karanpratapsingh43@gmail.com</li>
                            <li>
-                              <div class="col l6 m6 s6">
-                                 <ul class="soc" style="text-align: right;">
+                              <div class="col l4 m4 s4">
+                                 <ul class="soc" style="margin-right:-120px;">
                                     <li><a target="_blank" class="soc-linkedin" href="https://www.linkedin.com/in/karan-pratap-singh-naoh/"></a></li>
                                  </ul>
                               </div>
-                              <div class="col l6 m6 s6">
-                                 <ul class="soc" style="text-align: left;">
+                              <div class="col l4 m4 s4">
+                                 <ul class="soc" >
                                     <li><a target="_blank" class="soc-facebook" href="https://www.facebook.com/karannaoh"></a></li>
                                  </ul>
+                              </div>
+                              <div class="col l4 m4 s4" style="margin-left: -62px;">
+                                <a target="_blank" href="https://github.com/karannaoh">
+                              <img src="img/GitHub-Mark-32px.png" alt="github" style="padding-top: 11px;">
+                              </a>
                               </div>
                            </li>
                         </ul>
@@ -528,16 +533,21 @@
                            <li >+91-9932509195</li>
                            <li >yugam66@gmail.com</li>
                            <li>
-                              <div class="col l6 m6 s6">
-                                 <ul class="soc" style="text-align: right;">
+                              <div class="col l4 m4 s4">
+                                 <ul class="soc" style="margin-right:-120px;">
                                     <li><a target="_blank" class="soc-linkedin" href="https://www.linkedin.com/in/yugam-prasad-15a645126/"></a></li>
                                  </ul>
                               </div>
-                              <div class="col l6 m6 s6">
-                                 <ul class="soc" style="text-align: left;">
+                              <div class="col l4 m4 s4">
+                                 <ul class="soc">
                                     <li><a target="_blank" class="soc-facebook" href="https://www.facebook.com/yugam1?fref=ufi"></a></li>
                                  </ul>
                               </div>
+                              <div class="col l4 m4 s4" style="margin-left: -62px;">
+                                <a target="_blank" href="https://github.com/yugam1">
+                              <img src="img/GitHub-Mark-32px.png" alt="github" style="padding-top: 11px;">
+                              </a>
+                              </div>                              
                            </li>
                         </ul>
                         </p>
