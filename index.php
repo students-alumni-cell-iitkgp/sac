@@ -218,7 +218,7 @@
     </div>
     <div class ="card-content">
       <span class="card-title activator grey-text text-darken-4">Class Gift of 2017<i class="material-icons right">more_vert</i></span>
-      <p class="text_align">Bus stand at Nalanda Complex</p>
+      <p class="text_align" style="font-size: 92%;">Bus stand at Nalanda Classroom Complex</p>
     </div>
     <div class="card-reveal">
       <span class="card-title grey-text text-darken-4">Class Gift of 2017</span>
