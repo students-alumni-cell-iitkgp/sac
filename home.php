@@ -142,7 +142,7 @@ if( $query_run = mysqli_query($connection, $query) ){
                   <li class="">
                     <strong>1. Demand Draft</strong>
                     <br> You can pay by sending a cheque or demand draft (DD) if favour of "Annual Alumni Meet" payable at Kharagpur on the address:
-                    <br> Students' Alumni Cell
+                    <br> Students&rsquo; Alumni Cell
                     <br> Office of Alumni Affairs and International Relations
                     <br> Indian Institute of Technology Kharagpur
                     <br> Kharagpur - 721302

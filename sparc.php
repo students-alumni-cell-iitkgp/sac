@@ -168,7 +168,7 @@
         <div class="col l12 m12 s12 z-depth-1">
             <div class="heading">
                 <center>
-                    <h id="h4" class="subheading"><b>Dean's Meet</b></h>
+                    <h id="h4" class="subheading"><b>Dean's Meet '17</b></h>
                 </center>
             </div>
             <center>
