@@ -275,7 +275,7 @@
       <p class="text_align">2017</p>
     </div>
     <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4"><a>Yearbook</a></span>
+      <span class="card-title grey-text text-darken-4">Yearbook</span>
             <p class="text_align">The Yearbook is a collection of photographs and memories presented every year at the time of the convocation to the graduating batch by the Students&#8217; Alumni Cell. It is the perfect souvenir for everyone about to leave their home away from home, KGP.  </p>
 
 
