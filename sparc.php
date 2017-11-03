@@ -156,7 +156,7 @@
     </center>
   </div>
     <p class="text_align" style="padding:1% 10% 2% 10%">
-      One of the glances from our first event, Students' Alumni Meet in Bangalore. Owing to the huge response received from the students as well as the alumni, SPARC will come up with more such events and programs in the future.
+      One of the glances from our first event, Students' Alumni Meet in Bangalore. Owing to the huge response received from the students as well as the alumni, SPARC will come up with more such events and programmes in the future.
     </p>
     <img class="image" src="img/sam/Bangalore/e.jpg" style="padding:10px;width:100%"><br><br>
   </div>
