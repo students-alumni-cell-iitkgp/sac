@@ -10,15 +10,6 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-  <script type="text/javascript">
-    function call17()
-    {
-       window.open('https://drive.google.com/drive/folders/0ByPZPiiPCG8_dl9fc2I2bFdHUmc', '_blank');
-    }
-
-
-
-  </script>
   <div class="_wrapper">
     <?php include 'navbar.php';?>
     <div class="row">
@@ -54,7 +45,8 @@
    <div class="container" style="width:100%;">
     <div class="row" style="margin:auto;width:90%;">
       <div class="col s12 m6 l3 offset-l1">
-        <div class="card z-depth-0 _card" onclick="call17();">
+        <a href="https://drive.google.com/drive/folders/0ByPZPiiPCG8_dl9fc2I2bFdHUmc" target="_blank">
+        <div class="card z-depth-0 _card" >
           <div class="card-image">
             
           <img src="img/yearbook/year17.jpg" style="height: 354px" >
@@ -66,6 +58,7 @@
           </div>
 
         </div>
+        </a>
       </div>
       <div class="col s12 m6 l3">
         <div class="card z-depth-0 _card">
