@@ -352,7 +352,7 @@ body {
 <div class="col l4 m6 s12">
     <div class="team-member">
         <div class="team-img">
-            <img src="img/team/acellteam17/patil.jpg" alt="team member" class="img-responsive" height="250">
+            <img src="img/team/acellteam17/patil.JPG" alt="team member" class="img-responsive" height="250">
       </div>
       <div class="team-hover">
             <div class="desk">
