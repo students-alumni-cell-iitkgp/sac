@@ -462,9 +462,9 @@ body {
       </div>
       <div class="team-hover">
             <div class="desk">
-                  <h4>Aman Kumar</h4>
+                  <h4>Aman Kumar </h4>
                   <ul>
-                       <<li style="padding-left: 15px;">+91-9609808183</li>
+                       <li style="padding-left: 15px;">+91-9609808183</li>
                            <li style="padding-left: 15px;">amankumaragarwal2@gmail.com</li>
             </div>
             <div class="s-link">
