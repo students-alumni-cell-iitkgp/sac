@@ -13,7 +13,7 @@
   <script type="text/javascript">
     function call17()
     {
-      window.location="https://drive.google.com/drive/folders/0ByPZPiiPCG8_dl9fc2I2bFdHUmc";
+       window.open('https://drive.google.com/drive/folders/0ByPZPiiPCG8_dl9fc2I2bFdHUmc', '_blank');
     }
 
 
