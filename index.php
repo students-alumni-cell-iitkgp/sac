@@ -221,7 +221,7 @@
       <p class="text_align" style="font-size: 92%;">Bus stand at Nalanda Classroom Complex</p>
     </div>
     <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">Class Gift of 2017</span>
+    <a href="http://www.sac.iitkgp.ac.in/imprint.php">  <span class="card-title grey-text text-darken-4">Class Gift of 2017</span> </a>
             <p class="text_align">The Senior Class Gift, an initiative under the 
               My Imprint Programme saw a large number of graduating students signing up for the programme.
                The programme gives an opportunity to the graduating batch to give something back to the Institute,
@@ -240,7 +240,7 @@
       <p class="text_align">Phase 1</p>
     </div>
     <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">Mentorship Programme</span>
+     <a href="http://www.sac.iitkgp.ac.in/mentorship.php" ><span class="card-title grey-text text-darken-4">Mentorship Programme</span></a>
             <p class="text_align">Students&rsquo; Alumni Cell brings to you Student Alumni Mentorship Programme. A plat
                 form to share the valuable experience of our esteemed alumni community with the current students. For more Information,
                 Kindly check out <a target="_blank" href="http://www.mentorship.iitkgp.ernet.in">Mentorship</a> Website.</p>
@@ -258,7 +258,9 @@
       <p class="text_align"><br /></p>
     </div>
     <div class="card-reveal">
+      <a href="http://www.sac.iitkgp.ac.in/alumnitalks.php">
       <span class="card-title grey-text text-darken-4">Alumni Talks</span>
+      </a>
 
             <p class="text_align">Continuing with its yearlong series of Guest Lectures by eminent alumni, the Students&#8217; Alumni Cell recently organised "Alumni Talks", an open house with prominent alumni in the fields of Entrepreneurship, Civil Services and Research.</p>
 
@@ -275,7 +277,8 @@
       <p class="text_align">2017</p>
     </div>
     <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">Yearbook</span>
+      <a href="http://www.sac.iitkgp.ac.in/yearbook.php"><span class="card-title grey-text text-darken-4">Yearbook</span>
+      </a>
             <p class="text_align">The Yearbook is a collection of photographs and memories presented every year at the time of the convocation to the graduating batch by the Students&#8217; Alumni Cell. It is the perfect souvenir for everyone about to leave their home away from home, KGP.  </p>
 
 
