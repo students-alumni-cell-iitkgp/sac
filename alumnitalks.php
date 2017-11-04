@@ -134,29 +134,6 @@ Type a message...
                 </div>
                  </center> </div>
 
-<div class="row"><center>
-                
-                    <center>
-                    <div class="heading ac-head" style="border:3px black solid; display: inline-block; padding-top: 2px; margin: 3px;padding-right: 20px;padding-left: 20px;" >
-
-                        <h4><b>Tips from Top</b></h4> </div>
-                    </center>
-                
-
-                <div class="col l4 m4 s12">
-                    <center>
-                        <img class="materialboxed normal" src="img/guest-lecture/Tips_from_Top/a.jpg" width="430">
-                    </center>
-                </div>
-                <div class="col l4 m4 s12">
-                    <center>
-                        <img class="materialboxed normal" src="img/guest-lecture/Tips_from_Top/b.jpg" width="430"></center>
-                </div>
-                <div class="col l4 m4 s12">
-                    <center>
-                        <img class="materialboxed normal" src="img/guest-lecture/Tips_from_Top/c.jpg" width="430" ></center>
-                </div> </center> </div>
-
 <div class="row" >
  <center>
         <div class="heading ac-head" style="border:3px black solid; display: inline-block; padding-top: 2px; margin: 3px;padding-right: 20px;padding-left: 20px;">
@@ -190,6 +167,31 @@ Type a message...
         </div>
     </center>
 </div>
+
+<div class="row"><center>
+                
+                    <center>
+                    <div class="heading ac-head" style="border:3px black solid; display: inline-block; padding-top: 2px; margin: 3px;padding-right: 20px;padding-left: 20px;" >
+
+                        <h4><b>Tips from Top</b></h4> </div>
+                    </center>
+                
+
+                <div class="col l4 m4 s12">
+                    <center>
+                        <img class="materialboxed normal" src="img/guest-lecture/Tips_from_Top/a.jpg" width="430">
+                    </center>
+                </div>
+                <div class="col l4 m4 s12">
+                    <center>
+                        <img class="materialboxed normal" src="img/guest-lecture/Tips_from_Top/b.jpg" width="430"></center>
+                </div>
+                <div class="col l4 m4 s12">
+                    <center>
+                        <img class="materialboxed normal" src="img/guest-lecture/Tips_from_Top/c.jpg" width="430" ></center>
+                </div> </center> </div>
+
+
 
     
 
