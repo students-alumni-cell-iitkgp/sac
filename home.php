@@ -156,7 +156,13 @@ if( $query_run = mysqli_query($connection, $query) ){
                     <br> Branch: IIT Kharagpur, SRIC
                     <br> IFSC Code: SYNB0009556
                     <br> A/C No.: 95562200012031
-                    <br> Account Name: Annual Alumni Meet
+                    <br> Account Name: Annual Alumni Meet<br>
+                    <br><b style="font-size: 200%;">&nbsp &nbsp &nbsp OR</b><br>
+                     <br> Bank Name: HDFC Bank Ltd
+                    <br> Branch: Kharagpur
+                    <br> IFSC Code: HDFC0001065
+                    <br> A/C No.: 50100217409918
+                    <br> Account Name: IIT KGP AAIR EVENTS FUND
                   </li>
                 </ul>
               </div>
