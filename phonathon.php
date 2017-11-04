@@ -43,6 +43,10 @@
             .ac-guest img{
                 margin-left: 80px;
             }
+            #centerimg
+            {
+                margin-left: 25px;
+            }
         }
 
     </style>
@@ -112,17 +116,54 @@
             </center>
 
 
-            <div class="col l6 m4 s12">
-                <center>
-                    <img style="margin:15px;" class="materialboxed normal" src="img/phonathon/phonathon211.jpg" width="520"></center>
+<br>
+ <div class="row">
+           <div class="col l3 m3 s12">
+                <div class="row">
+                    <img class="materialboxed normal" src="img/phonathon/2.0/2.jpg" height="230px" >
+                </div>
+                <div class="row">
+                    <img class="materialboxed normal" src="img/phonathon/2.0/3.jpg" height="230px">
+                </div>
             </div>
-            <div class="col l6 m4 s12">
-                <center>
-                    <img style="margin-top: 15px" class="materialboxed normal" src="img/phonathon/phonathon21.jpg" width="520" ></center>
-            </div></center>
-    </div>
+            <div class="col l6 m6 s12">
+               
+                <img class="materialboxed normal " src="img/phonathon/2.0/1.jpg" height="480px"  id="centerimg">
+               
+            </div>
+            <div class="col l3 m3 s12">
+                <div class="row">
+                    <img class="materialboxed normal" src="img/phonathon/2.0/4.jpg" height="230px">
+                </div>
+                <div class="row">
+                    <img class="materialboxed normal" src="img/phonathon/2.0/5.jpg" height="230px">
+                </div>
+            </div></div>
+         <div class="row">
+           <div class="col l3 m3 s12">
+                <div class="row">
+                    <img class="materialboxed normal" src="img/phonathon/2.0/6.jpg" height="230px" >
+                </div>
+                <div class="row">
+                    <img class="materialboxed normal" src="img/phonathon/2.0/7.jpg" height="230px">
+                </div>
+            </div>
+            <div class="col l6 m6 s12">
+               
+                <img class="materialboxed normal " src="img/phonathon/phonathon211.jpg" height="480px"  id="centerimg">
+               
+            </div>
+            <div class="col l3 m3 s12">
+                <div class="row">
+                    <img class="materialboxed normal" src="img/phonathon/2.0/8.jpg" height="230px">
+                </div>
+                <div class="row">
+                    <img class="materialboxed normal" src="img/phonathon/2.0/9.jpg" height="230px">
+                </div>
+            </div>
 
 
+        </div>
 
 
 </div>
