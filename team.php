@@ -173,7 +173,7 @@ body {
      <div class="card card-1">
       <div class="team-member">
         <div class="team-img">
-          <img src="img/team/acellteam17/bharattest.jpg" alt="team member" class="img-responsive" height="250">
+          <img src="img/team/acellteam17/bharat.jpg" alt="team member" class="img-responsive" height="250">
         </div>
         <div class="team-hover">
           <div class="desk">
@@ -201,7 +201,7 @@ body {
  <div class="card card-1">
   <div class="team-member">
     <div class="team-img">
-      <img src="img/team/acellteam17/vishaltest.jpg" alt="team member" class="img-responsive" height="250">
+      <img src="img/team/acellteam17/vishal.jpg" alt="team member" class="img-responsive" height="250">
     </div>
     <div class="team-hover">
       <div class="desk">
@@ -241,7 +241,7 @@ body {
      <div class="card card-1">
       <div class="team-member">
         <div class="team-img">
-          <img src="img/team/acellteam17/thakkartest.jpg" alt="team member" class="img-responsive" height="250" width="100%">
+          <img src="img/team/acellteam17/thakkar.jpg" alt="team member" class="img-responsive" height="250" width="100%">
         </div>
         <div class="team-hover">
           <div class="desk">
@@ -268,7 +268,7 @@ body {
    <div class="card card-1">
     <div class="team-member">
       <div class="team-img">
-        <img src="img/team/acellteam17/dakshtest.jpg" alt="team member" class="img-responsive" height="250">
+        <img src="img/team/acellteam17/daksh.jpg" alt="team member" class="img-responsive" height="250">
       </div>
       <div class="team-hover">
         <div class="desk">
@@ -296,7 +296,7 @@ body {
   <div class="team-member">
 
     <div class="team-img">
-      <img src="img/team/acellteam17/rohittest.jpg" alt="team member" class="img-responsive" height="250">
+      <img src="img/team/acellteam17/rohit.jpg" alt="team member" class="img-responsive" height="250">
     </div>
     <div class="team-hover">
       <div class="desk">
@@ -327,7 +327,7 @@ body {
    <div class="card card-1">
     <div class="team-member">
       <div class="team-img">
-        <img src="img/team/acellteam17/sreelatatest1.jpg" alt="team member" class="img-responsive" height="250" align="center">
+        <img src="img/team/acellteam17/sreelata.jpg" alt="team member" class="img-responsive" height="250" align="center">
       </div>
       <div class="team-hover">
         <div class="desk">
@@ -354,7 +354,7 @@ body {
   <div class="card card-1">
   <div class="team-member">
     <div class="team-img">
-      <img src="img/team/acellteam17/utkarshtest.jpg" alt="team member" class="img-responsive" height="250">
+      <img src="img/team/acellteam17/utkarsh.jpg" alt="team member" class="img-responsive" height="250" width="100%">
     </div>
     <div class="team-hover">
       <div class="desk">
@@ -381,7 +381,7 @@ body {
  <div class="card card-1">
   <div class="team-member">
     <div class="team-img">
-      <img src="img/team/acellteam17/patiltest.jpg" alt="team member" class="img-responsive" height="250">
+      <img src="img/team/acellteam17/patil.jpg" alt="team member" class="img-responsive" height="250">
     </div>
     <div class="team-hover">
       <div class="desk">
@@ -423,7 +423,7 @@ body {
      <div class="card card-1">
       <div class="team-member">
         <div class="team-img">
-          <img src="img/team/acellteam17/karantest.jpg" alt="team member" class="img-responsive" height="250" width="100%">
+          <img src="img/team/acellteam17/karan.jpg" alt="team member" class="img-responsive" height="250" width="100%">
         </div>
         <div class="team-hover">
           <div class="desk">
@@ -450,7 +450,7 @@ body {
  <div class="card card-1">
   <div class="team-member">
     <div class="team-img">
-      <img src="img/team/acellteam17/yugamtest.jpg" alt="team member" class="img-responsive" height="250" width="100%">
+      <img src="img/team/acellteam17/yugam.jpg" alt="team member" class="img-responsive" height="250" width="100%">
     </div>
     <div class="team-hover">
       <div class="desk">
@@ -493,7 +493,7 @@ body {
       <div class="card card-1">
         <div class="team-member">
           <div class="team-img">
-            <img src="img/team/acellteam17/amantest.jpg" alt="team member" class="img-responsive" height="250" width="100%">
+            <img src="img/team/acellteam17/aman.jpg" alt="team member" class="img-responsive" height="250" width="100%">
           </div>
           <div class="team-hover">
             <div class="desk">
