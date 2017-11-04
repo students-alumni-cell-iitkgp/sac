@@ -12,7 +12,12 @@
         .normal{
         margin: 10px;
          width: 25vw;
+  padding-right: 10px;
     }
+       .bigg {
+            width: 48vw !important;
+            padding-right: 0;
+        }
 }
     @media only screen and (max-width: 992px) {
     .normal { margin-left: -9px;
@@ -28,6 +33,12 @@
        margin:10px;
        margin-left: -9px;
     }
+        .bigg{
+            height: 200px;
+            width: 350px !important;
+            margin:10px;
+            padding-right: 10;
+        }
     .ac-guest img{ height: 30%;
 margin: 0px auto;
 max-width:100%;
@@ -38,7 +49,12 @@ max-width:100%;
         margin-left: 80px;
     }
    } 
-    
+     .normal{
+        margin: 10px;
+    }
+    .long{
+        width: 300px;
+    }   
 </style>
     <script>
     $(document).ready(function(){
@@ -141,7 +157,39 @@ Type a message...
                         <img class="materialboxed normal" src="img/guest-lecture/Tips_from_Top/c.jpg" width="430" ></center>
                 </div> </center> </div>
 
+<div class="row" >
+ <center>
+        <div class="heading ac-head" style="border:3px black solid; display: inline-block; padding-top: 2px; margin: 3px;padding-right: 20px;padding-left: 20px;">
 
+               <h4><b>Guest Lecture</b> - Mr Mark Richard</h4> </div>
+    </center>
+    <center>
+        <div class="row">
+
+            <div class="col l6 m6 s12">
+                <img class=" materialboxed normal bigg" src="img/guest-lecture/Mr_Mark_Richard/3.jpg" height="420px">
+            </div>
+            
+  <div class="col l3 m6 s12">
+                <img class=" materialboxed normal" src="img/guest-lecture/Mr_Mark_Richard/1.jpg" height="200">
+            </div>
+
+            <div class="col l3 m6 s12">
+                <img class=" materialboxed normal " src="img/guest-lecture/Mr_Mark_Richard/2.jpg" height="200">
+            </div>
+            <div class="col l3 m6 s12">
+                <img class=" materialboxed normal " src="img/guest-lecture/Mr_Mark_Richard/5.jpg" height="200">
+            </div>
+            <div class="col l3 m6 s12">
+                <img class=" materialboxed normal" src="img/guest-lecture/Mr_Mark_Richard/4.jpg" height="200">
+            </div>
+
+
+
+
+        </div>
+    </center>
+</div>
 
     
 
