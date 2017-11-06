@@ -184,8 +184,8 @@ body {
             </ul>
           </div>
           <div class="s-link">
-           <a href="https://www.facebook.com/bharat.chandra.97"><i class="fa fa-facebook"></i></a>
-           <a href="https://www.linkedin.com/in/bharat-chandra-obili-421781126/"><i class="fa fa-linkedin"></i></a>
+           <a target="_blank" href="https://www.facebook.com/bharat.chandra.97"><i class="fa fa-facebook"></i></a>
+           <a target="_blank" href="https://www.linkedin.com/in/bharat-chandra-obili-421781126/"><i class="fa fa-linkedin"></i></a>
 
 
          </div>
@@ -212,9 +212,9 @@ body {
         </ul>
       </div>
       <div class="s-link">
-        <a href="https://www.facebook.com/profile.php?id=100010338962799"><i class="fa fa-facebook"></i></a>
+        <a target="_blank" href="https://www.facebook.com/profile.php?id=100010338962799"><i class="fa fa-facebook"></i></a>
 
-        <a href="https://www.linkedin.com/in/vishal-singh-284a89125/"><i class="fa fa-linkedin"></i></a>
+        <a target="_blank" href="https://www.linkedin.com/in/vishal-singh-284a89125/"><i class="fa fa-linkedin"></i></a>
       </div>
     </div>
   </div>
@@ -252,8 +252,8 @@ body {
             </ul>
           </div>
           <div class="s-link">
-            <a href="https://www.facebook.com/profile.php?id=100010338962799"><i class="fa fa-facebook"></i></a>
-            <a href="https://www.linkedin.com/in/vishal-singh-284a89125/"><i class="fa fa-linkedin"></i></a>
+            <a target="_blank" href="https://www.facebook.com/profile.php?id=100010338962799"><i class="fa fa-facebook"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/vishal-singh-284a89125/"><i class="fa fa-linkedin"></i></a>
 
           </div>
         </div>
@@ -279,8 +279,8 @@ body {
           </ul>
         </div>
         <div class="s-link">
-          <a href="https://www.facebook.com/daksh.thakkur"><i class="fa fa-facebook"></i></a>
-          <a href="https://www.linkedin.com/in/daksh-thakkur-4b0378b7/"><i class="fa fa-linkedin"></i></a>
+          <a target="_blank" href="https://www.facebook.com/daksh.thakkur"><i class="fa fa-facebook"></i></a>
+          <a target="_blank" href="https://www.linkedin.com/in/daksh-thakkur-4b0378b7/"><i class="fa fa-linkedin"></i></a>
 
         </div>
       </div>
@@ -307,8 +307,8 @@ body {
        </ul>
      </div>
      <div class="s-link">
-      <a href="https://www.facebook.com/daksh.thakkur"><i class="fa fa-facebook"></i></a>
-      <a href="https://www.linkedin.com/in/daksh-thakkur-4b0378b7/"><i class="fa fa-linkedin"></i></a>
+      <a target="_blank" href="https://www.facebook.com/daksh.thakkur"><i class="fa fa-facebook"></i></a>
+      <a target="_blank" href="https://www.linkedin.com/in/daksh-thakkur-4b0378b7/"><i class="fa fa-linkedin"></i></a>
 
     </div>
   </div>
@@ -339,8 +339,8 @@ body {
         </div>
         <div class="s-link">
 
-          <a href="https://www.linkedin.com/in/sreelatha-challa/"><i class="fa fa-facebook"></i></a>
-          <a href="https://www.facebook.com/sreelatha.challa.1"><i class="fa fa-linkedin"></i></a>
+          <a target="_blank" href="https://www.linkedin.com/in/sreelatha-challa/"><i class="fa fa-facebook"></i></a>
+          <a target="_blank" href="https://www.facebook.com/sreelatha.challa.1"><i class="fa fa-linkedin"></i></a>
         </div>
       </div>
     </div>
@@ -365,8 +365,8 @@ body {
         </ul>
       </div>
       <div class="s-link">
-        <a href="https://www.facebook.com/utkarsh.sinha.186"><i class="fa fa-facebook"></i></a>
-        <a href="https://www.linkedin.com/in/utksn15/"><i class="fa fa-linkedin"></i></a>
+        <a target="_blank" href="https://www.facebook.com/utkarsh.sinha.186"><i class="fa fa-facebook"></i></a>
+        <a target="_blank" href="https://www.linkedin.com/in/utksn15/"><i class="fa fa-linkedin"></i></a>
 
       </div>
     </div>
@@ -392,8 +392,8 @@ body {
         </ul>
       </div>
       <div class="s-link">
-        <a href="https://www.facebook.com/profile.php?id=100009957672577"><i class="fa fa-facebook"></i></a>
-        <a href="https://www.linkedin.com/in/yash-patil-570417118/"><i class="fa fa-linkedin"></i></a>
+        <a target="_blank" href="https://www.facebook.com/profile.php?id=100009957672577"><i class="fa fa-facebook"></i></a>
+        <a target="_blank" href="https://www.linkedin.com/in/yash-patil-570417118/"><i class="fa fa-linkedin"></i></a>
 
       </div>
     </div>
@@ -433,9 +433,9 @@ body {
            </ul>
          </div>
          <div class="s-link">
-          <a href="https://www.facebook.com/karannaoh"><i class="fa fa-facebook"></i></a>
-          <a href="https://www.linkedin.com/in/karan-pratap-singh-naoh/"><i class="fa fa-linkedin"></i></a>
-          <a href="https://github.com/karannaoh"><i class="fa fa-github"></i></a>
+          <a target="_blank" href="https://www.facebook.com/karannaoh"><i class="fa fa-facebook"></i></a>
+          <a target="_blank" href="https://www.linkedin.com/in/karan-pratap-singh-naoh/"><i class="fa fa-linkedin"></i></a>
+          <a target="_blank" href="https://github.com/karannaoh"><i class="fa fa-github"></i></a>
 
         </div>
       </div>
@@ -461,9 +461,9 @@ body {
        </ul>
      </div>
      <div class="s-link">
-      <a href="https://www.facebook.com/yugam1?fref=ufi"><i class="fa fa-facebook"></i></a>
-      <a href="https://www.linkedin.com/in/yugam-prasad-15a645126/"><i class="fa fa-linkedin"></i></a>
-      <a href="https://github.com/yugam1"><i class="fa fa-github"></i></a>
+      <a target="_blank" href="https://www.facebook.com/yugam1?fref=ufi"><i class="fa fa-facebook"></i></a>
+      <a target="_blank" href="https://www.linkedin.com/in/yugam-prasad-15a645126/"><i class="fa fa-linkedin"></i></a>
+      <a target="_blank" href="https://github.com/yugam1"><i class="fa fa-github"></i></a>
     </div>
   </div>
 </div>
@@ -504,8 +504,8 @@ body {
              </ul>
            </div>
            <div class="s-link">
-            <a href="#"><i class="fa fa-facebook"></i></a>
-            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+            <a target="_blank" href="#"><i class="fa fa-linkedin"></i></a>
 
           </div>
         </div>
