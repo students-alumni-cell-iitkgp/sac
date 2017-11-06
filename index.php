@@ -221,7 +221,7 @@
       <p class="text_align" style="font-size: 92%;">Alumni career assistance progran</p>
     </div>
     <div class="card-reveal">
-    <a href="http://www.sac.iitkgp.ac.in/imprint.php">  <span class="card-title grey-text text-darken-4">ACAP</span> </a>
+    <a href="http://www.sac.iitkgp.ac.in/acap.php">  <span class="card-title grey-text text-darken-4">ACAP</span> </a>
             <p class="text_align">'Alumni Career Assistance Programme' (ACAP) aims on helping the final year students to understand the confusing and tedious process of placements in a company specific manner, as every company has a different procedure for selection. The students sitting for placements will fill in their companies of choice in a manner of preference and will be allotted an alumnus/alumna who themselves were placed in the same company in KGP as a mentor/buddy.</p>
 
     </div>
