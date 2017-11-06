@@ -205,7 +205,7 @@ body {
     </div>
     <div class="team-hover">
       <div class="desk">
-        <h4>Vishal Kumar</h4>
+        <h4>Vishal Singh</h4>
         <ul>
           <li style="padding-left: 15px;">+91-8769797343</li>
           <li style="padding-left: 15px;">vishalsingh08.iitkgp@gmail.com</li>
@@ -219,7 +219,7 @@ body {
     </div>
   </div>
   <div class="team-title" style="padding-top:0px;">
-    <h5 style="text-align: center;">Vishal Kumar</h5>
+    <h5 style="text-align: center;">Vishal Singh</h5>
 
   </div>
 </div>
@@ -252,8 +252,8 @@ body {
             </ul>
           </div>
           <div class="s-link">
-            <a target="_blank" href="https://www.facebook.com/profile.php?id=100010338962799"><i class="fa fa-facebook"></i></a>
-            <a target="_blank" href="https://www.linkedin.com/in/vishal-singh-284a89125/"><i class="fa fa-linkedin"></i></a>
+            <a target="_blank" href="https://www.facebook.com/anmol2112"><i class="fa fa-facebook"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/anmolthakkar"><i class="fa fa-linkedin"></i></a>
 
           </div>
         </div>
@@ -307,8 +307,8 @@ body {
        </ul>
      </div>
      <div class="s-link">
-      <a target="_blank" href="https://www.facebook.com/daksh.thakkur"><i class="fa fa-facebook"></i></a>
-      <a target="_blank" href="https://www.linkedin.com/in/daksh-thakkur-4b0378b7/"><i class="fa fa-linkedin"></i></a>
+      <a target="_blank" href="https://www.facebook.com/rohit.sonawane.3701779"><i class="fa fa-facebook"></i></a>
+      <a target="_blank" href="https://www.linkedin.com/in/rohit-sonawane-268139103/"><i class="fa fa-linkedin"></i></a>
 
     </div>
   </div>
@@ -338,9 +338,9 @@ body {
           </ul>
         </div>
         <div class="s-link">
-
-          <a target="_blank" href="https://www.linkedin.com/in/sreelatha-challa/"><i class="fa fa-facebook"></i></a>
-          <a target="_blank" href="https://www.facebook.com/sreelatha.challa.1"><i class="fa fa-linkedin"></i></a>
+          <a target="_blank" href="https://www.facebook.com/sreelatha.challa.1"><i class="fa fa-facebook"></i></a>
+          <a target="_blank" href="https://www.linkedin.com/in/sreelatha-challa/"><i class="fa fa-linkedin"></i></a>
+     
         </div>
       </div>
     </div>
@@ -504,8 +504,8 @@ body {
              </ul>
            </div>
            <div class="s-link">
-            <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
-            <a target="_blank" href="#"><i class="fa fa-linkedin"></i></a>
+            <a target="_blank" href="https://www.facebook.com/profile.php?id=100006869627967"><i class="fa fa-facebook"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/aman-kumar-agarwal-99bb72102/"><i class="fa fa-linkedin"></i></a>
 
           </div>
         </div>
