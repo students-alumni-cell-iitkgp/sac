@@ -115,9 +115,9 @@ Type a message...
                     <center>
                     <div class="heading ac-head" style="border:3px black solid; display: inline-block; padding-top: 2px; margin: 3px;padding-right: 20px;padding-left: 20px;" >
 
-                        <h4><b>Alumni Talks</b> with</h4>
+                        <h4 style="margin-bottom: 0px;"><b>Alumni Talks</b><br><div style="font-size: 75%;">with</div> </h4>
                         
-                        <h5 style="font-size:120%;">Mr Arnav Kumar (AVP, SAIF Partners) and Mr Abhinav Sinha (COO, OYO)</h5> </div>
+                        <h5 style="font-size:120%;margin-top: 0px;">Mr Arnav Kumar (AVP, SAIF Partners) and Mr Abhinav Sinha (COO, OYO)</h5> </div>
                     </center>
                 
 
@@ -178,13 +178,13 @@ Type a message...
 
                         <h4><b>Tips from Top</b></h4>
                     <div class="row">
-                        <div class="col l3 m3 s12">
-                            <h5>
-                     Speakers:  
+                        <div class="col l3 m3 s12" >
+                            <h5 style="margin-top: 4.5px;margin-left: -20px;">
+                     Speakers :  
                  </h5>
                      </div>
                      <div class="col l9 m9 s12">
-                      <h6 style="text-align: left;">Mr. Vineet Goyal (IPS, Addl. Commissioner of Police, Kolkata)
+                      <h6 style="text-align: left; margin-left: -25px;">Mr. Vineet Goyal (IPS, Addl. Commissioner of Police, Kolkata)
                             <br>
                         Prof Parameshwar P. Iyer (Principal research scientist at IISc. Bangalore)
                         <br>

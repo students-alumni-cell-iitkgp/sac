@@ -218,7 +218,7 @@
     </div>
     <div class ="card-content">
       <span class="card-title activator grey-text text-darken-4">ACAP<i class="material-icons right">more_vert</i></span>
-      <p class="text_align" style="font-size: 92%;">Alumni career assistance progran</p>
+      <p class="text_align" style="font-size: 92%;">Alumni career assistance program</p>
     </div>
     <div class="card-reveal">
     <a href="http://www.sac.iitkgp.ac.in/acap.php">  <span class="card-title grey-text text-darken-4">ACAP</span> </a>

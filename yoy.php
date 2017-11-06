@@ -24,7 +24,7 @@
           <br><br>
           Hence, every alumni is requested to share articles, photos, stories or any other media relating to their memories of the institute. Literary pieces by the current batch of students are also incorporated in this collection. This incorporation assists the alumni to get an insight to the current students' perspective towards the institute The last edition of the memoir featured various mesmerizing articles by both the student and the alumni community. From a short dictionary written by an alumnus, describing words used exclusively in Kharagpur over time to a poem written by a student, describing his journey since the first year, every piece entails a unique aspect. Yearnings of Yore doesn't only serve as a memoir, rather it is a mirror which reflects the past to the present and predicts the future to the past. 
           <br><br>
-          Send your articles and photographs at  <b>aao@hijli.iitkgp.ernet.in</b>
+          <center><p style="font-size:130%;padding-bottom: 15px;">Send your articles and photographs at  <b>aao@hijli.iitkgp.ernet.in</b></p></center>
         </p>
       </div>
     </div>
