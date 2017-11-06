@@ -70,7 +70,7 @@
   <div  class="col l12 m12 s12  z-depth-1">
       <div  class="heading">
           <center>
-              <h id="h1" class="subheading"><b>Students&#39 Pan IIT Alumni Relation Cell</b></h>
+              <h id="h1" class="subheading"><b>Students&#39 Pan IIT Alumni Relations Cell</b></h>
           </center>
       </div>
       <center>
