@@ -144,7 +144,7 @@
         </div>
          </center>
       <div class="offset-11">
-   <img class="class_gift_Img" id="imgleft" src="img/latest programs/classgift.jpg" style="width: 600px;">
+   <img class="class_gift_Img" id="imgleft" src="img/latest programs/cg17.jpg" style="width: 600px;">
    </div>
   
     
@@ -155,7 +155,7 @@
         <h class="subheading"><b> Class Gift 2016</b> </h>
       </center>
     </div>
-<img src="img/latest programs/classgift16.jpg" class="class_gift_Img" style="max-width:100%;">
+<img src="img/latest programs/cg16.jpg" class="class_gift_Img" style="max-width:100%;">
     </div>
   </div>
   <div class="row">
@@ -166,7 +166,7 @@
         </div>
          </center>
       <div class="offset-11">
-   <img class="class_gift_Img" id="imgleft" src="img/latest programs/classgift2015.jpg" style="max-width:100%;">
+   <img class="class_gift_Img" id="imgleft" src="img/latest programs/CG15.jpg" style="max-width:100%;">
    </div>
   
     

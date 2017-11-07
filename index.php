@@ -13,8 +13,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-  
-
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     <style> 
     ul.indicators{z-index: 3;}
     .slider .indicators .indicator-item{ height: 10px; width: 50px; border-radius: 0px; margin: 5px 12px; background-color: #a4a9b2; }
@@ -47,7 +49,17 @@
             display: none;
         }
      }
+@media only screen and (min-width: 993px){
+.row .col.l3 {
+    width: 100%;
+    }
+  }
 
+  .carousel .carousel-item{
+    width:350px;
+    height:350px;
+    opacity: 1 !important;
+  }
    </style>
 </head>
 <body>
@@ -210,8 +222,31 @@
     <h class="subheading"><b>Latest Programmes</b></h>
   </center>
 </div>
-<div class="row">
+<div class="row" style="margin:auto;width:100%;">
+<div class="carousel">
+      <div class="carousel-item">
+      <div class="card sticky-action">
 <div class="col l3 s12 m6">
+<div class="card z-depth-0">
+    <div class="card-image waves-effect waves-block waves-light">
+     <img class="activator" src="img/latest programs/acap_latestprogram.jpg" style="height: 225px;" >
+    </div>
+    <div class ="card-content">
+      <span class="card-title activator grey-text text-darken-4">ACAP<i class="material-icons right">more_vert</i></span>
+      <p class="text_align" style="font-size: 92%;">Alumni career assistance program</p>
+    </div>
+    <div class="card-reveal">
+    <a href="http://www.sac.iitkgp.ac.in/acap.php">  <span class="card-title grey-text text-darken-4">ACAP</span> </a>
+            <p class="text_align">'Alumni Career Assistance Programme' (ACAP) aims on helping the final year students to understand the confusing and tedious process of placements in a company specific manner, as every company has a different procedure for selection. The students sitting for placements will fill in their companies of choice in a manner of preference and will be allotted an alumnus/alumna who themselves were placed in the same company in KGP as a mentor/buddy.</p>
+
+    </div>
+  </div>
+</div>
+</div>
+</div>
+ <div class="carousel-item">
+      <div class="card">
+<div class="col l3 s12 m6" style="padding-bottom: 30px;">
 <div class="card z-depth-0">
     <div class="card-image waves-effect waves-block waves-light">
      <img class="activator" src="img/latest programs/classgift.jpg" style="height: 225px;" >
@@ -221,7 +256,7 @@
       <p class="text_align" style="font-size: 92%;">Bus stand at Nalanda Classroom Complex</p>
     </div>
     <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">Class Gift of 2017</span>
+    <a href="http://www.sac.iitkgp.ac.in/imprint.php">  <span class="card-title grey-text text-darken-4">Class Gift of 2017</span> </a>
             <p class="text_align">The Senior Class Gift, an initiative under the 
               My Imprint Programme saw a large number of graduating students signing up for the programme.
                The programme gives an opportunity to the graduating batch to give something back to the Institute,
@@ -230,6 +265,10 @@
     </div>
   </div>
 </div>
+</div>
+</div>
+ <div class="carousel-item">
+      <div class="card">
 <div class="col l3 s12 m6">
 <div class="card z-depth-0">
     <div class="card-image waves-effect waves-block waves-light">
@@ -240,7 +279,7 @@
       <p class="text_align">Phase 1</p>
     </div>
     <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">Mentorship Programme</span>
+     <a href="http://www.sac.iitkgp.ac.in/mentorship.php" ><span class="card-title grey-text text-darken-4">Mentorship Programme</span></a>
             <p class="text_align">Students&rsquo; Alumni Cell brings to you Student Alumni Mentorship Programme. A plat
                 form to share the valuable experience of our esteemed alumni community with the current students. For more Information,
                 Kindly check out <a target="_blank" href="http://www.mentorship.iitkgp.ernet.in">Mentorship</a> Website.</p>
@@ -248,7 +287,11 @@
     </div>
   </div>
 </div>
-<div class="col l3 s12 m6">
+</div>
+</div>
+ <div class="carousel-item">
+      <div class="card">
+<div class="col l3 s12 m6 ">
 <div class="card z-depth-0">
     <div class="card-image waves-effect waves-block waves-light">
       <img class="activator" src="img/latest programs/guestlecture.jpg" style="height:225px">
@@ -258,13 +301,19 @@
       <p class="text_align"><br /></p>
     </div>
     <div class="card-reveal">
+      <a href="http://www.sac.iitkgp.ac.in/alumnitalks.php">
       <span class="card-title grey-text text-darken-4">Alumni Talks</span>
+      </a>
 
             <p class="text_align">Continuing with its yearlong series of Guest Lectures by eminent alumni, the Students&#8217; Alumni Cell recently organised "Alumni Talks", an open house with prominent alumni in the fields of Entrepreneurship, Civil Services and Research.</p>
 
     </div>
   </div>
 </div>
+</div>
+</div>
+ <div class="carousel-item">
+      <div class="card">
 <div class="col l3 s12 m6">
 <div class="card z-depth-0">
     <div class="card-image waves-effect waves-block waves-light">
@@ -275,7 +324,8 @@
       <p class="text_align">2017</p>
     </div>
     <div class="card-reveal">
-      <span class="card-title grey-text text-darken-4">Yearbook</span>
+      <a href="http://www.sac.iitkgp.ac.in/yearbook.php"><span class="card-title grey-text text-darken-4">Yearbook</span>
+      </a>
             <p class="text_align">The Yearbook is a collection of photographs and memories presented every year at the time of the convocation to the graduating batch by the Students&#8217; Alumni Cell. It is the perfect souvenir for everyone about to leave their home away from home, KGP.  </p>
 
 
@@ -284,10 +334,24 @@
 </div>
 </div>
 </div>
+</div>
+</div>
+</div>
 <!--div id="googleMap" style="width:100%;height:90%;background:white;"></div-->
 </div>
 <?php include 'footer.php';?>
+<script>
+   $(document).ready(function(){
+      $('.carousel').carousel({
+            dist:0,
+            shift:0,
+            padding:20,
+
+      });
+    });
+  </script>
 <script type="text/javascript">
+
   $(".card").mouseenter(function(e){
   if ($(this).find('> .card-reveal').length) {
     if ($(e.target).is($('.card .activator')) || $(e.target).is($('.card .activator i')) ) {
@@ -299,6 +363,8 @@
       $('.card-reveal').closest('.card').css('overflow', 'hidden');
 
 });
+
+
 
 $(".card").mouseleave(function(){
   // Make Reveal animate down and display none
@@ -313,6 +379,9 @@ $(".card").mouseleave(function(){
       }
     });
 });
+
+
+
 </script>
 
 </body>

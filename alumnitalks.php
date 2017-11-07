@@ -115,7 +115,9 @@ Type a message...
                     <center>
                     <div class="heading ac-head" style="border:3px black solid; display: inline-block; padding-top: 2px; margin: 3px;padding-right: 20px;padding-left: 20px;" >
 
-                        <h4><b>Alumni Talks</b></h4> </div>
+                        <h4 style="margin-bottom: 0px;"><b>Alumni Talks</b><br><div style="font-size: 75%;">with</div> </h4>
+                        
+                        <h5 style="font-size:120%;margin-top: 0px;">Mr Arnav Kumar (AVP, SAIF Partners) and Mr Abhinav Sinha (COO, OYO)</h5> </div>
                     </center>
                 
 
@@ -138,7 +140,8 @@ Type a message...
  <center>
         <div class="heading ac-head" style="border:3px black solid; display: inline-block; padding-top: 2px; margin: 3px;padding-right: 20px;padding-left: 20px;">
 
-               <h4><b>Guest Lecture</b> - Mr Mark Richard</h4> </div>
+               <h4><b>Guest Lecture</b></h4> 
+                <h5 style="font-size:120%;"> Mr Mark Richard (President and COO at DatabaseUSA)</h5></div>
     </center>
     <center>
         <div class="row">
@@ -173,7 +176,23 @@ Type a message...
                     <center>
                     <div class="heading ac-head" style="border:3px black solid; display: inline-block; padding-top: 2px; margin: 3px;padding-right: 20px;padding-left: 20px;" >
 
-                        <h4><b>Tips from Top</b></h4> </div>
+                        <h4><b>Tips from Top</b></h4>
+                    <div class="row">
+                        <div class="col l3 m3 s12" >
+                            <h5 style="margin-top: 4.5px;margin-left: -20px;">
+                     Speakers :  
+                 </h5>
+                     </div>
+                     <div class="col l9 m9 s12">
+                      <h6 style="text-align: left; margin-left: -25px;">Mr. Vineet Goyal (IPS, Addl. Commissioner of Police, Kolkata)
+                            <br>
+                        Prof Parameshwar P. Iyer (Principal research scientist at IISc. Bangalore)
+                        <br>
+                     Mr. Maneesh Bhandari (Director of Center for Innovation Incubation and Entrepreneurship, IIM Ahmedabad)</h6> 
+                 
+                 </div>
+             </div>
+             </div>
                     </center>
                 
 
@@ -200,7 +219,8 @@ Type a message...
  <center>
         <div class="heading ac-head" style="border:3px black solid; display: inline-block; padding-top: 2px; margin: 3px;padding-right: 20px;padding-left: 20px;">
 
-               <h4><b>Guest Lecture</b> - Mr Veerendra Jaitly</h4> </div>
+               <h4><b>Guest Lecture</b></h4> 
+               <h5 style="font-size:120%;"> Mr Veerendra Jaitly (Founder C_CUBE Consultants | RTD.Commander of Indian Navy)</h5></div>
     </center>
 
         <div class="col l4 m4 s12">
