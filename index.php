@@ -13,8 +13,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-  
-
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     <style> 
     ul.indicators{z-index: 3;}
     .slider .indicators .indicator-item{ height: 10px; width: 50px; border-radius: 0px; margin: 5px 12px; background-color: #a4a9b2; }
@@ -47,7 +49,17 @@
             display: none;
         }
      }
+@media only screen and (min-width: 993px){
+.row .col.l3 {
+    width: 100%;
+    }
+  }
 
+  .carousel .carousel-item{
+    width:350px;
+    height:350px;
+    opacity: 1 !important;
+  }
    </style>
 </head>
 <body>
@@ -210,8 +222,11 @@
     <h class="subheading"><b>Latest Programmes</b></h>
   </center>
 </div>
-<div class="row" style="margin:auto;width:90%;">
-<div class="col l4 s12 m6">
+<div class="row" style="margin:auto;width:100%;">
+<div class="carousel">
+      <div class="carousel-item">
+      <div class="card sticky-action">
+<div class="col l3 s12 m6">
 <div class="card z-depth-0">
     <div class="card-image waves-effect waves-block waves-light">
      <img class="activator" src="img/latest programs/acap_latestprogram.jpg" style="height: 225px;" >
@@ -227,7 +242,11 @@
     </div>
   </div>
 </div>
-<div class="col l4 s12 m6" style="padding-bottom: 30px;">
+</div>
+</div>
+ <div class="carousel-item">
+      <div class="card">
+<div class="col l3 s12 m6" style="padding-bottom: 30px;">
 <div class="card z-depth-0">
     <div class="card-image waves-effect waves-block waves-light">
      <img class="activator" src="img/latest programs/classgift.jpg" style="height: 225px;" >
@@ -246,7 +265,11 @@
     </div>
   </div>
 </div>
-<div class="col l4 s12 m6">
+</div>
+</div>
+ <div class="carousel-item">
+      <div class="card">
+<div class="col l3 s12 m6">
 <div class="card z-depth-0">
     <div class="card-image waves-effect waves-block waves-light">
       <img class="activator" src="img/latest programs/mentor.jpg" style="height:225px">
@@ -264,7 +287,11 @@
     </div>
   </div>
 </div>
-<div class="col l4 s12 m6 offset-l2">
+</div>
+</div>
+ <div class="carousel-item">
+      <div class="card">
+<div class="col l3 s12 m6 ">
 <div class="card z-depth-0">
     <div class="card-image waves-effect waves-block waves-light">
       <img class="activator" src="img/latest programs/guestlecture.jpg" style="height:225px">
@@ -283,7 +310,11 @@
     </div>
   </div>
 </div>
-<div class="col l4 s12 m6">
+</div>
+</div>
+ <div class="carousel-item">
+      <div class="card">
+<div class="col l3 s12 m6">
 <div class="card z-depth-0">
     <div class="card-image waves-effect waves-block waves-light">
       <img class="activator" src="img/latest programs/year17.jpg" style="height:225px" >
@@ -303,10 +334,24 @@
 </div>
 </div>
 </div>
+</div>
+</div>
+</div>
 <!--div id="googleMap" style="width:100%;height:90%;background:white;"></div-->
 </div>
 <?php include 'footer.php';?>
+<script>
+   $(document).ready(function(){
+      $('.carousel').carousel({
+            dist:0,
+            shift:0,
+            padding:20,
+
+      });
+    });
+  </script>
 <script type="text/javascript">
+
   $(".card").mouseenter(function(e){
   if ($(this).find('> .card-reveal').length) {
     if ($(e.target).is($('.card .activator')) || $(e.target).is($('.card .activator i')) ) {
@@ -318,6 +363,8 @@
       $('.card-reveal').closest('.card').css('overflow', 'hidden');
 
 });
+
+
 
 $(".card").mouseleave(function(){
   // Make Reveal animate down and display none
@@ -332,6 +379,9 @@ $(".card").mouseleave(function(){
       }
     });
 });
+
+
+
 </script>
 
 </body>
