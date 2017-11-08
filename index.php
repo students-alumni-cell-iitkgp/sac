@@ -223,7 +223,7 @@
   </center>
 </div>
 <div class="row" style="margin:auto;width:100%;">
-<div class="carousel">
+<div class="carousel" id="carousel">
       <div class="carousel-item">
       <div class="card sticky-action">
 <div class="col l3 s12 m6">
@@ -340,16 +340,54 @@
 <!--div id="googleMap" style="width:100%;height:90%;background:white;"></div-->
 </div>
 <?php include 'footer.php';?>
-<script>
-   $(document).ready(function(){
-      $('.carousel').carousel({
-            dist:0,
-            shift:0,
-            padding:20,
 
-      });
-    });
-  </script>
+
+ <script>
+            var autoScrollTimer = 2500;
+            var scrollspeed = 2000;
+            var v;
+            $(document).ready(function () {
+                $('#carousel').carousel({
+                    time_constant: scrollspeed,
+                    dist: 0,
+                    shift: 0,
+                    padding: 20,
+                    full_width: false
+                });
+                autoScrollQuick();
+                initializeCarousel();
+            });
+            $('#carousel').mouseenter(function () {
+                stopScroll();
+            });
+            $('#carousel').mouseleave(function () {
+                autoScrollQuick();
+            });
+
+
+            function autoScroll() {
+                v = setInterval(next, autoScrollTimer);
+            }
+            function autoScrollQuick() {
+                setTimeout(next, 0);
+                autoScroll();
+            }
+            function stopScroll() {
+                clearInterval(v);
+                $('#carousel').carousel({
+                    time_constant: 0
+                });
+            }
+            function next() {
+                $('#carousel').carousel('next');
+            }
+            function prev() {
+                $('#carousel').carousel('prev');
+            }
+        </script>
+
+
+
 <script type="text/javascript">
 
   $(".card").mouseenter(function(e){
