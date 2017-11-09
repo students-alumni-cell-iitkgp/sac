@@ -245,7 +245,7 @@ body {
         </div>
         <div class="team-hover">
           <div class="desk">
-            <h4>Anmol Thakkar</h4>
+            <h4 style="margin-top: 50px">Anmol Thakkar</h4>
             <ul>
               <li style="padding-left: 15px;">+91-9475240720</li>
               <li style="padding-left: 15px;">anmolbt@gmail.com</li>
@@ -272,7 +272,7 @@ body {
       </div>
       <div class="team-hover">
         <div class="desk">
-          <h4>Daksh Thakkur</h4>
+          <h4 style="margin-top: 50px">Daksh Thakkur</h4>
           <ul>
             <li style="padding-left: 15px;">+91-9460300246</li>
             <li style="padding-left: 15px;">daksh.thakkur@gmail.com</li>
