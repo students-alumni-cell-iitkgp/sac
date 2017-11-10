@@ -14,8 +14,8 @@ if(($query_run3)){
 ?>
 
 
-<link rel='stylesheet prefetch' href='http://fonts.googleapis.com/icon?family=Material+Icons'>
-<link rel='stylesheet prefetch' href='http://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css'>
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css'>
 <style type="text/css">
   .tabs .tab a {
     color: #26a69a !important ;
@@ -408,5 +408,5 @@ else {
 </div>
 
 </div>
-<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-<script src='http://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js'></script>
