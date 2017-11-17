@@ -141,7 +141,7 @@ if( $query_run = mysqli_query($connection, $query) ){
                 <ul class="">
                    <li class="">
                     <strong>1. Online Payment</strong>
-                    <br> You can make online payment: For online payment click <a href="http://alumni.iitkgp.ac.in/content/annual-alumni-meet-registration-fee-payment" target="_blank" style="font-weight:bold">here</a>
+                    <br> You can make online payment: For online payment click <a href="http://www.alumni.iitkgp.ac.in/content/annual-alumni-meet-registration-fee-payment" target="_blank" style="font-weight:bold">here</a>
                    
                   </li>
                   <li class="">
