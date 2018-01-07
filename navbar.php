@@ -90,6 +90,7 @@
     <li><a href="yoy.php">Yearnings of Yore</a></li>
   </ul>
   <ul id="sponsors" class="dropdown-content" style="min-width: 200px;">
+    <li><a href="sponsors2018.php">2018</a></li>
     <li><a href="sponsors2017.php">2017</a></li>
     <li><a href="sponsors2016.php">2016</a></li>
     <li><a href="sponsors2015.php">2015</a></li>
@@ -161,7 +162,9 @@
               <a class="collapsible-header">Our Sponsors<i class="mdi-navigation-arrow-drop-down"></i></a>
               <div class="collapsible-body">
                 <ul>
-                  <li><a href="sponsors2016.php">2016</a></li>
+    <li><a href="sponsors2018.php">2018</a></li>
+    <li><a href="sponsors2017.php">2017</a></li>
+    <li><a href="sponsors2016.php">2016</a></li>
     <li><a href="sponsors2015.php">2015</a></li>
     <li><a href="sponsors2014.php">2014</a></li>
     <li><a href="sponsors2013.php">2013</a></li>
