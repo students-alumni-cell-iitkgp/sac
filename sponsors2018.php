@@ -84,7 +84,7 @@
       </a> </div>
 
     <div class="col l6 m4 s12"  align="center">
-       <a href="www.mahanadicoal.in" target="_blank"> <br> <br>
+       <a href="http://www.mahanadicoal.in/Welcome.php" target="_blank"> <br> <br>
          <img class="spons"  src="img/spons/2018/8.jpg" width="190" height="80" />
       </a>
 </div> 
@@ -113,12 +113,12 @@
    <div class="col l12 m12 s12 "> <h2 class="spons_head" style="text-align:center;" >CSR Partners <hr></h2> </div> 
 
     <div class="col l6 m6 s6 " style="align:center;">
-       <a href="www.edcilindia.co.in/" target="_blank">
+       <a href="http://www.edcilindia.co.in/" target="_blank">
          <img class="spons"  src="img/spons/2018/12.png" width="280" height="200" />
       </a>
  </div>
     <div class="col l6 m6 s6 " style="align:center;">
-       <a href="" target="_blank">
+       <a href="http://www.npcc.gov.in/Home.aspx" target="_blank">
          <img class="spons"  src="img/spons/2018/13.gif" width="280" height="200" />
       </a>
  </div>
@@ -133,7 +133,7 @@
 
 <div class="row" >
    <div class="col l12">  <h2 style="text-align:center;">Airline Partner <hr></h2> </div> 
-      <a href="www.airindia.in/" target="_blank" >
+      <a href="http://www.airindia.in/" target="_blank" >
           <img class="spons" src="img/spons/2018/15.png" width="350" height="170" />
       </a>
    </div>  <br> <br>
@@ -161,7 +161,7 @@
         </a>
       </div>
   <div class="col l6 m12 s12" align="center">
-        <a href="www.roritoworld.com/" target="_blank">
+        <a href="http://www.roritoworld.com/" target="_blank">
           <img class="spons" src="img/spons/2018/19.jpeg" width="350px" height="200px"  />
         </a>
       </div>
