@@ -198,6 +198,199 @@
  <br> <br>
 
 
+
+   <div class="col l12 m12 s12"> <h2 class="spons_head" style="text-align:center;" >Gift Partner<hr></h2> </div>
+   
+     
+   <div class="row">
+    <div class="col l12 m12 s12">
+
+
+      <div class="col l4 m4 s12" align="center">  <a href="http://www.akar.co.in/" target="_blank"> <br> <br>
+         <img class="spons"  src="img/spons/2018/gifting partner/Screenshot (294).png" width="190" height="120" />
+      </a> </div>
+
+    <div class="col l4 m4 s12"  align="center">
+       <a href="http://amleatherindia.com/" target="_blank"> <br> <br>
+         <img class="spons"  src="img/spons/2018/gifting partner/AM Logo.jpg" width="190" height="120" />
+      </a>
+</div> 
+  <div class="col l4 m4 s12" align="center">
+        <a href="http://www.purplepalette.in/
+" target="_blank">
+          <img class="spons" src="img/spons/2018/gifting partner/Purple Pallete.png" width="190px" height="120px"  />
+        </a>
+      </div>
+
+</div>
+ <div class="row">
+
+ 
+  <div class="col l6 m6 s12" align="center">
+        <a href="https://www.giftease.com/" target="_blank">
+          <img class="spons" src="img/spons/2018/gifting partner/Screenshot (288).png" width="250px" height="200px"  />
+        </a>
+      </div>
+
+    <div class="col l6 m6 s12"  align="center">  
+       <a href="#" target="_blank"><br> <br>
+         <img class="spons"  src="img/spons/2018/gifting partner/DOLLY LOGO.png" width="250px" height="200px" />
+      </a> </div>
+  </div> 
+
+
+
+       </div>
+
+
+
+<br> <br>
+  <div class="row">
+
+  <div class="col l12 m12 s12"> <h2 style="text-align:center;">Bakery Partner<hr></h2> </div>
+  <div class="col l12 m12 s12" align="center">
+        <a href="#" >
+          <img class="spons" src="img/spons/2018/Bakery Partner/OAK-&-YOKE-LOGO-02-.jpg" width="250px" height="200px"  />
+        </a>
+      </div>
+
+  </div> 
+
+
+  
+ 
+      <br><br>
+
+
+ <div class="row">
+
+  <div class="col l12 m12 s12"> <h2 style="text-align:center;">Food Partner<hr></h2> </div>
+  <div class="col l12 m12 s12" align="center">
+        <a href="http://www.bittuchanachur.com/" target="_blank">
+          <img class="spons" src="img/spons/2018/Food Partner/Screenshot (297).png" width="250px" height="200px"  />
+        </a>
+      </div>
+
+  </div> 
+
+
+  
+ 
+      <br><br>
+<div class="row">
+
+  <div class="col l12 m12 s12"> <h2 style="text-align:center;">Electronic Partner<hr></h2> </div>
+  <div class="col l12 m12 s12" align="center">
+        <a href="https://india.1more.com/" target="_blank">
+          <img class="spons" src="img/spons/2018/Electronic Partner/Screenshot (298).png" width="250px" height="200px"  />
+        </a>
+      </div>
+
+  </div> 
+
+
+  
+ 
+      <br><br>
+<div class="row">
+
+  <div class="col l12 m12 s12"> <h2 style="text-align:center;">Luggage Partner<hr></h2> </div>
+  <div class="col l12 m12 s12" align="center">
+        <a href="http://www.polestarbags.com/" target="_blank">
+          <img class="spons" src="img/spons/2018/Luggage Partner/PoleStar Bags Logo.jpg" width="250px" height="200px"  />
+        </a>
+      </div>
+
+  </div> 
+
+
+  
+ 
+      <br><br>
+<div class="row">
+
+  <div class="col l12 m12 s12"> <h2 style="text-align:center;">Fine Dine Partner<hr></h2> </div>
+  <div class="col l12 m12 s12" align="center">
+        <a href="https://www.chilisindia.com/" target="_blank">
+          <img class="spons" src="img/spons/2018/Fine Dine Partner/Screenshot (300).png" width="250px" height="200px"  />
+        </a>
+      </div>
+
+  </div> 
+
+
+  
+ 
+      <br><br>
+
+  <div class="row">
+
+  <div class="col l12 m12 s12"> <h2 style="text-align:center;">Ride partner<hr></h2> </div>
+  <div class="col l12 m12 s12" align="center">
+        <a href="http://unirox-gr.com/" target="_blank">
+          <img class="spons" src="img/spons/2017/RIDE PARTNER\unirox1.jpg" width="250px" height="200px"  />
+        </a>
+      </div>
+
+  </div> <br> <br>
+
+
+       <div class="row">  
+       <div class="col l12 m12 s12"> 
+         <h2 style="text-align:center">SMS Partner <hr></h2> </div> </div>
+         <div class="row">
+      <div class="col l6 m12 s12" align="center"> <a href="https://www.textguru.in/" target="_blank">
+         <img class="spons" src="img/spons/2018/SMS Partner/textguru.png" width="300" height="150" />
+      </a>
+    </div>
+      <div class="col l6 m12 s12" align="center"> <a href="https://www.mobtexting.com/" target="_blank">
+         <img class="spons" src="img/spons/2018/SMS Partner/mobtexting.png" width="200" height="150" />
+      </a>
+    </div>
+    </div>
+    <br><br>
+         <div class="row">
+
+      <div class="col l6 m12 s12" align="center"> <a href="https://www.textlocal.in/" target="_blank">
+         <img class="spons" src="img/spons/2018/SMS Partner/textlocal.png" width="300" height="150" />
+      </a>
+    </div>
+      <div class="col l6 m12 s12" align="center"> <a href="http://www.siegsms.com/" target="_blank">
+         <img class="spons" src="img/spons/2018/SMS Partner/siegsms.png" width="250" height="150" />
+
+      </a>
+    </div>
+    </div> <br> <br>
+
+      <div class="row">  
+       <div class="col l12 m12 s12"> 
+         <h2 style="text-align:center">Online Media Partner <hr></h2> </div> </div>
+         <div class="row">
+      <div class="col l6 m12 s12" align="center"> <a href="https://allevents.in/" target="_blank">
+         <img class="spons" src="img/spons/2018/Online Media Partner/ae-logo.png" width="300" height="150" />
+      </a>
+    </div>
+      <div class="col l6 m12 s12" align="center"> <a href="http://festpav.com/" target="_blank">
+         <img class="spons" src="img/spons/2018/Online Media Partner/festPav Logo_HD.png" width="200" height="150" />
+      </a>
+    </div>
+    </div>
+    <br><br>
+         <div class="row">
+
+      <div class="col l6 m12 s12" align="center"> <a href="https://www.thecollegefever.com/" target="_blank">
+         <img class="spons" src="img/spons/2018/Online Media Partner/TCFLOGO.png" width="300" height="150" />
+      </a>
+    </div>
+      <div class="col l6 m12 s12" align="center"> <a href="http://campfestiva.com/" target="_blank">
+         <img class="spons" src="img/spons/2018/Online Media Partner/Campfestiva-logo.png" width="250" height="150" />
+
+      </a>
+    </div>
+    </div> <br> <br>
+
+
+
   </div>
       </div>
   <?php include 'footer.php';?>
