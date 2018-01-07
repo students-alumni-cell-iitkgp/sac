@@ -192,6 +192,14 @@
       </div>
 
 
+  <div class="row"> 
+  <div class="col l12 m12 s12"> <h2 style="text-align:center;"> Online Shopping Partner<hr></h2> </div>
+
+     <div class=" col l12 m12 s12" align="center"><a href="https://www.thepostbox.in/
+" target="_blank" >
+        <img class="spons" src="img/spons/2018/23.png" width="290" height="140" >
+      </a>
+      </div>
 
   </div> <br> <br>
     <div class="row"> 
@@ -319,20 +327,7 @@
     </div>
     </div> <br> <br>
 
-      <div class="row">  
-       <div class="col l12 m12 s12"> 
-         <h2 style="text-align:center">Online Media Partner <hr></h2> </div> </div>
-         <div class="row">
-      <div class="col l6 m12 s12" align="center"> <a href="https://allevents.in/" target="_blank">
-         <img class="spons" src="img/spons/2018/Online Media Partner/ae-logo.png" width="300" height="150" />
-      </a>
-    </div>
-      <div class="col l6 m12 s12" align="center"> <a href="http://festpav.com/" target="_blank">
-         <img class="spons" src="img/spons/2018/Online Media Partner/festPav Logo_HD.png" width="200" height="150" />
-      </a>
-    </div>
-    </div>
-    <br><br>
+      
          <div class="row">
 
       <div class="col l6 m12 s12" align="center"> <a href="https://www.thecollegefever.com/" target="_blank">
@@ -345,6 +340,18 @@
       </a>
     </div>
     </div> <br> <br>
+
+ <div class="row">
+
+  <div class="col l12 m12 s12"> <h2 style="text-align:center;">Online Shopping Partner<hr></h2> </div>
+  <div class="col l12 m12 s12" align="center">
+        <a href="http://www.bittuchanachur.com/" target="_blank">
+          <img class="spons" src="img/spons/2018/Food Partner/Screenshot (297).png" width="250px" height="200px"  />
+        </a>
+      </div>
+
+  </div> 
+
 <div class="row">
 
   <div class="col l12 m12 s12"> <h2 style="text-align:center;">Bakery Partner<hr></h2> </div>
