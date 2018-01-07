@@ -64,7 +64,7 @@
    <div class="row" >
    <div class="col l12">  <h2 style="text-align:center;">Strategic Sponsor <hr></h2> </div> 
       <a href="https://www.maxlifeinsurance.com/" target="_blank" >
-          <img class="spons" src="img/spons/2018/6.jpg" width="350" height="170" />
+          <img class="spons" src="img/spons/2018/6.png" width="350" height="170" />
       </a>
    </div>  <br> <br>
 
@@ -77,32 +77,33 @@
    
      
    
+   
     <div class="col l12 m12 s12">
 
-      <div class="col l6 m4 s12" align="center">  <a href="http://bel-india.com/" target="_blank"> <br> <br>
-         <img class="spons"  src="img/spons/2018/7.png" width="190" height="80" />
+      <div class="col l6 m4 s12" align="center">  <a href="#" target="_blank"> <br> <br>
+         <img class="spons"  src="img/spons/2018/11.png" width="190" height="170" />
       </a> </div>
 
     <div class="col l6 m4 s12"  align="center">
        <a href="http://www.mahanadicoal.in/Welcome.php" target="_blank"> <br> <br>
-         <img class="spons"  src="img/spons/2018/8.jpg" width="190" height="80" />
+         <img class="spons"  src="img/spons/2018/8.png" width="190" height="170" />
       </a>
 </div> 
 
       <div class="col l4 m4 s12" align="center">  <a href="https://www.unionbankonline.co.in/" target="_blank"> <br> <br>
-         <img class="spons"  src="img/spons/2018/9.jpg" width="190" height="80" />
+         <img class="spons"  src="img/spons/2018/9.jpg" width="190" height="170" />
       </a> </div>
 
     <div class="col l4 m4 s12"  align="center">
        <a href="https://www.birlacorporation.com/mp-birla-cement-perfect.html
 " target="_blank"> <br> <br>
-         <img class="spons"  src="img/spons/2018/10.jpg" width="190" height="80" />
+         <img class="spons"  src="img/spons/2018/10.jpg" width="190" height="170" />
       </a>
 </div> 
 
     <div class="col l4 m4 s12"  align="center">  
-       <a href="" target="_blank"><br> <br>
-         <img class="spons"  src="img/spons/2018/11.jpg" width="190" height="80" />
+       <a href="http://bel-india.com/" target="_blank"><br> <br>
+         <img class="spons"  src="img/spons/2018/7.png" width="190" height="170" />
       </a> </div>
        </div> </div>
 
@@ -137,27 +138,40 @@
           <img class="spons" src="img/spons/2018/15.png" width="350" height="170" />
       </a>
    </div>  <br> <br>
+   <div class="row">
 
-<div class="row" >
-   <div class="col l12">  <h2 style="text-align:center;">Electronic Partner <hr></h2> </div> 
-      <a href="" target="_blank" >
-          <img class="spons" src="img/spons/2018/16.jpg" width="350" height="170" />
-      </a>
-   </div>  <br> <br>
+  <div class="col l12 m12 s12"> <h2 style="text-align:center;">Luggage Partner<hr></h2> </div>
+  <div class="col l12 m12 s12" align="center">
+        <a href="http://www.polestarbags.com/" target="_blank">
+          <img class="spons" src="img/spons/2018/Luggage Partner/PoleStar Bags Logo.jpg" width="250px" height="200px"  />
+        </a>
+      </div>
 
-<div class="row" >
-   <div class="col l12">  <h2 style="text-align:center;">Multiplex Partner <hr></h2> </div> 
-      <a href="https://www.inoxmovies.com/" target="_blank" >
-          <img class="spons" src="img/spons/2018/17.png" width="350" height="170" />
-      </a>
-   </div>  <br> <br>
+  </div> 
+
+
+  
+ 
+      <br><br>
+
+<div class="row">
+
+  <div class="col l12 m12 s12"> <h2 style="text-align:center;">Electronic Partner<hr></h2> </div>
+  <div class="col l12 m12 s12" align="center">
+        <a href="https://india.1more.com/" target="_blank">
+          <img class="spons" src="img/spons/2018/Electronic Partner/Screenshot (298).png" width="250px" height="200px"  />
+        </a>
+      </div>
+
+  </div> <br><br>
+
 
   <div class="row">
 
-  <div class="col l12 m12 s12"> <h2 style="text-align:center;">Stationary Partner<hr></h2> </div>
+  <div class="col l12 m12 s12"> <h2 style="text-align:center;">Stationery Partner<hr></h2> </div>
   <div class="col l6 m12 s12" align="center">
         <a href="" target="_blank">
-          <img class="spons" src="img/spons/2018/18.jpg" width="350px" height="200px"  />
+          <img class="spons" src="img/spons/2018/18.png" width="350px" height="200px"  />
         </a>
       </div>
   <div class="col l6 m12 s12" align="center">
@@ -216,19 +230,22 @@
       </a>
 </div> 
   <div class="col l4 m4 s12" align="center">
-        <a href="http://www.purplepalette.in/
-" target="_blank">
-          <img class="spons" src="img/spons/2018/gifting partner/Purple Pallete.png" width="190px" height="120px"  />
+        <a href="https://www.giftease.com/" target="_blank">
+          <img class="spons" src="img/spons/2018/gifting partner/Screenshot (288).png" width="250px" height="200px"  />
         </a>
       </div>
 
 </div>
+<br><br>
  <div class="row">
 
  
-  <div class="col l6 m6 s12" align="center">
-        <a href="https://www.giftease.com/" target="_blank">
-          <img class="spons" src="img/spons/2018/gifting partner/Screenshot (288).png" width="250px" height="200px"  />
+ 
+
+       <div class="col l6 m6 s12" align="center">
+        <a href="http://www.purplepalette.in/
+" target="_blank">
+          <img class="spons" src="img/spons/2018/gifting partner/Purple Pallete.png" width="250px" height="200px"  />
         </a>
       </div>
 
@@ -245,68 +262,8 @@
 
 
 <br> <br>
-  <div class="row">
-
-  <div class="col l12 m12 s12"> <h2 style="text-align:center;">Bakery Partner<hr></h2> </div>
-  <div class="col l12 m12 s12" align="center">
-        <a href="#" >
-          <img class="spons" src="img/spons/2018/Bakery Partner/OAK-&-YOKE-LOGO-02-.jpg" width="250px" height="200px"  />
-        </a>
-      </div>
-
-  </div> 
-
-
-  
- 
       <br><br>
 
-
- <div class="row">
-
-  <div class="col l12 m12 s12"> <h2 style="text-align:center;">Food Partner<hr></h2> </div>
-  <div class="col l12 m12 s12" align="center">
-        <a href="http://www.bittuchanachur.com/" target="_blank">
-          <img class="spons" src="img/spons/2018/Food Partner/Screenshot (297).png" width="250px" height="200px"  />
-        </a>
-      </div>
-
-  </div> 
-
-
-  
- 
-      <br><br>
-<div class="row">
-
-  <div class="col l12 m12 s12"> <h2 style="text-align:center;">Electronic Partner<hr></h2> </div>
-  <div class="col l12 m12 s12" align="center">
-        <a href="https://india.1more.com/" target="_blank">
-          <img class="spons" src="img/spons/2018/Electronic Partner/Screenshot (298).png" width="250px" height="200px"  />
-        </a>
-      </div>
-
-  </div> 
-
-
-  
- 
-      <br><br>
-<div class="row">
-
-  <div class="col l12 m12 s12"> <h2 style="text-align:center;">Luggage Partner<hr></h2> </div>
-  <div class="col l12 m12 s12" align="center">
-        <a href="http://www.polestarbags.com/" target="_blank">
-          <img class="spons" src="img/spons/2018/Luggage Partner/PoleStar Bags Logo.jpg" width="250px" height="200px"  />
-        </a>
-      </div>
-
-  </div> 
-
-
-  
- 
-      <br><br>
 <div class="row">
 
   <div class="col l12 m12 s12"> <h2 style="text-align:center;">Fine Dine Partner<hr></h2> </div>
@@ -388,7 +345,44 @@
       </a>
     </div>
     </div> <br> <br>
+<div class="row">
 
+  <div class="col l12 m12 s12"> <h2 style="text-align:center;">Bakery Partner<hr></h2> </div>
+  <div class="col l12 m12 s12" align="center">
+        <a href="#" >
+          <img class="spons" src="img/spons/2018/Bakery Partner/OAK-&-YOKE-LOGO-02-.jpg" width="250px" height="200px"  />
+        </a>
+      </div>
+
+  </div> 
+
+
+  
+ 
+      <br><br>
+
+
+ <div class="row">
+
+  <div class="col l12 m12 s12"> <h2 style="text-align:center;">Food Partner<hr></h2> </div>
+  <div class="col l12 m12 s12" align="center">
+        <a href="http://www.bittuchanachur.com/" target="_blank">
+          <img class="spons" src="img/spons/2018/Food Partner/Screenshot (297).png" width="250px" height="200px"  />
+        </a>
+      </div>
+
+  </div> 
+
+
+  
+ 
+      <br><br>
+
+
+
+  
+ 
+  
 
 
   </div>
