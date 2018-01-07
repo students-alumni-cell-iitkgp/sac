@@ -217,6 +217,7 @@
 </div>
 </div>
 </div>
+<!--
 <div class="heading">
   <center>
     <h class="subheading"><b>Latest Programmes</b></h>
@@ -337,8 +338,10 @@
 </div>
 </div>
 </div>
+--!>
 <!--div id="googleMap" style="width:100%;height:90%;background:white;"></div-->
 </div>
+
 <?php include 'footer.php';?>
 
 
