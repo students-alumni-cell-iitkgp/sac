@@ -8,6 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/social_icon.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+  <link href="https://file.myfontastic.com/n6vo44Re5QaWo8oCKShBs7/icons.css" rel="stylesheet"> 
 <style type="text/css">
   
    @media only screen and (min-width: 768px){
@@ -82,7 +85,7 @@ left: 60px;
 <center>
 <br>
 <br>
-<a href="http://www.mentorship.iitkgp.ernet.in/" target="_blank "><input type="submit" value="Go to Mentorship portal" class="waves-effect waves-light btn-large" style="width:250px;padding:15px;"></a><br><br>
+<a href="http://www.mentorship.iitkgp.ac.in/" target="_blank "><input type="submit" value="Go to Mentorship portal" class="waves-effect waves-light btn-large" style="width:250px;padding:15px;"></a><br><br>
 
 </center>
   </div>
