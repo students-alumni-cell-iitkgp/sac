@@ -1,5 +1,8 @@
 <head>
     <link rel="stylesheet" href="css/social_icon.css">
+
+
+
     <style>
 
         @media only screen and (max-width: 992px){
@@ -16,6 +19,7 @@
 
 
     </style>
+      <link href="https://file.myfontastic.com/n6vo44Re5QaWo8oCKShBs7/icons.css" rel="stylesheet"> 
     </head>
 
 <div class="_footer">
@@ -40,7 +44,13 @@
                 <li><a class="soc-facebook" href="http://www.facebook.com/iitkgp.alumnicell?fref=ts&ref=br_tf" target="_blank"></a></li>
                 <li><a class="soc-twitter"  href="http://twitter.com/IITKgpAlumni" target="_blank"></a></li>
                 <li><a class="soc-linkedin"  href="https://www.linkedin.com/company-beta/13273135/" target="_blank"></a></li>
-                <li><a class="soc-youtube soc-icon-last" href="https://www.youtube.com/user/alumnicelliitkgp/videos" target="_blank"></a></li>
+                <li><a class="soc-youtube soc-icon" href="https://www.youtube.com/user/alumnicelliitkgp/videos" target="_blank"></a></li>
+                <li ><a class="socicon-instagram" href="https://www.instagram.com/sac.iitkgp/" target="_blank"  style="font-size: 30px; background-color: red; border-radius: 2000px; "></a></li>
+
+
+
+    
+
             </ul>
         </div>
 
