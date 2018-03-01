@@ -180,6 +180,17 @@
 
   </div> <br><br>
 
+  <div class="row">
+
+  <div class="col l12 m12 s12"> <h2 style="text-align:center;">Multiplex Partner<hr></h2> </div>
+  <div class="col l12 m12 s12" align="center">
+        <a href="https://www.inoxmovies.com/" target="_blank">
+          <img class="spons" src="img/spons/2018/multiplex partner/index.jpeg" width="300px" height="250px"  />
+        </a>
+      </div>
+
+  </div> <br><br>
+
 
   <div class="row">
 
