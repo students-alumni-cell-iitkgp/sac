@@ -162,7 +162,7 @@
               <a class="collapsible-header">Our Sponsors<i class="mdi-navigation-arrow-drop-down"></i></a>
               <div class="collapsible-body">
                 <ul>
-    <li><a href="sponsors2018.php">2018</a></li>
+   <li><a href="sponsors2018.php">2018</a></li>
     <li><a href="sponsors2017.php">2017</a></li>
     <li><a href="sponsors2016.php">2016</a></li>
     <li><a href="sponsors2015.php">2015</a></li>
