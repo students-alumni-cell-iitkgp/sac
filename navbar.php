@@ -5,14 +5,8 @@
       var $navbar= $('#nav'),
       y_pos =$navbar.offset().top,
       height = $navbar.height();
-      $(document).scroll(function(){
-        var scrollTop =$(this).scrollTop();
-        if (scrollTop>y_pos){$('#logo').hide();$navbar.addClass("navbar-fixed");$('.brand-logo').show(); $('.hide-on-med-and-down').addClass('right'); 
-      }
-      else if(scrollTop<=y_pos){$('#logo').show();$navbar.removeClass("navbar-fixed"); $('.brand-logo').hide(); $('.hide-on-med-and-down').removeClass('right'); 
-      
-    }
-      });
+      $('#logo').hide();$navbar.addClass("navbar-fixed");$('.brand-logo').show(); $('.hide-on-med-and-down').addClass('right'); 
+    
      
     })(jQuery, undefined); }
     else{$('#logo').remove(); $('.brand-logo').show();
@@ -75,7 +69,7 @@
     <li><a href="aam.php">Annual Alumni Meet</a></li>
     <li><a href="sam.php">Student Alumni Meet</a></li>
     <li><a href="phonathon.php">Phonathon</a></li>
-    <li><a href="guestlecture.php">Guest Lectures</a></li>
+    <li><a href="alumnitalks.php">Alumni Talks</a></li>
     <li><a href="leadershipsummit.php">Leadership Summit</a></li>
     <li><a href="alvida.php">Alvida</a></li>
   </ul>
@@ -84,10 +78,13 @@
     <li><a href="imprint.php">My Imprint</a></li>
     <li><a href="sparc.php">SPARC</a></li>
     <li><a href="acap.php">ACAP</a></li>
+    <li><a href="https://medium.com/@studentsalumnicell.iitkgp" target="_blank">Alumni Blog</a></li>
+
   </ul>
   <ul id="publications" class="dropdown-content" style="min-width: 200px;">
     <li><a href="yearbook.php">Yearbook</a></li>
     <li><a href="yoy.php">Yearnings of Yore</a></li>
+    <li><a href="temposhout_final_6.pdf" target="_blank">Tempo Shout</a></li>
   </ul>
   <ul id="sponsors" class="dropdown-content" style="min-width: 200px;">
     <li><a href="sponsors2018.php">2018</a></li>
@@ -125,7 +122,7 @@
                   <li><a href="aam.php">Annual Alumni Meet</a></li>
                   <li><a href="sam.php">Student Alumni Meet</a></li>
                   <li><a href="sam.php">Phonathon</a></li>
-                  <li><a href="guestlecture.php">Guest Lectures</a></li>
+                  <li><a href="alumnitalks.php">Alumni Talks</a></li>
                   <li><a href="leadershipsummit.php">Leadership Summit</a></li>
                   <li><a href="alvida.php">Alvida</a></li>
                 </ul>
@@ -140,6 +137,7 @@
                   <li><a href="imprint.php">My Imprint</a></li>
                   <li><a href="sparc.php">SPARC</a></li>
                   <li><a href="acap.php">ACAP</a></li>
+                  <li><a href="https://medium.com/@studentsalumnicell.iitkgp" target="_blank">Alumni Blog</a></li>
                 </ul>
               </div></li></ul></li>
         <li class="no-padding">
@@ -150,7 +148,7 @@
                 <ul>
                   <li><a href="yearbook.php">Yearbook</a></li>
                   <li><a href="yoy.php">Yearnings of Yore</a></li>
-
+                  <li><a href="temposhout_final_6.pdf" target="_blank">Tempo Shout</a></li> 
                 </ul>
               </div></li></ul></li>
 
