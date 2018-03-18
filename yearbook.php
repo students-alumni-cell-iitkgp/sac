@@ -36,36 +36,43 @@
             The yearbook also showcase all the events that IIT Kharagpur had organized in the preceding year.
             Each year, the Students' Alumni Cell strives to make the yearbook as wholesome and complete which could entail the different prospects of life of the alumni. 
             
-           </form>
-         </p>
-       </div>
-     </div>
-   </div>
-   <br><br>
-   <div class="container" style="width:100%;">
-    <div class="row" style="margin:auto;width:90%;">
-      <div class="col s12 m6 l3 offset-l1">
-        <a href="https://drive.google.com/drive/folders/0ByPZPiiPCG8_dl9fc2I2bFdHUmc" target="_blank">
-        <div class="card z-depth-0 _card" >
-          <div class="card-image">
-            
-          <img src="img/yearbook/year17.jpg" style="height: 354px" >
-          </a>
-          </div>
 
-          <div class="card-content">
-            <p>Yearbook 2017</p>
-          </div>
-
+          </p>
+           <div >
+          <a style="margin-left: 41%; " class="waves-effect waves-light btn-large " href="http://www.sac.iitkgp.ac.in/yearbook/" target="_blank" >YEARBOOK PORTAL</a>
+          <br>
+          <br>
         </div>
+        </div>
+
+       
+      </div>
+    </div>
+    <br><br>
+    <div class="container" style="width:100%;">
+      <div class="row" style="margin:auto;width:90%;">
+        <div class="col s12 m6 l3 offset-l1">
+          <a href="https://drive.google.com/drive/folders/0ByPZPiiPCG8_dl9fc2I2bFdHUmc" target="_blank">
+            <div class="card z-depth-0 _card" >
+              <div class="card-image">
+
+                <img src="img/yearbook/year17.jpg" style="height: 354px" >
+              </a>
+            </div>
+
+            <div class="card-content">
+              <p>Yearbook 2017</p>
+            </div>
+
+          </div>
         </a>
       </div>
       <div class="col s12 m6 l3">
         <div class="card z-depth-0 _card">
           <div class="card-image">
             <a href="https://drive.google.com/file/d/0B2DrxeNIhpL0dGNlc0RpYjhXcFk/view?ts=59fd5ae5" target="_blank">
-           <img src="img/yearbook/year16.jpg">
-         </a>
+             <img src="img/yearbook/year16.jpg">
+           </a>
          </div>
          <div class="card-content">
           <p>Yearbook 2016</p>
@@ -77,8 +84,8 @@
       <div class="card z-depth-0 _card">
         <div class="card-image">
           <a href="https://drive.google.com/file/d/0B29Q9s5AMUD7Zl83cklZdEV5bzQ/view?ts=59fd6a04" target="_blank">
-          <img src="img/yearbook/year2015.jpg">
-        </a>
+            <img src="img/yearbook/year2015.jpg">
+          </a>
         </div>
         <div class="card-content">
           <p class="text_align">Yearbook 2015</p>
