@@ -150,7 +150,14 @@ marquee {
   <div class="row">
     <div class="heading">
       <center>
-        <h class="subheading"><b>About Us</b></h>
+
+        <a style="margin-right: 3%; " class="waves-effect waves-light btn-large " href="http://www.sac.iitkgp.ac.in/yearbook/" target="_blank" >YEARBOOK PORTAL</a>
+        <h class="subheading">
+          
+          <b>About Us</b>
+         
+        </h>
+         <a style=" margin-left: 3%; " class="waves-effect waves-light btn-large " href="http://mentorship.iitkgp.ac.in" target="_blank" >MENTORSHIP PORTAL</a>
       </center>
     </div>
     <!--div class="parallax-container col l6 m6 s6 _about">
