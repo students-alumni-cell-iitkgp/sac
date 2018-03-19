@@ -150,7 +150,14 @@ marquee {
   <div class="row">
     <div class="heading">
       <center>
-        <h class="subheading"><b>About Us</b></h>
+
+       
+        <h class="subheading">
+          
+          <b>About Us</b>
+         
+        </h>
+        
       </center>
     </div>
     <!--div class="parallax-container col l6 m6 s6 _about">
