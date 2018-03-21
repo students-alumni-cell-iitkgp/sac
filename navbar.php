@@ -121,6 +121,7 @@
               <div class="collapsible-body">
                 <ul>
                   <li><a href="aam.php">Annual Alumni Meet</a></li>
+                  <li><a href="homecoming.php">Homecoming</a></li>
                   <li><a href="sam.php">Student Alumni Meet</a></li>
                   <li><a href="sam.php">Phonathon</a></li>
                   <li><a href="alumnitalks.php">Alumni Talks</a></li>
