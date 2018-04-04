@@ -49,7 +49,7 @@ max-width:100%;
 <div class="_wrapper">
 <?php include 'navbar.php';?>
 <div class="row ac-summit">
-  <img src="img/summit.jpg" >  
+  <img src="img/summit1.jpg" width="90%" >  
 </div>
 <br>
     <div class="row" style="padding:0% 8% 0% 8%;">
@@ -64,11 +64,7 @@ max-width:100%;
                 
                 
                 <p class="summit text_align" style="padding:1% 10% 6% 10%;">
-                     A leader is the one who knows the way, goes the way and shows the way. 
-                     Leadership Summit, organized as a part of Guest Lectures, sees the participation of professionals and 
-                     corporate tycoons sharing the same stage talking about their experiences and guiding the students to become 
-                     future world leaders. The summit organized in 2013 and 2014 was appreciated by the students as well as alumni 
-                     and witnessed huge turnout of the students.
+                    Leadership Summit, organized as a part of Guest Lectures, sees the participation of professionals and corporate tycoons sharing the same stage talking about their experiences and guiding the students to become future world leaders. With IIT Kharagpur’s best minds converging at the this event, we weave together complex, seemingly diverse thoughts into an intricate tapestry and provide a platform for them to share their experiences and guide students to become future world leaders. It helps the students to learn how to be effective leaders in their workplace and lifestyle helping them develop confidence and competence to lead others. The summit organized in 2013, 2014 and 2018 was appreciated by the students as well as alumni and witnessed huge turnout of the students.
                     </p>
             </div>
         </div>
