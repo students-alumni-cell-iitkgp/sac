@@ -201,7 +201,7 @@ else
     
   <div class="row ac-aam">
 
-      <div class="col l9"><img style="width: 98%;padding: 10px 30px 10px 10px" src="img/14th_aam/aam_cover.jpg"></div>
+      <div class="col l9"><img style="width: 98%;padding: 10px 30px 10px 10px" src="img/15th_aam/aam_cover.jpg"></div>
       <div class="col l3" style="margin-top:3%;margin-left: -2.5%">
           <div align="center" style="font-size: 25px;font-weight: 700">
               15th Annual Alumni Meet
