@@ -192,7 +192,7 @@ body {
        </div>
      </div>
      <div class="team-title" style="padding-top:0px;">
-      <h5 style="text-align: center;">Gautam Arya</h5>
+      <h5 style="text-align: center;font-size: 120%;">Gautam Arya</h5>
 
     </div>
   </div>
@@ -219,7 +219,7 @@ body {
     </div>
   </div>
   <div class="team-title" style="padding-top:0px;">
-    <h5 style="text-align: center;">Vasanta Majety</h5>
+    <h5 style="text-align: center;font-size: 120%;">Vasanta Majety</h5>
 
   </div>
 </div>
@@ -248,7 +248,7 @@ body {
             <h4 style="margin-top: 50px">Akanksha Malhotra</h4>
             <ul>
               <li style="padding-left: 15px;">+91-7430088666</li>
-              <li style="padding-left: 15px;">akankshamalhotra32@gmail.com</li>
+              <li style="padding-left: 15px;margin-left: -7%;">akankshamalhotra32@gmail.com</li>
             </ul>
           </div>
           <div class="s-link">
@@ -259,7 +259,7 @@ body {
         </div>
       </div>
       <div class="team-title" style="padding-top:0px;">
-        <h5 style="text-align: center;">Akanksha Malhotra</h5>
+        <h5 style="text-align: center; font-size: 120%;">Akanksha Malhotra</h5>
 
       </div>
     </div>
@@ -286,7 +286,7 @@ body {
       </div>
     </div>
     <div class="team-title" style="padding-top:0px;">
-      <h5 style="text-align: center;">Kumar Shubham</h5>
+      <h5 style="text-align: center;font-size: 120%;">Kumar Shubham</h5>
 
     </div>
   </div>
@@ -314,7 +314,7 @@ body {
   </div>
 </div>
 <div class="team-title" style="padding-top:0px;">
-  <h5 style="text-align: center;">Naman Agarwal</h5>
+  <h5 style="text-align: center;font-size: 120%;">Naman Agarwal</h5>
 
 </div>
 </div>
@@ -345,7 +345,7 @@ body {
       </div>
     </div>
     <div class="team-title" style="padding-top:0px;">
-      <h5 style="text-align: center;">Shruti Joshi</h5>
+      <h5 style="text-align: center;font-size: 120%;">Shruti Joshi</h5>
 
     </div>
   </div>
@@ -372,7 +372,7 @@ body {
     </div>
   </div>
   <div class="team-title" style="padding-top:0px;">
-    <h5 style="text-align: center;font-size: 130%;" >Upamanyu Chatterjee</h5>
+    <h5 style="text-align: center;font-size: 120%;" >Upamanyu Chatterjee</h5>
 
   </div>
 </div>
@@ -399,7 +399,7 @@ body {
     </div>
   </div>
   <div class="team-title" style="padding-top:0px;">
-    <h5 style="text-align: center;">Vaibhav Beriwal</h5>
+    <h5 style="text-align: center;font-size: 120%;">Vaibhav Beriwal</h5>
 
   </div>
 </div>
@@ -441,7 +441,7 @@ body {
       </div>
     </div>
     <div class="team-title" style="padding-top:0px;">
-      <h5 style="text-align: center;">Asif iqbal</h5>
+      <h5 style="text-align: center;font-size: 120%;">Asif iqbal</h5>
 
     </div>
   </div>
@@ -457,7 +457,7 @@ body {
         <h4>Prateek Kaushal</h4>
         <ul>
          <li style="padding-left: 15px;">+91-7431055888</li>
-         <li style="padding-left: 15px;">prateekkaushaliitkgp@gmail.com</li>
+         <li style="padding-left: 15px;margin-left: -7%;">prateekkaushaliitkgp@gmail.com</li>
        </ul>
      </div>
      <div class="s-link">
@@ -468,7 +468,7 @@ body {
   </div>
 </div>
 <div class="team-title" style="padding-top:0px;">
-  <h5 style="text-align: center;">Prateek Kaushal</h5>
+  <h5 style="text-align: center;font-size: 120%;">Prateek Kaushal</h5>
 
 </div>
 </div>
@@ -511,7 +511,7 @@ body {
         </div>
       </div>
       <div class="team-title" style="padding-top:0px;" >
-        <h5 style="text-align: center;  ">Sumit Tripathi</h5>
+        <h5 style="text-align: center;font-size: 120%;  ">Sumit Tripathi</h5>
 
       </div>
     </div>
@@ -553,7 +553,7 @@ body {
         </div>
       </div>
       <div class="team-title" style="padding-top:0px;" >
-        <h5 style="text-align: center;  ">Harsh Yadav</h5>
+        <h5 style="text-align: center;font-size: 120%;  ">Harsh Yadav</h5>
 
       </div>
     </div>
