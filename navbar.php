@@ -5,7 +5,6 @@
       var $navbar= $('#nav'),
       y_pos =$navbar.offset().top,
       height = $navbar.height();
-
       $('#logo').hide();$navbar.addClass("navbar-fixed");$('.brand-logo').show(); $('.hide-on-med-and-down').addClass('right'); 
     
      
@@ -68,6 +67,7 @@
 <div  class="white" id="nav" style="margin-top: 0px;">
   <ul id="events" class="dropdown-content" style="min-width: 200px;">
     <li><a href="aam.php">Annual Alumni Meet</a></li>
+    <li><a href="homecoming.php">Homecoming</a></li>
     <li><a href="sam.php">Student Alumni Meet</a></li>
     <li><a href="phonathon.php">Phonathon</a></li>
     <li><a href="alumnitalks.php">Alumni Talks</a></li>
@@ -121,6 +121,7 @@
               <div class="collapsible-body">
                 <ul>
                   <li><a href="aam.php">Annual Alumni Meet</a></li>
+                  <li><a href="homecoming.php">Homecoming</a></li>
                   <li><a href="sam.php">Student Alumni Meet</a></li>
                   <li><a href="sam.php">Phonathon</a></li>
                   <li><a href="alumnitalks.php">Alumni Talks</a></li>
