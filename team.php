@@ -493,7 +493,7 @@ body {
       <div class="card card-1">
         <div class="team-member">
           <div class="team-img">
-            <img src="img/team/acellteam18/sumit.jpg" alt="team member" class="img-responsive" height="250" width="100%">
+            <img src="img/team/acellteam18/sumit1.jpg" alt="team member" class="img-responsive" height="250" width="100%">
           </div>
           <div class="team-hover">
             <div class="desk">
