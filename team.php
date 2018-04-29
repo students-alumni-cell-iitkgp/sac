@@ -435,7 +435,7 @@ body {
          <div class="s-link">
           <a target="_blank" href="https://www.facebook.com/profile.php?id=100001088806316"><i class="fa fa-facebook"></i></a>
           <a target="_blank" href="https://www.linkedin.com/in/asif-iqbal-8513a5147/"><i class="fa fa-linkedin"></i></a>
-          <a target="_blank" href="https://github.com/karannaoh"><i class="fa fa-github"></i></a>
+          <a target="_blank" href="https://github.com/MaxAsif"><i class="fa fa-github"></i></a>
 
         </div>
       </div>
@@ -457,13 +457,13 @@ body {
         <h4>Prateek Kaushal</h4>
         <ul>
          <li style="padding-left: 15px;">+91-7431055888</li>
-         <li style="padding-left: 15px;margin-left: -7%;">prateekkaushaliitkgp@gmail.com</li>
+         <li style="padding-left: 15px;margin-left: -7%; ">prateekkaushaliitkgp@gmail.com</li>
        </ul>
      </div>
      <div class="s-link">
       <a target="_blank" href="https://www.facebook.com/prateek.kaushal.98?ref=br_rs"><i class="fa fa-facebook"></i></a>
       <a target="_blank" href="https://www.linkedin.com/in/prateek-kaushal-4a9594128/"><i class="fa fa-linkedin"></i></a>
-      <a target="_blank" href="https://github.com/yugam1"><i class="fa fa-github"></i></a>
+      <a target="_blank" href="https://github.com/prateekkaushal7886"><i class="fa fa-github"></i></a>
     </div>
   </div>
 </div>
@@ -542,7 +542,7 @@ body {
               <h4>Harsh Yadav</h4>
               <ul>
                <li style="padding-left: 15px;">+91-8167089787</li>
-               <li style="padding-left: 15px;"></li>
+               <li style="padding-left: 15px;">mailharsh17@gmail.com</li>
              </ul>
            </div>
            <div class="s-link">
