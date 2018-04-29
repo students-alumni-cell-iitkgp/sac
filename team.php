@@ -173,26 +173,26 @@ body {
      <div class="card card-1">
       <div class="team-member">
         <div class="team-img">
-          <img src="img/team/acellteam17/bharat.jpg" alt="team member" class="img-responsive" height="250">
+          <img src="img/team/acellteam18/gautam.jpg" alt="team member" class="img-responsive" height="250" width="100%">
         </div>
         <div class="team-hover">
           <div class="desk">
-            <h4 style="margin-top: 50px">Bharat Chandra</h4>
+            <h4 style="margin-top: 50px">Gautam Arya</h4>
             <ul>
-              <li style="padding-left: 15px;">+91-9932544235</li>
-              <li style="padding-left: 15px;">imbharat16@gmail.com</li>
+              <li style="padding-left: 15px;">+91-8349702291</li>
+              <li style="padding-left: 15px;">gautam25arya@gmail.com</li>
             </ul>
           </div>
           <div class="s-link">
-           <a target="_blank" href="https://www.facebook.com/bharat.chandra.97"><i class="fa fa-facebook"></i></a>
-           <a target="_blank" href="https://www.linkedin.com/in/bharat-chandra-obili-421781126/"><i class="fa fa-linkedin"></i></a>
+           <a target="_blank" href="https://www.facebook.com/gautam.arya.712"><i class="fa fa-facebook"></i></a>
+           <a target="_blank" href="https://www.linkedin.com/in/gautam-arya-2ba58a13a/"><i class="fa fa-linkedin"></i></a>
 
 
          </div>
        </div>
      </div>
      <div class="team-title" style="padding-top:0px;">
-      <h5 style="text-align: center;">Bharat Chandra</h5>
+      <h5 style="text-align: center;">Gautam Arya</h5>
 
     </div>
   </div>
@@ -201,25 +201,25 @@ body {
  <div class="card card-1">
   <div class="team-member">
     <div class="team-img">
-      <img src="img/team/acellteam17/vishal.jpg" alt="team member" class="img-responsive" height="250">
+      <img src="img/team/acellteam18/vasanta.jpg" alt="team member" class="img-responsive" height="250" width="100%">
     </div>
     <div class="team-hover">
       <div class="desk">
-        <h4>Vishal Singh</h4>
+        <h4>Vasanta Majety</h4>
         <ul>
-          <li style="padding-left: 15px;">+91-8769797343</li>
-          <li style="padding-left: 15px;">vishalsingh08.iitkgp@gmail.com</li>
+          <li style="padding-left: 15px;">+91-7477745444</li>
+          <li style="padding-left: 15px;">vasantamajety@gmail.com</li>
         </ul>
       </div>
       <div class="s-link">
-        <a target="_blank" href="https://www.facebook.com/profile.php?id=100010338962799"><i class="fa fa-facebook"></i></a>
+        <a target="_blank" href="https://www.facebook.com/vasanta.majety"><i class="fa fa-facebook"></i></a>
 
-        <a target="_blank" href="https://www.linkedin.com/in/vishal-singh-284a89125/"><i class="fa fa-linkedin"></i></a>
+        <a target="_blank" href="https://www.linkedin.com/in/vasanta-majety/"><i class="fa fa-linkedin"></i></a>
       </div>
     </div>
   </div>
   <div class="team-title" style="padding-top:0px;">
-    <h5 style="text-align: center;">Vishal Singh</h5>
+    <h5 style="text-align: center;">Vasanta Majety</h5>
 
   </div>
 </div>
@@ -241,25 +241,25 @@ body {
      <div class="card card-1">
       <div class="team-member">
         <div class="team-img">
-          <img src="img/team/acellteam17/thakkar.jpg" alt="team member" class="img-responsive" height="250" width="100%">
+          <img src="img/team/acellteam18/akanksha.jpg" alt="team member" class="img-responsive" height="250" width="100%">
         </div>
         <div class="team-hover">
           <div class="desk">
-            <h4 style="margin-top: 50px">Anmol Thakkar</h4>
+            <h4 style="margin-top: 50px">Akanksha Malhotra</h4>
             <ul>
-              <li style="padding-left: 15px;">+91-9475240720</li>
-              <li style="padding-left: 15px;">anmolbt@gmail.com</li>
+              <li style="padding-left: 15px;">+91-7430088666</li>
+              <li style="padding-left: 15px;">akankshamalhotra32@gmail.com</li>
             </ul>
           </div>
           <div class="s-link">
-            <a target="_blank" href="https://www.facebook.com/anmol2112"><i class="fa fa-facebook"></i></a>
-            <a target="_blank" href="https://www.linkedin.com/in/anmolthakkar"><i class="fa fa-linkedin"></i></a>
+            <a target="_blank" href="https://www.facebook.com/akanksha.malhotra.777"><i class="fa fa-facebook"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/akanksha-malhotra-b83aba148/"><i class="fa fa-linkedin"></i></a>
 
           </div>
         </div>
       </div>
       <div class="team-title" style="padding-top:0px;">
-        <h5 style="text-align: center;">Anmol Thakkar</h5>
+        <h5 style="text-align: center;">Akanksha Malhotra</h5>
 
       </div>
     </div>
@@ -268,25 +268,25 @@ body {
    <div class="card card-1">
     <div class="team-member">
       <div class="team-img">
-        <img src="img/team/acellteam17/daksh.jpg" alt="team member" class="img-responsive" height="250">
+        <img src="img/team/acellteam18/kumar.jpg" alt="team member" class="img-responsive" height="250" width="100%">
       </div>
       <div class="team-hover">
         <div class="desk">
-          <h4 style="margin-top: 50px">Daksh Thakkur</h4>
+          <h4 style="margin-top: 50px">Kumar Shubham</h4>
           <ul>
-            <li style="padding-left: 15px;">+91-9460300246</li>
-            <li style="padding-left: 15px;">daksh.thakkur@gmail.com</li>
+            <li style="padding-left: 15px;">+91-8298922647</li>
+            <li style="padding-left: 15px;">shubham4138@gmail.com</li>
           </ul>
         </div>
         <div class="s-link">
-          <a target="_blank" href="https://www.facebook.com/daksh.thakkur"><i class="fa fa-facebook"></i></a>
-          <a target="_blank" href="https://www.linkedin.com/in/daksh-thakkur-4b0378b7/"><i class="fa fa-linkedin"></i></a>
+          <a target="_blank" href="https://www.facebook.com/shubham4138"><i class="fa fa-facebook"></i></a>
+          <a target="_blank" href="https://www.linkedin.com/in/kumar-shubham-34282b138/"><i class="fa fa-linkedin"></i></a>
 
         </div>
       </div>
     </div>
     <div class="team-title" style="padding-top:0px;">
-      <h5 style="text-align: center;">Daksh Thakkur</h5>
+      <h5 style="text-align: center;">Kumar Shubham</h5>
 
     </div>
   </div>
@@ -296,25 +296,25 @@ body {
   <div class="team-member">
 
     <div class="team-img">
-      <img src="img/team/acellteam17/rohit.jpg" alt="team member" class="img-responsive" height="250">
+      <img src="img/team/acellteam18/naman.jpg" alt="team member" class="img-responsive" height="250" width="100%">
     </div>
     <div class="team-hover">
       <div class="desk">
-        <h4 style="margin-top: 50px">Rohit Sonawane</h4>
+        <h4 style="margin-top: 50px">Naman Agarwal</h4>
         <ul>
-         <li style="padding-left: 15px;">+91-9932428981</li>
-         <li style="padding-left: 15px;">sonawanerohit803@gmail.com</li>
+         <li style="padding-left: 15px;">+91-7478077999</li>
+         <li style="padding-left: 15px;">agarwalnaman20@gmail.com</li>
        </ul>
      </div>
      <div class="s-link">
-      <a target="_blank" href="https://www.facebook.com/rohit.sonawane.3701779"><i class="fa fa-facebook"></i></a>
-      <a target="_blank" href="https://www.linkedin.com/in/rohit-sonawane-268139103/"><i class="fa fa-linkedin"></i></a>
+      <a target="_blank" href="https://www.facebook.com/naman.agarwal.378"><i class="fa fa-facebook"></i></a>
+      <a target="_blank" href="https://www.linkedin.com/in/naman-agarwal20/"><i class="fa fa-linkedin"></i></a>
 
     </div>
   </div>
 </div>
 <div class="team-title" style="padding-top:0px;">
-  <h5 style="text-align: center;">Rohit Sonawane</h5>
+  <h5 style="text-align: center;">Naman Agarwal</h5>
 
 </div>
 </div>
@@ -327,25 +327,25 @@ body {
    <div class="card card-1">
     <div class="team-member">
       <div class="team-img">
-        <img src="img/team/acellteam17/sreelata.jpg" alt="team member" class="img-responsive" height="250" align="center">
+        <img src="img/team/acellteam18/shruti.jpg" alt="team member" class="img-responsive" height="250" align="center" width="100%">
       </div>
       <div class="team-hover">
         <div class="desk">
-          <h4 style="margin-top: 50px">Sreelatha Challa</h4>
+          <h4 style="margin-top: 50px">Shruti Joshi</h4>
           <ul>
-            <li style="padding-left: 15px;">+91-9932432473</li>
-            <li style="padding-left: 15px;">sreelathachalla9@gmail.com</li>
+            <li style="padding-left: 15px;">+91-7477768999</li>
+            <li style="padding-left: 15px;">shrutijoshi112@gmail.com</li>
           </ul>
         </div>
         <div class="s-link">
-          <a target="_blank" href="https://www.facebook.com/sreelatha.challa.1"><i class="fa fa-facebook"></i></a>
-          <a target="_blank" href="https://www.linkedin.com/in/sreelatha-challa/"><i class="fa fa-linkedin"></i></a>
+          <a target="_blank" href="https://www.facebook.com/shruti.joshi.712"><i class="fa fa-facebook"></i></a>
+          <a target="_blank" href="https://www.linkedin.com/in/shruti-joshi-05101713b/"><i class="fa fa-linkedin"></i></a>
      
         </div>
       </div>
     </div>
     <div class="team-title" style="padding-top:0px;">
-      <h5 style="text-align: center;">Sreelatha Challa</h5>
+      <h5 style="text-align: center;">Shruti Joshi</h5>
 
     </div>
   </div>
@@ -354,25 +354,25 @@ body {
   <div class="card card-1">
   <div class="team-member">
     <div class="team-img">
-      <img src="img/team/acellteam17/utkarsh.jpg" alt="team member" class="img-responsive" height="250" width="100%">
+      <img src="img/team/acellteam18/uppu.jpg" alt="team member" class="img-responsive" height="250" width="100%">
     </div>
     <div class="team-hover">
       <div class="desk">
-        <h4>Utkarsh Sinha</h4>
+        <h4>Upamanyu Chatterjee</h4>
         <ul>
-          <li style="padding-left: 15px;">+91-8969169656</li>
-          <li style="padding-left: 15px;">utksn15@gmail.com</li>
+          <li style="padding-left: 15px;">+91-9930011247</li>
+          <li style="padding-left: 15px;">uchatterjee.iitkgp@gmail.com</li>
         </ul>
       </div>
       <div class="s-link">
-        <a target="_blank" href="https://www.facebook.com/utkarsh.sinha.186"><i class="fa fa-facebook"></i></a>
-        <a target="_blank" href="https://www.linkedin.com/in/utksn15/"><i class="fa fa-linkedin"></i></a>
+        <a target="_blank" href="https://www.facebook.com/onepieceuppu"><i class="fa fa-facebook"></i></a>
+        <a target="_blank" href="https://www.linkedin.com/in/uchatterjeeiitkgp/"><i class="fa fa-linkedin"></i></a>
 
       </div>
     </div>
   </div>
   <div class="team-title" style="padding-top:0px;">
-    <h5 style="text-align: center;">Utkarsh Sinha</h5>
+    <h5 style="text-align: center;font-size: 130%;" >Upamanyu Chatterjee</h5>
 
   </div>
 </div>
@@ -381,25 +381,25 @@ body {
  <div class="card card-1">
   <div class="team-member">
     <div class="team-img">
-      <img src="img/team/acellteam17/patil.jpg" alt="team member" class="img-responsive" height="250">
+      <img src="img/team/acellteam18/vaibhav.jpg" alt="team member" class="img-responsive" height="250" width="100%">
     </div>
     <div class="team-hover">
       <div class="desk">
-        <h4>Yash Patil</h4>
+        <h4>Vaibhav Beriwal</h4>
         <ul>
-          <li style="padding-left: 15px;">+91-8554996899</li>
-          <li style="padding-left: 15px;">yashpatil.iitkgp@gmail.com</li>
+          <li style="padding-left: 15px;">+91-9836643231</li>
+          <li style="padding-left: 15px;">vaibhavberiwal@gmail.com</li>
         </ul>
       </div>
       <div class="s-link">
-        <a target="_blank" href="https://www.facebook.com/profile.php?id=100009957672577"><i class="fa fa-facebook"></i></a>
-        <a target="_blank" href="https://www.linkedin.com/in/yash-patil-570417118/"><i class="fa fa-linkedin"></i></a>
+        <a target="_blank" href="https://www.facebook.com/vaibhav.beriwal"><i class="fa fa-facebook"></i></a>
+        <a target="_blank" href="https://www.linkedin.com/in/vaibhav-beriwal25/"><i class="fa fa-linkedin"></i></a>
 
       </div>
     </div>
   </div>
   <div class="team-title" style="padding-top:0px;">
-    <h5 style="text-align: center;">Yash Patil</h5>
+    <h5 style="text-align: center;">Vaibhav Beriwal</h5>
 
   </div>
 </div>
@@ -423,25 +423,25 @@ body {
      <div class="card card-1">
       <div class="team-member">
         <div class="team-img">
-          <img src="img/team/acellteam17/karan.jpg" alt="team member" class="img-responsive" height="250" width="100%">
+          <img src="img/team/acellteam18/asif.jpg" alt="team member" class="img-responsive" height="250" width="100%">
         </div>
         <div class="team-hover">
           <div class="desk">
-            <h4 style="margin-top: 50px">Karan Pratap Singh</h4>
-            <ul><li style="padding-left: 15px;">+91-9800525888</li>
-             <li style="padding-left: 15px;">karanpratapsingh43@gmail.com</li>
+            <h4 style="margin-top: 50px">Asif Iqbal</h4>
+            <ul><li style="padding-left: 15px;">+91-8789282509</li>
+             <li style="padding-left: 15px;">asifiqbal7.iitkgp@gmail.com</li>
            </ul>
          </div>
          <div class="s-link">
-          <a target="_blank" href="https://www.facebook.com/karannaoh"><i class="fa fa-facebook"></i></a>
-          <a target="_blank" href="https://www.linkedin.com/in/karan-pratap-singh-naoh/"><i class="fa fa-linkedin"></i></a>
+          <a target="_blank" href="https://www.facebook.com/profile.php?id=100001088806316"><i class="fa fa-facebook"></i></a>
+          <a target="_blank" href="https://www.linkedin.com/in/asif-iqbal-8513a5147/"><i class="fa fa-linkedin"></i></a>
           <a target="_blank" href="https://github.com/karannaoh"><i class="fa fa-github"></i></a>
 
         </div>
       </div>
     </div>
     <div class="team-title" style="padding-top:0px;">
-      <h5 style="text-align: center;">Karan Pratap</h5>
+      <h5 style="text-align: center;">Asif iqbal</h5>
 
     </div>
   </div>
@@ -450,25 +450,25 @@ body {
  <div class="card card-1">
   <div class="team-member">
     <div class="team-img">
-      <img src="img/team/acellteam17/yugam.jpg" alt="team member" class="img-responsive" height="250" width="100%">
+      <img src="img/team/acellteam18/prateek1.jpg" alt="team member" class="img-responsive" height="250" width="100%">
     </div>
     <div class="team-hover">
       <div class="desk">
-        <h4>Yugam</h4>
+        <h4>Prateek Kaushal</h4>
         <ul>
-         <li style="padding-left: 15px;">+91-9932509195</li>
-         <li style="padding-left: 15px;">yugam66@gmail.com</li>
+         <li style="padding-left: 15px;">+91-7431055888</li>
+         <li style="padding-left: 15px;">prateekkaushaliitkgp@gmail.com</li>
        </ul>
      </div>
      <div class="s-link">
-      <a target="_blank" href="https://www.facebook.com/yugam1?fref=ufi"><i class="fa fa-facebook"></i></a>
-      <a target="_blank" href="https://www.linkedin.com/in/yugam-prasad-15a645126/"><i class="fa fa-linkedin"></i></a>
+      <a target="_blank" href="https://www.facebook.com/prateek.kaushal.98?ref=br_rs"><i class="fa fa-facebook"></i></a>
+      <a target="_blank" href="https://www.linkedin.com/in/prateek-kaushal-4a9594128/"><i class="fa fa-linkedin"></i></a>
       <a target="_blank" href="https://github.com/yugam1"><i class="fa fa-github"></i></a>
     </div>
   </div>
 </div>
 <div class="team-title" style="padding-top:0px;">
-  <h5 style="text-align: center;">Yugam</h5>
+  <h5 style="text-align: center;">Prateek Kaushal</h5>
 
 </div>
 </div>
@@ -493,25 +493,67 @@ body {
       <div class="card card-1">
         <div class="team-member">
           <div class="team-img">
-            <img src="img/team/acellteam17/aman.jpg" alt="team member" class="img-responsive" height="250" width="100%">
+            <img src="img/team/acellteam18/sumit.jpg" alt="team member" class="img-responsive" height="250" width="100%">
           </div>
           <div class="team-hover">
             <div class="desk">
-              <h4>Aman Kumar </h4>
+              <h4>Sumit Tripathi</h4>
               <ul>
-               <li style="padding-left: 15px;">+91-9609808183</li>
-               <li style="padding-left: 15px;">amankumaragarwal2@gmail.com</li>
+               <li style="padding-left: 15px;">+91-7430033777</li>
+               <li style="padding-left: 15px;">sumittripathi12@gmail.com</li>
              </ul>
            </div>
            <div class="s-link">
-            <a target="_blank" href="https://www.facebook.com/profile.php?id=100006869627967"><i class="fa fa-facebook"></i></a>
-            <a target="_blank" href="https://www.linkedin.com/in/aman-kumar-agarwal-99bb72102/"><i class="fa fa-linkedin"></i></a>
+            <a target="_blank" href="https://www.facebook.com/Sumit12Tripathi"><i class="fa fa-facebook"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/sumit12tripathi/"><i class="fa fa-linkedin"></i></a>
 
           </div>
         </div>
       </div>
       <div class="team-title" style="padding-top:0px;" >
-        <h5 style="text-align: center;  ">Aman Kumar</h5>
+        <h5 style="text-align: center;  ">Sumit Tripathi</h5>
+
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<center>
+  <div class="heading" style="border:3px black solid; display: inline-block; padding-top: 2px;padding-right: 20px;padding-left: 20px;" >
+   <h4>
+    <b>Branding Head
+    </b>
+  </h4>
+</div>
+</center>
+<div class="container">
+  <div class="row">
+
+    <div class="col l4 m6 s12 offset-l4" style="box-shadow: 2px black;">
+      <div class="card card-1">
+        <div class="team-member">
+          <div class="team-img">
+            <img src="img/team/acellteam18/harsh.jpg" alt="team member" class="img-responsive" height="250" width="100%">
+          </div>
+          <div class="team-hover">
+            <div class="desk">
+              <h4>Harsh Yadav</h4>
+              <ul>
+               <li style="padding-left: 15px;">+91-8167089787</li>
+               <li style="padding-left: 15px;"></li>
+             </ul>
+           </div>
+           <div class="s-link">
+            <a target="_blank" href="https://www.facebook.com/Harshyadav17"><i class="fa fa-facebook"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/harsh-yadav-1bba69127/"><i class="fa fa-linkedin"></i></a>
+
+          </div>
+        </div>
+      </div>
+      <div class="team-title" style="padding-top:0px;" >
+        <h5 style="text-align: center;  ">Harsh Yadav</h5>
 
       </div>
     </div>
@@ -530,7 +572,28 @@ body {
 </div>
 </center>
 <div class="row" style="margin-top: 50px;">
- <div id="2016" class="col l3">
+   <div id="2017" class="col l4">
+  <ul>
+   <span>
+    <b>
+     <li center-align style="font-size: 20;">2017</li>
+     <hr>
+     <li>Bharat Chandra</li>
+     <li>Vishal Kumar Singh</li>
+     <li>Anmol Thakkar</li>
+     <li>Daksh Thakkur</li>
+     <li>Rohit Sonawane</li>
+     <li>Sreelatha Challa</li>
+     <li> Utkarsh Sinha</li>
+     <li>Yash Patil</li>
+     <li>Karan Pratap Singh</li>
+     <li>Yugam</li>
+     <li>Aman Kumar</li>
+   </b>
+ </span>
+</ul>
+</div>
+ <div id="2016" class="col l4">
   <ul>
    <span>
     <b>
@@ -550,7 +613,7 @@ body {
  </span>
 </ul>
 </div>
-<div id="2015" class="col l3">
+<div id="2015" class="col l4">
   <ul>
    <span>
     <b>
@@ -571,7 +634,10 @@ body {
  </span>
 </ul>
 </div>
-<div id="2014" class="col l3">
+
+</div>
+<div class="row" style="margin-top: 50px;">
+  <div id="2014" class="col l4">
   <ul>
    <span>
     <b>
@@ -589,7 +655,7 @@ body {
  </span>
 </ul>
 </div>
-<div id="2013" class="col l3">
+<div id="2013" class="col l4">
   <ul>
    <span>
     <b>
@@ -611,9 +677,7 @@ body {
  </span>
 </ul>
 </div>
-</div>
-<div class="row" style="margin-top: 50px;">
- <div id="2012" class="col l3">
+ <div id="2012" class="col l4">
   <ul>
    <span>
     <b>
@@ -631,7 +695,9 @@ body {
  </span>
 </ul>
 </div>
-<div id="2011" class="col l3">
+</div>
+<div class="row" style="margin-top: 50px;">
+   <div id="2011" class="col l4">
   <ul>
    <span>
     <b>
@@ -649,7 +715,7 @@ body {
  </span>
 </ul>
 </div>
-<div id="2010" class="col l3">
+<div id="2010" class="col l4">
   <ul>
    <span>
     <b>
@@ -667,7 +733,7 @@ body {
  </span>
 </ul>
 </div>
-<div id="2010" class="col l3">
+<div id="2010" class="col l4">
   <ul>
    <span>
     <b>
@@ -684,6 +750,7 @@ body {
  </span>
 </ul>
 </div>
+
 </div>
 <?php include 'footer.php';?>
 <script type="text/javascript">
