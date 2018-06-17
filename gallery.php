@@ -44,19 +44,73 @@
 <body> 
    <div class="row"><center>
 
+       
         <center>
-            <div class="heading ac-head" style="border:3px black solid; display: inline-block; padding-top: 2px; margin: 3px;padding-right: 20px;padding-left: 20px;" >
-
-                <h4><b>Student Alumni Meet '18</b> - Bangalore<br>Coming Soon</h4> </div>
-            </center>
-
-
-            <div >
-                <center>
-                    <img style="margin-top: 15px;" class="materialboxed normal" src="img/sam/bangalore18.jpg" width="750">
-                </center>
+         <div class="heading ac-head" style="border:3px black solid; display: inline-block; padding-top: 2px; margin: 3px;padding-right: 20px;padding-left: 20px;" >
+            <h4><b>Student Alumni Meet '18</b> - Bangalore</h4>
+        </div>
+    </center>
+    <br>
+    <!--
+     <div class="row">
+    
+        <div class="col l3 m4 s12">
+            <img class="materialboxed normal" src="img/sam/samh/2.jpg" width="430">
+        </div>
+        <div class="col l6 m4 s12">
+        
+            <img class="materialboxed normal " src="img/sam/samh/1.jpg" width="430">
+        
             </div>
-        </center> </div>
+        <div class="col l3 m4 s12">
+            
+                <img class="materialboxed normal" src="img/sam/samh/5.jpg" width="430">
+            
+        </div>
+    </div>
+        
+         <div class="row">
+        <div class="col l4 m4 s12">
+        
+            <img class="materialboxed normal" src="img/sam/samh/3.jpg" width="430">
+        
+            </div>
+        <div class="col l4 m4 s12">
+            <img class="materialboxed normal" src="img/sam/samh/4.jpg" width="430">
+        </div>
+        <div class="col l4 m4 s12">
+            
+                <img class="materialboxed normal" src="img/sam/samh/6.jpg" width="430">
+            
+        </div>
+
+    </div>
+-->
+<div class="row">
+   <div class="col l3 m3 s12">
+    <div class="row">
+        <img class="materialboxed normal" src="img/sam/bang18/2.jpg" height="230px" width="100%" >
+    </div>
+    <div class="row">
+        <img class="materialboxed normal" src="img/sam/bang18/5.jpg" height="230px" width="100%">
+    </div>
+</div>
+<div class="col l6 m6 s12">
+    <img class="materialboxed normal " src="img/sam/bang18/1.jpg" height="480px" width="100%">
+</div>
+<div class="col l3 m3 s12">
+    <div class="row">
+        <img class="materialboxed normal" src="img/sam/bang18/3.jpg" height="230px" width="100%">
+    </div>
+    <div class="row">
+        <img class="materialboxed normal" src="img/sam/bang18/4.jpg" height="230px" width="100%">
+    </div>
+</div>
+
+
+</div>
+
+
       <div class="row">
         <center>
 

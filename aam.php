@@ -204,10 +204,10 @@ else
       <div class="col l9"><img style="width: 98%;padding: 10px 30px 10px 10px" src="img/15th_aam/aam_cover.jpg"></div>
       <div class="col l3" style="margin-top:3%;margin-left: -2.5%">
           <div align="center" style="font-size: 25px;font-weight: 700">
-              15th Annual Alumni Meet
+              16th Annual Alumni Meet
           </div>
           <div style="margin-top: 30%"><a class="waves-effect waves-light btn-large modal-trigger" href="#modal1" style="width: 105%" >LOGIN</a>
-              <br><br><a class="waves-effect waves-light btn" href="#" style="width: 105%;height: 5em">15th Annual Alumni Meet <br> Registration (Closed)</a>
+              <br><br><a class="waves-effect waves-light btn" href="#" style="width: 105%;height: 5em">16th Annual Alumni Meet <br> Registration (Coming Soon)</a>
           </div>
           </div></div>
   <div class="row">
@@ -220,7 +220,7 @@ else
     </center>
     <center>
   	<p style="width:90%;padding:10px;font-size:17px;text-align:justify">
-  		We live our day to day lives oblivious to the beauty that surrounds us and by the time we do realise what exactly it is that we've been blessed with, it's generally too late. However when the good ol' days call yet again, nostalgia surrounds us as we walk the hallowed boulevards of our youth. The Annual Alumni Meet brings to our alumni a chance to reconnect with their Alma Mater. It lets them relive the carefree days of their college lives as they get a chance to visit all the locations they once frequented.<br><br>The <b>14th Annual Alumni Meet</b> was organised from <b>13th to 15th January, 2017</b> at our Institute campus. This year the <b>Golden Jubilee batch of 1967</b>, the <b>Ruby Jubilee batch of 1977</b> and the <b>Silver Jubilee batch of 1992</b> were the special guests of honor. The Meet is now a major event anticipated by both the alumni and the students. As the years pass by and winds of change keep blowing, the Alumni Meet too shall keep evolving with the pace of time, hoping to bring to the alumni an experience that they may cherish all their lives.
+  		We live our day to day lives oblivious to the beauty that surrounds us and by the time we do realise what exactly it is that we've been blessed with, it's generally too late. However when the good ol' days call yet again, nostalgia surrounds us as we walk the hallowed boulevards of our youth. The Annual Alumni Meet brings to our alumni a chance to reconnect with their Alma Mater. It lets them relive the carefree days of their college lives as they get a chance to visit all the locations they once frequented.<br><br>The <b>15th Annual Alumni Meet</b> was organised from <b>12th to 14th January, 2018</b> at our Institute campus. This year the <b>batch of 1968</b>, the <b> batch of 1978</b> and the <b> batch of 1993</b> were the special guests of honor. The Meet is now a major event anticipated by both the alumni and the students. As the years pass by and winds of change keep blowing, the Alumni Meet too shall keep evolving with the pace of time, hoping to bring to the alumni an experience that they may cherish all their lives.
   	</p>
   </center>
   </div>
@@ -364,24 +364,7 @@ else
   	  </center>
   	</div>
   </div>
-  <hr class="hr" style="color:grey;width:70%">
-  <div class="row">
-  	<div class="col l6">
-      <center>
-      	<br>
-  		<img src="img/14th_aam/kite_flying.jpg" style="width:90%;">
-  	  </center>
-  	</div>
-  	<div class="col l6">
-  	  <br>
-  	  <center>
-  	  	<h4 style="font-style:;padding-top:20px">Games & Kite Flying</h4>
-  		<p style="width:90%;padding:20px;font-size:17px">
-  			There can never be a better day to fill the sky with beautiful colours of kites than 14th of January which is celebrated as Makar Sankranti all over the country. The fun filled games added up to the excitement and everyone had a wonderful time. It was indeed a walk back in time to the children hidden somewhere in us.
-  		</p>
-  	  </center>
-  	</div>
-  </div>
+  
   <hr class="hr" style="color:grey;width:70%">
   <div class="row">
   	<div class="col l6">
