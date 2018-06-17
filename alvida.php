@@ -33,9 +33,9 @@
 <body>
 <div class="_wrapper">
 <?php include 'navbar.php';?>
- <div class="row ac-aam ">
-        <img src="img/indexslider/alvida_2017.jpg" >
-    </div>
+
+        <img src="img/indexslider/alvida.jpg" width="100%">
+   
     <div class="row" style="padding:0% 8% 0% 8%;">
 
         <div class="center-align" >
