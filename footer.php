@@ -60,7 +60,7 @@
 
   <div class="footer-copyright grey darken-3">
     <div class="container">
-    &copy; 2017 Students' Alumni Cell
+    &copy; 2018 Students' Alumni Cell
 
     </div>
 

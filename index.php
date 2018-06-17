@@ -114,9 +114,7 @@ marquee {
     </li>
 
 
-    <li>
-      <img src="img/14th_aam/aam_cover.jpg" />
-    </li>
+    
 
     <li>
       <img src="img/indexslider/sam4.jpg" />
@@ -132,7 +130,7 @@ marquee {
    <img src="img/indexslider/guest.jpg"/>
  </li>
  <li>
-  <img src="img/indexslider/givingback.jpg"/>
+  <img src="img/indexslider/imprint.jpg"/>
 </li>
 <li>
   <img src="img/indexslider/yoy1.jpg"/>
@@ -144,7 +142,7 @@ marquee {
 </div>
 <!--sliderover-->
 
-<marquee  scrollamount="5" scrolldelay="2"><p style="font-size: 150%;">Mentor(Alumni) and Mentee(Students) registrations are open for Student Alumni Mentorship Programme. Register <a href="http://www.mentorship.iitkgp.ac.in" target="_blank">here.</a></p></marquee>
+<marquee  scrollamount="5" scrolldelay="2"><p style="font-size: 150%;">Homecoming registrations are open for the batches of 1998, 2003 and 2008. Register <a href="http://alumni.iitkgp.ac.in/Alumniweb/GoThroughFeatured?feat_id=3" target="_blank">here.</a></p></marquee>
 <div>
 
   <div class="row">
