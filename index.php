@@ -124,7 +124,10 @@ marquee {
 <li>
   <img src="img/indexslider/yoy1.jpg"/>
 </li> <li>
-  <img src="img/indexslider/alvida1.jpg"/>
+  <img src="img/indexslider/alvida.jpg"/>
+</li>
+<li>
+  <img src="img/indexslider/convo.jpg"/>
 </li>
 
 </ul>

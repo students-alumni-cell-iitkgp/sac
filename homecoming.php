@@ -35,7 +35,7 @@
     <?php include 'navbar.php';?>
 
     <div class="row ac-sam">
-      <img src="img/homecoming.jpg" style="width: 100%; height: 88%">
+      <img src="img/homecoming2.jpg" style="width: 100%; height: 88%">
     </div>
 
     
@@ -57,12 +57,15 @@
               <br><br>
               Looking forward to welcoming you back to your Institute.
             </p>
+            <a class="waves-effect waves-light btn" href="http://alumni.iitkgp.ac.in/Alumniweb/GoThroughFeatured?feat_id=3" style="width: 30%;height: 5em">REGISTER <br> HOMECOMING 2018</a>
           </div>
         </div>
       </div>
 
 
     </div>
+
+    
 
     <?php include 'footer.php';?>
   </body>
