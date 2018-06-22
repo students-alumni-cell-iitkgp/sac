@@ -176,8 +176,9 @@ body {
           <img src="img/team/acellteam18/gautam.jpg" alt="team member" class="img-responsive" height="250" width="100%">
         </div>
         <div class="team-hover">
-          <div class="desk">
-            <h4 style="margin-top: 50px">Gautam Arya</h4>
+          <br> <br>
+          <div class="desk"> <br>
+            <h5 style="margin-top: 50px">Gautam Arya</h5>
             <ul>
               <li style="padding-left: 15px;">+91-8349702291</li>
               <li style="padding-left: 15px;">gautam25arya@gmail.com</li>
@@ -205,7 +206,8 @@ body {
     </div>
     <div class="team-hover">
       <div class="desk">
-        <h4>Vasanta Majety</h4>
+         <br> <br> <br>
+        <h5>Vasanta Majety</h5>
         <ul>
           <li style="padding-left: 15px;">+91-7477745444</li>
           <li style="padding-left: 15px;">vasantamajety@gmail.com</li>
@@ -244,8 +246,8 @@ body {
           <img src="img/team/acellteam18/akanksha.jpg" alt="team member" class="img-responsive" height="250" width="100%">
         </div>
         <div class="team-hover">
-          <div class="desk">
-            <h4 style="margin-top: 50px">Akanksha Malhotra</h4>
+          <div class="desk"> <br>
+            <h5 style="margin-top: 50px">Akanksha Malhotra</h5>
             <ul>
               <li style="padding-left: 15px;">+91-7430088666</li>
               <li style="padding-left: 15px;margin-left: -7%;">akankshamalhotra32@gmail.com</li>
@@ -271,8 +273,8 @@ body {
         <img src="img/team/acellteam18/kumar.jpg" alt="team member" class="img-responsive" height="250" width="100%">
       </div>
       <div class="team-hover">
-        <div class="desk">
-          <h4 style="margin-top: 50px">Kumar Shubham</h4>
+        <div class="desk"> <br>
+          <h5 style="margin-top: 50px">Kumar Shubham</h5>
           <ul>
             <li style="padding-left: 15px;">+91-8298922647</li>
             <li style="padding-left: 15px;">shubham4138@gmail.com</li>
@@ -299,8 +301,8 @@ body {
       <img src="img/team/acellteam18/naman.jpg" alt="team member" class="img-responsive" height="250" width="100%">
     </div>
     <div class="team-hover">
-      <div class="desk">
-        <h4 style="margin-top: 50px">Naman Agarwal</h4>
+      <div class="desk"> <br>
+        <h5 style="margin-top: 50px">Naman Agarwal</h5>
         <ul>
          <li style="padding-left: 15px;">+91-7478077999</li>
          <li style="padding-left: 15px;">agarwalnaman20@gmail.com</li>
@@ -330,8 +332,8 @@ body {
         <img src="img/team/acellteam18/shruti.jpg" alt="team member" class="img-responsive" height="250" align="center" width="100%">
       </div>
       <div class="team-hover">
-        <div class="desk">
-          <h4 style="margin-top: 50px">Shruti Joshi</h4>
+        <div class="desk"> <br>
+          <h5 style="margin-top: 50px">Shruti Joshi</h5>
           <ul>
             <li style="padding-left: 15px;">+91-7477768999</li>
             <li style="padding-left: 15px;">shrutijoshi112@gmail.com</li>
@@ -357,8 +359,8 @@ body {
       <img src="img/team/acellteam18/uppu.jpg" alt="team member" class="img-responsive" height="250" width="100%">
     </div>
     <div class="team-hover">
-      <div class="desk">
-        <h4>Upamanyu Chatterjee</h4>
+      <div class="desk"> <br> <br> <br>
+        <h5 style="font-size: 152%;">Upamanyu Chatterjee</h5>
         <ul>
           <li style="padding-left: 15px;">+91-9930011247</li>
           <li style="padding-left: 15px;">uchatterjee.iitkgp@gmail.com</li>
@@ -384,8 +386,8 @@ body {
       <img src="img/team/acellteam18/vaibhav.jpg" alt="team member" class="img-responsive" height="250" width="100%">
     </div>
     <div class="team-hover">
-      <div class="desk">
-        <h4>Vaibhav Beriwal</h4>
+      <div class="desk"> <br> <br> <br>
+        <h5>Vaibhav Beriwal</h5>
         <ul>
           <li style="padding-left: 15px;">+91-9836643231</li>
           <li style="padding-left: 15px;">vaibhavberiwal@gmail.com</li>
@@ -426,8 +428,8 @@ body {
           <img src="img/team/acellteam18/asif.jpg" alt="team member" class="img-responsive" height="250" width="100%">
         </div>
         <div class="team-hover">
-          <div class="desk">
-            <h4 style="margin-top: 50px">Asif Iqbal</h4>
+          <div class="desk"> <br>
+            <h5 style="margin-top: 50px">Asif Iqbal</h5>
             <ul><li style="padding-left: 15px;">+91-8789282509</li>
              <li style="padding-left: 15px;">asifiqbal7.iitkgp@gmail.com</li>
            </ul>
@@ -453,8 +455,8 @@ body {
       <img src="img/team/acellteam18/prateek1.jpg" alt="team member" class="img-responsive" height="250" width="100%">
     </div>
     <div class="team-hover">
-      <div class="desk">
-        <h4>Prateek Kaushal</h4>
+      <div class="desk"> <br> <br> <br>
+        <h5>Prateek Kaushal</h5>
         <ul>
          <li style="padding-left: 15px;">+91-7431055888</li>
          <li style="padding-left: 15px;margin-left: -7%; ">prateekkaushaliitkgp@gmail.com</li>
@@ -496,8 +498,8 @@ body {
             <img src="img/team/acellteam18/sumit1.jpg" alt="team member" class="img-responsive" height="250" width="100%">
           </div>
           <div class="team-hover">
-            <div class="desk">
-              <h4>Sumit Tripathi</h4>
+            <div class="desk"> <br> <br> <br>
+              <h5>Sumit Tripathi</h5>
               <ul>
                <li style="padding-left: 15px;">+91-7430033777</li>
                <li style="padding-left: 15px;">sumittripathi12@gmail.com</li>
@@ -538,8 +540,8 @@ body {
             <img src="img/team/acellteam18/harsh.jpg" alt="team member" class="img-responsive" height="250" width="100%">
           </div>
           <div class="team-hover">
-            <div class="desk">
-              <h4>Harsh Yadav</h4>
+            <div class="desk">  <br> <br> <br>
+              <h5>Harsh Yadav</h5>
               <ul>
                <li style="padding-left: 15px;">+91-8167089787</li>
                <li style="padding-left: 15px;">mailharsh17@gmail.com</li>

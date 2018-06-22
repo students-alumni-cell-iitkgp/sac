@@ -35,6 +35,18 @@
     <div class="col s5.5 m6 l4">
       <div class="card z-depth-0 _card">
         <div class="card-image">
+          <img src="img/yoy/yoy188.jpg" height="480px">
+
+        </div>
+        <div class="card-content">
+          <p class="text_align">Yearnings of Yore  2018</p>
+        </div>
+
+      </div>
+    </div>
+    <div class="col s5.5 m6 l4">
+      <div class="card z-depth-0 _card">
+        <div class="card-image">
           <img src="img/yoy/yoy17.jpg" height="480px">
 
         </div>
@@ -56,31 +68,31 @@
 
       </div>
     </div>
-    <div class="col s5.5 m6 l4">
-      <div class="card z-depth-0 _card">
-        <div class="card-image">
-          <img src="img/yoy/2015.jpg" height="480px">
-
-        </div>
-        <div class="card-content">
-          <p class="text_align">Yearnings of Yore  2015</p>
-        </div>
-
-      </div>
-    </div>
 
   </div>
   <div class="row" style="margin:auto;width:90%;">
     <div class="col s5.5 m6 l4">
       <div class="card z-depth-0 _card">
         <div class="card-image">
-          <img src="img/yoy/2014.jpg" height="480px">
+          <img src="img/yoy/2015.jpg" height="480px">
           
         </div>
         <div class="card-content">
-          <p class="text_align">Yearnings of Yore  2014</p>
+          <p class="text_align">Yearnings of Yore  2015</p>
         </div>
         
+      </div>
+    </div>
+    <div class="col s5.5 m6 l4">
+      <div class="card z-depth-0 _card">
+        <div class="card-image">
+          <img src="img/yoy/2014.jpg" height="480px">
+
+        </div>
+        <div class="card-content">
+          <p class="text_align">Yearnings of Yore 2014</p>
+        </div>
+
       </div>
     </div>
     <div class="col s5.5 m6 l4">
@@ -90,19 +102,7 @@
 
         </div>
         <div class="card-content">
-          <p class="text_align">Yearnings of Yore 2010</p>
-        </div>
-
-      </div>
-    </div>
-    <div class="col s5.5 m6 l4">
-      <div class="card z-depth-0 _card">
-        <div class="card-image">
-          <img src="img/yoy/2008.jpg" height="480px">
-
-        </div>
-        <div class="card-content">
-          <p class="text_align">Yearnings of Yore  2008</p>
+          <p class="text_align">Yearnings of Yore  2010</p>
         </div>
 
       </div>
@@ -110,6 +110,20 @@
 
   </div>
   <div class="row" style="margin:auto;width:90%;">
+   
+    <div class="col s5.5 m6 l4">
+      <div class="card z-depth-0 _card">
+        <div class="card-image">
+          <img src="img/yoy/2008.jpg" height="480px">
+
+        </div>
+        <div class="card-content">
+          <p>Yearnings of Yore 2008</p>
+        </div>
+
+      </div>
+    </div>
+
     <div class="col s5.5 m6 l4">
       <div class="card z-depth-0 _card">
       </div>
