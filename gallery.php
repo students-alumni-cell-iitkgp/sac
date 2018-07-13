@@ -42,6 +42,51 @@
 </style>
 </head>
 <body> 
+    <div class="row">
+        <center>
+
+            <center>
+                <div class="heading ac-head" style="border:3px black solid; display: inline-block; padding-top: 2px; margin: 3px;padding-right: 20px;padding-left: 20px;" >
+
+                    <h4> <b>Student Alumni Meet '18</b> - Singapore</h4> </div>
+                </center>
+                <br>
+
+                <div class="row">
+                    <div class="col l6 m4 s12">
+
+                        <img class="materialboxed normal bigg" src="img/sam/singapore 18/singapore (2).jpg" width="630">
+
+                    </div>
+                    <div class="col l6 m4 s12">
+                        <div class="row">
+                            <div class="col l6 m4 s12">
+                                <img class="materialboxed normal" src="img/sam/singapore 18/singapore (3).jpg" width="300">
+                            </div>
+                            <div class="col l6 m4 s12">
+
+                                <img class="materialboxed normal" src="img/sam/singapore 18/singapore (6).jpg" width="300">
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col l6 m4 s12">
+
+                                <img class="materialboxed normal" src="img/sam/singapore 18/singapore (4).jpg" width="300">
+
+                            </div>
+                            <div class="col l6300 m4 s12">
+
+                                <img class="materialboxed normal" src="img/sam/singapore 18/singapore (8).jpg" width="300">
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </center>
+        </div>
+
    <div class="row"><center>
 
        
