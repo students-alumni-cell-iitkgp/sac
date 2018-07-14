@@ -97,11 +97,9 @@ marquee {
     </li>
 
     <li>
-      <img src="img/11111.jpg" />
+      <img src="img/indexslider/aam_2019.jpg" />
     </li>
-    <li>
-      <img src="img/indexslider/aam18.jpg" width="100%" />
-    </li>
+   
     <li>
       <img src="img/indexslider/acap.jpg" width="100%" />
     </li>
