@@ -1,38 +1,9 @@
 
 
 
-<?php
-require 'connection.php';
-ob_start();
-session_start();
-if ($_SESSION["email"] == "") {
-  header('Location: aam.php');
-  exit();
-}
-$email=$_SESSION['email'];
-$query1=" SELECT * FROM travel WHERE email= '$email' ";
-$query3=" SELECT * FROM  accommodation WHERE email= '$email' ";
-/* query to get graduating year */
-/*till here*/
-$query_run1=$connection->query($query1);
-$query_run2=$connection->query($query3);
-if (($query_run1)&&($query_run2)) {
-  if(($query_run1->num_rows > 0)&&($query_run2->num_rows > 0)){
-    $query2 = mysqli_fetch_assoc($query_run1);
-    $query4 = mysqli_fetch_assoc($query_run2);
-  }
-}
-?>
-<?php
-$query="SELECT * FROM users WHERE email='".$_SESSION["email"]."'";
-if( $query_run = mysqli_query($connection, $query) ){
-  $row = mysqli_fetch_assoc($query_run);
-  $name = $row['name'];
-}
-?>
 <html>
 <head>
-  <title>Home</title>
+  <title></title>
   <link rel="icon" href="img/meet_14.png">
   <link rel="stylesheet" href="css/materialize.min.css">
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
