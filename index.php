@@ -136,7 +136,7 @@ marquee {
 </div>
 <!--sliderover-->
 
-<marquee  scrollamount="5" scrolldelay="2"><p style="font-size: 150%;">Registrations for 2nd years selection for Students' Alumni Cell are open. Register <a href="http://sac.iitkgp.ac.in/selection.php" target="_blank">here. </a>Homecoming registrations are open for the batches of 1998, 2003 and 2008. Register <a href="http://alumni.iitkgp.ac.in/Alumniweb/GoThroughFeatured?feat_id=3" target="_blank">here.</a></p></marquee>
+<marquee  scrollamount="5" scrolldelay="2"><p style="font-size: 150%;">Homecoming registrations are open for the batches of 1998, 2003 and 2008. Register <a href="http://alumni.iitkgp.ac.in/Alumniweb/GoThroughFeatured?feat_id=3" target="_blank">here.</a></p></marquee>
 <div>
 
   <div class="row">
