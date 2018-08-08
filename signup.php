@@ -17,8 +17,7 @@
 //  if(window.location.href!='http://www.sac.iitkgp.ac.in/signup.php'){
   //  window.location.assign("http://www.sac.iitkgp.ac.in/signup.php");
  // }
-alert(" Registration is closed now ");   
-window.location.assign("http://www.sac.iitkgp.ac.in/aam.php");
+
 </script>
 
 <script>
@@ -295,7 +294,7 @@ Current or past work experiences as per relevance
       <label for="hall">Hall *</label>
       </div>
       <div class="input-field col s12">
-        <input  type="number" min="1955" max="2010" id="yog" name="graduatingYear" value="1993" disabled required>
+        <input  type="number" min="1955" max="2010" id="yog" name="graduatingYear" value=""  required>
        <label for="yog">Year of Graduating *</label>
       </div>
       <div class="input-field col s12">
