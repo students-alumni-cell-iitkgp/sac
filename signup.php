@@ -173,8 +173,8 @@ else
       </div>
       <div class="input-field col s12">
        
-        <input  type="text" name="address" id="address"  required>
-         <label for="address">Address *</label>
+        <input  type="text" name="address" id="address"  >
+         <label for="address">Address </label>
       </div>
       <div class="input-field col s12">
         <input  type="text" id="city" name="city" required>
@@ -183,8 +183,8 @@ else
       <div class="input-field col s12">
        
        
-        <input  type="text" id="state" name="state"  required>
-       <label for="state">State *</label>
+        <input  type="text" id="state" name="state"  >
+       <label for="state">State </label>
       </div>
       <div class="input-field col s12">
        
@@ -193,8 +193,8 @@ else
       </div>
       <div class="input-field col s12">
        
-        <input  type="text" id="zipcode" name="zipCode" required>
-       <label for="zipcode">Zip Code *</label>
+        <input  type="text" id="zipcode" name="zipCode" >
+       <label for="zipcode">Zip Code </label>
       </div>
       <div class="input-field col s12">
       
@@ -221,8 +221,8 @@ Current or past work experiences as per relevance
    </center> </div>
       <div class="input-field col s12">
       
-        <input  type="text" id="ind" name="industry"  required>
-          <label for="ind">Industry *</label>
+        <input  type="text" id="ind" name="industry"  >
+          <label for="ind">Industry </label>
       </div>
       <div class="input-field col s12">
         
@@ -308,8 +308,8 @@ Current or past work experiences as per relevance
 
 <br>
       <div class="input-field col s12"  style="margin-bottom:20px;margin-top:3%">      
-        <input  type="number" min="0" id="accompanyingNo" name="accompanyingNo">
-        <label for="accompanyingNo">Accompaniments(Number of guests)</label>
+        <input  type="number" min="0" id="accompanyingNo" name="accompanyingNo" required>
+        <label for="accompanyingNo">Accompaniments(Number of guests)*</label>
       </div>
       
       <div class="col s12">

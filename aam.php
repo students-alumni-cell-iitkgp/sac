@@ -207,7 +207,7 @@ else
               16th Annual Alumni Meet
           </div>
           <div style="margin-top: 30%"><a class="waves-effect waves-light btn-large modal-trigger" href="#modal1" style="width: 105%" >LOGIN</a>
-              <br><br><a class="waves-effect waves-light btn" href="#" style="width: 105%;height: 5em">16th Annual Alumni Meet <br> Registration (Coming Soon)</a>
+              <br><br><a class="waves-effect waves-light btn" href="signup.php" style="width: 105%;height: 5em">16th Annual Alumni Meet <br> Registration</a>
           </div>
           </div></div>
   <div class="row">
