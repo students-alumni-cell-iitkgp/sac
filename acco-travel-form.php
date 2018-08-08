@@ -44,7 +44,7 @@ if (($query_run1)&&($query_run2)) {
   Arrival Station/Airport
   <input id="last_name" type="text" class="validate" name="arrSt" value="<?php echo @$query2['arrivalstation']; ?>">
 </div>
-<div class="input-field col s12">
+<div class="input-field col s12" style="display: none;">
   Train/Flight Name
   <input id="last_name" type="text" class="validate" name="trainName" value="<?php echo @$query2['trainname']; ?>">
 </div>
@@ -52,11 +52,11 @@ if (($query_run1)&&($query_run2)) {
   Train/Flight Number
   <input id="last_name" type="text" class="validate" name="trainNo" value="<?php echo @$query2['trainno']; ?>">
 </div>
-<div class="input-field col s12">
+<div class="input-field col s12" style="display: none;">
   Number of Accompanying Persons
   <input id="last_name" type="number" class="validate" name="accNo" value="<?php echo @$query2['accompanyno']; ?>">
 </div>
-<div class="input-field col s12">
+<div class="input-field col s12" style="display: none;">
   Your Phone Number
   <input id="last_name" type="number" class="validate" name="secPhone"  required value="<?php echo @$query2['secondaryphone']; ?>">
 </div>
@@ -243,7 +243,7 @@ if (($query_run1)&&($query_run2)) {
     <input id="last_name" type="text" class="validate" name="prefHall" value="<?php echo @$query4['prefhall']; ?>">
   </div>
 </div>
-
+<button type="submit" class="btn cyan waves-effect waves-light left" name="button">CLOSE <i class="mdi-content-send   left"></i></button>
 <button type="submit" class="btn cyan waves-effect waves-light right" name="button">SUBMIT <i class="mdi-content-send right"></i></button>
 </form>
 
