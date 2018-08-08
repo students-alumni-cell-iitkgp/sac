@@ -243,6 +243,7 @@ if (($query_run1)&&($query_run2)) {
     <input id="last_name" type="text" class="validate" name="prefHall" value="<?php echo @$query4['prefhall']; ?>">
   </div>
 </div>
+
 <button type="submit" class="btn cyan waves-effect waves-light right" name="button">SUBMIT <i class="mdi-content-send right"></i></button>
 </form>
 

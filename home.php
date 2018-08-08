@@ -176,14 +176,25 @@ if( $query_run = mysqli_query($connection, $query) ){
                   Transportation Details
                 </div>
                 Conveyance from Kharagpur Railway Station to IIT Kharagpur will be provided by us.<br><br>
-                If you require transportation from Kolkata to IIT Kharagpur, it can be arranged through us on chargeable basis. Kindly Fill your details in this form.<br>
+                If you require transportation from Kolkata to IIT Kharagpur, it can be arranged through us on chargeable basis. Kindly Fill your details in this form.<br><br><br>
+                <?php if ($query_run2->num_rows > 0) {
+              echo '<div class="row">
+              <div style="width: 100%;" class="container center l12"><span style="font-size:20px;cursor:pointer;background-color: #666;height:auto; " onclick="openNav()" id="button02" class="waves-effect waves-light btn-large "> Edit Transportation and Accomodation details</span></div>
+            </div>';
+          } else {
+            echo '<div class="row">
+            <div style="width: 100%;" class="container center l12"><span style="font-size:20px;cursor:pointer;height: auto;background-color: #666; " onclick="openNav()" id="button01" class="waves-effect waves-light btn-large ">Provide Your Travel Details and Accomodation Preferences</span></div>
+          </div>';
+        }
+        ?>
               </div>
-
+<!--
               <div class="card-panel teal lighten-5 " style="text-align: 40px;">
                 <div class="container-fluid">
                   <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSef24kChTbQuYZzLVFlfvedqlhtvudBd1IOJ5MTqc-O7wov2Q/viewform?embedded=true" width="100%" height="60%" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
                 </div>
               </div>
+            -->
 
             </div>
           </div>
@@ -218,16 +229,7 @@ if( $query_run = mysqli_query($connection, $query) ){
               }
               ?></div>
             </div>
-            <?php if ($query_run2->num_rows > 0) {
-              echo '<div class="row">
-              <div style="width: 100%;" class="container center l12"><span style="font-size:20px;cursor:pointer;background-color: #666;height:110px; " onclick="openNav()" id="button02" class="waves-effect waves-light btn-large "> Edit Transportation and Accomodation details</span></div>
-            </div>';
-          } else {
-            echo '<div class="row">
-            <div style="width: 100%;" class="container center l12"><span style="font-size:20px;cursor:pointer;height: auto;background-color: #666; " onclick="openNav()" id="button01" class="waves-effect waves-light btn-large ">Provide Your Travel Details and Accomodation Preferences</span></div>
-          </div>';
-        }
-        ?>
+            
         <!--added  -->
 
 
