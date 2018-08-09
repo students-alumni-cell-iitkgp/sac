@@ -1,4 +1,6 @@
 <?php
+error_reporting(0);
+
 $name = $row['name'];
 $url = $row['url'];
 

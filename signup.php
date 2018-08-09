@@ -226,8 +226,8 @@ Current or past work experiences as per relevance
       </div>
       <div class="input-field col s12">
         
-        <input  type="text" id="prof" name="profession" required>
-        <label for="prof">Profession *</label>
+        <input  type="text" id="prof" name="profession" >
+        <label for="prof">Profession </label>
       </div>
       <div class="input-field col s12">
     
