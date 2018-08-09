@@ -245,7 +245,7 @@ if (($query_run1)&&($query_run2)) {
   </div>
 </div>
 <button type="button" class="btn cyan waves-effect waves-light left" name="button" onclick="closeNav()">CLOSE <i class="mdi-content-send   left"></i></button>
-<button type="submit" class="btn cyan waves-effect waves-light right" name="button">SUBMIT <i class="mdi-content-send right"></i></button>
+<button type="submit" class="btn cyan waves-effect waves-light right" name="button">SUBMIT </button>
 </form>
 
 </div>
