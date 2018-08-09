@@ -135,13 +135,13 @@ include 'connection.php';
     </div>
       <div class="input-field col s12">
 
-        <input value="<?php echo $row['industry']; ?>"  type="text" id="ind" name="industry"  required>
-          <label for="ind">Industry *</label>
+        <input value="<?php echo $row['industry']; ?>"  type="text" id="ind" name="industry"  >
+          <label for="ind">Industry </label>
       </div>
       <div class="input-field col s12">
 
-        <input value="<?php echo $row['profession']; ?>"  type="text" id="prof" name="profession" required>
-        <label for="prof">Profession *</label>
+        <input value="<?php echo $row['profession']; ?>"  type="text" id="prof" name="profession" >
+        <label for="prof">Profession </label>
       </div>
       <div class="input-field col s12">
 

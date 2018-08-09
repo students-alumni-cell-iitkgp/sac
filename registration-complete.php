@@ -21,7 +21,7 @@
             <h2>Successfully registered!</h2>
           </div>
           <p class="text_align">
-            You have successfully registered for the 15th Annual Alumni Meet. We will send you an email when you need to come back here!
+            You have successfully registered for the 16th Annual Alumni Meet. We will send you an email when you need to come back here!
           </p>
           <div class="row">
           <div class="col l6">
