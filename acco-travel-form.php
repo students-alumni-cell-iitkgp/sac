@@ -28,10 +28,11 @@ if (($query_run1)&&($query_run2)) {
   -->
   <!-- New code to remove the errors -->
   <select name="arrDate" required >
-    <option value="11th January 2018" <?php if( @$query2['arrivaldate'] == "11th January 2018") echo 'selected = "selected"';?> >11th January 2018</option>
-    <option value="12th January 2018" <?php if( @$query2['arrivaldate'] == "12th January 2018") echo 'selected = "selected"';?>>12th January 2018</option>
-    <option value="13th January 2018" <?php if( @$query2['arrivaldate'] == "13th January 2018") echo 'selected = "selected"';?>>13th January 2018</option>
-    <option value="14th January 2018" <?php if( @$query2['arrivaldate'] == "14th January 2018") echo 'selected = "selected"';?>>14th January 2018</option>
+     <option value="10th January 2019" <?php if( @$query2['arrivaldate'] == "10th January 2019") echo 'selected = "selected"';?>>10th January 2019</option>
+    <option value="11th January 2019" <?php if( @$query2['arrivaldate'] == "11th January 2019") echo 'selected = "selected"';?> >11th January 2019</option>
+    <option value="12th January 2019" <?php if( @$query2['arrivaldate'] == "12th January 2019") echo 'selected = "selected"';?>>12th January 2019</option>
+    <option value="13th January 2019" <?php if( @$query2['arrivaldate'] == "13th January 2019") echo 'selected = "selected"';?>>13th January 2019</option>
+   
   </select>
   
   <label>Arrival Date</label>
@@ -243,7 +244,7 @@ if (($query_run1)&&($query_run2)) {
     <input id="last_name" type="text" class="validate" name="prefHall" value="<?php echo @$query4['prefhall']; ?>">
   </div>
 </div>
-<button type="submit" class="btn cyan waves-effect waves-light left" name="button">CLOSE <i class="mdi-content-send   left"></i></button>
+<button type="button" class="btn cyan waves-effect waves-light left" name="button" onclick="closeNav()">CLOSE <i class="mdi-content-send   left"></i></button>
 <button type="submit" class="btn cyan waves-effect waves-light right" name="button">SUBMIT <i class="mdi-content-send right"></i></button>
 </form>
 
