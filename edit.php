@@ -89,8 +89,8 @@ include 'connection.php';
       </div>
       <div class="input-field col s12">
 
-        <input value="<?php echo $row['address']; ?>"  type="text" name="address" id="address"  required>
-         <label for="address">Address *</label>
+        <input value="<?php echo $row['address']; ?>"  type="text" name="address" id="address"  >
+         <label for="address">Address </label>
       </div>
       <div class="input-field col s12">
         <input value="<?php echo $row['city']; ?>"  type="text" id="city" name="city" required>
@@ -99,8 +99,8 @@ include 'connection.php';
       <div class="input-field col s12">
 
 
-        <input value="<?php echo $row['state']; ?>"  type="text" id="state" name="state"  required>
-       <label for="state">State *</label>
+        <input value="<?php echo $row['state']; ?>"  type="text" id="state" name="state"  >
+       <label for="state">State </label>
       </div>
       <div class="input-field col s12">
 
@@ -109,8 +109,8 @@ include 'connection.php';
       </div>
       <div class="input-field col s12">
 
-        <input value="<?php echo $row['zipCode']; ?>"  type="text" id="zipcode" name="zipCode" required>
-       <label for="zipcode">Zip Code *</label>
+        <input value="<?php echo $row['zipCode']; ?>"  type="text" id="zipcode" name="zipCode" >
+       <label for="zipcode">Zip Code </label>
       </div>
       <div class="input-field col s12">
 
