@@ -249,7 +249,7 @@ if( $query_run = mysqli_query($connection, $query) ){
 
           <p style="text-align: justify;">
             Alumni Card is officially distributed to all alumni during the Annual Alumni Meet.
-            Kindly upload your picture below to be printed in your Alumni Card (preferably a passport size photograph, image size should be less than 250 Kb and of jpg,jpeg and png format)
+            Kindly upload your picture below to be printed in your Alumni Card (preferably a passport size photograph, image size should be less than 500 Kb and of jpg,jpeg and png format)
           </p>
           <?php
           include 'profile_pic.php';
