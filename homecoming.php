@@ -57,7 +57,9 @@
               <br><br>
               Looking forward to welcoming you back to your Institute.
             </p>
-            <a class="waves-effect waves-light btn" href="http://alumni.iitkgp.ac.in/Alumniweb/GoThroughFeatured?feat_id=3" style="width: 30%;height: 5em">REGISTER <br> HOMECOMING 2018</a>
+            <!--
+            <a class="waves-effect waves-light btn" href="https://drive.google.com/drive/folders/1Rp-Hjq6q-HgZ_tOPNMr_4CvuESjujGfr" style="width: 30%;height: 5em" target="blank">HOMECOMING 2018<br>MEMORIES </a>
+          -->
           </div>
         </div>
       </div>
