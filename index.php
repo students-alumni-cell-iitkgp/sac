@@ -136,7 +136,7 @@ marquee {
 </div>
 <!--sliderover-->
 
-<marquee  scrollamount="5" scrolldelay="2"><p style="font-size: 150%;">Homecoming registrations are open for the batches of 1998, 2003 and 2008. Register <a href="http://alumni.iitkgp.ac.in/Alumniweb/GoThroughFeatured?feat_id=3" target="_blank">here.</a></p></marquee>
+<marquee  scrollamount="5" scrolldelay="2"><p style="font-size: 150%;" > Kerela is in great need of help . Please donate <a href="http://alumni.iitkgp.ac.in/Alumniweb/GoThroughCampaign/?camp_id=19&purpose=readmore" target="blank">here</a> as an alumnus.</p></marquee>
 <div>
 
   <div class="row">
