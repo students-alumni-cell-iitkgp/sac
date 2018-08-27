@@ -32,7 +32,7 @@ if (file_exists($target_file)) {
   $uploadOk = 0;
 }*/
 // Check file size
-if ($_FILES["filetoupload"]["size"] > 500000) {
+if ($_FILES["filetoupload"]["size"] > 510000) {
   $message1 =  "Your picture is too large, must be less than 500 Kb";
   $uploadOk = 0;
 }
