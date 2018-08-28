@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+    
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
 <script type="text/javascript">
@@ -157,19 +158,19 @@ else
       <div class="input-field col s12">
        
         <input  type="text"  name="name" id="name" class="validate"  required>
-         <label for="name">Name *</label>
+         <label for="name">Name <span style="color:red;">*</span></label>
       </div>
    
       <div class="input-field col s12">
         
         <input  type="email"  name="email" id="email" required>
-        <label for="email">Email ID *</label>
+        <label for="email">Email ID <span style="color:red;">*</span></label>
       </div>
       <div class="input-field col s12">
       
       
         <input  type="password" id="password" name="password" required>
-        <label for="password">Password (For future login) *</label>
+        <label for="password">Password <span style="color:red;">*</span></label>
       </div>
       <div class="input-field col s12">
        
@@ -178,7 +179,7 @@ else
       </div>
       <div class="input-field col s12">
         <input  type="text" id="city" name="city" required>
-        <label for="city">City *</label>
+        <label for="city">City <span style="color:red;">*</span></label>
       </div>
       <div class="input-field col s12">
        
@@ -189,7 +190,7 @@ else
       <div class="input-field col s12">
        
         <input  type="text"  name="country" id="country" required>
-         <label for="country">Country *</label>
+         <label for="country">Country <span style="color:red;">*</span></label>
       </div>
       <div class="input-field col s12">
        
@@ -199,10 +200,11 @@ else
       <div class="input-field col s12">
       
         <input  type="text"  name="mobile" id="mobile" required>
-          <label for="mobile">Mobile *</label>
+          <label for="mobile">Mobile <span style="color:red;">*</span></label>
+         
       </div>
       <div class="col s12" style="margin-top:15px;">
-         <label for="dob">DOB *</label>
+         <label for="dob">DOB <span style="color:red;">*</span></label>
         <input  type="date" name="dob" required id="dob">
         
       </div>
@@ -232,12 +234,12 @@ Current or past work experiences as per relevance
       <div class="input-field col s12">
     
         <input  type="text" id="org" name="orgName" required>
-        <label for="org">Organisation Name *</label>
+        <label for="org">Organisation Name <span style="color:red;">*</span></label>
       </div>
       <div class="input-field col s12">
      
         <input  type="text" id="desig" name="designation" required>
-        <label for="desig">Designation *</label>
+        <label for="desig">Designation <span style="color:red;">*</span></label>
       </div>
       <div class="input-field col s12">
       
@@ -276,40 +278,45 @@ Current or past work experiences as per relevance
       </div>
       <div class="input-field col s12">
         <input  type="number" min="1951" max="2006" id="join" name="joinYear" required>
-     <label for="join">Join Year *</label>
+     <label for="join">Join Year <span style="color:red;">*</span></label>
       </div>
       <div class="input-field col s12">
       
         <input  type="text" id="degree" name="degree" required>
-        <label for="degree">Degree *</label>
+        <label for="degree">Degree <span style="color:red;">*</span></label>
       </div>
       <div class="input-field col s12">
      
         <input  type="text" id="dept" name="department" required>
-         <label for="dept">Department *</label>
+         <label for="dept">Department <span style="color:red;">*</span></label>
       </div>
       <div class="input-field col s12">
         
-        <input  type="text" id="hall" name="hall" required>
-      <label for="hall">Hall *</label>
+        <input  type="text" id="hall" name="hall" onclick="myFunction()" required>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+          </div>
+      <label for="hall">Hall <span style="color:red;">*</span></label>
       </div>
       <div class="input-field col s12">
         <input  type="number" min="1955" max="2010" id="yog" name="graduatingYear" value=""  required>
-       <label for="yog">Year of Graduating *</label>
+       <label for="yog">Year of Graduating <span style="color:red;">*</span></label>
       </div>
       <div class="input-field col s12">
         <input  type="text" id="involvements" name="involvements">
-       <label for="yog">Involvements within the campus(societies,hall events,etc)?</label>
+       <label for="yog">Involvements within the campus (societies,hall events,etc)?</label>
       </div>
       <div class="input-field col s12">
         <input  type="text" id="hobbies" name="hobbies">
-       <label for="yog">Hobbies.</label>
+       <label for="yog">Hobbies</label>
       </div>
 
 <br>
       <div class="input-field col s12"  style="margin-bottom:20px;margin-top:3%">      
         <input  type="number" min="0" id="accompanyingNo" name="accompanyingNo" required>
-        <label for="accompanyingNo">Accompaniments(Number of guests)*</label>
+        <label for="accompanyingNo">Accompaniments (Number of guests)<span style="color:red;">*</span></label>
       </div>
       
       <div class="col s12">
@@ -322,6 +329,27 @@ Current or past work experiences as per relevance
   
   </div>
   <?php include 'footer.php';?>
- 
+ <script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
   </body>
   </html>
