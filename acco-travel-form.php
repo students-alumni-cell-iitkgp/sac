@@ -59,7 +59,7 @@ if (($query_run1)&&($query_run2)) {
 </div>
 <div class="input-field col s12" >
   Your Secondary Phone Number
-  <input id="last_name" type="number" class="validate" name="secPhone"  required value="<?php echo @$query2['secondaryphone']; ?>" novalidate>
+  <input id="last_name" type="number" class="validate" name="secPhone"  required value="<?php echo @$query2['secondaryphone']; ?>" >
 </div>
 
 <div >
