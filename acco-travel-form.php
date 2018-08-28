@@ -57,9 +57,9 @@ if (($query_run1)&&($query_run2)) {
   Number of Accompanying Persons
   <input id="last_name" type="number" class="validate" name="accNo" value="<?php echo @$query2['accompanyno']; ?>">
 </div>
-<div class="input-field col s12" style="display: none;">
-  Your Phone Number
-  <input id="last_name" type="number" class="validate" name="secPhone"  required value="<?php echo @$query2['secondaryphone']; ?>">
+<div class="input-field col s12" >
+  Your Secondary Phone Number
+  <input id="last_name" type="number" class="validate" name="secPhone"  required value="<?php echo @$query2['secondaryphone']; ?>" novalidate>
 </div>
 
 <div >
