@@ -136,7 +136,7 @@ marquee {
 </div>
 <!--sliderover-->
 
-<marquee  scrollamount="5" scrolldelay="2"><p style="font-size: 150%;" > Kerela is in great need of help . Please donate <a href="http://alumni.iitkgp.ac.in/Alumniweb/GoThroughCampaign/?camp_id=19&purpose=readmore" target="blank">here</a> as an alumnus.</p></marquee>
+<marquee  scrollamount="5" scrolldelay="2" onmouseover="this.stop();" onmouseout="this.start();"><p style="font-size: 150%;" > Kerela is in great need of help . Please donate <a href="http://alumni.iitkgp.ac.in/Alumniweb/GoThroughCampaign/?camp_id=19&purpose=readmore" target="blank">here</a> as an alumnus.</p></marquee>
 <div>
 
   <div class="row">
