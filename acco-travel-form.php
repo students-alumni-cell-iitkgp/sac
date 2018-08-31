@@ -19,6 +19,7 @@ if (($query_run1)&&($query_run2)) {
   <form action="acco-travel-form-continue.php" method="post" style="text-align: left;">
    <h3> Travel Details </h3>
    <div class="input-field col s12">
+    Arrival Date
    <!-- <select name="arrDate" required value="<?php //echo @$query2['arrivaldate']; ?>">
       <option >11th January 2018</option>
       <option >12th January 2018</option>
@@ -35,10 +36,10 @@ if (($query_run1)&&($query_run2)) {
    
   </select>
   
-  <label>Arrival Date</label>
-</div>
+<!--   <label></label>
+ --></div><br>
 <div class="col s12">
-  <label for="arrTime">Arrival Time</label>
+  Arrival Time
   <input  type="time"  name="arrTime" value="<?php echo @$query2['arrivaltime']; ?>" required>
 </div>
 <div class="input-field col s12">
@@ -104,7 +105,7 @@ if (($query_run1)&&($query_run2)) {
         <option value="Indigo" <?php if( @$query2['arrivalcabpref'] == "Indigo") echo 'selected = "selected"';?>> Indigo </option>
       </select>
     </div>
-    <br><br>
+    <br>
     <div >
       Departure Date
         <!--
@@ -121,7 +122,7 @@ if (($query_run1)&&($query_run2)) {
         <option value="15th January 2018" <?php if( @$query2['departdate'] == "15th January 2018") echo 'selected = "selected"';?>>15th January 2018</option>
         <option value="16th January 2018" <?php if( @$query2['departdate'] == "16th January 2018") echo 'selected = "selected"';?>>16th January 2018</option>
       </select>
-    </div>
+    </div><br>
     <div >
       On Departure, Do you require a cab to Kolkata?
         <!--
@@ -161,7 +162,7 @@ if (($query_run1)&&($query_run2)) {
     <option value="Indigo" <?php if( @$query2['depcabpref'] == "Indigo") echo 'selected = "selected"';?>> Indigo </option>
   </select>
 </div>
-<hr>
+
 
 <h3> Accommodation Details </h3>
 <div >
@@ -244,7 +245,13 @@ if (($query_run1)&&($query_run2)) {
     <input id="last_name" type="text" class="validate" name="prefHall" value="<?php echo @$query4['prefhall']; ?>">
   </div>
 </div>
-<button type="button" class="btn cyan waves-effect waves-light left" name="button" onclick="closeNav()">CLOSE <i class="mdi-content-send   left"></i></button>
+<button type="button" class="btn  waves-effect waves-light left" name="button" id="backlobby" onclick="closeNav()" style="position: fixed; left: 1%; bottom:4.5%;">Back to dashboard 
+  </button>
+  <!-- <div class="fixed-action-btn" style="top: 10%; right: 25px;">
+    <a class="btn-floating btn-large waves-effect waves-light btn " onclick="closeNav()" name="button" title="Close">
+      <i class="large material-icons" style="font-size: 30px; padding-left: 0;">cancel</i>
+    </a>
+  </div> -->
 <button type="submit" class="btn cyan waves-effect waves-light right" name="button">SUBMIT </button>
 </form>
 
