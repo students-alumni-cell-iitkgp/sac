@@ -1,4 +1,7 @@
 <html>
+
+
+
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 <head>
   <title>Students Alumni Cell &middot; IIT Kharagpur</title>
@@ -13,30 +16,6 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script> -->
     <style> 
-    #clockdiv{
-    font-family: sans-serif;
-    color: #fff;
-    display: inline-block;
-    font-weight: 50;
-    text-align: center;
-    font-size: 14px;
-}
-#clockdiv > div{
-    padding: 6px;
-    border-radius: 3px;
-    background: #00BF96;
-    display: inline-block;
-}
-#clockdiv div > span{
-    padding: 8px;
-    border-radius: 3px;
-    background: #00816A;
-    display: inline-block;
-}
-smalltext{
-    padding-top: 10px;
-    font-size: 13px;
-}
     ul.indicators{z-index: 3;}
     .slider .indicators .indicator-item{ height: 10px; width: 50px; border-radius: 0px; margin: 5px 12px; background-color: #a4a9b2; }
     .slider .indicators .indicator-item.active{ background-color: #717375; }
@@ -63,7 +42,7 @@ smalltext{
 }
 @media only screen and (min-width: 993px){
   .row .col.l3 {
-    
+    width: 100%;
   }
 }
 .carousel .carousel-item{
@@ -98,35 +77,10 @@ marquee {
   background:#cfdee3;
 }
 </style>
-<script>
-  var deadline = new Date("jan 3, 2019 12:00:00").getTime();
- 
-var x = setInterval(function() {
- 
-var now = new Date().getTime();
-var t = deadline - now;
-var days = Math.floor(t / (1000 * 60 * 60 * 24));
-var hours = Math.floor((t%(1000 * 60 * 60 * 24))/(1000 * 60 * 60));
-var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60));
-var seconds = Math.floor((t % (1000 * 60)) / 1000);
-document.getElementById("day").innerHTML =days ;
-document.getElementById("hour").innerHTML =hours;
-document.getElementById("minute").innerHTML = minutes; 
-document.getElementById("second").innerHTML =seconds; 
-if (t < 0) {
-        clearInterval(x);
-        document.getElementById("demo").innerHTML = "TIME UP";
-        document.getElementById("day").innerHTML ='0';
-        document.getElementById("hour").innerHTML ='0';
-        document.getElementById("minute").innerHTML ='0' ; 
-        document.getElementById("second").innerHTML = '0'; }
-}, 1000);
- </script> 
 </head>
 <body>
  <div id="fb-root"></div>
- <script>
-(function(d, s, id) {
+ <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
@@ -181,9 +135,13 @@ if (t < 0) {
 </ul>
 </div>
 <!--sliderover-->
-<br><div>
+
+<marquee  scrollamount="5" scrolldelay="2"><p style="font-size: 150%;">Homecoming registrations are open for the batches of 1998, 2003 and 2008. Register <a href="http://alumni.iitkgp.ac.in/Alumniweb/GoThroughFeatured?feat_id=3" target="_blank">here.</a></p></marquee>
+<div>
+
   <div class="row">
-    <div class="offset-s5 col s4 heading">
+    <div class="heading">
+      <center>
 
        
         <h class="subheading">
@@ -192,28 +150,8 @@ if (t < 0) {
          
         </h>
         
-      
+      </center>
     </div>
-    <div id="clockdiv" class="col s3" style="border-style:ridge; background-color:#00816A; padding:6px;">
-  <font size="4px"><b>Annual Alumni Meet</b></font><br>
-  <div>
-    <span class="days" id="day"></span>
-    <div class="smalltext"><b>Days</b></div>
-  </div>
-  <div>
-    <span class="hours" id="hour"></span>
-    <div class="smalltext"><b>Hours</b></div>
-  </div>
-  <div>
-    <span class="minutes" id="minute"></span>
-    <div class="smalltext"><b>Minutes</b></div>
-  </div>
-  <div>
-    <span class="seconds" id="second"></span>
-    <div class="smalltext"><b>Seconds</b></div>
-  </div>
-</div>
-<div>
     <!--div class="parallax-container col l6 m6 s6 _about">
       <div class="parallax"><img src="img/team.jpg"></div>
     </div-->
@@ -221,11 +159,8 @@ if (t < 0) {
   <div>
     <div class="center-align">
       <div class="row">
-        <div class="col l3" style="margin-top: 1em;">
-          <div id="fbplug" style="background-color: #fff" class="z-depth-1 fb-page" data-href="https://www.facebook.com/iitkgp.alumnicell/?fref=ts" data-tabs="timeline" data-height="347px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/iitkgp.alumnicell/?fref=ts" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/iitkgp.alumnicell/?fref=ts">Alumni Cell, IIT Kharagpur</a></blockquote></div>
-        </div>
-        <div class="col l6">  <div style="background-color: white;">
-          <p class="z-depth-1 text_align" style="font-size: 16px;padding: 2.5em 2em">
+        <div class="col l8">  <div style="background-color: white;">
+          <p class="z-depth-1 text_align" style="font-size: 16px;padding: 3.3em 3em">
             The Students' Alumni Cell, IIT Kharagpur is a voluntary student body working under the aegis 
             of the Dean of Alumni Affairs and International Relations. It strives to bridge the gap between 
             IIT Kharagpur and its esteemed alumni community.<br>
@@ -239,8 +174,8 @@ if (t < 0) {
             (Giving Back - Alumni contribution) and organises Alvida (the annual farewell dinner).
           </p>
         </div></div>
-        <div class="col l3" style="margin-top: 1em;">
-          <div id="fbplug" style="background-color: #fff" class="z-depth-1 fb-page" data-href="https://www.facebook.com/iitkgp.alumnicell/?fref=ts" data-tabs="timeline" data-height="347px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/iitkgp.alumnicell/?fref=ts" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/iitkgp.alumnicell/?fref=ts">Alumni Cell, IIT Kharagpur</a></blockquote></div>
+        <div class="col l4" style="margin-top: 1em;">
+          <div id="fbplug" style="width: 425px; background-color: #fff" class="z-depth-1 fb-page" data-href="https://www.facebook.com/iitkgp.alumnicell/?fref=ts" data-tabs="timeline" data-height="347px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/iitkgp.alumnicell/?fref=ts" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/iitkgp.alumnicell/?fref=ts">Alumni Cell, IIT Kharagpur</a></blockquote></div>
         </div>
       </div>
     </div>
