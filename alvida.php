@@ -36,7 +36,7 @@
 
         <img src="img/indexslider/alvida.jpg" width="100%">
    
-    <div class="row" style="padding:0% 8% 0% 8%;">
+    <div class="row" style="padding:0% 8% 0% 8%;"><br>
 
         <div class="center-align" >
             <div class="col l12 z-depth-1" style=" ">
