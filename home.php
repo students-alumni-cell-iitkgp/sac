@@ -145,7 +145,7 @@ if( $query_run = mysqli_query($connection, $query) ){
                    <li class="">
                     <strong>1. Online Payment</strong>
                     <br> You can make online payment: For online payment click <a href="https://www.eduqfix.com/OnlineAdmissionPortal/#/iitkR/add" target="_blank" style="font-weight:bold">here</a>
-                   
+
                   </li>
                   <li class="">
                     <strong>2. Demand Draft</strong>
@@ -232,7 +232,7 @@ if( $query_run = mysqli_query($connection, $query) ){
               }
               ?></div>
             </div>
-            
+
         <!--added  -->
 
 
@@ -283,7 +283,7 @@ if( $query_run = mysqli_query($connection, $query) ){
   <div class="modal-content">
 
 
-   <?php 
+   <?php
    include('aam_registeredalum.php');
    ?>
  </div>
@@ -306,6 +306,7 @@ if( $query_run = mysqli_query($connection, $query) ){
     document.getElementById("mySidenav").style.width = "100%";
   }
   function closeNav() {
+    document.getElementById("backlobby").style.display="none";
     document.getElementById("mySidenav").style.width = "0";
   }
 </script>
