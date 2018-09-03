@@ -71,7 +71,7 @@
     <div class="photos" style="padding-bottom:10px">
       <center>
       	<p style="width:90%;padding:5px;display: inline;font-size:17px">For more photos, kindly click on:</p>
-      	<a id="button" class="waves-effect waves-light btn" href=" https://drive.google.com/drive/folders/12E0iqLcU-4lahFelrtu34_zNNBRF1jA1">Homecoming '18</a>
+      	<a id="button" class="waves-effect waves-light btn" href=" https://drive.google.com/drive/folders/12E0iqLcU-4lahFelrtu34_zNNBRF1jA1" target="_blank">Homecoming '18</a>
       </center>
     </div>
 
