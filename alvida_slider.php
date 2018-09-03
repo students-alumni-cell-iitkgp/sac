@@ -43,6 +43,40 @@
 <body> 
 	<div class="heading" style="margin-top:-20px">
 		<center >
+			<h  class="subheading"><b id="senior_class_gift">Alvida 2018</b> </h>
+		</center>
+	</div>
+	<center>
+		<div class="row">
+
+			<div class="col l6 m6 s12">
+				<img class=" materialboxed normal bigg" src="img/Alvida/Alvida_2018/7.jpg" height="420px">
+			</div>
+			
+			<div class="col l6 m6 s12">
+				<img class=" materialboxed normal bigg " src="img/Alvida/Alvida_2018/3.jpg" height="420px">
+			</div>
+
+			<div class="col l6 m6 s12">
+				<img class=" materialboxed normal bigg " src="img/Alvida/Alvida_2018/2.jpg" height="420">
+			</div>
+			<div class="col l3 m6 s12">
+				<img class=" materialboxed normal" src="img/Alvida/Alvida_2018/4.jpg" height="200">
+			</div>
+
+			<div class="col l3 m6 s12">
+				<img class=" materialboxed normal " src="img/Alvida/Alvida_2018/5.jpg" height="200">
+			</div>
+			<div class="col l3 m6 s12">
+				<img class=" materialboxed normal " src="img/Alvida/Alvida_2018/6.jpg" height="200">
+			</div>
+			<div class="col l3 m6 s12">
+				<img class=" materialboxed normal" src="img/Alvida/Alvida_2018/1.jpg" height="200">
+			</div>
+
+		</div>
+	<div class="heading" style="margin-top:-20px">
+		<center >
 			<h  class="subheading"><b id="senior_class_gift">Alvida 2017</b> </h>
 		</center>
 	</div>
