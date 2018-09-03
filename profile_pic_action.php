@@ -10,7 +10,7 @@ if( $query_run = mysqli_query($connection, $query) ){
 
 @$file_name = $name.'.'.end(explode(".",$_FILES["filetoupload"]["name"] ));
 
-$target_dir = "upload/";
+$target_dir = "upload_16/";
 $target_file = $target_dir . basename($file_name);
 $uploadOk = 1;
 $imageFileType = pathinfo($target_file,PATHINFO_EXTENSION);
@@ -32,7 +32,7 @@ if (file_exists($target_file)) {
   $uploadOk = 0;
 }*/
 // Check file size
-if ($_FILES["filetoupload"]["size"] > 500000) {
+if ($_FILES["filetoupload"]["size"] > 510000) {
   $message1 =  "Your picture is too large, must be less than 500 Kb";
   $uploadOk = 0;
 }

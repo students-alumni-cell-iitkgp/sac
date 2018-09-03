@@ -15,14 +15,14 @@
 
       margin-left: 80px;
     }
-  } 
+  }
   @media only screen and (max-width: 468px){
     .ac-sam img{
       height: 25%;
       margin: 0px auto;
       max-width:100%;
     }
-  } 
+  }
 </style>
 <script>
  $(document).ready(function(){
@@ -38,12 +38,12 @@
       <img src="img/homecoming2.jpg" style="width: 100%; height: 88%">
     </div>
 
-    
-    <div class="row" style="padding:0% 8% 6% 8%;">
+
+    <div class="row" style="padding:2% 8% 6% 8%;">
 
       <div class="center-align" >
         <div class="col l12 z-depth-1">
-          <div class="heading ac-head" style="border:3px black solid; display: inline-block; padding-top: 2px; margin: 3px;padding-right: 20px;padding-left: 20px;" >
+          <div class="heading ac-head" style="border:3px black solid; display: inline-block; padding-top: 2px; margin: 20px;padding-right: 20px;padding-left: 20px;" >
 
             <h4><b>Homecoming</b></h4> </div>
 
@@ -57,15 +57,23 @@
               <br><br>
               Looking forward to welcoming you back to your Institute.
             </p>
-            <a class="waves-effect waves-light btn" href="http://alumni.iitkgp.ac.in/Alumniweb/GoThroughFeatured?feat_id=3" style="width: 30%;height: 5em">REGISTER <br> HOMECOMING 2018</a>
+            <!--
+            <a class="waves-effect waves-light btn" href="https://drive.google.com/drive/folders/1Rp-Hjq6q-HgZ_tOPNMr_4CvuESjujGfr" style="width: 30%;height: 5em" target="blank">HOMECOMING 2018<br>MEMORIES </a>
+          -->
           </div>
         </div>
       </div>
 
+      <?php include 'gallery-homecoming.php';?>
 
     </div>
 
-    
+    <div class="photos" style="padding-bottom:10px">
+      <center>
+      	<p style="width:90%;padding:5px;display: inline;font-size:17px">For more photos, kindly click on:</p>
+      	<a id="button" class="waves-effect waves-light btn" href=" https://drive.google.com/drive/folders/12E0iqLcU-4lahFelrtu34_zNNBRF1jA1" target="_blank">Homecoming '18</a>
+      </center>
+    </div>
 
     <?php include 'footer.php';?>
   </body>

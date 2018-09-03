@@ -37,7 +37,7 @@ if( $query_run = mysqli_query($connection, $query) ){
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </head>
 <body>
   <?php include 'navbar.php';?>
@@ -116,6 +116,28 @@ if( $query_run = mysqli_query($connection, $query) ){
         display: none;
       }
     }
+    @media screen and (min-width: 376px) and (max-width: 450px){
+      .swal-button {
+        transform: translateX(-80%);
+      }
+    }
+    @media screen and (max-width: 376px){
+      .swal-button {
+        transform: translateX(-55%);
+      }
+    }
+    @media only screen and (min-width: 768px){
+      .swal-button {
+        transform: translateX(-130%);
+      }
+    }
+    .swal-button {
+      padding: 10px 30px;
+      font-size: 16px;
+    }
+    .swal-button--confirm {
+      margin-left: 40px !important;
+    }
   </style>
   <body>
 
@@ -137,13 +159,23 @@ if( $query_run = mysqli_query($connection, $query) ){
                 </div>
                 Every visiting alumnus has to pay INR 7000. This includes your accomodation, fooding and conveyance charge at Kharagpur. If there is any other person accompanying you an additional payment of INR 4000 per head will have
                 to be made.
-                <br> Payment methods:-
+                <br>
+                <br>
+                <strong>REMARK-</strong> After making the Payment Kindly revert back with your transaction id and payment mode on aao@hijli.iitkgp.ernet.in
+                <br>
+                <br> <b>Payment methods:-</b>
                 <ul class="">
                    <li class="">
                     <strong>1. Online Payment</strong>
+
                     <br> You can make online payment: For online payment click <a href="http://www.alumni.iitkgp.ac.in/content/annual-alumni-meet-registration-fee-payment" target="_blank" style="font-weight:bold">here</a>
                    
                   </li><br><hr><br>
+
+                    <br> You can make online payment: For online payment click <a href="https://www.eduqfix.com/OnlineAdmissionPortal/#/iitkR/add" target="_blank" style="font-weight:bold">here</a>
+
+                  </li>
+
                   <li class="">
                     <strong>2. Demand Draft</strong>
                     <br> You can pay by sending a cheque or demand draft (DD) if favour of "Annual Alumni Meet" payable at Kharagpur on the address:
@@ -229,7 +261,7 @@ if( $query_run = mysqli_query($connection, $query) ){
               }
               ?></div>
             </div>
-            
+
         <!--added  -->
 
 
@@ -267,7 +299,9 @@ if( $query_run = mysqli_query($connection, $query) ){
 
 </div>
 <div class="fixed-action-btn" style="bottom: 25px; right: 25px;" id="power">
+
   <a class="btn-floating btn-large waves-effect waves-light btn modal-trigger" href="#modal11" title="Logout" >
+
     <i class="large material-icons" style="font-size: 30px">power_settings_new</i>
 </a>
 </div>
@@ -294,7 +328,7 @@ if( $query_run = mysqli_query($connection, $query) ){
   <div class="modal-content">
 
 
-   <?php 
+   <?php
    include('aam_registeredalum.php');
    ?>
  </div>
@@ -316,8 +350,10 @@ if( $query_run = mysqli_query($connection, $query) ){
   function openNav() {
     document.getElementById("mySidenav").style.width = "100%";
   }
-function closeNav() {
-    document.getElementById("backlobby").style.display = "None";
+
+  function closeNav() {
+    document.getElementById("backlobby").style.display="none";
+
     document.getElementById("mySidenav").style.width = "0";
 }
 </script>
@@ -329,6 +365,37 @@ function closeNav() {
   });
 </script>
 <!--till here-->
+<script >
+  $("#logout").click(function(){
+    swal ({
+      title: "Are you sure, want to logout?",
+      icon: "warning",
+      buttons: {
+        cancel: "No",
+        confirm: "Yes",
+      },
+      dangerMode: true,
+    }).then((value) => {
+      if(value){
+        window.location = "logout.php";
+      }
+    });
+  });
+</script>
+<?php 
+  if($_SESSION['edit_submit'] == 1){
+    echo "
+    <script>
+      swal({
+        title: 'Successfully Edited!',
+        icon: 'success',
+        buttons: false,
+        timer: 1500,
+        });
+        </script>";
+        unset($_SESSION['edit_submit']);
+  }
+?>
 <?php include 'footer.php';?>
 
 </body>
