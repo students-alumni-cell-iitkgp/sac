@@ -11,7 +11,6 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
     
-
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -19,6 +18,8 @@
     <script type="text/javascript" src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script type="text/javascript"src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
     <script>
+
+      
           $(function () {
             
            $('form').on('submit', function (e) {
@@ -123,7 +124,7 @@
           <div style="line-height: 5px;">
           <p style="text-align:center">The registration fee per alumnus/alumna: Rs. 7000 and Rs. 4000 per additional guest.</p>
           <p style="text-align:center">It covers all expenses the moment you step into your campus.</p>
-          <p style="text-align:center"> It includes food, accommodation and entertainment.</p>
+          <p style="text-align:center"> It includes food, accommodation and travel within the campus.</p>
           <p style="text-align:center"> The payment can be made via cheque, DD or NEFT.</p>
           <p style="text-align:center"> Please fill the registration form below and take note of the password for future login.
           <p style="text-align:center"> You will be contacted by Students' Alumni Cell.</p>
@@ -187,13 +188,13 @@
     </div>
 
     <div class="row1">
-      <div class="input-field col s6" style="margin-top:15px;">      
+      <div class="input-field col s6" style="margin-top:30.5px;">      
         <input  type="text"  name="mobile" id="mobile" required>
           <label for="mobile">Mobile <span style="color:red;">*</span></label>
       </div>
       <div class="col s6" style="margin-top:15px;">
          <label for="dob">DOB <span style="color:red;">*</span></label>
-        <input  type="date" name="dob" required id="dob">        
+        <input  type="date"  name="dob" required id="dob">        
       </div>          
     </div>
       
@@ -313,7 +314,7 @@ Current or past work experiences as per relevance
     <div class="row1">
      <div class="input-field col s6">
         <input  type="text" id="involvements" name="involvements">
-        <label for="yog">Involvements within the campus (Societies, Hall Events, etc) </label>
+        <label for="yog">Involvements (Societies, Hall Events, etc) </label>
       </div>
       <div class="input-field col s6">
         <input  type="text" id="hobbies" name="hobbies">
