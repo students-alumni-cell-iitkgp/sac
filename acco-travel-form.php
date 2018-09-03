@@ -15,6 +15,7 @@ if (($query_run1)&&($query_run2)) {
 } 
 
 ?>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <div class="container-fluid">
   <form action="acco-travel-form-continue.php" method="post" style="text-align: left;">
    <h3> Travel Details </h3>
@@ -58,9 +59,9 @@ if (($query_run1)&&($query_run2)) {
   Number of Accompanying Persons
   <input id="last_name" type="number" class="validate" name="accNo" value="<?php echo @$query2['accompanyno']; ?>">
 </div>
-<div class="input-field col s12" style="display: none;">
-  Your Phone Number
-  <input id="last_name" type="number" class="validate" name="secPhone"  required value="<?php echo @$query2['secondaryphone']; ?>">
+<div class="input-field col s12" >
+  Your Secondary Phone Number
+  <input id="last_name" type="number" class="validate" name="secPhone"   value="<?php echo @$query2['secondaryphone']; ?>" >
 </div>
 
 <div >
@@ -244,14 +245,17 @@ if (($query_run1)&&($query_run2)) {
     Hall of the person
     <input id="last_name" type="text" class="validate" name="prefHall" value="<?php echo @$query4['prefhall']; ?>">
   </div>
+
 </div>
+<div class="fixed-action-btn" style="bottom: 25px; right:100px;" id="cancel">
+  <a class="btn-floating btn-large waves-effect waves-light btn" title="Cancel" name="button" id="backlobby"  onclick="closeNav()" >
+<i class="large material-icons" style="position: relative;right: 32px;bottom: 7px;" >clear</i></a>
+</div>
+
 <button type="button" class="btn  waves-effect waves-light left" name="button" id="backlobby" onclick="closeNav()" style="position: fixed; left: 1%; bottom:4.5%;">Back to dashboard 
   </button>
-  <!-- <div class="fixed-action-btn" style="top: 10%; right: 25px;">
-    <a class="btn-floating btn-large waves-effect waves-light btn " onclick="closeNav()" name="button" title="Close">
-      <i class="large material-icons" style="font-size: 30px; padding-left: 0;">cancel</i>
-    </a>
-  </div> -->
+
+
 <button type="submit" class="btn cyan waves-effect waves-light right" name="button">SUBMIT </button>
 </form>
 
