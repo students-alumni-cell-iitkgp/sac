@@ -10,90 +10,7 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
-
     
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.js"></script>
-    <script type="text/javascript" src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
-    <script type="text/javascript" src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-    <script type="text/javascript"src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
- 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-	<script>
-
-$(function () {
-
-        $('form').on('submit', function (e) {
-
-          e.preventDefault();
-
-          $.ajax({
-            type: 'post',
-            url: 'register.php',
-            data: $('form').serialize(),
-            success: function (response) {
-               if(response== 0 )
-               {
-                swal({
-  title: "WRONG CAPTCHA!",
-  text: "Please re-enter the captcha!",
-  icon: "error",
-  buttons: true,
-  dangerMode: true,
-}).then((value) => {
- 
-});
-}
-else if(response== 1)
-  {
-   swal({
-  title: "REGISTERED!",
-  text: "You can login now!",
-  icon: "success",
-  buttons: true,
-  dangerMode: true,
-}).then((value) => {
-  window.location="registration-complete.php";
- 
-});
-//alert('success');
-}
-else
-{
-  alert(response);
-}
-            }
-          });
-
-        });
-
-      });
-
-
-</script>
-
-
-
-
-
-
-
-
-
-=======
-    
->>>>>>> b173f7407d0e4963b3aaea841bf83c8381f74a77
-
-<<<<<<< HEAD
-      
-          $(function () {
-            
-           $('form').on('submit', function (e) {
-||||||| merged common ancestors
-=======
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -101,10 +18,11 @@ else
     <script type="text/javascript" src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script type="text/javascript"src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
     <script>
+
+      
           $(function () {
             
            $('form').on('submit', function (e) {
->>>>>>> b173f7407d0e4963b3aaea841bf83c8381f74a77
 
              e.preventDefault();
              $.ajax({
@@ -200,7 +118,6 @@ else
     
     <form>      
       <center>
-<<<<<<< HEAD
         <div class="heading">
           
           <hr><hr><br>
@@ -216,24 +133,6 @@ else
             <div><a class="waves-effect waves-light btn-large modal-trigger" href="aam.php#modal1" >LOGIN - If already Registered</a></div>
           <br><br>
         </div>
-||||||| merged common ancestors
-=======
-        <div class="heading">
-          
-          <hr><hr><br>
-          <div style="line-height: 5px;">
-          <p style="text-align:center">The registration fee per alumnus/alumna: Rs. 7000 and Rs. 4000 per additional guest.</p>
-          <p style="text-align:center">It covers all expenses the moment you step into your campus.</p>
-          <p style="text-align:center"> It includes food, accommodation and entertainment.</p>
-          <p style="text-align:center"> The payment can be made via cheque, DD or NEFT.</p>
-          <p style="text-align:center"> Please fill the registration form below and take note of the password for future login.
-          <p style="text-align:center"> You will be contacted by Students' Alumni Cell.</p>
-          </div>
-          <br><hr><hr><br><br>
-            <div><a class="waves-effect waves-light btn-large modal-trigger" href="aam.php#modal1" >LOGIN - If already Registered</a></div>
-          <br><br>
-        </div>
->>>>>>> b173f7407d0e4963b3aaea841bf83c8381f74a77
 
         <h class="subheading"><b>Personal Details</b> </h>
 
@@ -284,28 +183,13 @@ else
       </div>
       <div class="input-field col s6">        
         <input  type="text" id="zipcode" name="zipCode" >
-<<<<<<< HEAD
         <label for="zipcode">Zip Code </label>
       </div>      
     </div>
 
     <div class="row1">
       <div class="input-field col s6" style="margin-top:30.5px;">      
-||||||| merged common ancestors
-       <label for="zipcode">Zip Code </label>
-      </div>
-      <div class="input-field col s12">
-      
-=======
-        <label for="zipcode">Zip Code </label>
-      </div>      
-    </div>
-
-    <div class="row1">
-      <div class="input-field col s6" style="margin-top:15px;">      
->>>>>>> b173f7407d0e4963b3aaea841bf83c8381f74a77
         <input  type="text"  name="mobile" id="mobile" required>
-<<<<<<< HEAD
           <label for="mobile">Mobile <span style="color:red;">*</span></label>
       </div>
       <div class="col s6" style="margin-top:15px;">
@@ -319,31 +203,6 @@ else
       
      
       <div class="input-field col s12" style="margin-bottom:30px;">   
-||||||| merged common ancestors
-          <label for="mobile">Mobile *</label>
-      </div>
-      <div class="col s12" style="margin-top:15px;">
-         <label for="dob">DOB *</label>
-        <input  type="date" name="dob" required id="dob">
-        
-      </div>
-      <div class="input-field col s12" style="margin-bottom:30px;">
-   
-=======
-          <label for="mobile">Mobile <span style="color:red;">*</span></label>
-      </div>
-      <div class="col s6" style="margin-top:15px;">
-         <label for="dob">DOB <span style="color:red;">*</span></label>
-        <input  type="date" name="dob" required id="dob">        
-      </div>          
-    </div>
-      
-      
-      
-      
-     
-      <div class="input-field col s12" style="margin-bottom:30px;">   
->>>>>>> b173f7407d0e4963b3aaea841bf83c8381f74a77
         <input  type="text"  name="marital" id="marital">
         <label for="marital">Marital Status</label>
       </div>
@@ -409,7 +268,7 @@ Current or past work experiences as per relevance
       </div>       
     </div>
       <div class="row"></div>
- <!-- TODO: spacing is needed here. -->
+
      <p></p> 
       
        <div class="heading" >
@@ -455,13 +314,7 @@ Current or past work experiences as per relevance
     <div class="row1">
      <div class="input-field col s6">
         <input  type="text" id="involvements" name="involvements">
-<<<<<<< HEAD
         <label for="yog">Involvements (Societies, Hall Events, etc) </label>
-||||||| merged common ancestors
-       <label for="yog">Involvements within the campus(societies,hall events,etc)?</label>
-=======
-        <label for="yog">Involvements within the campus (Societies, Hall Events, etc) </label>
->>>>>>> b173f7407d0e4963b3aaea841bf83c8381f74a77
       </div>
       <div class="input-field col s6">
         <input  type="text" id="hobbies" name="hobbies">
