@@ -46,7 +46,8 @@ max-width:100%;
     }
 @media only screen and (min-width: 768px){
       .ac-guest img{
-        margin-left: 80px;
+       /* margin-left: 80px;*/
+       max-width: 100%;
     }
    } 
      .normal{
@@ -65,8 +66,8 @@ max-width:100%;
 <body>
 <div class="_wrapper" style="overflow: hidden;">
 <?php include 'navbar.php';?>
- <div class="row ac-guest">
-        <img src="img/alumnitalks.jpg" >
+ <div class="row ac-guest" align="center">
+        <img src="img/alumnitalks.jpg" width="100%">
     </div>
 
     <div class="row">
@@ -109,6 +110,34 @@ Type a message...
 
 
 </div>
+
+<div class="row"><center>
+
+    <center>
+        <div class="heading ac-head" style="border:3px black solid; display: inline-block; padding-top: 2px; margin: 3px;padding-right: 20px;padding-left: 20px;" >
+
+            <h4 style="margin-bottom: 0px;"><b>Alumni Talks</b><br><div style="font-size: 75%;">with</div> </h4>
+
+            <h5 style="font-size:120%;margin-top: 0px;">Mr. Aditya Sharma (Partner), Mr. Ashutosh Mohapatra (Senior Associate) and<br><br>
+            Mr. Abhishek Narain (Associate) from McKinsey & Company</h5> </div>
+        </center>
+
+
+        <div class="col l4 m4 s12">
+            <center>
+                <img class="materialboxed normal" src="img/guest-lecture/talk_MCK/a.jpg" width="430">
+            </center>
+        </div>
+        <div class="col l4 m4 s12">
+            <center>
+                <img class="materialboxed normal" src="img/guest-lecture/talk_MCK/b.jpg" width="430"></center>
+            </div>
+            <div class="col l4 m4 s12">
+                <center>
+                    <img class="materialboxed normal" src="img/guest-lecture/talk_MCK/c.jpg" width="430"></center>
+                </div>
+            </center> 
+        </div>
 
 <div class="row"><center>
                 
