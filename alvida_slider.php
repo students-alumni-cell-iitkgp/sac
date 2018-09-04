@@ -48,24 +48,7 @@
 	</div>
 	<center>
 		<div class="row">
-                        <div class="col l3 m6 s12">
-				<img class="materialboxed normal long" src="img/Alvida/Alvida_2018/1.jpg" height="420" >
-			</div>
-			<div class="col l6 m6 s12">
-				<img class="materialboxed normal bigg" src="img/Alvida/Alvida_2018/9.jpg" height="420" >
-			</div>
-			<div class="col l3 m6 s12">
-				<img  class="materialboxed normal long" src="img/Alvida/Alvida_2018/3.jpg" height="420" />
-			</div>
-
-			<div class="col l6 m6 s12">
-				<img class=" materialboxed normal bigg" src="img/Alvida/Alvida_2018/7.jpg" height="420px">
-			</div>
-
-			<div class="col l6 m6 s12">
-				<img class=" materialboxed normal bigg " src="img/Alvida/Alvida_2018/2.jpg" height="420">
-			</div>
-			<div class="col l3 m6 s12">
+                       <div class="col l3 m6 s12">
 				<img class=" materialboxed normal" src="img/Alvida/Alvida_2018/4.jpg" height="200">
 			</div>
 
@@ -78,9 +61,21 @@
 			<div class="col l3 m6 s12">
 				<img class=" materialboxed normal" src="img/Alvida/Alvida_2018/8.jpg" height="200">
 			</div>
+            <div class="col l6 m6 s12">
+				<img class=" materialboxed normal bigg" src="img/Alvida/Alvida_2018/7.jpg" height="420px">
+			</div>
+			<div class="col l6 m6 s12">
+				<img class=" materialboxed normal bigg" src="img/Alvida/Alvida_2018/2.jpg" height="420px">
+			</div>
+			<div class="col l6 m6 s12">
+				<img class=" materialboxed normal bigg" src="img/Alvida/Alvida_2018/3.jpg" height="420px">
+			</div>
+
+			<div class="col l6 m6 s12">
+				<img class=" materialboxed normal bigg " src="img/Alvida/Alvida_2018/9.jpg" height="420">
+			</div>
 
 		</div>
-		
 			
 		
 	<div class="heading" style="margin-top:-20px">
