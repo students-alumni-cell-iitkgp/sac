@@ -61,10 +61,6 @@
 			<div class="col l6 m6 s12">
 				<img class=" materialboxed normal bigg" src="img/Alvida/Alvida_2018/7.jpg" height="420px">
 			</div>
-			
-			<div class="col l6 m6 s12">
-				<img class=" materialboxed normal bigg " src="img/Alvida/Alvida_2018/10.jpg" height="420px">
-			</div>
 
 			<div class="col l6 m6 s12">
 				<img class=" materialboxed normal bigg " src="img/Alvida/Alvida_2018/2.jpg" height="420">
