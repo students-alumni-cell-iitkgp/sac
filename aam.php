@@ -153,7 +153,8 @@ else
     }
       .ac-aam{
         margin-left: 0px;
-        width:100vw;        
+        width:100vw;
+        
     }
    } 
     @media only screen and (max-width: 468px){
