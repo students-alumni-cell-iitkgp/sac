@@ -51,10 +51,11 @@ else if(response== 1)
   title: "REGISTERED!",
   text: "You can login now!",
   icon: "success",
-  buttons: true,
-  dangerMode: true,
+  buttons: false,
+  timer: 2000,
+
 }).then((value) => {
-  window.location="registration-complete.php";
+  window.location="aam.php";
  
 });
 //alert('success');
