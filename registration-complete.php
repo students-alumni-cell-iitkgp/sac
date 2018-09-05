@@ -14,7 +14,7 @@
 <div class="_wrapper">
   <?php include "navbar.php"; ?>
   <div class="container-fluid">
-    <div class="z-depth-2" style="padding:20px;">
+    <div class="z-depth-2">
       <div class="container">
         <div class="container-fluid">
           <div align="center">

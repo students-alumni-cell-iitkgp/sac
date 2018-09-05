@@ -114,7 +114,7 @@ if(($query_run3)){
         default:
         break;
     }
-    echo "<tr><td>" .$var ."."."</td><td>". $row2["name"]. "</td><td>" . $hallfull. " </td><td>" . $row2["department"]. "</td></tr>";
+    echo "<tr><td>" .$var .")"."</td><td>". $row2["name"]. "</td><td>" . $hallfull. " </td><td>" . $row2["department"]. "</td></tr>";
     $var++;
 }
 echo "</table>";
@@ -207,7 +207,7 @@ else {
         default:
         break;
     }
-    echo "<tr><td>" .$var ."."."</td><td>". $row2["name"]. "</td><td>" . $hallfull. " </td><td>" . $row2["department"]. "</td></tr>";
+    echo "<tr><td>" .$var .")"."</td><td>". $row2["name"]. "</td><td>" . $hallfull. " </td><td>" . $row2["department"]. "</td></tr>";
     $var++;
 }
 echo "</table>";
@@ -301,7 +301,7 @@ else {
         default:
         break;
     }
-    echo "<tr><td>" .$var ."."."</td><td>". $row2["name"]. "</td><td>" . $hallfull. " </td><td>" . $row2["department"]. "</td></tr>";
+    echo "<tr><td>" .$var .")"."</td><td>". $row2["name"]. "</td><td>" . $hallfull. " </td><td>" . $row2["department"]. "</td></tr>";
     $var++;
 }
 echo "</table>";
@@ -396,7 +396,7 @@ else {
         default:
         break;
     }
-    echo "<tr><td>" .$var ."."."</td><td>". $row2["name"]. "</td><td>" . $hallfull. " </td><td>" . $row2["department"]. "</td></tr>";
+    echo "<tr><td>" .$var .")"."</td><td>". $row2["name"]. "</td><td>" . $hallfull. " </td><td>" . $row2["department"]. "</td></tr>";
     $var++;
 }
 echo "</table>";

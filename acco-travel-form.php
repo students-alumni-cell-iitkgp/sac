@@ -251,11 +251,6 @@ if (($query_run1)&&($query_run2)) {
   <a class="btn-floating btn-large waves-effect waves-light btn" title="Cancel" name="button" id="backlobby"  onclick="closeNav()" >
 <i class="large material-icons" style="position: relative;right: 32px;bottom: 7px;" >clear</i></a>
 </div>
-
-<button type="button" class="btn  waves-effect waves-light left" name="button" id="backlobby" onclick="closeNav()" style="position: fixed; left: 1%; bottom:4.5%;">Back to dashboard 
-  </button>
-
-
 <button type="submit" class="btn cyan waves-effect waves-light right" name="button">SUBMIT </button>
 </form>
 
