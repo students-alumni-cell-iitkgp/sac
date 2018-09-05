@@ -167,9 +167,15 @@ if( $query_run = mysqli_query($connection, $query) ){
                 <ul class="">
                    <li class="">
                     <strong>1. Online Payment</strong>
+
+                    <br> You can make online payment: For online payment click <a href="http://www.alumni.iitkgp.ac.in/content/annual-alumni-meet-registration-fee-payment" target="_blank" style="font-weight:bold">here</a>
+                   
+                  </li><br><hr><br>
+
                     <br> You can make online payment: For online payment click <a href="https://www.eduqfix.com/OnlineAdmissionPortal/#/iitkR/add" target="_blank" style="font-weight:bold">here</a>
 
                   </li>
+
                   <li class="">
                     <strong>2. Demand Draft</strong>
                     <br> You can pay by sending a cheque or demand draft (DD) if favour of "Annual Alumni Meet" payable at Kharagpur on the address:
@@ -178,7 +184,7 @@ if( $query_run = mysqli_query($connection, $query) ){
                     <br> Indian Institute of Technology Kharagpur
                     <br> Kharagpur - 721302
                     <br> West Bengal (INDIA)
-                  </li>
+                  </li><br><hr><br>
                   <li class="">
                     <strong>3. NEFT</strong>
                     <br> You can also transfer the payment through Internet Banking and email us the receipt.
@@ -263,8 +269,8 @@ if( $query_run = mysqli_query($connection, $query) ){
 
         <!--till here-->
         <div class="row">
-          <div style="width: 100%;" class="container center l12"><a style="font-size:20px;cursor:pointer;height: auto;background-color: #666; width: 100% " class="waves-effect waves-light btn-large" href="edit.php">Edit Registration form</a>
-          </div>
+        <div style="width: 100%;" class="container center l12"><a style="font-size:20px;cursor:pointer;height: auto;background-color: #666; width: 100%; border-radius: 5px;" class="waves-effect waves-light btn-large" href="edit.php">Edit Registration form</a>
+  </div>
         </div>
       </div>
     </div>
@@ -293,10 +299,26 @@ if( $query_run = mysqli_query($connection, $query) ){
 
 </div>
 <div class="fixed-action-btn" style="bottom: 25px; right: 25px;" id="power">
-  <a class="btn-floating btn-large" id="logout" title="Logout" >
+
+  <a class="btn-floating btn-large waves-effect waves-light btn modal-trigger" href="#modal11" title="Logout" >
+
     <i class="large material-icons" style="font-size: 30px">power_settings_new</i>
-  </a>
+</a>
 </div>
+
+ <div id="modal11" class="modal teal lighten-2" style="max-width: 600px; height: 450px;"><div style="position: absolute; transform: translate(-50%, -50%); top: 45%; left: 50%;">
+    <div class="modal-content teal lighten-2">
+      <center>
+        <h2>Logout!</h2>
+        <h4>Are you sure?</h4></center>
+
+    </div>
+    <div class="modal-footer teal lighten-2" > 
+      <a href="logout.php" class="modal-close waves-effect waves-green btn-flat red btn-large" style="font-size: 20px;border-radius:8px; position: absolute; left: -18%; padding: 0 20%;"><b>Yes</b></a>
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat btn-large green" style="font-size: 20px; position: absolute;border-radius:8px; right: -18%; padding: 0 20%; margin-left: 0;"><b>No</b></a>
+    </div></div>
+  </div>
+
 
 <!-- Modal structure-->
 
@@ -328,10 +350,12 @@ if( $query_run = mysqli_query($connection, $query) ){
   function openNav() {
     document.getElementById("mySidenav").style.width = "100%";
   }
+
   function closeNav() {
     document.getElementById("backlobby").style.display="none";
+
     document.getElementById("mySidenav").style.width = "0";
-  }
+}
 </script>
 <!--added -->
 <script type="text/javascript">
