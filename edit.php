@@ -25,6 +25,7 @@ include 'connection.php';
 <head>
   <title>Register | Annual Alumni Meet &middot; IIT Kharagpur</title>
     <link rel="stylesheet" href="css/materialize.min.css">
+
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="js/materialize.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -82,7 +83,7 @@ include 'connection.php';
 <body>
 <div class="_wrapper">
 <?php include 'navbar.php';?>
-<a href="home.php" class="btn btn-success btn-lg btn-block col l4 m5 s12" style=" position: fixed;width:8%; right: 0; top: 12  %; z-index: 2000; ">Cancel</a>
+
 <div class="row signup">
  <form action="registerupdate.php" method="post">
       <div class="heading">
@@ -137,7 +138,7 @@ include 'connection.php';
     </div>
 
     <div class="row1">
-      <div class="input-field col s6" style="margin-top:15px;">      
+      <div class="input-field col s6" style="margin-top:30.5px;">      
         <input value="<?php echo $row['mobile']; ?>" type="text"  name="mobile" id="mobile" required>
           <label for="mobile">Mobile <span style="color:red;">*</span></label>
       </div>
@@ -157,6 +158,7 @@ include 'connection.php';
         <h class="subheading" ><b>Where do you work?</b> </h>
       </center>
     </div>
+
     <div class="row1">
       <div class="input-field col s6">      
         <input value="<?php echo $row['industry']; ?>" type="text" id="ind" name="industry"  >
@@ -177,12 +179,11 @@ include 'connection.php';
         <input value="<?php echo $row['designation']; ?>" type="text" id="desig" name="designation" required>
         <label for="desig">Designation <span style="color:red;">*</span></label>
       </div>         
-    </div>
+   </div>
 
-    <div class="input-field col s12" style="margin-bottom:30px;">
-       
+      <div class="input-field col s12" style="margin-bottom:30px;">
         <input value="<?php echo $row['work_address']; ?>" type="text" id="address" name="work_address">
-       <label for="address">Address</label>
+        <label for="address">Address</label>
       </div>
 
     <div class="row1">
@@ -207,20 +208,21 @@ include 'connection.php';
       </div>       
     </div>
     
-      <div class="row"></div>
-       <div class="heading">
+    <div class="row"></div>
+    
+    <div class="heading">
       <center><br>
         <h class="subheading"><b>Nostalgic Section</b> </h>
       </center>
     </div>
-     <div class="row1">
+    <div class="row1">
      <div class="input-field col s6">       
         <input value="<?php echo $row['rollNum']; ?>" type="text" id="roll" name="rollNum">
-      <label for="roll">Roll Number</label>
+        <label for="roll">Roll Number</label>
       </div>
       <div class="input-field col s6">
         <input value="<?php echo $row['joinYear']; ?>" type="number" min="1951" max="2006" id="join" name="joinYear" required>
-     <label for="join">Join Year <span style="color:red;">*</span></label>
+        <label for="join">Join Year <span style="color:red;">*</span></label>
       </div>      
     </div>
 
@@ -247,9 +249,9 @@ include 'connection.php';
     </div>
 
     <div class="row1">
-     <div class="input-field col s6">
+      <div class="input-field col s6">
         <input value="<?php echo $row['involvements']; ?>" type="text" id="involvements" name="involvements">
-        <label for="yog">Involvements (Societies, Hall Events, etc) </label>
+        <label for="yog">Involvements within the campus (Societies, Hall Events, etc) </label>
       </div>
       <div class="input-field col s6">
         <input value="<?php echo $row['hobbies']; ?>" type="text" id="hobbies" name="hobbies">
@@ -262,11 +264,15 @@ include 'connection.php';
         <label for="accompanyingNo">Accompaniments(Number of guests)<span style="color:red;">*</span></label>
     </div>
 
-        <div class="col l12 m12 s12" align="center">
-        <button type="submit" class="btn btn-success btn-lg btn-block " name="button" style="width:25%;">SUBMIT</button>
-        <div class="col l2 m2" style="min-width: 100px;"></div>
-       
-
+    <div class="row1">
+      <div class="col l6 m6 s6" align="center">
+        <button class="btn waves-effect waves-light" type="submit" style="background-color:#449d44;" name="action">Submit<i class="material-icons right">send</i>
+        </button>        
+    </div>
+     <div class="col l6 m6 s6" align="center">
+        <button class="btn waves-effect waves-light" type="submit" style="background-color: #d9534f;" name="action">Cancel<i class="material-icons right">cancel</i>
+        </button>
+    </div>
     </div>
 
   </form>

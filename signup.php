@@ -211,11 +211,11 @@
 
      <div class="heading">
       <center>
-        <h class="subheading" >Work Experience</h>
-         
-      </center><br><center style="color:#9e9e9e">
-Current or past work experiences as per relevance
-   </center> </div>
+        <h class="subheading"><b>Work Experience</b></h>         
+      </center><br>
+      <center style="color:#9e9e9e">Current or past work experiences as per relevance
+      </center>
+     </div>
 
 
    <div class="row1">
