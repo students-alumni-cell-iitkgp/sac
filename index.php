@@ -5,7 +5,7 @@
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 <head>
   <script type="text/javascript">
-    var deadline = new Date("jan 3, 2019 12:00:00").getTime();
+    var deadline = new Date("jan 11, 2019 12:00:00").getTime();
  
     var x = setInterval(function() {
      
