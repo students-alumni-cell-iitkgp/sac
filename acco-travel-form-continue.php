@@ -61,18 +61,18 @@ $result2=$connection->query($query2);
 
 if($result1!=FALSE && $result2!=FALSE) {
 	$_SESSION['form_submit']=TRUE;
-	echo '<script type="text/javascript">'; 
-	echo 'alert(" Your response is added ");'; 
-	echo 'window.location.href = "home.php";';
-	echo '</script>';
+	// echo '<script type="text/javascript">'; 
+	// echo 'alert(" Your response is added ");'; 
+	// echo 'window.location.href = "home.php";';
+	// echo '</script>';
 }
 
 else {
 	$_SESSION['form_submit']='fail';
-	echo '<script type="text/javascript">'; 
-	echo 'alert(" There is some problem, Please try again. ");'; 
-	echo 'window.location.href = "home.php";';
-	echo '</script>';
+	// echo '<script type="text/javascript">'; 
+	// echo 'alert(" There is some problem, Please try again. ");'; 
+	// echo 'window.location.href = "home.php";';
+	// echo '</script>';
 }
-
+header('location: home.php');
 ?>
