@@ -5,7 +5,7 @@
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 <head>
   <script type="text/javascript">
-    var deadline = new Date("jan 11, 2019 12:00:00").getTime();
+    var deadline = new Date("jan 3, 2019 12:00:00").getTime();
  
     var x = setInterval(function() {
      
@@ -28,6 +28,7 @@
             document.getElementById("second").innerHTML = '0'; }
     }, 1000);
 
+   
    
   </script>
   <title>Students Alumni Cell &middot; IIT Kharagpur</title>
@@ -60,17 +61,23 @@
    .about{
      padding-left: .5em;
    }
+
  }
  @media only screen and (max-width: 995px){
    #fbplug{
     display: none;
   }
 }
-@media only screen and (min-width: 993px){
-  .row .col.l3 {
-    
+@media (max-width: 767px){
+  .eventscol{
+    display: none;
+  }
+  .wwd{
+    margin-top: -120%;
   }
 }
+
+
 .carousel .carousel-item{
   width:350px;
   height:350px;
@@ -196,7 +203,7 @@
   <div>
     
       <div class="row" style="min-height: 400px">
-        <div class="col l3" style="margin-top: 1em;">
+        <div class="col l3 eventscol" style="margin-top: 1em;">
           
           <div class="row z-depth-1" style="background-color: white">
             
@@ -292,7 +299,7 @@
 
 
 
-  <div class="" style="width:100%;">
+  <div class="wwd" style="width:100%;">
     <div class="heading">
       <center>
         <h class="subheading"><b>What We Do</b></h>
