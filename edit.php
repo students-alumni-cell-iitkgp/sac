@@ -3,16 +3,7 @@ session_start();
 include 'connection.php';
           if($_SESSION["email"]=="")
           {
-            die('Un-Authorized Access detected !! <br> Click here to go to back :<html><head><link rel="stylesheet" href="css/materialize.min.css">
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="js/materialize.min.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-
-    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
-    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script></head><body><a href="home.php" class="btn btn-success btn-lg btn-block col l4 m5 s12" style=" position: fixed;width:8%; left: 30%; top: 12  %;">Cancel</a></body></html>');
+            header('Location: aam.php');
           }
           $query="SELECT * FROM users WHERE email='".$_SESSION["email"]."'";
           if( $query_run = mysqli_query($connection, $query) ){
