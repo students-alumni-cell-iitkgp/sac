@@ -94,8 +94,6 @@ This event is looked forward to by the students since it exposes them to a lot o
  Alumni Talks form a very important part of the working of Students' Alumni Cell by bridging the gap between the alumni and students and bringing them closer together. 
 
 This gives the alumni an opportunity and bring the students up to date with what they can achieve if they set their mind to it and motivate the students to achieve their dreams.
-Chat conversation end
-Type a message...
 
                 </p> 
                  </div>
