@@ -4,6 +4,32 @@
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 <head>
+  <script type="text/javascript">
+    var deadline = new Date("jan 11, 2019 12:00:00").getTime();
+ 
+    var x = setInterval(function() {
+     
+    var now = new Date().getTime();
+    var t = deadline - now;
+    var days = Math.floor(t / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((t%(1000 * 60 * 60 * 24))/(1000 * 60 * 60));
+    var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((t % (1000 * 60)) / 1000);
+    document.getElementById("day").innerHTML =days ;
+    document.getElementById("hour").innerHTML =hours;
+    document.getElementById("minute").innerHTML = minutes; 
+    document.getElementById("second").innerHTML =seconds; 
+    if (t < 0) {
+            clearInterval(x);
+            document.getElementById("demo").innerHTML = "TIME UP";
+            document.getElementById("day").innerHTML ='0';
+            document.getElementById("hour").innerHTML ='0';
+            document.getElementById("minute").innerHTML ='0' ; 
+            document.getElementById("second").innerHTML = '0'; }
+    }, 1000);
+
+   
+  </script>
   <title>Students Alumni Cell &middot; IIT Kharagpur</title>
   <link rel="icon" href="img/meet_14.png">
   <link rel="stylesheet" href="css/materialize.min.css">
@@ -42,7 +68,7 @@
 }
 @media only screen and (min-width: 993px){
   .row .col.l3 {
-    width: 100%;
+    
   }
 }
 .carousel .carousel-item{
@@ -50,31 +76,42 @@
   height:350px;
   opacity: 1 !important;
 }
-marquee {
-  -webkit-animation:  caption 50s linear 0s infinite;
-  font-family:'Segoe ui';
-  padding: 2px 0;
-  border: 1px solid #000;
-  background-color: #;
-  -webkit-box-shadow: inset 0px 2px 2px rgba(0, 0, 0, .5), 0px 1px 0px rgba(250, 250, 250, .2);
-  box-shadow: inset 0px 2px 2px rgba(0, 0, 0, .5), 0px 1px 0px rgba(250, 250, 250, .2);
-  -webkit-transition: background-color 350ms;
-  -moz-transition: background-color 350ms;
-  transition: background-color 350ms;
-  overflow: hidden;
-  overflow-x:-webkit-marquee;
-  -webkit-marquee-direction: right;
-  -webkit-marquee-style: scroll;
-  -webkit-marquee-speed: normal;
-  -webkit-marquee-increment: small;
-  -webkit-marquee-repetition: 5;
-  overflow-x: marquee-line;
-  marquee-direction: forward;
-  marquee-style: loop;
-  marquee-speed: slow;
-  marquee-play-count: 5;
-  color:#28282a;
-  background:#cfdee3;
+
+
+#clockdiv{
+    color: #333;
+    display: inline-block;
+    text-align: center;
+    font-weight: 900;
+    font-size:22;
+    width:100%;
+}
+#clockdiv > div{
+    width:23%;
+    border-radius: 3px;
+    background-color: #e4e4e2;
+    padding-bottom: 8px;
+    display: inline-block;
+}
+#clockdiv div > span{
+    padding: 8px;
+    border-radius: 3px;
+    background-color: #e4e4e2;
+    display: inline-block;
+}
+.smalltext{
+    font-size: 13;
+}
+#mholder {
+    position: absolute;
+    overflow: hidden;
+}
+.marqueeElement {
+    border-bottom: 1px solid;
+    border-bottom-color:  rgb(221,221,221);
+    border-top: 1px solid;
+    border-top-color: rgb(221,221,221);
+    
 }
 </style>
 </head>
@@ -136,7 +173,7 @@ marquee {
 </div>
 <!--sliderover-->
 
-<marquee  scrollamount="5" scrolldelay="2" onmouseover="this.stop();" onmouseout="this.start();"><p style="font-size: 150%;" > Kerela is in great need of help . Please donate <a href="http://alumni.iitkgp.ac.in/Alumniweb/GoThroughCampaign/?camp_id=19&purpose=readmore" target="blank">here</a> as an alumnus.</p></marquee>
+
 <div>
 
   <div class="row">
@@ -157,10 +194,80 @@ marquee {
     </div-->
   </div>
   <div>
-    <div class="center-align">
-      <div class="row">
-        <div class="col l8">  <div style="background-color: white;">
-          <p class="z-depth-1 text_align" style="font-size: 16px;padding: 3.3em 3em">
+    
+      <div class="row" style="min-height: 400px">
+        <div class="col l3" style="margin-top: 1em;">
+          
+          <div class="row z-depth-1" style="background-color: white">
+            
+            <div id="clockdiv" style="background-color:white; padding:5px;">
+            
+            <div>
+            <span class="days" id="day"></span>
+            <div class="smalltext">DAYS</div>
+            </div>
+            <div>
+              <span class="hours" id="hour"></span>
+              <div class="smalltext">HOURS</div>
+            </div>
+            <div>
+              <span class="minutes" id="minute"></span>
+              <div class="smalltext">MINUTES</div>
+            </div>
+            <div>
+              <span class="seconds" id="second"></span>
+              <div class="smalltext">SECONDS</div>
+            </div><br>
+            <p style="font-size:19;color: #64bae4">Annual Alumni Meet 2019</p>
+            
+          </div>
+           
+          
+          </div>
+          <br><br>
+          <div class="row z-depth-1" id="mholder data" style="background-color: white;height:180px;overflow:scroll;padding:5px;margin-top:-13.5%;overflow:  hidden;">
+
+            <div class="row"
+">
+              <div class="card horizontal marqueeElement" style="font-size: 14px;margin-top: -5%" >
+                <div class="card-stacked">  
+                  <div class="card-image col l4" style="margin-top: -2%"><center>
+                    <br><font size="5" style="margin-left: -1%"><b>AUG</font><br>
+                    <font size="5">6</font></b>
+                  </center>
+                  </div>
+                
+                  <div class="card-content col l8" style="border-bottom: unset;;margin-bottom: -4%">
+                    <p>The 16th Annual Alumni Meet registrations are open now. <a href="https://sac.iitkgp.ac.in/aam.php">Register here.</a>
+
+</p>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="card horizontal marqueeElement" style="font-size: 14px;margin-top: -6%">
+                <div class="card-image col l4" style="margin-top: -2%"><center>
+                  <br><font size="5" style="margin-left: -1%"><b>AUG</font><br>
+                  <font size="5">23</b></font><br><br>
+                </center>
+                </div>
+
+                <div class="card-stacked col l8">
+                  <div class="card-content" style="border-bottom: unset;margin-left: -6%">
+                    <p>Kerela is in great need of help . Please <a href="http://alumni.iitkgp.ac.in/Alumniweb/GoThroughCampaign/?camp_id=19&purpose=readmore" target="_blank">donate here</a> as an alumnus.
+
+</p>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col l6">  <div style="background-color: white;">
+          <p class="z-depth-1 text_align" style="font-size: 16px;padding: 1.9em 2.3em">
             The Students' Alumni Cell, IIT Kharagpur is a voluntary student body working under the aegis 
             of the Dean of Alumni Affairs and International Relations. It strives to bridge the gap between 
             IIT Kharagpur and its esteemed alumni community.<br>
@@ -174,8 +281,8 @@ marquee {
             (Giving Back - Alumni contribution) and organises Alvida (the annual farewell dinner).
           </p>
         </div></div>
-        <div class="col l4" style="margin-top: 1em;">
-          <div id="fbplug" style="width: 425px; background-color: #fff" class="z-depth-1 fb-page" data-href="https://www.facebook.com/iitkgp.alumnicell/?fref=ts" data-tabs="timeline" data-height="347px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/iitkgp.alumnicell/?fref=ts" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/iitkgp.alumnicell/?fref=ts">Alumni Cell, IIT Kharagpur</a></blockquote></div>
+        <div class="col l3" style="margin-top: 1em;height:450px">
+          <div id="fbplug" style="background-color: #fff" class="z-depth-1 fb-page" data-href="https://www.facebook.com/iitkgp.alumnicell/?fref=ts" data-tabs="timeline" data-height="347px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/iitkgp.alumnicell/?fref=ts" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/iitkgp.alumnicell/?fref=ts">Alumni Cell, IIT Kharagpur</a></blockquote></div>
         </div>
       </div>
     </div>
