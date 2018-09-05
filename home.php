@@ -294,7 +294,7 @@ if( $query_run = mysqli_query($connection, $query) ){
 
 </div>
 <div class="fixed-action-btn" style="bottom: 25px; right: 25px;" id="power">
-  <a class="btn-floating btn-large" id="logout" title="Logout" >
+  <a class="btn-floating btn-large tooltipped" data-position="top" data-delay="50" data-tooltip="Logout" id="logout" >
     <i class="large material-icons" style="font-size: 30px">power_settings_new</i>
   </a>
 </div>
@@ -359,7 +359,7 @@ if( $query_run = mysqli_query($connection, $query) ){
     });
   });
 </script>
-<?php 
+<?php
   if($_SESSION['edit_submit'] == 1){
     echo " <style> .swal-title { margin-bottom: 80px !important; }</style>
     <script>
