@@ -266,7 +266,7 @@ include 'connection.php';
 
     <div class="row1">
       <div class="col l6 m6 s6" align="center">
-        <button class="btn waves-effect waves-light" type="submit" style="background-color:#449d44;" name="action">Submit<i class="material-icons right">send</i>
+        <button class="btn waves-effect waves-light" type="submit" style="background-color:#449d44;" name="button1">Submit<i class="material-icons right">send</i>
         </button>        
     </div>
      <div class="col l6 m6 s6" align="center">
