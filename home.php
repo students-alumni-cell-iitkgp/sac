@@ -361,10 +361,11 @@ if( $query_run = mysqli_query($connection, $query) ){
 </script>
 <?php
   if($_SESSION['edit_submit'] == 1){
-    echo " <style> .swal-title { margin-bottom: 80px !important; }</style>
+    echo " 
     <script>
       swal({ 
         title: 'Successfully Edited!',
+        text: ' ',
         icon: 'success',
         buttons: false,
         timer: 1500,
@@ -376,10 +377,11 @@ if( $query_run = mysqli_query($connection, $query) ){
 ?>
 <?php 
   if($_SESSION['form_submit'] == true){
-    echo " <style> .swal-title{ margin-bottom: 80px !important; }</style>
+    echo "
     <script>
       swal({
         title: 'Successfully Submitted!',
+        text: ' ',
         icon: 'success',
         buttons: false,
         timer: 1500,
