@@ -24,7 +24,7 @@
        height: 200px;
        width: 45vw;
     }
-    
+
 }
     @media only screen and (max-width: 600px) {
     .normal {
@@ -49,13 +49,13 @@ max-width:100%;
        /* margin-left: 80px;*/
        max-width: 100%;
     }
-   } 
+   }
      .normal{
         margin: 10px;
     }
     .long{
         width: 300px;
-    }   
+    }
 </style>
     <script>
     $(document).ready(function(){
@@ -82,20 +82,20 @@ max-width:100%;
                     Since its inception in 1951, IIT Kharagpur has mentored some of the most eminent personalities in the history of the nation.
 
 The Alumni Talks provide a medium for the alumni to give back to the institute by imparting their experience to the students and preparing them for the real world.
- 
-The topics of these guest lectures are spread all over ranging from personality development to department related technical lectures. 
+
+The topics of these guest lectures are spread all over ranging from personality development to department related technical lectures.
 
 The guest lectures pave a way for interaction between the alumni and the current students.
- 
+
 Having a large alumni base to learn from has always been an integral benefit of being a student of IIT Kharagpur and these lectures ensure exactly that. <br><br>
 
- IIT Kharagpur also organizes the Leadership Summit - an event where IIT Kharagpur alumni who are reputed leaders in their respective fields come together on one platform and enthusiastically share the secrets of their success. 
+ IIT Kharagpur also organizes the Leadership Summit - an event where IIT Kharagpur alumni who are reputed leaders in their respective fields come together on one platform and enthusiastically share the secrets of their success.
 This event is looked forward to by the students since it exposes them to a lot of a practical knowledge that can help them move up the corporate ladder with ease.<br><br>
- Alumni Talks form a very important part of the working of Students' Alumni Cell by bridging the gap between the alumni and students and bringing them closer together. 
+ Alumni Talks form a very important part of the working of Students' Alumni Cell by bridging the gap between the alumni and students and bringing them closer together.
 
 This gives the alumni an opportunity and bring the students up to date with what they can achieve if they set their mind to it and motivate the students to achieve their dreams.
 
-                </p> 
+                </p>
                  </div>
         <!--div class="col l4 s12 m4">
         <div class="info z-depth-2">
@@ -114,10 +114,23 @@ This gives the alumni an opportunity and bring the students up to date with what
     <center>
         <div class="heading ac-head" style="border:3px black solid; display: inline-block; padding-top: 2px; margin: 3px;padding-right: 20px;padding-left: 20px;" >
 
-            <h4 style="margin-bottom: 0px;"><b>Alumni Talks</b><br><div style="font-size: 75%;">with</div> </h4>
+          <h4 style="margin-bottom: 0px;"><b>Alumni Talks</b><br></h4>
+          <div class="row">
+              <div class="col l3 m3 s12" >
+                  <h5 style="margin-top: 4.5px;margin-left: -20px;font-size:25px;">
+                  <b>  Speakers : </b>
+                  </h5>
+             </div>
+             <div class="col l9 m9 s12">
+                  <h6 style="text-align: left; margin-left: -25px; font-size:18px;">Mr. Aditya Sharma (Partner - McKinsey & Company)
+                  <br>
+                     Mr. Ashutosh Mohapatra (Senior Associate - McKinsey & Company)
+                  <br>
+                      Mr. Abhishek Narain (Associate - McKinsey & Company)</h6>
 
-            <h5 style="font-size:120%;margin-top: 0px;">Mr. Aditya Sharma (Partner), Mr. Ashutosh Mohapatra (Senior Associate) and<br><br>
-            Mr. Abhishek Narain (Associate) from McKinsey & Company</h5> </div>
+            </div>
+          </div>
+        </div>
         </center>
 
 
@@ -134,19 +147,30 @@ This gives the alumni an opportunity and bring the students up to date with what
                 <center>
                     <img class="materialboxed normal" src="img/guest-lecture/talk_MCK/c.jpg" width="430"></center>
                 </div>
-            </center> 
+            </center>
         </div>
 
 <div class="row"><center>
-                
-                    <center>
-                    <div class="heading ac-head" style="border:3px black solid; display: inline-block; padding-top: 2px; margin: 3px;padding-right: 20px;padding-left: 20px;" >
 
-                        <h4 style="margin-bottom: 0px;"><b>Alumni Talks</b><br><div style="font-size: 75%;">with</div> </h4>
-                        
-                        <h5 style="font-size:120%;margin-top: 0px;">Mr Arnav Kumar (AVP, SAIF Partners) and Mr Abhinav Sinha (COO, OYO)</h5> </div>
+                    <center>
+                    <div class="heading ac-head" style="border:3px black solid; display: inline-block; padding-top: 2px; width:40%; margin: 3px;padding-right: 20px;padding-left: 20px;" >
+
+                        <h4 style="margin-bottom: 0px;"><b>Alumni Talks</b><br>
+                          <div class="col l3 m3 s12" >
+                                <h5 style="margin-top: 4.5px;margin-left: -20px;font-size:25px;">
+                                <b>  Speakers : </b>
+                                </h5>
+                          </div></h4>
+                          <div class="col l9 m9 s12">
+                               <h6 style="text-align: left; margin-left: 0px; font-size:18px;margin-top: 5px;">Mr Arnav Kumar (AVP, SAIF Partners)
+                               <br>
+                                  Mr Arnav Kumar (AVP, SAIF Partners)
+                              </h6>
+
+                         </div>
+                       </div>
                     </center>
-                
+
 
                 <div class="col l4 m4 s12">
                     <center>
@@ -167,7 +191,7 @@ This gives the alumni an opportunity and bring the students up to date with what
  <center>
         <div class="heading ac-head" style="border:3px black solid; display: inline-block; padding-top: 2px; margin: 3px;padding-right: 20px;padding-left: 20px;">
 
-               <h4><b>Guest Lecture</b></h4> 
+               <h4><b>Guest Lecture</b></h4>
                 <h5 style="font-size:120%;"> Mr Mark Richard (President and COO at DatabaseUSA)</h5></div>
     </center>
     <center>
@@ -176,7 +200,7 @@ This gives the alumni an opportunity and bring the students up to date with what
             <div class="col l6 m6 s12">
                 <img class=" materialboxed normal bigg" src="img/guest-lecture/Mr_Mark_Richard/3.jpg" height="420px">
             </div>
-            
+
   <div class="col l3 m6 s12">
                 <img class=" materialboxed normal" src="img/guest-lecture/Mr_Mark_Richard/1.jpg" height="200">
             </div>
@@ -199,29 +223,29 @@ This gives the alumni an opportunity and bring the students up to date with what
 </div>
 
 <div class="row"><center>
-                
+
                     <center>
                     <div class="heading ac-head" style="border:3px black solid; display: inline-block; padding-top: 2px; margin: 3px;padding-right: 20px;padding-left: 20px;" >
 
                         <h4><b>Tips from Top</b></h4>
                     <div class="row">
                         <div class="col l3 m3 s12" >
-                            <h5 style="margin-top: 4.5px;margin-left: -20px;">
-                     Speakers :  
+                            <h5 style="margin-top: 4.5px;margin-left: -20px;font-size:25px;">
+                    <b> Speakers :</b>
                  </h5>
                      </div>
                      <div class="col l9 m9 s12">
-                      <h6 style="text-align: left; margin-left: -25px;">Mr. Vineet Goyal (IPS, Addl. Commissioner of Police, Kolkata)
+                      <h6 style="text-align: left; margin-left: -25px;font-size:18px;">Mr. Vineet Goyal (IPS, Addl. Commissioner of Police, Kolkata)
                             <br>
                         Prof Parameshwar P. Iyer (Principal research scientist at IISc. Bangalore)
                         <br>
-                     Mr. Maneesh Bhandari (Director of Center for Innovation Incubation and Entrepreneurship, IIM Ahmedabad)</h6> 
-                 
+                     Mr. Maneesh Bhandari (Director of Center for Innovation Incubation and Entrepreneurship, IIM Ahmedabad)</h6>
+
                  </div>
              </div>
              </div>
                     </center>
-                
+
 
                 <div class="col l4 m4 s12">
                     <center>
@@ -239,14 +263,14 @@ This gives the alumni an opportunity and bring the students up to date with what
 
 
 
-    
+
 
 
 <div class="row" ><center>
  <center>
         <div class="heading ac-head" style="border:3px black solid; display: inline-block; padding-top: 2px; margin: 3px;padding-right: 20px;padding-left: 20px;">
 
-               <h4><b>Guest Lecture</b></h4> 
+               <h4><b>Guest Lecture</b></h4>
                <h5 style="font-size:120%;"> Mr Veerendra Jaitly (Founder C_CUBE Consultants | RTD.Commander of Indian Navy)</h5></div>
     </center>
 
@@ -265,13 +289,13 @@ This gives the alumni an opportunity and bring the students up to date with what
         </div></center>
 </div>
 <div class="row"><center>
-        
+
             <center>
                <div class="heading ac-head" style="border:3px black solid; display: inline-block; padding-top: 2px; margin: 3px;padding-right: 20px;padding-left: 20px;">
 
                 <h4><b>KGP & Beyond</b></h4> </div>
             </center>
-        
+
 
         <div class="col l4 m4 s12">
             <center>
@@ -289,7 +313,7 @@ This gives the alumni an opportunity and bring the students up to date with what
 </div>
 
     <div class="row">
-     
+
         <center>
            <div class="heading ac-head" style="border:3px black solid; display: inline-block; padding-top: 2px; margin: 3px;padding-right: 20px;padding-left: 20px;">
 
@@ -323,9 +347,9 @@ This gives the alumni an opportunity and bring the students up to date with what
       <div class="row">
 
 
-    
 
-    
+
+
     <div class="col l3 s12 m3">
     <div class="video-container">
     <iframe width="854" height="480" src="https://www.youtube.com/embed/-xeGNz5P5F4" frameborder="0" allowfullscreen></iframe>
@@ -345,12 +369,12 @@ This gives the alumni an opportunity and bring the students up to date with what
     <div class="video-container">
         <iframe class="frame" src="https://www.youtube.com/embed/_mZLjVCMrrc" allowfullscreen></iframe>
       </div>
-    </div> 
+    </div>
 
     </div>
-    
 
-    <?php include 'footer.php';?>  
+
+    <?php include 'footer.php';?>
   </body>
   <script type="text/javascript" src="js/style.js"></script>
   </html>
