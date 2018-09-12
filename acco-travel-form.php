@@ -119,10 +119,10 @@ if (($query_run1)&&($query_run2)) {
         </select>
       -->
       <select name="depDate" required >
-        <option value="13th January 2018" <?php if( @$query2['departdate'] == "13th January 2018") echo 'selected = "selected"';?> >13th January 2018</option>
-        <option value="14th January 2018" <?php if( @$query2['departdate'] == "14th January 2018") echo 'selected = "selected"';?>>14th January 2018</option>
-        <option value="15th January 2018" <?php if( @$query2['departdate'] == "15th January 2018") echo 'selected = "selected"';?>>15th January 2018</option>
-        <option value="16th January 2018" <?php if( @$query2['departdate'] == "16th January 2018") echo 'selected = "selected"';?>>16th January 2018</option>
+        <option value="13th January 2018" <?php if( @$query2['departdate'] == "13th January 2018") echo 'selected = "selected"';?> >13th January 2019</option>
+        <option value="14th January 2018" <?php if( @$query2['departdate'] == "14th January 2018") echo 'selected = "selected"';?>>14th January 2019</option>
+        <option value="15th January 2018" <?php if( @$query2['departdate'] == "15th January 2018") echo 'selected = "selected"';?>>15th January 2019</option>
+        <option value="16th January 2018" <?php if( @$query2['departdate'] == "16th January 2018") echo 'selected = "selected"';?>>16th January 2019</option>
       </select>
     </div><br>
     <div >
