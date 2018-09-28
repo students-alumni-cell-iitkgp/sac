@@ -81,19 +81,7 @@ else
         url: 'acapregstu.php',
         data: $('#form2').serialize(),
         success: function (response) {
-         if(response== 0 )
-         {
-          swal({
-            title: "WRONG CAPTCHA!",
-            text: "Please re-enter the captcha!",
-            icon: "error",
-            buttons: true,
-            dangerMode: true,
-          }).then((value) => {
-
-          });
-        }
-        else if(response== 1 )
+        if(response== 0 )
         {
           swal({
             title: "INCOMPLETE DETAILS!",
@@ -490,7 +478,7 @@ else
 
       <!-- Modal Trigger -->
 
-      <a class="waves-effect waves-light btn disabled">Students Registration</a>
+      <a class="waves-effect waves-light btn modal-trigger" href="#modal2">Students Registration</a>
 
     </div>
 
