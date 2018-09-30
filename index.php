@@ -1,7 +1,7 @@
 <html>
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 <head>
-
+	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
   	<title>Students Alumni Cell &middot; IIT Kharagpur</title>
@@ -125,7 +125,6 @@
   			fjs.parentNode.insertBefore(js, fjs);
 		}(document, 'script', 'facebook-jssdk'));
 	</script>	
-
  	<script>
    		$(document).ready(function(){
    		if ($(window).width()>992) {
@@ -149,6 +148,7 @@
     	});
   		});
 	</script>
+
 
 	<style> 
 		@media only screen and (max-width: 992px){
@@ -329,11 +329,7 @@
 	</div>
 	<!--Carousel over-->
 
-  	<div class="row">
-    	<div class="heading">
-      		<center><h class="subheading"><b>About Us</b></h></center>
-    	</div>    
-  	</div> 
+  	<div class="row"><div class="heading"><center><h class="subheading"><b>About Us</b></h></center></div></div> 
   	<!-- First row conatining : (1)Recent events (2)About us (3)Fb feed --> 
   	<div class="row" style="min-height: 400px">
   		<!-- Recent events -->
@@ -351,7 +347,6 @@
           	</div>
           	<br><br>
           	<div class="row z-depth-1" id="mholder data" style="background-color: white;height:180px;overflow:scroll;padding:5px;margin-top:-13.5%;overflow:  hidden;">
-
             	<div class="row"">
               		<div class="card horizontal marqueeElement" style="font-size: 14px;margin-top: -5%" >
               			<div class="card-stacked">
@@ -377,9 +372,9 @@
               		</div>
             	</div>
            	</div>
-       </div>
-       <!-- About us -->
-       <div class="col l6"> 
+       	</div>
+       	<!-- About us -->
+       	<div class="col l6"> 
         	<div style="background-color: white;">
           		<p class="z-depth-1 text_align" style="font-size: 16px;padding: 1.9em 2.3em">
             		The Students' Alumni Cell, IIT Kharagpur is a voluntary student body working under the aegis 
@@ -395,23 +390,22 @@
             		(Giving Back - Alumni contribution) and organises Alvida (the annual farewell dinner).
           		</p>
         	</div>
-       </div>
-       <!-- FB Feed -->
-       <div class="col l3" style="margin-top: 1em;height:450px">
+       	</div>
+       	<!-- FB Feed -->
+       	<div class="col l3" style="margin-top: 1em;height:450px">
         		<div id="fbplug" style="background-color: #fff" class="z-depth-1 fb-page" data-href="https://www.facebook.com/iitkgp.alumnicell/?fref=ts" data-tabs="timeline" data-height="347px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
         			<blockquote cite="https://www.facebook.com/iitkgp.alumnicell/?fref=ts" class="fb-xfbml-parse-ignore">
         				<a href="https://www.facebook.com/iitkgp.alumnicell/?fref=ts">Alumni Cell, IIT Kharagpur</a>
         			</blockquote>
         		</div>
-       </div>
+       	</div>
   	</div>
   	
   	<div class="row" style="width:100%;">
-  		<div class="heading">
-      		<center><h class="subheading"><b>What We Do</b></h></center>
+  		<div class="heading"><center><h class="subheading"><b>What We Do</b></h></center>
     	</div>
     </div>
-    
+
     <!-- Second Row begins here -->
     <div class="row" style="margin:auto;width:90%;">
       	<div class="col l4 s12 m4">
@@ -578,3 +572,4 @@
 	</script>
 </body>
 </html>
+

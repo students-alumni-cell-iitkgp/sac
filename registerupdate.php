@@ -61,7 +61,7 @@ $sql = "UPDATE users SET email='$email',Time='$time', name='$name', address='$ad
 $_SESSION["email"] = $email;
 if ($connection->query($sql)) {
   $connection->close();
-  if(isset($_POST['button'])){
+  if(isset($_POST['button1'])){
      $_SESSION['edit_submit'] = 1;
    } else {
        $_SESSION['edit_submit'] = 0;

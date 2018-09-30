@@ -275,7 +275,8 @@ if( $query_run = mysqli_query($connection, $query) ){
 
           <p style="text-align: justify;">
             Alumni Card is officially distributed to all alumni during the Annual Alumni Meet.
-            Kindly upload your picture below to be printed in your Alumni Card (preferably a passport size photograph, image size should be less than 500 Kb and of jpg,jpeg and png format)
+            Kindly upload your picture below to be printed in your Alumni Card (preferably a passport size photograph, image size should be less than 500 Kb and of 
+            jpg, jpeg and png format)
           </p>
           <?php
           include 'profile_pic.php';
@@ -343,7 +344,7 @@ if( $query_run = mysqli_query($connection, $query) ){
 <!--till here-->
 <script >
   $("#logout").click(function(){
-    swal ({
+    swal ({ 
       title: "Are you sure, want to logout?",
       icon: "warning",
       buttons: {
@@ -360,16 +361,48 @@ if( $query_run = mysqli_query($connection, $query) ){
 </script>
 <?php
   if($_SESSION['edit_submit'] == 1){
-    echo "
+    echo " 
     <script>
-      swal({
+      swal({ 
         title: 'Successfully Edited!',
+        text: ' ',
         icon: 'success',
         buttons: false,
         timer: 1500,
         });
         </script>";
+
         unset($_SESSION['edit_submit']);
+  }
+?>
+<?php 
+  if($_SESSION['form_submit'] == true){
+    echo "
+    <script>
+      swal({
+        title: 'Successfully Submitted!',
+        text: ' ',
+        icon: 'success',
+        buttons: false,
+        timer: 1500,
+        });
+        </script>";
+        unset($_SESSION['form_submit']);
+  }
+?>
+<?php 
+  if($_SESSION['form_submit'] == 'fail'){
+    echo "
+    <script>
+      swal({
+        title: 'Error',
+        text: 'Please try again later!',
+        icon: 'success',
+        buttons: false,
+        timer: 1500,
+        });
+        </script>";
+        unset($_SESSION['form_submit']);
   }
 ?>
 <?php include 'footer.php';?>
