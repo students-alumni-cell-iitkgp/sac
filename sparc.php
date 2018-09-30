@@ -9,36 +9,68 @@
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <style type="text/css">
-
+      body{
+        overflow-x: hidden;
+      }
        @media only screen and (min-width: 768px){
         .ac-sparc img{
        
         max-width: 100%;
-    }
+        }
        }
+
        @media only screen and (max-width: 468px){
         .ac-sparc img{
         margin: 0px auto;
         max-width:100%;
+        height: 30%;
 
         }
         #h1{
-          font-size: 12px;
+          font-size: 4vw;
         }
         #h2{
-          font-size: 25px;
-        }
-        #h3{
+          font-size: 4.5vw;
+        } 
+        #h3 h4{
 
-          font-size: 15px;
+          font-size: 5vw;
         }
         #h4{
-          font-size: 25px;
+          font-size: 4.3vw;
+        }
+        #h5{
+          font-size: 4.5vw;
+        }
+        .subheading{
+          padding: 5px;
+        }
+        #mumbai-img img{
+          padding-left: 10px;
+          padding-right: 15px;          
         }
        }
      @media only screen and (max-width: 995px){
          #fbplug{
             display: none;
+        }
+        .subheading{
+          padding: 10px;
+          font-size: 4.5vw;
+        }
+        #h3 h4{
+
+          font-size: 4.5vw;
+        }
+        #mumbai-img img{
+          padding-left: 10px;
+          padding-right: 15px;          
+        }
+        #about-bold b{
+          font-size: 3.9vw;
+        }
+        #about, #benefits-info, #bangalore-info {
+          font-size: 3.7vw;
         }
      }
 
@@ -59,7 +91,7 @@
 <?php include 'navbar.php';?>
 
  <div class="row ac-sparc">
-        <img src="img/sparccover.jpg"  >
+        <img src="img/sparccover.jpg"  width="100%" height="60%">
     </div>
 <div>
 <div class="center-align">
@@ -67,16 +99,16 @@
 
 
 <div class="col l8"> 
-  <div  class="col l12 m12 s12  z-depth-1">
+  <div  class="col l12 m12 s12  z-depth-1" id="container-1">
       <div  class="heading">
           <center>
               <h id="h1" class="subheading"><b>Students&#39 Pan IIT Alumni Relations Cell</b></h>
           </center>
       </div>
       <center>
-        <p style="font-style:italic;font-size:18px"><b>''We are each other's harvest,<br>We are each other's business,<br>We are each other magnitude and bond.''</b></p>
+        <p style="font-style:italic;font-size:18px" id="about-bold"><b>''We are each other's harvest,<br>We are each other's business,<br>We are each other magnitude and bond.''</b></p>
       </center>
-    <p class="text_align" style="padding:1% 10% 6% 10%;">
+    <p class="text_align" id="about" style="padding:1% 10% 6% 10%;">
       The vision of the Indian Institutes of Technology has been to contribute to India and the world by imrovising scientific and technical education in India, to generate enormous research opportunities and to remain a source of pride for all Indians. <b>Students&#39 Pan IIT Alumni Relation Cell i.e., SPARC</b> is an umbrella organization covering student executed alumni relation bodies of all the Indian Institutes of Technology. SPARC is an initiative that aims at providing a strong fraternity amongst the IIT alumni such that the human potential successfully developed to its fullest in the course of years can be helpful to a much larger scale in grooming the next generation of IITians.
      
     </p>
@@ -100,7 +132,7 @@
       <h id="h2" class="subheading"><b>Benefits of SPARC</b></h>
     </center>
   </div>
-    <ul class="browser-default">
+    <ul class="browser-default" id="benefits-info">
       <li>
         <p class="text_align" style="padding:1% 10% 2% 10%">
           With its enormous number of alumni who have excelled in their respective fields which range from Science and Technology to Entertainment and Arts, there will be an upcoming generation of IITians who have learned from the experiences of these alumni. SPARC will make this happen at a scale larger than ever and thus help developing the nation.
@@ -120,24 +152,24 @@
   <div class="col l12 m12 s12 z-depth-1">
     <br><br>
  <center>
-         <div class="heading ac-head" style="border:3px black solid; display: inline-block; padding-top: 2px; margin: 3px;padding-right: 20px;padding-left: 20px;" >
+         <div class="heading ac-head" id="h3" style="border:3px black solid; display: inline-block; padding-top: 2px; margin: 3px;padding-right: 5px;padding-left: 5px;" >
             <h4><b>Student Alumni Meet '17</b> - Mumbai</h4>
             </div>
         </center>
     <br><br>
 
      <div class="row">
-    <div class="col l4 m4 s12">
+        <div class="col l4 m4 s12" id="mumbai-img">
         
-            <img class="materialboxed normal" src="img/sam/Mumbai/1.jpg" width="410">
+            <img class="materialboxed normal" src="img/sam/Mumbai/1.jpg" width="100%">
         
-            </div>
-        <div class="col l4 m4 s12">
-            <img class="materialboxed normal" src="img/sam/Mumbai/2.jpg" width="410">
         </div>
-        <div class="col l4 m4 s12">
+        <div class="col l4 m4 s12" id="mumbai-img">
+            <img class="materialboxed normal" src="img/sam/Mumbai/2.jpg" width="100%">
+        </div>
+        <div class="col l4 m4 s12" id="mumbai-img">
             
-                <img class="materialboxed normal" src="img/sam/Mumbai/3.jpg" width="410">
+                <img class="materialboxed normal" src="img/sam/Mumbai/3.jpg" width="100%">
             
         </div>
 
@@ -152,10 +184,10 @@
   <div class="col l12 m12 s12 z-depth-1">
   <div class="heading">
     <center>
-      <h id="h3" class="subheading"><b>Student Alumni Meet '16</b> - Bangalore</h>
+      <h id="h4" class="subheading"><b>Student Alumni Meet '16</b> - Bangalore</h>
     </center>
   </div>
-    <p class="text_align" style="padding:1% 10% 2% 10%">
+    <p class="text_align" id="bangalore-info" style="padding:1% 10% 2% 10%">
       One of the glances from our first event, Students' Alumni Meet in Bangalore. Owing to the huge response received from the students as well as the alumni, SPARC will come up with more such events and programmes in the future.
     </p>
     <img class="image" src="img/sam/Bangalore/e.jpg" style="padding:10px;width:100%"><br><br>
@@ -174,8 +206,8 @@
             <center>
 
                 <div class="row">
-                    <div class="col l6"><img height="350" src="img/deansmeet2.jpg" alt=""></div>
-                    <div class="col l6"><img height="350" src="img/deansmeet1.jpg" alt=""> </div>
+                    <div class="col l6"><img width="100%" src="img/deansmeet2.jpg" alt=""></div>
+                    <div class="col l6"><img width="100%" src="img/deansmeet1.jpg" alt=""> </div>
                 </div>
 
             </center>
@@ -189,11 +221,11 @@
       <div class="col l12 m12 s12 z-depth-1">
           <div class="heading">
             <center>
-              <h id="h4" class="subheading"><b>Future Initiatives</b></h>
+              <h id="h5" class="subheading"><b>Future Initiatives</b></h>
             </center>
           </div>
-          <center>
-            <img src="img/future_init.png" style="width:80%">
+          <center  id="future_init">
+            <img src="img/future_init.png" style="width:90%">
           </center>
       </div>
     </div>
