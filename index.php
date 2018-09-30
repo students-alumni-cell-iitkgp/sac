@@ -4,6 +4,33 @@
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 <head>
+  <script type="text/javascript">
+    var deadline = new Date("jan 11, 2019 12:00:00").getTime();
+ 
+    var x = setInterval(function() {
+     
+    var now = new Date().getTime();
+    var t = deadline - now;
+    var days = Math.floor(t / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((t%(1000 * 60 * 60 * 24))/(1000 * 60 * 60));
+    var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((t % (1000 * 60)) / 1000);
+    document.getElementById("day").innerHTML =days ;
+    document.getElementById("hour").innerHTML =hours;
+    document.getElementById("minute").innerHTML = minutes; 
+    document.getElementById("second").innerHTML =seconds; 
+    if (t < 0) {
+            clearInterval(x);
+            document.getElementById("demo").innerHTML = "TIME UP";
+            document.getElementById("day").innerHTML ='0';
+            document.getElementById("hour").innerHTML ='0';
+            document.getElementById("minute").innerHTML ='0' ; 
+            document.getElementById("second").innerHTML = '0'; }
+    }, 1000);
+
+   
+   
+  </script>
   <title>Students Alumni Cell &middot; IIT Kharagpur</title>
   <link rel="icon" href="img/meet_14.png">
   <link rel="stylesheet" href="css/materialize.min.css">
@@ -34,47 +61,64 @@
    .about{
      padding-left: .5em;
    }
+
  }
  @media only screen and (max-width: 995px){
    #fbplug{
     display: none;
   }
 }
-@media only screen and (min-width: 993px){
-  .row .col.l3 {
-    width: 100%;
+@media (max-width: 767px){
+  .eventscol{
+    display: none;
+  }
+  .wwd{
+    margin-top: -120%;
   }
 }
+
+
 .carousel .carousel-item{
   width:350px;
   height:350px;
   opacity: 1 !important;
 }
-marquee {
-  -webkit-animation:  caption 50s linear 0s infinite;
-  font-family:'Segoe ui';
-  padding: 2px 0;
-  border: 1px solid #000;
-  background-color: #;
-  -webkit-box-shadow: inset 0px 2px 2px rgba(0, 0, 0, .5), 0px 1px 0px rgba(250, 250, 250, .2);
-  box-shadow: inset 0px 2px 2px rgba(0, 0, 0, .5), 0px 1px 0px rgba(250, 250, 250, .2);
-  -webkit-transition: background-color 350ms;
-  -moz-transition: background-color 350ms;
-  transition: background-color 350ms;
-  overflow: hidden;
-  overflow-x:-webkit-marquee;
-  -webkit-marquee-direction: right;
-  -webkit-marquee-style: scroll;
-  -webkit-marquee-speed: normal;
-  -webkit-marquee-increment: small;
-  -webkit-marquee-repetition: 5;
-  overflow-x: marquee-line;
-  marquee-direction: forward;
-  marquee-style: loop;
-  marquee-speed: slow;
-  marquee-play-count: 5;
-  color:#28282a;
-  background:#cfdee3;
+
+
+#clockdiv{
+    color: #333;
+    display: inline-block;
+    text-align: center;
+    font-weight: 900;
+    font-size:22;
+    width:100%;
+}
+#clockdiv > div{
+    width:23%;
+    border-radius: 3px;
+    background-color: #e4e4e2;
+    padding-bottom: 8px;
+    display: inline-block;
+}
+#clockdiv div > span{
+    padding: 8px;
+    border-radius: 3px;
+    background-color: #e4e4e2;
+    display: inline-block;
+}
+.smalltext{
+    font-size: 13;
+}
+#mholder {
+    position: absolute;
+    overflow: hidden;
+}
+.marqueeElement {
+    border-bottom: 1px solid;
+    border-bottom-color:  rgb(221,221,221);
+    border-top: 1px solid;
+    border-top-color: rgb(221,221,221);
+    
 }
 </style>
 </head>
@@ -88,7 +132,217 @@ marquee {
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 <div class="_wrapper">
- <?php include 'navbar.php';?> 
+ <script>
+   $(document).ready(function(){
+   if ($(window).width()>992) {
+    (function($){ $('#logo').show();
+      var $navbar= $('#nav'),
+      y_pos =$navbar.offset().top,
+      height = $navbar.height();
+      $('#logo').hide();$navbar.addClass("navbar-fixed");$('.brand-logo').show(); $('.hide-on-med-and-down').addClass('right'); 
+    
+     
+    })(jQuery, undefined); }
+    else{$('#logo').remove(); $('.brand-logo').show();
+    $('#nav').addClass("navbar-fixed")}
+     $('.dropdown-button').dropdown({
+      inDuration: 300,
+      outDuration: 225,
+       constrain_width: false, 
+      hover: true, // Activate on hover
+      gutter: 0, // Spacing from edge
+      belowOrigin: true, // Displays dropdown below the button
+      alignment: 'left' // Displays dropdown with edge aligned to the left of button
+    });
+  });
+</script>
+
+<style>  @media only screen and (max-width: 992px){
+    nav .brand-logo {
+      left: 87%;
+      -webkit-transform: translateX(-50%);
+    }
+    #switch{
+      display: none;
+    }
+  }
+ 
+@media only screen and (max-width: 600px){
+    nav .brand-logo {
+      top: -10px;
+      left:77%;
+    }
+  }
+  @media only screen and (max-width: 400px){
+    nav .brand-logo {
+      top: -10px;
+      left:75%;
+    }
+  }
+  @media only screen and (max-width: 330px){
+    nav .brand-logo {
+      top: -10px; 
+      left:62%;
+    }
+  }
+.dropdown-content li {
+  text-align: center !important;
+}
+  </style>
+  <div class="row" id="logo" style="background-color: white; margin-bottom: 0px; display: none;"><div class="col l12 m12 s12 center-align"><img style=" width:200px;" src="img/logo/sac_logo.png">
+    
+
+
+  
+   </div>
+
+  </div>
+
+<div  class="white" id="nav" style="margin-top: 0px;">
+  <ul id="events" class="dropdown-content" style="min-width: 200px;">
+    <li><a href="aam.php">Annual Alumni Meet</a></li>
+    <li><a href="homecoming.php">Homecoming</a></li>
+    <li><a href="sam.php">Student Alumni Meet</a></li>
+    <li><a href="phonathon.php">Phonathon</a></li>
+    <li><a href="alumnitalks.php">Alumni Talks</a></li>
+    <li><a href="leadershipsummit.php">Leadership Summit</a></li>
+    <li><a href="alvida.php">Alvida</a></li>
+  </ul>
+  <ul id="initiatives" class="dropdown-content" style="min-width: 200px;">
+    <li><a href="mentorship.php">Mentorship Programme</a></li>
+    <li><a href="imprint.php">My Imprint</a></li>
+    <li><a href="sparc.php">SPARC</a></li>
+    <li><a href="acap.php">ACAP</a></li>
+    <li><a href="https://medium.com/@studentsalumnicell.iitkgp" target="_blank">Alumni Blog</a></li>
+
+  </ul>
+  <ul id="publications" class="dropdown-content" style="min-width: 200px;">
+    <li><a href="yearbook.php">Yearbook</a></li>
+    <li><a href="yoy.php">Yearnings of Yore</a></li>
+    <li><a href="temposhout_final_6.pdf" target="_blank">Tempo Shout</a></li>
+  </ul>
+  <ul id="sponsors" class="dropdown-content" style="min-width: 200px;">
+    <li><a href="sponsors2018.php">2018</a></li>
+    <li><a href="sponsors2017.php">2017</a></li>
+    <li><a href="sponsors2016.php">2016</a></li>
+    <li><a href="sponsors2015.php">2015</a></li>
+    <li><a href="sponsors2014.php">2014</a></li>
+    <li><a href="sponsors2013.php">2013</a></li>
+    <li><a href="sponsors2012.php">2012</a></li>
+  </ul>
+  <nav>
+    <div class="nav-wrapper white">
+      <a href="index.php" class="brand-logo" style="display: none;"><img src="img/logo/sac_logo.png" width="180" height="70"></a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <div class="row">
+      <ul class="hide-on-med-and-down _textcolor center-align">
+        <li class="col l2"><a href="index.php">Home</a></li>
+        <li class="col l2"><a href="#!" class="dropdown-button" data-activates="events">Events</a></li>
+        <li class="col l2"><a id="drop1" class="dropdown-button" href="#!" data-activates="initiatives">Initiatives</a></li>
+        <li class="col l2"><a id="drop2" class="dropdown-button" href="#!" data-activates="publications" style="min-width: 100; margin-left: 0;">Publications</a></li>
+        <li class="col l2"><a href="team.php">The&nbspTeam</a></li>
+        <li class="col l2"><a id="drop3" class="dropdown-button" href="#!" data-activates="sponsors">Sponsors</a></li>
+        <li></li>
+</ul> </div>
+
+
+      <ul id="mobile-demo" class="side-nav">
+        <li><a href="index.php">Home</a></li>
+        <li class="no-padding">
+          <ul class="collapsible collapsible-accordion">
+            <li>
+              <a class="collapsible-header">Events<i class="mdi-navigation-arrow-drop-down"></i></a>
+              <div class="collapsible-body">
+                <ul>
+                  <li><a href="aam.php">Annual Alumni Meet</a></li>
+                  <li><a href="homecoming.php">Homecoming</a></li>
+                  <li><a href="sam.php">Student Alumni Meet</a></li>
+                  <li><a href="sam.php">Phonathon</a></li>
+                  <li><a href="alumnitalks.php">Alumni Talks</a></li>
+                  <li><a href="leadershipsummit.php">Leadership Summit</a></li>
+                  <li><a href="alvida.php">Alvida</a></li>
+                </ul>
+    </div></li></ul></li>
+        <li class="no-padding">
+          <ul class="collapsible collapsible-accordion">
+            <li>
+              <a class="collapsible-header">Initiatives<i class="mdi-navigation-arrow-drop-down"></i></a>
+              <div class="collapsible-body">
+                <ul>
+                  <li><a href="mentorship.php">Mentorship Program</a></li>
+                  <li><a href="imprint.php">My Imprint</a></li>
+                  <li><a href="sparc.php">SPARC</a></li>
+                  <li><a href="acap.php">ACAP</a></li>
+                  <li><a href="https://medium.com/@studentsalumnicell.iitkgp" target="_blank">Alumni Blog</a></li>
+                </ul>
+              </div></li></ul></li>
+        <li class="no-padding">
+          <ul class="collapsible collapsible-accordion">
+            <li>
+              <a class="collapsible-header" >Publications<i class="mdi-navigation-arrow-drop-down"></i></a>
+              <div class="collapsible-body">
+                <ul>
+                  <li><a href="yearbook.php">Yearbook</a></li>
+                  <li><a href="yoy.php">Yearnings of Yore</a></li>
+                  <li><a href="temposhout_final_6.pdf" target="_blank">Tempo Shout</a></li> 
+                </ul>
+              </div></li></ul></li>
+
+
+        <li><a href="team.php">The Team</a></li>
+       <li class="no-padding">
+          <ul class="collapsible collapsible-accordion">
+            <li>
+              <a class="collapsible-header">Our Sponsors<i class="mdi-navigation-arrow-drop-down"></i></a>
+              <div class="collapsible-body">
+                <ul>
+   <li><a href="sponsors2018.php">2018</a></li>
+    <li><a href="sponsors2017.php">2017</a></li>
+    <li><a href="sponsors2016.php">2016</a></li>
+    <li><a href="sponsors2015.php">2015</a></li>
+    <li><a href="sponsors2014.php">2014</a></li>
+    <li><a href="sponsors2013.php">2013</a></li>
+    <li><a href="sponsors2012.php">2012</a></li>
+
+                </ul>
+
+              </div></li></ul></li>
+
+
+
+
+
+      </ul>
+
+
+  </nav>
+</div>
+<!--  <div id="modal1" class="modal ">
+  <div class="modal-content">
+  <div class="row">
+    <form class="col s12 center-align" action="aam.php" method="POST">
+      <div class="row">
+      <h2>LOGIN</h2>
+        <div class="input-field col s12">
+          <i class="material-icons prefix">account_circle</i>
+          <input id="icon_prefix" type="email" class="validate" name="email">
+          <label for="icon_prefix">Email ID</label>
+        </div>
+        <div class="input-field col s12">
+          <i class="material-icons prefix">vpn_key</i>
+          <input id="icon_telephone" type="password" class="validate" name="password">
+          <label for="icon_telephone">Password</label>
+        </div>
+            <button class="btn-large waves-effect waves-light " type="submit" name="action" style="margin-top:15px; width:200px;">Log In
+            <i class="material-icons right">send</i>
+      </div>
+    </form>
+  </div>
+  </div>
+  <div class="modal-footer">
+    <a href="#!" class=" modal-action modal-close waves-effect waves-blue btn-flat">CLOSE</a>
+  </div>
+</div> --> 
  <!--slider-->
  <div class="slider"  style="overflow: hidden;">
   <ul class="slides">
@@ -136,7 +390,7 @@ marquee {
 </div>
 <!--sliderover-->
 
-<marquee  scrollamount="5" scrolldelay="2" onmouseover="this.stop();" onmouseout="this.start();"><p style="font-size: 150%;" > Kerela is in great need of help . Please donate <a href="http://alumni.iitkgp.ac.in/Alumniweb/GoThroughCampaign/?camp_id=19&purpose=readmore" target="blank">here</a> as an alumnus.</p></marquee>
+
 <div>
 
   <div class="row">
@@ -157,10 +411,80 @@ marquee {
     </div-->
   </div>
   <div>
-    <div class="center-align">
-      <div class="row">
-        <div class="col l8">  <div style="background-color: white;">
-          <p class="z-depth-1 text_align" style="font-size: 16px;padding: 3.3em 3em">
+    
+      <div class="row" style="min-height: 400px">
+        <div class="col l3 eventscol" style="margin-top: 1em;">
+          
+          <div class="row z-depth-1" style="background-color: white">
+            
+            <div id="clockdiv" style="background-color:white; padding:5px;">
+            
+            <div>
+            <span class="days" id="day"></span>
+            <div class="smalltext">DAYS</div>
+            </div>
+            <div>
+              <span class="hours" id="hour"></span>
+              <div class="smalltext">HOURS</div>
+            </div>
+            <div>
+              <span class="minutes" id="minute"></span>
+              <div class="smalltext">MINUTES</div>
+            </div>
+            <div>
+              <span class="seconds" id="second"></span>
+              <div class="smalltext">SECONDS</div>
+            </div><br>
+            <p style="font-size:19;color: #64bae4">Annual Alumni Meet 2019</p>
+            
+          </div>
+           
+          
+          </div>
+          <br><br>
+          <div class="row z-depth-1" id="mholder data" style="background-color: white;height:180px;overflow:scroll;padding:5px;margin-top:-13.5%;overflow:  hidden;">
+
+            <div class="row"
+">
+              <div class="card horizontal marqueeElement" style="font-size: 14px;margin-top: -5%" >
+                <div class="card-stacked">  
+                  <div class="card-image col l4" style="margin-top: -2%"><center>
+                    <br><font size="5" style="margin-left: -1%"><b>AUG</font><br>
+                    <font size="5">6</font></b>
+                  </center>
+                  </div>
+                
+                  <div class="card-content col l8" style="border-bottom: unset;;margin-bottom: -4%">
+                    <p>The 16th Annual Alumni Meet registrations are open now. <a href="https://sac.iitkgp.ac.in/aam.php">Register here.</a>
+
+</p>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="card horizontal marqueeElement" style="font-size: 14px;margin-top: -6%">
+                <div class="card-image col l4" style="margin-top: -2%"><center>
+                  <br><font size="5" style="margin-left: -1%"><b>AUG</font><br>
+                  <font size="5">23</b></font><br><br>
+                </center>
+                </div>
+
+                <div class="card-stacked col l8">
+                  <div class="card-content" style="border-bottom: unset;margin-left: -6%">
+                    <p>Kerela is in great need of help . Please <a href="http://alumni.iitkgp.ac.in/Alumniweb/GoThroughCampaign/?camp_id=19&purpose=readmore" target="_blank">donate here</a> as an alumnus.
+
+</p>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col l6">  <div style="background-color: white;">
+          <p class="z-depth-1 text_align" style="font-size: 16px;padding: 1.9em 2.3em">
             The Students' Alumni Cell, IIT Kharagpur is a voluntary student body working under the aegis 
             of the Dean of Alumni Affairs and International Relations. It strives to bridge the gap between 
             IIT Kharagpur and its esteemed alumni community.<br>
@@ -174,8 +498,8 @@ marquee {
             (Giving Back - Alumni contribution) and organises Alvida (the annual farewell dinner).
           </p>
         </div></div>
-        <div class="col l4" style="margin-top: 1em;">
-          <div id="fbplug" style="width: 425px; background-color: #fff" class="z-depth-1 fb-page" data-href="https://www.facebook.com/iitkgp.alumnicell/?fref=ts" data-tabs="timeline" data-height="347px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/iitkgp.alumnicell/?fref=ts" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/iitkgp.alumnicell/?fref=ts">Alumni Cell, IIT Kharagpur</a></blockquote></div>
+        <div class="col l3" style="margin-top: 1em;height:450px">
+          <div id="fbplug" style="background-color: #fff" class="z-depth-1 fb-page" data-href="https://www.facebook.com/iitkgp.alumnicell/?fref=ts" data-tabs="timeline" data-height="347px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/iitkgp.alumnicell/?fref=ts" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/iitkgp.alumnicell/?fref=ts">Alumni Cell, IIT Kharagpur</a></blockquote></div>
         </div>
       </div>
     </div>
@@ -185,7 +509,7 @@ marquee {
 
 
 
-  <div class="" style="width:100%;">
+  <div class="wwd" style="width:100%;">
     <div class="heading">
       <center>
         <h class="subheading"><b>What We Do</b></h>
@@ -244,127 +568,62 @@ marquee {
       </div>
     </div>
   </div>
-<!--
-<div class="heading">
-  <center>
-    <h class="subheading"><b>Latest Programmes</b></h>
-  </center>
-</div>
-<div class="row" style="margin:auto;width:100%;">
-<div class="carousel" id="carousel">
-      <div class="carousel-item">
-      <div class="card sticky-action">
-<div class="col l3 s12 m6">
-<div class="card z-depth-0">
-    <div class="card-image waves-effect waves-block waves-light">
-     <img class="activator" src="img/latest programs/acap_latestprogram.jpg" style="height: 225px;" >
-    </div>
-    <div class ="card-content">
-      <span class="card-title activator grey-text text-darken-4">ACAP<i class="material-icons right">more_vert</i></span>
-      <p class="text_align" style="font-size: 92%;">Alumni career assistance program</p>
-    </div>
-    <div class="card-reveal">
-    <a href="http://www.sac.iitkgp.ac.in/acap.php">  <span class="card-title grey-text text-darken-4">ACAP</span> </a>
-            <p class="text_align">'Alumni Career Assistance Programme' (ACAP) aims on helping the final year students to understand the confusing and tedious process of placements in a company specific manner, as every company has a different procedure for selection. The students sitting for placements will fill in their companies of choice in a manner of preference and will be allotted an alumnus/alumna who themselves were placed in the same company in KGP as a mentor/buddy.</p>
-    </div>
-  </div>
-</div>
-</div>
-</div>
- <div class="carousel-item">
-      <div class="card">
-<div class="col l3 s12 m6" style="padding-bottom: 30px;">
-<div class="card z-depth-0">
-    <div class="card-image waves-effect waves-block waves-light">
-     <img class="activator" src="img/latest programs/classgift.jpg" style="height: 225px;" >
-    </div>
-    <div class ="card-content">
-      <span class="card-title activator grey-text text-darken-4">Class Gift of 2017<i class="material-icons right">more_vert</i></span>
-      <p class="text_align" style="font-size: 92%;">Bus stand at Nalanda Classroom Complex</p>
-    </div>
-    <div class="card-reveal">
-    <a href="http://www.sac.iitkgp.ac.in/imprint.php">  <span class="card-title grey-text text-darken-4">Class Gift of 2017</span> </a>
-            <p class="text_align">The Senior Class Gift, an initiative under the 
-              My Imprint Programme saw a large number of graduating students signing up for the programme.
-               The programme gives an opportunity to the graduating batch to give something back to the Institute,
-                the moment they are about to leave the Institute.</p>
-    </div>
-  </div>
-</div>
-</div>
-</div>
- <div class="carousel-item">
-      <div class="card">
-<div class="col l3 s12 m6">
-<div class="card z-depth-0">
-    <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="img/latest programs/mentor.jpg" style="height:225px">
-    </div>
-    <div class="card-content">
-      <span class="card-title activator grey-text text-darken-4">Mentorship<i class="material-icons right">more_vert</i></span>
-      <p class="text_align">Phase 1</p>
-    </div>
-    <div class="card-reveal">
-     <a href="http://www.sac.iitkgp.ac.in/mentorship.php" ><span class="card-title grey-text text-darken-4">Mentorship Programme</span></a>
-            <p class="text_align">Students&rsquo; Alumni Cell brings to you Student Alumni Mentorship Programme. A plat
-                form to share the valuable experience of our esteemed alumni community with the current students. For more Information,
-                Kindly check out <a target="_blank" href="http://www.mentorship.iitkgp.ernet.in">Mentorship</a> Website.</p>
-    </div>
-  </div>
-</div>
-</div>
-</div>
- <div class="carousel-item">
-      <div class="card">
-<div class="col l3 s12 m6 ">
-<div class="card z-depth-0">
-    <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="img/latest programs/guestlecture.jpg" style="height:225px">
-    </div>
-    <div class="card-content">
-      <span class="card-title activator grey-text text-darken-4">Alumni Talks<i class="material-icons right">more_vert</i></span>
-      <p class="text_align"><br /></p>
-    </div>
-    <div class="card-reveal">
-      <a href="http://www.sac.iitkgp.ac.in/alumnitalks.php">
-      <span class="card-title grey-text text-darken-4">Alumni Talks</span>
-      </a>
-            <p class="text_align">Continuing with its yearlong series of Guest Lectures by eminent alumni, the Students&#8217; Alumni Cell recently organised "Alumni Talks", an open house with prominent alumni in the fields of Entrepreneurship, Civil Services and Research.</p>
-    </div>
-  </div>
-</div>
-</div>
-</div>
- <div class="carousel-item">
-      <div class="card">
-<div class="col l3 s12 m6">
-<div class="card z-depth-0">
-    <div class="card-image waves-effect waves-block waves-light">
-      <img class="activator" src="img/latest programs/year17.jpg" style="height:225px" >
-    </div>
-    <div class="card-content">
-      <span class="card-title activator grey-text text-darken-4">Yearbook<i class="material-icons right">more_vert</i></span>
-      <p class="text_align">2017</p>
-    </div>
-    <div class="card-reveal">
-      <a href="http://www.sac.iitkgp.ac.in/yearbook.php"><span class="card-title grey-text text-darken-4">Yearbook</span>
-      </a>
-            <p class="text_align">The Yearbook is a collection of photographs and memories presented every year at the time of the convocation to the graduating batch by the Students&#8217; Alumni Cell. It is the perfect souvenir for everyone about to leave their home away from home, KGP.  </p>
-    </div>
-  </div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
---!>
-<!--div id="googleMap" style="width:100%;height:90%;background:white;"></div-->
+
 </div>
 
-<?php include 'footer.php';?>
+<head>
+    <link rel="stylesheet" href="css/social_icon.css">
+    <style>
+        @media only screen and (max-width: 992px){
+            #map{
+                display: none;
+            	}
+            #social_icon{
+            	padding-left: 4em;
+               }
+        }
+        
 
+    </style>
+      <link href="https://file.myfontastic.com/n6vo44Re5QaWo8oCKShBs7/icons.css" rel="stylesheet"> 
+    </head>
 
+<div class="_footer">
+<footer class="page-footer black">
+
+    <div class="row">
+      	<div class="col m10 l4">                
+                <p class="grey-text text-lighten-4 text_align" style="padding-left: 1em">Office of Alumni Affairs & International Relations,<br>
+                   Indian Institute of Technology, Kharagpur<br>
+                    Pin-721302, West Bengal, India<br>
+                    Ph: 03222-282236 <br>
+                    Email: aao@hijli.iitkgp.ernet.in</p>
+        </div>
+        <div id="map" class=" col l4"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d784.9332419499943
+        	!2d87.30956309721707!3d22.3193820950838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3a63547376e5
+        	c22c!2sMain+Building+IIT+KGP!5e0!3m2!1sen!2sin!4v1471677047994" width="400" height="180" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        <div id="social_icons" class="col l4 m6 ac-soc">
+            <ul id="social_icon" class="soc">
+               <li style="color: white;">Connect with us on</li> <br>
+                <li><a class="soc-facebook" href="http://www.facebook.com/iitkgp.alumnicell?fref=ts&ref=br_tf" target="_blank"></a></li>
+                <li><a class="soc-twitter"  href="http://twitter.com/IITKgpAlumni" target="_blank"></a></li>
+                <li><a class="soc-linkedin"  href="https://www.linkedin.com/company-beta/13273135/" target="_blank"></a></li>
+                <li><a class="soc-youtube soc-icon" href="https://www.youtube.com/user/alumnicelliitkgp/videos" target="_blank"></a></li>
+                <li ><a class="socicon-instagram" href="https://www.instagram.com/sac.iitkgp/" target="_blank"  style="font-size: 30px; background-color: red; border-radius: 2000px; "></a></li>
+            </ul>
+        </div>
+    </div>
+  	<div class="footer-copyright grey darken-3">
+    	<div class="container">
+    		&copy; 2018 Students' Alumni Cell
+		</div>
+  	</div>
+
+</footer>
+</div>
+
+<script type="text/javascript" src="js/style.js"></script>
 <script>
   var autoScrollTimer = 2500;
   var scrollspeed = 2000;
@@ -433,6 +692,7 @@ $('.card-reveal').closest('.card').css('overflow', 'hidden');
     });
 });
 </script>
+
 
 </body>
 
