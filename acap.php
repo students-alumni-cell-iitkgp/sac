@@ -591,9 +591,9 @@ else
 
    <div class="input-field col s12">
 
-     <input placeholder="Preferred placement industry (Eg. Software, Consultancy)" name="PC4" type="text" class="validate">
+     <input placeholder="Preferred placement field (Eg. Software, Consultancy)" name="PC4" type="text" class="validate">
 
-     <label for="email">Preferred placement industry (Eg. Software, Consultancy)</label>
+     <label for="email">Preferred placement field (Eg. Software, Consultancy)</label>
 
    </div>
 
