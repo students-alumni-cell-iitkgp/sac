@@ -11,7 +11,7 @@
   	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   	<link rel="stylesheet" type="text/css" href="css/style.css">
   	<script src="js/materialize.min.js"></script>
-
+  	<script src="js/jR3DCarousel.min.js"></script>
    	
    	<style> 
     	ul.indicators{z-index: 3;}
@@ -85,8 +85,22 @@
     		border-top: 1px solid;
     		border-top-color: rgb(221,221,221);    
 		}
+		.jR3DCarouselGallery,.jR3DCarouselGalleryCustomeTemplate {
+			margin: 10 auto; /* optional - if want to center align */
+		}
+		.jR3DCarouselGalleryCustomeTemplate .captions{
+			position: relative;
+			padding: 4px 0;
+			bottom: 27px;
+			background: #ec1c8e;
+			display:block			
+		}
+		.jR3DCarouselGalleryCustomeTemplate a{
+			text-decoration: none;			
+		}
 	</style>
 
+	<!-- for countdown -->
 	<script type="text/javascript">
     	var deadline = new Date("jan 11, 2019 12:00:00").getTime();
  
@@ -111,6 +125,38 @@
             document.getElementById("second").innerHTML = '0'; }
     	}, 1000);  
   	</script>
+
+  	<!-- for carousel -->
+  	<script type="text/javascript">
+
+  		$(document).ready(function(){
+		var slideImages = [ {src: 'img/indexslider/aam_2019.jpg'},
+	              		{src: 'img/indexslider/acap.jpg'},
+	              		{src: 'img/indexslider/sam4.jpg'},
+	              		{src: 'img/indexslider/mentorship1.jpg'},
+	              		{src: 'img/indexslider/guest.jpg'} ];
+	
+	
+		jR3DCarousel = $('.jR3DCarouselGallery').jR3DCarousel({
+		width: 1407, 		
+		height: 500, 		
+		autoplay:true,
+		slides: slideImages, /* array of images source */
+		slideLayout : 'fill',     /* "contain" (fit according to aspect ratio), "fill" (stretches object to fill) and "cover" (overflows box but maintains ratio) */
+		animation: 'slide3D', 	/* slide | scroll | fade | zoomInSlide | zoomInScroll |slide3D */
+		animationCurve: 'ease',
+		animationDuration: 1800,
+		animationInterval: 1900,
+		controls: true,			/* control buttons */
+		navigation: ''			/* circles | squares | '' */,
+		perspective: 2200,
+		rotationDirection: 'rtl',
+		onSlideShow: slideShownCallback
+		});
+	
+		function slideShownCallback($slide){}
+		})
+	</script>
 
 </head>
 <body>
@@ -312,21 +358,7 @@
 	</div>
 
  	<!--Carousel-->
-	<div class="slider"  style="overflow: hidden;">
-		<ul class="slides">
-    	<li><img id="img1" src="img/indexslider/sac-logo.jpg"/></li>
-    	<li><img src="img/indexslider/aam_2019.jpg" /></li>
-    	<li><img src="img/indexslider/acap.jpg" width="100%"/></li>
-    	<li><img src="img/indexslider/sam4.jpg" /></li>
-    	<li><img src="img/indexslider/mentorship1.jpg"/></li>
-   		<li><img src="img/indexslider/phonathon1.jpg" /></li>
-   		<li><img src="img/indexslider/guest.jpg"/></li>
- 		<li><img src="img/indexslider/imprint.jpg"/></li>
-		<li><img src="img/indexslider/yoy1.jpg"/></li>
-		<li><img src="img/indexslider/alvida.jpg"/></li>
-		<li><img src="img/indexslider/convo.jpg"/></li>
-		</ul>
-	</div>
+	<div class="jR3DCarouselGallery"></div>
 	<!--Carousel over-->
 
   	<div class="row"><div class="heading"><center><h class="subheading"><b>About Us</b></h></center></div></div> 
@@ -511,24 +543,32 @@
 
 	<!-- JS for carousel -->
 	<script>
+		var slides1 = [
+    	{src: 'https://unsplash.it/600/450?image=839'},
+    	{src: 'https://unsplash.it/600/450?image=838'},
+    	{src: 'https://unsplash.it/600/450?image=837'},
+    	{src: 'https://unsplash.it/600/450?image=836'},
+    	{src: 'https://unsplash.it/600/450?image=832'},
+    	{src: 'https://unsplash.it/600/450?image=823'},
+    	{src: 'https://unsplash.it/600/450?image=822'}
+		];
   		var autoScrollTimer = 2500;
   		var scrollspeed = 2000;
   		var v;
   		$(document).ready(function () {
-  		$('#carousel').carousel({
-      		time_constant: scrollspeed,
-      		dist: 0,
-      		shift: 0,
-      		padding: 20,
-      		full_width: false
-   			});
+  		$('.carousel-demo').jR3DCarousel({
+  width : 600,        
+  height: 450,    
+  slides: [],
+  animation: "slide3D"
+});
     	autoScrollQuick();
     	initializeCarousel();
   		});
-  		$('#carousel').mouseenter(function () {
+  		$('.carousel').mouseenter(function () {
     		stopScroll();
   		});
-  		$('#carousel').mouseleave(function () {
+  		$('.carousel').mouseleave(function () {
     		autoScrollQuick();
   		});
   		function autoScroll() {
