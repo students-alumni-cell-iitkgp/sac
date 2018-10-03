@@ -3,6 +3,8 @@
 
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/jquery.marquee/1.3.1/jquery.marquee.min.js" charset="utf-8"></script>
 <head>
   <script type="text/javascript">
   var deadline = new Date("jan 11, 2019 12:00:00").getTime();
@@ -232,8 +234,25 @@
 
             </div>
             <br><br>
-            <div class="row z-depth-1" id="mholder data" style="background-color: white;height:180px;overflow:scroll;padding:5px;margin-top:-13.5%;overflow:  hidden;">
+            <div class="row z-depth-1 marquee" id="mholder data" style="background-color: white;height:180px;overflow:hidden;padding:5px;margin-top:-13.5%;overflow:  hidden;">
+              <div class="row">
+                <div class="card horizontal marqueeElement" style="font-size: 14px">
+                  <div class="card-image col l4" style="margin-top: 2%"><center>
+                    <br><font size="5" style="margin-left: -1%"><b>SEP</font><br>
+                      <font size="5">30</b></font><br><br>
+                    </center>
+                  </div>
 
+                  <div class="card-stacked col l8" >
+                    <div class="card-content" style="border-bottom: unset;margin-left: -6%;margin-top:4%">
+                      <p>Register for the Alumni Career Assistance Programme <a href="http://www.sac.iitkgp.ac.in/acap.php">here</a>.
+
+                      </p>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
               <div class="row">
                 <div class="card horizontal marqueeElement" style="font-size: 14px;margin-top: -5%" >
                   <div class="card-stacked">
@@ -271,6 +290,7 @@
                 </div>
               </div>
             </div>
+
           </div>
           <div class="col l6">  <div style="background-color: white;">
             <p class="z-depth-1 text_align" style="font-size: 16px;padding: 1.9em 2.3em">
@@ -518,6 +538,19 @@ function next() {
 function prev() {
   $('#carousel').carousel('prev');
 }
+$('.marquee').marquee({
+  //speed in milliseconds of the marquee
+  duration: 5000,
+  //gap in pixels between the tickers
+  gap: 0,
+  //time in milliseconds before the marquee will start animating
+  delayBeforeStart: 0,
+  //'left' or 'right'
+  direction: 'up',
+  //true or false - should the marquee be duplicated to show an effect of continues flow
+  duplicated: true,
+  pauseOnHover: true
+});
 </script>
 
 
