@@ -4,18 +4,39 @@
 
 
     <style>
+         #social_icon{
+            padding-left: 2em;
 
+        }
         @media only screen and (max-width: 992px){
             #map{
                 display: none;
 
             }
 
-        }
-        #social_icon{
-            padding-left: 4em;
+            #address{
+                font-size:3.7vw;
+            }
 
+            #social_icons{
+                font-size:3.7vw;
+            }
+            .soc li a{
+                width: 10vw;
+                height: 10vw;
+                line-height: 10vw;
+                font-size: 6vw;
+            }
+            #social_icon{
+            padding-left: -0.2em;
+
+            }
+            #connect-template{
+                padding-top: 5vw;
+                padding-left: 15vw;
+            }
         }
+       
 
 
     </style>
@@ -28,7 +49,7 @@
     <div class="row">
       <div class="col m10 l4">
                 <!--h5 class="white-text">Footer Content</h5-->
-                <p class="grey-text text-lighten-4 text_align" style="padding-left: 1em">Office of Alumni Affairs & International Relations,<br>
+                <p class="grey-text text-lighten-4 text_align" id="address" style="padding-left: 1em">Office of Alumni Affairs & International Relations,<br>
                    Indian Institute of Technology, Kharagpur<br>
                     Pin-721302, West Bengal, India<br>
                     Ph: 03222-282236 <br>
@@ -40,7 +61,7 @@
         <div id="social_icons" class="col l4 m6 ac-soc">
 
             <ul id="social_icon" class="soc">
-               <li style="color: white;">Connect with us on</li> <br>
+               <li style="color: white;" id="connect-template">Connect with us on</li> <br>
                 <li><a class="soc-facebook" href="http://www.facebook.com/iitkgp.alumnicell?fref=ts&ref=br_tf" target="_blank"></a></li>
                 <li><a class="soc-twitter"  href="http://twitter.com/IITKgpAlumni" target="_blank"></a></li>
                 <li><a class="soc-linkedin"  href="https://www.linkedin.com/company-beta/13273135/" target="_blank"></a></li>
