@@ -144,8 +144,7 @@
 						{src:'img/indexslider/yoy1.jpg'},
 						{src:'img/indexslider/alvida.jpg'},
 						{src:'img/indexslider/convo.jpg'}];
-	
-	
+
 		jR3DCarousel = $('.jR3DCarouselGallery').jR3DCarousel({
 		width: 1407, 		
 		height: 500, 		
@@ -365,7 +364,7 @@
 	</div>
 
  	<!--Carousel-->
-	<div class="jR3DCarouselGallery"></div>
+	<div class="jR3DCarouselGallery" style="max-width: 100%"></div>
 	<!--Carousel over-->
 
   	<div class="row"><div class="heading"><center><h class="subheading"><b>About Us</b></h></center></div></div> 
