@@ -157,7 +157,11 @@ else
      }
 
 
-
+     #about-acap{
+      font-size: 16px;
+      padding: 3.3em 3em;
+      background-color: white;
+     }
 
 
      .slider .slides li #img1 {
@@ -188,7 +192,22 @@ else
 
    }
 
+   .subheading{
+    font-size:4.5vw;
+   }
 
+   #about-acap{
+    font-size:3.2vw;
+    padding: 3.3em 3em;
+
+   }
+
+   .modal-trigger{
+    height: 7.5vw;
+    line-height: 8vw;
+    padding: 0 1rem;
+    font-size: 3.5vw;
+   }
 
  }
 
@@ -199,6 +218,15 @@ else
     display: none;
 
   }
+  .subheading{
+    font-size:4.5vw;
+   }
+
+  #about-acap{
+    font-size:3.3vw;
+    padding: 3.3em 3em;
+
+   }
 
 }
 
@@ -244,7 +272,7 @@ else
 
             <div >
 
-              <p class="z-depth-1 text_align" style="font-size: 16px;padding: 3.3em 3em;background-color: white; " >'Alumni Career Assistance Programme' (ACAP) aims on helping the final year students to understand the confusing and tedious process of placements in a company specific manner, as every company has a different procedure for selection. The students sitting for placements will fill in their companies of choice in a manner of preference and will be allotted an alumnus/alumna who themselves were placed in the same company in KGP as a mentor/buddy.
+              <p class="z-depth-1 text_align" id="about-acap" >'Alumni Career Assistance Programme' (ACAP) aims on helping the final year students to understand the confusing and tedious process of placements in a company specific manner, as every company has a different procedure for selection. The students sitting for placements will fill in their companies of choice in a manner of preference and will be allotted an alumnus/alumna who themselves were placed in the same company in KGP as a mentor/buddy.
 
                 Each alumnus will be allotted at most 4 mentees and every student will fill in 3 companies of choice strictly in their order of preference.
 
@@ -677,5 +705,4 @@ include 'footer.php';
 
 
 </html>
-
 
