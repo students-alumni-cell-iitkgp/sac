@@ -133,11 +133,17 @@
   	<script type="text/javascript">
 
   		$(document).ready(function(){
-		var slideImages = [ {src: 'img/indexslider/aam_2019.jpg'},
-	              		{src: 'img/indexslider/acap.jpg'},
-	              		{src: 'img/indexslider/sam4.jpg'},
-	              		{src: 'img/indexslider/mentorship1.jpg'},
-	              		{src: 'img/indexslider/guest.jpg'} ];
+		var slideImages = [{src:"img/indexslider/sac-logo.jpg"},
+						{src:'img/indexslider/aam_2019.jpg'},
+						{src:"img/indexslider/acap.jpg"},
+						{src:'img/indexslider/sam4.jpg'},
+						{src:'img/indexslider/mentorship1.jpg'},
+						{src:'img/indexslider/phonathon1.jpg'},
+						{src:'img/indexslider/guest.jpg'},
+						{src:'img/indexslider/imprint.jpg'},
+						{src:'img/indexslider/yoy1.jpg'},
+						{src:'img/indexslider/alvida.jpg'},
+						{src:'img/indexslider/convo.jpg'}];
 	
 	
 		jR3DCarousel = $('.jR3DCarouselGallery').jR3DCarousel({
