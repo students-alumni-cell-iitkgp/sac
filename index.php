@@ -1,5 +1,7 @@
 <html>
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/jquery.marquee/1.3.1/jquery.marquee.min.js" charset="utf-8"></script>
 <head>
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -12,6 +14,7 @@
   	<link rel="stylesheet" type="text/css" href="css/style.css">
   	<script src="js/materialize.min.js"></script>
   	<script src="js/jR3DCarousel.min.js"></script>
+  	<script src="https://cdn.jsdelivr.net/jquery.marquee/1.3.1/jquery.marquee.min.js" charset="utf-8"></script>
    	
    	<style> 
     	ul.indicators{z-index: 3;}
@@ -156,8 +159,7 @@
 	
 		function slideShownCallback($slide){}
 		})
-	</script>
-
+	</script>    
 </head>
 <body>
  	<div id="fb-root"></div>
@@ -194,7 +196,6 @@
     	});
   		});
 	</script>
-
 
 	<style> 
 		@media only screen and (max-width: 992px){
@@ -378,32 +379,48 @@
           		</div>
           	</div>
           	<br><br>
-          	<div class="row z-depth-1" id="mholder data" style="background-color: white;height:180px;overflow:scroll;padding:5px;margin-top:-13.5%;overflow:  hidden;">
-            	<div class="row"">
-              		<div class="card horizontal marqueeElement" style="font-size: 14px;margin-top: -5%" >
-              			<div class="card-stacked">
-                  			<div class="card-image col l4" style="margin-top: -2%">
-                  				<center><br><font size="5" style="margin-left: -1%"><b>AUG<br>6</b></font><br></center>
-                  			</div>                
-                  			<div class="card-content col l8" style="border-bottom: unset;;margin-bottom: -4%">
-                  				<p>The 16th Annual Alumni Meet registrations are open now. <a href="https://sac.iitkgp.ac.in/aam.php">Register here.</a></p>
-                  			</div>                  
-                		</div>
-              		</div>
-            	</div>
-            	<div class="row">
-              		<div class="card horizontal marqueeElement" style="font-size: 14px;margin-top: -6%">
-                		<div class="card-image col l4" style="margin-top: -2%">
-                			<center><br><font size="5" style="margin-left: -1%"><b>AUG <br> 23</b></font><br><br><br></center>
-                		</div>
-                		<div class="card-stacked col l8">
-                			<div class="card-content" style="border-bottom: unset;margin-left: -6%">
-                  				<p>Kerela is in great need of help . Please <a href="http://alumni.iitkgp.ac.in/Alumniweb/GoThroughCampaign/?camp_id=19&purpose=readmore" target="_blank">donate here</a> as an alumnus.</p>
-                			</div>                  
-                		</div>
-              		</div>
-            	</div>
-           	</div>
+          	<!-- marquee -->
+			<div class="row z-depth-1 marquee" id="mholder data" style="background-color: white;height:180px;overflow:hidden;padding:5px;margin-top:-13.5%;overflow:  hidden;">
+				<div class="row">
+					<div class="card horizontal marqueeElement" style="font-size: 14px">
+						<div class="card-image col l4" style="margin-top: 2%">
+							<center><br><font size="5" style="margin-left: -1%"><b>SEP<br>30</b></font></center>
+						</div>
+						<div class="card-stacked col l8" >
+							<div class="card-content" style="border-bottom: unset;margin-left: -6%;margin-top:4%">
+								<p>Register for the Alumni Career Assistance Programme <a href="http://www.sac.iitkgp.ac.in/acap.php">here</a>.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="card horizontal marqueeElement" style="font-size: 14px;margin-top: -6%">
+						<div class="card-image col l4" style="margin-top: -2%">
+							<center><br><font size="5" style="margin-left: -1%"><b>AUG<br>23</b></font></center>
+						</div>
+						<div class="card-stacked col l8">
+							<div class="card-content" style="border-bottom: unset;margin-left: -6%">
+								<p>Kerela is in great need of help . Please <a href="http://alumni.iitkgp.ac.in/Alumniweb/GoThroughCampaign/?camp_id=19&purpose=readmore" target="_blank">donate here</a> as an alumnus.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="card horizontal marqueeElement" style="font-size: 14px;margin-top: -5%" >
+						<div class="card-stacked">
+							<div class="card-image col l4" style="margin-top: -2%">
+								<center><br><font size="5" style="margin-left: -1%"><b>AUG<br>6</b></font></center>
+							</div>
+							<div class="card-content col l8" style="border-bottom: unset;;margin-bottom: -4%">
+								<p>The 16th Annual Alumni Meet registrations are open now. <a href="https://sac.iitkgp.ac.in/aam.php">Register here.</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
        	</div>
        	<!-- About us -->
        	<div class="col l6"> 
@@ -490,19 +507,37 @@
        		</div>
      	</div>
     </div>
-  	
-	
+
   	<head>
     	<link rel="stylesheet" href="css/social_icon.css">
     	<link href="https://file.myfontastic.com/n6vo44Re5QaWo8oCKShBs7/icons.css" rel="stylesheet"> 
     	<style>
-       		@media only screen and (max-width: 992px){
+       		#social_icon{
+            	padding-left: 2em;
+        	}
+        	@media only screen and (max-width: 992px){
             	#map{
-               		display: none;
+                	display: none;
+            	}
+            	#address{
+                	font-size:3.7vw;
+            	}
+            	#social_icons{
+                	font-size:3.7vw;
+            	}
+            	.soc li a{
+                	width: 10vw;
+                	height: 10vw;
+                	line-height: 10vw;
+                	font-size: 6vw;
             	}
             	#social_icon{
-            	padding-left: 4em;
-               	}
+            		padding-left: -0.2em;
+            	}
+            	#connect-template{
+                	padding-top: 5vw;
+                	padding-left: 15vw;
+            	}
         	}
     	</style>
   	</head>
@@ -540,58 +575,7 @@
   	</div>
 
 	<script type="text/javascript" src="js/style.js"></script>
-
-	<!-- JS for carousel -->
-	<script>
-		var slides1 = [
-    	{src: 'https://unsplash.it/600/450?image=839'},
-    	{src: 'https://unsplash.it/600/450?image=838'},
-    	{src: 'https://unsplash.it/600/450?image=837'},
-    	{src: 'https://unsplash.it/600/450?image=836'},
-    	{src: 'https://unsplash.it/600/450?image=832'},
-    	{src: 'https://unsplash.it/600/450?image=823'},
-    	{src: 'https://unsplash.it/600/450?image=822'}
-		];
-  		var autoScrollTimer = 2500;
-  		var scrollspeed = 2000;
-  		var v;
-  		$(document).ready(function () {
-  		$('.carousel-demo').jR3DCarousel({
-  width : 600,        
-  height: 450,    
-  slides: [],
-  animation: "slide3D"
-});
-    	autoScrollQuick();
-    	initializeCarousel();
-  		});
-  		$('.carousel').mouseenter(function () {
-    		stopScroll();
-  		});
-  		$('.carousel').mouseleave(function () {
-    		autoScrollQuick();
-  		});
-  		function autoScroll() {
-    		v = setInterval(next, autoScrollTimer);
-  		}
-  		function autoScrollQuick() {
-    		setTimeout(next, 0);
-    		autoScroll();
-  		}
-  		function stopScroll() {
-    		clearInterval(v);
-    		$('#carousel').carousel({
-      			time_constant: 0
-    		});
-  		}
-  		function next() {
-    		$('#carousel').carousel('next');
-  		}
-  		function prev() {
-    		$('#carousel').carousel('prev');
-  		}
-	</script>
-
+	
 	<!-- JS for cards -->
 	<script type="text/javascript">
   		$(".card").mouseenter(function(e){
@@ -610,6 +594,22 @@
       			}});
 		});
 	</script>
+	<script>
+	
+		$('.marquee').marquee({
+  		//speed in milliseconds of the marquee
+  		duration: 5000,
+  		//gap in pixels between the tickers
+  		gap: 0,
+  		//time in milliseconds before the marquee will start animating
+  		delayBeforeStart: 0,
+  		//'left' or 'right'
+  		direction: 'up',
+  		//true or false - should the marquee be duplicated to show an effect of continues flow
+  		duplicated: true,
+  		pauseOnHover: true
+		});
+	</script>
+
 </body>
 </html>
-
