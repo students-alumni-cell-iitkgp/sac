@@ -12,22 +12,41 @@
 <style type="text/css">
     @media only screen and (max-width: 769px){
         .class_gift_Img{
-            padding-left: 9%;
+            padding-left: 5%;
         }
+      .ac-imprint img{
+        margin: 0px auto;
+        width:100%;
+        height: 35%;
+      }
+      .subheading{
+        font-size: 5.5vw;
+      }
+      p{
+       font-size: 3.3vw; 
+      }
+
     }
     @media only screen and (max-width: 415px){
-        .class_gift_Img{
-            padding-left: 2%;
-        }
-        #senior_class_gift{
-            font-size: 75%;
-        }
-    }
-      @media only screen and (max-width: 415px){
+      .ac-imprint img{
+        margin: 0px auto;
+        width:100%;
+        height: 25%;
+      }
+      .class_gift_Img{
+          padding-left: 2%;
+      }
 
-       #senior_class_gift{
-            font-size: 56%;
-        }
+      .subheading{
+        font-size: 5.5vw;
+      }
+      p{
+       font-size: 4.8vw; 
+      }
+      #button  h5 {
+        font-size: 6vw;
+        line-height: 121%;
+      }
     }
    @media only screen and (min-width: 768px){
 
@@ -40,11 +59,14 @@
       margin-bottom: 20px;
     }
       .ac-imprint img{
-
-        max-width: 100%;
+        margin: 0px auto;
+        width: 100%;
     }
     #imgleft
     {
+      margin-left: 8%;
+    }
+    #cg-17{
       margin-left: 8%;
     }
     }
@@ -79,10 +101,10 @@
   <div class="info z-depth-1">
       <div class="heading" style="margin-top: -10px;">
           <center >
-              <h  class="subheading"><b id="senior_class_gift" >My Imprint</b> </h>
+              <h  class="subheading"><b id="h1" >My Imprint</b> </h>
           </center>
       </div>
-         <p style="padding:20px;" >Ever since its inception, IIT Kharagpur has given its students outstanding academic resources,
+         <p style="padding:15px;">Ever since its inception, IIT Kharagpur has given its students outstanding academic resources,
           a brand to identify and reckon with, lasting friendships and countless memories over the years they have spent in its
           colossal campus. And along the same lines, its alumni too have had a long and eventful history of giving back to the
           institute for all it has done in making them what they are today.
@@ -100,7 +122,7 @@
 
       <div class="heading" style="margin-top: -10px;">
           <center >
-              <h  class="subheading"><b id="senior_class_gift">What is Senior Class Gift ?</b> </h>
+              <h  class="subheading"><b id="about_senior_class_gift">What is Senior Class Gift ?</b> </h>
           </center>
       </div>
 
@@ -142,7 +164,7 @@
         </div>
          </center>
       <div class="offset-11">
-   <img class="class_gift_Img" id="imgleft" src="img/latest programs/cg17.jpg" style="width: 600px;">
+   <img class="class_gift_Img" id="cg-17" src="img/latest programs/cg17.jpg" style="width:92%;">
    </div>
 
 
