@@ -364,7 +364,7 @@
 	</div>
 
  	<!--Carousel-->
-	<div class="jR3DCarouselGallery" style="max-width: 100%"></div>
+	<div class="jR3DCarouselGallery" style="max-width: 100%;overflow: hidden;"></div>
 	<!--Carousel over-->
 
   	<div class="row"><div class="heading"><center><h class="subheading"><b>About Us</b></h></center></div></div> 
