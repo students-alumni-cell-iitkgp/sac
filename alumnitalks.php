@@ -11,25 +11,34 @@
 @media only screen and (max-width: 1350px) {
         .normal{
         margin: 10px;
-         width: 25vw;
+         width: 30vw;
   padding-right: 10px;
     }
        .bigg {
             width: 48vw !important;
             padding-right: 0;
         }
+        .side{
+          margin-right: 12px !important;
+        }
+        
+}
+@media only screen and (min-width: 992px) and (max-width: 1350px) {
+  .vw{
+          width: 23vw !important;
+        }
 }
     @media only screen and (max-width: 992px) {
     .normal { margin-left: -9px;
        height: 200px;
-       width: 45vw;
+       width: 30vw;
     }
 
 }
     @media only screen and (max-width: 600px) {
     .normal {
        height: 200px;
-       width: 350px;
+       width: 342px;
        margin:10px;
        margin-left: -9px;
     }
@@ -37,17 +46,28 @@
             height: 200px;
             width: 350px !important;
             margin:10px;
-            padding-right: 10;
+            padding-right: 10px;
         }
-    .ac-guest img{ height: 30%;
+    .ac-guest img{ height: 200px;
 margin: 0px auto;
 max-width:100%;
     }
     }
+     @media only screen and (max-width: 360px) {
+    .normal {
+       height: 200px;
+       width: 290px;
+       margin:10px;
+       margin-left: -9px;
+    }
+  }
 @media only screen and (min-width: 768px){
       .ac-guest img{
        /* margin-left: 80px;*/
        max-width: 100%;
+    }
+     #right{
+      text-align: right;
     }
    }
      .normal{
@@ -153,21 +173,23 @@ This gives the alumni an opportunity and bring the students up to date with what
 <div class="row"><center>
 
                     <center>
-                    <div class="heading ac-head" style="border:3px black solid; display: inline-block; padding-top: 2px; width:40%; margin: 3px;padding-right: 20px;padding-left: 20px;" >
+                    <div class="heading ac-head" style="border:3px black solid; display: inline-block; padding-top: 2px; min-width: 40%; margin: 3px;padding-right: 20px;padding-left: 20px;" >
 
-                        <h4 style="margin-bottom: 0px;"><b>Alumni Talks</b><br>
-                          <div class="col l3 m3 s12" >
-                                <h5 style="margin-top: 4.5px;margin-left: -20px;font-size:25px;">
+                        <h4 style="margin-bottom: 0px;"><b>Alumni Talks</b><br></h4>
+                        <div class="row">
+                          <div class="col l4 m4 s12" id="right">
+                                <h5 style="margin-top: 4.5px;margin-left: -20px;font-size:25px; ">
                                 <b>  Speakers : </b>
                                 </h5>
-                          </div></h4>
-                          <div class="col l9 m9 s12">
-                               <h6 style="text-align: left; margin-left: 0px; font-size:18px;margin-top: 5px;">Mr Arnav Kumar (AVP, SAIF Partners)
+                          </div>
+                          <div class="col l8 m8 s12">
+                               <h6 style="text-align: left; margin-left: 0px; font-size:18px;margin-top: 10px;">Mr. Arnav Kumar (AVP, SAIF Partners)
                                <br>
-                                  Mr Arnav Kumar (AVP, SAIF Partners)
+                                  Mr. Abhinav Sinha (COO, OYO Rooms)
                               </h6>
 
                          </div>
+                       </div>
                        </div>
                     </center>
 
@@ -192,27 +214,27 @@ This gives the alumni an opportunity and bring the students up to date with what
         <div class="heading ac-head" style="border:3px black solid; display: inline-block; padding-top: 2px; margin: 3px;padding-right: 20px;padding-left: 20px;">
 
                <h4><b>Guest Lecture</b></h4>
-                <h5 style="font-size:120%;"> Mr Mark Richard (President and COO at DatabaseUSA)</h5></div>
+                <h5 style="font-size:120%;"> Mr. Mark Richard (President and COO at DatabaseUSA)</h5></div>
     </center>
     <center>
-        <div class="row">
+        <div class="row side">
 
             <div class="col l6 m6 s12">
-                <img class=" materialboxed normal bigg" src="img/guest-lecture/Mr_Mark_Richard/3.jpg" height="420px">
+                <img class=" materialboxed normal bigg" src="img/guest-lecture/Mr_Mark_Richard/3.jpg" height="420px" width="100%">
             </div>
 
   <div class="col l3 m6 s12">
-                <img class=" materialboxed normal" src="img/guest-lecture/Mr_Mark_Richard/1.jpg" height="200">
+                <img class=" materialboxed normal vw" src="img/guest-lecture/Mr_Mark_Richard/1.jpg" height="200" width="100%">
             </div>
 
-            <div class="col l3 m6 s12">
-                <img class=" materialboxed normal " src="img/guest-lecture/Mr_Mark_Richard/2.jpg" height="200">
+            <div class="col l3 m4 s12">
+                <img class=" materialboxed normal vw" src="img/guest-lecture/Mr_Mark_Richard/2.jpg" height="200" width="100%">
             </div>
-            <div class="col l3 m6 s12">
-                <img class=" materialboxed normal " src="img/guest-lecture/Mr_Mark_Richard/5.jpg" height="200">
+            <div class="col l3 m4 s12">
+                <img class=" materialboxed normal vw" src="img/guest-lecture/Mr_Mark_Richard/5.jpg" height="200" width="100%">
             </div>
-            <div class="col l3 m6 s12">
-                <img class=" materialboxed normal" src="img/guest-lecture/Mr_Mark_Richard/4.jpg" height="200">
+            <div class="col l3 m4 s12">
+                <img class=" materialboxed normal vw" src="img/guest-lecture/Mr_Mark_Richard/4.jpg" height="200" width="100%">
             </div>
 
 
@@ -322,20 +344,20 @@ This gives the alumni an opportunity and bring the students up to date with what
       </div>
 
     <div class="row">
-    <div class="col l4 s12 m3">
-    <div class="video-container">
+    <div class="col l4 s12 m4">
+    <div class="video-container" style="margin-bottom: 20px;">
         <iframe width="854" height="480" src="https://www.youtube.com/embed/OpQI9aVbPeQ" frameborder="0" gesture="media" allowfullscreen></iframe>
       </div>
     </div>
 
-    <div class="col l4 s12 m3">
-    <div class="video-container">
+    <div class="col l4 s12 m4">
+    <div class="video-container" style="margin-bottom: 20px;">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/v8xICuf_yAs" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
 
-    <div class="col l4 s12 m3">
-    <div class="video-container">
+    <div class="col l4 s12 m4">
+    <div class="video-container" style="margin-bottom: 20px;">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/D96tjgVG1kQ" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
@@ -351,22 +373,22 @@ This gives the alumni an opportunity and bring the students up to date with what
 
 
     <div class="col l3 s12 m3">
-    <div class="video-container">
+    <div class="video-container" style="margin-bottom: 20px;">
     <iframe width="854" height="480" src="https://www.youtube.com/embed/-xeGNz5P5F4" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
     <div class="col l3 s12 m3">
-    <div class="video-container">
+    <div class="video-container" style="margin-bottom: 20px;">
     <iframe width="854" height="480" src="https://www.youtube.com/embed/oDPfzLblZ1c" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
     <div class="col l3 s12 m3 ">
-    <div class="video-container">
+    <div class="video-container" style="margin-bottom: 20px;">
        <iframe class="frame" src="https://www.youtube.com/embed/7iWNDuyiJYA"  allowfullscreen></iframe>
       </div>
     </div>
     <div class="col l3 s12 m3">
-    <div class="video-container">
+    <div class="video-container" style="margin-bottom: 20px;">
         <iframe class="frame" src="https://www.youtube.com/embed/_mZLjVCMrrc" allowfullscreen></iframe>
       </div>
     </div>
