@@ -59,10 +59,10 @@
 <body>
 <div class="_wrapper" style="overflow: hidden;">
     <?php include 'navbar.php';?>
-    <div class="">
+    <div class="" style="margin-right: 20px;">
         <img height="467" src="img/indexslider/phonathon1.jpg">
     </div>
-
+    <br>
     <div class="row">
         <div class="col l10 s12 m12 offset-l1">
             <div class="info z-depth-1">
@@ -136,7 +136,7 @@
 
 <br>
  <div class="row">
-           <div class="col l3 m3 s12">
+           <div class="col l2 m2 s12" style="margin-left: -0.5%">
                 <div class="row">
                     <img class="materialboxed normal" src="img/phonathon/2.0/2.jpg" height="230px" >
                 </div>
@@ -144,12 +144,12 @@
                     <img class="materialboxed normal" src="img/phonathon/2.0/3.jpg" height="230px">
                 </div>
             </div>
-            <div class="col l6 m6 s12">
+            <div class="col l5 m5 s12" style="margin-left: 7.5%">
                
                 <img class="materialboxed normal " src="img/phonathon/2.0/1.jpg" height="480px"  id="centerimg">
                
             </div>
-            <div class="col l3 m3 s12">
+            <div class="col l2 m2 s12" style="margin-left: 7.5%">
                 <div class="row">
                     <img class="materialboxed normal" src="img/phonathon/2.0/4.jpg" height="230px">
                 </div>
@@ -158,7 +158,7 @@
                 </div>
             </div></div>
          <div class="row">
-           <div class="col l3 m3 s12">
+           <div class="col l2 m2 s12" style="margin-left: -0.5%">
                 <div class="row">
                     <img class="materialboxed normal" src="img/phonathon/2.0/6.jpg" height="230px" >
                 </div>
@@ -166,12 +166,12 @@
                     <img class="materialboxed normal" src="img/phonathon/2.0/7.jpg" height="230px">
                 </div>
             </div>
-            <div class="col l6 m6 s12">
+            <div class="col l5 m5 s12" style="margin-left: 7.5%">
                
                 <img class="materialboxed normal " src="img/phonathon/phonathon211.jpg" height="480px"  id="centerimg">
                
             </div>
-            <div class="col l3 m3 s12">
+            <div class="col l2 m2 s12" style="margin-left: 7.5%">
                 <div class="row">
                     <img class="materialboxed normal" src="img/phonathon/2.0/8.jpg" height="230px">
                 </div>
