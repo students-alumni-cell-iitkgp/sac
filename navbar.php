@@ -36,19 +36,31 @@
 @media only screen and (max-width: 600px){
     nav .brand-logo {
       top: -10px;
-      left:77%;
+      left:85%;
     }
+    /*Size of brand logo at different pixel view*/
+    nav .brand-logo img{
+      width:120px;
+      height:60px;
+      padding-top:20px; 
+    }
+
   }
   @media only screen and (max-width: 400px){
     nav .brand-logo {
-      top: -10px;
-      left:75%;
+      top:-2px;
+      left:85%;
+    }
+    nav .brand-logo img{
+      width:100px;
+      height:50px;
+      padding-top:10px;
     }
   }
   @media only screen and (max-width: 330px){
     nav .brand-logo {
-      top: -10px; 
-      left:62%;
+      top: -2 px; 
+      left:78%;
     }
   }
 .dropdown-content li {
