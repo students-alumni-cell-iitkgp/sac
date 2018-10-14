@@ -154,6 +154,15 @@ body {
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
+@media only screen and (min-width: 600px) and (max-width: 800px){
+      .card{
+        margin-left: 5px;
+        width:40vw;
+      }
+      .card-mid{
+        margin-left: 23vw;
+      }
+}
 </style>
 <body>
   <?php include'navbar.php';?>
@@ -353,7 +362,7 @@ body {
   </div>
 </div>
 <div class="col l4 m6 s12">
-  <div class="card card-1">
+  <div class="card card-1 card">
   <div class="team-member">
     <div class="team-img">
       <img src="img/team/acellteam18/uppu.jpg" alt="team member" class="img-responsive" height="250" width="100%">
@@ -492,7 +501,7 @@ body {
   <div class="row">
 
     <div class="col l4 m6 s12 offset-l4" style="box-shadow: 2px black;">
-      <div class="card card-1">
+      <div class="card card-1 card-mid">
         <div class="team-member">
           <div class="team-img">
             <img src="img/team/acellteam18/sumit1.jpg" alt="team member" class="img-responsive" height="250" width="100%">
@@ -534,7 +543,7 @@ body {
   <div class="row">
 
     <div class="col l4 m6 s12 offset-l4" style="box-shadow: 2px black;">
-      <div class="card card-1">
+      <div class="card card-1 card-mid">
         <div class="team-member">
           <div class="team-img">
             <img src="img/team/acellteam18/harsh.jpg" alt="team member" class="img-responsive" height="250" width="100%">

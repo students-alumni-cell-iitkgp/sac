@@ -10,19 +10,34 @@
     <style type="text/css">
 
 
+        
         @media only screen and (max-width: 1350px) {
 
             .normal{
                 margin: 10px;
                 width: 25vw;
             }
+            
+            
         }
-        @media only screen and (max-width: 992px) {
-            .normal { margin-left: -9px;
+        @media only screen and (max-width: 1092px) {
+            .normal { margin-left: 5%;
                 height: 200px;
                 width: 45vw;
             }
-
+            .big{
+                display:none;
+            }   
+        }
+        @media only screen and (min-width: 992px) {
+            .normal1{
+                margin-left: 7.5% !important;
+            }
+        }
+        @media only screen and (min-width: 600px) and (max-width: 1092px) {
+            .right1{
+                margin-left: 34% !important;
+            }
         }
         @media only screen and (max-width: 600px) {
             .normal {
@@ -31,15 +46,20 @@
                 margin:10px;
                 margin-left: -9px;
             }
+            .cover{
+                max-width:100%;
+            }
+           
 
             .ac-guest img{ height: 30%;
                 margin: 0px auto;
                 max-width:100%;
 
             }
+            
         }
 
-        @media only screen and (min-width: 768px){
+        @media only screen and (min-width: 640px){
             .ac-guest img{
                 margin-left: 80px;
             }
@@ -47,6 +67,12 @@
             {
                 margin-left: 25px;
             }
+            
+            .cover{
+                width: 100%;
+                height:467px;
+            }
+            
         }
 
     </style>
@@ -59,8 +85,8 @@
 <body>
 <div class="_wrapper" style="overflow: hidden;">
     <?php include 'navbar.php';?>
-    <div class="" style="margin-right: 20px;">
-        <img height="467" src="img/indexslider/phonathon1.jpg">
+    <div>
+        <img class="cover" src="img/indexslider/phonathon1.jpg">
     </div>
     <br>
     <div class="row">
@@ -144,12 +170,12 @@
                     <img class="materialboxed normal" src="img/phonathon/2.0/3.jpg" height="230px">
                 </div>
             </div>
-            <div class="col l5 m5 s12" style="margin-left: 7.5%">
+            <div class="col l5 m5 s12 normal1 big">
                
                 <img class="materialboxed normal " src="img/phonathon/2.0/1.jpg" height="480px"  id="centerimg">
                
             </div>
-            <div class="col l2 m2 s12" style="margin-left: 7.5%">
+            <div class="col l2 m2 s12 normal1 right1">
                 <div class="row">
                     <img class="materialboxed normal" src="img/phonathon/2.0/4.jpg" height="230px">
                 </div>
@@ -166,12 +192,12 @@
                     <img class="materialboxed normal" src="img/phonathon/2.0/7.jpg" height="230px">
                 </div>
             </div>
-            <div class="col l5 m5 s12" style="margin-left: 7.5%">
+            <div class="col l5 m5 s12 normal1 big">
                
                 <img class="materialboxed normal " src="img/phonathon/phonathon211.jpg" height="480px"  id="centerimg">
                
             </div>
-            <div class="col l2 m2 s12" style="margin-left: 7.5%">
+            <div class="col l2 m2 s12 normal1 right1">
                 <div class="row">
                     <img class="materialboxed normal" src="img/phonathon/2.0/8.jpg" height="230px">
                 </div>

@@ -3,12 +3,12 @@
 <head>
 <title>Leadership Summit</title>
 <link rel="icon" href="img/meet_14.png">
-	<link rel="stylesheet" href="css/materialize.min.css">
-	  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-	  <script src="js/materialize.min.js"></script>
-	  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-	  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="css/materialize.min.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <style type="text/css">
 
    @media only screen and (min-width: 768px){
@@ -23,18 +23,29 @@
         margin-left: 80px;
     }
    } 
-    @media only screen and (max-width: 468px){
-      .ac-summit img{ height: 30%;
-
-margin: 0px auto;
-max-width:100%;
-
+   @media only screen and (min-width: 600px) and (max-width: 800px){
+      .card-image img{
+        height:60vh;
+      }
+      .card{
+        margin-left: -3%;
+      }
+      
     }
-   } 
+  @media only screen and (max-width: 468px){
+   .ac-summit img{ 
+      height: 30%;
+      margin: 0px auto;
+      max-width:100%;
+    }
+  } 
+    .card-action{
+      display: none;
+    }
    .modal { width: 90% !important ; max-height: 85% !important }
 </style>
-	  <script>
-	  $(document).ready(function(){
+    <script>
+    $(document).ready(function(){
       $('.slider').slider({full_width: true});
     });
 
@@ -43,19 +54,19 @@ max-width:100%;
     // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
     $('.modal-trigger').leanModal();
   });
-	  </script>
+    </script>
 </head>
 <body>
 <div class="_wrapper">
 <?php include 'navbar.php';?>
 <div class="row ac-summit">
-  <img src="img/summit1.jpg" width="90%" >  
+  <img src="img/summit1.jpg" width="100%" >  
 </div>
 <br>
     <div class="row" style="padding:0% 8% 0% 8%;">
 
         <div class="center-align" >
-            <div class="col l12 m12 s12 z-depth-1">
+            <div class="col l12 m12 s12 z-depth-1" style="padding-top:1%">
                 
                     <center>
                      <div class="heading ac-head" style="border:3px black solid; display: inline-block; padding-top: 2px; margin: 3px;padding-right: 20px;padding-left: 20px;" >
@@ -71,7 +82,7 @@ max-width:100%;
     </div>
  <div class="container" style="width:100%;">
   <div class="row leader" style="margin:auto;width:90%;">
-        <div class="col s12 m4 l4">
+        <div class="col s12 m6 l4">
           <div class="card z-depth-0 _card">
             <div class="card-image">
               <img src="img/leadership_speakers/arunabhkumar.jpg">
@@ -85,7 +96,7 @@ max-width:100%;
             </div>
           </div>
         </div>
-        <div class="col s12 m7 l4">
+        <div class="col s12 m6 l4">
           <div class="card z-depth-0 _card">
             <div class="card-image">
               <img src="img/leadership_speakers/arjunmalhotra.jpg">
@@ -99,7 +110,7 @@ max-width:100%;
             </div>
           </div>
         </div>
-        <div class="col s12 m7 l4">
+        <div class="col s12 m6 l4">
           <div class="card z-depth-0 _card">
             <div class="card-image">
               <img src="img/leadership_speakers/anjanraichaudhuri.jpg">
@@ -115,7 +126,7 @@ max-width:100%;
         </div>
   </div>
   <div class="row leader" style="margin:auto;width:90%;">
-        <div class="col s12 m4 l4">
+        <div class="col s12 m6 l4">
           <div class="card z-depth-0 _card">
             <div class="card-image">
               <img src="img/leadership_speakers/gopalrajgarhia.jpg">
@@ -129,7 +140,7 @@ max-width:100%;
             </div>
           </div>
         </div>
-        <div class="col s12 m7 l4">
+        <div class="col s12 m6 l4">
           <div class="card z-depth-0 _card">
             <div class="card-image">
               <img src="img/leadership_speakers/prasadrmenon.jpg">
@@ -143,8 +154,8 @@ max-width:100%;
             </div>
           </div>
         </div>
-        <div class="col s12 m7 l4">
-          <div class="card z-depth-0 _card">
+        <div class="col s12 m6 l4">
+          <div class="card z-depth-0 _card card1">
             <div class="card-image">
               <img src="img/leadership_speakers/sakyasinharoy.jpg">
               <span class="card-title"></span>
@@ -262,7 +273,7 @@ max-width:100%;
   </div>
   </div>
   <?php include 'footer.php';?>
-<script type="text/javascript" src="js/style.js"></script>	
+<script type="text/javascript" src="js/style.js"></script>  
 </body>
 </html>
 
