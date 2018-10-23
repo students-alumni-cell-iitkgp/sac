@@ -82,11 +82,11 @@
     }
    }
 </style>
-	  <script>
-	  $(document).ready(function(){
+    <script>
+    $(document).ready(function(){
       $('.slider').slider({full_width: true});
     });
-	  </script>
+    </script>
 </head>
 <body>
 <div class="_wrapper">
@@ -152,7 +152,7 @@
 
   <div class="row" style="padding-top:10px;">
     <center>
-    	<a id="button" style="height:8%;;padding-top:0px;color:black;" class="waves-effect waves-light btn" href="http://www.sac.iitkgp.ac.in/myimprint/">  <h5><b> Class Gift 2018 Portal </b> </h5></a>
+      <a id="button" style="height:8%;;padding-top:0px;color:black;" class="waves-effect waves-light btn" href="http://www.sac.iitkgp.ac.in/myimprint/">  <h5><b> Class Gift 2018 Portal </b> </h5></a>
     </center>
   </div>
 
