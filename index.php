@@ -60,7 +60,7 @@
             }
             @media (max-width: 767px){
             .eventscol{
-            display: none;
+                display: none;
             }
             .wwd{
             margin-top: -120%;
@@ -220,7 +220,7 @@
                                                 </center>
                                             </div>
                                             <div class="card-content col l8" style="border-bottom: unset;;margin-bottom: -4%">
-                                                <p>Students Alumni Meet - Kolkata 18' : Registrations are open now. <a href="samReg.php">Register here.</a>
+                                                <p>Students Alumni Meet - Kolkata '18 : Registrations are open now. <a href="samReg.php">Register here.</a>
                                                 </p>
                                             </div>
                                         </div>
@@ -406,7 +406,7 @@
             }
             $('.marquee').marquee({
               //speed in milliseconds of the marquee
-              duration: 5000,
+              duration: 9000,
               //gap in pixels between the tickers
               gap: 0,
               //time in milliseconds before the marquee will start animating
