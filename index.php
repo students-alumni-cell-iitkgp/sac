@@ -25,10 +25,6 @@
                 document.getElementById("minute").innerHTML ='0' ;
                 document.getElementById("second").innerHTML = '0'; }
               }, 1000);
-            
-            
-            
-              
         </script>
         <title>Students Alumni Cell &middot; IIT Kharagpur</title>
         <link rel="icon" href="img/meet_14.png">
@@ -36,11 +32,7 @@
         <script src="js/materialize.min.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-        <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
-            <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-            <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js"></script>
-            <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script> -->
+        <link rel="stylesheet" type="text/css" href="css/style.css">        
         <style>
             ul.indicators{z-index: 3;}
             .slider .indicators .indicator-item{ height: 10px; width: 50px; border-radius: 0px; margin: 5px 12px; background-color: #a4a9b2; }
@@ -167,19 +159,16 @@
             </div>
             <!--sliderover-->
             <div>
-                <div class="row">
+                <!-- <div class="row">
                     <div class="heading">
                         <center>
                             <h class="subheading">
                                 <b>About Us</b>
                             </h>
                         </center>
-                    </div>
-                    <!--div class="parallax-container col l6 m6 s6 _about">
-                        <div class="parallax"><img src="img/team.jpg"></div>
-                        </div-->
-                </div>
-                <div>
+                    </div>                    
+                </div> -->
+                <div style="margin-top: 30px">
                     <div class="row" style="min-height: 400px">
                         <div class="col l3 eventscol" style="margin-top: 1em;">
                             <div class="row z-depth-1" style="background-color: white">
@@ -200,23 +189,23 @@
                                         <span class="seconds" id="second"></span>
                                         <div class="smalltext">SECONDS</div>
                                     </div>
-                                    <br>
-                                    <p style="font-size:19;color: #64bae4">Annual Alumni Meet 2019</p>
+                                    <br>                                    
                                 </div>
-                            </div>
-                            <br><br>
-                            <div class="row z-depth-1 marquee" id="mholder data" style="background-color: white;height:180px;overflow:hidden;padding:5px;margin-top:-13.5%;overflow:  hidden;">
+                                <center><b><p style="font-size:19;color: #64bae4">Annual Alumni Meet 2019</p></b></center>
+                            </div>                            
+                            <div class="row z-depth-1" style="background-color: white"><center><p style="font-size:25;color: black"><b>Notice Board</b></p></center></div>
+                            <br>                                                    
+                            <div class="row z-depth-1 marquee" id="mholder data" style="background-color: white;height:250px;overflow:hidden;padding:5px;margin-top:-13.5%;overflow:  hidden;">
                                 <div class="row">
-                                    <div class="card horizontal marqueeElement" style="font-size: 14px">
-                                        <div class="card-image col l4" style="margin-top: 2%">
-                                            <center>
-                                                <br><font size="5" style="margin-left: -1%"><b>SEP</font><br>
-                                                <font size="5">30</b></font><br><br>
-                                            </center>
-                                        </div>
-                                        <div class="card-stacked col l8" >
-                                            <div class="card-content" style="border-bottom: unset;margin-left: -6%;margin-top:4%">
-                                                <p>Register for the Alumni Career Assistance Programme <a href="http://www.sac.iitkgp.ac.in/acap.php">here</a>.
+                                    <div class="card horizontal marqueeElement" style="font-size: 14px;margin-top: -5%" >
+                                        <div class="card-stacked">
+                                            <div class="card-image col l4" style="margin-top: -2%">
+                                                <center>
+                                                    <br><font size="5" style="margin-left: -1%"><b>OCT<br>23</b></font><br>
+                                                </center>
+                                            </div>
+                                            <div class="card-content col l8" style="border-bottom: unset;;margin-bottom: -4%">
+                                                <p>We are recruiting Freshers for the post of Associates. <a href="firstYrReg.php">Register here.</a>
                                                 </p>
                                             </div>
                                         </div>
@@ -227,23 +216,37 @@
                                         <div class="card-stacked">
                                             <div class="card-image col l4" style="margin-top: -2%">
                                                 <center>
-                                                    <br><font size="5" style="margin-left: -1%"><b>AUG</font><br>
-                                                    <font size="5">6</font></b>
+                                                    <br><font size="5" style="margin-left: -1%"><b>OCT<br>23</b></font><br>
                                                 </center>
                                             </div>
                                             <div class="card-content col l8" style="border-bottom: unset;;margin-bottom: -4%">
-                                                <p>The 16th Annual Alumni Meet registrations are open now. <a href="https://sac.iitkgp.ac.in/aam.php">Register here.</a>
+                                                <p>Students Alumni Meet - Kolkata 18' : Registrations are open now. <a href="samReg.php">Register here.</a>
                                                 </p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="row">
+                                    <div class="card horizontal marqueeElement" style="font-size: 14px">
+                                        <div class="card-image col l4" style="margin-top: 2%">
+                                            <center>
+                                                <br><font size="5" style="margin-left: -1%"><b>SEP<br>30</b></font><br>
+                                                <br><br>
+                                            </center>
+                                        </div>
+                                        <div class="card-stacked col l8" >
+                                            <div class="card-content" style="border-bottom: unset;margin-left: -6%;margin-top:4%">
+                                                <p>Register for the Alumni Career Assistance Programme <a href="acap.php">here</a>.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>                                
+                                <div class="row">
                                     <div class="card horizontal marqueeElement" style="font-size: 14px;margin-top: -6%">
                                         <div class="card-image col l4" style="margin-top: -2%">
                                             <center>
-                                                <br><font size="5" style="margin-left: -1%"><b>AUG</font><br>
-                                                <font size="5">23</b></font><br><br>
+                                                <br><font size="5" style="margin-left: -1%"><b>AUG<br>23</b></font><br>
                                             </center>
                                         </div>
                                         <div class="card-stacked col l8">
@@ -254,9 +257,27 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                                <div class="row">
+                                    <div class="card horizontal marqueeElement" style="font-size: 14px;margin-top: -5%" >
+                                        <div class="card-stacked">
+                                            <div class="card-image col l4" style="margin-top: -2%">
+                                                <center>
+                                                    <br><font size="5" style="margin-left: -1%"><b>AUG<br>6</b></font><br>
+                                                </center>
+                                            </div>
+                                            <div class="card-content col l8" style="border-bottom: unset;;margin-bottom: -4%">
+                                                <p>The 16th Annual Alumni Meet registrations are open now. <a href="aam.php">Register here.</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                            
                         </div>
-                        <div class="col l6">
+                        <div class="col l6" style="margin-top: 10px">
+                            <div class="heading">
+                                <center><h class="subheading"><b>About Us</b></h></center>
+                            </div>
                             <div style="background-color: white;">
                                 <p class="z-depth-1 text_align" style="font-size: 16px;padding: 1.9em 2.3em">
                                     The Students' Alumni Cell, IIT Kharagpur is a voluntary student body working under the aegis
@@ -274,7 +295,7 @@
                             </div>
                         </div>
                         <div class="col l3" style="margin-top: 1em;height:450px">
-                            <div id="fbplug" style="background-color: #fff" class="z-depth-1 fb-page" data-href="https://www.facebook.com/iitkgp.alumnicell/?fref=ts" data-tabs="timeline" data-height="347px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                            <div id="fbplug" style="background-color: #fff" class="z-depth-1 fb-page" data-href="https://www.facebook.com/iitkgp.alumnicell/?fref=ts" data-tabs="timeline" data-height="490px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" style="height: 450px">
                                 <blockquote cite="https://www.facebook.com/iitkgp.alumnicell/?fref=ts" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/iitkgp.alumnicell/?fref=ts">Alumni Cell, IIT Kharagpur</a></blockquote>
                             </div>
                         </div>
