@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>Yearnings of Yore</title>
+  <title>Yearnings of Yore</title>
  <link rel="icon" href="img/meet_14.png">
  <link rel="stylesheet" href="css/materialize.min.css">
  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
@@ -8,6 +8,15 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
  <link rel="stylesheet" type="text/css" href="css/style.css">
+ <style type="text/css">
+   @media only screen and (min-width: 600px) and (max-width: 800px){
+      .card1{
+        margin-top:-5%;
+
+      }
+    
+   }
+ </style>
 </head>
 <body>
   <div class="_wrapper">
@@ -15,7 +24,7 @@
     <div class="row">
 
      <div style="padding:3% 10% 8% 10%;">
-      <div class=" col l12 m12 s12 z-depth-2" >
+      <div class=" col l12 m12 s12 z-depth-2" style="padding-top:1%">
 
         <center> <div class="heading ac-head" style="border:3px black solid; display: inline-block; padding-top: 2px; margin: 3px;padding-right: 20px;padding-left: 20px;" >
           <h4><b>Yearnings of Yore </b></h4> </div>
@@ -125,7 +134,7 @@
     </div>
 
     <div class="col s5.5 m6 l4">
-      <div class="card z-depth-0 _card">
+      <div class="card card1 z-depth-0 _card">
       </div>
     </div>
     <div class="col s5.5 m6 l4">

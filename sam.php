@@ -38,7 +38,7 @@
                 <div class="center-align" >
                     <div class="col l12 z-depth-1">
                         <div class="heading ac-head" style=" display: inline-block; padding-top: 2px; margin: 3px;padding-right: 20px;padding-left: 20px;" >
-                            <p><b>Register for Students' Alumni Meet - Kolkata '18   &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;</b>
+                            <p><b>Register for Student Alumni Meet - Kolkata '18   &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;</b>
                                 <a href="samReg.php" class="btn waves-effect waves-light" type="submit" style="background-color:#449d44;" name="button1">Register<i class="material-icons right">send</i>
                                 </a>
                             </p>
