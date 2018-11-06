@@ -39,16 +39,17 @@ left: 60px;
       padding:6px;}
     }
     
-    @media only screen and (max-width: 468px){
-      .ac-mentor img{ height: 30%;
+    @media only screen and (max-width: 668px){
+      .ac-mentor img{ height: 40vh;
         margin: 0px auto;
-        max-width:100%;
+        width:100vw;
 
     }
-     .mentor-text{margin: 0px;}
+     .mentor-text{margin:0;}
      .mentor-top { margin-left:0px;
       width: 100%;}
-     .mentor-reg a{margin-left: 0px;} }
+     .mentor-reg a{margin-left: 0px;}
+     .summit{margin-left: 6%;} }
    
     
 </style>
@@ -72,7 +73,7 @@ left: 60px;
                       <center> <div class="heading ac-head" style="border:3px black solid; display: inline-block; padding-top: 2px; margin: 3px;padding-right: 20px;padding-left: 20px;" >
                           <h4><b>Student Alumni Mentorship Programme</b></h4> </div>
                       </center>
-  <div class="col l8 m8 s12">
+  <div class="col l8 m12 s12">
    
     
     <span class="mentor-text">
@@ -81,7 +82,7 @@ left: 60px;
     </p>
     </span>
   </div>
-    <div  class="col l4 m4 s12 mentor-reg">
+    <div  class="col l4 m12 s12 mentor-reg">
 <center>
 <br>
 <br>
