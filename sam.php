@@ -34,7 +34,7 @@
             <div class="row ac-sam">
                 <img src="img/sam3.jpg" style="width: 100%">
             </div>
-            <div class="row" style="padding:0% 8% 6% 8%;">
+            <!-- <div class="row" style="padding:0% 8% 6% 8%;">
                 <div class="center-align" >
                     <div class="col l12 z-depth-1">
                         <div class="heading ac-head" style=" display: inline-block; padding-top: 2px; margin: 3px;padding-right: 20px;padding-left: 20px;" >
@@ -45,10 +45,10 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <div class="row" style="padding:0% 8% 6% 8%;">
                 <div class="center-align" >
-                    <div class="col l12 z-depth-1">
+                    <div class="col l12 z-depth-1" style="margin-top: 30px;">
                         <div class="heading ac-head" style="border:3px black solid; display: inline-block; padding-top: 2px; margin: 3px;padding-right: 20px;padding-left: 20px;margin-top: 30px;" >
                             <h4><b>Student Alumni Meet</b></h4>
                         </div>
