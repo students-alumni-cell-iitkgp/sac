@@ -121,12 +121,12 @@
             <?php include 'navbar.php';?>
             <!--slider-->
             <div class="slider"  style="overflow: hidden;">
-                <ul class="slides">
-                    <li>
-                        <img id="img1" src="img/indexslider/sac-logo.jpg"/>
-                    </li>
+                <ul class="slides">                    
                     <li>
                         <img src="img/indexslider/aam_2019.jpg" />
+                    </li>
+                    <li>
+                        <img id="img1" src="img/indexslider/sac-logo.jpg"/>
                     </li>
                     <li>
                         <img src="img/indexslider/acap.jpg" width="100%" />
@@ -157,17 +157,8 @@
                     </li>
                 </ul>
             </div>
-            <!--sliderover-->
-            <div>
-                <!-- <div class="row">
-                    <div class="heading">
-                        <center>
-                            <h class="subheading">
-                                <b>About Us</b>
-                            </h>
-                        </center>
-                    </div>                    
-                </div> -->
+            <!--1st Row-->
+            <div>                
                 <div style="margin-top: 30px">
                     <div class="row" style="min-height: 400px">
                         <div class="col l3 eventscol" style="margin-top: 1em;">
@@ -193,39 +184,24 @@
                                 </div>
                                 <center><b><p style="font-size:19;color: #64bae4">Annual Alumni Meet 2019</p></b></center>
                             </div>                            
-                            <div class="row z-depth-1" style="background-color: white"><center><p style="font-size:25;color: black"><b>Notice Board</b></p></center></div>
+                            <div class="row z-depth-1" style="background-color: white"><center><p style="font-size:25;color: black;padding-top: 15px;margin-bottom: 15px;"><b>Notice Board</b></p></center></div>
                             <br>                                                    
-                            <div class="row z-depth-1 marquee" id="mholder data" style="background-color: white;height:250px;overflow:hidden;padding:5px;margin-top:-13.5%;overflow:  hidden;">
+                            <div class="row z-depth-1 marquee" id="mholder data" style="background-color: white;height:240px;overflow:hidden;padding:5px;margin-top:-13.5%;overflow:  hidden;">
                                 <div class="row">
                                     <div class="card horizontal marqueeElement" style="font-size: 14px;margin-top: -5%" >
                                         <div class="card-stacked">
                                             <div class="card-image col l4" style="margin-top: -2%">
                                                 <center>
-                                                    <br><font size="5" style="margin-left: -1%"><b>OCT<br>23</b></font><br>
+                                                    <br><font size="5" style="margin-left: -1%"><b>NOV<br>3</b></font><br>
                                                 </center>
                                             </div>
                                             <div class="card-content col l8" style="border-bottom: unset;;margin-bottom: -4%">
-                                                <p>We are recruiting Freshers for the post of Associates. <a href="firstYrReg.php">Register here.</a>
+                                                <p>Glimpses of Student Alumni Meet - Kolkata '18 <a href="https://medium.com/@studentsalumnicell.iitkgp/student-alumni-meet-kolkata-2018-cfce5313ffb3?fbclid=IwAR2W_bA-gTDayPJWqj_lZ7TSQ_v5ueXLjsp36VgzHO3MjcCdQ8yUDDuMcQ0">Click here</a>
                                                 </p>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="row">
-                                    <div class="card horizontal marqueeElement" style="font-size: 14px;margin-top: -5%" >
-                                        <div class="card-stacked">
-                                            <div class="card-image col l4" style="margin-top: -2%">
-                                                <center>
-                                                    <br><font size="5" style="margin-left: -1%"><b>OCT<br>23</b></font><br>
-                                                </center>
-                                            </div>
-                                            <div class="card-content col l8" style="border-bottom: unset;;margin-bottom: -4%">
-                                                <p>Students Alumni Meet - Kolkata '18 : Registrations are open now. <a href="samReg.php">Register here.</a>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                </div>                                
                                 <div class="row">
                                     <div class="card horizontal marqueeElement" style="font-size: 14px">
                                         <div class="card-image col l4" style="margin-top: 2%">
@@ -237,21 +213,6 @@
                                         <div class="card-stacked col l8" >
                                             <div class="card-content" style="border-bottom: unset;margin-left: -6%;margin-top:4%">
                                                 <p>Register for the Alumni Career Assistance Programme <a href="acap.php">here</a>.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>                                
-                                <div class="row">
-                                    <div class="card horizontal marqueeElement" style="font-size: 14px;margin-top: -6%">
-                                        <div class="card-image col l4" style="margin-top: -2%">
-                                            <center>
-                                                <br><font size="5" style="margin-left: -1%"><b>AUG<br>23</b></font><br>
-                                            </center>
-                                        </div>
-                                        <div class="card-stacked col l8">
-                                            <div class="card-content" style="border-bottom: unset;margin-left: -6%">
-                                                <p>Kerela is in great need of help . Please <a href="http://alumni.iitkgp.ac.in/Alumniweb/GoThroughCampaign/?camp_id=19&purpose=readmore" target="_blank">donate here</a> as an alumnus.
                                                 </p>
                                             </div>
                                         </div>
@@ -295,7 +256,7 @@
                             </div>
                         </div>
                         <div class="col l3" style="margin-top: 1em;height:450px">
-                            <div id="fbplug" style="background-color: #fff" class="z-depth-1 fb-page" data-href="https://www.facebook.com/iitkgp.alumnicell/?fref=ts" data-tabs="timeline" data-height="490px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" style="height: 450px">
+                            <div id="fbplug" style="background-color: #fff" class="z-depth-1 fb-page" data-href="https://www.facebook.com/iitkgp.alumnicell/?fref=ts" data-tabs="timeline" data-height="485px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" style="height: 450px">
                                 <blockquote cite="https://www.facebook.com/iitkgp.alumnicell/?fref=ts" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/iitkgp.alumnicell/?fref=ts">Alumni Cell, IIT Kharagpur</a></blockquote>
                             </div>
                         </div>
