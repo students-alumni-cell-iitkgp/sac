@@ -18,7 +18,7 @@
   //  window.location.assign("http://www.sac.iitkgp.ac.in/signup.php");
  // }
 alert(" Registration is closed now ");   
-window.location.assign("http://www.sac.iitkgp.ac.in/aam.php");
+window.location.assign("https://sac.iitkgp.ac.in/aam.php");
 </script>
 
 <script>
