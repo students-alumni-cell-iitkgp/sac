@@ -106,7 +106,19 @@ else
 
       });
 </script> 
-
+<script type="text/javascript">
+  $(function () {
+      $('#sweetalert').on('click', function () {
+          swal({
+  title: "SORRY!",
+  text: "Registrations have been closed",
+  icon: "error",
+  buttons: true,
+  dangerMode: true,
+});
+      });
+  });
+</script>
 
 
 <html>
@@ -207,7 +219,7 @@ else
               16th Annual Alumni Meet
           </div>
           <div style="margin-top: 30%"><a class="waves-effect waves-light btn-large modal-trigger" href="#modal1" style="width: 105%" >LOGIN</a>
-              <br><br><a class="waves-effect waves-light btn" href="signup.php" style="width: 105%;height: 5em">16th Annual Alumni Meet <br> Registration</a>
+              <br><br><a class="waves-effect waves-light btn" id="sweetalert" style="width: 105%;height: 5em">16th Annual Alumni Meet <br> Registration</a>
           </div>
           </div></div>
   <div class="row">
