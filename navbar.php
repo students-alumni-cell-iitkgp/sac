@@ -100,6 +100,7 @@
     <li><a href="temposhout_final_6.pdf" target="_blank">Tempo Shout</a></li>
   </ul>
   <ul id="sponsors" class="dropdown-content" style="min-width: 200px;">
+    <li><a href="sponsors2019.php">2019</a></li>
     <li><a href="sponsors2018.php">2018</a></li>
     <li><a href="sponsors2017.php">2017</a></li>
     <li><a href="sponsors2016.php">2016</a></li>
@@ -167,57 +168,28 @@
               </div></li></ul></li>
 
 
-        <li><a href="team.php">The Team</a></li>
-       <li class="no-padding">
-          <ul class="collapsible collapsible-accordion">
-            <li>
-              <a class="collapsible-header">Our Sponsors<i class="mdi-navigation-arrow-drop-down"></i></a>
-              <div class="collapsible-body">
-                <ul>
-   <li><a href="sponsors2018.php">2018</a></li>
-    <li><a href="sponsors2017.php">2017</a></li>
-    <li><a href="sponsors2016.php">2016</a></li>
-    <li><a href="sponsors2015.php">2015</a></li>
-    <li><a href="sponsors2014.php">2014</a></li>
-    <li><a href="sponsors2013.php">2013</a></li>
-    <li><a href="sponsors2012.php">2012</a></li>
-
-                </ul>
-
-              </div></li></ul></li>
-
-
-
-
-
+          <li><a href="team.php">The Team</a></li>
+         <li class="no-padding">
+            <ul class="collapsible collapsible-accordion">
+              <li>
+                <a class="collapsible-header">Our Sponsors<i class="mdi-navigation-arrow-drop-down"></i></a>
+                <div class="collapsible-body">
+                  <ul>
+                    <li><a href="sponsors2019.php">2019</a></li>
+                    <li><a href="sponsors2018.php">2018</a></li>
+                    <li><a href="sponsors2017.php">2017</a></li>
+                    <li><a href="sponsors2016.php">2016</a></li>
+                    <li><a href="sponsors2015.php">2015</a></li>
+                    <li><a href="sponsors2014.php">2014</a></li>
+                    <li><a href="sponsors2013.php">2013</a></li>
+                    <li><a href="sponsors2012.php">2012</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </li>
       </ul>
 
 
   </nav>
 </div>
-<!--  <div id="modal1" class="modal ">
-  <div class="modal-content">
-  <div class="row">
-    <form class="col s12 center-align" action="aam.php" method="POST">
-      <div class="row">
-      <h2>LOGIN</h2>
-        <div class="input-field col s12">
-          <i class="material-icons prefix">account_circle</i>
-          <input id="icon_prefix" type="email" class="validate" name="email">
-          <label for="icon_prefix">Email ID</label>
-        </div>
-        <div class="input-field col s12">
-          <i class="material-icons prefix">vpn_key</i>
-          <input id="icon_telephone" type="password" class="validate" name="password">
-          <label for="icon_telephone">Password</label>
-        </div>
-            <button class="btn-large waves-effect waves-light " type="submit" name="action" style="margin-top:15px; width:200px;">Log In
-            <i class="material-icons right">send</i>
-      </div>
-    </form>
-  </div>
-  </div>
-  <div class="modal-footer">
-    <a href="#!" class=" modal-action modal-close waves-effect waves-blue btn-flat">CLOSE</a>
-  </div>
-</div> -->
