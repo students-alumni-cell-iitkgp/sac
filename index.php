@@ -2,30 +2,6 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
     <script src="https://cdn.jsdelivr.net/jquery.marquee/1.3.1/jquery.marquee.min.js" charset="utf-8"></script>
     <head>
-        <script type="text/javascript">
-            var deadline = new Date("jan 11, 2019 12:00:00").getTime();
-            
-            var x = setInterval(function() {
-            
-              var now = new Date().getTime();
-              var t = deadline - now;
-              var days = Math.floor(t / (1000 * 60 * 60 * 24));
-              var hours = Math.floor((t%(1000 * 60 * 60 * 24))/(1000 * 60 * 60));
-              var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60));
-              var seconds = Math.floor((t % (1000 * 60)) / 1000);
-              document.getElementById("day").innerHTML =days ;
-              document.getElementById("hour").innerHTML =hours;
-              document.getElementById("minute").innerHTML = minutes;
-              document.getElementById("second").innerHTML =seconds;
-              if (t < 0) {
-                clearInterval(x);
-                document.getElementById("demo").innerHTML = "TIME UP";
-                document.getElementById("day").innerHTML ='0';
-                document.getElementById("hour").innerHTML ='0';
-                document.getElementById("minute").innerHTML ='0' ;
-                document.getElementById("second").innerHTML = '0'; }
-              }, 1000);
-        </script>
         <title>Students Alumni Cell &middot; IIT Kharagpur</title>
         <link rel="icon" href="img/meet_14.png">
         <link rel="stylesheet" href="css/materialize.min.css">
@@ -162,31 +138,24 @@
                 <div style="margin-top: 30px">
                     <div class="row" style="min-height: 400px">
                         <div class="col l3 eventscol" style="margin-top: 1em;">
-                            <div class="row z-depth-1" style="background-color: white">
-                                <div id="clockdiv" style="background-color:white; padding:5px;">
-                                    <div>
-                                        <span class="days" id="day"></span>
-                                        <div class="smalltext">DAYS</div>
-                                    </div>
-                                    <div>
-                                        <span class="hours" id="hour"></span>
-                                        <div class="smalltext">HOURS</div>
-                                    </div>
-                                    <div>
-                                        <span class="minutes" id="minute"></span>
-                                        <div class="smalltext">MINUTES</div>
-                                    </div>
-                                    <div>
-                                        <span class="seconds" id="second"></span>
-                                        <div class="smalltext">SECONDS</div>
-                                    </div>
-                                    <br>                                    
-                                </div>
-                                <center><b><p style="font-size:19;color: #64bae4">Annual Alumni Meet 2019</p></b></center>
-                            </div>                            
                             <div class="row z-depth-1" style="background-color: white"><center><p style="font-size:25;color: black;padding-top: 15px;margin-bottom: 15px;"><b>Notice Board</b></p></center></div>
                             <br>                                                    
                             <div class="row z-depth-1 marquee" id="mholder data" style="background-color: white;height:240px;overflow:hidden;padding:5px;margin-top:-13.5%;overflow:  hidden;">
+                                <div class="row">
+                                    <div class="card horizontal marqueeElement" style="font-size: 14px;margin-top: -5%" >
+                                        <div class="card-stacked">
+                                            <div class="card-image col l4" style="margin-top: -2%">
+                                                <center>
+                                                    <br><font size="5" style="margin-left: -1%"><b>JAN<br>28</b></font><br>
+                                                </center>
+                                            </div>
+                                            <div class="card-content col l8" style="border-bottom: unset;;margin-bottom: -4%">
+                                                <p>Selections for Yearbook : Click <a href="yearbookSelections.php">here</a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                                 <div class="row">
                                     <div class="card horizontal marqueeElement" style="font-size: 14px;margin-top: -5%" >
                                         <div class="card-stacked">
@@ -202,37 +171,7 @@
                                         </div>
                                     </div>
                                 </div>                                
-                                <div class="row">
-                                    <div class="card horizontal marqueeElement" style="font-size: 14px">
-                                        <div class="card-image col l4" style="margin-top: 2%">
-                                            <center>
-                                                <br><font size="5" style="margin-left: -1%"><b>SEP<br>30</b></font><br>
-                                                <br><br>
-                                            </center>
-                                        </div>
-                                        <div class="card-stacked col l8" >
-                                            <div class="card-content" style="border-bottom: unset;margin-left: -6%;margin-top:4%">
-                                                <p>Register for the Alumni Career Assistance Programme <a href="acap.php">here</a>.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="card horizontal marqueeElement" style="font-size: 14px;margin-top: -5%" >
-                                        <div class="card-stacked">
-                                            <div class="card-image col l4" style="margin-top: -2%">
-                                                <center>
-                                                    <br><font size="5" style="margin-left: -1%"><b>AUG<br>6</b></font><br>
-                                                </center>
-                                            </div>
-                                            <div class="card-content col l8" style="border-bottom: unset;;margin-bottom: -4%">
-                                                <p>The 16th Annual Alumni Meet registrations are open now. <a href="aam.php">Register here.</a>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                                                
                             </div>                            
                         </div>
                         <div class="col l6" style="margin-top: 10px">
