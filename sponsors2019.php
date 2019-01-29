@@ -34,7 +34,7 @@
                         </h2>
                     </div>
                     <a href="https://www.axisbank.com/" target="_blank" >
-                    <img class="spons" src="img/spons/2019/1.jpeg" width="350" height="170" />
+                    <img class="spons" src="img/spons/2019/1.jpeg" width="358" height="393" />
                     </a>
                 </div>
                 <br> <br>
@@ -47,8 +47,8 @@
                         </h2>
                     </div>
                     <div class="col l12 m12 s12" align="center">
-                        <a href="" target="_blank">
-                        <img class="spons" src="img/spons/2019/rep1.jpg" width="480px" height="340px"  />
+                        <a href="http://www.greentechcity.in/" target="_blank">
+                        <img class="spons" src="img/spons/2019/rep1.jpg" width="340px" height="440px"  />
                         </a>
                     </div>
                 </div>
@@ -62,7 +62,7 @@
                         </h2>
                     </div>
                     <div class="col l12 m12 s12" align="center">
-                        <a href="" target="_blank">
+                        <a href="https://www.jeep.com/" target="_blank">
                         <img class="spons" src="img/spons/2019/dri1.jpg" width="480px" height="200px"  />
                         </a>
                     </div>
@@ -90,7 +90,7 @@
                         </h2>
                     </div>
                     <div class="col l12 m12 s12">
-                        <div class="col l4 m4 s12" align="center">  <a href="" target="_blank"> <br> <br>
+                        <div class="col l4 m4 s12" align="center">  <a href="https://www.bizacuity.com/" target="_blank"> <br> <br>
                             <img class="spons"  src="img/spons/2019/es1.jpg" width="190" height="170" />
                             </a> 
                         </div>
@@ -100,23 +100,23 @@
                             </a>
                         </div>
                         <div class="col l4 m4 s12"  align="center">  
-                            <a href="" target="_blank"><br> <br>
+                            <a href="http://www.oil-india.com/" target="_blank"><br> <br>
                             <img class="spons"  src="img/spons/2019/es3.jpg" width="190" height="170" />
                             </a> 
                         </div>
                         <div class="col l4 m4 s12" align="center">
-                            <a href="" target="_blank">
+                            <a href="https://orientalinsurance.org.in/" target="_blank">
                             <br><br>
                             <img class="spons"  src="img/spons/2019/es4.jpg" width="190" height="170" />
                             </a> 
                         </div>
                         <div class="col l4 m4 s12"  align="center">
-                            <a href="" target="_blank"> <br> <br>
+                            <a href="https://www.supreme.co.in/" target="_blank"> <br> <br>
                             <img class="spons"  src="img/spons/2019/es5.jpg" width="190" height="170" />
                             </a>
                         </div>
                         <div class="col l4 m4 s12"  align="center">  
-                            <a href="" target="_blank"><br> <br>
+                            <a href="https://www.thoucentric.com/" target="_blank"><br> <br>
                             <img class="spons"  src="img/spons/2019/es6.jpg" width="190" height="170" />
                             </a> 
                         </div>
@@ -132,17 +132,31 @@
                         </h2>
                     </div>
                     <div class="col l6 m12 s12" align="center">
-                        <a href="http://www.edcilindia.co.in/" target="_blank">
+                        <a href="http://npcc.gov.in/" target="_blank">
                         <img class="spons" src="img/spons/2019/csr1.jpg" width="350px" height="200px"  />
                         </a>
                     </div>
                     <div class="col l6 m12 s12" align="center">
-                        <a href="http://www.npcc.gov.in/Home.aspx" target="_blank">
+                        <a href="https://omcltd.in/" target="_blank">
                         <img class="spons" src="img/spons/2019/csr2.jpg" width="350px" height="200px"  />
                         </a>
                     </div>
                 </div>
                 <br> <br>
+                <div class="row">
+                    <div class="col l12 m12 s12">
+                        <h2 style="text-align:center;">
+                            Travel Partner
+                            <hr>
+                        </h2>
+                    </div>
+                    <div class="col l12 m12 s12" align="center">
+                        <a href="" target="_blank">
+                        <img class="spons" src="img/spons/2019/tp.jpg" width="360px" height="250px"  />
+                        </a>
+                    </div>
+                </div>
+                <br><br>
                 <!-- new -->
                 <div class="row">
                     <div class="col l12 m12 s12">
@@ -152,7 +166,7 @@
                         </h2>
                     </div>
                     <div class="col l12 m12 s12" align="center">
-                        <a href="http://www.polestarbags.com/" target="_blank">
+                        <a href="" target="_blank">
                         <img class="spons" src="img/spons/2019/pic1.jpg" width="250px" height="200px"  />
                         </a>
                     </div>
@@ -291,7 +305,7 @@
                         </h2>
                     </div>
                     <div class="col l12 m12 s12" align="center">
-                        <a href="" target="_blank">
+                        <a href="https://www.sbiyono.sbi/" target="_blank">
                         <img class="spons" src="img/spons/2019/yop1.png" width="480px" height="200px"  />
                         </a>
                     </div>
@@ -321,7 +335,7 @@
                         </h2>
                     </div>
                     <div class="col l12 m12 s12" align="center">
-                        <a href="https://www.jagran.com/" target="_blank">
+                        <a href="" target="_blank">
                         <img class="spons" src="img/spons/2019/cgp1.jpg" width="330px" height="200px"  />
                         </a>
                     </div>
@@ -336,7 +350,7 @@
                         </h2>
                     </div>
                     <div class="col l12 m12 s12" align="center">
-                        <a href="" target="_blank">
+                        <a href="https://www.titan.co.in/" target="_blank">
                         <img class="spons" src="img/spons/2019/tks1.png" width="280px" height="200px"  />
                         </a>
                     </div>
@@ -348,17 +362,17 @@
                     </div>
                     <div class="row">
                         <div class="col l12 m12 s12">
-                            <div class="col l4 m4 s12" align="center">  <a href="http://www.akar.co.in/" target="_blank"> <br> <br>
+                            <div class="col l4 m4 s12" align="center">  <a href="" target="_blank"> <br> <br>
                                 <img class="spons"  src="img/spons/2019/gp1.jpg" width="190" height="120" />
                                 </a> 
                             </div>
                             <div class="col l4 m4 s12"  align="center">
-                                <a href="http://amleatherindia.com/" target="_blank"> <br> <br>
+                                <a href="" target="_blank"> <br> <br>
                                 <img class="spons"  src="img/spons/2019/gp2.jpg" width="190" height="120" />
                                 </a>
                             </div>
                             <div class="col l4 m4 s12" align="center">
-                                <a href="https://www.giftease.com/" target="_blank">
+                                <a href="" target="_blank">
                                 <img class="spons" src="img/spons/2019/gp3.jpg" width="250px" height="200px"  />
                                 </a>
                             </div>
@@ -366,13 +380,12 @@
                         <br><br>
                         <div class="row">
                             <div class="col l6 m6 s12" align="center">
-                                <a href="http://www.purplepalette.in/
-                                    " target="_blank">
+                                <a href="" target="_blank">
                                 <img class="spons" src="img/spons/2019/gp4.jpg" width="250px" height="200px"  />
                                 </a>
                             </div>
                             <div class="col l6 m6 s12"  align="center">  
-                                <a href="#" target="_blank"><br> <br>
+                                <a href="" target="_blank"><br> <br>
                                 <img class="spons"  src="img/spons/2019/gp5.jpg" width="250px" height="200px" />
                                 </a> 
                             </div>
@@ -388,7 +401,7 @@
                             </h2>
                         </div>
                         <div class="col l12 m12 s12" align="center">
-                            <a href="https://www.chilisindia.com/" target="_blank">
+                            <a href="http://tatastryder.com/" target="_blank">
                             <img class="spons" src="img/spons/2019/rp1.jpg" width="550px" height="200px"  />
                             </a>
                         </div>
@@ -446,18 +459,17 @@
                         </h2>
                     </div>
                     <div class="col l12 m12 s12">
-                        <div class="col l4 m4 s12" align="center">  <a href="https://www.unionbankonline.co.in/" target="_blank"> <br> <br>
+                        <div class="col l4 m4 s12" align="center">  <a href="" target="_blank"> <br> <br>
                             <img class="spons"  src="img/spons/2019/bvp1.jpg" width="190" height="170" />
                             </a> 
                         </div>
                         <div class="col l4 m4 s12"  align="center">
-                            <a href="https://www.birlacorporation.com/mp-birla-cement-perfect.html
-                                " target="_blank"> <br> <br>
+                            <a href="" target="_blank"> <br> <br>
                             <img class="spons"  src="img/spons/2019/bvp2.jpeg" width="190" height="170" />
                             </a>
                         </div>
                         <div class="col l4 m4 s12"  align="center">  
-                            <a href="http://bel-india.com/" target="_blank"><br> <br>
+                            <a href="" target="_blank"><br> <br>
                             <img class="spons"  src="img/spons/2019/bvp3.jpg" width="190" height="170" />
                             </a> 
                         </div>
