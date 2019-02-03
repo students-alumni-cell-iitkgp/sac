@@ -48,7 +48,7 @@
                     </div>
                     <div class="col l12 m12 s12" align="center">
                         <a href="http://www.greentechcity.in/" target="_blank">
-                        <img class="spons" src="img/spons/2019/rep1.jpg" width="340px" height="440px"  />
+                        <img class="spons" src="img/spons/2019/rep1.jpg" width="50%" height="400px"  />
                         </a>
                     </div>
                 </div>
@@ -61,9 +61,14 @@
                             <hr>
                         </h2>
                     </div>
-                    <div class="col l12 m12 s12" align="center">
+                    <div class="col l6 m6 s12" align="center">
                         <a href="https://www.jeep.com/" target="_blank">
-                        <img class="spons" src="img/spons/2019/dri1.jpg" width="480px" height="200px"  />
+                        <img class="spons" src="img/spons/2019/dri1.jpg" width="100%" height="200px"  />
+                        </a>
+                    </div>
+                    <div class="col l6 m6 s12" align="center">
+                        <a href="http://www.splvolvocars.com/" target="_blank">
+                        <img class="spons" src="img/spons/2019/dri2.jpg" width="100%" height="200px"  />
                         </a>
                     </div>
                 </div>
@@ -77,7 +82,7 @@
                         </h2>
                     </div>
                     <a href="https://www.tatasteel.com/" target="_blank" >
-                    <img class="spons" src="img/spons/2019/2.jpg" width="350" height="170" />
+                    <img class="spons" src="img/spons/2019/2.jpg" width="50%" height="170" />
                     </a>
                 </div>
                 <br> <br>
@@ -208,7 +213,7 @@
                                 </a> 
                             </div>
                             <div class="col l4 m4 s12"  align="center">
-                                <a href="" target="_blank"> <br> <br>
+                                <a href="https://steenbok.in/" target="_blank"> <br> <br>
                                 <img class="spons"  src="img/spons/2019/app2.jpg" width="190" height="120" />
                                 </a>
                             </div>
@@ -231,7 +236,7 @@
                     </div>
                     <div class="col l12 m12 s12" align="center">
                         <a href="https://www.jagran.com/" target="_blank">
-                        <img class="spons" src="img/spons/2019/cmp1.jpg" width="480px" height="200px"  />
+                        <img class="spons" src="img/spons/2019/cmp1.jpg" width="60%" height="200px"  />
                         </a>
                     </div>
                 </div>
@@ -260,8 +265,8 @@
                         </h2>
                     </div>
                     <div class="col l12 m12 s12" align="center">
-                        <a href="" target="_blank">
-                        <img class="spons" src="img/spons/2019/hsp1.jpg" width="480px" height="200px"  />
+                        <a href="https://www.sprightlyfood.com/" target="_blank">
+                        <img class="spons" src="img/spons/2019/hsp1.jpg" width="60%" height="200px"  />
                         </a>
                     </div>
                 </div>
@@ -276,7 +281,7 @@
                     </div>
                     <div class="col l12 m12 s12" align="center">
                         <a href="" target="_blank">
-                        <img class="spons" src="img/spons/2019/hop1.jpg" width="480px" height="200px"  />
+                        <img class="spons" src="img/spons/2019/hop1.jpg" width="70%" height="200px"  />
                         </a>
                     </div>
                 </div>
@@ -291,7 +296,7 @@
                     </div>
                     <div class="col l12 m12 s12" align="center">
                         <a href="" target="_blank">
-                        <img class="spons" src="img/spons/2019/wp1.jpg" width="480px" height="200px"  />
+                        <img class="spons" src="img/spons/2019/wp1.jpg" width="70%" height="200px"  />
                         </a>
                     </div>
                 </div>
@@ -321,7 +326,7 @@
                     </div>
                     <div class="col l12 m12 s12" align="center">
                         <a href="" target="_blank">
-                        <img class="spons" src="img/spons/2019/dmp1.png" width="480px" height="200px"  />
+                        <img class="spons" src="img/spons/2019/dmp1.png" width="70%" height="200px"  />
                         </a>
                     </div>
                 </div>
@@ -402,7 +407,7 @@
                         </div>
                         <div class="col l12 m12 s12" align="center">
                             <a href="http://tatastryder.com/" target="_blank">
-                            <img class="spons" src="img/spons/2019/rp1.jpg" width="550px" height="200px"  />
+                            <img class="spons" src="img/spons/2019/rp1.jpg" width="70%" height="200px"  />
                             </a>
                         </div>
                     </div>
@@ -464,8 +469,8 @@
                             </a> 
                         </div>
                         <div class="col l4 m4 s12"  align="center">
-                            <a href="" target="_blank"> <br> <br>
-                            <img class="spons"  src="img/spons/2019/bvp2.jpeg" width="190" height="170" />
+                            <a href="http://www.odirayindustries.com/" target="_blank"> <br> <br>
+                            <img class="spons"  src="img/spons/2019/bvp2.jpeg" width="190" height="170" /><br>Odi Ray Industries Limited
                             </a>
                         </div>
                         <div class="col l4 m4 s12"  align="center">  
