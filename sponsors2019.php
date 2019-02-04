@@ -459,7 +459,23 @@
                 <div class="row">
                     <div class="col l12 m12 s12">
                         <h2 style="text-align:center;">
-                            Bevrage Partner
+                            Fine Dine Partner
+                            <hr>
+                        </h2>
+                    </div>
+                    <div class="row">
+                        <div class="col l12 m12 s12" align="center"> <a href="https://www.chilis.com/" target="_blank">
+                            <img class="spons" src="img/spons/2019/chilis.jpg" width="65%" style="min-width: 300px" height="200px" />
+                            </a>
+                        </div>
+                    </div>
+                    <br><br>                    
+                </div>
+                <!-- new -->
+                <div class="row">
+                    <div class="col l12 m12 s12">
+                        <h2 style="text-align:center;">
+                            Beverage Partner
                             <hr>
                         </h2>
                     </div>
