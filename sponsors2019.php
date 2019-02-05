@@ -125,6 +125,16 @@
                             <img class="spons"  src="img/spons/2019/es6.jpg" width="190" height="170" />
                             </a> 
                         </div>
+                        <div class="col l6 m6 s12"  align="center">  
+                            <a href="https://www.ongcindia.com/" target="_blank"><br> <br>
+                            <img class="spons"  src="img/spons/2019/TEMP_UPLOADS/ONGC_Logo.png" width="190" height="170" />
+                            </a> 
+                        </div>
+                        <div class="col l6 m6 s12"  align="center">  
+                            <a href="https://www.isaimpex.in/" target="_blank"><br> <br>
+                            <img class="spons"  src="img/spons/2019/TEMP_UPLOADS/ISA_impex.png" width="190" height="170" />
+                            </a> 
+                        </div>
                     </div>
                 </div>
                 <br><br>
@@ -444,12 +454,16 @@
                         </h2>
                     </div>
                     <div class="row">
-                        <div class="col l6 m12 s12" align="center"> <a href="" target="_blank">
+                        <div class="col l4 m12 s12" align="center"> <a href="" target="_blank">
                             <img class="spons" src="img/spons/2019/fp1.png" width="300" height="150" />
                             </a>
                         </div>
-                        <div class="col l6 m12 s12" align="center"> <a href="" target="_blank">
-                            <img class="spons" src="img/spons/2019/fp2.jpg" width="200" height="150" />
+                        <div class="col l4 m12 s12" align="center"> <a href="" target="_blank">
+                            <img class="spons" src="img/spons/2019/fp2.jpg" style="margin-left: 2vw" width="200" height="150" />
+                            </a>
+                        </div>
+                        <div class="col l4 m12 s12" align="center"> <a href="" target="_blank">
+                            <img class="spons" src="img/spons/2019/TEMP_UPLOADS/loyal_logo.jpg" style="height: 40vw;width: 80vw;margin-left: 2vw" />
                             </a>
                         </div>
                     </div>
