@@ -412,7 +412,7 @@
                     <div class="row">
                         <div class="col l12 m12 s12">
                             <div class="col l6 m12 s12" align="center">
-                                <a href="" target="_blank">
+                                <a href="https://steenbok.in/" target="_blank">
                                 <img class="spons" src="img/spons/2019/app2.jpg" width="270px" height="160px"  />
                                 </a>
                             </div>
