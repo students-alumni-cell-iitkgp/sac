@@ -160,32 +160,51 @@ else
     
 
       <div class="row ac-aam">
-        <img src="img/homecoming2.jpg" style="margin-left: 0px;width: 100vw" > 
+        <img src="img/homecoming_poster.jpg" style="margin-left: 0px;width: 100vw;height:80vh" > 
 </div>
   <div class="row">
   <center>
     <div class="heading ac-head" style="border:3px black solid;display:inline-block;padding-top:2px;margin:3px;padding-right:20px;padding-left:20px;">
-        <h4 style="margin-bottom: 0px;" ><b>Homecoming 2018</b> </h4> <br>
-        <h5  style="margin-top: 0px;">17th to 19th August, 2018</h5>
+        <h4 style="margin-bottom: 0px;" ><b>Homecoming 2019</b> </h4> <br>
+        <h5  style="margin-top: 0px;">16th to 18th August, 2019</h5>
       </div>
     </center>
-  <div class="col l9 s12 m9">
+  <div class="col l12 s12 m12">
     
     <center>
     <p style="width:90%;padding:10px;font-size:17px;text-align:justify">
-      We live our day to day lives oblivious to the beauty that surrounds us and by the time we do realise what exactly it is that we've been blessed with, it's generally too late. However when the good ol' days call yet again, nostalgia surrounds us as we walk the hallowed boulevards of our youth. The Homecoming brings to our alumni a chance to reconnect with their Alma Mater. It lets them relive the carefree days of their college lives as they get a chance to visit all the locations they once frequented.<br><br>The <b>Homecoming 2018</b> was organised from <b>17th to 19th August, 2018</b> at our Institute campus. This year the <b>batch of 1999</b>, the <b> batch of 2004</b> and the <b> batch of 2009</b> were the special guests of honor. The Homecoming is now a major event anticipated by both the alumni and the students. As the years pass by and winds of change keep blowing, it shall too keep evolving with the pace of time, hoping to bring to the alumni an experience that they may cherish all their lives.
+      We live our day to day lives oblivious to the beauty that surrounds us and by the time we do realise what exactly it is that we've been blessed with, it's generally too late. However when the good ol' days call yet again, nostalgia surrounds us as we walk the hallowed boulevards of our youth. The Homecoming brings to our alumni a chance to reconnect with their Alma Mater. It lets them relive the carefree days of their college lives as they get a chance to visit all the locations they once frequented.
     </p>
   </center>
   </div>
-   <div class="col l3" style="margin-top:-3%;margin-left: -2.5%">
-          <div style="margin-top: 30%"><a class="waves-effect waves-light btn-large modal-trigger" href="#modal1" style="width: 105%" >LOGIN</a>
-              <br><br><a class="waves-effect waves-light btn" id="sweetalert" style="width: 105%;height: 5em">Homecoming 2019 <br> Registration</a>
-          </div>
-          </div>
-</div>
-<hr class="hr" style="color:grey;width:70%">
-    <!---  Modal Structure For login - -->
   
+<div class="row">
+
+          <div class="offset-l3 col l3"><a class="waves-effect waves-light btn-large modal-trigger" href="#modal1" style="width: 105%;height:5em;padding-top: 10px" >LOGIN</a>
+          </div>
+              <br><br>
+          <div class="col l3"><a class="waves-effect waves-light btn" id="sweetalert" style="width: 105%;height: 5em">Homecoming 2019 <br> Registration</a>
+          </div>
+          
+</div>
+<br><br>
+<hr class="hr" style="color:grey;width:80%">
+<div class="col l12 s12 m12">
+    <center>
+    <br><br>
+    <div class="heading ac-head" style="border:3px black solid;display:inline-block;padding-top:2px;margin:3px;padding-right:20px;padding-left:20px;">
+        <h4 style="margin-bottom: 0px;" ><b>Homecoming 2018</b> </h4> <br>
+        <h5  style="margin-top: 0px;">17th to 19th August, 2018</h5>
+      </div>
+    <br><br>
+    <p style="width:90%;padding:10px;font-size:17px;text-align:justify">
+      The <b>Homecoming 2018</b> was organised from <b>17th to 19th August, 2018</b> at our Institute campus. This year the <b>batch of 1999</b>, the <b> batch of 2004</b> and the <b> batch of 2009</b> were the special guests of honor. The Homecoming is now a major event anticipated by both the alumni and the students. As the years pass by and winds of change keep blowing, it shall too keep evolving with the pace of time, hoping to bring to the alumni an experience that they may cherish all their lives.
+    </p>
+  </center>
+  <br>
+  </div>
+    <!---  Modal Structure For login - -->
+
     <div id="modal1" class="modal ">
         <div class="modal-content">
 
