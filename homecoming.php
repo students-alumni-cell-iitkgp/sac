@@ -193,7 +193,7 @@ else
     <center>
     <br><br>
     <div class="heading ac-head" style="border:3px black solid;display:inline-block;padding-top:2px;margin:3px;padding-right:20px;padding-left:20px;">
-        <h4 style="margin-bottom: 0px;" ><b>Homecoming 2018</b> </h4> <br>
+        <h4 style="margin-bottom: 0px;" ><b>Glimpses of Homecoming 2018</b> </h4> <br>
         <h5  style="margin-top: 0px;">17th to 19th August, 2018</h5>
       </div>
     <br><br>
