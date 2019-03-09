@@ -160,7 +160,7 @@ else
     
 
       <div class="row ac-aam">
-        <img src="img/homecoming_poster.jpg" style="margin-left: 0px;width: 100vw;height:80vh" > 
+        <img src="img/homecoming_poster.jpg" style="margin-left: 0px;width: 100vw;height:50.826vw" > 
 </div>
   <div class="row">
   <center>
@@ -173,7 +173,7 @@ else
     
     <center>
     <p style="width:90%;padding:10px;font-size:17px;text-align:justify">
-      We live our day to day lives oblivious to the beauty that surrounds us and by the time we do realise what exactly it is that we've been blessed with, it's generally too late. However when the good ol' days call yet again, nostalgia surrounds us as we walk the hallowed boulevards of our youth. The Homecoming brings to our alumni a chance to reconnect with their Alma Mater. It lets them relive the carefree days of their college lives as they get a chance to visit all the locations they once frequented.
+      We live our day to day lives oblivious to the beauty that surrounds us and by the time we do realise what exactly it is that we've been blessed with, it's generally too late. However when the good ol' days call yet again, nostalgia surrounds us as we walk the hallowed boulevards of our youth. The Homecoming brings to our alumni a chance to reconnect with their Alma Mater. It lets them relive the carefree days of their college lives as they get a chance to visit all the locations they once frequented. The <b>Homecoming 2019</b> will be organized from 16th to 18th August, 2019 for the batches of <b>1999</b>, <b>2004</b> and <b>2009</b>.
     </p>
   </center>
   </div>
@@ -193,12 +193,12 @@ else
     <center>
     <br><br>
     <div class="heading ac-head" style="border:3px black solid;display:inline-block;padding-top:2px;margin:3px;padding-right:20px;padding-left:20px;">
-        <h4 style="margin-bottom: 0px;" ><b>Homecoming 2018</b> </h4> <br>
+        <h4 style="margin-bottom: 0px;" ><b>Glimpses of Homecoming 2018</b> </h4> <br>
         <h5  style="margin-top: 0px;">17th to 19th August, 2018</h5>
       </div>
     <br><br>
     <p style="width:90%;padding:10px;font-size:17px;text-align:justify">
-      The <b>Homecoming 2018</b> was organised from <b>17th to 19th August, 2018</b> at our Institute campus. This year the <b>batch of 1999</b>, the <b> batch of 2004</b> and the <b> batch of 2009</b> were the special guests of honor. The Homecoming is now a major event anticipated by both the alumni and the students. As the years pass by and winds of change keep blowing, it shall too keep evolving with the pace of time, hoping to bring to the alumni an experience that they may cherish all their lives.
+      The <b>Homecoming 2018</b> was organised from <b>17th to 19th August, 2018</b> for the batches of <b>1998</b>, <b>2003</b> and <b>2008</b>. The Homecoming is now a major event anticipated by both the alumni and the students. As the years pass by and winds of change keep blowing, it shall too keep evolving with the pace of time, hoping to bring to the alumni an experience that they may cherish all their lives.
     </p>
   </center>
   <br>
