@@ -85,6 +85,59 @@ else
         });
     </script>
 
+    <script type="text/javascript">
+$(function () {
+
+        $('#form1').on('submit', function (e) {
+
+          e.preventDefault();
+
+          $.ajax({
+            type: 'post',
+            url: 'hclogin.php',
+            data: $('#form1').serialize(),
+            success: function (response) {
+               if(response== 0 )
+               {
+                swal({
+  title: "INCOMPLETE DETAILS!",
+  text: "Please enter email-id and password!",
+  icon: "error",
+  buttons: true,
+  dangerMode: true,
+}).then((value) => {
+ 
+});
+}
+else if(response== 1 )
+               {
+                swal({
+  title: "INVALID LOGIN!",
+  text: "Please re-enter your email and password!",
+  icon: "error",
+  buttons: true,
+  dangerMode: true,
+}).then((value) => {
+ 
+});
+}
+else if(response== 2 )
+  {
+ window.location="home_hc.php";
+//alert(response);
+}
+else
+{
+  alert(response);
+}
+            }
+          });
+
+        });
+
+      });
+</script> 
+
 <style type="text/css">
 .hr{
 
@@ -183,7 +236,7 @@ else
           <div class="offset-l3 col l3"><a class="waves-effect waves-light btn-large modal-trigger" href="#modal1" style="width: 105%;height:5em;padding-top: 10px" >LOGIN</a>
           </div>
               <br><br>
-          <div class="col l3"><a class="waves-effect waves-light btn" id="sweetalert" style="width: 105%;height: 5em">Homecoming 2019 <br> Registration</a>
+          <div class="col l3"><a href="signup.php" class="waves-effect waves-light btn" id="sweetalert" style="width: 105%;height: 5em">Homecoming 2019 <br> Registration</a>
           </div>
           
 </div>
