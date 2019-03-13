@@ -39,7 +39,7 @@
 
           </p>
            <div >
-          <a style="margin-left: 41%; " class="waves-effect waves-light btn-large " href="http://www.sac.iitkgp.ac.in/yearbook/" target="_blank" >YEARBOOK PORTAL</a>
+          <a style="margin-left: 41%; " class="waves-effect waves-light btn-large " href="https://sac.iitkgp.ac.in/yearbook/" target="_blank" >YEARBOOK PORTAL</a>
           <br>
           <br>
         </div>
