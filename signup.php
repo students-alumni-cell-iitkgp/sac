@@ -2,7 +2,7 @@
 <head>
   <meta charset="UTF-8">
 
-  <title>Register | Annual Alumni Meet &middot; IIT Kharagpur</title>
+  <title>Register | Homecoming &middot; IIT Kharagpur</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link rel="icon" href="img/meet_14.png">
@@ -22,14 +22,6 @@
   $(function () {
     $('form').on('submit', function (e) {
       e.preventDefault();
-      swal ({ 
-        title: "",
-        text: "Kindly register only if you have no objections to being accommodated in the Halls of Residence due to shortage of accommodation which do not have attached bathrooms and facilities at par with the other Institute Guest Houses. Also, we request you not to bring any accompaniments due to the same reason.",
-        icon: "warning",
-        buttons: {
-          cancel: "No",
-          confirm: "Register",
-        },
     }).then((value) => {
       if(value){
         $.ajax({
@@ -56,7 +48,7 @@
               buttons: false,
               timer: 2000,
             }).then((value) => {
-              window.location="aam.php";
+              window.location="homecoming.php";
             });
             //alert('success');
           }
@@ -127,11 +119,11 @@
 
             <hr><hr><br>
             <div>
-              <p style="text-align: center; max-width: 800px">We have already crossed <b>300 registrations – the highest ever - </b>for the Annual Alumni Meet. We cannot thank you enough for the overwhelming response. However, those who still wish to register please note that we may have to accommodate you in the Halls of Residence given the constraints regarding accommodation. Please register only if you have no objections to being accommodated in the Halls of Residence which do not have attached bathrooms and facilities at par with the other Institute Guest Houses. Also, we request you not to bring any accompaniments due to the shortage of accommodation.<br> 
+              <p style="text-align: center; max-width: 800px">
               The registration fee per alumnus/alumna is INR 7000 and INR 4000 per every additional guest. It includes food, accommodation and travel with in the campus. Please make the payment along with the registration to confirm your participation in the event. It can be done via the online payment portal that will be accessible after registration. Please fill the registration form below and take note of password for future login.</p>
               </div>
               <br><hr><hr><br><br>
-              <div><a class="waves-effect waves-light btn-large modal-trigger" href="aam.php#modal1" >LOGIN - If already Registered</a></div>
+              <div><a class="waves-effect waves-light btn-large modal-trigger" href="homecoming.php#modal1" >LOGIN - If already Registered</a></div>
               <br><br>
             </div>
 

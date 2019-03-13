@@ -21,11 +21,11 @@
             <h2>Successfully registered!</h2>
           </div>
           <p class="text_align">
-            You have successfully registered for the 16th Annual Alumni Meet. We will send you an email when you need to come back here!
+            You have successfully registered for the Homecoming 2019. We will send you an email when you need to come back here!
           </p>
           <div class="row">
           <div class="col l6">
-            <a href="./aam.php" class="btn btn-success btn-block">Click here to login</a>
+            <a href="./homecoming.php" class="btn btn-success btn-block">Click here to login</a>
           </div>
           <div class="col l6">
             <a href="./index.php" class="btn btn-success btn-block">Visit Home</a>

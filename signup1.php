@@ -289,7 +289,7 @@ Current or past work experiences as per relevance
       <label for="hall">Hall *</label>
       </div>
       <div class="input-field col s12">
-        <input  type="number" min="1955" max="2010" id="yog" name="graduatingYear" value="1993" disabled required>
+        <input  type="number" min="1955" max="2010" id="yog" name="graduatingYear" value="1993" required>
        <label for="yog">Year of Graduating *</label>
       </div>
       <div class="input-field col s12">
