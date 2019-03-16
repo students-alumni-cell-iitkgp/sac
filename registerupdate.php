@@ -66,7 +66,7 @@ if ($connection->query($sql)) {
    } else {
        $_SESSION['edit_submit'] = 0;
      }
-  header('Location: home.php');
+  header('Location: home_hc.php');
   exit;
 } else {
   echo "Error: " . $connection->error;

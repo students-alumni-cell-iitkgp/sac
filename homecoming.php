@@ -37,7 +37,7 @@ else if(response== 1 )
 }
 else if(response== 2 )
   {
- window.location="home.php";
+ window.location="home_hc.php";
 //alert(response);
 }
 else
