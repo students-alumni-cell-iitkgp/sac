@@ -20,47 +20,52 @@
   <script type="text/javascript"src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script> -->
   <script>
   $(function () {
-    $('form').on('submit', function (e) {
-      e.preventDefault();
-    }).then((value) => {
-      if(value){
-        $.ajax({
-        type: 'post',
-        url: 'register.php',
-        data: $('form').serialize(),
-        success: function (response) {
-          if(response== 0 )
-          {
-            swal({
-              title: "WRONG CAPTCHA!",
-              text: "Please re-enter the captcha!",
-              icon: "error",
-              buttons: true,
-              dangerMode: true,
-            }).then((value) => {});
-          }
-          else if(response== 1)
-          {
-            swal({
-              title: "REGISTERED!",
-              text: "You can login now!",
-              icon: "success",
-              buttons: false,
-              timer: 2000,
-            }).then((value) => {
-              window.location="homecoming.php";
-            });
-            //alert('success');
-          }
-          else{
-            alert(response);
-          }
-        }
+
+        $('form').on('submit', function (e) {
+
+          e.preventDefault();
+
+          $.ajax({
+            type: 'post',
+            url: 'register.php',
+            data: $('form').serialize(),
+            success: function (response) {
+               if(response== 0 )
+               {
+                swal({
+  title: "WRONG CAPTCHA!",
+  text: "Please re-enter the captcha!",
+  icon: "error",
+  buttons: true,
+  dangerMode: true,
+}).then((value) => {
+ 
+});
+}
+else if(response== 1)
+  {
+   swal({
+  title: "REGISTERED!",
+  text: "You can login now!",
+  icon: "success",
+  buttons: true,
+  dangerMode: true,
+}).then((value) => {
+  window.location="home_hc.php";
+ 
+});
+//alert('success');
+}
+else
+{
+  alert(response);
+}
+            }
+          });
+
+        });
+
       });
-      }
-    });
-    });
-  });
   </script>
 
   <style type="text/css">

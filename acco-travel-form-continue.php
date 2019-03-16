@@ -1,7 +1,7 @@
 <?php
 session_start();
 if ($_SESSION["email"] == "" ) {
-	header('Location:aam.php');
+	header('Location:homecoming.php');
 }
 
 include 'connection.php';
@@ -74,5 +74,5 @@ else {
 	// echo 'window.location.href = "home.php";';
 	// echo '</script>';
 }
-header('location: home.php');
+header('location: home_hc.php');
 ?>
