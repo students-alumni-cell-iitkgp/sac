@@ -186,7 +186,7 @@ if( $query_run = mysqli_query($connection, $query) ){
                     <br> Branch: IIT Kharagpur, SRIC
                     <br> IFSC Code: SYNB0009556
                     <br> A/C No.: 95562200012031
-                    <br> Account Name: -<br>
+                    <br> Account Name: Annual Alumni Meet<br>
                     <br><b style="font-size: 200%;">&nbsp &nbsp &nbsp OR</b><br>
                      <br> Bank Name: HDFC Bank Ltd
                     <br> Branch: Kharagpur
@@ -273,7 +273,7 @@ if( $query_run = mysqli_query($connection, $query) ){
         <div class="container">
 
           <p style="text-align: justify;">
-            Alumni Card is officially distributed to all alumni during the Annual Alumni Meet.
+            Alumni Card is officially distributed to all alumni during the Homecoming.
             Kindly upload your picture below to be printed in your Alumni Card (preferably a passport size photograph, image size should be less than 500 Kb and of 
             jpg, jpeg and png format)
           </p>
@@ -319,10 +319,10 @@ if( $query_run = mysqli_query($connection, $query) ){
 <script>
   $(document).ready(function(){
     $('#button01').click(function(){
-      $('#ajax').load('acco-travel-form.php');
+      $('#ajax').load('acco-travel-hc.php');
     });
     $('#button02').click(function(){
-      $('#ajax').load('acco-travel-form.php');
+      $('#ajax').load('acco-travel-hc.php');
     });
   });
   function openNav() {

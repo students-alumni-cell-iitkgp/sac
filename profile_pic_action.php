@@ -10,7 +10,7 @@ if( $query_run = mysqli_query($connection, $query) ){
 
 @$file_name = $name.'.'.end(explode(".",$_FILES["filetoupload"]["name"] ));
 
-$target_dir = "upload_16/";
+$target_dir = "upload/";
 $target_file = $target_dir . basename($file_name);
 $uploadOk = 1;
 $imageFileType = pathinfo($target_file,PATHINFO_EXTENSION);
@@ -88,7 +88,7 @@ else
       ?>
     </div>
     <div class="modal-footer">
-      <a href="home.php" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+      <a href="home_hc.php" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
     </div>
   </div>
 
