@@ -28,9 +28,9 @@ if(($query_run3)){
 <div class="row">
    <div class="col s12">
      <ul class="tabs tabs-fixed-width">
-       <li class="tab col s3" style="color: #26a69a"><a class="active" href="#1969">1969/70</a></li>
-       <li class="tab col s3"><a  href="#1979">1979/80</a></li>
-       <li class="tab col s3"><a href="#1994">1994/95</a></li>
+       <li class="tab col s3" style="color: #26a69a"><a class="active" href="#1969">1999/00</a></li>
+       <li class="tab col s3"><a  href="#1979">2004/05</a></li>
+       <li class="tab col s3"><a href="#1994">2009/10</a></li>
        <li class="tab col s3"><a href="#others">others</a></li>
 
    </ul>
