@@ -28,14 +28,14 @@ if(($query_run3)){
 <div class="row">
    <div class="col s12">
      <ul class="tabs tabs-fixed-width">
-       <li class="tab col s3" style="color: #26a69a"><a class="active" href="#1969">1999/00</a></li>
-       <li class="tab col s3"><a  href="#1979">2004/05</a></li>
-       <li class="tab col s3"><a href="#1994">2009/10</a></li>
+       <li class="tab col s3" style="color: #26a69a"><a class="active" href="#1999">1999/2000</a></li>
+       <li class="tab col s3"><a  href="#2004">2004/05</a></li>
+       <li class="tab col s3"><a href="#2009">2009/10</a></li>
        <li class="tab col s3"><a href="#others">others</a></li>
 
    </ul>
 </div>
-<div id="1969" class="col s12">
+<div id="1999" class="col s12">
   <?php 
   @$query7=" SELECT name, hall, department FROM users WHERE graduatingYear= '1969' or  graduatingYear= '1970' 
   ORDER BY department ASC";
@@ -128,7 +128,7 @@ else {
 
 
 </div>
-<div id="1979" class="col s12">
+<div id="2004" class="col s12">
   <?php 
   @$query7=" SELECT name, hall, department FROM users WHERE graduatingYear= '1979' or  graduatingYear= '1980' 
   ORDER BY department ASC";
@@ -222,7 +222,7 @@ else {
 
 
 </div>
-<div id="1994" class="col s12">
+<div id="2009" class="col s12">
   <?php 
   @$query7=" SELECT name, hall, department FROM users WHERE graduatingYear= '1994' or  graduatingYear= '1995' 
   ORDER BY department ASC";
@@ -318,8 +318,8 @@ else {
 </div>
 <div id="others" class="col s12">
   <?php 
-  @$query7=" SELECT name, hall, department FROM users WHERE graduatingYear != '1969' AND graduatingYear != '1979'
-  AND graduatingYear != '1994' and  graduatingYear != '1970'  and  graduatingYear != '1980'  and  graduatingYear != '1995' 
+  @$query7=" SELECT name, hall, department FROM users WHERE graduatingYear != '1999' AND graduatingYear != '2004'
+  AND graduatingYear != '2009' and  graduatingYear != '2000'  and  graduatingYear != '2005'  and  graduatingYear != '2010' 
   ORDER BY department ASC";
   $query_run4=$connection->query($query7);
   if($query_run4->num_rows > 0){
