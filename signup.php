@@ -282,7 +282,7 @@ else
                 <label for="roll">Roll Number</label>
               </div>
               <div class="input-field col s6">
-                <input  type="number" min="1951" max="2006" id="join" name="joinYear" required>
+                <input  type="number" min="1951" max="2007" id="join" name="joinYear" required>
                 <label for="join">Join Year <span style="color:red;">*</span></label>
               </div>
             </div>
