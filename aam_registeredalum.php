@@ -37,7 +37,7 @@ if(($query_run3)){
 </div>
 <div id="1999" class="col s12">
   <?php 
-  @$query7=" SELECT name, hall, department FROM users WHERE graduatingYear= '1969' or  graduatingYear= '1970' 
+  @$query7=" SELECT name, hall, department FROM users WHERE graduatingYear= '1999' or  graduatingYear= '2000' 
   ORDER BY department ASC";
   $query_run4=$connection->query($query7);
   if($query_run4->num_rows > 0){
@@ -130,7 +130,7 @@ else {
 </div>
 <div id="2004" class="col s12">
   <?php 
-  @$query7=" SELECT name, hall, department FROM users WHERE graduatingYear= '1979' or  graduatingYear= '1980' 
+  @$query7=" SELECT name, hall, department FROM users WHERE graduatingYear= '2004' or  graduatingYear= '12005' 
   ORDER BY department ASC";
   $query_run4=$connection->query($query7);
   if($query_run4->num_rows > 0){
@@ -224,7 +224,7 @@ else {
 </div>
 <div id="2009" class="col s12">
   <?php 
-  @$query7=" SELECT name, hall, department FROM users WHERE graduatingYear= '1994' or  graduatingYear= '1995' 
+  @$query7=" SELECT name, hall, department FROM users WHERE graduatingYear= '2009' or  graduatingYear= '2010' 
   ORDER BY department ASC";
   $query_run4=$connection->query($query7);
   if($query_run4->num_rows > 0){
