@@ -130,7 +130,7 @@ else {
 </div>
 <div id="2004" class="col s12">
   <?php 
-  @$query7=" SELECT name, hall, department FROM users WHERE graduatingYear= '2004' or  graduatingYear= '12005' 
+  @$query7=" SELECT name, hall, department FROM users WHERE graduatingYear= '2004' or  graduatingYear= '2005' 
   ORDER BY department ASC";
   $query_run4=$connection->query($query7);
   if($query_run4->num_rows > 0){
