@@ -563,6 +563,7 @@ body {
      <li>Vasanta Majety</li>
      <li>Gautam Arya</li>
      <li>Akanksha Malhotra</li>
+     <li>Naman Agarwal</li>
      <li>Kumar Shubham</li>
      <li>Vaibhav Beriwal</li>
      <li>Shruti Joshi</li>

@@ -156,8 +156,18 @@ if( $query_run = mysqli_query($connection, $query) ){
                 <div class="card-title text_align" style="font-weight: bold;font-size: 30px;">
                   Payment Details
                 </div>
-                Every visiting alumnus has to pay INR 7000. This includes your accomodation, fooding and conveyance charge at Kharagpur. If there is any other person accompanying you an additional payment of INR 4000 per head will have
-                to be made. For professors based in IIT Kharagpur, the amount is INR 3500, with an addditional payment of INR 2000 per head for each accompanying guest.
+                <ul style="list-style-type:square">
+                <li>
+                  Every visiting alumnus has to pay INR 7000. This includes your accomodation, fooding and conveyance charge at Kharagpur. If there is any other person accompanying you an additional payment of INR 4000 per head will have
+                to be made. 
+                </li>
+                <li>
+                  For professors based in IIT Kharagpur, the amount is INR 3500, with an addditional payment of INR 2000 per head for each accompanying guest.
+                </li>
+                <li>
+                No refunds will be initiated from now on. The inconvinience caused is deeply regretted.
+                </li>
+                </ul>
                 <br>
                 <br>
                 <strong>REMARK-</strong> After making the Payment Kindly revert back with your transaction id and payment mode on aao@hijli.iitkgp.ernet.in

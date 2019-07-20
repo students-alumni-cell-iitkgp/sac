@@ -146,11 +146,11 @@
                                         <div class="card-stacked">
                                             <div class="card-image col l4" style="margin-top: -2%">
                                                 <center>
-                                                    <br><font size="5" style="margin-left: -1%"><b>FEB<br>11</b></font><br>
+                                                    <br><font size="5" style="margin-left: -1%"><b>JUL<br>20</b></font><br>
                                                 </center>
                                             </div>
                                             <div class="card-content col l8" style="border-bottom: unset;;margin-bottom: -4%">
-                                                <p>Mentor Registrations for Student Alumni Mentorship programme have started now! <a href="https://sac.iitkgp.ac.in/mentorship/">Click here</a>
+                                                <p>Selections for 2nd years : Click <a href="https://sac.iitkgp.ac.in/team_selections.php">here</a>
                                                 </p>
                                             </div>
                                         </div>
