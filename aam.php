@@ -216,23 +216,23 @@ else
       <div class="col l9"><img style="width: 98%;padding: 10px 30px 10px 10px" src="img/15th_aam/aam_cover.jpg"></div>
       <div class="col l3" style="margin-top:3%;margin-left: -2.5%">
           <div align="center" style="font-size: 25px;font-weight: 700">
-              16th Annual Alumni Meet
+              17th Annual Alumni Meet
           </div>
           <div style="margin-top: 30%"><a class="waves-effect waves-light btn-large modal-trigger" href="#modal1" style="width: 105%" >LOGIN</a>
-              <br><br><a class="waves-effect waves-light btn" id="sweetalert" style="width: 105%;height: 5em">16th Annual Alumni Meet <br> Registration</a>
+              <br><br><a class="waves-effect waves-light btn" id="sweetalert" style="width: 105%;height: 5em">17th Annual Alumni Meet <br> Registration</a>
           </div>
           </div></div>
   <div class="row">
   <div class="col l12 s12 m12">
     <center>
 	  <div class="heading ac-head" style="border:3px black solid;display:inline-block;padding-top:2px;margin:3px;padding-right:20px;padding-left:20px;">
-        <h4 style="margin-bottom: 0px;" ><b>15th Annual Alumni Meet</b> </h4> <br>
-      	<h5  style="margin-top: 0px;">12th to 14th January, 2018</h5>
+        <h4 style="margin-bottom: 0px;" ><b>16th Annual Alumni Meet</b> </h4> <br>
+      	<h5  style="margin-top: 0px;">11th to 13th January, 2019</h5>
       </div>
     </center>
     <center>
   	<p style="width:90%;padding:10px;font-size:17px;text-align:justify">
-  		We live our day to day lives oblivious to the beauty that surrounds us and by the time we do realise what exactly it is that we've been blessed with, it's generally too late. However when the good ol' days call yet again, nostalgia surrounds us as we walk the hallowed boulevards of our youth. The Annual Alumni Meet brings to our alumni a chance to reconnect with their Alma Mater. It lets them relive the carefree days of their college lives as they get a chance to visit all the locations they once frequented.<br><br>The <b>15th Annual Alumni Meet</b> was organised from <b>12th to 14th January, 2018</b> at our Institute campus. This year the <b>batch of 1968</b>, the <b> batch of 1978</b> and the <b> batch of 1993</b> were the special guests of honor. The Meet is now a major event anticipated by both the alumni and the students. As the years pass by and winds of change keep blowing, the Alumni Meet too shall keep evolving with the pace of time, hoping to bring to the alumni an experience that they may cherish all their lives.
+  		We live our day to day lives oblivious to the beauty that surrounds us and by the time we do realise what exactly it is that we've been blessed with, it's generally too late. However when the good ol' days call yet again, nostalgia surrounds us as we walk the hallowed boulevards of our youth. The Annual Alumni Meet brings to our alumni a chance to reconnect with their Alma Mater. It lets them relive the carefree days of their college lives as they get a chance to visit all the locations they once frequented.<br><br>The <b>16th Annual Alumni Meet</b> was organised from <b>11th to 13th January, 2019</b> at our Institute campus. This year the <b>batch of 1968</b>, the <b> batch of 1978</b> and the <b> batch of 1993</b> were the special guests of honor. The Meet is now a major event anticipated by both the alumni and the students. As the years pass by and winds of change keep blowing, the Alumni Meet too shall keep evolving with the pace of time, hoping to bring to the alumni an experience that they may cherish all their lives.
   	</p>
   </center>
   </div>
