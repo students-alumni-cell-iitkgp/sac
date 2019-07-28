@@ -560,8 +560,8 @@ body {
     <b>
      <li center-align style="font-size: 20;">2018</li>
      <hr>
-     <li>Vasanta Majety</li>
      <li>Gautam Arya</li>
+     <li>Vasanta Majety</li>
      <li>Akanksha Malhotra</li>
      <li>Kumar Shubham</li>
      <li>Naman Agarwal</li>
