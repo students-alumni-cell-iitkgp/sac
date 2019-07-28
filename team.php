@@ -373,36 +373,8 @@ body {
 <div class="container">
   <div class="row">
 
-
-    <div class="col l5 m5 s12">
-     <div class="card card-1">
-      <div class="team-member">
-        <div class="team-img">
-          <img src="img/team/acellteam19/kunal.jpg" alt="team member" class="img-responsive" height="250" width="100%">
-        </div>
-        <div class="team-hover">
-          <div class="desk"> <br>
-            <h5 style="margin-top: 50px">Kunal Das</h5>
-            <ul><li style="padding-left: 15px;">+91-7566566265</li>
-             <li style="padding-left: 15px;">kunaldas1244@gmail.com</li>
-           </ul>
-         </div>
-         <div class="s-link">
-          <a target="_blank" href="https://www.facebook.com/profile.php?id=100018428528771"><i class="fa fa-facebook"></i></a>
-          <a target="_blank" href="https://www.linkedin.com/in/kunal-das-25b504148/"><i class="fa fa-linkedin"></i></a>
-          <a target="_blank" href="https://github.com/kunal1244"><i class="fa fa-github"></i></a>
-
-        </div>
-      </div>
-    </div>
-    <div class="team-title" style="padding-top:0px;">
-      <h5 style="text-align: center;font-size: 120%;">Kunal Das</h5>
-
-    </div>
-  </div>
-</div>
 <div class="col l5 m5 s12 offset-l2">
- <div class="card card-1">
+ <div class="card card-1" style="left:-170px;">
   <div class="team-member">
     <div class="team-img">
       <img src="img/team/acellteam19/ayush.jpg" alt="team member" class="img-responsive" height="250" width="100%">
@@ -428,6 +400,35 @@ body {
 </div>
 </div>
 </div>
+
+    <div class="col l5 m5 s12">
+     <div class="card card-1" style="left: 20px;">
+      <div class="team-member">
+        <div class="team-img">
+          <img src="img/team/acellteam19/kunal.jpg" alt="team member" class="img-responsive" height="250" width="100%">
+        </div>
+        <div class="team-hover">
+          <div class="desk"> <br>
+            <h5 style="margin-top: 50px">Kunal Das</h5>
+            <ul><li style="padding-left: 15px;">+91-7566566265</li>
+             <li style="padding-left: 15px;">kunaldas1244@gmail.com</li>
+           </ul>
+         </div>
+         <div class="s-link">
+          <a target="_blank" href="https://www.facebook.com/profile.php?id=100018428528771"><i class="fa fa-facebook"></i></a>
+          <a target="_blank" href="https://www.linkedin.com/in/kunal-das-25b504148/"><i class="fa fa-linkedin"></i></a>
+          <a target="_blank" href="https://github.com/kunal1244"><i class="fa fa-github"></i></a>
+
+        </div>
+      </div>
+    </div>
+    <div class="team-title" style="padding-top:0px;">
+      <h5 style="text-align: center;font-size: 120%;">Kunal Das</h5>
+
+    </div>
+  </div>
+</div>
+
 </div>
 </div>
 
@@ -445,35 +446,8 @@ body {
 <div class="container">
   <div class="row">
 
-
-    <div class="col l5 m5 s12">
-     <div class="card card-1">
-      <div class="team-member">
-        <div class="team-img">
-          <img src="img/team/acellteam19/tanmay.jpg" alt="team member" class="img-responsive" height="250" width="100%">
-        </div>
-        <div class="team-hover">
-          <div class="desk"> <br>
-            <h5 style="margin-top: 50px">Tanmay Das</h5>
-            <ul><li style="padding-left: 15px;">+91-8597165874</li>
-             <li style="padding-left: 15px;">tdas.jkd@gmail.com</li>
-           </ul>
-         </div>
-         <div class="s-link">
-          <a target="_blank" href="https://www.facebook.com/tanmaydas2000"><i class="fa fa-facebook"></i></a>
-          <a target="_blank" href="https://www.linkedin.com/in/tanmay-das-493668169"><i class="fa fa-linkedin"></i></a>
-
-        </div>
-      </div>
-    </div>
-    <div class="team-title" style="padding-top:0px;">
-      <h5 style="text-align: center;font-size: 120%;">Tanmay Das</h5>
-
-    </div>
-  </div>
-</div>
 <div class="col l5 m5 s12 offset-l2">
- <div class="card card-1">
+ <div class="card card-1" style="left: -170px;">
   <div class="team-member">
     <div class="team-img">
       <img src="img/team/acellteam19/shubham.jpg" alt="team member" class="img-responsive" height="250" width="100%">
@@ -497,6 +471,33 @@ body {
 
 </div>
 </div>
+</div>
+
+    <div class="col l5 m5 s12">
+     <div class="card card-1" style="left:20px;">
+      <div class="team-member">
+        <div class="team-img">
+          <img src="img/team/acellteam19/tanmay.jpg" alt="team member" class="img-responsive" height="250" width="100%">
+        </div>
+        <div class="team-hover">
+          <div class="desk"> <br>
+            <h5 style="margin-top: 50px">Tanmay Das</h5>
+            <ul><li style="padding-left: 15px;">+91-8597165874</li>
+             <li style="padding-left: 15px;">tdas.jkd@gmail.com</li>
+           </ul>
+         </div>
+         <div class="s-link">
+          <a target="_blank" href="https://www.facebook.com/tanmaydas2000"><i class="fa fa-facebook"></i></a>
+          <a target="_blank" href="https://www.linkedin.com/in/tanmay-das-493668169"><i class="fa fa-linkedin"></i></a>
+
+        </div>
+      </div>
+    </div>
+    <div class="team-title" style="padding-top:0px;">
+      <h5 style="text-align: center;font-size: 120%;">Tanmay Das</h5>
+
+    </div>
+  </div>
 </div>
 </div>
 </div>
@@ -562,13 +563,13 @@ body {
      <li>Vasanta Majety</li>
      <li>Gautam Arya</li>
      <li>Akanksha Malhotra</li>
-     <li>Naman Agarwal</li>
      <li>Kumar Shubham</li>
-     <li>Vaibhav Beriwal</li>
+     <li>Naman Agarwal</li>
      <li>Shruti Joshi</li>
+     <li>Vaibhav Beriwal</li>
      <li> Upamanyu Chatterjee</li>
-     <li>Prateek Kaushal</li>
      <li>Asif iqbal</li>
+     <li>Prateek Kaushal</li>
      <li>Sumit Tripathi</li>
      <li>Harsh Yadav</li>
    </b>
