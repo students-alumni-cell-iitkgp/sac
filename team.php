@@ -247,35 +247,7 @@ body {
 <div class="container">
   <div class="row">
 
-
     <div class="col l5 m5 s12 offset-l1">
-     <div class="card card-1">
-      <div class="team-member">
-        <div class="team-img">
-          <img src="img/team/acellteam19/madhumita.jpg" alt="team member" class="img-responsive" height="250" width="100%">
-        </div>
-        <div class="team-hover">
-          <div class="desk"> <br>
-            <h5 style="margin-top: 50px">Madhumita Paul</h5>
-            <ul>
-              <li style="padding-left: 15px;">+91-9408700634</li>
-              <li style="padding-left: 15px;margin-left: -7%;">paulmadhumita101@gmail.com</li>
-            </ul>
-          </div>
-          <div class="s-link">
-            <a target="_blank" href="https://www.facebook.com/madhumita.paul.186"><i class="fa fa-facebook"></i></a>
-            <a target="_blank" href="https://www.linkedin.com/in/madhumita-paul"><i class="fa fa-linkedin"></i></a>
-
-          </div>
-        </div>
-      </div>
-      <div class="team-title" style="padding-top:0px;">
-        <h5 style="text-align: center; font-size: 120%;">Madhumita Paul</h5>
-
-      </div>
-    </div>
-  </div>
-  <div class="col l5 m5 s12 offset-l1">
    <div class="card card-1">
     <div class="team-member">
       <div class="team-img">
@@ -303,9 +275,7 @@ body {
   </div>
 </div>
 
-</div>
-<div class="row">
-<div class="col l5 m5 s12 offset-l1">
+  <div class="col l5 m5 s12 offset-l1">
   <div class="card card-1">
   <div class="team-member">
 
@@ -333,6 +303,9 @@ body {
 </div>
 </div>
 </div>
+</div>
+<div class="row">
+
 
   <div class="col l5 m5 s12 offset-l1">
    <div class="card card-1">
@@ -362,7 +335,33 @@ body {
   </div>
 </div>
 
+<div class="col l5 m5 s12 offset-l1">
+     <div class="card card-1">
+      <div class="team-member">
+        <div class="team-img">
+          <img src="img/team/acellteam19/madhumita.jpg" alt="team member" class="img-responsive" height="250" width="100%">
+        </div>
+        <div class="team-hover">
+          <div class="desk"> <br>
+            <h5 style="margin-top: 50px">Madhumita Paul</h5>
+            <ul>
+              <li style="padding-left: 15px;">+91-9408700634</li>
+              <li style="padding-left: 15px;margin-left: -7%;">paulmadhumita101@gmail.com</li>
+            </ul>
+          </div>
+          <div class="s-link">
+            <a target="_blank" href="https://www.facebook.com/madhumita.paul.186"><i class="fa fa-facebook"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/madhumita-paul"><i class="fa fa-linkedin"></i></a>
 
+          </div>
+        </div>
+      </div>
+      <div class="team-title" style="padding-top:0px;">
+        <h5 style="text-align: center; font-size: 120%;">Madhumita Paul</h5>
+
+      </div>
+    </div>
+  </div>
 <center>
   <div class="heading" style="border:3px black solid; display: inline-block; padding-top: 2px;padding-right: 20px;padding-left: 20px;" >
    <h4>
