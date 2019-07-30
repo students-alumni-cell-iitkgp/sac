@@ -239,7 +239,19 @@ else
           <div class="col l3"><a href="signup.php" class="waves-effect waves-light btn" id="sweetalert" style="width: 105%;height: 5em">Homecoming 2019 <br> Registration</a>
           </div>
           
+    
 </div>
+
+<center>
+<p style="font-size:17px;">
+  *Registrations for Homecoming will close on 7th August.
+</p>
+<p style="font-size:17px;">
+  **No refunds will be initiated from now on. The inconvinience caused is deeply regretted.
+
+</p>
+</center>
+
 <br><br>
 <hr class="hr" style="color:grey;width:80%">
 <div class="col l12 s12 m12">
