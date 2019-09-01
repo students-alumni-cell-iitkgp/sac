@@ -568,7 +568,7 @@ body {
      <li>Shruti Joshi</li>
      <li>Vaibhav Beriwal</li>
      <li> Upamanyu Chatterjee</li>
-     <li>Asif iqbal</li>
+     <li>Md Asif Iqbal</li>
      <li>Prateek Kaushal</li>
      <li>Sumit Tripathi</li>
      <li>Harsh Yadav</li>
