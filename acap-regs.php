@@ -13,8 +13,8 @@
 <?php
 
 
-require 'connection.php'
-$DB_NAME = 'sac_acap';
+require 'connection.php';
+$DB_NAME = 'acap';
 $connection = new mysqli($DB_HOST, $DB_USER, $DB_PASS, $DB_NAME);
 if ($connection->connect_error) {
   // die("Connecton failed: ".$connection->connect_error);
