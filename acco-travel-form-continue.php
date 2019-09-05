@@ -74,5 +74,5 @@ else {
 	// echo 'window.location.href = "home.php";';
 	// echo '</script>';
 }
-header('location: home_hc.php');
+header('location: home.php');
 ?>

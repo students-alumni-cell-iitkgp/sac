@@ -51,7 +51,7 @@ else if(response== 1)
   buttons: true,
   dangerMode: true,
 }).then((value) => {
-  window.location="home_hc.php";
+  window.location="home.php";
  
 });
 //alert('success');
