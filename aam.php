@@ -202,11 +202,15 @@ else
       <div class="col l9"><img style="width: 98%;padding: 10px 30px 10px 10px" src="img/15th_aam/aam_cover.jpg"></div>
       <div class="col l3" style="margin-top:3%;margin-left: -2.5%">
           <div align="center" style="font-size: 25px;font-weight: 700">
-              17th Annual Alumni Meet
+              17th Annual Alumni Meet 
+          </div><br>
+          <div align="center" style="font-size: 20px;font-weight: 350">
+              (10th - 12th January 2020) 
           </div>
           <div style="margin-top: 30%"><a class="waves-effect waves-light btn-large modal-trigger" href="#modal1" style="width: 105%" >LOGIN</a>
               <br><br><a class="waves-effect waves-light btn" href="signup.php" style="width: 105%;height: 5em">17th Annual Alumni Meet <br> Registration</a>
           </div>
+
           </div></div>
   <div class="row">
   <div class="col l12 s12 m12">
