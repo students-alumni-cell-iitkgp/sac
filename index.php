@@ -99,19 +99,19 @@
             <div class="slider"  style="overflow: hidden;">
                 <ul class="slides">                    
                     <li>
-                        <img src="img/indexslider/aam_2019.jpg" />
+                        <img src="img/indexslider/17th_aam.jpg" />
                     </li>
                     <li>
                         <img id="img1" src="img/indexslider/sac-logo.jpg"/>
                     </li>
                     <li>
-                        <img src="img/indexslider/acap.jpg" width="100%" />
+                        <img src="img/indexslider/acap2019.jpg" width="100%" />
                     </li>
                     <li>
                         <img src="img/indexslider/sam4.jpg" />
                     </li>
                     <li>
-                        <img src="img/indexslider/mentorship1.jpg"/>
+                        <img src="img/indexslider/MENTORSHIPbnew.jpg"/>
                     </li>
                     <li>
                         <img src="img/indexslider/phonathon1.jpg" />
@@ -123,7 +123,7 @@
                         <img src="img/indexslider/imprint.jpg"/>
                     </li>
                     <li>
-                        <img src="img/indexslider/yoy1.jpg"/>
+                        <img src="img/indexslider/yoy_slide.jpg"/>
                     </li>
                     <li>
                         <img src="img/indexslider/alvida.jpg"/>
