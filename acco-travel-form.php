@@ -17,10 +17,25 @@ if (($query_run1)&&($query_run2)) {
 ?>
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
 <div class="container-fluid">
   <form action="acco-travel-form-continue.php" method="post" style="text-align: left;">
+  <div class="row">  
    <h3> Travel Details </h3>
-   <div class="input-field col s12">
+   <div class="input-field col s12 m6">
     Arrival Date
    <!-- <select name="arrDate" required value="<?php //echo @$query2['arrivaldate']; ?>">
       <option >11th January 2018</option>
@@ -40,33 +55,37 @@ if (($query_run1)&&($query_run2)) {
 
 <!--   <label></label>
  --></div><br>
-<div class="col s12">
+<div class="col s12 m6">
   Arrival Time
   <input  type="time"  name="arrTime" value="<?php echo @$query2['arrivaltime']; ?>" required>
 </div>
-<div class="input-field col s12">
+<div class="row">
+</div>
+<div class="input-field col s12 m12 l6">
   Arrival Station/Airport
   <input id="last_name" type="text" class="validate" name="arrSt" value="<?php echo @$query2['arrivalstation']; ?>">
 </div>
-<div class="input-field col s12" style="display: none;">
+<div class="input-field col s12 m12 l6" style="display: none;">
   Train/Flight Name
   <input id="last_name" type="text" class="validate" name="trainName" value="<?php echo @$query2['trainname']; ?>">
 </div>
-<div class="input-field col s12">
+<div class="input-field col s12 m12 l6">
   Train/Flight Number
   <input id="last_name" type="text" class="validate" name="trainNo" value="<?php echo @$query2['trainno']; ?>">
+</div>
 </div>
 <div class="input-field col s12" style="display: none;">
   Number of Accompanying Persons
   <input id="last_name" type="number" class="validate" name="accNo" value="<?php echo @$query2['accompanyno']; ?>">
 </div>
-<div class="input-field col s12" >
-  Your Secondary Phone Number
+<div class="row">
+<div class="input-field col s12 m12 l6" >
+  Your Secondary Phone <br>Number                          
   <input id="last_name" type="number" class="validate" name="secPhone"   value="<?php echo @$query2['secondaryphone']; ?>" >
 </div>
 
-<div >
-  Do you require a cab from Kolkata to IIT Kharagpur?
+<div class="input-field col s12 m12 l6">
+  Do you require a cab from Kolkata to <br>IIT Kharagpur?
        <!-- <select name="iscab"  onchange="checkCab(this)" value="<?php //echo @$query2['cabreq']; ?>">
           <option>No</option>
           <option>Yes</option>
@@ -83,14 +102,22 @@ if (($query_run1)&&($query_run2)) {
         Pickup Destination
         <input id="last_name" type="text" class="validate" name="cabWhere" value="<?php echo @$query2['cabfrom']; ?>">
       </div>
+      <div class="row">
+        <div class="input-field col s12 m12 l6">
       Pickup Date
       <input  type="date"  name="cabDate" value="<?php echo @$query2['departdate']; ?>">
+    </div>
+    <div class="input-field col s12 m12 l6">
       Pickup Time
       <input  type="time"  name="cabWhen" value="<?php echo @$query2['cabat']; ?>">
-      <div class="input-field col s12">
+    </div>
+  </div>
+  <div class="row">
+      <div class="input-field col s12 m6 l6">
         Total Number of People travelling in cab
         <input id="last_name" type="number" class="validate" name="cabPpl" value="<?php echo @$query2['cabpeople']; ?>">
       </div>
+      <div class="input-field col s12 m12 l6">
       Cab Preference
         <!--
         <select name="acabPref" value="<?php // echo @$query2['arrivalcabpref']; ?>" >
@@ -107,8 +134,12 @@ if (($query_run1)&&($query_run2)) {
         <option value="Indigo" <?php if( @$query2['arrivalcabpref'] == "Indigo") echo 'selected = "selected"';?>> Indigo </option>
       </select>
     </div>
+  </div>
+    </div>
+  </div>
     <br>
-    <div >
+    <div class="row">
+    <div class="input-field col s12 l6">
       Departure Date
         <!--
         <select name="depDate" required value="<?php //echo @$query2['departdate']; ?>">
@@ -124,9 +155,9 @@ if (($query_run1)&&($query_run2)) {
         <option value="15th January 2018" <?php if( @$query2['departdate'] == "15th January 2018") echo 'selected = "selected"';?>>15th January 2019</option>
         <option value="16th January 2018" <?php if( @$query2['departdate'] == "16th January 2018") echo 'selected = "selected"';?>>16th January 2019</option>
       </select>
-    </div><br>
-    <div >
-      On Departure, Do you require a cab to Kolkata?
+    </div>
+    <div class="input-field col s12 l6">
+      On Departure, Do you require a cab?
         <!--
         <select name="iscab2"  onchange="checkCab2(this)" value="<?php //echo @$query2['depcabreq']; ?>">
           <option>No</option>
@@ -140,14 +171,18 @@ if (($query_run1)&&($query_run2)) {
    </div>
    <div  style="display:none; margin-left:5%" id="ifcab2">
     If Cab is required<br>
-    <div >
-      Departure Time
-      <input  type="time" placeholder="Arrival Time" name="depTime" value="<?php echo @$query2['departtime']; ?>">
-    </div>
+    
     <div class="input-field col s12">
       Departure Station/Airport
       <input id="last_name" type="text" class="validate" name="depSt" value="<?php echo @$query2['departstation']; ?>">
     </div>
+    <div class="row">
+    
+     <div class="input-field col s12 l6"> 
+      Departure Time
+      <input  type="time" placeholder="Arrival Time" name="depTime" value="<?php echo @$query2['departtime']; ?>">
+    </div>
+    <div class="input-field col s12 l6">
     Cab Preference
     <!--
     <select name="dcabPref" value="<?php //echo @$query2['depcabpref']; ?>">
@@ -164,10 +199,15 @@ if (($query_run1)&&($query_run2)) {
     <option value="Indigo" <?php if( @$query2['depcabpref'] == "Indigo") echo 'selected = "selected"';?>> Indigo </option>
   </select>
 </div>
+</div>
+</div>
+</div>
 
 
 <h3> Accommodation Details </h3>
 <div >
+
+
   Number of Accompanying Person
   <!--
   <select  name="accNo2" onchange="checkAcc(this)" value="<?php //echo @$query4['accompanyno']; ?>">
@@ -229,23 +269,27 @@ if (($query_run1)&&($query_run2)) {
 </div>
 
 <div  style="margin-top:20px;">
-  Preferred Alumni You Want to Share the room/take adjacent room with:<br>
-  <div class="input-field col s12">
-    Name of Person
-    <input id="last_name" type="text" class="validate" name="prefName" value="<?php echo @$query4['prefname']; ?>">
+  Details of the preferred Alumni You Want to Share the room/take adjacent room with:<br>
+  <div class="row">
+  <div class="input-field col s12 m6 l6">
+    
+    <input id="last_name" type="text" class="validate" name="prefName" value="<?php echo @$query4['prefname']; ?>"placeholder="Name">
   </div>
-  <div class="input-field col s12">
-    Year of Graduation of Preferred Person:
-    <input id="last_name" type="number" class="validate" name="prefYear" value="<?php echo @$query4['prefyear']; ?>">
+  <div class="input-field col s12 m6 l6">
+   
+    <input id="last_name" type="number" class="validate" name="prefYear" value="<?php echo @$query4['prefyear']; ?>"placeholder="Year of Graduation">
   </div>
-  <div class="input-field col s12">
-    Department of the person
-    <input id="last_name" type="text" class="validate" name="prefDep" value="<?php echo @$query4['prefdep']; ?>">
+</div>
+<div class="row">
+  <div class="input-field col s12 m6 l6">
+    
+    <input id="last_name" type="text" class="validate" name="prefDep" value="<?php echo @$query4['prefdep']; ?>"placeholder="Department">
   </div>
-  <div class="input-field col s12">
-    Hall of the person
-    <input id="last_name" type="text" class="validate" name="prefHall" value="<?php echo @$query4['prefhall']; ?>">
+  <div class="input-field col s12 m6 l6">
+    
+    <input id="last_name" type="text" class="validate" name="prefHall" value="<?php echo @$query4['prefhall']; ?>" placeholder="HALL">
   </div>
+</div>
 
 </div>
 <div class="fixed-action-btn" style="bottom: 25px; right:100px;" id="cancel">
