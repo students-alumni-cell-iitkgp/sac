@@ -65,7 +65,7 @@ left: 60px;
 <?php include 'navbar.php';?>
 
 <div class="row ac-mentor">
-        <img src="img/mentorship.jpg"  > 
+        <img src="img/MENTORSHIPbnew.jpg" width="100%" > 
 </div>
 
 <div class="row">
