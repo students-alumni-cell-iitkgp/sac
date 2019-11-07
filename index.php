@@ -8,7 +8,34 @@
         <script src="js/materialize.min.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="css/style.css">        
+        <link rel="stylesheet" type="text/css" href="css/style.css">  
+        
+        <script type="text/javascript">
+            var deadline = new Date("jan 10, 2020 12:00:00").getTime();
+        
+            var x = setInterval(function() {
+            
+            var now = new Date().getTime();
+            var t = deadline - now;
+            var days = Math.floor(t / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((t%(1000 * 60 * 60 * 24))/(1000 * 60 * 60));
+            var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((t % (1000 * 60)) / 1000);
+            document.getElementById("day").innerHTML =days ;
+            document.getElementById("hour").innerHTML =hours;
+            document.getElementById("minute").innerHTML = minutes; 
+            document.getElementById("second").innerHTML =seconds; 
+            if (t < 0) {
+                    clearInterval(x);
+                    document.getElementById("demo").innerHTML = "TIME UP";
+                    document.getElementById("day").innerHTML ='0';
+                    document.getElementById("hour").innerHTML ='0';
+                    document.getElementById("minute").innerHTML ='0' ; 
+                    document.getElementById("second").innerHTML = '0'; }
+            }, 1000);
+
+        </script>
+        
         <style>
             ul.indicators{z-index: 3;}
             .slider .indicators .indicator-item{ height: 10px; width: 50px; border-radius: 0px; margin: 5px 12px; background-color: #a4a9b2; }
@@ -134,11 +161,39 @@
                 </ul>
             </div>
             <!--1st Row-->
-            <div>                
+             <div> 
+                               
                 <div style="margin-top: 30px">
                     <div class="row" style="min-height: 400px">
+                    
                         <div class="col l3 eventscol" style="margin-top: 1em;">
-                            <div class="row z-depth-1" style="background-color: white"><center><p style="font-size:25;color: black;padding-top: 15px;margin-bottom: 15px;"><b>Notice Board</b></p></center></div>
+                            
+                        <div class="row z-depth-1" style="background-color: white">
+            
+                            <div id="clockdiv" style="background-color:white; padding:5px;">
+
+                            <div>
+                            <span class="days" id="day"></span>
+                            <div class="smalltext">DAYS</div>
+                            </div>
+                            <div>
+                              <span class="hours" id="hour"></span>
+                              <div class="smalltext">HOURS</div>
+                            </div>
+                            <div>
+                              <span class="minutes" id="minute"></span>
+                              <div class="smalltext">MINUTES</div>
+                            </div>
+                            <div>
+                              <span class="seconds" id="second"></span>
+                              <div class="smalltext">SECONDS</div>
+                            </div><br>
+                            <p style="font-size:19;color: #64bae4">Annual Alumni Meet 2020</p>
+
+                          </div>
+                          </div>
+                            
+                       <div class="row z-depth-1" style="background-color: white"><center><p style="font-size:25;color: black;padding-top: 15px;margin-bottom: 15px;"><b>Notice Board</b></p></center></div>
                             <br>                                                    
                             <div class="row z-depth-1 marquee" id="mholder data" style="background-color: white;height:240px;overflow:hidden;padding:5px;margin-top:-13.5%;overflow:  hidden;">
                                 <div class="row">
