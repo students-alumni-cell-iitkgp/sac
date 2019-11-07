@@ -213,7 +213,7 @@ else
     
 
       <div class="row ac-aam">
-        <img src="img/homecoming_poster.jpg" style="margin-left: 0px;width: 100vw;height:50.826vw" > 
+        <img src="img/homecoming.jpg" style="margin-left: 0px;width: 100vw;height:70% " > 
 </div>
   <div class="row">
   <center>
