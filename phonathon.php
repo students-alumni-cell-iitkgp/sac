@@ -86,7 +86,7 @@
 <div class="_wrapper" style="overflow: hidden;">
     <?php include 'navbar.php';?>
     <div>
-        <img class="cover" src="img/indexslider/phonathon1.jpg">
+        <img class="cover" src="img/indexslider/phonathon2019.jpg">
     </div>
     <br>
     <div class="row">

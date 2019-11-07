@@ -246,7 +246,7 @@ else
 
    <div>
 
-    <img src="img/acap2019.jpg" width="100%" alt="">
+    <img src="img/acap2019.jpg" width="100%" height=70%>
 
     <div class="row">
 

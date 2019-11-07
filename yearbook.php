@@ -93,8 +93,7 @@
 
       </div>
     </div>
-  </div>
-  <div class="row" style="width:90%;">
+  
     <div class="col s12 m6 l3 offset-l3">
       <div class="card z-depth-0 _card">
         <div class="card-image">

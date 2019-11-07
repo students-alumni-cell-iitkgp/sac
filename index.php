@@ -111,13 +111,13 @@
                         <img src="img/indexslider/sam4.jpg" />
                     </li>
                     <li>
-                        <img src="img/indexslider/MENTORSHIPbnew.jpg"/>
+                        <img src="img/indexslider/MENTORSHIPnew.jpg"/>
                     </li>
                     <li>
-                        <img src="img/indexslider/phonathon1.jpg" />
+                        <img src="img/indexslider/phonathon2019.jpg" />
                     </li>
                     <li>
-                        <img src="img/indexslider/guest.jpg"/>
+                        <img src="img/indexslider/talks.jpg"/>
                     </li>
                     <li>
                         <img src="img/indexslider/imprint.jpg"/>
@@ -129,7 +129,7 @@
                         <img src="img/indexslider/alvida.jpg"/>
                     </li>
                     <li>
-                        <img src="img/indexslider/convo.jpg"/>
+                        <img src="img/indexslider/convocation.jpg"/>
                     </li>
                 </ul>
             </div>
