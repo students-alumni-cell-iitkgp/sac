@@ -106,7 +106,7 @@ else
 
       });
 </script> 
-<script type="text/javascript">
+<!-- <script type="text/javascript">
   $(function () {
       $('#sweetalert').on('click', function () {
           swal({
@@ -118,7 +118,7 @@ else
 });
       });
   });
-</script>
+</script> -->
 
 
 <html>
@@ -229,7 +229,7 @@ else
        
           <div class="row" style=" margin-top:20px; margin-bottom:25px;">
             <a class="waves-effect waves-light btn-large modal-trigger" href="#modal1" style="width: 30%">LOGIN</a>
-            <a class="waves-effect waves-light btn-large modal-trigger" id="sweetalert" style="width: 30%" >17th Annual Alumni Meet Registration</a>
+            <a class="waves-effect waves-light btn-large" href="signup.php" style="width: 30%" >17th Annual Alumni Meet Registration</a>
           </div>
      </div>
     </div> 
