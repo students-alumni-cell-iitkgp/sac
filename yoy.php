@@ -21,6 +21,9 @@
 <body>
   <div class="_wrapper">
     <?php include 'navbar.php';?>
+    <div class="row ac-mentor">
+        <img src="img/yoy_slide.jpg" width="100%"> 
+</div>
     <div class="row">
 
      <div style="padding:3% 10% 8% 10%;">
