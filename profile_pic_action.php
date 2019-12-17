@@ -67,7 +67,7 @@ else
   }
   else 
   {
-    $message =  "Sorry, there was an error uploading your file.";
+    $message =  "Sorry, there was an error uploading your file." . $connection->error;
   }
 }
 
