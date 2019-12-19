@@ -67,7 +67,7 @@ else
   }
   else 
   {
-    $message =  "Sorry, there was an error uploading your file." . $connection->error . $_FILES["filetoupload"]["tmp_name"] . $target_file;
+    $message =  "Sorry, there was an error uploading your file.";
   }
 }
 
