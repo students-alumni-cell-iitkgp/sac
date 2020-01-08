@@ -46,10 +46,10 @@ if (($query_run1)&&($query_run2)) {
   -->
   <!-- New code to remove the errors -->
   <select name="arrDate" required >
-     <option value="9th January 2020" <?php if( @$query2['arrivaldate'] == "9th January 2020") echo 'selected = "selected"';?>>10th January 2020</option>
-    <option value="10th January 2020" <?php if( @$query2['arrivaldate'] == "10th January 2020") echo 'selected = "selected"';?> >11th January 2020</option>
-    <option value="11th January 2020" <?php if( @$query2['arrivaldate'] == "11th January 2020") echo 'selected = "selected"';?>>12th January 2020</option>
-    <option value="12th January 2020" <?php if( @$query2['arrivaldate'] == "12th January 2020") echo 'selected = "selected"';?>>13th January 2020</option>
+     <option value="9th January 2020" <?php if( @$query2['arrivaldate'] == "9th January 2020") echo 'selected = "selected"';?>>9th January 2020</option>
+    <option value="10th January 2020" <?php if( @$query2['arrivaldate'] == "10th January 2020") echo 'selected = "selected"';?>>10th January 2020</option>
+    <option value="11th January 2020" <?php if( @$query2['arrivaldate'] == "11th January 2020") echo 'selected = "selected"';?>>11th January 2020</option>
+    <option value="12th January 2020" <?php if( @$query2['arrivaldate'] == "12th January 2020") echo 'selected = "selected"';?>>12th January 2020</option>
 
   </select>
 
