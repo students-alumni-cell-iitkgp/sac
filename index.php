@@ -201,31 +201,17 @@
                                         <div class="card-stacked">
                                             <div class="card-image col l4" style="margin-top: -2%">
                                                 <center>
-                                                    <br><font size="5" style="margin-left: -1%"><b>JUL<br>20</b></font><br>
+                                                    <br><font size="5" style="margin-left: -1%"><b>JAN<br>8</b></font><br>
                                                 </center>
                                             </div>
                                             <div class="card-content col l8" style="border-bottom: unset;;margin-bottom: -4%">
-                                                <p>Selections for 2nd years : Click <a href="https://sac.iitkgp.ac.in/team_selections.php">here</a>
+                                                <p>Registrations for the 17th Annual Alumni Meet have been closed.
                                                 </p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row">
-                                    <div class="card horizontal marqueeElement" style="font-size: 14px;margin-top: -5%" >
-                                        <div class="card-stacked">
-                                            <div class="card-image col l4" style="margin-top: -2%">
-                                                <center>
-                                                    <br><font size="5" style="margin-left: -1%"><b>JAN<br>28</b></font><br>
-                                                </center>
-                                            </div>
-                                            <div class="card-content col l8" style="border-bottom: unset;;margin-bottom: -4%">
-                                                <p>Selections for Yearbook : Click <a href="yearbookSelections.php">here</a>
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                
                                 <div class="row">
                                     <div class="card horizontal marqueeElement" style="font-size: 14px;margin-top: -5%" >
                                         <div class="card-stacked">
