@@ -50,7 +50,11 @@ if ($result->num_rows > 0) {
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
 
 
-
+<style>
+.swal-modal .swal-text {
+    text-align: center;
+}
+</style>
 
 
 
@@ -106,19 +110,19 @@ else
 
       });
 </script> 
-<!-- <script type="text/javascript">
+<script type="text/javascript">
   $(function () {
       $('#sweetalert').on('click', function () {
           swal({
   title: "SORRY!",
-  text: "Registrations have been closed",
+  text: "Registrations have been closed. \nPlease contact +91 8283828675 for further queries",
   icon: "error",
   buttons: true,
   dangerMode: true,
 });
       });
   });
-</script> -->
+</script>
 
 
 <html>
@@ -226,10 +230,12 @@ else
           </div>
           <p style="width:90%;padding:10px;font-size:17px;text-align:justify">
            We live our day to day lives oblivious to the beauty that surrounds us and by the time we do realise what exactly it is that we've been blessed with, it's generally too late. However when the good ol' days call yet again, nostalgia surrounds us as we walk the hallowed boulevards of our youth. The Annual Alumni Meet brings to our alumni a chance to reconnect with their Alma Mater. It lets them relive the carefree days of their college lives as they get a chance to visit all the locations they once frequented.</p>
-       
+           <p style="width:90%;padding:10px;font-size:17px;text-align:center">
+           **Registrations have been closed. Please contact +91 8283828675 for further queries.
+           </p>
           <div class="row" style=" margin-top:20px; margin-bottom:25px;">
             <a class="waves-effect waves-light btn-large modal-trigger" href="#modal1" style="width: 30%">LOGIN</a>
-            <a class="waves-effect waves-light btn-large" href="signup.php" style="width: 30%" >17th Annual Alumni Meet Registration</a>
+            <a id="sweetalert" class="waves-effect waves-light btn-large" style="width: 30%">17th Annual Alumni Meet Registration</a>
           </div>
      </div>
     </div> 
