@@ -34,13 +34,13 @@
                         </h2>
                     </div>
                     <div class="col l6 m6 s12" align="center">
-                        <a href="https://www.tataprojects.com/" target="_blank">
-                        <img class="spons" src="img/spons/2020/major2.png" width="280px" height="120px"  />
+                        <a href="https://www.tataprojects.com/" target="_blank"><br> <br>
+                        <img class="spons" src="img/spons/2020/major2.png" width="200px" height="110px"  />
                         </a>
                     </div>
                     <div class="col l6 m6 s12" align="center">
-                        <a href="http://www.bajajenergy.com/" target="_blank">
-                        <img class="spons" src="img/spons/2020/major1.png" width="280px" height="120px"  />
+                        <a href="http://www.bajajenergy.com/" target="_blank"><br><br>
+                        <img class="spons" src="img/spons/2020/major1.png" width="220px" height="120px"  />
                         </a>
                     </div>
                 </div>
