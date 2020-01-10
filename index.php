@@ -168,7 +168,7 @@
                     
                         <div class="col l3 eventscol" style="margin-top: 1em;">
                             
-                        <div class="row z-depth-1" style="background-color: white">
+                        <!-- <div class="row z-depth-1" style="background-color: white">
             
                             <div id="clockdiv" style="background-color:white; padding:5px;">
 
@@ -191,7 +191,7 @@
                             <p style="font-size:19;color: #64bae4">Annual Alumni Meet 2020</p>
 
                           </div>
-                          </div>
+                          </div> -->
                             
                        <div class="row z-depth-1" style="background-color: white"><center><p style="font-size:25;color: black;padding-top: 15px;margin-bottom: 15px;"><b>Notice Board</b></p></center></div>
                             <br>                                                    
