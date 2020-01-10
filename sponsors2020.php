@@ -40,7 +40,7 @@
                     </div>
                     <div class="col l6 m6 s12" align="center">
                         <a href="http://www.bajajenergy.com/" target="_blank"><br><br>
-                        <img class="spons" src="img/spons/2020/major1.png" width="220px" height="120px"  />
+                        <img class="spons" src="img/spons/2020/major1.png" width="280px" height="120px"  />
                         </a>
                     </div>
                 </div>
@@ -120,7 +120,7 @@
                         </div>
                         <div class="col l12 m12 s12" align="center">
                             <a href="https://www.maxlifeinsurance.com/" target="_blank">
-                            <img class="spons" src="img/spons/2020/max.png" width="280px" height="120px"  />
+                            <img class="spons" src="img/spons/2020/max.png" width="280px" height="180px"  />
                             </a>
                         </div>
                     </div><br><br>
@@ -149,7 +149,7 @@
                     </div>
                     <div class="col l12 m12 s12" align="center">
                         <a href="https://www.nabler.com/" target="_blank">
-                        <img class="spons" src="img/spons/2020/Nabler.jpg" width="250px" height="120px"  />
+                        <img class="spons" src="img/spons/2020/Nabler.jpg" width="350px" height="100px"  />
                         </a>
                     </div>
                 </div>
@@ -164,7 +164,7 @@
                     </div>
                     <div class="col l12 m12 s12" align="center">
                         <a href="https://nationalinsurance.nic.co.in/" target="_blank">
-                        <img class="spons" src="img/spons/2020/NIC.jpg" width="270px" height="210px"  />
+                        <img class="spons" src="img/spons/2020/NIC.jpg" width="350px" height="180px"  />
                         </a>
                     </div>
                 </div>
@@ -194,7 +194,7 @@
                     </div>
                     <div class="col l12 m12 s12" align="center">
                         <a href="http://www.quickheal.co.in/" target="_blank">
-                        <img class="spons" src="img/spons/2020/qh.png" width="240px" height="170px"  />
+                        <img class="spons" src="img/spons/2020/qh.png" width="300px" height="170px"  />
                         </a>
                     </div>
                 </div>
@@ -210,19 +210,19 @@
                     <div class="col l12 m12 s12">
                         <div class="col l4 m4 s12"  align="center">  
                             <a href="https://www.ntpc.co.in/" target="_blank"><br> <br>
-                            <img class="spons"  src="img/spons/2020/ntpc.png" width="200" height="170" />
+                            <img class="spons"  src="img/spons/2020/ntpc.png" width="300" height="170" />
                             </a> 
                         </div>
                         <div class="col l4 m4 s12" align="center">
                             <a href="https://www.supreme.co.in/" target="_blank">
                             <br><br>
-                            <img class="spons"  src="img/spons/2020/Supreme.png" width="220" height="170" />
+                            <img class="spons"  src="img/spons/2020/Supreme.png" width="300" height="170" />
                             </a> 
                         </div>
                         <div class="col l4 m4 s12" align="center">
                             <a href="https://bizacuity.com/" target="_blank">
                             <br><br>
-                            <img class="spons"  src="img/spons/2020/Bizacuity.png" width="240" height="170" />
+                            <img class="spons"  src="img/spons/2020/Bizacuity.png" width="300" height="170" />
                             </a> 
                         </div>
                         <div class="col l4 m4 s12"  align="center">
@@ -239,7 +239,7 @@
                         <div class="col l4 m4 s12" align="center">
                             <a href="https://www.brnl.in/" target="_blank">
                             <br><br>
-                            <img class="spons"  src="img/spons/2020/brnl.png" width="190" height="170" />
+                            <img class="spons"  src="img/spons/2020/brnl.png" width="270" height="170" />
                             </a> 
                         </div>
                     </div>
@@ -254,7 +254,7 @@
                     </div>
                     <div class="col l12 m12 s12" align="center">
                         <a href="http://www.himalayawellness.com/" target="_blank">
-                        <img class="spons" src="img/spons/2020/himalaya.png" width="300px" height="200px"  />
+                        <img class="spons" src="img/spons/2020/himalaya.png" width="350px" height="200px"  />
                         </a>
                     </div>
                 </div>
@@ -320,7 +320,7 @@
                             </a> 
                         </div>
                         <div class="col l6 m6 s12" align="center">  <a href="https://www.theowlprints.com/" target="_blank"> <br> <br>
-                            <img class="spons"  src="img/spons/2020/owlprints.png" width="170" height="140" />
+                            <img class="spons"  src="img/spons/2020/owlprints.png" width="300" height="140" />
                             </a> 
                         </div>
                     <br><br>                    
@@ -334,11 +334,11 @@
                     </div>
                     <div class="col l12 m12 s12">
                         <div class="col l6 m6 s12" align="center">  <a href="http://www.frutigerindia.in/" target="_blank"> <br> <br>
-                            <img class="spons"  src="img/spons/2020/Frutiger.jpg" width="220" height="120" />
+                            <img class="spons"  src="img/spons/2020/Frutiger.jpg" width="270" height="120" />
                             </a>
                         </div>
                         <div class="col l6 m6 s12" align="center">  <a href="#" target="_blank"> <br> <br>
-                            <img class="spons"  src="img/spons/2020/DC.png" width="220" height="120" />
+                            <img class="spons"  src="img/spons/2020/DC.png" width="270" height="120" />
                             </a>
                         </div>
                     </div>
@@ -369,24 +369,24 @@
                     <div class="row">
                         <div class="col l12 m12 s12">
                             <div class="col l6 m6 s12" align="center">  <a href="https://www.greenjutex.com/" target="_blank"> <br> <br>
-                                <img class="spons"  src="img/spons/2020/greenjute.jpeg" width="190px" height="130px" style="margin-left : 200px"/>
+                                <img class="spons"  src="img/spons/2020/greenjute.jpeg" width="270px" height="160px"/>
                                 </a> 
                             </div>
                             <div class="col l6 m6 s12"  align="center">
                                 <a href="" target="_blank"> <br> <br>
-                                <img class="spons"  src="img/spons/2019/gp2.jpg" width="200" height="130" style="margin-right : 200px"/>
+                                <img class="spons"  src="img/spons/2019/gp2.jpg" width="270" height="160"/>
                                 </a>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col l6 m6 s12" align="center">
                                 <a href="https://www.indiamart.com/offiworld/profile.html" target="_blank">
-                                <img class="spons" src="img/spons/2020/Offiworld.jpg" width="220px" height="180px" style="margin-left : 200px" />
+                                <img class="spons" src="img/spons/2020/Offiworld.jpg" width="270px" height="180px" />
                                 </a>
                             </div>
                             <div class="col l6 m6 s12"  align="center">  
                                 <a href="hhttps://limitlesshunch.com/" target="_blank"><br> <br>
-                                <img class="spons"  src="img/spons/2020/lh.jpg" width="200px" height="130px" style="margin-right : 200px"/>
+                                <img class="spons"  src="img/spons/2020/lh.jpg" width="270px" height="130px"/>
                                 </a> 
                             </div>
                         </div>
@@ -464,7 +464,7 @@
                     </div>
                     <div class="col l12 m12 s12" align="center">
                         <a href="https://tripathiproducts.in/" target="_blank">
-                        <img class="spons" src="img/spons/2020/tripathi.png" width="270" height="170px"  />
+                        <img class="spons" src="img/spons/2020/tripathi.png" width="270" height="200px"  />
                         </a>
                     </div>
                 </div>
@@ -479,7 +479,7 @@
                     </div>
                     <div class="col l12 m12 s12" align="center">
                         <a href="https://www.mioamore.net/" target="_blank">
-                        <img class="spons" src="img/spons/2020/mio.png" width="330" height="160px"  />
+                        <img class="spons" src="img/spons/2020/mio.png" width="330" height="200px"  />
                         </a>
                     </div>
                 </div>
