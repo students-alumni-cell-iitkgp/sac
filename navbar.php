@@ -91,6 +91,7 @@
     <li><a href="temposhout_final_6.pdf" target="_blank">Tempo Shout</a></li>
 </ul>
 <ul id="sponsors" class="dropdown-content" style="min-width: 200px;">
+    <li><a href="sponsors2020.php">2020</a></li>
     <li><a href="sponsors2019.php">2019</a></li>
     <li><a href="sponsors2018.php">2018</a></li>
     <li><a href="sponsors2017.php">2017</a></li>
