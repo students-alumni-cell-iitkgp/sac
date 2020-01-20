@@ -24,10 +24,10 @@
       <input style="width: 350px; height: 35px;" type="number" name="batch" class="span3">
 
       <label style="font-size: 17px;">Contact</label>
-      <input style="width: 350px; height: 35px;" type="number" name="contact" class="span3" required>
+      <input style="width: 350px; height: 35px;" type="number" name="contact" class="span3" >
       
       <label style="font-size: 17px;">Email Address</label>
-      <input style="width: 350px; height: 35px;" type="email" name="email" class="span3" required>
+      <input style="width: 350px; height: 35px;" type="email" name="email" class="span3" >
 
       <label style="font-size: 17px;">Company</label>
       <input style="width: 350px; height: 35px;" type="text" name="company" class="span3">

@@ -239,7 +239,7 @@
                         <div class="col l4 m4 s12" align="center">
                             <a href="https://www.brnl.in/" target="_blank">
                             <br><br>
-                            <img class="spons"  src="img/spons/2020/brnl.png" width="270" height="170" />
+                            <img class="spons"  src="img/spons/2020/BRNL.jpg" width="270" height="170" />
                             </a> 
                         </div>
                     </div>
@@ -323,6 +323,20 @@
                             <img class="spons"  src="img/spons/2020/owlprints.png" width="300" height="140" />
                             </a> 
                         </div>
+                    <br><br>                    
+                </div>
+                <div class="row">
+                    <div class="col l12 m12 s12">
+                        <h2 style="text-align:center;">
+                        Official Mutual Funds Partner
+                            <hr>
+                        </h2>
+                    </div>
+                        <div class="col l12 m12 s12" align="center">  <a href="https://www.sbimf.com/en-us" target="_blank"> <br> <br>
+                            <img class="spons"  src="img/spons/2020/SBIMF.jpg" width="370" height="140" />
+                            </a> 
+                        </div>
+                       
                     <br><br>                    
                 </div>
                 <div class="row">
