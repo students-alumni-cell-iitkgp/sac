@@ -37,6 +37,9 @@
       }
       .class_gift_Img{
           padding-left: 2%;
+          width:100%;
+          height:auto;  
+      
       }
 
       .subheading{
@@ -70,6 +73,7 @@
     }
     #cg-17{
       margin-left: -11%;
+
     }
     .container1 {
   position: relative;
@@ -184,10 +188,10 @@
   </div>
 
             <div class="row">
-                  <div class="col l4  s4 m4">
+                  <div class="col l4 s1 m1">
                     -
                   </div>
-                  <div class="col l4  s4 m4">
+                  <div class="col l4 s1 m1">
                     <div class="heading">
                         <center>
                           <h class="subheading"><b> Samsung </b> </h>
@@ -197,7 +201,7 @@
                            
                     <div class="container1">
                         <a href='https://www.samsung.com/in/store/campus/?fbclid=IwAR1rAE87hHn5Y3_GSEesTQCQmmT791oXJL8H1yHklGMl6C-qTCFZ1kVhsno' target='_blank'>
-                        <img class="class_gift_Img" id="cg-17" src="img/afinity/samsung.jpg" style="width:10% height:10%;"></a>
+                        <img class="class_gift_Img"  src="img/afinity/samsung.jpg" style="width:auto; height:44%;margin-left: -25px" ></a>
                        
                     <div class="overlay">
                       <a href='https://www.samsung.com/in/store/campus/?fbclid=IwAR1rAE87hHn5Y3_GSEesTQCQmmT791oXJL8H1yHklGMl6C-qTCFZ1kVhsno' target='_blank'>
