@@ -167,7 +167,7 @@
                             </div>
                             
                             <div class="card-reveal">
-                                <span class="card-title grey-text text-darken-4">For Institute<i class="material-icons right">close</i></span>
+                                <span class="card-title grey-text text-darken-4">For Institute<i class="material-icons right"></i></span>
                                 <p class="text_align"><b>The benefits of this association include:</b><br>
                             1. Special Prices<br>
                             2. Affordable EMIs<br>
@@ -206,7 +206,7 @@
                                 <img class="activator" src="img/afinity/Oyo.jpg">
                             </div>
                             <div class="card-reveal">
-                                <span class="card-title grey-text text-darken-4">-<i class="material-icons right">close</i></span>
+                                <span class="card-title grey-text text-darken-4">-<i class="material-icons right"></i></span>
                                 <p class="text_align"><b>Oyo offering the following stay options: </b><br>
                                     1) Short term stays/Group Tours/Events: Located near Corporate clusters, Uninterrupted Connection, Basic Amenities, Dedicated Security Personnel.<br>
                                     2) Long term stays: Fully Furnished, Fully Managed, Long Term Rental, Zero Brokerage, One month Security Only. <br>
@@ -221,7 +221,7 @@
                                 <img class="activator" src="img/afinity/hdfc.png">
                             </div>
                             <div class="card-reveal">
-                                <span class="card-title grey-text text-darken-4">-<i class="material-icons right">close</i></span>
+                                <span class="card-title grey-text text-darken-4">-<i class="material-icons right"></i></span>
                                 <p class="text_align"><b>Oyo offering the following stay options: </b><br>
                                     1) Short term stays/Group Tours/Events: Located near Corporate clusters, Uninterrupted Connection, Basic Amenities, Dedicated Security Personnel.<br>
                                     2) Long term stays: Fully Furnished, Fully Managed, Long Term Rental, Zero Brokerage, One month Security Only. <br>
