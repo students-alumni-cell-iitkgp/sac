@@ -203,7 +203,7 @@
                     
                         <div class="card z-depth-0 _card">
                             <div class="card-image waves-effect waves-block waves-light">
-                                <img class="activator" src="img/afinity/Oyo.jpg">
+                                <img class="activator" src="img/afinity/Oyo.jpg" style= " width: 95.5%">
                             </div>
                             <div class="card-reveal">
                                 <span class="card-title grey-text text-darken-4">-<i class="material-icons right"></i></span>
