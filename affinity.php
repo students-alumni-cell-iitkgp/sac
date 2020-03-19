@@ -187,7 +187,7 @@
                   <div class="col l4  s4 m4">
                     -
                   </div>
-                  <div class="col l4  s12 m12">
+                  <div class="col l4  s4 m4">
                     <div class="heading">
                         <center>
                           <h class="subheading"><b> Samsung </b> </h>
