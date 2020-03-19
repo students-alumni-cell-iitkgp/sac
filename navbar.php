@@ -84,7 +84,7 @@
     <li><a href="sparc.php">SPARC</a></li>
     <li><a href="acap.php">ACAP</a></li>
     <li><a href="https://medium.com/@studentsalumnicell.iitkgp" target="_blank">Alumni Blog</a></li>
-    <li><a href="affinity.php">Affinity proagamme</a></li>
+    <li><a href="affinity.php">Affinity proagramme</a></li>
 </ul>
 <ul id="publications" class="dropdown-content" style="min-width: 200px;">
     <li><a href="yearbook.php">Yearbook</a></li>
