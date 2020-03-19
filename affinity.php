@@ -86,36 +86,7 @@
       margin-left: -11%;
 
     }
-    .container1 
-    {
-    position: relative;
-    width: 50%;
-    }
-   .container1:hover .overlay {
-    opacity: 0.3;}
-
-        .overlay 
-        {
-          position: absolute;
-          top: 0;
-          bottom: 0;
-          left: -25;
-          right: 0;
-          height: 100%;
-          width: 250%;
-          opacity: 0;
-          transition: .5s ease;
-          
-          border: 20px solid rgba(0, 0, 0, 0.1);
-          background-color: rgba(255, 255, 255, 0.90);
-          
-          
-        }
-        .container1:hover .overlay .text{
-          opacity: 1;
-        }
-
-
+    
 
 
 
@@ -169,10 +140,10 @@
                       <h  class="subheading"><b id="h1" >Affinity Programme</b> </h>
                   </center>
              </div>
-                   <p style="padding:15px; font-size:16px;">Students' Alumni Cell a pioneer volunteer-based organisation since it's formation has strived towards building bridges between the students and the alumni community. One of the only initiatives of its kind in the institute is the - IIT Kharagpur Affinity Program. 
+                   <p style="padding:15px; font-size:16px;">Students' Alumni Cell a pioneer volunteer-based organisation since it's formation has strived towards building bridges between the students and the alumni community. One of the only initiatives of its kind in the institute is the - IIT Kharagpur Affinity Programme. 
                    An initiative that has been undertaken by SAC to benefit the entire KGP community, alumni and students alike. We strive towards establishing strong and firm relations with multinational companies by establishing two-way ties in which they provide KGPians with incentives and unimaginable discounts on goods and services and these companies benefit by, gaining a huge client base. 
 
-                             Thus, this initiative is an excellent way to us all feel privileged to be a part of the IIT Kharagpur community. Our current association is with the multinational Korean giant - SAMSUNG. </p>
+                             Thus, this initiative is an excellent way to us all feel privileged to be a part of the IIT Kharagpur community. </p>
 
               </div>
          </div>
@@ -189,12 +160,7 @@
                     -
                   </div>
                       <div class="col l4 s12 m4">
-                        <div class="heading">
-                        <center>
-                          <h class="subheading"><b> Samsung </b> </h>
-                          
-                           </center>
-                         </div>
+                        
                         <div class="card z-depth-0 _card">
                             <div class="card-image waves-effect waves-block waves-light">
                                 <img class="activator" src="img/afinity/samsung.jpg">
@@ -234,11 +200,7 @@
           </div>
          
                   <div class="col l4 s12 m4">
-                    <div class="heading">
-                      <center>
-                        <h class="subheading"><b> OYO </b> </h>
-                      </div>
-                    </center>
+                    
                         <div class="card z-depth-0 _card">
                             <div class="card-image waves-effect waves-block waves-light">
                                 <img class="activator" src="img/afinity/Oyo.jpg">
@@ -253,11 +215,7 @@
                         </div>
                     </div>
                     <div class="col l4 s12 m4">
-                    <div class="heading">
-                      <center>
-                        <h class="subheading"><b> HDFC </b> </h>
-                      </div>
-                    </center>
+                    
                         <div class="card z-depth-0 _card">
                             <div class="card-image waves-effect waves-block waves-light">
                                 <img class="activator" src="img/afinity/hdfc.png">
