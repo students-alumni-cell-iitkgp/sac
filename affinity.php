@@ -11,17 +11,21 @@
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
+
 <style type="text/css">
     @media only screen and (max-width: 769px){
-        .class_gift_Img{
+        .class_gift_Img
+        {
             padding-left: 5%;
         }
-      .ac-imprint img{
+      .ac-imprint img
+      {
         margin: 0px auto;
         width:100%;
         height: 35%;
       }
-      .subheading{
+      .subheading
+      {
         font-size: 5.5vw;
       }
       p{
@@ -29,31 +33,36 @@
       }
 
     }
-    @media only screen and (max-width: 415px){
+    @media only screen and (max-width: 415px)
+    {
       .ac-imprint img{
         margin: 0px auto;
         width:100%;
         height: 25%;
       }
-      .class_gift_Img{
+      .class_gift_Img
+      {
           padding-left: 2%;
           width:100%;
           height:auto;  
       
       }
 
-      .subheading{
+      .subheading
+      {
         font-size: 5.5vw;
       }
       p{
        font-size: 4.8vw; 
       }
-      #button  h5 {
+      #button  h5 
+      {
         font-size: 6vw;
         line-height: 121%;
       }
     }
-   @media only screen and (min-width: 768px){
+   @media only screen and (min-width: 768px)
+   {
 
     .imprint-top {
       margin-top: 20px;
@@ -63,54 +72,68 @@
       border-radius: 6px;
       margin-bottom: 20px;
     }
-      .ac-imprint img{
+      .ac-imprint img
+      {
         margin: 0px auto;
         width: 100%;
-    }
+      }
     #imgleft
     {
       margin-left: 8%;
     }
-    #cg-17{
+    #cg-17
+    {
       margin-left: -11%;
 
     }
-    .container1 {
-  position: relative;
-  width: 50%;
-   }
-   .container1:hover .overlay {
-  opacity: 1;}
-
-        .overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: -25;
-  right: 0;
-  height: 100%;
-  width: 250%;
-  opacity: -50%;
-  transition: .5s ease;
-  background-color: #FFFFFF;
-}
-
-
-}
-
-
-.text {
-  color: black;
-  font-size: 30px;
-  position:;
-  top: 80%;
-  left: 70%;
-  -webkit-transform: translate(0%, 10%);
-  -ms-transform: translate(0%, 10%);
-  transform: translate(0%, 10%);
-  text-align:;
-}
+    .container1 
+    {
+    position: relative;
+    width: 50%;
     }
+   .container1:hover .overlay {
+    opacity: 0.3;}
+
+        .overlay 
+        {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: -25;
+          right: 0;
+          height: 100%;
+          width: 250%;
+          opacity: 0;
+          transition: .5s ease;
+          
+          border: 20px solid rgba(0, 0, 0, 0.1);
+          background-color: rgba(255, 255, 255, 0.90);
+          
+          
+        }
+        .container1:hover .overlay .text{
+          opacity: 1;
+        }
+
+
+
+
+
+          .text
+           {
+            color: black;
+            font-size: 30px;
+            position:;
+            top: 80%;
+            left: 70%;
+            -webkit-transform: translate(0%, 10%);
+            -ms-transform: translate(0%, 10%);
+            transform: translate(0%, 10%);
+            text-align:;
+            opacity: 1;
+          }
+    }
+
 
     @media only screen and (max-width: 468px){
       .ac-imprint img{
@@ -151,35 +174,9 @@
 
                              Thus, this initiative is an excellent way to us all feel privileged to be a part of the IIT Kharagpur community. Our current association is with the multinational Korean giant - SAMSUNG. </p>
 
-                                  <!-- <div class="heading" style="margin-top: -10px;">
-                                      <center >
-                                          <h  class="subheading"><b id="about_senior_class_gift">What is Senior Class Gift ?</b> </h>
-                                      </center>
-                                  </div>
-
-                                  <p style="padding:20px;" class="text_align">Under this programme, the graduating batches are given the chance to forfeit
-                                    their caution deposits and the amount generated is partially utilized currently in making their Graduating Class Gift
-                                     and partially goes towards endowment for future use albeit for students&#39; services only. It is an opportunity for
-                                     the soon-to-be alumni to get a head-start in paying their tributes to their alma mater. Their gifts would impact the
-
-                                     lives of their juniors for years to come.
-                                     This challenge offers the senior class not only a chance to make a gift, but also to leave behind an imprint.
-                                      Other than the obvious visible benefits in the form of amenities and services, the Class Gift also
-                                      contributes to the brand value of IIT KGP, the same brand that propels them ahead of others in their
-                                      professional and personal lives after college.</p> -->
-
-
-
-        </div>
-    </div>
-  <!--div class="col l4 s12 m4">
-  <div class="info z-depth-2">
-  </div>
-  </div-->
-
-
-
-  </div>
+              </div>
+         </div>
+      </div>
 
   <div class="row" style="padding-top:10px;">
     <center>
@@ -191,36 +188,31 @@
                   <div class="col l4 s1 m1">
                     -
                   </div>
-                  <div class="col l4 s1 m1">
-                    <div class="heading">
+                      <div class="col l4 s12 m4">
+                        <div class="heading">
                         <center>
                           <h class="subheading"><b> Samsung </b> </h>
                           
                            </center>
                          </div>
-                           
-                    <div class="container1">
-                        <a href='https://www.samsung.com/in/store/campus/?fbclid=IwAR1rAE87hHn5Y3_GSEesTQCQmmT791oXJL8H1yHklGMl6C-qTCFZ1kVhsno' target='_blank'>
-                        <img class="class_gift_Img"  src="img/afinity/samsung.jpg" style="width:auto; height:44%;margin-left: -25px" ></a>
-                       
-                    <div class="overlay">
-                      <a href='https://www.samsung.com/in/store/campus/?fbclid=IwAR1rAE87hHn5Y3_GSEesTQCQmmT791oXJL8H1yHklGMl6C-qTCFZ1kVhsno' target='_blank'>
-                      <div class="text" >
-                        The benefits of this association include:<br>
-                        1. Special Prices<br>
-                        2. Affordable EMIs<br>
-                        3. Free 3rd party accidental and liquid damage insurance<br>
-                        4. Easy Exchange<br>
-                        
-                      </div></a>
+                        <div class="card z-depth-0 _card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="img/afinity/samsung.jpg">
+                            </div>
+                            
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">For Institute<i class="material-icons right">close</i></span>
+                                <p class="text_align"><b>The benefits of this association include:</b><br>
+                            1. Special Prices<br>
+                            2. Affordable EMIs<br>
+                            3. Free 3rd party accidental and liquid damage insurance<br>
+                            4. Easy Exchange<br>
+                            5. <a href='https://www.samsung.com/in/store/campus/?fbclid=IwAR1rAE87hHn5Y3_GSEesTQCQmmT791oXJL8H1yHklGMl6C-qTCFZ1kVhsno' target='_blank'>CLICK HERE</a> 
+                             </p>
+                            </div>
+                        </div>
                     </div>
-
-                           
-                   </div>
-
-
-             </div>
-                      
+                  
   </div>
   </div>
 
@@ -237,39 +229,78 @@
   </div>
 
   <div class="row">
-    <div class="col l2 "> 
-      -
-    </div>
-    <div class="col l4 s12 m6">
-      <div class="heading">
-      <center>
-        <h class="subheading"><b> OYO </b> </h>
-        </div>
-         </center>
+          <div class="col l2 "> 
+            -
+          </div>
          
-      <div class="offset-11">
-   <a href=><img class="class_gift_Img"  src="img/afinity/Oyo.jpg" style="width:86%; margin-left: 5% "></a>
-   </div>
-
-
-    </div>
+                  <div class="col l4 s12 m4">
+                    <div class="heading">
+                      <center>
+                        <h class="subheading"><b> OYO </b> </h>
+                      </div>
+                    </center>
+                        <div class="card z-depth-0 _card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="img/afinity/Oyo.jpg">
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">-<i class="material-icons right">close</i></span>
+                                <p class="text_align"><b>Oyo offering the following stay options: </b><br>
+                                    1) Short term stays/Group Tours/Events: Located near Corporate clusters, Uninterrupted Connection, Basic Amenities, Dedicated Security Personnel.<br>
+                                    2) Long term stays: Fully Furnished, Fully Managed, Long Term Rental, Zero Brokerage, One month Security Only. <br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l4 s12 m4">
+                    <div class="heading">
+                      <center>
+                        <h class="subheading"><b> HDFC </b> </h>
+                      </div>
+                    </center>
+                        <div class="card z-depth-0 _card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="img/afinity/hdfc.png">
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">-<i class="material-icons right">close</i></span>
+                                <p class="text_align"><b>Oyo offering the following stay options: </b><br>
+                                    1) Short term stays/Group Tours/Events: Located near Corporate clusters, Uninterrupted Connection, Basic Amenities, Dedicated Security Personnel.<br>
+                                    2) Long term stays: Fully Furnished, Fully Managed, Long Term Rental, Zero Brokerage, One month Security Only. <br>
+                                    3) <a href="hdfcdeal.pdf">CLICK HERE</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+  
     
-    
 
-     <div class="col l4 s12 m6">
-      <div class="heading">
-      <center>
-        <h class="subheading"><b> HDFC</b> </h>
-      </div>
-      </center>
-    
-    <div class="offset-11">
-         <a href=hdfcdeal.pdf> <img class="class_gift_Img" src="img/afinity/hdfc.png"  style="width:90%; margin-left: 5%">
-    </div>
-    </div>
-  </div>
-  </div></div>
+     </div>
   <?php include 'footer.php';?>
+   <script type="text/javascript">
+            $(".card").mouseenter(function(e){
+              if ($(this).find('> .card-reveal').length) {
+                if ($(e.target).is($('.card .activator')) || $(e.target).is($('.card .activator i')) ) {
+                  // Make Reveal animate up
+                  $(this).find('.card-reveal').css({ display: 'block'}).velocity("stop", false).velocity({translateY: '-100%'}, {duration: 300, queue: false, easing: 'easeInOutQuad'});
+                }
+              }
+              $('.card-reveal').closest('.card').css('overflow', 'hidden');
+            });
+            $(".card").mouseleave(function(){
+              // Make Reveal animate down and display none
+              $(this).find('.card-reveal').velocity(
+                {translateY: 0},
+                {
+                  duration: 225,
+                  queue: false,
+                  easing: 'easeInOutQuad',
+                  complete: function() {
+                    $(this).css({ display: 'none'});
+                  }
+                });
+              });
+        </script>
 
   </body>
   </html>
