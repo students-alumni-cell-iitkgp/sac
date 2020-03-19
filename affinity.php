@@ -260,7 +260,7 @@
       </center>
     
     <div class="offset-11">
-         <a href=> <img class="class_gift_Img" src="img/afinity/hdfc.png"  style="width:90%; margin-left: 5%">
+         <a href=hdfcdeal.pdf> <img class="class_gift_Img" src="img/afinity/hdfc.png"  style="width:90%; margin-left: 5%">
     </div>
     </div>
   </div>
