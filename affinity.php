@@ -222,10 +222,13 @@
                             </div>
                             <div class="card-reveal">
                                 <span class="card-title grey-text text-darken-4">-<i class="material-icons right"></i></span>
-                                <p class="text_align"><b>Oyo offering the following stay options: </b><br>
-                                    1) Short term stays/Group Tours/Events: Located near Corporate clusters, Uninterrupted Connection, Basic Amenities, Dedicated Security Personnel.<br>
-                                    2) Long term stays: Fully Furnished, Fully Managed, Long Term Rental, Zero Brokerage, One month Security Only. <br>
-                                    3) <a href="hdfcdeal.pdf">CLICK HERE</a>
+                                <p class="text_align"><b>HDFC offering the following options: </b><br>
+                                    The benefits of this association includes:
+                                      New upgraded HDFC bank Diners Club Black Credit Card. (Annual Memberships, Monthly Milestone benefits and other added features).<br>
+                                     
+                                       
+                                      <a href="Diners-Privilege.pdf">Life Time Free Diners Black Card</a> <br>
+                                      <a href="Diners-Black-New.pdf">Priced Diners Black card</a><br>
                                 </p>
                             </div>
                         </div>
