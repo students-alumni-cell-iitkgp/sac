@@ -140,10 +140,7 @@
                       <h  class="subheading"><b id="h1" >Affinity Programme</b> </h>
                   </center>
              </div>
-                   <p style="padding:15px; font-size:16px;">Students' Alumni Cell a pioneer volunteer-based organisation since it's formation has strived towards building bridges between the students and the alumni community. One of the only initiatives of its kind in the institute is the - IIT Kharagpur Affinity Programme. 
-                   An initiative that has been undertaken by SAC to benefit the entire KGP community, alumni and students alike. We strive towards establishing strong and firm relations with multinational companies by establishing two-way ties in which they provide KGPians with incentives and unimaginable discounts on goods and services and these companies benefit by, gaining a huge client base. 
-
-                             Thus, this initiative is an excellent way to us all feel privileged to be a part of the IIT Kharagpur community. </p>
+                   <p style="padding:15px; font-size:16px;">Students' Alumni Cell is a pioneer in volunteer-based organisations, since it's inception it has strived towards building connections between the students and the alumni community. One of the only initiative of its kind in the institute is the IIT Kharagpur Affinity Programme, an initiative that is undertaken by the SAC to benefit the entire KGP community ie. alumni and students alike. We strive towards establishing strong and firm relations with multinational companies by establishing two-way ties in which they provide KGPians with incentives and unimaginable discounts on goods and services and in return these companies benefit by gaining a huge client base an unprecedented marketing. Thus, this initiative is an excellent way to help instigate a feeling of privilege and pride to be part of the IIT Kharagpur community. </p>
 
               </div>
          </div>
@@ -167,8 +164,8 @@
                             </div>
                             
                             <div class="card-reveal">
-                                <span class="card-title grey-text text-darken-4">For Institute<i class="material-icons right"></i></span>
-                                <p class="text_align"><b>The benefits of this association include:</b><br>
+                                <span class="card-title grey-text text-darken-4">-<i class="material-icons right"></i></span>
+                                <p class="text_align" style="font: 20px"><b>The benefits of this association include:</b><br>
                             1. Special Prices<br>
                             2. Affordable EMIs<br>
                             3. Free 3rd party accidental and liquid damage insurance<br>
