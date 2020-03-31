@@ -84,6 +84,7 @@
     <li><a href="sparc.php">SPARC</a></li>
     <li><a href="acap.php">ACAP</a></li>
     <li><a href="https://medium.com/@studentsalumnicell.iitkgp" target="_blank">Alumni Blog</a></li>
+    <li><a href="affinity.php">Affinity programme</a></li>
 </ul>
 <ul id="publications" class="dropdown-content" style="min-width: 200px;">
     <li><a href="yearbook.php">Yearbook</a></li>
@@ -91,6 +92,7 @@
     <li><a href="temposhout_final_6.pdf" target="_blank">Tempo Shout</a></li>
 </ul>
 <ul id="sponsors" class="dropdown-content" style="min-width: 200px;">
+    <li><a href="sponsors2020.php">2020</a></li>
     <li><a href="sponsors2019.php">2019</a></li>
     <li><a href="sponsors2018.php">2018</a></li>
     <li><a href="sponsors2017.php">2017</a></li>
@@ -106,12 +108,15 @@
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <div class="row">
             <ul class="hide-on-med-and-down _textcolor center-align">
-                <li class="col l2"><a href="index.php">Home</a></li>
-                <li class="col l2"><a href="#!" class="dropdown-button" data-activates="events">Events</a></li>
-                <li class="col l2"><a id="drop1" class="dropdown-button" href="#!" data-activates="initiatives">Initiatives</a></li>
-                <li class="col l2"><a id="drop2" class="dropdown-button" href="#!" data-activates="publications" style="min-width: 100; margin-left: 0;">Publications</a></li>
-                <li class="col l2"><a href="team.php">The&nbspTeam</a></li>
-                <li class="col l2"><a id="drop3" class="dropdown-button" href="#!" data-activates="sponsors">Sponsors</a></li>
+                <li class="col l0"><a href="index.php">Home</a></li>
+                <!-- <li class="col l0"><a href="http://www.alumni.iitkgp.ac.in/AlumniIITKGP/EmailReg?fbclid=IwAR2WiaCRHFqOZEaDaPfVrIognLqdz9qJ6nZiCVYtrpt3HlD3jbZbAFLjy3w">Alumni Email Registration</a></li> -->
+                <li class="col l0"><a href="#!" class="dropdown-button" data-activates="events">Events</a></li>
+                <li class="col l0"><a id="drop1" class="dropdown-button" href="#!" data-activates="initiatives">Initiatives</a></li>
+                <li class="col l0"><a id="drop2" class="dropdown-button" href="#!" data-activates="publications" style="min-width: 100; margin-left: 0;">Publications</a></li>
+                <li class="col l0"><a href="team.php">The&nbspTeam</a></li>
+                <li class="col l0"><a id="drop3" class="dropdown-button" href="#!" data-activates="sponsors">Sponsors</a></li>
+                <li class="col l0"><a href="http://www.alumni.iitkgp.ac.in/AlumniIITKGP/EmailReg?fbclid=IwAR2WiaCRHFqOZEaDaPfVrIognLqdz9qJ6nZiCVYtrpt3HlD3jbZbAFLjy3w">Alumni Email Registration</a></li>
+
                 <li></li>
             </ul>
         </div>
