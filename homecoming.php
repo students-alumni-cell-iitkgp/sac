@@ -213,35 +213,35 @@ else
     
 
       <div class="row ac-aam">
-        <img src="img/homecoming_poster.jpg" style="margin-left: 0px;width: 100vw;height:50.826vw" > 
+        <img src="img/homecoming.jpg" style="margin-left: 0px;width: 100vw;height:70% " > 
 </div>
   <div class="row">
   <center>
     <div class="heading ac-head" style="border:3px black solid;display:inline-block;padding-top:2px;margin:3px;padding-right:20px;padding-left:20px;">
-        <h4 style="margin-bottom: 0px;" ><b>Homecoming 2019</b> </h4> <br>
-        <h5  style="margin-top: 0px;">16th to 18th August, 2019</h5>
+        <h4 style="margin-bottom: 0px;" ><b>Homecoming 2020</b> </h4> <br>
+        <h5  style="margin-top: 0px;">COMING SOON</h5>
       </div>
     </center>
   <div class="col l12 s12 m12">
     
     <center>
     <p style="width:90%;padding:10px;font-size:17px;text-align:justify">
-      We live our day to day lives oblivious to the beauty that surrounds us and by the time we do realise what exactly it is that we've been blessed with, it's generally too late. However when the good ol' days call yet again, nostalgia surrounds us as we walk the hallowed boulevards of our youth. The Homecoming brings to our alumni a chance to reconnect with their Alma Mater. It lets them relive the carefree days of their college lives as they get a chance to visit all the locations they once frequented. The <b>Homecoming 2019</b> will be organized from 16th to 18th August, 2019 for the batches of <b>1999</b>, <b>2004</b> and <b>2009</b>.
+      We live our day to day lives oblivious to the beauty that surrounds us and by the time we do realise what exactly it is that we've been blessed with, it's generally too late. However when the good ol' days call yet again, nostalgia surrounds us as we walk the hallowed boulevards of our youth. The Homecoming brings to our alumni a chance to reconnect with their Alma Mater. It lets them relive the carefree days of their college lives as they get a chance to visit all the locations they once frequented. The <b>Homecoming 2020</b> will be organized for the batches of <b>2000</b>, <b>2005</b> and <b>2010</b>.
     </p>
   </center>
   </div>
   
-<div class="row">
+<div class="row" >
 
           <div class="offset-l3 col l3"><a class="waves-effect waves-light btn-large modal-trigger" href="#modal1" style="width: 105%;height:5em;padding-top: 10px" >LOGIN</a>
           </div>
               <br><br>
-          <div class="col l3"><a href="signup.php" class="waves-effect waves-light btn" id="sweetalert" style="width: 105%;height: 5em">Homecoming 2019 <br> Registration</a>
+          <div class="col l3"><a href="signup.php" class="waves-effect waves-light btn" id="sweetalert" style="width: 105%;height: 5em">Homecoming 2020 <br> Registration</a>
           </div>
           
     
 </div>
-
+<!--
 <center>
 <p style="font-size:17px;">
   *Registrations for Homecoming will close on 7th August.
@@ -251,19 +251,19 @@ else
 
 </p>
 </center>
-
+-->
 <br><br>
 <hr class="hr" style="color:grey;width:80%">
 <div class="col l12 s12 m12">
     <center>
     <br><br>
     <div class="heading ac-head" style="border:3px black solid;display:inline-block;padding-top:2px;margin:3px;padding-right:20px;padding-left:20px;">
-        <h4 style="margin-bottom: 0px;" ><b>Glimpses of Homecoming 2018</b> </h4> <br>
-        <h5  style="margin-top: 0px;">17th to 19th August, 2018</h5>
+        <h4 style="margin-bottom: 0px;" ><b>Glimpses of Homecoming 2019</b> </h4> <br>
+        <h5  style="margin-top: 0px;">16th to 18th August, 2019</h5>
       </div>
     <br><br>
     <p style="width:90%;padding:10px;font-size:17px;text-align:justify">
-      The <b>Homecoming 2018</b> was organised from <b>17th to 19th August, 2018</b> for the batches of <b>1998</b>, <b>2003</b> and <b>2008</b>. The Homecoming is now a major event anticipated by both the alumni and the students. As the years pass by and winds of change keep blowing, it shall too keep evolving with the pace of time, hoping to bring to the alumni an experience that they may cherish all their lives.
+      The <b>Homecoming 2019</b> was organised from <b>16th to 18th August, 2019</b> for the batches of <b>1999</b>, <b>2004</b> and <b>2009</b>. The Homecoming is now a major event anticipated by both the alumni and the students. As the years pass by and winds of change keep blowing, it shall too keep evolving with the pace of time, hoping to bring to the alumni an experience that they may cherish all their lives.
     </p>
   </center>
   <br>
@@ -311,7 +311,7 @@ else
       <center>
         <h4 style="padding-top:20px">Grand Reunion</h4>
       <p style="width:90%;padding:20px;font-size:17px">
-        Students' Alumni Cell recently organised Homecoming 2018 which was a fun and fascinating trip down the memory lane that gave our alumni an opportunity to see old friends again and catch up with them. They came across places and stories that were almost forgotten. Some things changed, some stayed the same. After some great conversation, all those years wherein they had not seen each other seem to just fade away. You would never want to miss the excitement and renewed camaraderie during the reunion.
+        Students' Alumni Cell recently organised Homecoming 2019 which was a fun and fascinating trip down the memory lane that gave our alumni an opportunity to see old friends again and catch up with them. They came across places and stories that were almost forgotten. Some things changed, some stayed the same. After some great conversation, all those years wherein they had not seen each other seem to just fade away. You would never want to miss the excitement and renewed camaraderie during the reunion.
       </p>
       </center>
     </div>
@@ -404,7 +404,7 @@ else
     <div class="photos" style="padding-bottom:10px;margin-top: -40px">
       <center>
         <p style="width:90%;padding:5px;display: inline;font-size:17px">For more photos, kindly click on:</p>
-        <a id="button" class="waves-effect waves-light btn" href=" https://drive.google.com/drive/folders/12E0iqLcU-4lahFelrtu34_zNNBRF1jA1" target="_blank">Homecoming '18</a>
+        <a id="button" class="waves-effect waves-light btn" href=" https://drive.google.com/drive/folders/12E0iqLcU-4lahFelrtu34_zNNBRF1jA1" target="_blank">Homecoming '19</a>
       </center>
     </div>
 

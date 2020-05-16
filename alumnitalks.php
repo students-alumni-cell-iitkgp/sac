@@ -87,7 +87,7 @@ max-width:100%;
 <div class="_wrapper" style="overflow: hidden;">
 <?php include 'navbar.php';?>
  <div class="row ac-guest" align="center">
-        <img src="img/alumnitalks.jpg" width="100%">
+        <img src="img/talks.jpg" width="100%">
     </div>
 
     <div class="row">

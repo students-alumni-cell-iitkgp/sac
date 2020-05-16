@@ -183,12 +183,12 @@ if( $query_run = mysqli_query($connection, $query) ){
                     <strong>3. NEFT</strong>
                     <br> You can also transfer the payment through Internet Banking and email us the receipt.
                     <br> Account Details
-                    <br> Bank Name: Syndicate Bank
+                    <!-- <br> Bank Name: Syndicate Bank
                     <br> Branch: IIT Kharagpur, SRIC
                     <br> IFSC Code: SYNB0009556
                     <br> A/C No.: 95562200012031
                     <br> Account Name: Annual Alumni Meet<br>
-                    <br><b style="font-size: 200%;">&nbsp &nbsp &nbsp OR</b><br>
+                    <br><b style="font-size: 200%;">&nbsp &nbsp &nbsp OR</b><br> -->
                      <br> Bank Name: HDFC Bank Ltd
                     <br> Branch: Kharagpur
                     <br> IFSC Code: HDFC0001065

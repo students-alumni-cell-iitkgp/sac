@@ -88,7 +88,7 @@ else
       ?>
     </div>
     <div class="modal-footer">
-      <a href="home_hc.php" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+      <a href="home.php" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
     </div>
   </div>
 

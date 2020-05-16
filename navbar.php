@@ -151,6 +151,7 @@
                                 <li><a href="sparc.php">SPARC</a></li>
                                 <li><a href="acap.php">ACAP</a></li>
                                 <li><a href="https://medium.com/@studentsalumnicell.iitkgp" target="_blank">Alumni Blog</a></li>
+                                <li><a href="affinity.php" target="_blank">Affinity Programme</a></li>
                             </ul>
                         </div>
                     </li>
