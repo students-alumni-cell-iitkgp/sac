@@ -28,16 +28,16 @@ if(($query_run3)){
 <div class="row">
    <div class="col s12">
      <ul class="tabs tabs-fixed-width">
-       <li class="tab col s3" style="color: #26a69a"><a class="active" href="#1999">1999/2000</a></li>
-       <li class="tab col s3"><a  href="#2004">2004/05</a></li>
-       <li class="tab col s3"><a href="#2009">2009/10</a></li>
+       <li class="tab col s3" style="color: #26a69a"><a class="active" href="#1970">1970</a></li>
+       <li class="tab col s3"><a  href="#1980">1980</a></li>
+       <li class="tab col s3"><a href="#1995">1995</a></li>
        <li class="tab col s3"><a href="#others">others</a></li>
 
    </ul>
 </div>
-<div id="1999" class="col s12">
+<div id="1970" class="col s12">
   <?php 
-  @$query7=" SELECT name, hall, department FROM users WHERE graduatingYear= '1999' or  graduatingYear= '2000' 
+  @$query7=" SELECT name, hall, department FROM users WHERE graduatingYear= '1970' or  graduatingYear= '1971' 
   ORDER BY department ASC";
   $query_run4=$connection->query($query7);
   if($query_run4->num_rows > 0){
@@ -128,9 +128,9 @@ else {
 
 
 </div>
-<div id="2004" class="col s12">
+<div id="1980" class="col s12">
   <?php 
-  @$query7=" SELECT name, hall, department FROM users WHERE graduatingYear= '2004' or  graduatingYear= '2005' 
+  @$query7=" SELECT name, hall, department FROM users WHERE graduatingYear= '1980' or  graduatingYear= '1981' 
   ORDER BY department ASC";
   $query_run4=$connection->query($query7);
   if($query_run4->num_rows > 0){
@@ -222,9 +222,9 @@ else {
 
 
 </div>
-<div id="2009" class="col s12">
+<div id="1995" class="col s12">
   <?php 
-  @$query7=" SELECT name, hall, department FROM users WHERE graduatingYear= '2009' or  graduatingYear= '2010' 
+  @$query7=" SELECT name, hall, department FROM users WHERE graduatingYear= '1995' or  graduatingYear= '1996' 
   ORDER BY department ASC";
   $query_run4=$connection->query($query7);
   if($query_run4->num_rows > 0){
@@ -318,8 +318,8 @@ else {
 </div>
 <div id="others" class="col s12">
   <?php 
-  @$query7=" SELECT name, hall, department FROM users WHERE graduatingYear != '1999' AND graduatingYear != '2004'
-  AND graduatingYear != '2009' and  graduatingYear != '2000'  and  graduatingYear != '2005'  and  graduatingYear != '2010' 
+  @$query7=" SELECT name, hall, department FROM users WHERE graduatingYear != '1970' AND graduatingYear != '1980'
+  AND graduatingYear != '1995' and  graduatingYear != '1971'  and  graduatingYear != '1981'  and  graduatingYear != '1996' 
   ORDER BY department ASC";
   $query_run4=$connection->query($query7);
   if($query_run4->num_rows > 0){

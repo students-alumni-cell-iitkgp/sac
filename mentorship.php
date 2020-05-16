@@ -21,7 +21,8 @@
     }
 
     .mentor-text {
-      margin-left: 60px !important;
+      margin-left: 0px !important;
+      overflow-x: hidden;
     }
     .mentor-top {
       margin-top: 20px;
@@ -32,11 +33,11 @@
       margin-bottom: 20px;
     }
       .ac-mentor img{ 
-        margin-left: 80px;
+        margin-left:  0px;
     }
     p{position:relative;
-left: 60px;
-      padding:6px;}
+left: 0px;
+      padding:0px;}
     }
     
     @media only screen and (max-width: 668px){
@@ -49,7 +50,7 @@ left: 60px;
      .mentor-top { margin-left:0px;
       width: 100%;}
      .mentor-reg a{margin-left: 0px;}
-     .summit{margin-left: 6%;} }
+     .summit{margin-left: 0%;} }
    
     
 </style>
@@ -65,40 +66,48 @@ left: 60px;
 <?php include 'navbar.php';?>
 
 <div class="row ac-mentor">
-        <img src="img/mentorship.jpg"  > 
+        <img src="img/MENTORSHIPbnew.jpg" width="100%" height="75%" > 
 </div>
 
-<div class="row">
+<div class="row" style="padding:1% 7% 1% 7%; ">
  
-                      <center> <div class="heading ac-head" style="border:3px black solid; display: inline-block; padding-top: 2px; margin: 3px;padding-right: 20px;padding-left: 20px;" >
-                          <h4><b>Student Alumni Mentorship Programme</b></h4> </div>
-                      </center>
-  <div class="col l8 m12 s12">
+      <center> 
+            <div class="heading ac-head" style="border:3px black solid;display:inline-block;padding-top:2px;margin:3px;padding-right:20px;padding-left:20px;" >
+                <h4><b>Student Alumni Mentorship Programme</b></h4> 
+            </div>
+      </center><br>
+      <div class="col l12 m12 s12" style="background:white;padding-top: 20px;">
    
     
-    <span class="mentor-text">
-    <p class="z-depth-1 text_align" style="padding:6% 10% 6% 10%; background:white;">
-    <b>Student Alumni Mentorship Programme (SAMP)</b> is a unique initiative undertaken by the Students&#39 Alumni Cell, IIT Kharagpur. Through this programme students are connected with alumni who serve both as a guide and a source of inspiration for them.<b> SAMP</b> is launched with the goal of keeping the alumni connected to their alma mater as well as share their valuable experience with the current students.
-    </p>
-    </span>
-  </div>
-    <div  class="col l4 m12 s12 mentor-reg">
-<center>
-<br>
-<br>
-<a href="https://sac.iitkgp.ac.in/mentorship/" target="_blank "><input type="submit" value="Go to Mentorship portal" class="waves-effect waves-light btn-large" style="width:250px;padding:15px;"></a><br><br>
+              <span class="mentor-text">
+                    <p class="text_align" style="padding:3% 3% 0% 3%;">
+                        <b>Student Alumni Mentorship Programme (SAMP)</b> is a unique initiative undertaken by the Students&#39 Alumni Cell, IIT Kharagpur. Through this programme students are connected with alumni who serve both as a guide and a source of inspiration for them.<b> SAMP</b> is launched with the goal of keeping the alumni connected to their alma mater as well as share their valuable experience with the current students.
+                    </p>
+                    
+                    <center>
+                          <div style="padding:0% 3% 3% 3%;" >
+                                <a href="https://sac.iitkgp.ac.in/mentorship/" target="_blank "><input type="submit" value="Go to Mentorship portal"  class="waves-effect waves-light btn-large" style="width:250px;padding:15px;">
+                                </a>
+                          
+                          </div>
+                    </center> 
+              </span>      
+                  
+      </div>
+    
+ </div>
+    
 
-</center>
-  </div>
-</div>
+  
+
  
 
 
 
-<div class="row" style="padding:1% 8% 0% 1%;">
+<div class="row" style="padding:1% 7% 1% 7%;">
   
   
-        <p class="summit z-depth-1 text_align" style="padding:6% 10% 6% 10%; background:white;">
+        <p class="text_align" style="padding:6% 10% 6% 10%; background:white;">
              <b style="font-size:150%">Framework of Mentorship Programme</b><br><br>
               Under this programme, we invite our alumni across the globe and from different fields to interact with the students and help them build their network and gain a new perspective on the possibilities open to them, after graduation.
 
