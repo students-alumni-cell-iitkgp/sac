@@ -108,12 +108,15 @@
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <div class="row">
             <ul class="hide-on-med-and-down _textcolor center-align">
-                <li class="col l2"><a href="index.php">Home</a></li>
-                <li class="col l2"><a href="#!" class="dropdown-button" data-activates="events">Events</a></li>
-                <li class="col l2"><a id="drop1" class="dropdown-button" href="#!" data-activates="initiatives">Initiatives</a></li>
-                <li class="col l2"><a id="drop2" class="dropdown-button" href="#!" data-activates="publications" style="min-width: 100; margin-left: 0;">Publications</a></li>
-                <li class="col l2"><a href="team.php">The&nbspTeam</a></li>
-                <li class="col l2"><a id="drop3" class="dropdown-button" href="#!" data-activates="sponsors">Sponsors</a></li>
+                <li class="col l0"><a href="index.php">Home</a></li>
+                <!-- <li class="col l0"><a href="http://www.alumni.iitkgp.ac.in/AlumniIITKGP/EmailReg?fbclid=IwAR2WiaCRHFqOZEaDaPfVrIognLqdz9qJ6nZiCVYtrpt3HlD3jbZbAFLjy3w">Alumni Email Registration</a></li> -->
+                <li class="col l0"><a href="#!" class="dropdown-button" data-activates="events">Events</a></li>
+                <li class="col l0"><a id="drop1" class="dropdown-button" href="#!" data-activates="initiatives">Initiatives</a></li>
+                <li class="col l0"><a id="drop2" class="dropdown-button" href="#!" data-activates="publications" style="min-width: 100; margin-left: 0;">Publications</a></li>
+                <li class="col l0"><a href="team.php">The&nbspTeam</a></li>
+                <li class="col l0"><a id="drop3" class="dropdown-button" href="#!" data-activates="sponsors">Sponsors</a></li>
+                <li class="col l0"><a href="http://www.alumni.iitkgp.ac.in/AlumniIITKGP/EmailReg?fbclid=IwAR2WiaCRHFqOZEaDaPfVrIognLqdz9qJ6nZiCVYtrpt3HlD3jbZbAFLjy3w">Alumni Email Registration</a></li>
+
                 <li></li>
             </ul>
         </div>
