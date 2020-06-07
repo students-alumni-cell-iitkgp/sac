@@ -109,6 +109,7 @@
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <div class="row">
             <ul class="hide-on-med-and-down _textcolor center-align">
+<<<<<<< HEAD
                 <li class=""><a href="index.php">Home</a></li>
                 <li class=""><a href="#!" class="dropdown-button" data-activates="events">Events</a></li>
                 <li class=""><a id="drop1" class="dropdown-button" href="#!" data-activates="initiatives">Initiatives</a></li>
@@ -116,6 +117,16 @@
                 <li class=""><a href="team.php">The&nbspTeam</a></li>
                 <li class="" style="font-size: 5px text-align:inherit;"><a href="http://www.alumni.iitkgp.ac.in/AlumniIITKGP/EmailReg">Alumni-Reg</a></li>
                 <li class=""><a id="drop3" class="dropdown-button" href="#!" data-activates="sponsors">Sponsors</a></li>
+=======
+                <li class="col l0"><a href="index.php">Home</a></li>
+                <!-- <li class="col l0"><a href="http://www.alumni.iitkgp.ac.in/AlumniIITKGP/EmailReg?fbclid=IwAR2WiaCRHFqOZEaDaPfVrIognLqdz9qJ6nZiCVYtrpt3HlD3jbZbAFLjy3w">Alumni Email Registration</a></li> -->
+                <li class="col l0"><a href="#!" class="dropdown-button" data-activates="events">Events</a></li>
+                <li class="col l0"><a id="drop1" class="dropdown-button" href="#!" data-activates="initiatives">Initiatives</a></li>
+                <li class="col l0"><a id="drop2" class="dropdown-button" href="#!" data-activates="publications" style="min-width: 100; margin-left: 0;">Publications</a></li>
+                <li class="col l0"><a href="team.php">The&nbspTeam</a></li>
+                <li class="col l0"><a id="drop3" class="dropdown-button" href="#!" data-activates="sponsors">Sponsors</a></li>
+                <li class="col l0"><a href="http://www.alumni.iitkgp.ac.in/AlumniIITKGP/EmailReg?fbclid=IwAR2WiaCRHFqOZEaDaPfVrIognLqdz9qJ6nZiCVYtrpt3HlD3jbZbAFLjy3w">Alumni Email Registration</a></li>
+>>>>>>> 44315fa43d7cd4dd11c103e6c0a0ab621c0cb2d5
 
                 <li></li>
             </ul>
@@ -151,7 +162,11 @@
                                 <li><a href="sparc.php">SPARC</a></li>
                                 <li><a href="acap.php">ACAP</a></li>
                                 <li><a href="https://medium.com/@studentsalumnicell.iitkgp" target="_blank">Alumni Blog</a></li>
+<<<<<<< HEAD
                                 <li><a href="affinity.php">Affinity programme</a></li>
+=======
+                                <li><a href="affinity.php" target="_blank">Affinity Programme</a></li>
+>>>>>>> 44315fa43d7cd4dd11c103e6c0a0ab621c0cb2d5
                             </ul>
                         </div>
                     </li>
