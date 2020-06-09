@@ -61,7 +61,7 @@
     }
     }
     .dropdown-content li {
-    text-align: center !important;
+    text-align: center !important;  
     }
 </style>
 <div class="row" id="logo" style="background-color: white; margin-bottom: 0px; display: none;">
@@ -108,15 +108,13 @@
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <div class="row">
             <ul class="hide-on-med-and-down _textcolor center-align">
-                <li class="col l0"><a href="index.php">Home</a></li>
-                <!-- <li class="col l0"><a href="http://www.alumni.iitkgp.ac.in/AlumniIITKGP/EmailReg?fbclid=IwAR2WiaCRHFqOZEaDaPfVrIognLqdz9qJ6nZiCVYtrpt3HlD3jbZbAFLjy3w">Alumni Email Registration</a></li> -->
-                <li class="col l0"><a href="#!" class="dropdown-button" data-activates="events">Events</a></li>
-                <li class="col l0"><a id="drop1" class="dropdown-button" href="#!" data-activates="initiatives">Initiatives</a></li>
-                <li class="col l0"><a id="drop2" class="dropdown-button" href="#!" data-activates="publications" style="min-width: 100; margin-left: 0;">Publications</a></li>
-                <li class="col l0"><a href="team.php">The&nbspTeam</a></li>
-                <li class="col l0"><a id="drop3" class="dropdown-button" href="#!" data-activates="sponsors">Sponsors</a></li>
-                <li class="col l0"><a href="http://www.alumni.iitkgp.ac.in/AlumniIITKGP/EmailReg?fbclid=IwAR2WiaCRHFqOZEaDaPfVrIognLqdz9qJ6nZiCVYtrpt3HlD3jbZbAFLjy3w">Alumni Email Registration</a></li>
-
+                <li class=""><a href="index.php">Home</a></li>
+                <li class=""><a href="#!" class="dropdown-button" data-activates="events">Events</a></li>
+                <li class=""><a id="drop1" class="dropdown-button" href="#!" data-activates="initiatives">Initiatives</a></li>
+                <li class=""><a id="drop2" class="dropdown-button" href="#!" data-activates="publications" style="min-width: 100; margin-left: 0;">Publications</a></li>
+                <li class=""><a href="team.php">The&nbspTeam</a></li>
+                <li class="" style="font-size: 5px text-align:inherit;"><a href="http://www.alumni.iitkgp.ac.in/AlumniIITKGP/EmailReg">Alumni-Reg</a></li>
+                <li class=""><a id="drop3" class="dropdown-button" href="#!" data-activates="sponsors">Sponsors</a></li>
                 <li></li>
             </ul>
         </div>
@@ -151,7 +149,7 @@
                                 <li><a href="sparc.php">SPARC</a></li>
                                 <li><a href="acap.php">ACAP</a></li>
                                 <li><a href="https://medium.com/@studentsalumnicell.iitkgp" target="_blank">Alumni Blog</a></li>
-                                <li><a href="affinity.php" target="_blank">Affinity Programme</a></li>
+                                <li><a href="affinity.php">Affinity programme</a></li>
                             </ul>
                         </div>
                     </li>
@@ -172,6 +170,7 @@
                 </ul>
             </li>
             <li><a href="team.php">The Team</a></li>
+            <li><a href="http://www.alumni.iitkgp.ac.in/AlumniIITKGP/EmailReg">Alumni Registraion</a></li>
             <li class="no-padding">
                 <ul class="collapsible collapsible-accordion">
                     <li>
