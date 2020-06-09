@@ -68,7 +68,35 @@
             }
         </style>
     </head>
-    <body>        
+    <body> 
+
+    <div class="row">
+            <center>
+                <center>
+                    <div class="heading ac-head" style="border:3px black solid; display: inline-block; padding-top: 2px; margin: 3px;padding-right: 20px;padding-left: 20px;" >
+                        <h4> <b>Student Alumni Meet '19</b> - Kolkata </h4>
+                    </div>
+                </center>
+                <br>
+                <div class="row">
+                    <div class="col l6 offset-m1 m5 s12">
+                        <img class="materialboxed normal bigg" src="img/sam/kolkata19/7.jpg" width="100%" height="420">
+                    </div>
+                    <div class="col l3 m5 s12">
+                        <img class="materialboxed normal" src="img/sam/kolkata19/4.jpg" width="100%" height="200">
+                    </div>
+                    <div class="col l3 m4 s12">
+                        <img class="materialboxed normal" src="img/sam/kolkata19/5.jpg" width="100%" height="200">
+                    </div>
+                    <div class="col l3 m4 s12" id="top">
+                        <img class="materialboxed normal" src="img/sam/kolkata19/1.jpg" width="100%" height="200">
+                    </div>
+                    <div class="col l3 m4 s12" id="top">
+                        <img class="materialboxed normal" src="img/sam/kolkata19/3.jpg" width="100%" height="200">
+                    </div>
+                </div>
+            </center>
+        </div>       
         <div class="row">
             <center>
                 <center>
