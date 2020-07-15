@@ -179,7 +179,7 @@
                         
                         <div class="card z-depth-0 _card">
                             <div class="card-image waves-effect waves-block waves-light">
-                                <img class="activator" src="img/afinity/samsung.jpg">
+                                <img class="activator" style="" src="img/afinity/samsung.jpg">
                                 
                                       <img class="activator" src="Galaxy_buds.jpg">
                                      <!-- <p>Architect & Engineer</p>  -->
@@ -207,7 +207,7 @@
                             
                             <div class="card-reveal">
                                 <span class="card-title grey-text text-darken-4">-<i class="material-icons right"></i></span>
-                                <p class="text_align" style="font: 20px"><b>Avail the special offers now.</b><br>
+                                <p class="text_align"style="font: 15px"><b>Avail the special offers now.</b><br>
                                 1).50% Discount on Amazon SDE Test series <br>
 
                                 2). 25% Discount on Data Structures & Algorithm course<br>
