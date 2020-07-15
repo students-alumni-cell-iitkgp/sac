@@ -208,9 +208,9 @@
                             <div class="card-reveal">
                                 <span class="card-title grey-text text-darken-4">-<i class="material-icons right"></i></span>
                                 <p class="text_align" style="font: 20px"><b>Avail the special offers now.</b><br>
-                                1.50% Discount on Amazon SDE Test series <br>
+                                1).50% Discount on Amazon SDE Test series <br>
 
-                                2. 25% Discount on Data Structures & Algorithm course<br>
+                                2). 25% Discount on Data Structures & Algorithm course<br>
                              <a href=https://lm.facebook.com/l.php?u=https%3A%2F%2Fpractice.geeksforgeeks.org%2Fcourses%2Fonline%3Ffbclid%3DIwAR1-zfhfePh_nbITuRw83AUrbhqUIAhxGG9dcqnACpcPd0yaI2yjpqhhumc&h=AT2_tlm-K4l51Fw7EpLlMArnoapR3WVYkpbrtNcp0u5cBv1ZxayQBK_eclqGcEI6X-KSRPJiBirv6iqno5b3OD78VmhqzvoZ7Abb3f21d6pc8diH8Qy2t0J6aZupLTp4CZfLlnVsuPoy42qknI4YcARAtbSJjGw7I11dQw>CLICK HERE</a> 
                              </p>
                             </div>
