@@ -158,6 +158,10 @@
          </div>
       </div>
 
+
+
+<div style='background-color:#F4F4F4;'>
+
   <div class="row" style="padding-top:10px;">
     <center>
       <a id="button" style="height:8%;;padding-top:0px;color:black;" class="waves-effect waves-light btn">  <h5><b> Current Association</b> </h5></a>
@@ -166,7 +170,7 @@
 
             <div class="row">
                   <div class="col l2 s1 m2">
-                    
+                    -
                   </div>
                       <div class="col l4 s12 m4">
                       <!-- <div class="card">
@@ -198,7 +202,7 @@
                             </div>
                         </div>
                       </div>
-                  <div class="col l4 s12 m4">
+                        <div class="col l4 s12 m4">
                         
                         <div class="card z-depth-0 _card">
                             <div class="card-image waves-effect waves-block waves-light">
@@ -217,7 +221,26 @@
                             </div>
                         </div>
                     </div>
-                 <div class="col l4 s12 m4">
+                  
+                    </div>
+                    <!-- <div class="col l3" style="margin-top: 0.2em;height:450px">
+                            <div id="fbplug" style="background-color: #fff" class="z-depth-1 fb-page" data-href="https://www.facebook.com/iitkgp.alumnicell/?fref=ts" data-tabs="timeline" data-height="485px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" style="height: 450px">
+                                <blockquote cite="https://www.alumni.iitkgp.ac.in%2FAlumniIITKGP%2FEmailReg%3Ffbclid%3DIwAR2WiaCRHFqOZEaDaPfVrIognLqdz9qJ6nZiCVYtrpt3HlD3jbZbAFLjy3w&h=AT0tUwBONlf2P_seQDk2-jheJxVbufizpIMqYl1sNRbvRk_q2SZbtGur2Yi-y5gz5QAYh-wtEkMGrvGdX95IPh2QBGu-IrH4rgNboZSDl-Gk-jjh07J5Wjca2xAMTgxVSiOniQ" class="fb-xfbml-parse-ignore"><a href="https://www.alumni.iitkgp.ac.in%2FAlumniIITKGP%2FEmailReg%3Ffbclid%3DIwAR2WiaCRHFqOZEaDaPfVrIognLqdz9qJ6nZiCVYtrpt3HlD3jbZbAFLjy3w&h=AT0tUwBONlf2P_seQDk2-jheJxVbufizpIMqYl1sNRbvRk_q2SZbtGur2Yi-y5gz5QAYh-wtEkMGrvGdX95IPh2QBGu-IrH4rgNboZSDl-Gk-jjh07J5Wjca2xAMTgxVSiOniQ">Alumni Email Registration</a></blockquote>
+                            </div>
+                        </div> -->
+                  
+  </div>
+  </div>
+
+
+
+<div style='background-color:#F4F4F4;'>
+
+            <div class="row">
+                                    <div class="col l4 s1 m1">
+                    -
+                  </div>
+                      <div class="col l4 s12 m4">
                       <!-- <div class="card">
                             <img src="img_avatar.png" alt="Avatar" style="width:100%">
                             <div class="container">
@@ -228,25 +251,21 @@
                         
                         <div class="card z-depth-0 _card">
                             <div class="card-image waves-effect waves-block waves-light">
-                                <img class="activator" style="" src="img/afinity/a_v2.jpg">
+                                <img class="activator" src="img/afinity/a_v2.jpg">
                               
-                                     <!-- <p>Architect & Engineer</p>  -->
                                 
                             </div>
                             
                             <div class="card-reveal">
                                 <span class="card-title grey-text text-darken-4">-<i class="material-icons right"></i></span>
                                 <p class="text_align" style="font: 20px"><b>The benefits of this association include:</b><br>
-                            1) Courses with discount coupen.<br>
-                            2) A chance to get internship for selected enrolled students.<br>
-                            3) Discounted passes for Annual data Science conference for selected students.<br>
-                            4) <a href='https://l.facebook.com/l.php?u=http%3A%2F%2Fwww.analyticsvidhya.com%2F%3Ffbclid%3DIwAR39pJ4nDYPaWmr8ACtT3BJtlslu2u5hV-lnX685qmwGwA1UI-sQ3FZwQkY&h=AT2qBEut7M--59EdYAICQWAeEVTNPPw4zSwmNPRQqB3EZJKEU3FJqUiwVGuh_aMZEF9rcu4bLJ1QM7feBNQXNRwbDjm-b5tZ-BxOqw1zOUvW6O7wHimWyQGlbhfk_m18jXbOuA' target='_blank'>CLICK HERE</a> <br>
+                            1. Courses with discount coupons.<br>
+                            2. A chance to get internship for selected enrolled students.<br>
+                            3. Discounted passes for Annual data Science conference for selected students.<br>
+                            4. <a href='https://www.samsung.com/in/store/campus/?fbclid=IwAR1rAE87hHn5Y3_GSEesTQCQmmT791oXJL8H1yHklGMl6C-qTCFZ1kVhsno' target='_blank'>CLICK HERE</a> 
                              </p>
                             </div>
                         </div>
-                      </div>
-                       
-                  
                     </div>
                     <!-- <div class="col l3" style="margin-top: 0.2em;height:450px">
                             <div id="fbplug" style="background-color: #fff" class="z-depth-1 fb-page" data-href="https://www.facebook.com/iitkgp.alumnicell/?fref=ts" data-tabs="timeline" data-height="485px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" style="height: 450px">
@@ -261,8 +280,7 @@
 
 
 
-
-<div style='background-color:#F4F4F4'>
+<div style='background-color:white;'>
   <div class="row" style="padding-top:10px;">
     <center>
       <a id="button" style="height:8%;;padding-top:0px;color:black;" class="waves-effect waves-light btn">  <h5><b> Previous Associations</b> </h5></a>
@@ -271,7 +289,7 @@
 
   <div class="row">
           <div class="col l2 "> 
-            
+            -
           </div>
          
                   <div class="col l4 s12 m4">
@@ -312,6 +330,7 @@
     
 
      </div>
+
   <?php include 'footer.php';?>
    <script type="text/javascript">
             $(".card").mouseenter(function(e){
@@ -340,4 +359,3 @@
 
   </body>
   </html>
-
