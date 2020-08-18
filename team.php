@@ -570,7 +570,7 @@ body {
      <li>Kunal Das</li>
      <li> Aysuh Jain</li>
      <li>Shubham Kendre</li>
-     <li>Tanmay Dss</li>
+     <li>Tanmay Das</li>
      <li>Raman Shaw</li>
    </b>
  </span>
