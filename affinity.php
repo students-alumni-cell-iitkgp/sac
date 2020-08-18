@@ -211,9 +211,10 @@
                       </div>
             </div>
             <div class="row">
-                      <div class="col l4 s4 m4">
+                     <div class="col l2 s1 m2">
                         -
                       </div>
+                    
                       <div class="col l4 s12 m4">
                         <div class="card z-depth-0 _card">
                             <div class="card-image waves-effect waves-block waves-light">
@@ -231,6 +232,26 @@
                             </div>
                         </div>
                       </div>
+
+                      <div class="col l4 s12 m4">
+                    
+                    <div class="card z-depth-0 _card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="img/afinity/hdfc.png">
+                        </div>
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">-<i class="material-icons right"></i></span>
+                            <p class="text_align"><b>HDFC offering the following options: </b><br>
+                                The benefits of this association includes:
+                                  New upgraded HDFC bank Diners Club Black Credit Card. (Annual Memberships, Monthly Milestone benefits and other added features).<br>
+                                 
+                                   
+                                  <a href="Diners-Privilege.pdf">Life Time Free Diners Black Card</a> <br>
+                                  <a href="Diners-Black-New.pdf">Priced Diners Black card</a><br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
            </div>
   </div>
 
@@ -246,7 +267,7 @@
   </div>
 
   <div class="row">
-          <div class="col l2 m2"> 
+          <div class="col l4 m2"> 
             -
           </div>
          
@@ -265,25 +286,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col l4 s12 m4">
-                    
-                        <div class="card z-depth-0 _card">
-                            <div class="card-image waves-effect waves-block waves-light">
-                                <img class="activator" src="img/afinity/hdfc.png">
-                            </div>
-                            <div class="card-reveal">
-                                <span class="card-title grey-text text-darken-4">-<i class="material-icons right"></i></span>
-                                <p class="text_align"><b>HDFC offering the following options: </b><br>
-                                    The benefits of this association includes:
-                                      New upgraded HDFC bank Diners Club Black Credit Card. (Annual Memberships, Monthly Milestone benefits and other added features).<br>
-                                     
-                                       
-                                      <a href="Diners-Privilege.pdf">Life Time Free Diners Black Card</a> <br>
-                                      <a href="Diners-Black-New.pdf">Priced Diners Black card</a><br>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+                  
   
     
 
