@@ -226,7 +226,7 @@ else
      <div class="col l3">
           <div class="heading ac-head" style="border:3px black solid;display:inline-block;padding-top:2px;margin:3px;padding-right:20px;padding-left:20px;margin-bottom:10px;margin-top:10px;">
             <h4 style="margin-bottom: 0px;" ><b>17th Annual Alumni Meet</b> </h4> <br>
-            <h5  style="margin-top: 0px;">10th to 12h January, 2020</h5>
+            <h5  style="margin-top: 0px;">10th to 12th January, 2020</h5>
           </div>
           <p style="width:90%;padding:10px;font-size:17px;text-align:justify">
            We live our day to day lives oblivious to the beauty that surrounds us and by the time we do realise what exactly it is that we've been blessed with, it's generally too late. However when the good ol' days call yet again, nostalgia surrounds us as we walk the hallowed boulevards of our youth. The Annual Alumni Meet brings to our alumni a chance to reconnect with their Alma Mater. It lets them relive the carefree days of their college lives as they get a chance to visit all the locations they once frequented.</p>
