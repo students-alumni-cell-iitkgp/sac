@@ -563,12 +563,13 @@ body {
      <hr>
      <li>Shishir Shahi</li>
      <li>Swaraj Prakash</li>
-     <li>Eknoor Malhotra</li>
-     <li>Madhumita Paul</li>
+     
      <li>Avi Singh Raghuwanshi</li>
      <li>Atharva Wagle</li>
+     <li>Eknoor Malhotra</li>
+     <li>Madhumita Paul</li>
+     <li> Ayush Jain</li>
      <li>Kunal Das</li>
-     <li> Aysuh Jain</li>
      <li>Shubham Kendre</li>
      <li>Tanmay Das</li>
      <li>Raman Shaw</li>
