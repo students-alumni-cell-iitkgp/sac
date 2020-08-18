@@ -218,7 +218,7 @@ else
     
   <div class="row ac-aam">
 
-      <div class="col l12"><img style="width: 101%; margin-left: -1%;height:68%;" src="img/17th_aam.jpg"></div>
+      <div class="col l12"><img style="width: 101%; margin: -1%;height:68%;" src="img/17th_aam/aam2020.png"></div>
   </div>
   <hr class="hr" style="color:grey;width:90%">
   <div class="reg">
@@ -230,31 +230,31 @@ else
           </div>
           <p style="width:90%;padding:10px;font-size:17px;text-align:justify">
            We live our day to day lives oblivious to the beauty that surrounds us and by the time we do realise what exactly it is that we've been blessed with, it's generally too late. However when the good ol' days call yet again, nostalgia surrounds us as we walk the hallowed boulevards of our youth. The Annual Alumni Meet brings to our alumni a chance to reconnect with their Alma Mater. It lets them relive the carefree days of their college lives as they get a chance to visit all the locations they once frequented.</p>
-           <p style="width:90%;padding:10px;font-size:17px;text-align:center">
+           <!-- <p style="width:90%;padding:10px;font-size:17px;text-align:center">
            **Registrations have been closed. Please contact +91 8283828675 for further queries.
-           </p>
-          <div class="row" style=" margin-top:20px; margin-bottom:25px;">
+           </p> -->
+          <!-- <div class="row" style=" margin-top:20px; margin-bottom:25px;">
             <a class="waves-effect waves-light btn-large modal-trigger" href="#modal1" style="width: 30%">LOGIN</a>
             <a id="sweetalert" class="waves-effect waves-light btn-large" style="width: 30%">17th Annual Alumni Meet Registration</a>
-          </div>
+          </div> -->
      </div>
     </div> 
-  </div>
-<hr class="hr" style="color:grey;width:90%">
-  <div class="row">
+  <!-- </div>
+<hr class="hr" style="color:grey;width:90%"> -->
+  <!-- <div class="row">
   <div class="col l12 s12 m12">
     <center>
 	  <div class="heading ac-head" style="border:3px black solid;display:inline-block;padding-top:2px;margin:3px;padding-right:20px;padding-left:20px;margin-bottom:10px;margin-top:10px;">
-        <h4 style="margin-bottom: 0px;" ><b>16th Annual Alumni Meet</b> </h4> <br>
-      	<h5  style="margin-top: 0px;">11th to 13th January, 2019</h5>
+        <h4 style="margin-bottom: 0px;" ><b>17th Annual Alumni Meet</b> </h4> <br>
+      	<h5  style="margin-top: 0px;">10th to 12th January, 2020</h5>
       </div>
     </center>
     <center>
   	<p style="width:90%;padding:10px;font-size:17px;text-align:justify">
-  		The <b>16th Annual Alumni Meet</b> was organised from <b>11th to 13th January, 2019</b> at our Institute campus. This year the <b>batch of 1969</b>, the <b> batch of 1979</b> and the <b> batch of 1994</b> were the special guests of honor. The Meet is now a major event anticipated by both the alumni and the students. As the years pass by and winds of change keep blowing, the Alumni Meet too shall keep evolving with the pace of time, hoping to bring to the alumni an experience that they may cherish all their lives.
+  		The <b>17th Annual Alumni Meet</b> was organised from <b>10th to 12th January, 2019</b> at our Institute campus. This year the <b>batch of 1980</b> and the <b> batch of 1995</b> were the special guests of honor. The Meet is now a major event anticipated by both the alumni and the students. As the years pass by and winds of change keep blowing, the Alumni Meet too shall keep evolving with the pace of time, hoping to bring to the alumni an experience that they may cherish all their lives.
   	</p>
   </center>
-  </div>
+  </div> -->
 </div>
 <hr class="hr" style="color:grey;width:90%">
     <!---  Modal Structure For login - -->
@@ -300,7 +300,7 @@ else
   	  <center>
   	  	<h4 style="padding-top:20px">Grand Reunion</h4>
   		<p style="width:90%;padding:20px;font-size:17px">
-  			Students' Alumni Cell recently organised 16th Annual Alumni Meet which was a fun and fascinating trip down the memory lane that gave our alumni an opportunity to see old friends again and catch up with them. They came across places and stories that were almost forgotten. Some things changed, some stayed the same. After some great conversation, all those years wherein they had not seen each other seem to just fade away. You would never want to miss the excitement and renewed camaraderie during the reunion.
+  			Students' Alumni Cell recently organised 17th Annual Alumni Meet which was a fun and fascinating trip down the memory lane that gave our alumni an opportunity to see old friends again and catch up with them. They came across places and stories that were almost forgotten. Some things changed, some stayed the same. After some great conversation, all those years wherein they had not seen each other seem to just fade away. You would never want to miss the excitement and renewed camaraderie during the reunion.
   		</p>
   	  </center>
   	</div>
@@ -312,7 +312,7 @@ else
   	  <center>
   	  	<h4 style="padding-top:20px">Arena</h4>
   		<p style="width:90%;padding:20px;font-size:17px">
-  			The Arena unveiled itself in all its glory on Day 1 of the 16th Annual Alumni Meet. What took months of planning and diligent execution was finally ready to welcome the alumni. For the first time, Chai-Cheddis-Charcha was introduced wherein the alumni shared their old memories with us. During the time of illumination, the arena had a spectacular view. Without any doubt, Arena has always been the charm of the Alumni Meet.
+  			The Arena unveiled itself in all its glory on Day 1 of the 17th Annual Alumni Meet. What took months of planning and diligent execution was finally ready to welcome the alumni. For the first time, Chai-Cheddis-Charcha was introduced wherein the alumni shared their old memories with us. During the time of illumination, the arena had a spectacular view. Without any doubt, Arena has always been the charm of the Alumni Meet.
   		</p>
   	  </center>
   	</div>
