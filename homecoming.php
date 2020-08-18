@@ -219,7 +219,7 @@ else
   <center>
     <div class="heading ac-head" style="border:3px black solid;display:inline-block;padding-top:2px;margin:3px;padding-right:20px;padding-left:20px;">
         <h4 style="margin-bottom: 0px;" ><b>Homecoming 2020</b> </h4> <br>
-        <h5  style="margin-top: 0px;">COMING SOON</h5>
+        <h5  style="margin-top: 0px;">POSTPONED ON ACCOUNT OF COVID-19</h5>
       </div>
     </center>
   <div class="col l12 s12 m12">
@@ -233,12 +233,12 @@ else
   
 <div class="row" >
 
-          <div class="offset-l3 col l3"><a class="waves-effect waves-light btn-large modal-trigger" href="#modal1" style="width: 105%;height:5em;padding-top: 10px" >LOGIN</a>
+          <!-- <div class="offset-l3 col l3"><a class="waves-effect waves-light btn-large modal-trigger" href="#modal1" style="width: 105%;height:5em;padding-top: 10px" >LOGIN</a>
           </div>
               <br><br>
           <div class="col l3"><a href="signup.php" class="waves-effect waves-light btn" id="sweetalert" style="width: 105%;height: 5em">Homecoming 2020 <br> Registration</a>
           </div>
-          
+           -->
     
 </div>
 <!--
