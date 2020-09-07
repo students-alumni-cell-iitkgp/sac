@@ -182,27 +182,27 @@ body {
      <div class="card card-1">
       <div class="team-member">
         <div class="team-img">
-          <img src="img/team/acellteam19/shishir.jpg" alt="team member" class="img-responsive" height="250" width="100%">
+          <img src="img/team2020/jena.jpg" alt="team member" class="img-responsive" height="250" width="100%">
         </div>
         <div class="team-hover">
           <br> <br>
           <div class="desk"> <br>
-            <h5 style="margin-top: 50px">Shishir Shahi</h5>
+            <h5 style="margin-top: 50px">Subhadra Jena</h5>
             <ul>
-              <li style="padding-left: 15px;">+91-8317865559</li>
-              <li style="padding-left: 15px;">shishirshahi3@gmail.com</li>
+              <li style="padding-left: 15px;">+91-7838902041</li>
+              <li style="padding-left: 15px;">subhadra99jena@gmail.com</li>
             </ul>
           </div>
           <div class="s-link">
-           <a target="_blank" href="https://www.facebook.com/shishir.shahi.188"><i class="fa fa-facebook"></i></a>
-           <a target="_blank" href="https://www.linkedin.com/in/shishir-shahi-65521116a/"><i class="fa fa-linkedin"></i></a>
+           <a target="_blank" href="https://www.facebook.com/subhadra.jena.543"><i class="fa fa-facebook"></i></a>
+           <a target="_blank" href="https://in.linkedin.com/in/subhadra-jena?trk=public_profile_browsemap_profile-result-card_result-card_full-click"><i class="fa fa-linkedin"></i></a>
 
 
          </div>
        </div>
      </div>
      <div class="team-title" style="padding-top:0px;">
-      <h5 style="text-align: center;font-size: 120%;">Shishir Shahi</h5>
+      <h5 style="text-align: center;font-size: 120%;">Subhadra Jena</h5>
 
     </div>
   </div>
@@ -211,26 +211,26 @@ body {
  <div class="card card-1">
   <div class="team-member">
     <div class="team-img">
-      <img src="img/team/acellteam19/swaraj.jpg" alt="team member" class="img-responsive" height="250" width="100%">
+      <img src="img/team2020/akash.png" alt="team member" class="img-responsive" height="250" width="100%">
     </div>
     <div class="team-hover">
       <div class="desk">
          <br> <br> <br>
-        <h5>Swaraj Prakash</h5>
+        <h5>Akash Srivastava</h5>
         <ul>
-          <li style="padding-left: 15px;">+91-9827258975</li>
-          <li style="padding-left: 15px;">swarajmvm@gmail.com</li>
+          <li style="padding-left: 15px;">+91-9547472222</li>
+          <li style="padding-left: 15px;">akashshrivastava3144@gmail.com</li>
         </ul>
       </div>
       <div class="s-link">
-        <a target="_blank" href="https://www.facebook.com/swaraj24"><i class="fa fa-facebook"></i></a>
+        <a target="_blank" href="https://www.facebook.com/profile.php?id=100038929590419"><i class="fa fa-facebook"></i></a>
 
-        <a target="_blank" href="https://www.linkedin.com/in/swaraj-prakash-b35b7497/"><i class="fa fa-linkedin"></i></a>
+        <a target="_blank" href="https://www.linkedin.com/in/akash-srivastava-/"><i class="fa fa-linkedin"></i></a>
       </div>
     </div>
   </div>
   <div class="team-title" style="padding-top:0px;">
-    <h5 style="text-align: center;font-size: 120%;">Swaraj Prakash</h5>
+    <h5 style="text-align: center;font-size: 120%;">Akash Srivastava</h5>
 
   </div>
 </div>
@@ -251,25 +251,25 @@ body {
    <div class="card card-1">
     <div class="team-member">
       <div class="team-img">
-        <img src="img/team/acellteam19/atharva.jpg" alt="team member" class="img-responsive" height="250" width="100%">
+        <img src="img/team2020/mayank.jpg" alt="team member" class="img-responsive" height="250" width="100%">
       </div>
       <div class="team-hover">
         <div class="desk"> <br>
-          <h5 style="margin-top: 50px">Atharva Wagle</h5>
+          <h5 style="margin-top: 50px">Mayank Arora</h5>
           <ul>
-            <li style="padding-left: 15px;">+91-9820216197</li>
-            <li style="padding-left: 15px;">atharva.wagle@gmail.com</li>
+            <li style="padding-left: 15px;">+91-7047032522</li>
+            <li style="padding-left: 15px;">mayankprahalad@gmail.com</li>
           </ul>
         </div>
         <div class="s-link">
-          <a target="_blank" href="https://www.facebook.com/atharva.wagle"><i class="fa fa-facebook"></i></a>
-          <a target="_blank" href="https://www.linkedin.com/in/atharvawagle/"><i class="fa fa-linkedin"></i></a>
+          <a target="_blank" href="https://www.facebook.com/profile.php?id=100038929590419"><i class="fa fa-facebook"></i></a>
+          <a target="_blank" href="https://in.linkedin.com/in/mayank-arora-?trk=public_profile_browsemap_profile-result-card_result-card_full-click"><i class="fa fa-linkedin"></i></a>
 
         </div>
       </div>
     </div>
     <div class="team-title" style="padding-top:0px;">
-      <h5 style="text-align: center;font-size: 120%;">Atharva Wagle</h5>
+      <h5 style="text-align: center;font-size: 120%;">Mayank Arora</h5>
 
     </div>
   </div>
@@ -280,25 +280,25 @@ body {
   <div class="team-member">
 
     <div class="team-img">
-      <img src="img/team/acellteam19/avi.jpg" alt="team member" class="img-responsive" height="250" width="100%">
+      <img src="img/team2020/nitika.jpg" alt="team member" class="img-responsive" height="250" width="100%">
     </div>
     <div class="team-hover">
       <div class="desk"> <br>
-        <h5 style="margin-top: 50px">Avi Singh Raghuwanshi</h5>
+        <h5 style="margin-top: 50px">Nitika Shroff</h5>
         <ul>
-         <li style="padding-left: 15px;">+91-8370888788</li>
-         <li style="padding-left: 15px;">avisinghr2312@gmail.com</li>
+         <li style="padding-left: 15px;">+91-9007732515</li>
+         <li style="padding-left: 15px;">nitika30051999@gmail.com</li>
        </ul>
      </div>
      <div class="s-link">
-      <a target="_blank" href="https://www.facebook.com/avisingh.raghuwanshi"><i class="fa fa-facebook"></i></a>
-      <a target="_blank" href="https://www.linkedin.com/in/avi-singh-raghuwanshi-/"><i class="fa fa-linkedin"></i></a>
+      <a target="_blank" href="https://www.facebook.com/nitika.shroff"><i class="fa fa-facebook"></i></a>
+      <a target="_blank" href="https://in.linkedin.com/public-profile/in/nitika-shroff?trk=public_profile_browsemap_profile-result-card_result-card_full-click&challengeId=AQGxwrflQBhdMQAAAXP49yNHB6ikQzq5X3EROL1sLOU6iLkfxrG49os2SvXwteXtv3k1MuVV5V0_pe0lbcMKTDuJ7Nbbh1-3Tw&submissionId=b04f62f9-a8d9-2b16-3100-26be5105da61"><i class="fa fa-linkedin"></i></a>
 
     </div>
   </div>
 </div>
 <div class="team-title" style="padding-top:0px;">
-  <h5 style="text-align: center;font-size: 120%;">Avi Singh Raghuwanshi</h5>
+  <h5 style="text-align: center;font-size: 120%;">Nitika Shroff</h5>
 
 </div>
 </div>
@@ -311,25 +311,25 @@ body {
    <div class="card card-1">
     <div class="team-member">
       <div class="team-img">
-        <img src="img/team/acellteam19/eknoor.jpg" alt="team member" class="img-responsive" height="250" align="center" width="100%">
+        <img src="img/team2020/sanjay.jpg" alt="team member" class="img-responsive" height="250" align="center" width="100%">
       </div>
       <div class="team-hover">
         <div class="desk"> <br>
-          <h5 style="margin-top: 50px">Eknoor Malhotra</h5>
+          <h5 style="margin-top: 50px">Sanjay Motwani</h5>
           <ul>
-            <li style="padding-left: 15px;">+91-8283828675</li>
-            <li style="padding-left: 15px;">eknoor.pearl@gmail.com</li>
+            <li style="padding-left: 15px;">+91-8741040674</li>
+            <li style="padding-left: 15px;">motwanisanjay007@gmail.com</li>
           </ul>
         </div>
         <div class="s-link">
-          <a target="_blank" href="https://www.facebook.com/eknoor.malhotra"><i class="fa fa-facebook"></i></a>
-          <a target="_blank" href="https://www.linkedin.com/in/eknoor-malhotra-b9820b16a/"><i class="fa fa-linkedin"></i></a>
+          <a target="_blank" href="https://www.facebook.com/profile.php?id=100008534588329"><i class="fa fa-facebook"></i></a>
+          <a target="_blank" href="https://in.linkedin.com/in/sanjay-motwani-?trk=public_profile_browsemap_profile-result-card_result-card_full-click"><i class="fa fa-linkedin"></i></a>
      
         </div>
       </div>
     </div>
     <div class="team-title" style="padding-top:0px;">
-      <h5 style="text-align: center;font-size: 120%;">Eknoor Malhotra</h5>
+      <h5 style="text-align: center;font-size: 120%;">Sanjay Motwani</h5>
 
     </div>
   </div>
@@ -339,25 +339,25 @@ body {
      <div class="card card-1">
       <div class="team-member">
         <div class="team-img">
-          <img src="img/team/acellteam19/madhumita.jpg" alt="team member" class="img-responsive" height="250" width="100%">
+          <img src="img/team2020/vishav_.jpg" alt="team member" class="img-responsive" height="250" width="100%">
         </div>
         <div class="team-hover">
           <div class="desk"> <br>
-            <h5 style="margin-top: 50px">Madhumita Paul</h5>
+            <h5 style="margin-top: 50px">Vishaw Kashyap</h5>
             <ul>
-              <li style="padding-left: 15px;">+91-9408700634</li>
+              <li style="padding-left: 15px;">+91-7051222639</li>
               <li style="padding-left: 15px;margin-left: -7%;">paulmadhumita101@gmail.com</li>
             </ul>
           </div>
           <div class="s-link">
-            <a target="_blank" href="https://www.facebook.com/madhumita.paul.186"><i class="fa fa-facebook"></i></a>
-            <a target="_blank" href="https://www.linkedin.com/in/madhumita-paul"><i class="fa fa-linkedin"></i></a>
+            <a target="_blank" href="https://www.facebook.com/vishaw.kashyap"><i class="fa fa-facebook"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/vishawkashyap/"><i class="fa fa-linkedin"></i></a>
 
           </div>
         </div>
       </div>
       <div class="team-title" style="padding-top:0px;">
-        <h5 style="text-align: center; font-size: 120%;">Madhumita Paul</h5>
+        <h5 style="text-align: center; font-size: 120%;">Vishaw Kashyap</h5>
 
       </div>
     </div>
@@ -377,25 +377,25 @@ body {
  <div class="card card-1" style="left:-170px;">
   <div class="team-member">
     <div class="team-img">
-      <img src="img/team/acellteam19/ayush.jpg" alt="team member" class="img-responsive" height="250" width="100%">
+      <img src="img/team2020/anuja.jpg" alt="team member" class="img-responsive" height="250" width="100%">
     </div>
     <div class="team-hover">
       <div class="desk"> <br> <br> <br>
-        <h5>Ayush Jain</h5>
+        <h5>Anuja Raj Verma</h5>
         <ul>
-         <li style="padding-left: 15px;">+91-9424779766</li>
-         <li style="padding-left: 15px;margin-left: -7%; ">ayush601jain@gmail.com</li>
+         <li style="padding-left: 15px;">+91-7602102266</li>
+         <li style="padding-left: 15px;margin-left: -7%; ">anujamanarv27@gmail.com</li>
        </ul>
      </div>
      <div class="s-link">
-      <a target="_blank" href="https://www.facebook.com/profile.php?id=100003242074413"><i class="fa fa-facebook"></i></a>
-      <a target="_blank" href="https://www.linkedin.com/in/ayush-jain-601/"><i class="fa fa-linkedin"></i></a>
-      <a target="_blank" href="https://github.com/AyushJain-601"><i class="fa fa-github"></i></a>
+      <a target="_blank" href="https://www.facebook.com/anujaraj.verma.5"><i class="fa fa-facebook"></i></a>
+      <a target="_blank" href="https://in.linkedin.com/in/anuja-raj-verma?trk=public_profile_browsemap_profile-result-card_result-card_full-click"><i class="fa fa-linkedin"></i></a>
+      <a target="_blank" href="https://github.com/anujaraj"><i class="fa fa-github"></i></a>
     </div>
   </div>
 </div>
 <div class="team-title" style="padding-top:0px;">
-  <h5 style="text-align: center;font-size: 120%;">Ayush Jain</h5>
+  <h5 style="text-align: center;font-size: 120%;">Anuja Raj Verma</h5>
 
 </div>
 </div>
@@ -405,25 +405,25 @@ body {
      <div class="card card-1" style="left: 20px;">
       <div class="team-member">
         <div class="team-img">
-          <img src="img/team/acellteam19/kunal.jpg" alt="team member" class="img-responsive" height="250" width="100%">
+          <img src="img/team2020/yukta.png" alt="team member" class="img-responsive" height="250" width="100%">
         </div>
         <div class="team-hover">
           <div class="desk"> <br>
-            <h5 style="margin-top: 50px">Kunal Das</h5>
-            <ul><li style="padding-left: 15px;">+91-7566566265</li>
-             <li style="padding-left: 15px;">kunaldas1244@gmail.com</li>
+            <h5 style="margin-top: 50px">Yukta Bagdi</h5>
+            <ul><li style="padding-left: 15px;">+91-7602106894</li>
+             <li style="padding-left: 15px;">yuktabagdi@gmail.com</li>
            </ul>
          </div>
          <div class="s-link">
-          <a target="_blank" href="https://www.facebook.com/profile.php?id=100018428528771"><i class="fa fa-facebook"></i></a>
-          <a target="_blank" href="https://www.linkedin.com/in/kunal-das-25b504148/"><i class="fa fa-linkedin"></i></a>
-          <a target="_blank" href="https://github.com/kunal1244"><i class="fa fa-github"></i></a>
+          <a target="_blank" href="https://www.facebook.com/yukta.bagdi"><i class="fa fa-facebook"></i></a>
+          <a target="_blank" href="https://www.linkedin.com/in/yukta-bagdi/"><i class="fa fa-linkedin"></i></a>
+          <a target="_blank" href="https://github.com/yuktabagdi"><i class="fa fa-github"></i></a>
 
         </div>
       </div>
     </div>
     <div class="team-title" style="padding-top:0px;">
-      <h5 style="text-align: center;font-size: 120%;">Kunal Das</h5>
+      <h5 style="text-align: center;font-size: 120%;">Yukta Bagdi</h5>
 
     </div>
   </div>
@@ -450,24 +450,24 @@ body {
  <div class="card card-1" style="left: -170px;">
   <div class="team-member">
     <div class="team-img">
-      <img src="img/team/acellteam19/shubham.jpg" alt="team member" class="img-responsive" height="250" width="100%">
+      <img src="img/team2020/prasang.jpg" alt="team member" class="img-responsive" height="250" width="100%">
     </div>
     <div class="team-hover">
       <div class="desk"> <br> <br> <br>
-        <h5>Shubham Kendre</h5>
+        <h5>Pransang Kumar</h5>
         <ul>
-         <li style="padding-left: 15px;">+91-8698983976</li>
-         <li style="padding-left: 15px;margin-left: -7%; ">kendre.shubham100@gmail.com</li>
+         <li style="padding-left: 15px;">+91-9931176420</li>
+         <li style="padding-left: 15px;margin-left: -7%; ">mail.prasangkr@gmail.com</li>
        </ul>
      </div>
      <div class="s-link">
-      <a target="_blank" href="https://www.facebook.com/shubham.kendre.925"><i class="fa fa-facebook"></i></a>
-      <a target="_blank" href="https://www.linkedin.com/in/shubham-kendre-b57981158/"><i class="fa fa-linkedin"></i></a>
+      <a target="_blank" href="https://www.facebook.com/prasangkr"><i class="fa fa-facebook"></i></a>
+      <a target="_blank" href="https://in.linkedin.com/in/prasangkr?trk=public_profile_browsemap_profile-result-card_result-card_full-click"><i class="fa fa-linkedin"></i></a>
     </div>
   </div>
 </div>
 <div class="team-title" style="padding-top:0px;">
-  <h5 style="text-align: center;font-size: 120%;">Shubham Kendre</h5>
+  <h5 style="text-align: center;font-size: 120%;">Pransang Kumar</h5>
 
 </div>
 </div>
@@ -477,24 +477,24 @@ body {
      <div class="card card-1" style="left:20px;">
       <div class="team-member">
         <div class="team-img">
-          <img src="img/team/acellteam19/tanmay.jpg" alt="team member" class="img-responsive" height="250" width="100%">
+          <img src="img/team2020/ritish.png" alt="team member" class="img-responsive" height="250" width="100%">
         </div>
         <div class="team-hover">
           <div class="desk"> <br>
-            <h5 style="margin-top: 50px">Tanmay Das</h5>
-            <ul><li style="padding-left: 15px;">+91-8597165874</li>
-             <li style="padding-left: 15px;">tdas.jkd@gmail.com</li>
+            <h5 style="margin-top: 50px">Ritish Dutt</h5>
+            <ul><li style="padding-left: 15px;">+91-8167019999</li>
+             <li style="padding-left: 15px;">ritishduttiitkgp@gmail.com</li>
            </ul>
          </div>
          <div class="s-link">
-          <a target="_blank" href="https://www.facebook.com/tanmaydas2000"><i class="fa fa-facebook"></i></a>
-          <a target="_blank" href="https://www.linkedin.com/in/tanmay-das-493668169"><i class="fa fa-linkedin"></i></a>
+          <a target="_blank" href="https://www.facebook.com/ritish.dutt.14"><i class="fa fa-facebook"></i></a>
+          <a target="_blank" href="https://in.linkedin.com/in/ritish-dutt?trk=public_profile_browsemap_profile-result-card_result-card_full-click"><i class="fa fa-linkedin"></i></a>
 
         </div>
       </div>
     </div>
     <div class="team-title" style="padding-top:0px;">
-      <h5 style="text-align: center;font-size: 120%;">Tanmay Das</h5>
+      <h5 style="text-align: center;font-size: 120%;">Ritish Dutt</h5>
 
     </div>
   </div>
@@ -517,25 +517,25 @@ body {
       <div class="card card-1 card-mid">
         <div class="team-member">
           <div class="team-img">
-            <img src="img/team/acellteam19/raman.jpg" alt="team member" class="img-responsive" height="250" width="100%">
+            <img src="img/team2020/nischay.jpg" alt="team member" class="img-responsive" height="250" width="100%">
           </div>
           <div class="team-hover">
             <div class="desk">  <br> <br> <br>
-              <h5>Raman Shaw</h5>
+              <h5>Nischay Gothwal</h5>
               <ul>
-               <li style="padding-left: 15px;">+91-6290852278</li>
-               <li style="padding-left: 15px;">raman21.1997@gmail.com</li>
+               <li style="padding-left: 15px;">+91-8768014777</li>
+               <li style="padding-left: 15px;">nischaygothwal23@gmail.com</li>
              </ul>
            </div>
            <div class="s-link">
-            <a target="_blank" href="https://www.facebook.com/raman.shaw.14"><i class="fa fa-facebook"></i></a>
-            <a target="_blank" href="https://www.linkedin.com/in/raman-shaw-725028146/"><i class="fa fa-linkedin"></i></a>
+            <a target="_blank" href="https://www.facebook.com/nischay.gothwal.13"><i class="fa fa-facebook"></i></a>
+            <a target="_blank" href="https://in.linkedin.com/in/nischay-gothwal?trk=public_profile_browsemap_profile-result-card_result-card_full-click"><i class="fa fa-linkedin"></i></a>
 
           </div>
         </div>
       </div>
       <div class="team-title" style="padding-top:0px;" >
-        <h5 style="text-align: center;font-size: 120%;  ">Raman Shaw</h5>
+        <h5 style="text-align: center;font-size: 120%;  ">Nischay Gothwal</h5>
 
       </div>
     </div>
@@ -553,7 +553,30 @@ body {
   </h4>
 </div>
 </center>
+
 <div class="row" style="margin-top: 50px;">
+<div id="2019" class="col l4">
+  <ul>
+   <span>
+    <b>
+     <li center-align style="font-size: 20;">2019</li>
+     <hr>
+     <li>Shishir Shahi</li>
+     <li>Swaraj Prakash</li>
+     
+     <li>Avi Singh Raghuwanshi</li>
+     <li>Atharva Wagle</li>
+     <li>Eknoor Malhotra</li>
+     <li>Madhumita Paul</li>
+     <li> Ayush Jain</li>
+     <li>Kunal Das</li>
+     <li>Shubham Kendre</li>
+     <li>Tanmay Das</li>
+     <li>Raman Shaw</li>
+   </b>
+ </span>
+</ul>
+</div>
 <div id="2018" class="col l4">
   <ul>
    <span>
@@ -597,7 +620,10 @@ body {
  </span>
 </ul>
 </div>
- <div id="2016" class="col l4">
+
+</div>
+<div class="row" style="margin-top: 50px;">
+<div id="2016" class="col l4">
   <ul>
    <span>
     <b>
@@ -617,8 +643,6 @@ body {
  </span>
 </ul>
 </div>
-</div>
-<div class="row" style="margin-top: 50px;">
 <div id="2015" class="col l4">
   <ul>
    <span>
@@ -659,6 +683,10 @@ body {
  </span>
 </ul>
 </div>
+
+
+</div>
+<div class="row" style="margin-top: 50px;">
 <div id="2013" class="col l4">
   <ul>
    <span>
@@ -681,10 +709,7 @@ body {
  </span>
 </ul>
 </div>
-
-</div>
-<div class="row" style="margin-top: 50px;">
-<div id="2012" class="col l3">
+<div id="2012" class="col l4">
   <ul>
    <span>
     <b>
@@ -702,7 +727,7 @@ body {
  </span>
 </ul>
 </div>
-   <div id="2011" class="col l3">
+<div id="2011" class="col l4">
   <ul>
    <span>
     <b>
@@ -720,41 +745,48 @@ body {
  </span>
 </ul>
 </div>
-<div id="2010" class="col l3">
-  <ul>
-   <span>
-    <b>
-     <li style="font-size: 20;">2010</li>
-     <hr>
-     <li>Drishti Guin </li>
-     <li>Vishnu Rajeev</li>
-     <li> Harshal Maniyar</li>
-     <li>Sumeet Mavani</li>
-     <li>Neeraj Daswani</li>
-     <li>Gautham Kokku</li>
-     <li>Swetha Reddy</li>
-     <li> Tarun Trivedi</li>
-   </b>
- </span>
-</ul>
+<div class="row" style="margin-top: 50px;">
+   <div  class="col l4">
+    -
+    </div>
 </div>
-<div id="2010" class="col l3">
-  <ul>
-   <span>
-    <b>
-     <li style="font-size: 20;">2009</li>
-     <hr>
-     <li>Chirag Fialoke</li>
-     <li>Abhishek Narain</li>
-     <li>Suruchi Prakash</li>
-     <li>Jyotika Gupta</li>
-     <li>Abhijeet Khanna</li>
-     <li>Abhigyan Mandal</li>
-     <li>Digvijay Singh</li>
-   </b>
- </span>
-</ul>
-</div>
+
+<div class="row" style="margin-top: 50px;">
+    <div id="2010" class="col l4">
+      <ul>
+      <span>
+        <b>
+        <li style="font-size: 20;">2010</li>
+        <hr>
+        <li>Drishti Guin </li>
+        <li>Vishnu Rajeev</li>
+        <li> Harshal Maniyar</li>
+        <li>Sumeet Mavani</li>
+        <li>Neeraj Daswani</li>
+        <li>Gautham Kokku</li>
+        <li>Swetha Reddy</li>
+        <li> Tarun Trivedi</li>
+      </b>
+    </span>
+    </ul>
+    </div>
+    <div id="2010" class="col l4">
+      <ul>
+      <span>
+        <b>
+        <li style="font-size: 20;">2009</li>
+        <hr>
+        <li>Chirag Fialoke</li>
+        <li>Abhishek Narain</li>
+        <li>Suruchi Prakash</li>
+        <li>Jyotika Gupta</li>
+        <li>Abhijeet Khanna</li>
+        <li>Abhigyan Mandal</li>
+        <li>Digvijay Singh</li>
+      </b>
+    </span>
+    </ul>
+    </div>
 
 </div>
 <?php include 'footer.php';?>
