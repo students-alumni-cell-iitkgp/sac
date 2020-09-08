@@ -377,7 +377,7 @@ body {
  <div class="card card-1" style="left:-170px;">
   <div class="team-member">
     <div class="team-img">
-      <img src="img/team2020/anuja.jpg" alt="team member" class="img-responsive" height="250" width="100%">
+      <img src="img/team2020/anuja.JPG" alt="team member" class="img-responsive" height="250" width="100%">
     </div>
     <div class="team-hover">
       <div class="desk"> <br> <br> <br>
