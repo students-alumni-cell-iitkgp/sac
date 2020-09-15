@@ -21,6 +21,45 @@
 
     <!-- Font Awesome -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+	<style>
+				#grad {
+					
+			height: 350px;
+			padding:100px;
+			color:white;
+			background-color: black; /* For browsers that do not support gradients */
+			background-image: linear-gradient(to right,white,#0D4F8B,black);
+			}
+            #grad2 {
+					
+					height: 350px;
+					padding:100px;
+					color:white;
+					background-color: black; /* For browsers that do not support gradients */
+					background-image: linear-gradient(to left,white,#0D4F8B,black);
+					}
+			#main{
+				text-align: center;
+				vertical-align: middle;
+				font-size: 45px;
+				font-weight: bold;
+				padding:10px;
+			}
+			#main2{
+				
+				
+				font-size: 45px;
+				font-weight: bold;
+				padding-bottom:100px;
+				padding-right:70px;
+			}
+			#acap{
+				
+				font-size: 35px;
+				font-weight: bold;
+				padding:10px;
+			}
+	</style>
 
 
   </head>
@@ -79,7 +118,7 @@
 			          <a class="dropdown-item" href="temposhout_final_6.pdf">Tempo Shout</a>
 			          
 			      <li class="nav-item">
-			        <a class="nav-link" href="#">Alumni Registration</a>
+			        <a class="nav-link" href="https://docs.google.com/forms/d/e/1FAIpQLSejIgrjMbpu1hKv7-7vbaBsp2uQy5oqFf5uceiN6ag51yKRug/viewform?embedded=true" ,width="640" height="1479" frameborder="0" marginheight="0" marginwidth="0">Alumni Registration</a>
 			      </li>
 			      <li class="nav-item">
 			        <a class="nav-link" href="team.php">Team</a>
@@ -120,25 +159,15 @@
 
   	<section id='overview'>
   		<div class='container-fluid'>
+	
 	  		<div class='row'>
 	  			<div class='col-md-6'>
-	  				<div class='acap-heading'>
-	  					<h1>Alumni Career <br>Assistance Programme</h1>
-	  				</div>
-	  			</div>
-	  			<div class = 'col-md-6 '>
-            <img src="img/acap_.jpg"  height="350px"></img>
- 
-            
-	  				
-	  			</div>
-	  		</div>
-
-	  		<div class='row'>
-	  			<div class='col-md-6'>
+				  <div id="grad2">
 	  				<div class='overview-heading'>
-	  					<h3> Overview </h3>
+
+	  					<p id="main2"> Overview </p>
 	  				</div>
+				  </div>
 	  			</div>
 
 	  			<div class='col-md-6'>
@@ -146,89 +175,62 @@
 		  				<p>
 		  					The most tedious, confusing and overwhelming time of your student life is the placement season and we here at Students’ Alumni Cell strive to ease the process for you. Through the Alumni Career Assistance Programme (ACAP) we connect you to alumni who have been there, done that and succeeded in achieving the same. We aim to provide the students a seamless placement procedure with the alumni community helping them cross any hurdle that may arise.
 		  				</p>
+						<p>
+						“True leaders don’t create new followers, they create new leaders”. Hence we also encourage the enormous and a richly celebrated legacy of our global alumni to come forward, join us and be the spark-plug which ignites the young and impressionable minds of a new generation of KGPians who are aspiring to leave their mark in their fields of interest, by making them conversant of the pitfalls.
+						</p>
 
 		  			</div>
 	  			</div>
 	  		</div>
   		</div>
   	</section>
-  	<div class=".d-lg-none .d-xl-block">
-  		 <br><br><br><br><br>
-  	</div>
+  	
   	<section id='bullets'>
     <div  class='container-fluid'>
   			<div class='row'>
-  				<div class='col-md-6 bullet-points-bg' >
+  				<div class='col-md-6 ' >
   					<div class ='bullet-points'>
 	  					<ul class='bullet-list'>
-	  						
-                  <li style="list-style-type:disc">Student - Fill the form specifying your top 3 companies in preference order.</li><br>
-                  <li style="list-style-type:disc"> Alumnus - Fill the form mentioning the company you are currently working for and the company you got placed in via the CDC recruitment procedure.</li><br>
-                  <li style="list-style-type:disc">Each registered alumnus shall be allotted at most 5 mentees - forming a cohort by 1st week of October.</li><br>
-                  <li style="list-style-type:disc">An ice breaker session shall be organised for each cohort for initiating communication.</li><br>
+								
+						<li style="list-style-type:disc">Student - Fill the form specifying your top 3 companies in preference order.</li><br>
+						<li style="list-style-type:disc"> Alumni - Fill the form mentioning the company you are currently working for and the company you got placed in via the CDC recruitment procedure.</li><br>
+						<li style="list-style-type:disc">Each registered alumnus shall be allotted at most 5 mentees - forming a cohort by 1st week of October.</li><br>
+						<li style="list-style-type:disc">An ice breaker session shall be organised for each cohort for initiating communication.</li><br>
 
 	  						<br>
-	  						<br>
-	  						<br>
+	  						
+
 	  						<li>
-	  							<button type="button" class="btn btn-dark btn-lg reg-buttons-li">Student Registration</button> &nbsp 
-				       		<button type="button" class="btn btn-outline-dark btn-lg reg-buttons-li"> Alumni Registration </button> 
+	  							<button type="button" class="btn btn-dark btn-lg reg-buttons-li"><a src=" https://docs.google.com/forms/d/e/1FAIpQLSejIgrjMbpu1hKv7-7vbaBsp2uQy5oqFf5uceiN6ag51yKRug/viewform?usp=sf_link">Alumni Registration</a></button> &nbsp 
+				       		   <button type="button" class="btn btn-outline-dark btn-lg reg-buttons-li"> Student Registration </button> 
 				   
 				       		</li>
 	  					</ul>
   					</div>
   				</div>
-  				<div class='col-md-6 what-we-serve'>
-  					<div>
-  						<ul style="list-style-type:none">
-	  						<li></li>
-	  						<li></li>
-	  						<li></li>
-	  						<li></li>
-	  						<li></li>
-  						</ul>  						
+  				<div class='col-md-6' >
+  					<div id=grad>
+					  <p id="main">KNOW HOW?</p>
+  						<!-- <ul style="list-style-type:none">
+	  						<li>KNOW HOW???</li>
+  						</ul>  						 -->
   					</div>
   				</div>			
   				
   			</div>
 
   		</div>
-  		<!-- <div  class='container-fluid'>
-  			<div class='row'>
-  				<div class='col-md-6 bullet-points-bg' >
-  					<div class ='bullet-points'>
-	  					<ul class='bullet-list'>
-	  						<li>
-	  							<button type="button" class="btn btn-dark btn-lg reg-buttons-li">Student Registration</button> 
-				   
-				       	</li>
-	  					</ul>
-  					</div>
-  				</div>
-  				<div class='col-md-6 bullet-points-bg'>
-            <div class ='bullet-points'>
-                <ul class='bullet-list'>
-                  <li>
-                    <button type="button" class="btn btn-dark btn-lg reg-buttons-li">Alumni Registration</button> 
-            
-                  </li>
-                </ul>
-              </div>
-  									
-  				
-  				</div>			
-  				
-  			</div>
 
-  		</div> -->
   	</section>
 
   	<section id='footer'>
   		<div class='container-fluid'>
   			<div class='row'>
   				<div class='col-4 footer-top-left'>
-  					<h1> Get Social <br>With Us<br><span class='dots'>...</span>
+				  
+  					<h1> Get Social <br>With Us<br>
   					</h1>
+
   				</div>
   				<div class=col-2>
   				</div>
