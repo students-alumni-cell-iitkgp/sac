@@ -346,7 +346,7 @@ body {
             <h5 style="margin-top: 50px">Vishaw Kashyap</h5>
             <ul>
               <li style="padding-left: 15px;">+91-7051222639</li>
-              <li style="padding-left: 15px;margin-left: -7%;">paulmadhumita101@gmail.com</li>
+              <li style="padding-left: 15px;margin-left: -7%;">vishaw786@gmail.com</li>
             </ul>
           </div>
           <div class="s-link">
