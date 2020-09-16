@@ -19,6 +19,9 @@
     <!-- Font Awesome -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@800&display=swap" rel="stylesheet">
+
 
   </head>
   <body>
@@ -103,8 +106,8 @@
   		<div class='container-fluid'>
 	  		<div class='row'>
 	  			<div class='col-md-6'>
-	  				<div class='acap-heading' style='position:relative; left:3.5rem; top:4rem; color:#183764;'>
-	  					<h1>Alumni Career <br>Assistance Programme</h1>
+	  				<div class='acap-heading' style='position:relative; left:3.5rem; top:4rem; color:#183764; font-family: "Cinzel", serif; '>
+	  					<h1 style='font-size: 2.8rem; margin-left:3.2rem;'><b>Alumni Career</b> <br><b>Assistance<br> Programme</b></h1>
 	  				</div>
 	  			</div>
 	  			<div class = 'col-md-6 overview-picture d-none d-md-block'>
@@ -117,7 +120,7 @@
 	  		<div class='row'>
 	  			<div class='col-md-6'>
 	  				<div class='overview-heading'>
-	  					<h3> Overview </h3>
+	  					<h1> Overview </h1>
 	  				</div>
 	  			</div>
 
@@ -140,10 +143,10 @@
   			<div class='row'>
   				<div class='col-md-6 bullet-points-bg' >
   					<div class ='bullet-points'>
-	  					<ul class='bullet-list'>
-	  						<li><b>Student</b> - Fill the form specifying your top 3 companies in preference order. </li>
+	  					<ul class='bullet-list' style='color:#16162E;'>
+	  						<li><span style='color:#454593'><b>Student: </b> </span>Fill the form specifying your top 3 companies in preference order. </li>
 	  						<br>
-	  						<li> <b>Alumnus</b> - Fill the form mentioning the company you are currently working for and the company you got placed in via the CDC recruitment procedure. </li>
+	  						<li><span style='color:#454593'> <b>Alumnus: </b></span> Fill the form mentioning the company you are currently working for and the company you got placed in via the CDC recruitment procedure. </li>
 	  						<br>
 	  						<li>Each registered alumnus shall be allotted at most 5 mentees - forming a cohort by 1st week of October.</li>
 	  						<br>
@@ -153,21 +156,24 @@
 	  						<br>
 	  						<br>
 	  						<li>
-	  							<a type="button" class="btn btn-light btn-lg reg-buttons-li" style='color:#342b2d' href="https://docs.google.com/forms/d/e/1FAIpQLSejIgrjMbpu1hKv7-7vbaBsp2uQy5oqFf5uceiN6ag51yKRug/viewform?embedded=true" target="_blank">Alumni Registration</a> &nbsp
-				       			<a type="button" class="btn btn-light btn-lg reg-buttons-li" style='color:#342b2d' href="https://docs.google.com/forms/d/e/1FAIpQLScjniqADo6i3FHVhyfM3Xl21rNFmOTDyVZaTZA-8lxidM86Qg/viewform?embedded=true" target="_blank"> Student Registration </a>
+	  							<a type="button" class="btn btn-dark btn-lg reg-buttons-li"  href="https://docs.google.com/forms/d/e/1FAIpQLSejIgrjMbpu1hKv7-7vbaBsp2uQy5oqFf5uceiN6ag51yKRug/viewform?embedded=true" target="_blank">Alumni Registration</a> &nbsp
+				       			<a type="button" class="btn btn-dark btn-lg reg-buttons-li"  href="https://docs.google.com/forms/d/e/1FAIpQLScjniqADo6i3FHVhyfM3Xl21rNFmOTDyVZaTZA-8lxidM86Qg/viewform?embedded=true" target="_blank"> Student Registration </a>
 
 				       		</li>
 	  					</ul>
   					</div>
   				</div>
-  				<div class='col-md-6 what-we-serve'>
-  					<img src='img/acap/2.jpg' width='97.8%' style='position:absolute; '>
+  				<div class='col-md-6 what-we-serve' style='background-image: linear-gradient(to top left, #484899, black); color:white; padding:6rem; padding-top:4rem;'>
+  					<!-- <img src='img/acap/2.jpg' width='97.8%' style='position:absolute; '> -->
+  					<h1 style='font-size:6em;'> Know How? </h1> 
+
   				</div>
 
   			</div>
 
   		</div>
   	</section>
+  	<!-- <br> -->
 
   	<section id='footer'>
   		<div class='container-fluid'>
