@@ -1,708 +1,249 @@
-<html>
-<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-<script type="text/javascript">
-  $(function () {
-
-    $('#form1').on('submit', function (e) {
-
-      e.preventDefault();
-
-      $.ajax({
-        type: 'post',
-        url: 'acap-rega.php',
-        data: $('#form1').serialize(),
-        success: function (response) {
-        /* if(response== 0 )
-         {
-          swal({
-            title: "WRONG CAPTCHA!",
-            text: "Please re-enter the captcha!",
-            icon: "error",
-            buttons: true,
-            dangerMode: true,
-          }).then((value) => {
-
-          });
-        }*/
-       
-        if(response==0)
-        {
-          swal({
-            title: "INCOMPLETE DETAILS!",
-            text: "Please fill all the details!",
-            icon: "error",
-            buttons: true,
-            dangerMode: true,
-          }).then((value) => {
-
-          });
-        }
-        else if(response== 2 )
-        {
-         swal({
-          title: "REGISTRATED!",
-          text: "Registration successful!",
-          icon: "success",
-          buttons: true,
-          dangerMode: true,
-        }).then((value) => {
-          window.location="acap.php";
-
-        });
-//alert(response);
-}
-else
-{
-  alert(response);
-}
-}
-});
-
-    });
-
-  });
-</script> 
-
-
-
-
-
-<script type="text/javascript">
-  $(function () {
-
-    $('#form2').on('submit', function (e) {
-
-      e.preventDefault();
-
-      $.ajax({
-        type: 'post',
-        url: 'acapregstu.php',
-        data: $('#form2').serialize(),
-        success: function (response) {
-        if(response== 0 )
-        {
-          swal({
-            title: "INCOMPLETE DETAILS!",
-            text: "Please fill all the details!",
-            icon: "error",
-            buttons: true,
-            dangerMode: true,
-          }).then((value) => {
-
-          });
-        }
-        else if(response== 2 )
-        {
-         swal({
-          title: "REGISTERED!",
-          text: "Registration successful!",
-          icon: "success",
-          buttons: true,
-          dangerMode: true,
-        }).then((value) => {
-          window.location="acap.php";
-
-        });
-//alert(response);
-}
-else
-{
-  alert(response);
-}
-}
-});
-
-    });
-
-  });
-</script> 
-<head>
-
-  <title>Students Alumni Cell &middot; IIT Kharagpur</title>
-
-  <link rel="icon" href="img/meet_14.png">
-
-  <link rel="stylesheet" href="css/materialize.min.css">
-
-  <script src="js/materialize.min.js"></script>
-
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
-  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-
-
-
-
-
-  <style>
-
-    ul.indicators{z-index: 3;}
-
-    .slider .indicators .indicator-item{ height: 10px; width: 50px; border-radius: 0px; margin: 5px 12px; background-color: #a4a9b2; }
-
-    .slider .indicators .indicator-item.active{ background-color: #717375; }
-
-
-
-    @media only screen and (min-width: 768px) {
-
-     .about {
-
-       padding: 6px 100px;
-
-     }
-
-
-     #about-acap{
-      font-size: 16px;
-      padding: 3.3em 3em;
-      background-color: white;
-     }
-
-
-     .slider .slides li #img1 {
-
-      background-size: 80% 100%;
-
-      background-color: #FCFBF9;
-
-      background-repeat: no-repeat;
-
-      background-position: center;
-
-    }
-
-
-
-
-
-  }
-
-
-
-  @media only screen and (max-width: 414px){
-
-   .about{
-
-     padding-left: .5em;
-
-   }
-
-   .subheading{
-    font-size:4.5vw;
-   }
-
-   #about-acap{
-    font-size:3.2vw;
-    padding: 3.3em 3em;
-
-   }
-
-   .modal-trigger{
-    height: 7.5vw;
-    line-height: 8vw;
-    padding: 0 1rem;
-    font-size: 3.5vw;
-   }
-
- }
-
- @media only screen and (max-width: 995px){
-
-   #fbplug{
-
-    display: none;
-
-  }
-  .subheading{
-    font-size:4.5vw;
-   }
-
-  #about-acap{
-    font-size:3.3vw;
-    padding: 3.3em 3em;
-
-   }
-
-}
-
-
-
-</style>
-
-</head>
-
-<body>
-
- <div class="_wrapper">
-
-   <?php include 'navbar.php';?>
-
-
-
-   <div>
-
-    <img src="img/acap2019.jpg" width="100%" height=70%>
-
-    <div class="row">
-
-      <div class="heading">
-
-        <center>
-
-          <h class="subheading"><b>Alumni Career Assistance Programme</b></h>
-
-        </center>
-
-      </div>
-
-    </div>
-
-    <div>
-
-      <div class="center-align">
-
-        <div class="row">
-
-          <div class="col l10 offset-l1">
-
-            <div >
-
-              <p class="z-depth-1 text_align" id="about-acap" >'Alumni Career Assistance Programme' (ACAP) aims on helping the final year students to understand the confusing and tedious process of placements in a company specific manner, as every company has a different procedure for selection. The students sitting for placements will fill in their companies of choice in a manner of preference and will be allotted an alumnus/alumna who themselves were placed in the same company in KGP as a mentor/buddy.
-
-                Each alumnus will be allotted at most 4 mentees and every student will fill in 3 companies of choice strictly in their order of preference.
-
-                The students will be allotted respective mentors latest by 15th October giving them more than a month's time to prepare for the company of their choice.
-
-                This initiative will help the students in applying and getting placed in various companies through without last minute chaos. This Program also signifies the first of the Institute's attempt at engagement of the recently graduated alumni with the Institute.
-                Thus, we encourage all alumni to sign up for the Program and start off on the track of giving back to your alma mater. You can sign up through the 'Alumni Registration' link below.</p>
-
-              </div></div>
-
-
-
-            </div>
-
-          </div>
-
-
-
-
-
-        </div>
-
-
-
-
-
-        <div class="heading">
-
-          <center>
-
-            <h class="subheading"><b>Registration</b></h>
-
-          </center>
-
-        </div>
-
-        <hr><hr>
-
-        <br>
-
-        <div class="row" style="margin-left:20.5%">
-
-          <div class="col l6" >
-
-            <center>
-
-              <div class="row section">
-
-                <div class="col">
-
-                  <!-- Modal Trigger -->
-
-                  <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Alumni Registration</a>
-
-                </div>
-
-              </div>
-
-              <!-- Modal Structure -->
-
-              <div id="modal1" class="modal">
-
-                <form class="col s12"  id="form1">
-
-                 <div class="modal-content">
-
-                  <h4>Alumni Registration <hr></h4>
-
-                  <div class="row">
-
-                   <div class="row">
-
-                     <div class="input-field col s12">
-
-                       <input placeholder="Name" name="name" type="text" class="validate" >
-
-                       <label for="name">Name</label>
-
-                     </div>
-
-                   </div>
-
-                   <div class="row">
-
-                     <div class="input-field col s12">
-
-                       <input placeholder="Phone Number" name="phoneno" type="text" class="validate">
-
-                       <label for="phoneno">Phone No</label>
-
-                     </div>
-
-                   </div>
-
-                   <div class="row">
-
-                     <div class="input-field col s12">
-
-                       <input placeholder="Email" name="email" type="email" class="validate">
-
-                       <label for="email">Email</label>
-
-                     </div>
-
-                   </div>
-
-                   <div class="row">
-
-                    <div class="input-field col s12">
-
-                     <input placeholder="Company Name" name="company" type="text" class="validate" >
-
-                     <label for="hall">Current company</label>
-
-                   </div>
-
-                 </div>
-
-                 <div class="row">
-
-                  <div class="input-field col s12">
-
-                   <input placeholder="Company Designation" name="designation" type="text" class="validate" >
-
-                   <label for="hall">Current Designation</label>
-
-                 </div>
-
-               </div>
-
-               <div class="row">
-
-                <div class="input-field col s12">
-
-                 <input placeholder="Current City" name="city" type="text" class="validate" >
-
-                 <label for="hall">Current City</label>
-
-               </div>
-
-             </div>
-
-             <div class="row">
-
-               <div class="input-field col s12">
-
-                <input placeholder="Areas Of Expertise" name="expertise" type="text" class="validate" >
-
-                <label for="hall">Areas Of Expertise</label>
-
-              </div>
-
-            </div>
-
-            <div class="row">
-
-              <div class="input-field col s12">
-
-               <input placeholder="Year of Graduation" name="gradyear" type="text" class="validate" >
-
-               <label for="hall">Year of Graduation</label>
-
-             </div>
-
-           </div>
-
-           <div class="row">
-
-            <div class="input-field col s12">
-
-             <input placeholder="Company placed via CDC" name="cdc" type="text" class="validate" >
-
-             <label for="hall">Company placed via CDC</label>
-
-           </div>
-
-         </div>
-
-           <!--
-           <div class="row">
-
-            <?php
-           // @session_start();
-           // include 'captcha_gen_a.php';
-            ?>
-
-            <div class="input-field col s12">
-             <input placeholder="ENTER CAPTCHA" name="captcha_a" type="text" class="validate">
-
-             <label for="email">ENTER CAPTCHA</label>
-
-
-           </div>
-
-         </div>-->
-
-       </div>
-
-
-
-     </div>
-     <div class="modal-footer">
-
-      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat" style="background-color:#26a69a"><input style="padding:9px"  type="submit" name="submit"></a>
-
-    </div>
-
-  </form>
-
-</div>
-
-</center>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-<div class="col l6">
-
-  <div class="row section">
-
-    <div class="col">
-
-      <!-- Modal Trigger -->
-
-      <a class="waves-effect waves-light btn modal-trigger" href="#modal2">Students Registration</a>
-
-    </div>
-
-  </div>
-
-  <!-- Modal Structure -->
-
-  <div id="modal2" class="modal">
-
-    <form class="col s12" id="form2" >
-
-     <div class="modal-content">
-
-      <h4> <center>Students Registration</center>   <hr></h4>
-
-      <div class="row">
-
-        <div class="row">
-
-         <div class="input-field col s12">
-
-           <input placeholder="Name" name="name" type="text" class="validate" >
-
-           <label for="name">Name</label>
-
-         </div>
-
-       </div>
-
-       <div class="row">
-
-         <div class="input-field col s12">
-
-           <input placeholder="Roll Number" name="roll" type="text" class="validate" >
-
-           <label for="roll">Roll No</label>
-
-         </div>
-
-       </div>
-
-       <div class="row">
-
-         <div class="input-field col s12">
-
-           <input placeholder="Phone Number" name="phoneno" type="text" class="validate">
-
-           <label for="phoneno">Phone No</label>
-
-         </div>
-
-       </div>
-
-
-       <div class="row">
-
-         <div class="input-field col s12">
-
-           <input placeholder="Email" name="email" type="email" class="validate">
-
-           <label for="email">Email</label>
-
-         </div>
-
-       </div>
-
-       <p style="
-       margin-left: 12px;
-       color: palegoldenrod;
-       text-align: justify;
-       ">Please fill in the companies for which you genuinely want to prepare for. This will greatly help us in allotting mentors to you.</p>
-
-       <div class="row">
-
-        <div class="input-field col s12">
-
-         <input placeholder="Company Name" name="PC1" type="text" class="validate" >
-
-         <label for="hall">Preferred company 1</label>
-
-       </div>
-
-     </div>
-
-     <div class="row">
-
-      <div class="input-field col s12">
-
-       <input placeholder="Company Name" name="PC2" type="text" class="validate" >
-
-       <label for="hall">Preferred company 2</label>
-
-     </div>
-
-   </div>
-
-   <div class="row">
-
-    <div class="input-field col s12">
-
-     <input placeholder="Company Name" name="PC3" type="text" class="validate" >
-
-     <label for="hall">Preferred company 3</label>
-
-   </div>
-
- </div>
-
- <div class="row">
-
-   <div class="input-field col s12">
-
-     <input placeholder="Preferred placement field (Eg. Software, Consultancy)" name="PC4" type="text" class="validate">
-
-     <label for="email">Preferred placement field (Eg. Software, Consultancy)</label>
-
-   </div>
-
- </div>
- <!--
- <div class="row">
-
-  <?php
- /* @session_start();
-  include 'captcha_gen_s.php';*/
-  ?>
-
-  <div class="input-field col s12">
-   <input placeholder="ENTER CAPTCHA" name="captcha_s" type="text" class="validate">
-
-   <label for="email">ENTER CAPTCHA</label>
-
-
- </div>
-
-</div>
--->
-
-
-
-
-
-
-</div>
-
-</div>
-
-
-
-
-<div class="modal-footer">
-
-  <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat" style="background-color:#26a69a;padding:0px!important"><input style="padding:9px;width:150px"  type="submit" name="submit"></a>
-
-</div>
-
-</form>
-
-
-
-</div>
-
-</div>
-
-
-
-
-
-</div>
-
-<?php
-
-include 'footer.php';
-
-?>
-
-
-
-</body>
-
-
-
-<script type="text/javascript">
-
-  $(document).ready(function(){
-
-  // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
-
-  $('.modal-trigger').leanModal();
-
-});
-
-</script>
-
-
-
-
 </html>
 
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Students' Alumni Cell, IIT Kharagpur</title>
+    <!-- Our CSS stylesheet -->
+    <link rel="stylesheet" href="css/acap.css">
+    <!-- Bootstrap Scripts CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Bootstrap scripts Jquery -->
+  	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- Font Awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+	<style>
+				#grad {
+					
+			height: 350px;
+			padding:100px;
+			color:white;
+			background-color: black; /* For browsers that do not support gradients */
+			background-image: linear-gradient(to right,white,#0D4F8B,black);
+			}
+            #grad2 {
+					
+					height: 350px;
+					padding:100px;
+					color:white;
+					background-color: black; /* For browsers that do not support gradients */
+					background-image: linear-gradient(to left,white,#0D4F8B,black);
+					}
+			#main{
+				text-align: center;
+				vertical-align: middle;
+				font-size: 45px;
+				font-weight: bold;
+				padding:10px;
+			}
+			#main2{
+				
+				
+				font-size: 45px;
+				font-weight: bold;
+				padding-bottom:100px;
+				padding-right:70px;
+			}
+			#acap{
+				
+				font-size: 35px;
+				font-weight: bold;
+				padding:10px;
+			}
+	</style>
+  </head>
+  <body>
+  	<!-- NAVBAR START -->
+  	<section id='title'>
+  		<div class='container-fluid container-bg-custom'>
+  			<nav class="navbar navbar-expand-lg navbar-dark bg-dark " width="780px">
+			  <a class="navbar-brand" href="#"> <img src="img/logo/kgp_logo.png" width="26" height="30" class="d-inline-block align-bottom" alt="">  Students' Alumni Cell</a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			    <ul class="navbar-nav ml-auto">
+			      <li class="nav-item">
+			        <a class="nav-link" href="index.php">Home</a>
+			      </li>
+			      <li class="nav-item dropdown">
+			        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			          Events
+			        </a>
+			        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+			          <!-- <a class="dropdown-item" href="#"></a> -->
+			          <a class="dropdown-item" href="aam.php">Annual Alumni Meet</a>
+			          <a class="dropdown-item" href="homecoming.php">Homecoming</a>
+			          <a class="dropdown-item" href="sam.php">Student Alumni Meet</a>
+			          <a class="dropdown-item" href="sam.php">Phonathon</a>
+			          <a class="dropdown-item" href="alumnitalks.php">Alumni Talks</a>
+			          <a class="dropdown-item" href="leadershipsummit.php">Leadership Summit</a>
+			          <a class="dropdown-item" href="alvida.php">Alvida</a>
+			      </li>
+			      <li class="nav-item dropdown">
+			        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			          Initiatives
+			        </a>
+			        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+			        	<!-- <a class="dropdown-item" href="#"></a> -->
+			          <a class="dropdown-item" href="mentorship.php">Mentorship Programme</a>
+			          <a class="dropdown-item" href="imprint.php">My Imprint</a>
+			          <a class="dropdown-item" href="sparc.php">SPARC</a>
+			          <a class="dropdown-item" href="acap.php">ACAP</a>
+			          <a class="dropdown-item" href="https://medium.com/@studentsalumnicell.iitkgp">Alumni Blog</a>
+			          <a class="dropdown-item" href="affinity.php">Affinity Programme</a>
+			      </li>
+			      <li class="nav-item dropdown">
+			        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			          Publications
+			        </a>
+			        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+			          <!-- <a class="dropdown-item" href="#"></a> -->
+			          <a class="dropdown-item" href="yearbook.php">Yearbook</a>
+			          <a class="dropdown-item" href="yoy.php">Yearnings Of Yore</a>
+			          <a class="dropdown-item" href="temposhout_final_6.pdf">Tempo Shout</a>
+			          
+			      <li class="nav-item">
+			        <a class="nav-link" href="https://docs.google.com/forms/d/e/1FAIpQLSejIgrjMbpu1hKv7-7vbaBsp2uQy5oqFf5uceiN6ag51yKRug/viewform?embedded=true" ,width="640" height="1479" frameborder="0" marginheight="0" marginwidth="0">Alumni Registration</a>
+			      </li>
+			      <li class="nav-item">
+			        <a class="nav-link" href="team.php">Team</a>
+            </li>
+            <li class="nav-item dropdown">
+			        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			          Sponsors
+			        </a>
+			        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+			          <!-- <a class="dropdown-item" href="#"></a> -->
+                <a class="nav-link" href="#">Sponsors</a>
+                <a class="dropdown-item"  href="sponsors2019.php">2019</a>
+                <a class="dropdown-item"  href="sponsors2018.php">2018</a>
+                <a class="dropdown-item"  href="sponsors2017.php">2017</a>
+                <a class="dropdown-item"  href="sponsors2016.php">2016</a>
+                <a class="dropdown-item"  href="sponsors2015.php">2015</a>
+                <a class="dropdown-item"  href="sponsors2014.php">2014</a>
+                <a class="dropdown-item"  href="sponsors2013.php">2013</a>
+                <a class="dropdown-item"  href="sponsors2012.php">2012</a>
+            </li>
+                  
+			    </ul>
+			    
+			  </div>
+			</nav>
+	
+	<!-- NAVBAR END -->
+  		
+    </section>
+    <div class="col-lg-12">
+      <img src="img/acap_2019.jpg" width="100%" height="634px"></img>
+    </div>
+  	<section id='overview'>
+  		<div class='container-fluid'>
+	
+	  		<div class='row'>
+	  			<div class='col-md-6'>
+				  <div id="grad2">
+	  				<div class='overview-heading'>
+	  					<p id="main2"> Overview </p>
+	  				</div>
+				  </div>
+	  			</div>
+	  			<div class='col-md-6'>
+	  				<div class='summary'>
+		  				<p>
+		  					The most tedious, confusing and overwhelming time of your student life is the placement season and we here at Students’ Alumni Cell strive to ease the process for you. Through the Alumni Career Assistance Programme (ACAP) we connect you to alumni who have been there, done that and succeeded in achieving the same. We aim to provide the students a seamless placement procedure with the alumni community helping them cross any hurdle that may arise.
+		  				</p>
+						<p>
+						“True leaders don’t create new followers, they create new leaders”. Hence we also encourage the enormous and a richly celebrated legacy of our global alumni to come forward, join us and be the spark-plug which ignites the young and impressionable minds of a new generation of KGPians who are aspiring to leave their mark in their fields of interest, by making them conversant of the pitfalls.
+						</p>
+		  			</div>
+	  			</div>
+	  		</div>
+  		</div>
+  	</section>
+  	
+  	<section id='bullets'>
+    <div  class='container-fluid'>
+  			<div class='row'>
+  				<div class='col-md-6 ' >
+  					<div class ='bullet-points'>
+	  					<ul class='bullet-list'>
+								
+						<li style="list-style-type:disc">Student - Fill the form specifying your top 3 companies in preference order.</li><br>
+						<li style="list-style-type:disc"> Alumni - Fill the form mentioning the company you are currently working for and the company you got placed in via the CDC recruitment procedure.</li><br>
+						<li style="list-style-type:disc">Each registered alumnus shall be allotted at most 5 mentees - forming a cohort by 1st week of October.</li><br>
+						<li style="list-style-type:disc">An ice breaker session shall be organised for each cohort for initiating communication.</li><br>
+	  						<br>
+	  						
+	  						<li>
+	  							<button type="button" class="btn btn-dark btn-lg reg-buttons-li"><a src=" https://docs.google.com/forms/d/e/1FAIpQLSejIgrjMbpu1hKv7-7vbaBsp2uQy5oqFf5uceiN6ag51yKRug/viewform?usp=sf_link">Alumni Registration</a></button> &nbsp 
+				       		   <button type="button" class="btn btn-outline-dark btn-lg reg-buttons-li"> Student Registration </button> 
+				   
+				       		</li>
+	  					</ul>
+  					</div>
+  				</div>
+  				<div class='col-md-6' >
+  					<div id=grad>
+					  <p id="main">KNOW HOW?</p>
+  						<!-- <ul style="list-style-type:none">
+	  						<li>KNOW HOW???</li>
+  						</ul>  						 -->
+  					</div>
+  				</div>			
+  				
+  			</div>
+  		</div>
+  	</section>
+  	<section id='footer'>
+  		<div class='container-fluid'>
+  			<div class='row'>
+  				<div class='col-4 footer-top-left'>
+				  
+  					<h1> Get Social <br>With Us<br>
+  					</h1>
+  				</div>
+  				<div class=col-2>
+  				</div>
+  				<div class='col-6 footer-top-right'>
+  					<h5>Students' Alumni Cell, IIT Kharagpur</h5>
+  					<p>Office of Alumni Affairs & International Relations,<br>
+                   		Indian Institute of Technology, Kharagpur<br>
+                   		Pin-721302, West Bengal, India<br><br>
+                    	<em>Ph: 03222-281860</em> <br>
+                    	<em>Email: aao@hijli.iitkgp.ernet.in</em>
+                    </p>
+                    <hr>
+  				</div>
+  			</div>
+  			<div class='row'>
+  				<div class='col-2 '>
+  					<span class='bar'>|</span>  
+  				</div>
+  				<div class=col-2>
+  					<a href="http://www.facebook.com/iitkgp.alumnicell?fref=ts&ref=br_tf"><i class="icon fab fa-facebook"></i>	</a>
+  				</div>
+  				<div class='col-2'>
+  					<a  href="https://www.instagram.com/sac.iitkgp/"><i class="icon fab fa-instagram"></i></a>
+  				</div>
+  				<div class='col-2'>
+  					<a href="http://twitter.com/IITKgpAlumni"><i class="icon fab fa-twitter-square"></i></a>
+  				</div>
+  				<div class='col-2'>
+  					<a href="https://www.youtube.com/user/alumnicelliitkgp/videos"><i class="icon fab fa-youtube"></i></a>
+  				</div>
+  				<div class='col-2'>
+  					<a  href="https://www.linkedin.com/company-beta/13273135/"><i class="icon fab fa-linkedin"></i></a>
+  				</div>
+  				
+  			</div>
+  		</div>  		
+  	</section>
+  	<section id='copyright'>
+  		<p>&copy; 2018 Students' Alumni Cell</p>
+  	</section>
+  </body>
+</html>

@@ -1,0 +1,139 @@
+*{
+	margin:0;
+	padding:0;
+
+}
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	width:100%;
+}
+.container-fluid{
+	padding-right: 0;
+	padding-left: 0;
+}
+.dropdown-item{
+	line-height: 1.7;
+}
+.dropdown-menu:li {
+    text-align: left;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; 
+    
+ }
+
+
+.acap-car{
+	background-color: black;
+	height:34.5rem;
+	width:100%;
+}
+
+
+
+.overview-picture{
+	height: 16rem;
+	background-color:grey;
+	/*width: 50rem;*/
+}
+
+.acap-heading{
+	margin-left: 6rem;
+	padding-top: 4.5rem;
+}
+
+#overview{
+	height:30rem;
+}
+
+.overview-heading{
+	/*text-align: center;*/
+	margin-top: 6rem;
+	padding-left: 30%;
+}
+
+.summary{
+	margin-top: 2.5rem;
+	margin-bottom:2.5rem;
+	padding-right: 4rem;
+	padding-left:1rem;
+	position:relative;
+	top:0.8rem;
+
+	/*margin-left:-1rem;*/
+
+}
+
+#bullets{
+	margin-top:0.8rem;
+}
+
+.what-we-serve{
+	background-color:black;
+	height:30rem;
+}
+
+.bullet-points{
+	margin-left:2.5rem;
+	margin-top:3rem;
+	line-height: 1.2;
+	font-size: 1.1em;
+	padding-right:2rem;
+
+}
+.bullet-list{
+	list-style: none;
+}
+.reg-buttons-li{
+	width:16rem;
+}
+
+#footer{
+	background-color: grey;
+	height:24rem;
+}
+
+.footer-top-left{
+	height:13.5rem;
+	background-color: black;
+	color:white;
+	padding-top:1.8rem;
+}
+
+.footer-top-right{
+	padding:1.8rem;
+	color:white;
+}
+
+.dots{
+	font-size: 2em;
+	position:relative;
+	bottom:2.5rem;
+}
+
+.bar{
+	font-size:7em;
+	color:white;
+	position:absolute;
+	top:-3rem;
+	left:2rem;
+
+
+}
+
+.icon{
+	font-size: 4em;
+	color:white;
+	position:absolute;
+	top:2.7rem;
+}
+#copyright{
+	background-color: black;
+	text-align:center;
+	color:grey;
+}
