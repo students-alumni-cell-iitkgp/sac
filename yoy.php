@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <html>
 <head>
   <title>Yearnings of Yore</title>
