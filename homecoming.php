@@ -230,7 +230,6 @@ else
         
 =======
         <h5  style="margin-top: 0px;">POSTPONED ON ACCOUNT OF COVID-19</h5>
->>>>>>> 7edb9436dbfcfa9ba7b7c0b6e59e96387458b89e
       </div>
     </center>
   <div class="col l12 s12 m12">
