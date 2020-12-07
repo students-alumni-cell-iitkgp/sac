@@ -219,7 +219,7 @@ else
   <center>
     <div class="heading ac-head" style="border:3px black solid;display:inline-block;padding-top:2px;margin:3px;padding-right:20px;padding-left:20px;">
         <h4 style="margin-bottom: 0px;" ><b>Homecoming 2020</b> </h4> <br>
-<<<<<<< HEAD
+
         <h5  style="margin-top: 0px;">Postponed on account of COVID-19</h5>
         
       </div>
