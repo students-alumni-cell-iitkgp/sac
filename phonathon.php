@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <html >
 <head>
     <link rel="stylesheet" href="css/materialize.min.css">
