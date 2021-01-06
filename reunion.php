@@ -223,7 +223,7 @@ else
     <div class="row-reg" align="center" height="150px">
      <div class="col l3">
           <div class="heading ac-head" style="border:3px black solid;display:inline-block;padding-top:2px;margin:3px;padding-right:20px;padding-left:20px;margin-bottom:10px;margin-top:10px;">
-            <h4 style="margin-bottom: 0px;" ><b>17th Annual Alumni Meet</b> </h4> <br>
+            <h4 style="margin-bottom: 0px;" ><b>Virtual Reunion</b> </h4> <br>
             <h5  style="margin-top: 0px;">10th to 12th January, 2020</h5>
           </div>
           <p style="width:90%;padding:10px;font-size:17px;text-align:justify">
