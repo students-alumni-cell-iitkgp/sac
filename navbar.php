@@ -90,11 +90,11 @@
     <li><a href="yoy.php">Yearnings of Yore</a></li>
     <li><a href="temposhout_final_6.pdf" target="_blank">Tempo Shout</a></li>
 </ul>
-<ul id="alumni registrations" class="dropdown-content" style="min-width: 200px;">
+<ul id="alumni_registrations" class="dropdown-content" style="min-width: 200px;">
     <li><a href="reunion.php">Virtual Reunion</a></li>
-    >
 </ul>
 <ul id="sponsors" class="dropdown-content" style="min-width: 200px;">
+    <li><a href="sponsors2020.php">2020</a></li>
     <li><a href="sponsors2019.php">2019</a></li>
     <li><a href="sponsors2018.php">2018</a></li>
     <li><a href="sponsors2017.php">2017</a></li>
@@ -110,13 +110,13 @@
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <div class="row">
             <ul class="hide-on-med-and-down _textcolor center-align">
-                <li class="col l2"><a href="index.php">Home</a></li>
-                <li class="col l2"><a href="#!" class="dropdown-button" data-activates="events">Events</a></li>
-                <li class="col l2"><a id="drop1" class="dropdown-button" href="#!" data-activates="initiatives">Initiatives</a></li>
-                <li class="col l2"><a id="drop2" class="dropdown-button" href="#!" data-activates="publications" style="min-width: 100; margin-left: 0;">Publications</a></li>
-                <li class="col l2"><a href="team.php">The&nbspTeam</a></li>
-                <li class="col l2"><a id="drop3" class="dropdown-button" href="#!" data-activates="sponsors">Sponsors</a></li>
-                <li></li>
+                <li class="col l1.5"><a href="index.php">Home</a></li>
+                <li class="col l1.5"><a href="#!" class="dropdown-button" data-activates="events">Events</a></li>
+                <li class="col l1.5"><a id="drop1" class="dropdown-button" href="#!" data-activates="initiatives">Initiatives</a></li>
+                <li class="col l1.5"><a id="drop2" class="dropdown-button" href="#!" data-activates="publications" style="min-width: 100; margin-left: 0;">Publications</a></li>
+                <li class="col l1.5"><a id="drop3" class="dropdown-button" href="#!" data-activates="alumni_registrations" style="min-width: 100; margin-left: 0;">Alumni Registrations</a></li>
+                <li class="col l1.5"><a href="team.php">The&nbspTeam</a></li>
+                <li class="col l1.5"><a id="drop4" class="dropdown-button" href="#!" data-activates="sponsors">Sponsors</a></li>
             </ul>
         </div>
         <ul id="mobile-demo" class="side-nav">
@@ -189,6 +189,7 @@
                         <a class="collapsible-header">Our Sponsors<i class="mdi-navigation-arrow-drop-down"></i></a>
                         <div class="collapsible-body">
                             <ul>
+                                <li><a href="sponsors2020.php">2020</a></li>
                                 <li><a href="sponsors2019.php">2019</a></li>
                                 <li><a href="sponsors2018.php">2018</a></li>
                                 <li><a href="sponsors2017.php">2017</a></li>
