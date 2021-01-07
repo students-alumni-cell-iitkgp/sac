@@ -110,6 +110,13 @@
     .swal-button--confirm {
       margin-left: 40px !important;
     }
+
+    #profile {
+      background-color: #E0F2F1;
+      height : 500px;
+      padding : 10px;
+    }
+   
   </style>
   <body>
 
@@ -121,84 +128,67 @@
       <p class="center">
         We will be showing you important information regarding the meet here. Check back in a few days to find out more about the Alumni Meet.
       </p>
-      <div class="row">
-        <div class="col l7">
-          <div class="container-fluid">
-            <div class="container" style="width: 100%">
-              <div class="card-panel teal lighten-5">
-                <div class="card-title text_align" style="font-weight: bold;font-size: 30px;">
-                  Payment Details
-                </div>
-                Every visiting alumnus has to pay INR 7000. This includes your accomodation, fooding and conveyance charge at Kharagpur. If there is any other person accompanying you an additional payment of INR 4000 per head will have
-                to be made.
-                <br>
-                <br>
-                <strong>REMARK-</strong> After making the Payment Kindly revert back with your transaction id and payment mode on aao@hijli.iitkgp.ernet.in
-                <br>
-                <br> <b>Payment methods:-</b>
-                <ul class="">
-                   <li class="">
-                    <strong>1. Online Payment</strong>
-                    <br> You can make online payment: For online payment click <a href="https://www.eduqfix.com/OnlineAdmissionPortal/#/iitkR/add" target="_blank" style="font-weight:bold">here</a>
+      <table>
+        <tr>
+          <th style="height: 400px"><img src="img/vr_dashboard.jpg" style="height:750px"></th>
+          <th id="profile" style="background-color:white;width 40%; height : 230px; margin-top:300px">
+          <div class="col l5 m12 s12" id="intro">
+          <div class="card-panel teal lighten-5 " style="width: 50%;text-align: 60px;">
+            <div class="row">
+              <div style="width: 100%;" class="container center l12"><a style="font-size:20px;cursor:pointer;background-color: #666;height:auto; "  class="waves-effect waves-light btn modal-trigger " href="#modal1">View Registered Alumni </a></div>
+            </div>
+            <h3 style="width: 100%; text-align: center;" >Welcome</h3>
+            <?php include 'profile_pic.php'; ?>
 
-                  </li>
-                  <li class="">
-                    <strong>2. Demand Draft</strong>
-                    <br> You can pay by sending a cheque or demand draft (DD) if favour of "Virtual Reunion 2021" payable at Kharagpur on the address:
-                    <br> Students&rsquo; Alumni Cell
-                    <br> Office of Alumni Affairs and International Relations
-                    <br> Indian Institute of Technology Kharagpur
-                    <br> Kharagpur - 721302
-                    <br> West Bengal (INDIA)
-                  </li>
-                  <li class="">
-                    <strong>3. NEFT</strong>
-                    <br> You can also transfer the payment through Internet Banking and email us the receipt.
-                    <br> Account Details
-                    <!-- <br> Bank Name: Syndicate Bank
-                    <br> Branch: IIT Kharagpur, SRIC
-                    <br> IFSC Code: SYNB0009556
-                    <br> A/C No.: 95562200012031
-                    <br> Account Name: Annual Alumni Meet<br>
-                    <br><b style="font-size: 200%;">&nbsp &nbsp &nbsp OR</b><br> -->
-                     <br> Bank Name: HDFC Bank Ltd
-                    <br> Branch: Kharagpur
-                    <br> IFSC Code: HDFC0001065
-                    <br> A/C No.: 50100217409918
-                    <br> Account Name: IIT KGP AAIR EVENTS FUND
-                  </li>
-                </ul>
-              </div>
-              <div class="card-panel teal lighten-5">
-                <div class="card-title text_align" style="font-weight: bold;font-size: 30px;">
-                  Transportation Details
-                </div>
-                Conveyance from Kharagpur Railway Station to IIT Kharagpur will be provided by us.<br><br>
-                If you require transportation from Kolkata to IIT Kharagpur, it can be arranged through us on chargeable basis. Kindly Fill your details in this form.<br><br><br>
-                <?php if ($query_run2->num_rows > 0) {
-              echo '<div class="row">
-              <div style="width: 100%;" class="container center l12"><span style="font-size:20px;cursor:pointer;background-color: #666;height:auto; " onclick="openNav()" id="button02" class="waves-effect waves-light btn-large "> Edit Transportation and Accomodation details</span></div>
-            </div>';
-          } else {
-            echo '<div class="row">
-            <div style="width: 100%;" class="container center l12"><span style="font-size:20px;cursor:pointer;height: auto;background-color: #666; " onclick="openNav()" id="button01" class="waves-effect waves-light btn-large ">Provide Your Travel Details and Accomodation Preferences</span></div>
-          </div>';
-        }
-        ?>
-      </div>
-<!--
-              <div class="card-panel teal lighten-5 " style="text-align: 40px;">
-                <div class="container-fluid">
-                  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSef24kChTbQuYZzLVFlfvedqlhtvudBd1IOJ5MTqc-O7wov2Q/viewform?embedded=true" width="100%" height="60%" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-                </div>
-              </div>
-            -->
-
+            <div class="row">
+              <div class="col l6 m12 s12 center headl"></div>
+              <div>Name</div>
+              <div class="col l6 m12 s12 input center"><?php  echo $name;  ?></div><br>
+              <div>Hall</div>
+              <div class="col l6 m12 s12 input center"><?php  echo $hall;  ?></div><br>
+              <div>Department</div>
+              <div class="col l6 m12 s12 input center"><?php  echo $dept;  ?></div>
             </div>
           </div>
+          <div class="row">
+            <div style="width: 100%;" class="container center l12"><a style="font-size:20px;cursor:pointer;height: auto;background-color: #666; width: 100% " class="waves-effect waves-light btn-large" href="edit.php">Edit Registration form</a>
+            </div>
+          </div>
+          </th>
+        </tr>
+      </table>
+      <!-- <div class="top">
+        <div class="profile" style="background-color:white;width 40%; height : 200px; margin-top:300px">
+          <h3>Welcome</h3>
+          <h3><?php  echo $name;  ?></h3>
+        </div>
+      </div> -->
+      <!-- <div class="row">
+        <div class="col l6 m12 s12">
+          <div class="container-fluid">
+            <div class="container" style="width: 100%">
+                <img src="img/vr_dashboard.jpg" />
+            </div>
+            <div class="container">
+              <div style="width: 50%;" class="container center l4"></div><a style="font-size:20px;cursor:pointer;background-color: #666;height:auto; "  class="waves-effect waves-light btn modal-trigger " href="#modal1">View Registered Alumni </a></div>
+            </div>
+            <h3 style="width:50%; text-align: center;" >Welcome</h3>
+
+            <div class="row">
+              <div class="col l6 m12 s12 center headl"></div>
+              <div class="col l6 m12 s12 center headl">Name</div>
+              <div class="col l6 m12 s12 input center"><?php  echo $name;  ?></div>
+            </div>
+    
+            </div>
+            </div>
+          </div>
+          <div class="col l4 m12 s12">
+            
+             
         </div>
         <div class="col l5 m12 s12" id="intro">
-          <div class="card-panel teal lighten-5 " style="width: 100%;text-align: 40px;">
+          <div class="card-panel teal lighten-5 " style="width: 50%;text-align: 40px;">
             <div class="row">
               <div style="width: 100%;" class="container center l12"><a style="font-size:20px;cursor:pointer;background-color: #666;height:auto; "  class="waves-effect waves-light btn modal-trigger " href="#modal1">View Registered Alumni </a></div>
             </div>
@@ -209,38 +199,14 @@
               <div class="col l6 m12 s12 center headl">Name</div>
               <div class="col l6 m12 s12 input center"><?php  echo $name;  ?></div>
             </div>
-            <div class="row">
-              <div class="col l6 m12 s12 center headl">Travel Details</div>
-              <div class="col l6 m12 s12 input center"><?php if ($query_run1->num_rows > 0) {
-                echo "Provided";
-              } else {
-                echo "Pending";
-              }
-              ?></div>
-            </div>
-            <div class="row">
-              <div class="col l6 m12 s12 center headl">Accomodation Preference</div>
-              <div class="col l6 m12 s12 input center"><?php if ($query_run2->num_rows > 0) {
-                echo "Provided";
-              } else {
-                echo "Pending";
-              }
-              ?></div>
-            </div>
-
-        <!--added  -->
-
-
-
-
-        <!--till here-->
-        <div class="row">
-          <div style="width: 100%;" class="container center l12"><a style="font-size:20px;cursor:pointer;height: auto;background-color: #666; width: 100% " class="waves-effect waves-light btn-large" href="edit.php">Edit Registration form</a>
           </div>
-        </div>
-      </div>
-    </div>
-    <div class="col l5 m12 s12" id="profilepic">
+          <div class="row">
+            <div style="width: 100%;" class="container center l12"><a style="font-size:20px;cursor:pointer;height: auto;background-color: #666; width: 100% " class="waves-effect waves-light btn-large" href="edit.php">Edit Registration form</a>
+            </div>
+          </div>
+      </div> -->
+    <!-- </div> -->
+    <!-- <div class="col l5 m12 s12" id="profilepic">
       <div class="card-panel teal lighten-5 " style="width: 100%;text-align: 40px;">
         <h3 style="width: 100%; text-align: center; font-size:250%; " >Picture for Alumni Card</h3>
         <div class="container">
@@ -253,7 +219,7 @@
           <?php include 'profile_pic.php'; ?>
         </div>
       </div>
-    </div>
+    </div> -->
     <div class="col l5 m12 s12" id="profilepic">
       <div class="card-panel teal lighten-5 " style="width: 100%;text-align: 40px;">
       <p style="text-align: justify;">
