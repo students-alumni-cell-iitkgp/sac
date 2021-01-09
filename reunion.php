@@ -233,7 +233,7 @@ else
            </p> -->
           <div class="row" style=" margin-top:20px; margin-bottom:25px;">
             <a class="waves-effect waves-light btn-large modal-trigger" href="#modal1" style="width: 30%">LOGIN</a>
-            <a class="waves-effect waves-light btn-large" style="width: 30%" href = "signup.php">17th Annual Alumni Meet Registration</a>
+            <a class="waves-effect waves-light btn-large" style="width: 30%" href = "signup.php">Virtual Reunion Registration</a>
           </div>
      </div>
     </div> 

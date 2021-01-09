@@ -83,16 +83,17 @@
     <li><a href="imprint.php">My Imprint</a></li>
     <li><a href="sparc.php">SPARC</a></li>
     <li><a href="acap.php">ACAP</a></li>
-    <li><a href="https://medium.com/@studentsalumnicell.iitkgp" target="_blank">Alumni Blog</a></li>
+    <li><a href="affinity.php">Affinity</a></li>
+    <li><a href="https://studentsalumnicell-iitkgp.medium.com/" target="_blank">Alumni Blog</a></li>
 </ul>
 <ul id="publications" class="dropdown-content" style="min-width: 200px;">
     <li><a href="yearbook.php">Yearbook</a></li>
     <li><a href="yoy.php">Yearnings of Yore</a></li>
     <li><a href="temposhout_final_6.pdf" target="_blank">Tempo Shout</a></li>
 </ul>
-<ul id="alumni_registrations" class="dropdown-content" style="min-width: 200px;">
+<!-- <ul id="alumni_registrations" class="dropdown-content" style="min-width: 200px;">
     <li><a href="reunion.php">Virtual Reunion</a></li>
-</ul>
+</ul> -->
 <ul id="sponsors" class="dropdown-content" style="min-width: 200px;">
     <li><a href="sponsors2020.php">2020</a></li>
     <li><a href="sponsors2019.php">2019</a></li>
@@ -114,7 +115,7 @@
                 <li class="col l1.5"><a href="#!" class="dropdown-button" data-activates="events">Events</a></li>
                 <li class="col l1.5"><a id="drop1" class="dropdown-button" href="#!" data-activates="initiatives">Initiatives</a></li>
                 <li class="col l1.5"><a id="drop2" class="dropdown-button" href="#!" data-activates="publications" style="min-width: 100; margin-left: 0;">Publications</a></li>
-                <li class="col l1.5"><a id="drop3" class="dropdown-button" href="#!" data-activates="alumni_registrations" style="min-width: 100; margin-left: 0;">Alumni Registrations</a></li>
+                <!-- <li class="col l1.5"><a id="drop3" class="dropdown-button" href="#!" data-activates="alumni_registrations" style="min-width: 100; margin-left: 0;">Alumni Registrations</a></li> -->
                 <li class="col l1.5"><a href="team.php">The&nbspTeam</a></li>
                 <li class="col l1.5"><a id="drop4" class="dropdown-button" href="#!" data-activates="sponsors">Sponsors</a></li>
             </ul>
@@ -149,6 +150,7 @@
                                 <li><a href="imprint.php">My Imprint</a></li>
                                 <li><a href="sparc.php">SPARC</a></li>
                                 <li><a href="acap.php">ACAP</a></li>
+                                <li><a href="affinity.php">Affinity</a></li>
                                 <li><a href="https://medium.com/@studentsalumnicell.iitkgp" target="_blank">Alumni Blog</a></li>
                             </ul>
                         </div>
@@ -169,7 +171,7 @@
                     </li>
                 </ul>
             </li>
-            <li class="no-padding">
+            <!-- <li class="no-padding">
                 <ul class="collapsible collapsible-accordion">
                     <li>
                         <a class="collapsible-header">Alumni Registrations<i class="mdi-navigation-arrow-drop-down"></i></a>
@@ -181,7 +183,7 @@
                         </div>
                     </li>
                 </ul>
-            </li>
+            </li> -->
             <li><a href="team.php">The Team</a></li>
             <li class="no-padding">
                 <ul class="collapsible collapsible-accordion">
