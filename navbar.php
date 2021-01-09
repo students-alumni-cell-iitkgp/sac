@@ -70,6 +70,7 @@
 </div>
 <div  class="white" id="nav" style="margin-top: 0px;">
 <ul id="events" class="dropdown-content" style="min-width: 200px;">
+    <li><a href="reunion.php">Virtual Reunion</a></li>
     <li><a href="aam.php">Annual Alumni Meet</a></li>
     <li><a href="homecoming.php">Homecoming</a></li>
     <li><a href="sam.php">Student Alumni Meet</a></li>
@@ -128,6 +129,7 @@
                         <a class="collapsible-header">Events<i class="mdi-navigation-arrow-drop-down"></i></a>
                         <div class="collapsible-body">
                             <ul>
+                                <li><a href="reunion.php">Virtual Reunion</a></li>
                                 <li><a href="aam.php">Annual Alumni Meet</a></li>
                                 <li><a href="homecoming.php">Homecoming</a></li>
                                 <li><a href="sam.php">Student Alumni Meet</a></li>
