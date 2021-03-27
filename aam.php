@@ -224,8 +224,23 @@ else
   <div class="reg">
     <div class="row-reg" align="center" height="150px">
      <div class="col l3">
+     <div class="row">
+  <center>
+    <div class="heading ac-head" style="border:3px black solid;display:inline-block;padding-top:2px;margin:3px;padding-right:20px;padding-left:20px;">
+        <h4 style="margin-bottom: 0px;" ><b>Annual Alumni Meet 2021</b> </h4> <br>
+
+        <h5  style="margin-top: 0px;">Postponed on account of COVID-19</h5>
+        
+      </div>
+      <div class="heading ac-head" style="display:inline-block;padding-top:2px;margin:3px;padding-right:20px;padding-left:20px;">
+      <p style="width:90%;padding:10px;font-size:17px;text-align:justify">
+          It is with a heavy heart that we have to inform you that the 18Th Annual Alumni Meet, which was originally scheduled for January 2021 has been postponed due to the Corona Virus Pandemic. We wish everyone good health in these difficult times and will pray for the safety and well being of each of you. We will convey any further developments regarding the Homecoming in the future.
+       </p>
+       <br>
+
+  
           <div class="heading ac-head" style="border:3px black solid;display:inline-block;padding-top:2px;margin:3px;padding-right:20px;padding-left:20px;margin-bottom:10px;margin-top:10px;">
-            <h4 style="margin-bottom: 0px;" ><b>17th Annual Alumni Meet</b> </h4> <br>
+            <h4 style="margin-bottom: 0px;" ><b> A Glimpse into the 17th Annual Alumni Meet</b> </h4> <br>
             <h5  style="margin-top: 0px;">10th to 12th January, 2020</h5>
           </div>
           <p style="width:90%;padding:10px;font-size:17px;text-align:justify">

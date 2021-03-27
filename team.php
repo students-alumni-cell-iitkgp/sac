@@ -346,7 +346,9 @@ body {
             <h5 style="margin-top: 50px">Vishaw Kashyap</h5>
             <ul>
               <li style="padding-left: 15px;">+91-7051222639</li>
-              <li style="padding-left: 15px;margin-left: -7%;">paulmadhumita101@gmail.com</li>
+              <li style="padding-left: 15px;margin-left: -7%;"> 
+              vishaw786@gmail.com 
+          </li>
             </ul>
           </div>
           <div class="s-link">
@@ -377,7 +379,7 @@ body {
  <div class="card card-1" style="left:-170px;">
   <div class="team-member">
     <div class="team-img">
-      <img src="img/team2020/anuja.JPG" alt="team member" class="img-responsive" height="250" width="100%">
+      <img src="img/team2020/anuja.jpg" alt="team member" class="img-responsive" height="250" width="100%">
     </div>
     <div class="team-hover">
       <div class="desk"> <br> <br> <br>
@@ -559,7 +561,7 @@ body {
   <ul>
    <span>
     <b>
-     <li center-align style="font-size: 20;">2019</li>
+     <li style="font-size: 20;">2019</li>
      <hr>
      <li>Shishir Shahi</li>
      <li>Swaraj Prakash</li>
@@ -581,7 +583,7 @@ body {
   <ul>
    <span>
     <b>
-     <li center-align style="font-size: 20;">2018</li>
+     <li style="font-size: 20;">2018</li>
      <hr>
      <li>Gautam Arya</li>
      <li>Vasanta Majety</li>
@@ -603,7 +605,7 @@ body {
   <ul>
    <span>
     <b>
-     <li center-align style="font-size: 20;">2017</li>
+     <li style="font-size: 20;">2017</li>
      <hr>
      <li>Bharat Chandra</li>
      <li>Vishal Kumar Singh</li>
@@ -627,7 +629,7 @@ body {
   <ul>
    <span>
     <b>
-     <li center-align style="font-size: 20;">2016</li>
+     <li style="font-size: 20;">2016</li>
      <hr>
      <li>Mridul Pant</li>
      <li>Vaibhav Chauhan</li>
@@ -647,7 +649,7 @@ body {
   <ul>
    <span>
     <b>
-     <li center-align style="font-size: 20;">2015</li>
+     <li style="font-size: 20;">2015</li>
      <hr>
      <li>Pranshu Jain</li>
      <li>Rohan Gupta</li>
@@ -669,7 +671,7 @@ body {
   <ul>
    <span>
     <b>
-     <li center-align style="font-size: 20;">2014</li>
+     <li style="font-size: 20;">2014</li>
      <hr>
      <li>Arpit Gupta</li>
      <li>Manish Goyal</li>
@@ -691,7 +693,7 @@ body {
   <ul>
    <span>
     <b>
-     <li center-align style="font-size: 20;">2013</li>
+     <li style="font-size: 20;">2013</li>
      <hr>
      <li>Aditi Sharma</li>
      <li>Vedang Deshpande</li>
@@ -713,7 +715,7 @@ body {
   <ul>
    <span>
     <b>
-     <li center-align" style="font-size: 20;">2012</li>
+     <li  style="font-size: 20;">2012</li>
      <hr>
      <li>Apoorv Jain</li>
      <li>Utkarsh Jain</li>
@@ -731,7 +733,7 @@ body {
   <ul>
    <span>
     <b>
-     <li center-align style="font-size: 20;">2011</li>
+     <li style="font-size: 20;">2011</li>
      <hr>
      <li>Nikunj Mall</li>
      <li>Akshat Prakash</li>
@@ -789,7 +791,7 @@ body {
     </div>
 
 </div>
-<?php include 'footer.php';?>
+
 <script type="text/javascript">
  $(".card").mouseenter(function(e){
    if ($(this).find('> .card-reveal').length) {
@@ -817,5 +819,6 @@ body {
            });
        });
      </script>
+
    </body>
-   </html>
+</html>

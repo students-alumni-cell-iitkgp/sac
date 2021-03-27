@@ -26,165 +26,189 @@
             <?php include 'join_us.php' ?>
             <div class="container" align="center">
                 <!-- new -->
-                <div class="row" >
+                
+                  <div class="row" >
                     <div class="col l12">
                         <h2 style="text-align:center;">
                             Major Sponsor 
                             <hr>
                         </h2>
                     </div>
-                    <div class="col l6 m6 s12" align="center">
-                        <a href="https://www.tataprojects.com/" target="_blank"><br> <br>
-                        <img class="spons" src="img/spons/2020/major2.png" width="200px" height="110px"  />
-                        </a>
+                    <div class="col l6 m12 s12" align="center">
+                      <a href="https://www.bajajenergy.com/" target="_blank" >
+                      <img class="spons" src="img/spons/2020/major1.png" width="400px" height="250px" />
+                      </a>
                     </div>
-                    <div class="col l6 m6 s12" align="center">
-                        <a href="http://www.bajajenergy.com/" target="_blank"><br><br>
-                        <img class="spons" src="img/spons/2020/major1.png" width="280px" height="120px"  />
-                        </a>
+                    <div class="col l6 m12 s12" align="center">
+                      <a href="https://www.tataprojects.com/" target="_blank" >
+                      <img class="spons" src="img/spons/2020/major2.png" width="400px" height="250px" />
+                      </a>
                     </div>
                 </div>
-                <br> <br>
-                <!-- new -->
-                <div class="row">
-                    <div class="col l12 m12 s12">
+
+                <div class="row" >
+                    <div class="col l12">
                         <h2 style="text-align:center;">
                             Driven By
                             <hr>
                         </h2>
                     </div>
                     <div class="col l12 m12 s12" align="center">
-                        <a href="https://www.bmw.in/en/index.html" target="_blank">
-                        <img class="spons" src="img/spons/2020/BMW.png" width="400" height="270px"  />
-                        </a>
+                      <a href="https://www.bmw.in/" target="_blank" >
+                      <img class="spons" src="img/spons/2020/BMW.png" width="400px" height="250px" />
+                      </a>
                     </div>
-                </div>
-                <br><br>
-                <!-- new -->
-                <div class="row">
-                    <div class="col l12 m12 s12">
-                        <h2 style="text-align:center;">
-                           Luxury Bike Partner
-                            <hr>
-                        </h2>
-                    </div>
-                    <div class="col l12 m12 s12" align="center">
-                        <a href="https://www.triumphmotorcycles.in/" target="_blank">
-                        <img class="spons" src="img/spons/2020/triumph.png" style="position: relative; top:25px;" width="220px" height="180px"  />
-                        </a>
-                    </div>
-                </div>
-                <br><br><br><br>
-                <!-- new -->
-                <div class="row" >
-                    <div class="col l12">
-                        <h2 style="text-align:center;">
-                            Powered By 
-                            <hr>
-                        </h2><br><br>
-                    </div>
-                    <div class="col l6 m6 s12" align="center">
-                        <a href="https://www.cc.com/" target="_blank">
-                        <img class="spons" src="img/spons/2020/cc.png" width="280px" height="180px"  />
-                        </a>
-                    </div>
-                    <div class="col l6 m6 s12" align="center">
-                        <a href="https://www.mtvbeats.in/" target="_blank">
-                        <img class="spons" src="img/spons/2020/mtv.png" width="280px" height="180px"  />
-                        </a>
-                    </div>
-                </div>
-                <br><br>
-                <!-- new -->
-                <div class="row" >
-                    <div class="col l12">
-                        <h2 style="text-align:center;">
-                             Banking Partner 
-                            <hr>
-                        </h2>
-                    </div>
-                    <div class="col l12 m12 s12" align="center">
-                        <a href="https://www.hdfcbank.com/" target="_blank">
-                        <img class="spons" src="img/spons/2020/hdfc.png" width="280px" height="120px"  />
-                        </a>
-                    </div>
-                </div>
-                <br><br>
+                 </div>   
+
                 <div class="row">
                         <div class="col l12 m12 s12">
                             <h2 style="text-align:center;">
-                                Insurance Partner
-                                <hr>
-                            </h2>
-                            <br>
-                        </div>
-                        <div class="col l12 m12 s12" align="center">
-                            <a href="https://www.maxlifeinsurance.com/" target="_blank">
-                            <img class="spons" src="img/spons/2020/max.png" width="280px" height="180px"  />
-                            </a>
-                        </div>
-                    </div><br><br>
-                    <div class="row">
-                        <div class="col l12 m12 s12">
-                            <h2 style="text-align:center;">
-                                Investment Banking Partner
+                                Luxury Bike Partner
                                 <hr>
                             </h2>
                             <br><br>
                         </div>
                         <div class="col l12 m12 s12" align="center">
-                            <a href="https://www.jmfl.com/" target="_blank">
-                            <img class="spons" src="img/spons/2020/jmf.png" width="280px" height="120px"  />
+                            <a href="https://www.triumphmotorcycles.in/" target="_blank">
+                            <img class="spons" src="img/spons/2020/triumph.png" width="280px" height="120px"  />
                             </a>
                         </div>
                     </div>
                     <br><br>
-                    <!-- new -->
+                
                 <div class="row">
                     <div class="col l12 m12 s12">
                         <h2 style="text-align:center;">
-                            Technology Partner
+                            Powered By
+                            <hr>
+                        </h2>
+                    </div>
+                    <div class="row">
+                        <div class="col l6 m12 s12" align="center">  <a href="https://www.mtvbeats.in/" target="_blank"> <br> <br>
+                            <img class="spons"  src="img/spons/2020/mtv.png" width="250" height="140" />
+                            </a> 
+                        </div>
+                        <div class="col l6 m12 s12"  align="center">  
+                            <a href=" http://www.cc.com/" target="_blank"><br> <br>
+                            <img class="spons"  src="img/spons/2020/cc.png" width="250" height="150" />
+                            </a> 
+                        </div>
+                        
+                    </div>
+                    <br><br>                    
+                </div>
+
+                
+                 <div class="row">
+                    <div class="col l12 m12 s12">
+                        <h2 style="text-align:center;">
+                             Banking Partner
+                            <hr>
+                        </h2>
+                    </div>
+                    <div class="col l12 m12 s12" align="center">
+                        <a href="https://www.hdfcbank.com/" target="_blank">
+                        <img class="spons" src="img/spons/2020/hdfc.png" width="330" height="160px"  />
+                        </a>
+                    </div>
+                </div>
+                <br><br>
+
+
+                <div class="row">
+                    <div class="col l12 m12 s12">
+                        <h2 style="text-align:center;">
+                             Mutual Funds Partner
+                            <hr>
+                        </h2>
+                    </div>
+                    <div class="col l12 m12 s12" align="center">
+                        <a href="https://www.sbimf.com/en-us" target="_blank">
+                        <img class="spons" src="img/spons/2020/SBI.png" width="330" height="160px"  />
+                        </a>
+                    </div>
+                </div>
+                <br><br>
+
+
+                <div class="row">
+                    <div class="col l12 m12 s12">
+                        <h2 style="text-align:center;">
+                             Insurance Partner
+                            <hr>
+                        </h2>
+                    </div>
+                    <div class="col l12 m12 s12" align="center">
+                        <a href="https://www.maxlifeinsurance.com/" target="_blank">
+                        <img class="spons" src="img/spons/2020/max.png" width="330" height="160px"  />
+                        </a>
+                    </div>
+                </div>
+                <br><br>
+
+                <div class="row">
+                    <div class="col l12 m12 s12">
+                        <h2 style="text-align:center;">
+                             Investment Banking Partner
+                            <hr>
+                        </h2>
+                    </div>
+                    <div class="col l12 m12 s12" align="center">
+                        <a href="https://www.jmfl.com/" target="_blank">
+                        <img class="spons" src="img/spons/2020/jmf.png" width="330" height="160px"  />
+                        </a>
+                    </div>
+                </div>
+                <br><br>
+
+                <div class="row">
+                    <div class="col l12 m12 s12">
+                        <h2 style="text-align:center;">
+                             Technology Partner
                             <hr>
                         </h2>
                     </div>
                     <div class="col l12 m12 s12" align="center">
                         <a href="https://www.nabler.com/" target="_blank">
-                        <img class="spons" src="img/spons/2020/Nabler.jpg" width="350px" height="100px"  />
-                        </a>
-                    </div>
-                </div>
-                <br><br><br>
-                <!-- new -->
-                <div class="row">
-                    <div class="col l12 m12 s12">
-                        <h2 style="text-align:center;">
-                            Strategic Partner
-                            <hr>
-                        </h2>
-                    </div>
-                    <div class="col l12 m12 s12" align="center">
-                        <a href="https://nationalinsurance.nic.co.in/" target="_blank">
-                        <img class="spons" src="img/spons/2020/NIC.jpg" width="350px" height="180px"  />
+                        <img class="spons" src="img/spons/2020/Nabler.jpg" width="330" height="160px"  />
                         </a>
                     </div>
                 </div>
                 <br><br>
                 
-                <!-- new -->
                 <div class="row">
                     <div class="col l12 m12 s12">
                         <h2 style="text-align:center;">
-                            Merchandise Partner
+                             Strategic Partner
                             <hr>
                         </h2>
                     </div>
                     <div class="col l12 m12 s12" align="center">
-                        <a href="http://rupa.co.in/" target="_blank">
-                        <img class="spons" src="img/spons/2020/rupa.png" width="240px" height="170px"  />
+                        <a href="https://nationalinsurance.nic.co.in/" target="_blank">
+                        <img class="spons" src="img/spons/2020/NIC.jpg" width="330" height="160px"  />
                         </a>
                     </div>
                 </div>
+                <br><br>
+                
+                 <!-- new -->
+                <div class="row">
+                    <div class="col l12 m12 s12">
+                        <h2 style="text-align:center;">
+                           Exclusive Merchandise Partner
+                            <hr>
+                        </h2>
+                    </div>
+                
+                    <div class="col l12 m12 s12" align="center">
+                        <a href="https://bumchums.in/" target="_blank">
+                        <img class="spons" src="img/spons/2020/bumchums.png" width="230" height="140px"  />
+                        </a>
+                    </div>
+                </div>
+                <br><br>
 
+                
                 <div class="row">
                     <div class="col l12 m12 s12">
                         <h2 style="text-align:center;">
@@ -193,13 +217,14 @@
                         </h2>
                     </div>
                     <div class="col l12 m12 s12" align="center">
-                        <a href="http://www.quickheal.co.in/" target="_blank">
-                        <img class="spons" src="img/spons/2020/qh.png" width="300px" height="170px"  />
+                        <a href="https://www.quickheal.co.in/" target="_blank">
+                        <img class="spons" src="img/spons/2020/QuickHeal.png" width="330" height="160px"  />
                         </a>
                     </div>
                 </div>
+                <br><br>
 
-                <!-- new -->
+
                 <div class="row">
                     <div class="col l12 m12 s12">
                         <h2 class="spons_head" style="text-align:center;" >
@@ -207,75 +232,77 @@
                             <hr>
                         </h2>
                     </div>
-                    <div class="col l12 m12 s12">
-                        <div class="col l4 m4 s12"  align="center">  
+        
+                        <div class="col l4 m4 s12"  align="left">  
                             <a href="https://www.ntpc.co.in/" target="_blank"><br> <br>
-                            <img class="spons"  src="img/spons/2020/ntpc.png" width="300" height="170" />
+                            <img class="spons"  src="img/spons/2020/nptc.png" width="200" height="170" />
                             </a> 
                         </div>
-                        <div class="col l4 m4 s12" align="center">
+                        <div class="col l4 m4 s12" align="left">
                             <a href="https://www.supreme.co.in/" target="_blank">
                             <br><br>
-                            <img class="spons"  src="img/spons/2020/Supreme.png" width="300" height="170" />
+                            <img class="spons"  src="img/spons/2020/Supreme.png" width="190" height="170" />
                             </a> 
                         </div>
-                        <div class="col l4 m4 s12" align="center">
+                        <div class="col l4 m4 s12" align="left">
                             <a href="https://bizacuity.com/" target="_blank">
                             <br><br>
-                            <img class="spons"  src="img/spons/2020/Bizacuity.png" width="300" height="170" />
+                            <img class="spons"  src="img/spons/2020/Bizacuity.png" width="160" height="170" />
                             </a> 
                         </div>
-                        <div class="col l4 m4 s12"  align="center">
+                        <br><br>
+                        <div class="col l4 m4 s12"  align="right">
                             <a href="https://www.dtplindia.in/" target="_blank"> <br> <br>
-                            <img class="spons"  src="img/spons/2020/dest.png" width="190" height="170" />
+                            <img class="spons"  src="img/spons/2020/DE_S TECHNICO.png" width="190" height="170" />
                             </a>
                         </div>
-                        <div class="col l4 m4 s12" align="center">
+                        <div class="col l4 m4 s12" align="right">
                             <a href="https://www.isaimpex.in/" target="_blank">
                             <br><br>
-                            <img class="spons"  src="img/spons/2020/ISA_Impex.png" width="190" height="170" />
+                            <img class="spons"  src="img/spons/2020/ISA Impex.png" width="190" height="170" />
                             </a> 
                         </div>
-                        <div class="col l4 m4 s12" align="center">
+                        <div class="col l4 m4 s12" align="right">
                             <a href="https://www.brnl.in/" target="_blank">
                             <br><br>
-                            <img class="spons"  src="img/spons/2020/BRNL.jpg" width="270" height="170" />
+                            <img class="spons"  src="img/spons/2020/brnl.png" width="190" height="170" />
                             </a> 
                         </div>
-                    </div>
                 </div>
                 <br><br>
-                <div class="row">
+                 <div class="row">
                     <div class="col l12 m12 s12">
                         <h2 style="text-align:center;">
-                            Hospitality Partner
+                             Hospitality Partner
                             <hr>
                         </h2>
                     </div>
                     <div class="col l12 m12 s12" align="center">
                         <a href="http://www.himalayawellness.com/" target="_blank">
-                        <img class="spons" src="img/spons/2020/himalaya.png" width="350px" height="200px"  />
+                        <img class="spons" src="img/spons/2020/Himalaya.png" width="330" height="160px"  />
                         </a>
                     </div>
                 </div>
                 <br><br>
-                 <div class="row">
-                        <div class="col l12 m12 s12">
-                            <h2 style="text-align:center;">
-                                Gadget Partner
-                                <hr>
-                            </h2>
-                            <br><br>
-                        </div>
-                        <div class="col l12 m12 s12" align="center">
-                            <a href="https://www.portronics.com/" target="_blank">
-                            <img class="spons" src="img/spons/2020/port.jpg" width="280px" height="120px"  />
+
+                   <!-- new -->
+                <div class="row">
+                    <div class="col l12 m12 s12">
+                        <h2 style="text-align:center;">
+                            Gadget Partner
+                            <hr>
+                        </h2>
+                    </div>
+                    <div class="row">
+                        <div class="col l12 m12 s12" align="center"> <a href="https://www.portronics.com/" target="_blank">
+
+                            <img class="spons" src="img/spons/2020/port.jpg" width="200" height="150" />
                             </a>
                         </div>
                     </div>
-                    <br><br>
+                    <br><br>                    
+                </div>
 
-                <!-- new -->
                 <div class="row">
                     <div class="col l12 m12 s12">
                         <h2 style="text-align:center;">
@@ -283,62 +310,58 @@
                             <hr>
                         </h2>
                     </div>
-                    <div class="col l12 m12 s12">
-                        <div class="col l12 m12 s12" align="center">  <a href="#" target="_blank"> <br> <br>
-                            <img class="spons"  src="img/spons/2020/Winzeal.jpg" width="220" height="220" />
-                            </a> 
-                        </div>
+                    <div class="col l12 m12 s12" align="center">
+                        <a href="http://winzealtech.com/contact/" target="_blank">
+                        <img class="spons" src="img/spons/2020/Winzeal.jpg" width="330" height="160px"  />
+                        </a>
                     </div>
                 </div>
+                <br><br>
+                
                 <!-- new -->
+              
                 <div class="row">
                     <div class="col l12 m12 s12">
                         <h2 style="text-align:center;">
-                        Talent Management Partner
+                            Talent Managment Partner
                             <hr>
                         </h2>
                     </div>
-                        <div class="col l6 m6 s12" align="center">  <a href="https://www.thegrapevine.co.in/" target="_blank"> <br> <br>
-                            <img class="spons"  src="img/spons/2020/grapewine.PNG" width="170" height="140" />
-                            </a> 
-                        </div>
-                        <div class="col l6 m6 s12" align="center">  <a href="https://www.spectalmanagement.com/" target="_blank"> <br> <br>
-                            <img class="spons"  src="img/spons/2020/Spectal.jpg" width="170" height="140" />
-                            </a> 
-                        </div>
-                    <br><br>                    
+                    <div class="col l6 m12 s12" align="center">
+                        <a href="https://www.thegrapevine.co.in/" target="_blank">
+                        <img class="spons" src="img/spons/2020/grapewine.png" width="300" height="150px"  />
+                        </a>
+                    </div>
+                    <div class="col l6 m12 s12" align="center">
+                        <a href="https://www.spectalmanagement.com/" target="_blank">
+                        <img class="spons" src="img/spons/2020/Spectal.jpg" width="300" height="150px"  />
+                        </a>
+                    </div>
                 </div>
-                <div class="row">
+                <br><br>
+                
+                  <div class="row">
                     <div class="col l12 m12 s12">
                         <h2 style="text-align:center;">
-                        Merchandise Partner
+                           Merchandise Partner
                             <hr>
                         </h2>
                     </div>
-                        <div class="col l6 m6 s12" align="center">  <a href="#" target="_blank"> <br> <br>
-                            <img class="spons"  src="img/spons/2020/OnFit.png" width="170" height="140" />
-                            </a> 
-                        </div>
-                        <div class="col l6 m6 s12" align="center">  <a href="https://www.theowlprints.com/" target="_blank"> <br> <br>
-                            <img class="spons"  src="img/spons/2020/owlprints.png" width="300" height="140" />
-                            </a> 
-                        </div>
-                    <br><br>                    
-                </div>
-                <div class="row">
-                    <div class="col l12 m12 s12">
-                        <h2 style="text-align:center;">
-                        Official Mutual Funds Partner
-                            <hr>
-                        </h2>
+                    <div class="col l6 m12 s12" align="center">
+                        <a href="https://www.onfit.com.ar/" target="_blank">
+                        <img class="spons" src="img/spons/2020/Onfit.png" width="230" height="140px"  />
+                        </a>
                     </div>
-                        <div class="col l12 m12 s12" align="center">  <a href="https://www.sbimf.com/en-us" target="_blank"> <br> <br>
-                            <img class="spons"  src="img/spons/2020/SBIMF.jpg" width="370" height="140" />
-                            </a> 
-                        </div>
-                       
-                    <br><br>                    
+                    <div class="col l6 m12 s12" align="center">
+                        <a href="https://www.owlprints.in/" target="_blank">
+                        <img class="spons" src="img/spons/2020/Owlprints.png" width="230" height="140px"  />
+                        </a>
+                    </div>
+                    
                 </div>
+                <br><br>
+
+                 <!-- new -->
                 <div class="row">
                     <div class="col l12 m12 s12">
                         <h2 style="text-align:center;">
@@ -346,68 +369,66 @@
                             <hr>
                         </h2>
                     </div>
-                    <div class="col l12 m12 s12">
-                        <div class="col l6 m6 s12" align="center">  <a href="http://www.frutigerindia.in/" target="_blank"> <br> <br>
-                            <img class="spons"  src="img/spons/2020/Frutiger.jpg" width="270" height="120" />
-                            </a>
-                        </div>
-                        <div class="col l6 m6 s12" align="center">  <a href="#" target="_blank"> <br> <br>
-                            <img class="spons"  src="img/spons/2020/DC.png" width="270" height="120" />
-                            </a>
-                        </div>
+                    <div class="col l12 m12 s12" align="center">
+                        <a href="http://www.frutigerindia.in/" target="_blank">
+                        <img class="spons" src="img/spons/2020/Frutiger.jpg" width="330px" height="200px"  />
+                        </a>
                     </div>
                 </div>
                 <br><br>
-                <div class="col l12 m12 s12">
+                <!-- new -->
+                <div class="row">
+                    <div class="col l12 m12 s12">
                         <h2 style="text-align:center;">
-                            Stationery Partner
-                            <hr> 
+                            Stationary Partner
+                            <hr>
                         </h2>
                     </div>
-                        <div class="col l6 m6 s12" align="center">
-                            <img class="spons"  src="img/spons/2020/PushpakStationary.png" width="200" height="120" />
-                        </div>
-                        <div class="col l6 m6 s12" align="center">  <a href="https://www.peprilogifts.com/" target="_blank">
-                            <img class="spons"  src="img/spons/2020/pr_traders.jpg" width="200" height="120" />
-                            </a>
-                        </div>
+                    <div class="col l6 m12 s12" align="center">
+                        <a href="https://www.indiamart.com/pushpakstationery/" target="_blank">
+                        <img class="spons" src="img/spons/2020/PushpakStationary.png" width="330px" height="200px"  />
+                        </a>
+                    </div>
+                    <div class="col l6 m12 s12" align="center">
+                        <a href="https://www.indiamart.com/pr-traders-mumbai/" target="_blank">
+                        <img class="spons" src="img/spons/2020/pr traders.jpg" width="330px" height="200px"  />
+                        </a>
+                    </div>
                 </div>
                 <br><br>
-                <div class="row">
+                
+                  <div class="row">
                     <div class="col l12 m12 s12">
                         <h2 class="spons_head" style="text-align:center;" >
                             Gift Partner
                             <hr>
                         </h2>
                     </div>
-                    <div class="row">
+                <div class="row">
                         <div class="col l12 m12 s12">
-                            <div class="col l6 m6 s12" align="center">  <a href="https://www.greenjutex.com/" target="_blank"> <br> <br>
-                                <img class="spons"  src="img/spons/2020/greenjute.jpeg" width="270px" height="160px"/>
+                            <div class="col l6 m12 s12" align="left">  <a href="https://www.indiamart.com/dolly-creations/" target="_blank"> <br> <br>
+                                <img class="spons"  src="img/spons/2020/DOLLY CREATIONS.jpg" width="200px" height="150px" />
                                 </a> 
                             </div>
-                            <div class="col l6 m6 s12"  align="center">
-                                <a href="" target="_blank"> <br> <br>
-                                <img class="spons"  src="img/spons/2019/gp2.jpg" width="270" height="160"/>
+                            <div class="col l6 m12 s12"  align="left">
+                                <a href="https://www.indiamart.com/offiworld/profile.html" target="_blank"> <br> <br>
+                                <img class="spons"  src="img/spons/2020/Offiworld.jpg" width="200" height="150" />
+                                </a>
+                            </div>
+                            <br><br>
+                            <br><br>
+                            <div class="col l6 m12 s12" align="right">
+                                <a href="https://limitlesshunch.com/" target="_blank">
+                                <img class="spons" src="img/spons/2020/LIMITLESS HUNCH.jpg" width="200px" height="150px"  />
+                                </a>
+                            </div>
+                            <div class="col l6 m12 s12" align="right">
+                                <a href="https://www.greenjutex.com/" target="_blank">
+                                <img class="spons" src="img/spons/2020/greenjute.jpeg" width="200px" height="150px"  />
                                 </a>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col l6 m6 s12" align="center">
-                                <a href="https://www.indiamart.com/offiworld/profile.html" target="_blank">
-                                <img class="spons" src="img/spons/2020/Offiworld.jpg" width="270px" height="180px" />
-                                </a>
-                            </div>
-                            <div class="col l6 m6 s12"  align="center">  
-                                <a href="hhttps://limitlesshunch.com/" target="_blank"><br> <br>
-                                <img class="spons"  src="img/spons/2020/lh.jpg" width="270px" height="130px"/>
-                                </a> 
-                            </div>
-                        </div>
-                    </div>
                 </div>
-                <!-- new -->
-                
                 <!-- new -->
                 <div class="row">
                     <div class="col l12 m12 s12">
@@ -416,19 +437,21 @@
                             <hr>
                         </h2>
                     </div>
-                    <div class="col l6 m12 s12" align="center">
-                        <a href="https://www.coca-colaindia.com/" target="_blank">
-                        <img class="spons" src="img/spons/2020/coke.jpg" width="250px" height="140px"  />
-                        </a>
-                    </div>
-                    <div class="col l6 m12 s12" align="center">
-                        <a href="" target="_blank">
-                        <img class="spons" src="img/spons/2020/SIP-O-COOL.jpg" width="250px" height="150px"  />
-                        </a>
+                    <div class="col l12 m12 s12">
+                        <div class="col l6 m6 s12" align="center">  <a href="https://www.coca-colaindia.com/" target="_blank"> <br> <br>
+                            <img class="spons"  src="img/spons/2020/coke.jpg" width="190" height="180" />
+                            </a> 
+                        </div>
+                        <div class="col l6 m12 s12"  align="center">
+                            <a href="" target="_blank"> <br> <br>
+                            <img class="spons"  src="img/spons/2020/SIP-O-COOL.jpg" width="190" height="160" />
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <br><br>
-                <div class="row">
+
+                 <div class="row">
                         <div class="col l12 m12 s12">
                             <h2 style="text-align:center;">
                                 Fine Dine Partner
@@ -443,32 +466,31 @@
                         </div>
                     </div>
                     <br><br>
-
+                 <!-- new -->
                 <!-- new -->
                 <div class="row">
-                    <div class="col l12 m12 s12 ">
-                        <h2 class="spons_head" style="text-align:center;" >
+                    <div class="col l12 m12 s12">
+                        <h2 style="text-align:center;">
                             Food Partner
                             <hr>
                         </h2>
-                    </div> 
+                    </div>
                     <div class="row">
-                        <div class="col l12 m12 s12">
-                            <div class="col l6 m12 s12" align="center">
-                                <a href="https://www.indiamart.com/bittu-chanachur-co/" target="_blank">
-                                <img class="spons" src="img/spons/2020/Bittu.png" width="270px" height="160px"  />
-                                </a>
-                            </div>
-                            <div class="col l6 m12 s12" align="center">
-                                <a href="https://www.jaya-industries.com/" target="_blank">
-                                <img class="spons" src="img/spons/2020/jaya.jpg" width="250px" height="150px"  />
-                                </a>
-                            </div>
+                        <div class="col l6 m12 s12" align="center">  <a href="http://www.bittuchanachur.com/" target="_blank"> <br> <br>
+                            <img class="spons"  src="img/spons/2020/bittu.png" width="250" height="150" />
+                            </a> 
                         </div>
-                    </div>                   
+                        <div class="col l6 m12 s12"  align="center">  
+                            <a href=" " target="_blank"><br> <br>
+                            <img class="spons"  src="img/spons/2020/jaya.jpg" width="250" height="150" />
+                            </a> 
+                        </div>
+                        
+                    </div>
+                    <br><br>                    
                 </div>
-                <br>
-                <!-- new -->
+ 
+                 
                 <div class="row">
                     <div class="col l12 m12 s12">
                         <h2 style="text-align:center;">
@@ -476,66 +498,73 @@
                             <hr>
                         </h2>
                     </div>
-                    <div class="col l12 m12 s12" align="center">
-                        <a href="https://tripathiproducts.in/" target="_blank">
-                        <img class="spons" src="img/spons/2020/tripathi.png" width="270" height="200px"  />
-                        </a>
+                    <div class="row">
+                        <div class="col l12 m12 s12" align="center">  <a href="https://tripathiproducts.in/" target="_blank"> <br> <br>
+                            <img class="spons"  src="img/spons/2020/tripathi.png" width="170" height="140" />
+                            </a> 
+                        </div>
                     </div>
+                    <br><br>                    
                 </div>
-                <br><br>
+
                 <!-- new -->
-                <div class="row">
-                    <div class="col l12 m12 s12">
+                 <div class="row" >
+                    <div class="col l12">
                         <h2 style="text-align:center;">
                             Confectionery Partner
                             <hr>
                         </h2>
                     </div>
                     <div class="col l12 m12 s12" align="center">
-                        <a href="https://www.mioamore.net/" target="_blank">
-                        <img class="spons" src="img/spons/2020/mio.png" width="330" height="200px"  />
-                        </a>
+                      <a href="https://www.mioamore.net/" target="_blank" >
+                      <img class="spons" src="img/spons/2020/mio.png" width="400px" height="250px" />
+                      </a>
                     </div>
-                </div>
-                <br><br>
-                <!-- new -->
+                 </div>   
+
+                
+                 <div class="row">
+                    <div class="col l12 m12 s12">
+                        <h2 style="text-align:center">
+                            SMS Partner 
+                            <hr>
+                        </h2>
+                    </div>
+                    <div class="col l12 m12 s12">
+                        <div class="col l12 m12 s12" align="center">  <a href="https://msg91.com/" target="_blank"> <br> <br>
+                            <img class="spons"  src="img/spons/2020/msg91.png" width="220" height="110" />
+                            </a> 
+                        </div>
+                        
+                    </div>
+                </div>                
+              
+               
+    
+              
                 <div class="row">
                     <div class="col l12 m12 s12">
-                        <h2 style="text-align:center;">
-                        Offical Bulk SMS Partner
+                        <h2 style="text-align:center">
+                            Information Media Partner 
                             <hr>
                         </h2>
                     </div>
-                    <div class="col l12 m12 s12" align="center">
-                        <a href="https://msg91.com/" target="_blank">
-                        <img class="spons" src="img/spons/2020/msg91.png" width="230" height="140px"  />
+
+                    <div class="col l6 m12 s12" align="center">
+                       <a href="https://text160.in/" target="_blank" >
+                       <img class="spons" src="img/spons/2020/Text160.jpg" width="300" height="150" />
+                       </a>
+                    </div>
+                    <div class="col l6 m12 s12" align="center">
+                        <a href="https://www.tekhook.in/" target="_blank">
+                        <img class="spons" src="img/spons/2020/Tekhook.jpg" width="300" height="120px"  />
                         </a>
                     </div>
                 </div>
                 <br><br>
                 <!-- new -->
-                <div class="row">
-                    <div class="col l12 m12 s12 ">
-                        <h2 class="spons_head" style="text-align:center;" >
-                        Information Media Partner
-                            <hr>
-                        </h2>
-                    </div> 
-                    <div class="row">
-                        <div class="col l12 m12 s12">
-                            <div class="col l6 m12 s12" align="center">
-                                <a href="https://www.tekhook.in/" target="_blank">
-                                <img class="spons" src="img/spons/2020/Tekhook.jpg" width="270px" height="160px"  />
-                                </a>
-                            </div>
-                            <div class="col l6 m12 s12" align="center">
-                                <a href="https://text160.in/" target="_blank">
-                                <img class="spons" src="img/spons/2020/Text160.jpg" width="250px" height="150px"  />
-                                </a>
-                            </div>
-                        </div>
-                    </div>                   
-                </div>                   
+               
+                <br><br>                   
             </div>
         </div>
         <?php include 'footer.php';?>

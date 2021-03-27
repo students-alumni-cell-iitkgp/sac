@@ -2,7 +2,7 @@
 <head>
   <meta charset="UTF-8">
 
-  <title>Register | Homecoming &middot; IIT Kharagpur</title>
+  <title>Register | Virtual Reunion &middot; IIT Kharagpur</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link rel="icon" href="img/meet_14.png">
@@ -123,14 +123,14 @@ else
           <div class="heading">
 
             <hr><hr><br>
-            <div>
+            <!-- <div>
               <p style="text-align: center; max-width: 800px">
               The registration fee per alumnus/alumna is INR 7000 and INR 4000 per every additional guest. It includes food, accommodation and travel with in the campus. Please make the payment along with the registration to confirm your participation in the event. It can be done via the online payment portal that will be accessible after registration. Please fill the registration form below and take note of password for future login.</p>
               </div>
               <br><hr><hr><br><br>
               <div><a class="waves-effect waves-light btn-large modal-trigger" href="aam.php" >LOGIN - If already Registered</a></div>
               <br><br>
-            </div>
+            </div> -->
 
             <h class="subheading"><b>Personal Details</b> </h>
 
