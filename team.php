@@ -469,7 +469,7 @@ body {
   </div>
 </div>
 <div class="team-title" style="padding-top:0px;">
-  <h5 style="text-align: center;font-size: 120%;">Pransang Kumar</h5>
+  <h5 style="text-align: center;font-size: 120%;">Prasang Kumar</h5>
 
 </div>
 </div>
