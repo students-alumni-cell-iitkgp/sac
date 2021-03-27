@@ -61,7 +61,7 @@
     }
     }
     .dropdown-content li {
-    text-align: center !important;  
+    text-align: center !important;
     }
 </style>
 <div class="row" id="logo" style="background-color: white; margin-bottom: 0px; display: none;">
@@ -70,6 +70,7 @@
 </div>
 <div  class="white" id="nav" style="margin-top: 0px;">
 <ul id="events" class="dropdown-content" style="min-width: 200px;">
+    <!-- <li><a href="reunion.php">Virtual Reunion</a></li> -->
     <li><a href="aam.php">Annual Alumni Meet</a></li>
     <li><a href="homecoming.php">Homecoming</a></li>
     <li><a href="sam.php">Student Alumni Meet</a></li>
@@ -83,14 +84,17 @@
     <li><a href="imprint.php">My Imprint</a></li>
     <li><a href="sparc.php">SPARC</a></li>
     <li><a href="acap.php">ACAP</a></li>
-    <li><a href="https://medium.com/@studentsalumnicell.iitkgp" target="_blank">Alumni Blog</a></li>
-    <li><a href="affinity.php">Affinity programme</a></li>
+    <li><a href="affinity.php">Affinity</a></li>
+    <li><a href="https://studentsalumnicell-iitkgp.medium.com/" target="_blank">Alumni Blog</a></li>
 </ul>
 <ul id="publications" class="dropdown-content" style="min-width: 200px;">
     <li><a href="yearbook.php">Yearbook</a></li>
     <li><a href="yoy.php">Yearnings of Yore</a></li>
     <li><a href="temposhout_final_6.pdf" target="_blank">Tempo Shout</a></li>
 </ul>
+<!-- <ul id="alumni_registrations" class="dropdown-content" style="min-width: 200px;">
+    <li><a href="reunion.php">Virtual Reunion</a></li>
+</ul> -->
 <ul id="sponsors" class="dropdown-content" style="min-width: 200px;">
     <li><a href="sponsors2020.php">2020</a></li>
     <li><a href="sponsors2019.php">2019</a></li>
@@ -108,14 +112,13 @@
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <div class="row">
             <ul class="hide-on-med-and-down _textcolor center-align">
-                <li class=""><a href="index.php">Home</a></li>
-                <li class=""><a href="#!" class="dropdown-button" data-activates="events">Events</a></li>
-                <li class=""><a id="drop1" class="dropdown-button" href="#!" data-activates="initiatives">Initiatives</a></li>
-                <li class=""><a id="drop2" class="dropdown-button" href="#!" data-activates="publications" style="min-width: 100; margin-left: 0;">Publications</a></li>
-                <li class=""><a href="team.php">The&nbspTeam</a></li>
-                <li class="" style="font-size: 5px text-align:inherit;"><a href="http://www.alumni.iitkgp.ac.in/AlumniIITKGP/EmailReg">Alumni-Reg</a></li>
-                <li class=""><a id="drop3" class="dropdown-button" href="#!" data-activates="sponsors">Sponsors</a></li>
-                <li></li>
+                <li class="col l1.5"><a href="index.php">Home</a></li>
+                <li class="col l1.5"><a href="#!" class="dropdown-button" data-activates="events">Events</a></li>
+                <li class="col l1.5"><a id="drop1" class="dropdown-button" href="#!" data-activates="initiatives">Initiatives</a></li>
+                <li class="col l1.5"><a id="drop2" class="dropdown-button" href="#!" data-activates="publications" style="min-width: 100; margin-left: 0;">Publications</a></li>
+                <!-- <li class="col l1.5"><a id="drop3" class="dropdown-button" href="#!" data-activates="alumni_registrations" style="min-width: 100; margin-left: 0;">Alumni Registrations</a></li> -->
+                <li class="col l1.5"><a href="team.php">The&nbspTeam</a></li>
+                <li class="col l1.5"><a id="drop4" class="dropdown-button" href="#!" data-activates="sponsors">Sponsors</a></li>
             </ul>
         </div>
         <ul id="mobile-demo" class="side-nav">
@@ -126,6 +129,7 @@
                         <a class="collapsible-header">Events<i class="mdi-navigation-arrow-drop-down"></i></a>
                         <div class="collapsible-body">
                             <ul>
+                                <!-- <li><a href="reunion.php">Virtual Reunion</a></li> -->
                                 <li><a href="aam.php">Annual Alumni Meet</a></li>
                                 <li><a href="homecoming.php">Homecoming</a></li>
                                 <li><a href="sam.php">Student Alumni Meet</a></li>
@@ -148,8 +152,8 @@
                                 <li><a href="imprint.php">My Imprint</a></li>
                                 <li><a href="sparc.php">SPARC</a></li>
                                 <li><a href="acap.php">ACAP</a></li>
+                                <li><a href="affinity.php">Affinity</a></li>
                                 <li><a href="https://medium.com/@studentsalumnicell.iitkgp" target="_blank">Alumni Blog</a></li>
-                                <li><a href="affinity.php">Affinity programme</a></li>
                             </ul>
                         </div>
                     </li>
@@ -169,14 +173,27 @@
                     </li>
                 </ul>
             </li>
+            <!-- <li class="no-padding">
+                <ul class="collapsible collapsible-accordion">
+                    <li>
+                        <a class="collapsible-header">Alumni Registrations<i class="mdi-navigation-arrow-drop-down"></i></a>
+                        <div class="collapsible-body">
+                            <ul>
+                                <li><a href="reunion.php">Virtual Reunion</a></li>
+    
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </li> -->
             <li><a href="team.php">The Team</a></li>
-            <li><a href="http://www.alumni.iitkgp.ac.in/AlumniIITKGP/EmailReg">Alumni Registraion</a></li>
             <li class="no-padding">
                 <ul class="collapsible collapsible-accordion">
                     <li>
                         <a class="collapsible-header">Our Sponsors<i class="mdi-navigation-arrow-drop-down"></i></a>
                         <div class="collapsible-body">
                             <ul>
+                                <li><a href="sponsors2020.php">2020</a></li>
                                 <li><a href="sponsors2019.php">2019</a></li>
                                 <li><a href="sponsors2018.php">2018</a></li>
                                 <li><a href="sponsors2017.php">2017</a></li>
