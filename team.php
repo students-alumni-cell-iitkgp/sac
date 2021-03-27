@@ -454,7 +454,7 @@ body {
     </div>
     <div class="team-hover">
       <div class="desk"> <br> <br> <br>
-        <h5>Pransang Kumar</h5>
+        <h5>Prasang Kumar</h5>
         <ul>
          <li style="padding-left: 15px;">+91-9931176420</li>
          <li style="padding-left: 15px;margin-left: -7%; ">mail.prasangkr@gmail.com</li>
