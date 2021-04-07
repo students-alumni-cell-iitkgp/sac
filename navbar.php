@@ -1,6 +1,6 @@
 <script>
     $(document).ready(function(){
-    if ($(window).width() > 992) {
+    if ($(window).width()>992) {
      (function($){ $('#logo').show();
        var $navbar= $('#nav'),
        y_pos =$navbar.offset().top,
