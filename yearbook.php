@@ -71,7 +71,7 @@
         <div class="col s12 m6 l3">
         <div class="card z-depth-0 _card">
           <div class="card-image">
-          <a href="https://drive.google.com/drive/folders/0ByPZPiiPCG8_dl9fc2I2bFdHUmc" target="_blank">
+          <a href="https://drive.google.com/drive/folders/16VS_Rfn4EwXUa1QFhvGN2abyfQ4Tzcn-?usp=sharing" target="_blank">
               <img src="img/yearbook/year2019.jpg" style="height: 354px">
             </a>
           </div>
