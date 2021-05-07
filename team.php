@@ -426,7 +426,7 @@
                   <div class="s-link">
                     <a target="_blank" href="https://www.facebook.com/tanwir.singh.77"><i class="fa fa-facebook"></i></a>
                     <a target="_blank" href="https://www.linkedin.com/in/tanwir-singh/"><i class="fa fa-linkedin"></i></a>
-                    <a target="_blank" href="https://github.com/anujaraj"><i class="fa fa-github"></i></a>
+                    <a target="_blank" href="https://github.com/tanwir1703"><i class="fa fa-github"></i></a>
                   </div>
                 </div>
               </div>
@@ -454,7 +454,7 @@
                   <div class="s-link">
                     <a target="_blank" href="https://www.facebook.com/aryan.lohani.9"><i class="fa fa-facebook"></i></a>
                     <a target="_blank" href="https://www.linkedin.com/in/aryan-raj-lohani-2002/"><i class="fa fa-linkedin"></i></a>
-                    <a target="_blank" href="https://github.com/yuktabagdi"><i class="fa fa-github"></i></a>
+                    <a target="_blank" href="https://github.com/AryanLohani"><i class="fa fa-github"></i></a>
 
                   </div>
                 </div>
