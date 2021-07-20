@@ -166,7 +166,7 @@
                 <div style="margin-top: 30px">
                     <div class="row" style="min-height: 400px">
                     
-                        <div class="col l3 eventscol" style="margin-top: 1em;">
+                        <div class="col l3" style="margin-top: 1em;">
                             
                         <!-- <div class="row z-depth-1" style="background-color: white">
             
@@ -195,33 +195,18 @@
                             
                        <div class="row z-depth-1" style="background-color: white"><center><p style="font-size:25;color: black;padding-top: 15px;margin-bottom: 15px;"><b>Notice Board</b></p></center></div>
                             <br>                                                    
-                            <div class="row z-depth-1 marquee" id="mholder data" style="background-color: white;height:240px;overflow:hidden;padding:5px;margin-top:-13.5%;overflow:  hidden;">
+                            <div class="row z-depth-1 " id="mholder data" style="background-color: white;height:240px;overflow:hidden;padding:5px;margin-top:-13.5%;overflow:  hidden;">
                                 <div class="row">
-                                    <div class="card horizontal marqueeElement" style="font-size: 14px;margin-top: -5%" >
+                                    <div class="card horizontal " style="font-size: 14px;margin-top: -5%" >
                                         <div class="card-stacked">
                                             <div class="card-image col l4" style="margin-top: -2%">
                                                 <center>
-                                                    <br><font size="5" style="margin-left: -1%"><b>JAN<br>8</b></font><br>
+                                                    <br><font size="5" style="margin-left: -1%"><b>JULY<br>25</b></font><br>
                                                 </center>
                                             </div>
                                             <div class="card-content col l8" style="border-bottom: unset;;margin-bottom: -4%">
-                                                <p>Registrations for the 17th Annual Alumni Meet have been closed.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                <div class="row">
-                                    <div class="card horizontal marqueeElement" style="font-size: 14px;margin-top: -5%" >
-                                        <div class="card-stacked">
-                                            <div class="card-image col l4" style="margin-top: -2%">
-                                                <center>
-                                                    <br><font size="5" style="margin-left: -1%"><b>NOV<br>3</b></font><br>
-                                                </center>
-                                            </div>
-                                            <div class="card-content col l8" style="border-bottom: unset;;margin-bottom: -4%">
-                                                <p>Glimpses of Student Alumni Meet - Kolkata '18 <a href="https://medium.com/@studentsalumnicell.iitkgp/student-alumni-meet-kolkata-2018-cfce5313ffb3?fbclid=IwAR2W_bA-gTDayPJWqj_lZ7TSQ_v5ueXLjsp36VgzHO3MjcCdQ8yUDDuMcQ0">Click here</a>
+                                                <p>WE ARE HIRING!<br>
+                                                <a href="https://forms.gle/gfxCNnq3mniNTQdc9"> Click Here !</a> to Register. 
                                                 </p>
                                             </div>
                                         </div>
@@ -236,17 +221,9 @@
                             </div>
                             <div style="background-color: white;">
                                 <p class="z-depth-1 text_align" style="font-size: 16px;padding: 1.9em 2.3em">
-                                    The Students' Alumni Cell, IIT Kharagpur is a voluntary student body working under the aegis
-                                    of the Dean of Alumni Affairs and International Relations. It strives to bridge the gap between
-                                    IIT Kharagpur and its esteemed alumni community.<br>
+                                The Students' Alumni Cell, IIT Kharagpur is a voluntary student body working under the aegis of the Dean Outreach. It strives to bridge the gap between IIT Kharagpur and its esteemed alumni community.<br>
                                     <br>
-                                    The Students' Alumni Cell continuously endeavours to strengthen the relations of
-                                    the alumni of this Institute and their alma mater.
-                                    It has been instrumental in organising the Annual Alumni Meet, Regional Student Alumni Meet,
-                                    regular guest lectures by distinguished alumni in the campus, publishing the annual
-                                    literary magazine (Yearnings of Yore) & the annual yearbook.
-                                    The Students' Alumni Cell also operates the Student - Alumni Mentorship Programme, My Imprint
-                                    (Giving Back - Alumni contribution) and organises Alvida (the annual farewell dinner).
+                                    The Students' Alumni Cell continuously endeavours to strengthen the relations of the alumni of this Institute and their alma mater. It has been instrumental in organising the Annual Alumni Meet, Regional Student Alumni Meet, regular guest lectures by distinguished alumni in the campus, Leadership Summit, publishing the annual literary magazine (Yearnings of Yore) & the annual Yearbook. The Students' Alumni Cell also operates the Student - Alumni Mentorship Programme, My Imprint (Giving Back - Alumni contribution) and organises Alvida (the annual farewell dinner).
                                 </p>
                             </div>
                         </div>
