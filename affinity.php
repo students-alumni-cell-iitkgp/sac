@@ -158,15 +158,15 @@
     </div>
   </div>
 
-<div style='background-color:#F4F4F4;'>
+<!-- <div style='background-color:#F4F4F4;'>
   <div class="row" style="padding-top:10px;">
     <center>
       <a id="button" style="height:8%;;padding-top:0px;color:black;" class="waves-effect waves-light btn">  <h5><b> Current Associations</b> </h5></a>
     </center>
   </div>
-</div>
+</div> -->
 
-<div class = "row">
+<!-- <div class = "row">
           <div class="col l4 s4 m4">
                 .
               </div>
@@ -190,7 +190,7 @@
                     </div>
                     
           </div>
-<br></br>
+<br></br> -->
 <div class = "row">
           <div class="col l12 s12 m12">
                 .
@@ -203,6 +203,48 @@
       <a id="button" style="height:8%;;padding-top:0px;color:black;" class="waves-effect waves-light btn">  <h5><b> Previous Association</b> </h5></a>
     </center>
   </div>
+  <div class="row">
+                      <div class="col l2 s1 m2">
+                        -
+                      </div>
+                      <div class="col l4 s12 m4">  
+                        <div class="card z-depth-0 _card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" style="height=300px" src="img/afinity/headspace.jpeg">
+                                
+                            </div>
+                            <div class="card-reveal">
+                                  <span class="card-title grey-text text-darken-4">-<i class="material-icons right"></i></span>
+                                  <p class="text_align" style="font: 20px"><b>The benefits of this association include:</b><br>
+                                  1. Six months of free subscription.<br>
+                                  2. Guided online meditation resources.<br>
+                                  3. Guided sessions on stress management, happiness, resilience and physical health.<br>  
+                                  4. <a href='https://www.headspace.com/' target='_blank'>CLICK HERE</a>  
+                               </p>
+                              </div>  
+                        </div>
+                      </div>
+                      
+            
+                      <div class="col l4 s12 m4">
+                      <div class="card z-depth-0 _card">
+                          <div class="card-image waves-effect waves-block waves-light">
+                              <img class="activator" src="img/afinity/hdfc.png">
+                          </div>
+                          
+                          <div class="card-reveal">
+                              <span class="card-title grey-text text-darken-4">-<i class="material-icons right"></i></span>
+                              <p class="text_align"><b>The benefits of this association includes: </b><br>
+                                  New upgraded HDFC bank Diners Club Black Credit Card. (Annual Memberships, Monthly Milestone benefits and other added features).<br>
+                                   
+                                  <a href="Diners-Privilege.pdf">Life Time Free Diners Black Card</a> <br>
+                                  <a href="Diners-Black-New.pdf">Priced Diners Black card</a><br>
+                              </p>
+                          </div>
+                      </div>  
+                   </div>
+              
+            </div>
 
             <div class="row">
                       <div class="col l2 s1 m2">
