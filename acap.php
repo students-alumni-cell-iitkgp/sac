@@ -156,8 +156,8 @@
 	  						<br>
 	  						<br>
 	  						<li>
-	  							<a type="button" class="btn btn-dark btn-lg reg-buttons-li"  href="https://docs.google.com/forms/d/e/1FAIpQLSejIgrjMbpu1hKv7-7vbaBsp2uQy5oqFf5uceiN6ag51yKRug/viewform?embedded=true" target="_blank">Alumni Registration</a> &nbsp
-				       			<a type="button" class="btn btn-dark btn-lg reg-buttons-li"  href="https://docs.google.com/forms/d/e/1FAIpQLScjniqADo6i3FHVhyfM3Xl21rNFmOTDyVZaTZA-8lxidM86Qg/viewform?embedded=true" target="_blank"> Student Registration </a>
+	  							<a type="button" class="btn btn-dark btn-lg reg-buttons-li"  href="https://forms.gle/87UzenwNPZ8cW6XPA" target="_blank">Alumni Registration</a> &nbsp
+				       			<a type="button" class="btn btn-dark btn-lg reg-buttons-li"  href="https://forms.gle/mY5xTYgN83Dncgcb7" target="_blank"> Student Registration </a>
 
 				       		</li>
 	  					</ul>
