@@ -81,9 +81,9 @@
 </ul>
 <ul id="initiatives" class="dropdown-content" style="min-width: 200px;">
     <li><a href = "mentorship.php">Mentorship Programme</a></li>
-    <li><a href="imprint.php">My Imprint</a></li>
+    <li><a href="myimprint.php">My Imprint</a></li>
     <li><a href="sparc.php">SPARC</a></li>
-    <li><a href="acap.php">ACAP</a></li>
+    <li><a href="ACAP.php">ACAP</a></li>
     <li><a href="affinity.php">Affinity</a></li>
     <li><a href="https://studentsalumnicell-iitkgp.medium.com/" target="_blank">Alumni Blog</a></li>
 </ul>
