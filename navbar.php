@@ -94,7 +94,7 @@ display: block;}
 								 <li><a class="dropdown-item" href="homecoming.php"> Homecoming </a></li>
 								 <li><a class="dropdown-item" href="leadershipsummit.php"> Leadership Summit </a></li>
 								 <li><a class="dropdown-item" href="phonathon.php"> Phonathon </a></li>
-								<li><a class="dropdown-item" href="SAM.php"> Students Alumni Meet </a></li>			
+								<li><a class="dropdown-item" href="mentorship.php"> Students Alumni Meet </a></li>			
 							</ul>
 						</div>
 
@@ -106,7 +106,7 @@ display: block;}
 							<li><a class="dropdown-item" href="affinity.php"> Affinity Programme </a></li>
 							<li><a class="dropdown-item" href="https://studentsalumnicell-iitkgp.medium.com/" target = "_blank"> Alumni Blog </a></li>
 							<li><a class="dropdown-item" href="myimprint.php"> My Imprint </a></li>
-							<li><a class="dropdown-item" href="mentorship.php"> SAMP</a></li>
+							<li><a class="dropdown-item" href="SAMP.php"> SAMP</a></li>
 							<li><a class="dropdown-item" href="sparc.php"> SPARC </a></li>
 						</ul>
 					</li>
@@ -144,3 +144,4 @@ display: block;}
 </body>
 
 </html>
+
