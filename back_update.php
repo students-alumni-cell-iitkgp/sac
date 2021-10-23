@@ -43,8 +43,9 @@
       // Connecting to the Database
       $servername = "172.17.0.8";
       $username = "root";
-      $password = "";
-      $database = "Sac@123";
+      $password = "Sac@123";
+      $database = "aam";
+
 
       // Create a connection
       $conn = mysqli_connect($servername, $username, $password, $database);
@@ -56,7 +57,7 @@
         // Submit these to a database
         // Sql query to be executed 
         //$sql = "INSERT INTO `alumni` (`name`, `address` ,`city`,`state`,`country`,`zipcode`,`mobile`,`dob`) VALUES ('$name', '$address' ,'$city','$state','$country','$zipcode','$mobile','$dob')";
-        $sql = "UPDATE `aam` SET `name` = '$name',
+        $sql = "UPDATE `users` SET `name` = '$name',
                                  `address` = '$address' ,
                                  `city` = '$city',
                                  `state`          = '$state',
