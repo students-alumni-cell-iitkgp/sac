@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <!-- CSS only -->
@@ -595,7 +596,7 @@
         //        cost = 900 + 7500;
         //    }
 
-           document.getElementById("cost").value =  "Total Cost = "+cost+ "Rupee";
+           document.getElementById("cost").value =  "Total Cost = Rs"+cost;
 
            console.log(cost);
        }
