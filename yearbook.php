@@ -32,13 +32,6 @@
             color: #00416d !important;
             border-color: #00416d !important;
         }
-        body{
-            background: #ff512f;
-            /* fallback for old browsers */
-            background: url(../img/yearbook/main-building-with-stars.jpg);
-            background-size: cover;
-            background-position: bottom;
-        }
 
     </style>
 </head>
