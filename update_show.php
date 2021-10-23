@@ -100,11 +100,11 @@
 
                             <label>
                                 Email ID
-                                <span style="color:red;">*</span>
+                                <span style="color:red;"></span>
                             </label>
                             <div class="input-group mb-3">
                                 <span class="input-group-text" style="font-weight: 600;" id="basic-addon1"><i class="fas fa-envelope"></i></span>
-                                <input class="form-control" type="email" name="email" id="email" value = "<?php echo "$email"?>" required>
+                                <input class="form-control" type="email" name="email" id="email" value = "<?php echo "$email"?>" readonly>
                             </div>
                             
                         </div>
