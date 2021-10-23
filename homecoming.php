@@ -1,421 +1,353 @@
-<html>
-<script type="text/javascript">
-$(function () {
+<!DOCTYPE html>
+<html lang="en">
 
-        $('#form1').on('submit', function (e) {
-
-          e.preventDefault();
-
-          $.ajax({
-            type: 'post',
-            url: 'aamlogin.php',  
-            data: $('#form1').serialize(),
-            success: function (response) {
-               if(response== 0 )
-               {
-                swal({
-  title: "INCOMPLETE DETAILS!",
-  text: "Please enter email-id and password!",
-  icon: "error",
-  buttons: true,
-  dangerMode: true,
-}).then((value) => {
- 
-});
-}
-else if(response== 1 )
-               {
-                swal({
-  title: "INVALID LOGIN!",
-  text: "Please re-enter your email and password!",
-  icon: "error",
-  buttons: true,
-  dangerMode: true,
-}).then((value) => {
- 
-});
-}
-else if(response== 2 )
-  {
- window.location="home_hc.php";
-//alert(response);
-}
-else
-{
-  alert(response);
-}
-            }
-          });
-
-        });
-
-      });
-</script> 
-<script type="text/javascript">
-  $(function () {
-      $('#sweetalert').on('click', function () {
-          swal({
-  title: "SORRY!",
-  text: "Registrations have been closed",
-  icon: "error",
-  buttons: true,
-  dangerMode: true,
-});
-      });
-  });
-</script>
-
-
-<html>
 <head>
-<title>Homecoming | Students' Alumni Cell &middot; IIT Kharagpur</title>
-<link rel="stylesheet" href="css/materialize.min.css">
-<link rel="icon"  href="img/meet_14.png">
-  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
- <script src="js/materialize.min.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+  <title>Homecoming</title>
+  <link rel="stylesheet" type="text/css" href="css/homecoming.css">
+  <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@200&display=swap" rel="stylesheet">
+  <style type="text/css">
+   .img{
+	   background-image:url(img/homecomingc/compressed homecoming_poster.jpg);
+	   background-size:100% 100%;
+	   height:700px
+   }
+   .padding{
+	   padding:0 9rem;
+   }
+  
 
-    <script type="text/javascript">
-        $(document).ready(function(){
-          // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
-          $('.modal-trigger').leanModal();
-        });
-    </script>
-
-    <script type="text/javascript">
-$(function () {
-
-        $('#form1').on('submit', function (e) {
-
-          e.preventDefault();
-
-          $.ajax({
-            type: 'post',
-            url: 'hclogin.php',
-            data: $('#form1').serialize(),
-            success: function (response) {
-               if(response== 0 )
-               {
-                swal({
-  title: "INCOMPLETE DETAILS!",
-  text: "Please enter email-id and password!",
-  icon: "error",
-  buttons: true,
-  dangerMode: true,
-}).then((value) => {
- 
-});
-}
-else if(response== 1 )
-               {
-                swal({
-  title: "INVALID LOGIN!",
-  text: "Please re-enter your email and password!",
-  icon: "error",
-  buttons: true,
-  dangerMode: true,
-}).then((value) => {
- 
-});
-}
-else if(response== 2 )
-  {
- window.location="home_hc.php";
-//alert(response);
-}
-else
-{
-  alert(response);
-}
-            }
-          });
-
-        });
-
-      });
-</script> 
-
-<style type="text/css">
-.hr{
-
-  align-conten
-}
-   
-   #button{
-
-    padding:10px;
-    display:inline;
+   @media only screen and (max-width:500px){
+	.padding{
+	   padding:0 1rem;
+   }
+   .img{
+	  height:330px;
+	  margin-bottom:0px;
+   }
+   .section-2{
+	   margin-top:-250px;
+	   margin-bottom:-100px;
    }
 
-   @media only screen and (min-width: 768px){
-     .ac-head{
-       margin-top:-20px;
-     }
-    .aam-reg{
-      height: 380px;
-    }
-     .aam-reg a{
-      margin-top: 60px;
-      display: inline-block;
-    }
-      .ac-aam{
-        margin-left: 0px;
-        width:100vw;
-        
-    }
-   } 
-    @media only screen and (max-width: 468px){
-    *{
-    margin:0px;
-    padding:0px;}
-      .ac-aam img{ height: 30%;
-    margin: 0px auto;
-    max-width:100%;
-    }
-    .info {
-      width: 330px;
-      text-align: center;
-    }
-    
-    .aam-reg{
-      height: 150px;
-      margin-top: 10px;
-    }
-    .aam-reg a{
-      margin-top: 10px;
-    } 
-    .view{
-    position:absolute;
-    left:0px;
-}
-  #button{
-    display: inherit;
-    width: 300px;
-    padding: 0px
-
-  }
- .hr{
-
-  margin-left: 13%;
- }
-
-  }
-</style>
+   }
+  </style>
 </head>
-
 <body>
-  <div class="_wrapper" style="overflow: hidden;" >
-    <?php include 'navbar.php';?>
-
-    
-
-      <div class="row ac-aam">
-        <img src="img/homecoming.jpg" style="margin-left: 0px;width: 100vw;height:70% " > 
-</div>
-  <div class="row">
-  <center>
-    <div class="heading ac-head" style="border:3px black solid;display:inline-block;padding-top:2px;margin:3px;padding-right:20px;padding-left:20px;">
-        <h4 style="margin-bottom: 0px;" ><b>Homecoming 2020</b> </h4> <br>
-        <h5  style="margin-top: 0px;">Postponed on account of COVID-19</h5>
-        
-      </div>
-      <div class="heading ac-head" style="display:inline-block;padding-top:2px;margin:3px;padding-right:20px;padding-left:20px;">
-      <p style="width:90%;padding:10px;font-size:17px;text-align:justify">
-          It is with a heavy heart that we have to inform you that the 3rd edition of the Homecoming, which was originally scheduled for August 2020 has been postponed due to the Corona Virus Pandemic. We wish everyone good health in these difficult times and will pray for the safety and well being of each of you. We will convey any further developments regarding the Homecoming in the future.
-      </p>
-        
-      </div>
-    </center>
-  <div class="col l12 s12 m12">
-       
-    <center>
-    <p style="width:90%;padding:10px;font-size:17px;text-align:justify">
-      We live our day to day lives oblivious to the beauty that surrounds us and by the time we do realise what exactly it is that we've been blessed with, it's generally too late. However when the good ol' days call yet again, nostalgia surrounds us as we walk the hallowed boulevards of our youth. The Homecoming brings to our alumni a chance to reconnect with their Alma Mater. It lets them relive the carefree days of their college lives as they get a chance to visit all the locations they once frequented. The <b>Homecoming 2020</b> will be organized for the batches of <b>2000</b>, <b>2005</b> and <b>2010</b>.
-    </p>
-  </center>
-  </div>
+<section class="section-1">
+      <?php include'navbar.php' ?>
+    <header>
+	<div class="img">
+	</div>
+	</header>
+  </section>
   
-  </div>
-<!-- <div class="row" >
 
-          <div class="offset-l3 col l3"><a class="waves-effect waves-light btn-large modal-trigger" href="#modal1" style="width: 105%;height:5em;padding-top: 10px" >LOGIN</a>
-          </div>
-              <br><br>
-          <div class="col l3"><a href="signup.php" class="waves-effect waves-light btn" id="sweetalert" style="width: 105%;height: 5em">Homecoming 2020 <br> Registration</a>
-          </div>
-          
-    
-</div> -->
-<!--
-<center>
-<p style="font-size:17px;">
-  *Registrations for Homecoming will close on 7th August.
-</p>
-<p style="font-size:17px;">
-  **No refunds will be initiated from now on. The inconvinience caused is deeply regretted.
+    <section class="section-2 pt-0 pe-1" style="padding-bottom:10rem;">
+	<div class="container-fluid" >
+		<div class="row">
+			<div class="col-md-7">
+				<h1 class="one">ABOUT US</h1>
+				<div class="row">
+					<div class="col-md-10 ml-4 col-12 ml-1 justify-content-left">
+				<p class="pt-3 x">
+				We live our day to day lives oblivious to the beauty that surrounds us and by the time we do realise what
+				exactly it is that we've been blessed with, it's generally too late. However when the good ol' days call
+				yet again, nostalgia surrounds us as we walk the hallowed boulevards of our youth. The Annual Alumni Meet 
+				brings to our alumni a chance to reconnect with their Alma Mater. It lets them relive the carefree days of 
+				their college lives as they get a chance to visit all the locations they once frequented.
+            </p>
+			</div>
+			</div>
 
-</p>
-</center>
--->
-<br><br>
-<hr class="hr" style="color:grey;width:80%">
-<div class="col l12 s12 m12">
-    <center>
-    <br><br>
-    <div class="heading ac-head" style="border:3px black solid;display:inline-block;padding-top:2px;margin:3px;padding-right:20px;padding-left:20px;">
-        <h4 style="margin-bottom: 0px;" ><b>Glimpses of Homecoming 2019</b> </h4> <br>
-        <h5  style="margin-top: 0px;">16th to 18th August, 2019</h5>
-      </div>
-    <br><br>
-    <p style="width:90%;padding:10px;font-size:17px;text-align:justify">
-      The <b>Homecoming 2019</b> was organised from <b>16th to 18th August, 2019</b> for the batches of <b>1999</b>, <b>2004</b> and <b>2009</b>. The Homecoming is now a major event anticipated by both the alumni and the students. As the years pass by and winds of change keep blowing, it shall too keep evolving with the pace of time, hoping to bring to the alumni an experience that they may cherish all their lives.
-    </p>
-  </center>
-  <br>
-  </div>
-    <!---  Modal Structure For login - -->
+			</div>
+			<div class="col-md-5">
+			<div class="container">
+				<div class="row d-flex justify-content-center">
+					<div class="col-md-10 col-12 trailer" style="padding-top:3.5rem; padding-bottom:15rem;">
+						<div class="first"></div>
+						<div class="second"></div>
+						<div class="third">
+							<img src="img/homecomingc/compressed homecoming/group2.jpg" class="img-2 x">
 
-    <div id="modal1" class="modal ">
-        <div class="modal-content">
+</div>						
 
-            <div class="row">
-                <form class="col s12 center-align" id="form1">
-                    <div class="row">
-                        <h2>LOGIN</h2>
-                        <div class="input-field col s12">
-                            <i class="material-icons prefix">account_circle</i>
-                            <input id="icon_prefix" type="email" class="validate" name="email">
-                            <label for="icon_prefix">Email ID</label>
-                        </div>
-                        <div class="input-field col s12">
-                            <i class="material-icons prefix">vpn_key</i>
-                            <input id="icon_telephone" type="password" class="validate" name="password">
-                            <label for="icon_telephone">Password</label>
-                        </div>
-                        <button class="btn-large waves-effect waves-light " type="submit" name="action" style="margin-top:15px; width:200px;">Log In
-                            <i class="material-icons right">send</i> </button>
-                    </div>
-                </form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</section> 
+
+<section class="section-3">
+
+	<div class="container-fluid pt-3">
+	<div style="padding:0 2rem;">
+		<div class="row">
+		<div class="col-md-3 d-flex justify-content-center" style="padding:0 0rem;">
+				<h2 class="gallery-h3 pt-5 text-center">Grand Reunion</h2>
             </div>
-        </div>
-        <div class="modal-footer">
-            <a href="#!" class=" modal-action modal-close waves-effect waves-blue btn-flat">CLOSE</a>
-        </div>
-    </div>
-  <!-- login Modal end -->
-<div class="images" style="background:white;">
-  <div class="row">
-    <div class="col l6">
-      <center>
-        <br>
-      <img src="img/14th_aam/reunion.jpg" style="width:90%;">
-      </center>
-    </div>
-    <div class="col l6">
-      <br>
-      <center>
-        <h4 style="padding-top:20px">Grand Reunion</h4>
-      <p style="width:90%;padding:20px;font-size:17px">
-        Students' Alumni Cell recently organised Homecoming 2019 which was a fun and fascinating trip down the memory lane that gave our alumni an opportunity to see old friends again and catch up with them. They came across places and stories that were almost forgotten. Some things changed, some stayed the same. After some great conversation, all those years wherein they had not seen each other seem to just fade away. You would never want to miss the excitement and renewed camaraderie during the reunion.
-      </p>
-      </center>
-    </div>
-  </div>
+			<div class="col-md-9">
+			<div class="container">
+			<div class="row d-flex justify-content-center">
+			<div class="col-md-8 x">
+					<div class="image pt-3 ">
+
+					<img src="img/homecomingc/compressed homecoming/netaji2.jpg" class="img-fluid image__img">
+					<div class="image__overlay image__overlay--primary text-center">
+					</div></div>
+				</div>			
+				<div class="col-md-4 x align-items-center">
+						<div class="image pt-3">
+
+					<img  src="img/homecomingc/compressed homecoming/award1.jpg" class="img-fluid image__img">
+					<div class="image__overlay image__overlay--primary">
+							<div class="image__title"></div>
+							<p class="image__description"></p>	
+				</div></div>
+				<div class="image pt-3">
+					<img  src="img/homecomingc/compressed homecoming/award2.jpg" class="img-fluid image__img">
+					<div class="image__overlay image__overlay--primary">
+							<div class="image__title"></div>
+							<p class="image__description"></p>	
+				</div></div>					</div>
+			</div>
+			</div>
+	</div>
+	<!-- </div> -->
+	</div>
+	</div>
+  </section>
+  <section class="section-3 pt-3">
+	<div class="container-fluid p-0">
+	<div style="padding:0 2.4rem;">
+		<div class="row">
+			<div class="col-md-3 d-flex justify-content-center" style="padding:0 0rem;">
+				<h1 class="gallery-h3 pt-5 text-center" >Musical Night</h1>
+			</div>		
+			<div class="col-md-9">
+			<div class="container">
+			<div class="row d-flex justify-content-center">
+			<div class="col-md-3 x pr-0 pt-2">			
+				<div class="image pt-3 pb-3">
+					<img  src="img/homecomingc/compressed homecoming/gala2.jpg" class="img-fluid image__img">
+					<div class="image__overlay image__overlay--primary text-center">
+							<div class="image__title">Gala Dinner</div>
+							<p class="image__description"></p>	
+				</div></div>
+					<div class="image pt-3 pb-3">
+					<img  src="img/homecomingc/compressed homecoming/gala4.jpg" class="img-fluid image__img"><div class="image__overlay image__overlay--primary">
+							<div class="image__title">Gala Dinner</div>
+							<p class="image__description"></p>	
+				</div></div>			
+			</div>
+			<div class="col-md-9 x pl-1">
+				<div class="image">
+					<img  src="img/homecomingc/compressed homecoming/collage_homecoming.jpg" class="img-fluid image__img">
+					<div class="image__overlay image__overlay--primary text-center">
+							<div class="image__title">Musical Night</div>
+							<p class="image__description">Taking a trip back to memory lane, Students' alumni cell presented Eastern Technology Music Society that took our alumni back, straight to 
+							their KGP days as they sang with us just like they used to do it in their college days.</p>	
+				</div></div>
+			</div>
+			</div>
+			</div>
+	</div>
+	</div>
+	</div>
+	</div>
+  </section>
+
+
+<section class="section-3 pt-3">
+	<div class="container-fluid p-0">
+	<div style="padding:0 3rem;">
+		<div class="row">
+			<div class="col-md-3 d-flex justify-content-center">
+				<h1 class="gallery-h3 pt-5 text-center">Campus Tour</h1>
+			</div>		
+			<div class="col-md-9">
+			<div class="container">
+			<div class="row d-flex justify-content-center">
+			<div class="col-md-4 x align-items-center">
+					
+				<div class="image">
+					<img  src="img/homecomingc/compressed homecoming/group1.jpg" class="img-fluid image__img">
+					<div class="image__overlay image__overlay--primary text-center">
+							<div class="image__title">Campus Tour</div>
+							<p class="image__description more-text">Campus Tour is our way of showing the 2200 acre campus in a nutshell and highlighting all the major developments around.
+</p>	
+				</div></div>
+				<div class="image pt-3">
+
+					<img  src="img/homecomingc/compressed homecoming/campus_tour.jpg" class="img-fluid image__img">
+					<div class="image__overlay image__overlay--primary text-center">
+							<div class="image__title">Campus Tour</div>
+							<p class="image__description">Remember the place where we took our first picture in the campus</p>	
+				</div></div>
+				
+			</div>
+			<div class="col-md-8 x">
+				<div class="image">
+					<img src="img/homecomingc/compressed homecoming/group2.jpg" class="img-fluid image__img">
+					<div class="image__overlay image__overlay--primary text-center">
+							<div class="image__title">Campus Tour</div>
+							<p class="image__description"> In the progressive world we live in, there are a lot of changes and yet a lot of constants and it’s a pleasure to see the 
+							newer developments in harmony with the same old roads.</p>	
+				</div></div>
+			</div>
+			</div>
+			</div>
+	</div>
+	</div>
+	</div>
+	</div>
+  </section>
+  <section class="section-3 pt-3">
+	<div class="container-fluid p-0">
+	<div style="padding:0 3rem;">
+		<div class="row">
+			<div class="col-md-3 d-flex justify-content-center">
+				<h1 class="gallery-h3 pt-5 text-center">Department Visit</h1>
+			</div>		
+			<div class="col-md-9">
+			<div class="container">
+			<div class="row d-flex justify-content-center">
+			<div class="col-md-6 x align-items-center">
+					<div class="image">
+					<img  src="img/homecomingc/compressed homecoming/dept4.jpg" class="img-fluid image__img">
+				      <div class="image__overlay image__overlay--primary text-center">
+							<div class="image__title">Department Visit</div>
+							<p class="image__description">Departments are our own shrine of knowledge filled with
+							bittersweet memories, and a visit surely brings back memories of all the hard work,
+							learning, and excitement</p>
+				</div></div>
+				
+			</div>
+			<div class="col-md-6 x">
+									<div class="image">
+					<img  src="img/homecomingc/compressed homecoming/dept.jpg" class="img-fluid image__img">
+				      <div class="image__overlay image__overlay--primary text-center">	
+				</div></div>
+			</div>
+			<div class="col-md-6 x">
+									<div class="image pt-3">
+					<img  src="img/homecomingc/compressed homecoming/dept5.jpg" class="img-fluid image__img">
+				      <div class="image__overlay image__overlay--primary text-center">	
+				</div></div>
+			</div>
+			<div class="col-md-6 x">
+									<div class="image pt-3">
+					<img  src="img/homecomingc/compressed homecoming/dept2.jpg" class="img-fluid image__img">
+				      <div class="image__overlay image__overlay--primary text-center">	
+				</div></div>
+			</div>
+			</div>
+			</div>
+	</div>
+	</div>
+	</div>
+	</div>
+  </section>
+
+
+<section class="section-3 pt-3">
+	<div class="container-fluid p-0">
+	<div style="padding:0 3rem;">
+		<div class="row">
+			<div class="col-md-3 d-flex justify-content-center">
+				<h1 class="gallery-h3 pt-5 text-center">Entertania</h1>
+			</div>		
+			<div class="col-md-9">
+			<div class="container">
+			<div class="row d-flex justify-content-center">
+			<div class="col-md-8 x">
+				<div class="image">
+
+					<img src="img/homecomingc/compressed homecoming/comedian.jpg" class="img-fluid image__img">
+					<div class="image__overlay image__overlay--primary text-center">
+							<div class="image__title">Stand-Up Comedy</div>
+							<p class="image__description">Smiles can cast the most powerful spell of love and happiness.</p>	
+				</div></div>
+			</div>
+			<div class="col-md-4 x align-items-center">
+					
+				<div class="image">
+
+					<img  src="img/homecomingc/compressed homecoming/etms1.jpg" class="img-fluid image__img">
+					<div class="image__overlay image__overlay--primary">
+							<div class="image__title"></div>
+							<p class="image__description"></p>	
+				</div></div>
+				<div class="image pt-3">
+					<img  src="img/homecomingc/compressed homecoming/etms2.jpg" class="img-fluid image__img"><div class="image__overlay image__overlay--primary">
+							<div class="image__title"></div>
+							<p class="image__description"></p>
+				</div></div>
+				
+			</div>
+			</div>
+			</div>
+	</div>
+	</div>
+	</div>
+	</div>
+  </section>
+  <section class="section-3 pt-3 pb-5">
+	<div class="container-fluid p-0">
+	<div style="padding:0 3rem;">
+		<div class="row">
+			<div class="col-md-3 d-flex justify-content-center">
+				<h1 class="gallery-h3 pt-5 text-center">Illumination</h1>
+			</div>		
+			<div class="col-md-9">
+			<div class="container">
+			<div class="row d-flex justify-content-center">
+			<div class="col-md-8 x">
+					<div class="image">
+					<img src="img/homecomingc/compressed homecoming/lantern2.jpg" class="img-fluid image__img">
+					<div class="image__overlay image__overlay--primary text-center">
+							<div class="image__title">Illumination</div>
+							<p class="image__description">The Illumination with diyas followed by the release of sky lanterns creates 
+							an aura of happiness all around before we kick.</p>	
+				</div></div>
+				</div>			
+	</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	</div>
+  </section>
+
+  <?php include'footer.php' ?>
+  <!-- <?php include 'preloader.php' ?> -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   
-<hr class="hr" style="color:grey;width:70%">
-  <div class="row">
-    <div class="col l6">
-      <br>
-      <center>
-      <h4 style="font-style:;padding-top:20px">2.2 Marathon</h4>
-      <p style="width:90%;padding:20px;font-size:17px">
-        The iconic marathon track that our campus possesses is inviting enough for everyone to run their problems off. With the alumni coming back after such a long time the Institute fails not to teach them a thing or two again with the run for health in the 2.2 marathon organized early in the morning. Students and alumni run together to foster the spirit of good health and harmony. 
-      </p>
-      </center>
-    </div>
-    <div class="col l6">
-      <center>
-        <br>
-      <img src="img/14th_aam/marathon.jpg" style="width:90%;">
-      </center>
-    </div>
-  </div>
-</div>
-  
-  <hr class="hr" style="color:grey;width:70%">
-  <div class="row">
-    <div class="col l6">
-      <center>
-        <br>
-      <img src="img/14th_aam/hall_visit.jpg" style="width:90%;">
-      </center>
-    </div>
-    <div class="col l6">
-      <br>
-      <center>
-        <h4 style="font-style:;padding-top:20px">Hall Visit</h4>
-      <p style="width:90%;padding:20px;font-size:17px">
-        Every KGPian shares a strong bond with their Hall. Visiting a place where we spent the 4 most important years of our life is a stimulus enough to send shivers down our body. The place where we learnt and lived is sure to have latched a fragment of our soul inside it. To come back to our hall of residence is nothing less than a reunion of the parts of our soul. The alumni got the chance to walk through the corridors and reminisce the impressions that they left. 
-      </p>
-      </center>
-    </div>
-  </div>
-  <hr class="hr" style="color:grey;width:70%">
-  <div class="row">
-    <div class="col l6">
-      <br>
-      <center>
-        <h4 style="padding-top:20px">Campus Tour</h4>
-      <p style="width:90%;padding:20px;font-size:17px">
-        In the progressive world we live in, there are a lot of changes and yet a lot of constants remain too. The pleasure pulses kick in when we get to see the same old buildings and roads lying in harmony with the new developments all around. Campus Tour is our way of showing the 2200 acre campus in a nutshell and highlighting all the major developments around.
-      </p>
-      </center>
-    </div>
-    <div class="col l6">
-      <center>
-        <br>
-      <img src="img/14th_aam/campus_tour.jpg" style="width:90%;">
-      </center>
-    </div>
-  </div>
-  
-  
-    
+  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+   <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
+	<script>
+		
+	var arr = document.getElementsByClassName("x");
+    for(var i=0; i<arr.length;i++)
+    {
+        gsap.from(arr[i], {
+        scrollTrigger: {
+        trigger: arr[i],
+        toggleActions: "play none none none"
+           },
+        opacity:0,
+        duration:1.5, 
+		y:50 
+         });  
+}  
 
-
-<hr class="hr" style="color:grey;width:70%">
-  <div class="row">
-    <div class="col l6">
-      <center>
-        <br>
-      <img src="img/14th_aam/dept_visit.jpg" style="width:90%;">
-      </center>
-    </div>
-    <div class="col l6">
-      <br>
-      <center>
-        <h4 style="font-style:;padding-top:20px">Department Visit</h4>
-      <p style="width:90%;padding:20px;font-size:17px">
-        Sweet and salty memories of slogging in labs, fighting sleep and attempting to learn is something that all our departments gave us. If IIT Kharagpur was a temple of knowledge then our department is where the main shrine of this temple resides. A visit back to this shrine is sure to bring back the blended feelings of hard work, procrastination, learning and excitement.
-      </p>
-      </center>
-    </div>
-  </div>
-
-</div>
-
-    
-
-    <div class="photos" style="padding-bottom:10px;margin-top: -40px">
-      <center>
-        <p style="width:90%;padding:5px;display: inline;font-size:17px">For more photos, kindly click on:</p>
-        <a id="button" class="waves-effect waves-light btn" href=" https://drive.google.com/drive/folders/12E0iqLcU-4lahFelrtu34_zNNBRF1jA1" target="_blank">Homecoming '19</a>
-      </center>
-    </div>
-
-    <?php include 'footer.php';?>
+	</script>
   </body>
   </html>
