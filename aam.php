@@ -1,482 +1,553 @@
-<?php
-/*
-if(isset($_POST['action'])){
-  session_start();
-if ($_SESSION["email"] != "") {
-  header('Location: ./home.php');
-  exit();
-}
-include 'connection.php';
-$email = $_POST["email"];
-$q="SELECT password FROM users WHERE email=$email";
-$password = $connection->query($q);
- $password = hash('sha256', $password);
-echo "Email ID $email <br>";
-echo "Password after hash: $password <br>";
-$sql = "SELECT email, password FROM users";
-$result = $connection->query($sql);
-if ($result->num_rows > 0) {
-  // output num rows
-  while ($row = $result->fetch_assoc()) {
-    // echo "email: " . $row["email"]. " - password: " . $row["password"]."<br>";
-    if ($email == $row["email"]) {
-      if ($password == $row["password"]) {
-        $_SESSION["email"] = $email;
-        $connection->close();
-        header('Location: ./home.php');
-        exit;
-      /*
-      else {
-        header('Location: ./signin.php?err=pass');
-      }
-    } else {
-      header('Location: ./aam.php?err=email');
-    }
-  }
-} else {
-  $connection->close();
-  header('Location: ./signup.php?alert=Please register before logging in.');
-  exit;
-}
-}
-}
-*/
-?>
+<!DOCTYPE html>
+<html lang="en">
 
-
-
- <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
-
-
-<style>
-.swal-modal .swal-text {
-    text-align: center;
-}
-</style>
-
-
-
-<script type="text/javascript">
-$(function () {
-
-        $('#form1').on('submit', function (e) {
-
-          e.preventDefault();
-
-          $.ajax({
-            type: 'post',
-            url: 'aamlogin.php',
-            data: $('#form1').serialize(),
-            success: function (response) {
-               if(response== 0 )
-               {
-                swal({
-  title: "INCOMPLETE DETAILS!",
-  text: "Please enter email-id and password!",
-  icon: "error",
-  buttons: true,
-  dangerMode: true,
-}).then((value) => {
- 
-});
-}
-else if(response== 1 )
-               {
-                swal({
-  title: "INVALID LOGIN!",
-  text: "Please re-enter your email and password!",
-  icon: "error",
-  buttons: true,
-  dangerMode: true,
-}).then((value) => {
- 
-});
-}
-else if(response== 2 )
-  {
- window.location="home.php";
-//alert(response);
-}
-else
-{
-  alert(response);
-}
-            }
-          });
-
-        });
-
-      });
-</script> 
-<script type="text/javascript">
-  $(function () {
-      $('#sweetalert').on('click', function () {
-          swal({
-  title: "SORRY!",
-  text: "Registrations have been closed. \nPlease contact +91 8283828675 for further queries",
-  icon: "error",
-  buttons: true,
-  dangerMode: true,
-});
-      });
-  });
-</script>
-
-
-<html>
 <head>
-<title>Annual Alumni Meet &middot; IIT Kharagpur</title>
-<link rel="stylesheet" href="css/materialize.min.css">
-<link rel="icon"  href="img/meet_14.png">
-  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
- <script src="js/materialize.min.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-
-    <script type="text/javascript">
-        $(document).ready(function(){
-          // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
-          $('.modal-trigger').leanModal();
-        });
-    </script>
-
-<style type="text/css">
-.hr{
-
-	align-conten
-}
-   
-   #button{
-
-    padding:10px;
-   	display:inline;
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <title>Annual Alumni Meet</title>
+  <!-- <link rel="icon" href="./img/SACLogo.png" sizes="32x32" type="image/gif"/> -->
+  <link rel="stylesheet" type="text/css" href="css/AAM.css">
+     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@200&display=swap" rel="stylesheet">
+  <style type="text/css">
+   .img{
+	   background-image:url(img/align.png);
+	   background-size:100% 100%;
    }
-
-   @media only screen and (min-width: 768px){
-     .ac-head{
-       margin-top:-20px;
-     }
-    .aam-reg{
-      height: 380px;
-    }
-     .aam-reg a{
-      margin-top: 60px;
-      display: inline-block;
-    }
-      .ac-aam{
-        margin-left: 0px;
-        width:100vw;
-        
-    }
-   } 
-    @media only screen and (max-width: 468px){
-    *{
-    margin:0px;
-    padding:0px;}
-      .ac-aam img{ height: 30%;
-    margin: 0px auto;
-    max-width:100%;
-    }
-    .info {
-      width: 330px;
-      text-align: center;
-    }
-    .aam-reg{
-      height: 150px;
-      margin-top: 10px;
-    }
-    .aam-reg a{
-
-      margin-top: 10px;
-    } 
-    .view{
-    position:absolute;
-    left:0px;
-}
-  #button{
-  	display: inherit;
-  	width: 300px;
-  	padding: 0px
-
-  }
- .hr{
-
- 	margin-left: 13%;
- }
-
-
-  }
-</style>
+    .padding{
+	   padding:5rem 9rem;
+   }
+   @media only screen and (max-width:500px){
+	.padding{
+	   padding:0 2rem;
+   }
+   .img{
+	  height:350px;
+	  margin-bottom:0px;
+   }
+ 
+   .section-2{
+	   margin-top:-40%;
+   }
+   }
+  </style>
 </head>
+
+
+
 <body>
-<div class="_wrapper" style="overflow: hidden;background:white">
-<?php include 'navbar.php';?>
-    
-  <div class="row ac-aam">
+<section class="section-1 pb-0">
+      <?php include'navbar.php' ?>
+    <header>
+    <div class="header"></div>
 
-      <div class="col l12"><img style="width: 101%; margin: -1%;height:68%;" src="img/17th_aam/aam2020.png"></div>
-  </div>
-  <hr class="hr" style="color:grey;width:90%">
-  <div class="reg">
-    <div class="row-reg" align="center" height="150px">
-     <div class="col l3">
-     <div class="row">
-  <center>
-    <div class="heading ac-head" style="border:3px black solid;display:inline-block;padding-top:2px;margin:3px;padding-right:20px;padding-left:20px;">
-        <h4 style="margin-bottom: 0px;" ><b>Annual Alumni Meet 2021</b> </h4> <br>
+	<div class="img">
+	</div>
+	<style>
+		.c{
+			margin-left:23px;
+		}
+	</style>
+	</header>
+  </section>
+  <section class="section-2 pt-0" style="padding-bottom:10rem;">
+	<div class="padding">
+		<div class="row">
 
-        <h5  style="margin-top: 0px;">Postponed on account of COVID-19</h5>
-        
-      </div>
-      <div class="heading ac-head" style="display:inline-block;padding-top:2px;margin:3px;padding-right:20px;padding-left:20px;">
-      <p style="width:90%;padding:10px;font-size:17px;text-align:justify">
-          It is with a heavy heart that we have to inform you that the 18Th Annual Alumni Meet, which was originally scheduled for January 2021 has been postponed due to the Corona Virus Pandemic. We wish everyone good health in these difficult times and will pray for the safety and well being of each of you. We will convey any further developments regarding the Homecoming in the future.
-       </p>
-       <br>
+			<div class="col-md-7 col-11">
+				<h1 class="one justify-content-left">ABOUT US</h1>
 
-  
-          <div class="heading ac-head" style="border:3px black solid;display:inline-block;padding-top:2px;margin:3px;padding-right:20px;padding-left:20px;margin-bottom:10px;margin-top:10px;">
-            <h4 style="margin-bottom: 0px;" ><b> A Glimpse into the 17th Annual Alumni Meet</b> </h4> <br>
-            <h5  style="margin-top: 0px;">10th to 12th January, 2020</h5>
-          </div>
-          <p style="width:90%;padding:10px;font-size:17px;text-align:justify">
-           We live our day to day lives oblivious to the beauty that surrounds us and by the time we do realise what exactly it is that we've been blessed with, it's generally too late. However when the good ol' days call yet again, nostalgia surrounds us as we walk the hallowed boulevards of our youth. The Annual Alumni Meet brings to our alumni a chance to reconnect with their Alma Mater. It lets them relive the carefree days of their college lives as they get a chance to visit all the locations they once frequented.</p>
-           <!-- <p style="width:90%;padding:10px;font-size:17px;text-align:center">
-           **Registrations have been closed. Please contact +91 8283828675 for further queries.
-           </p> -->
-          <!-- <div class="row" style=" margin-top:20px; margin-bottom:25px;">
-            <a class="waves-effect waves-light btn-large modal-trigger" href="#modal1" style="width: 30%">LOGIN</a>
-            <a id="sweetalert" class="waves-effect waves-light btn-large" style="width: 30%">17th Annual Alumni Meet Registration</a>
-          </div> -->
-     </div>
-    </div> 
-  <!-- </div>
-<hr class="hr" style="color:grey;width:90%"> -->
-  <!-- <div class="row">
-  <div class="col l12 s12 m12">
-    <center>
-	  <div class="heading ac-head" style="border:3px black solid;display:inline-block;padding-top:2px;margin:3px;padding-right:20px;padding-left:20px;margin-bottom:10px;margin-top:10px;">
-        <h4 style="margin-bottom: 0px;" ><b>17th Annual Alumni Meet</b> </h4> <br>
-      	<h5  style="margin-top: 0px;">10th to 12th January, 2020</h5>
-      </div>
-    </center>
-    <center>
-  	<p style="width:90%;padding:10px;font-size:17px;text-align:justify">
-  		The <b>17th Annual Alumni Meet</b> was organised from <b>10th to 12th January, 2019</b> at our Institute campus. This year the <b>batch of 1980</b> and the <b> batch of 1995</b> were the special guests of honor. The Meet is now a major event anticipated by both the alumni and the students. As the years pass by and winds of change keep blowing, the Alumni Meet too shall keep evolving with the pace of time, hoping to bring to the alumni an experience that they may cherish all their lives.
-  	</p>
-  </center>
-  </div> -->
+				<div class="row">
+					<div class="col-md-10 ml-4 col-12 ml-1 justify-content-left">
+			           <p class="pt-2 x" style="opacity: 1" align="justify">
+				       We live our day to day lives oblivious to the beauty that surrounds us and by the time we do realise what
+				       exactly it is that we've been blessed with, it's generally too late. However when the good ol' days call
+				       yet again, nostalgia surrounds us as we walk the hallowed boulevards of our youth. The Annual Alumni Meet 
+				       brings to our alumni a chance to reconnect with their Alma Mater. It lets them relive the carefree days of 
+				       their college lives as they get a chance to visit all the locations they once frequented.
+                      </p>
+			        </div>
+			    </div>
+				<a class="btn btn-outline-primary c" align="justify" href="loginpage.php" role="button">18th Annual Meet</a>
+			</div>
+			<div class="col-md-5">
+			<div class="container" style="margin-left:0.5rem;">
+				<div class="row d-flex justify-content-center">
+					<div class="col-md-10 col-12 trailer " style="padding-right:2rem padding-left:2em; padding-top:3.5rem; padding-bottom:15rem;">
+						<div class="first"></div>
+						<div class="second"></div>
+						<div class="third"> 
+							<iframe src="https://www.youtube.com/embed/BPaRgF4rTRE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>	
+					</div>
+				</div>
+			</div>
+		   </div>
+	   </div>
+   </div>
+</section>  
+    <section class="section-3 pt-3">
+	<div class="container-fluid p-0">
+	<div style="padding:0 3rem;">
+		<div class="row">
+
+			<div class="col-md-3 d-flex justify-content-center">
+				<h1 class="gallery-h3 pt-5 text-center">Arena</h1>
+
+			</div>
+			<div class="col-md-9">
+			<div class="container">
+				<div class="row d-flex justify-content-center">
+					<div class="col-md-6 x">
+					<div class="image">
+					<img  src="img/day1c/compressed day 1/arena3.jpg" class="img-fluid image__img">
+				      <div class="image__overlay image__overlay--primary text-center">
+							<div class="image__title">Arena</div>
+							<p class="image__description">The Arena is a nostalgia-filled site welcoming the Alumni to share their old memories with us.</p>	
+				</div></div>
+			</div>
+			<div class="col-md-3 x align-items-center">
+					<div class="image">
+					<img  src="img/day2c/compressed day 2/arena.jpg" class="img-fluid image__img">
+				      <div class="image__overlay image__overlay--primary text-center">
+					</div></div>
+				<div class="image pt-3">
+					<img  src="img/day2c/compressed day 2/cake_cutting.jpg" class="img-fluid image__img">
+				      <div class="image__overlay image__overlay--primary text-center">
+					  </div></div>
+				
+			</div>
+			<div class="col-md-3 x align-items-center">
+					<div class="image">
+					<img  src="img/day1c/compressed day 1/alumni4.jpg" class="img-fluid image__img">
+				      <div class="image__overlay image__overlay--primary text-center">
+						</div></div>
+				<div class="image pt-3">
+					<img  src="img/day1c/compressed day 1/alumni2.jpg" class="img-fluid image__img">
+				      <div class="image__overlay image__overlay--primary text-center">
+					  </div></div>
+			</div>
+			</div>
+			
+			</div>
+	</div>
+	</div>	
+	</div>
+	</div>	
+  </section> 
+  <section class="section-3 pt-3">
+	<div class="container-fluid p-0">
+	<div style="padding:0 3rem;">
+		<div class="row">
+			<div class="col-md-3 d-flex justify-content-center">
+				<h1 class="gallery-h3 pt-5 text-center text-center">Grand Reunion</h1>
+			</div>		
+			<div class="col-md-9">
+			<div class="container">
+			<div class="row d-flex justify-content-center">
+			<div class="col-md-4 x align-items-center">
+					
+				<div class="image ">
+					<img  src="img/day1c/compressed day 1/awards.jpg" class="img-fluid image__img">
+				      <div class="image__overlay image__overlay--primary text-center">
+								</div></div>
+				<div class="image pt-3">
+					<img  src="img/day1c/compressed day 1/alumni.jpg" class="img-fluid image__img">
+				      <div class="image__overlay image__overlay--primary text-center">
+					  
+							</div></div>
+				
+			</div>
+			<div class="col-md-8 x">
+				<div class="image">
+				<img  src="img/day3c/compressed day 3/ceremony4.jpg" class="img-fluid image__img">
+				<div class="image__overlay image__overlay--primary text-center">
+				<div class="image__title">Grand Reunion</div>
+							<p class="image__description">The Annual Alumni Meet is a fascinating trip down memory lane
+							that allows our alumni to see old friends again and remember places and stories that were 
+							almost forgotten.
+</p>
+				</div></div>
+			</div>
+			</div>
+			</div>
+	</div>
+	</div>
+	</div>
+	</div>
+  </section>
+   <section class="section-3 pt-3">
+	<div class="container-fluid p-0">
+	<div style="padding:0 3rem;">
+		<div class="row">
+			<div class="col-md-3 d-flex justify-content-center">
+				<h1 class=" gallery-h3 pt-5 text-center">Department Visit</h1>
+			</div>		
+			<div class="col-md-9">
+			<div class="container">
+			<div class="row d-flex justify-content-center">
+			<div class="col-md-4 x align-items-center">
+					<div class="image">
+					<img  src="img/day2c/compressed day 2/nalanda2.jpg" class="img-fluid image__img">
+					<div class="image__overlay image__overlay--primary text-center">
+				</div></div>
+				<div class="image pt-3">
+					<img  src="img/day1c/compressed day 1/alumni.jpg" class="img-fluid image__img">
+				      <div class="image__overlay image__overlay--primary text-center">
+					</div></div>
+				
+			</div>
+			<div class="col-md-8 x">
+				<div class="image">
+					<img  src="img/day1c/compressed day 1/dept_visit2.jpg" class="img-fluid image__img">
+					<div class="image__overlay image__overlay--primary text-center">
+							<div class="image__title">Department Visit</div>
+							<p class="image__description">Departments are our own shrine of knowledge filled with bittersweet 
+							memories, and a visit back to this shrine surely brings back memories of all the hard work, 
+							learning, and excitement.</p>	
+				</div></div>
+			</div>
+									
+			</div>
+			</div>
+	</div>
+	</div>
+	</div>
+	</div>
+  </section>
+ <section class="section-3 pt-3">
+	<div class="container-fluid p-0">
+	<div style="padding:0 3rem;">
+		<div class="row">
+			<div class="col-md-3 d-flex justify-content-center">
+				<h1 class="gallery-h3 pt-5 text-center">Musical Night</h1>
+			</div>		
+			<div class="col-md-9">
+			<div class="container">
+			<div class="row d-flex justify-content-center">
+				<div class="col-md-6 content-overlay x">	
+				<div class="image">
+					<img  src="img/yellow-diary.jfif" class="img-fluid image__img">
+				</div>
+				</div>
+				<div class="col-md-6 content-overlay x">	
+				<div class="image">
+					<img  src="img/day2c/compressed day 2/yellow-diary.jpg" class="img-fluid image__img">
+				</div>
+				</div>
+									
+	</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	</div>
+  </section>
+  <section class="section-3 pt-3">
+	<div class="container-fluid p-0">
+	<div style="padding:0 3rem;">
+		<div class="row">
+			<div class="col-md-3 d-flex justify-content-center">
+				<h1 class="gallery-h3 pt-5 text-center">Hall Visit</h1>
+			</div>		
+			<div class="col-md-9">
+			<div class="container">
+			<div class="row d-flex justify-content-center">
+				<div class="col-md-3 content-overlay x">					
+					<div class="image ">
+					<img  src="img/day1c/compressed day 1/flames.jpg" class="img-fluid image__img">
+					<div class="image__overlay image__overlay--primary">
+				</div></div>				
+					<div class="image pt-3">
+					<img  src="img/day1c/compressed day 1/hall_visit2.jpg" class="img-fluid image__img">
+					<div class="image__overlay image__overlay--primary">
+				</div></div>
 </div>
-<hr class="hr" style="color:grey;width:90%">
-    <!---  Modal Structure For login - -->
-  
-    <div id="modal1" class="modal ">
-        <div class="modal-content">
+				<div class="col-md-3 content-overlay x">					
+					<div class="image ">
+					<img  src="img/day1c/compressed day 1/flames2.jpg" class="img-fluid image__img">
+					<div class="image__overlay image__overlay--primary">
+				</div></div>				
+					<div class="image pt-2">
+					<img  src="img/day1c/compressed day 1/hall_visit4.jpg" class="img-fluid image__img">
+					<div class="image__overlay image__overlay--primary">
+				</div></div></div>
+				
+				<div class="col-md-6 content-overlay x">
+										<div class="image">
 
-            <div class="row">
-                <form class="col s12 center-align" id="form1">
-                    <div class="row">
-                        <h2>LOGIN</h2>
-                        <div class="input-field col s12">
-                            <i class="material-icons prefix">account_circle</i>
-                            <input id="icon_prefix" type="email" class="validate" name="email">
-                            <label for="icon_prefix">Email ID</label>
-                        </div>
-                        <div class="input-field col s12">
-                            <i class="material-icons prefix">vpn_key</i>
-                            <input id="icon_telephone" type="password" class="validate" name="password">
-                            <label for="icon_telephone">Password</label>
-                        </div>
-                        <button class="btn-large waves-effect waves-light " type="submit" name="action" style="margin-top:15px; width:200px;">Log In
-                            <i class="material-icons right">send</i> </button>
-                    </div>
-                </form>
-            </div>
-        </div>
-        <div class="modal-footer">
-            <a href="#!" class=" modal-action modal-close waves-effect waves-blue btn-flat">CLOSE</a>
-        </div>
-    </div>
-  <!-- login Modal end -->
-<div class="images" style="background:white;">
-  <div class="row">
-  	<div class="col l6">
-      <center>
-      	<br>
-  		<img src="img/14th_aam/reunion.jpg" style="width:90%;">
-  	  </center>
-  	</div>
-  	<div class="col l6">
-  	  <br>
-  	  <center>
-  	  	<h4 style="padding-top:20px">Grand Reunion</h4>
-  		<p style="width:90%;padding:20px;font-size:17px">
-  			Students' Alumni Cell recently organised 17th Annual Alumni Meet which was a fun and fascinating trip down the memory lane that gave our alumni an opportunity to see old friends again and catch up with them. They came across places and stories that were almost forgotten. Some things changed, some stayed the same. After some great conversation, all those years wherein they had not seen each other seem to just fade away. You would never want to miss the excitement and renewed camaraderie during the reunion.
-  		</p>
-  	  </center>
-  	</div>
-  </div>
-  <hr class="hr" style="color:grey;width:90%">
-  <div class="row">
-  	<div class="col l6">
-  	  <br>
-  	  <center>
-  	  	<h4 style="padding-top:20px">Arena</h4>
-  		<p style="width:90%;padding:20px;font-size:17px">
-  			The Arena unveiled itself in all its glory on Day 1 of the 17th Annual Alumni Meet. What took months of planning and diligent execution was finally ready to welcome the alumni. For the first time, Chai-Cheddis-Charcha was introduced wherein the alumni shared their old memories with us. During the time of illumination, the arena had a spectacular view. Without any doubt, Arena has always been the charm of the Alumni Meet.
-  		</p>
-  	  </center>
-  	</div>
-  	<div class="col l6">
-      <center>
-      	<br>
-  		<img src="img/14th_aam/arena.jpg" style="width:90%;">
-  	  </center>
-  	</div>
-  </div>
-  <hr class="hr" style="color:grey;width:90%">
-  <div class="row">
-  	<div class="col l6">
-      <center>
-      	<br>
-  		<img src="img/14th_aam/dept_visit.jpg" style="width:90%;">
-  	  </center>
-  	</div>
-  	<div class="col l6">
-  	  <br>
-  	  <center>
-  	  	<h4 style="font-style:;padding-top:20px">Department Visit</h4>
-  		<p style="width:90%;padding:20px;font-size:17px">
-  			Sweet and salty memories of slogging in labs, fighting sleep and attempting to learn is something that all our departments gave us. If IIT Kharagpur was a temple of knowledge then our department is where the main shrine of this temple resides. A visit back to this shrine is sure to bring back the blended feelings of hard work, procrastination, learning and excitement.
-  		</p>
-  	  </center>
-  	</div>
-  </div>
-  <hr class="hr" style="color:grey;width:90%">
-  <div class="row">
-  	<div class="col l6">
-  	  <br>
-  	  <center>
-  	  	<h4 style="font-style:;padding-top:20px">Musical Night</h4>
-  		<p style="width:90%;padding:20px;font-size:17px">
-  			Music has been the one thing common in our lives. It has always helped us connect with people. So, taking a trip back to memory lane, Students' alumni cell presented Eastern Technology Music Society that took our alumni back, straight to their KGP days. The Alumni exercised their vocal chords and sang, just like they used to do in their college days. 
-  		</p>
-  	  </center>
-  	</div>
-  	<div class="col l6">
-      <center>
-      	<br>
-  		<img src="img/14th_aam/musical_night.jpg" style="width:90%;">
-  	  </center>
-  	</div>
-  </div>
-  <hr class="hr" style="color:grey;width:70%">
-  <div class="row">
-  	<div class="col l6">
-      <center>
-      	<br>
-  		<img src="img/14th_aam/hall_visit.jpg" style="width:90%;">
-  	  </center>
-  	</div>
-  	<div class="col l6">
-  	  <br>
-  	  <center>
-  	  	<h4 style="font-style:;padding-top:20px">Hall Visit</h4>
-  		<p style="width:90%;padding:20px;font-size:17px">
-  			Every KGPian shares a strong bond with their Hall. Visiting a place where we spent the 4 most important years of our life is a stimulus enough to send shivers down our body. The place where we learnt and lived is sure to have latched a fragment of our soul inside it. To come back to our hall of residence is nothing less than a reunion of the parts of our soul. The alumni got the chance to walk through the corridors and reminisce the impressions that they left. 
-  		</p>
-  	  </center>
-  	</div>
-  </div>
-  <hr class="hr" style="color:grey;width:90%">
-  <div class="row">
-  	<div class="col l6">
-  	  <br>
-  	  <center>
-  	  	<h4 style="padding-top:20px">Campus Tour</h4>
-  		<p style="width:90%;padding:20px;font-size:17px">
-  			In the progressive world we live in, there are a lot of changes and yet a lot of constants remain too. The pleasure pulses kick in when we get to see the same old buildings and roads lying in harmony with the new developments all around. Campus Tour is our way of showing the 2200 acre campus in a nutshell and highlighting all the major developments around.
-  		</p>
-  	  </center>
-  	</div>
-  	<div class="col l6">
-      <center>
-      	<br>
-  		<img src="img/14th_aam/campus_tour.jpg" style="width:90%;">
-  	  </center>
-  	</div>
-  </div>
-  
-  <hr class="hr" style="color:grey;width:90%">
-  <div class="row">
-    <div class="col l6">
-      <center>
-        <br>
-      <img src="img/14th_aam/entertania.jpg" style="width:90%;">
-      </center>
-    </div>
-  	<div class="col l6">
-  	  <br>
-  	  <center>
-  	   <h4 style="font-style:;padding-top:20px">Entertainia</h4>
-  		<p style="width:90%;padding:20px;font-size:17px">
-  			Smiles can cast the most powerful spell of love and happiness. With Kenny Sebastian taking the tough task to fill the open air theatre with a burst of laughter, the event became one of the most talked about event of the meet. The alumni as well as the students had a great time laughing their heart out.
-  		</p>
-  	  </center>
-  	</div>
+					<img src="img/day1c/compressed day 1/hall_visit.jpg" class="img-fluid image__img">
+					<div class="image__overlay image__overlay--primary text-center">
+							<div class="image__title">Hall Visit</div>
+							<p class="image__description">The place we learnt and lived for the 4 most important years in our life surely has a fragment of our soul inside
+							it and to come back to our hall of residence is nothing less than a reunion of all of our soul.</p>	
+				</div></div>
+				</div>
+			
+	</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	</div>
+  </section>
+    <section class="section-3 pt-3">
+	<div class="container-fluid p-0">
+	<div style="padding:0 3rem;">
+		<div class="row">
+			<div class="col-md-3 d-flex justify-content-center">
+				<h1 class="gallery-h3 pt-5 text-center">Campus Tour</h1>
+			</div>		
+			<div class="col-md-9">
+			<div class="container">
+			<div class="row d-flex justify-content-center">			
+			<div class="col-md-7 content-overlay x">
+				<div class="image">
+					<img  src="img/day2c/compressed day 2/campus_tour.jpg" class="img-fluid image__img">
+					<div class="image__overlay image__overlay--primary text-center">
+													<div class="image__title">Campus Tour</div>
+							<p class="image__description">Campus Tour is our way of showing the 2200 acre campus in a nutshell
+							and highlighting all the major developments around.
+</p>	
+				</div></div></div>
+				<div class="col-md-5 content-overlay x">
+									<div class="image">
+
+					<img  src="img/day2c/compressed day 2/campus_tour2.jpg" class="img-fluid image__img">
+					<div class="image__overlay image__overlay--primary text-center">
+									<div class="image__title">Campus Tour</div>
+							<p class="image__description"></p>	
+				</div></div>
+				</div>		
+	</div>
+	<div class="row d-flex justify-content-center pt-3">	
+	<div class="col-md-5 x">
+					<div class="image">
+					<img  src="img/day2c/compressed day 2/nalanda.jpg" class="img-fluid image__img">
+					<div class="image__overlay image__overlay--primary text-center text-center">
+								<div class="image__title">Campus Tour</div>
+							<p class="image__description">
+					</p>	
+				</div></div>
+				</div>
+				<div class="col-md-7 x">
+					<div class="image">
+					<img src="img/day2c/compressed day 2/football.jpg" class="img-fluid image__img">
+					<div class="image__overlay image__overlay--primary">
+					<div class="image__title">Campus Tour</div>
+							<p class="image__description text-center">In the progressive world we live in, there are a lot of changes and yet a lot of constants 
+							and it’s a pleasure to see the newer developments in harmony with the same old roads.</p>
+				</div></div></div>
+				</div>
+				</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	</section>	
+	
+	  <section class="section-3 pt-3">
+	<div class="container-fluid p-0">
+	<div style="padding:0 3rem;">
+		<div class="row">
+			<div class="col-md-3 d-flex justify-content-center">
+				<h1 class="gallery-h3 pt-5 text-center">Entertania</h1>
+			</div>		
+			<div class="col-md-9">
+			<div class="container">
+			<div class="row d-flex justify-content-center">
+				<div class="col-md-8 content-overlay x">	
+					<div class="image">
+					<img src="img/day1c/compressed day 1/akash2.jpg" class="img-fluid image__img">
+					<div class="image__overlay image__overlay--primary text-center">
+						<div class="image__title">Stand-Up Comedy</div>
+							<p class="image__description">Smiles can cast the most powerful spell of love and happiness.</p>	
+				</div></div>								
+		</div>
+		<div class="col-md-4 content-overlay x">					
+				<div class="image">
+					<img  src="img/day1c/compressed day 1/toat.jpg" class="img-fluid image__img">
+					<div class="image__overlay image__overlay--primary">
+					
+				</div></div>
+				<div class="image pt-3">
+					<img  src="img/day1c/compressed day 1/toat2.jpg" class="img-fluid image__img">
+					<div class="image__overlay image__overlay--primary">
+					
+				</div></div></div>
+				
+				</div>
+			
+	</div>
+	</div>
+	</div>
+	</div>
+	</div>
+  </section>
   	
-  </div>
-  <hr class="hr" style="color:grey;width:90%">
-  <div class="row">
-    <div class="col l6">
-      <br>
-      <center>
-        <h4 style="font-style:;padding-top:20px">Illumination</h4>
-      <p style="width:90%;padding:20px;font-size:17px">
-        An evening of Euphoria as the name suggests fills the hearts of all the people present with a sense of serenity and calm. The Illumination with diyas followed by the release of sky lanterns creates an aura of happiness all around. With all this we move to the DJ night around the bonfire that beautifully escalates the emotions all around and the alumni do "shake a leg". 
-      </p>
-      </center>
-    </div>
-  	<div class="col l6">
-      <center>
-      	<br>
-  		<img src="img/14th_aam/illu.jpg" style="width:90%;">
-  	  </center>
-  	</div>
-  	
-  </div>
-  <hr class="hr" style="color:grey;width:90%">
-  <div class="row">
-    <div class="col l6">
-      <center>
-        <br>
-      <img src="img/14th_aam/marathon.jpg" style="width:90%;">
-      </center>
-    </div>
-  	<div class="col l6">
-  	  <br>
-  	  <center>
-  	  <h4 style="font-style:;padding-top:20px">2.2 Marathon</h4>
-  		<p style="width:90%;padding:20px;font-size:17px">
-  			The iconic marathon track that our campus possesses is inviting enough for everyone to run their problems off. With the alumni coming back after such a long time the Institute fails not to teach them a thing or two again with the run for health in the 2.2 marathon organized early in the morning. Students and alumni run together to foster the spirit of good health and harmony. 
-  		</p>
-  	  </center>
-  	</div>
-  	
-  </div>
-</div>
-<hr class="hr" style="color:grey;width:90%">
-</div>
-<div class="photos" style="padding-bottom:10px">
-  <center>
-  	<p style="width:90%;padding:5px;display: inline;font-size:17px">For more photos, kindly click on:</p>
-  	<a id="button" class="waves-effect waves-light btn" href=" https://goo.gl/photos/iDMk6fwtfjKMyVAw8">16th Annual Alumni Meet Memories</a>
-  </center>
-</div>
-<?php include"footer.php";  ?>
+	  <section class="section-3 pt-3">
+	<div class="container-fluid p-0">
+	<div style="padding:0 3rem;">
+		<div class="row">
+			<div class="col-md-3 d-flex justify-content-center">
+				<h1 class="gallery-h3 pt-5 text-center">Illumination</h1>
+			</div>		
+			<div class="col-md-9">
+			<div class="container">
+			<div class="row d-flex justify-content-center">
+		<div class="col-md-4 content-overlay x">					
+			<div class="image">
+					<img  src="img/day2c/compressed day 2/illu1.jpg" class="img-fluid image__img">
+					<div class="image__overlay image__overlay--primary">
+				</div></div>
+				<div class="image pt-3">
+					<img  src="img/day2c/compressed day 2/lantern.jpg" class="img-fluid image__img">
+					<div class="image__overlay image__overlay--primary">
+							<div class="image__title">Illumination</div>
+							<p class="image__description"></p>	
+				</div></div>			
+				</div>			
+<div class="col-md-8 content-overlay x">
+										<div class="image">
+
+					<img src="img/day2c/compressed day 2/kgp_arena.jpg" class="img-fluid image__img">
+					<div class="image__overlay image__overlay--primary text-center">
+				<div class="image__title">Illumination</div>
+							<p class="image__description">The Illumination with diyas followed by the release of sky lanterns 
+							creates an aura of happiness all around before we kick.</p>	
+				</div></div>
+				</div>	
+				</div>
+				<div class="row d-flex justify-content-center pt-3">
+				<div class="col-md-4 content-overlay x">
+					<div class="image">
+					<img  src="img/day2c/compressed day 2/night1.jpg" class="img-fluid image__img">
+					<div class="image__overlay image__overlay--primary">
+							<div class="image__title">Gala Dinner</div>
+				</div></div>
+				</div>
+				<div class="col-md-4 content-overlay x">
+				<div class="image">
+					<img  src="img/day2c/compressed day 2/night2.jpg" class="img-fluid image__img">
+					<div class="image__overlay image__overlay--primary">
+							<div class="image__title">Gala Dinner</div>
+				</div></div>
+				</div>
+				<div class="col-md-4 content-overlay x">
+										<div class="image">
+
+					<img  src="img/day2c/compressed day 2/night3.jpg" class="img-fluid image__img">
+					<div class="image__overlay image__overlay--primary">
+							<div class="image__title">Gala Dinner</div>
+				</div></div>
+				</div>
+	</div>
+			
+	</div>
+	</div>
+	</div>
+	</div>
+	</div>
+  </section>
+
+  <section class="section-3 pt-3 pb-5">
+	<div class="container-fluid p-0">
+	<div style="padding:0 3rem;">
+		<div class="row">
+			<div class="col-md-3 d-flex justify-content-center">
+				<h1 class="gallery-h3 pt-5 text-center">2.2 marathon</h1>
+			</div>
+			<div class="col-md-9">
+			<div class="container">
+			<div class="row d-flex justify-content-center">
+					<div class="col-md-6 content-overlay x">
+					<div class="image">
+					<img  src="img/day3c/compressed day 3/emo.jpg" class="img-fluid image__img">
+					<div class="image__overlay image__overlay--primary">
+				</div></div>
+				</div>
+				<div class="col-md-6 content-overlay x">
+									<div class="image">
+
+					<img  src="img/day3c/compressed day 3/marathon.jpg" class="img-fluid image__img">
+					<div class="image__overlay image__overlay--primary text-center">
+							<div class="image__title">2.2 Marathon</div>
+							<p class="image__description">The iconic 2.2 km marathon around the heart of the campus in which all 
+							students and alumni are invited to run together to foster the spirit of good health and harmony.</p>	
+				</div></div>
+				</div>
+			</div>
+			<div class="row d-flex justify-content-center pt-3 x">
+					<div class="col-md-8 content-overlay">
+										<div class="image">
+
+					<img src="img/day3c/compressed day 3/closing_ceremony.jpg" class="img-fluid image__img">
+					<div class="image__overlay image__overlay--primary">
+							<div class="image__title">Closing Ceremony</div>	
+				</div></div>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+	</div>
+	</div>
+	</div>
+  </section>
+
+	<?php include'footer.php' ?>
+	<!-- <?php include'preloader.php' ?> -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+   <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+            </script>
+	<script>
+		
+	var arr = document.getElementsByClassName("x");
+    for(var i=0; i<arr.length;i++)
+    {
+        gsap.from(arr[i], {
+        scrollTrigger: {
+        trigger: arr[i],
+        toggleActions: "play none none none"
+           },
+        opacity:0,
+        duration:1.5, 
+		y:50 
+         });  
+}  
+ $(window).on('load', function() {
+    if ($('#preloader').length) {
+      $('#preloader').delay(100).fadeOut('fast', function() {
+        $(this).remove();
+      });
+    }
+  });
+
+
+$(document).ready(function(){ 
+    $(window).scroll(function(){ 
+        if ($(this).scrollTop() > 100) { 
+            $('.back-to-top').fadeIn(); 
+        } else { 
+            $('.back-to-top').fadeOut(); 
+        } 
+    }); 
+    $('.back-to-top').click(function(){ 
+        $("html, body").animate({ scrollTop: 0 }, 600); 
+        return false; 
+    }); 
+});
+
+
+	</script>
   </body>
   </html>
