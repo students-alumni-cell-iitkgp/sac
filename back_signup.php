@@ -49,7 +49,7 @@ session_start();
       $servername = "172.17.0.8";
       $username = "root";
       $password = "Sac@123";
-      $database = "sac";
+      $database = "aam";
 
       // Create a connection
       $conn = mysqli_connect($servername, $username, $password, $database);
@@ -61,7 +61,7 @@ session_start();
         // Submit these to a database
         // Sql query to be executed 
         //$sql = "INSERT INTO `alumni` (`name`, `address` ,`city`,`state`,`country`,`zipcode`,`mobile`,`dob`) VALUES ('$name', '$address' ,'$city','$state','$country','$zipcode','$mobile','$dob')";
-        $sql = "INSERT INTO `aam` (`name`,`email`, `address` ,`city`,`state`,`country`,`zipcode`,`mobile`,`dob`,
+        $sql = "INSERT INTO `users` (`name`,`email`, `address` ,`city`,`state`,`country`,`zipcode`,`mobile`,`dob`,
                  `status`, `certificate` ,`dosedate`,
                  `marital`, `accompaniments` ,`gh`,
                  `industry`, `profession` ,`organisation`,`designation`,`waddress`,`wcity`,`wstate`,`wcountry`,`wzipcode`,

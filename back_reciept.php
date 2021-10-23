@@ -11,7 +11,7 @@
       $servername = "172.17.0.8";
       $username = "root";
       $password = "Sac@123";
-      $database = "sac";
+      $database = "aam";
 
       // Create a connection
       $conn = mysqli_connect($servername, $username, $password, $database);
@@ -22,7 +22,7 @@
       else{ 
         // Submit these to a database
         // Sql query to be executed 
-        $sql = "UPDATE `aam` SET `reciept` = '$reciept' WHERE `email` = '$email'";
+        $sql = "UPDATE `users` SET `reciept` = '$reciept' WHERE `email` = '$email'";
         $result = mysqli_query($conn, $sql);
  
         if($result){
