@@ -34,7 +34,7 @@
                     Log In
                 </h2>
             </center>
-            <form id="login" action = "validate.php" method = "post">
+            <form id="login" action = "signup2.php" method = "post">
                 <div class="section1">
                     <div class="container">
                         <div class="row">
