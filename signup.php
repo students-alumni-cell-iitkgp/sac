@@ -595,7 +595,7 @@
         //        cost = 900 + 7500;
         //    }
 
-           document.getElementById("cost").value =  "Total Cost = "+cost+ "Rupee";
+           document.getElementById("cost").value =  "Total Cost = Rs"+cost;
 
            console.log(cost);
        }
