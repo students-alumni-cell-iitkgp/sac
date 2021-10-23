@@ -21,6 +21,9 @@
         border-color: #00416d !important;
         color:white !important;
     }
+    #linktoSAMP:hover{
+        color:white !important;
+    }
     .btn-outline-primary{
         color:  #00416d !important;
         border-color:  #00416d !important;
@@ -72,8 +75,9 @@
                                 well as share their valuable experience with the current students.
                             </p>
                             <br>
-                            <button class="btn btn-outline-primary justify-content-center" href="https://sac.iitkgp.ac.in/mentorship/"><i
-                                    class="fa fa-book"></i> Mentorship Portal</button>
+                            <button class="btn btn-outline-primary justify-content-center">
+                                <i class="fa fa-book"></i> <a id="linktoSAMP" href="https://sac.iitkgp.ac.in/mentorship/" style="color: #00416d">Mentorship Portal</a>
+                            </button>
                         </div>
                     </div>
                 </div>
