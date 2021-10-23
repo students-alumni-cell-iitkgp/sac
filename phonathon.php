@@ -146,7 +146,7 @@
         <div class="container text-center">
             <div class="row">
                 <div class="col-md-12 col-12">
-                    <div class="panel text-center px-1">
+                    <div class="panel text-center px-5">
                         <h1 class="x">Testimonials</h1>
                         <div class="progress" style="height:0.4rem;">
                             <div id="three" class="progress-bar" role="progressbar" style="width: 100%"
