@@ -253,6 +253,55 @@
                                 <div class="row">
                                     <div class="col-sm-12 col-lg-4">
                                         <div class="card" style="height: 100% !important;">
+                                            <img src="img/news&updates/07.jpg" style="height: 300px;"
+                                                class="card-img-top">
+                                            <div class="card-body">
+                                                <h5 class="card-title">COVID-19: IIT Kharagpur Alumni Foundation starts fundraiser for 20 ICU beds</h5>
+                                                <p class="card-text">With an aim of improving the hospital infrastructure and helping Kharagpur to fight against the COVID wave, the IIT Kharagpur has started a fundraiser to supply beds to the institute’s new hospital with with 20 ICU beds and 80 ward beds..... <br><br><button type="button" class="btn btn-outline-primary"><a
+                                                            href="https://news.careers360.com/covid-19-iit-kharagpur-alumni-foundation-starts-fundraiser-for-20-icu-beds"
+                                                            target="_blank"
+                                                            style="color:white">More...</a></button>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-lg-4">
+                                        <div class="card" style="height: 100% !important;">
+                                            <img src="img/news&updates/08.jpg" style="height: 300px;"
+                                                class="card-img-top">
+                                            <div class="card-body">
+                                                <h5 class="card-title">IITians Spearheading The AI Revolution In India</h5>
+                                                <p class="card-text"> The IITians are making a mark in the domain of artificial intelligence. we are celebrating 20 IIT alumni currently leading AI in India. While some hold key positions in tech companies, others have chosen the entrepreneurial journey.....<br><br><button type="button" class="btn btn-outline-primary"><a
+                                                            href="https://analyticsindiamag.com/iitians-spearheading-the-ai-revolution-in-india/"
+                                                            target="_blank"
+                                                            style="color:white">More...</a></button>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-lg-4">
+                                        <div class="card" style="height: 100% !important;">
+                                            <img src="img/news&updates/09.jpg" style="height: 300px;"
+                                                class="card-img-top">
+                                            <div class="card-body">
+                                                <h5 class="card-title">IIT Kharagpur Alumnus Mix Board Games With Augmented Reality</h5>
+                                                <p class="card-text">PlayShifu, an Augmented Reality (AR) toymaker founded by IIT Kharagpur alumnus Vivek Goyal and Dinesh Advani, has its presence in over 35 countries and a customer base of over 7 lakh.....<br><br><button type="button"
+                                                        class="btn btn-outline-primary"><a
+                                                            href="https://www.thebetterindia.com/259139/playshifu-artificial-reality-stem-game-toymaker-made-in-india/"
+                                                            target="_blank"
+                                                            style="color:white">More...</a></button></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-12 col-lg-4">
+                                        <div class="card" style="height: 100% !important;">
                                             <img src="img/news&updates/01.jpg" style="height: 300px;"
                                                 class="card-img-top">
                                             <div class="card-body">
