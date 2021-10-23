@@ -1,281 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
 
-<html>
 <head>
-<title>Leadership Summit</title>
-<link rel="icon" href="img/meet_14.png">
-  <link rel="stylesheet" href="css/materialize.min.css">
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="js/materialize.min.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <style type="text/css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leadership Summit</title>
+  <link rel="stylesheet" href="css/leadership.css">
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> -->
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
-   @media only screen and (min-width: 768px){
-   .leader img {
-      height: 240px;
-    }
-     .summit{
-      padding: 10px 100px;
-      text-align: justify;
-    }
-      .ac-summit img{
-        margin-left: 80px;
-    }
-   } 
-   @media only screen and (min-width: 600px) and (max-width: 800px){
-      .card-image img{
-        height:60vh;
-      }
-      .card{
-        margin-left: -3%;
-      }
-      
-    }
-  @media only screen and (max-width: 468px){
-   .ac-summit img{ 
-      height: 30%;
-      margin: 0px auto;
-      max-width:100%;
-    }
-  } 
-    .card-action{
-      display: none;
-    }
-   .modal { width: 90% !important ; max-height: 85% !important }
+  <!-- JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <style>
+    .img{
+	   background-image:url(img/summit1.jpg);
+	   background-size:100% 100%;
+       height:600px;
+   }
+   
+
+   @media only screen and (max-width:500px){
+
+   .img{
+	  height:300px;
+	  margin-bottom:0px;
+   }
+
+  }
 </style>
-    <script>
-    $(document).ready(function(){
-      $('.slider').slider({full_width: true});
-    });
-
-
-      $(document).ready(function(){
-    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
-    $('.modal-trigger').leanModal();
-  });
-    </script>
 </head>
-<body>
-<div class="_wrapper">
-<?php include 'navbar.php';?>
-<div class="row ac-summit">
-  <img src="img/summit1.jpg" width="100%" >  
-</div>
-<br>
-    <div class="row" style="padding:0% 8% 0% 8%;">
 
-        <div class="center-align" >
-            <div class="col l12 m12 s12 z-depth-1" style="padding-top:1%">
-                
-                    <center>
-                     <div class="heading ac-head" style="border:3px black solid; display: inline-block; padding-top: 2px; margin: 3px;padding-right: 20px;padding-left: 20px;" >
-                           <h4><b>Leadership Summit</b></h4> </div>
-                    </center> 
-                
-                
-                <p class="summit text_align" style="padding:1% 10% 6% 10%;">
-                    Leadership Summit, organized as a part of Guest Lectures, sees the participation of professionals and corporate tycoons sharing the same stage talking about their experiences and guiding the students to become future world leaders. With IIT Kharagpur’s best minds converging at the this event, we weave together complex, seemingly diverse thoughts into an intricate tapestry and provide a platform for them to share their experiences and guide students to become future world leaders. It helps the students to learn how to be effective leaders in their workplace and lifestyle helping them develop confidence and competence to lead others. The summit organized in 2013, 2014 and 2018 was appreciated by the students as well as alumni and witnessed huge turnout of the students.
-                    </p>
-            </div>
-        </div>
-    </div>
- <div class="container" style="width:100%;">
-  <div class="row leader" style="margin:auto;width:90%;">
-        <div class="col s12 m6 l4">
-          <div class="card z-depth-0 _card">
-            <div class="card-image">
-              <img src="img/leadership_speakers/arunabhkumar.jpg">
-              <span class="card-title"></span>
-            </div>
-            <div class="card-content">
-              <p>Arunabh Kumar</p> 
-            </div>
-            <div class="card-action">
-           <a href="#"></a>   
-            </div>
-          </div>
-        </div>
-        <div class="col s12 m6 l4">
-          <div class="card z-depth-0 _card">
-            <div class="card-image">
-              <img src="img/leadership_speakers/arjunmalhotra.jpg">
-              <span class="card-title"></span>
-            </div>
-            <div class="card-content">
-              <p>Arjun Malhotra</p>
-            </div>
-            <div class="card-action">
-              <a href="#"></a>
-            </div>
-          </div>
-        </div>
-        <div class="col s12 m6 l4">
-          <div class="card z-depth-0 _card">
-            <div class="card-image">
-              <img src="img/leadership_speakers/anjanraichaudhuri.jpg">
-              <span class="card-title"></span>
-            </div>
-            <div class="card-content">
-              <p>Anjan Rai Chaudhuri </p>
-            </div>
-            <div class="card-action">
-              <a href="#"></a>
-            </div>
-          </div>
-        </div>
-  </div>
-  <div class="row leader" style="margin:auto;width:90%;">
-        <div class="col s12 m6 l4">
-          <div class="card z-depth-0 _card">
-            <div class="card-image">
-              <img src="img/leadership_speakers/gopalrajgarhia.jpg">
-              <span class="card-title"></span>
-            </div>
-            <div class="card-content">
-              <p>Gopal Raj</p>
-            </div>
-            <div class="card-action">
-              <a href="#"></a>
-            </div>
-          </div>
-        </div>
-        <div class="col s12 m6 l4">
-          <div class="card z-depth-0 _card">
-            <div class="card-image">
-              <img src="img/leadership_speakers/prasadrmenon.jpg">
-              <span class="card-title"></span>
-            </div>
-            <div class="card-content">
-              <p>Prasad Menon</p>
-            </div>
-            <div class="card-action">
-              <a href="#"></a>
-            </div>
-          </div>
-        </div>
-        <div class="col s12 m6 l4">
-          <div class="card z-depth-0 _card card1">
-            <div class="card-image">
-              <img src="img/leadership_speakers/sakyasinharoy.jpg">
-              <span class="card-title"></span>
-            </div>
-            <div class="card-content">
-              <p>Sakya Sinha Roy</p>
-            </div>
-            <div class="card-action">
-              <a href="#"></a>
-            </div>
-          </div>
-        </div>
-          <!-- Modal Trigger -->
-         <!-- <a class="waves-effect waves-black btn modal-trigger" href="#modal1">View More</a>
-           Modal Structure 
-          <div id="modal1" class="modal">
-            <div class="modal-content">
-              <h4>Alumni</h4>
-              <p>
-              ***************************************************************************** Modal content *********************************************************************
-        <div class="col s12 m4 l4">
-          <div class="card z-depth-0 _card">
-            <div class="card-image">
-              <img src="img/leadership_speakers/arunabhkumar.jpg">
-              <span class="card-title">Arunab Kumar</span>
-            </div>
-            <div class="card-content">
-              <p></p>
-            </div>
-            <div class="card-action">
-              <a href="#"></a>
-            </div>
-          </div>
-        </div>
-        <div class="col s12 m7 l4">
-          <div class="card z-depth-0 _card">
-            <div class="card-image">
-              <img src="img/leadership_speakers/arjunmalhotra.jpg">
-              <span class="card-title">Arjun Malhotra</span>
-            </div>
-            <div class="card-content">
-              <p> </p>
-            </div>
-            <div class="card-action">
-              <a href="#"></a>
-            </div>
-          </div>
-        </div>
-        <div class="col s12 m7 l4">
-          <div class="card z-depth-0 _card">
-            <div class="card-image">
-              <img src="img/leadership_speakers/anjanraichaudhuri.jpg">
-              <span class="card-title">Anjan Rai Chaudhuri</span>
-            </div>
-            <div class="card-content">
-              <p></p>
-            </div>
-            <div class="card-action">
-              <a href="#"></a>
-            </div>
-          </div>
-        </div>
-  </div>
-  <div class="row leader" style="margin:auto;width:90%;">
-        <div class="col s12 m4 l4">
-          <div class="card z-depth-0 _card">
-            <div class="card-image">
-              <img src="img/leadership_speakers/gopalrajgarhia.jpg">
-              <span class="card-title">Gopal Raj</span>
-            </div>
-            <div class="card-content">
-              <p></p>
-            </div>
-            <div class="card-action">
-              <a href="#"></a>
-            </div>
-          </div>
-        </div>
-        <div class="col s12 m7 l4">
-          <div class="card z-depth-0 _card">
-            <div class="card-image">
-              <img src="img/leadership_speakers/prasadrmenon.jpg">
-              <span class="card-title">Prasad Menon</span>
-            </div>
-            <div class="card-content">
-              <p></p>
-            </div>
-            <div class="card-action">
-              <a href="#"></a>
-            </div>
-          </div>
-        </div>
-        <div class="col s12 m7 l4">
-          <div class="card z-depth-0 _card">
-            <div class="card-image">
-              <img src="img/leadership_speakers/sakyasinharoy.jpg">
-              <span class="card-title">Sakya Sinha Roy</span>
-            </div>
-            <div class="card-content">
-              <p></p>
-            </div>
-            <div class="card-action">
-              <a href="#"></a>
-            </div>
-          </div>
-        </div>
-           *****************************************************************************/ Modal content *********************************************************************  
+<body>
+
+<?php include 'navbar.php' ?>
+
+
+
+  <header>
+<div class="img"></div>
+  </header>
+
+  <main>
+    <section class="section-1">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-md-12 col-12">
+            <div class="panel text-left">
+              <h1 class="text-center">The Summit</h1>
+              <div class="progress" style="height:0.4rem;">
+                <div id="one" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
+              </div>
+              <p class="pt-4" style="opacity: 1" align="justify">
+                <strong>Leadership Summit</strong>, organized
+                as a part of Guest Lectures, sees the participation of professionals and corporate tycoons sharing the same stage talking about their experiences and guiding the students to become future world leaders. With IIT Kharagpur’s
+                best minds converging at the this event, we weave together complex, seemingly diverse thoughts into an intricate tapestry and
+                provide a platform for them to share their experiences and guide students to become future world leaders.
               </p>
             </div>
-            <div class="modal-footer">
-              <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
-            </div>
-          </div> -->
-  </div>
-  </div>
-  </div>
-  <?php include 'footer.php';?>
-<script type="text/javascript" src="js/style.js"></script>  
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-pause="hover">
+      <div class="carousel-inner">
+      <div class="carousel-item active">
+        <section class="section-2">
+            <div class="container text-center">
+              <div class="row">
+                <div class="col-md-12 col-12">
+                  <div class="panel text-center">
+                    <h1 class="x">Past Speakers</h1>
+                    
+                    <div class="progress" style="height:0.4rem;">
+                      <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
+                    </div>
+
+                    <br>
+                    <h4><i>Day 1 speakers of 2020 Leadership Summit</i></h4>
+                    <!-- Photo Grid -->
+                    <div id="gallery_row" class="row">
+                      <div class="row justify-content-center px-4">
+					  <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
+                          <div class="card">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Duvuri.jpg/338px-Duvuri.jpg" class="card-img">
+                            <div class="card-text">
+                              <p>Duvvuri Subbarao</p>
+                              <a href="https://en.wikipedia.org/wiki/Duvvuri_Subbarao"><i class="icon1 fab fa-wikipedia-w" aria-hidden="true" id="l-icon"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 py-4 image">
+                          <div class="card">
+                            <img src="https://media-exp1.licdn.com/dms/image/C5603AQF2_YtNmO73Qw/profile-displayphoto-shrink_400_400/0/1607399318866?e=1637193600&v=beta&t=rA0u1PLPD3-70bVHLuq3abouuLrS-R688hR-EYKp2eA" class="card-img">
+                            <div class="card-text">
+                              <!-- <p><a href="https://www.linkedin.com/in/arjun-malhotra-5b07005/">Arjun Malhotra</a></p> -->
+                              <p>Rahul Vishal Sinha</p>
+                              <a href="https://www.linkedin.com/in/rahul-vishal-sinha-9399a72/" target="_blank"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
+                          <div class="card">
+                            <img src="https://media-exp1.licdn.com/dms/image/C4E03AQFAWga40M7I8Q/profile-displayphoto-shrink_400_400/0/1554083443158?e=1637193600&v=beta&t=aryJ1GiLya3fQm5R1cTXJIa6PVYdhJVMX2Uv5N9lXCg" class="card-img">
+                            <div class="card-text">
+                              <p >Sudipto De</p>
+                              <a href="https://www.linkedin.com/in/sudipto-de-phd-cfa-45403214/" target="_blank" target="_blank"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
+                          <div class="card">
+                            <img src="https://media-exp1.licdn.com/dms/image/C4E03AQGjf1DldD6SCQ/profile-displayphoto-shrink_400_400/0/1609065660093?e=1637193600&v=beta&t=D9VHS0M2rLsDpbEv6aqKe5-GMf-Uqwsps5MPwwC6DJg" class="card-img">
+                            <div class="card-text">
+                              <!-- <p><a href="https://www.linkedin.com/in/arunabh-kumar-entrepreneur/?originalSubdomain=in">
+                              Arunabh Kumar
+                              </a></p> -->
+                              <p >
+                              Animesh Saxena
+                              </p>
+                              <a href="https://www.linkedin.com/in/animeshsaxena83/" target="_blank"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
+                          <div class="card">
+                            <img src="https://media-exp1.licdn.com/dms/image/C4E03AQF1QTb3BQevOA/profile-displayphoto-shrink_400_400/0/1592584402230?e=1637193600&v=beta&t=ZMvIV2DybGpSDbTP8ZN0emZs0BBv7XWuYmuENU8ZRXA" class="card-img">
+                            <div class="card-text">
+                              <p >Nitin Arora</p>
+
+                              <a href="https://www.linkedin.com/in/aroranitin78/" target="_blank"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
+                          <div class="card">
+                            <img src="https://assets.euromoneydigital.com/7b/5a/d1e30802cd77fe92548002c86814/socgen-sayan-das230px.jpg" class="card-img">
+                            <div class="card-text">
+                                <p>Sayan Das</p>
+                                <a href="https://www.linkedin.com/in/sayan-das-a4982b7/" target="_blank"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+          </section>
+        </div>
+
+        <div class="carousel-item">
+        <section class="section-2">
+            <div class="container text-center">
+              <div class="row">
+                <div class="col-md-12 col-12">
+                  <div class="panel text-center">
+                    <h1 class="x">Past Speakers</h1>
+                    <div class="progress" style="height:0.4rem;">
+                      <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
+                    </div>
+                    <br>
+                    <h4><i>Day 2 speakers of 2020 Leadership Summit</i></h4>
+                    <!-- Photo Grid -->
+                    <div id="gallery_row" class="row">
+                      <div class="row justify-content-center px-4">
+                        <div class="col-md-4 col-sm-6 col-xs-12 py-4 image">
+                          <div class="card">
+                            <img src="https://media-exp1.licdn.com/dms/image/C4E03AQGYpSu4agq7TQ/profile-displayphoto-shrink_800_800/0/1533468512754?e=1637193600&v=beta&t=0lpJ0L0-6PELqzWiv9axhx-njUtKv05e07XwHCEev4w" class="card-img">
+                            <div class="card-text">
+                              <!-- <p><a href="https://www.linkedin.com/in/arjun-malhotra-5b07005/">Arjun Malhotra</a></p> -->
+                              <p>Apurva Kumar Sinha</p>
+                              <a href="https://www.linkedin.com/in/apurvaksinha/" target="_blank"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
+                          <div class="card">
+                            <img src="https://media-exp1.licdn.com/dms/image/C4D03AQHWr63bEGXm-A/profile-displayphoto-shrink_400_400/0/1602147084189?e=1637193600&v=beta&t=_4PIghf-ou1bvMvg1Qx5ZnjcFs0z0blObww4QEKuxrw" class="card-img">
+                            <div class="card-text">
+                              <p >Bhaskar Majumdar</p>
+                              <a href="https://www.linkedin.com/in/bmajumdar/" target="_blank"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
+                          <div class="card">
+                            <img src="https://www.jimsindia.org/techbyte/images/Speakers/Inderjeet%20Singh.jpg" class="card-img">
+                            <div class="card-text">
+                              <!-- <p><a href="https://www.linkedin.com/in/arunabh-kumar-entrepreneur/?originalSubdomain=in">
+                              Arunabh Kumar
+                              </a></p> -->
+                              <p >
+                              Inderjeet Singh
+                              </p>
+                              <a href="https://www.linkedin.com/in/inderbarara/" target="_blank"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
+                          <div class="card">
+                            <img src="https://images.yourstory.com/cs/images/people/jLpi2xb1400x400-1618684381439.jpg" class="card-img">
+                            <div class="card-text">
+                              <p >Ram Bhamidi</p>
+
+                              <a href="https://www.linkedin.com/in/bhamidi/" target="_blank"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
+                          <div class="card">
+                            <img src="https://media-exp1.licdn.com/dms/image/C5103AQFYKa4SfPeh4g/profile-displayphoto-shrink_400_400/0/1556299859086?e=1637193600&v=beta&t=y2BKBeA8WSW72o7lURuX7-Eq77wnD1e_yweCL7axdm0" class="card-img">
+                            <div class="card-text">
+                                <p>Mohan Silaparasetty</p>
+                                <a href="https://www.linkedin.com/in/mohan-silaparasetty/" target="_blank"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
+                          <div class="card">
+                            <img src="https://media-exp1.licdn.com/dms/image/C5603AQEdkIPN3lN9Hw/profile-displayphoto-shrink_400_400/0/1517765600896?e=1637193600&v=beta&t=l-QJnQBC8DXJF2J8njPuyel_q1JHBEUeTOMtv5BufC0" class="card-img">
+                            <div class="card-text">
+                              <p>Joyjeet Maity</p>
+
+
+                              <a href="https://www.linkedin.com/in/joyjeetmaity/" target="_blank"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+          </section>
+        </div>
+
+        <div class="carousel-item">
+        <section class="section-2">
+            <div class="container text-center">
+              <div class="row">
+                <div class="col-md-12 col-12">
+                  <div class="panel text-center">
+                    <h1 class="x">Past Speakers</h1>
+                    <div class="progress" style="height:0.4rem;">
+                      <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
+                    </div>
+                    <br>
+                    <!-- Photo Grid -->
+                    <h4><i>Speakers of 2019 Leadership Summit</i></h4>
+                    <div id="gallery_row" class="row">
+                      <div class="row justify-content-center px-4">
+                        <div class="col-md-4 col-sm-6 col-xs-12 py-4 image">
+                          <div class="card">
+                            <img src="img\leadership_speakers\arjunmalhotra.jpg" class="card-img">
+                            <div class="card-text">
+                              <!-- <p><a href="https://www.linkedin.com/in/arjun-malhotra-5b07005/">Arjun Malhotra</a></p> -->
+                              <p>Arjun Malhotra</p>
+                              <a href="https://www.linkedin.com/in/arjun-malhotra-5b07005/" target="_blank"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
+                          <div class="card">
+                            <img src="img\leadership_speakers\anjanraichaudhuri.jpg" class="card-img">
+                            <div class="card-text">
+                              <p >Anjanrai Chaudhuri</p>
+                              <a href="#" target="_blank"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
+                          <div class="card">
+                            <img src="img\leadership_speakers\arunabhkumar.jpg" class="card-img">
+                            <div class="card-text">
+                              <!-- <p><a href="https://www.linkedin.com/in/arunabh-kumar-entrepreneur/?originalSubdomain=in">
+                              Arunabh Kumar
+                              </a></p> -->
+                              <p >
+                              Arunabh Kumar
+                              </p>
+                              <a href="https://www.linkedin.com/in/arunabh-kumar-entrepreneur/?originalSubdomain=in" target="_blank"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
+                          <div class="card">
+                            <img src="img\leadership_speakers\gopalrajgarhia.jpg" class="card-img">
+                            <div class="card-text">
+                              <p >Gopalraj Garhia</p>
+
+                              <a href="#" target="_blank"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
+                          <div class="card">
+                            <img src="img\leadership_speakers\prasadrmenon.jpg" class="card-img">
+                            <div class="card-text">
+                                <p>Prasad Menon</p>
+                                <a href="#" target="_blank"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
+                          <div class="card">
+                            <img src="img\leadership_speakers\sakyasinharoy.jpg" class="card-img">
+                            <div class="card-text">
+                              <p>Sakyasinha Roy</p>
+
+
+                              <a href="#" target="_blank"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+          </section>
+        </div>
+        
+      </div>
+      <a class="carousel-control-prev " href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon prev1" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next " href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon next1" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+
+    
+
+
+
+    <!-- 		Footer start -->
+    <?php include 'footer.php' ?>
+    <!-- 	Footer end	 -->
+	  <!-- <?php include 'preloader.php' ?> -->
+
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
+    <script>
+		$( "#one,#two").each(function( ) {
+   $(this).addClass("progress-bar-purple");
+});
+      gsap.from('header', {
+        opacity: 0,
+        duration: 1
+      })
+      gsap.from('header h1', {
+        opacity: 0,
+        duration: 2,
+        x: -200
+      })
+      gsap.from('header h6', {
+        opacity: 0,
+        duration: 2,
+        x: -500
+      })
+
+
+      gsap.from('.nav-item', {
+        scrollTrigger: {
+          trigger: '.nav-item',
+          toggleActions: "play none none none"
+        },
+        opacity: 0,
+        duration: 1,
+        x: -200
+      });
+
+
+      gsap.from('.section-1 h1', {
+        scrollTrigger: {
+          trigger: '.section-1 h1',
+          toggleActions: "play none none none"
+        },
+        opacity: 0,
+        duration: 1,
+        x: -200
+      });
+
+      gsap.from('.section-1 p', {
+        scrollTrigger: {
+          trigger: '.section-1 p',
+          toggleActions: "play none none none"
+        },
+        opacity: 0,
+        duration: 2.0,
+      });
+
+      gsap.from('.section-1 img', {
+        scrollTrigger: {
+          trigger: '.section-1 img',
+          toggleActions: "play none none none"
+        },
+        opacity: 0,
+        duration: 1.5,
+        x: 200
+      });
+
+      var arr = document.getElementsByClassName("x");
+      for (var i = 0; i < arr.length; i++) {
+
+        gsap.from(arr[i], {
+          scrollTrigger: {
+            trigger: arr[i],
+            toggleActions: "play none none none"
+          },
+          opacity: 0,
+          duration: 1.5,
+          x: -200
+        });
+
+      }
+      var img_arr = document.getElementsByClassName("image");
+      for (var i = 0; i < img_arr.length; i++) {
+
+        gsap.from(img_arr[i], {
+          scrollTrigger: {
+            trigger: img_arr[i],
+            toggleActions: "play none none none",
+            start: "top center"
+          },
+          opacity: 0,
+          duration: 1.5,
+        });
+
+      }
+
+      gsap.registerPlugin(ScrollTrigger);
+
+      gsap.utils.toArray('#panel').forEach((panel, i) => {
+        ScrollTrigger.create({
+          trigger: panel,
+          start: "top top",
+          pin: true,
+          pinSpacing: false
+        });
+      });
+    </script>
 </body>
+
 </html>
-
-
-            
