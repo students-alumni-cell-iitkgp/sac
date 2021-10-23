@@ -1,72 +1,372 @@
-<html>
-    <head>
-        <title>Student Alumni Meet &middot; IIT Kharagpur</title>
-        <link rel="icon"  href="img/meet_14.png">
-        <link rel="stylesheet" href="css/materialize.min.css">
-        <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-        <script src="js/materialize.min.js"></script>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-        <style type="text/css">
-            @media only screen and (min-width: 768px){
-            .ac-sam-cov img{ width: 100%;
-            margin-left: 80px;
-            }
-            } 
-            @media only screen and (max-width: 468px){
-            .ac-sam img{
-            height: 25%;
-            margin: 0px auto;
-            max-width:100%;
-            }
-            } 
-        </style>
-        <script>
-            $(document).ready(function(){
-             $('.slider').slider({full_width: true});
-            });
-        </script>
-    </head>
-    <body>
-        <div class="_wrapper" style="overflow: hidden;" >
-            <?php include 'navbar.php';?>
-            <div class="row ac-sam">
-                <img src="img/sam3.jpg" style="width: 100%">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Alumni Meet</title>
+  <link rel="stylesheet" href="css/SAM_style.css">
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/SAM_mobile_style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <!-- JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <style>
+    .img{
+	   background-image:url(img/sam3.jpg);
+	   background-size:100% 100%;
+       height:600px;
+   }
+   
+
+   @media only screen and (max-width:500px){
+
+   .img{
+	  height:300px;
+	  margin-bottom:0px;
+   }
+
+  }
+</style>
+</head>
+ 
+<body>
+
+<?php include 'navbar.php' ?>
+
+
+ <div class="img"></div>
+  <main>
+    <section class="section-1">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-12">
+            <div class="panel text-left">
+          <div class="col-md-12 col-12">
+            <div class="panel text-center">
+              <h1>ABOUT THE MEET</h1>
+              <div class="progress" style="height:0.4rem;">
+                <div id="two" class="progress-bar" role="progressbar" id="one" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                  aria-valuemax="100" style="height:0.4rem;"></div>
+              </div>
+              <p class="pt-4" style="opacity: 1" align="justify">
+                Student Alumni Meets bring together the students and the alumni under one roof and encourage interactive
+                dialogue. They play a very important role in strengthening the bond with alumni.The aim of these meets
+                is to connect the alumni and the students at a very personal level and ensure long term interaction and
+                strong bonding thus proving to be extremely beneficial to both the students as well as the alumni
+              </p>
             </div>
-            <!-- <div class="row" style="padding:0% 8% 6% 8%;">
-                <div class="center-align" >
-                    <div class="col l12 z-depth-1">
-                        <div class="heading ac-head" style=" display: inline-block; padding-top: 2px; margin: 3px;padding-right: 20px;padding-left: 20px;" >
-                            <p><b>Register for Student Alumni Meet - Kolkata '18   &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;</b>
-                                <a href="samReg.php" class="btn waves-effect waves-light" type="submit" style="background-color:#449d44;" name="button1">Register<i class="material-icons right">send</i>
-                                </a>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-            <div class="row" style="padding:0% 8% 6% 8%;">
-                <div class="center-align" >
-                    <div class="col l12 z-depth-1" style="margin-top: 30px;">
-                        <div class="heading ac-head" style="border:3px black solid; display: inline-block; padding-top: 2px; margin: 3px;padding-right: 20px;padding-left: 20px;margin-top: 30px;" >
-                            <h4><b>Student Alumni Meet</b></h4>
-                        </div>
-                        <p class="summit text_align" style="padding:1% 10% 6% 10%;">
-                            IIT Kharagpur, a premier institute of the nation has a vast alumni network spread over various locations across the world. With an aim to bring together the students and the alumni, not just in the 
-                            premises of the institute, but also regionally, Student Alumni Meets have been initiated. In collaboration with the regional chapters, Student Alumni Meets bring together the students and the alumni 
-                            under one roof and encourage interactive dialogue. They play a very important role in strengthening the bond with alumni.The aim of these meets is to connect the alumni and the 
-                            students at a very personal level and ensure long term interaction and strong bonding thus proving to be extremely beneficial to both the students as well as the alumni. Many such Student Alumni Meets 
-                            have been conducted till now in various cities across India. Last year, Bangalore and Delhi witnessed huge participation.
-                            <br><br>
-                            Furthermore, Student Alumni Meets have facilitated the implementation of various initiatives of 
-                            SAC like Mentorship, Guest Lectures and many others. Further, a platform for the introduction as well as the implementation of many more future initiatives is provided. Most of all, SAMs connect the alumni and the students at a very personal level and ensure long term interaction and strong bonding thus proving to be extremely beneficial to the students as well as the alumni. Student Alumni Meets will continue to play a very important role in the functioning of Students' Alumni Cell.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <?php include 'gallery.php';?>
+          </div>
         </div>
-        <?php include 'footer.php';?>
-    </body>
+        </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-2">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-md-12 col-12">
+            <div class="panel text-center">
+              <h1>SAM'20 KOLKATA</h1>
+              <div class="progress" style="height:0.4rem;">
+                <div id="three" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                  aria-valuemax="100" style="height:0.4rem;"></div>
+              </div>
+              <br>
+              <!-- Photo Grid -->
+              <div id="gallery_row" class="row">
+                <div id="gallery_row" class="column">
+                  <img class="image" src="img/sam/Kolkata/sam1.jpg" style="width:100%">
+                  <img class="image" src="img/sam/Kolkata/sam6.jpg" style="width:100%">
+                </div>
+                <div id="gallery_row" class="column">
+                  <img class="image" src="img/sam/Kolkata/sam3.jpg" style="width:100%; height: 165px;">
+                  <img class="image" src="img/sam/Kolkata/sam4.jpg" style="width:100%;">
+                </div>
+                <div id="gallery_row" class="column">
+                  <img class="image" src="img/sam/Kolkata/sam2.jpg" style="width:100%; height: 165px;">
+                  <img class="image" src="img/sam/Kolkata/sam5.jpg" style="width:100%; height: 170px;">
+                </div>
+                <div id="gallery_row" class="column">
+                  <img class="image" src="img/sam/Kolkata/sam.jpg" style="width:100%; height: 342 px;">
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-2">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-md-12 col-12">
+            <div class="panel text-center">
+              <h1 class="x">SAM'18 SINGAPORE</h1>
+              <div class="progress" style="height:0.4rem;">
+                <div id="four" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                  aria-valuemax="100" style="height:0.4rem;"></div>
+              </div>
+              <br>
+
+              <!-- Photo Grid -->
+              <div id="gallery_row" class="row">
+                <div id="gallery_row" class="column">
+                  <img class="image" src="img/sam/singapore 18/singapore (1).jpg" style="width:100%; height:144px">
+                  <img class="image" src="img/sam/singapore 18/singapore (2).jpg" style="width:100%">
+                </div>
+                <div id="gallery_row" class="column">
+                  <img class="image" src="img/sam/singapore 18/singapore (3).jpg" style="width:100%">
+                  <img class="image" src="img/sam/singapore 18/singapore (4).jpg" style="width:100%;">
+                </div>
+                <div id="gallery_row" class="column">
+                  <img class="image" src="img/sam/singapore 18/singapore (5).jpg" style="width:100%; height: 144px;">
+                  <img class="image" src="img/sam/singapore 18/singapore (6).jpg" style="width:100%;">
+                </div>
+                <div id="gallery_row" class="column">
+                  <img class="image" src="img/sam/singapore 18/singapore (7).jpg" style="width:100%;">
+                  <img class="image" src="img/sam/singapore 18/singapore (8).jpg" style="width:100%;">
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section-2">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-md-12 col-12">
+            <div class="panel text-center">
+              <h1 class="x">SAM'18 BANGALORE</h1>
+              <div class="progress" style="height:0.4rem;">
+                <div id="five" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                  aria-valuemax="100" style="height:0.4rem;"></div>
+              </div>
+              <br>
+              <!-- Photo Grid -->
+              <div id="gallery_row" class="row">
+                <div id="gallery_row" class="column">
+                  <img class="image" src="img/sam/bang18/1.jpg" style="width:100%">
+                  <img class="image" src="img/sam/bang18/2.jpg" style="width:100%">
+                </div>
+                <div id="gallery_row" class="column">
+                  <img class="image" src="img/sam/bang18/3.jpg" style="width:100%">
+                  <img class="image" src="img/sam/bang18/4.jpg" style="width:100%;">
+                </div>
+                <div id="gallery_row" class="column">
+                  <img class="image" src="img/sam/bang18/5.jpg" style="width:100%">
+                  <img class="image" src="img/sam/bang18/6.jpg" style="width:100%;">
+                </div>
+                <div id="gallery_row" class="column">
+                  <img class="image" src="img/sam/bang18/7.jpg" style="width:100%;height: 144px;">
+                  <img class="image" src="img/sam/bang18/8.jpg" style="width:100%; height: 144px;">
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section-2">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-md-12 col-12">
+            <div class="panel text-center">
+              <h1 class="x">SAM'17 HYDERABAD</h1>
+              <div class="progress" style="height:0.4rem;">
+                <div id="six" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                  aria-valuemax="100" style="height:0.4rem;"></div>
+              </div>
+              <br>
+              <!-- Photo Grid -->
+              <div id="gallery_row" class="row">
+                <div id="gallery_row" class="column">
+                  <img class="image" src="img/sam/hyderabad17/1.jpg" style="width:100%">
+                  <img class="image" src="img/sam/hyderabad17/2.jpg" style="width:100%">
+                </div>
+                <div id="gallery_row" class="column">
+                  <img class="image" src="img/sam/hyderabad17/3.jpg" style="width:100%">
+                  <img class="image" src="img/sam/hyderabad17/4.jpg" style="width:100%;">
+                </div>
+                <div id="gallery_row" class="column">
+                  <img class="image" src="img/sam/hyderabad17/5.jpg" style="width:100%">
+                  <img class="image" src="img/sam/samh/1.jpg" style="width:100%;height: 170px;">
+                </div>
+                <div id="gallery_row" class="column">
+                  <img class="image" src="img/sam/samh/2.jpg" style="width:100%;height: 169px;">
+                  <img class="image" src="img/sam/samh/3.jpg" style="width:100%;height: 169px;">
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section-2">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-md-12 col-12">
+            <div class="panel text-center">
+              <h1 class="x">SAM'17 KOLKATA</h1>
+              <div class="progress" style="height:0.4rem;">
+                <div id="seven" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                  aria-valuemax="100" style="height:0.4rem;"></div>
+              </div>
+              <br>
+              <!-- Photo Grid -->
+              <div id="gallery_row" class="row">
+                <div id="gallery_row" class="column">
+                  <img class="image" src="img/sam/kolkata17/1.jpg" style="width:100%">
+                  <img class="image" src="img/sam/kolkata17/2.jpg" style="width:100%">
+                </div>
+                <div id="gallery_row" class="column">
+                  <img class="image" src="img/sam/kolkata17/3.jpg" style="width:100%">
+                  <img class="image" src="img/sam/kolkata17/4.jpg" style="width:100%;">
+                </div>
+                <div id="gallery_row" class="column">
+                  <img class="image" src="img/sam/kolkata17/5.jpg" style="width:100%">
+                  <img class="image" src="img/sam/kolkata17/6.jpg" style="width:100%;">
+                </div>
+                <div id="gallery_row" class="column">
+                  <img class="image" src="img/sam/kolkata17/7.jpg" style="width:100%">
+                  <img class="image" src="img/sam/kolkata17/8.jpg" style="width:100%">
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 		Footer start -->
+  <?php include 'footer.php' ?>
+  <!-- 	Footer end	 -->
+	<!-- <?php include 'preloader.php' ?> -->
+
+  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+  $(function() { 
+   $("#one,#two,#three,#four,#five,#six,#seven").addClass("progress-bar-purple");
+});
+    gsap.from('header', { opacity: 0, duration: 1 })
+    gsap.from('header h1', { opacity: 0, duration: 2, x: -200 })
+    gsap.from('header h6', { opacity: 0, duration: 2, x: -500 })
+
+
+    gsap.from('.nav-item', {
+      scrollTrigger: {
+        trigger: '.nav-item',
+        toggleActions: "play none none none"
+      },
+      opacity: 0,
+      duration: 1,
+      x: -200
+    });
+
+
+    gsap.from('.section-1 h1', {
+      scrollTrigger: {
+        trigger: '.section-1 h1',
+        toggleActions: "play none none none"
+      },
+      opacity: 0,
+      duration: 1,
+      x: -200
+    });
+
+    gsap.from('.section-1 p', {
+      scrollTrigger: {
+        trigger: '.section-1 p',
+        toggleActions: "play none none none"
+      },
+      opacity: 0,
+      duration: 2.0,
+    });
+
+    gsap.from('.section-1 img', {
+      scrollTrigger: {
+        trigger: '.section-1 img',
+        toggleActions: "play none none none"
+      },
+      opacity: 0,
+      duration: 1.5,
+      x: 200
+    });
+
+    var arr = document.getElementsByClassName("x");
+    for (var i = 0; i < arr.length; i++) {
+
+      gsap.from(arr[i], {
+        scrollTrigger: {
+          trigger: arr[i],
+          toggleActions: "play none none none"
+        },
+        opacity: 0,
+        duration: 1.5,
+        x: -200
+      });
+
+    }
+    var img_arr = document.getElementsByClassName("image");
+    for (var i = 0; i < img_arr.length; i++) {
+
+      gsap.from(img_arr[i], {
+        scrollTrigger: {
+          trigger: img_arr[i],
+          toggleActions: "play none none none",
+          start: "top center"
+        },
+        opacity: 0,
+        duration: 1.5,
+      });
+
+    }
+
+    gsap.registerPlugin(ScrollTrigger);
+
+    gsap.utils.toArray('#panel').forEach((panel, i) => {
+      ScrollTrigger.create({
+        trigger: panel,
+        start: "top top",
+        pin: true,
+        pinSpacing: false
+      });
+    });
+	
+	
+  </script>
+</body>
+
 </html>
