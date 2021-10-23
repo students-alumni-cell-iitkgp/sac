@@ -120,7 +120,7 @@ header .row .col-md-5 img {
 body{
   background: #ff512f;
   /* fallback for old browsers */
-  background: url(../img/yearbook/main_edited-01.jpg);
+  background: url(..img/yearbook/main-building-with-stars.jpg);
   background-size: cover;
   background-position: bottom;
 }
