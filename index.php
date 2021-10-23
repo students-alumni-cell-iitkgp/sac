@@ -1,379 +1,420 @@
-<html>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/jquery.marquee/1.3.1/jquery.marquee.min.js" charset="utf-8"></script>
-    <head>
-        <title>Students Alumni Cell &middot; IIT Kharagpur</title>
-        <link rel="icon" href="img/meet_14.png">
-        <link rel="stylesheet" href="css/materialize.min.css">
-        <script src="js/materialize.min.js"></script>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="css/style.css">  
-        
-        <script type="text/javascript">
-            var deadline = new Date("jan 10, 2020 12:00:00").getTime();
-        
-            var x = setInterval(function() {
-            
-            var now = new Date().getTime();
-            var t = deadline - now;
-            var days = Math.floor(t / (1000 * 60 * 60 * 24));
-            var hours = Math.floor((t%(1000 * 60 * 60 * 24))/(1000 * 60 * 60));
-            var minutes = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60));
-            var seconds = Math.floor((t % (1000 * 60)) / 1000);
-            document.getElementById("day").innerHTML =days ;
-            document.getElementById("hour").innerHTML =hours;
-            document.getElementById("minute").innerHTML = minutes; 
-            document.getElementById("second").innerHTML =seconds; 
-            if (t < 0) {
-                    clearInterval(x);
-                    document.getElementById("demo").innerHTML = "TIME UP";
-                    document.getElementById("day").innerHTML ='0';
-                    document.getElementById("hour").innerHTML ='0';
-                    document.getElementById("minute").innerHTML ='0' ; 
-                    document.getElementById("second").innerHTML = '0'; }
-            }, 1000);
+<!DOCTYPE html>
 
-        </script>
-        
-        <style>
-            ul.indicators{z-index: 3;}
-            .slider .indicators .indicator-item{ height: 10px; width: 50px; border-radius: 0px; margin: 5px 12px; background-color: #a4a9b2; }
-            .slider .indicators .indicator-item.active{ background-color: #717375; }
-            @media only screen and (min-width: 768px) {
-            .about {
-            padding: 6px 100px;
-            }
-            .slider .slides li #img1 {
-            background-size: 80% 100%;
-            background-color: #FCFBF9;
-            background-repeat: no-repeat;
-            background-position: center;
-            }
-            }
-            @media only screen and (max-width: 414px){
-            .about{
-            padding-left: .5em;
-            }
-            }
-            @media only screen and (max-width: 995px){
-            #fbplug{
-            display: none;
-            }
-            }
-            @media (max-width: 767px){
-            .eventscol{
-                display: none;
-            }
-            .wwd{
-            margin-top: -120%;
-            }
-            }
-            .carousel .carousel-item{
-            width:350px;
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <title>SAC</title>
+   
+
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One|Source+Sans+Pro:400" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.js"
+        integrity="sha256-cVd/tGoi+gMVBrq5xd20ZA447xChtJWaESiLQc5LB1c=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/homepagenew.css">
+    <link rel="stylesheet" type="text/css" href="css/homepage1new.css">
+
+    <style>
+    .btn-outline-primary:hover, .btn-outline-primary:active, .btn-outline-primary:visited {
+        background-color: #00416d !important;
+        border-color: #00416d !important;
+        color:white !important;
+    }
+    .btn-outline-primary{
+        color:  #00416d !important;
+        border-color:  white !important;
+    }
+    .hero-carousel .carousel-item .carousel-image{
+        background-size:100% 100%;
+    }
+    .carousel-control-nexti,.carousel-control-previ{
+        background-color:none;
+        width:fit-content;
+        height:fit-content;
+        font-size: 2rem;
+        color:rgba(0, 0, 0, 0.74);
+        position:absolute;
+        top: 30%;
+        left: 2%;
+        opacity: 0.6;
+  
+    }
+    .carousel-control-nexti{
+        left: auto;
+        right: 2%;
+    } 
+    .carousel-control-nexti:hover,.carousel-control-previ:hover{
+        color:black;
+        transition: ease-in-out;
+    }
+    
+    @media only screen and (max-width:500px){
+        .hero-carousel .carousel-item{
             height:350px;
-            opacity: 1 !important;
-            }
-            #clockdiv{
-            color: #333;
-            display: inline-block;
-            text-align: center;
-            font-weight: 900;
-            font-size:22;
-            width:100%;
-            }
-            #clockdiv > div{
-            width:23%;
-            border-radius: 3px;
-            background-color: #e4e4e2;
-            padding-bottom: 8px;
-            display: inline-block;
-            }
-            #clockdiv div > span{
-            padding: 8px;
-            border-radius: 3px;
-            background-color: #e4e4e2;
-            display: inline-block;
-            }
-            .smalltext{
-            font-size: 13;
-            }
-            #mholder {
-            position: absolute;
-            overflow: hidden;
-            }
-            .marqueeElement {
-            border-bottom: 1px solid;
-            border-bottom-color:  rgb(221,221,221);
-            border-top: 1px solid;
-            border-top-color: rgb(221,221,221);
-            }
-        </style>
-    </head>
-    <body>
-        <div id="fb-root"></div>
-        <script>(function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s); js.id = id;
-            js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.7&appId=1066517953466827";
-            fjs.parentNode.insertBefore(js, fjs);
-            }(document, 'script', 'facebook-jssdk'));
-        </script>
-        <div class="_wrapper">
-            <?php include 'navbar.php';?>
-            <!--slider-->
-            <div class="slider"  style="overflow: hidden;">
-                <ul class="slides">                    
-                    <li>
-                        <img src="img/indexslider/17th_aam.jpg" />
-                    </li>
-                    <li>
-                        <img id="img1" src="img/indexslider/sac-logo.jpg"/>
-                    </li>
-                    <li>
-                        <img src="img/indexslider/acap2019.jpg" width="100%" />
-                    </li>
-                    <li>
-                        <img src="img/indexslider/sam4.jpg" />
-                    </li>
-                    <li>
-                        <img src="img/indexslider/MENTORSHIPnew.jpg"/>
-                    </li>
-                    <li>
-                        <img src="img/indexslider/phonathon2019.jpg" />
-                    </li>
-                    <li>
-                        <img src="img/indexslider/talks.jpg"/>
-                    </li>
-                    <li>
-                        <img src="img/indexslider/imprint.jpg"/>
-                    </li>
-                    <li>
-                        <img src="img/indexslider/yoy_slide.jpg"/>
-                    </li>
-                    <li>
-                        <img src="img/indexslider/alvida.jpg"/>
-                    </li>
-                    <li>
-                        <img src="img/indexslider/convocation.jpg"/>
-                    </li>
-                </ul>
+        }
+        .hero-carousel .carousel-item .carousel-image{
+        height:350px;
+        }
+
+    }
+
+    </style>
+	<script>
+	function resizeframe(obj)
+	{
+		obj.style.height = obj.contentWindow.document.body.scrollHeight + "px";
+	}
+	</script>
+
+</head>
+
+
+<body>
+    <?php include 'navbar.php'?>
+    <div id="carouselExampleIndicators" style="width:100%" class="carousel slide hero-carousel" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+
+        </ol>
+        <div class="carousel-inner" style="width:100%">
+            <div class="carousel-item active">
+            <div class="carousel-image" style="background-image:url('img/indexslider/AAM-COVER-6.png');background-size:100% 100%"></div>
+               
             </div>
-            <!--1st Row-->
-             <div> 
-                               
-                <div style="margin-top: 30px">
-                    <div class="row" style="min-height: 400px">
-                    
-                        <div class="col l3" style="margin-top: 1em;">
-                            
-                        <!-- <div class="row z-depth-1" style="background-color: white">
-            
-                            <div id="clockdiv" style="background-color:white; padding:5px;">
+            <div class="carousel-item" style>
+                <div class="carousel-image" style="background-image:url('img/indexslider/phonathon2019.jpg');"></div>
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-image" style="background-image:url('img/indexslider/alvida.jpg');" ></div>
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-image" style="background-image:url('img/indexslider/convocation.jpg');"></div>
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-image" style="background-image:url('img/indexslider/imprint.jpg');"></div>
+            </div>
+            <div class="carousel-item">
+            <div class="carousel-image" style="background-image:url('img/indexslider/sac-logo.jpg');"></div>
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-image" style="background-image:url('img/indexslider/homecoming.jpg')"></div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    </div>
+    <main>
+        <section class="section-1 justify-content-center" style="display:flex;overflow:hidden">
+            <div class="container" style="margin:18px">
+                <div class="row">
+                    <div class="col-md-9 col-12">
+                        <div class="panel text-left">
+                            <h1>ABOUT US</h1>
+                            <div class="progress" style="height: 0.4rem;">
+                                <div id="one" class="progress-bar" role="progressbar" style="width: 100%"
+                                    aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;">
+                                </div>
+                            </div>
+                            <p class="pt-4" style="opacity: 1" align="justify">
+                                The Students' Alumni Cell, IIT Kharagpur is a voluntary student body working under the
+                                aegis of the Dean of Alumni Affairs and International Relations. It strives to bridge
+                                the gap between IIT Kharagpur and its esteemed alumni community.
 
-                            <div>
-                            <span class="days" id="day"></span>
-                            <div class="smalltext">DAYS</div>
-                            </div>
-                            <div>
-                              <span class="hours" id="hour"></span>
-                              <div class="smalltext">HOURS</div>
-                            </div>
-                            <div>
-                              <span class="minutes" id="minute"></span>
-                              <div class="smalltext">MINUTES</div>
-                            </div>
-                            <div>
-                              <span class="seconds" id="second"></span>
-                              <div class="smalltext">SECONDS</div>
-                            </div><br>
-                            <p style="font-size:19;color: #64bae4">Annual Alumni Meet 2020</p>
+                                The Students' Alumni Cell continuously endeavours to strengthen the relations of the
+                                alumni of this Institute and their alma mater. It has been instrumental in organising
+                                the Annual Alumni Meet, Regional Student Alumni Meet, regular guest lectures by
+                                distinguished alumni in the campus, publishing the annual literary magazine (Yearnings
+                                of Yore) & the annual yearbook. The Students' Alumni Cell also operates the Student -
+                                Alumni Mentorship Programme, My Imprint (Giving Back - Alumni contribution) and
+                                organises Alvida (the annual farewell dinner).
 
-                          </div>
-                          </div> -->
-                            
-                       <div class="row z-depth-1" style="background-color: white"><center><p style="font-size:25;color: black;padding-top: 15px;margin-bottom: 15px;"><b>Notice Board</b></p></center></div>
-                            <br>                                                    
-                            <div class="row z-depth-1 " id="mholder data" style="background-color: white;height:240px;overflow:hidden;padding:5px;margin-top:-13.5%;overflow:  hidden;">
+                            </p>
+                        </div>
+                    </div>
+                    <br>
+                    <div id="x" class="col-md-3 col-12" style="position:relative">
+                            <iframe
+                                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fiitkgp.alumnicell&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                                style="border:none;position:absolute;top:0;right:0;left:0;bottom:0;height:100% !important;width:100% !important" scrolling="no"
+                                onload = "resizeframe(this)" frameborder="0" allowTransparency="true" allow="encrypted-media">
+							</iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <section id="timeline">
+
+        <div class="tl-item">
+
+            <div class="tl-bg" style="background-image: url(img/marathon1.jpg)"></div>
+
+            <div class="tl-year">
+                <p class="f2"><u>What We Do</u></p>
+                <br>
+                <p class="f2 heading --sanSerif">For Alumni</p>
+            </div>
+
+            <div class="tl-content">
+                <h1></h1>
+                <p>The Cell helps the alumni in staying connected to their alma mater. Through regular interactions with
+                    the students, the alumni get a chance to share their experiences and impart the knowledge they have
+                    acquired to the next generation of KGPians. Also, with this interchange, they get a glimpse of the
+                    young minds of the nation.</p>
+            </div>
+
+        </div>
+
+        <div class="tl-item">
+
+            <div class="tl-bg" style="background-image: url(img/IIT.jpg)"></div>
+
+            <div class="tl-year">
+                <p class="f2"><u>What We Do</u></p>
+                <br>
+                <p class="f2 heading--sanSerif">For Institute</p>
+            </div>
+
+            <div class="tl-content">
+                <h1 class="f3 text--accent ttu"></h1>
+                <p>Students' Alumni Cell reconnects the Institute and alumni, providing the alumni with an avenue to
+                    give back to their alma mater. The Institution Development Programme (IDP) aims to promote the
+                    Institute's domestic ranking while simultaneously improving the international stature.</p>
+            </div>
+
+        </div>
+
+        <div class="tl-item">
+
+            <div class="tl-bg" style="background-image: url(img/imprint.jpg)"></div>
+
+            <div class="tl-year">
+                <p class="f3 text --accent ttu"><u>What We Do</u></p>
+                <br>
+                <p class="f2 heading--sanSerif">For Students</p>
+            </div>
+
+            <div class="tl-content">
+                <h1 class="f3 text--accent ttu"></h1>
+                <p>Students' Alumni Cell works in conjunction with the student administration bodies and is therefore
+                    constantly in touch with the needs and wants of the students. It connects the students with the
+                    alumni, giving them a chance to interact with some of the most eminent personalities in all fields
+                    of work. It works towards making their learning experience more holistic.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="section-3">
+        <div class="container-fluid">
+            <h1 class="text-center" style="font-family: 'Raleway', sans-serif">News & Updates</h1>
+        </div>
+    </section>
+    <br>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                <div id="inam" class="carousel slide" data-ride="carousel" data-interval="false" >
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="container">
                                 <div class="row">
-                                    <div class="card horizontal " style="font-size: 14px;margin-top: -5%" >
-                                        <div class="card-stacked">
-                                            <div class="card-image col l4" style="margin-top: -2%">
-                                                <center>
-                                                    <br><font size="5" style="margin-left: -1%"><b>JULY<br>25</b></font><br>
-                                                </center>
-                                            </div>
-                                            <div class="card-content col l8" style="border-bottom: unset;;margin-bottom: -4%">
-                                                <p>WE ARE HIRING!<br>
-                                                <a href="https://forms.gle/gfxCNnq3mniNTQdc9"> Click Here !</a> to Register. 
+                                    <div class="col-sm-12 col-lg-4">
+                                        <div class="card" style="height: 100% !important;">
+                                            <img src="img/news&updates/01.jpg" style="height: 300px;"
+                                                class="card-img-top">
+                                            <div class="card-body">
+                                                <h5 class="card-title">IIT-KGP Alumni hold online quiz to raise funds for campus workers</h5>
+                                                <p class="card-text">With the pandemic and lockdown raising question mark over the next semester, students and alumni got together to help alleviate the distress of informal workers on campus... <br><br><button type="button" class="btn btn-outline-primary"><a
+                                                            href="https://indianexpress.com/article/cities/kolkata/rs-90-lakh-and-50-yrs-iit-kgp-alumni-hold-online-quiz-to-raise-funds-for-campus-workers-6480765/"
+                                                            target="_blank"
+                                                            style="color:white">More...</a></button>
                                                 </p>
                                             </div>
+
                                         </div>
+
                                     </div>
-                                </div>                                
-                                                                
-                            </div>                            
-                        </div>
-                        <div class="col l6" style="margin-top: 10px">
-                            <div class="heading">
-                                <center><h class="subheading"><b>About Us</b></h></center>
+                                    <div class="col-sm-12 col-lg-4">
+                                        <div class="card" style="height: 100% !important;">
+                                            <img src="img/news&updates/05.jpg" style="height: 300px;"
+                                                class="card-img-top">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Coronavirus: Startups by IIT-KGP alumni unveil tech to fight pandemic</h5>
+                                                <p class="card-text">IIT Kharagpur alumnus Debayan Saha has collaboratively developed Airlens Minus Corona, a device which may help sanitise large areas...<br><br><button type="button" class="btn btn-outline-primary"><a
+                                                            href="https://economictimes.indiatimes.com/small-biz/startups/newsbuzz/coronavirus-start-ups-by-iit-kgp-alumni-unveil-tech-to-fight-pandemic/articleshow/75179928.cms"
+                                                            target="_blank"
+                                                            style="color:white">More...</a></button>
+                                                </p>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-12 col-lg-4">
+                                        <div class="card" style="height: 100% !important;">
+                                            <img src="img/news&updates/03.jpg" style="height: 300px;"
+                                                class="card-img-top">
+                                            <div class="card-body">
+                                                <h5 class="card-title">IIT Alumnus Launches Mission 10k Khushiyan; 10,000 Children To Receive Educational Play Boxes</h5>
+                                                <p class="card-text">As part of this campaign -- Mission 10K Khushiyaan, Anthill Creations seeks to deliver 10,000 underprivileged children with educational boxes. The educational boxes will provide the children an opportunity to learn via structured games...<br><br><button type="button"
+                                                        class="btn btn-outline-primary"><a
+                                                            href="https://www.ndtv.com/education/iit-alumnus-launches-mission-10k-khushiyan-10000-children-receive-educational-play-boxes"
+                                                            target="_blank"
+                                                            style="color:white">More...</a></button></p>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
                             </div>
-                            <div style="background-color: white;">
-                                <p class="z-depth-1 text_align" style="font-size: 16px;padding: 1.9em 2.3em">
-                                The Students' Alumni Cell, IIT Kharagpur is a voluntary student body working under the aegis of the Dean Outreach. It strives to bridge the gap between IIT Kharagpur and its esteemed alumni community.<br>
-                                    <br>
-                                    The Students' Alumni Cell continuously endeavours to strengthen the relations of the alumni of this Institute and their alma mater. It has been instrumental in organising the Annual Alumni Meet, Regional Student Alumni Meet, regular guest lectures by distinguished alumni in the campus, Leadership Summit, publishing the annual literary magazine (Yearnings of Yore) & the annual Yearbook. The Students' Alumni Cell also operates the Student - Alumni Mentorship Programme, My Imprint (Giving Back - Alumni contribution) and organises Alvida (the annual farewell dinner).
-                                </p>
-                            </div>
+
+
                         </div>
-                        <div class="col l3" style="margin-top: 1em;height:450px">
-                            <div id="fbplug" style="background-color: #fff" class="z-depth-1 fb-page" data-href="https://www.facebook.com/iitkgp.alumnicell/?fref=ts" data-tabs="timeline" data-height="485px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" style="height: 450px">
-                                <blockquote cite="https://www.facebook.com/iitkgp.alumnicell/?fref=ts" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/iitkgp.alumnicell/?fref=ts">Alumni Cell, IIT Kharagpur</a></blockquote>
+                        <div class="carousel-item">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-12 col-lg-4">
+                                        <div class="card" style="height: 100% !important;">
+                                            <img src="img/news&updates/06.jpg" style="height: 300px;"
+                                                class="card-img-top">
+                                            <div class="card-body">
+                                                <h5 class="card-title">How an IIT Kharagpur alumnus, investment banker, and traveller started a trekking company</h5>
+                                                <p class="card-text">Trekmunk is a Delhi-NCR based bootstrapped startup. Apart from regular treks, it hosts trail cleaning treks and escorts doctors to high altitudes to treat the less fortunate...<br><br><button type="button" class="btn btn-outline-primary"><a
+                                                            href="https://yourstory.com/2020/09/iit-kharagpur-alumnus-investment-banker-traveller-trekking-startup"
+                                                            target="_blank"
+                                                            style="color:white">More...</a></button></p>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-12 col-lg-4">
+                                        <div class="card" style="height: 100% !important;">
+                                            <img src="img/news&updates/02.jpg" style="height: 300px;"
+                                                class="card-img-top">
+                                            <div class="card-body">
+                                                <h5 class="card-title">IIT & Super30 alumni launch Uber-like study help app FILO for K12 students</h5>
+                                                <p class="card-text">FILO is a sachet education app that aims to bridge the foundational divide for millions of deserving students of India with a lifeline - a simple video call that connects students with expert teachers...<br><br><button type="button" class="btn btn-outline-primary"><a
+                                                            href="https://www.livemint.com/brand-post/iit-super30-alumni-launch-uber-like-study-help-app-filo-for-k12-students-11606311047505.html"
+                                                            target="_blank"
+                                                            style="color:white">More...</a></button></p>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-12 col-lg-4">
+                                        <div class="card" style="height: 100% !important;">
+                                            <img src="img/news&updates/04.jpg" style="height: 300px;"
+                                                class="card-img-top">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Lockdown: IIT Kharagpur alumni to provide financial aid to 10,500 unorganised sector workers</h5>
+                                                <p class="card-text">The beneficiaries, who will receive financial assistance for six months, include daily wagers in eateries, ward boys of the hostels, laundrymen, tea stall owners, rickshaw-pullers, domestic workers and labourers engaged in construction projects, it said...<br><br><button
+                                                        type="button" class="btn btn-outline-primary"><a
+                                                            href="https://www.hindustantimes.com/education/lockdown-iit-kharagpur-alumni-to-provide-financial-aid-to-10-500-unorganised-sector-workers/story-QBr2qCFZQ84qWgAaBM93rN.html"
+                                                            target="_blank"
+                                                            style="color:white">More...</a></button></p>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
                             </div>
+
+
                         </div>
+
                     </div>
+                    <span  class="carousel-control-previ fas fa-chevron-circle-left fa-2x" data-target="#inam"
+                    data-slide="prev"></span>
+                    <span  class="carousel-control-nexti fas fa-chevron-circle-right fa-2x" data-target="#inam"
+                    data-slide="next"></span>
+             
                 </div>
+
             </div>
-            <div class="wwd" style="width:100%;">
-                <div class="heading">
-                    <center>
-                        <h class="subheading"><b>What We Do</b></h>
-                    </center>
-                </div>
-                <div class="row" style="margin:auto;width:90%;">
-                    <div class="col l4 s12 m4">
-                        <div class="card z-depth-0 _card">
-                            <div class="card-image waves-effect waves-block waves-light">
-                                <img class="activator" width="300px" src="img/alumni.jpg">
-                            </div>
-                            <div class="card-content">
-                                <span class="card-title activator grey-text text-darken-4">For Alumni<i class="material-icons right">more_vert</i></span>
-                            </div>
-                            <div class="card-reveal">
-                                <span class="card-title grey-text text-darken-4">For Alumni<i class="material-icons right">close</i></span>
-                                <p class="text_align">The Students' Alumni Cell works towards ensuring mutual benefit of the Students as
-                                    well as the Alumni. The Cell helps the alumni in staying connected to their alma mater.
-                                    Through regular interactions with the students, the alumni get a chance to share their
-                                    experiences and impart the knowledge they have acquired to the next generation of KGPians.
-                                    Also, with this interchange, they get a glimpse of the young minds of the nation.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col l4 s12 m4">
-                        <div class="card z-depth-0 _card">
-                            <div class="card-image waves-effect waves-block waves-light">
-                                <img class="activator" src="img/insti.jpg">
-                            </div>
-                            <div class="card-content">
-                                <span class="card-title activator grey-text text-darken-4">For Institute<i class="material-icons right">more_vert</i></span>
-                            </div>
-                            <div class="card-reveal">
-                                <span class="card-title grey-text text-darken-4">For Institute<i class="material-icons right">close</i></span>
-                                <p class="text_align">The alumni community often takes keen interest in the Institute&#8217;s workings and the prevalent conditions. Students' Alumni Cell reconnects the Institute and alumni, providing the alumni with an avenue to give back to their alma mater. The Institution Development Programme (IDP) aims to promote the Institute's domestic ranking while simultaneously improving the international stature. </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col l4 s12 m4">
-                        <div class="card z-depth-0 _card">
-                            <div class="card-image waves-effect waves-block waves-light">
-                                <img class="activator" src="img/students.jpg">
-                            </div>
-                            <div class="card-content">
-                                <span class="card-title activator grey-text text-darken-4">For Students<i class="material-icons right">more_vert</i></span>
-                            </div>
-                            <div class="card-reveal">
-                                <span class="card-title grey-text text-darken-4">For Students<i class="material-icons right">close</i></span>
-                                <p class="text_align">Students' Alumni Cell works in conjunction with the student administration bodies and
-                                    is therefore constantly in touch with the needs and wants of the students. It connects the students
-                                    with the alumni, giving them a chance to interact with some of the most eminent personalities
-                                    in all fields of work. It works towards making their learning experience more holistic.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>            
+
         </div>
-        <?php include 'footer.php';?>
-        <script>
-            var autoScrollTimer = 2500;
-            var scrollspeed = 2000;
-            var v;
-            $(document).ready(function () {
-              $('#carousel').carousel({
-                time_constant: scrollspeed,
-                dist: 0,
-                shift: 0,
-                padding: 20,
-                full_width: false
-              });
-              autoScrollQuick();
-              initializeCarousel();
-            });
-            $('#carousel').mouseenter(function () {
-              stopScroll();
-            });
-            $('#carousel').mouseleave(function () {
-              autoScrollQuick();
-            });
-            function autoScroll() {
-              v = setInterval(next, autoScrollTimer);
-            }
-            function autoScrollQuick() {
-              setTimeout(next, 0);
-              autoScroll();
-            }
-            function stopScroll() {
-              clearInterval(v);
-              $('#carousel').carousel({
-                time_constant: 0
-              });
-            }
-            function next() {
-              $('#carousel').carousel('next');
-            }
-            function prev() {
-              $('#carousel').carousel('prev');
-            }
-            $('.marquee').marquee({
-              //speed in milliseconds of the marquee
-              duration: 9000,
-              //gap in pixels between the tickers
-              gap: 0,
-              //time in milliseconds before the marquee will start animating
-              delayBeforeStart: 0,
-              //'left' or 'right'
-              direction: 'up',
-              //true or false - should the marquee be duplicated to show an effect of continues flow
-              duplicated: true,
-              pauseOnHover: true
-            });
-        </script>
-        <script type="text/javascript">
-            $(".card").mouseenter(function(e){
-              if ($(this).find('> .card-reveal').length) {
-                if ($(e.target).is($('.card .activator')) || $(e.target).is($('.card .activator i')) ) {
-                  // Make Reveal animate up
-                  $(this).find('.card-reveal').css({ display: 'block'}).velocity("stop", false).velocity({translateY: '-100%'}, {duration: 300, queue: false, easing: 'easeInOutQuad'});
-                }
-              }
-              $('.card-reveal').closest('.card').css('overflow', 'hidden');
-            });
-            $(".card").mouseleave(function(){
-              // Make Reveal animate down and display none
-              $(this).find('.card-reveal').velocity(
-                {translateY: 0},
-                {
-                  duration: 225,
-                  queue: false,
-                  easing: 'easeInOutQuad',
-                  complete: function() {
-                    $(this).css({ display: 'none'});
-                  }
-                });
-              });
-        </script>
-    </body>
-</html>
+
+    </div>
+
+    <br><br>
+
+    <?php include 'footer.php'?>
+    <!-- <?php include 'preloader.php'?> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+    $("#one").each(function() {
+        $(this).addClass("progress-bar-purple");
+    });
+    (function($) {
+        "use strict";
+
+        // manual carousel controls
+        $('.next').click(function() {
+            $('.carousel').carousel('next');
+            return false;
+        });
+        $('.prev').click(function() {
+            $('.carousel').carousel('prev');
+            return false;
+        });
+
+    })(jQuery);
+
+    (function($) {
+
+        $(document).ready(function() {
+            // Pause hero carousel
+            $('.hero-carousel').carousel('pause');
+        });
+
+    })(jQuery);
+    </script>
+
+</body>
