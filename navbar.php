@@ -90,7 +90,7 @@ display: block;}
 							<ul class="dropdown-menu">
 						     	<li><a class="dropdown-item" href="alumni_talks.php"> Alumni Talks </a></li>
 								 <li><a class="dropdown-item" href="alvida.php"> Alvida </a></li>
-								 <li><a class="dropdown-item" href="AAM.php">Annual Alumni Meet </a></li>
+								 <li><a class="dropdown-item" href="aam.php">Annual Alumni Meet </a></li>
 								 <li><a class="dropdown-item" href="homecoming.php"> Homecoming </a></li>
 								 <li><a class="dropdown-item" href="leadershipsummit.php"> Leadership Summit </a></li>
 								 <li><a class="dropdown-item" href="phonathon.php"> Phonathon </a></li>
