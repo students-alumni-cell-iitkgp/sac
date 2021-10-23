@@ -1,0 +1,20 @@
+.progress-bar-purple {
+      background-color: #00416d !important;
+	  height:0.7rem;
+}
+  
+@media only screen and (max-width: 768px) {
+    header .navbar-brand {
+      padding-left: 1rem;
+    }
+
+    header{
+      height: 90vh;
+    }
+
+    .section-1 .row .col-md-6 .panel {
+        position: initial;
+        width: initial;
+        height: initial;
+      }
+}
