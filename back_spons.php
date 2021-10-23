@@ -9,9 +9,9 @@
         
       
       // Connecting to the Database
-      $servername = "localhost";
+      $servername = "172.17.0.8";
       $username = "root";
-      $password = "";
+      $password = "Sac@123";
       $database = "sac";
 
       // Create a connection

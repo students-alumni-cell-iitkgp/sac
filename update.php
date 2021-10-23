@@ -79,8 +79,14 @@
     .header{
         display:flex;
         justify-content :space-between;
-        margin-left:4vw;
-        margin-right:2vw;
+        margin-left:3vw;
+        margin-right:3vw;
+    }
+    .row .f{
+        font-weight:500;
+    }
+    .wrappers{
+    max-width: 800px;   
     }
     
 </style>
@@ -93,45 +99,46 @@
                     INFO
                 </h2>
             </center>
+            <hr />
             <div class="section1">
                     <div class="container">
                         <ul>
-                           <div class = "row"> <div class = "col-6">NAME </div><div class = "col-6"><?php echo "$name"?></div> </div>
-                           <div class = "row"> <div class = "col-6">EMAIL    </div><div class = "col-6"><?php echo "$email"?>   </div> </div>
-                           <div class = "row"> <div class = "col-6">ADDRESS  </div><div class = "col-6"><?php echo "$address"?> </div> </div>
-                           <div class = "row"> <div class = "col-6">CITY     </div><div class = "col-6"><?php echo "$city"?>    </div> </div>
-                           <div class = "row"> <div class = "col-6">STATE    </div><div class = "col-6"><?php echo "$state"?>   </div> </div>
-                           <div class = "row"> <div class = "col-6">COUNTRY  </div><div class = "col-6"><?php echo "$country"?> </div> </div>
-                           <div class = "row"> <div class = "col-6">ZIPCODE  </div><div class = "col-6"><?php echo "$zipcode"?> </div> </div>
-                           <div class = "row"> <div class = "col-6">MOBILE   </div><div class = "col-6"><?php echo "$mobile"?>  </div> </div>
-                           <div class = "row"> <div class = "col-6">DOB      </div><div class = "col-6"><?php echo "$dob"?>     </div> </div>
+                           <div class = "row"> <div class = "col-6 f">NAME </div><div class = "col-6"><?php echo "$name"?></div> </div>
+                           <div class = "row"> <div class = "col-6 f">EMAIL    </div><div class = "col-6"><?php echo "$email"?>   </div> </div>
+                           <div class = "row"> <div class = "col-6 f">ADDRESS  </div><div class = "col-6"><?php echo "$address"?> </div> </div>
+                           <div class = "row"> <div class = "col-6 f">CITY     </div><div class = "col-6"><?php echo "$city"?>    </div> </div>
+                           <div class = "row"> <div class = "col-6 f">STATE    </div><div class = "col-6"><?php echo "$state"?>   </div> </div>
+                           <div class = "row"> <div class = "col-6 f">COUNTRY  </div><div class = "col-6"><?php echo "$country"?> </div> </div>
+                           <div class = "row"> <div class = "col-6 f">ZIPCODE  </div><div class = "col-6"><?php echo "$zipcode"?> </div> </div>
+                           <div class = "row"> <div class = "col-6 f">MOBILE   </div><div class = "col-6"><?php echo "$mobile"?>  </div> </div>
+                           <div class = "row"> <div class = "col-6 f">DOB      </div><div class = "col-6"><?php echo "$dob"?>     </div> </div>
 
-                           <div class = "row"> <div class = "col-6">INDUSTRY      </div><div class = "col-6"><?php echo "$industry"?>     </div> </div>
-                           <div class = "row"> <div class = "col-6">PROFESSION    </div><div class = "col-6"><?php echo "$profession"?>   </div> </div>
-                           <div class = "row"> <div class = "col-6">ORGANISATION  </div><div class = "col-6"><?php echo "$organisation"?> </div> </div>
-                           <div class = "row"> <div class = "col-6">DESIGNATION   </div><div class = "col-6"><?php echo "$designation"?>  </div> </div>
-                           <div class = "row"> <div class = "col-6">WORK ADDRESS  </div><div class = "col-6"><?php echo "$waddress"?>     </div> </div>
-                           <div class = "row"> <div class = "col-6">WORK CITY     </div><div class = "col-6"><?php echo "$wcity"?>        </div> </div>
-                           <div class = "row"> <div class = "col-6">WORK STATE    </div><div class = "col-6"><?php echo "$wstate"?>       </div> </div>
-                           <div class = "row"> <div class = "col-6">WORK COUNTRY  </div><div class = "col-6"><?php echo "$wcountry"?>     </div> </div>
-                           <div class = "row"> <div class = "col-6">WORK ZIPCODE  </div><div class = "col-6"><?php echo "$wzipcode"?>     </div> </div>
+                           <div class = "row"> <div class = "col-6 f">INDUSTRY      </div><div class = "col-6"><?php echo "$industry"?>     </div> </div>
+                           <div class = "row"> <div class = "col-6 f">PROFESSION    </div><div class = "col-6"><?php echo "$profession"?>   </div> </div>
+                           <div class = "row"> <div class = "col-6 f">ORGANISATION  </div><div class = "col-6"><?php echo "$organisation"?> </div> </div>
+                           <div class = "row"> <div class = "col-6 f">DESIGNATION   </div><div class = "col-6"><?php echo "$designation"?>  </div> </div>
+                           <div class = "row"> <div class = "col-6 f">WORK ADDRESS  </div><div class = "col-6"><?php echo "$waddress"?>     </div> </div>
+                           <div class = "row"> <div class = "col-6 f">WORK CITY     </div><div class = "col-6"><?php echo "$wcity"?>        </div> </div>
+                           <div class = "row"> <div class = "col-6 f">WORK STATE    </div><div class = "col-6"><?php echo "$wstate"?>       </div> </div>
+                           <div class = "row"> <div class = "col-6 f">WORK COUNTRY  </div><div class = "col-6"><?php echo "$wcountry"?>     </div> </div>
+                           <div class = "row"> <div class = "col-6 f">WORK ZIPCODE  </div><div class = "col-6"><?php echo "$wzipcode"?>     </div> </div>
 
-                           <div class = "row"> <div class = "col-6">ROLL NO    </div><div class = "col-6"><?php echo "$rollno"?>      </div> </div>  
-                           <div class = "row"> <div class = "col-6">JOIN YEAR  </div><div class = "col-6"><?php echo "$joinyear"?>    </div> </div>  
-                           <div class = "row"> <div class = "col-6">DEGREE     </div><div class = "col-6"><?php echo "$degree"?>      </div> </div>  
-                           <div class = "row"> <div class = "col-6">DEPARTMENT </div><div class = "col-6"><?php echo "$dept"?>        </div> </div>  
-                           <div class = "row"> <div class = "col-6">HALL       </div><div class = "col-6"><?php echo "$hall"?>                </div> </div>
-                           <div class = "row"> <div class = "col-6">YEAR OF GRADUATION </div><div class = "col-6"><?php echo "$yog"?>         </div> </div>
-                           <div class = "row"> <div class = "col-6">INVOLVEMENTS       </div><div class = "col-6"><?php echo "$involvement"?> </div> </div>
-                           <div class = "row"> <div class = "col-6">HOBBIES            </div><div class = "col-6"><?php echo "$hobbies"?>     </div> </div>
+                           <div class = "row"> <div class = "col-6 f">ROLL NO    </div><div class = "col-6"><?php echo "$rollno"?>      </div> </div>  
+                           <div class = "row"> <div class = "col-6 f">JOIN YEAR  </div><div class = "col-6"><?php echo "$joinyear"?>    </div> </div>  
+                           <div class = "row"> <div class = "col-6 f">DEGREE     </div><div class = "col-6"><?php echo "$degree"?>      </div> </div>  
+                           <div class = "row"> <div class = "col-6 f">DEPARTMENT </div><div class = "col-6"><?php echo "$dept"?>        </div> </div>  
+                           <div class = "row"> <div class = "col-6 f">HALL       </div><div class = "col-6"><?php echo "$hall"?>                </div> </div>
+                           <div class = "row"> <div class = "col-6 f">YEAR OF GRADUATION </div><div class = "col-6"><?php echo "$yog"?>         </div> </div>
+                           <div class = "row"> <div class = "col-6 f">INVOLVEMENTS       </div><div class = "col-6"><?php echo "$involvement"?> </div> </div>
+                           <div class = "row"> <div class = "col-6 f">HOBBIES            </div><div class = "col-6"><?php echo "$hobbies"?>     </div> </div>
 
-                           <div class = "row"> <div class = "col-6">VACCINATION STATUS </div><div class = "col-6"><?php echo "$status"?>                 </div> </div>
-                           <div class = "row"> <div class = "col-6">ABLE TO GET VACCINATED BY 10 JAN </div><div class = "col-6"><?php echo "$dosedate"?> </div> </div>
+                           <div class = "row"> <div class = "col-6 f">VACCINATION STATUS </div><div class = "col-6"><?php echo "$status"?>                 </div> </div>
+                           <div class = "row"> <div class = "col-6 f">ABLE TO GET VACCINATED BY 10 JAN </div><div class = "col-6"><?php echo "$dosedate"?> </div> </div>
 
-                           <div class = "row"> <div class = "col-6">MARITAL STATUS  </div><div class = "col-6"><?php echo "$marital"?>          </div> </div>
-                           <div class = "row"> <div class = "col-6">ACCOMPANIMENTS  </div><div class = "col-6"><?php echo "$accompaniments"?>  </div> </div>
-                           <div class = "row"> <div class = "col-6">GUEST HOUSE     </div><div class = "col-6"><?php echo "$gh"?>            </div> </div>
-                           <div class = "row"> <div class = "col-6">TOTAL COST      </div><div class = "col-6"><?php echo "$cost"?>          </div> </div>
+                           <div class = "row"> <div class = "col-6 f">MARITAL STATUS  </div><div class = "col-6"><?php echo "$marital"?>          </div> </div>
+                           <div class = "row"> <div class = "col-6 f">ACCOMPANIMENTS  </div><div class = "col-6"><?php echo "$accompaniments"?>  </div> </div>
+                           <div class = "row"> <div class = "col-6 f">GUEST HOUSE     </div><div class = "col-6"><?php echo "$gh"?>            </div> </div>
+                           <div class = "row"> <div class = "col-6 f">TOTAL COST      </div><div class = "col-6"><?php echo "$cost"?>          </div> </div>
                            
                        </ul>         
                     </div>
