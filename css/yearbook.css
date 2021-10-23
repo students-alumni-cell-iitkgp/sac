@@ -225,6 +225,10 @@ height:0.7rem;
     width: 100%;
   }
   
+  .carousel-control-prev,
+.carousel-control-next{
+	width:10% !important;
+}
   /* Responsive layout - makes a two column-layout instead of four columns */
   @media screen and (max-width: 800px) {
     .column {
