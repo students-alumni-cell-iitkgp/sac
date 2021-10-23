@@ -14,14 +14,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/SAMP_style.css" />
     <link rel="stylesheet" href="css/SAMP_mobile-style.css">
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <style>
     .btn-outline-primary:hover, .btn-outline-primary:active, .btn-outline-primary:visited {
         background-color: #00416d !important;
         border-color: #00416d !important;
-        color:white !important;
-    }
-    #linktoSAMP:hover{
         color:white !important;
     }
     .btn-outline-primary{
@@ -75,9 +71,8 @@
                                 well as share their valuable experience with the current students.
                             </p>
                             <br>
-                            <button class="btn btn-outline-primary justify-content-center">
-                                <i class="fa fa-book"></i> <a id="linktoSAMP" href="https://sac.iitkgp.ac.in/mentorship/" style="color: #00416d">Mentorship Portal</a>
-                            </button>
+                            <button class="btn btn-outline-primary justify-content-center" href="https://sac.iitkgp.ac.in/mentorship/"><i
+                                    class="fa fa-book"></i> Mentorship Portal</button>
                         </div>
                     </div>
                 </div>

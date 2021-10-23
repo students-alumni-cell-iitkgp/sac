@@ -6,9 +6,11 @@ form{
 }
 
 body{
-    background-image: linear-gradient(105deg, rgba(142, 247, 247, 0.651) 20%, rgb(228, 224, 216));
+    /* background-image: linear-gradient(105deg, rgba(113, 225, 233, 0.651) 20%, rgb(228, 224, 216)); */
+    background-image: url("bkt.png");
+    background-repeat: no-repeat;
+  background-size: 1300px 1100px;
 }
-
 .progress-bar{
     background-color: #394149 !important;
 }
