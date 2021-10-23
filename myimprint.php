@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <title>MYIMPRINT</title>
-  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
   <link rel="stylesheet" type="text/css" href="css/imprint.css">
    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 </head>
@@ -70,7 +69,7 @@
   <div class="carousel-inner container">
     <div class="carousel-item active">
 		<div class="row align-items-center">
-            <div class="col-md-12 col-12">
+    <div class="col-md-12 col-12">
               <div class="panel text-center">
                 <h1 class="x">CLASS GIFT 2017</h1>
                 <div class="progress" style="height:0.4rem;">
@@ -78,7 +77,7 @@
                     aria-valuemax="100" style="height:0.4rem;"></div>
                 </div>
                 <div>
-                  <img src="img/latest programs/cg17.jpeg" class="img-fluid img-panel pt-3">
+                  <img src="img/latest programs/cg17.jpg" class="img-fluid img-panel pt-3" >
                 </div>
               </div>
 
@@ -95,7 +94,7 @@
                     aria-valuemax="100" style="height:0.4rem;"></div>
                 </div>
                 <div>
-                  <img src="img/latest programs/cg16.jpeg" class="img-fluid img-panel pt-3">
+                  <img src="img/latest programs/cg16.jpg" class="img-fluid img-panel pt-3"/>
                 </div>
               </div>
 
@@ -112,7 +111,7 @@
                     aria-valuemax="100" style="height:0.4rem;"></div>
                 </div>
                 <div>
-                  <img src="img/latest programs/cg15.jpeg" class="img-fluid img-panel pt-3">
+                  <img src="img/latest programs/cg15.jpg" class="img-fluid img-panel pt-3">
                 </div>
               </div>
 
