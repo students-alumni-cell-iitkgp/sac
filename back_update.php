@@ -41,10 +41,10 @@
         //$reciept = $_POST['reciept'];
     
       // Connecting to the Database
-      $servername = "localhost";
+      $servername = "172.17.0.8";
       $username = "root";
       $password = "";
-      $database = "sac";
+      $database = "Sac@123";
 
       // Create a connection
       $conn = mysqli_connect($servername, $username, $password, $database);
