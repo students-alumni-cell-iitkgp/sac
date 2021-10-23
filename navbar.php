@@ -102,7 +102,7 @@ display: block;}
 					<li class="nav-item dropdown">
 						<a class="nav-link" href="#" data-bs-toggle="dropdown"> Initiatives </a>
 						<ul class="dropdown-menu">
-						    <li><a class="dropdown-item" href="ACAP.php"> ACAP</a></li>
+						    <li><a class="dropdown-item" href="acap.php"> ACAP</a></li>
 							<li><a class="dropdown-item" href="affinity.php"> Affinity Programme </a></li>
 							<li><a class="dropdown-item" href="https://studentsalumnicell-iitkgp.medium.com/" target = "_blank"> Alumni Blog </a></li>
 							<li><a class="dropdown-item" href="myimprint.php"> My Imprint </a></li>
