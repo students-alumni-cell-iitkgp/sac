@@ -1,49 +1,48 @@
-
 <html>
+
 <head>
-<title>Sponsors</title>
- <link rel="icon" href="img/meet_14.png">
-<link rel="stylesheet" href="css/materialize.min.css">
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-    <script src="js/materialize.min.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-<style type="text/css">
-  html {
-    font-size: 15px !important;
-  }
-</style>
-    <script>
-    $(document).ready(function(){
-      $('.slider').slider({full_width: true});
-      
-  });
-    </script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Sponsors</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+		  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	        <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+        <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
+  <link rel="stylesheet" href="css/sponsors.css">
 </head>
+
 <body>
 
-<?php include 'navbar.php';?> <br>
+<?php include 'navbar.php';?>
+    <?php include 'register_spons.php'; ?>
+    <br><br><br>
 <div class="container">
 
-		   <div class="row">
-    	
-      <div class="col l4 m12 s12" align="center">
+		   <div class="s-1 row">
+
+      <div class="col-lg-4 col-sm-12" align="center" style="margin-bottom:20px;">
        <h4 class="spons_head"> Co Sponsors </h4><hr>
         <a href="http://www.bnpparibas.co.in/en/contact-us/srei-equipment-finance/" target="_blank">
           <img class="spons"  src="img/spons/2014/cosponsor.jpg" width="300px" height=""/>
         </a>
       </div>
 
-		
-      <div class="col l4 s12 m12" align="center">
+
+      <div class="col-lg-4 col-sm-12" align="center" style="margin-bottom:20px;">
         <h4 class="spons_head"> Major Sponsors </h4><hr>
         <a href="http://www.hmel.in/" target="_blank">
           <img class="spons"  src="img/spons/2014/major.png" width="200px" height="120px"/>
         </a>
       </div>
 
-      <div class="col l4 s12 m12"align="center">
+      <div class="col-lg-4 col-sm-12"align="center" style="margin-bottom:20px;">
 
       <h4 class="spons_head"> Healthcare Partner </h4><hr>
         <a href="http://www.hillemanlabs.org/" target="_blank">
@@ -51,101 +50,109 @@
         </a>
       </div>
       </div>
-      <div class="row">
-      <div class="col l4 m12 s12 offset-l4" align="center">
+      <div class="s-2 row">
+      <div class="col-sm-12"align="center"style="margin-top:40px;">
 			<h4 > Event Sponsors </h4> </div> </div> <hr>
-      <div class="row">
-        <div class="col l4 m6 s12" align="center">
+      <div class="s-2 row">
+        <div class="col-lg-4 col-md-6 col-sm-12"align="center" style="margin-bottom:20px;">
           <a href="http://www.bseindia.com/" target="_blank">
             <img  src="img/spons/2014/e2.png" width="200px" height=""/>
           </a>
         </div>
-        <div class="col l4 m6 s12" align="center">
+        <div class="col-lg-4 col-md-6 col-sm-12"align="center" style="margin-bottom:20px;">
           <a href="http://www.wbsedcl.in/irj/go/km/docs/internet/webpage/HomePage.html" target="_blank">
             <img  src="img/spons/2014/e1.png" width="200px" height=""/>
           </a>
         </div>
-        <div class="col l4 m6 s12" align="center">
+        <div class="col-lg-4 col-sm-12"align="center" style="margin-bottom:20px;">
           <a href="https://www.vodafone.in/pages/index.aspx" target="_blank">
             <img  src="img/spons/2014/ev4.jpg" width="200px" height=""/>
           </a>
         </div>
       </div>
-      <div class="row">
-        <div class="col l4 m6 s12 offset-l2" align="center">
+      <div class="s-3 row">
+        <div  class="col-lg-6 col-md-6 col-sm-12" align="center" style="margin-bottom:20px;">
           <a href="http://www.vanheusenindia.com/" target="_blank">
             <img   src="img/spons/2014/e5.jpg" width="250px" height="100px"/>
           </a>
         </div>
-        <div class="col l4 m6 s12" align="center">
+        <div class="col-lg-6 col-md-6 col-sm-12"align="center" style="margin-bottom:20px;">
           <a href="http://www.kalikasteels.com/" target="_blank">
             <img src="img/spons/2014/e6.png" width="200px" height=""/>
           </a>
         </div>
       </div>
-<div class="row">
+<div class="rows-4 ">
 
-<div class="col l12 m12 s12" align="center">
+<div class="col-sm-12" align="center"style="margin-top:40px;">
       <h4> Gift Sponsors </h4> <hr></div> </div>
-      <div class="row">
-        <div class="col l4 m6 s12" align="center">
+      <div class="s-4 row">
+        <div class="col-lg-4 col-md-6 col-sm-12"align="center" style="margin-bottom:20px;">
           <a href="http://www.gatikwe.com/" target="_blank">
             <img src="img/spons/2014/gg.jpg" width="200px" height=""/>
           </a>
         </div>
-        <div class="col l4 m6 s12" align="center">
+        <div class="col-lg-4 col-md-6 col-sm-12"align="center" style="margin-bottom:20px;margin-top:20px;">
           <a href="http://www.indiaskylanterns.com/" target="_blank">
             <img src="img/spons/2014/lantern.png" width="200px" height=""/>
           </a>
         </div>
-        <div class="col l4 m6 s12 offset-m3" align="center">
+        <div class="col-lg-4 col-sm-12" align="center" style="margin-bottom:20px;">
           <a href="http://www.idasystems.net/" target="_blank">
             <img src="img/spons/2014/mar.jpg" width="200px" height=""/>
           </a>
         </div>
       </div>
-      <div class="row">
-        <div class="col l4 m6 s12" align="center">
+      <div class="s-5 row">
+        <div class="col-lg-4 col-md-6 col-sm-12"align="center" style="margin-bottom:20px;">
           <a href="http://www.iwt.in/" target="_blank">
             <img src="img/spons/2014/rec.png" width="200px" height=""/>
           </a>
         </div>
-        <div class="col l4 m6 s12" align="center">
+        <div class="col-lg-4 col-md-6 col-sm-12"align="center" style="margin-bottom:20px;">
           <a href="http://www.coca-colaindia.com/" target="_blank">
             <img  src="img/spons/2014/bev.jpg" width="200px" height="180px"/>
           </a>
         </div>
-        <div class="col l4 m6 s12 offset-m3" align="center">
+        <div class="col-lg-4 col-sm-12"align="center" style="margin-bottom:20px;">
           <a href="http://www.sardamagnets.com/" target="_blank">
             <img  src="img/spons/2014/reg2.jpg" width="200px" height="120px"/>
           </a>
         </div>
       </div>
       </div>
-      <div class="row">
-        <div class="col l3 m6 s12" align="center">
+      <div class="s-6 row">
+        <div class="col-lg-4 col-md-6 col-sm-12"align="center" style="margin-bottom:20px;">
           <a href="http://www.tatonka.com/defaulten.aspx" target="_blank">
             <img class="spons" src="img/spons/2014/fart.jpg" width="300px" height=""/>
           </a>
         </div>
-        <div class="col l3 m6 s12" align="center">
+        <div class="col-lg-4 col-md-6 col-sm-12"align="center" style="margin-bottom:20px;margin-top:20px;">
           <a href="http://www.vanguardworld.com/" target="_blank">
             <img class="spons" src="img/spons/2014/fart2.jpg" width="300px" height=""/>
           </a>
         </div>
-        <div class="col l3 m6 s12" align="center">
+        <div class="col-lg-4 col-md-6 col-sm-12"align="center" style="margin-bottom:20px;">
           <a href="http://www.staedtler-india.com/" target="_blank">
             <img class="spons" src="img/spons/2014/reg.png" width="300px" height=""/>
           </a>
         </div>
-        <div class="col l3 m6 s12" align="center">
+        <div class=" col-lg-12 col-md-6 col-sm-12"align="center" style="margin-bottom:20px;">
           <a href="http://www.ssdindia.in/" target="_blank">
             <img class="spons" src="img/spons/2014/sms.png" width="300px" height=""/>
           </a>
         </div>
       </div>
-      
+
   <?php include 'footer.php';?>
+  <!-- <?php include 'preloader.php' ?> -->
+  <script type="text/javascript">
+  for (var i = 1; i <7; i++) {
+    gsap.from(".s-"+i+" h2",{scrollTrigger:".s-"+i+" h2",x:-300, duration: 1.5,opacity:0.2});
+    gsap.from(".s-"+i+" .col-sm-12",{scrollTrigger:".s-"+i+" .col-sm-12",x:-300, duration: 1.5,opacity:0.2});
+
+  }
+  </script>
 </body>
 
 </html>
