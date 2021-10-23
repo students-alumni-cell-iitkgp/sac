@@ -11,6 +11,7 @@
      <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@200&display=swap" rel="stylesheet">
   <style type="text/css">
+
    .img{
 	   background-image:url(img/align.png);
 	   background-size:100% 100%;
