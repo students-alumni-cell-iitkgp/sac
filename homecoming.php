@@ -22,7 +22,7 @@
    @media only screen and (max-width:500px){
 	.padding{
 	   padding:0 1rem;
-   }
+   } 
    .img{
 	  height:330px;
 	  margin-bottom:0px;
