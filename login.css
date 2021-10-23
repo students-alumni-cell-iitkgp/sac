@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+
+form{
+    font-family: 'Scheherazade New', serif;
+}
+
+body{
+    background-image: linear-gradient(to right,#6c757d,black);
+}
+
+.progress-bar{
+    background-color: #394149 !important;
+}
+
+.wrapper{
+    margin-top: 4% !important;
+    background-color: white;
+    margin: auto;
+    width: 100%;
+    max-width: 800px;
+    box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 2%;
+}
+.wrappers{
+    margin-top: 4% !important;
+    background-color: white;
+    margin: auto;
+    width: 94%;
+    max-width: 580px;
+    box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 2%;
+}
+.form-control{
+    margin-bottom: 5px;
+    background-color: rgba(184, 170, 170, 0.1) !important;
+    width: 100%;
+}
+
+.container{
+    margin-bottom: 5vh;
+}
+
+.heading{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+.p-0{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+label{
+    font-weight: 600;
+    margin-bottom: 0px !important;
+}
+
+.section{
+    padding: 2%;
+}
+ /* .btn{
+    margin-top: -10vh;
+}  */
+
+/*mobile css*/
+@media only screen and (max-width: 600px) {
+    .wrapper{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .wrappers{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .heading{
+        width: 90%;
+    }
+}
+
+
+
+  
+
+  
+  

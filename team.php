@@ -1,855 +1,652 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-  <title>The Team | Students' Alumni Cell &middot; IIT Kharagpur</title>
-  <link rel="icon" href="img/meet_14.png">
-  <link rel="stylesheet" href="css/materialize.min.css">
-  <link rel="stylesheet" type="text/css" href="css/social_icon.css">
-  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.min.js"></script>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-</head>
-<style type="text/css">
-  @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900,900italic);
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <title>Teams</title>
 
-  .heading-title {
-    margin-bottom: 100px;
-  }
-
-  .text-center {
-    text-align: center;
-  }
-
-  .heading-title h3 {
-    margin-bottom: 0;
-    letter-spacing: 2px;
-    font-weight: normal;
-  }
-
-  .p-top-30 {
-    padding-top: 30px;
-  }
-
-  .half-txt {
-    width: 60%;
-    margin: 0 auto;
-    display: inline-block;
-    line-height: 25px;
-    color: #7e7e7e;
-  }
-
-  .text-uppercase {
-    text-transform: uppercase;
-  }
-
-  .team-member,
-  .team-member .team-img {
-    position: relative;
-  }
-
-  .team-member {
-    overflow: hidden;
-  }
-
-  .team-member,
-  .team-member .team-img {
-    position: relative;
-  }
-
-  .team-hover {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    margin: 0;
-    border: 20px solid rgba(0, 0, 0, 0.1);
-    background-color: rgba(255, 255, 255, 0.90);
-    opacity: 0;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-  }
-
-  .team-member:hover .team-hover .desk {
-    top: 35%;
-  }
-
-  .team-member:hover .team-hover,
-  .team-member:hover .team-hover .desk,
-  .team-member:hover .team-hover .s-link {
-    opacity: 1;
-  }
-
-  .team-hover .desk {
-    position: absolute;
-    top: 0%;
-    width: 100%;
-    opacity: 0;
-    -webkit-transform: translateY(-55%);
-    -ms-transform: translateY(-55%);
-    transform: translateY(-55%);
-    -webkit-transition: all 0.3s 0.2s;
-    transition: all 0.3s 0.2s;
-    padding: 0 20px;
-  }
-
-  .desk,
-  .desk h4,
-  .team-hover .s-link a {
-    text-align: center;
-    color: #222;
-  }
-
-  .team-member:hover .team-hover .s-link {
-    bottom: 10%;
-  }
-
-  .team-member:hover .team-hover,
-  .team-member:hover .team-hover .desk,
-  .team-member:hover .team-hover .s-link {
-    opacity: 1;
-  }
-
-  .team-hover .s-link {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    opacity: 0;
-    text-align: center;
-    -webkit-transform: translateY(45%);
-    -ms-transform: translateY(45%);
-    transform: translateY(45%);
-    -webkit-transition: all 0.3s 0.2s;
-    transition: all 0.3s 0.2s;
-    font-size: 35px;
-  }
-
-  .desk,
-  .desk h4,
-  .team-hover .s-link a {
-    text-align: center;
-    color: #222;
-  }
-
-  .team-member .s-link a {
-    margin: 0 10px;
-    color: #333;
-    font-size: 16px;
-  }
-
-  .team-title {
-    position: static;
-    padding: 20px 0;
-    display: inline-block;
-    letter-spacing: 2px;
-    width: 100%;
-  }
-
-  .team-title h5 {
-    margin-bottom: 0px;
-    display: block;
-    text-transform: uppercase;
-  }
-
-  .team-title span {
-    font-size: 12px;
-    text-transform: uppercase;
-    color: #a5a5a5;
-    letter-spacing: 1px;
-  }
-
-  body {
-    background: #e2e1e0;
-
-  }
-
-  .card {
-    background: #fff;
-    border-radius: 2px;
-    display: inline-block;
-    height: 300px;
-    margin: 1rem;
-    position: relative;
-    width: 300px;
-  }
-
-  .card-1 {
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
-  }
-
-  .card-1:hover {
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-  }
-
-  @media only screen and (min-width: 600px) and (max-width: 800px) {
-    .card {
-      margin-left: 5px;
-      width: 40vw;
-    }
-
-    .card-mid {
-      margin-left: 23vw;
-    }
-  }
-</style>
+  <!--CSS only-->
+  <link rel="stylesheet" href="css/team.css">
+  <!--FONT AWESOME-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
 
 <body>
-  <?php include 'navbar.php'; ?>
-  <center>
-    <div class="heading" style="border:3px black solid; display: inline-block; padding-top: 2px;padding-right: 20px;padding-left: 20px;">
-      <h4>
-        <b>General Secretaries
-        </b>
-      </h4>
+  <?php include 'navbar.php' ?>
+
+  <section class="section-2">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-md-12 col-12">
+          <div class="panel text-center">
+            <h1 class="x">The TEAM 2021</h1>
+            <div class="progress" style="height:0.4rem;">
+              <div class="progress-bar" id="one" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
+            </div>
+            <br>
+            <div class="row">
+              <div class="col-12 col-sm-6 align-items-center">
+                <div class="service-card">
+                  <div class="card">
+                    <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
+                    <img class="card-img-top" src="img\team2021\Tarun.jpg" height=300px; alt="Card image cap">
+                    <!-- <h3>CODEPEN</h3> -->
+                    <div class="card-body">
+                      <h6 class="x">Tarun Majety</h6>
+                      <p class="x">(General Secretary)</p>
+                      <div class='row'>
+                        <div class="col-3">
+                          <a href='https://www.facebook.com/tarun.majety.18' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                        </div>
+                        <div class="col-3">
+                          <a href='https://www.linkedin.com/in/tarun-majety/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                        </div>
+                        <div class="col-3">
+                          <a href='mailto:tarunmajety.tarun@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                        </div>
+                        <div class="col-3">
+                          <a href='tel:+91-7602443444' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                        </div>
+
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 align-items-center">
+                <div class="service-card">
+                  <div class="card">
+                    <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
+                    <img class="card-img-top" src="img\team2021\Vikas.jpg" height=300px; alt="Card image cap">
+                    <!-- <h3>CODEPEN</h3> -->
+                    <div class="card-body">
+                      <h6 class="x">Vikas Ahlawat</h6>
+                      <p class="x">(General Secretary)</p>
+                      <div class='row'>
+                        <div class="col-3">
+                          <a href='https://www.facebook.com/vikas.ahlawat.09/' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                        </div>
+                        <div class="col-3">
+                          <a href='https://www.linkedin.com/in/vikas-ahlawat-/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                        </div>
+                        <div class="col-3">
+                          <a href='vickyahlawat2019@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                        </div>
+                        <div class="col-3">
+                          <a href='tel:+91-8397070108' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 col-sm-6 align-items-center">
+                <div class="service-card">
+                  <div class="card">
+                    <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
+                    <img class="card-img-top" src="img\team2021\Satyam.jpg" height=300px; alt="Card image cap">
+                    <!-- <h3>CODEPEN</h3> -->
+                    <div class="card-body">
+                      <h6 class="x">Satyam Jha</h6>
+                      <p class="x">(Coordinator, PR)</p>
+                      <div class='row'>
+                        <div class="col-3">
+                          <a href='https://www.facebook.com/ranny.cunninghamp' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                        </div>
+                        <div class="col-3">
+                          <a href='https://www.linkedin.com/in/satyamjha-/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                        </div>
+                        <div class="col-3">
+                          <a href='mailto:jhasatyam991@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                        </div>
+                        <div class="col-3">
+                          <a href='tel:+91-6200797159' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 align-items-center">
+                <div class="service-card">
+                  <div class="card">
+                    <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
+                    <img class="card-img-top" src="img\team2021\Brahmjot.jpg" height=300px; alt="Card image cap">
+                    <!-- <h3>CODEPEN</h3> -->
+                    <div class="card-body">
+                      <h6 class="x">Brahmjot Singh</h6>
+                      <p class="x">(Coordinator, Sponsorship)</p>
+                      <div class='row'>
+                        <div class="col-3">
+                          <a href='https://www.facebook.com/brahmjot.singh.7165' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                        </div>
+                        <div class="col-3">
+                          <a href='https://www.linkedin.com/in/brahmjot-singh/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                        </div>
+                        <div class="col-3">
+                          <a href='mailto:mrbrahmjotsingh@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                        </div>
+                        <div class="col-3">
+                          <a href='tel:+91-8196837717' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 col-sm-6 align-items-center">
+                <div class="service-card">
+                  <div class="card">
+                    <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
+                    <img class="card-img-top" src="img\team2021\Namya.jpg" height=300px; alt="Card image cap" style="object-position: left;">
+                    <!-- <h3>CODEPEN</h3> -->
+                    <div class="card-body">
+                      <h6 class="x">Namya Swarnkar</h6>
+                      <p class="x">(Coordinator , Sponsorship)</p>
+                      <div class='row'>
+                        <div class="col-3">
+                          <a href='https://www.facebook.com/namya.swarnkar' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                        </div>
+                        <div class="col-3">
+                          <a href='https://www.linkedin.com/in/namya-swarnkar/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                        </div>
+                        <div class="col-3">
+                          <a href='mailto:namya.swarnkar@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                        </div>
+                        <div class="col-3">
+                          <a href='tel:+91-9307436229' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 align-items-center">
+                <div class="service-card">
+                  <div class="card">
+                    <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
+                    <img class="card-img-top" src="img\team2021\Shikha3.jpeg" height=300px; alt="Card image cap">
+                    <!-- <h3>CODEPEN</h3> -->
+                    <div class="card-body">
+                      <h6 class="x">Shikha Bagaria</h6>
+                      <p class="x">(Coordinator, Web ,Networking)</p>
+                      <div class='row'>
+                        <div class="col-3">
+                          <a href='https://www.facebook.com/profile.php?id=100010637087247' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                        </div>
+                        <div class="col-3">
+                          <a href='https://www.linkedin.com/in/shikha-bagaria/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                        </div>
+                        <div class="col-3">
+                          <a href='mailto:shikhabagaria11@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                        </div>
+                        <div class="col-3">
+                          <a href='tel:+91-7479222951' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 col-sm-6 align-items-center">
+                <div class="service-card">
+                  <div class="card">
+                    <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
+                    <img class="card-img-top" src="img\team2021\Tanwir.jpg" height=300px; alt="Card image cap">
+                    <!-- <h3>CODEPEN</h3> -->
+                    <div class="card-body">
+                      <h6 class="x">Tanwir Singh</h6>
+                      <p class="x">(Web Head)</p>
+                      <div class='row'>
+                        <div class="col-3">
+                          <a href='https://www.facebook.com/tanwir.singh.77' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                        </div>
+                        <div class="col-3">
+                          <a href='https://www.linkedin.com/in/tanwir-singh/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                        </div>
+                        <div class="col-3">
+                          <a href='mailto:tanwir1703@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                        </div>
+                        <div class="col-3">
+                          <a href='tel:+91-7808312082' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 align-items-center">
+                <div class="service-card">
+                  <div class="card">
+                    <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
+                    <img class="card-img-top" src="img\team2021\Aryan3.jpg" height=300px; alt="Card image cap">
+                    <!-- <h3>CODEPEN</h3> -->
+                    <div class="card-body">
+                      <h6 class="x">Aryan Raj Lohani</h6>
+                      <p class="x">(Web Head)</p>
+                      <div class='row'>
+                        <div class="col-3">
+                          <a href='https://www.facebook.com/aryan.lohani.9' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                        </div>
+                        <div class="col-3">
+                          <a href='https://www.linkedin.com/in/aryan-raj-lohani-2002/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                        </div>
+                        <div class="col-3">
+                          <a href='mailto:aryanrajlohani16@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                        </div>
+                        <div class="col-3">
+                          <a href='tel:+91-8084860904' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-xs-12 col-sm-6">
+                <div class="service-card">
+                  <div class="card">
+                    <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
+                    <img class="card-img-top" src="img\team2021\SUMANTH.jpg" height=300px; alt="Card image cap" style="object-position: center;">
+                    <!-- <h3>CODEPEN</h3> -->
+                    <div class="card-body">
+                      <h6 class="x">D Sumanth</h6>
+                      <p class="x">(Public Relations Head, Design)</p>
+                      <div class='row'>
+                        <div class="col-3">
+                          <a href='https://www.facebook.com/sumanth.marshall.999' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                        </div>
+                        <div class="col-3">
+                          <a href='https://www.linkedin.com/in/sumanth-d/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                        </div>
+                        <div class="col-3">
+                          <a href='mailto:sumanthsachin1215@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                        </div>
+                        <div class="col-3">
+                          <a href='tel:+91-9912472710' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-3 align-items-center">
+              </div>
+
+              <div class="col-12 col-sm-6 col-6">
+                <div class="service-card last-card">
+                  <div class="card ">
+                    <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
+                    <img class="card-img-top" src="img\team2021\Viraj.jpg" height=300px; alt="Card image cap">
+                    <!-- <h3>CODEPEN</h3> -->
+                    <div class="card-body">
+                      <h6 class="x">Viraj Madke</h6>
+                      <p class="x">(Public Relations Head, Videography)</p>
+                      <div class='row'>
+                        <div class="col-3">
+                          <a href='https://www.facebook.com/viraj.madke' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                        </div>
+                        <div class="col-3">
+                          <a href='https://www.linkedin.com/in/viraj-madke/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                        </div>
+                        <div class="col-3">
+                          <a href='mailto:virajmadke@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                        </div>
+                        <div class="col-3">
+                          <a href='tel:+91-7517056804' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-3 align-items-center">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </center>
-  <div class="container">
-    <div class="row">
-
-
-      <div class="col l4 m6 s12 offset-l2">
-        <div class="card card-1">
-          <div class="team-member">
-            <div class="team-img">
-              <img src="img\team2021\Tarun.jpg" alt="team member" class="img-responsive" height="250" width="100%">
+  </section>
+  <section class="section-2">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-md-12 col-12">
+          <div class="panel text-center">
+            <h1 class="x">Former Heads</h1>
+            <div class="progress" style="height:0.4rem;">
+              <div class="progress-bar" id="two" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
             </div>
-            <div class="team-hover">
-              <br> <br>
-              <div class="desk"> <br>
-                <h5 style="margin-top: 50px">Tarun Majety</h5>
-                <ul>
-                  <li style="padding-left: 15px;">+91-7602443444</li>
-                  <li style="padding-left: 15px;">tarunmajety.tarun@gmail.com</li>
+            <br>
+            <div class="row">
+              <div div class="col-12 col-sm-4 former-team-text">
+                <h4>2020</h4>
+                <ul class='team' style="list-style:none;">
+                  <li>Subhadra Jena</li>
+                  <li>Akash Srivastava</li>
+                  <li>Mayank Arora</li>
+                  <li>Nitika Shroff</li>
+                  <li>Sanjay Motwani</li>
+                  <li>Vishaw Kashyap</li>
+                  <li>Anuja Raj Verma</li>
+                  <li>Yukta Bagdi</li>
+                  <li>Prasang Kumar</li>
+                  <li>Ritish Dutt</li>
+                  <li>Nischay Gothwal</li>
                 </ul>
               </div>
-              <div class="s-link">
-                <a target="_blank" href="https://www.facebook.com/tarun.majety.18"><i class="fa fa-facebook"></i></a>
-                <a target="_blank" href="https://www.linkedin.com/in/tarun-majety/"><i class="fa fa-linkedin"></i></a>
-
-
-              </div>
-            </div>
-          </div>
-          <div class="team-title" style="padding-top:0px;">
-            <h5 style="text-align: center;font-size: 120%;">Tarun Majety</h5>
-
-          </div>
-        </div>
-      </div>
-      <div class="col l4 m6 s12">
-        <div class="card card-1">
-          <div class="team-member">
-            <div class="team-img">
-              <img src="img\team2021\Vikas.jpg" alt="team member" class="img-responsive" height="250" width="100%">
-            </div>
-            <div class="team-hover">
-              <div class="desk">
-                <br> <br> <br>
-                <h5>Vikas Ahlawat</h5>
-                <ul>
-                  <li style="padding-left: 15px;">+91-8397070108</li>
-                  <li style="padding-left: 15px;">vickyahlawat2019@gmail.com</li>
+              <div class="col-12 col-sm-4 former-team-text">
+                <h4>2019</h4>
+                <ul class='team' style="list-style:none;">
+                  <li>Shishir Shahi</li>
+                  <li>Swaraj Prakash</li>
+                  <li>Avi Singh Raghuwanshi</li>
+                  <li>Atharva Wagle</li>
+                  <li>Eknoor Malhotra</li>
+                  <li>Madhumita Paul</li>
+                  <li> Ayush Jain</li>
+                  <li>Kunal Das</li>
+                  <li>Shubham Kendre</li>
+                  <li>Tanmay Das</li>
+                  <li>Raman Shaw</li>
                 </ul>
               </div>
-              <div class="s-link">
-                <a target="_blank" href="https://www.facebook.com/vikas.ahlawat.09/"><i class="fa fa-facebook"></i></a>
-
-                <a target="_blank" href="https://www.linkedin.com/in/vikas-ahlawat-/"><i class="fa fa-linkedin"></i></a>
+              <div class="col-12 col-sm-4 former-team-text">
+                <h4>2018</h4>
+                <ul class='team' style="list-style:none;">
+                  <li>Gautam Arya</li>
+                  <li>Vasanta Majety</li>
+                  <li>Akanksha Malhotra</li>
+                  <li>Kumar Shubham</li>
+                  <li>Naman Agarwal</li>
+                  <li>Shruti Joshi</li>
+                  <li>Vaibhav Beriwal</li>
+                  <li> Upamanyu Chatterjee</li>
+                  <li>Md Asif Iqbal</li>
+                  <li>Prateek Kaushal</li>
+                  <li>Sumit Tripathi</li>
+                  <li>Harsh Yadav</li>
+                </ul>
+              </div>
+              
+            </div>
+            <div class="row">
+              <div class="col-12 col-sm-4 former-team-text">
+                  <h4>2017</h4>
+                  <ul class='team' style="list-style:none;">
+                    <li>Bharat Chandra</li>
+                    <li>Vishal Kumar Singh</li>
+                    <li>Anmol Thakkar</li>
+                    <li>Daksh Thakkur</li>
+                    <li>Rohit Sonawane</li>
+                    <li>Sreelatha Challa</li>
+                    <li> Utkarsh Sinha</li>
+                    <li>Yash Patil</li>
+                    <li>Karan Pratap Singh</li>
+                    <li>Yugam</li>
+                    <li>Aman Kumar Aggarwal</li>
+                  </ul>
+                </div>
+              <div class="col-12 col-sm-4 former-team-text">
+                <h4>2016</h4>
+                <ul class='team' style="list-style:none;">
+                  <li>Mridul Pant</li>
+                  <li>Vaibhav Chauhan</li>
+                  <li>Afzal Ahmed</li>
+                  <li>Ashay Walke</li>
+                  <li>Ashutosh Ikade</li>
+                  <li>Harsh Kumar Sharan</li>
+                  <li> Pallavi Das</li>
+                  <li>Shruti Sagar</li>
+                  <li> Punit Kumar</li>
+                  <li>Utsav Agarwal</li>
+                </ul>
+              </div>
+              <div class="col-12 col-sm-4 former-team-text">
+                <h4>2015</h4>
+                <ul class='team' style="list-style:none;">
+                  <li>Pranshu Jain</li>
+                  <li>Rohan Gupta</li>
+                  <li>Akash Tulsani</li>
+                  <li>Ankit Sharma</li>
+                  <li>Ashish Verma</li>
+                  <li>Manognya Deepthi G</li>
+                  <li> Raja Barnwal</li>
+                  <li>Rihen Chheda</li>
+                  <li> Sanket</li>
+                  <li>Siddharth Kannan</li>
+                  <li> Soumyadeep Ghosh</li>
+                </ul>
               </div>
             </div>
-          </div>
-          <div class="team-title" style="padding-top:0px;">
-            <h5 style="text-align: center;font-size: 120%;">Vikas Ahlawat</h5>
+            <div class="row">
+              <div class="col-12 col-sm-4 former-team-text">
+                  <h4>2014</h4>
+                  <ul class='team' style="list-style:none;">
+                    <li>Arpit Gupta</li>
+                    <li>Manish Goyal</li>
+                    <li>Aditi Shrivastav</li>
+                    <li>Atal A. Agarwal</li>
+                    <li>Chandreyee Bhaumik</li>
+                    <li>Naman Nishesh</li>
+                    <li>Rahul Mishra</li>
+                    <li>Satyajit Kumar</li>
+                  </ul>
+                </div>
 
+              <div class="col-12 col-sm-4 former-team-text">
+                <h4>2013</h4>
+                <ul class='team' style="list-style:none;">
+                  <li>Aditi Sharma</li>
+                  <li>Vedang Deshpande</li>
+                  <li>Abhinay Vyas</li>
+                  <li>Abhishek Kanchi</li>
+                  <li>Anuj Bothra</li>
+                  <li>Saumaric Dangwal</li>
+                  <li>Mridul Mittal</li>
+                  <li>Niharika Tomar</li>
+                  <li>Pursottam Soni</li>
+                  <li>Subramani Bharathi</li>
+                  <li>Suman Agarwal</li>
+                  <li>Uday Shankar Das</li>
+                </ul>
+              </div>
+              <div class="col-12 col-sm-4 former-team-text">
+                <h4>2012</h4>
+                <ul class='team' style="list-style:none;">
+                  <li>Apoorv Jain</li>
+                  <li>Utkarsh Jain</li>
+                  <li>Akshay Kumar</li>
+                  <li>Himanshu Shrivastava</li>
+                  <li>Karan Kakwani</li>
+                  <li>Nimish Goel</li>
+                  <li>Sahil Jalan</li>
+                  <li>Tanya Mondal</li>
+                </ul>
+              </div>
+              
+            </div>
+            <div class="row">
+              <div class="col-12 col-sm-4 former-team-text">
+                  <h4>2011</h4>
+                  <ul class='team' style="list-style:none;">
+                    <li>Nikunj Mall</li>
+                    <li>Akshat Prakash</li>
+                    <li>Aditi Kadmawala</li>
+                    <li>Akshay Chalikwar</li>
+                    <li>Deepika Bajaj</li>
+                    <li>Rupinder Singh</li>
+                    <li>Sai Sachin</li>
+                    <li>Siddarth Mall</li>
+                  </ul>
+                </div>
+              <div class="col-12 col-sm-4 former-team-text">
+                <h4>2010</h4>
+                <ul class='team'style="list-style:none;">
+                  <li>Drishti Guin </li>
+                  <li>Vishnu Rajeev</li>
+                  <li> Harshal Maniyar</li>
+                  <li>Sumeet Mavani</li>
+                  <li>Neeraj Daswani</li>
+                  <li>Gautham Kokku</li>
+                  <li>Swetha Reddy</li>
+                  <li> Tarun Trivedi</li>
+                </ul>
+              </div>
+              <div class="col-12 col-sm-4 former-team-text">
+                <h4>2009</h4>
+                <ul class='team'style="list-style:none;">
+                  <li>Chirag Fialoke</li>
+                  <li>Abhishek Narain</li>
+                  <li>Suruchi Prakash</li>
+                  <li>Jyotika Gupta</li>
+                  <li>Abhijeet Khanna</li>
+                  <li>Abhigyan Mandal</li>
+                  <li>Digvijay Singh</li>
+                </ul>
+              </div>
+              <!-- <div class="col-12 col-sm-4 former-team-text">
+              </div> -->
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
+  </section>
+  </main>
+  <!-- <?php include 'preloader.php' ?> -->
+  <?php include 'footer.php' ?>
 
-  <div class="heading">
-    <center>
-      <h class="subheading"><b>Coordinators</b></h>
-    </center>
-  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
 
-  <div class="container">
-    <div class="row">
+  <script>
+    $("#one,#two").each(function() {
+      $(this).addClass("progress-bar-purple");
+    });
+    gsap.from('header', {
+      opacity: 0,
+      duration: 1
+    })
+    gsap.from('header h1', {
+      opacity: 0,
+      duration: 2,
+      x: -200
+    })
+    gsap.from('header h6', {
+      opacity: 0,
+      duration: 2,
+      x: -500
+    })
 
-      <div class="col l5 m5 s12 offset-l1">
-        <div class="card card-1">
-          <div class="team-member">
-            <div class="team-img">
-              <img src="img\team2021\Brahmjot.jpg" alt="team member" class="img-responsive" height="250" width="100%">
-            </div>
-            <div class="team-hover">
-              <div class="desk"> <br>
-                <h5 style="margin-top: 50px">Brahmjot Singh</h5>
-                <ul>
-                  <li style="padding-left: 15px;">+91-8196837717</li>
-                  <li style="padding-left: 15px;">mrbrahmjotsingh@gmail.com</li>
-                </ul>
-              </div>
-              <div class="s-link">
-                <a target="_blank" href="https://www.facebook.com/brahmjot.singh.7165"><i class="fa fa-facebook"></i></a>
-                <a target="_blank" href="https://www.linkedin.com/in/brahmjot-singh/"><i class="fa fa-linkedin"></i></a>
+    gsap.registerPlugin(ScrollTrigger);
 
-              </div>
-            </div>
-          </div>
-          <div class="team-title" style="padding-top:0px;">
-            <h5 style="text-align: center;font-size: 120%;">Brahmjot Singh</h5>
-
-          </div>
-        </div>
-      </div>
-
-      <div class="col l5 m5 s12 offset-l1">
-        <div class="card card-1">
-          <div class="team-member">
-
-            <div class="team-img">
-              <img src="img\team2021\IMG_20200307_221506_Burst01.jpg" alt="team member" class="img-responsive" height="250" width="100%">
-            </div>
-            <div class="team-hover">
-              <div class="desk"> <br>
-                <h5 style="margin-top: 50px">Namya Swarnkar</h5>
-                <ul>
-                  <li style="padding-left: 15px;">+91-9307436229</li>
-                  <li style="padding-left: 15px;">namya.swarnkar@gmail.com</li>
-                </ul>
-              </div>
-              <div class="s-link">
-                <a target="_blank" href="https://www.facebook.com/namya.swarnkar"><i class="fa fa-facebook"></i></a>
-                <a target="_blank" href="https://www.linkedin.com/in/namya-swarnkar/"><i class="fa fa-linkedin"></i></a>
-
-              </div>
-            </div>
-          </div>
-          <div class="team-title" style="padding-top:0px;">
-            <h5 style="text-align: center;font-size: 120%;">Namya Swarnkar</h5>
-
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row">
+    gsap.from('.nav-item', {
+      scrollTrigger: {
+        trigger: '.nav-item',
+        toggleActions: "play none none none"
+      },
+      opacity: 0,
+      duration: 1,
+      x: -200
+    });
 
 
-      <div class="col l5 m5 s12 offset-l1">
-        <div class="card card-1">
-          <div class="team-member">
-            <div class="team-img">
-              <img src="img\team2021\Satyam.jpg" alt="team member" class="img-responsive" height="250" align="center" width="100%">
-            </div>
-            <div class="team-hover">
-              <div class="desk"> <br>
-                <h5 style="margin-top: 50px">Satyam Jha</h5>
-                <ul>
-                  <li style="padding-left: 15px;">+91-6200797159</li>
-                  <li style="padding-left: 15px;">jhasatyam991@gmail.com</li>
-                </ul>
-              </div>
-              <div class="s-link">
-                <a target="_blank" href="https://www.facebook.com/ranny.cunninghamp"><i class="fa fa-facebook"></i></a>
-                <a target="_blank" href="https://www.linkedin.com/in/satyamjha-/"><i class="fa fa-linkedin"></i></a>
+    gsap.from('.section-1 h1', {
+      scrollTrigger: {
+        trigger: '.section-1 h1',
+        toggleActions: "play none none none"
+      },
+      opacity: 0,
+      duration: 1,
+      x: -200
+    });
 
-              </div>
-            </div>
-          </div>
-          <div class="team-title" style="padding-top:0px;">
-            <h5 style="text-align: center;font-size: 120%;">Satyam Jha</h5>
+    gsap.from('.section-1 p', {
+      scrollTrigger: {
+        trigger: '.section-1 p',
+        toggleActions: "play none none none"
+      },
+      opacity: 0,
+      duration: 2.0,
+    });
 
-          </div>
-        </div>
-      </div>
+    gsap.from('.section-1 img', {
+      scrollTrigger: {
+        trigger: '.section-1 img',
+        toggleActions: "play none none none"
+      },
+      opacity: 0,
+      duration: 1.5,
+      x: 200
+    });
 
-      <div class="col l5 m5 s12 offset-l1">
-        <div class="card card-1">
-          <div class="team-member">
-            <div class="team-img">
-              <img src="img\team2021\Shikha.jpeg" alt="team member" class="img-responsive" height="250" width="100%">
-            </div>
-            <div class="team-hover">
-              <div class="desk"> <br>
-                <h5 style="margin-top: 50px">Shikha Kumari</h5>
-                <ul>
-                  <li style="padding-left: 15px;">+91-7479222951</li>
-                  <li style="padding-left: 15px;margin-left: -7%;">
-                    shikhabagaria11@gmail.com
-                  </li>
-                </ul>
-              </div>
-              <div class="s-link">
-                <a target="_blank" href="https://www.facebook.com/profile.php?id=100010637087247"><i class="fa fa-facebook"></i></a>
-                <a target="_blank" href="https://www.linkedin.com/in/shikha-bagaria/"><i class="fa fa-linkedin"></i></a>
+    var arr = document.getElementsByClassName("x");
+    for (var i = 0; i < arr.length; i++) {
 
-              </div>
-            </div>
-          </div>
-          <div class="team-title" style="padding-top:0px;">
-            <h5 style="text-align: center; font-size: 120%;">Shikha Kumari</h5>
+      gsap.from(arr[i], {
+        scrollTrigger: {
+          trigger: arr[i],
+          toggleActions: "play none none none"
+        },
+        opacity: 0,
+        duration: 1.5,
+        x: -200
+      });
 
-          </div>
-        </div>
-      </div>
-      <center>
-        <div class="heading" style="border:3px black solid; display: inline-block; padding-top: 2px;padding-right: 20px;padding-left: 20px;">
-          <h4>
-            <b>Web Heads
-            </b>
-          </h4>
-        </div>
-      </center>
-      <div class="container">
-        <div class="row">
+    }
+    var img_arr = document.getElementsByClassName("image");
+    for (var i = 0; i < img_arr.length; i++) {
 
-          <div class="col l5 m5 s12 offset-l2">
-            <div class="card card-1" style="left:-170px;">
-              <div class="team-member">
-                <div class="team-img">
-                  <img src="img\team2021\Tanwir.jpg" alt="team member" class="img-responsive" height="250" width="100%">
-                </div>
-                <div class="team-hover">
-                  <div class="desk"> <br> <br> <br>
-                    <h5>Tanwir Singh</h5>
-                    <ul>
-                      <li style="padding-left: 15px;">+91-7808312082</li>
-                      <li style="padding-left: 15px;margin-left: -7%; ">tanwir1703@gmail.com</li>
-                    </ul>
-                  </div>
-                  <div class="s-link">
-                    <a target="_blank" href="https://www.facebook.com/tanwir.singh.77"><i class="fa fa-facebook"></i></a>
-                    <a target="_blank" href="https://www.linkedin.com/in/tanwir-singh/"><i class="fa fa-linkedin"></i></a>
-                    <a target="_blank" href="https://github.com/tanwir1703"><i class="fa fa-github"></i></a>
-                  </div>
-                </div>
-              </div>
-              <div class="team-title" style="padding-top:0px;">
-                <h5 style="text-align: center;font-size: 120%;">Tanwir Singh</h5>
+      gsap.from(img_arr[i], {
+        scrollTrigger: {
+          trigger: img_arr[i],
+          start: "top center",
+          toggleActions: "play none none none",
+        },
+        opacity: 0,
+        duration: 1.5,
+      });
 
-              </div>
-            </div>
-          </div>
-
-          <div class="col l5 m5 s12">
-            <div class="card card-1" style="left: 20px;">
-              <div class="team-member">
-                <div class="team-img">
-                  <img src="img\team2021\Aryan.jpg" alt="team member" class="img-responsive" height="250" width="100%">
-                </div>
-                <div class="team-hover">
-                  <div class="desk"> <br>
-                    <h5 style="margin-top: 50px">Aryan Raj Lohani</h5>
-                    <ul>
-                      <li style="padding-left: 15px;">+91-8084860904</li>
-                      <li style="padding-left: 15px;">aryanrajlohani16@gmail.com</li>
-                    </ul>
-                  </div>
-                  <div class="s-link">
-                    <a target="_blank" href="https://www.facebook.com/aryan.lohani.9"><i class="fa fa-facebook"></i></a>
-                    <a target="_blank" href="https://www.linkedin.com/in/aryan-raj-lohani-2002/"><i class="fa fa-linkedin"></i></a>
-                    <a target="_blank" href="https://github.com/AryanLohani"><i class="fa fa-github"></i></a>
-
-                  </div>
-                </div>
-              </div>
-              <div class="team-title" style="padding-top:0px;">
-                <h5 style="text-align: center;font-size: 120%;">Aryan Raj Lohani</h5>
-
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-
-
-      <center>
-        <div class="heading" style="border:3px black solid; display: inline-block; padding-top: 2px;padding-right: 20px;padding-left: 20px;">
-          <h4>
-            <b>Design Head
-            </b>
-          </h4>
-        </div>
-      </center>
-      <div class="container">
-        <div class="row">
-
-          <div class="col l4 m6 s12 offset-l3" style="box-shadow: 2px black;">
-            <div class="card card-1 card-mid">
-              <div class="team-member">
-                <div class="team-img">
-                  <img src="img\team2021\SUMANTH.jpg" alt="team member" class="img-responsive" height="250" width="100%">
-                </div>
-                <div class="team-hover">
-                  <div class="desk"> <br> <br> <br>
-                    <h5>D Sumanth</h5>
-                    <ul>
-                      <li style="padding-left: 15px;">+91-9912472710</li>
-                      <li style="padding-left: 15px;">sumanthsachin1215@gmail.com</li>
-                    </ul>
-                  </div>
-                  <div class="s-link">
-                    <a target="_blank" href="https://www.facebook.com/sumanth.marshall.999"><i class="fa fa-facebook"></i></a>
-                    <a target="_blank" href="https://www.linkedin.com/in/sumanth-d/"><i class="fa fa-linkedin"></i></a>
-
-                  </div>
-                </div>
-              </div>
-              <div class="team-title" style="padding-top:0px;">
-                <h5 style="text-align: center;font-size: 120%;  ">D Sumanth</h5>
-
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <center>
-        <div class="heading" style="border:3px black solid; display: inline-block; padding-top: 2px;padding-right: 20px;padding-left: 20px;">
-          <h4>
-            <b>Videography Head
-            </b>
-          </h4>
-        </div>
-      </center>
-      <div class="container">
-        <div class="row">
-
-          <div class="col l4 m6 s12 offset-l3" style="box-shadow: 2px black;">
-            <div class="card card-1 card-mid">
-              <div class="team-member">
-                <div class="team-img">
-                  <img src="img\team2021\Viraj.png" alt="team member" style="object-fit:center;" height="250" width="100%">
-                </div>
-                <div class="team-hover">
-                  <div class="desk"> <br> <br> <br>
-                    <h5>Viraj Madke</h5>
-                    <ul>
-                      <li style="padding-left: 15px;">+91-7517056804</li>
-                      <li style="padding-left: 15px;">virajmadke@gmail.com</li>
-                    </ul>
-                  </div>
-                  <div class="s-link">
-                    <a target="_blank" href="https://www.facebook.com/viraj.madke"><i class="fa fa-facebook"></i></a>
-                    <a target="_blank" href="https://www.linkedin.com/in/viraj-madke/"><i class="fa fa-linkedin"></i></a>
-
-                  </div>
-                </div>
-              </div>
-              <div class="team-title" style="padding-top:0px;">
-                <h5 style="text-align: center;font-size: 120%;  ">Viraj Madke</h5>
-
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-
-      <center>
-        <div class="heading" style="border:3px black solid; display: inline-block; padding-top: 2px;padding-right: 20px;padding-left: 20px;">
-          <h4>
-            <b>Former Team Members
-            </b>
-          </h4>
-        </div>
-      </center>
-
-      <div class="row" style="margin-top: 50px;">
-        <div id="2020" class="col l4">
-          <ul>
-            <span>
-              <b>
-                <li style="font-size: 20;">2020</li>
-                <hr>
-                <li>Subhadra Jena</li>
-                <li>Akash Srivastava</li>
-                <li>Mayank Arora</li>
-                <li>Nitika Shroff</li>
-                <li>Sanjay Motwani</li>
-                <li>Vishaw Kashyap</li>
-                <li>Anuja Raj Verma</li>
-                <li>Yukta Bagdi</li>
-                <li>Prasang Kumar</li>
-                <li>Ritish Dutt</li>
-                <li>Nischay Gothwal</li>
-              </b>
-            </span>
-          </ul>
-        </div>
-        <div id="2019" class="col l4">
-          <ul>
-            <span>
-              <b>
-                <li style="font-size: 20;">2019</li>
-                <hr>
-                <li>Shishir Shahi</li>
-                <li>Swaraj Prakash</li>
-                <li>Avi Singh Raghuwanshi</li>
-                <li>Atharva Wagle</li>
-                <li>Eknoor Malhotra</li>
-                <li>Madhumita Paul</li>
-                <li> Ayush Jain</li>
-                <li>Kunal Das</li>
-                <li>Shubham Kendre</li>
-                <li>Tanmay Das</li>
-                <li>Raman Shaw</li>
-              </b>
-            </span>
-          </ul>
-        </div>
-        <div id="2018" class="col l4">
-          <ul>
-            <span>
-              <b>
-                <li style="font-size: 20;">2018</li>
-                <hr>
-                <li>Gautam Arya</li>
-                <li>Vasanta Majety</li>
-                <li>Akanksha Malhotra</li>
-                <li>Kumar Shubham</li>
-                <li>Naman Agarwal</li>
-                <li>Shruti Joshi</li>
-                <li>Vaibhav Beriwal</li>
-                <li> Upamanyu Chatterjee</li>
-                <li>Md Asif Iqbal</li>
-                <li>Prateek Kaushal</li>
-                <li>Sumit Tripathi</li>
-                <li>Harsh Yadav</li>
-              </b>
-            </span>
-          </ul>
-        </div>
-        <div id="2017" class="col l4">
-          <ul>
-            <span>
-              <b>
-                <li style="font-size: 20;">2017</li>
-                <hr>
-                <li>Bharat Chandra</li>
-                <li>Vishal Kumar Singh</li>
-                <li>Anmol Thakkar</li>
-                <li>Daksh Thakkur</li>
-                <li>Rohit Sonawane</li>
-                <li>Sreelatha Challa</li>
-                <li> Utkarsh Sinha</li>
-                <li>Yash Patil</li>
-                <li>Karan Pratap Singh</li>
-                <li>Yugam</li>
-                <li>Aman Kumar</li>
-              </b>
-            </span>
-          </ul>
-        </div>
-        <div id="2016" class="col l4">
-          <ul>
-            <span>
-              <b>
-                <li style="font-size: 20;">2016</li>
-                <hr>
-                <li>Mridul Pant</li>
-                <li>Vaibhav Chauhan</li>
-                <li>Afzal Ahmed</li>
-                <li>Ashay Walke</li>
-                <li>Ashutosh Ikade</li>
-                <li>Harsh Kumar Sharan</li>
-                <li> Pallavi Das</li>
-                <li>Shruti Sagar</li>
-                <li> Punit Kumar</li>
-                <li>Utsav Agarwal</li>
-                <li></li>
-              </b>
-            </span>
-          </ul>
-        </div>
-        <div id="2015" class="col l4">
-          <ul>
-            <span>
-              <b>
-                <li style="font-size: 20;">2015</li>
-                <hr>
-                <li>Pranshu Jain</li>
-                <li>Rohan Gupta</li>
-                <li>Akash Tulsani</li>
-                <li>Ankit Sharma</li>
-                <li>Ashish Verma</li>
-                <li>Manognya Deepthi G</li>
-                <li> Raja Barnwal</li>
-                <li>Rihen Chheda</li>
-                <li> Sanket</li>
-                <li>Siddharth Kannan</li>
-                <li> Soumyadeep Ghosh</li>
-                <li></li>
-                <li></li>
-              </b>
-            </span>
-          </ul>
-        </div>
-        <div id="2014" class="col l4">
-          <ul>
-            <span>
-              <b>
-                <li style="font-size: 20;">2014</li>
-                <hr>
-                <li>Arpit Gupta</li>
-                <li>Manish Goyal</li>
-                <li>Aditi Shrivastav</li>
-                <li>Atal A. Agarwal</li>
-                <li>Chandreyee Bhaumik</li>
-                <li>Naman Nishesh</li>
-                <li>Rahul Mishra</li>
-                <li>Satyajit Kumar</li>
-                <li></li>
-              </b>
-            </span>
-          </ul>
-        </div>
-        <div id="2013" class="col l4">
-          <ul>
-            <span>
-              <b>
-                <li style="font-size: 20;">2013</li>
-                <hr>
-                <li>Aditi Sharma</li>
-                <li>Vedang Deshpande</li>
-                <li>Abhinay Vyas</li>
-                <li>Abhishek Kanchi</li>
-                <li>Anuj Bothra</li>
-                <li>Saumaric Dangwal</li>
-                <li>Mridul Mittal</li>
-                <li>Niharika Tomar</li>
-                <li>Pursottam Soni</li>
-                <li>Subramani Bharathi</li>
-                <li>Suman Agarwal</li>
-                <li>Uday Shankar Das</li>
-              </b>
-            </span>
-          </ul>
-        </div>
-        <div id="2012" class="col l4">
-          <ul>
-            <span>
-              <b>
-                <li style="font-size: 20;">2012</li>
-                <hr>
-                <li>Apoorv Jain</li>
-                <li>Utkarsh Jain</li>
-                <li>Akshay Kumar</li>
-                <li>Himanshu Shrivastava</li>
-                <li>Karan Kakwani</li>
-                <li>Nimish Goel</li>
-                <li>Sahil Jalan</li>
-                <li>Tanya Mondal</li>
-                <br/>
-                <br/>
-                <br/>
-                <br/>
-              </b>
-            </span>
-          </ul>
-        </div>
-        <div id="2011" class="col l4">
-          <ul>
-            <span>
-              <b>
-                <li style="font-size: 20;">2011</li>
-                <hr>
-                <li>Nikunj Mall</li>
-                <li>Akshat Prakash</li>
-                <li>Aditi Kadmawala</li>
-                <li>Akshay Chalikwar</li>
-                <li>Deepika Bajaj</li>
-                <li>Rupinder Singh</li>
-                <li>Sai Sachin</li>
-                <li>Siddarth Mall</li>
-              </b>
-            </span>
-          </ul>
-        </div>
-        <div id="2010" class="col l4">
-          <ul>
-            <span>
-              <b>
-                <li style="font-size: 20;">2010</li>
-                <hr>
-                <li>Drishti Guin </li>
-                <li>Vishnu Rajeev</li>
-                <li> Harshal Maniyar</li>
-                <li>Sumeet Mavani</li>
-                <li>Neeraj Daswani</li>
-                <li>Gautham Kokku</li>
-                <li>Swetha Reddy</li>
-                <li> Tarun Trivedi</li>
-              </b>
-            </span>
-          </ul>
-        </div>
-        <div id="2009" class="col l4">
-          <ul>
-            <span>
-              <b>
-                <li style="font-size: 20;">2009</li>
-                <hr>
-                <li>Chirag Fialoke</li>
-                <li>Abhishek Narain</li>
-                <li>Suruchi Prakash</li>
-                <li>Jyotika Gupta</li>
-                <li>Abhijeet Khanna</li>
-                <li>Abhigyan Mandal</li>
-                <li>Digvijay Singh</li>
-              </b>
-            </span>
-          </ul>
-        </div>
-      </div>
-
-      <script type="text/javascript">
-        $(".card").mouseenter(function(e) {
-          if ($(this).find('> .card-reveal').length) {
-            if ($(e.target).is($('.card .activator')) || $(e.target).is($('.card .activator i'))) {
-              // Make Reveal animate up
-              $(this).find('.card-reveal').css({
-                display: 'block'
-              }).velocity("stop", false).velocity({
-                translateY: '-50%'
-              }, {
-                duration: 300,
-                queue: false,
-                easing: 'easeInOutQuad'
-              });
-            }
-          }
-
-          $('.card-reveal').closest('.card').css('overflow', 'hidden');
-
-        });
-
-        $(".card").mouseleave(function() {
-          // Make Reveal animate down and display none
-          $(this).find('.card-reveal').velocity({
-            translateY: 0
-          }, {
-            duration: 225,
-            queue: false,
-            easing: 'easeInOutQuad',
-            complete: function() {
-              $(this).css({
-                display: 'none'
-              });
-            }
-          });
-        });
-      </script>
-
+    }
+    gsap.utils.toArray('#panel').forEach((panel, i) => {
+      ScrollTrigger.create({
+        trigger: panel,
+        start: "top top",
+        pin: true,
+        pinSpacing: false
+      });
+    });
+  </script>
 </body>
 
 </html>
