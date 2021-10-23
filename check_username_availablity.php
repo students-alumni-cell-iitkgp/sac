@@ -3,10 +3,10 @@
 
 //####### Start of dbconfig.php #######
 // ENTER DB credentials.
-define('DB_HOST','localhost');
+define('DB_HOST','172.17.0.8');
 define('DB_USER','root');
-define('DB_PASS','');
-define('DB_NAME','sac');
+define('DB_PASS','Sac@123');
+define('DB_NAME','aam');
 // Establish database connection using PDO.
 try
 {
@@ -35,7 +35,7 @@ if(!empty($_POST["email"])) {
     echo "error :you did not enter a valid email.";
   }
   else {
-    $sql ="SELECT email FROM aam WHERE email=:email";
+    $sql ="SELECT email FROM users WHERE email=:email";
 $query= $dbh -> prepare($sql);
 $query-> bindParam(':email', $email, PDO::PARAM_STR);
 $query-> execute();

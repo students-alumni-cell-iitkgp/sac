@@ -117,13 +117,6 @@ header .row .col-md-5 img {
   width: 90%;
 }
 
-body{
-  background: #ff512f;
-  /* fallback for old browsers */
-  background: url(../img/yearbook/main_edited-01.jpg);
-  background-size: cover;
-  background-position: bottom;
-}
 
 header .container .col-md-7 {
 	font-family: 'Raleway', sans-serif;
@@ -154,11 +147,11 @@ main{
   background: #ff512f;
   /* fallback for old browsers */
   /* background-attachment: fixed;*/
-  background: url(../img/yearbook/main-building-01-01.jpg);
-  background-repeat: no-repeat;
+  background: url(../img/yearbook/main-building-with-stars.jpg);
+ 
   background-size: cover;
   background-position: bottom;
-  background-attachment: fixed;
+  
 
   /* background-position: bottom; */
 }

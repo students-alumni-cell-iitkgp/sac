@@ -40,16 +40,20 @@ nav{
 section{
    overflow-x:hidden;
 }
-.section-1{
-	height:100vh;
-}	
-.img{
-	height:88vh;
-	background:url(../img/align.png);
-    background-position: center;
-    background-size: cover;
-}
 
+header .img{
+	height:88vh;
+    width: 100%;
+	background:url(../img/indexslider/AAM-COVER-6.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+@media only screen and (max-width: 768px) {
+    header .img{
+    height: 40vh;
+    }
+}
 /*  
   .section-2 .row .col-md-6:last-child {
 	position: relative;
