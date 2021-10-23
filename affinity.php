@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>Affinity Programme</title>
-  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 
   <!--CSS only-->
   <link rel="stylesheet" href="css/affinity.css">
@@ -38,7 +37,7 @@
 <body>
 <?php include 'navbar.php' ?>
   <header>
-        <img style="width: 100%;" src="img\affinity\wall.jpg" alt="affinity programme">
+        <img style="width: 100%;" src="img/affinity/wall.jpg" alt="affinity programme">
   </header>
   <section class="section-1">
     <div class="container text-center">
