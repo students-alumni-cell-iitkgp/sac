@@ -1,236 +1,298 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-  <title>SPARC</title>
-   <link rel="icon" href="img/meet_14.png">
-    <link rel="stylesheet" href="css/materialize.min.css">
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="js/materialize.min.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <style type="text/css">
-      body{
-        overflow-x: hidden;
-      }
-       @media only screen and (min-width: 768px){
-        .ac-sparc img{
-       
-        max-width: 100%;
-        }
-       }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPARC</title>
+    <link rel="stylesheet" href="css/sparc.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-       @media only screen and (max-width: 468px){
-        .ac-sparc img{
-        margin: 0px auto;
-        max-width:100%;
-        height: 30%;
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
-        }
-        #h1{
-          font-size: 4vw;
-        }
-        #h2{
-          font-size: 4.5vw;
-        } 
-        #h3 h4{
-
-          font-size: 5vw;
-        }
-        #h4{
-          font-size: 4.3vw;
-        }
-        #h5{
-          font-size: 4.5vw;
-        }
-        .subheading{
-          padding: 5px;
-        }
-        #mumbai-img img{
-          padding-left: 10px;
-          padding-right: 15px;          
-        }
-       }
-     @media only screen and (max-width: 995px){
-         #fbplug{
-            display: none;
-        }
-        .subheading{
-          padding: 10px;
-          font-size: 4.5vw;
-        }
-        #h3 h4{
-
-          font-size: 4.5vw;
-        }
-        #mumbai-img img{
-          padding-left: 10px;
-          padding-right: 15px;          
-        }
-        #about-bold b{
-          font-size: 3.9vw;
-        }
-        #about, #benefits-info, #bangalore-info {
-          font-size: 3.7vw;
-        }
-     }
-
-    
-    </style>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 </head>
+
 <body>
-<!--script for connecting to fb page -->
-        <script>(function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s); js.id = id;
-            js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.7&appId=1066517953466827";
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));</script>
 
-<div class="_wrapper" style="background:white">
-<?php include 'navbar.php';?>
+    <?php include 'navbar.php' ?>
 
- <div class="row ac-sparc">
-        <img src="img/sparccover.jpg"  width="100%" height="60%">
-    </div>
-<div>
-<div class="center-align">
-<div class="row">
+    <header>
 
+    </header>
 
-<div class="col l8"> 
-  <div  class="col l12 m12 s12  z-depth-1" id="container-1">
-      <div  class="heading">
-          <center>
-              <h id="h1" class="subheading"><b>Students&#39 Pan IIT Alumni Relations Cell</b></h>
-          </center>
-      </div>
-      <center>
-        <p style="font-style:italic;font-size:18px" id="about-bold"><b>''We are each other's harvest,<br>We are each other's business,<br>We are each other magnitude and bond.''</b></p>
-      </center>
-    <p class="text_align" id="about" style="padding:1% 10% 6% 10%;">
-      The vision of the Indian Institutes of Technology has been to contribute to India and the world by imrovising scientific and technical education in India, to generate enormous research opportunities and to remain a source of pride for all Indians. <b>Students&#39 Pan IIT Alumni Relation Cell i.e., SPARC</b> is an umbrella organization covering student executed alumni relation bodies of all the Indian Institutes of Technology. SPARC is an initiative that aims at providing a strong fraternity amongst the IIT alumni such that the human potential successfully developed to its fullest in the course of years can be helpful to a much larger scale in grooming the next generation of IITians.
-     
-    </p>
-  </div>
-  </div>
-
-            <div class="col l4" >
-                <div id="fbplug" style="width: 425px; background-color: #fff" class="z-depth-1 fb-page" data-href="https://www.facebook.com/sparc.iit/" data-tabs="timeline" data-height="490px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/sparc.iit/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/sparc.iit/">Sparc, IIT Kharagpur</a></blockquote></div>
-            </div>
- 
-</div>
-</div>
-</div>
-</div>
-
- <div class="container" style="width:100%;">
-  <div class="row" style="margin:auto;width:89%;">
-  <div class="col l12 m12 s12 z-depth-1">
-  <div class="heading">
-    <center>
-      <h id="h2" class="subheading"><b>Benefits of SPARC</b></h>
-    </center>
-  </div>
-    <ul class="browser-default" id="benefits-info">
-      <li>
-        <p class="text_align" style="padding:1% 10% 2% 10%">
-          With its enormous number of alumni who have excelled in their respective fields which range from Science and Technology to Entertainment and Arts, there will be an upcoming generation of IITians who have learned from the experiences of these alumni. SPARC will make this happen at a scale larger than ever and thus help developing the nation.
-        </p>
-      </li>
-      <li>
-        <p class="text_align" style="padding:1% 10% 6% 10%">
-          <b>&#34An IDEA can change your life&#34.</b> SPARC also aims in formation of &#34Students&#39 PAN IIT Alumni Relation Cell&#34 to help the alumni and students interaction grow and prosper so that great ideas can be shared and improved and hence, executed.
-        </p>
-      </li>
-    </ul>
-  </div>
-  
-  </div>
-  <br><br>
-<div class="row">
-  <div class="col l12 m12 s12 z-depth-1">
-    <br><br>
- <center>
-         <div class="heading ac-head" id="h3" style="border:3px black solid; display: inline-block; padding-top: 2px; margin: 3px;padding-right: 5px;padding-left: 5px;" >
-            <h4><b>Student Alumni Meet '17</b> - Mumbai</h4>
-            </div>
-        </center>
-    <br><br>
-
-     <div class="row">
-        <div class="col l4 m4 s12" id="mumbai-img">
-        
-            <img class="materialboxed normal" src="img/sam/Mumbai/1.jpg" width="100%">
-        
-        </div>
-        <div class="col l4 m4 s12" id="mumbai-img">
-            <img class="materialboxed normal" src="img/sam/Mumbai/2.jpg" width="100%">
-        </div>
-        <div class="col l4 m4 s12" id="mumbai-img">
-            
-                <img class="materialboxed normal" src="img/sam/Mumbai/3.jpg" width="100%">
-            
-        </div>
-
-    </div>
-    <br>
-  </div>
-</div>
-
-<br><br>
-
-  <div class="row" style="margin:auto;width:89%;">
-  <div class="col l12 m12 s12 z-depth-1">
-  <div class="heading">
-    <center>
-      <h id="h4" class="subheading"><b>Student Alumni Meet '16</b> - Bangalore</h>
-    </center>
-  </div>
-    <p class="text_align" id="bangalore-info" style="padding:1% 10% 2% 10%">
-      One of the glances from our first event, Students' Alumni Meet in Bangalore. Owing to the huge response received from the students as well as the alumni, SPARC will come up with more such events and programmes in the future.
-    </p>
-    <img class="image" src="img/sam/Bangalore/e.jpg" style="padding:10px;width:100%"><br><br>
-  </div>
-  </div>
-  <br><br>
-  </div>
-<div class="timeline-head">
-    <div class="row" style="margin:auto;width:85%;">
-        <div class="col l12 m12 s12 z-depth-1">
-            <div class="heading">
-                <center>
-                    <h id="h4" class="subheading"><b>Dean's Meet '17</b></h>
-                </center>
-            </div>
-            <center>
-
+    <main>
+        <section class="section-1">
+            <div class="container text-center">
                 <div class="row">
-                    <div class="col l6"><img width="100%" src="img/deansmeet2.jpg" alt=""></div>
-                    <div class="col l6"><img width="100%" src="img/deansmeet1.jpg" alt=""> </div>
+                    <div class="col-md-12 col-12">
+                        <div class="panel text-left">
+                            <h1 class="text-center">Students' Pan IIT<br /> Alumni Relations Cell</h1>
+                            <div class="progress" style="height:0.4rem;">
+                                <div id="one" class="progress-bar" role="progressbar" style="width: 100%" style="height:0.4rem;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <p class="pt-4" style="opacity: 1" align="justify">
+                                The vision of the Indian Institutes of Technology has been to contribute to India and the world
+                                by imrovising scientific and technical education in India, to generate enormous research
+                                opportunities and to remain a source of pride for all Indians. Students' Pan IIT Alumni Relation
+                                Cell i.e.,
+                                <strong>SPARC</Strong> is an umbrella organization covering student executed alumni relation
+                                bodies of all the
+                                Indian Institutes of Technology.
+                            </p>
+                            <div class="row text-center">
+                                <div class="col-12">
+                                <a class="btn btn-outline-primary" href="https://drive.google.com/file/d/1d4vDZxrvvngwRaEpEGZkt0i4S90Dy3Yu/view?usp=drivesdk" target = "_blank" role="button"><img src="img/scroll.png" height="21px" width="21px">SPARC</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+            </div>
+        </section>
+        <section class="section-2">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-12 col-12">
+                        <div class="panel text-center">
+                            <h1 class="x">Student Alumni Meet '17 - Mumbai</h1>
+                            <div class="progress" style="height:0.4rem;">
+                                <div id="two" class="progress-bar" role="progressbar" 
+								style="width: 100%" aria-valuenow="100" aria-valuemin="0" 
+								aria-valuemax="100" style="height:0.4rem;"></div>
+                            </div>
+                            <br>
+                            <!-- Photo Grid -->
+                            <div id="gallery_row" class="row">
+                                <div id="gallery_row" class="column">
+                                    <img class="image" src="img/sam/Mumbai/1.jpg" style="width:100%">
+                                    <img class="image" src="img/sam/Mumbai/2.jpg" style="height:50%">
+                                </div>
+                                <div id="gallery_row" class="column">
+                                    <img class="image" src="img/sam/Mumbai/3.jpg" style="width:100%">
+                                    <img class="image" src="img/sam/Mumbai/4edit-01.jpg" style="height:50%;">
+                                </div>
+                                <div id="gallery_row" class="column">
+                                    <img class="image" src="img/sam/Mumbai/5.jpg" style="height:100%">
+                                </div>
+                                <div id="gallery_row" class="column">
+                                    <img class="image" src="img/sam/Mumbai/7.jpg" style="height:100%">
+                                </div>
+                            </div>
+                        </div>
 
-            </center>
-        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    </div>
-    <br><br>
-</div>
-  <div class="timeline-head">
-    <div class="row" style="margin:auto;width:85%;">
-      <div class="col l12 m12 s12 z-depth-1">
-          <div class="heading">
-            <center>
-              <h id="h5" class="subheading"><b>Future Initiatives</b></h>
-            </center>
-          </div>
-          <center  id="future_init">
-            <img src="img/future_init.png" style="width:90%">
-          </center>
-      </div>
-    </div>
-  </div>
-  <?php include 'footer.php'; ?>
+        <section class="section-2">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-12 col-12">
+                        <div class="panel text-center">
+                            <h1 class="x">Student Alumni Meet '16 - Banglore</h1>
+                            <div class="progress" style="height:0.4rem;">
+                                <div id="three" class="progress-bar" role="progressbar"
+								style="width: 100%" aria-valuenow="100" aria-valuemin="0" 
+								aria-valuemax="100" style="height:0.4rem;"></div>
+                            </div>
+                            <br>
+
+                            <!-- Photo Grid -->
+                            <div class=" col-xs-12 py-4 b-img image">
+                                <img src="img/sam/Bangalore/e.jpg">
+                                <p class="x">
+                                    <h5 class="text-center h6">
+                                        <i>One of the glances from our first event, Students' Alumni Meet in Bangalore.
+                                            Owing to the huge response received from the students as well as the alumni,
+                                            <strong>SPARC</Strong> will come up with more such events and programmes in the future.</i>
+                                    </h5>
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="section-2">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-12 col-12">
+                        <div class="panel text-center">
+                            <h1 class="x">Dean's MEET</h1>
+                            <div class="progress" style="height:0.4rem;">
+                                <div id="four" class="progress-bar" role="progressbar" style="width: 100%" 
+								aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
+                            </div>
+                            <br>
+                            <!-- Photo Grid -->
+                            <div class="row justify-content-around px-4">
+                                <div class="col-md-4 col-sm-6 col-xs-12 px-2 py-2 c-img image">
+                                    <img src="img/deansmeet1.jpg">
+                                </div>
+                                <div class="col-md-4 col-sm-6 col-xs-12 px-2 py-2 c-img image">
+                                <img src="img/deansmeet2.jpg">
+                                </div>
+                                <div class="col-md-4 col-sm-6 col-xs-12 px-2 py-2 c-img image">
+                                <img src="img/deansmeet3.png">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-2">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-12 col-12">
+                        <div class="panel text-center">
+                            <h1 class="x">Future Initiatives</h1>
+                            <div class="progress" style="height:0.4rem;">
+                                <div id="five" class="progress-bar" role="progressbar" style="width: 100%" 
+								aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
+                            </div>
+                            <br>
+                            <!-- Photo Grid -->
+                            <div class="row">
+                            <div class="col-md-8 col-xs-12 px-4 py-4 d-img image">
+                                <img src="img/future_init.png">
+                            </div>
+                            <div class="col-md-4 col-xs-12 px-md-4 px-xs-1 py-4 x">
+                                <h4 style="font-size: 1.2em;">
+                                    "An IDEA can change your life". <strong>SPARC</Strong> also aims in formation of "Students' PAN
+                                    IIT Alumni Relation Cell" to help the alumni and students interaction grow and prosper so that
+                                    great ideas
+                                    can be shared and improved and hence, executed.</h4>
+                            </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <!-- 		Footer start -->
+    <?php include 'footer.php' ?>
+	  <!-- <?php include 'preloader.php' ?> -->
+    <!--        Footer start -->
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
+    <script>
+		$( "#one,#two,#three,#four,#five").each(function( ) {
+   $(this).addClass("progress-bar-purple");
+});
+        gsap.from('header', {
+            opacity: 0,
+            duration: 1
+        })
+        gsap.from('header h1', {
+            opacity: 0,
+            duration: 2,
+            x: -200
+        })
+        gsap.from('header h6', {
+            opacity: 0,
+            duration: 2,
+            x: -500
+        })
+
+
+        gsap.from('.nav-item', {
+            scrollTrigger: {
+                trigger: '.nav-item',
+                toggleActions: "play none none none"
+            },
+            opacity: 0,
+            duration: 1,
+            x: -200
+        });
+
+
+        gsap.from('.section-1 h1', {
+            scrollTrigger: {
+                trigger: '.section-1 h1',
+                toggleActions: "play none none none"
+            },
+            opacity: 0,
+            duration: 1,
+            x: -200
+        });
+
+        gsap.from('.section-1 p', {
+            scrollTrigger: {
+                trigger: '.section-1 p',
+                toggleActions: "play none none none"
+            },
+            opacity: 0,
+            duration: 2.0,
+        });
+
+        gsap.from('.section-1 img', {
+            scrollTrigger: {
+                trigger: '.section-1 img',
+                toggleActions: "play none none none"
+            },
+            opacity: 0,
+            duration: 1.5,
+            x: 200
+        });
+
+        var arr = document.getElementsByClassName("x");
+        for (var i = 0; i < arr.length; i++) {
+
+            gsap.from(arr[i], {
+                scrollTrigger: {
+                    trigger: arr[i],
+                    toggleActions: "play none none none"
+                },
+                opacity: 0,
+                duration: 1.5,
+                x: -200
+            });
+
+        }
+        var img_arr = document.getElementsByClassName("image");
+        for (var i = 0; i < img_arr.length; i++) {
+
+            gsap.from(img_arr[i], {
+                scrollTrigger: {
+                    trigger: img_arr[i],
+                    toggleActions: "play none none none",
+                    start: "top center"
+                },
+                opacity: 0,
+                duration: 1.5,
+            });
+
+        }
+
+        gsap.registerPlugin(ScrollTrigger);
+
+        gsap.utils.toArray('#panel').forEach((panel, i) => {
+            ScrollTrigger.create({
+                trigger: panel,
+                start: "top top",
+                pin: true,
+                pinSpacing: false
+            });
+        });
+    </script>
 </body>
-<script type="text/javascript" src="js/style.js"></script>  
+
 </html>

@@ -1,168 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
 
-<html>
 <head>
-  <title>Yearbook</title>
-  <link rel="icon" href="img/meet_14.png">
-  <link rel="stylesheet" href="css/materialize.min.css">
-  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.min.js"></script>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yearbook</title>
+    <link rel="stylesheet" href="css\yearbook.css">
+    <link rel="stylesheet" href="css/SAM_mobile-style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+    <style>
+        .btn-outline-primary:hover,
+        .btn-outline-primary:active,
+        .btn-outline-primary:visited {
+            background-color: #00416d !important;
+            border-color: #00416d !important;
+            color: white !important;
+        }
+
+        .btn-outline-primary {
+            color: #00416d !important;
+            border-color: #00416d !important;
+        }
+        body{
+            background: #ff512f;
+            /* fallback for old browsers */
+            background: url(../img/yearbook/main-building-with-stars.jpg);
+            background-size: cover;
+            background-position: bottom;
+        }
+
+    </style>
 </head>
+
 <body>
-  <div class="_wrapper">
-    <?php include 'navbar.php';?>
-    <div class="row">
 
-     <div style="padding:3% 8% 6% 8%;">
 
-      <div class="col l12 m12 s12  z-depth-2">
+    <?php include 'navbar.php' ?>
 
-        <center>
-          <div class="heading ac-head" style="border:3px black solid; display: inline-block; padding-top: 2px; margin: 3px;padding-right: 20px;padding-left: 20px;" >
+    <main>
+        <section class="section-1">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-12 col-12">
+                        <div class="panel text-left">
+                            <h1 class="text-center">YearBook</h1>
+                            <div class="progress" style="height:0.4rem;">
+                                <div id="one" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
+                            </div>
+                            <p class="pt-4">
+                                The yearbook is a dedicated volume that captures the
+                                nostalgic memories of the graduating batch of our Institute.
+                                The beautiful years spent in the Institute are engraved and expressed via photos
+                                and writeups which is given as a souvenir of departure from the Institute. Few years down the road when
+                                they will walk down the memory lane,
+                                the yearbook will be
+                                the light which will lit up the faded memories and show the path through the old forgotten ways
+                            </p>
+                            <div class="row text-center">
+                                <div class="col-12">
+                                    <a href="https://sac.iitkgp.ac.in/yearbook/" target="blank">
+                                    <button class="btn btn-outline-primary justify-content-center" href="https://sac.iitkgp.ac.in/yearbook/"><i class="fa fa-book"></i> YearBook</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-            <h4><b>Yearbook </b></h4> </div>
-          </center>
 
-          <p class="text_align" style="padding:1% 10% 1% 10%">
-            The yearbook is a dedicated volume that captures the nostalgic memories of the graduating batch of our Institute.
-            The beautiful years spent in the Institute are engraved and expressed via photos and writeups which is given as a souvenir of departure from the Institute. Few years down the road when they will walk down the memory lane, the yearbook will be the light which will lit up the faded memories and show the path through the old forgotten ways. The visuals of those old fleeting memories, photographs of their batch-mates, stills from the events that took place, inspiring words from that professor they looked up to and the aroma of the Institute that assisted them to foster their real self lies hidden in the pages of the yearbook. It gives them an opportunity to relive the golden days of their life, a beautiful chapter that always made the preface of their biography.
-            <br><br>
-            The Students' Alumni Cell works throughout the year to publish three separate yearbooks, one for each 
-            of the graduating batches of the Undergraduate, Post Graduate and Research Scholar programs. 
-            The Director, the Dean of Alumni Affairs and International Relations, are among many professors
-            who wish the graduating batches for their lives beyond KGP in their own ways. Sections, dedicated to each of the 
-            departments include a message from the Head of Departments other than mentioning the names and photographs of its graduating students. 
-            The yearbook also showcase all the events that IIT Kharagpur had organized in the preceding year.
-            Each year, the Students' Alumni Cell strives to make the yearbook as wholesome and complete which could entail the different prospects of life of the alumni. 
-            
+        <section class="section-3">
+            <div class="container-fluid">
+                <h1 class="text-center" style="color:white;">Exhibition Corner</h1>
+                <div class="row">
+                    <div class="col-lg-2"></div>
+                    <div class="col-sm-12 col-lg-8">
+                        <div class="progress" style="height:0.4rem;">
+                            <div id="two" class="progress-bar-pink" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div id="inam" class="carousel slide" data-ride="carousel" data-interval="false">
+                            <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-sm-12 col-lg-6">
+                                                <div class="card" style="height: 100% !important;">
+                                                    <img src="img\yearbook\year2020.jpg" class="h-img">
+                                                    <div class="card-body">
+                                                        <h4 class="card-title">Yearbook 2020...</h4>
+                                                        <div class="row ">
+                                                            <div class="img-txt ">
+                                                               <a href="https://drive.google.com/file/d/1v8SiIwCqeIzERMoYXC9bxKQu7pPz3muP/view?usp=sharing"  target="_blank" style="color:black"> UG</a> 
+                                                            </div>
+                                                            <div class="img-txt">
+                                                            <a href="https://drive.google.com/file/d/1qhRMxn9StnsPWs1C1-f6gfllCViSYlnB/view?usp=sharing "target="_blank" style="color:black"> PG</a>
+                                                            </div>
+                                                            <div class="img-txt">
+                                                            <a href="https://drive.google.com/file/d/1jelTjKSsrS7LnZDniAiC4yqjeZ-yOjgb/view?usp=sharing "target="_blank" style="color:black"> RS</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12 col-lg-6">
+                                                <div class="card" style="height: 100% !important;">
+                                                    <img src="img\yearbook\year2019.jpg" class="h-img">
+                                                    <div class="card-body">
+                                                        <h4 class="card-title">YearBook 2019...</h4>
+                                                        <div class="row ">
+                                                            <div class="img-txt ">
+                                                               <a href="https://drive.google.com/file/d/1h0Opa3GNGR20Hpiw71EwhwwjcDIwj7DJ/view?usp=sharing" target="_blank" style="color:black"> UG</a>
+                                                            </div>
+                                                            <div class="img-txt">
+                                                            <a href="https://drive.google.com/file/d/1h0Opa3GNGR20Hpiw71EwhwwjcDIwj7DJ/view?usp=sharing" target="_blank" style="color:black"> PG</a>
+                                                            </div>
+                                                            <div class="img-txt">
+                                                            <a href="https://drive.google.com/file/d/1h0Opa3GNGR20Hpiw71EwhwwjcDIwj7DJ/view?usp=sharing" target="_blank" style="color:black"> RS</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item ">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-sm-12 col-lg-4">
+                                                <div class="card" style="height: 100% !important;">
+                                                    <img src="img\yearbook\year2018.jpg" class="card-img-top">
+                                                    <div class="card-body">
+                                                        <h4 class="card-title">YearBook 2018...</h4>
+                                                        <div class="row ">
+                                                            <div class="img-txt ">
+                                                               <a href="https://drive.google.com/file/d/1WvuLhTKNVHc-owJhFxJS5CWLjBfKDrC1/view?usp=sharing"target="_blank" style="color:black">UG</a>
+                                                            </div>
+                                                            <div class="img-txt">
+                                                            <a href="https://drive.google.com/file/d/1WvuLhTKNVHc-owJhFxJS5CWLjBfKDrC1/view?usp=sharing"target="_blank" style="color:black">PG</a>
+                                                            </div>
+                                                            <div class="img-txt">
+                                                            <a href="https://drive.google.com/file/d/1WvuLhTKNVHc-owJhFxJS5CWLjBfKDrC1/view?usp=sharing"target="_blank" style="color:black">RS</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12 col-lg-4">
+                                                <div class="card" style="height: 100% !important;">
+                                                    <img src="img\yearbook\year2017.jpg" class="card-img-top">
+                                                    <div class="card-body">
+                                                        <h4 class="card-title">YearBook 2017...</h4>
+                                                        <div class="row ">
+                                                            <div class="img-txt ">
+                                                               <a href="https://drive.google.com/file/d/0ByPZPiiPCG8_aFFtN1VRRU5lb00/view?usp=sharing&resourcekey=0-wity-gekXThY6oNZ4Iya4A"target="_blank" style="color:black"> UG</a>
+                                                            </div>
+                                                            <div class="img-txt">
+                                                            <a href="https://drive.google.com/file/d/0ByPZPiiPCG8_aC1kaHRyNDEtUG8/view?usp=sharing&resourcekey=0-gvQo-b-rsfrSRYFqpjM-ZA"target="_blank" style="color:black"> PG</a>
+                                                            </div>
+                                                            <div class="img-txt">
+                                                           <a href="https://drive.google.com/file/d/0ByPZPiiPCG8_d2ZfVGw5TTNMekE/view?usp=sharing&resourcekey=0-QyxYHUpYEfDgNLi3txyZ1w" target="_blank" style="color:black">RS</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12 col-lg-4">
+                                                <div class="card" style="height: 100% !important;">
+                                                    <img src="img\yearbook\year2016.jpg" class="card-img-top">
+                                                    <div class="card-body">
+                                                        <h4 class="card-title">YearBook 2016...</h4>
+                                                        <div class="row ">
+                                                            <div class="img-txt ">
+                                                               <a href="https://drive.google.com/file/d/0B2DrxeNIhpL0dGNlc0RpYjhXcFk/view?ts=59fd5ae5&resourcekey=0-tv1hLGs35PN1uAhH8ZqvMQ" target="_blank" style="color:black">UG</a>
+                                                            </div>
+                                                            <div class="img-txt">
+                                                            <a href="https://drive.google.com/file/d/0B2DrxeNIhpL0dGNlc0RpYjhXcFk/view?ts=59fd5ae5&resourcekey=0-tv1hLGs35PN1uAhH8ZqvMQ" target="_blank" style="color:black">PG</a>
+                                                            </div>
+                                                            <div class="img-txt">
+                                                            <a href="https://drive.google.com/file/d/0B2DrxeNIhpL0dGNlc0RpYjhXcFk/view?ts=59fd5ae5&resourcekey=0-tv1hLGs35PN1uAhH8ZqvMQ" target="_blank" style="color:black">RS</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="container">
+                                        <div class="row justify-content-center">
+                                            <div class="col-sm-12 col-lg-4">
+                                                <div class="card" style="height: 100% !important;">
+                                                    <img src="img\yearbook\year2015.jpg" class="card-img-top">
+                                                    <div class="card-body">
+                                                        <h4 class="card-title">YearBook 2015...</h4>
+                                                        <div class="row ">
+                                                            <div class="img-txt ">
+                                                              <a href="https://drive.google.com/file/d/0B29Q9s5AMUD7Zl83cklZdEV5bzQ/view?ts=59fd6a04&resourcekey=0-wfnygWgzFZqUTMIQCDcrnQ" target="_blank" style="color:black">UG</a>
+                                                            </div>
+                                                            <div class="img-txt">
+                                                            <a href="https://drive.google.com/file/d/0B29Q9s5AMUD7Zl83cklZdEV5bzQ/view?ts=59fd6a04&resourcekey=0-wfnygWgzFZqUTMIQCDcrnQ"target="_blank" style="color:black">PG</a>
+                                                            </div>
+                                                            <div class="img-txt">
+                                                            <a href="https://drive.google.com/file/d/0B29Q9s5AMUD7Zl83cklZdEV5bzQ/view?ts=59fd6a04&resourcekey=0-wfnygWgzFZqUTMIQCDcrnQ"target="_blank" style="color:black">RS</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12 col-lg-4">
+                                                <div class="card" style="height: 100% !important;">
+                                                    <img src="img\yearbook\year2014.jpg" class="card-img-top">
+                                                    <div class="card-body">
+                                                        <h4 class="card-title">YearBook 2014...</h4>
+                                                        <div class="row ">
+                                                            <div class="img-txt ">
+                                                                <h6>UG</h6>
+                                                            </div>
+                                                            <div class="img-txt">
+                                                                <h6>PG</h6>
+                                                            </div>
+                                                            <div class="img-txt">
+                                                                <h6>RS</h6>
+                                                            </div>
+                                                        </div>
+                                                    </div>
 
-          </p>
-           <div >
-          <a style="margin-left: 41%; " class="waves-effect waves-light btn-large " href="https://sac.iitkgp.ac.in/yearbook/" target="_blank" >YEARBOOK PORTAL</a>
-          <br>
-          <br>
-        </div>
-        </div>
+                                                </div>
 
-       
-      </div>
-    </div>
-    <br><br>
-    <div class="container" style="width:100%;">
-      <div class="row" style="margin:auto;width:90%;">
-        <div class="col s12 m6 l3 offset-l1">
-            <a href="https://drive.google.com/drive/u/1/folders/1sEaPFyJbBg_Np7rjKZ-HIPnuu2L6OJDD" target="_blank">
-              <div class="card z-depth-0 _card" >
-                <div class="card-image">
+                                            </div>
+                                            <div class="col-sm-12 col-lg-4">
+                                                <div class="card" style="height: 100% !important;">
+                                                    <img src="img\yearbook\year2013.jpg" class="card-img-top">
+                                                    <div class="card-body">
+                                                        <h4 class="card-title">YearBook 2013...</h4>
+                                                        <div class="row ">
+                                                            <div class="img-txt ">
+                                                                <h6>UG</h6>
+                                                            </div>
+                                                            <div class="img-txt">
+                                                                <h6>PG</h6>
+                                                            </div>
+                                                            <div class="img-txt">
+                                                                <h6>RS</h6>
+                                                            </div>
+                                                        </div>
+                                                    </div>
 
-                  <img src="img/yearbook/year20.jpg" style="height: 354px" >
-                </a>
-              </div>
+                                                </div>
+                                            </div>
 
-              <div class="card-content">
-                <p>Yearbook 2020</p>
-              </div>
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <a href="#inam" class="carousel-control-prev" data-slide="prev">
+                                <span class="carousel-control-prev-icon bg-dark"></span>
+                            </a>
+                            <a href="#inam" class="carousel-control-next" data-slide="next">
+                                <span class="carousel-control-next-icon bg-dark"></span>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
 
             </div>
-          </a>
-        </div>
-        <div class="col s12 m6 l3">
-        <div class="card z-depth-0 _card">
-          <div class="card-image">
-          <a href="https://drive.google.com/drive/folders/16VS_Rfn4EwXUa1QFhvGN2abyfQ4Tzcn-?usp=sharing" target="_blank">
-              <img src="img/yearbook/year2019.jpg" style="height: 354px">
-            </a>
-          </div>
-          <div class="card-content">
-            <p class="text_align">Yearbook 2019</p>
-          </div>
+        </section>
 
-        </div>
-
-      </div>
-   
-        <div class="col s12 m6 l3 ">
-        <a href="https://drive.google.com/drive/folders/1d_qAoVNG3aG19ZzXBrwBq_VqNUdQ5Vpg" target="_blank">
-            <div class="card z-depth-0 _card" >
-              <div class="card-image">
-
-                <img src="img/yearbook/Yearbook-2018.PNG" style="height: 354px" >
-              </a>
+        <section class="section-1">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-12 col-12">
+                        <div class="panel text-left">
+                            <h1 class="text-center">Class Songs</h1>
+                            <div class="progress" style="height:0.4rem;">
+                                <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 col-xs-12 py-4 px-md-5">
+                                    <iframe class="image" width="100%" height="300px" src="https://www.youtube.com/embed/eVt_KHFRPmY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <p class="text-center">Class Song of 2018</p>
+                                </div>
+                                <div class="col-md-6 col-xs-12 py-4 px-md-5">
+                                    <iframe class="image" width="100%" height="300px" src="https://www.youtube.com/embed/BMbMHIVlyjI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <p class="text-center">Class Song of 2019</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </section>
 
-            <div class="card-content">
-              <p>Yearbook 2018</p>
+        <section class="section-1">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-12 col-12">
+                        <div class="panel text-left">
+                            <h1 class="text-center">Class Memoir</h1>
+                            <div class="progress" style="height:0.4rem;">
+                                <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
+                            </div>
+                            <div class="row justify-content-center">
+                                <div class="col-md-6 col-xs-12 py-4 px-md-5">
+                                    <iframe class="image" width="100%" height="300px" src="https://www.youtube.com/embed/9L_8Jqizhcw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <p class="text-center">Class Memoir 2020</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </section>
 
-          </div>
-        </a>
-      </div>
-      <div class="col s12 m6 l3 offset-l1">
-        <div class="card z-depth-0 _card">
-          <div class="card-image">
-          <a href="https://drive.google.com/drive/folders/0ByPZPiiPCG8_dl9fc2I2bFdHUmc" target="_blank">
-             <img src="img/yearbook/year17.jpg" style="height: 354px">
-           </a>
-         </div>
-         <div class="card-content">
-          <p>Yearbook 2017</p>
-        </div>
-
-      </div>
-    </div>
-    <div class="row" style="width:100%;">
-    <div class="col s12 m6 l3">
-      <div class="card z-depth-0 _card">
-        <div class="card-image">
-        <a href="https://drive.google.com/file/d/0B2DrxeNIhpL0dGNlc0RpYjhXcFk/view?ts=59fd5ae5" target="_blank">
-          <img src="img/yearbook/year16.jpg" style="height: 354px">
-          </a>
-        </div>
-        <div class="card-content">
-          <p class="text_align">Yearbook 2016</p>
-        </div>
-
-      </div>
-    </div>
-  
-    <div class="col s12 m6 l3 " style="height:354px">
-      <div class="card z-depth-0 _card">
-      <a href="https://drive.google.com/file/d/0B29Q9s5AMUD7Zl83cklZdEV5bzQ/view?ts=59fd6a04" target="_blank">
-        <div class="card-image">
-          <img  src="img/yearbook/year2015.jpg">
-
-        </div>
-        <div class="card-content">
-          <p class="text_align">Yearbook 2015</p>
-        </div>
-      </div>
-    </div>
-    </div>
+        <section style="height:100px">
+        </section>
+    </main>
+    <!-- 		Footer start -->
+    <?php include 'footer.php' ?>
+    <!-- <?php include 'preloader.php' ?> -->
+    <!--        Footer end -->
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
+    <script>
+        $("#one,#two").each(function() {
+            $(this).addClass("progress-bar-purple");
+        });
+        gsap.from('header', {
+            opacity: 0,
+            duration: 1
+        })
+        gsap.from('header h1', {
+            opacity: 0,
+            duration: 2,
+            x: -200
+        })
+        gsap.from('header h6', {
+            opacity: 0,
+            duration: 2,
+            x: -500
+        })
 
 
-  <!-- /*</div>  
-    <div class="col s12 m6 l3 " style="height:354px">
-      <div class="card z-depth-0 _card">
-        <div class="card-image">
-          <img  src="img/yearbook/year2014.jpg">
-
-        </div>
-        <div class="card-content">
-          <p class="text_align">Yearbook 2014</p>
-        </div>
-      </div>
-    </div>
-    </div> -->
+        gsap.from('.nav-item', {
+            scrollTrigger: {
+                trigger: '.nav-item',
+                toggleActions: "play none none none"
+            },
+            opacity: 0,
+            duration: 1,
+            x: -200
+        });
 
 
-  </div>
+        gsap.from('.section-1 h1', {
+            scrollTrigger: {
+                trigger: '.section-1 h1',
+                toggleActions: "play none none none"
+            },
+            opacity: 0,
+            duration: 1,
+            x: -200
+        });
 
-</div>
-</div>
-<?php include 'footer.php'; ?>
+        gsap.from('.section-1 p', {
+            scrollTrigger: {
+                trigger: '.section-1 p',
+                toggleActions: "play none none none"
+            },
+            opacity: 0,
+            duration: 2.0,
+        });
+
+        gsap.from('.section-1 img', {
+            scrollTrigger: {
+                trigger: '.section-1 img',
+                toggleActions: "play none none none"
+            },
+            opacity: 0,
+            duration: 1.5,
+            x: 200
+        });
+
+        var img_txt = document.getElementsByClassName("img-txt");
+        var card = document.getElementsByClassName("card");
+
+        for (let i = 0; i < card.length; i++) {
+            gsap.from(card[i], {
+                scrollTrigger: {
+                    trigger: card[i],
+                    toggleActions: "play none none none"
+                },
+                opacity: 0,
+                duration: 1.5,
+                x: -200
+            });
+            $(card[i]).on('mouseenter', function(e) {
+                for (let j = 0; j < 3; j++) {
+                    gsap.to($(img_txt[i * 3 + j]), 1, {
+                        opacity: 1,
+                        ease: Sine.easeInOut
+                    });
+                }
+            });
+            $(card[i]).on('mouseleave', function(e) {
+                for (let j = 0; j < 3; j++) {
+                    gsap.to($(img_txt[i * 3 + j]), 1, {
+                        opacity: 0,
+                        ease: Sine.easeInOut
+                    });
+                }
+            });
+        }
+        for (let i = 0; i < img_txt.length; i++) {
+            $(img_txt[i]).on('mouseenter', function(e) {
+                gsap.to($(img_txt[i]), 0.5, {
+                    y: -8,
+                    ease: Sine.easeInOut
+                });
+            });
+            $(img_txt[i]).on('mouseleave', function(e) {
+                gsap.to($(img_txt[i]), 1, {
+                    y: 0,
+                    ease: Sine.easeInOut
+                });
+            });
+        }
+    </script>
 </body>
-<script type="text/javascript" src="js/style.js"></script>  
 
-</html>   
+</html>
