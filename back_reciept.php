@@ -23,7 +23,19 @@
       else{ 
         // Submit these to a database
         // Sql query to be executed 
-        $sql = "UPDATE `users` SET `reciept` = '$reciept' WHERE `email` = '$email'";
+        $target_dir = "./aam_reg/";
+        $_FILES["reciept"]["name"] = $email."1";
+        $target_file = $target_dir . basename($_FILES["reciept"]["name"]);
+        echo $target_file;
+        $uploadOk = 1;
+        $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
+
+        if (move_uploaded_file($_FILES["reciept"]["tmp_name"], $target_file)) {
+          echo "The file ". htmlspecialchars( basename( $_FILES["reciept"]["name"])). " has been uploaded.";
+        } else {
+          echo "Sorry, there was an error uploading your file.";
+        }
+        $sql = "UPDATE `aam` SET `reciept` = '$reciept' WHERE `email` = '$email'";
         $result = mysqli_query($conn, $sql);
  
         if($result){
