@@ -27,7 +27,7 @@
                 </h2>
             </center>
 
-            <form id="register" action = "back_signup.php" method = "post">
+            <form id="register" action = "back_signup.php" method = "post" enctype="multipart/form-data">
 
 
             <div class="section1">
