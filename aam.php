@@ -13,7 +13,7 @@
   <style type="text/css">
 
    .img{
-	   background-image:url(img/align.png);
+	   background-image:url(img/align.jpg);
 	   background-size:100% 100%;
    }
     .padding{

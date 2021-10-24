@@ -274,7 +274,7 @@
                             <img src="img\leadership_speakers\anjanraichaudhuri.jpg" class="card-img">
                             <div class="card-text">
                               <p >Anjanrai Chaudhuri</p>
-                              <a href="#" target="_blank"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                              <!-- <a href="#" target="_blank"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a> -->
                             </div>
                           </div>
                         </div>
@@ -298,7 +298,7 @@
                             <div class="card-text">
                               <p >Gopalraj Garhia</p>
 
-                              <a href="#" target="_blank"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                              <!-- <a href="#" target="_blank"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a> -->
                             </div>
                           </div>
                         </div>
@@ -307,7 +307,7 @@
                             <img src="img\leadership_speakers\prasadrmenon.jpg" class="card-img">
                             <div class="card-text">
                                 <p>Prasad Menon</p>
-                                <a href="#" target="_blank"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                                <!-- <a href="#" target="_blank"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a> -->
                             </div>
                           </div>
                         </div>
@@ -318,7 +318,7 @@
                               <p>Sakyasinha Roy</p>
 
 
-                              <a href="#" target="_blank"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                              <!-- <a href="#" target="_blank"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a> -->
                             </div>
                           </div>
                         </div>
