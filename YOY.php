@@ -18,7 +18,6 @@
     <link rel="stylesheet" href="css/YOY_style.css" />
     <link rel="stylesheet" href="css/SAM_mobile-style.css">
 </head>
-
 <body>
     <?php include 'navbar.php' ?>
 
