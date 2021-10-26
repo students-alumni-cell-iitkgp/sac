@@ -1,5 +1,6 @@
 <?php
 session_start(); 
+require 'connection.php';
     if ($_SERVER['REQUEST_METHOD'] == 'POST'){
         $name = $_POST['name'];
         $email = $_POST['email'];
@@ -45,20 +46,10 @@ session_start();
       $_SESSION['password'] = $dob;
       $_SESSION['cost'] = $cost;
 
-      // Connecting to the Database
-      $servername = "172.17.0.8";
-      $username = "root";
-      $password = "Sac@123";
       $database = "aam";
 
-
       // Create a connection
-      $conn = mysqli_connect($servername, $username, $password);
-      if(!$conn){
-           die("sorry: ". mysqli_connect_error());
-      }
-      mysql_select_db( $database, $conn); 
-      // Die if connection was not successful
+      $conn = mysqli_connect($DB_HOST, $DB_USER, $DB_PASS, $database);
       if (!$conn){
           die("Sorry we failed to connect: ". mysqli_connect_error());
       }
