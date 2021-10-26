@@ -57,7 +57,7 @@ require 'connection.php';
         // Submit these to a database
         // Sql query to be executed 
         //$sql = "INSERT INTO `alumni` (`name`, `address` ,`city`,`state`,`country`,`zipcode`,`mobile`,`dob`) VALUES ('$name', '$address' ,'$city','$state','$country','$zipcode','$mobile','$dob')";
-        $target_dir = "./aam_reg/";
+        $target_dir = "aam_reg/";
         $target_file = $target_dir . basename($_FILES["reciept"]["name"]);
         $uploadOk = 1;
         $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
