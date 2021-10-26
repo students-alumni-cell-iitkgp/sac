@@ -63,11 +63,12 @@ session_start();
         // Sql query to be executed 
         //$sql = "INSERT INTO `alumni` (`name`, `address` ,`city`,`state`,`country`,`zipcode`,`mobile`,`dob`) VALUES ('$name', '$address' ,'$city','$state','$country','$zipcode','$mobile','$dob')";
         $target_dir = "./aam_reg/";
-        $_FILES["reciept"]["name"] = $email."2";
         $target_file = $target_dir . basename($_FILES["reciept"]["name"]);
-        echo $target_file;
         $uploadOk = 1;
         $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
+        $_FILES["reciept"]["name"] = $email."1.";
+        $_FILES["reciept"]["name"] = $_FILES["reciept"]["name"].$imageFileType;
+        $target_file = $target_dir . basename($_FILES["reciept"]["name"]);
 
         if (move_uploaded_file($_FILES["reciept"]["tmp_name"], $target_file)) {
           echo "The file ". htmlspecialchars( basename( $_FILES["reciept"]["name"])). " has been uploaded.";

@@ -76,7 +76,7 @@
                             </p>
                             <br>
                             <button class="btn btn-outline-primary justify-content-center">
-                                <i class="fa fa-book"></i> <a id="linktoSAMP" href="https://sac.iitkgp.ac.in/mentorship/" style="color: #00416d">Mentorship Portal</a>
+                                <i class="fa fa-book"></i> <a id="linktoSAMP" href="https://sac.iitkgp.ac.in/mentorship/" target="_blank" style="color: #00416d">Mentorship Portal</a>
                             </button>
                         </div>
                     </div>
