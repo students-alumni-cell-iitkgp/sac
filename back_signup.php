@@ -53,7 +53,11 @@ session_start();
 
 
       // Create a connection
-      $conn = mysqli_connect($servername, $username, $password, $database);
+      $conn = mysqli_connect($servername, $username, $password);
+      if(!$conn){
+           die("sorry: ". mysqli_connect_error());
+      }
+      mysql_select_db( $database, $conn); 
       // Die if connection was not successful
       if (!$conn){
           die("Sorry we failed to connect: ". mysqli_connect_error());
