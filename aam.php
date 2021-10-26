@@ -38,7 +38,7 @@
 
 
 <body>
-<section class="section-1 pb-0">
+<section class="section-1 pb-5">
       <?php include'navbar.php' ?>
     <header>
     <div class="header"></div>
