@@ -51,7 +51,8 @@ section {
 
 .header {
   background: url(/img/indexslider/alvida.jpg);
-  background-size: cover;
+  /* background-size: cover; */
+  background-size:contain;
   background-position: center;
   
 }
