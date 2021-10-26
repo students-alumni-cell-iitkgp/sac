@@ -7,7 +7,7 @@
 }
 body{
 	font-family: 'Raleway', sans-serif;
-	background: url(../img/Asset.png);
+	background: url(../img/aa.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -44,7 +44,7 @@ section{
 header .img{
 	height:88vh;
     width: 100%;
-	background:url(../img/indexslider/AAM-COVER-6.png);
+	background:url(../img/align.jpg);
     background-position: top;
     background-repeat: no-repeat;
     background-size: contain;
@@ -113,12 +113,12 @@ iframe{
   /*new*/
    
 .first{
-	 background:#9e80bd;
+	 background:#f68445;
 	 transform: rotate(10deg);
      opacity:80%;
 }
 .second {
-    background:  #cea6f7;
+    background:  #fcc17f;
     transform: rotate(-10deg);
 	opacity:50%;
 }
