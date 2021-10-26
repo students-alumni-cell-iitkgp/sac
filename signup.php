@@ -693,7 +693,7 @@
                 const file = Math.round((fsize / 1024));
                 // The size of the file.
                 //console.log(file);
-                if(fsize > 1){
+                if(fsize > 5242880){
                     console.log(file);
                     document.getElementById('submit').disabled = true;
                 }
