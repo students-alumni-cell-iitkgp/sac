@@ -1,6 +1,6 @@
 <?php
     session_start();
-    include_once('connection.php');
+    require 'connection.php';
 
     if ($_SERVER['REQUEST_METHOD'] == 'POST'){
         $reciept = $_POST['reciept'];
@@ -31,7 +31,7 @@
         } else {
           echo "Sorry, there was an error uploading your file.";
         }
-        $sql = "UPDATE `aam` SET `reciept` = '$target_file' WHERE `email` = '$email'";
+        $sql = "UPDATE `users` SET `reciept` = '$target_file' WHERE `email` = '$email'";
         $result = mysqli_query($conn, $sql);
  
         if($result){
