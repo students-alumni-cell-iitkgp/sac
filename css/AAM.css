@@ -42,12 +42,14 @@ section{
 }
 
 header .img{
-	height:88vh;
+	height:86vh;
     width: 100%;
 	background:url(../img/align.jpg);
-    background-position: top;
+    /*background-size:contain;
+    background-position: center;*/
+    /*background-position: top;*/
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100% 100%;
 }
 @media only screen and (max-width: 768px) {
     header .img{
