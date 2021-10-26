@@ -69,6 +69,11 @@
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 </head>
 <style>
+    body{
+    background-image: url("bkt.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
     li{
         list-style:none;
         display:flex;
