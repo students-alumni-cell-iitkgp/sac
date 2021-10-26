@@ -61,7 +61,7 @@ require 'connection.php';
         $target_file = $target_dir . basename($_FILES["reciept"]["name"]);
         $uploadOk = 1;
         $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
-        $_FILES["reciept"]["name"] = $email."1.";
+        $_FILES["reciept"]["name"] = $email."1.pdf";
         $_FILES["reciept"]["name"] = $_FILES["reciept"]["name"].$imageFileType;
         $target_file = $target_dir . basename($_FILES["reciept"]["name"]);
 
