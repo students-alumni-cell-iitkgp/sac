@@ -42,7 +42,7 @@ section{
 }
 
 header .img{
-	/*height:86vh;*/
+	height:86vh;
     width: 100%;
 	background:url(../img/align.jpg);
     /*background-size:contain;
