@@ -29,7 +29,8 @@
    }
  
    .section-2{
-	   margin-top:-40%;
+	   margin-top:0;
+	   padding-bottom:4rem;
    }
    }
   </style>
