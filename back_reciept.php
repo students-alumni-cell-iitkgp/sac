@@ -1,5 +1,7 @@
 <?php
     session_start();
+    require 'connection.php';
+
     if ($_SERVER['REQUEST_METHOD'] == 'POST'){
         $reciept = $_POST['reciept'];
        
@@ -7,13 +9,6 @@
         $email = $_SESSION['email'];
         $password = $_SESSION['password'];
         
-      // Connecting to the Database
-      $servername = "172.17.0.8";
-      $username = "root";
-      $password = "Sac@123";
-      $database = "aam";
-
-
       // Create a connection
       $conn = mysqli_connect($servername, $username, $password, $database);
       // Die if connection was not successful
@@ -36,7 +31,7 @@
         } else {
           echo "Sorry, there was an error uploading your file.";
         }
-        $sql = "UPDATE `aam` SET `reciept` = '$target_file' WHERE `email` = '$email'";
+        $sql = "UPDATE `users` SET `reciept` = '$target_file' WHERE `email` = '$email'";
         $result = mysqli_query($conn, $sql);
  
         if($result){
