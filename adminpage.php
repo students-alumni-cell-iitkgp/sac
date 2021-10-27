@@ -50,7 +50,7 @@
             </div>
 
             <div class="row justify-content-md-between justify-content-around guesth">
-            <div class=" col-md-2 col-3">  <button class="btn btn-dark"> <a href="AAm.php" style="color:inherit;text-decoration:none" > Skip for now</a></button></div>   
+            <div class=" col-md-2 col-3">  <button class="btn btn-dark"> <a href="aam.php" style="color:inherit;text-decoration:none" > Skip for now</a></button></div>   
             <div class=" col-md-1 col-3">  <button type="submit" id="submit" value = "submit" class="btn btn-dark">Submit</button></div>
 
             </div>

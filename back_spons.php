@@ -1,4 +1,6 @@
 <?php
+require 'connection.php';
+
     if ($_SERVER['REQUEST_METHOD'] == 'POST'){
         $name = $_POST['username'];
         $designation = $_POST['designation'];
@@ -7,12 +9,6 @@
         $phoneno = $_POST['phonenumber'];
         $address = $_POST['address'];
         
-      
-      // Connecting to the Database
-      $servername = "172.17.0.8";
-      $username = "root";
-      $password = "Sac@123";
-      $database = "sac";
 
       // Create a connection
       $conn = mysqli_connect($servername, $username, $password, $database);
@@ -33,6 +29,7 @@
             <span aria-hidden="true">×</span>
           </button>
         </div>';
+        header("Location: registered.html");
         }
         else{
             // echo "The record was not inserted successfully because of this error ---> ". mysqli_error($conn);
