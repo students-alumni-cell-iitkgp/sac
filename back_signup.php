@@ -1,5 +1,6 @@
 <?php
 session_start(); 
+require 'connection.php';
     if ($_SERVER['REQUEST_METHOD'] == 'POST'){
         $name = $_POST['name'];
         $email = $_POST['email'];
@@ -45,16 +46,10 @@ session_start();
       $_SESSION['password'] = $dob;
       $_SESSION['cost'] = $cost;
 
-      // Connecting to the Database
-      $servername = "172.17.0.8";
-      $username = "root";
-      $password = "Sac@123";
       $database = "aam";
 
-
       // Create a connection
-      $conn = mysqli_connect($servername, $username, $password, $database);
-      // Die if connection was not successful
+      $conn = mysqli_connect($DB_HOST, $DB_USER, $DB_PASS, $database);
       if (!$conn){
           die("Sorry we failed to connect: ". mysqli_connect_error());
       }
@@ -62,11 +57,11 @@ session_start();
         // Submit these to a database
         // Sql query to be executed 
         //$sql = "INSERT INTO `alumni` (`name`, `address` ,`city`,`state`,`country`,`zipcode`,`mobile`,`dob`) VALUES ('$name', '$address' ,'$city','$state','$country','$zipcode','$mobile','$dob')";
-        $target_dir = "./aam_reg/";
+        $target_dir = "aam_reg/";
         $target_file = $target_dir . basename($_FILES["reciept"]["name"]);
         $uploadOk = 1;
         $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
-        $_FILES["reciept"]["name"] = $email."1.";
+        $_FILES["reciept"]["name"] = $email."1.pdf";
         $_FILES["reciept"]["name"] = $_FILES["reciept"]["name"].$imageFileType;
         $target_file = $target_dir . basename($_FILES["reciept"]["name"]);
 
@@ -77,7 +72,7 @@ session_start();
         }
 
         $certificate = $target_file;
-        $sql = "INSERT INTO `aam` (`name`,`email`, `address` ,`city`,`state`,`country`,`zipcode`,`mobile`,`dob`,
+        $sql = "INSERT INTO `users` (`name`,`email`, `address` ,`city`,`state`,`country`,`zipcode`,`mobile`,`dob`,
                  `status`, `certificate` ,`dosedate`,
                  `marital`, `accompaniments` ,`gh`,
                  `industry`, `profession` ,`organisation`,`designation`,`waddress`,`wcity`,`wstate`,`wcountry`,`wzipcode`,
