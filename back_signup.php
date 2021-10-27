@@ -72,7 +72,7 @@ require 'connection.php';
         }
 
         $certificate = $target_file;
-        $sql = "INSERT INTO `aam` (`name`,`email`, `address` ,`city`,`state`,`country`,`zipcode`,`mobile`,`dob`,
+        $sql = "INSERT INTO `users` (`name`,`email`, `address` ,`city`,`state`,`country`,`zipcode`,`mobile`,`dob`,
                  `status`, `certificate` ,`dosedate`,
                  `marital`, `accompaniments` ,`gh`,
                  `industry`, `profession` ,`organisation`,`designation`,`waddress`,`wcity`,`wstate`,`wcountry`,`wzipcode`,
