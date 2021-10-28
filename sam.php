@@ -18,9 +18,9 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+  <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
     integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-    crossorigin="anonymous"></script>
+    crossorigin="anonymous"></script> -->
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
     integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
     crossorigin="anonymous"></script>
@@ -91,19 +91,19 @@
               <!-- Photo Grid -->
               <div id="gallery_row" class="row">
                 <div id="gallery_row" class="column">
-                  <img class="image" src="img/sam/Kolkata/sam1.jpg" style="width:100%">
-                  <img class="image" src="img/sam/Kolkata/sam6.jpg" style="width:100%">
+                  <img class="image" src="img/sam/Kolkata/sam1.webp" style="width:100%">
+                  <img class="image" src="img/sam/Kolkata/sam6.webp" style="width:100%">
                 </div>
                 <div id="gallery_row" class="column">
-                  <img class="image" src="img/sam/Kolkata/sam3.jpg" style="width:100%; height: 165px;">
-                  <img class="image" src="img/sam/Kolkata/sam4.jpg" style="width:100%;">
+                  <img class="image" src="img/sam/Kolkata/sam3.webp" style="width:100%; height: 165px;">
+                  <img class="image" src="img/sam/Kolkata/sam4.webp" style="width:100%;">
                 </div>
                 <div id="gallery_row" class="column">
-                  <img class="image" src="img/sam/Kolkata/sam2.jpg" style="width:100%; height: 165px;">
-                  <img class="image" src="img/sam/Kolkata/sam5.jpg" style="width:100%; height: 170px;">
+                  <img class="image" src="img/sam/Kolkata/sam2.webp" style="width:100%; height: 165px;">
+                  <img class="image" src="img/sam/Kolkata/sam5.webp" style="width:100%; height: 170px;">
                 </div>
                 <div id="gallery_row" class="column">
-                  <img class="image" src="img/sam/Kolkata/sam.jpg" style="width:100%; height: 342 px;">
+                  <img class="image" src="img/sam/Kolkata/sam.webp" style="width:100%; height: 342 px;">
                 </div>
               </div>
             </div>
@@ -128,20 +128,20 @@
               <!-- Photo Grid -->
               <div id="gallery_row" class="row">
                 <div id="gallery_row" class="column">
-                  <img class="image" src="img/sam/singapore 18/singapore (1).jpg" style="width:100%; height:144px">
-                  <img class="image" src="img/sam/singapore 18/singapore (2).jpg" style="width:100%">
+                  <img class="image" src="img/sam/singapore 18/singapore1.webp" style="width:100%; height:144px">
+                  <img class="image" src="img/sam/singapore 18/singapore2.webp" style="width:100%">
                 </div>
                 <div id="gallery_row" class="column">
-                  <img class="image" src="img/sam/singapore 18/singapore (3).jpg" style="width:100%">
-                  <img class="image" src="img/sam/singapore 18/singapore (4).jpg" style="width:100%;">
+                  <img class="image" src="img/sam/singapore 18/singapore3.webp" style="width:100%">
+                  <img class="image" src="img/sam/singapore 18/singapore4.webp" style="width:100%;">
                 </div>
                 <div id="gallery_row" class="column">
-                  <img class="image" src="img/sam/singapore 18/singapore (5).jpg" style="width:100%; height: 144px;">
-                  <img class="image" src="img/sam/singapore 18/singapore (6).jpg" style="width:100%;">
+                  <img class="image" src="img/sam/singapore 18/singapore5.webp" style="width:100%; height: 144px;">
+                  <img class="image" src="img/sam/singapore 18/singapore6.webp" style="width:100%;">
                 </div>
                 <div id="gallery_row" class="column">
-                  <img class="image" src="img/sam/singapore 18/singapore (7).jpg" style="width:100%;">
-                  <img class="image" src="img/sam/singapore 18/singapore (8).jpg" style="width:100%;">
+                  <img class="image" src="img/sam/singapore 18/singapore7.webp" style="width:100%;">
+                  <img class="image" src="img/sam/singapore 18/singapore8.webp" style="width:100%;">
                 </div>
               </div>
             </div>
@@ -166,20 +166,20 @@
               <!-- Photo Grid -->
               <div id="gallery_row" class="row">
                 <div id="gallery_row" class="column">
-                  <img class="image" src="img/sam/bang18/1.jpg" style="width:100%">
-                  <img class="image" src="img/sam/bang18/2.jpg" style="width:100%">
+                  <img class="image" src="img/sam/bang18/1.webp" style="width:100%">
+                  <img class="image" src="img/sam/bang18/2.webp" style="width:100%">
                 </div>
                 <div id="gallery_row" class="column">
-                  <img class="image" src="img/sam/bang18/3.jpg" style="width:100%">
-                  <img class="image" src="img/sam/bang18/4.jpg" style="width:100%;">
+                  <img class="image" src="img/sam/bang18/3.webp" style="width:100%">
+                  <img class="image" src="img/sam/bang18/4.webp" style="width:100%;">
                 </div>
                 <div id="gallery_row" class="column">
-                  <img class="image" src="img/sam/bang18/5.jpg" style="width:100%">
-                  <img class="image" src="img/sam/bang18/6.jpg" style="width:100%;">
+                  <img class="image" src="img/sam/bang18/5.webp" style="width:100%">
+                  <img class="image" src="img/sam/bang18/6.webp" style="width:100%;">
                 </div>
                 <div id="gallery_row" class="column">
-                  <img class="image" src="img/sam/bang18/7.jpg" style="width:100%;height: 144px;">
-                  <img class="image" src="img/sam/bang18/8.jpg" style="width:100%; height: 144px;">
+                  <img class="image" src="img/sam/bang18/7.webp" style="width:100%;height: 144px;">
+                  <img class="image" src="img/sam/bang18/8.webp" style="width:100%; height: 144px;">
                 </div>
               </div>
             </div>
@@ -204,20 +204,20 @@
               <!-- Photo Grid -->
               <div id="gallery_row" class="row">
                 <div id="gallery_row" class="column">
-                  <img class="image" src="img/sam/hyderabad17/1.jpg" style="width:100%">
-                  <img class="image" src="img/sam/hyderabad17/2.jpg" style="width:100%">
+                  <img class="image" src="img/sam/hyderabad17/1.webp" style="width:100%">
+                  <img class="image" src="img/sam/hyderabad17/2.webp" style="width:100%">
                 </div>
                 <div id="gallery_row" class="column">
-                  <img class="image" src="img/sam/hyderabad17/3.jpg" style="width:100%">
-                  <img class="image" src="img/sam/hyderabad17/4.jpg" style="width:100%;">
+                  <img class="image" src="img/sam/hyderabad17/3.webp" style="width:100%">
+                  <img class="image" src="img/sam/hyderabad17/4.webp" style="width:100%;">
                 </div>
                 <div id="gallery_row" class="column">
-                  <img class="image" src="img/sam/hyderabad17/5.jpg" style="width:100%">
-                  <img class="image" src="img/sam/samh/1.jpg" style="width:100%;height: 170px;">
+                  <img class="image" src="img/sam/hyderabad17/5.webp" style="width:100%">
+                  <img class="image" src="img/sam/samh/1.webp" style="width:100%;height: 170px;">
                 </div>
                 <div id="gallery_row" class="column">
-                  <img class="image" src="img/sam/samh/2.jpg" style="width:100%;height: 169px;">
-                  <img class="image" src="img/sam/samh/3.jpg" style="width:100%;height: 169px;">
+                  <img class="image" src="img/sam/samh/2.webp" style="width:100%;height: 169px;">
+                  <img class="image" src="img/sam/samh/3.webp" style="width:100%;height: 169px;">
                 </div>
               </div>
             </div>
@@ -242,20 +242,20 @@
               <!-- Photo Grid -->
               <div id="gallery_row" class="row">
                 <div id="gallery_row" class="column">
-                  <img class="image" src="img/sam/kolkata17/1.jpg" style="width:100%">
-                  <img class="image" src="img/sam/kolkata17/2.jpg" style="width:100%">
+                  <img class="image" src="img/sam/kolkata17/1.webp" style="width:100%">
+                  <img class="image" src="img/sam/kolkata17/2.webp" style="width:100%">
                 </div>
                 <div id="gallery_row" class="column">
-                  <img class="image" src="img/sam/kolkata17/3.jpg" style="width:100%">
-                  <img class="image" src="img/sam/kolkata17/4.jpg" style="width:100%;">
+                  <img class="image" src="img/sam/kolkata17/3.webp" style="width:100%">
+                  <img class="image" src="img/sam/kolkata17/4.webp" style="width:100%;">
                 </div>
                 <div id="gallery_row" class="column">
-                  <img class="image" src="img/sam/kolkata17/5.jpg" style="width:100%">
-                  <img class="image" src="img/sam/kolkata17/6.jpg" style="width:100%;">
+                  <img class="image" src="img/sam/kolkata17/5.webp" style="width:100%">
+                  <img class="image" src="img/sam/kolkata17/6.webp" style="width:100%;">
                 </div>
                 <div id="gallery_row" class="column">
-                  <img class="image" src="img/sam/kolkata17/7.jpg" style="width:100%">
-                  <img class="image" src="img/sam/kolkata17/8.jpg" style="width:100%">
+                  <img class="image" src="img/sam/kolkata17/7.webp" style="width:100%">
+                  <img class="image" src="img/sam/kolkata17/8.webp" style="width:100%">
                 </div>
               </div>
             </div>
