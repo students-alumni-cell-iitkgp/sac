@@ -46,10 +46,10 @@ require 'connection.php';
       $_SESSION['password'] = $dob;
       $_SESSION['cost'] = $cost;
 
-      $database = "aam";
+      //$database = "aam";
 
       // Create a connection
-      $conn = mysqli_connect($DB_HOST, $DB_USER, $DB_PASS, $database);
+      $conn = mysqli_connect($servername, $username, $password, $database);
       if (!$conn){
           die("Sorry we failed to connect: ". mysqli_connect_error());
       }
