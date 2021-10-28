@@ -46,9 +46,9 @@ require 'connection.php';
       $_SESSION['password'] = $dob;
       $_SESSION['cost'] = $cost;
 
-      $database = "aam";
 
       // Create a connection
+      $database = "aam";
       $conn = mysqli_connect($DB_HOST, $DB_USER, $DB_PASS, $database);
       if (!$conn){
           die("Sorry we failed to connect: ". mysqli_connect_error());
@@ -72,7 +72,7 @@ require 'connection.php';
         }
 
         $certificate = $target_file;
-        $sql = "INSERT INTO `users` (`name`,`email`, `address` ,`city`,`state`,`country`,`zipcode`,`mobile`,`dob`,
+        $sql = "INSERT INTO `aam` (`name`,`email`, `address` ,`city`,`state`,`country`,`zipcode`,`mobile`,`dob`,
                  `status`, `certificate` ,`dosedate`,
                  `marital`, `accompaniments` ,`gh`,
                  `industry`, `profession` ,`organisation`,`designation`,`waddress`,`wcity`,`wstate`,`wcountry`,`wzipcode`,
