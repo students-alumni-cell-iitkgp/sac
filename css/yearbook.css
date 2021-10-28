@@ -147,7 +147,7 @@ main{
   background: #ff512f;
   /* fallback for old browsers */
   /* background-attachment: fixed;*/
-  background: url(../img/yearbook/main-building-with-stars.jpg);
+  background: url(../img/yearbook/main-building-with-stars.webp);
  
   background-size: cover;
   background-position: bottom;

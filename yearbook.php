@@ -7,17 +7,17 @@
     <title>Yearbook</title>
     <link rel="stylesheet" href="css\yearbook.css">
     <link rel="stylesheet" href="css/SAM_mobile-style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <!-- CSS only -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
     <!-- JS, Popper.js, and jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script> -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
-    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <!-- <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script> -->
 
     <style>
         .btn-outline-primary:hover,
@@ -94,7 +94,7 @@
                                         <div class="row">
                                             <div class="col-sm-12 col-lg-6">
                                                 <div class="card" style="height: 100% !important;">
-                                                    <img src="img\yearbook\year2020.jpg" class="h-img">
+                                                    <img src="img\yearbook\year2020.webp" class="h-img">
                                                     <div class="card-body">
                                                         <h4 class="card-title">Yearbook 2020...</h4>
                                                         <div class="row ">
@@ -113,7 +113,7 @@
                                             </div>
                                             <div class="col-sm-12 col-lg-6">
                                                 <div class="card" style="height: 100% !important;">
-                                                    <img src="img\yearbook\year2019.jpg" class="h-img">
+                                                    <img src="img\yearbook\year2019.webp" class="h-img">
                                                     <div class="card-body">
                                                         <h4 class="card-title">YearBook 2019...</h4>
                                                         <div class="row ">
@@ -138,7 +138,7 @@
                                         <div class="row">
                                             <div class="col-sm-12 col-lg-4">
                                                 <div class="card" style="height: 100% !important;">
-                                                    <img src="img\yearbook\year2018.jpg" class="card-img-top">
+                                                    <img src="img\yearbook\year2018.webp" class="card-img-top">
                                                     <div class="card-body">
                                                         <h4 class="card-title">YearBook 2018...</h4>
                                                         <div class="row ">
@@ -157,7 +157,7 @@
                                             </div>
                                             <div class="col-sm-12 col-lg-4">
                                                 <div class="card" style="height: 100% !important;">
-                                                    <img src="img\yearbook\year2017.jpg" class="card-img-top">
+                                                    <img src="img\yearbook\year2017.webp" class="card-img-top">
                                                     <div class="card-body">
                                                         <h4 class="card-title">YearBook 2017...</h4>
                                                         <div class="row ">
@@ -176,7 +176,7 @@
                                             </div>
                                             <div class="col-sm-12 col-lg-4">
                                                 <div class="card" style="height: 100% !important;">
-                                                    <img src="img\yearbook\year2016.jpg" class="card-img-top">
+                                                    <img src="img\yearbook\year2016.webp" class="card-img-top">
                                                     <div class="card-body">
                                                         <h4 class="card-title">YearBook 2016...</h4>
                                                         <div class="row ">
@@ -201,7 +201,7 @@
                                         <div class="row justify-content-center">
                                             <div class="col-sm-12 col-lg-4">
                                                 <div class="card" style="height: 100% !important;">
-                                                    <img src="img\yearbook\year2015.jpg" class="card-img-top">
+                                                    <img src="img\yearbook\year2015.webp" class="card-img-top">
                                                     <div class="card-body">
                                                         <h4 class="card-title">YearBook 2015...</h4>
                                                         <div class="row ">
@@ -220,7 +220,7 @@
                                             </div>
                                             <div class="col-sm-12 col-lg-4">
                                                 <div class="card" style="height: 100% !important;">
-                                                    <img src="img\yearbook\year2014.jpg" class="card-img-top">
+                                                    <img src="img\yearbook\year2014.webp" class="card-img-top">
                                                     <div class="card-body">
                                                         <h4 class="card-title">YearBook 2014...</h4>
                                                         <div class="row ">
@@ -241,7 +241,7 @@
                                             </div>
                                             <div class="col-sm-12 col-lg-4">
                                                 <div class="card" style="height: 100% !important;">
-                                                    <img src="img\yearbook\year2013.jpg" class="card-img-top">
+                                                    <img src="img\yearbook\year2013.webp" class="card-img-top">
                                                     <div class="card-body">
                                                         <h4 class="card-title">YearBook 2013...</h4>
                                                         <div class="row ">
