@@ -42,9 +42,9 @@ section{
 }
 
 header .img{
-	height:86vh;
+	/*height:86vh;*/
     width: 100%;
-	background:url(../img/align.webp);
+	background:url(../img/align.jpg);
     /*background-size:contain;
     background-position: center;*/
     /*background-position: top;*/

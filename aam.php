@@ -42,7 +42,7 @@
       <?php include'navbar.php' ?>
     <header>
     <div class="header"></div>
-
+      
 	<div class="img">
 	</div>
 	<style>
