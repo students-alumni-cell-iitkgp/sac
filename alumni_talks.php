@@ -22,7 +22,7 @@
 
 <body>
 <?php include 'navbar.php' ?>
-  <div class="header" style="background-image: url(img/talks.jpg);background-size: 100% 100%;background-position: center">
+  <div class="header" style="background-image: url(img/talks.webp);background-size: 100% 100%;background-position: center">
     <div class="container text-center">
       <div class="row">
         <div class="col-md-7 col-sm-12  text-white">
@@ -78,25 +78,25 @@
                   <h4 class="x">Pursuit for Higher Education</h4>
                   <div class="row">
                     <div class="col-12 col-sm-3 align-items-center">
-                      <img src="img/AlumniTalk/LakshyaJain.jpg" class="image img-responsive img-fluid"
+                      <img src="img/AlumniTalk/LakshyaJain.webp" class="image img-responsive img-fluid"
                         style="width: 20em;">
                       <h5 class="x">Lakshya Jain</h5>
                       <h6 class="x">Mech. Enginner-Tesla</h6>
                     </div>
 					<div class="col-12 col-sm-3 align-items-center">
-                      <img src="img/AlumniTalk/VishalKumar.jpg" class="image img-responsive img-fluid"
+                      <img src="img/AlumniTalk/VishalKumar.webp" class="image img-responsive img-fluid"
                         style="width: 20em;">
                       <h5 class="x">Vishal Kumar</h5>
                       <h6 class="x">Founder LearningWhileTraveling</h6>
                     </div>
                     <div class="col-12 col-sm-3 align-items-center">
-                      <img src="img/AlumniTalk/SnehaBiswas.jpg" class="image img-responsive img-fluid"
+                      <img src="img/AlumniTalk/SnehaBiswas.webp" class="image img-responsive img-fluid"
                         style="width: 20em;">
                       <h5 class="x">Sneha Biswas</h5>
                       <h6 class="x">Founder & CEO Early Step Academy</h6>
                     </div>
                     <div class="col-12 col-sm-3 align-items-center">
-                      <img src="img/AlumniTalk/AnupamSahai.jpg" class="image img-responsive img-fluid"
+                      <img src="img/AlumniTalk/AnupamSahai.webp" class="image img-responsive img-fluid"
                         style="width: 20em;">
                       <h5 class="x">Anupam Sahai</h5>
                       <h6 class="x">VP & CTO,Unisys</h6>
@@ -107,25 +107,25 @@
 				  <h4 class="x">Analytics</h4>
                   <div class="row">
                     <div class="col-12 col-sm-3 align-items-center">
-                      <img src="img/AlumniTalk/ManuveeranSinghSandhu.jpg" class="image img-responsive img-fluid"
+                      <img src="img/AlumniTalk/ManuveeranSinghSandhu.webp" class="image img-responsive img-fluid"
                         style="width: 20em;">
                       <h5 class="x">Manuveeran Singh Sandhu</h5>
                       <h6 class="x">Data Engineer JPMorgan Chase & Co.</h6>
                     </div>
 					<div class="col-12 col-sm-3 align-items-center">
-                      <img src="img/AlumniTalk/RituTak.jpg" class="image img-responsive img-fluid"
+                      <img src="img/AlumniTalk/RituTak.webp" class="image img-responsive img-fluid"
                         style="width: 20em;">
                       <h5 class="x">Ritu Tak</h5>
                       <h6 class="x">Vice President JPMorgan Chase & Co.</h6>
                     </div>
                     <div class="col-12 col-sm-3 align-items-center">
-                      <img src="img/AlumniTalk/HarsheelSinghSoin.jpg" class="image img-responsive img-fluid"
+                      <img src="img/AlumniTalk/HarsheelSinghSoin.webp" class="image img-responsive img-fluid"
                         style="width: 20em;">
                       <h5 class="x">Harsheel Singh Soin</h5>
                       <h6 class="x">Data Scientist Audible,Inc.</h6>
                     </div>
                     <div class="col-12 col-sm-3 align-items-center">
-                      <img src="img/AlumniTalk/RujutaKulkarni.jpg" class="image img-responsive img-fluid"
+                      <img src="img/AlumniTalk/RujutaKulkarni.webp" class="image img-responsive img-fluid"
                         style="width: 20em;">
                       <h5 class="x">Rujuta Kulkarni</h5>
                       <h6 class="x">Data Engineer Facebook</h6>
@@ -168,19 +168,19 @@
                   <h4 class="x">Speakers from McKinsey & Company:</h4>
                   <div class="row">
                     <div class="col-12 col-sm-4 align-items-center">
-                      <img src="img/guest-lecture/aditya_agarwal.jpg" class="image img-responsive img-fluid"
+                      <img src="img/guest-lecture/aditya_agarwal.webp" class="image img-responsive img-fluid"
                         style="width: 20em;">
                       <h5 class="x">Aditya Agarwal</h5>
                       <h6 class="x">(Associate)</h6>
                     </div>
                     <div class="col-12 col-sm-4 align-items-center">
-                      <img src="img/guest-lecture/abhishek_narain.jpg" class="image img-responsive img-fluid"
+                      <img src="img/guest-lecture/abhishek_narain.webp" class="image img-responsive img-fluid"
                         style="width: 20em;">
                       <h5 class="x">Abhishek Narain</h5>
                       <h6 class="x">(Associate)</h6>
                     </div>
                     <div class="col-12 col-sm-4 align-items-center">
-                      <img src="img/guest-lecture/jitesh_khanna.jpg" class="image img-responsive img-fluid"
+                      <img src="img/guest-lecture/jitesh_khanna.webp" class="image img-responsive img-fluid"
                         style="width: 20em;">
                       <h5 class="x">Jitesh Khanna</h5>
                       <h6 class="x">(Associate Partner)</h6>
@@ -188,13 +188,13 @@
                   </div>
                   <div class="row">
                     <div class="col-12 col-sm-4 offset-sm-2 align-items-center">
-                      <img src="img/guest-lecture/amit_gupta.jpg" class="image img-responsive img-fluid"
+                      <img src="img/guest-lecture/amit_gupta.webp" class="image img-responsive img-fluid"
                         style="width: 20em;">
                       <h5 class="x">Amit Gupta</h5>
                       <h6 class="x">(Associate Partner)</h6>
                     </div>
                     <div class="col-12 col-sm-4 align-items-center">
-                      <img src="img/guest-lecture/kanakvi_aggarwal.jpg" class="image img-responsive img-fluid"
+                      <img src="img/guest-lecture/kanakvi_aggarwal.webp" class="image img-responsive img-fluid"
                         style="width: 20em;">
                       <h5 class="x">kanakvi Aggarwal</h5>
                       <h6 class="x">(Business Analyst)</h6>
@@ -206,22 +206,22 @@
                 <div class="carousel-item">
                   <div class="row">
                     <div class="col-12 col-sm-6 align-items-center">
-                      <img class="image" src="img/guest-lecture/talk_MCK/a.jpg" class="image img-responsive img-fluid"
+                      <img class="image" src="img/guest-lecture/talk_MCK/a.webp" class="image img-responsive img-fluid"
                         style="width: 100%; padding: 5%;">
                     </div>
                     <div class="col-12 col-sm-6">
-                      <img class="image" src="img/guest-lecture/talk_MCK/b.jpg" class="image img-responsive  img-fluid"
+                      <img class="image" src="img/guest-lecture/talk_MCK/b.webp" class="image img-responsive  img-fluid"
                         style="width: 100%; padding: 5%;">
                     </div>
                   </div>
                   <div class="row">
                     <div class="col-12 col-sm-6 align-items-center">
-                      <img class="image" src="img/guest-lecture/talk_MCK/c.jpg" class="image img-responsive img-fluid"
+                      <img class="image" src="img/guest-lecture/talk_MCK/c.webp" class="image img-responsive img-fluid"
                         style="width: 100%; padding: 5%;">
                     </div>
                     <br>
                     <div class="col-12 col-sm-6 align-items-center">
-                      <img class="image" src="img/guest-lecture/talk_MCK/d.jpg" class="image img-responsive img-fluid"
+                      <img class="image" src="img/guest-lecture/talk_MCK/d.webp" class="image img-responsive img-fluid"
                       style="width: 100%; padding: 5%;">
                     </div>
                   </div>
@@ -264,19 +264,19 @@
                   <h4 class="x">Mr. Mark Richard (President and COO at DatabaseUSA)</h4>
                   <div class="row">
                     <div class="col-12 col-sm-6 align-items-center">
-                      <img src="img/guest-lecture/Mr_Mark_Richard/3.jpg" class="image img-fluid" style="width:100%;">
+                      <img src="img/guest-lecture/Mr_Mark_Richard/3.webp" class="image img-fluid" style="width:100%;">
 
                     </div>
                     <div class="col-12 col-sm-3 align-items-center">
-                      <img src="img/guest-lecture/Mr_Mark_Richard/2.jpg" class="image img-fluid" style="width:100%;">
+                      <img src="img/guest-lecture/Mr_Mark_Richard/2.webp" class="image img-fluid" style="width:100%;">
                       <br>
-                      <img src="img/guest-lecture/Mr_Mark_Richard/5.jpg" class="image img-fluid" style="width:100%;">
+                      <img src="img/guest-lecture/Mr_Mark_Richard/5.webp" class="image img-fluid" style="width:100%;">
 
                     </div>
                     <div class="col-12 col-sm-3 align-items-center">
-                      <img src="img/guest-lecture/Mr_Mark_Richard/4.jpg" class="image img-fluid" style="width:100%;">
+                      <img src="img/guest-lecture/Mr_Mark_Richard/4.webp" class="image img-fluid" style="width:100%;">
                       <br>
-                      <img src="img/guest-lecture/Mr_Mark_Richard/1.jpg" class="image img-fluid" style="width:100%;">
+                      <img src="img/guest-lecture/Mr_Mark_Richard/1.webp" class="image img-fluid" style="width:100%;">
 
                     </div>
                   </div>
@@ -287,15 +287,15 @@
                   <br>
                   <div class="row">
                     <div class="col-12 col-sm-4 align-items-center">
-                      <img class="image" src="img/guest-lecture/Mr_Veerendra_Jaitly/a.jpg" class="image img-fluid"
+                      <img class="image" src="img/guest-lecture/Mr_Veerendra_Jaitly/a.webp" class="image img-fluid"
                         style="width: 100%; padding: 5%;">
                     </div>
                     <div class="col-12 col-sm-4">
-                      <img class="image" src="img/guest-lecture/Mr_Veerendra_Jaitly/b.jpg" class="image img-fluid"
+                      <img class="image" src="img/guest-lecture/Mr_Veerendra_Jaitly/b.webp" class="image img-fluid"
                         style="width: 100%; padding: 5%;">
                     </div>
                     <div class="col-12 col-sm-4">
-                      <img class="image" src="img/guest-lecture/Mr_Veerendra_Jaitly/c.jpg" class="image img-fluid"
+                      <img class="image" src="img/guest-lecture/Mr_Veerendra_Jaitly/c.webp" class="image img-fluid"
                         style="width: 100%; padding: 5%;">
                     </div>
                   </div>
@@ -330,17 +330,17 @@
             <br>
             <div class="row">
               <div class="col-12 col-sm-4 align-items-center">
-                <img src="img/guest-lecture/Tips_from_Top/a.jpg" class="image img-fluid" style="width:100%">
+                <img src="img/guest-lecture/Tips_from_Top/a.webp" class="image img-fluid" style="width:100%">
                 <h5 class="x">Mr. Vineet Goyal</h5>
                 <h6 class="x">(IPS, Addl. Commissioner of Police, Kolkata)</h6>
               </div>
               <div class="col-12 col-sm-4 align-items-center">
-                <img src="img/guest-lecture/Tips_from_Top/b.jpg" class="image img-fluid" style="width:100%">
+                <img src="img/guest-lecture/Tips_from_Top/b.webp" class="image img-fluid" style="width:100%">
                 <h5 class="x">Prof Parameshwar P. Iyer</h5>
                 <h6 class="x">(Principal research scientist at IISc. Bangalore)</h6>
               </div>
               <div class="col-12 col-sm-4 align-items-center">
-                <img src="img/guest-lecture/Tips_from_Top/c.jpg" class="image img-fluid" style="width:100%">
+                <img src="img/guest-lecture/Tips_from_Top/c.webp" class="image img-fluid" style="width:100%">
                 <h5 class="x">Mr. Maneesh Bhandari</h5>
                 <h6 class="x">(Director of Center for Innovation Incubation and Entrepreneurship, IIM Ahmedabad)</h6>
               </div>
@@ -363,13 +363,13 @@
             <br>
             <div class="row">
               <div class="col-12 col-sm-4 align-items-center">
-                <img src="img/guest-lecture/kgp_beyond/a.jpg" class="image img-fluid" style="width:100%">
+                <img src="img/guest-lecture/kgp_beyond/a.webp" class="image img-fluid" style="width:100%">
               </div>
               <div class="col-12 col-sm-4 align-items-center">
-                <img src="img/guest-lecture/kgp_beyond/b.jpg" class=" image img-fluid" style="width:100%">
+                <img src="img/guest-lecture/kgp_beyond/b.webp" class=" image img-fluid" style="width:100%">
               </div>
               <div class="col-12 col-sm-4 align-items-center">
-                <img src="img/guest-lecture/kgp_beyond/c.jpg" class=" image img-fluid" style="width:100%">
+                <img src="img/guest-lecture/kgp_beyond/c.webp" class=" image img-fluid" style="width:100%">
               </div>
             </div>
           </div>

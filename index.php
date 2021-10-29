@@ -93,26 +93,26 @@
         </ol>
         <div class="carousel-inner" style="width:100% height:100%">
             <div class="carousel-item active">
-            <div class="carousel-image" style="background-image:url('img/align.jpg');background-size:100% 100%"></div>
+            <div class="carousel-image" style="background-image:url('img/align.webp');background-size:100% 100%"></div>
                
             </div>
             <!-- <div class="carousel-item" style>
-                <div class="carousel-image" style="background-image:url('img/indexslider/phonathon2019.jpg');"></div>
+                <div class="carousel-image" style="background-image:url('img/indexslider/phonathon2019.webp');"></div>
             </div>
             <div class="carousel-item">
-                <div class="carousel-image" style="background-image:url('img/indexslider/alvida.jpg');" ></div>
+                <div class="carousel-image" style="background-image:url('img/indexslider/alvida.webp');" ></div>
             </div>
             <div class="carousel-item">
-                <div class="carousel-image" style="background-image:url('img/indexslider/convocation.jpg');"></div>
+                <div class="carousel-image" style="background-image:url('img/indexslider/convocation.webp');"></div>
             </div>
             <div class="carousel-item">
-                <div class="carousel-image" style="background-image:url('img/indexslider/imprint.jpg');"></div>
+                <div class="carousel-image" style="background-image:url('img/indexslider/imprint.webp');"></div>
             </div>-->
             <!-- <div class="carousel-item"> 
-            <div class="carousel-image" style="background-image:url('img/indexslider/sac-logo.jpg');"></div>
+            <div class="carousel-image" style="background-image:url('img/indexslider/sac-logo.webp');"></div>
             </div> -->
             <!-- <div class="carousel-item">
-                <div class="carousel-image" style="background-image:url('img/indexslider/homecoming.jpg')"></div>
+                <div class="carousel-image" style="background-image:url('img/indexslider/homecoming.webp')"></div>
             </div> -->
         </div>
         <!-- <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -172,7 +172,7 @@
 
         <div class="tl-item">
 
-            <div class="tl-bg" style="background-image: url(img/marathon1.jpg)"></div>
+            <div class="tl-bg" style="background-image: url(img/marathon1.webp)"></div>
 
             <div class="tl-year">
                 <p class="f2"><u>What We Do</u></p>
@@ -192,7 +192,7 @@
 
         <div class="tl-item">
 
-            <div class="tl-bg" style="background-image: url(img/IIT.jpg)"></div>
+            <div class="tl-bg" style="background-image: url(img/IIT.webp)"></div>
 
             <div class="tl-year">
                 <p class="f2"><u>What We Do</u></p>
@@ -211,7 +211,7 @@
 
         <div class="tl-item">
 
-            <div class="tl-bg" style="background-image: url(img/imprint.jpg)"></div>
+            <div class="tl-bg" style="background-image: url(img/imprint.webp)"></div>
 
             <div class="tl-year">
                 <p class="f3 text --accent ttu"><u>What We Do</u></p>
@@ -247,7 +247,7 @@
                                 <div class="row">
                                     <div class="col-sm-12 col-lg-4">
                                         <div class="card" style="height: 100% !important;">
-                                            <img src="img/news&updates/07.jpg" style="height: 300px;"
+                                            <img src="img/news&updates/07.webp" style="height: 300px;"
                                                 class="card-img-top">
                                             <div class="card-body">
                                                 <h5 class="card-title">COVID-19: IIT Kharagpur Alumni Foundation starts fundraiser for 20 ICU beds</h5>
@@ -261,7 +261,7 @@
                                     </div>
                                     <div class="col-sm-12 col-lg-4">
                                         <div class="card" style="height: 100% !important;">
-                                            <img src="img/news&updates/08.jpg" style="height: 300px;"
+                                            <img src="img/news&updates/08.webp" style="height: 300px;"
                                                 class="card-img-top">
                                             <div class="card-body">
                                                 <h5 class="card-title">IITians Spearheading The AI Revolution In India</h5>
@@ -275,7 +275,7 @@
                                     </div>
                                     <div class="col-sm-12 col-lg-4">
                                         <div class="card" style="height: 100% !important;">
-                                            <img src="img/news&updates/09.jpg" style="height: 300px;"
+                                            <img src="img/news&updates/09.webp" style="height: 300px;"
                                                 class="card-img-top">
                                             <div class="card-body">
                                                 <h5 class="card-title">IIT Kharagpur Alumnus Mix Board Games With Augmented Reality</h5>
@@ -296,7 +296,7 @@
                                 <div class="row">
                                     <div class="col-sm-12 col-lg-4">
                                         <div class="card" style="height: 100% !important;">
-                                            <img src="img/news&updates/01.jpg" style="height: 300px;"
+                                            <img src="img/news&updates/01.webp" style="height: 300px;"
                                                 class="card-img-top">
                                             <div class="card-body">
                                                 <h5 class="card-title">IIT-KGP Alumni hold online quiz to raise funds for campus workers</h5>
@@ -312,7 +312,7 @@
                                     </div>
                                     <div class="col-sm-12 col-lg-4">
                                         <div class="card" style="height: 100% !important;">
-                                            <img src="img/news&updates/05.jpg" style="height: 300px;"
+                                            <img src="img/news&updates/05.webp" style="height: 300px;"
                                                 class="card-img-top">
                                             <div class="card-body">
                                                 <h5 class="card-title">Coronavirus: Startups by IIT-KGP alumni unveil tech to fight pandemic</h5>
@@ -328,7 +328,7 @@
                                     </div>
                                     <div class="col-sm-12 col-lg-4">
                                         <div class="card" style="height: 100% !important;">
-                                            <img src="img/news&updates/03.jpg" style="height: 300px;"
+                                            <img src="img/news&updates/03.webp" style="height: 300px;"
                                                 class="card-img-top">
                                             <div class="card-body">
                                                 <h5 class="card-title">IIT Alumnus Launches Mission 10k Khushiyan; 10,000 Children To Receive Educational Play Boxes</h5>
@@ -354,7 +354,7 @@
                                 <div class="row">
                                     <div class="col-sm-12 col-lg-4">
                                         <div class="card" style="height: 100% !important;">
-                                            <img src="img/news&updates/06.jpg" style="height: 300px;"
+                                            <img src="img/news&updates/06.webp" style="height: 300px;"
                                                 class="card-img-top">
                                             <div class="card-body">
                                                 <h5 class="card-title">How an IIT Kharagpur alumnus, investment banker, and traveller started a trekking company</h5>
@@ -370,7 +370,7 @@
                                     </div>
                                     <div class="col-sm-12 col-lg-4">
                                         <div class="card" style="height: 100% !important;">
-                                            <img src="img/news&updates/02.jpg" style="height: 300px;"
+                                            <img src="img/news&updates/02.webp" style="height: 300px;"
                                                 class="card-img-top">
                                             <div class="card-body">
                                                 <h5 class="card-title">IIT & Super30 alumni launch Uber-like study help app FILO for K12 students</h5>
@@ -386,7 +386,7 @@
                                     </div>
                                     <div class="col-sm-12 col-lg-4">
                                         <div class="card" style="height: 100% !important;">
-                                            <img src="img/news&updates/04.jpg" style="height: 300px;"
+                                            <img src="img/news&updates/04.webp" style="height: 300px;"
                                                 class="card-img-top">
                                             <div class="card-body">
                                                 <h5 class="card-title">Lockdown: IIT Kharagpur alumni to provide financial aid to 10,500 unorganised sector workers</h5>
