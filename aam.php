@@ -6,14 +6,13 @@
   <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <title>Annual Alumni Meet</title>
-  <!-- <link rel="icon" href="./img/SACLogo.png" sizes="32x32" type="image/gif"/> -->
   <link rel="stylesheet" type="text/css" href="css/AAM.css">
      <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@200&display=swap" rel="stylesheet">
   <style type="text/css">
 
    .img{
-	   background-image:url(img/align.jpg);
+	   background-image:url(img/align.webp);
 	   background-size:100% 100%;
    }
     .padding{
@@ -43,7 +42,7 @@
       <?php include'navbar.php' ?>
     <header>
     <div class="header"></div>
-
+      
 	<div class="img">
 	</div>
 	<style>
@@ -52,7 +51,7 @@
 		}
 	</style>
 	</header>
-  </section>
+</section>
   <section class="section-2 pt-0" style="padding-bottom:10rem;">
 	<div class="padding">
 		<div class="row">
@@ -103,7 +102,7 @@
 				<div class="row d-flex justify-content-center">
 					<div class="col-md-6 x">
 					<div class="image">
-					<img  src="img/day1c/compressed day 1/arena3.jpg" class="img-fluid image__img">
+					<img  src="img/day1c/compressed day 1/arena3.webp" class="img-fluid image__img">
 				      <div class="image__overlay image__overlay--primary text-center">
 							<div class="image__title">Arena</div>
 							<p class="image__description">The Arena is a nostalgia-filled site welcoming the Alumni to share their old memories with us.</p>	
@@ -111,22 +110,22 @@
 			</div>
 			<div class="col-md-3 x align-items-center">
 					<div class="image">
-					<img  src="img/day2c/compressed day 2/arena.jpg" class="img-fluid image__img">
+					<img  src="img/day2c/compressed day 2/arena.webp" class="img-fluid image__img">
 				      <div class="image__overlay image__overlay--primary text-center">
 					</div></div>
 				<div class="image pt-3">
-					<img  src="img/day2c/compressed day 2/cake_cutting.jpg" class="img-fluid image__img">
+					<img  src="img/day2c/compressed day 2/cake_cutting.webp" class="img-fluid image__img">
 				      <div class="image__overlay image__overlay--primary text-center">
 					  </div></div>
 				
 			</div>
 			<div class="col-md-3 x align-items-center">
 					<div class="image">
-					<img  src="img/day1c/compressed day 1/alumni4.jpg" class="img-fluid image__img">
+					<img  src="img/day1c/compressed day 1/alumni4.webp" class="img-fluid image__img">
 				      <div class="image__overlay image__overlay--primary text-center">
 						</div></div>
 				<div class="image pt-3">
-					<img  src="img/day1c/compressed day 1/alumni2.jpg" class="img-fluid image__img">
+					<img  src="img/day1c/compressed day 1/alumni2.webp" class="img-fluid image__img">
 				      <div class="image__overlay image__overlay--primary text-center">
 					  </div></div>
 			</div>
@@ -151,11 +150,11 @@
 			<div class="col-md-4 x align-items-center">
 					
 				<div class="image ">
-					<img  src="img/day1c/compressed day 1/awards.jpg" class="img-fluid image__img">
+					<img  src="img/day1c/compressed day 1/awards.webp" class="img-fluid image__img">
 				      <div class="image__overlay image__overlay--primary text-center">
 								</div></div>
 				<div class="image pt-3">
-					<img  src="img/day1c/compressed day 1/alumni.jpg" class="img-fluid image__img">
+					<img  src="img/day1c/compressed day 1/alumni.webp" class="img-fluid image__img">
 				      <div class="image__overlay image__overlay--primary text-center">
 					  
 							</div></div>
@@ -163,7 +162,7 @@
 			</div>
 			<div class="col-md-8 x">
 				<div class="image">
-				<img  src="img/day3c/compressed day 3/ceremony4.jpg" class="img-fluid image__img">
+				<img  src="img/day3c/compressed day 3/ceremony4.webp" class="img-fluid image__img">
 				<div class="image__overlay image__overlay--primary text-center">
 				<div class="image__title">Grand Reunion</div>
 							<p class="image__description">The Annual Alumni Meet is a fascinating trip down memory lane
@@ -191,18 +190,18 @@
 			<div class="row d-flex justify-content-center">
 			<div class="col-md-4 x align-items-center">
 					<div class="image">
-					<img  src="img/day2c/compressed day 2/nalanda2.jpg" class="img-fluid image__img">
+					<img  src="img/day2c/compressed day 2/nalanda2.webp" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary text-center">
 				</div></div>
 				<div class="image pt-3">
-					<img  src="img/day1c/compressed day 1/alumni.jpg" class="img-fluid image__img">
+					<img  src="img/day1c/compressed day 1/alumni.webp" class="img-fluid image__img">
 				      <div class="image__overlay image__overlay--primary text-center">
 					</div></div>
 				
 			</div>
 			<div class="col-md-8 x">
 				<div class="image">
-					<img  src="img/day1c/compressed day 1/dept_visit2.jpg" class="img-fluid image__img">
+					<img  src="img/day1c/compressed day 1/dept_visit2.webp" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary text-center">
 							<div class="image__title">Department Visit</div>
 							<p class="image__description">Departments are our own shrine of knowledge filled with bittersweet 
@@ -212,7 +211,7 @@
 			</div>
 									
 			</div>
-			</div>
+			</div> 
 	</div>
 	</div>
 	</div>
@@ -235,7 +234,7 @@
 				</div>
 				<div class="col-md-6 content-overlay x">	
 				<div class="image">
-					<img  src="img/day2c/compressed day 2/yellow-diary.jpg" class="img-fluid image__img">
+					<img  src="img/day2c/compressed day 2/yellow-diary.webp" class="img-fluid image__img">
 				</div>
 				</div>
 									
@@ -258,28 +257,28 @@
 			<div class="row d-flex justify-content-center">
 				<div class="col-md-3 content-overlay x">					
 					<div class="image ">
-					<img  src="img/day1c/compressed day 1/flames.jpg" class="img-fluid image__img">
+					<img  src="img/day1c/compressed day 1/flames.webp" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary">
 				</div></div>				
 					<div class="image pt-3">
-					<img  src="img/day1c/compressed day 1/hall_visit2.jpg" class="img-fluid image__img">
+					<img  src="img/day1c/compressed day 1/hall_visit2.webp" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary">
 				</div></div>
 </div>
 				<div class="col-md-3 content-overlay x">					
 					<div class="image ">
-					<img  src="img/day1c/compressed day 1/flames2.jpg" class="img-fluid image__img">
+					<img  src="img/day1c/compressed day 1/flames2.webp" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary">
 				</div></div>				
 					<div class="image pt-2">
-					<img  src="img/day1c/compressed day 1/hall_visit4.jpg" class="img-fluid image__img">
+					<img  src="img/day1c/compressed day 1/hall_visit4.webp" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary">
 				</div></div></div>
 				
 				<div class="col-md-6 content-overlay x">
 										<div class="image">
 
-					<img src="img/day1c/compressed day 1/hall_visit.jpg" class="img-fluid image__img">
+					<img src="img/day1c/compressed day 1/hall_visit.webp" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary text-center">
 							<div class="image__title">Hall Visit</div>
 							<p class="image__description">The place we learnt and lived for the 4 most important years in our life surely has a fragment of our soul inside
@@ -306,7 +305,7 @@
 			<div class="row d-flex justify-content-center">			
 			<div class="col-md-7 content-overlay x">
 				<div class="image">
-					<img  src="img/day2c/compressed day 2/campus_tour.jpg" class="img-fluid image__img">
+					<img  src="img/day2c/compressed day 2/campus_tour.webp" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary text-center">
 													<div class="image__title">Campus Tour</div>
 							<p class="image__description">Campus Tour is our way of showing the 2200 acre campus in a nutshell
@@ -316,7 +315,7 @@
 				<div class="col-md-5 content-overlay x">
 									<div class="image">
 
-					<img  src="img/day2c/compressed day 2/campus_tour2.jpg" class="img-fluid image__img">
+					<img  src="img/day2c/compressed day 2/campus_tour2.webp" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary text-center">
 									<div class="image__title">Campus Tour</div>
 							<p class="image__description"></p>	
@@ -326,7 +325,7 @@
 	<div class="row d-flex justify-content-center pt-3">	
 	<div class="col-md-5 x">
 					<div class="image">
-					<img  src="img/day2c/compressed day 2/nalanda.jpg" class="img-fluid image__img">
+					<img  src="img/day2c/compressed day 2/nalanda.webp" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary text-center text-center">
 								<div class="image__title">Campus Tour</div>
 							<p class="image__description">
@@ -335,7 +334,7 @@
 				</div>
 				<div class="col-md-7 x">
 					<div class="image">
-					<img src="img/day2c/compressed day 2/football.jpg" class="img-fluid image__img">
+					<img src="img/day2c/compressed day 2/football.webp" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary">
 					<div class="image__title">Campus Tour</div>
 							<p class="image__description text-center">In the progressive world we live in, there are a lot of changes and yet a lot of constants 
@@ -361,7 +360,7 @@
 			<div class="row d-flex justify-content-center">
 				<div class="col-md-8 content-overlay x">	
 					<div class="image">
-					<img src="img/day1c/compressed day 1/akash2.jpg" class="img-fluid image__img">
+					<img src="img/day1c/compressed day 1/akash2.webp" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary text-center">
 						<div class="image__title">Stand-Up Comedy</div>
 							<p class="image__description">Smiles can cast the most powerful spell of love and happiness.</p>	
@@ -369,12 +368,12 @@
 		</div>
 		<div class="col-md-4 content-overlay x">					
 				<div class="image">
-					<img  src="img/day1c/compressed day 1/toat.jpg" class="img-fluid image__img">
+					<img  src="img/day1c/compressed day 1/toat.webp" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary">
 					
 				</div></div>
 				<div class="image pt-3">
-					<img  src="img/day1c/compressed day 1/toat2.jpg" class="img-fluid image__img">
+					<img  src="img/day1c/compressed day 1/toat2.webp" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary">
 					
 				</div></div></div>
@@ -400,11 +399,11 @@
 			<div class="row d-flex justify-content-center">
 		<div class="col-md-4 content-overlay x">					
 			<div class="image">
-					<img  src="img/day2c/compressed day 2/illu1.jpg" class="img-fluid image__img">
+					<img  src="img/day2c/compressed day 2/illu1.webp" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary">
 				</div></div>
 				<div class="image pt-3">
-					<img  src="img/day2c/compressed day 2/lantern.jpg" class="img-fluid image__img">
+					<img  src="img/day2c/compressed day 2/lantern.webp" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary">
 							<div class="image__title">Illumination</div>
 							<p class="image__description"></p>	
@@ -413,7 +412,7 @@
 <div class="col-md-8 content-overlay x">
 										<div class="image">
 
-					<img src="img/day2c/compressed day 2/kgp_arena.jpg" class="img-fluid image__img">
+					<img src="img/day2c/compressed day 2/kgp_arena.webp" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary text-center">
 				<div class="image__title">Illumination</div>
 							<p class="image__description">The Illumination with diyas followed by the release of sky lanterns 
@@ -424,14 +423,14 @@
 				<div class="row d-flex justify-content-center pt-3">
 				<div class="col-md-4 content-overlay x">
 					<div class="image">
-					<img  src="img/day2c/compressed day 2/night1.jpg" class="img-fluid image__img">
+					<img  src="img/day2c/compressed day 2/night1.webp" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary">
 							<div class="image__title">Gala Dinner</div>
 				</div></div>
 				</div>
 				<div class="col-md-4 content-overlay x">
 				<div class="image">
-					<img  src="img/day2c/compressed day 2/night2.jpg" class="img-fluid image__img">
+					<img  src="img/day2c/compressed day 2/night2.webp" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary">
 							<div class="image__title">Gala Dinner</div>
 				</div></div>
@@ -439,7 +438,7 @@
 				<div class="col-md-4 content-overlay x">
 										<div class="image">
 
-					<img  src="img/day2c/compressed day 2/night3.jpg" class="img-fluid image__img">
+					<img  src="img/day2c/compressed day 2/night3.webp" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary">
 							<div class="image__title">Gala Dinner</div>
 				</div></div>
@@ -465,14 +464,14 @@
 			<div class="row d-flex justify-content-center">
 					<div class="col-md-6 content-overlay x">
 					<div class="image">
-					<img  src="img/day3c/compressed day 3/emo.jpg" class="img-fluid image__img">
+					<img  src="img/day3c/compressed day 3/emo.webp" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary">
 				</div></div>
 				</div>
 				<div class="col-md-6 content-overlay x">
 									<div class="image">
 
-					<img  src="img/day3c/compressed day 3/marathon.jpg" class="img-fluid image__img">
+					<img  src="img/day3c/compressed day 3/marathon.webp" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary text-center">
 							<div class="image__title">2.2 Marathon</div>
 							<p class="image__description">The iconic 2.2 km marathon around the heart of the campus in which all 
@@ -484,7 +483,7 @@
 					<div class="col-md-8 content-overlay">
 										<div class="image">
 
-					<img src="img/day3c/compressed day 3/closing_ceremony.jpg" class="img-fluid image__img">
+					<img src="img/day3c/compressed day 3/closing_ceremony.webp" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary">
 							<div class="image__title">Closing Ceremony</div>	
 				</div></div>
@@ -499,19 +498,13 @@
   </section>
 
 	<?php include'footer.php' ?>
-	<!-- <?php include'preloader.php' ?> -->
+	<!-- <?//php include'preloader.php' ?> -->
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  
   <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
-   <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
-   
+  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-            </script>
 	<script>
 		
 	var arr = document.getElementsByClassName("x");
