@@ -37,7 +37,7 @@
 <body>
 <?php include 'navbar.php' ?>
   <header>
-        <img style="width: 100%;" src="img/affinity/wall.jpg" alt="affinity programme">
+        <img style="width: 100%;" src="img/affinity/wall.webp" alt="affinity programme">
   </header>
   <section class="section-1">
     <div class="container text-center">
@@ -99,7 +99,7 @@
                 <div class="service-card">
                   <div class="card content" >
                     <div class="content-overlay"></div>
-                    <img class="card-img-top" src="img\affinity\headspace.jpeg" alt="Card image cap" style='height:18em;'>
+                    <img class="card-img-top" src="img\affinity\headspace.webp" alt="Card image cap" style='height:18em;'>
                     <!-- <img class="card-img-top" src="img\affinity\Galaxy_buds.jpg" alt="Card image cap"> -->
                     <div class="content-details fadeIn-bottom">
                       <p class="content-text" style="text-align: left; font-size:0.83em">
@@ -119,7 +119,7 @@
                 <div class="service-card">
                   <div class="card content">
                     <div class="content-overlay"></div>
-                    <img class="card-img-top" src="img\affinity\geek.png" alt="Card image cap">
+                    <img class="card-img-top" src="img\affinity\geek.webp" alt="Card image cap">
                     <div class="content-details fadeIn-bottom">
                       <p class="content-text" style="text-align: left; font-size:0.83em">
                         <b>Avail the special offers now.</b>
@@ -139,7 +139,7 @@
                 <div class="service-card">
                   <div class="card content">
                     <div class="content-overlay"></div>
-                    <img class="card-img-top" src="img\affinity\a_v2.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="img\affinity\a_v2.webp" alt="Card image cap">
                     <div class="content-details fadeIn-bottom">
                       <p class="content-text" style="text-align: left; font-size:0.83em">
                         <b>The benefits of this association include:</b>
@@ -161,7 +161,7 @@
                 <div class="service-card">
                    <div class="card content" >
                       <div class="content-overlay"></div>
-                         <img class="card-img-top" src="img\affinity\samsung.jpg" alt="Card image cap">
+                         <img class="card-img-top" src="img\affinity\samsung.webp" alt="Card image cap">
                          <!--<img class="card-img-top" src="img\affinity\Galaxy_buds.jpg" alt="Card image cap">-->
                            <div class="content-details fadeIn-bottom">
                               <p class="content-text" style="text-align: left; font-size:0.83em">
@@ -182,7 +182,7 @@
                 <div class="service-card">
                   <div class="card content" >
                     <div class="content-overlay"></div>
-                    <img class="card-img-top" src="img\affinity\hdfc.png" alt="Card image cap"  >
+                    <img class="card-img-top" src="img\affinity\hdfc.webp" alt="Card image cap"  >
                     <div class="content-details fadeIn-bottom">
                       <p class="content-text" style="text-align: left; font-size:0.83em">
                         <b>HDFC offering the following options: </b>
@@ -202,7 +202,7 @@
                 <div class="service-card">
                   <div class="card content" >
                     <div class="content-overlay"></div>
-                    <img class="card-img-top" src="img\affinity\Oyo.jpg" alt="Card image cap" >
+                    <img class="card-img-top" src="img\affinity\Oyo.webp" alt="Card image cap" >
                     <div class="content-details fadeIn-bottom">
                       <p class="content-text" style="text-align: left; font-size:0.83em"><b>Oyo offering the following stay options: </b>
                       <ul style="font-size: 0.8rem; text-align: left;  text-align: justify; text-justify: inter-word;">
