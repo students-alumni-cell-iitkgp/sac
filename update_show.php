@@ -549,10 +549,10 @@
             
 
             if(status == "Fully Vaccinated"){
-                if(certificate !="") next5Allow=1;
+                next5Allow=1;
             }
             else if(status == "Partially Vaccinated"){
-                if((yes || no) && certificate !="") next5Allow=1;
+                if((yes || no) ) next5Allow=1;
             }
             else if(status == "Not Vaccinated Yet"){
                 if(yes || no) next5Allow=1;
@@ -579,41 +579,41 @@
 
 
        function calc_cost(){
-           let nguest = document.getElementById("accompanyingNo").value;
+        let nguest = document.getElementById("accompanyingNo").value;
            let choice = document.getElementById("room").value;
            console.log(nguest,choice);
 
            var cost = 0;
 
-           if(choice === "Technology Guest House - SO"){
-                cost = 3000 + 7000;
+           if(choice === "Technology Guest House/ Alumni Guest House"){
+                cost = 2250 + 7000 + 4000*nguest + 2250*nguest;
            }
-           else if(choice === "Technology Guest House - DO | Acc"){
-               cost = 2250 + 2250*nguest + 7000 + 4000*nguest;
+        //    else if(choice === "Technology Guest House - DO | Acc"){
+        //        cost = 2250 + 2250*nguest + 7500 + 4500*nguest;
+        //    }
+        //    else if(choice === "Technology Guest House - DO | Al(Double Occupancy | Shared)"){
+        //        cost = 2250 + 7500;
+        //    }
+        //    else if(choice === "VGH/CEC - AC - SO"){
+        //        cost = 1200 + 7500;
+        //    }
+        //    else if(choice === "VGH/CEC - AC - DO | Al"){
+        //        cost = 900 + 7500;
+        //    }
+        //    else if(choice === "VGH/CEC - Non-AC - SO"){
+        //        cost = 750 + 7500;
+        //    }
+        //    else if(choice === "VGH 3/4  bedded- DO | Al"){
+        //        cost = 450 + 7500;
+        //    }
+           else if(choice === "VGH/ SAM"){
+               cost = 900 + 900*nguest + 7000 + 4000*nguest; 
            }
-           else if(choice === "Technology Guest House - DO | Al(Double Occupancy | Shared)"){
-               cost = 2250 + 7000;
-           }
-           else if(choice === "VGH/CEC - AC - SO"){
-               cost = 1200 + 7000;
-           }
-           else if(choice === "VGH/CEC - AC - DO | Al"){
-               cost = 900 + 7000;
-           }
-           else if(choice === "VGH/CEC - Non-AC - SO"){
-               cost = 750 + 7000;
-           }
-           else if(choice === "VGH 3/4  bedded- DO | Al"){
-               cost = 450 + 7000;
-           }
-           else if(choice === "AGH - DO | Acc"){
-               cost = 2250 + 2250*nguest + 7000 + 4000*nguest; 
-           }
-           else{
-               cost = 900 + 7000;
-           }
+        //    else{
+        //        cost = 900 + 7500;
+        //    }
 
-           document.getElementById("cost").value =  "Total Cost = "+cost+ "Rupee";
+           document.getElementById("cost").value =  "Total Cost = Rs"+cost;
 
            console.log(cost);
        }
