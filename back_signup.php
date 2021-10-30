@@ -61,7 +61,7 @@ require 'connection.php';
       else{ 
         // Submit these to a database
         // Sql query to be executed
-        $target_dir = "./AAMuploads/";
+        $target_dir = "AAMuploads/";
         $target_file = $target_dir . basename($_FILES["certificate"]["name"]);
 
         $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
