@@ -129,13 +129,13 @@
                     <tr>
                        <td data-th="">Alumnus/Alumna </td>
                        <td data-th="No.of Rooms"></td>
-                       <td style="text-align: center;" data-th="Cost for Alumni">7500</td>
+                       <td style="text-align: center;" data-th="Cost for Alumni">7000</td>
                        <td style="text-align: center;" data-th="Cost for Accompaniaments"></td>
                     </tr>
                     <tr>
                        <td data-th="">Accompaniments </td>
                        <td data-th="No.of Rooms"></td>
-                       <td style="text-align: center;" data-th="Cost for Alumni">4500</td>
+                       <td style="text-align: center;" data-th="Cost for Alumni">4000</td>
                        <td style="text-align: center;" data-th="Cost for Accompaniaments"></td>
                     </tr>
                 </table>
@@ -569,7 +569,7 @@
            var cost = 0;
 
            if(choice === "Technology Guest House/ Alumni Guest House"){
-                cost = 2250 + 7500 + 4500*nguest + 2250*nguest;
+                cost = 2250 + 7000 + 4000*nguest + 2250*nguest;
            }
         //    else if(choice === "Technology Guest House - DO | Acc"){
         //        cost = 2250 + 2250*nguest + 7500 + 4500*nguest;
