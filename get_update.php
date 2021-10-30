@@ -3,11 +3,11 @@ session_start();
 require 'connection.php';
     
 //if ($_SERVER["REQUEST_METHOD"]== "POST") {
-      
+    $database = 'aam';
     $email = $_SESSION['email'];
     $dob = $_SESSION['password']; 
 
-    $conn = mysqli_connect($DB_HOST, $DB_USER, $DB_PASS, $DB_NAME);
+    $conn = mysqli_connect($DB_HOST, $DB_USER, $DB_PASS, $database);
     $stmt = $conn->prepare("SELECT * FROM aam WHERE `email` = '$email'");
     $stmt->execute();
     
