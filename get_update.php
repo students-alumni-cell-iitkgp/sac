@@ -7,7 +7,7 @@ require 'connection.php';
     $email = $_SESSION['email'];
     $dob = $_SESSION['password']; 
 
-    $stmt = $conn->prepare("SELECT * FROM users WHERE `email` = '$email'");
+    $stmt = $conn->prepare("SELECT * FROM aam WHERE `email` = '$email'");
     $stmt->execute();
     $users = $stmt->fetchAll();
       
