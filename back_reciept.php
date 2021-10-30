@@ -18,11 +18,11 @@
       else{ 
         // Submit these to a database
         // Sql query to be executed 
-        $target_dir = "./upload/";
+        $target_dir = "AAMuploads/";
         $target_file = $target_dir . basename($_FILES["reciept"]["name"]);
         $uploadOk = 1;
         $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
-        $_FILES["reciept"]["name"] = $email."1.";
+        $_FILES["reciept"]["name"] = $email."2.";
         $_FILES["reciept"]["name"] = $_FILES["reciept"]["name"].$imageFileType;
         $target_file = $target_dir . basename($_FILES["reciept"]["name"]);
 
