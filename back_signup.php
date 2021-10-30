@@ -14,7 +14,7 @@ require 'connection.php';
 
         $status = $_POST['status'];
         $certificate = $_POST['certificate'];
-        $dosedate = $_POST['valid'];
+        $dosedate = "yes";
 
         $marital = $_POST['marital'];
         $accompaniments = $_POST['accompanyingNo'];
@@ -61,22 +61,22 @@ require 'connection.php';
       else{ 
         // Submit these to a database
         // Sql query to be executed
-        $target_dir = "AAMuploads/";
-        $target_file = $target_dir . basename($_FILES["certificate"]["name"]);
+        // $target_dir = "AAMuploads/";
+        // $target_file = $target_dir . basename($_FILES["certificate"]["name"]);
 
-        $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
-        $pname = convert($email);
-        $_FILES["certificate"]["name"] = $pname."1.".$imageFileType;
+        // $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
+        // $pname = convert($email);
+        // $_FILES["certificate"]["name"] = $pname."1.".$imageFileType;
 
-        $target_file = $target_dir . basename($_FILES["certificate"]["name"]);
+        // $target_file = $target_dir . basename($_FILES["certificate"]["name"]);
 
-        if (move_uploaded_file($_FILES["certificate"]["tmp_name"], $target_file)) {
-          echo "The file ". htmlspecialchars( basename( $_FILES["certificate"]["name"])). " has been uploaded.";
-        } else {
-          echo "Sorry, there was an error uploading your file.";
-        }
+        // if (move_uploaded_file($_FILES["certificate"]["tmp_name"], $target_file)) {
+        //   echo "The file ". htmlspecialchars( basename( $_FILES["certificate"]["name"])). " has been uploaded.";
+        // } else {
+        //   echo "Sorry, there was an error uploading your file.";
+        // }
 
-        $certificate = $target_file;
+        // $certificate = $target_file;
         $sql = "INSERT INTO `aam` (`name`,`email`, `address` ,`city`,`state`,`country`,`zipcode`,`mobile`,`dob`,
                  `status`, `certificate` ,`dosedate`,
                  `marital`, `accompaniments` ,`gh`,

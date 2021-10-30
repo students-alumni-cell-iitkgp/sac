@@ -429,7 +429,7 @@
                         <div class="input-group mb-3">
                            
                             <select  class="form-control form-select" type="list" id="status" name="status" value = "<?php echo "$gh"?>" required>
-                                <!--<option value=""> </option> -->
+                                <option value=""> </option>
                                 <option value="Fully Vaccinated">Fully Vaccinated</option>
                                 <option value="Partially Vaccinated">Partially Vaccinated</option>
                                 <option value="Not Vaccinated Yet" >Not Vaccinated Yet</option>
@@ -437,8 +437,8 @@
                             
                         </div >
                         <div class="col-sm-12 col-md-12 mb-3 certification1" style="display:none;">
-                            <label for="certificate">Vaccination Certificate if vaccinated <span style="color:red;">*</span></label>
-                            <input class="form-control" type="file" id="certificate" name="certificate" >
+                            <label for="certificate">Drive link for Vaccination Certificate<span style="color:red;">*</span></label>
+                            <input class="form-control" type="text" id="certificate" name="certificate" value = "<?php echo "$certificate" ?>">
                         </div>
                         
                         <div class="valid1" id="valid" style="display:none;">
