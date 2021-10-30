@@ -173,13 +173,13 @@
                     <tr>
                        <td data-th="">Alumnus/Alumna </td>
                        <td data-th="No.of Rooms"></td>
-                       <td style="text-align: center;" data-th="Cost for Alumni">7500</td>
+                       <td style="text-align: center;" data-th="Cost for Alumni">7000</td>
                        <td style="text-align: center;" data-th="Cost for Accompaniaments"></td>
                     </tr>
                     <tr>
                        <td data-th="">Accompaniments </td>
                        <td data-th="No.of Rooms"></td>
-                       <td style="text-align: center;" data-th="Cost for Alumni">4500</td>
+                       <td style="text-align: center;" data-th="Cost for Alumni">4000</td>
                        <td style="text-align: center;" data-th="Cost for Accompaniaments"></td>
                     </tr>
                 </table>
@@ -586,31 +586,31 @@
            var cost = 0;
 
            if(choice === "Technology Guest House - SO"){
-                cost = 3000 + 7500;
+                cost = 3000 + 7000;
            }
            else if(choice === "Technology Guest House - DO | Acc"){
-               cost = 2250 + 2250*nguest + 7500 + 4500*nguest;
+               cost = 2250 + 2250*nguest + 7000 + 4000*nguest;
            }
            else if(choice === "Technology Guest House - DO | Al(Double Occupancy | Shared)"){
-               cost = 2250 + 7500;
+               cost = 2250 + 7000;
            }
            else if(choice === "VGH/CEC - AC - SO"){
-               cost = 1200 + 7500;
+               cost = 1200 + 7000;
            }
            else if(choice === "VGH/CEC - AC - DO | Al"){
-               cost = 900 + 7500;
+               cost = 900 + 7000;
            }
            else if(choice === "VGH/CEC - Non-AC - SO"){
-               cost = 750 + 7500;
+               cost = 750 + 7000;
            }
            else if(choice === "VGH 3/4  bedded- DO | Al"){
-               cost = 450 + 7500;
+               cost = 450 + 7000;
            }
            else if(choice === "AGH - DO | Acc"){
-               cost = 2250 + 2250*nguest + 7500 + 4500*nguest; 
+               cost = 2250 + 2250*nguest + 7000 + 4000*nguest; 
            }
            else{
-               cost = 900 + 7500;
+               cost = 900 + 7000;
            }
 
            document.getElementById("cost").value =  "Total Cost = "+cost+ "Rupee";
