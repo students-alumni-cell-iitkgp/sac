@@ -102,12 +102,6 @@ require 'connection.php';
           </button>
         </div>';
         }
-
-        /* $sql = "INSERT INTO `covid` (`status`, `certificate` ,`date`) VALUES ('$status', '$certificate' ,'$date')";
-        $result = mysqli_query($conn, $sql);
-
-        $sql = "INSERT INTO `accomodation` (`marital`, `accompaniments` ,`gh`) VALUES ('$status', '$certificate' ,'$date')";
-        $result = mysqli_query($conn, $sql);*/
       }
 
     }   
