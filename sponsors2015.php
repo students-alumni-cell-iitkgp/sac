@@ -115,7 +115,7 @@
     </div>
   <div class="col-sm-12 "align="center"style="margin-bottom:20px;">
   <a href="http://www.npcil.nic.in" target="_blank">
-      <img class="spons" src="img/spons/2015/e7.png" width="200px" height="200px" />
+      <img class="spons" src="img/spons/2015/e7.webp" width="200px" height="200px" />
     </a> </div> </div>
 
     <div class="s-11 row">
@@ -141,12 +141,12 @@
   </div>
      <div class="col-lg-4 col-md-6 col-sm-12 " align="center"style="margin-bottom:20px;">
  <a href="http://www.kwalitymakers.in" target="_blank">
-      <img class="spons" src="img/spons/2015/g6.png" width="200px" height="" />
+      <img class="spons" src="img/spons/2015/g6.webp" width="200px" height="" />
     </a>
     </div>
    <div class="col-lg-4 col-md-6 col-sm-12 "  align="center"style="margin-bottom:20px;">
     <a href="http://www.bulkemailsmsindia.com" target="_blank">
-      <img class="spons"  src="img/spons/2015/g1.png" width="200px" height="" />
+      <img class="spons"  src="img/spons/2015/g1.webp" width="200px" height="" />
     </a></div>
    <div class="col-lg-4 col-md-6 col-sm-12 "  align="center"style="margin-bottom:20px;">
    <a href="http://www.siegsms.com" target="_blank">
@@ -196,7 +196,7 @@
 
   <div  class="col-lg-4 col-md-6 col-sm-12 "  align="center"style="margin-bottom:20px;">
  <a href="http://www.motaramnamkeen.com" target="_blank">
-      <img class="spons" src="img/spons/2015/g11.png" width="200px" height="" />
+      <img class="spons" src="img/spons/2015/g11.webp" width="200px" height="" />
     </a>
    </div>
   <div  class="col-lg-4 col-md-12 col-sm-12 " align="center"style="margin-bottom:20px;">
