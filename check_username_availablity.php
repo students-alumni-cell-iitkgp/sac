@@ -3,7 +3,7 @@ include_once('connection.php');
 // Establish database connection 
 
 // Establish database connection using MYSQLI.
-  $db = mysqli_connect($DB_HOST, $DB_USER, $DB_PASS, $database);
+  $db = mysqli_connect($DB_HOST, $DB_USER, $DB_PASS, $DB_NAME);
   // Check connection
     if (mysqli_connect_errno())
     {
@@ -20,7 +20,7 @@ if(!empty($_POST["email"])) {
     echo "error :you did not enter a valid email.";
   }
   else {
-    $sql ="SELECT email FROM users WHERE email=:email";
+    $sql ="SELECT email FROM aam WHERE email=:email";
 $query= $dbh -> prepare($sql);
 $query-> bindParam(':email', $email, PDO::PARAM_STR);
 $query-> execute();

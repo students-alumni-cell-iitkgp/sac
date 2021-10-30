@@ -14,9 +14,13 @@ if ($_SERVER["REQUEST_METHOD"]== "POST") {
       
     $email = test_input($_POST["name"]);
     $password = test_input($_POST["dob"]);
+    $conn = mysqli_connect($DB_HOST, $DB_USER, $DB_PASS, $DB_NAME);
     $stmt = $conn->prepare("SELECT `email`,`dob` FROM aam");
     $stmt->execute();
-    $users = $stmt->fetchAll();
+    //$users = $stmt->fetchAll();
+
+    $resultSet = $stmt->get_result();
+    $users = $resultSet->fetch_all(MYSQLI_ASSOC);
 
     $_SESSION['email'] = $email;
     $_SESSION['password'] = $password;
