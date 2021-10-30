@@ -590,7 +590,7 @@
         //        cost = 450 + 7500;
         //    }
            else if(choice === "VGH/ SAM"){
-               cost = 900 + 900*nguest + 7500 + 4500*nguest; 
+               cost = 900 + 900*nguest + 7000 + 4000*nguest; 
            }
         //    else{
         //        cost = 900 + 7500;
