@@ -87,11 +87,12 @@
             <br>
             <center>
                         <h6>Need Help? Contact Us</h6>
-                        <h6><i class="contact-icon fas fa-envelope"></i> &nbsp;Mail: aao@hijli.iitkgp.ernet.in</h6>
-                        <h6><i class="contact-icon fas fa-phone"></i> &nbsp;Shikha Bagaria: 7479222951</h6>
-                        <h6> &nbsp;&nbsp;&nbsp;<i class="contact-icon fas fa-phone"></i> &nbsp;Namya Swarnkar: 9307436229</h6>             
+                        <h6><i class="contact-icon fas fa-envelope"></i> Mail: aao@hijli.iitkgp.ernet.in</h6>
+                        <h6><i class="contact-icon fas fa-phone"></i> Tarun Majety: 7602443444</h6>             
+                        <h6>  <i class="contact-icon fas fa-phone"></i> Vikas Ahlawat: 8397070108</h6>             
+                        <h6>&nbsp;  <i class="contact-icon fas fa-phone"></i> Shikha Bagaria: 7479222951</h6>             
               </center>
-
+              <!-- &nbsp; -->
         </div>
     </section>
    
