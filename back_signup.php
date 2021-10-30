@@ -46,6 +46,11 @@ require 'connection.php';
       $_SESSION['password'] = $dob;
       $_SESSION['cost'] = $cost;
 
+      function convert($str){
+        $str = str_replace(".","-",$str);
+        $str = str_replace("@","-",$str);
+        return $str;
+      }
 
       // Create a connection
       $database = "aam";
@@ -56,11 +61,12 @@ require 'connection.php';
       else{ 
         // Submit these to a database
         // Sql query to be executed
-        $target_dir = "aam_reg/";
+        $target_dir = "./AAMuploads/";
         $target_file = $target_dir . basename($_FILES["certificate"]["name"]);
 
         $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
-        $_FILES["certificate"]["name"] = $email."1.".$imageFileType;
+        $pname = convert($email);
+        $_FILES["certificate"]["name"] = $pname."1.".$imageFileType;
 
         $target_file = $target_dir . basename($_FILES["certificate"]["name"]);
 
