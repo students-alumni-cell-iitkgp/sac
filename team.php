@@ -354,8 +354,8 @@
                   <li>Nitika Shroff</li>
                   <li>Sanjay Motwani</li>
                   <li>Vishaw Kashyap</li>
-                  <li>Anuja Raj Verma</li>
                   <li>Yukta Bagdi</li>
+                  <li>Anuja Raj Verma</li>
                   <li>Prasang Kumar</li>
                   <li>Ritish Dutt</li>
                   <li>Nischay Gothwal</li>

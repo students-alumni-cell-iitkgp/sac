@@ -60,7 +60,7 @@
       </div>
  </div>
  <script>
- $(document).ready(function(){
+ /*$(document).ready(function(){
       $('#login_button').click(function(){
            var username = $('#username').val();
            var designation = $('#designation').val();
@@ -106,7 +106,7 @@
                 }
            });
       });
- });
+ });*/
  // When the user scrolls the page, execute myFunction
 window.onscroll = function() {myFunction()};
 

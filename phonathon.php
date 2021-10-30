@@ -97,7 +97,7 @@
               <!-- Photo Grid -->
             <div id="gallery_row" class="row align-items-center gsap2">
                 <div class="col-12 text-center">
-                    <img class="img-fluid phonathon4_images" src="img/phonathon/phonathon41.jpg" height="auto">
+                    <img class="img-fluid phonathon4_images" src="img/phonathon/phonathon41.webp" height="auto">
                 </div>
             </div>
             </div>
@@ -134,7 +134,7 @@
               <!-- Photo Grid -->
               <div id="gallery_row" class="row align-items-center gsap2">
                 <div class="col-12 text-center">
-                    <img class="img-fluid phonathon4_images" src="img/phonathon/phonathon31.jpg" height="auto">
+                    <img class="img-fluid phonathon4_images" src="img/phonathon/phonathon31.webp" height="auto">
                 </div> 
             </div>
             </div>
@@ -162,7 +162,7 @@
                                 <div class="carousel-item active">
                                     <div class="row">
                                         <div class="col-12 col-sm-6 align-items-center">
-                                            <img src="img/phonathon/2.0/9(cropped).jpg" width="100%" height="auto"
+                                            <img src="img/phonathon/2.0/9(cropped).webp" width="100%" height="auto"
                                                 class="testimonial3_images">
                                             <h2 class="font-weight-bold">Shrinath Dakare</h1>
                                             <h3 class="font-weight-bold" style="color: grey;">batch
@@ -175,7 +175,7 @@
                                             </p>
                                         </div>
                                         <div class="col-12 col-sm-6 align-items-center">
-                                            <img src="img/phonathon/2.0/5(cropped).jpg" width="100%" height="auto"
+                                            <img src="img/phonathon/2.0/5(cropped).webp" width="100%" height="auto"
                                                 class="testimonial3_images">
                                             <h2 class="font-weight-bold">Md Zaman Khan</h1>
                                             <h3 class="font-weight-bold" style="color: grey;">batch
@@ -192,7 +192,7 @@
                                 <div class="carousel-item">
                                     <div class="row">
                                         <div class="col-12 col-sm-6 align-items-center">
-                                            <img src="img/phonathon/2.0/2(cropped).jpg" width="100%" height="auto"
+                                            <img src="img/phonathon/2.0/2(cropped).webp" width="100%" height="auto"
                                                 class="testimonial3_images">
                                                 <h2 class="font-weight-bold">Aman Verma</h1>
                                             <h3 class="font-weight-bold" style="color: grey;">batch
@@ -205,7 +205,7 @@
                                             </p>
                                         </div>
                                         <div class="col-12 col-sm-6 align-items-center">
-                                            <img src="img/phonathon/2.0/8(cropped).jpg" width="100%" height="auto"
+                                            <img src="img/phonathon/2.0/8(cropped).webp" width="100%" height="auto"
                                                     class="testimonial3_images">
                                             <h2 class="font-weight-bold">Neerav Jain</h1>
                                             <h3 class="font-weight-bold" style="color: grey;">batch
@@ -221,7 +221,7 @@
                                 <div class="carousel-item">
                                     <div class="row">
                                         <div class="col-12 col-sm-6 align-items-center">
-                                            <img src="img/phonathon/2.0/7(cropped).jpg" width="100%" height="auto"
+                                            <img src="img/phonathon/2.0/7(cropped).webp" width="100%" height="auto"
                                                 class="testimonial3_images">
                                                 <h2 class="font-weight-bold">Hamdan Iftikhar</h1>
                                             <h3 class="font-weight-bold" style="color: grey;">batch
@@ -237,7 +237,7 @@
                                             </p>
                                         </div>
                                         <div class="col-12 col-sm-6 align-items-center">
-                                                <img src="img/phonathon/2.0/6(cropped).jpg" width="100%" height="auto"
+                                                <img src="img/phonathon/2.0/6(cropped).webp" width="100%" height="auto"
                                                     class="testimonial3_images">
                                                     <h2 class="font-weight-bold">Anmol Thakkar</h1>
                                                 <h3 class="font-weight-bold" style="color: grey;">batch

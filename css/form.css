@@ -9,7 +9,7 @@ body{
     /* background-image: linear-gradient(105deg, rgba(113, 225, 233, 0.651) 20%, rgb(228, 224, 216)); */
     background-image: url("bkt.png");
     background-repeat: no-repeat;
-  background-size: 1300px 1100px;
+  background-size: 100% 100%;
 }
 .progress-bar{
     background-color: #394149 !important;
@@ -17,6 +17,7 @@ body{
 
 .wrapper{
     margin-top: 4% !important;
+    margin-bottom: 4% !important;
     background-color: white;
     margin: auto;
     width: 95%;

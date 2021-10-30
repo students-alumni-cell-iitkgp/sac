@@ -17,7 +17,7 @@
         body{
                 background-image: url("css/bkt.png");
                 background-repeat: no-repeat;
-                background-size: 1300px 750px;
+                background-size: 100% 100%;
             }
     </style>
 

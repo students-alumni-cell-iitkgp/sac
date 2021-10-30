@@ -1,5 +1,7 @@
 <?php
     session_start();
+    require 'connection.php';
+
     if ($_SERVER['REQUEST_METHOD'] == 'POST'){
         $reciept = $_POST['reciept'];
        
@@ -7,13 +9,6 @@
         $email = $_SESSION['email'];
         $password = $_SESSION['password'];
         
-      // Connecting to the Database
-      $servername = "172.17.0.8";
-      $username = "root";
-      $password = "Sac@123";
-      $database = "aam";
-
-
       // Create a connection
       $conn = mysqli_connect($servername, $username, $password, $database);
       // Die if connection was not successful
@@ -23,7 +18,20 @@
       else{ 
         // Submit these to a database
         // Sql query to be executed 
-        $sql = "UPDATE `users` SET `reciept` = '$reciept' WHERE `email` = '$email'";
+        $target_dir = "./aam_reg/";
+        $target_file = $target_dir . basename($_FILES["reciept"]["name"]);
+        $uploadOk = 1;
+        $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
+        $_FILES["reciept"]["name"] = $email."1.";
+        $_FILES["reciept"]["name"] = $_FILES["reciept"]["name"].$imageFileType;
+        $target_file = $target_dir . basename($_FILES["reciept"]["name"]);
+
+        if (move_uploaded_file($_FILES["reciept"]["tmp_name"], $target_file)) {
+          echo "The file ". htmlspecialchars( basename( $_FILES["reciept"]["name"])). " has been uploaded.";
+        } else {
+          echo "Sorry, there was an error uploading your file.";
+        }
+        $sql = "UPDATE `users` SET `reciept` = '$target_file' WHERE `email` = '$email'";
         $result = mysqli_query($conn, $sql);
  
         if($result){

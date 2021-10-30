@@ -14,7 +14,7 @@
 
   <!-- JS, Popper.js, and jQuery -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script> -->
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
   <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
@@ -261,7 +261,7 @@
                       <div class="row justify-content-center px-4">
                         <div class="col-md-4 col-sm-6 col-xs-12 py-4 image">
                           <div class="card">
-                            <img src="img\leadership_speakers\arjunmalhotra.jpg" class="card-img">
+                            <img src="img\leadership_speakers\arjunmalhotra.webp" class="card-img">
                             <div class="card-text">
                               <!-- <p><a href="https://www.linkedin.com/in/arjun-malhotra-5b07005/">Arjun Malhotra</a></p> -->
                               <p>Arjun Malhotra</p>
@@ -271,16 +271,16 @@
                         </div>
                         <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
                           <div class="card">
-                            <img src="img\leadership_speakers\anjanraichaudhuri.jpg" class="card-img">
+                            <img src="img\leadership_speakers\anjanraichaudhuri.webp" class="card-img">
                             <div class="card-text">
                               <p >Anjanrai Chaudhuri</p>
-                              <a href="#" target="_blank"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                              <!-- <a href="#" target="_blank"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a> -->
                             </div>
                           </div>
                         </div>
                         <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
                           <div class="card">
-                            <img src="img\leadership_speakers\arunabhkumar.jpg" class="card-img">
+                            <img src="img\leadership_speakers\arunabhkumar.webp" class="card-img">
                             <div class="card-text">
                               <!-- <p><a href="https://www.linkedin.com/in/arunabh-kumar-entrepreneur/?originalSubdomain=in">
                               Arunabh Kumar
@@ -294,31 +294,31 @@
                         </div>
                         <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
                           <div class="card">
-                            <img src="img\leadership_speakers\gopalrajgarhia.jpg" class="card-img">
+                            <img src="img\leadership_speakers\gopalrajgarhia.webp" class="card-img">
                             <div class="card-text">
                               <p >Gopalraj Garhia</p>
 
-                              <a href="#" target="_blank"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                              <!-- <a href="#" target="_blank"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a> -->
                             </div>
                           </div>
                         </div>
                         <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
                           <div class="card">
-                            <img src="img\leadership_speakers\prasadrmenon.jpg" class="card-img">
+                            <img src="img\leadership_speakers\prasadrmenon.webp" class="card-img">
                             <div class="card-text">
                                 <p>Prasad Menon</p>
-                                <a href="#" target="_blank"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                                <!-- <a href="#" target="_blank"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a> -->
                             </div>
                           </div>
                         </div>
                         <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
                           <div class="card">
-                            <img src="img\leadership_speakers\sakyasinharoy.jpg" class="card-img">
+                            <img src="img\leadership_speakers\sakyasinharoy.webp" class="card-img">
                             <div class="card-text">
                               <p>Sakyasinha Roy</p>
 
 
-                              <a href="#" target="_blank"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
+                              <!-- <a href="#" target="_blank"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a> -->
                             </div>
                           </div>
                         </div>
