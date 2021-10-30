@@ -10,7 +10,7 @@
         $password = $_SESSION['password'];
         
       // Create a connection
-      $conn = mysqli_connect($DB_HOST, $DB_USER, $DB_PASS, $database);
+      $conn = mysqli_connect($DB_HOST, $DB_USER, $DB_PASS, $DB_NAME);
       // Die if connection was not successful
       if (!$conn){
           die("Sorry we failed to connect: ". mysqli_connect_error());
@@ -18,7 +18,7 @@
       else{ 
         // Submit these to a database
         // Sql query to be executed 
-        $target_dir = "./aam_reg/";
+        $target_dir = "./upload/";
         $target_file = $target_dir . basename($_FILES["reciept"]["name"]);
         $uploadOk = 1;
         $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
@@ -31,7 +31,7 @@
         } else {
           echo "Sorry, there was an error uploading your file.";
         }
-        $sql = "UPDATE `users` SET `reciept` = '$target_file' WHERE `email` = '$email'";
+        $sql = "UPDATE `aam` SET `reciept` = '$target_file' WHERE `email` = '$email'";
         $result = mysqli_query($conn, $sql);
  
         if($result){

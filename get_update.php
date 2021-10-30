@@ -7,10 +7,12 @@ require 'connection.php';
     $email = $_SESSION['email'];
     $dob = $_SESSION['password']; 
 
+    $conn = mysqli_connect($DB_HOST, $DB_USER, $DB_PASS, $DB_NAME);
     $stmt = $conn->prepare("SELECT * FROM aam WHERE `email` = '$email'");
     $stmt->execute();
-    $users = $stmt->fetchAll();
-      
+    
+    $resultSet = $stmt->get_result();
+    $users = $resultSet->fetch_all(MYSQLI_ASSOC);
     foreach($users as $user) {
 
         $name    = $user['Name']      ;
