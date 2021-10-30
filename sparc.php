@@ -6,17 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SPARC</title>
     <link rel="stylesheet" href="css/sparc.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
+    <link rel="shortcut icon" href="img/favicot.webp" type="image/x-icon">
     <!-- CSS only -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
     <!-- JS, Popper.js, and jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script> -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
-    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <!-- <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script> -->
 </head>
 
 <body>
@@ -48,7 +48,7 @@
                             </p>
                             <div class="row text-center">
                                 <div class="col-12">
-                                <a class="btn btn-outline-primary" href="https://drive.google.com/file/d/1d4vDZxrvvngwRaEpEGZkt0i4S90Dy3Yu/view?usp=drivesdk" target = "_blank" role="button"><img src="img/scroll.png" height="21px" width="21px">SPARC</a>
+                                <a class="btn btn-outline-primary" href="https://drive.google.com/file/d/1d4vDZxrvvngwRaEpEGZkt0i4S90Dy3Yu/view?usp=drivesdk" target = "_blank" role="button"><img src="img/scrolt.webp" height="21px" width="21px">SPARC</a>
                                 </div>
                             </div>
                         </div>
@@ -71,18 +71,18 @@
                             <!-- Photo Grid -->
                             <div id="gallery_row" class="row">
                                 <div id="gallery_row" class="column">
-                                    <img class="image" src="img/sam/Mumbai/1.jpg" style="width:100%">
-                                    <img class="image" src="img/sam/Mumbai/2.jpg" style="height:50%">
+                                    <img class="image" src="img/sam/Mumbai/1.webp" style="width:100%">
+                                    <img class="image" src="img/sam/Mumbai/2.webp" style="height:50%">
                                 </div>
                                 <div id="gallery_row" class="column">
-                                    <img class="image" src="img/sam/Mumbai/3.jpg" style="width:100%">
-                                    <img class="image" src="img/sam/Mumbai/4edit-01.jpg" style="height:50%;">
+                                    <img class="image" src="img/sam/Mumbai/3.webp" style="width:100%">
+                                    <img class="image" src="img/sam/Mumbai/4edit-01.webp" style="height:50%;">
                                 </div>
                                 <div id="gallery_row" class="column">
-                                    <img class="image" src="img/sam/Mumbai/5.jpg" style="height:100%">
+                                    <img class="image" src="img/sam/Mumbai/5.webp" style="height:100%">
                                 </div>
                                 <div id="gallery_row" class="column">
-                                    <img class="image" src="img/sam/Mumbai/7.jpg" style="height:100%">
+                                    <img class="image" src="img/sam/Mumbai/7.webp" style="height:100%">
                                 </div>
                             </div>
                         </div>
@@ -107,7 +107,7 @@
 
                             <!-- Photo Grid -->
                             <div class=" col-xs-12 py-4 b-img image">
-                                <img src="img/sam/Bangalore/e.jpg">
+                                <img src="img/sam/Bangalore/e.webp">
                                 <p class="x">
                                     <h5 class="text-center h6">
                                         <i>One of the glances from our first event, Students' Alumni Meet in Bangalore.
@@ -138,13 +138,13 @@
                             <!-- Photo Grid -->
                             <div class="row justify-content-around px-4">
                                 <div class="col-md-4 col-sm-6 col-xs-12 px-2 py-2 c-img image">
-                                    <img src="img/deansmeet1.jpg">
+                                    <img src="img/deansmeet1.webp">
                                 </div>
                                 <div class="col-md-4 col-sm-6 col-xs-12 px-2 py-2 c-img image">
-                                <img src="img/deansmeet2.jpg">
+                                <img src="img/deansmeet2.webp">
                                 </div>
                                 <div class="col-md-4 col-sm-6 col-xs-12 px-2 py-2 c-img image">
-                                <img src="img/deansmeet3.png">
+                                <img src="img/deansmeet3.webp">
                                 </div>
                             </div>
                         </div>
@@ -168,7 +168,7 @@
                             <!-- Photo Grid -->
                             <div class="row">
                             <div class="col-md-8 col-xs-12 px-4 py-4 d-img image">
-                                <img src="img/future_init.png">
+                                <img src="img/future_init.webp">
                             </div>
                             <div class="col-md-4 col-xs-12 px-md-4 px-xs-1 py-4 x">
                                 <h4 style="font-size: 1.2em;">
