@@ -3,7 +3,7 @@ include_once('connection.php');
 // Establish database connection 
 
 // Establish database connection using MYSQLI.
-  $db = mysqli_connect($servername, $username, $password, $database);
+  $db = mysqli_connect($DB_HOST, $DB_USER, $DB_PASS, $database);
   // Check connection
     if (mysqli_connect_errno())
     {
