@@ -49,20 +49,19 @@ require 'connection.php';
 
       // Create a connection
       $database = "aam";
-      $conn = mysqli_connect($servername, $username, $password, $dbname);
+      $conn = mysqli_connect($DB_HOST, $DB_USER, $DB_PASS, $database);
       if (!$conn){
           die("Sorry we failed to connect: ". mysqli_connect_error());
       }
       else{ 
         // Submit these to a database
-        // Sql query to be executed 
-        //$sql = "INSERT INTO `alumni` (`name`, `address` ,`city`,`state`,`country`,`zipcode`,`mobile`,`dob`) VALUES ('$name', '$address' ,'$city','$state','$country','$zipcode','$mobile','$dob')";
-        $target_dir = "./aam_reg/";
+        // Sql query to be executed
+        $target_dir = "aam_reg/";
         $target_file = $target_dir . basename($_FILES["certificate"]["name"]);
-        $uploadOk = 1;
+
         $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
-        $_FILES["certificate"]["name"] = $email."1.";
-        $_FILES["certificate"]["name"] = $_FILES["certificate"]["name"].$imageFileType;
+        $_FILES["certificate"]["name"] = $email."1.".$imageFileType;
+
         $target_file = $target_dir . basename($_FILES["certificate"]["name"]);
 
         if (move_uploaded_file($_FILES["certificate"]["tmp_name"], $target_file)) {
