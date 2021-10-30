@@ -1,24 +1,9 @@
 <?php 
+include_once('connection.php');
 // Establish database connection 
 
-//####### Start of dbconfig.php #######
-// ENTER DB credentials.
-define('DB_HOST','172.17.0.8');
-define('DB_USER','root');
-define('DB_PASS','Sac@123');
-define('DB_NAME','aam');
-// Establish database connection using PDO.
-try
-{
-$dbh = new PDO("mysql:host=".DB_HOST.";dbname=".DB_NAME,DB_USER, DB_PASS,array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES 'utf8'"));
-}
-catch (PDOException $e)
-{
-exit("Error: " . $e->getMessage());
-}
- 
 // Establish database connection using MYSQLI.
-  $db = mysqli_connect(DB_HOST, DB_USER, DB_PASS, DB_NAME);
+  $db = mysqli_connect($servername, $username, $password, $database);
   // Check connection
     if (mysqli_connect_errno())
     {

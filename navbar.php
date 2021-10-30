@@ -74,7 +74,7 @@ display: block;}
 	<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
 
 		<div class="container-fluid">
-			<a class="navbar-brand xyz" href="#"><img src="img/latestlogo.jpeg"></a>
+			<a class="navbar-brand xyz" href="#"><img src="img/latestlogo.webp"></a>
 			<!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
 				aria-expanded="false" aria-label="Toggle navigation"> -->
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"

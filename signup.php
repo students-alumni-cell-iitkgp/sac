@@ -27,7 +27,7 @@
                 </h2>
             </center>
 
-            <form id="register" action = "back_signup.php" method = "post">
+            <form id="register" action = "back_signup.php" method = "post" enctype="multipart/form-data">
 
 
             <div class="section1">
@@ -421,7 +421,7 @@
                         </div >
                         <div class="col-sm-12 col-md-12 mb-3 certification1" style="display:none;">
                             <label for="certificate">Vaccination Certificate if vaccinated <span style="color:red;">*</span></label>
-                            <input class="form-control" type="file" id="certificate" name="certificate" >
+                            <input class="form-control" onchange="Filevalidation()" type="file" id="certificate" name="certificate" >
                         </div>
                         
                         <div class="valid1" id="valid" style="display:none;">
@@ -682,6 +682,24 @@
         });
 
         });*/
+
+        Filevalidation = () => {
+        const fi = document.getElementById('certificate');
+        // Check if any file is selected.
+        if (fi.files.length > 0) {
+            for (var i = 0; i <= fi.files.length - 1; i++) {
+  
+                const fsize = fi.files.item(i).size;
+                const file = Math.round((fsize / 1024));
+                // The size of the file.
+                //console.log(file);
+                if(fsize > 5242880){
+                    console.log(file);
+                    document.getElementById('submit').disabled = true;
+                }
+            }
+        }
+    }
 
     </script>
 
