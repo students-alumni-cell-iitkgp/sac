@@ -11,7 +11,7 @@ require 'connection.php';
         
 
       // Create a connection
-      $conn = mysqli_connect($servername, $username, $password, $database);
+      $conn = mysqli_connect($DB_HOST, $DB_USER, $DB_PASS, $database);
       // Die if connection was not successful
       if (!$conn){
           die("Sorry we failed to connect: ". mysqli_connect_error());
