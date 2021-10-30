@@ -3,12 +3,13 @@ include_once('connection.php');
 // Establish database connection 
 
 // Establish database connection using MYSQLI.
+  $DB_NAME = 'aam';
   $db = mysqli_connect($DB_HOST, $DB_USER, $DB_PASS, $DB_NAME);
   // Check connection
-    if (mysqli_connect_errno())
-    {
-    echo "Failed to connect to MySQL: " . mysqli_connect_error();
- }
+  if (mysqli_connect_errno())
+  {
+  echo "Failed to connect to MySQL: " . mysqli_connect_error();
+  }
 
  //####### End of dbconfig.php #######
 
@@ -20,24 +21,19 @@ if(!empty($_POST["email"])) {
     echo "error :you did not enter a valid email.";
   }
   else {
-    $sql ="SELECT email FROM aam WHERE email=:email";
-$query= $dbh -> prepare($sql);
-$query-> bindParam(':email', $email, PDO::PARAM_STR);
-$query-> execute();
-$results = $query -> fetchAll(PDO::FETCH_OBJ);
-$cnt=1;
-if($query -> rowCount() > 0)
-{
-echo "<div style='color:red; display: block;'> Email already exists .</div>";
- echo "<script>$('#submit').prop('disabled',true);</script>";
-} else{
-  
-  echo "<div style='color:green'> Email available for Registration .</div>";
- echo "<script>$('#submit').prop('disabled',false);</script>";
-}
-}
+    $sql ="SELECT `email` FROM `aam` WHERE `email` = '$email' ";
+    $results = mysqli_query($db, $sql);
+
+
+    if($results -> num_rows)
+    {
+      echo "<div style='color:red; display: block;'> Email already exists .</div>";
+      echo "<script>$('#submit').prop('disabled',true);</script>";
+    } else{
+      
+      echo "<div style='color:green'> Email available for Registration .</div>";
+      echo "<script>$('#submit').prop('disabled',false);</script>";
+    }
+  }
 }
 // End code check email
-
-
-?>
