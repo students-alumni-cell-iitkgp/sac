@@ -27,7 +27,7 @@
                 </h2>
             </center>
 
-            <form id="register" action = "back_signup.php" method = "post" enctype="multipart/form-data">
+            <form id="register" action = "back_signup.php" method = "post" enctype="multipart/form-data" onSubmit="window.location.reload()">
 
 
             <div class="section1">
@@ -420,7 +420,7 @@
                             
                         </div >
                         <div class="col-sm-12 col-md-12 mb-3 certification1" style="display:none;">
-                            <label for="certificate">Vaccination Certificate if vaccinated <span style="color:red;">*</span></label>
+                            <label for="certificate">Vaccination Certificate if vaccinated <span style="color:red;">*  </span><small style="color:red;">max size 5 MB</small></label>
                             <input class="form-control" onchange="Filevalidation()" type="file" id="certificate" name="certificate" >
                         </div>
                         
