@@ -420,8 +420,10 @@
                             
                         </div >
                         <div class="col-sm-12 col-md-12 mb-3 certification1" style="display:none;">
-                            <label for="certificate">Vaccination Certificate if vaccinated <span style="color:red;">*</span></label>
-                            <input class="form-control" onchange="Filevalidation()" type="file" id="certificate" name="certificate" >
+                            <label for="certificate">Vaccination Certificate if vaccinated <span style="color:red;">  *</span></label>
+                            <input class="form-control" type="file" id="certificate" name="certificate" >
+                            <p id = "size_file">File size must be less than 5MB</p>
+
                         </div>
                         
                         <div class="valid1" id="valid" style="display:none;">
@@ -542,6 +544,24 @@
             }else{
                 next5Allow=0;
             }
+            const fi = document.getElementById('certificate');
+        // Check if any file is selected.
+        if (fi.files.length > 0) {
+            for (var i = 0; i <= fi.files.length - 1; i++) {
+  
+                const fsize = fi.files.item(i).size;
+                const file = Math.round((fsize / 1024));
+                // The size of the file.
+                //console.log(file);
+                if(fsize > 5242880){
+                    console.log(fsize);
+                    // document.getElementById('submit').disabled = true;
+                    next5Allow = 0;
+                    document.getElementById('size_file').style.visibility = "visible";
+                    // visibility: visible;
+                }
+            }
+        }
             if(next5Allow){
 
                 document.getElementsByClassName("section2")[0].style.display = 'none';
@@ -683,23 +703,24 @@
 
         });*/
 
-        Filevalidation = () => {
-        const fi = document.getElementById('certificate');
-        // Check if any file is selected.
-        if (fi.files.length > 0) {
-            for (var i = 0; i <= fi.files.length - 1; i++) {
+    //     Filevalidation = () => {
+    //     const fi = document.getElementById('certificate');
+    //     // Check if any file is selected.
+    //     if (fi.files.length > 0) {
+    //         for (var i = 0; i <= fi.files.length - 1; i++) {
   
-                const fsize = fi.files.item(i).size;
-                const file = Math.round((fsize / 1024));
-                // The size of the file.
-                //console.log(file);
-                if(fsize > 5242880){
-                    console.log(file);
-                    document.getElementById('submit').disabled = true;
-                }
-            }
-        }
-    }
+    //             const fsize = fi.files.item(i).size;
+    //             const file = Math.round((fsize / 1024));
+    //             // The size of the file.
+    //             //console.log(file);
+    //             if(fsize > 5242880){
+    //                 console.log(file);
+    //                 document.getElementById('submit').disabled = true;
+    //                 next5allow = 0;
+    //             }
+    //         }
+    //     }
+    // }
 
     </script>
 
