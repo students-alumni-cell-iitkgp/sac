@@ -44,7 +44,7 @@
 
                     <div class="col-sm-12 col-md-12">
                         <label for="reciept">Fee Reciept <span style="color:red;">*</span></label>
-                        <input class="form-control" type="file" onchange="Filevalidation()" id="reciept" name="reciept" required>
+                        <input class="form-control" type="text" id="reciept" name="reciept" required>
                     </div>
                 </div>
             </div>

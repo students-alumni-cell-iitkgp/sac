@@ -3,14 +3,16 @@ session_start();
 require 'connection.php';
     
 //if ($_SERVER["REQUEST_METHOD"]== "POST") {
-      
+    $database = 'aam';
     $email = $_SESSION['email'];
     $dob = $_SESSION['password']; 
 
-    $stmt = $conn->prepare("SELECT * FROM users WHERE `email` = '$email'");
+    $conn = mysqli_connect($DB_HOST, $DB_USER, $DB_PASS, $database);
+    $stmt = $conn->prepare("SELECT * FROM aam WHERE `email` = '$email'");
     $stmt->execute();
-    $users = $stmt->fetchAll();
-      
+    
+    $resultSet = $stmt->get_result();
+    $users = $resultSet->fetch_all(MYSQLI_ASSOC);
     foreach($users as $user) {
 
         $name    = $user['Name']      ;

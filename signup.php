@@ -129,13 +129,13 @@
                     <tr>
                        <td data-th="">Alumnus/Alumna </td>
                        <td data-th="No.of Rooms"></td>
-                       <td style="text-align: center;" data-th="Cost for Alumni">7500</td>
+                       <td style="text-align: center;" data-th="Cost for Alumni">7000</td>
                        <td style="text-align: center;" data-th="Cost for Accompaniaments"></td>
                     </tr>
                     <tr>
                        <td data-th="">Accompaniments </td>
                        <td data-th="No.of Rooms"></td>
-                       <td style="text-align: center;" data-th="Cost for Alumni">4500</td>
+                       <td style="text-align: center;" data-th="Cost for Alumni">4000</td>
                        <td style="text-align: center;" data-th="Cost for Accompaniaments"></td>
                     </tr>
                 </table>
@@ -420,8 +420,13 @@
                             
                         </div >
                         <div class="col-sm-12 col-md-12 mb-3 certification1" style="display:none;">
+<<<<<<< HEAD
                             <label for="certificate">Vaccination Certificate if vaccinated <span style="color:red;">*  </span><small style="color:red;">max size 5 MB</small></label>
                             <input class="form-control" onchange="Filevalidation()" type="file" id="certificate" name="certificate" >
+=======
+                            <label for="certificate">Drive link for Vaccination Certificate<span style="color:red;">*</span></label>
+                            <input class="form-control" type="text" id="certificate" name="certificate" >
+>>>>>>> b25c608d071b63e0aa8a309ed88f52c7679fb4ce
                         </div>
                         
                         <div class="valid1" id="valid" style="display:none;">
@@ -569,7 +574,7 @@
            var cost = 0;
 
            if(choice === "Technology Guest House/ Alumni Guest House"){
-                cost = 2250 + 7500 + 4500*nguest + 2250*nguest;
+                cost = 2250 + 7000 + 4000*nguest + 2250*nguest;
            }
         //    else if(choice === "Technology Guest House - DO | Acc"){
         //        cost = 2250 + 2250*nguest + 7500 + 4500*nguest;
@@ -590,7 +595,7 @@
         //        cost = 450 + 7500;
         //    }
            else if(choice === "VGH/ SAM"){
-               cost = 900 + 900*nguest + 7500 + 4500*nguest; 
+               cost = 900 + 900*nguest + 7000 + 4000*nguest; 
            }
         //    else{
         //        cost = 900 + 7500;
