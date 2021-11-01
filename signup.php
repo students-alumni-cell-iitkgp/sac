@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="css/form.css">
     <!-- JS, Popper.js, and jQuery -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 </head>
@@ -394,7 +393,7 @@
                 <div class="row justify-content-md-between justify-content-around guesth">
 
                     <div class=" col-md-1 col-3">  <button class="btn btn-dark" type = "button" onclick="back3()">Back</button> </div>
-                    <div class=" col-md-1 col-3">     <button id="submit" class="btn btn-dark" type = "submit">Submit</button></div>
+                    <div class=" col-md-1 col-3">     <button class="btn btn-dark" type = "button" onclick="next4()">Next</button></div>
                 </div>
             </div>
 
@@ -420,13 +419,8 @@
                             
                         </div >
                         <div class="col-sm-12 col-md-12 mb-3 certification1" style="display:none;">
-<<<<<<< HEAD
-                            <label for="certificate">Vaccination Certificate if vaccinated <span style="color:red;">*  </span><small style="color:red;">max size 5 MB</small></label>
-                            <input class="form-control" onchange="Filevalidation()" type="file" id="certificate" name="certificate" >
-=======
                             <label for="certificate">Drive link for Vaccination Certificate<span style="color:red;">*</span></label>
                             <input class="form-control" type="text" id="certificate" name="certificate" >
->>>>>>> b25c608d071b63e0aa8a309ed88f52c7679fb4ce
                         </div>
                         
                         <div class="valid1" id="valid" style="display:none;">
@@ -447,8 +441,25 @@
 
                 
               </center>
+            </div>
 
-              </div>
+            <div class="section6">
+                <div class="heading">
+                    <h2>Own Your Hall Room</h2>
+                    <div class="progress" style="height:0.4rem;">
+                        <div id="one" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <br> 
+                    <h4>Over the years we have received unprecedented support from our esteemed alumni for various Developmental Projects of IITKGP.</h4>
+                    <h4>Amongst all the initiatives run by the institute, the Hall Development Campaign is one of the well supported campaigns from the alumni... <a href="http://alumni.iitkgp.ac.in/AlumniIITKGP/GoThroughCampaign/?camp_id=46&purpose=readmore" target="_blank" rel="noopener noreferrer">[Read more]</a></h4>
+                </div>
+                <div class="row justify-content-md-between justify-content-around guesth">
+                    <div class=" col-md-1 col-3">  <button class="btn btn-dark" type = "button" onclick="back5()">Back</button> </div>
+                    <div class=" col-md-1 col-3">     <button id="submit" class="btn btn-dark" type = "submit">Submit</button></div>
+                </div>
+            </div>
             </form>
 
         </div>
@@ -706,6 +717,10 @@
         }
     }
 
+    // reload the form when users click back button given on brower 
+    if(performance.navigation.type == 2){
+        location.reload(true);
+    }
     </script>
 
 
