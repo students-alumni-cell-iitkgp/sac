@@ -80,7 +80,7 @@
                                         <div class="row">
                                             <div class="col-sm-12 col-lg-4">
                                                 <div class="card" style="height: 100% !important;">
-                                                    <img src="img/yoy/yoy188.jpg" class="card-img-top">
+                                                    <img src="img/yoy/yoy188.webp" class="card-img-top">
                                                     <div class="card-body">
                                                         <h4 class="card-title">Yearnings Of Yore 2018....</h4>
 
@@ -123,7 +123,7 @@
                                         <div class="row">
                                             <div class="col-sm-12 col-lg-4">
                                                 <div class="card" style="height: 100% !important;">
-                                                    <img src="img/yoy/2015.jpg" class="card-img-top">
+                                                    <img src="img/yoy/2015.webp" class="card-img-top">
                                                     <div class="card-body">
                                                         <h4 class="card-title">Yearnings Of Yore 2015....</h4>
 
@@ -135,7 +135,7 @@
                                             </div>
                                             <div class="col-sm-12 col-lg-4">
                                                 <div class="card" style="height: 100% !important;">
-                                                    <img src="img/yoy/2014.jpg" class="card-img-top">
+                                                    <img src="img/yoy/2014.webp" class="card-img-top">
                                                     <div class="card-body">
                                                         <h4 class="card-title">Yearnings Of Yore 2014....</h4>
 
@@ -178,7 +178,7 @@
                                             </div>
                                             <div class="col-sm-12 col-lg-4">
                                                 <div class="card" style="height: 100% !important;">
-                                                    <img src="img/yoy/2006.jpg" class="card-img-top">
+                                                    <img src="img/yoy/2006.webp" class="card-img-top">
                                                     <div class="card-body">
                                                         <h4 class="card-title">Yearnings Of Yore 2006....</h4>
 
@@ -189,7 +189,7 @@
                                             </div>
                                             <div class="col-sm-12 col-lg-4">
                                                 <div class="card" style="height: 100% !important;">
-                                                    <img src="img/yoy/2005.jpg" class="card-img-top">
+                                                    <img src="img/yoy/2005.webp" class="card-img-top">
                                                     <div class="card-body">
                                                         <h4 class="card-title">Yearnings Of Yore 2005....</h4>
 
