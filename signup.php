@@ -407,7 +407,7 @@
                 </div>
                 <div class="container">
                     <div class="row">
-                        <div class="col-12 mb-2"><label for="note" style="color:red;">Only fully vaccinated Alumnus/Alumna will be allowed in the 18th Annual Alumni Meet</label></div>
+                        <div class="col-12 mb-2"><label for="note" style="color:red;">If you have accompaniments, upload a drive folder containing certificates of all</label></div>
                         <div class="col-12"><label for="status">Vaccination Status <span style="color:red;">*</span></label></div> 
                         <div class="input-group mb-3">
                            
@@ -420,8 +420,8 @@
                             
                         </div >
                         <div class="col-sm-12 col-md-12 mb-3 certification1" style="display:none;">
-                            <label for="certificate">Vaccination Certificate if vaccinated <span style="color:red;">*</span></label>
-                            <input class="form-control" onchange="Filevalidation()" type="file" id="certificate" name="certificate" >
+                            <label for="certificate">Drive link for Vaccination Certificate<span style="color:red;">*</span></label>
+                            <input class="form-control" type="text" id="certificate" name="certificate" >
                         </div>
                         
                         <div class="valid1" id="valid" style="display:none;">

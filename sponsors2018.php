@@ -260,7 +260,7 @@
                     </div>
                   <div class="col-sm-12"align="center"style="margin-bottom:20px;"><a href="https://www.thepostbox.in/
                         " target="_blank" >
-                        <img class="spons" src="img/spons/2018/23.png" width="290" height="140" >
+                        <img class="spons" src="img/spons/2018/23.webp" width="290" height="140" >
                         </a>
                     </div>
                 </div>
