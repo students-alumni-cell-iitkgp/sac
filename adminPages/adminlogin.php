@@ -7,21 +7,21 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $username = trim($_POST['username']);
     $password = $_POST['password'];
     //adding the user
-    $result=adduser($username,$password);
-    if(!$result) {echo 'Error registering'; }
-    else{
-        header('Location: view.php');
-    }
+    // $result=adduser($username,$password);
+    // if(!$result) {echo 'Error registering'; }
+    // else{
+    //     header('Location: view.php');
+    // }
 
     // authorising the user
 
-    // $result = getuser($username, $password);
-    // if (!$result) {
-    //     echo "<div class='text-center text-danger'>Username or Password Incorrect. Please try again</div>";
-    // } else {
-    //     $_SESSION['userid'] = $result['username'];
-    //     header('Location: view.php');
-    // }
+    $result = getuser($username, $password);
+    if (!$result) {
+        echo "<div class='text-center text-danger'>Username or Password Incorrect. Please try again</div>";
+    } else {
+        $_SESSION['userid'] = $result['username'];
+        header('Location: view.php');
+    }
 }
 
 ?>
