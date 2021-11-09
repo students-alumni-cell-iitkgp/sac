@@ -17,7 +17,7 @@ include_once('connection.php');
 if(!empty($_POST["email"])) {
   $email= $_POST["email"];
   if (filter_var($email, FILTER_VALIDATE_EMAIL)===false) {
-
+    
     echo "error :you did not enter a valid email.";
   }
   else {
@@ -28,11 +28,11 @@ if(!empty($_POST["email"])) {
     if($results -> num_rows)
     {
       echo "<div style='color:red; display: block;'> Email already exists .</div>";
-      echo "<script>$('#submit').prop('disabled',true);</script>";
+      echo "<script>$('#next').prop('disabled',true);</script>";
     } else{
       
       echo "<div style='color:green'> Email available for Registration .</div>";
-      echo "<script>$('#submit').prop('disabled',false);</script>";
+      echo "<script>$('#next').prop('disabled',false);</script>";
     }
   }
 }

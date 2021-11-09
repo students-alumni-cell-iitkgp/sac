@@ -62,7 +62,7 @@
 </head>
 <style>
     body{
-    background-image: url("bkt.png");
+    background-image: url("./css/bkt.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
   }
@@ -83,7 +83,8 @@
         font-weight:500;
     }
     .wrappers{
-    max-width: 800px;   
+    max-width: 800px;
+    margin-bottom:4%;   
     }
     
 </style>
@@ -145,6 +146,12 @@
                         </div>
                         <div class="text-center">      
                             <a class="btn btn-outline-dark " href="adminpage.php" role="button">PAYMENT</a>
+                        </div>
+                        <div class="text-center">      
+                            <a class="btn btn-outline-dark " href="TravellingDetails.php" role="button">TRAVEL DETAILS</a>
+                        </div>
+                        <div class="text-center">      
+                            <a class="btn btn-outline-dark " href="aam.php" role="button">SKIP</a>
                         </div>
                     </div>                
             </div>
