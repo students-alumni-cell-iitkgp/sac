@@ -96,7 +96,7 @@ require 'connection.php';
             <span aria-hidden="true">×</span>
           </button>
         </div>';
-        header("Location: adminpage.php");
+        header("Location: get_update.php");
         }
         else{
             // echo "The record was not inserted successfully because of this error ---> ". mysqli_error($conn);

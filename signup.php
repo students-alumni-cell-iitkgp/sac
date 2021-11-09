@@ -110,7 +110,7 @@
                 </div>
                 <div class="row justify-content-md-between justify-content-around guesth">
                     <div class=" col-md-1 col-3"></div>
-                    <div class=" col-md-1 col-3"><button class="btn btn-dark" type = "button" onclick="next1()">Next</button></div>
+                    <div class=" col-md-1 col-3"><button class="btn btn-dark" type = "button" id = "next" onclick="next1()">Next</button></div>
                 </div>
             </div>
 
@@ -393,7 +393,8 @@
                 <div class="row justify-content-md-between justify-content-around guesth">
 
                     <div class=" col-md-1 col-3">  <button class="btn btn-dark" type = "button" onclick="back3()">Back</button> </div>
-                    <div class=" col-md-1 col-3">     <button class="btn btn-dark" type = "button" onclick="next4()">Next</button></div>
+                    <!--<div class=" col-md-1 col-3">     <button class="btn btn-dark" type = "button" onclick="next4()">Next</button></div>-->
+                    <div class=" col-md-1 col-3">     <button id="submit" class="btn btn-dark" type = "submit">Submit</button></div>
                 </div>
             </div>
 
@@ -443,7 +444,7 @@
               </center>
             </div>
 
-            <div class="section6">
+            <!--<div class="section6">
                 <div class="heading">
                     <h2>Own Your Hall Room</h2>
                     <div class="progress" style="height:0.4rem;">
@@ -459,7 +460,7 @@
                     <div class=" col-md-1 col-3">  <button class="btn btn-dark" type = "button" onclick="back5()">Back</button> </div>
                     <div class=" col-md-1 col-3">     <button id="submit" class="btn btn-dark" type = "submit">Submit</button></div>
                 </div>
-            </div>
+            </div>-->
             </form>
 
         </div>
@@ -479,6 +480,9 @@
                 document.getElementsByClassName("section1")[0].style.display = 'none';
                 document.getElementsByClassName("section2")[0].style.display = 'block';
            }
+           else{
+               alert("Filled the requried Fields!!");
+           }
        }
        function back1(){
         //    console.log("Im in");
@@ -494,6 +498,9 @@
                 document.getElementsByClassName("section3")[0].style.display = 'none';
                 document.getElementsByClassName("section4")[0].style.display = 'block';
            }
+           else{
+               alert("Filled the requried Fields!!");
+           }
        } 
        function back2(){
         //    console.log("Im in");
@@ -508,6 +515,9 @@
            if(org.length>0 && designation.length > 0){
                 document.getElementsByClassName("section4")[0].style.display = 'none';
                 document.getElementsByClassName("section5")[0].style.display = 'block';
+           }
+           else{
+               alert("Filled the requried Fields!!");
            }
            
        }
@@ -530,6 +540,9 @@
             document.getElementsByClassName("section5")[0].style.display = 'none';
             document.getElementsByClassName("section6")[0].style.display = 'block';
         }
+        else{
+               alert("Filled the requried Fields!!");
+           }
        }
 
        function back4(){
@@ -612,7 +625,7 @@
         //        cost = 900 + 7500;
         //    }
 
-           document.getElementById("cost").value =  "Total Cost = Rs"+cost;
+           document.getElementById("cost").value =  "Total Cost = (₹) "+cost;
 
            console.log(cost);
        }
@@ -716,7 +729,6 @@
             }
         }
     }
-
     // reload the form when users click back button given on brower 
     if(performance.navigation.type == 2){
         location.reload(true);
@@ -742,5 +754,24 @@ error:function (){}
 <!-- JS -->
 <!--This will facilitate process of background tasks-->
 
-  
+<!--<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script>
+if(performance.navigation.type == 2){
+        swal({
+             title: "Confirm Form Resubmission",
+             text: "The page that you're looking for used information that you entered.\n Returning to yhat page might cause any action you took to be reapted.\n Do you want to continue? ",
+             icon: "warning",
+             buttons: true,
+            dangerMode: true,
+            })
+        .then((willDelete) => {
+           if (willDelete) {
+               header("Location: aam.php");
+           });
+         } else {
+            //header("Location: aam.php");
+         }
+      });
+    }
+    </script>-->
 </body>
