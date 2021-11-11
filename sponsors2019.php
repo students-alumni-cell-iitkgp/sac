@@ -236,12 +236,12 @@
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-12"  align="center">
                             <a href="https://www.thoucentric.com/" target="_blank"><br> <br>
-                            <img class="spons"  src="img/spons/2019/es6.jpg" width="190" height="170" />
+                            <img class="spons"  src="img/spons/2019/es6.webp" width="190" height="170" />
                             </a>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-12"  align="center">
                             <a href="https://www.supreme.co.in/" target="_blank"> <br> <br>
-                            <img class="spons"  src="img/spons/2019/es5.jpg" width="190" height="170" />
+                            <img class="spons"  src="img/spons/2019/es5.webp" width="190" height="170" />
                             </a>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-12" align="center">  <a href="https://www.bizacuity.com/" target="_blank"> <br> <br>
@@ -327,7 +327,7 @@
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-12"  align="center">
                             <a href="http://homestyle-cookies.com/" target="_blank"><br> <br>
-                            <img class="spons"  src="img/spons/2019/fp2.jpg" width="250" height="150" />
+                            <img class="spons"  src="img/spons/2019/fp2.webp" width="250" height="150" />
                             </a>
                         </div>
                         <div class="col-lg-4 col-sm-12"  align="center">
@@ -352,7 +352,7 @@
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-12"  align="center">
                                 <a href="" target="_blank"> <br> <br>
-                                <img class="spons"  src="img/spons/2019/gp2.jpg" width="200" height="130" />
+                                <img class="spons"  src="img/spons/2019/gp2.webp" width="200" height="130" />
                                 </a>
                             </div>
                             <div class="col-lg-4 col-md-6 col-sm-12" align="center">
