@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="css/form.css">
     <!-- JS, Popper.js, and jQuery -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 </head>
@@ -27,7 +26,7 @@
                 </h2>
             </center>
 
-            <form id="register" action = "back_signup.php" method = "post" enctype="multipart/form-data">
+            <form id="register" action = "back_signup.php" method = "post" enctype="multipart/form-data" onSubmit="window.location.reload()">
 
 
             <div class="section1">
@@ -129,13 +128,13 @@
                     <tr>
                        <td data-th="">Alumnus/Alumna </td>
                        <td data-th="No.of Rooms"></td>
-                       <td style="text-align: center;" data-th="Cost for Alumni">7500</td>
+                       <td style="text-align: center;" data-th="Cost for Alumni">7000</td>
                        <td style="text-align: center;" data-th="Cost for Accompaniaments"></td>
                     </tr>
                     <tr>
                        <td data-th="">Accompaniments </td>
                        <td data-th="No.of Rooms"></td>
-                       <td style="text-align: center;" data-th="Cost for Alumni">4500</td>
+                       <td style="text-align: center;" data-th="Cost for Alumni">4000</td>
                        <td style="text-align: center;" data-th="Cost for Accompaniaments"></td>
                     </tr>
                 </table>
@@ -394,7 +393,7 @@
                 <div class="row justify-content-md-between justify-content-around guesth">
 
                     <div class=" col-md-1 col-3">  <button class="btn btn-dark" type = "button" onclick="back3()">Back</button> </div>
-                    <div class=" col-md-1 col-3">     <button id="submit" class="btn btn-dark" type = "submit">Submit</button></div>
+                    <div class=" col-md-1 col-3">     <button class="btn btn-dark" type = "button" onclick="next4()">Next</button></div>
                 </div>
             </div>
 
@@ -407,7 +406,7 @@
                 </div>
                 <div class="container">
                     <div class="row">
-                        <div class="col-12 mb-2"><label for="note" style="color:red;">Only fully vaccinated Alumnus/Alumna will be allowed in the 18th Annual Alumni Meet</label></div>
+                        <div class="col-12 mb-2"><label for="note" style="color:red;">If you have accompaniments, upload a drive folder containing certificates of all</label></div>
                         <div class="col-12"><label for="status">Vaccination Status <span style="color:red;">*</span></label></div> 
                         <div class="input-group mb-3">
                            
@@ -420,10 +419,15 @@
                             
                         </div >
                         <div class="col-sm-12 col-md-12 mb-3 certification1" style="display:none;">
+<<<<<<< HEAD
                             <label for="certificate">Vaccination Certificate if vaccinated <span style="color:red;">  *</span></label>
                             <input class="form-control" type="file" id="certificate" name="certificate" >
                             <p id = "size_file">File size must be less than 5MB</p>
 
+=======
+                            <label for="certificate">Drive link for Vaccination Certificate<span style="color:red;">*</span></label>
+                            <input class="form-control" type="text" id="certificate" name="certificate" >
+>>>>>>> 215b0345a6238be84aae4a0b837eaa7f09303c60
                         </div>
                         
                         <div class="valid1" id="valid" style="display:none;">
@@ -444,8 +448,25 @@
 
                 
               </center>
+            </div>
 
-              </div>
+            <div class="section6">
+                <div class="heading">
+                    <h2>Own Your Hall Room</h2>
+                    <div class="progress" style="height:0.4rem;">
+                        <div id="one" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <br> 
+                    <h4>Over the years we have received unprecedented support from our esteemed alumni for various Developmental Projects of IITKGP.</h4>
+                    <h4>Amongst all the initiatives run by the institute, the Hall Development Campaign is one of the well supported campaigns from the alumni... <a href="http://alumni.iitkgp.ac.in/AlumniIITKGP/GoThroughCampaign/?camp_id=46&purpose=readmore" target="_blank" rel="noopener noreferrer">[Read more]</a></h4>
+                </div>
+                <div class="row justify-content-md-between justify-content-around guesth">
+                    <div class=" col-md-1 col-3">  <button class="btn btn-dark" type = "button" onclick="back5()">Back</button> </div>
+                    <div class=" col-md-1 col-3">     <button id="submit" class="btn btn-dark" type = "submit">Submit</button></div>
+                </div>
+            </div>
             </form>
 
         </div>
@@ -589,7 +610,7 @@
            var cost = 0;
 
            if(choice === "Technology Guest House/ Alumni Guest House"){
-                cost = 2250 + 7500 + 4500*nguest + 2250*nguest;
+                cost = 2250 + 7000 + 4000*nguest + 2250*nguest;
            }
         //    else if(choice === "Technology Guest House - DO | Acc"){
         //        cost = 2250 + 2250*nguest + 7500 + 4500*nguest;
@@ -610,7 +631,7 @@
         //        cost = 450 + 7500;
         //    }
            else if(choice === "VGH/ SAM"){
-               cost = 900 + 900*nguest + 7500 + 4500*nguest; 
+               cost = 900 + 900*nguest + 7000 + 4000*nguest; 
            }
         //    else{
         //        cost = 900 + 7500;
@@ -722,6 +743,10 @@
     //     }
     // }
 
+    // reload the form when users click back button given on brower 
+    if(performance.navigation.type == 2){
+        location.reload(true);
+    }
     </script>
 
 

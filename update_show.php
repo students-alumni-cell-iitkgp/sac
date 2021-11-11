@@ -48,15 +48,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register</title>
+    <title>UPDATE</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="css/form.css">
     <!-- JS, Popper.js, and jQuery -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 </head>
@@ -173,13 +172,13 @@
                     <tr>
                        <td data-th="">Alumnus/Alumna </td>
                        <td data-th="No.of Rooms"></td>
-                       <td style="text-align: center;" data-th="Cost for Alumni">7500</td>
+                       <td style="text-align: center;" data-th="Cost for Alumni">7000</td>
                        <td style="text-align: center;" data-th="Cost for Accompaniaments"></td>
                     </tr>
                     <tr>
                        <td data-th="">Accompaniments </td>
                        <td data-th="No.of Rooms"></td>
-                       <td style="text-align: center;" data-th="Cost for Alumni">4500</td>
+                       <td style="text-align: center;" data-th="Cost for Alumni">4000</td>
                        <td style="text-align: center;" data-th="Cost for Accompaniaments"></td>
                     </tr>
                 </table>
@@ -424,12 +423,12 @@
                 </div>
                 <div class="container">
                     <div class="row">
-                        <div class="col-12 mb-2"><label for="note" style="color:red;">Only fully vaccinated Alumnus/Alumna will be allowed in the 18th Annual Alumni Meet</label></div>
+                    <div class="col-12 mb-2"><label for="note" style="color:red;">If you have accompaniments, upload a drive folder containing certificates of all</label></div>
                         <div class="col-12"><label for="status">Vaccination Status <span style="color:red;">*</span></label></div> 
                         <div class="input-group mb-3">
                            
                             <select  class="form-control form-select" type="list" id="status" name="status" value = "<?php echo "$gh"?>" required>
-                                <!--<option value=""> </option> -->
+                                <option value=""> </option>
                                 <option value="Fully Vaccinated">Fully Vaccinated</option>
                                 <option value="Partially Vaccinated">Partially Vaccinated</option>
                                 <option value="Not Vaccinated Yet" >Not Vaccinated Yet</option>
@@ -437,8 +436,8 @@
                             
                         </div >
                         <div class="col-sm-12 col-md-12 mb-3 certification1" style="display:none;">
-                            <label for="certificate">Vaccination Certificate if vaccinated <span style="color:red;">*</span></label>
-                            <input class="form-control" type="file" id="certificate" name="certificate" >
+                            <label for="certificate">Drive link for Vaccination Certificate<span style="color:red;">*</span></label>
+                            <input class="form-control" type="text" id="certificate" name="certificate" value = "<?php echo "$certificate" ?>">
                         </div>
                         
                         <div class="valid1" id="valid" style="display:none;">
@@ -549,10 +548,10 @@
             
 
             if(status == "Fully Vaccinated"){
-                if(certificate !="") next5Allow=1;
+                next5Allow=1;
             }
             else if(status == "Partially Vaccinated"){
-                if((yes || no) && certificate !="") next5Allow=1;
+                if((yes || no) ) next5Allow=1;
             }
             else if(status == "Not Vaccinated Yet"){
                 if(yes || no) next5Allow=1;
@@ -579,41 +578,41 @@
 
 
        function calc_cost(){
-           let nguest = document.getElementById("accompanyingNo").value;
+        let nguest = document.getElementById("accompanyingNo").value;
            let choice = document.getElementById("room").value;
            console.log(nguest,choice);
 
            var cost = 0;
 
-           if(choice === "Technology Guest House - SO"){
-                cost = 3000 + 7500;
+           if(choice === "Technology Guest House/ Alumni Guest House"){
+                cost = 2250 + 7000 + 4000*nguest + 2250*nguest;
            }
-           else if(choice === "Technology Guest House - DO | Acc"){
-               cost = 2250 + 2250*nguest + 7500 + 4500*nguest;
+        //    else if(choice === "Technology Guest House - DO | Acc"){
+        //        cost = 2250 + 2250*nguest + 7500 + 4500*nguest;
+        //    }
+        //    else if(choice === "Technology Guest House - DO | Al(Double Occupancy | Shared)"){
+        //        cost = 2250 + 7500;
+        //    }
+        //    else if(choice === "VGH/CEC - AC - SO"){
+        //        cost = 1200 + 7500;
+        //    }
+        //    else if(choice === "VGH/CEC - AC - DO | Al"){
+        //        cost = 900 + 7500;
+        //    }
+        //    else if(choice === "VGH/CEC - Non-AC - SO"){
+        //        cost = 750 + 7500;
+        //    }
+        //    else if(choice === "VGH 3/4  bedded- DO | Al"){
+        //        cost = 450 + 7500;
+        //    }
+           else if(choice === "VGH/ SAM"){
+               cost = 900 + 900*nguest + 7000 + 4000*nguest; 
            }
-           else if(choice === "Technology Guest House - DO | Al(Double Occupancy | Shared)"){
-               cost = 2250 + 7500;
-           }
-           else if(choice === "VGH/CEC - AC - SO"){
-               cost = 1200 + 7500;
-           }
-           else if(choice === "VGH/CEC - AC - DO | Al"){
-               cost = 900 + 7500;
-           }
-           else if(choice === "VGH/CEC - Non-AC - SO"){
-               cost = 750 + 7500;
-           }
-           else if(choice === "VGH 3/4  bedded- DO | Al"){
-               cost = 450 + 7500;
-           }
-           else if(choice === "AGH - DO | Acc"){
-               cost = 2250 + 2250*nguest + 7500 + 4500*nguest; 
-           }
-           else{
-               cost = 900 + 7500;
-           }
+        //    else{
+        //        cost = 900 + 7500;
+        //    }
 
-           document.getElementById("cost").value =  "Total Cost = "+cost+ "Rupee";
+           document.getElementById("cost").value =  "Total Cost = Rs"+cost;
 
            console.log(cost);
        }
