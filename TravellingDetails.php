@@ -1,10 +1,19 @@
 <?php
     session_start();   
         // CREATING SESSION  
-        $doa        = $_SESSION['doa']      ;
-        $timetocome = $_SESSION['timetocome']   ;
-        $modeofT    = $_SESSION['modeofT']   ;
-        $pickup     = $_SESSION['pickup']      ; 
+        $kgpdoa        = $_SESSION['kgpdoa']      ;
+        $kgptimetocome = $_SESSION['kgptimetocome']   ;
+        $kgpmodeofT    = $_SESSION['kgpmodeofT']   ;
+        $kgppickup     = $_SESSION['kgppickup']      ; 
+        $kgppcount     = $_SESSION['kgppcount']   ;
+        $kgpcarseater  = $_SESSION['kgpcarseater']      ; 
+
+        $airdoa        = $_SESSION['airdoa']      ;
+        $airtimetocome = $_SESSION['airtimetocome']   ;
+        $airmodeofT    = $_SESSION['airmodeofT']   ;
+        $airpickup     = $_SESSION['airpickup']      ; 
+        $airpcount     = $_SESSION['airpcount']   ;
+        $aircarseater  = $_SESSION['aircarseater']      ; 
 ?>
 
 <html>
@@ -28,6 +37,31 @@
                 background-repeat: no-repeat;
                 background-size: 100% 100%;
             }
+            .station {
+                font-family: 'Raleway', sans-serif;
+                font-size:20;
+            }
+            .section2{
+               display: none;
+            }
+    
+    .bttons button {
+        outline: none;
+        background-color: transparent;
+        border: 0px solid transparent;
+        
+        width: max-content;
+    }
+    .bttons .bttons:hover {
+        background-color: rgb(255, 255, 255);
+        border: 0px solid transparent;
+        border-radius: 10px;
+    }
+    .bttons button:focus {
+        text-decoration: underline;
+        font-weight: bold;
+    }
+            
     </style>
 
     <!-- JS, Popper.js, and jQuery -->
@@ -53,6 +87,10 @@
                     Travelling Details
                 </h2>
             </center>
+            <div class = "row station p-2">
+                 <div class = "col-6 bttons text-center"><button class=" my-1" onclick="kgpin()" >KHARAGPUR STATION</button></div>
+                 <div class = "col-6 bttons text-center"><button class=" my-1" onclick="kolin()" > KOLKATA AIRPORT</button></div>
+            </div>
             <div class="progress" style="height:0.2rem;">
                 <div id="one" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
             </div>
@@ -62,38 +100,51 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-12">
-                                <label for="doa">Date of Arrival<span style="color:red;"></span></label>
-                                <input class="form-control" type="date" name="doa" id="doa" value = "<?php echo "$doa"?>">
+                                <label for="kgpdoa">Date of Arrival (KGP)<span style="color:red;"></span></label>
+                                <input class="form-control" type="date" name="kgpdoa" id="kgpdoa" value = "<?php echo "$kgpdoa"?>">
                             </div>
                             <div class="col-sm-12 ">
-                                <label for="timetocome" class="form-label">
-                                    Time to reach KGP
+                                <label for="kgptimetocome" class="form-label">
+                                    Time to reach Kharagpur Station
                                     <span style="color:red;">**expected time</span>
                                 </label>
                                 <div class="input-group mb-3">
                                     <span class="input-group-text" style="font-weight: 600;" id="basic-addon1"><i class='far fa-clock'></i></span>
-                                    <input class="form-control" type="text" name="timetocome" id="timetocome" class="validate" value = "<?php echo "$timetocome"?>">
+                                    <input class="form-control" type="text" name="kgptimetocome" id="kgptimetocome" class="validate" value = "<?php echo "$kgptimetocome"?>">
                                 </div>
                             </div>
                             <div class="col-sm-12">
-                                <label for="modeofT">Mode of Transportation <span style="color:red;"></span></label>
+                                <label for="kgpmodeofT">Mode of Transportation <span style="color:red;"></span></label>
                                 <div class="input-group mb-3">
-                                    <select  class="form-control form-select" type="list" list="modeofT" id="modeofT" name="modeofT" value = "<?php echo "$modeofT"?>">
+                                    <select  class="form-control form-select" type="list" list="kgpmodeofT" id="kgpmodeofT" name="kgpmodeofT" value = "<?php echo "$kgpmodeofT"?>">
                                      <option value=""></option>
                                      <option value="Train">Train</option> 
                                      <option value="Plane">Plane</option>
                                      <option value="Car">Car</option>
-                                     <option value="Ship">Ship</option>
                                     </select>
                                 </div >
                             </div >
                             <div class="col-sm-12">
-                                <label for="pickup">Do you Want us to pick up you at station <span style="color:red;"></span></label>
+                                <label for="kgppickup">Do you want us to pick up you from station <span style="color:red;"></span></label>
                                 <div class="input-group mb-3">
-                                    <select  class="form-control form-select" type="list" list="pickup" id="pickup" name="pickup" value = "<?php echo "$pickup"?>">
+                                    <select  class="form-control form-select" type="list" list="kgppickup" id="kgppickup" name="kgppickup" value = "<?php echo "$kgppickup"?>">
                                         <option value=""></option> 
                                         <option value="Yes">Yes</option> 
                                         <option value="No">No</option>
+                                    </select>
+                                </div >
+                            </div >
+                            <div class="col-sm-12">
+                                <label for="kgppcount">How many people come together (including you)<span style="color:red;"></span></label>
+                                <input class="form-control" type="text" name="kgppcount" id="kgppcount" value = "<?php echo "$kgppcount"?>">   
+                            </div >
+                            <div class="col-sm-12">
+                                <label for="kgpcarseater">Do you want us to pick up you from station <span style="color:red;"></span></label>
+                                <div class="input-group mb-3">
+                                    <select  class="form-control form-select" type="list" list="kgpcarseater" id="kgpcarseater" name="kgpcarseater" value = "<?php echo "$kgpcarseater"?>">
+                                        <option value=""></option> 
+                                        <option value="4">04 <span style = "left : 2%"> (₹)1000 </span></option> 
+                                        <option value="6">06 <span style = "left : 2%"> (₹)2000 </span></option>
                                     </select>
                                 </div >
                             </div >
@@ -106,6 +157,74 @@
                     <div class="row justify-content-between" style = " margin-right:3%;"> 
                         <div class="col-4 text-center">
                             <a class="btn btn-outline-danger " href="get_update.php" role="button">Skip for Now</a>
+                        </div>
+                        <div class="col-2 text-center">      
+                             <div class=" col-md-1 col-3"> <button class="btn btn-dark" type = "button" onclick="next()">Next</button></div>
+                        </div>
+                   </div>
+                </div>
+
+                <div class="section2">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <label for="airdoa">Date of Arrival<span style="color:red;"></span></label>
+                                <input class="form-control" type="date" name="airdoa" id="airdoa" value = "<?php echo "$airdoa"?>">
+                            </div>
+                            <div class="col-sm-12 ">
+                                <label for="airtimetocome" class="form-label">
+                                    Time to reach Kolkata Airport/Station
+                                    <span style="color:red;">**expected time</span>
+                                </label>
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text" style="font-weight: 600;" id="basic-addon1"><i class='far fa-clock'></i></span>
+                                    <input class="form-control" type="text" name="airtimetocome" id="airtimetocome" class="validate" value = "<?php echo "$airtimetocome"?>">
+                                </div>
+                            </div>
+                            <div class="col-sm-12">
+                                <label for="airmodeofT">Mode of Transportation <span style="color:red;"></span></label>
+                                <div class="input-group mb-3">
+                                    <select  class="form-control form-select" type="list" list="airmodeofT" id="airmodeofT" name="airmodeofT" value = "<?php echo "$airmodeofT"?>">
+                                     <option value=""></option>
+                                     <option value="Train">Train</option> 
+                                     <option value="Plane">Plane</option>
+                                     <option value="Car">Car</option>
+                                    </select>
+                                </div >
+                            </div >
+                            <div class="col-sm-12">
+                                <label for="airpickup">Do you want us to pick up you from station <span style="color:red;"></span></label>
+                                <div class="input-group mb-3">
+                                    <select  class="form-control form-select" type="list" list="airpickup" id="airpickup" name="airpickup" value = "<?php echo "$airpickup"?>">
+                                        <option value=""></option> 
+                                        <option value="Yes">Yes</option> 
+                                        <option value="No">No</option>
+                                    </select>
+                                </div >
+                            </div >
+                            <div class="col-sm-12">
+                                <label for="airpcount">How many people come together (including you)<span style="color:red;"></span></label>
+                                <input class="form-control" type="text" name="airpcount" id="airpcount" value = "<?php echo "$airpcount"?>">   
+                            </div >
+                            <div class="col-sm-12">
+                                <label for="aircarseater">Do you want us to pick up you from station <span style="color:red;"></span></label>
+                                <div class="input-group mb-3">
+                                    <select  class="form-control form-select" type="list" list="aircarseater" id="aircarseater" name="aircarseater" value = "<?php echo "$aircarseater"?>">
+                                        <option value=""></option> 
+                                        <option value="4">04 <span style = "left : 2%"> (₹)1000 </span></option> 
+                                        <option value="6">06 <span style = "left : 2%"> (₹)2000 </span></option>
+                                    </select>
+                                </div >
+                            </div >
+
+
+                        </div>
+                       
+                    </div>
+
+                    <div class="row justify-content-between" style = " margin-right:3%;"> 
+                        <div class="col-4 text-center">
+                           <div class=" col-md-1 col-3">  <button class="btn btn-dark" type = "button" onclick="back()">Back</button> </div>
                         </div>
                         <div class="col-2 text-center">      
                            <button class="btn btn-success" type="submit" value = "submit">Submit</button>
@@ -125,4 +244,23 @@
         </div>
     </section>
     <?php include 'footer.php' ?>
+    <script>
+        function back(){
+          document.getElementsByClassName("section1")[0].style.display = 'block';
+          document.getElementsByClassName("section2")[0].style.display = 'none';
+        } 
+
+        function next(){
+           document.getElementsByClassName("section1")[0].style.display = 'none';
+           document.getElementsByClassName("section2")[0].style.display = 'block';
+        }
+        function kgpin(){
+            document.getElementsByClassName('section1')[0].style.display = "block";
+            document.getElementsByClassName('section2')[0].style.display = "none";
+        }
+        function kolin(){
+            document.getElementsByClassName('section1')[0].style.display = "none";
+            document.getElementsByClassName('section2')[0].style.display = "block";
+        }
+    </script>
 </body>

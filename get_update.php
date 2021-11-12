@@ -56,10 +56,10 @@ require 'connection.php';
         $reciept = $user['reciept'] ;    
 
         //fecting travelling details
-        $doa        = $_user['doa']      ;
-        $timetocome = $_user['timetocome']   ;
-        $modeofT    = $_user['modeofT']   ;
-        $pickup     = $_user['pickup']      ; 
+        //$doa        = $_user['doa']      ;
+        //$timetocome = $_user['timetocome']   ;
+        //$modeofT    = $_user['modeofT']   ;
+        //$pickup     = $_user['pickup']      ; 
 
         //adding seession 
         $_SESSION['name']     = $name     ;
@@ -102,12 +102,12 @@ require 'connection.php';
 
        $_SESSION['reciept'] = $reciept ;
 
-       $_SESSION['doa']        = $doa         ;
-       $_SESSION['timetocome'] = $timetocome  ;
-       $_SESSION['modeofT']    = $modeofT     ;
-       $_SESSION['pickup']     = $pickup      ; 
+       //$_SESSION['doa']        = $doa         ;
+       //$_SESSION['timetocome'] = $timetocome  ;
+       //$_SESSION['modeofT']    = $modeofT     ;
+       //$_SESSION['pickup']     = $pickup      ; 
         
-        header("Location: update.php");
+        header("Location: get_travel.php");
     } 
 
 //}
