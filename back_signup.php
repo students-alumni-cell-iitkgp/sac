@@ -95,8 +95,24 @@ require 'connection.php';
           <button type="button" class="close" data-dismiss="alert" aria-label="Close">
             <span aria-hidden="true">×</span>
           </button>
-        </div>';
-        header("Location: adminpage.php");
+        </div>'; 
+
+           /// insert email in travel table by this we only have to update travel travel
+           $sql = "INSERT INTO `travel` (`email`) VALUES ('$email')";
+           $resu = mysqli_query($conn, $sql);
+           if($resu){
+              header("Location: get_update.php");
+           }
+           else{
+            echo '<div class="alert alert-danger alert-dismissible fade show" role="alert">
+            <strong>Error!</strong> We are facing some technical issue and your entry ws not submitted successfully!(travel) We regret the inconvinience caused!
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>';
+           }
+
+        //header("Location: get_update.php");
         }
         else{
             // echo "The record was not inserted successfully because of this error ---> ". mysqli_error($conn);

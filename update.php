@@ -40,6 +40,24 @@
         $hobbies     = $_SESSION['hobbies']         ;
 
         //$reciept = $_SESSION['reciept'] ;  
+
+        $kgpdoa        = $_SESSION['kgpdoa']       ;
+        $kgptimetocome = $_SESSION['kgptimetocome']   ;
+        $kgpmodeofT    = $_SESSION['kgpmodeofT']    ;
+        $kgppickup     = $_SESSION['kgppickup']       ; 
+        $kgppcount     = $_SESSION['kgppcount']    ;
+        $kgpcarseater  = $_SESSION['kgpcarseater']       ; 
+
+        $airdoa        = $_SESSION['airdoa']        ;
+        $airtimetocome = $_SESSION['airtimetocome']  ;
+        $airmodeofT    = $_SESSION['airmodeofT']     ;
+        $airpickup     = $_SESSION['airpickup']     ; 
+        $airpcount     = $_SESSION['airpcount']      ;
+        $aircarseater  = $_SESSION['aircarseater']     ; 
+
+        //echo "<script language='javascript'>";
+        //echo "alert('WRONG INFORMATION'+'$email'+'$kgpdoa')";
+        //echo "</script>";
 ?>
 
 <html>
@@ -62,13 +80,22 @@
 </head>
 <style>
     body{
-    background-image: url("bkt.png");
+    background-image: url("./css/bkt.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
   }
-    li{
+  nav ul{
+    margin:0;
+    padding:0;
+    display:flex;
+    flex-flow:row nowrap;
+        justify-content :space-around;
+  }
+    nav li{
+      margin:0;
+    padding:0;
+      display:block;
         list-style:none;
-        display:flex;
     }
     span{
         padding-left:20%;
@@ -76,14 +103,15 @@
     .header{
         display:flex;
         justify-content :space-between;
-        margin-left:3vw;
-        margin-right:3vw;
+        /*margin-left:3vw;
+        margin-right:3vw;*/
     }
     .row .f{
         font-weight:500;
     }
     .wrappers{
-    max-width: 800px;   
+    max-width: 800px;
+    margin-bottom:4%;   
     }
     
 </style>
@@ -91,65 +119,371 @@
     <?php include 'navbar.php' ?>
     <section>
         <div class="wrappers">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item" >
+        <a class="btn btn-outline-dark mx-1" href="update_show.php" role="button">UPDATE</a>
+        </li>
+        <li class="nav-item">
+        <a class="btn btn-outline-dark mx-1 " href="adminpage.php" role="button">PAYMENT</a>
+        </li>
+        <li class="nav-item">
+        <a class="btn btn-outline-dark mx-1 " href="TravellingDetails.php" role="button">TRAVEL DETAILS</a>
+        </li>
+        <li class="nav-item">
+        <a class="btn btn-outline-dark mx-1 " href="./adminPages/view.php" role="button">ATTENDEES</a>
+        </li>
+        <li class="nav-item">
+        <a class="btn btn-outline-dark mx-1 " href="aam.php" role="button">LOG OUT</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
             <center>
                 <h2 style="font-size: 300%; font-family: 'Raleway', sans-serif;">
-                    INFO
+                    DASHBOARD
                 </h2>
             </center>
             <hr />
             <div class="section1">
                     <div class="container">
-                        <ul>
-                           <div class = "row"> <div class = "col-6 f">NAME </div><div class = "col-6"><?php echo "$name"?></div> </div>
-                           <div class = "row"> <div class = "col-6 f">EMAIL    </div><div class = "col-6"><?php echo "$email"?>   </div> </div>
-                           <div class = "row"> <div class = "col-6 f">ADDRESS  </div><div class = "col-6"><?php echo "$address"?> </div> </div>
-                           <div class = "row"> <div class = "col-6 f">CITY     </div><div class = "col-6"><?php echo "$city"?>    </div> </div>
-                           <div class = "row"> <div class = "col-6 f">STATE    </div><div class = "col-6"><?php echo "$state"?>   </div> </div>
-                           <div class = "row"> <div class = "col-6 f">COUNTRY  </div><div class = "col-6"><?php echo "$country"?> </div> </div>
-                           <div class = "row"> <div class = "col-6 f">ZIPCODE  </div><div class = "col-6"><?php echo "$zipcode"?> </div> </div>
-                           <div class = "row"> <div class = "col-6 f">MOBILE   </div><div class = "col-6"><?php echo "$mobile"?>  </div> </div>
-                           <div class = "row"> <div class = "col-6 f">DOB      </div><div class = "col-6"><?php echo "$dob"?>     </div> </div>
+                        <div class = "row">
+                            <div class="col-md-3 bord">
+                           <div class="bttons"> <button class=" my-1" onclick="personal()" > Personal Info</button> </div>
+                           <div class="bttons"><button class=" my-1" onclick="work()"> Work Experience</button> </div>
+                           <div class="bttons"> <button class=" my-1" onclick="nostalg()"> Nostalgic Section</button> </div>
+                           <div class="bttons"> <button class=" my-1" onclick="covid()"> Covid Info</button> </div>
+                           <div class="bttons"> <button class=" my-1" onclick="accomod()"> Accomodation</button> </div>
+                           <div class="bttons"><button class=" my-1" onclick="travel()">Travelling Detail</button> </div>
+                            </div>
+                           <div class="col-md-9">
+                       
+                            <div class="prof1">
+                                
+<table class="table table-striped">
 
-                           <div class = "row"> <div class = "col-6 f">INDUSTRY      </div><div class = "col-6"><?php echo "$industry"?>     </div> </div>
-                           <div class = "row"> <div class = "col-6 f">PROFESSION    </div><div class = "col-6"><?php echo "$profession"?>   </div> </div>
-                           <div class = "row"> <div class = "col-6 f">ORGANISATION  </div><div class = "col-6"><?php echo "$organisation"?> </div> </div>
-                           <div class = "row"> <div class = "col-6 f">DESIGNATION   </div><div class = "col-6"><?php echo "$designation"?>  </div> </div>
-                           <div class = "row"> <div class = "col-6 f">WORK ADDRESS  </div><div class = "col-6"><?php echo "$waddress"?>     </div> </div>
-                           <div class = "row"> <div class = "col-6 f">WORK CITY     </div><div class = "col-6"><?php echo "$wcity"?>        </div> </div>
-                           <div class = "row"> <div class = "col-6 f">WORK STATE    </div><div class = "col-6"><?php echo "$wstate"?>       </div> </div>
-                           <div class = "row"> <div class = "col-6 f">WORK COUNTRY  </div><div class = "col-6"><?php echo "$wcountry"?>     </div> </div>
-                           <div class = "row"> <div class = "col-6 f">WORK ZIPCODE  </div><div class = "col-6"><?php echo "$wzipcode"?>     </div> </div>
+<tbody>
+                            
+    <tr>
+      <th scope="row">NAME</th>
+      <td><?php echo "$name"?></td>
+      
+    </tr>
+    <tr>
+      <th scope="row">EMAIL</th>
+      <td><?php echo "$email"?></td>
 
-                           <div class = "row"> <div class = "col-6 f">ROLL NO    </div><div class = "col-6"><?php echo "$rollno"?>      </div> </div>  
-                           <div class = "row"> <div class = "col-6 f">JOIN YEAR  </div><div class = "col-6"><?php echo "$joinyear"?>    </div> </div>  
-                           <div class = "row"> <div class = "col-6 f">DEGREE     </div><div class = "col-6"><?php echo "$degree"?>      </div> </div>  
-                           <div class = "row"> <div class = "col-6 f">DEPARTMENT </div><div class = "col-6"><?php echo "$dept"?>        </div> </div>  
-                           <div class = "row"> <div class = "col-6 f">HALL       </div><div class = "col-6"><?php echo "$hall"?>                </div> </div>
-                           <div class = "row"> <div class = "col-6 f">YEAR OF GRADUATION </div><div class = "col-6"><?php echo "$yog"?>         </div> </div>
-                           <div class = "row"> <div class = "col-6 f">INVOLVEMENTS       </div><div class = "col-6"><?php echo "$involvement"?> </div> </div>
-                           <div class = "row"> <div class = "col-6 f">HOBBIES            </div><div class = "col-6"><?php echo "$hobbies"?>     </div> </div>
+    </tr>
+    <tr>
+      <th scope="row">ADDRESS </th>
+      <td><?php echo "$address"?></td>
 
-                           <div class = "row"> <div class = "col-6 f">VACCINATION STATUS </div><div class = "col-6"><?php echo "$status"?>                 </div> </div>
-                           <div class = "row"> <div class = "col-6 f">ABLE TO GET VACCINATED BY 10 JAN </div><div class = "col-6"><?php echo "$dosedate"?> </div> </div>
+    </tr>
+    <tr>
+      <th scope="row">CITY </th>
+      <td><?php echo "$city"?></td>
 
-                           <div class = "row"> <div class = "col-6 f">MARITAL STATUS  </div><div class = "col-6"><?php echo "$marital"?>          </div> </div>
-                           <div class = "row"> <div class = "col-6 f">ACCOMPANIMENTS  </div><div class = "col-6"><?php echo "$accompaniments"?>  </div> </div>
-                           <div class = "row"> <div class = "col-6 f">GUEST HOUSE     </div><div class = "col-6"><?php echo "$gh"?>            </div> </div>
-                           <div class = "row"> <div class = "col-6 f">TOTAL COST      </div><div class = "col-6"><?php echo "$cost"?>          </div> </div>
+    </tr>
+    <tr>
+      <th scope="row">STATE </th>
+      <td><?php echo "$state"?></td>
+
+    </tr>
+    <tr>
+      <th scope="row">COUNTRY </th>
+      <td><?php echo "$country"?></td>
+
+    </tr>
+    <tr>
+      <th scope="row">ZIPCODE</th>
+      <td><?php echo "$zipcode"?></td>
+    </tr>
+    <tr>
+      <th scope="row">MOBILE</th>
+      <td><?php echo "$mobile"?></td>
+    </tr>
+    <tr>
+      <th scope="row">DOB</th>
+      <td><?php echo "$dob"?></td>
+    </tr>
+    </tbody>
+</table>
+
+                         
+                            </div>
                            
-                       </ul>         
+                            
+                           <div class="prof2">
+                           <table class="table table-striped">
+
+<tbody>
+                           <tr>
+      <th scope="row">INDUSTRY</th>
+      <td><?php echo "$industry"?></td>
+    </tr>
+    <tr>
+      <th scope="row">PROFESSION</th>
+      <td><?php echo "$profession"?></td>
+    </tr>
+    <tr>
+      <th scope="row">ORGANISATION</th>
+      <td><?php echo "$organisation"?></td>
+    </tr>
+    <tr>
+      <th scope="row">DESIGNATION</th>
+      <td><?php echo "$designation"?></td>
+    </tr>
+    <tr>
+      <th scope="row">WORK ADDRESS</th>
+      <td><?php echo "$waddress"?></td>
+    </tr>
+    <tr>
+      <th scope="row">WORK CITY </th>
+      <td><?php echo "$wcity"?></td>
+    </tr>
+    <tr>
+      <th scope="row">WORK STATE</th>
+      <td><?php echo "$wstate"?></td>
+    </tr>
+    <tr>
+      <th scope="row">WORK COUNTRY </th>
+      <td><?php echo "$wcountry"?></td>
+    </tr>
+    <tr>
+      <th scope="row">WORK ZIPCODE</th>
+      <td><?php echo "$wzipcode"?></td>
+    </tr>
+</tbody>
+</table>
+
+                           </div>
+                           
+                            
+                           <div class="prof3 ">
+                           <table class="table table-striped">
+
+<tbody>
+                           <tr>
+      <th scope="row">ROLL NO</th>
+      <td><?php echo "$rollno"?></td>
+    </tr>
+    <tr>
+      <th scope="row">JOIN YEAR</th>
+      <td><?php echo "$joinyear"?></td>
+    </tr>
+    <tr>
+      <th scope="row">DEGREE </th>
+      <td><?php echo "$degree"?></td>
+    </tr>
+    <tr>
+      <th scope="row">DEPARTMENT</th>
+      <td><?php echo "$dept"?></td>
+    </tr>
+    <tr>
+      <th scope="row">HALL</th>
+      <td><?php echo "$hall"?></td>
+    </tr>
+    <tr>
+      <th scope="row">YEAR OF GRADUATION</th>
+      <td><?php echo "$yog"?></td>
+    </tr>
+    <tr>
+      <th scope="row">INVOLVMENT</th>
+      <td><?php echo "$involvement"?></td>
+    </tr>
+    <tr>
+      <th scope="row">HOBBIES</th>
+      <td><?php echo "$hobbies"?></td>
+    </tr>
+</tbody>
+</table>
+   
+                           </div>
+                           <div class="prof4 col">
+                           <table class="table table-striped">
+
+<tbody>
+                           <tr>
+      <th scope="row">VACCINATION STATUS </th>
+      <td><?php echo "$status"?></td>
+    </tr>
+    <tr>
+      <th scope="row">ABLE TO GET VACCINATED BY 10 JAN </th>
+      <td><?php echo "$dosedate"?></td>
+    </tr>
+    <tr>
+</tbody>
+</table>
+                            </div>
+                           
+                           <div class="prof5 col">
+                           <table class="table table-striped">
+
+<tbody>
+                           <tr>
+      <th scope="row">MARITAL STATUS  </th>
+      <td><?php echo "$marital"?></td>
+    </tr>
+    <tr>
+      <th scope="row">ACCOMPANIMENTS</th>
+      <td><?php echo "$accompaniments"?></td>
+    </tr>
+    <tr>
+    <tr>
+      <th scope="row">GUEST HOUSE   </th>
+      <td><?php echo "$gh"?></td>
+    </tr>
+    <tr>
+      <th scope="row">TOTAL COST</th>
+      <td><?php echo "$cost"?></td>
+    </tr>
+    <tr>
+</tbody>
+</table>
+                             </div>        
+                           <div class="prof6 col">
+                           <table class="table table-striped">
+
+<tbody>
+                           <tr>
+      <th scope="row">Date of Arrival (KGP)</th>
+      <td><?php echo "$kgpdoa"?></td>
+    </tr>
+    <tr>
+      <th scope="row">Time to reach Kharagpur Station</th>
+      <td><?php echo "$kgptimetocome"?></td>
+    </tr>
+    <tr>
+      <th scope="row">Mode of Transportation </th>
+      <td><?php echo "$kgpmodeofT"?></td>
+    </tr>
+    <tr>
+      <th scope="row">Do you want us to pick up you from station</th>
+      <td><?php echo "$kgppickup"?></td>
+    </tr>
+    <tr>
+      <th scope="row">How many people come together (including you)</th>
+      <td><?php echo "$kgppcount"?></td>
+    </tr>
+    <tr>
+      <th scope="row">Do you want us to pick up you from station</th>
+      <td><?php echo "$kgpcarseater"?></td>
+    </tr>
+
+    <tr>
+      <th scope="row">Date of Arrival (KOLKATA)</th>
+      <td><?php echo "$airdoa"?></td>
+    </tr>
+    <tr>
+      <th scope="row">Time to reach Kolkata</th>
+      <td><?php echo "$airtimetocome"?></td>
+    </tr>
+    <tr>
+      <th scope="row">Mode of Transportation </th>
+      <td><?php echo "$airmodeofT"?></td>
+    </tr>
+    <tr>
+      <th scope="row">Do you want us to pick up you from station</th>
+      <td><?php echo "$airpickup"?></td>
+    </tr>
+    <tr>
+      <th scope="row">How many people come together (including you)</th>
+      <td><?php echo "$airpcount"?></td>
+    </tr>
+    <tr>
+      <th scope="row">Do you want us to pick up you from station</th>
+      <td><?php echo "$aircarseater"?></td>
+    </tr>
+    
+</tbody>
+</table>
+                           </div>
+                          
+                           </div>
+                            
                     </div>
-                    <div class = "header">
+                    <!-- <div class = "header">
                         <div class="text-center">
                             <a class="btn btn-dark" href="update_show.php" role="button">UPDATE</a>
                         </div>
                         <div class="text-center">      
                             <a class="btn btn-outline-dark " href="adminpage.php" role="button">PAYMENT</a>
                         </div>
-                    </div>                
+                        <div class="text-center">      
+                            <a class="btn btn-outline-dark " href="TravellingDetails.php" role="button">TRAVEL DETAILS</a>
+                        </div>
+                        <div class="text-center">      
+                            <a class="btn btn-outline-dark " href="aam.php" role="button">SKIP</a>
+                        </div>
+                    </div>                 -->
             </div>
             
         </div>
     </section>
     <?php include 'footer.php' ?>
+    <script>
+        const prof1 = document.getElementsByClassName('prof1')[0];
+        const prof2 = document.getElementsByClassName('prof2')[0];
+        const prof3 = document.getElementsByClassName('prof3')[0];
+        const prof4 = document.getElementsByClassName('prof4')[0];
+        const prof5 = document.getElementsByClassName('prof5')[0];
+        const prof6 = document.getElementsByClassName('prof6')[0];
+        function personal(){
+            document.getElementsByClassName('prof1')[0].style.display = "block";
+            document.getElementsByClassName('prof2')[0].style.display = "none";
+            document.getElementsByClassName('prof3')[0].style.display = "none";
+            document.getElementsByClassName('prof4')[0].style.display = "none";
+            document.getElementsByClassName('prof5')[0].style.display = "none";
+            document.getElementsByClassName('prof6')[0].style.display = "none";
+        }
+        function work(){
+            document.getElementsByClassName('prof1')[0].style.display = "none";
+            document.getElementsByClassName('prof2')[0].style.display = "block";
+            document.getElementsByClassName('prof3')[0].style.display = "none";
+            document.getElementsByClassName('prof4')[0].style.display = "none";
+            document.getElementsByClassName('prof5')[0].style.display = "none";
+            document.getElementsByClassName('prof6')[0].style.display = "none";
+        }
+        function nostalg(){
+            prof1.style.display = "none";
+            prof2.style.display = "none";
+            prof3.style.display = "block";
+            prof4.style.display = "none";
+            prof5.style.display = "none";
+            prof6.style.display = "none";
+        }
+        function covid(){
+            prof1.style.display = "none";
+            prof2.style.display = "none";
+            prof3.style.display = "none";
+            prof4.style.display = "block";
+            prof5.style.display = "none";
+            prof6.style.display = "none";
+        }
+        function accomod(){
+            prof1.style.display = "none";
+            prof2.style.display = "none";
+            prof3.style.display = "none";
+            prof4.style.display = "none";
+            prof5.style.display = "block";
+            prof6.style.display = "none";
+        }
+        function travel(){
+            prof1.style.display = "none";
+            prof2.style.display = "none";
+            prof3.style.display = "none";
+            prof4.style.display = "none";
+            prof5.style.display = "none";
+            prof6.style.display = "block";
+        }
+       
+       
+    </script>
 </body>
