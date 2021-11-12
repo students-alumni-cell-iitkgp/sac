@@ -1,19 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
-
-form{
+form {
     font-family: 'Scheherazade New', serif;
 }
 
-body{
+body {
     background-image: linear-gradient(105deg, rgba(142, 247, 247, 0.651) 20%, rgb(228, 224, 216));
 }
 
-.progress-bar{
+.progress-bar {
     background-color: #394149 !important;
 }
 
-.wrapper{
+.wrapper {
     margin-top: 4% !important;
     background-color: white;
     margin: auto;
@@ -23,8 +22,10 @@ body{
     border-radius: 10px;
     padding: 2%;
 }
-.wrappers{
+
+.wrappers {
     margin-top: 4% !important;
+    margin-bottom: 2% !important;
     background-color: white;
     margin: auto;
     width: 94%;
@@ -33,57 +34,94 @@ body{
     border-radius: 10px;
     padding: 2%;
 }
-.form-control{
+
+.form-control {
     margin-bottom: 5px;
     background-color: rgba(184, 170, 170, 0.1) !important;
     width: 100%;
 }
 
-.container{
+.container {
     margin-bottom: 5vh;
 }
 
-.heading{
+.prof2,
+.prof3,
+.prof4,
+.prof5,
+.prof6 {
+    display: none;
+}
+
+.heading {
     width: 50%;
     text-align: center;
     margin: auto;
     padding-left: 15px;
     margin-bottom: 10px;
 }
-.p-0{
+
+.p-0 {
     padding-left: 0 !important;
     padding-right: 0 !important;
 }
-label{
+
+label {
     font-weight: 600;
     margin-bottom: 0px !important;
 }
 
-.section{
+.section {
     padding: 2%;
 }
- /* .btn{
+
+@media (min-width: 900px) {
+    .bord {
+        border-right: 1px solid black;
+        background-color: rgb(235, 235, 235);
+    }
+    .bord .bttons {
+        font-size: large;
+        margin: 2px;
+        padding: 2px 4px;
+        width: 100%;
+    }
+    .bord button {
+        outline: none;
+        background-color: transparent;
+        border: 0px solid transparent;
+        display: block;
+        width: max-content;
+    }
+    .bord .bttons:hover {
+        background-color: rgb(255, 255, 255);
+        border: 0px solid transparent;
+        border-radius: 10px;
+    }
+    .bord button:focus {
+        text-decoration: underline;
+        font-weight: bold;
+    }
+}
+
+
+/* .btn{
     margin-top: -10vh;
 }  */
 
+
 /*mobile css*/
+
 @media only screen and (max-width: 600px) {
-    .wrapper{
+    .wrapper {
         margin-left: 10px;
         margin-right: 10px;
     }
-    .wrappers{
+    .wrappers {
         margin-left: 10px;
         margin-right: 10px;
     }
-    .heading{
+    .heading {
         width: 90%;
     }
 }
-
-
-
-  
-
-  
-  

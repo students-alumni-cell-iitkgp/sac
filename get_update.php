@@ -55,6 +55,12 @@ require 'connection.php';
 
         $reciept = $user['reciept'] ;    
 
+        //fecting travelling details
+        //$doa        = $_user['doa']      ;
+        //$timetocome = $_user['timetocome']   ;
+        //$modeofT    = $_user['modeofT']   ;
+        //$pickup     = $_user['pickup']      ; 
+
         //adding seession 
         $_SESSION['name']     = $name     ;
        $_SESSION['email']    = $email    ;
@@ -95,8 +101,13 @@ require 'connection.php';
        $_SESSION['hobbies']        = $hobbies      ;
 
        $_SESSION['reciept'] = $reciept ;
+
+       //$_SESSION['doa']        = $doa         ;
+       //$_SESSION['timetocome'] = $timetocome  ;
+       //$_SESSION['modeofT']    = $modeofT     ;
+       //$_SESSION['pickup']     = $pickup      ; 
         
-        header("Location: update.php");
+        header("Location: get_travel.php");
     } 
 
 //}
