@@ -754,9 +754,16 @@ error:function (){}
 <!-- JS -->
 <!--This will facilitate process of background tasks-->
 
-<!--<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.dirtyforms/2.0.0/jquery.dirtyforms.min.js"></script>
+
 <script>
-if(performance.navigation.type == 2){
+    /*$('form').dirtyForms({ 
+		dialog: { title: 'Wait!' }, 
+		message: 'You forgot to save your details. If you leave now, they will be lost forever.' 
+	});
+    if(performance.navigation.type == 2)
+    {
         swal({
              title: "Confirm Form Resubmission",
              text: "The page that you're looking for used information that you entered.\n Returning to yhat page might cause any action you took to be reapted.\n Do you want to continue? ",
@@ -767,11 +774,12 @@ if(performance.navigation.type == 2){
         .then((willDelete) => {
            if (willDelete) {
                header("Location: aam.php");
-           });
-         } else {
+           }
+          else {
             //header("Location: aam.php");
          }
+        });
       });
-    }
-    </script>-->
+    }*/
+    </script>
 </body>

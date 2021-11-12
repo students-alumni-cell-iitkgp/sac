@@ -31,6 +31,11 @@
             
         </div>
         <div class="mb-3">
+            <label for="payment" class="form-label">YOG</label>
+            <input type="text" class="form-control" id="yog" name="yog" aria-describedby="emailHelp">
+            
+        </div>
+        <div class="mb-3">
             <label for="vaccination" class="form-label">Vaccination Status</label>
             <input type="text" class="form-control" id="vaccination" name="vaccination" aria-describedby="emailHelp">
             

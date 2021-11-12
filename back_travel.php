@@ -5,10 +5,20 @@ require 'connection.php';
     if ($_SERVER['REQUEST_METHOD'] == 'POST'){
         
         $email = $_SESSION['email'];
-        $doa        = $_POST['doa']      ;
-        $timetocome = $_POST['timetocome']   ;
-        $modeofT    = $_POST['modeofT']   ;
-        $pickup     = $_POST['pickup']      ; 
+
+        $kgpdoa        = $_POST['kgpdoa']      ;
+        $kgptimetocome = $_POST['kgptimetocome']   ;
+        $kgpmodeofT    = $_POST['kgpmodeofT']   ;
+        $kgppickup     = $_POST['kgppickup']      ; 
+        $kgppcount     = $_POST['kgppcount']   ;
+        $kgpcarseater  = $_POST['kgpcarseater']      ; 
+
+        $airdoa        = $_POST['airdoa']      ;
+        $airtimetocome = $_POST['airtimetocome']   ;
+        $airmodeofT    = $_POST['airmodeofT']   ;
+        $airpickup     = $_POST['airpickup']      ; 
+        $airpcount     = $_POST['airpcount']   ;
+        $aircarseater  = $_POST['aircarseater']      ; 
         
 
       // Create a connection
@@ -19,10 +29,18 @@ require 'connection.php';
           die("Sorry we failed to connect: ". mysqli_connect_error());
       }
       else{ 
-        $sql = "UPDATE `aam` SET `doa` = '$doa',
-                                 `timetocome` = '$timetocome' ,
-                                 `modeofT` = '$modeofT',
-                                 `pickup`         = '$pickup'
+        $sql = "UPDATE `travel` SET `kgpdoa`        = '$kgpdoa',
+                                    `kgptimetocome` = '$kgptimetocome' ,
+                                    `kgpmodeofT`    = '$kgpmodeofT',
+                                    `kgppickup`     = '$kgppickup',
+                                    `kgppcount`     = '$kgppcount',
+                                    `kgpcarseater`  = '$kgpcarseater',
+                                    `airdoa`        = '$airdoa',
+                                    `airtimetocome` = '$airtimetocome' ,
+                                    `airmodeofT`    = '$airmodeofT',
+                                    `airpickup`     = '$airpickup',
+                                    `airpcount`     = '$airpcount',
+                                    `aircarseater`  = '$aircarseater'
                                   WHERE `email` = '$email'";
 
         $result = mysqli_query($conn, $sql);
