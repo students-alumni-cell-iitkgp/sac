@@ -78,6 +78,7 @@
                                 <span class="input-group-text" style="font-weight: 600;" id="basic-addon1"><i class="fas fa-address-card"></i></span>
                                 <input class="form-control" type="text" name="address" id="personal_address">
                             </div>  
+                            <small class = "text-muted">Do not use inverted commams (',")</small>
                         </div>
                         <div class="col-sm-12 col-md-6">
                             <label for="city">City <span style="color:red;">*</span></label>
@@ -207,6 +208,7 @@
                         <div class="col-sm-12 col-md-6">
                             <label for="accompanyingNo" >Accompaniments (Number of guests)<span style="color:red;">*</span></label>
                             <input class="form-control" type="number" min="0" id="accompanyingNo" name="accompanyingNo" onchange="calc_cost()" required>
+                            <small class = "text-muted">Kids below 13 years of age won't be charged. It's free of cost for them. Don't add them in the accompaniments list</small>
                         </div>
                         <div class="col-sm-12">
                             <label for="room">Guest House <span style="color:red;">*</span></label>
@@ -310,7 +312,7 @@
                                 <span class="input-group-text" style="font-weight: 600;" id="basic-addon1"><i class="fas fa-address-card"></i></span>
                                 <input class="form-control" type="text" id="address" name="work_address">
                             </div>
-                            
+                            <small class = "text-muted">Do not use inverted commams (',")</small>
                         </div>
                         <div class="col-sm-12 col-md-6">
                             <label for="city">City</label>
@@ -383,10 +385,12 @@
                         <div class="col-sm-12">
                             <label for="yog">Involvements (Societies, Hall Events, etc) </label>
                             <input class="form-control" type="text" id="involvements" name="involvements">
+                            <small class = "text-muted">Do not use inverted commams (',")</small>
                         </div>
                         <div class="col-sm-12">
                             <label for="yog">Hobbies</label>
                             <input class="form-control" type="text" id="hobbies" name="hobbies">
+                            <small class = "text-muted">Do not use inverted commams (',")</small>
                         </div>
                     </div>
                 </div>

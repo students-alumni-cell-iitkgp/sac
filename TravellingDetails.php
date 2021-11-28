@@ -1,6 +1,11 @@
 <?php
     session_start();   
         // CREATING SESSION  
+
+        if(!isset($_SESSION['email']))
+    {
+      header("Location: logout.html");
+    }
         $kgpdoa        = $_SESSION['kgpdoa']      ;
         $kgptimetocome = $_SESSION['kgptimetocome']   ;
         $kgpmodeofT    = $_SESSION['kgpmodeofT']   ;
@@ -45,23 +50,14 @@
                display: none;
             }
     
-    .bttons button {
-        outline: none;
-        background-color: transparent;
-        border: 0px solid transparent;
-        
-        width: max-content;
+    #btn1:hover{
+        background-color: lightgrey !important;
     }
-    .bttons .bttons:hover {
-        background-color: rgb(255, 255, 255);
-        border: 0px solid transparent;
-        border-radius: 10px;
+
+    #btn2:hover{
+        background-color: lightgrey !important;
     }
-    .bttons button:focus {
-        text-decoration: underline;
-        font-weight: bold;
-    }
-            
+              
     </style>
 
     <!-- JS, Popper.js, and jQuery -->
@@ -88,8 +84,8 @@
                 </h2>
             </center>
             <div class = "row station p-2">
-                 <div class = "col-6 bttons text-center"><button class=" my-1" onclick="kgpin()" >KHARAGPUR STATION</button></div>
-                 <div class = "col-6 bttons text-center"><button class=" my-1" onclick="kolin()" > KOLKATA AIRPORT</button></div>
+                 <div class = "col-6 bttons text-center" id = "btn1"><button class="btn my-1" onclick="kgpin()" >KHARAGPUR STATION</button></div>
+                 <div class = "col-6 bttons text-center" id = "btn2"><button class="btn my-1" onclick="kolin()" > KOLKATA AIRPORT</button></div>
             </div>
             <div class="progress" style="height:0.2rem;">
                 <div id="one" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
@@ -135,16 +131,18 @@
                                 </div >
                             </div >
                             <div class="col-sm-12">
-                                <label for="kgppcount">How many people come together (including you)<span style="color:red;"></span></label>
+                                <label for="kgppcount">How many people are coming together<span style="color:red;"></span></label>
                                 <input class="form-control" type="text" name="kgppcount" id="kgppcount" value = "<?php echo "$kgppcount"?>">   
                             </div >
                             <div class="col-sm-12">
-                                <label for="kgpcarseater">Do you want us to pick up you from station <span style="color:red;"></span></label>
+                                <label for="kgpcarseater">Do you want Cab service <span style="color:red;">**paid</span></label>
                                 <div class="input-group mb-3">
                                     <select  class="form-control form-select" type="list" list="kgpcarseater" id="kgpcarseater" name="kgpcarseater" value = "<?php echo "$kgpcarseater"?>">
                                         <option value=""></option> 
-                                        <option value="4">04 <span style = "left : 2%"> (₹)1000 </span></option> 
-                                        <option value="6">06 <span style = "left : 2%"> (₹)2000 </span></option>
+                                        <option value="4">04 </option> 
+                                        <option value="6">06 </option>
+                                        <!--<option value="4">04 <span align = "right"> (₹)1000 </span></option> 
+                                        <option value="6">06 <span align = "right"> (₹)2000 </span></option>-->
                                     </select>
                                 </div >
                             </div >
@@ -168,7 +166,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-sm-12">
-                                <label for="airdoa">Date of Arrival<span style="color:red;"></span></label>
+                                <label for="airdoa">Date of Arrival(KolKata)<span style="color:red;"></span></label>
                                 <input class="form-control" type="date" name="airdoa" id="airdoa" value = "<?php echo "$airdoa"?>">
                             </div>
                             <div class="col-sm-12 ">
@@ -203,16 +201,18 @@
                                 </div >
                             </div >
                             <div class="col-sm-12">
-                                <label for="airpcount">How many people come together (including you)<span style="color:red;"></span></label>
+                                <label for="airpcount">How many people are coming together<span style="color:red;"></span></label>
                                 <input class="form-control" type="text" name="airpcount" id="airpcount" value = "<?php echo "$airpcount"?>">   
                             </div >
                             <div class="col-sm-12">
-                                <label for="aircarseater">Do you want us to pick up you from station <span style="color:red;"></span></label>
+                                <label for="aircarseater">Do you want Cab service <span style="color:red;">**paid</span></label>
                                 <div class="input-group mb-3">
                                     <select  class="form-control form-select" type="list" list="aircarseater" id="aircarseater" name="aircarseater" value = "<?php echo "$aircarseater"?>">
                                         <option value=""></option> 
-                                        <option value="4">04 <span style = "left : 2%"> (₹)1000 </span></option> 
-                                        <option value="6">06 <span style = "left : 2%"> (₹)2000 </span></option>
+                                        <option value="4">04 </option> 
+                                        <option value="6">06 </option>
+                                        <!--<option value="4">04 <span align = "right"> (₹)1000 </span></option> 
+                                        <option value="6">06 <span align = "right"> (₹)2000 </span></option>-->
                                     </select>
                                 </div >
                             </div >
@@ -234,12 +234,8 @@
             </form>
             <hr />
             <center>
-                        <h6>You Can also tell us your travelling details on </h6>
-                        <h6><i class="contact-icon fas fa-envelope"></i> Mail: aao@hijli.iitkgp.ernet.in</h6>
-                        <h6>informing your date and timing to reach KGP station.........</h6>
-                        <!--<h6><i class="contact-icon fas fa-phone"></i> Tarun Majety: 7602443444</h6>             
-                        <h6>  <i class="contact-icon fas fa-phone"></i> Vikas Ahlawat: 8397070108</h6>             
-                        <h6>&nbsp;  <i class="contact-icon fas fa-phone"></i> Shikha Bagaria: 7479222951</h6> -->            
+                        <h6>You Can also inform us by mail </h6>
+                        <h6><i class="contact-icon fas fa-envelope"></i> Mail: aao@hijli.iitkgp.ernet.in</h6>        
               </center>
         </div>
     </section>
@@ -248,19 +244,31 @@
         function back(){
           document.getElementsByClassName("section1")[0].style.display = 'block';
           document.getElementsByClassName("section2")[0].style.display = 'none';
+
+          document.getElementById("btn1").style.backgroundColor = "lightgrey";
+            document.getElementById("btn2").style.backgroundColor = "white";
         } 
 
         function next(){
            document.getElementsByClassName("section1")[0].style.display = 'none';
            document.getElementsByClassName("section2")[0].style.display = 'block';
+
+           document.getElementById("btn1").style.backgroundColor = "white";
+           document.getElementById("btn2").style.backgroundColor = "lightgrey";
         }
         function kgpin(){
             document.getElementsByClassName('section1')[0].style.display = "block";
             document.getElementsByClassName('section2')[0].style.display = "none";
+
+            document.getElementById("btn1").style.backgroundColor = "lightgrey";
+            document.getElementById("btn2").style.backgroundColor = "white";
         }
         function kolin(){
             document.getElementsByClassName('section1')[0].style.display = "none";
             document.getElementsByClassName('section2')[0].style.display = "block";
+
+            document.getElementById("btn1").style.backgroundColor = "white";
+            document.getElementById("btn2").style.backgroundColor = "lightgrey";
         }
     </script>
 </body>

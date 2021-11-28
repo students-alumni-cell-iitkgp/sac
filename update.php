@@ -1,5 +1,10 @@
 <?php
     session_start();   
+
+    if(!isset($_SESSION['email']))
+    {
+      header("Location: logout.html");
+    }
         // CREATING SESSION  
         $name    = $_SESSION['name']      ;
         $email   = $_SESSION['email']     ;
@@ -84,17 +89,18 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
   }
-  nav ul{
+  .wrappers nav ul{
     margin:0;
     padding:0;
+    width:100%;
     display:flex;
     flex-flow:row nowrap;
         justify-content :space-around;
   }
-    nav li{
+  .wrappers  nav li{
       margin:0;
     padding:0;
-      display:block;
+      
         list-style:none;
     }
     span{
@@ -107,11 +113,16 @@
         margin-right:3vw;*/
     }
     .row .f{
-        font-weight:500;
+        font-weight:350;
     }
     .wrappers{
     max-width: 800px;
     margin-bottom:4%;   
+    }
+    .prof6 p{
+      color: black;
+      font-family: 'Raleway', sans-serif;
+      font-weight:500;
     }
     
 </style>
@@ -137,10 +148,10 @@
         <a class="btn btn-outline-dark mx-1 " href="TravellingDetails.php" role="button">TRAVEL DETAILS</a>
         </li>
         <li class="nav-item">
-        <a class="btn btn-outline-dark mx-1 " href="./adminPages/view.php" role="button">ATTENDEES</a>
+        <a class="btn btn-outline-dark mx-1 " href="displayRegisteredUsers.php" role="button">ATTENDEES</a>
         </li>
         <li class="nav-item">
-        <a class="btn btn-outline-dark mx-1 " href="aam.php" role="button">LOG OUT</a>
+        <a class="btn btn-outline-danger mx-1 " href="logout2.php" role="button">LOG OUT</a>
         </li>
       </ul>
     </div>
@@ -347,68 +358,74 @@
     <tr>
 </tbody>
 </table>
-                             </div>        
-                           <div class="prof6 col">
-                           <table class="table table-striped">
+                </div>        
+                    <div class="prof6 col">
+                        <p align = "center">Kharagpur Station<p>
+                        <hr />
+                        <table class="table table-striped">
+                             <tbody>
+                                    <tr>
+                                    <th scope="row">Date of Arrival (KGP)</th>
+                                    <td><?php echo "$kgpdoa"?></td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">Time to reach Kharagpur Station</th>
+                                    <td><?php echo "$kgptimetocome"?></td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">Mode of Transportation </th>
+                                    <td><?php echo "$kgpmodeofT"?></td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">Do you want us to pick up you from station</th>
+                                    <td><?php echo "$kgppickup"?></td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">How many people are coming together</th>
+                                    <td><?php echo "$kgppcount"?></td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">*Cab info</th>
+                                    <td><?php echo "$kgpcarseater"?></td>
+                                  </tr>
+                              </tbody>
+                        </table>
 
-<tbody>
-                           <tr>
-      <th scope="row">Date of Arrival (KGP)</th>
-      <td><?php echo "$kgpdoa"?></td>
-    </tr>
-    <tr>
-      <th scope="row">Time to reach Kharagpur Station</th>
-      <td><?php echo "$kgptimetocome"?></td>
-    </tr>
-    <tr>
-      <th scope="row">Mode of Transportation </th>
-      <td><?php echo "$kgpmodeofT"?></td>
-    </tr>
-    <tr>
-      <th scope="row">Do you want us to pick up you from station</th>
-      <td><?php echo "$kgppickup"?></td>
-    </tr>
-    <tr>
-      <th scope="row">How many people come together (including you)</th>
-      <td><?php echo "$kgppcount"?></td>
-    </tr>
-    <tr>
-      <th scope="row">Do you want us to pick up you from station</th>
-      <td><?php echo "$kgpcarseater"?></td>
-    </tr>
-
-    <tr>
-      <th scope="row">Date of Arrival (KOLKATA)</th>
-      <td><?php echo "$airdoa"?></td>
-    </tr>
-    <tr>
-      <th scope="row">Time to reach Kolkata</th>
-      <td><?php echo "$airtimetocome"?></td>
-    </tr>
-    <tr>
-      <th scope="row">Mode of Transportation </th>
-      <td><?php echo "$airmodeofT"?></td>
-    </tr>
-    <tr>
-      <th scope="row">Do you want us to pick up you from station</th>
-      <td><?php echo "$airpickup"?></td>
-    </tr>
-    <tr>
-      <th scope="row">How many people come together (including you)</th>
-      <td><?php echo "$airpcount"?></td>
-    </tr>
-    <tr>
-      <th scope="row">Do you want us to pick up you from station</th>
-      <td><?php echo "$aircarseater"?></td>
-    </tr>
-    
-</tbody>
-</table>
-                           </div>
-                          
-                           </div>
+                        <br>
+                        <p align = "center">Kolkata Airport<p>
+                        <hr />
+                        <table class="table table-striped">
+                             <tbody>
+                                  <tr>
+                                    <th scope="row">Date of Arrival (KOLKATA)</th>
+                                    <td><?php echo "$airdoa"?></td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">Time to reach Kolkata</th>
+                                    <td><?php echo "$airtimetocome"?></td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">Mode of Transportation </th>
+                                    <td><?php echo "$airmodeofT"?></td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">Do you want us to pick up you from station</th>
+                                    <td><?php echo "$airpickup"?></td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">How many people are coming together</th>
+                                    <td><?php echo "$airpcount"?></td>
+                                  </tr>
+                                  <tr>
+                                    <th scope="row">*Cab info</th>
+                                    <td><?php echo "$aircarseater"?></td>
+                                  </tr>
+                              </tbody>
+                        </table>
+                    </div>       
+                  </div>
                             
-                    </div>
+             </div>
                     <!-- <div class = "header">
                         <div class="text-center">
                             <a class="btn btn-dark" href="update_show.php" role="button">UPDATE</a>
@@ -483,7 +500,6 @@
             prof5.style.display = "none";
             prof6.style.display = "block";
         }
-       
        
     </script>
 </body>
