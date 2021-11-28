@@ -2,6 +2,10 @@
 session_start();  
 require 'connection.php';
     
+    if(!isset($_SESSION['email']))
+    {
+      header("Location: logout.html");
+    }
 //if ($_SERVER["REQUEST_METHOD"]== "POST") {
     $database = 'aam';
     $email = $_SESSION['email'];
@@ -107,7 +111,7 @@ require 'connection.php';
        //$_SESSION['modeofT']    = $modeofT     ;
        //$_SESSION['pickup']     = $pickup      ; 
         
-        header("Location: get_travel.php");
+        header("Location: check_travel.php");
     } 
 
 //}
