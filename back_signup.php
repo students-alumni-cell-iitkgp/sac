@@ -110,6 +110,7 @@ require 'connection.php';
               <span aria-hidden="true">×</span>
             </button>
           </div>';
+          header("Location: errorpage.html");
            }
 
         //header("Location: get_update.php");
@@ -122,6 +123,7 @@ require 'connection.php';
             <span aria-hidden="true">×</span>
           </button>
         </div>';
+        header("Location: errorpage.html");
         }
       }
 

@@ -1,5 +1,10 @@
 <?php
-    session_start();   
+    session_start();  
+    
+    if(!isset($_SESSION['email']))
+    {
+      header("Location: logout.html");
+    }
         // CREATING SESSION  
         $name    = $_SESSION['name']      ;
         $email   = $_SESSION['email']     ;
@@ -120,7 +125,8 @@
                             <div class="input-group mb-3">
                                 <span class="input-group-text" style="font-weight: 600;" id="basic-addon1"><i class="fas fa-address-card"></i></span>
                                 <input class="form-control" type="text" name="address" id="personal_address" value = "<?php echo "$address"?>">
-                            </div>  
+                            </div> 
+                            <small class = "text-muted">Do not use inverted commams (',")</small> 
                         </div>
                         <div class="col-sm-12 col-md-6">
                             <label for="city">City <span style="color:red;">*</span></label>
@@ -151,16 +157,15 @@
                         </div>
                     </div>
                 </div>
-                <div class="row justify-content-around  justify-content-md-between guesth">
-                    <div class="col-1">  </div>
-
-                    <div class="col-1">     <button class="btn btn-dark" type = "button" onclick="next1()">Next</button></div>
+                <div class="row justify-content-md-between justify-content-around">
+                    <div class=" col-md-2 col-3"><a class="btn btn-outline-dark ml-3" href="update.php" role="button">Skip</a> </div>
+                    <div class=" col-md-2 col-3">     <button class="btn btn-dark" type = "button" onclick="next1()">Next</button></div>
                 </div>
             </div>
 
             <div class="section3">
                 <div class="heading">
-                    <h2>Accomodation</h2>
+                    <h2>Accommodation</h2>
                     <div class="progress" style="height:0.4rem;">
                         <div id="one" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
                     </div>
@@ -184,7 +189,7 @@
                 </table>
                 <table class="mb-3 border-light" >
                     <!-- <caption>Room Charges</caption> -->
-                    <tr><th colspan="4" class="text-center h3 text-decoration-underline font-weight-bold"> Accomodation charges</th></tr>
+                    <tr><th colspan="4" class="text-center h3 text-decoration-underline font-weight-bold"> Accommodation charges</th></tr>
                     <tr>
                     <th> Guest House</th>
                        <!-- <th>No.of Rooms</th> -->
@@ -249,8 +254,9 @@
                            <input class="form-control" type="text" name="marital" id="marital" value = "<?php echo "$marital"?>">
                         </div>
                         <div class="col-sm-12 col-md-6">
-                            <label for="accompanyingNo" >Accompaniments (Number of guests)<span style="color:red;">*</span></label>
-                            <input class="form-control" type="number" min="0" id="accompanyingNo" name="accompanyingNo" onchange="calc_cost()" value = "<?php echo "$accompaniments"?>" required>
+                            <label for="accompanyingNo" >Accompanying Person(s)<span style="color:red;"></span></label>
+                            <input class="form-control" type="number" min="0" id="accompanyingNo" name="accompanyingNo" onchange="calc_cost()" value = "<?php echo "$accompaniments"?>">
+                            <small class = "text-muted">Kids below 13 years of age won't be charged. It's free of cost for them. Don't add them in the accompaniments list</small>
                         </div>
                         <div class="col-sm-12">
                             <label for="room">Guest House <span style="color:red;">*</span></label>
@@ -264,6 +270,7 @@
                                     <!-- <option value="Technology Guest House - DO | Acc(Double Occupancy | Accomodation)"> -->
                                     <!-- <option value="Technology Guest House - DO | Al(Double Occupancy | Shared)">Technology Guest House - DO | Al(Double Occupancy | Shared)</option> -->
                                      <option value="VGH/ SAM">VGH/ SAM</option>
+                                     <option value="notreq">Guest House not Required</option>
                                     <!-- <option value="VGH/CEC - AC - DO | Al"> VGH/CEC - AC - DO | Al </option> 
                                     <option value="VGH/CEC - Non-AC - SO"> VGH/CEC - Non-AC - SO</option> 
                                     <option value="VGH 3/4  bedded- DO | Al"> VGH 3/4  bedded- DO | Al</option> 
@@ -322,6 +329,7 @@
                                 <span class="input-group-text" style="font-weight: 600;" id="basic-addon1"><i class="fas fa-address-card"></i></span>
                                 <input class="form-control" type="text" id="address" name="work_address" value = "<?php echo "$waddress"?>">
                             </div>
+                            <small class = "text-muted">Do not use inverted commams (',")</small>
                             
                         </div>
                         <div class="col-sm-12 col-md-6">
@@ -396,10 +404,12 @@
                         <div class="col-sm-12">
                             <label for="yog">Involvements (Societies, Hall Events, etc) </label>
                             <input class="form-control" type="text" id="involvements" name="involvements" value = "<?php echo "$involvement"?>">
+                            <small class = "text-muted">Do not use inverted commams (',")</small>
                         </div>
                         <div class="col-sm-12">
                             <label for="yog">Hobbies</label>
                             <input class="form-control" type="text" id="hobbies" name="hobbies" value = "<?php echo "$hobbies"?>">
+                            <small class = "text-muted">Do not use inverted commams (',")</small>
                         </div>
                     </div>
                 </div>

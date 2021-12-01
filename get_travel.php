@@ -5,31 +5,30 @@ require 'connection.php';
 //if ($_SERVER["REQUEST_METHOD"]== "POST") {
     $database = 'aam';
     $email = $_SESSION['email'];
-    $dob = $_SESSION['password']; 
+    //$dob = $_SESSION['password']; 
 
     $conn = mysqli_connect($DB_HOST, $DB_USER, $DB_PASS, $database);
     $stmt = $conn->prepare("SELECT * FROM travel WHERE `email` = '$email'");
     $stmt->execute();
-    
+ 
     $resultSet = $stmt->get_result();
     $users = $resultSet->fetch_all(MYSQLI_ASSOC);
+
     foreach($users as $user) {
 
-        //fecting travelling details
-        
-        $kgpdoa        = $_user['kgpdoa']      ;
-        $kgptimetocome = $_user['kgptimetocome']   ;
-        $kgpmodeofT    = $_user['kgpmodeofT']   ;
-        $kgppickup     = $_user['kgppickup']      ; 
-        $kgppcount     = $_user['kgppcount']   ;
-        $kgpcarseater  = $_user['kgpcarseater']      ; 
+        $kgpdoa        = $user['kgpdoa']      ;
+        $kgptimetocome = $user['kgptimetocome']   ;
+        $kgpmodeofT    = $user['kgpmodeofT']   ;
+        $kgppickup     = $user['kgppickup']      ; 
+        $kgppcount     = $user['kgppcount']   ;
+        $kgpcarseater  = $user['kgpcarseater']      ; 
 
-        $airdoa        = $_user['airdoa']      ;
-        $airtimetocome = $_user['airtimetocome']   ;
-        $airmodeofT    = $_user['airmodeofT']   ;
-        $airpickup     = $_user['airpickup']      ; 
-        $airpcount     = $_user['airpcount']   ;
-        $aircarseater  = $_user['aircarseater']      ; 
+        $airdoa        = $user['airdoa']      ;
+        $airtimetocome = $user['airtimetocome']   ;
+        $airmodeofT    = $user['airmodeofT']   ;
+        $airpickup     = $user['airpickup']      ; 
+        $airpcount     = $user['airpcount']   ;
+        $aircarseater  = $user['aircarseater']      ; 
 
         //adding seession 
 
@@ -47,14 +46,8 @@ require 'connection.php';
         $_SESSION['airpcount']     = $airpcount      ;
         $_SESSION['aircarseater']  = $aircarseater     ; 
 
-
-        echo "<script language='javascript'>";
-        echo "alert('WRONG INFORMATION'+'$email'+'$kgpdoa')";
-        echo "</script>";
-
         header("Location: update.php");
 
     } 
-
 //}
 ?>
