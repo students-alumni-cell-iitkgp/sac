@@ -116,7 +116,7 @@
 
             <div class="section3">
                 <div class="heading">
-                    <h2>Accomodation</h2>
+                    <h2>Accommodation</h2>
                     <div class="progress" style="height:0.4rem;">
                         <div id="one" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
                     </div>
@@ -140,7 +140,7 @@
                 </table>
                 <table class="mb-3 border-light" >
                     <!-- <caption>Room Charges</caption> -->
-                    <tr><th colspan="4" class="text-center h3 text-decoration-underline font-weight-bold"> Accomodation charges</th></tr>
+                    <tr><th colspan="4" class="text-center h3 text-decoration-underline font-weight-bold"> Accommodation charges</th></tr>
                     <tr>
                        <th> Guest House</th>
                        <!-- <th>No.of Rooms</th> -->
@@ -166,6 +166,7 @@
                         <td style="text-align: center;" data-th="Cost for Alumni">900</td>
                         <!-- <td style="text-align: center;" data-th="Cost for Accompaniaments"></td> -->
                     </tr>
+                    
                     <!-- <tr>
                         <td data-th="">VGH/CEC - AC - DO</td>
                         <td style="text-align: center;" data-th="Cost for Alumni">900</td>
@@ -191,7 +192,7 @@
                 <!-- <table class="mb-5 border-light" style="margin-bottom: 2vh !important;" >
                 <th colspan="4" class="text-center h3 text-decoration-underline font-weight-bold"> Accompaniment's charge</th>
                     <tr>
-                        <td data-th="">Accomodation per person </td>
+                        <td data-th="">Accommodation per person </td>
         
                         <td style="text-align: center;" data-th="Cost for Alumni">2250</td>
                         <td style="text-align: center;" data-th="Cost for Accompaniaments"></td>
@@ -205,7 +206,7 @@
                            <input class="form-control" type="text" name="marital" id="marital">
                         </div>
                         <div class="col-sm-12 col-md-6">
-                            <label for="accompanyingNo" >Accompaniments (Number of guests)<span style="color:red;">*</span></label>
+                            <label for="accompanyingNo" >Accompanying Person(s)<span style="color:red;">*</span></label>
                             <input class="form-control" type="number" min="0" id="accompanyingNo" name="accompanyingNo" onchange="calc_cost()" required>
                         </div>
                         <div class="col-sm-12">
@@ -216,10 +217,11 @@
                                 <!-- <datalist id="room"> -->
                                 <option value=""></option> 
                                      <option value="Technology Guest House/ Alumni Guest House">Technology Guest House/ Alumni Guest House</option> 
-                                    <!-- <option value="Technology Guest House - DO | Acc">Technology Guest House - DO | Acc(Double Occupancy | Accomodation)</option> -->
-                                    <!-- <option value="Technology Guest House - DO | Acc(Double Occupancy | Accomodation)"> -->
+                                    <!-- <option value="Technology Guest House - DO | Acc">Technology Guest House - DO | Acc(Double Occupancy | Accommodation)</option> -->
+                                    <!-- <option value="Technology Guest House - DO | Acc(Double Occupancy | Accommodation)"> -->
                                     <!-- <option value="Technology Guest House - DO | Al(Double Occupancy | Shared)">Technology Guest House - DO | Al(Double Occupancy | Shared)</option> -->
                                      <option value="VGH/ SAM">VGH/ SAM</option>
+                                     <option value="NA">Not Required</option>
                                     <!-- <option value="VGH/CEC - AC - DO | Al"> VGH/CEC - AC - DO | Al </option> 
                                     <option value="VGH/CEC - Non-AC - SO"> VGH/CEC - Non-AC - SO</option> 
                                     <option value="VGH 3/4  bedded- DO | Al"> VGH 3/4  bedded- DO | Al</option> 
@@ -468,7 +470,7 @@
     <?php include 'footer.php' ?>
     <script>
        let next5Allow=0;
-       
+       document.getElementById("accompanyingNo").defaultValue = "0";
        function next1(){
            let name = document.getElementById("name").value;
            let city = document.getElementById("personal_city").value;
@@ -620,6 +622,9 @@
         //    }
            else if(choice === "VGH/ SAM"){
                cost = 900 + 900*nguest + 7000 + 4000*nguest; 
+           }
+           else if(choice === "NA"){
+               cost = 7000; 
            }
         //    else{
         //        cost = 900 + 7500;
