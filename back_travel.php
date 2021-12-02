@@ -62,6 +62,7 @@ require 'connection.php';
             <span aria-hidden="true">×</span>
           </button>
         </div>';
+        header("Location: errorpage.html");
         }
       }
 

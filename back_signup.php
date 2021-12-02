@@ -89,6 +89,7 @@ include 'connection.php';
               <span aria-hidden="true">×</span>
             </button>
           </div>';
+          header("Location: errorpage.html");
            }
 
         //header("Location: get_update.php");
@@ -101,6 +102,7 @@ include 'connection.php';
             <span aria-hidden="true">×</span>
           </button>
         </div>';
+        header("Location: errorpage.html");
         }
       // }
 
