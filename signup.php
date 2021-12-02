@@ -78,6 +78,7 @@
                                 <span class="input-group-text" style="font-weight: 600;" id="basic-addon1"><i class="fas fa-address-card"></i></span>
                                 <input class="form-control" type="text" name="address" id="personal_address">
                             </div>  
+                            <small class = "text-muted">Do not use inverted commams (',")</small>
                         </div>
                         <div class="col-sm-12 col-md-6">
                             <label for="city">City <span style="color:red;">*</span></label>
@@ -110,13 +111,13 @@
                 </div>
                 <div class="row justify-content-md-between justify-content-around guesth">
                     <div class=" col-md-1 col-3"></div>
-                    <div class=" col-md-1 col-3"><button class="btn btn-dark" type = "button" onclick="next1()">Next</button></div>
+                    <div class=" col-md-1 col-3"><button class="btn btn-dark" type = "button" id = "next" onclick="next1()">Next</button></div>
                 </div>
             </div>
 
             <div class="section3">
                 <div class="heading">
-                    <h2>Accomodation</h2>
+                    <h2>Accommodation</h2>
                     <div class="progress" style="height:0.4rem;">
                         <div id="one" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
                     </div>
@@ -140,7 +141,7 @@
                 </table>
                 <table class="mb-3 border-light" >
                     <!-- <caption>Room Charges</caption> -->
-                    <tr><th colspan="4" class="text-center h3 text-decoration-underline font-weight-bold"> Accomodation charges</th></tr>
+                    <tr><th colspan="4" class="text-center h3 text-decoration-underline font-weight-bold"> Accommodation charges</th></tr>
                     <tr>
                        <th> Guest House</th>
                        <!-- <th>No.of Rooms</th> -->
@@ -166,6 +167,7 @@
                         <td style="text-align: center;" data-th="Cost for Alumni">900</td>
                         <!-- <td style="text-align: center;" data-th="Cost for Accompaniaments"></td> -->
                     </tr>
+                    
                     <!-- <tr>
                         <td data-th="">VGH/CEC - AC - DO</td>
                         <td style="text-align: center;" data-th="Cost for Alumni">900</td>
@@ -191,7 +193,7 @@
                 <!-- <table class="mb-5 border-light" style="margin-bottom: 2vh !important;" >
                 <th colspan="4" class="text-center h3 text-decoration-underline font-weight-bold"> Accompaniment's charge</th>
                     <tr>
-                        <td data-th="">Accomodation per person </td>
+                        <td data-th="">Accommodation per person </td>
         
                         <td style="text-align: center;" data-th="Cost for Alumni">2250</td>
                         <td style="text-align: center;" data-th="Cost for Accompaniaments"></td>
@@ -205,8 +207,9 @@
                            <input class="form-control" type="text" name="marital" id="marital">
                         </div>
                         <div class="col-sm-12 col-md-6">
-                            <label for="accompanyingNo" >Accompaniments (Number of guests)<span style="color:red;">*</span></label>
+                            <label for="accompanyingNo" >Accompanying Person(s)<span style="color:red;">*</span></label>
                             <input class="form-control" type="number" min="0" id="accompanyingNo" name="accompanyingNo" onchange="calc_cost()" required>
+                            <small class = "text-muted">Kids below 13 years of age won't be charged. It's free of cost for them. Don't add them in the accompaniments list</small>
                         </div>
                         <div class="col-sm-12">
                             <label for="room">Guest House <span style="color:red;">*</span></label>
@@ -216,10 +219,11 @@
                                 <!-- <datalist id="room"> -->
                                 <option value=""></option> 
                                      <option value="Technology Guest House/ Alumni Guest House">Technology Guest House/ Alumni Guest House</option> 
-                                    <!-- <option value="Technology Guest House - DO | Acc">Technology Guest House - DO | Acc(Double Occupancy | Accomodation)</option> -->
-                                    <!-- <option value="Technology Guest House - DO | Acc(Double Occupancy | Accomodation)"> -->
+                                    <!-- <option value="Technology Guest House - DO | Acc">Technology Guest House - DO | Acc(Double Occupancy | Accommodation)</option> -->
+                                    <!-- <option value="Technology Guest House - DO | Acc(Double Occupancy | Accommodation)"> -->
                                     <!-- <option value="Technology Guest House - DO | Al(Double Occupancy | Shared)">Technology Guest House - DO | Al(Double Occupancy | Shared)</option> -->
                                      <option value="VGH/ SAM">VGH/ SAM</option>
+                                     <option value="NA">Not Required</option>
                                     <!-- <option value="VGH/CEC - AC - DO | Al"> VGH/CEC - AC - DO | Al </option> 
                                     <option value="VGH/CEC - Non-AC - SO"> VGH/CEC - Non-AC - SO</option> 
                                     <option value="VGH 3/4  bedded- DO | Al"> VGH 3/4  bedded- DO | Al</option> 
@@ -310,7 +314,7 @@
                                 <span class="input-group-text" style="font-weight: 600;" id="basic-addon1"><i class="fas fa-address-card"></i></span>
                                 <input class="form-control" type="text" id="address" name="work_address">
                             </div>
-                            
+                            <small class = "text-muted">Do not use inverted commams (',")</small>
                         </div>
                         <div class="col-sm-12 col-md-6">
                             <label for="city">City</label>
@@ -383,17 +387,20 @@
                         <div class="col-sm-12">
                             <label for="yog">Involvements (Societies, Hall Events, etc) </label>
                             <input class="form-control" type="text" id="involvements" name="involvements">
+                            <small class = "text-muted">Do not use inverted commams (',")</small>
                         </div>
                         <div class="col-sm-12">
                             <label for="yog">Hobbies</label>
                             <input class="form-control" type="text" id="hobbies" name="hobbies">
+                            <small class = "text-muted">Do not use inverted commams (',")</small>
                         </div>
                     </div>
                 </div>
                 <div class="row justify-content-md-between justify-content-around guesth">
 
                     <div class=" col-md-1 col-3">  <button class="btn btn-dark" type = "button" onclick="back3()">Back</button> </div>
-                    <div class=" col-md-1 col-3">     <button class="btn btn-dark" type = "button" onclick="next4()">Next</button></div>
+                    <!--<div class=" col-md-1 col-3">     <button class="btn btn-dark" type = "button" onclick="next4()">Next</button></div>-->
+                    <div class=" col-md-1 col-3">     <button id="submit" class="btn btn-dark" type = "submit">Submit</button></div>
                 </div>
             </div>
 
@@ -419,15 +426,8 @@
                             
                         </div >
                         <div class="col-sm-12 col-md-12 mb-3 certification1" style="display:none;">
-<<<<<<< HEAD
-                            <label for="certificate">Vaccination Certificate if vaccinated <span style="color:red;">  *</span></label>
-                            <input class="form-control" type="file" id="certificate" name="certificate" >
-                            <p id = "size_file">File size must be less than 5MB</p>
-
-=======
                             <label for="certificate">Drive link for Vaccination Certificate<span style="color:red;">*</span></label>
                             <input class="form-control" type="text" id="certificate" name="certificate" >
->>>>>>> 215b0345a6238be84aae4a0b837eaa7f09303c60
                         </div>
                         
                         <div class="valid1" id="valid" style="display:none;">
@@ -450,7 +450,7 @@
               </center>
             </div>
 
-            <div class="section6">
+            <!--<div class="section6">
                 <div class="heading">
                     <h2>Own Your Hall Room</h2>
                     <div class="progress" style="height:0.4rem;">
@@ -466,7 +466,7 @@
                     <div class=" col-md-1 col-3">  <button class="btn btn-dark" type = "button" onclick="back5()">Back</button> </div>
                     <div class=" col-md-1 col-3">     <button id="submit" class="btn btn-dark" type = "submit">Submit</button></div>
                 </div>
-            </div>
+            </div>-->
             </form>
 
         </div>
@@ -474,7 +474,7 @@
     <?php include 'footer.php' ?>
     <script>
        let next5Allow=0;
-       
+       document.getElementById("accompanyingNo").defaultValue = "0";
        function next1(){
            let name = document.getElementById("name").value;
            let city = document.getElementById("personal_city").value;
@@ -485,6 +485,9 @@
            if(name.length>0&&city.length>0&&country.length>0&&mobile.length>0&&dob.length>0){
                 document.getElementsByClassName("section1")[0].style.display = 'none';
                 document.getElementsByClassName("section2")[0].style.display = 'block';
+           }
+           else{
+               alert("Filled the requried Fields!!");
            }
        }
        function back1(){
@@ -501,6 +504,9 @@
                 document.getElementsByClassName("section3")[0].style.display = 'none';
                 document.getElementsByClassName("section4")[0].style.display = 'block';
            }
+           else{
+               alert("Filled the requried Fields!!");
+           }
        } 
        function back2(){
         //    console.log("Im in");
@@ -515,6 +521,9 @@
            if(org.length>0 && designation.length > 0){
                 document.getElementsByClassName("section4")[0].style.display = 'none';
                 document.getElementsByClassName("section5")[0].style.display = 'block';
+           }
+           else{
+               alert("Filled the requried Fields!!");
            }
            
        }
@@ -537,6 +546,9 @@
             document.getElementsByClassName("section5")[0].style.display = 'none';
             document.getElementsByClassName("section6")[0].style.display = 'block';
         }
+        else{
+               alert("Filled the requried Fields!!");
+           }
        }
 
        function back4(){
@@ -633,11 +645,14 @@
            else if(choice === "VGH/ SAM"){
                cost = 900 + 900*nguest + 7000 + 4000*nguest; 
            }
+           else if(choice === "NA"){
+               cost = 7000; 
+           }
         //    else{
         //        cost = 900 + 7500;
         //    }
 
-           document.getElementById("cost").value =  "Total Cost = Rs"+cost;
+           document.getElementById("cost").value =  "Total Cost = (₹) "+cost;
 
            console.log(cost);
        }
@@ -730,19 +745,17 @@
     //     if (fi.files.length > 0) {
     //         for (var i = 0; i <= fi.files.length - 1; i++) {
   
-    //             const fsize = fi.files.item(i).size;
-    //             const file = Math.round((fsize / 1024));
-    //             // The size of the file.
-    //             //console.log(file);
-    //             if(fsize > 5242880){
-    //                 console.log(file);
-    //                 document.getElementById('submit').disabled = true;
-    //                 next5allow = 0;
-    //             }
-    //         }
-    //     }
-    // }
-
+                const fsize = fi.files.item(i).size;
+                const file = Math.round((fsize / 1024));
+                // The size of the file.
+                //console.log(file);
+                if(fsize > 5242880){
+                    console.log(file);
+                    document.getElementById('submit').disabled = true;
+                }
+            }
+        }
+    }
     // reload the form when users click back button given on brower 
     if(performance.navigation.type == 2){
         location.reload(true);
@@ -768,5 +781,32 @@ error:function (){}
 <!-- JS -->
 <!--This will facilitate process of background tasks-->
 
-  
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.dirtyforms/2.0.0/jquery.dirtyforms.min.js"></script>
+
+<script>
+    /*$('form').dirtyForms({ 
+		dialog: { title: 'Wait!' }, 
+		message: 'You forgot to save your details. If you leave now, they will be lost forever.' 
+	});
+    if(performance.navigation.type == 2)
+    {
+        swal({
+             title: "Confirm Form Resubmission",
+             text: "The page that you're looking for used information that you entered.\n Returning to yhat page might cause any action you took to be reapted.\n Do you want to continue? ",
+             icon: "warning",
+             buttons: true,
+            dangerMode: true,
+            })
+        .then((willDelete) => {
+           if (willDelete) {
+               header("Location: aam.php");
+           }
+          else {
+            //header("Location: aam.php");
+         }
+        });
+      });
+    }*/
+    </script>
 </body>
