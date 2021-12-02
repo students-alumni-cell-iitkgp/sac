@@ -52,7 +52,7 @@ include 'connection.php';
         return $str;
       }
 
-      // print_r($conn) ;
+      print_r($conn) ;
       $sql = "INSERT INTO `aam` (`name`,`email`, `address` ,`city`,`state`,`country`,`zipcode`,`mobile`,`dob`,
                  `status`, `certificate` ,`dosedate`,
                  `marital`, `accompaniments` ,`gh`,
@@ -77,8 +77,10 @@ include 'connection.php';
         </div>'; 
 
            /// insert email in travel table by this we only have to update travel travel
-           $sql = "INSERT INTO `travel` (`email`) VALUES ('$email')";
-           $resu = mysqli_query($conn, $sql);
+           $sql = "INSERT INTO `travel` (`email`) VALUES (':email')";
+           $stmt=$GLOBALS['conn']->prepare($sql);
+           $stmt->bindparam(':email',$email);
+           $resu = $stmt->execute();
            if($resu){
               header("Location: get_update.php");
            }
@@ -89,7 +91,7 @@ include 'connection.php';
               <span aria-hidden="true">×</span>
             </button>
           </div>';
-          header("Location: errorpage.html");
+          // header("Location: errorpage.html");
            }
 
         //header("Location: get_update.php");
@@ -102,7 +104,7 @@ include 'connection.php';
             <span aria-hidden="true">×</span>
           </button>
         </div>';
-        header("Location: errorpage.html");
+        // header("Location: errorpage.html");
         }
       // }
 
