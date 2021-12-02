@@ -1,5 +1,10 @@
 <?php
     session_start();   
+
+    if(!isset($_SESSION['email']))
+    {
+      header("Location: logout.html");
+    }
         // CREATING SESSION  
           $cost  = $_SESSION['cost']    ;
 ?>
@@ -27,18 +32,17 @@
         <div class="wrapper">
                 
             <div class="container">
-                <div class="row">
+                <div class="row"> 
                     <h5 style="font-weight: 800; padding-left: 1vw;">Pay the reqired amount to the given account and upload the reciept</h5>
-                    <h2 style = "color: #691313f5"><?php echo "$cost"?></h2>
-
-                    <ul style="margin-left:1vw;">
+                    <div class = "col-12"><h2 style = "color: #691313f5;"><?php echo "$cost"?></h2></div>
+                    <div class = "col-12"><ul style="margin-left:1vw;">
                         <li>ACCOUNT HOLDER NAME: IIT KGP AAIR EVENTS FUND</li>
                         <li>BANK: HDFC BANK</li>
                         <li>ACCOUNT NO: 50100217409918</li>
                         <li>IFSC: HDFC0001065</li>
                         <li>MICR: 721240102</li>
                         <li>SWIFT CODE: HDFCINBBCAL</li>
-                    </ul>
+                    </ul></div>
 
                     <div class="col-sm-12 col-md-12">
                         <label for="reciept">Drive Link for Fee Reciept <span style="color:red;">*</span></label>
@@ -48,7 +52,7 @@
             </div>
 
             <div class="row justify-content-md-between justify-content-around guesth">
-            <div class=" col-md-2 col-3">  <button class="btn btn-dark"> <a href="aam.php" style="color:inherit;text-decoration:none" > Skip for now</a></button></div>   
+            <div class=" col-md-2 col-3">  <button class="btn btn-dark"> <a href="get_update.php" style="color:inherit;text-decoration:none" > Skip for now</a></button></div>   
             <div class=" col-md-1 col-3">  <button type="submit" id="submit" value = "submit" class="btn btn-dark">Submit</button></div>
 
             </div>

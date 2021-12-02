@@ -5,7 +5,7 @@
     if(isset($_POST['submit'])){ 
       
         // isset checks if submit key is there or not
-        $isSuccess=insert($_POST['name'],$_POST['email'],$_POST['accompaniments'],$_POST['payment'],$_POST['vaccination'],$_POST['gh']);
+        $isSuccess=insert($_POST['name'],$_POST['email'],$_POST['accompaniments'],$_POST['payment'],$_POST['vaccination'],$_POST['gh'],$_POST['yog']);
         
         if($isSuccess){
             echo "<h1 class='text-success text-center'>Registered succesfully</h1>";
