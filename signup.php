@@ -25,7 +25,7 @@
                     Register
                 </h2>
             </center>
-
+            <!-- <a href="back_signup.php" >SUBMIT</a> -->
             <form id="register" action = "back_signup.php" method = "post" enctype="multipart/form-data" onSubmit="window.location.reload()">
 
 
