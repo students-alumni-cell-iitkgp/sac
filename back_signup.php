@@ -1,6 +1,6 @@
 <?php
 session_start(); 
-require 'connection.php';
+include 'connection.php';
     if ($_SERVER['REQUEST_METHOD'] == 'POST'){
         $name = $_POST['name'];
         $email = $_POST['email'];
@@ -52,44 +52,23 @@ require 'connection.php';
         return $str;
       }
 
-      // Create a connection
-      $database = "aam";
-      $conn = mysqli_connect($DB_HOST, $DB_USER, $DB_PASS, $database);
-      if (!$conn){
-          die("Sorry we failed to connect: ". mysqli_connect_error());
-      }
-      else{ 
-        // Submit these to a database
-        // Sql query to be executed
-        // $target_dir = "AAMuploads/";
-        // $target_file = $target_dir . basename($_FILES["certificate"]["name"]);
-
-        // $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
-        // $pname = convert($email);
-        // $_FILES["certificate"]["name"] = $pname."1.".$imageFileType;
-
-        // $target_file = $target_dir . basename($_FILES["certificate"]["name"]);
-
-        // if (move_uploaded_file($_FILES["certificate"]["tmp_name"], $target_file)) {
-        //   echo "The file ". htmlspecialchars( basename( $_FILES["certificate"]["name"])). " has been uploaded.";
-        // } else {
-        //   echo "Sorry, there was an error uploading your file.";
-        // }
-
-        // $certificate = $target_file;
-        $sql = "INSERT INTO `aam` (`name`,`email`, `address` ,`city`,`state`,`country`,`zipcode`,`mobile`,`dob`,
+      // print_r($conn) ;
+      $sql = "INSERT INTO `aam` (`name`,`email`, `address` ,`city`,`state`,`country`,`zipcode`,`mobile`,`dob`,
                  `status`, `certificate` ,`dosedate`,
                  `marital`, `accompaniments` ,`gh`,
                  `industry`, `profession` ,`organisation`,`designation`,`waddress`,`wcity`,`wstate`,`wcountry`,`wzipcode`,
                  `rollno`, `joinyear` ,`degree`,`dept`,`hall`,`yog`,`involvement`,`hobbies`,`cost`)
-                 VALUES ('$name', '$email', '$address' ,'$city','$state','$country','$zipcode','$mobile','$dob',
-                 '$status', '$certificate' ,'$dosedate',
-                 '$marital', '$accompaniments' ,'$gh',
-                 '$industry', '$profession' ,'$organisation','$designation','$waddress','$wcity','$wstate','$wcountry','$wzipcode',
-                 '$rollno', '$joinyear' ,'$degree','$dept','$hall','$yog','$involvement','$hobbies','$cost')";
-        $result = mysqli_query($conn, $sql);
- 
-        if($result){
+                 VALUES (':name', ':email', ':address' ,':city',':state',':country',':zipcode',':mobile',':dob',
+                 ':status', ':certificate' ,':dosedate',
+                 ':marital', ':accompaniments' ,':gh',
+                 ':industry', ':profession' ,':organisation',':designation',':waddress',':wcity',':wstate',':wcountry',':wzipcode',
+                 ':rollno', ':joinyear' ,':degree',':dept',':hall',':yog',':involvement',':hobbies',':cost')";
+        // binding params
+      $stmt=$GLOBALS["conn"]->prepare($sql);
+      $stmt->bindparam(':name',$name);$stmt->bindparam(':email',$email);$stmt->bindparam(':address',$address);$stmt->bindparam(':city',$city);$stmt->bindparam(':state',$state);$stmt->bindparam(':country',$country);$stmt->bindparam(':zipcode',$zipcode);$stmt->bindparam(':mobile',$mobile);$stmt->bindparam(':dob',$dob);$stmt->bindparam(':status',$status);$stmt->bindparam(':certificate',$certificate);$stmt->bindparam(':dosedate',$dosedate);$stmt->bindparam(':marital',$marital);$stmt->bindparam(':accompaniments',$accompaniments);$stmt->bindparam(':gh',$gh);$stmt->bindparam(':industry',$industry);$stmt->bindparam(':profession',$profession);$stmt->bindparam(':organisation',$organisation);$stmt->bindparam(':designation',$designation);$stmt->bindparam(':waddress',$waddress);$stmt->bindparam(':wcity',$wcity);$stmt->bindparam(':wstate',$wstate);$stmt->bindparam(':wcountry',$wcountry);$stmt->bindparam(':wzipcode',$wzipcode);$stmt->bindparam(':rollno',$rollno);$stmt->bindparam(':joinyear',$joinyear);$stmt->bindparam(':degree',$degree);$stmt->bindparam(':dept',$dept);$stmt->bindparam(':hall',$hall);$stmt->bindparam(':yog',$yog);$stmt->bindparam(':involvement',$involvement);$stmt->bindparam(':hobbies',$hobbies);$stmt->bindparam(':cost',$cost);
+      //executing
+      $result=$stmt->execute();
+      if($result){
           echo '<div class="alert alert-success alert-dismissible fade show" role="alert">
           <strong>Success!</strong> Your entry has been submitted successfully!
           <button type="button" class="close" data-dismiss="alert" aria-label="Close">
@@ -123,7 +102,7 @@ require 'connection.php';
           </button>
         </div>';
         }
-      }
+      // }
 
     }   
 ?>
