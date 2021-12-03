@@ -37,12 +37,27 @@ body {
 
 .form-control {
     margin-bottom: 5px;
-    background-color: rgba(184, 170, 170, 0.1) !important;
+    background-color: rgba(170, 181, 184, 0.1) !important;
     width: 100%;
 }
 
 .container {
     margin-bottom: 5vh;
+}
+
+.hovereff button {
+    font-size: large !important;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.hovereff button:hover,
+.hovereff button:active,
+.hovereff button:focus {
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    /* border-radius: 45%; */
+    outline: none;
 }
 
 .prof2,
@@ -51,6 +66,10 @@ body {
 .prof5,
 .prof6 {
     display: none;
+}
+
+.btn:focus {
+    outline: none !important;
 }
 
 .heading {
@@ -75,15 +94,19 @@ label {
     padding: 2%;
 }
 
+.textS h2 {
+    color: #4169e1;
+    font-size: 280%;
+}
+
 @media (min-width: 900px) {
     .bord {
-        border-right: 1px solid black;
-        background-color: rgb(235, 235, 235);
+        background-color: white;
     }
     .bord .bttons {
         font-size: large;
         margin: 2px;
-        padding: 2px 4px;
+        padding: 4px 6px;
         width: 100%;
     }
     .bord button {
@@ -93,15 +116,15 @@ label {
         display: block;
         width: max-content;
     }
-    .bord .bttons:hover {
+    /*.bord .bttons:hover {
         background-color: rgb(255, 255, 255);
         border: 0px solid transparent;
         border-radius: 10px;
     }
-    .bord button:focus {
+     .bord button:focus {
         text-decoration: underline;
         font-weight: bold;
-    }
+    } */
 }
 
 
@@ -123,5 +146,37 @@ label {
     }
     .heading {
         width: 90%;
+    }
+    .textS h2 {
+        font-size: 200%!important;
+    }
+    .hovereff button {
+        font-size: large !important;
+        background-color: transparent;
+        border: 0px solid rgba(0, 0, 0, 0.1);
+    }
+    .bord {
+        /* border-right: 1px solid black;*/
+        background-color: rgb(235, 235, 235);
+        /* width: 50%; */
+    }
+    .bord .bttons {
+        font-size: large;
+        margin: 2px;
+        padding: 2px 4px;
+        width: 100%;
+    }
+    .bord button {
+        margin-top: 5px;
+        outline: none;
+        background-color: transparent;
+        border: 0px solid transparent;
+        display: block;
+        width: max-content;
+    }
+    .bord .bttons:hover {
+        background-color: rgb(255, 255, 255);
+        border: 0px solid transparent;
+        border-radius: 10px;
     }
 }
