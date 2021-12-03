@@ -1,5 +1,5 @@
  <?php 
-  // include 'connection.php';
+  include $path;
   //testing
   // $DB_HOST="localhost";
   // $database="admin";
@@ -7,11 +7,7 @@
   // $DB_PASS="";
   // $charset="utf8mb4";
   //main
-  $DB_HOST = "172.17.0.8";
-  $database = "aam";
-  $DB_USER = "root";
-  $DB_PASS = "Sac@123";
-  $charset="utf8mb4";
+   $charset="utf8mb4";
 
   
   $dsn="mysql:host=$DB_HOST;dbname=$database;charset=$charset";
