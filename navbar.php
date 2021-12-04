@@ -17,7 +17,7 @@ padding-left: 20px !important;
 }
 .navbar-brand img{
 height: 4.5rem;
-width: 11rem;
+width: 7rem;
 }
 .nav-item:hover .nav-link{
 background-color: gray;
@@ -56,6 +56,7 @@ display: block;}
 .xyz{
 	padding-bottom :10px;
 }
+
 @keyframes delay{
     0%{
         opacity: 0;
@@ -74,7 +75,7 @@ display: block;}
 	<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
 
 		<div class="container-fluid">
-			<a class="navbar-brand xyz" href="#"><img src="img/latestlogo.webp"></a>
+			<a class="navbar-brand xyz" href="#"><img  src="img/aamlogo.png"></a>
 			<!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
 				aria-expanded="false" aria-label="Toggle navigation"> -->
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"

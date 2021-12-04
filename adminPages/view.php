@@ -2,8 +2,9 @@
     $title='view records';
     include 'includeAdmin/header.php';
     include 'includeAdmin/authUser.php';
+    $path="../connection.php";
     include 'config.php';
-
+    echo getcwd();
     $results=view();
     $copy=view();
     $total=0;
