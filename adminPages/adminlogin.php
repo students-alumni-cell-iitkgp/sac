@@ -1,6 +1,7 @@
 <?php
 $title = "login";
 include 'includeAdmin/header.php';
+$path="../connection.php";
 include 'config.php';
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     // $userAdded=adduser($_POST['username'],$_POST['password']);

@@ -32,14 +32,15 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <div class="navbar-nav me-auto">
-        <a class="nav-link active" aria-current="page" href="/sac/adminPages/adminindex.php">Home</a>
-        <a class="nav-link" href="/sac/adminPages/view.php">View Records</a>
+        <a class="nav-link active" aria-current="page" href="adminindex.php">Home </a>
+        
+        <a class="nav-link" href="view.php">View Records</a>
       </div>
       <div class="navbar-nav ms-auto">
         <?php if(!($_SESSION['userid'])){ ?>
-          <a class="nav-link active" href="/sac/adminPages/adminlogin.php">login</a>
+          <a class="nav-link active" href="adminlogin.php">login</a>
         <?php }else{ ?>
-          <a class="nav-link active" href="/sac/adminPages/logout.php">logout</a>
+          <a class="nav-link active" href="logout.php">logout</a>
         <?php } ?>
         
       </div>

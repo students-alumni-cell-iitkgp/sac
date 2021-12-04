@@ -142,6 +142,7 @@ body{
 
 <body>
     <?php
+      $path="connection.php";
       include 'adminPages/config.php';
       $batch1981=getBatch('1981');$no1981=getBatch('1981');
       $batch1982=getBatch('1982');$no1982=getBatch('1982');

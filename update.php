@@ -80,7 +80,7 @@
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link rel="stylesheet" href="css/loginpage.css">
     <!-- JS, Popper.js, and jQuery -->
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
     <script src = "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/js/bootstrap4-toggle.min.js"></script>
@@ -119,9 +119,6 @@
     flex-flow:row nowrap;
     justify-content :center;
   }
-  .section2 .bord{
-      margin-left:20px;
-  }
 
   .section2 button:hover{
     color: #4169e1;
@@ -140,7 +137,7 @@
       --bs-table-accent-bg:white;
       --bs-table-striped-bg:white;
       margin-bottom:0;
-      padding-bottom:30px;
+     
     }
     th{
       color :  #4169e1 !important;
@@ -204,7 +201,7 @@
         <div class="section2">
           <div class = "row">
             <div class="col-md-3">
-              <div class="bord" style = "width:106%;padding-bottom:10px;margin-left:-10px;">
+              <div class="bord" style = "width:103%;padding-bottom:10px;margin-left:-10px;">
               <div class="bttons"> <button class=" my-1" id = "personal" onclick="personal()" ><i class="fas fa-user d"></i> PERSONAL INFO</button> </div>
               <div class="bttons"> <button class=" my-1" id = "work"     onclick="work()"><i class="fas fa-briefcase d"></i> WORK EXPERIENCE</button> </div>
               <div class="bttons"> <button class=" my-1" id = "nostalg"  onclick="nostalg()"><i class="fas fa-hand-peace d"></i> NOSTALGIC SECTION</button> </div>
