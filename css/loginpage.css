@@ -32,7 +32,7 @@ body {
     max-width: 580px;
     box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
-    padding: 2%;
+    padding-bottom: 2%;
 }
 
 .form-control {
@@ -81,6 +81,7 @@ body {
 }
 
 .p-0 {
+    background-color: rgba(255, 255, 255, 0.938);
     padding-left: 0 !important;
     padding-right: 0 !important;
 }
