@@ -7,7 +7,8 @@
     $title="index"; 
     include 'includeAdmin/header.php'; 
     include 'includeAdmin/authUser.php';
-    //include 'includeAdmin/authUser.php'; 
+    //include 'includeAdmin/authUser.php';
+    $path="../connection.php"; 
     include 'config.php';
     
 ?>

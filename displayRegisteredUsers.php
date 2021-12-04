@@ -18,7 +18,8 @@
     <!-- Bootstrap 4 Stylesheet -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <!-- jquery -->
+    <link rel="stylesheet" href="css/loginpage.css">
+        <!-- jquery -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
     </script>
@@ -27,10 +28,121 @@
 
 </head>
 
+<style>
+body{
+    background-image: url("./img/form-bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .dropdown-menu a:hover{
+        color:#4169e1;
+    }
+  .section2{
+    display:block;
+    width:100%;
+    justify-content:center;
+    /* margin-bottom:1rem; */
+
+  }
+  .navbar-brand img{
+    height: 4.5rem;
+    width: 6rem;
+  }
+  .mobilemode{
+        display:none;
+        width:100%;
+  }
+  .section2 .row{
+   
+    margin-top:25px;
+    padding:0px;
+    z-index: -2;
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content :center;
+  }
+  .section2 .bord{
+      margin-left:20px;
+  }
+
+  .section2 button:hover{
+    color: #4169e1;
+  }
+  .bord .d{
+    color: #4169e1 !important;
+    margin-right:13px;
+    
+  }
+  .textS h2 {
+    color: #4169e1;
+    font-size: 280%;
+  }
+   
+  .table{
+      --bs-table-accent-bg:white;
+      --bs-table-striped-bg:white;
+      margin-bottom:0;
+      padding-bottom:30px;
+    }
+    th{
+      color :  #4169e1 !important;
+    }
+    .wrappers{
+      max-width: 75%;
+      margin-bottom:4%;   
+      background-color: rgba(255, 255, 255, 0.93);
+      
+      margin:0 auto;
+    }
+    .prof6 p{
+      color: black;
+      font-family: 'Raleway', sans-serif;
+      font-weight:500;
+    }
+    .accordion{
+      width:100%;
+    }
+    @media only screen and (max-width: 900px) {
+      .section2{
+        display:none;
+      }
+      .mobilemode{
+        display:block;
+      }
+      .wrappers{
+        margin-top:0;
+        max-width: 101%;
+        width:80%;
+        /* margin-bottom:2%;    */
+        background-color: rgb(229,228,226);
+        padding:0;
+      }
+    }
+    @media only screen and (max-width: 450px) {
+      .section2{
+        display:none;
+      }
+      .mobilemode{
+        display:block;
+      }
+      .wrappers{
+        margin-top:0;
+        max-width: 101%;
+        width:98%;
+        /* margin-bottom:2%;    */
+        background-color: rgb(229,228,226);
+        padding:0;
+      }
+    }
+    
+    
+</style>
+
 
 <body>
-    <?php include 'navbar.php'?>
     <?php
+      $path="connection.php";
       include 'adminPages/config.php';
       $batch1981=getBatch('1981');$no1981=getBatch('1981');
       $batch1982=getBatch('1982');$no1982=getBatch('1982');
@@ -43,65 +155,66 @@
       while($val=$no1997->fetch(PDO::FETCH_ASSOC)){ $no_of_people1997++;}
     
     ?>
-      <div class="container" style="margin-top:2.5vw !important;">
-        <ul class="nav justify-content-center" >
-          <li class="nav-item">
-            <button id="1981_btn" class="btn nav-link active" aria-current="page" onclick="show_1981()">1981 <span style="color:red;"><?php echo "(".$no_of_people1981.")" ?></span></button>
-          </li>
-          <li class="nav-item">
-            <button id="1982_btn" class="btn nav-link" onclick="show_1982()">1982 <span style="color:red;"><?php echo "(".$no_of_people1982.")" ?></span></button>
-          </li>
-          <li class="nav-item">
-            <button id="1996_btn" class="btn nav-link " onclick="show_1996()">1996 <span style="color:red;"><?php echo "(".$no_of_people1996.")" ?></span></button>
-          </li>
-          <li class="nav-item">
-            <button id="1997_btn" class="btn nav-link " onclick="show_1997()">1997 <span style="color:red;"><?php echo "(".$no_of_people1997.")" ?></span></button>
-          </li>
-        </ul>
-        <div id="1981" style="margin-top: 1vw !important;">
-          <table class="table ">
-              <tr>
-                  <th>Name</th>
-              </tr>
-              <?php   while($value=$batch1981->fetch(PDO::FETCH_ASSOC)){?>
-                <tr><td><?php echo  $value['name']; ?></td></tr>
-              <?php } ?>
-              </tr>
-              
-          </table>
+      <div class="wrappers section2" >
+        <?php include 'dashboard_navbar.php'?>
+        <div class="container-fluid" style="margin-top:2.5vw !important;">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="bord" style = "background-color:fff; width:100%;padding-bottom:10px;margin-left:-10px;">
+                <div class="bttons"><button class="my-1" id="1981_btn" onclick="show_1981()">1981 <span style="color:red;"><?php echo "(".$no_of_people1981.")" ?></span></button></div>
+                <div class="bttons"><button class="my-1" id="1982_btn" onclick="show_1982()">1982 <span style="color:red;"><?php echo "(".$no_of_people1982.")" ?></span></button></div>
+                <div class="bttons"><button class="my-1" id="1996_btn" onclick="show_1996()">1996 <span style="color:red;"><?php echo "(".$no_of_people1996.")" ?></span></button></div>
+                <div class="bttons"><button class="my-1" id="1997_btn" onclick="show_1997()">1997 <span style="color:red;"><?php echo "(".$no_of_people1997.")" ?></span></button></div>
+              </div>
+            </div>
+            <div class="col-8" style="background-color:white;">
+              <div class="prof1" id="1981" style="text-align:center;">
+                <table class="table">
+                    <tr>
+                        <th scope="row">Name</th>
+                    </tr>
+                    <?php   while($value=$batch1981->fetch(PDO::FETCH_ASSOC)){?>
+                      <tr><td><?php echo  $value['name']; ?></td></tr>
+                    <?php } ?>
+                    </tr>
+                    
+                </table>
+              </div>
+              <div id="1982" style="text-align:center;">
+                <table class="table">
+                    <tr>
+                        <th scope="row">Name</th>
+                    </tr>
+                    <?php   while($value=$batch1982->fetch(PDO::FETCH_ASSOC)){?>
+                      <tr><td><?php echo  $value['name']; ?></td></tr>
+                    <?php } ?>
+                </table>
+              </div>
+              <div id="1996" style="text-align:center; ">
+                <table class="table">
+                    <tr>
+                        <th scope="row">Name</th>
+                    </tr>
+                    <?php   while($value=$batch1996->fetch(PDO::FETCH_ASSOC)){?>
+                      <tr><td><?php echo  $value['name']; ?></td></tr>
+                    <?php } ?>
+                </table>
+              </div>
+              <div id="1997" style="text-align:center; ">
+                <table class="table">
+                    <tr>
+                        <th scope="row">Name</th>
+                    </tr>
+                    <?php   while($value=$batch1997->fetch(PDO::FETCH_ASSOC)){?>
+                      <tr><td><?php echo  $value['name']; ?></td></tr>
+                    <?php } ?>
+                </table>
+              </div>
+            </div>
+          </div>
+          
+          
         </div>
-        <div id="1982" style="margin-top: 1vw !important;">
-          <table class="table ">
-              <tr>
-                  <th>Name</th>
-              </tr>
-              <?php   while($value=$batch1982->fetch(PDO::FETCH_ASSOC)){?>
-                <tr><td><?php echo  $value['name']; ?></td></tr>
-              <?php } ?>
-          </table>
-        </div>
-        <div id="1996" style="margin-top: 1vw !important;">
-          <table class="table ">
-              <tr>
-                  <th>Name</th>
-              </tr>
-              <?php   while($value=$batch1996->fetch(PDO::FETCH_ASSOC)){?>
-                <tr><td><?php echo  $value['name']; ?></td></tr>
-              <?php } ?>
-          </table>
-        </div>
-        <div id="1997" style="margin-top: 1vw !important;">
-          <table class="table ">
-              <tr>
-                  <!-- <th>S.No</th> -->
-                  <th>Name</th>
-              </tr>
-              <?php   while($value=$batch1997->fetch(PDO::FETCH_ASSOC)){?>
-                <tr><td><?php echo  $value['name']; ?></td></tr>
-              <?php } ?>
-          </table>
-        </div>
-        
       </div>
       <script>
           function show_1981(){
@@ -109,40 +222,40 @@
             document.getElementById('1982').style.display = "none";
             document.getElementById('1996').style.display = "none";
             document.getElementById('1997').style.display = "none";
-            document.getElementById('1981_btn').className = "btn btn-dark nav-link";
-            document.getElementById('1982_btn').className = "btn btn-light nav-link";
-            document.getElementById('1996_btn').className = "btn btn-light nav-link";
-            document.getElementById('1997_btn').className = "btn btn-light nav-link";
+            document.getElementById("1981_btn").style.color = "#4169e1";
+            document.getElementById("1982_btn").style.color     = "black";
+            document.getElementById("1996_btn").style.color  = "black";
+            document.getElementById("1997_btn").style.color    = "black";
           }
           function show_1982(){
             document.getElementById('1981').style.display = "none";
             document.getElementById('1982').style.display = "block";
             document.getElementById('1996').style.display = "none";
             document.getElementById('1997').style.display = "none";
-            document.getElementById('1981_btn').className = "btn btn-light nav-link";
-            document.getElementById('1982_btn').className = "btn btn-dark nav-link";
-            document.getElementById('1996_btn').className = "btn btn-light nav-link";
-            document.getElementById('1997_btn').className = "btn btn-light nav-link";
+            document.getElementById("1981_btn").style.color = "black";
+            document.getElementById("1982_btn").style.color     = "#4169e1";
+            document.getElementById("1996_btn").style.color  = "black";
+            document.getElementById("1997_btn").style.color    = "black";
           }
           function show_1996(){
             document.getElementById('1981').style.display = "none";
             document.getElementById('1982').style.display = "none";
             document.getElementById('1996').style.display = "block";
             document.getElementById('1997').style.display = "none";
-            document.getElementById('1981_btn').className = "btn btn-light nav-link";
-            document.getElementById('1982_btn').className = "btn btn-light nav-link";
-            document.getElementById('1996_btn').className = "btn btn-dark nav-link";
-            document.getElementById('1997_btn').className = "btn btn-light nav-link";
+            document.getElementById("1981_btn").style.color = "black";
+            document.getElementById("1982_btn").style.color     = "black";
+            document.getElementById("1996_btn").style.color  = "#4169e1";
+            document.getElementById("1997_btn").style.color    = "black";
           }
           function show_1997(){
             document.getElementById('1981').style.display = "none";
             document.getElementById('1982').style.display = "none";
             document.getElementById('1996').style.display = "none";
             document.getElementById('1997').style.display = "block";
-            document.getElementById('1981_btn').className = "btn btn-light nav-link";
-            document.getElementById('1982_btn').className = "btn btn-light nav-link";
-            document.getElementById('1996_btn').className = "btn btn-light nav-link";
-            document.getElementById('1997_btn').className = "btn btn-dark nav-link";
+            document.getElementById("1981_btn").style.color = "black";
+            document.getElementById("1982_btn").style.color     = "black";
+            document.getElementById("1996_btn").style.color  = "black";
+            document.getElementById("1997_btn").style.color    = "#4169e1";
           }
 
           show_1981();

@@ -1,6 +1,7 @@
 <?php 
     $title="success"; 
     include 'includeAdmin/header.php'; 
+    $path="../connection.php"; 
     include 'config.php'; 
     if(isset($_GET['id'])){
         $result=viewrecord($_GET['id']);
