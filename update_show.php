@@ -94,7 +94,7 @@
                                 <span style="color:red;">*</span>
                             </label>
                             <div class="input-group mb-3">
-                                <span class="input-group-text" style="font-weight: 600;" id="basic-addon1">@</span>
+                                <span class="input-group-text" style="font-weight: 600; color: #0069D9" id="basic-addon1">@</span>
                                 <input class="form-control" type="text" name="name" id="name" class="validate" value = "<?php echo "$name"?>" required>
                             </div>
                         </div>
@@ -107,7 +107,7 @@
                                 <span style="color:red;"></span>
                             </label>
                             <div class="input-group mb-3">
-                                <span class="input-group-text" style="font-weight: 600;" id="basic-addon1"><i class="fas fa-envelope"></i></span>
+                                <span class="input-group-text" style="font-weight: 600;" id="basic-addon1"><i style="color: #0069D9;" class="fas fa-envelope"></i></span>
                                 <input class="form-control" type="email" name="email" id="email" value = "<?php echo "$email"?>" readonly>
                             </div>
                             
@@ -123,7 +123,7 @@
                         <div class="col-sm-12 ">
                             <label for="address">Address </label>
                             <div class="input-group mb-3">
-                                <span class="input-group-text" style="font-weight: 600;" id="basic-addon1"><i class="fas fa-address-card"></i></span>
+                                <span class="input-group-text" style="font-weight: 600;" id="basic-addon1"><i style="color: #0069D9;" class="fas fa-address-card"></i></span>
                                 <input class="form-control" type="text" name="address" id="personal_address" value = "<?php echo "$address"?>">
                             </div> 
                             <small class = "text-muted">Do not use inverted commams (',")</small> 
@@ -147,7 +147,7 @@
                         <div class="col-sm-12 col-md-6">
                             <label for="mobile">Mobile <span style="color:red;">*</span></label>
                             <div class="input-group mb-3">
-                                <span class="input-group-text" style="font-weight: 600;" id="basic-addon1"><i class="fas fa-phone"></i></span>
+                                <span class="input-group-text" style="font-weight: 600;" id="basic-addon1"><i style="color: #0069D9;" class="fas fa-phone"></i></span>
                                 <input class="form-control" type="text" name="mobile" id="mobile" value = "<?php echo "$mobile"?>" required>
                             </div>
                         </div>
@@ -158,8 +158,8 @@
                     </div>
                 </div>
                 <div class="row justify-content-md-between justify-content-around">
-                    <div class=" col-md-2 col-3"><a class="btn btn-outline-dark ml-3" href="update.php" role="button">Skip</a> </div>
-                    <div class=" col-md-2 col-3">     <button class="btn btn-dark" type = "button" onclick="next1()">Next</button></div>
+                    <div class=" col-md-2 col-3"><a class="btn btn-outline-primary ml-3" href="update.php" role="button">Skip</a> </div>
+                    <div class=" col-md-2 col-3">     <button class="btn btn-primary" type = "button" onclick="next1()">Next</button></div>
                 </div>
             </div>
 
@@ -266,16 +266,8 @@
                                 <!-- <datalist id="room"> -->
                                 <!--<option value=""></option> -->
                                 <option value="Technology Guest House/ Alumni Guest House">Technology Guest House/ Alumni Guest House</option> 
-                                    <!-- <option value="Technology Guest House - DO | Acc">Technology Guest House - DO | Acc(Double Occupancy | Accomodation)</option> -->
-                                    <!-- <option value="Technology Guest House - DO | Acc(Double Occupancy | Accomodation)"> -->
-                                    <!-- <option value="Technology Guest House - DO | Al(Double Occupancy | Shared)">Technology Guest House - DO | Al(Double Occupancy | Shared)</option> -->
                                      <option value="VGH/ SAM">VGH/ SAM</option>
                                      <option value="notreq">Guest House not Required</option>
-                                    <!-- <option value="VGH/CEC - AC - DO | Al"> VGH/CEC - AC - DO | Al </option> 
-                                    <option value="VGH/CEC - Non-AC - SO"> VGH/CEC - Non-AC - SO</option> 
-                                    <option value="VGH 3/4  bedded- DO | Al"> VGH 3/4  bedded- DO | Al</option> 
-                                    <option value="AGH - DO | Acc"> AGH - DO | Acc</option> 
-                                    <option value="SAM - DO | Al "> SAM - DO | Al </option>  -->
                                 </select>
                             </div >
     
@@ -286,11 +278,11 @@
                     </div>
                 </div>
                 <div class="row justify-content-md-between justify-content-around">
-                    <div class=" col-md-2 col-3">  <button class="btn btn-dark"  type = "button" onclick="back1()">Back</button> </div>
-                    <div class=" col-md-2 col-3">     <button class="btn btn-dark" type = "button" onclick="next2()">Next</button></div>
+                    <div class=" col-md-2 col-3">  <button class="btn btn-primary"  type = "button" onclick="back1()">Back</button> </div>
+                    <div class=" col-md-2 col-3">     <button class="btn btn-primary" type = "button" onclick="next2()">Next</button></div>
                 </div>
                 
-                <!-- <button class="btn btn-dark" onclick="next2()">Next</button> -->
+                <!-- <button class="btn btn-primary" onclick="next2()">Next</button> -->
             </div>
             
             <div class="section4">
@@ -310,7 +302,7 @@
                         <div class="col-sm-12 col-md-6">
                             <label for="prof">Profession </label>
                             <div class="input-group mb-3">
-                                <span class="input-group-text" style="font-weight: 600;" id="basic-addon1"><i class="fas fa-briefcase"></i></span>
+                                <span class="input-group-text" style="font-weight: 600;" id="basic-addon1"><i style="color: #0069D9;" class="fas fa-briefcase"></i></span>
                                 <input class="form-control" type="text" id="prof" name="profession" value = "<?php echo "$profession"?>">
                             </div>
                             
@@ -326,7 +318,7 @@
                         <div class="col-sm-12">
                             <label for="address">Address</label>
                             <div class="input-group mb-3">
-                                <span class="input-group-text" style="font-weight: 600;" id="basic-addon1"><i class="fas fa-address-card"></i></span>
+                                <span class="input-group-text" style="font-weight: 600;" id="basic-addon1"><i style="color: #0069D9;" class="fas fa-address-card"></i></span>
                                 <input class="form-control" type="text" id="address" name="work_address" value = "<?php echo "$waddress"?>">
                             </div>
                             <small class = "text-muted">Do not use inverted commams (',")</small>
@@ -343,7 +335,7 @@
                         <div class="col-sm-12 col-md-6">
                             <label for="Country">Country</label>
                             <div class="input-group mb-3">
-                                <span class="input-group-text" style="font-weight: 600;" id="basic-addon1"><i class="fas fa-globe"></i></i></span>
+                                <span class="input-group-text" style="font-weight: 600;" id="basic-addon1"><i style="color: #0069D9;" class="fas fa-globe"></i></i></span>
                                 <input class="form-control" type="text" id="Country" name="work_country" value = "<?php echo "$wcountry"?>">
                             </div>
                             
@@ -356,11 +348,11 @@
                 </div>
                 <div class="row justify-content-md-between justify-content-around guesth">
 
-                    <div class=" col-md-1 col-3">  <button class="btn btn-dark" type = "button" onclick="back2()">Back</button> </div>
-                    <div class=" col-md-1 col-3">     <button class="btn btn-dark" type = "button" onclick="next3()">Next</button></div>
+                    <div class=" col-md-1 col-3">  <button class="btn btn-primary" type = "button" onclick="back2()">Back</button> </div>
+                    <div class=" col-md-1 col-3">     <button class="btn btn-primary" type = "button" onclick="next3()">Next</button></div>
 
                 </div>
-                <!-- <button class="btn btn-dark" onclick="next2()">Next</button> -->
+                <!-- <button class="btn btn-primary" onclick="next2()">Next</button> -->
             </div>
         
 
@@ -384,7 +376,7 @@
                         <div class="col-sm-12 col-md-6">
                             <label for="degree">Degree <span style="color:red;">*</span></label>
                             <div class="input-group mb-3">
-                                <span class="input-group-text" style="font-weight: 600;" id="basic-addon1"><i class="fas fa-graduation-cap"></i></span>
+                                <span class="input-group-text" style="font-weight: 600;" id="basic-addon1"><i style="color: #0069D9;" class="fas fa-graduation-cap"></i></span>
                                 <input class="form-control" type="text" id="degree" name="degree" value = "<?php echo "$degree"?>" required>
                             </div>
                             
@@ -415,8 +407,8 @@
                 </div>
                 <div class="row justify-content-md-between justify-content-around guesth">
 
-                    <div class=" col-md-1 col-3">  <button class="btn btn-dark" type = "button" onclick="back3()">Back</button> </div>
-                    <div class=" col-md-1 col-3">     <button class="btn btn-dark" type = "submit">Submit</button></div>
+                    <div class=" col-md-1 col-3">  <button class="btn btn-primary" type = "button" onclick="back3()">Back</button> </div>
+                    <div class=" col-md-1 col-3">     <button class="btn btn-primary" type = "submit">Submit</button></div>
                 </div>
                 <center>
 
@@ -461,8 +453,8 @@
                     </div>
                 </div>
                 <div class="row justify-content-md-between justify-content-around guesth">
-                    <div class=" col-md-1 col-3">  <button class="btn btn-dark" type = "button" onclick="back4()">Back</button> </div>
-                    <div class=" col-md-1 col-3">     <button class="btn btn-dark" type = "button" onclick="next5()">Next</button></div>
+                    <div class=" col-md-1 col-3">  <button class="btn btn-primary" type = "button" onclick="back4()">Back</button> </div>
+                    <div class=" col-md-1 col-3">     <button class="btn btn-primary" type = "button" onclick="next5()">Next</button></div>
                 </div>
                 <center>
 
