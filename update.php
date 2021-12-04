@@ -163,7 +163,7 @@
       }
       .mobilemode{
         display:block;
-      }
+      } 
       .wrappers{
         margin-top:0;
         max-width: 101%;
