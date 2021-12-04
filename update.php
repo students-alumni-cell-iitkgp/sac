@@ -87,7 +87,7 @@
 </head>
 <style>
     body{
-    background-image: url("./css/bkt.png");
+    background-image: url("./img/form-bg.jpeg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
   }
@@ -119,7 +119,6 @@
     flex-flow:row nowrap;
     justify-content :center;
   }
-
 
   .section2 button:hover{
     color: #4169e1;
@@ -197,70 +196,7 @@
     <section>
   <div class="wrappers">
          
-        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-
-<div class="container-fluid">
-  <a class="navbar-brand" href="#"><img  src="img/aamlogo.png"></a>
- 
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown2"
-  aria-controls="navbarNavDropdown2" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="navbar-collapse collapse  justify-content-end" id="navbarNavDropdown2">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item active"> <a class="nav-link" href="#prof1">Dashboard</a> </li>
-      
-      <li class="nav-item">
-        <a class="nav-link" href="displayRegisteredUsers.php">Attendee </a>
-       
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link" href="#" data-bs-toggle="dropdown"> Edit</a>
-        <div>	
-        <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="update_show.php" > Update</a></li>
-          <li><a class="dropdown-item" href="adminpage.php"> Payment</a></li>
-          <li><a class="dropdown-item" href="TravellingDetails.php"> Travel Details</a></li> 
-        </ul>
-      </div>
-      </li>
-      <li class="nav-item"><a class="nav-link" href="logout2.php"> Logout</a></li>
-       
-    </ul>
-  </div>
-</div>
-
-</nav>
-
-
-       <!-- <center>
-           <div class="row d-flex justify-content-md-between justify-content-center " style = "background-color : white;padding-top:1%;margin:0;">
-             <div class="col-1">
-             
-             </div>
-             <div class=" col-7 textS"><h2>
-                    DASHBOARD
-              </h2></div>
-           
-              <div class="col-1 hovereff"><div class="dropdown dropleft">
-              <button class="btn  p-md-2 p-sm-1 " type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
-              <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
-              </svg>
-              </button>
-              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
-
-                      <a class="dropdown-item " href="update_show.php" role="button">UPDATE</a>  
-                      <a class="dropdown-item " href="adminpage.php" role="button">PAYMENT</a>
-                      <a class="dropdown-item " href="TravellingDetails.php" role="button">TRAVEL DETAILS</a>
-                      <a class="dropdown-item " href="displayRegisteredUsers.php" role="button">ATTENDEES</a>
-                      <div class="dropdown-divider"></div>
-                      <a class="dropdown-item " href="logout2.php" role="button">LOG OUT</a>
-
-              </div>
-              </div>
-            </div>
-        </center>-->
+  <?php include('dashboard_navbar.php') ?>
 
         <div class="section2">
           <div class = "row">
