@@ -103,12 +103,13 @@ label {
 @media (min-width: 900px) {
     .bord {
         background-color: white;
+        font-size: 0.9em;
     }
     .bord .bttons {
-        font-size: large;
+        /* font-size: large; */
         margin: 2px;
         padding: 4px 6px;
-        width: 100%;
+        /* width: 100%; */
     }
     .bord button {
         outline: none;
