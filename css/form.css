@@ -7,12 +7,12 @@ form{
 
 body{
     /* background-image: linear-gradient(105deg, rgba(113, 225, 233, 0.651) 20%, rgb(228, 224, 216)); */
-    background-image: url("bkt.png");
+    background-image: url("../img/form-bg.jpeg");
     background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 .progress-bar{
-    background-color: #394149 !important;
+    background-color: #0069D9 !important;
 }
 
 .wrapper{
