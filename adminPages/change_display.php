@@ -1,6 +1,7 @@
 <?php 
     $title="index"; 
     include 'includeAdmin/header.php'; 
+    $path="../connection.php"; 
     include 'config.php';
     
     if(isset($_GET['email'])){

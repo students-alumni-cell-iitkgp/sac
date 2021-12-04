@@ -12,7 +12,7 @@
                     <a class="nav-link" href="displayRegisteredUsers.php">Attendee </a>                
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link" href="update_show.php" data-bs-toggle="dropdown"> Edit</a>
+                    <a class="nav-link" href="#" data-bs-toggle="dropdown"> Edit</a>
                     <div>	
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="update_show.php" > Update</a></li>
