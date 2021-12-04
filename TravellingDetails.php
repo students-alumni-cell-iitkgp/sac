@@ -38,7 +38,7 @@
 
     <style>
         body{
-                background-image: url("css/bkt.png");
+                background-image: url("./img/form-bg.jpeg");
                 background-repeat: no-repeat;
                 background-size: 100% 100%;
             }
@@ -77,7 +77,7 @@
 <body>
     <?php include 'navbar.php' ?>
     <section>
-        <div class="wrappers">
+        <div class="wrapper" style="margin-bottom: 2vw;">
             <center>
                 <h2 style="font-size: 180%; color: black; font-family: 'Raleway', sans-serif;">
                     Travelling Details
@@ -154,10 +154,10 @@
 
                     <div class="row justify-content-between" style = " margin-right:3%;"> 
                         <div class="col-4 text-center">
-                            <a class="btn btn-outline-danger " href="get_update.php" role="button">Skip for Now</a>
+                            <a class="btn btn-outline-primary " href="get_update.php" role="button">Skip for Now</a>
                         </div>
                         <div class="col-2 text-center">      
-                             <div class=" col-md-1 col-3"> <button class="btn btn-dark" type = "button" onclick="next()">Next</button></div>
+                             <div class=" col-md-1 col-3"> <button class="btn btn-primary" type = "button" onclick="next()">Next</button></div>
                         </div>
                    </div>
                 </div>
@@ -224,16 +224,16 @@
 
                     <div class="row justify-content-between" style = " margin-right:3%;"> 
                         <div class="col-4 text-center">
-                           <div class=" col-md-1 col-3">  <button class="btn btn-dark" type = "button" onclick="back()">Back</button> </div>
+                           <div class=" col-md-1 col-3">  <button class="btn btn-primary" type = "button" onclick="back()">Back</button> </div>
                         </div>
                         <div class="col-2 text-center">      
-                           <button class="btn btn-success" type="submit" value = "submit">Submit</button>
+                           <button class="btn btn-primary" type="submit" value = "submit">Submit</button>
                         </div>
                    </div>
                 </div>
             </form>
             <hr />
-            <center>
+            <center >
                         <h6>You Can also inform us by mail </h6>
                         <h6><i class="contact-icon fas fa-envelope"></i> Mail: aao@hijli.iitkgp.ernet.in</h6>        
               </center>
