@@ -1,11 +1,11 @@
  <?php 
-  // include $path;
+  include $path;
   //testing
-  $DB_HOST="localhost";
-  $database="admin";
-  $DB_USER="root";
-  $DB_PASS="";
-  $charset="utf8mb4";
+  // $DB_HOST="localhost";
+  // $database="admin";
+  // $DB_USER="root";
+  // $DB_PASS="";
+  // $charset="utf8mb4";
   //main
   //  $charset="utf8mb4";
 
