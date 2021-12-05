@@ -82,7 +82,7 @@ include 'connection.php';
            $stmt->bindparam(':email',$email);
            $resu = $stmt->execute();
            if($resu){
-              header("Location: get_update.php");
+               header("Location: get_update.php");
            }
            else{
             echo '<div class="alert alert-danger alert-dismissible fade show" role="alert">
@@ -91,7 +91,7 @@ include 'connection.php';
               <span aria-hidden="true">×</span>
             </button>
           </div>';
-          // header("Location: errorpage.html");
+          header("Location: errorpage.html");
            }
 
         //header("Location: get_update.php");
@@ -104,7 +104,7 @@ include 'connection.php';
             <span aria-hidden="true">×</span>
           </button>
         </div>';
-        // header("Location: errorpage.html");
+        header("Location: errorpage.html");
         }
       // }
 
