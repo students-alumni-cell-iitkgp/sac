@@ -103,9 +103,14 @@ label {
 @media (min-width: 900px) {
     .bord {
         background-color: white;
+        font-size: 0.9em;
     }
     .bord .bttons {
+<<<<<<< HEAD
         font-size:3rem !important;
+=======
+        /* font-size: large; */
+>>>>>>> 10d477c55ac877a12c9e0980eed4fb7903443f68
         margin: 2px;
         padding: 4px 6px;
         /* width: 100%; */
