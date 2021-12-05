@@ -7,7 +7,7 @@
   // $DB_PASS="";
   // $charset="utf8mb4";
   //main
-  //  $charset="utf8mb4";
+   $charset="utf8mb4";
 
   
   $dsn="mysql:host=$DB_HOST;dbname=$database;charset=$charset";
