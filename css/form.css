@@ -97,6 +97,11 @@ table {
 }
   
   
-
+#size_file{
+    /* display: none; */
+    visibility:hidden;
+    /* visibility: visible; */
+    color: red;
+}
   
   
