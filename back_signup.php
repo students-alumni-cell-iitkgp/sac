@@ -58,11 +58,11 @@ include 'connection.php';
                  `marital`, `accompaniments` ,`gh`,
                  `industry`, `profession` ,`organisation`,`designation`,`waddress`,`wcity`,`wstate`,`wcountry`,`wzipcode`,
                  `rollno`, `joinyear` ,`degree`,`dept`,`hall`,`yog`,`involvement`,`hobbies`,`cost`)
-                 VALUES (':name', ':email', ':address' ,':city',':state',':country',':zipcode',':mobile',':dob',
-                 ':status', ':certificate' ,':dosedate',
-                 ':marital', ':accompaniments' ,':gh',
-                 ':industry', ':profession' ,':organisation',':designation',':waddress',':wcity',':wstate',':wcountry',':wzipcode',
-                 ':rollno', ':joinyear' ,':degree',':dept',':hall',':yog',':involvement',':hobbies',':cost')";
+                 VALUES (:name, :email, :address ,:city,:state,:country,:zipcode,:mobile,:dob,
+                 :status, :certificate ,:dosedate,
+                 :marital, :accompaniments ,:gh,
+                 :industry, :profession ,:organisation,:designation,:waddress,:wcity,:wstate,:wcountry,:wzipcode,
+                 :rollno, :joinyear ,:degree,:dept,:hall,:yog,:involvement,:hobbies,:cost)";
         // binding params
       $stmt=$GLOBALS["conn"]->prepare($sql);
       $stmt->bindparam(':name',$name);$stmt->bindparam(':email',$email);$stmt->bindparam(':address',$address);$stmt->bindparam(':city',$city);$stmt->bindparam(':state',$state);$stmt->bindparam(':country',$country);$stmt->bindparam(':zipcode',$zipcode);$stmt->bindparam(':mobile',$mobile);$stmt->bindparam(':dob',$dob);$stmt->bindparam(':status',$status);$stmt->bindparam(':certificate',$certificate);$stmt->bindparam(':dosedate',$dosedate);$stmt->bindparam(':marital',$marital);$stmt->bindparam(':accompaniments',$accompaniments);$stmt->bindparam(':gh',$gh);$stmt->bindparam(':industry',$industry);$stmt->bindparam(':profession',$profession);$stmt->bindparam(':organisation',$organisation);$stmt->bindparam(':designation',$designation);$stmt->bindparam(':waddress',$waddress);$stmt->bindparam(':wcity',$wcity);$stmt->bindparam(':wstate',$wstate);$stmt->bindparam(':wcountry',$wcountry);$stmt->bindparam(':wzipcode',$wzipcode);$stmt->bindparam(':rollno',$rollno);$stmt->bindparam(':joinyear',$joinyear);$stmt->bindparam(':degree',$degree);$stmt->bindparam(':dept',$dept);$stmt->bindparam(':hall',$hall);$stmt->bindparam(':yog',$yog);$stmt->bindparam(':involvement',$involvement);$stmt->bindparam(':hobbies',$hobbies);$stmt->bindparam(':cost',$cost);
@@ -77,7 +77,7 @@ include 'connection.php';
         </div>'; 
 
            /// insert email in travel table by this we only have to update travel travel
-           $sql = "INSERT INTO `travel` (`email`) VALUES (':email')";
+           $sql = "INSERT INTO `travel` (`email`) VALUES (:email)";
            $stmt=$GLOBALS['conn']->prepare($sql);
            $stmt->bindparam(':email',$email);
            $resu = $stmt->execute();

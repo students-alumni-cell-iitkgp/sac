@@ -577,24 +577,24 @@
             }else{
                 next5Allow=0;
             }
-            const fi = document.getElementById('certificate');
+            // const fi = document.getElementById('certificate');
         // Check if any file is selected.
-        if (fi.files.length > 0) {
-            for (var i = 0; i <= fi.files.length - 1; i++) {
+        // if (fi.files.length > 0) {
+        //     for (var i = 0; i <= fi.files.length - 1; i++) {
   
-                const fsize = fi.files.item(i).size;
-                const file = Math.round((fsize / 1024));
-                // The size of the file.
-                //console.log(file);
-                if(fsize > 5242880){
-                    console.log(fsize);
-                    // document.getElementById('submit').disabled = true;
-                    next5Allow = 0;
-                    document.getElementById('size_file').style.visibility = "visible";
-                    // visibility: visible;
-                }
-            }
-        }
+        //         const fsize = fi.files.item(i).size;
+        //         const file = Math.round((fsize / 1024));
+        //         // The size of the file.
+        //         //console.log(file);
+        //         if(fsize > 5242880){
+        //             console.log(fsize);
+        //             // document.getElementById('submit').disabled = true;
+        //             next5Allow = 0;
+        //             document.getElementById('size_file').style.visibility = "visible";
+        //             // visibility: visible;
+        //         }
+        //     }
+        // }
             if(next5Allow){
 
                 document.getElementsByClassName("section2")[0].style.display = 'none';
@@ -745,17 +745,17 @@
     //     if (fi.files.length > 0) {
     //         for (var i = 0; i <= fi.files.length - 1; i++) {
   
-                const fsize = fi.files.item(i).size;
-                const file = Math.round((fsize / 1024));
-                // The size of the file.
-                //console.log(file);
-                if(fsize > 5242880){
-                    console.log(file);
-                    document.getElementById('submit').disabled = true;
-                }
-            }
-        }
-    }
+                // const fsize = fi.files.item(i).size;
+                // const file = Math.round((fsize / 1024));
+                // // The size of the file.
+                // //console.log(file);
+                // if(fsize > 5242880){
+                //     console.log(file);
+                //     document.getElementById('submit').disabled = true;
+                // }
+            // }
+        
+    // }
     // reload the form when users click back button given on brower 
     if(performance.navigation.type == 2){
         location.reload(true);
