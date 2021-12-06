@@ -49,7 +49,7 @@ Total no of registrations are: &ensp; <h2><?php echo $total ;?></h2>
 <!-- <?//php foreach($results->fetchAll(PDO::FETCH_ASSOC) as $value){ ?> -->
 <tr>
     
-    <td><?php echo $value['Name']; ?></td>
+    <td><?php echo $value['name']; ?></td>
     <td><?php echo $value['email']; ?></td>
     <td><?php echo $value['accompaniments']; ?></td>
     <td><?php echo $value['reciept']; ?></td>
