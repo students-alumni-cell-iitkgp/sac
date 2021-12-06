@@ -10,7 +10,7 @@
    $charset="utf8mb4";
 
   
-  $dsn="mysql:host=$DB_HOST;dbname=$database;charset=$charset";
+  $dsn="mysql:host=$DB_HOST;dbname=$DB_NAME;charset=$charset";
   try { 
     
     $pdo= new PDO($dsn,$DB_USER,$DB_PASS);

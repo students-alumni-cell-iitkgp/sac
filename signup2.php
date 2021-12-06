@@ -24,7 +24,6 @@ if ($_SERVER["REQUEST_METHOD"]== "POST") {
     $users = $resultSet->fetch_all(MYSQLI_ASSOC);
 
     $_SESSION['email'] = $email;
-    console.log($_SESSION['email'],$email);
     $_SESSION['password'] = $password;
 
     $check = 1;
