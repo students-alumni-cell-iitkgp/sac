@@ -19,7 +19,7 @@ require 'connection.php';
     $users = $resultSet->fetch_all(MYSQLI_ASSOC);
     foreach($users as $user) {
 
-        $name    = $user['Name']      ;
+        $name    = $user['name']      ;
         //$email   = $user['email']     ;
         $address = $user['Address']   ;
         $city    = $user['City']      ;
