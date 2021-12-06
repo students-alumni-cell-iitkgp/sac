@@ -126,7 +126,7 @@
                                 <span class="input-group-text" style="font-weight: 600;" id="basic-addon1"><i style="color: #0069D9;" class="fas fa-address-card"></i></span>
                                 <input class="form-control" type="text" name="address" id="personal_address" value = "<?php echo "$address"?>">
                             </div> 
-                            <small class = "text-muted">Do not use inverted commams (',")</small> 
+                         
                         </div>
                         <div class="col-sm-12 col-md-6">
                             <label for="city">City <span style="color:red;">*</span></label>
@@ -396,12 +396,12 @@
                         <div class="col-sm-12">
                             <label for="yog">Involvements (Societies, Hall Events, etc) </label>
                             <input class="form-control" type="text" id="involvements" name="involvements" value = "<?php echo "$involvement"?>">
-                            <small class = "text-muted">Do not use inverted commams (',")</small>
+                          
                         </div>
                         <div class="col-sm-12">
                             <label for="yog">Hobbies</label>
                             <input class="form-control" type="text" id="hobbies" name="hobbies" value = "<?php echo "$hobbies"?>">
-                            <small class = "text-muted">Do not use inverted commams (',")</small>
+                           
                         </div>
                     </div>
                 </div>
