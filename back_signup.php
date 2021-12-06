@@ -87,7 +87,7 @@ include 'connection.php';
 
            /// insert email in travel table by this we only have to update travel travel
            $sql = "INSERT INTO `travel` (`email`) VALUES (:email)";
-           $stmt=$GLOBALS["conn"]->prepare($sql);
+           $stmt=$GLOBALS['conn']->prepare($sql);
            $stmt->bindparam(':email',$email);
            $resu = $stmt->execute();
            if($resu){
