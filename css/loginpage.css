@@ -103,12 +103,17 @@ label {
 @media (min-width: 900px) {
     .bord {
         background-color: white;
+        font-size: 0.9em;
     }
     .bord .bttons {
-        font-size: large;
+<<<<<<< HEAD
+        font-size:3rem !important;
+=======
+        /* font-size: large; */
+>>>>>>> 10d477c55ac877a12c9e0980eed4fb7903443f68
         margin: 2px;
         padding: 4px 6px;
-        width: 100%;
+        /* width: 100%; */
     }
     .bord button {
         outline: none;
@@ -116,6 +121,7 @@ label {
         border: 0px solid transparent;
         display: block;
         width: max-content;
+        font-size:1rem !important;
     }
     /*.bord .bttons:hover {
         background-color: rgb(255, 255, 255);
