@@ -5,10 +5,10 @@ session_start();
 $query="SELECT * FROM users WHERE email='".$_SESSION["email"]."'";
 if( $query_run = mysqli_query($connection, $query) ){
   $row = mysqli_fetch_assoc($query_run);
-  $name = $row['name'];
+  $name = $row['Name'];
 }
 
-@$file_name = $name.'.'.end(explode(".",$_FILES["filetoupload"]["name"] ));
+@$file_name = $name.'.'.end(explode(".",$_FILES["filetoupload"]["Name"] ));
 
 $target_dir = "upload/";
 $target_file = $target_dir . basename($file_name);

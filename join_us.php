@@ -1,7 +1,7 @@
 <?php 
 if(isset($_POST['commit'])){
     
-    $var1=$_POST['name'];
+    $var1=$_POST['Name'];
     $var6=$_POST['designation'];
     $var2=$_POST['email'];
     $var3=$_POST['contact'];
@@ -9,7 +9,7 @@ if(isset($_POST['commit'])){
     $var5=$_POST['add'];
     
     include 'connection.php';
-    $sql = "INSERT INTO joinus (name,desi, email,contact,phone ,city)
+    $sql = "INSERT INTO joinus (Name,desi, email,contact,phone ,city)
     VALUES ('$var1','$var6','$var2','$var3','$var4','$var5')";
     if (mysqli_query($connection, $sql)) {
         echo "<h1><script>alert('Thanks! Your message has been succesfully sent');</script></h1>";
@@ -37,7 +37,7 @@ mysqli_close($connection);
             </div>
 
             <div class="field">
-                <input type="text" name="name" style="border-radius:5px;" placeholder="Person Name" required><br><br>
+                <input type="text" name="Name" style="border-radius:5px;" placeholder="Person Name" required><br><br>
             </div>
             <div class="field">
                 <input type="text" name="designation" style="border-radius:5px;" placeholder="Designation" required><br><br>

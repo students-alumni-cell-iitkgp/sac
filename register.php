@@ -4,7 +4,7 @@ session_start();
 $email = $_POST["email"];
 $password = $_POST["password"];
 $password = hash('sha256', $password);
-$name = $_POST["name"];
+$name = $_POST["Name"];
 $address = $_POST["address"];
 $city = $_POST["city"];
 $state = $_POST["state"];
@@ -64,7 +64,7 @@ echo "$graduatingYear : graduatingYear<br>";
 
 
 include 'connection.php';
-$sql = "INSERT INTO users (email,Time, name, password, address, city, state, country, zipCode, mobile, dob, marital, industry, profession, orgName, designation, work_city, work_state, work_country, work_zipCode, work_address, rollNum, joinYear, degree, department, hall, graduatingYear, accompanyingNo,hobbies,involvements)
+$sql = "INSERT INTO users (email,Time, Name, password, address, city, state, country, zipCode, mobile, dob, marital, industry, profession, orgName, designation, work_city, work_state, work_country, work_zipCode, work_address, rollNum, joinYear, degree, department, hall, graduatingYear, accompanyingNo,hobbies,involvements)
         VALUES ('$email','$time', '$name', '$password', '$address', '$city', '$state', '$country', '$zipCode', '$mobile', '$dob', '$marital', '$industry', '$profession', '$orgName', '$designation', '$work_city', '$work_state', '$work_country', '$work_zipCode', '$work_address', '$rollNum', '$joinYear', '$degree', '$department', '$hall', '$graduatingYear', '$accompanyingNo','$hobbies', '$involvements')";
 $_SESSION["email"] = $email;
 if ($connection->query($sql)) {

@@ -24,7 +24,7 @@ if (($query_run1)&&($query_run2)) {
 $query="SELECT * FROM users WHERE email='".$_SESSION["email"]."'";
 if( $query_run = mysqli_query($connection, $query) ){
   $row = mysqli_fetch_assoc($query_run);
-  $name = $row['name'];
+  $name = $row['Name'];
 }
 ?>
 <html>
