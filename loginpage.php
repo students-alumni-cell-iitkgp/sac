@@ -15,7 +15,7 @@
  
     <style>
         body{
-                background-image: url("css/bkt.png");
+                background-image: url("./img/form-bg.jpeg");
                 background-repeat: no-repeat;
                 background-size: 100% 100%;
             }
@@ -38,7 +38,7 @@
 <body>
     <?php include 'navbar.php' ?>
     <section>
-        <div class="wrappers">
+        <div class="wrapper" style="width: 40vw">
             <center>
 
                 <h2 style="font-size: 300%; color: black; font-family: 'Raleway', sans-serif;">
