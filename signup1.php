@@ -151,7 +151,7 @@ else
     
       <div class="input-field col s12">
        
-        <input  type="text"  name="name" id="name" class="validate"  required>
+        <input  type="text"  name="name" id="Name" class="validate"  required>
          <label for="name">Name *</label>
       </div>
    

@@ -52,13 +52,13 @@
                         <div class="row">
                             <div class="col-sm-12 ">
 
-                                <label for="name" class="form-label">
+                                <label for="Name" class="form-label">
                                     Email
                                     <span style="color:red;">*</span>
                                 </label>
                                 <div class="input-group mb-3">
                                     <span class="input-group-text" style="font-weight: 600;" id="basic-addon1">@</span>
-                                    <input class="form-control" type="text" name="name" id="name" class="validate"
+                                    <input class="form-control" type="text" name="Name" id="Name" class="validate"
                                         required>
                                 </div>
 

@@ -1,7 +1,7 @@
 <?php
 error_reporting(0);
 
-$name = $row['name'];
+$name = $row['Name'];
 $url = $row['url'];
 
 ?>

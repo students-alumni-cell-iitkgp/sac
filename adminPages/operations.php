@@ -4,10 +4,10 @@ function insert($name,$email,$accompaniments,$payment,$vaccination,$gh,$yog){
       try{ 
             //defining the sql statement to be executed
             //backticks are used instead of single quotes!!
-            $sql="INSERT INTO `aam`( `name`, `email`,`accompaniments`, `reciept`, `status`,`gh`,`yog`) VALUES (:name,:email,:accompaniments,:payment,:vaccination,:gh,:yog)";
+            $sql="INSERT INTO `aam`( `Name`, `email`,`accompaniments`, `reciept`, `status`,`gh`,`yog`) VALUES (:name,:email,:accompaniments,:payment,:vaccination,:gh,:yog)";
             //preparing the sql statement for execution
             $stmt=$GLOBALS["pdo"]->prepare($sql);
-            $stmt->bindparam(':name',$name);
+            $stmt->bindparam(':Name',$name);
             $stmt->bindparam(':email',$email);
             $stmt->bindparam(':accompaniments',$accompaniments);
             $stmt->bindparam(':payment',$payment);

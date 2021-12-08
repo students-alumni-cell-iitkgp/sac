@@ -7,7 +7,6 @@ include_once('connection.php');
 // Establish database connection 
 
 // Establish database connection using MYSQLI.
-  $DB_NAME = 'aam';
   $db = mysqli_connect($DB_HOST, $DB_USER, $DB_PASS, $DB_NAME);
   // Check connection
   if (mysqli_connect_errno())
@@ -28,6 +27,7 @@ if(!empty($email)) {
     $sql ="SELECT `email` FROM `travel` WHERE `email` = '$email' ";
     $results = mysqli_query($db, $sql);
 
+    $num_row = 0;
 
     if($results -> num_rows)
     {

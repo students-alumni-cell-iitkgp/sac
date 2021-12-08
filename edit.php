@@ -17,7 +17,7 @@ include 'connection.php';
           $query="SELECT * FROM users WHERE email='".$_SESSION["email"]."'";
           if( $query_run = mysqli_query($connection, $query) ){
             $row = mysqli_fetch_assoc($query_run);
-            $name = $row['name'];
+            $name = $row['Name'];
             }
 ?>
 
@@ -94,8 +94,8 @@ include 'connection.php';
 
      <div class="row1">
       <div class="input-field col s12">       
-         <input  value="<?php echo $row['name']; ?>" type="text"  name="name" id="name" class="validate"  required>
-         <label for="name">Name <span style="color:red;">*</span></label>
+         <input  value="<?php echo $row['Name']; ?>" type="text"  name="name" id="Name" class="validate"  required>
+         <label for="Name">Name <span style="color:red;">*</span></label>
       </div>   
       
 
