@@ -7,6 +7,8 @@
   // $DB_PASS="";
   // $charset="utf8mb4";
   //main
+
+  $DB_NAME = "aam";
    $charset="utf8mb4";
 
   
