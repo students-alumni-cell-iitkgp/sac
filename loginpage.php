@@ -19,6 +19,9 @@
                 background-repeat: no-repeat;
                 background-size: 100% 100%;
             }
+            .wrappers {
+    padding: 2%;
+}
     </style>
 
     <!-- JS, Popper.js, and jQuery -->
