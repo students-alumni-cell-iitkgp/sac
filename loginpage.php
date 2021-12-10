@@ -15,7 +15,7 @@
  
     <style>
         body{
-                background-image: url("css/bkt.png");
+                background-image: url("./img/form-bg.jpeg");
                 background-repeat: no-repeat;
                 background-size: 100% 100%;
             }
@@ -41,7 +41,7 @@
 <body>
     <?php include 'navbar.php' ?>
     <section>
-        <div class="wrappers">
+        <div class="wrapper" style="width: 40vw">
             <center>
 
                 <h2 style="font-size: 300%; color: black; font-family: 'Raleway', sans-serif;">
@@ -55,13 +55,13 @@
                         <div class="row">
                             <div class="col-sm-12 ">
 
-                                <label for="name" class="form-label">
+                                <label for="Name" class="form-label">
                                     Email
                                     <span style="color:red;">*</span>
                                 </label>
                                 <div class="input-group mb-3">
                                     <span class="input-group-text" style="font-weight: 600;" id="basic-addon1">@</span>
-                                    <input class="form-control" type="text" name="name" id="name" class="validate"
+                                    <input class="form-control" type="text" name="Name" id="Name" class="validate"
                                         required>
                                 </div>
 

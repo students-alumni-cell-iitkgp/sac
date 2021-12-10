@@ -19,7 +19,7 @@ require 'connection.php';
       else{ 
         // Submit these to a database
         // Sql query to be executed 
-        $sql = "INSERT INTO `sponsentry` (`name`, `designation` ,`details`,`email`,`phoneno`,`address`) VALUES ('$name', '$designation' ,'$details','$email','$phoneno','$address')";
+        $sql = "INSERT INTO `sponsentry` (`Name`, `designation` ,`details`,`email`,`phoneno`,`address`) VALUES ('$name', '$designation' ,'$details','$email','$phoneno','$address')";
         $result = mysqli_query($conn, $sql);
  
         if($result){

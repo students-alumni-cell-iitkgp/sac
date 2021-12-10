@@ -10,7 +10,7 @@
 
     if($_SERVER["REQUEST_METHOD"]=="POST")
     {
-        $name=$_POST['name'];
+        $name=$_POST['Name'];
         $dep=$_POST['department'];
         $hall=$_POST['hall'];
         $batch=$_POST['batch'];
@@ -23,7 +23,7 @@
 
 
         // $sql = "UPDATE `user` SET Amount_of_Payment='$amount', payment_status='$payment',room_no='$room',acco_status='$acco',regdesk_status='$reg', comment='$comment', Accompaniments='$accompany' WHERE id=$ids" ;
-        $sql = "INSERT INTO `user` (`timestamp`, `name`, department, hall, batch,contact,email,company,designation) VALUES ('$time', '$name', '$dep','$hall','$batch','$contact','$email','$company','$desig')";
+        $sql = "INSERT INTO `user` (`timestamp`, `Name`, department, hall, batch,contact,email,company,designation) VALUES ('$time', '$name', '$dep','$hall','$batch','$contact','$email','$company','$desig')";
 
         if ($conn->query($sql) === TRUE) {
             echo "Record updated successfully";
