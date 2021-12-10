@@ -15,7 +15,7 @@
     <form class="mt-5" method="post" action="success.php">
         <div class="mb-3">
             <label for="name" class="form-label">Name</label>
-            <input type="text" class="form-control" id="name"  name="name" aria-describedby="emailHelp">
+            <input type="text" class="form-control" id="Name"  name="name" aria-describedby="emailHelp">
             
         </div>
         <div class="mb-3">

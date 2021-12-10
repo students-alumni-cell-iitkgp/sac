@@ -2,7 +2,7 @@
 require 'connection.php';
 
     if ($_SERVER['REQUEST_METHOD'] == 'POST'){
-        $name = $_POST['name'];
+        $name = $_POST['Name'];
         $email = $_POST['email'];
         $address = $_POST['address'];
         $city = $_POST['city'];
@@ -68,7 +68,7 @@ require 'connection.php';
         // Submit these to a database
         // Sql query to be executed 
         //$sql = "INSERT INTO `alumni` (`name`, `address` ,`city`,`state`,`country`,`zipcode`,`mobile`,`dob`) VALUES ('$name', '$address' ,'$city','$state','$country','$zipcode','$mobile','$dob')";
-        $sql = "UPDATE `aam` SET `name` = '$name',
+        $sql = "UPDATE `aam` SET `Name` = '$name',
                                  `address` = '$address' ,
                                  `city` = '$city',
                                  `state`          = '$state',

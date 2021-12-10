@@ -4,7 +4,6 @@ require 'connection.php';
 $database = 'aam';
    
 function test_input($data) {
-      
     $data = trim($data);
     $data = stripslashes($data);
     $data = htmlspecialchars($data);
@@ -13,9 +12,9 @@ function test_input($data) {
    
 if ($_SERVER["REQUEST_METHOD"]== "POST") {
       
-    $email = test_input($_POST["name"]);
+    $email = test_input($_POST["Name"]);
     $password = test_input($_POST["dob"]);
-    $conn = mysqli_connect($DB_HOST, $DB_USER, $DB_PASS, $database);
+    $conn = mysqli_connect($DB_HOST, $DB_USER, $DB_PASS, $DB_NAME);
     $stmt = $conn->prepare("SELECT `email`,`dob` FROM aam");
     $stmt->execute();
     //$users = $stmt->fetchAll();

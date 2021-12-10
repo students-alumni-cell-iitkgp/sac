@@ -1,7 +1,7 @@
 <?php
 session_start();
 $email = $_POST["email"];
-$name = $_POST["name"];
+$name = $_POST["Name"];
 $address = $_POST["address"];
 $city = $_POST["city"];
 $state = $_POST["state"];
@@ -57,7 +57,7 @@ echo "$hall : hall<br>";
 echo "$graduatingYear : graduatingYear<br>";
 */
 include 'connection.php';
-$sql = "UPDATE users SET email='$email',Time='$time', name='$name', address='$address', city='$city', state='$state', country='$country', zipCode='$zipCode', mobile='$mobile', dob='$dob', marital='$marital', industry='$industry', profession='$profession', orgName='$orgName', designation='$designation', work_city='$work_city', work_state='$work_state', work_country='$work_country', work_zipCode='$work_zipCode', work_address='$work_address', rollNum='$rollNum', joinYear='$joinYear', degree='$degree', department='$department', hall='$hall', graduatingYear='$graduatingYear', accompanyingNo='$accompanyingNo'   WHERE email='$email'";
+$sql = "UPDATE users SET email='$email',Time='$time', Name='$name', address='$address', city='$city', state='$state', country='$country', zipCode='$zipCode', mobile='$mobile', dob='$dob', marital='$marital', industry='$industry', profession='$profession', orgName='$orgName', designation='$designation', work_city='$work_city', work_state='$work_state', work_country='$work_country', work_zipCode='$work_zipCode', work_address='$work_address', rollNum='$rollNum', joinYear='$joinYear', degree='$degree', department='$department', hall='$hall', graduatingYear='$graduatingYear', accompanyingNo='$accompanyingNo'   WHERE email='$email'";
 $_SESSION["email"] = $email;
 if ($connection->query($sql)) {
   $connection->close();
