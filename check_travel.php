@@ -17,23 +17,23 @@ include_once('config.php');
 // //####### End of dbconfig.php #######
 
 // code user Email availablity
-if(!empty($email)) {
-
-  if (filter_var($email, FILTER_VALIDATE_EMAIL)===false) {
-    
-    echo "error :you did not enter a valid email.";
-  }
-  else {
+//if(!empty($email)) {
+//
+//  if (filter_var($email, FILTER_VALIDATE_EMAIL)===false) {
+//    
+//    echo "error :you did not enter a valid email.";
+//  }
+//  else {
     $sql ="SELECT `email` FROM `travel` WHERE `email` = '$email' ";
     $stmt=$GLOBALS["conn"]->prepare($sql);
-    $stmt->execute();
+    $results = $stmt->execute();
+    $num_rows =  $stmt->fetchColumn();
 
-    $results = $stmt->fetchAll();
+    //$results = $stmt->fetchAll();
 
+    //$num_row = 0;
 
-    $num_row = 0;
-
-    if($results -> num_rows)
+    if($num_rows > 0)
     {
         header("Location: get_travel.php");
 
@@ -58,6 +58,7 @@ if(!empty($email)) {
        header("Location: errorpage.html");
        }
     }
-  }
-}
+  //}
+//}
 // End code check email
+?>
