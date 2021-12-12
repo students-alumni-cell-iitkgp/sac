@@ -1,5 +1,5 @@
 <?php 
-require 'connection.php';
+require 'config.php';
 
     if ($_SERVER['REQUEST_METHOD'] == 'POST'){
         $name = $_POST['Name'];
@@ -43,13 +43,13 @@ require 'connection.php';
         //$reciept = $_POST['reciept'];  
 
       // Create a connection
-      $database = 'aam';
-      $conn = mysqli_connect($DB_HOST, $DB_USER, $DB_PASS, $database);
-      // Die if connection was not successful
-      if (!$conn){
-          die("Sorry we failed to connect: ". mysqli_connect_error());
-      }
-      else{ 
+      //$database = 'aam';
+      //$conn = mysqli_connect($DB_HOST, $DB_USER, $DB_PASS, $database);
+      //// Die if connection was not successful
+      //if (!$conn){
+      //    die("Sorry we failed to connect: ". mysqli_connect_error());
+      //}
+      //else{ 
         // $target_dir = "./aam_reg/";
         // $_FILES["reciept"]["name"] = $email."2";
         // $target_file = $target_dir . basename($_FILES["reciept"]["name"]);
@@ -101,7 +101,9 @@ require 'connection.php';
                                  `hobbies`        = '$hobbies',
                                  `cost` = '$cost' WHERE `email` = '$email'";
 
-        $result = mysqli_query($conn, $sql);
+        // $result = mysqli_query($conn, $sql);
+        $stmt=$GLOBALS["conn"]->prepare($sql);
+        $result = $stmt->execute();
  
         if($result){
           echo '<div class="alert alert-success alert-dismissible fade show" role="alert">
@@ -122,7 +124,6 @@ require 'connection.php';
         </div>';
         header("Location: errorpage.html");
         }
-      }
-
+      //}
     }   
 ?>

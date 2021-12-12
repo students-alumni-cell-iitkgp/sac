@@ -1,6 +1,6 @@
 <?php
 session_start(); 
-include 'connection.php';
+include 'config.php';
     if ($_SERVER['REQUEST_METHOD'] == 'POST'){
         $name = $_POST['Name'];
         $email = $_POST['email'];
@@ -51,17 +51,7 @@ include 'connection.php';
         $str = str_replace("@","-",$str);
         return $str;
       }
-      //creating a connection
-      try {
     
-        $conn = new PDO("mysql:host=$DB_HOST; dbname=$DB_NAME",$DB_USER, $DB_PASS);
-        $conn->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
-      }
-      catch(PDOException $e) {
-        echo "Connection failed: " . $e->getMessage();
-      }
-
-      print_r($conn) ;
       $sql = "INSERT INTO `aam` (`Name`,`email`, `address` ,`city`,`state`,`country`,`zipcode`,`mobile`,`dob`,
                  `status`, `certificate` ,`dosedate`,
                  `marital`, `accompaniments` ,`gh`,

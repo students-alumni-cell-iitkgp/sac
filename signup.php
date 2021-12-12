@@ -314,7 +314,7 @@
                                 <span class="input-group-text" style="font-weight: 600;" id="basic-addon1"><i class="fas fa-address-card"></i></span>
                                 <input class="form-control" type="text" id="address" name="work_address" maxlength="400">
                             </div>
-                            <small class = "text-muted">Do not use inverted commams (',")</small>
+                           
                         </div>
                         <div class="col-sm-12 col-md-6">
                             <label for="city">City</label>
