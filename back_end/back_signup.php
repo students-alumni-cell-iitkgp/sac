@@ -91,7 +91,7 @@ include '../connection.php';
            $stmt->bindparam(':email',$email);
            $resu = $stmt->execute();
            if($resu){
-               header("Location: ../get_update.php");
+               header("Location: ../Updates/get_update.php");
                //get_update.php C:\xampp\htdocs\sac\get_update.php
            }
            else{
@@ -114,7 +114,7 @@ include '../connection.php';
             <span aria-hidden="true">×</span>
           </button>
         </div>';
-        header("Location: errorpage.html");
+        header("Location: ../errorpage.html");
         }
       // }
 

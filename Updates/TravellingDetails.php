@@ -4,7 +4,7 @@
 
         if(!isset($_SESSION['email']))
     {
-      header("Location: logout.html");
+      header("Location: ../logout.html");
     }
         $kgpdoa        = $_SESSION['kgpdoa']      ;
         $kgptimetocome = $_SESSION['kgptimetocome']   ;
@@ -34,11 +34,11 @@
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/loginpage.css">
+    <link rel="stylesheet" href="../css/loginpage.css">
 
     <style>
         body{
-                background-image: url("./img/form-bg.jpeg");
+                background-image: url("../img/form-bg.jpeg");
                 background-repeat: no-repeat;
                 background-size: 100% 100%;
             }
@@ -75,7 +75,7 @@
 </head>
 
 <body>
-    <?php include 'navbar.php' ?>
+
     <section>
         <div class="wrapper" style="margin-bottom: 2vw;">
             <center>
@@ -91,7 +91,7 @@
                 <div id="one" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
             </div>
             <br>
-            <form id="login" action = "back_end\back_travel.php" method = "post">
+            <form id="login" action = "../back_end\back_travel.php" method = "post">
                 <div class="section1">
                     <div class="container">
                         <div class="row">
@@ -239,7 +239,7 @@
               </center>
         </div>
     </section>
-    <?php include 'footer.php' ?>
+    <?php include '../footer.php' ?>
     <script>
         function back(){
           document.getElementsByClassName("section1")[0].style.display = 'block';
