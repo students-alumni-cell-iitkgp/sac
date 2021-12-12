@@ -91,7 +91,7 @@ include '../connection.php';
            $stmt->bindparam(':email',$email);
            $resu = $stmt->execute();
            if($resu){
-               header("Location: ../Updates/get_update.php");
+               header("Location: ../Utility/get_update.php");
                //get_update.php C:\xampp\htdocs\sac\get_update.php
            }
            else{

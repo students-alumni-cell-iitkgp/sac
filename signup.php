@@ -26,7 +26,7 @@
                 </h2>
             </center>
             <!-- <a href="back_signup.php" >SUBMIT</a> -->
-            <form id="register" action = "back_end\back_signup.php" method = "post" enctype="multipart/form-data" onSubmit="window.location.reload()">
+            <form id="register" action = "backend\signup.php" method = "post" enctype="multipart/form-data" onSubmit="window.location.reload()">
            
 
             <div class="section1">
@@ -768,7 +768,7 @@
 //This function checks email-availability-status
 function checkemailAvailability() {
 jQuery.ajax({
-url: "check_username_availablity.php",
+url: "Utility/check_username_availablity.php",
 data:'email='+$("#email").val(),
 type: "POST",
 success:function(data){
