@@ -97,7 +97,7 @@
         color:#4169e1;
     }
   .section2{
-    display:blockzz;
+    display:block;
     width:100%;
     justify-content:center;
     /* margin-bottom:1rem; */
