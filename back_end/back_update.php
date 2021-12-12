@@ -1,8 +1,8 @@
 <?php 
-require 'connection.php';
+require '../connection.php';
 
     if ($_SERVER['REQUEST_METHOD'] == 'POST'){
-        $name = $_POST['Name'];
+        $name = $_POST['name'];
         $email = $_POST['email'];
         $address = $_POST['address'];
         $city = $_POST['city'];
@@ -68,7 +68,7 @@ require 'connection.php';
         // Submit these to a database
         // Sql query to be executed 
         //$sql = "INSERT INTO `alumni` (`name`, `address` ,`city`,`state`,`country`,`zipcode`,`mobile`,`dob`) VALUES ('$name', '$address' ,'$city','$state','$country','$zipcode','$mobile','$dob')";
-        $sql = "UPDATE `aam` SET `Name` = '$name',
+        $sql = "UPDATE `aam` SET `name` = '$name',
                                  `address` = '$address' ,
                                  `city` = '$city',
                                  `state`          = '$state',
@@ -110,7 +110,7 @@ require 'connection.php';
             <span aria-hidden="true">×</span>
           </button>
         </div>';
-        header("Location: updatesuccessfully.html");
+        header("Location: ../updatesuccessfully.html");
         }
         else{
             // echo "The record was not inserted successfully because of this error ---> ". mysqli_error($conn);
@@ -120,7 +120,7 @@ require 'connection.php';
             <span aria-hidden="true">×</span>
           </button>
         </div>';
-        header("Location: errorpage.html");
+        header("Location: ../errorpage.html");
         }
       }
 

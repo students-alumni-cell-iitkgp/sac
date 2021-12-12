@@ -19,7 +19,7 @@ require 'connection.php';
     $users = $resultSet->fetch_all(MYSQLI_ASSOC);
     foreach($users as $user) {
 
-        $name    = $user['Name']      ;
+        $name    = $user['name']      ;
         //$email   = $user['email']     ;
         $address = $user['Address']   ;
         $city    = $user['City']      ;
@@ -66,7 +66,7 @@ require 'connection.php';
         //$pickup     = $_user['pickup']      ; 
 
         //adding seession 
-        $_SESSION['Name']     = $name     ;
+        $_SESSION['name']     = $name     ;
        $_SESSION['email']    = $email    ;
        $_SESSION['address']  = $address  ;
        $_SESSION['city']     = $city     ;

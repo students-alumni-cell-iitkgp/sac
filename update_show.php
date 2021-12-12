@@ -6,7 +6,7 @@
       header("Location: logout.html");
     }
         // CREATING SESSION  
-        $name    = $_SESSION['Name']      ;
+        $name    = $_SESSION['name']      ;
         $email   = $_SESSION['email']     ;
         $address = $_SESSION['address']   ;
         $city    = $_SESSION['city']      ;
@@ -76,7 +76,7 @@
                 </h2>
             </center>
 
-            <form id="register" action = "back_update.php" method = "post">
+            <form id="register" action = "back_end\back_update.php" method = "post">
 
             <div class="section1">
                 <div class="heading">
