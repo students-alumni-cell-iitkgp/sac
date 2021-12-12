@@ -4,7 +4,7 @@ require 'config.php';
     
     if(!isset($_SESSION['email']))
     {
-      header("Location: logout.html");
+      header("Location: ../logout.html");
     }
 //if ($_SERVER["REQUEST_METHOD"]== "POST") {
     
@@ -20,7 +20,7 @@ require 'config.php';
     $users = $stmt->fetchAll();
     foreach($users as $user) {
 
-        $name    = $user['Name']      ;
+        $name    = $user['name']      ;
         //$email   = $user['email']     ;
         $address = $user['Address']   ;
         $city    = $user['City']      ;
@@ -67,7 +67,7 @@ require 'config.php';
         //$pickup     = $_user['pickup']      ; 
 
         //adding seession 
-        $_SESSION['Name']     = $name     ;
+        $_SESSION['name']     = $name     ;
        $_SESSION['email']    = $email    ;
        $_SESSION['address']  = $address  ;
        $_SESSION['city']     = $city     ;
