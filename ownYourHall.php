@@ -15,7 +15,7 @@
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
     <style>
     body{
-    background-image: url("./css/bkt.png");
+    background-image: url("img/form-bg.jpeg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
   }
@@ -87,7 +87,7 @@ h4{
                 </div>
                 <div class="row justify-content-md-between justify-content-around guesth">
                     <div class=" col-md-1 col-3" style="margin-left:2%">
-                        <a class="btn btn-outline-primary"  href="Updates/get_update.php" role="button">Skip For Now</a>
+                        <a class="btn btn-outline-primary"  href="Utility/get_update.php" role="button">Skip For Now</a>
                     </div>
                     <div class=" col-md-2 col-3">
                         <a class="btn btn-outline-success"  href="http://alumni.iitkgp.ac.in/AlumniIITKGP/GoThroughCampaign/?camp_id=46&purpose=readmore" target="_blank" rel="noopener noreferrer" role="button">GO</a>

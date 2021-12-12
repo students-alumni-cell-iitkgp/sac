@@ -50,25 +50,7 @@ require '../connection.php';
           die("Sorry we failed to connect: ". mysqli_connect_error());
       }
       else{ 
-        // $target_dir = "./aam_reg/";
-        // $_FILES["reciept"]["name"] = $email."2";
-        // $target_file = $target_dir . basename($_FILES["reciept"]["name"]);
-        // echo $target_file;
-        // $uploadOk = 1;
-        // $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
-
-        // if (move_uploaded_file($_FILES["reciept"]["tmp_name"], $target_file)) {
-        //   echo "The file ". htmlspecialchars( basename( $_FILES["reciept"]["name"])). " has been uploaded.";
-        // } else {
-        //   echo "Sorry, there was an error uploading your file.";
-        // }
-        // $certificate = $target_file;
-        
-        
-        // Submit these to a database
-        // Sql query to be executed 
-        //$sql = "INSERT INTO `alumni` (`name`, `address` ,`city`,`state`,`country`,`zipcode`,`mobile`,`dob`) VALUES ('$name', '$address' ,'$city','$state','$country','$zipcode','$mobile','$dob')";
-        $sql = "UPDATE `aam` SET `name` = '$name',
+        $sql = "UPDATE `aam` SET `Name` = '$name',
                                  `address` = '$address' ,
                                  `city` = '$city',
                                  `state`          = '$state',
@@ -110,7 +92,7 @@ require '../connection.php';
             <span aria-hidden="true">×</span>
           </button>
         </div>';
-        header("Location: ../Updates/updatesuccessfully.html");
+        header("Location: ../Utility/updatesuccessfully.html");
         }
         else{
             // echo "The record was not inserted successfully because of this error ---> ". mysqli_error($conn);
