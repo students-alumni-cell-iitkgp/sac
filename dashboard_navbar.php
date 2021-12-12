@@ -23,15 +23,14 @@
                 <li class="nav-item">
                     <a class="nav-link" href="displayRegisteredUsers.php">Attendee </a>                
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link" href="#" data-bs-toggle="dropdown"> Edit</a>
-                    <div>	
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="update_show.php" > Update</a></li>
-                            <li><a class="dropdown-item" href="adminpage.php"> Payment</a></li>
-                            <li><a class="dropdown-item" href="TravellingDetails.php"> Travel Details</a></li> 
-                        </ul>
-                    </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="adminpage.php">Payment </a>                
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="TravellingDetails.php">Travel Details </a>                
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="update_show.php">Edit </a>                
                 </li>
                 <li class="nav-item"><a class="nav-link" href="logout2.php"> Logout</a></li>            
             </ul>

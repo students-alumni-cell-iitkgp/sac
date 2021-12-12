@@ -24,6 +24,7 @@
         $accompaniments = $_SESSION['accompanyingNo'] ;
           $gh           = $_SESSION['room']           ;
           $cost         = $_SESSION['cost']           ;
+          $reciept = $_SESSION['reciept'];
 
         $industry     = $_SESSION['industry']     ;
         $profession   = $_SESSION['profession']   ;
@@ -96,7 +97,7 @@
         color:#4169e1;
     }
   .section2{
-    display:block;
+    display:blockzz;
     width:100%;
     justify-content:center;
     /* margin-bottom:1rem; */
@@ -207,7 +208,7 @@
               <div class="bttons"> <button class=" my-1" id = "nostalg"  onclick="nostalg()"><i class="fas fa-hand-peace d"></i> NOSTALGIC SECTION</button> </div>
               <div class="bttons"> <button class=" my-1" id = "covid"    onclick="covid()"><i class="fas fa-syringe d"></i> COVID INFO</button> </div>
               <div class="bttons"> <button class=" my-1" id = "accomod"  onclick="accomod()"><i class="fas fa-home d"></i> ACCOMMODATION</button> </div>
-              <div class="bttons"> <button class=" my-1" id = "travel"   onclick="travel()"><i class="fas fa-plane d"></i>TRAVELLING DETAILS</button> </div>
+              <div class="bttons"> <button class=" my-1" id = "travel"   onclick="travel()"><i class="fas fa-plane d"></i>TRAVELLING DETAILS <?php $status = (empty($kgpdoa))? "<span style='color: red'>(Pending)</span>":NULL; echo $status; ?></button> </div>
             </div>
             </div>
             <div class = "col-8">
@@ -708,7 +709,7 @@
           <div class="card-header" id="headingThree">
             <h2 class="mb-0">
               <button class="btn  collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-              <i class="fas fa-plane"></i>Travelling Detail
+                <i class="fas fa-plane"></i>Travelling Details<?php $status = (empty($kgpdoa))? "<span style='color: red'>(Pending)</span>":NULL; echo $status; ?>
               </button>
             </h2>
           </div>
@@ -882,5 +883,14 @@
             document.getElementById("accomod").style.color  = "black";
             document.getElementById("travel").style.color   = "#4169e1";
         }
+
+        travel();
+
+        <?php
+          if(is_null($reciept)){
+            echo "alert('Your Payment in pending'); window.location.href ='./adminpage.php';";
+          }
+         ?>
+
     </script>
 </body>
