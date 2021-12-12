@@ -1,6 +1,6 @@
 <?php 
 session_start(); 
-require 'connection.php';
+require '../connection.php';
 
     if ($_SERVER['REQUEST_METHOD'] == 'POST'){
         
@@ -52,7 +52,7 @@ require 'connection.php';
             <span aria-hidden="true">×</span>
           </button>
         </div>';
-        header("Location: updatesuccessfully.html");
+        header("Location: ../Updates/updatesuccessfully.html");
         }
         else{
             // echo "The record was not inserted successfully because of this error ---> ". mysqli_error($conn);
@@ -62,7 +62,7 @@ require 'connection.php';
             <span aria-hidden="true">×</span>
           </button>
         </div>';
-        header("Location: errorpage.html");
+        header("Location: ../errorpage.html");
         }
       }
 

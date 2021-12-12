@@ -12,7 +12,7 @@ function test_input($data) {
    
 if ($_SERVER["REQUEST_METHOD"]== "POST") {
       
-    $email = test_input($_POST["Name"]);
+    $email = test_input($_POST["name"]);
     $password = test_input($_POST["dob"]);
     $conn = mysqli_connect($DB_HOST, $DB_USER, $DB_PASS, $DB_NAME);
     $stmt = $conn->prepare("SELECT `email`,`dob` FROM aam");
@@ -38,7 +38,7 @@ if ($_SERVER["REQUEST_METHOD"]== "POST") {
                // $recpt = $stmt->fetchAll();
 
                 if(!$user['reciept'])  {       //($rpt['reciept'] === NULL) is_null($rpt['reciept']) empty($user['reciept'] )
-                    header("Location: get_update.php");
+                    header("Location: Updates/get_update.php");
                    // header("Location: adminpage.php");
                     /*echo "<script language='javascript'>";
                     echo "alert('WRONG INFORMATION')";

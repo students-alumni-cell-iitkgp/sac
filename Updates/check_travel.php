@@ -1,6 +1,6 @@
 <?php
 session_start();  
-include_once('connection.php');
+include_once('../connection.php');
 
     $email = $_SESSION['email'];
 
@@ -48,7 +48,7 @@ if(!empty($email)) {
           <span aria-hidden="true">×</span>
         </button>
        </div>';
-       header("Location: errorpage.html");
+       header("Location: ../errorpage.html");
        }
     }
   }
