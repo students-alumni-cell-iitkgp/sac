@@ -110,7 +110,7 @@ require '../connection.php';
             <span aria-hidden="true">×</span>
           </button>
         </div>';
-        header("Location: ../updatesuccessfully.html");
+        header("Location: ../Updates/updatesuccessfully.html");
         }
         else{
             // echo "The record was not inserted successfully because of this error ---> ". mysqli_error($conn);
