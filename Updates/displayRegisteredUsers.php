@@ -3,7 +3,7 @@ session_start();
  if(!isset($_SESSION['email']))
  {
    
-   header("Location: logout.html");
+   header("Location: ../logout.html");
  }
 ?>
 
@@ -11,7 +11,7 @@ session_start();
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
     <title>SAC</title>
 
 
@@ -27,7 +27,7 @@ session_start();
     <!-- Bootstrap 4 Stylesheet -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/loginpage.css">
+    <link rel="stylesheet" href="../css/loginpage.css">
         <!-- jquery -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
@@ -39,7 +39,7 @@ session_start();
 
 <style>
 body{
-    background-image: url("./img/form-bg.jpeg");
+    background-image: url(".././img/form-bg.jpeg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
   }
@@ -151,8 +151,8 @@ body{
 
 <body>
     <?php
-      $path="connection.php";
-      include 'adminPages/config.php';
+      $path="../connection.php";
+      include '../adminPages/config.php';
       $batch1981=getBatch('1981');$no1981=getBatch('1981');
       $batch1982=getBatch('1982');$no1982=getBatch('1982');
       $batch1996=getBatch('1996');$no1996=getBatch('1996');
@@ -271,4 +271,4 @@ body{
         </script>
     
 </body>
-<?php include 'footer.php' ?>
+<?php include '../footer.php' ?>

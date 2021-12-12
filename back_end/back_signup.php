@@ -1,8 +1,8 @@
 <?php
 session_start(); 
-include 'connection.php';
+include '../connection.php';
     if ($_SERVER['REQUEST_METHOD'] == 'POST'){
-        $name = $_POST['Name'];
+        $name = $_POST['name'];
         $email = $_POST['email'];
         $address = $_POST['address'];
         $city = $_POST['city'];
@@ -91,7 +91,8 @@ include 'connection.php';
            $stmt->bindparam(':email',$email);
            $resu = $stmt->execute();
            if($resu){
-               header("Location: get_update.php");
+               header("Location: ../Updates/get_update.php");
+               //get_update.php C:\xampp\htdocs\sac\get_update.php
            }
            else{
             echo '<div class="alert alert-danger alert-dismissible fade show" role="alert">
@@ -100,7 +101,7 @@ include 'connection.php';
               <span aria-hidden="true">×</span>
             </button>
           </div>';
-          header("Location: errorpage.html");
+          header("Location: ../errorpage.html");
            }
 
         //header("Location: get_update.php");
@@ -113,7 +114,7 @@ include 'connection.php';
             <span aria-hidden="true">×</span>
           </button>
         </div>';
-        header("Location: errorpage.html");
+        header("Location: ../errorpage.html");
         }
       // }
 

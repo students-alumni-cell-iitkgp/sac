@@ -28,7 +28,7 @@
 
 <body>
     <?php include 'navbar.php' ?>
-    <form action = "back_reciept.php" method = "post">
+    <form action = "back_end\back_reciept.php" method = "post">
         <div class="wrapper">
                 
             <div class="container">
@@ -52,7 +52,7 @@
             </div>
 
             <div class="row justify-content-md-between justify-content-around guesth">
-            <div class=" col-md-2 col-3">  <button class="btn btn-primary"> <a href="get_update.php" style="color:inherit;text-decoration:none" > Skip for now</a></button></div>   
+            <div class=" col-md-2 col-3">  <button class="btn btn-primary"> <a href="Updates/get_update.php" style="color:inherit;text-decoration:none" > Skip for now</a></button></div>   
             <div class=" col-md-1 col-3">  <button type="submit" id="submit" value = "submit" class="btn btn-primary">Submit</button></div>
 
             </div>
