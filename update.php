@@ -6,7 +6,7 @@
       header("Location: logout.html");
     }
         // CREATING SESSION  
-        $name    = $_SESSION['Name']      ;
+        $name    = $_SESSION['name']      ;
         $email   = $_SESSION['email']     ;
         $address = $_SESSION['address']   ;
         $city    = $_SESSION['city']      ;

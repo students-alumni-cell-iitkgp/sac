@@ -28,7 +28,7 @@
 
 <body>
     <?php include 'navbar.php' ?>
-    <form action = "back_reciept.php" method = "post">
+    <form action = "back_end\back_reciept.php" method = "post">
         <div class="wrapper">
                 
             <div class="container">
