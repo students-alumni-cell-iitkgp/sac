@@ -3,7 +3,7 @@
     
     if(!isset($_SESSION['email']))
     {
-      header("Location: logout.html");
+      header("Location: ../logout.html");
     }
         // CREATING SESSION  
         $name    = $_SESSION['name']      ;
@@ -54,7 +54,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UPDATE</title>
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <!-- CSS only -->
@@ -66,7 +66,7 @@
 </head>
 
 <body>
-    <?php include 'navbar.php' ?>
+    <?php include '../navbar.php' ?>
     <section>
         <div class="wrapper">
            
@@ -76,7 +76,7 @@
                 </h2>
             </center>
 
-            <form id="register" action = "back_end\back_update.php" method = "post">
+            <form id="register" action = "../back_end\back_update.php" method = "post">
 
             <div class="section1">
                 <div class="heading">
@@ -215,9 +215,39 @@
                         <td style="text-align: center;" data-th="Cost for Alumni">900</td>
                         <!-- <td style="text-align: center;" data-th="Cost for Accompaniaments"></td> -->
                     </tr>
-                   
+                    <!-- <tr>
+                        <td data-th="">VGH/CEC - AC - DO</td>
+                        <td style="text-align: center;" data-th="Cost for Alumni">900</td>
+                       </tr>
+                    <tr>
+                        <td data-th="">VGH/CEC - Non-AC - SO</td>
+                        <td style="text-align: center;" data-th="Cost for Alumni">750</td>
+                       </tr>
+                    <tr>
+                        <td data-th="">VGH 3/4  bedded- DO</td>
+                        <td style="text-align: center;" data-th="Cost for Alumni">450</td>
+                       </tr>
+                    <tr>
+                        <td data-th="">AGH - DO</td>
+                        <td style="text-align: center;" data-th="Cost for Alumni">2250</td>
+                       </tr>
+                    <tr>
+                        <td data-th="">SAM - DO</td>
+                        <td style="text-align: center;" data-th="Cost for Alumni">900</td>
+                       </tr> -->
                 </table>
-                 <div class="container">
+
+               <!-- <table class="mb-5 border-light" style="margin-bottom: 2vh !important;" >
+                <th colspan="4" class="text-center h3 text-decoration-underline font-weight-bold"> Accompaniment's charge</th>
+                    <tr>
+                        <td data-th="">Accomodation per person </td>
+                        // <td data-th="No.of Rooms">45</td> 
+                        <td style="text-align: center;" data-th="Cost for Alumni">2250</td>
+                        <td style="text-align: center;" data-th="Cost for Accompaniaments"></td>
+                    </tr>
+                </table>    -->
+                <!-- <p style="margin-left: 15px; margin-bottom:0 !important; text-align:center;"><i>*Current or past work experiences as per relevance</i></p> -->
+                <div class="container">
                     <div class="row">
                        <div class="col-sm-12 col-md-6">
                            <label for="marital">Marital Status</label>
