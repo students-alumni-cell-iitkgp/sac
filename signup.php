@@ -26,8 +26,8 @@
                 </h2>
             </center>
             <!-- <a href="back_signup.php" >SUBMIT</a> -->
-            <form id="register" action = "back_signup.php" method = "post" enctype="multipart/form-data" onSubmit="window.location.reload()">
-
+            <form id="register" action = "back_end\back_signup.php" method = "post" enctype="multipart/form-data" onSubmit="window.location.reload()">
+           
 
             <div class="section1">
                 <div class="heading">
@@ -40,13 +40,13 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-12 ">
-                            <label for="Name" class="form-label">
+                            <label for="name" class="form-label">
                                 Name
                                 <span style="color:red;">*</span>
                             </label>
                             <div class="input-group mb-3">
                                 <span class="input-group-text" style="font-weight: 600;" id="basic-addon1">@</span>
-                                <input class="form-control" type="text" name="Name" id="Name" class="validate" maxlength="200" required>
+                                <input class="form-control" type="text" name="name" id="name" class="validate" maxlength="200" required>
                             </div>
                         </div>
 
@@ -476,7 +476,7 @@
        let next5Allow=0;
        document.getElementById("accompanyingNo").defaultValue = "0";
        function next1(){
-           let name = document.getElementById("Name").value;
+           let name = document.getElementById("name").value;
            let city = document.getElementById("personal_city").value;
            let country = document.getElementById("country").value;
            let mobile = document.getElementById("mobile").value;

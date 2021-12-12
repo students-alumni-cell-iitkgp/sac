@@ -55,7 +55,7 @@ include_once('config.php');
           <span aria-hidden="true">×</span>
         </button>
        </div>';
-       header("Location: errorpage.html");
+       header("Location: ../errorpage.html");
        }
     }
   //}

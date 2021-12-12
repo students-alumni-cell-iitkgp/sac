@@ -3,10 +3,10 @@
     
     if(!isset($_SESSION['email']))
     {
-      header("Location: logout.html");
+      header("Location: ../logout.html");
     }
         // CREATING SESSION  
-        $name    = $_SESSION['Name']      ;
+        $name    = $_SESSION['name']      ;
         $email   = $_SESSION['email']     ;
         $address = $_SESSION['address']   ;
         $city    = $_SESSION['city']      ;
@@ -54,19 +54,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UPDATE</title>
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="../css/form.css">
     <!-- JS, Popper.js, and jQuery -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 </head>
 
 <body>
-    <?php include 'navbar.php' ?>
+    <!--  -->
     <section>
         <div class="wrapper">
            
@@ -76,7 +76,7 @@
                 </h2>
             </center>
 
-            <form id="register" action = "back_update.php" method = "post">
+            <form id="register" action = "../back_end\back_update.php" method = "post">
 
             <div class="section1">
                 <div class="heading">
@@ -466,7 +466,7 @@
 
         </div>
     </section>
-    <?php include 'footer.php' ?>
+    <?php include '../footer.php' ?>
     <script>
        let next5Allow=0;
        
@@ -709,7 +709,7 @@
 //This function checks email-availability-status
 function checkemailAvailability() {
 jQuery.ajax({
-url: "check_username_availablity.php",
+url: "../check_username_availablity.php",
 data:'email='+$("#email").val(),
 type: "POST",
 success:function(data){
