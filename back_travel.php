@@ -1,6 +1,6 @@
 <?php 
 session_start(); 
-require 'connection.php';
+require 'config.php';
 
     if ($_SERVER['REQUEST_METHOD'] == 'POST'){
         
@@ -22,13 +22,13 @@ require 'connection.php';
         
 
       // Create a connection
-      $database = 'aam';
-      $conn = mysqli_connect($DB_HOST, $DB_USER, $DB_PASS, $database);
-      // Die if connection was not successful
-      if (!$conn){
-          die("Sorry we failed to connect: ". mysqli_connect_error());
-      }
-      else{ 
+      //$database = 'aam';
+      //$conn = mysqli_connect($DB_HOST, $DB_USER, $DB_PASS, $database);
+      //// Die if connection was not successful
+      //if (!$conn){
+      //    die("Sorry we failed to connect: ". mysqli_connect_error());
+      //}
+      //else{ 
         $sql = "UPDATE `travel` SET `kgpdoa`        = '$kgpdoa',
                                     `kgptimetocome` = '$kgptimetocome' ,
                                     `kgpmodeofT`    = '$kgpmodeofT',
@@ -43,7 +43,9 @@ require 'connection.php';
                                     `aircarseater`  = '$aircarseater'
                                   WHERE `email` = '$email'";
 
-        $result = mysqli_query($conn, $sql);
+        //$result = mysqli_query($conn, $sql);
+        $stmt=$GLOBALS["conn"]->prepare($sql);
+        $result = $stmt->execute();
  
         if($result){
           echo '<div class="alert alert-success alert-dismissible fade show" role="alert">
@@ -64,7 +66,7 @@ require 'connection.php';
         </div>';
         header("Location: errorpage.html");
         }
-      }
+      //}
 
     }   
 ?>

@@ -1,20 +1,20 @@
 <?php
 session_start();  
-include_once('connection.php');
+include_once('config.php');
 
     $email = $_SESSION['email'];
 
-// Establish database connection 
-
-// Establish database connection using MYSQLI.
-  $db = mysqli_connect($DB_HOST, $DB_USER, $DB_PASS, $DB_NAME);
-  // Check connection
-  if (mysqli_connect_errno())
-  {
-        echo "Failed to connect to MySQL: " . mysqli_connect_error();
-  }
-
- //####### End of dbconfig.php #######
+//// Establish database connection 
+//
+//// Establish database connection using MYSQLI.
+//  $db = mysqli_connect($DB_HOST, $DB_USER, $DB_PASS, $DB_NAME);
+//  // Check connection
+//  if (mysqli_connect_errno())
+//  {
+//        echo "Failed to connect to MySQL: " . mysqli_connect_error();
+//  }
+//
+// //####### End of dbconfig.php #######
 
 // code user Email availablity
 if(!empty($email)) {
@@ -25,7 +25,11 @@ if(!empty($email)) {
   }
   else {
     $sql ="SELECT `email` FROM `travel` WHERE `email` = '$email' ";
-    $results = mysqli_query($db, $sql);
+    $stmt=$GLOBALS["conn"]->prepare($sql);
+    $stmt->execute();
+
+    $results = $stmt->fetchAll();
+
 
     $num_row = 0;
 
@@ -37,7 +41,10 @@ if(!empty($email)) {
 
        ///if this line execute means resigeter is done and email doesnt exist on travel
        $sql = "INSERT INTO `travel` (`email`) VALUES ('$email')";
-       $resu = mysqli_query($db, $sql);
+
+       $stmt=$GLOBALS["conn"]->prepare($sql);
+       $resu = $stmt->execute();
+       //$resu = mysqli_query($db, $sql);
        if($resu){
           header("Location: get_travel.php");
        }
