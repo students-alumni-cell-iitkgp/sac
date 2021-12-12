@@ -1,6 +1,6 @@
 <?php
 session_start(); 
-include 'config.php';
+include '../config.php';
     if ($_SERVER['REQUEST_METHOD'] == 'POST'){
         $name = $_POST['name'];
         $email = $_POST['email'];
