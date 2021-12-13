@@ -54,7 +54,7 @@ require '../config.php';
             <span aria-hidden="true">×</span>
           </button>
         </div>';
-        header("Location: ../Updates/updatesuccessfully.html");
+        header("Location: ../Utility/updatesuccessfully.html");
         }
         else{
             // echo "The record was not inserted successfully because of this error ---> ". mysqli_error($conn);

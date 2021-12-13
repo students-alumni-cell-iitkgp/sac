@@ -6,7 +6,7 @@
       header("Location: ../logout.html");
     }
         // CREATING SESSION  
-        $name    = $_SESSION['name']      ;
+        $name    = $_SESSION['Name']      ;
         $email   = $_SESSION['email']     ;
         $address = $_SESSION['address']   ;
         $city    = $_SESSION['city']      ;
@@ -72,14 +72,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UPDATE</title>
-    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
         integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/loginpage.css">
+    <link rel="stylesheet" href="css/loginpage.css">
     <!-- JS, Popper.js, and jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
@@ -88,7 +88,7 @@
 </head>
 <style>
     body{
-    background-image: url("../img/form-bg.jpeg");
+    background-image: url("img/form-bg.jpeg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
   }
@@ -208,7 +208,7 @@
               <div class="bttons"> <button class=" my-1" id = "nostalg"  onclick="nostalg()"><i class="fas fa-hand-peace d"></i> NOSTALGIC SECTION</button> </div>
               <div class="bttons"> <button class=" my-1" id = "covid"    onclick="covid()"><i class="fas fa-syringe d"></i> COVID INFO</button> </div>
               <div class="bttons"> <button class=" my-1" id = "accomod"  onclick="accomod()"><i class="fas fa-home d"></i> ACCOMMODATION</button> </div>
-              <div class="bttons"> <button class=" my-1" id = "travel"   onclick="travel()"><i class="fas fa-plane d"></i>TRAVELLING DETAILS <?php $status = (empty($kgpdoa))? "<span style='color: red'>(Pending)</span>":NULL; echo $status; ?></button> </div>
+              <div class="bttons"> <button class=" my-1" id = "travel"   onclick="travel()"><i class="fas fa-plane d"></i>TRAVELLING DETAILS <?php $status = (empty($kgptimetocome))? "<span style='color: red'>(Pending)</span>":NULL; echo $status; ?></button> </div>
             </div>
             </div>
             <div class = "col-8">
@@ -709,7 +709,7 @@
           <div class="card-header" id="headingThree">
             <h2 class="mb-0">
               <button class="btn  collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                <i class="fas fa-plane"></i>Travelling Details<?php $status = (empty($kgpdoa))? "<span style='color: red'>(Pending)</span>":NULL; echo $status; ?>
+                <i class="fas fa-plane"></i>Travelling Details<?php $status = (empty($kgptimetocome))? "<span style='color: red'>(Pending)</span>":NULL; echo $status; ?>
               </button>
             </h2>
           </div>
@@ -784,7 +784,7 @@
       </div>
         </div>
     </section>
-    <?php include '../footer.php' ?>
+    <?php include 'footer.php' ?>
     
     <script>
  const prof1 = document.getElementsByClassName('prof1')[0];
@@ -888,7 +888,7 @@
 
         <?php
           if(is_null($reciept)){
-            echo "alert('Your Payment in pending'); window.location.href ='.././adminpage.php';";
+            echo "alert('Your Payment is pending'); window.location.href ='payment.php';";
           }
          ?>
 

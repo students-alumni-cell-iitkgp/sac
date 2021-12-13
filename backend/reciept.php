@@ -32,8 +32,6 @@
         //   echo "Sorry, there was an error uploading your file.";
         // }
         $sql = "UPDATE `aam` SET `reciept` = '$reciept' WHERE `email` = '$email'";
-        //$result = mysqli_query($conn, $sql);
-
         $stmt=$GLOBALS["conn"]->prepare($sql);
         $result = $stmt->execute();
  
