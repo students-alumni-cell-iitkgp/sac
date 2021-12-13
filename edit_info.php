@@ -267,7 +267,7 @@
                                 <span class="input-group-text" style="font-weight: 600;" id="basic-addon1"><i style="color: #0069D9;" class="fas fa-address-card"></i></span>
                                 <input class="form-control" type="text" id="address" name="work_address" value = "<?php echo "$waddress"?>">
                             </div>
-                            <small class = "text-muted">Do not use inverted commams (',")</small>
+                            
                             
                         </div>
                         <div class="col-sm-12 col-md-6">
