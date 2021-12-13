@@ -1,10 +1,10 @@
 <?php
 session_start();  
-require 'connection.php';
+require '../connection.php';
     
     if(!isset($_SESSION['email']))
     {
-      header("Location: logout.html");
+      header("Location: ../logout.html");
     }
 //if ($_SERVER["REQUEST_METHOD"]== "POST") {
     $database = 'aam';
@@ -19,7 +19,7 @@ require 'connection.php';
     $users = $resultSet->fetch_all(MYSQLI_ASSOC);
     foreach($users as $user) {
 
-        $name    = $user['name']      ;
+        $name    = $user['Name']      ;
         //$email   = $user['email']     ;
         $address = $user['Address']   ;
         $city    = $user['City']      ;
@@ -66,7 +66,7 @@ require 'connection.php';
         //$pickup     = $_user['pickup']      ; 
 
         //adding seession 
-        $_SESSION['name']     = $name     ;
+        $_SESSION['Name']     = $name     ;
        $_SESSION['email']    = $email    ;
        $_SESSION['address']  = $address  ;
        $_SESSION['city']     = $city     ;

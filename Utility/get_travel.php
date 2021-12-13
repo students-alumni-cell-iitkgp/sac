@@ -1,13 +1,13 @@
 <?php
 session_start();  
-require 'connection.php';
+require '../connection.php';
     
 //if ($_SERVER["REQUEST_METHOD"]== "POST") {
-    $database = 'aam';
+    //$database = 'aam';
     $email = $_SESSION['email'];
     //$dob = $_SESSION['password']; 
 
-    $conn = mysqli_connect($DB_HOST, $DB_USER, $DB_PASS, $database);
+    $conn = mysqli_connect($DB_HOST, $DB_USER, $DB_PASS, $DB_NAME);
     $stmt = $conn->prepare("SELECT * FROM travel WHERE `email` = '$email'");
     $stmt->execute();
  
@@ -15,7 +15,6 @@ require 'connection.php';
     $users = $resultSet->fetch_all(MYSQLI_ASSOC);
 
     foreach($users as $user) {
-
         $kgpdoa        = $user['kgpdoa']      ;
         $kgptimetocome = $user['kgptimetocome']   ;
         $kgpmodeofT    = $user['kgpmodeofT']   ;
@@ -30,7 +29,9 @@ require 'connection.php';
         $airpcount     = $user['airpcount']   ;
         $aircarseater  = $user['aircarseater']      ; 
 
+
         //adding seession 
+
 
         $_SESSION['kgpdoa']      = $kgpdoa       ;
         $_SESSION['kgptimetocome']= $kgptimetocome   ;
@@ -46,8 +47,10 @@ require 'connection.php';
         $_SESSION['airpcount']     = $airpcount      ;
         $_SESSION['aircarseater']  = $aircarseater     ; 
 
-        header("Location: update.php");
+        header("Location: ../dashboard.php");
 
     } 
+
+
 //}
 ?>

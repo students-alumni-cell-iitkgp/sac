@@ -3,10 +3,10 @@
     
     if(!isset($_SESSION['email']))
     {
-      header("Location: logout.html");
+      header("Location: ../logout.html");
     }
         // CREATING SESSION  
-        $name    = $_SESSION['name']      ;
+        $name    = $_SESSION['Name']      ;
         $email   = $_SESSION['email']     ;
         $address = $_SESSION['address']   ;
         $city    = $_SESSION['city']      ;
@@ -54,7 +54,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UPDATE</title>
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <!-- CSS only -->
@@ -66,7 +66,7 @@
 </head>
 
 <body>
-    <?php include 'navbar.php' ?>
+    <!--  -->
     <section>
         <div class="wrapper">
            
@@ -76,7 +76,7 @@
                 </h2>
             </center>
 
-            <form id="register" action = "back_update.php" method = "post">
+            <form id="register" action = "backend\update.php" method = "post">
 
             <div class="section1">
                 <div class="heading">
@@ -112,21 +112,13 @@
                             </div>
                             
                         </div>
-                        <!-- <div class="col-sm-12 col-md-6">
-                            <label for="password">Password (For future login) <span style="color:red;">*</span></label>
-                            <div class="input-group mb-3">
-                                <span class="input-group-text" style="font-weight: 600;" id="basic-addon1"><i class="fas fa-lock"></i></span>
-                                <input class="form-control" type="password" id="password" name="password" required>
-                            </div>
-                            
-                        </div> -->
                         <div class="col-sm-12 ">
                             <label for="address">Address </label>
                             <div class="input-group mb-3">
                                 <span class="input-group-text" style="font-weight: 600;" id="basic-addon1"><i style="color: #0069D9;" class="fas fa-address-card"></i></span>
                                 <input class="form-control" type="text" name="address" id="personal_address" value = "<?php echo "$address"?>">
                             </div> 
-                            <small class = "text-muted">Do not use inverted commams (',")</small> 
+                         
                         </div>
                         <div class="col-sm-12 col-md-6">
                             <label for="city">City <span style="color:red;">*</span></label>
@@ -158,7 +150,7 @@
                     </div>
                 </div>
                 <div class="row justify-content-md-between justify-content-around">
-                    <div class=" col-md-2 col-3"><a class="btn btn-outline-primary ml-3" href="update.php" role="button">Skip</a> </div>
+                    <div class=" col-md-2 col-3"><a class="btn btn-outline-primary ml-3" href="dashboard.php" role="button">Skip</a> </div>
                     <div class=" col-md-2 col-3">     <button class="btn btn-primary" type = "button" onclick="next1()">Next</button></div>
                 </div>
             </div>
@@ -170,8 +162,6 @@
                         <div id="one" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
                     </div>
                 </div>
-                <!--jhjyh-->
-                <!-- <h1 class="text-center" >Registration Fees</h1> -->
                 <table class="mb-5 border-light" style="margin-bottom: 2vh !important;" >
                     <th colspan="4" class="text-center h3 text-decoration-underline font-weight-bold"> Fixed charges</th>
                     <tr>
@@ -188,23 +178,12 @@
                     </tr>
                 </table>
                 <table class="mb-3 border-light" >
-                    <!-- <caption>Room Charges</caption> -->
                     <tr><th colspan="4" class="text-center h3 text-decoration-underline font-weight-bold"> Accommodation charges</th></tr>
                     <tr>
                     <th> Guest House</th>
-                       <!-- <th>No.of Rooms</th> -->
                        <th style="text-align: center;">Cost per person(₹)</th>
                        <!-- <th style="text-align: center;">Cost for Accompaniaments(₹)</th> -->
                     </tr>
-                    <!-- <tr>
-                       <td data-th="">Technology Guest House - SO</td>
-                       
-                       <td style="text-align: center;" data-th="Cost for Alumni">3000</td>
-                       </tr>
-                    <tr>
-                        <td data-th="">Technology Guest House - DO</td>
-                        <td style="text-align: center;" data-th="Cost for Alumni">2250</td>
-                       </tr> -->
                     <tr>
                         <td data-th="">Technology Guest House/ Alumni Guest House</td>
                         <td style="text-align: center;" data-th="Cost for Alumni">2250</td>
@@ -215,38 +194,8 @@
                         <td style="text-align: center;" data-th="Cost for Alumni">900</td>
                         <!-- <td style="text-align: center;" data-th="Cost for Accompaniaments"></td> -->
                     </tr>
-                    <!-- <tr>
-                        <td data-th="">VGH/CEC - AC - DO</td>
-                        <td style="text-align: center;" data-th="Cost for Alumni">900</td>
-                       </tr>
-                    <tr>
-                        <td data-th="">VGH/CEC - Non-AC - SO</td>
-                        <td style="text-align: center;" data-th="Cost for Alumni">750</td>
-                       </tr>
-                    <tr>
-                        <td data-th="">VGH 3/4  bedded- DO</td>
-                        <td style="text-align: center;" data-th="Cost for Alumni">450</td>
-                       </tr>
-                    <tr>
-                        <td data-th="">AGH - DO</td>
-                        <td style="text-align: center;" data-th="Cost for Alumni">2250</td>
-                       </tr>
-                    <tr>
-                        <td data-th="">SAM - DO</td>
-                        <td style="text-align: center;" data-th="Cost for Alumni">900</td>
-                       </tr> -->
                 </table>
 
-               <!-- <table class="mb-5 border-light" style="margin-bottom: 2vh !important;" >
-                <th colspan="4" class="text-center h3 text-decoration-underline font-weight-bold"> Accompaniment's charge</th>
-                    <tr>
-                        <td data-th="">Accomodation per person </td>
-                        // <td data-th="No.of Rooms">45</td> 
-                        <td style="text-align: center;" data-th="Cost for Alumni">2250</td>
-                        <td style="text-align: center;" data-th="Cost for Accompaniaments"></td>
-                    </tr>
-                </table>    -->
-                <!-- <p style="margin-left: 15px; margin-bottom:0 !important; text-align:center;"><i>*Current or past work experiences as per relevance</i></p> -->
                 <div class="container">
                     <div class="row">
                        <div class="col-sm-12 col-md-6">
@@ -263,8 +212,6 @@
                             <div class="input-group mb-3">
                               
                                 <select  class="form-control form-select" type="list" onchange="calc_cost()"  list="room" id="room" name="room" value = "<?php echo "$gh"?>" required>
-                                <!-- <datalist id="room"> -->
-                                <!--<option value=""></option> -->
                                 <option value="Technology Guest House/ Alumni Guest House">Technology Guest House/ Alumni Guest House</option> 
                                      <option value="VGH/ SAM">VGH/ SAM</option>
                                      <option value="notreq">Guest House not Required</option>
@@ -282,7 +229,6 @@
                     <div class=" col-md-2 col-3">     <button class="btn btn-primary" type = "button" onclick="next2()">Next</button></div>
                 </div>
                 
-                <!-- <button class="btn btn-primary" onclick="next2()">Next</button> -->
             </div>
             
             <div class="section4">
@@ -396,12 +342,12 @@
                         <div class="col-sm-12">
                             <label for="yog">Involvements (Societies, Hall Events, etc) </label>
                             <input class="form-control" type="text" id="involvements" name="involvements" value = "<?php echo "$involvement"?>">
-                            <small class = "text-muted">Do not use inverted commams (',")</small>
+                          
                         </div>
                         <div class="col-sm-12">
                             <label for="yog">Hobbies</label>
                             <input class="form-control" type="text" id="hobbies" name="hobbies" value = "<?php echo "$hobbies"?>">
-                            <small class = "text-muted">Do not use inverted commams (',")</small>
+                           
                         </div>
                     </div>
                 </div>
@@ -709,7 +655,7 @@
 //This function checks email-availability-status
 function checkemailAvailability() {
 jQuery.ajax({
-url: "check_username_availablity.php",
+url: "../check_username_availablity.php",
 data:'email='+$("#email").val(),
 type: "POST",
 success:function(data){

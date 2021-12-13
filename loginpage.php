@@ -15,10 +15,13 @@
  
     <style>
         body{
-                background-image: url("css/bkt.png");
+                background-image: url("./img/form-bg.jpeg");
                 background-repeat: no-repeat;
                 background-size: 100% 100%;
             }
+            .wrappers {
+    padding: 2%;
+}
     </style>
 
     <!-- JS, Popper.js, and jQuery -->
@@ -38,7 +41,7 @@
 <body>
     <?php include 'navbar.php' ?>
     <section>
-        <div class="wrappers">
+        <div class="wrapper" style="width: 40vw">
             <center>
 
                 <h2 style="font-size: 300%; color: black; font-family: 'Raleway', sans-serif;">
@@ -46,7 +49,7 @@
                     Log In
                 </h2>
             </center>
-            <form id="login" action = "signup2.php" method = "post">
+            <form id="login" action = "Utility/signup2.php" method = "post">
                 <div class="section1">
                     <div class="container">
                         <div class="row">

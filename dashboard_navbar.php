@@ -19,21 +19,20 @@
         </button>
         <div class="navbar-collapse collapse  justify-content-end" id="navbarNavDropdown2">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item active"> <a class="nav-link" href="update.php">Dashboard</a> </li>                
+                <li class="nav-item active"> <a class="nav-link" href="dashboard.php">Dashboard</a> </li>                
                 <li class="nav-item">
                     <a class="nav-link" href="displayRegisteredUsers.php">Attendee </a>                
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link" href="#" data-bs-toggle="dropdown"> Edit</a>
-                    <div>	
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="update_show.php" > Update</a></li>
-                            <li><a class="dropdown-item" href="adminpage.php"> Payment</a></li>
-                            <li><a class="dropdown-item" href="TravellingDetails.php"> Travel Details</a></li> 
-                        </ul>
-                    </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="payment.php">Payment </a>                
                 </li>
-                <li class="nav-item"><a class="nav-link" href="logout2.php"> Logout</a></li>            
+                <li class="nav-item">
+                    <a class="nav-link" href="TravellingDetails.php">Travel Details </a>                
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="edit_info.php">Edit </a>                
+                </li>
+                <li class="nav-item"><a class="nav-link" href="Utility/logout2.php"> Logout</a></li>            
             </ul>
         </div>
     </div>

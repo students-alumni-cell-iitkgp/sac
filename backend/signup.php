@@ -1,6 +1,6 @@
 <?php
 session_start(); 
-include 'connection.php';
+include '../connection.php';
     if ($_SERVER['REQUEST_METHOD'] == 'POST'){
         $name = $_POST['name'];
         $email = $_POST['email'];
@@ -62,19 +62,19 @@ include 'connection.php';
       }
 
       print_r($conn) ;
-      $sql = "INSERT INTO `aam` (`name`,`email`, `address` ,`city`,`state`,`country`,`zipcode`,`mobile`,`dob`,
+      $sql = "INSERT INTO `aam` (`Name`,`email`, `address` ,`city`,`state`,`country`,`zipcode`,`mobile`,`dob`,
                  `status`, `certificate` ,`dosedate`,
                  `marital`, `accompaniments` ,`gh`,
                  `industry`, `profession` ,`organisation`,`designation`,`waddress`,`wcity`,`wstate`,`wcountry`,`wzipcode`,
                  `rollno`, `joinyear` ,`degree`,`dept`,`hall`,`yog`,`involvement`,`hobbies`,`cost`)
-                 VALUES (:name, :email, :address ,:city,:state,:country,:zipcode,:mobile,:dob,
+                 VALUES (:Name, :email, :address ,:city,:state,:country,:zipcode,:mobile,:dob,
                  :status, :certificate ,:dosedate,
                  :marital, :accompaniments ,:gh,
                  :industry, :profession ,:organisation,:designation,:waddress,:wcity,:wstate,:wcountry,:wzipcode,
                  :rollno, :joinyear ,:degree,:dept,:hall,:yog,:involvement,:hobbies,:cost)";
         // binding params
       $stmt=$GLOBALS["conn"]->prepare($sql);
-      $stmt->bindparam(':name',$name);$stmt->bindparam(':email',$email);$stmt->bindparam(':address',$address);$stmt->bindparam(':city',$city);$stmt->bindparam(':state',$state);$stmt->bindparam(':country',$country);$stmt->bindparam(':zipcode',$zipcode);$stmt->bindparam(':mobile',$mobile);$stmt->bindparam(':dob',$dob);$stmt->bindparam(':status',$status);$stmt->bindparam(':certificate',$certificate);$stmt->bindparam(':dosedate',$dosedate);$stmt->bindparam(':marital',$marital);$stmt->bindparam(':accompaniments',$accompaniments);$stmt->bindparam(':gh',$gh);$stmt->bindparam(':industry',$industry);$stmt->bindparam(':profession',$profession);$stmt->bindparam(':organisation',$organisation);$stmt->bindparam(':designation',$designation);$stmt->bindparam(':waddress',$waddress);$stmt->bindparam(':wcity',$wcity);$stmt->bindparam(':wstate',$wstate);$stmt->bindparam(':wcountry',$wcountry);$stmt->bindparam(':wzipcode',$wzipcode);$stmt->bindparam(':rollno',$rollno);$stmt->bindparam(':joinyear',$joinyear);$stmt->bindparam(':degree',$degree);$stmt->bindparam(':dept',$dept);$stmt->bindparam(':hall',$hall);$stmt->bindparam(':yog',$yog);$stmt->bindparam(':involvement',$involvement);$stmt->bindparam(':hobbies',$hobbies);$stmt->bindparam(':cost',$cost);
+      $stmt->bindparam(':Name',$name);$stmt->bindparam(':email',$email);$stmt->bindparam(':address',$address);$stmt->bindparam(':city',$city);$stmt->bindparam(':state',$state);$stmt->bindparam(':country',$country);$stmt->bindparam(':zipcode',$zipcode);$stmt->bindparam(':mobile',$mobile);$stmt->bindparam(':dob',$dob);$stmt->bindparam(':status',$status);$stmt->bindparam(':certificate',$certificate);$stmt->bindparam(':dosedate',$dosedate);$stmt->bindparam(':marital',$marital);$stmt->bindparam(':accompaniments',$accompaniments);$stmt->bindparam(':gh',$gh);$stmt->bindparam(':industry',$industry);$stmt->bindparam(':profession',$profession);$stmt->bindparam(':organisation',$organisation);$stmt->bindparam(':designation',$designation);$stmt->bindparam(':waddress',$waddress);$stmt->bindparam(':wcity',$wcity);$stmt->bindparam(':wstate',$wstate);$stmt->bindparam(':wcountry',$wcountry);$stmt->bindparam(':wzipcode',$wzipcode);$stmt->bindparam(':rollno',$rollno);$stmt->bindparam(':joinyear',$joinyear);$stmt->bindparam(':degree',$degree);$stmt->bindparam(':dept',$dept);$stmt->bindparam(':hall',$hall);$stmt->bindparam(':yog',$yog);$stmt->bindparam(':involvement',$involvement);$stmt->bindparam(':hobbies',$hobbies);$stmt->bindparam(':cost',$cost);
       //executing
       $result=$stmt->execute();
       if($result){
@@ -91,7 +91,8 @@ include 'connection.php';
            $stmt->bindparam(':email',$email);
            $resu = $stmt->execute();
            if($resu){
-               header("Location: get_update.php");
+               header("Location: ../Utility/get_update.php");
+               //get_update.php C:\xampp\htdocs\sac\get_update.php
            }
            else{
             echo '<div class="alert alert-danger alert-dismissible fade show" role="alert">
@@ -100,7 +101,7 @@ include 'connection.php';
               <span aria-hidden="true">×</span>
             </button>
           </div>';
-          header("Location: errorpage.html");
+          header("Location: ../errorpage.html");
            }
 
         //header("Location: get_update.php");
@@ -113,7 +114,7 @@ include 'connection.php';
             <span aria-hidden="true">×</span>
           </button>
         </div>';
-        header("Location: errorpage.html");
+        header("Location: ../errorpage.html");
         }
       // }
 
