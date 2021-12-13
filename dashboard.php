@@ -158,6 +158,10 @@
     .accordion{
       width:100%;
     }
+    .payment-status{
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+      font-size: 16px;
+    }
     @media only screen and (max-width: 900px) {
       .section2{
         display:none;
@@ -208,9 +212,13 @@
               <div class="bttons"> <button class=" my-1" id = "nostalg"  onclick="nostalg()"><i class="fas fa-hand-peace d"></i> NOSTALGIC SECTION</button> </div>
               <div class="bttons"> <button class=" my-1" id = "covid"    onclick="covid()"><i class="fas fa-syringe d"></i> COVID INFO</button> </div>
               <div class="bttons"> <button class=" my-1" id = "accomod"  onclick="accomod()"><i class="fas fa-home d"></i> ACCOMMODATION</button> </div>
-              <div class="bttons"> <button class=" my-1" id = "travel"   onclick="travel()"><i class="fas fa-plane d"></i>TRAVELLING DETAILS <?php $status = (empty($kgptimetocome))? "<span style='color: red'>(Pending)</span>":NULL; echo $status; ?></button> </div>
+              <div class="bttons"> <button class=" my-1" id = "travel"   onclick="travel()"><i class="fas fa-plane d"></i>TRAVELLING DETAILS<?php $status = (empty($kgptimetocome))? ": <span style='color: red'> Pending</span>":NULL; echo $status; ?></button> </div>
+              <div class="payment-status bttons my-1">
+                <i class="fas fa-rupee-sign d"></i>
+                <span>PAYMENT STATUS: <?php if(empty($reciept)) echo "<span style='color:red;'>PENDING</span>"; else echo "<span style='color:green;'>PAID</span>" ?></span>
+              </div>
             </div>
-            </div>
+          </div>
             <div class = "col-8">
             <div class="prof1" id = "prof1">
                                 
@@ -709,7 +717,7 @@
           <div class="card-header" id="headingThree">
             <h2 class="mb-0">
               <button class="btn  collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                <i class="fas fa-plane"></i>Travelling Details<?php $status = (empty($kgptimetocome))? "<span style='color: red'>(Pending)</span>":NULL; echo $status; ?>
+                <i class="fas fa-plane"></i>Travelling Details<?php $status = (empty($kgptimetocome))? ":<span style='color: red'> Pending</span>":NULL; echo $status; ?>
               </button>
             </h2>
           </div>
@@ -885,12 +893,6 @@
         }
 
         travel();
-
-        <?php
-          if(is_null($reciept)){
-            echo "alert('Your Payment is pending'); window.location.href ='payment.php';";
-          }
-         ?>
 
     </script>
 </body>
