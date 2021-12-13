@@ -1,5 +1,5 @@
 <?php
-require 'connection.php';
+require '../connection.php';
 
     if ($_SERVER['REQUEST_METHOD'] == 'POST'){
         $name = $_POST['username'];
@@ -19,7 +19,7 @@ require 'connection.php';
       else{ 
         // Submit these to a database
         // Sql query to be executed 
-        $sql = "INSERT INTO `sponsentry` (`name`, `designation` ,`details`,`email`,`phoneno`,`address`) VALUES ('$name', '$designation' ,'$details','$email','$phoneno','$address')";
+        $sql = "INSERT INTO `sponsentry` (`Name`, `designation` ,`details`,`email`,`phoneno`,`address`) VALUES ('$name', '$designation' ,'$details','$email','$phoneno','$address')";
         $result = mysqli_query($conn, $sql);
  
         if($result){
@@ -29,7 +29,7 @@ require 'connection.php';
             <span aria-hidden="true">×</span>
           </button>
         </div>';
-        header("Location: registered.html");
+        header("Location: ../registered.html");
         }
         else{
             // echo "The record was not inserted successfully because of this error ---> ". mysqli_error($conn);

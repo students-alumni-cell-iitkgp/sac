@@ -4,7 +4,7 @@
 
         if(!isset($_SESSION['email']))
     {
-      header("Location: logout.html");
+      header("Location: ../logout.html");
     }
         $kgpdoa        = $_SESSION['kgpdoa']      ;
         $kgptimetocome = $_SESSION['kgptimetocome']   ;
@@ -38,7 +38,7 @@
 
     <style>
         body{
-                background-image: url("./img/form-bg.jpeg");
+                background-image: url("img/form-bg.jpeg");
                 background-repeat: no-repeat;
                 background-size: 100% 100%;
             }
@@ -75,7 +75,7 @@
 </head>
 
 <body>
-    <?php include 'navbar.php' ?>
+
     <section>
         <div class="wrapper" style="margin-bottom: 2vw;">
             <center>
@@ -91,7 +91,7 @@
                 <div id="one" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
             </div>
             <br>
-            <form id="login" action = "back_travel.php" method = "post">
+            <form id="login" action = "backend\travel.php" method = "post">
                 <div class="section1">
                     <div class="container">
                         <div class="row">
@@ -154,7 +154,7 @@
 
                     <div class="row justify-content-between" style = " margin-right:3%;"> 
                         <div class="col-4 text-center">
-                            <a class="btn btn-outline-primary " href="get_update.php" role="button">Skip for Now</a>
+                            <a class="btn btn-outline-primary " href="Utility/get_update.php" role="button">Skip for Now</a>
                         </div>
                         <div class="col-2 text-center">      
                              <div class=" col-md-1 col-3"> <button class="btn btn-primary" type = "button" onclick="next()">Next</button></div>

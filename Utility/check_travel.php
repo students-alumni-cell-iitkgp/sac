@@ -1,13 +1,12 @@
 <?php
 session_start();  
-include_once('connection.php');
+include_once('../connection.php');
 
     $email = $_SESSION['email'];
 
 // Establish database connection 
 
 // Establish database connection using MYSQLI.
-  $DB_NAME = 'aam';
   $db = mysqli_connect($DB_HOST, $DB_USER, $DB_PASS, $DB_NAME);
   // Check connection
   if (mysqli_connect_errno())
@@ -28,6 +27,7 @@ if(!empty($email)) {
     $sql ="SELECT `email` FROM `travel` WHERE `email` = '$email' ";
     $results = mysqli_query($db, $sql);
 
+    $num_row = 0;
 
     if($results -> num_rows)
     {
@@ -48,7 +48,7 @@ if(!empty($email)) {
           <span aria-hidden="true">×</span>
         </button>
        </div>';
-       header("Location: errorpage.html");
+       header("Location: ../errorpage.html");
        }
     }
   }

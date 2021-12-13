@@ -26,8 +26,8 @@
                 </h2>
             </center>
             <!-- <a href="back_signup.php" >SUBMIT</a> -->
-            <form id="register" action = "back_signup.php" method = "post" enctype="multipart/form-data" onSubmit="window.location.reload()">
-
+            <form id="register" action = "backend\signup.php" method = "post" enctype="multipart/form-data" onSubmit="window.location.reload()">
+           
 
             <div class="section1">
                 <div class="heading">
@@ -78,7 +78,7 @@
                                 <span class="input-group-text" style="font-weight: 600;" id="basic-addon1"><i class="fas fa-address-card"></i></span>
                                 <input class="form-control" type="text" name="address" id="personal_address" maxlength="400">
                             </div>  
-                            <small class = "text-muted">Do not use inverted commams (',")</small>
+                            
                         </div>
                         <div class="col-sm-12 col-md-6">
                             <label for="city">City <span style="color:red;">*</span></label>
@@ -387,12 +387,12 @@
                         <div class="col-sm-12">
                             <label for="yog">Involvements (Societies, Hall Events, etc) </label>
                             <input class="form-control" type="text" id="involvements" name="involvements" maxlength="400">
-                            <small class = "text-muted">Do not use inverted commams (',")</small>
+                            
                         </div>
                         <div class="col-sm-12">
                             <label for="yog">Hobbies</label>
                             <input class="form-control" type="text" id="hobbies" name="hobbies" maxlength="200">
-                            <small class = "text-muted">Do not use inverted commams (',")</small>
+                            
                         </div>
                     </div>
                 </div>
@@ -768,7 +768,7 @@
 //This function checks email-availability-status
 function checkemailAvailability() {
 jQuery.ajax({
-url: "check_username_availablity.php",
+url: "Utility/check_username_availablity.php",
 data:'email='+$("#email").val(),
 type: "POST",
 success:function(data){

@@ -52,8 +52,12 @@ Total no of registrations are: &ensp; <h2><?php echo $total ;?></h2>
   
 =======
     
+<<<<<<< HEAD
 >>>>>>> fc1a68f00db7389ef16f8f4152978dd74085d045
     <td><?php echo $value['name']; ?></td>
+=======
+    <td><?php echo $value['Name']; ?></td>
+>>>>>>> e59bc661ce9f0166d1ad52e687cefda7548ad44c
     <td><?php echo $value['email']; ?></td>
     <td><?php echo $value['accompaniments']; ?></td>
     <td><?php echo $value['reciept']; ?></td>

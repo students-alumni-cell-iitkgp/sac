@@ -503,7 +503,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
-  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
+  <!-- <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script> -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollTrigger/1.0.5/ScrollTrigger.min.js" integrity="sha512-m/n857VfrPYUcRvzCfqfrC9aMT06TQA2V0DcX/Ovovrhswa3038FfYmHlB0l/ZMukVyKWmiwZI4Pnnd7v3FwFQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script>
 		
@@ -519,29 +520,29 @@
         duration:1.5, 
 		y:50 
          });  
-}  
- $(window).on('load', function() {
-    if ($('#preloader').length) {
-      $('#preloader').delay(100).fadeOut('fast', function() {
-        $(this).remove();
-      });
-    }
-  });
+	}  
+	$(window).on('load', function() {
+		if ($('#preloader').length) {
+		$('#preloader').delay(100).fadeOut('fast', function() {
+			$(this).remove();
+		});
+		}
+	});
 
 
-$(document).ready(function(){ 
-    $(window).scroll(function(){ 
-        if ($(this).scrollTop() > 100) { 
-            $('.back-to-top').fadeIn(); 
-        } else { 
-            $('.back-to-top').fadeOut(); 
-        } 
-    }); 
-    $('.back-to-top').click(function(){ 
-        $("html, body").animate({ scrollTop: 0 }, 600); 
-        return false; 
-    }); 
-});
+	$(document).ready(function(){ 
+	$(window).scroll(function(){ 
+		if ($(this).scrollTop() > 100) { 
+			$('.back-to-top').fadeIn(); 
+		} else { 
+			$('.back-to-top').fadeOut(); 
+		} 
+	}); 
+	$('.back-to-top').click(function(){ 
+		$("html, body").animate({ scrollTop: 0 }, 600); 
+		return false; 
+	}); 
+	});
 
 
 	</script>
