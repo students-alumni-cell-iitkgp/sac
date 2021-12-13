@@ -1,5 +1,5 @@
 <?php 
-include_once('connection.php');
+include_once('../connection.php');
 // Establish database connection 
 
 // Establish database connection using MYSQLI.

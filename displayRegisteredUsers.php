@@ -3,7 +3,7 @@ session_start();
  if(!isset($_SESSION['email']))
  {
    
-   header("Location: ../logout.html");
+   header("Location: logout.html");
  }
 ?>
 
@@ -11,12 +11,13 @@ session_start();
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <title>SAC</title>
 
 
     <!-- CSS only -->
     <!-- Bootstrap 4.5.2 -->
+    <link rel="stylesheet" href="css/loginpage.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
@@ -39,7 +40,7 @@ session_start();
 
 <style>
 body{
-    background-image: url(".././img/form-bg.jpeg");
+    background-image: url("img/form-bg.jpeg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
   }
@@ -151,8 +152,8 @@ body{
 
 <body>
     <?php
-      $path="../connection.php";
-      include '../adminPages/config.php';
+      $path="connection.php";
+      include 'adminPages/config.php';
       $batch1981=getBatch('1981');$no1981=getBatch('1981');
       $batch1982=getBatch('1982');$no1982=getBatch('1982');
       $batch1996=getBatch('1996');$no1996=getBatch('1996');
@@ -169,7 +170,7 @@ body{
         <div class="container-fluid" style="margin-top:2.5vw !important;">
           <div class="row">
             <div class="col-md-3">
-              <div class="bord" style = "background-color:fff; width:100%;padding-bottom:10px;margin-left:-10px;">
+              <div class="bord" style = "background-color:#fff; width:103%;padding-bottom:10px;margin-left:-10px;">
                 <div class="bttons"><button class="my-1" id="1981_btn" onclick="show_1981()">1981 <span style="color:red;"><?php echo "(".$no_of_people1981.")" ?></span></button></div>
                 <div class="bttons"><button class="my-1" id="1982_btn" onclick="show_1982()">1982 <span style="color:red;"><?php echo "(".$no_of_people1982.")" ?></span></button></div>
                 <div class="bttons"><button class="my-1" id="1996_btn" onclick="show_1996()">1996 <span style="color:red;"><?php echo "(".$no_of_people1996.")" ?></span></button></div>
@@ -183,7 +184,7 @@ body{
                         <th scope="row">Name</th>
                     </tr>
                     <?php   while($value=$batch1981->fetch(PDO::FETCH_ASSOC)){?>
-                      <tr><td><?php echo  $value['name']; ?></td></tr>
+                      <tr><td><?php echo  $value['Name']; ?></td></tr>
                     <?php } ?>
                     </tr>
                     
@@ -195,7 +196,7 @@ body{
                         <th scope="row">Name</th>
                     </tr>
                     <?php   while($value=$batch1982->fetch(PDO::FETCH_ASSOC)){?>
-                      <tr><td><?php echo  $value['name']; ?></td></tr>
+                      <tr><td><?php echo  $value['Name']; ?></td></tr>
                     <?php } ?>
                 </table>
               </div>
@@ -205,7 +206,7 @@ body{
                         <th scope="row">Name</th>
                     </tr>
                     <?php   while($value=$batch1996->fetch(PDO::FETCH_ASSOC)){?>
-                      <tr><td><?php echo  $value['name']; ?></td></tr>
+                      <tr><td><?php echo  $value['Name']; ?></td></tr>
                     <?php } ?>
                 </table>
               </div>
@@ -215,7 +216,7 @@ body{
                         <th scope="row">Name</th>
                     </tr>
                     <?php   while($value=$batch1997->fetch(PDO::FETCH_ASSOC)){?>
-                      <tr><td><?php echo  $value['name']; ?></td></tr>
+                      <tr><td><?php echo  $value['Name']; ?></td></tr>
                     <?php } ?>
                 </table>
               </div>
@@ -271,4 +272,4 @@ body{
         </script>
     
 </body>
-<?php include '../footer.php' ?>
+<?php include 'footer.php' ?>
