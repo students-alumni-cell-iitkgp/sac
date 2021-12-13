@@ -50,7 +50,7 @@ require '../config.php';
         $_SESSION['airpcount']     = $airpcount      ;
         $_SESSION['aircarseater']  = $aircarseater     ; 
 
-        header("Location: update.php");
+        header("Location: ../dashboard.php");
 
     } 
 

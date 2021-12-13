@@ -20,7 +20,7 @@ include_once('../config.php');
     $users = $stmt->fetchAll();
     foreach($users as $user) {
 
-        $name    = $user['name']      ;
+        $name    = $user['Name']      ;
         //$email   = $user['email']     ;
         $address = $user['Address']   ;
         $city    = $user['City']      ;
@@ -67,7 +67,7 @@ include_once('../config.php');
         //$pickup     = $_user['pickup']      ; 
 
         //adding seession 
-        $_SESSION['name']     = $name     ;
+        $_SESSION['Name']     = $name     ;
        $_SESSION['email']    = $email    ;
        $_SESSION['address']  = $address  ;
        $_SESSION['city']     = $city     ;
