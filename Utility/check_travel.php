@@ -3,35 +3,11 @@ session_start();
 include_once('../config.php');
 
     $email = $_SESSION['email'];
-
-//// Establish database connection 
-//
-//// Establish database connection using MYSQLI.
-//  $db = mysqli_connect($DB_HOST, $DB_USER, $DB_PASS, $DB_NAME);
-//  // Check connection
-//  if (mysqli_connect_errno())
-//  {
-//        echo "Failed to connect to MySQL: " . mysqli_connect_error();
-//  }
-//
-// //####### End of dbconfig.php #######
-
-// code user Email availablity
-//if(!empty($email)) {
-//
-//  if (filter_var($email, FILTER_VALIDATE_EMAIL)===false) {
-//    
-//    echo "error :you did not enter a valid email.";
-//  }
-//  else {
-    $sql ="SELECT `email` FROM `travel` WHERE `email` = '$email' ";
+    $sql ="SELECT COUNT(*) FROM `travel` WHERE `email` = '$email' ";
     $stmt=$GLOBALS["conn"]->prepare($sql);
     $results = $stmt->execute();
     $num_rows =  $stmt->fetchColumn();
 
-    //$results = $stmt->fetchAll();
-
-    //$num_row = 0;
 
     if($num_rows > 0)
     {
