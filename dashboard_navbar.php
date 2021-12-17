@@ -26,9 +26,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="payment.php">Payment </a>                
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                     <a class="nav-link" href="TravellingDetails.php">Travel Details </a>                
-                </li>
+                </li> -->
                 <li class="nav-item">
                     <a class="nav-link" href="edit_info.php">Edit </a>                
                 </li>
