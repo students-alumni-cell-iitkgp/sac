@@ -148,15 +148,6 @@
                        <th style="text-align: center;">Cost per person(₹)</th>
                        <!-- <th style="text-align: center;">Cost for Accompaniaments(₹)</th> -->
                     </tr>
-                    <!-- <tr>
-                       <td data-th="">Technology Guest House - SO</td>
-                       
-                       <td style="text-align: center;" data-th="Cost for Alumni">3000</td>
-                       </tr>
-                    <tr>
-                        <td data-th="">Technology Guest House - DO</td>
-                        <td style="text-align: center;" data-th="Cost for Alumni">2250</td>
-                       </tr> -->
                     <tr>
                         <td data-th="">Technology Guest House/ Alumni Guest House</td>
                         <td style="text-align: center;" data-th="Cost for Alumni">2250</td>
@@ -223,7 +214,6 @@
                                     <!-- <option value="Technology Guest House - DO | Acc(Double Occupancy | Accommodation)"> -->
                                     <!-- <option value="Technology Guest House - DO | Al(Double Occupancy | Shared)">Technology Guest House - DO | Al(Double Occupancy | Shared)</option> -->
                                      <option value="VGH/ SAM">VGH/ SAM</option>
-                                     <option value="NA">Not Required</option>
                                     <!-- <option value="VGH/CEC - AC - DO | Al"> VGH/CEC - AC - DO | Al </option> 
                                     <option value="VGH/CEC - Non-AC - SO"> VGH/CEC - Non-AC - SO</option> 
                                     <option value="VGH 3/4  bedded- DO | Al"> VGH 3/4  bedded- DO | Al</option> 
@@ -236,38 +226,6 @@
                             <!--<h4 id="cost" name = "cost" type="text" style="text-align: center;">Total cost = &#8377;0</h4>-->
                             <input class="form-control" id="cost" name = "cost" type="text" value = "Total cost = &#8377; 0 " readonly>
                         </div>
-                        <!-- <div class="col-sm-12 col-md-6">
-                            <label for="desig">Designation <span style="color:red;">*</span></label>
-                            <input class="form-control" type="text" id="desig" name="designation" required>
-                        </div>
-                        <div class="col-sm-12">
-                            <label for="address">Address</label>
-                            <div class="input-group mb-3">
-                                <span class="input-group-text" style="font-weight: 600;" id="basic-addon1"><i class="fas fa-address-card"></i></span>
-                                <input class="form-control" type="text" id="address" name="work_address">
-                            </div>
-                            
-                        </div>
-                        <div class="col-sm-12 col-md-6">
-                            <label for="city">City</label>
-                            <input class="form-control" type="text" id="city" name="work_city">
-                        </div>
-                        <div class="col-sm-12 col-md-6">
-                            <label for="state">State</label>
-                            <input class="form-control" type="text" id="state" name="work_state">
-                        </div>
-                        <div class="col-sm-12 col-md-6">
-                            <label for="Country">Country</label>
-                            <div class="input-group mb-3">
-                                <span class="input-group-text" style="font-weight: 600;" id="basic-addon1"><i class="fas fa-globe"></i></i></span>
-                                <input class="form-control" type="text" id="Country" name="work_country">
-                            </div>
-                            
-                        </div>
-                        <div class="col-sm-12 col-md-6">
-                            <label for="zip">Zip Code</label>
-                            <input class="form-control" type="text" id="zip" name="work_zipCode">
-                        </div> -->
                     </div>
                 </div>
                 <div class="row justify-content-md-between justify-content-around">
@@ -449,24 +407,6 @@
                 
               </center>
             </div>
-
-            <!--<div class="section6">
-                <div class="heading">
-                    <h2>Own Your Hall Room</h2>
-                    <div class="progress" style="height:0.4rem;">
-                        <div id="one" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
-                    </div>
-                </div>
-                <div class="container">
-                    <br> 
-                    <h4>Over the years we have received unprecedented support from our esteemed alumni for various Developmental Projects of IITKGP.</h4>
-                    <h4>Amongst all the initiatives run by the institute, the Hall Development Campaign is one of the well supported campaigns from the alumni... <a href="http://alumni.iitkgp.ac.in/AlumniIITKGP/GoThroughCampaign/?camp_id=46&purpose=readmore" target="_blank" rel="noopener noreferrer">[Read more]</a></h4>
-                </div>
-                <div class="row justify-content-md-between justify-content-around guesth">
-                    <div class=" col-md-1 col-3">  <button class="btn btn-dark" type = "button" onclick="back5()">Back</button> </div>
-                    <div class=" col-md-1 col-3">     <button id="submit" class="btn btn-dark" type = "submit">Submit</button></div>
-                </div>
-            </div>-->
             </form>
 
         </div>
@@ -577,24 +517,6 @@
             }else{
                 next5Allow=0;
             }
-            // const fi = document.getElementById('certificate');
-        // Check if any file is selected.
-        // if (fi.files.length > 0) {
-        //     for (var i = 0; i <= fi.files.length - 1; i++) {
-  
-        //         const fsize = fi.files.item(i).size;
-        //         const file = Math.round((fsize / 1024));
-        //         // The size of the file.
-        //         //console.log(file);
-        //         if(fsize > 5242880){
-        //             console.log(fsize);
-        //             // document.getElementById('submit').disabled = true;
-        //             next5Allow = 0;
-        //             document.getElementById('size_file').style.visibility = "visible";
-        //             // visibility: visible;
-        //         }
-        //     }
-        // }
             if(next5Allow){
 
                 document.getElementsByClassName("section2")[0].style.display = 'none';
@@ -624,34 +546,9 @@
            if(choice === "Technology Guest House/ Alumni Guest House"){
                 cost = 2250 + 7000 + 4000*nguest + 2250*nguest;
            }
-        //    else if(choice === "Technology Guest House - DO | Acc"){
-        //        cost = 2250 + 2250*nguest + 7500 + 4500*nguest;
-        //    }
-        //    else if(choice === "Technology Guest House - DO | Al(Double Occupancy | Shared)"){
-        //        cost = 2250 + 7500;
-        //    }
-        //    else if(choice === "VGH/CEC - AC - SO"){
-        //        cost = 1200 + 7500;
-        //    }
-        //    else if(choice === "VGH/CEC - AC - DO | Al"){
-        //        cost = 900 + 7500;
-        //    }
-        //    else if(choice === "VGH/CEC - Non-AC - SO"){
-        //        cost = 750 + 7500;
-        //    }
-        //    else if(choice === "VGH 3/4  bedded- DO | Al"){
-        //        cost = 450 + 7500;
-        //    }
            else if(choice === "VGH/ SAM"){
                cost = 900 + 900*nguest + 7000 + 4000*nguest; 
            }
-           else if(choice === "NA"){
-               cost = 7000; 
-           }
-        //    else{
-        //        cost = 900 + 7500;
-        //    }
-
            document.getElementById("cost").value =  "Total Cost = (₹) "+cost;
 
            console.log(cost);
