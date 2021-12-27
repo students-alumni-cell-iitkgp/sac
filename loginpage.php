@@ -41,7 +41,7 @@
 <body>
     <?php include 'navbar.php' ?>
     <section>
-        <div class="wrapper" style="width: 40vw">
+        <div class="wrapper">
             <center>
 
                 <h2 style="font-size: 300%; color: black; font-family: 'Raleway', sans-serif;">
