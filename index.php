@@ -84,7 +84,7 @@
 
 <body>
     <?php include 'navbar.php'?>
-    <div id="carouselExampleIndicators" style="width:100% height:100%" class="carousel slide hero-carousel" data-ride="carousel">
+    <div id="carouselExampleIndicators" style="width:100%; height:100%" class="carousel slide hero-carousel" data-ride="carousel">
         <ol class="carousel-indicators">
             <!-- <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li> -->
             <!-- <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -95,9 +95,9 @@
             <li data-target="#carouselExampleIndicators" data-slide-to="6"></li> -->
 
         </ol>
-        <div class="carousel-inner" style="width:100% height:100%">
+        <div class="carousel-inner" style="width:100%; height:100%">
             <div class="carousel-item active">
-            <div class="carousel-image" style="background-image:url('img/align.webp');background-size:100% 100%"></div>
+            <div class="carousel-image" style="background-image:url('img/AAM-Web-Cover-Stretched-new-71-72.webp');background-size:100% 100%"></div>
                
             </div>
             <!-- <div class="carousel-item" style>
