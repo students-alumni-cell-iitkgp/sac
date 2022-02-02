@@ -12,7 +12,7 @@
   <style type="text/css">
 
    .img{
-	   background-image:url(img/align.webp);
+	   background-image:url(img/AAM-Web-Cover-Stretched-new-71-72.webp);
 	   background-size:100% 100%;
    }
     .padding{
@@ -76,7 +76,7 @@
 			<div class="col-md-5">
 			<div class="container" style="margin-left:0.5rem;">
 				<div class="row d-flex justify-content-center">
-					<div class="col-md-10 col-12 trailer " style="padding-right:2rem padding-left:2em; padding-top:3.5rem; padding-bottom:15rem;">
+					<div class="col-md-10 col-12 trailer " style="padding-right:2rem; padding-left:2em; padding-top:3.5rem; padding-bottom:15rem;">
 						<div class="first"></div>
 						<div class="second"></div>
 						<div class="third"> 
