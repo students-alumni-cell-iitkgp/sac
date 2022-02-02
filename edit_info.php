@@ -374,7 +374,7 @@
                         <div class="col-12"><label for="status">Vaccination Status <span style="color:red;">*</span></label></div> 
                         <div class="input-group mb-3">
                            
-                            <select  class="form-control form-select" type="list" id="status" name="status" value = "<?php echo "$gh"?>" required>
+                            <select  class="form-control form-select" type="list" id="status" name="status" value = "<?php echo "$status"?>" required>
                                 <option value=""> </option>
                                 <option value="Fully Vaccinated">Fully Vaccinated</option>
                                 <option value="Partially Vaccinated">Partially Vaccinated</option>
