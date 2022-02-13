@@ -71,7 +71,7 @@
 			        </div>
 			    </div>
 			    <a class="btn btn-outline-primary c" align="justify" href="loginpage.php" role="button">18th Annual Meet</a>
-				<a class="btn btn-outline-primary c" align="justify" href="./grandreunion/index.php" role="button">Grand Reunion</a>
+				<!--<a class="btn btn-outline-primary c" align="justify" href="./grandreunion/index.php" role="button">18th Annual Meet</a>-->
 			</div>
 			<div class="col-md-5">
 			<div class="container" style="margin-left:0.5rem;">

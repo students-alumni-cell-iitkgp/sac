@@ -5,6 +5,14 @@ require '../config.php';
 //if ($_SERVER["REQUEST_METHOD"]== "POST") {
     //$database = 'aam';
     $email = $_SESSION['email'];
+    //$dob = $_SESSION['password']; 
+
+    //$conn = mysqli_connect($DB_HOST, $DB_USER, $DB_PASS, $DB_NAME);
+    //$stmt = $conn->prepare("SELECT * FROM travel WHERE `email` = '$email'");
+    //$stmt->execute();
+    //$resultSet = $stmt->get_result();
+    //$users = $resultSet->fetch_all(MYSQLI_ASSOC);
+
     $stmt = $conn->prepare("SELECT * FROM travel WHERE `email` = '$email'");
     $stmt->execute();
     $users = $stmt->fetchAll();
@@ -48,3 +56,4 @@ require '../config.php';
 
 
 //}
+?>
