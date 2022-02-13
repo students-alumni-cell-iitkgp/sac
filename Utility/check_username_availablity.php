@@ -21,7 +21,7 @@ if(!empty($_POST["email"])) {
     echo "error :you did not enter a valid email.";
   }
   else {
-    $sql ="SELECT COUNT(*) FROM `aam` WHERE `email` = '$email' ";
+    $sql ="SELECT `email` FROM `aam` WHERE `email` = '$email' ";
     //$results = mysqli_query($db, $sql);
     $stmt=$GLOBALS["conn"]->prepare($sql);
     $results = $stmt->execute();

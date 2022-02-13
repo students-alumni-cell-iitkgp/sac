@@ -112,7 +112,7 @@ include_once('../config.php');
        //$_SESSION['modeofT']    = $modeofT     ;
        //$_SESSION['pickup']     = $pickup      ; 
         
-        header("Location: check_travel.php");
+        header("Location: ../dashboard.php");
     } 
 
 //}
