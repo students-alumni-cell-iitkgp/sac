@@ -42,7 +42,7 @@
             <span aria-hidden="true">×</span>
           </button>
         </div>';
-        header("Location: ../Utility/paymentSuccessful.html");
+        header("Location: ../paymentSuccessful.html");
         }
         else{
             // echo "The record was not inserted successfully because of this error ---> ". mysqli_error($conn);
