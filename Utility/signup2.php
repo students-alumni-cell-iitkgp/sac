@@ -70,6 +70,12 @@ if ($_SERVER["REQUEST_METHOD"]== "POST") {
         echo "<script language='javascript'>";
         echo "alert('WRONG INFORMATION')";
         echo "</script>";
+
+        echo "<script language='javascript'>";
+        echo "setTimeout(function() {";
+        echo "    window.location.href = '../loginpage.php';";
+        echo "}, 1000);";
+        echo "</script>";
     }
     
 }
