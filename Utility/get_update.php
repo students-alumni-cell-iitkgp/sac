@@ -1,22 +1,23 @@
 <?php
 session_start();  
-require '../connection.php';
+include_once('../config.php');
     
     if(!isset($_SESSION['email']))
     {
       header("Location: ../logout.html");
     }
 //if ($_SERVER["REQUEST_METHOD"]== "POST") {
-    $database = 'aam';
+    
     $email = $_SESSION['email'];
     $dob = $_SESSION['password']; 
 
-    $conn = mysqli_connect($DB_HOST, $DB_USER, $DB_PASS, $database);
     $stmt = $conn->prepare("SELECT * FROM aam WHERE `email` = '$email'");
     $stmt->execute();
     
-    $resultSet = $stmt->get_result();
-    $users = $resultSet->fetch_all(MYSQLI_ASSOC);
+    //$resultSet = $stmt->get_result();
+    //$users = $resultSet->fetch_all(MYSQLI_ASSOC);
+
+    $users = $stmt->fetchAll();
     foreach($users as $user) {
 
         $name    = $user['Name']      ;
@@ -111,7 +112,8 @@ require '../connection.php';
        //$_SESSION['modeofT']    = $modeofT     ;
        //$_SESSION['pickup']     = $pickup      ; 
         
-        header("Location: check_travel.php");
+        //header("Location: check_travel.php");
+        header("Location: ../dashboard.php");
     } 
 
 //}

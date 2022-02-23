@@ -12,7 +12,7 @@
   <style type="text/css">
 
    .img{
-	   background-image:url(img/align.webp);
+	   background-image:url(img/AAM-Web-Cover-Stretched-new-71-72.webp);
 	   background-size:100% 100%;
    }
     .padding{
@@ -71,11 +71,12 @@
 			        </div>
 			    </div>
 			    <a class="btn btn-outline-primary c" align="justify" href="loginpage.php" role="button">18th Annual Meet</a>
+				<!--<a class="btn btn-outline-primary c" align="justify" href="./grandreunion/index.php" role="button">18th Annual Meet</a>-->
 			</div>
 			<div class="col-md-5">
 			<div class="container" style="margin-left:0.5rem;">
 				<div class="row d-flex justify-content-center">
-					<div class="col-md-10 col-12 trailer " style="padding-right:2rem padding-left:2em; padding-top:3.5rem; padding-bottom:15rem;">
+					<div class="col-md-10 col-12 trailer " style="padding-right:2rem; padding-left:2em; padding-top:3.5rem; padding-bottom:15rem;">
 						<div class="first"></div>
 						<div class="second"></div>
 						<div class="third"> 
@@ -503,7 +504,6 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
-  <!-- <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script> -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollTrigger/1.0.5/ScrollTrigger.min.js" integrity="sha512-m/n857VfrPYUcRvzCfqfrC9aMT06TQA2V0DcX/Ovovrhswa3038FfYmHlB0l/ZMukVyKWmiwZI4Pnnd7v3FwFQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script>
