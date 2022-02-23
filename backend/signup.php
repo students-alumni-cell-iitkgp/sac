@@ -76,23 +76,23 @@ include '../config.php';
         </div>'; 
 
            /// insert email in travel table by this we only have to update travel travel
-           $sql = "INSERT INTO `travel` (`email`) VALUES (:email)";
-           $stmt=$GLOBALS['conn']->prepare($sql);
-           $stmt->bindparam(':email',$email);
-           $resu = $stmt->execute();
-           if($resu){
+           ///$sql = "INSERT INTO `travel` (`email`) VALUES (:email)";
+           ///$stmt=$GLOBALS['conn']->prepare($sql);
+           ///$stmt->bindparam(':email',$email);
+           ///$resu = $stmt->execute();
+           ///if($resu){
                header("Location: ../Utility/get_update.php");
                //get_update.php C:\xampp\htdocs\sac\get_update.php
-           }
-           else{
-            echo '<div class="alert alert-danger alert-dismissible fade show" role="alert">
-            <strong>Error!</strong> We are facing some technical issue and your entry ws not submitted successfully!(travel) We regret the inconvinience caused!
-            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-              <span aria-hidden="true">×</span>
-            </button>
-          </div>';
-          header("Location: ../errorpage.html");
-           }
+           ///}
+           ///else{
+           /// echo '<div class="alert alert-danger alert-dismissible fade show" role="alert">
+           /// <strong>Error!</strong> We are facing some technical issue and your entry ws not submitted successfully!(travel) We regret the inconvinience caused!
+           /// <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+           ///   <span aria-hidden="true">×</span>
+           /// </button>
+          ////<div>';
+          ///header("Location: ../errorpage.html");
+          /// }
 
         //header("Location: get_update.php");
         }
