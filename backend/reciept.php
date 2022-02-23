@@ -1,6 +1,6 @@
 <?php
     session_start();
-    require '../connection.php';
+    require '../config.php';
 
     if ($_SERVER['REQUEST_METHOD'] == 'POST'){
         $reciept = $_POST['reciept'];
@@ -10,12 +10,12 @@
         $password = $_SESSION['password'];
         
       // Create a connection
-      $conn = mysqli_connect($DB_HOST, $DB_USER, $DB_PASS, "aam");
-      // Die if connection was not successful
-      if (!$conn){
-          die("Sorry we failed to connect: ". mysqli_connect_error());
-      }
-      else{ 
+      //$conn = mysqli_connect($DB_HOST, $DB_USER, $DB_PASS, "aam");
+      //// Die if connection was not successful
+      //if (!$conn){
+      //    die("Sorry we failed to connect: ". mysqli_connect_error());
+      //}
+      //else{ 
         // Submit these to a database
         // Sql query to be executed 
         // $target_dir = "AAMuploads/";
@@ -32,7 +32,8 @@
         //   echo "Sorry, there was an error uploading your file.";
         // }
         $sql = "UPDATE `aam` SET `reciept` = '$reciept' WHERE `email` = '$email'";
-        $result = mysqli_query($conn, $sql);
+        $stmt=$GLOBALS["conn"]->prepare($sql);
+        $result = $stmt->execute();
  
         if($result){
           echo '<div class="alert alert-success alert-dismissible fade show" role="alert">
@@ -41,7 +42,7 @@
             <span aria-hidden="true">×</span>
           </button>
         </div>';
-        header("Location: ../paymentSuccessful.html");
+        header("Location: ../Utility/paymentSuccessful.html");
         }
         else{
             // echo "The record was not inserted successfully because of this error ---> ". mysqli_error($conn);
@@ -53,6 +54,6 @@
         </div>';
         header("Location: ../errorpage.html");
         }
-      }
+      //}
     }   
 ?>

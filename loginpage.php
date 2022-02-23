@@ -1,102 +1,53 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en" >
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/loginpage.css">
- 
-    <style>
-        body{
-                background-image: url("./img/form-bg.jpeg");
-                background-repeat: no-repeat;
-                background-size: 100% 100%;
-            }
-            .wrappers {
-    padding: 2%;
-}
-    </style>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:400,700,300'>
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
+<link rel="stylesheet" href="./css/gr_style.css">
 
-    <!-- JS, Popper.js, and jQuery -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-        crossorigin="anonymous"></script>
-    <!--<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
-        integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN"
-        crossorigin="anonymous"></script>-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
-        integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/"
-        crossorigin="anonymous"></script>
-
-    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 </head>
-
 <body>
-    <?php include 'navbar.php' ?>
-    <section>
-        <div class="wrapper" style="width: 40vw">
-            <center>
-
-                <h2 style="font-size: 300%; color: black; font-family: 'Raleway', sans-serif;">
-
-                    Log In
-                </h2>
-            </center>
-            <form id="login" action = "Utility/signup2.php" method = "post">
-                <div class="section1">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-12 ">
-
-                                <label for="name" class="form-label">
-                                    Email
-                                    <span style="color:red;">*</span>
-                                </label>
-                                <div class="input-group mb-3">
-                                    <span class="input-group-text" style="font-weight: 600;" id="basic-addon1">@</span>
-                                    <input class="form-control" type="text" name="name" id="name" class="validate"
-                                        required>
-                                </div>
-
-                            </div>
-                            <div class="col-sm-12">
-                                <label for="dob">DOB <span style="color:red;">*</span></label>
-                                <input class="form-control" type="date" name="dob" required id="dob">
-                            </div>
-                        </div>
-                       
-                    </div>
-                    <!-- <div class="row justify-content-around  justify-content-md-between guesth"> -->
-                
-                        <div class="text-center">
-                            <button class="btn btn-dark" type="submit" value = "submit">Log In</button>
-                        </div>
-
-                </div>
-            </form>
-            <!-- <div class="container"> -->
-            <div class="text-center">      
-                <hr />
-                <a class="btn btn-outline-dark " href="signup.php" role="button">Register</a>
-            </div>
-
-            <br>
-            <center>
-                        <h6>Need Help? Contact Us</h6>
-                        <h6><i class="contact-icon fas fa-envelope"></i> Mail: aao@hijli.iitkgp.ernet.in</h6>
-                        <h6><i class="contact-icon fas fa-phone"></i> Tarun Majety: 7602443444</h6>             
-                        <h6>  <i class="contact-icon fas fa-phone"></i> Vikas Ahlawat: 8397070108</h6>             
-                        <h6>&nbsp;  <i class="contact-icon fas fa-phone"></i> Shikha Bagaria: 7479222951</h6>             
-              </center>
-              <!-- &nbsp; -->
-        </div>
-    </section>
-   
+<!-- partial:index.partial.html -->
+<div class="signup__container">
+  <div class="container__child signup__form">
+  <form action="Utility/signup2.php" method = "post">
+      <div class="form-group">
+        <label for="name" class="form-label">Email<span style="color:red;">*</span></label>
+        <input class="form-control" type="text" name="name" id="name" class="validate" required>
+      </div>
+      <div class="form-group">
+        <label for="dob">DOB <span style="color:red;">*</span></label>
+        <input class="form-control" type="date" name="dob" required id="dob">
+      </div>
+      <div class="m-t-lg">
+        <ul class="list-inline">
+          <li>
+            <input class="btn btn--form" type="submit" value="Login" />
+          </li>
+          <li>
+            <a class="signup__link" href="signup.php">Not Registered?</a>
+          </li>
+        </ul>
+      </div>
+    </form>  
+  </div>
+  <div class="container__child signup__thumbnail">
+    <div class="thumbnail__content text-center">
+    <h1 class="heading--primary">Need Help? Contact Us</h1>
+    <h2 class="heading--secondary">Mail: aao@hijli.iitkgp.ernet.in<br>
+ Tarun Majety: 7602443444<br>
+ Vikas Ahlawat: 8397070108<br>
+   Shikha Bagaria: 7479222951</h2>
+    </div>
+    <div class="signup__overlay"></div>
+  </div>
+</div>
+<!-- partial -->
+  
 </body>
+</html>
