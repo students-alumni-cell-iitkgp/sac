@@ -9,7 +9,7 @@
 
 .navbar-brand img {
     height: 4.5rem;
-    width: 7rem;
+    /* width: 7rem; */
 }
 
 .nav-item:hover .nav-link {
