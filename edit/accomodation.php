@@ -6,7 +6,7 @@
             <td style="text-align: center; padding: 2vh;" data-th="Cost for Alumni">7000</td>
         </tr>
         <tr>
-            <td data-th="">Accompaniments </td>
+            <td data-th="">Accompanying Person(s) </td>
             <td style="text-align: center;" data-th="Cost for Alumni">4000</td>
         </tr>
     </table>
@@ -20,10 +20,10 @@
             <td data-th="">Technology Guest House/ Alumni Guest House</td>
             <td style="text-align: center;" data-th="Cost for Alumni">2250</td>
             </tr>
-        <tr>
+        <!-- <tr>
             <td data-th="">VGH/ SAM</td>
             <td style="text-align: center;" data-th="Cost for Alumni">900</td>
-        </tr>
+        </tr> -->
     </table>
     <div class="form-group">
         <label for="marital">Marital Status</label>
@@ -32,14 +32,14 @@
     <div class="form-group">
         <label for="accompanyingNo" >Accompanying Person(s)<span style="color:red;">*</span></label>
         <input class="form-control" type="number" min="0" id="accompanyingNo" name="accompanyingNo" onchange="calc_cost()" value = "<?php echo "$accompaniments"?>" required>
-        <small class = "text-muted">Kids below 13 years of age won't be charged. It's free of cost for them. Don't add them in the accompaniments list</small>
+        <small class = "text-muted">Kids below 13 years of age won't be charged. It's free of cost for them. Don't add them in the accompanying person(s) list</small>
     </div>
     <div class="form-group">
         <label for="room">Guest House <span style="color:red;">*</span></label>
         <select  class="form-control form-select" type="list" onchange="calc_cost()"  list="room" id="room" name="room" value = "<?php echo "$gh"?>" required>
             <option value=""></option> 
             <option value="Technology Guest House/ Alumni Guest House">Technology Guest House/ Alumni Guest House</option> 
-            <option value="VGH/ SAM">VGH/ SAM</option>
+            <!-- <option value="VGH/ SAM">VGH/ SAM</option> -->
             <!--<option value="NA">Not Required</option>-->
         </select>
     </div>

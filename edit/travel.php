@@ -191,7 +191,7 @@
       <h2>Marital Status</h2>
       <p><?php echo "$marital"?></p>
 
-      <h2>Accompaniments</h2>
+      <h2>Accompanying Person(s)</h2>
       <p><?php echo "$accompaniments"?></p>
 
       <h2>Guest House</h2>

@@ -36,7 +36,7 @@ Total no of registrations are: &ensp; <h2><?php echo $total ;?></h2>
     <!-- <th>S.No</th> -->
     <th>Name</th>
     <th>Email</th>
-    <th>No of accompaniments</th>
+    <th>No of accompanying person(s)</th>
     <th>Payment status</th>
     <th>Vaccination status</th>
     <th>Guest House</th>

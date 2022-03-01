@@ -248,9 +248,9 @@
            if(choice === "Technology Guest House/ Alumni Guest House"){
                 cost = 2250 + 7000 + 4000*nguest + 2250*nguest;
            }
-           else if(choice === "VGH/ SAM"){
-               cost = 900 + 900*nguest + 7000 + 4000*nguest; 
-           }
+        //    else if(choice === "VGH/ SAM"){
+        //        cost = 900 + 900*nguest + 7000 + 4000*nguest; 
+        //    }
            else if(choice === "NA"){
                cost = 7000; 
            }
