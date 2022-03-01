@@ -120,7 +120,7 @@ header .row .col-md-5 img {
 header {
   background: #ff512f;
   /* fallback for old browsers */
-  background: url(../img/yoy_slide.jpg);
+  background: url(../img/yoy_slide.webp);
   background-size:100% 100%;
   background-position: center;
 }

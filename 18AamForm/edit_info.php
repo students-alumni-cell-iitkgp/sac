@@ -171,7 +171,7 @@
                        <td style="text-align: center;" data-th="Cost for Accompaniaments"></td>
                     </tr>
                     <tr>
-                       <td data-th="">Accompaniments </td>
+                       <td data-th="">Accompanying Person(s) </td>
                        <td data-th="No.of Rooms"></td>
                        <td style="text-align: center;" data-th="Cost for Alumni">4000</td>
                        <td style="text-align: center;" data-th="Cost for Accompaniaments"></td>
@@ -188,12 +188,12 @@
                         <td data-th="">Technology Guest House/ Alumni Guest House</td>
                         <td style="text-align: center;" data-th="Cost for Alumni">2250</td>
                        </tr>
-                    <tr>
+                    <!-- <tr>
                         <td data-th="">VGH/ SAM</td>
-                        <!-- <td data-th="No.of Rooms">7</td> -->
+                        <td data-th="No.of Rooms">7</td>
                         <td style="text-align: center;" data-th="Cost for Alumni">900</td>
-                        <!-- <td style="text-align: center;" data-th="Cost for Accompaniaments"></td> -->
-                    </tr>
+                        <td style="text-align: center;" data-th="Cost for Accompaniaments"></td>
+                    </tr> -->
                 </table>
 
                 <div class="container">
@@ -205,7 +205,7 @@
                         <div class="col-sm-12 col-md-6">
                             <label for="accompanyingNo" >Accompanying Person(s)<span style="color:red;"></span></label>
                             <input class="form-control" type="number" min="0" id="accompanyingNo" name="accompanyingNo" onchange="calc_cost()" value = "<?php echo "$accompaniments"?>">
-                            <small class = "text-muted">Kids below 13 years of age won't be charged. It's free of cost for them. Don't add them in the accompaniments list</small>
+                            <small class = "text-muted">Kids below 13 years of age won't be charged. It's free of cost for them. Don't add them in the accompanying person(s) list</small>
                         </div>
                         <div class="col-sm-12">
                             <label for="room">Guest House <span style="color:red;">*</span></label>
@@ -213,7 +213,7 @@
                               
                                 <select  class="form-control form-select" type="list" onchange="calc_cost()"  list="room" id="room" name="room" value = "<?php echo "$gh"?>" required>
                                 <option value="Technology Guest House/ Alumni Guest House">Technology Guest House/ Alumni Guest House</option> 
-                                     <option value="VGH/ SAM">VGH/ SAM</option>
+                                     <!-- <option value="VGH/ SAM">VGH/ SAM</option> -->
                                 </select>
                             </div >
     
@@ -534,9 +534,9 @@
            if(choice === "Technology Guest House/ Alumni Guest House"){
                 cost = 2250 + 7000 + 4000*nguest + 2250*nguest;
            }
-           else if(choice === "VGH/ SAM"){
-               cost = 900 + 900*nguest + 7000 + 4000*nguest; 
-           }
+        //    else if(choice === "VGH/ SAM"){
+        //        cost = 900 + 900*nguest + 7000 + 4000*nguest; 
+        //    }
 
            document.getElementById("cost").value =  "Total Cost = (₹) "+cost;
 

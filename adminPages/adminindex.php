@@ -23,7 +23,7 @@
             <input type="email" class="form-control" id="email" name="email">
         </div>
         <div class="mb-3">
-            <label for="accompaniments" class="form-label">No. of accompaniments</label>
+            <label for="accompaniments" class="form-label">No. of accompanying person(s)</label>
             <input type="text" class="form-control" id="accompaniments" name="accompaniments">
         </div>
         <div class="mb-3">
