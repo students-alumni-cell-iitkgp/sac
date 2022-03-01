@@ -410,7 +410,7 @@ th {
                                         <td><?php echo "$marital"?></td>
                                     </tr>
                                     <tr>
-                                        <th scope="row">ACCOMPANIMENTS</th>
+                                        <th scope="row">ACCOMPANYING PERSON(s)</th>
                                         <td><?php echo "$accompaniments"?></td>
                                     </tr>
                                     <tr>
@@ -731,7 +731,7 @@ th {
                                                 <td><?php echo "$marital"?></td>
                                             </tr>
                                             <tr>
-                                                <th scope="row">ACCOMPANIMENTS</th>
+                                                <th scope="row">ACCOMPANYING PERSON(s)</th>
                                                 <td><?php echo "$accompaniments"?></td>
                                             </tr>
                                             <tr>

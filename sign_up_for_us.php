@@ -317,7 +317,7 @@
 
             <div class="input-field col s12"  style="margin-bottom:20px;margin-top:3%">
               <input  type="number" min="0" id="accompanyingNo" name="accompanyingNo" required>
-              <label for="accompanyingNo">Accompaniments(Number of guests)<span style="color:red;">*</span></label>
+              <label for="accompanyingNo">Accompanying Person(s)(Number of guests)<span style="color:red;">*</span></label>
             </div>
 
             <div class="col s12">
