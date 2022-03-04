@@ -39,6 +39,8 @@ require '../config.php';
         $yog = $_POST['graduatingYear'];
         $involvement = $_POST['involvements'];
         $hobbies = $_POST['hobbies'];
+        $serial = $_POST['serial'];
+        $resident = $_POST['employee'];
 
         //$reciept = $_POST['reciept'];  
 
@@ -99,6 +101,8 @@ require '../config.php';
                                  `yog`            = '$yog',
                                  `involvement`    = '$involvement',
                                  `hobbies`        = '$hobbies',
+                                 `serial`         = '$serial',
+                                 `resident`       = '$resident',
                                  `cost` = '$cost' WHERE `email` = '$email'";
 
         // $result = mysqli_query($conn, $sql);

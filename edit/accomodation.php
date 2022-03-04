@@ -35,6 +35,18 @@
         <small class = "text-muted">Kids below 13 years of age won't be charged. It's free of cost for them. Don't add them in the accompanying person(s) list</small>
     </div>
     <div class="form-group">
+        <label for="employee">Are you a resident of IIT Kharagpur ? <span style="color:red;">*</span></label>
+        <select  class="form-control form-select" type="list" onchange="calc_cost()"  list="employee" id="employee" name="employee" required>
+            <option value=""></option> 
+            <option value="1">Yes</option> 
+            <option value="0">No</option> 
+        </select>
+    </div>
+    <div class="form-group " id = "serials">
+        <label for="serial">Serial Number <span style="color:red;">*</span></label>
+        <input class="form-control" type="text" name="serial" id="serial" >
+    </div>
+    <div class="form-group" id = "ghouse">
         <label for="room">Guest House <span style="color:red;">*</span></label>
         <select  class="form-control form-select" type="list" onchange="calc_cost()"  list="room" id="room" name="room" value = "<?php echo "$gh"?>" required>
             <option value=""></option> 
