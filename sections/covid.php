@@ -19,7 +19,7 @@
     </div>
     <div class="form-group">
         <div class="valid1" id="valid" style="display:none;">
-            <label  for="valid">Will you be able to get fully vaccinated by 10th january?<span style="color:red;">*</span></label>
+            <label  for="valid">Will you be able to get fully vaccinated by 10th March?<span style="color:red;">*</span></label>
             <br/>
             <input type="radio" id="yes" name="valid" value="yes"/>
             <label for="yes">Yes</label><br/>

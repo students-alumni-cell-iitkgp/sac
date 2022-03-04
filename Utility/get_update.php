@@ -58,7 +58,9 @@ include_once('../config.php');
         $involvement = $user['involvement']    ;
         $hobbies     = $user['hobbies']         ;
 
-        $reciept = $user['reciept'] ;    
+        $reciept = $user['reciept'] ;  
+        $serial = $user['serial'] ;
+        $resident = $user['resident'] ;  
 
         //fecting travelling details
         //$doa        = $_user['doa']      ;
@@ -106,6 +108,8 @@ include_once('../config.php');
        $_SESSION['hobbies']        = $hobbies      ;
 
        $_SESSION['reciept'] = $reciept ;
+       $_SESSION['serial'] = $serial ;
+       $_SESSION['resident'] = $resident ;
 
        //$_SESSION['doa']        = $doa         ;
        //$_SESSION['timetocome'] = $timetocome  ;
