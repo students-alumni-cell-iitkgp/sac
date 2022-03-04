@@ -43,7 +43,7 @@
         </select>
     </div>
     <div class="form-group " id = "serials">
-        <label for="serial">Serial Number <span style="color:red;">*</span></label>
+        <label for="serial">Employee ID <span style="color:red;">*</span></label>
         <input class="form-control" type="text" name="serial" id="serial" >
     </div>
     <div class="form-group" id = "ghouse">
