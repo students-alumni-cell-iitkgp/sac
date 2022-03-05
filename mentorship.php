@@ -75,7 +75,7 @@
                                 well as share their valuable experience with the current students.
                             </p>
                             <br>
-                            <button class="btn btn-outline-primary justify-content-center">
+                            <button class="btn btn-outline-primary justify-content-center" onclick="mentorship()">
                                 <i class="fa fa-book"></i> <a id="linktoSAMP" href="https://sac.iitkgp.ac.in/mentorship/" target="_blank" style="color: #00416d">Mentorship Portal</a>
                             </button>
                         </div>
@@ -179,6 +179,9 @@
 			$( "#one,#two,#three,#four").each(function( ) {
    $(this).addClass("progress-bar-purple");
 });
+function mentorship(){
+    window.location.href = "https://sac.iitkgp.ac.in/mentorship/";
+}
 gsap.from('header', { opacity: 0, duration: 1 })
     gsap.from('header h1', { opacity: 0, duration: 2, x: -200 })
     gsap.from('header h6', { opacity: 0, duration: 2, x: -500 })
