@@ -169,19 +169,19 @@
                     <div class="row">
                       <div class="col-12 col-sm-4 align-items-center">
                         <img src="img/AlumniTalk/Tanay.webp" class="image img-responsive img-fluid"
-                          style="width: 20em;">
+                          style="width: 20em;height:18em;">
                         <h5 class="x">Tanay Jagni</h5>
                         <h6 class="x">(Business Analyst)</h6>
                       </div>
                       <div class="col-12 col-sm-4 align-items-center">
                         <img src="img/AlumniTalk/Tiyasha.webp" class="image img-responsive img-fluid"
-                          style="width: 20em;">
+                          style="width: 20em;height:18em;">
                         <h5 class="x">Tiyasha Mitra</h5>
                         <h6 class="x">(Business Analyst)</h6>
                       </div>
                       <div class="col-12 col-sm-4 align-items-center">
                         <img src="img/AlumniTalk/Vasanta.webp" class="image img-responsive img-fluid"
-                          style="width: 20em;">
+                          style="width: 20em;height:18em;">
                         <h5 class="x">Vasanta Majety</h5>
                         <h6 class="x">(Business Analyst)</h6>
                       </div>
@@ -192,25 +192,25 @@
                     <div class="row">
                       <div class="col-lg-6 col-sm-6 align-items-center">
                         <img src="img/AlumniTalk/Stuti.webp" class="image img-responsive img-fluid"
-                          style="width: 20em;">
+                          style="width: 20em;height:18em;">
                         <h5 class="x">Ms. Stuti Modi</h5>
                         <h6 class="x">(Product Manager)</h6>
                       </div>
                       <div class="col-lg-6 col-sm-6 align-items-center">
                         <img src="img/AlumniTalk/Nyahrit.webp" class="image img-responsive img-fluid"
-                          style="width: 20em;">
+                          style="width: 20em;height:18em;">
                         <h5 class="x">Mr. Nayrhit</h5>
                         <h6 class="x">(Product Manager)</h6>
                       </div>
                       <div class="col-lg-6 col-sm-6 align-items-center">
                         <img src="img/AlumniTalk/Asad.webp" class="image img-responsive img-fluid"
-                          style="width: 20em;">
+                          style="width: 20em;height:18em;">
                         <h5 class="x">Mr.Asad Abrar</h5>
                         <h6 class="x">(Product Manager)</h6>
                       </div>
                       <div class="col-lg-6 col-sm-6 align-items-center">
                         <img src="img/AlumniTalk/Lavneesh.webp" class="image img-responsive img-fluid"
-                          style="width: 20em;">
+                          style="width: 20em;height:18em;">
                         <h5 class="x">Mr. Lavneesh Nyol</h5>
                         <h6 class="x">(Product Manager)</h6>
                       </div>
