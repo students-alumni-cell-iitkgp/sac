@@ -167,7 +167,7 @@
       <h2>Vaccination Status</h2>
       <p><?php echo "$status"?></p>
 
-      <h2>Able to get vaccinated by 10th Jan</h2>
+      <h2>Able to get vaccinated by 10th March</h2>
       <p><?php echo "$dosedate"?></p>
     </div>
  <div class="settings noshow">
@@ -175,7 +175,7 @@
       <h2>Marital Status</h2>
       <p><?php echo "$marital"?></p>
 
-      <h2>Accompaniments</h2>
+      <h2>Accompanying Person(s)</h2>
       <p><?php echo "$accompaniments"?></p>
 
       <h2>Guest House</h2>

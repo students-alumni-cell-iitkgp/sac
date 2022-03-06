@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Student Alumni Meet</title>
   <link rel="stylesheet" href="css/SAM_style.css">
-  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="css/SAM_mobile_style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
     integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -28,7 +28,7 @@
   <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
   <style>
     .img{
-	   background-image:url(img/sam3.jpg);
+	   background-image:url(img/sam3.webp);
 	   background-size:100% 100%;
        height:600px;
    }
