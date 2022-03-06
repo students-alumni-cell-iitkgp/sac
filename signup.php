@@ -66,8 +66,9 @@
         //    console.log("Im in");
            let nguests = document.getElementById("accompanyingNo").value;
            let room = document.getElementById("room").value;
-
-           if(nguests.length>0 && room.length>0){
+           let serial = document.getElementById("serial").value;
+           let resident = document.getElementById("employee").value;
+           if(nguests.length>0 && ((room.length>0 && resident == '0') || (serial.length>0 && resident == '1'))){
                 document.getElementsByClassName("section3")[0].style.display = 'none';
                 document.getElementsByClassName("section4")[0].style.display = 'block';
                 document.getElementsByClassName("heading--primary")[0].innerHTML = "Work Experience";
@@ -150,24 +151,6 @@
             }else{
                 next5Allow=0;
             }
-            // const fi = document.getElementById('certificate');
-        // Check if any file is selected.
-        // if (fi.files.length > 0) {
-        //     for (var i = 0; i <= fi.files.length - 1; i++) {
-  
-        //         const fsize = fi.files.item(i).size;
-        //         const file = Math.round((fsize / 1024));
-        //         // The size of the file.
-        //         //console.log(file);
-        //         if(fsize > 5242880){
-        //             console.log(fsize);
-        //             // document.getElementById('submit').disabled = true;
-        //             next5Allow = 0;
-        //             document.getElementById('size_file').style.visibility = "visible";
-        //             // visibility: visible;
-        //         }
-        //     }
-        // }
             if(next5Allow){
 
                 document.getElementsByClassName("section2")[0].style.display = 'none';
@@ -191,15 +174,27 @@
        function calc_cost(){
            let nguest = document.getElementById("accompanyingNo").value;
            let choice = document.getElementById("room").value;
-           console.log(nguest,choice);
+           resident = document.getElementById("employee").value;
 
            var cost = 0;
 
-           if(choice === "Technology Guest House/ Alumni Guest House"){
-                cost = 2250 + 7000 + 4000*nguest + 2250*nguest;
+           if(resident == '1'){
+               document.getElementById('serials').style.display = 'block';
+               document.getElementById('serial').required = true;
+               document.getElementById('room').required = false;
+               document.getElementById('ghouse').style.display = 'none';
+               cost = 7000;
            }
-           else if(choice === "VGH/ SAM"){
-               cost = 900 + 900*nguest + 7000 + 4000*nguest; 
+           else{
+            document.getElementById('serials').style.display = 'none';
+            document.getElementById('serial').required = false;
+            document.getElementById('room').required = true;
+            document.getElementById('ghouse').style.display = 'block';
+           }
+           console.log(nguest,choice);
+
+           if(choice === "Technology Guest House/ Alumni Guest House" && resident == '0'){
+                cost = 2250 + 7000 + 4000*nguest + 2250*nguest;
            }
            else if(choice === "NA"){
                cost = 7000; 

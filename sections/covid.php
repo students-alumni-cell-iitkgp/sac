@@ -1,6 +1,6 @@
 <div class="section2">
     <div class="form-group">
-        <div class="col-12 mb-2"><label for="note" style="color:red;">If you have accompaniments, upload a drive folder containing certificates of all</label></div>
+        <div class="col-12 mb-2"><label for="note" style="color:red;">If you have accompanying person(s), upload a drive folder containing certificates of all</label></div>
         <div class="col-12"><label for="status">Vaccination Status <span style="color:red;">*</span></label></div> 
         <div class="input-group mb-3">
             
@@ -19,7 +19,7 @@
     </div>
     <div class="form-group">
         <div class="valid1" id="valid" style="display:none;">
-            <label  for="valid">Will you be able to get fully vaccinated by 10th january?<span style="color:red;">*</span></label>
+            <label  for="valid">Will you be able to get fully vaccinated by 10th March?<span style="color:red;">*</span></label>
             <br/>
             <input type="radio" id="yes" name="valid" value="yes"/>
             <label for="yes">Yes</label><br/>
