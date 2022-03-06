@@ -520,29 +520,29 @@
         duration:1.5, 
 		y:50 
          });  
-}  
- $(window).on('load', function() {
-    if ($('#preloader').length) {
-      $('#preloader').delay(100).fadeOut('fast', function() {
-        $(this).remove();
-      });
-    }
-  });
+	}  
+	$(window).on('load', function() {
+		if ($('#preloader').length) {
+		$('#preloader').delay(100).fadeOut('fast', function() {
+			$(this).remove();
+		});
+		}
+	});
 
 
-$(document).ready(function(){ 
-    $(window).scroll(function(){ 
-        if ($(this).scrollTop() > 100) { 
-            $('.back-to-top').fadeIn(); 
-        } else { 
-            $('.back-to-top').fadeOut(); 
-        } 
-    }); 
-    $('.back-to-top').click(function(){ 
-        $("html, body").animate({ scrollTop: 0 }, 600); 
-        return false; 
-    }); 
-});
+	$(document).ready(function(){ 
+	$(window).scroll(function(){ 
+		if ($(this).scrollTop() > 100) { 
+			$('.back-to-top').fadeIn(); 
+		} else { 
+			$('.back-to-top').fadeOut(); 
+		} 
+	}); 
+	$('.back-to-top').click(function(){ 
+		$("html, body").animate({ scrollTop: 0 }, 600); 
+		return false; 
+	}); 
+	});
 
 
 	</script>
