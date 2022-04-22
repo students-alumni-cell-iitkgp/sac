@@ -57,6 +57,96 @@
       </div>
     </div>
   </section>
+
+  <section class="section-2">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-md-12 col-12">
+          <div class="panel panel1 text-center">
+            <h1 class="x">Alumni Talks</h1>
+            <div class="progress" style="height:0.4rem;">
+              <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                aria-valuemax="100" style="height:0.4rem;"></div>
+            </div>
+            <br>
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <h4 class="x">Deferred MBA Programme</h4>
+                  <div class="row">
+                    <div class="col-12 col-sm-4 align-items-center">
+                      <img src="img/AlumniTalk/tanay.webp" class="image img-responsive img-fluid"
+                        style="width: 20em;">
+                      <h5 class="x">Tanay Jagani</h5>
+                      <h6 class="x">Business Analyst</h6>
+                      <h6 class="x">McKinsey & Company</h6>
+                    </div>
+					<div class="col-12 col-sm-4 align-items-center">
+                      <img src="img/AlumniTalk/tiyasha.webp" class="image img-responsive img-fluid"
+                        style="width: 20em;">
+                      <h5 class="x">Tiyasha Mitra</h5>
+                      <h6 class="x">Business Analyst</h6>
+                      <h6 class="x">McKinsey & Company</h6>
+                    </div>
+                    <div class="col-12 col-sm-4 align-items-center">
+                      <img src="img/AlumniTalk/vasanta.webp" class="image img-responsive img-fluid"
+                        style="width: 20em;">
+                      <h5 class="x">Vasanta Majety</h5>
+                      <h6 class="x">Business Analyst</h6>
+                      <h6 class="x">McKinsey & Company</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+				  <h4 class="x">Product Management</h4>
+                  <div class="row">
+                    <div class="col-12 col-sm-3 align-items-center">
+                      <img src="img/AlumniTalk/lavneesh.webp" class="image img-responsive img-fluid"
+                        style="width: 20em;">
+                      <h5 class="x">Mr. Lavneesh Nyol</h5>
+                      <h6 class="x">Product Manager | Housing.com</h6>
+                    </div>
+					<div class="col-12 col-sm-3 align-items-center">
+                      <img src="img/AlumniTalk/stuti.webp" class="image img-responsive img-fluid"
+                        style="width: 20em;">
+                      <h5 class="x">Ms. Stuti Modi</h5>
+                      <h6 class="x">Product Manager | Groww</h6>
+                    </div>
+                    <div class="col-12 col-sm-3 align-items-center">
+                      <img src="img/AlumniTalk/nayrhit.webp" class="image img-responsive img-fluid"
+                        style="width: 20em;">
+                      <h5 class="x">Mr. Nayrhit Bhattacharya</h5>
+                      <h6 class="x">Product Manager | Prodigal</h6>
+                    </div>
+                    <div class="col-12 col-sm-3 align-items-center">
+                      <img src="img/AlumniTalk/asad.webp" class="image img-responsive img-fluid"
+                        style="width: 20em;">
+                      <h5 class="x">Mr. Asad Abrar</h5>
+                      <h6 class="x">Product Manager | Coinbase</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon prev1" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon next1" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
   <section class="section-2">
     <div class="container text-center">
       <div class="row">
@@ -388,42 +478,75 @@
                 aria-valuemax="100" style="height:0.4rem;"></div>
             </div>
             <br>
-            <div class="row">
-			  <div class="col-12 col-sm-3 align-items-center iframe-container">
-                <iframe class="image" width="100%" src="https://www.youtube.com/embed/kfCtl0tazKE" frameborder="0"
+            <!---->
+            <div class="row" style = "padding: 10px;">
+
+              <div class="col-12 col-sm-4 align-items-center iframe-container">
+              <iframe class="image" width="100%" src="https://drive.google.com/file/d/1Qtk0vtIcwo8Hd3vYCbPkCxIPDdTyzcm3/preview?usp=sharing" frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen></iframe>
-				  <iframe class="image" width="100%" src="https://www.youtube.com/embed/OpQI9aVbPeQ" frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen></iframe>
-                
               </div>
-              <div class="col-12 col-sm-3 align-items-center iframe-container">
-			    <iframe class="image" width="100%" src="https://drive.google.com/file/d/1H8wHV_sxPbIb8GZkmHULTXkVEtzeLtmN/preview?usp=sharing" frameborder="0"
+
+              <div class="col-12 col-sm-4 align-items-center iframe-container">
+                <iframe class="image" width="100%" src="https://youtube.com/embed/JVKgACVJfxI" frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen></iframe>
+              </div>
+
+              <div class="col-12 col-sm-4 align-items-center iframe-container">
+                  <iframe class="image" width="100%" src="https://www.youtube.com/embed/kfCtl0tazKE" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+              </div>
+            </div>
+
+            <div class="row" style = "padding: 10px;">
+
+             <div class="col-12 col-sm-4 align-items-center iframe-container">
+             <iframe class="image" width="100%" src="https://drive.google.com/file/d/1H8wHV_sxPbIb8GZkmHULTXkVEtzeLtmN/preview?usp=sharing" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+             </div>
+             
+             <div class="col-12 col-sm-4 align-items-center iframe-container">
+             <iframe class="image" width="100%" src="https://www.youtube.com/embed/OpQI9aVbPeQ" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+             </div>
+             
+             <div class="col-12 col-sm-4 align-items-center iframe-container">
+             <iframe class="image" width="100%" src="https://www.youtube.com/embed/v8xICuf_yAs" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+             </div>
+             </div>
+
+            <div class="row" style = "padding: 10px;">
+			        <div class="col-12 col-sm-3 align-items-center iframe-container">
+              <iframe class="image" width="100%" src="https://www.youtube.com/embed/D96tjgVG1kQ" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+              </div>
+
+              <div class="col-12 col-sm-3 align-items-center iframe-container">
                 <iframe class="image" width="100%" src="https://www.youtube.com/embed/-xeGNz5P5F4" frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen></iframe>
               </div>
+
               <div class="col-12 col-sm-3 align-items-center iframe-container">
-                <iframe class="image" width="100%" src="https://www.youtube.com/embed/v8xICuf_yAs" frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen></iframe>
 
                 <iframe class="image" width="100%" src="https://www.youtube.com/embed/oDPfzLblZ1c" frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen></iframe>
               </div>
-              <div class="col-12 col-sm-3 align-items-center iframe-container">
-                <iframe class="image" width="100%" src="https://www.youtube.com/embed/D96tjgVG1kQ" frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen></iframe>
 
+              <div class="col-12 col-sm-3 align-items-center iframe-container">
                 <iframe class="image" width="100%" src="https://www.youtube.com/embed/_mZLjVCMrrc" frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen></iframe>
               </div>
+
             </div>
           </div>
         </div>
