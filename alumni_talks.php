@@ -248,13 +248,65 @@
                 aria-valuemax="100" style="height:0.4rem;"></div>
             </div>
             <br>
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
               <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
               </ol>
               <div class="carousel-inner">
                 <div class="carousel-item active">
+                    <h4 class="x">Speakers from Deffered MBA</h4>
+                    <div class="row">
+                      <div class="col-12 col-sm-4 align-items-center">
+                        <img src="img/AlumniTalk/Tanay.webp" class="image img-responsive img-fluid"
+                          style="width: 20em;height:18em;">
+                        <h5 class="x">Tanay Jagni</h5>
+                        <h6 class="x">(Business Analyst)</h6>
+                      </div>
+                      <div class="col-12 col-sm-4 align-items-center">
+                        <img src="img/AlumniTalk/Tiyasha.webp" class="image img-responsive img-fluid"
+                          style="width: 20em;height:18em;">
+                        <h5 class="x">Tiyasha Mitra</h5>
+                        <h6 class="x">(Business Analyst)</h6>
+                      </div>
+                      <div class="col-12 col-sm-4 align-items-center">
+                        <img src="img/AlumniTalk/Vasanta.webp" class="image img-responsive img-fluid"
+                          style="width: 20em;height:18em;">
+                        <h5 class="x">Vasanta Majety</h5>
+                        <h6 class="x">(Business Analyst)</h6>
+                      </div>
+                    </div>
+                  </div>    
+                  <div class="carousel-item">
+                    <h4 class="x">Speakers from Product Management</h4>
+                    <div class="row">
+                      <div class="col-lg-6 col-sm-6 align-items-center">
+                        <img src="img/AlumniTalk/Stuti.webp" class="image img-responsive img-fluid"
+                          style="width: 20em;height:18em;">
+                        <h5 class="x">Ms. Stuti Modi</h5>
+                        <h6 class="x">(Product Manager)</h6>
+                      </div>
+                      <div class="col-lg-6 col-sm-6 align-items-center">
+                        <img src="img/AlumniTalk/Nyahrit.webp" class="image img-responsive img-fluid"
+                          style="width: 20em;height:18em;">
+                        <h5 class="x">Mr. Nayrhit</h5>
+                        <h6 class="x">(Product Manager)</h6>
+                      </div>
+                      <div class="col-lg-6 col-sm-6 align-items-center">
+                        <img src="img/AlumniTalk/Asad.webp" class="image img-responsive img-fluid"
+                          style="width: 20em;height:18em;">
+                        <h5 class="x">Mr.Asad Abrar</h5>
+                        <h6 class="x">(Product Manager)</h6>
+                      </div>
+                      <div class="col-lg-6 col-sm-6 align-items-center">
+                        <img src="img/AlumniTalk/Lavneesh.webp" class="image img-responsive img-fluid"
+                          style="width: 20em;height:18em;">
+                        <h5 class="x">Mr. Lavneesh Nyol</h5>
+                        <h6 class="x">(Product Manager)</h6>
+                      </div>
+                    </div>
+                  </div> 
+                <div class="carousel-item">
                   <h4 class="x">Speakers from McKinsey & Company:</h4>
                   <div class="row">
                     <div class="col-12 col-sm-4 align-items-center">
@@ -293,6 +345,7 @@
                     </div>
                   </div>
                 </div>
+
                 <div class="carousel-item">
                   <div class="row">
                     <div class="col-12 col-sm-6 align-items-center">
@@ -319,11 +372,11 @@
                   <h5 class="x"></h5>
                 </div>
               </div>
-              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon prev1" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
               </a>
-              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
                 <span class="carousel-control-next-icon next1" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
               </a>
@@ -344,10 +397,10 @@
                 aria-valuemax="100" style="height:0.4rem;"></div>
             </div>
             <br>
-            <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+            <div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel">
               <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators3" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators3" data-slide-to="1"></li>
               </ol>
               <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -393,11 +446,11 @@
                   <h5 class="x"></h5>
                 </div>
               </div>
-              <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+              <a class="carousel-control-prev" href="#carouselExampleIndicators3" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
               </a>
-              <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+              <a class="carousel-control-next" href="#carouselExampleIndicators3" role="button" data-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
               </a>
