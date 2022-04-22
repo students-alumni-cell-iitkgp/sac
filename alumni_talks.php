@@ -58,7 +58,7 @@
     </div>
   </section>
 
-  <section class="section-2">
+  <!--<section class="section-2">
     <div class="container text-center">
       <div class="row">
         <div class="col-md-12 col-12">
@@ -144,7 +144,7 @@
         </div>
       </div>
     </div>
-  </section>
+  </section>-->
 
 
   <section class="section-2">
