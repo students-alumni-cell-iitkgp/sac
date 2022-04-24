@@ -75,10 +75,23 @@
                     <div class="col-sm-12">
                         <div id="inam" class="carousel slide" data-ride="carousel" data-interval="false">
                             <div class="carousel-inner">
-                                <div class="carousel-item active">
+
+                            <div class="carousel-item active">
                                     <div class="container">
                                         <div class="row">
-                                            <div class="col-sm-12 col-lg-4">
+                                            <div class="col-sm-12 col-lg-6">
+                                                <div class="card" style="height: 100% !important;">
+                                                    <img src="img/yoy/yoy22.webp" class="card-img-top">
+                                                    <div class="card-body">
+                                                        <h4 class="card-title">Yearnings Of Yore 2022....</h4>
+
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+                                            
+                                            <div class="col-sm-12 col-lg-6">
                                                 <div class="card" style="height: 100% !important;">
                                                     <img src="img/yoy/yoy188.webp" class="card-img-top">
                                                     <div class="card-body">
@@ -89,7 +102,19 @@
                                                 </div>
 
                                             </div>
-                                            <div class="col-sm-12 col-lg-4">
+
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+
+
+                                <div class="carousel-item">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-sm-12 col-lg-6">
                                                 <div class="card" style="height: 100% !important;">
                                                     <img src="img/yoy/yoy17.jpg" class="card-img-top">
                                                     <div class="card-body">
@@ -100,7 +125,7 @@
                                                 </div>
 
                                             </div>
-                                            <div class="col-sm-12 col-lg-4">
+                                            <div class="col-sm-12 col-lg-6">
                                                 <div class="card" style="height: 100% !important;">
                                                     <img src="img/yoy/2016.jpg" class="card-img-top">
                                                     <div class="card-body">

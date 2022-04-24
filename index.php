@@ -86,21 +86,21 @@
     <?php include 'navbar.php'?>
     <div id="carouselExampleIndicators" style="width:100%; height:100%" class="carousel slide hero-carousel" data-ride="carousel">
         <ol class="carousel-indicators">
-            <!-- <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li> -->
-            <!-- <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <!--<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="6"></li> -->
+            <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>-->
 
         </ol>
         <div class="carousel-inner" style="width:100%; height:100%">
             <div class="carousel-item active">
             <div class="carousel-image" style="background-image:url('img/AAM-Web-Cover-Stretched-new-71-72.webp');background-size:100% 100%"></div>
                
-            </div>
-            <!-- <div class="carousel-item" style>
+            <!--</div>
+             <div class="carousel-item" style>
                 <div class="carousel-image" style="background-image:url('img/indexslider/phonathon2019.webp');"></div>
             </div>
             <div class="carousel-item">
@@ -111,11 +111,11 @@
             </div>
             <div class="carousel-item">
                 <div class="carousel-image" style="background-image:url('img/indexslider/imprint.webp');"></div>
-            </div>-->
-            <!-- <div class="carousel-item"> 
+            </div>
+             <div class="carousel-item"> 
             <div class="carousel-image" style="background-image:url('img/indexslider/sac-logo.webp');"></div>
-            </div> -->
-            <!-- <div class="carousel-item">
+            </div> 
+            <div class="carousel-item">
                 <div class="carousel-image" style="background-image:url('img/indexslider/homecoming.webp')"></div>
             </div> -->
         </div>
@@ -246,7 +246,57 @@
             <div class="col-sm-12">
                 <div id="inam" class="carousel slide" data-ride="carousel" data-interval="false" >
                     <div class="carousel-inner">
+                        <!--New Update added dated 10/04/22--> 
                         <div class="carousel-item active">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-12 col-lg-4">
+                                        <div class="card" style="height: 100% !important;">
+                                            <img src="img/news&updates/y1.webp" style="height: 300px;"
+                                                class="card-img-top">
+                                            <div class="card-body">
+                                                <h5 class="card-title">We aim to democratise access to overseas education for 10 million global citizens</h5>
+                                                <p class="card-text">To empower students across the spectrum by making quality global education accessible for all, built a customer-focused online platform that offers end-to-end services for students.... <br><br><button type="button" class="btn btn-outline-primary"><a
+                                                            href="https://yourstory.com/2022/04/democratising-overseas-education-access-10-million-global-citizens/amp"
+                                                            target="_blank"
+                                                            style="color:white">More...</a></button>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-lg-4">
+                                        <div class="card" style="height: 100% !important;">
+                                            <img src="img/news&updates/y2.webp" style="height: 300px;"
+                                                class="card-img-top">
+                                            <div class="card-body">
+                                                <h5 class="card-title">IIT Duo Help 30 Lakh Farmers Get Timely Expert Advice on Crop, Increase Income & Yield</h5>
+                                                <p class="card-text">Krishi Network, an app developed by IIT alumni Ashish Mishra and Siddhant Bhomia, helps farmers with critical information, which enables them to generate higher profits.....<br><br><button type="button"
+                                                        class="btn btn-outline-primary"><a
+                                                            href="https://www.thebetterindia.com/277821/iit-alumni-app-for-farmers-increase-income-yield-information-krishi-network/"
+                                                            target="_blank"
+                                                            style="color:white">More...</a></button></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-lg-4">
+                                        <div class="card" style="height: 100% !important;">
+                                            <img src="img/news&updates/y3.webp" style="height: 300px;"
+                                                class="card-img-top">
+                                            <div class="card-body">
+                                                <h5 class="card-title">B2B Agri-Inputs Platform AGRIM Raises $10 Mn</h5>
+                                                <p class="card-text">AGRIM plans to increase stock-keeping units by 10x, to reach 250,000 SKUs across agri-input categories, providing retailers with a vast selection on the platform. AGRIM plans to use this funding for talent acquisition, embedded.....<br><br><button type="button" class="btn btn-outline-primary"><a
+                                                            href="https://techgraph.co/startup/agrim-raises-10-mn-kalaari-axis-bank/"
+                                                            target="_blank"
+                                                            style="color:white">More...</a></button>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--New Update added eneded dated 10/04/22--> 
+                        <div class="carousel-item">
                             <div class="container">
                                 <div class="row">
                                     <div class="col-sm-12 col-lg-4">

@@ -316,7 +316,7 @@
           </a>
         </div>
         <div class="col-md-6 col-sm-12" align="center"> <a href="https://www.spectalmanagement.com/" target="_blank"> <br> <br>
-            <img class="spons" src="img/spons/2020/Spectal.jpg" width="170" height="140" />
+            <img class="spons" src="img/spons/2020/Spectal.webp" width="170" height="140" />
           </a>
         </div>
       </div>
@@ -334,7 +334,7 @@
           </a>
         </div>
         <div class="col-md-6 col-sm-12" align="center"> <a href="https://www.theowlprints.com/" target="_blank"> <br> <br>
-            <img class="spons" src="img/spons/2020/owlprints.png" width="300" height="140" />
+            <img class="spons" src="img/spons/2020/owlprints.webp" width="300" height="140" />
           </a>
         </div>
       </div>
@@ -401,7 +401,7 @@
           </a>
         </div>
         <div class="col-md-6 col-sm-12" align="center"> <a href="" target="_blank">
-          <img class="spons" src="img/spons/2020/gp2.jpg" width="270" height="160" />
+          <img class="spons" src="img/spons/2020/gp2.webp" width="270" height="160" />
           </a>
         </div>
 
@@ -472,7 +472,7 @@
           </div>
           <div class="col-md-6 col-sm-12" align="center">
             <a href="https://www.jaya-industries.com/" target="_blank">
-              <img class="spons" src="img/spons/2020/jaya.jpg" width="250px" height="150px" />
+              <img class="spons" src="img/spons/2020/jaya.webp" width="250px" height="150px" />
             </a>
           </div>
       </div>
