@@ -92,7 +92,26 @@
                             <div class="carousel-item active">
                                     <div class="container">
                                         <div class="row">
-                                            <div class="col-sm-12 col-lg-6">
+                                        <div class="col-sm-12 col-lg-4">
+                                                <div class="card" style="height: 100% !important;">
+                                                    <img src="img\yearbook\yb21.webp" class="h-img">
+                                                    <div class="card-body">
+                                                        <h4 class="card-title">Yearbook 2021...</h4>
+                                                        <div class="row ">
+                                                            <div class="img-txt ">
+                                                               <a href="https://drive.google.com/file/d/1CiV2B1W2XB6GA5mydYmLg2ke34Fo_Z6T/view?usp=sharing"  target="_blank" style="color:black"> UG</a> 
+                                                            </div>
+                                                            <div class="img-txt">
+                                                            <a href="https://drive.google.com/file/d/1PS8mphnhebo3Nh02-KhH0ex8ifmKihJh/view?usp=sharing"target="_blank" style="color:black"> PG</a>
+                                                            </div>
+                                                            <div class="img-txt">
+                                                            <a href="https://drive.google.com/file/d/1znzxL9NovFMb8_HjflOlC-DQmyjsa8JD/view?usp=sharing"target="_blank" style="color:black"> RS</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12 col-lg-4">
                                                 <div class="card" style="height: 100% !important;">
                                                     <img src="img\yearbook\year2020.webp" class="h-img">
                                                     <div class="card-body">
@@ -111,7 +130,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-sm-12 col-lg-6">
+                                            <div class="col-sm-12 col-lg-4">
                                                 <div class="card" style="height: 100% !important;">
                                                     <img src="img\yearbook\year2019.webp" class="h-img">
                                                     <div class="card-body">
@@ -318,6 +337,11 @@
                                 <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
                             </div>
                             <div class="row justify-content-center">
+                                <div class="col-md-6 col-xs-12 py-4 px-md-5">
+                                    <iframe class="image" width="100%" height="300px" src="https://www.youtube.com/embed/6rawoOAt0SU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <p class="text-center">Class Memoir 2021</p>
+                                </div>
+
                                 <div class="col-md-6 col-xs-12 py-4 px-md-5">
                                     <iframe class="image" width="100%" height="300px" src="https://www.youtube.com/embed/9L_8Jqizhcw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     <p class="text-center">Class Memoir 2020</p>
