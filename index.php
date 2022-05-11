@@ -250,7 +250,7 @@
                         <div class="carousel-item active">
                             <div class="container">
                                 <div class="row">
-                                    <div class="col-sm-12 col-lg-4">
+                                    <!-- <div class="col-sm-12 col-lg-4">
                                         <div class="card" style="height: 100% !important;">
                                             <img src="img/news&updates/y1.webp" style="height: 300px;"
                                                 class="card-img-top">
@@ -260,6 +260,19 @@
                                                             href="https://yourstory.com/2022/04/democratising-overseas-education-access-10-million-global-citizens/amp"
                                                             target="_blank"
                                                             style="color:white">More...</a></button>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div> -->
+                                    <div class="col-sm-12 col-lg-4">
+                                        <div class="card" style="height: 100% !important;">
+                                            <img src="img/news&updates/boult-affinity-final.jpg" style="height: 300px;"
+                                                class="card-img-top">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Affinity Programme 2022: Enjoy exciting offers on all Boult Audio Products.</h5>
+                                                <p class="card-text">We are thrilled to collaborate with Boult Audio, a global leader in the audio equipment market, under our Affinity Programme. Enjoy exclusive offers like flat 15% off, extended warranty and other special benefits. Use your Institute email id and coupon code: IITKGP15BA.
+                                                <br><br><button type="button" class="btn btn-outline-primary">
+                                                    <a href="affinity.php/#currentAssociations" target="_blank" style="color:white">More...</a></button>
                                                 </p>
                                             </div>
                                         </div>

@@ -86,6 +86,82 @@
   </section> -->
 
   <section class="section-2">
+  <a id="currentAssociations"></a>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-md-12 col-12">
+          <div class="panel panel1 text-center">
+            <h1 class="x">Current Associations</h1>
+            <div class="progress" style="height:0.4rem;">
+              <div id="three" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                aria-valuemax="100" style="height:0.4rem;"></div>
+            </div>
+            <br>
+            <div class="row" style="display:flex;justify-content:center;">
+              <div>
+                <div class="service-card">
+                  <div class="card content" >
+                    <div class="content-overlay"></div>
+                    <img class="card-img-top" src="img\affinity\boult.jpeg" alt="Card image cap" style='height:18em;'>
+                    <!-- <img class="card-img-top" src="img\affinity\Galaxy_buds.jpg" alt="Card image cap"> -->
+                    <div class="content-details fadeIn-bottom">
+                    <div id="carouselExampleControlscurrent" class="carousel slide" data-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                        <p class="content-text" style="text-align: left; font-size:0.83em">
+                        <b>The benefits of this association include:</b>
+                        
+                        <ul style="font-size: 0.8rem; text-align: left;  text-align: justify; text-justify: inter-word;padding-left:1rem">
+                          <li style="text-align: justify; text-justify: inter-word;">15% off on all the products of Boult Audio.</li>
+                          <li>3 months extended warranty on the usual 1-year warranty.</li>
+                          <li>Option to get Free Delivery and Cash on Delivery.</li>
+                        </ul>
+                        <a href='https://www.boultaudio.com/' target='_blank'>CLICK HERE</a>
+                        </p>
+                        </div>
+                        <div class="carousel-item">
+                        <p class="content-text" style="text-align: left; font-size:0.83em">
+                        <b>Steps to Avail Offer: </b>
+                        
+                        <ul style="font-size: 0.8rem; text-align: left;  text-align: justify; text-justify: inter-word;padding-left:1rem">
+                          <li style="text-align: justify; text-justify: inter-word;">Visit Boult Audio website and add your desired products to your cart.</li>
+                          <li>Visit Your Cart by clicking on the top right corner and then click on ‘Proceed to Checkout’</li>
+                          <li>Add your institute email id and enter the coupon code given below. </li>
+                        </ul>
+                        <a href='https://www.boultaudio.com/' target='_blank'>CLICK HERE</a>
+                        </p>
+                        </div>
+                        <div class="carousel-item">
+                        <p class="content-text" style="text-align: left; font-size:0.83em">  
+                        <b>About Boult Audio:</b>
+                        <p>Boult Audio, established in 2017, is a global leader in the audio equipment market in India, selling a headphone every 10 seconds. The company takes pride in the innovative way they design their earphones, and the range of products speaks for itself.</p>
+                        <a href='https://www.boultaudio.com/' target='_blank'>CLICK HERE</a>
+                        </div>
+                      </div>
+                      <div style="display:flex;justify-content:space-between;width:100%">
+                      <div><span  class="carousel-control-previ fas fa-chevron-circle-left fa-2x"                   data-target="#carouselExampleControlscurrent"
+                        data-slide="prev" style=" cursor: pointer;"></span></div>
+                      <div><span  class="carousel-control-nexti fas fa-chevron-circle-right fa-2x"                      data-target="#carouselExampleControlscurrent"
+                        data-slide="next" style=" cursor: pointer;"></span></div>
+                      </div>
+                     
+                    </div>   
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            
+              <br>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-2">
     <div class="container text-center">
       <div class="row">
         <div class="col-md-12 col-12">
