@@ -86,7 +86,7 @@
   </section> -->
 
   <section class="section-2">
-  <a id="currentAssociations"></a>
+  <!-- <a id="currentAssociations"></a> -->
     <div class="container text-center">
       <div class="row">
         <div class="col-md-12 col-12">
@@ -113,8 +113,8 @@
                         
                         <ul style="font-size: 0.8rem; text-align: left;  text-align: justify; text-justify: inter-word;padding-left:1rem">
                           <li style="text-align: justify; text-justify: inter-word;">15% off on all the products of Boult Audio.</li>
-                          <li>3 months extended warranty on the usual 1-year warranty.</li>
-                          <li>Option to get Free Delivery and Cash on Delivery.</li>
+                          <li>3 months extended warranty.</li>
+                          <li>Special Benefits like Free Delivery and Cash on Delivery.</li>
                         </ul>
                         <a href='https://www.boultaudio.com/' target='_blank'>CLICK HERE</a>
                         </p>
@@ -126,7 +126,7 @@
                         <ul style="font-size: 0.8rem; text-align: left;  text-align: justify; text-justify: inter-word;padding-left:1rem">
                           <li style="text-align: justify; text-justify: inter-word;">Visit Boult Audio website and add your desired products to your cart.</li>
                           <li>Visit Your Cart by clicking on the top right corner and then click on ‘Proceed to Checkout’</li>
-                          <li>Add your institute email id and enter the coupon code given below. </li>
+                          <li>Add your institute email id (e.g xyz@kgpian.iitkgp.ac.in or xyz@iitkgp.ac.in ) and enter the code IITKGP15BA </li>
                         </ul>
                         <a href='https://www.boultaudio.com/' target='_blank'>CLICK HERE</a>
                         </p>
