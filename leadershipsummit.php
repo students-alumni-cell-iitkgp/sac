@@ -100,7 +100,7 @@
                         </div>
                         <div class="col-md-4 col-sm-6 col-xs-12 py-4 image">
                           <div class="card">
-                            <img src="https://media-exp1.licdn.com/dms/image/C5603AQF2_YtNmO73Qw/profile-displayphoto-shrink_400_400/0/1607399318866?e=1637193600&v=beta&t=rA0u1PLPD3-70bVHLuq3abouuLrS-R688hR-EYKp2eA" class="card-img">
+                            <img src="img\leadership_speakers\RahulVishalSinha.webp" class="card-img">
                             <div class="card-text">
                               <!-- <p><a href="https://www.linkedin.com/in/arjun-malhotra-5b07005/">Arjun Malhotra</a></p> -->
                               <p>Rahul Vishal Sinha</p>
@@ -110,7 +110,7 @@
                         </div>
                         <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
                           <div class="card">
-                            <img src="https://media-exp1.licdn.com/dms/image/C4E03AQFAWga40M7I8Q/profile-displayphoto-shrink_400_400/0/1554083443158?e=1637193600&v=beta&t=aryJ1GiLya3fQm5R1cTXJIa6PVYdhJVMX2Uv5N9lXCg" class="card-img">
+                            <img src="img\leadership_speakers\SudiptoDe.webp" class="card-img">
                             <div class="card-text">
                               <p >Sudipto De</p>
                               <a href="https://www.linkedin.com/in/sudipto-de-phd-cfa-45403214/" target="_blank" target="_blank"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
@@ -119,7 +119,7 @@
                         </div>
                         <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
                           <div class="card">
-                            <img src="https://media-exp1.licdn.com/dms/image/C4E03AQGjf1DldD6SCQ/profile-displayphoto-shrink_400_400/0/1609065660093?e=1637193600&v=beta&t=D9VHS0M2rLsDpbEv6aqKe5-GMf-Uqwsps5MPwwC6DJg" class="card-img">
+                            <img src="img\leadership_speakers\AnimeshSaxena.webp" class="card-img">
                             <div class="card-text">
                               <!-- <p><a href="https://www.linkedin.com/in/arunabh-kumar-entrepreneur/?originalSubdomain=in">
                               Arunabh Kumar
@@ -133,7 +133,7 @@
                         </div>
                         <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
                           <div class="card">
-                            <img src="https://media-exp1.licdn.com/dms/image/C4E03AQF1QTb3BQevOA/profile-displayphoto-shrink_400_400/0/1592584402230?e=1637193600&v=beta&t=ZMvIV2DybGpSDbTP8ZN0emZs0BBv7XWuYmuENU8ZRXA" class="card-img">
+                            <img src="img\leadership_speakers\NitinArora.webp" class="card-img">
                             <div class="card-text">
                               <p >Nitin Arora</p>
 
@@ -175,7 +175,7 @@
                       <div class="row justify-content-center px-4">
                         <div class="col-md-4 col-sm-6 col-xs-12 py-4 image">
                           <div class="card">
-                            <img src="https://media-exp1.licdn.com/dms/image/C4E03AQGYpSu4agq7TQ/profile-displayphoto-shrink_800_800/0/1533468512754?e=1637193600&v=beta&t=0lpJ0L0-6PELqzWiv9axhx-njUtKv05e07XwHCEev4w" class="card-img">
+                            <img src="img\leadership_speakers\ApurvaKumarSinha.webp" class="card-img">
                             <div class="card-text">
                               <!-- <p><a href="https://www.linkedin.com/in/arjun-malhotra-5b07005/">Arjun Malhotra</a></p> -->
                               <p>Apurva Kumar Sinha</p>
@@ -185,7 +185,7 @@
                         </div>
                         <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
                           <div class="card">
-                            <img src="https://media-exp1.licdn.com/dms/image/C4D03AQHWr63bEGXm-A/profile-displayphoto-shrink_400_400/0/1602147084189?e=1637193600&v=beta&t=_4PIghf-ou1bvMvg1Qx5ZnjcFs0z0blObww4QEKuxrw" class="card-img">
+                            <img src="img\leadership_speakers\BhaskarMajumdar.webp" class="card-img">
                             <div class="card-text">
                               <p >Bhaskar Majumdar</p>
                               <a href="https://www.linkedin.com/in/bmajumdar/" target="_blank"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
@@ -218,7 +218,7 @@
                         </div>
                         <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
                           <div class="card">
-                            <img src="https://media-exp1.licdn.com/dms/image/C5103AQFYKa4SfPeh4g/profile-displayphoto-shrink_400_400/0/1556299859086?e=1637193600&v=beta&t=y2BKBeA8WSW72o7lURuX7-Eq77wnD1e_yweCL7axdm0" class="card-img">
+                            <img src="img\leadership_speakers\MohanSilaparasetty.webp" class="card-img">
                             <div class="card-text">
                                 <p>Mohan Silaparasetty</p>
                                 <a href="https://www.linkedin.com/in/mohan-silaparasetty/" target="_blank"><i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i></a>
@@ -227,7 +227,7 @@
                         </div>
                         <div class="col-md-4 col-sm-6 col-xs-12 py-4  image">
                           <div class="card">
-                            <img src="https://media-exp1.licdn.com/dms/image/C5603AQEdkIPN3lN9Hw/profile-displayphoto-shrink_400_400/0/1517765600896?e=1637193600&v=beta&t=l-QJnQBC8DXJF2J8njPuyel_q1JHBEUeTOMtv5BufC0" class="card-img">
+                            <img src="img\leadership_speakers\JoyjeetMaity.webp" class="card-img">
                             <div class="card-text">
                               <p>Joyjeet Maity</p>
 
