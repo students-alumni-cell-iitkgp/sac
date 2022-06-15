@@ -26,7 +26,7 @@
       <div class="row">
         <div class="col-md-12 col-12">
           <div class="panel text-center">
-            <h1 class="x">The TEAM 2021</h1>
+            <h1 class="x">The TEAM 2022</h1>
             <div class="progress" style="height:0.4rem;">
               <div class="progress-bar" id="one" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
             </div>
@@ -36,23 +36,23 @@
                 <div class="service-card">
                   <div class="card">
                     <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
-                    <img class="card-img-top" src="img\team2021\Tarun.jpg" height=300px; alt="Card image cap">
+                    <img class="card-img-top" src="img\team2022\Prerit.webp" height=300px; alt="Card image cap">
                     <!-- <h3>CODEPEN</h3> -->
                     <div class="card-body">
-                      <h6 class="x">Tarun Majety</h6>
+                      <h6 class="x">Prerit Goyal</h6>
                       <p class="x">(General Secretary)</p>
                       <div class='row'>
                         <div class="col-3">
-                          <a href='https://www.facebook.com/tarun.majety.18' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                          <a href='https://www.facebook.com/prerit.goyal.3' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
                         </div>
                         <div class="col-3">
-                          <a href='https://www.linkedin.com/in/tarun-majety/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                          <a href='https://www.linkedin.com/in/prerit-goyal/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
                         </div>
                         <div class="col-3">
-                          <a href='mailto:tarunmajety.tarun@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                          <a href='mailto:preritgoyal0203@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
                         </div>
                         <div class="col-3">
-                          <a href='tel:+91-7602443444' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                          <a href='tel:+91-8989020473' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
                         </div>
 
                       </div>
@@ -65,23 +65,23 @@
                 <div class="service-card">
                   <div class="card">
                     <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
-                    <img class="card-img-top" src="img\team2021\Vikas.jpg" height=300px; alt="Card image cap">
+                    <img class="card-img-top" src="img\team2022\Rohan.webp" height=300px; alt="Card image cap">
                     <!-- <h3>CODEPEN</h3> -->
                     <div class="card-body">
-                      <h6 class="x">Vikas Ahlawat</h6>
+                      <h6 class="x">Rohan Sachan</h6>
                       <p class="x">(General Secretary)</p>
                       <div class='row'>
                         <div class="col-3">
-                          <a href='https://www.facebook.com/vikas.ahlawat.09/' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                          <a href='https://www.facebook.com/rohan.sachan.5712' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
                         </div>
                         <div class="col-3">
-                          <a href='https://www.linkedin.com/in/vikas-ahlawat-/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                          <a href='https://www.linkedin.com/in/rohan-sachan-/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
                         </div>
                         <div class="col-3">
-                          <a href='vickyahlawat2019@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                          <a href='mailto:rohansachan8@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
                         </div>
                         <div class="col-3">
-                          <a href='tel:+91-8397070108' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                          <a href='tel:+91-6389355293' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
                         </div>
 
                       </div>
@@ -95,23 +95,23 @@
                 <div class="service-card">
                   <div class="card">
                     <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
-                    <img class="card-img-top" src="img\team2021\Satyam.jpg" height=300px; alt="Card image cap">
+                    <img class="card-img-top" src="img\team2022\Abhisha.webp" height=300px; alt="Card image cap">
                     <!-- <h3>CODEPEN</h3> -->
                     <div class="card-body">
-                      <h6 class="x">Satyam Jha</h6>
-                      <p class="x">(Coordinator, PR)</p>
+                      <h6 class="x">Abhisha Shrivastava</h6>
+                      <p class="x">(Coordinator, Networking)</p>
                       <div class='row'>
                         <div class="col-3">
-                          <a href='https://www.facebook.com/ranny.cunninghamp' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                          <a href='https://www.facebook.com/abhishashrivastava3221/' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
                         </div>
                         <div class="col-3">
-                          <a href='https://www.linkedin.com/in/satyamjha-/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                          <a href='https://www.linkedin.com/in/abhisha-shrivastava/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
                         </div>
                         <div class="col-3">
-                          <a href='mailto:jhasatyam991@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                          <a href='mailto:abhishashrivastava3221@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
                         </div>
                         <div class="col-3">
-                          <a href='tel:+91-6200797159' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                          <a href='tel:+91-8827031589' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
                         </div>
 
                       </div>
@@ -123,23 +123,23 @@
                 <div class="service-card">
                   <div class="card">
                     <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
-                    <img class="card-img-top" src="img\team2021\Brahmjot.jpg" height=300px; alt="Card image cap">
+                    <img class="card-img-top" src="img\team2022\Anurakt.webp" height=300px; alt="Card image cap">
                     <!-- <h3>CODEPEN</h3> -->
                     <div class="card-body">
-                      <h6 class="x">Brahmjot Singh</h6>
+                      <h6 class="x">Anurakt Kumar</h6>
                       <p class="x">(Coordinator, Sponsorship)</p>
                       <div class='row'>
                         <div class="col-3">
-                          <a href='https://www.facebook.com/brahmjot.singh.7165' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                          <a href='https://www.facebook.com/anurakt.kumar.756/' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
                         </div>
                         <div class="col-3">
-                          <a href='https://www.linkedin.com/in/brahmjot-singh/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                          <a href='https://www.linkedin.com/in/anurakt-kumar/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
                         </div>
                         <div class="col-3">
-                          <a href='mailto:mrbrahmjotsingh@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                          <a href='mailto:anurakt2002@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
                         </div>
                         <div class="col-3">
-                          <a href='tel:+91-8196837717' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                          <a href='tel:+91-8804901402' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
                         </div>
 
                       </div>
@@ -153,23 +153,81 @@
                 <div class="service-card">
                   <div class="card">
                     <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
-                    <img class="card-img-top" src="img\team2021\Namya.jpg" height=300px; alt="Card image cap" style="object-position: left;">
+                    <img class="card-img-top" src="img\team2022\Ashish.webp" height=300px; alt="Card image cap" style="object-position: left;">
                     <!-- <h3>CODEPEN</h3> -->
                     <div class="card-body">
-                      <h6 class="x">Namya Swarnkar</h6>
+                      <h6 class="x">Ashish Kumar Shah</h6>
+                      <p class="x">(Coordinator ,Yb & Class Song)</p>
+                      <div class='row'>
+                        <div class="col-3">
+                          <a href='https://www.facebook.com/ashish.shah090' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                        </div>
+                        <div class="col-3">
+                          <a href='https://www.linkedin.com/in/ashish-kumar-shah/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                        </div>
+                        <div class="col-3">
+                          <a href='mailto:ashishshah0900@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                        </div>
+                        <div class="col-3">
+                          <a href='tel:+91-8630679428' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 align-items-center">
+                <div class="service-card">
+                  <div class="card">
+                    <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
+                    <img class="card-img-top" src="img\team2022\Athul.webp" height=300px; alt="Card image cap">
+                    <!-- <h3>CODEPEN</h3> -->
+                    <div class="card-body">
+                      <h6 class="x">Athul P M</h6>
+                      <p class="x">(Coordinator, PR)</p>
+                      <div class='row'>
+                        <div class="col-3">
+                          <a href='https://www.facebook.com/athul.pm.7' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                        </div>
+                        <div class="col-3">
+                          <a href='https://www.linkedin.com/in/athulpm/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                        </div>
+                        <div class="col-3">
+                          <a href='mailto:athulpm645@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                        </div>
+                        <div class="col-3">
+                          <a href='tel:+91-9605163171' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 col-sm-6 align-items-center">
+                <div class="service-card">
+                  <div class="card">
+                    <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
+                    <img class="card-img-top" src="img\team2022\Monish.webp" height=300px; alt="Card image cap" style="object-position: left;">
+                    <!-- <h3>CODEPEN</h3> -->
+                    <div class="card-body">
+                      <h6 class="x">Monish pappula</h6>
                       <p class="x">(Coordinator , Sponsorship)</p>
                       <div class='row'>
                         <div class="col-3">
-                          <a href='https://www.facebook.com/namya.swarnkar' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                          <a href='https://www.facebook.com/monish.p.3726' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
                         </div>
                         <div class="col-3">
-                          <a href='https://www.linkedin.com/in/namya-swarnkar/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                          <a href='https://www.linkedin.com/in/monish-pappula//' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
                         </div>
                         <div class="col-3">
-                          <a href='mailto:namya.swarnkar@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                          <a href='mailto:monishpappula@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
                         </div>
                         <div class="col-3">
-                          <a href='tel:+91-9307436229' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                          <a href='tel:+91-7995744439' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
                         </div>
 
                       </div>
@@ -181,23 +239,23 @@
                 <div class="service-card">
                   <div class="card">
                     <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
-                    <img class="card-img-top" src="img\team2021\Shikha3.jpeg" height=300px; alt="Card image cap">
+                    <img class="card-img-top" src="img\team2022\Shreyansh.webp" height=300px; alt="Card image cap">
                     <!-- <h3>CODEPEN</h3> -->
                     <div class="card-body">
-                      <h6 class="x">Shikha Bagaria</h6>
-                      <p class="x">(Coordinator, Web ,Networking)</p>
+                      <h6 class="x">Shreyansh Jha</h6>
+                      <p class="x">(Coordinator, Sponsorship)</p>
                       <div class='row'>
                         <div class="col-3">
-                          <a href='https://www.facebook.com/profile.php?id=100010637087247' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                          <a href='https://www.facebook.com/jhashreyansh' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
                         </div>
                         <div class="col-3">
-                          <a href='https://www.linkedin.com/in/shikha-bagaria/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                          <a href='https://www.linkedin.com/in/shreyansh-jha/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
                         </div>
                         <div class="col-3">
-                          <a href='mailto:shikhabagaria11@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                          <a href='mailto:shreyanshjha52@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
                         </div>
                         <div class="col-3">
-                          <a href='tel:+91-7479222951' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                          <a href='tel:+91-9636777987' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
                         </div>
 
                       </div>
@@ -211,23 +269,23 @@
                 <div class="service-card">
                   <div class="card">
                     <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
-                    <img class="card-img-top" src="img\team2021\Tanwir.jpg" height=300px; alt="Card image cap">
+                    <img class="card-img-top" src="img\team2022\Anjani.webp" height=300px; alt="Card image cap">
                     <!-- <h3>CODEPEN</h3> -->
                     <div class="card-body">
-                      <h6 class="x">Tanwir Singh</h6>
+                      <h6 class="x">Anjani Kumar</h6>
                       <p class="x">(Web Head)</p>
                       <div class='row'>
                         <div class="col-3">
-                          <a href='https://www.facebook.com/tanwir.singh.77' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                          <a href='https://www.facebook.com/anjani.kumar.26' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
                         </div>
                         <div class="col-3">
-                          <a href='https://www.linkedin.com/in/tanwir-singh/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                          <a href='https://www.linkedin.com/in/anjani-kumar-/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
                         </div>
                         <div class="col-3">
-                          <a href='mailto:tanwir1703@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                          <a href='mailto:anjaniit23@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
                         </div>
                         <div class="col-3">
-                          <a href='tel:+91-7808312082' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                          <a href='tel:+91-8968628246' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
                         </div>
 
                       </div>
@@ -239,23 +297,23 @@
                 <div class="service-card">
                   <div class="card">
                     <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
-                    <img class="card-img-top" src="img\team2021\Aryan3.jpg" height=300px; alt="Card image cap">
+                    <img class="card-img-top" src="img\team2022\Kajol.webp" height=300px; alt="Card image cap">
                     <!-- <h3>CODEPEN</h3> -->
                     <div class="card-body">
-                      <h6 class="x">Aryan Raj Lohani</h6>
+                      <h6 class="x">Kajol Sahu</h6>
                       <p class="x">(Web Head)</p>
                       <div class='row'>
                         <div class="col-3">
-                          <a href='https://www.facebook.com/aryan.lohani.9' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                          <a href='https://www.facebook.com/puravi.sahu.9' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
                         </div>
                         <div class="col-3">
-                          <a href='https://www.linkedin.com/in/aryan-raj-lohani-2002/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                          <a href='https://www.linkedin.com/in/kajol-sahu/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
                         </div>
                         <div class="col-3">
-                          <a href='mailto:aryanrajlohani16@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                          <a href='mailto:kajolsahu238@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
                         </div>
                         <div class="col-3">
-                          <a href='tel:+91-8084860904' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                          <a href='tel:+91-9479940899' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
                         </div>
 
                       </div>
@@ -265,27 +323,55 @@
               </div>
             </div>
             <div class="row justify-content-center">
-              <div class="col-xs-12 col-sm-6">
+              <div class="col-12 col-sm-6 col-6">
                 <div class="service-card">
                   <div class="card">
                     <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
-                    <img class="card-img-top" src="img\team2021\SUMANTH.jpg" height=300px; alt="Card image cap" style="object-position: center;">
+                    <img class="card-img-top" src="img\team2022\Aditi.webp" height=300px; alt="Card image cap" style="object-position: center;">
                     <!-- <h3>CODEPEN</h3> -->
                     <div class="card-body">
-                      <h6 class="x">D Sumanth</h6>
+                      <h6 class="x">Aditi Pasi</h6>
                       <p class="x">(Public Relations Head, Design)</p>
                       <div class='row'>
                         <div class="col-3">
-                          <a href='https://www.facebook.com/sumanth.marshall.999' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                          <a href='https://www.facebook.com/aditi.pasi.73' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
                         </div>
                         <div class="col-3">
-                          <a href='https://www.linkedin.com/in/sumanth-d/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                          <a href='https://www.linkedin.com/in/aditi-pasi/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
                         </div>
                         <div class="col-3">
-                          <a href='mailto:sumanthsachin1215@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                          <a href='mailto:aditipasi03102001@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
                         </div>
                         <div class="col-3">
-                          <a href='tel:+91-9912472710' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                          <a href='tel:+91-8839335663' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 col-6">
+                <div class="service-card">
+                  <div class="card">
+                    <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
+                    <img class="card-img-top" src="img\team2022\Chesta.webp" height=300px; alt="Card image cap" style="object-position: center;">
+                    <!-- <h3>CODEPEN</h3> -->
+                    <div class="card-body">
+                      <h6 class="x">Chesta Srivastava</h6>
+                      <p class="x">(Public Relations Head, Design)</p>
+                      <div class='row'>
+                        <div class="col-3">
+                          <a href='https://www.facebook.com/chesta.srivastava16' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                        </div>
+                        <div class="col-3">
+                          <a href='https://www.linkedin.com/in/chesta-srivastava/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                        </div>
+                        <div class="col-3">
+                          <a href='mailto:ksirvastava559@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                        </div>
+                        <div class="col-3">
+                          <a href='tel:+91-9336977405' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
                         </div>
 
                       </div>
@@ -302,23 +388,23 @@
                 <div class="service-card last-card">
                   <div class="card ">
                     <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
-                    <img class="card-img-top" src="img\team2021\Viraj.jpg" height=300px; alt="Card image cap">
+                    <img class="card-img-top" src="img\team2022\Gourav.webp" height=300px; alt="Card image cap">
                     <!-- <h3>CODEPEN</h3> -->
                     <div class="card-body">
-                      <h6 class="x">Viraj Madke</h6>
+                      <h6 class="x">Gourav Parashar</h6>
                       <p class="x">(Public Relations Head, Videography)</p>
                       <div class='row'>
                         <div class="col-3">
-                          <a href='https://www.facebook.com/viraj.madke' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                          <a href='https://www.facebook.com/goo.para.5' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
                         </div>
                         <div class="col-3">
-                          <a href='https://www.linkedin.com/in/viraj-madke/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                          <a href='https://www.linkedin.com/in/gourav-parashar/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
                         </div>
                         <div class="col-3">
-                          <a href='mailto:virajmadke@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                          <a href='mailto:gouravparadiseon@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
                         </div>
                         <div class="col-3">
-                          <a href='tel:+91-7517056804' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                          <a href='tel:+91-6268959512' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
                         </div>
 
                       </div>
@@ -345,6 +431,21 @@
             </div>
             <br>
             <div class="row">
+            <div div class="col-12 col-sm-4 former-team-text">
+                <h4>2021</h4>
+                <ul class='team' style="list-style:none;">
+                  <li>Vikas Ahlawat</li>
+                  <li>Tarun Majety</li>
+                  <li>Brahmjot Singh</li>
+                  <li>Namya Swarnkar</li>
+                  <li>Satyam Jha</li>
+                  <li>Shikha Bagaria</li>
+                  <li>Aryan Raj Lohani</li>
+                  <li>Tanwir Singh</li>
+                  <li>D Sumanth</li>
+                  <li>Viraj Madke</li>
+                </ul>
+              </div>
               <div div class="col-12 col-sm-4 former-team-text">
                 <h4>2020</h4>
                 <ul class='team' style="list-style:none;">
@@ -377,6 +478,8 @@
                   <li>Raman Shaw</li>
                 </ul>
               </div>
+</div>
+              <div class="row">
               <div class="col-12 col-sm-4 former-team-text">
                 <h4>2018</h4>
                 <ul class='team' style="list-style:none;">
@@ -395,8 +498,8 @@
                 </ul>
               </div>
               
-            </div>
-            <div class="row">
+      
+           
               <div class="col-12 col-sm-4 former-team-text">
                   <h4>2017</h4>
                   <ul class='team' style="list-style:none;">
@@ -412,7 +515,7 @@
                     <li>Yugam</li>
                     <li>Aman Kumar Aggarwal</li>
                   </ul>
-                </div>
+              </div>
               <div class="col-12 col-sm-4 former-team-text">
                 <h4>2016</h4>
                 <ul class='team' style="list-style:none;">
@@ -428,6 +531,8 @@
                   <li>Utsav Agarwal</li>
                 </ul>
               </div>
+              </div>
+              <div class="row">
               <div class="col-12 col-sm-4 former-team-text">
                 <h4>2015</h4>
                 <ul class='team' style="list-style:none;">
@@ -444,8 +549,6 @@
                   <li> Soumyadeep Ghosh</li>
                 </ul>
               </div>
-            </div>
-            <div class="row">
               <div class="col-12 col-sm-4 former-team-text">
                   <h4>2014</h4>
                   <ul class='team' style="list-style:none;">
@@ -477,6 +580,8 @@
                   <li>Uday Shankar Das</li>
                 </ul>
               </div>
+</div>
+<div class="row">
               <div class="col-12 col-sm-4 former-team-text">
                 <h4>2012</h4>
                 <ul class='team' style="list-style:none;">
@@ -490,9 +595,7 @@
                   <li>Tanya Mondal</li>
                 </ul>
               </div>
-              
-            </div>
-            <div class="row">
+        
               <div class="col-12 col-sm-4 former-team-text">
                   <h4>2011</h4>
                   <ul class='team' style="list-style:none;">
@@ -519,6 +622,8 @@
                   <li> Tarun Trivedi</li>
                 </ul>
               </div>
+</div>
+<div class="row">
               <div class="col-12 col-sm-4 former-team-text">
                 <h4>2009</h4>
                 <ul class='team'style="list-style:none;">
@@ -531,6 +636,7 @@
                   <li>Digvijay Singh</li>
                 </ul>
               </div>
+</div>
               <!-- <div class="col-12 col-sm-4 former-team-text">
               </div> -->
             </div>
