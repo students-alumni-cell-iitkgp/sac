@@ -10,15 +10,18 @@
   <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@200&display=swap" rel="stylesheet">
   <style type="text/css">
    .img{
-	   background-image:url(img/homecomingc/compressed\ homecoming/homecoming_poster.webp);
+	   background-image:url(img/hc22.jpg);
 	   background-size:100% 100%;
 	   height:700px
    }
    .padding{
 	   padding:0 9rem;
    }
-  
 
+   .marleft{
+	margin-left:1.5rem;
+   }
+  
    @media only screen and (max-width:500px){
 	.padding{
 	   padding:0 1rem;
@@ -31,7 +34,9 @@
 	   margin-top:-250px;
 	   margin-bottom:-100px;
    }
-
+   .marleft{
+	margin-left:2.5rem;
+   }
    }
   </style>
 </head>
@@ -61,6 +66,7 @@
             </p>
 			</div>
 			</div>
+			<a class="btn btn-outline-primary marleft" href="loginpage.php" role="button">HomeComing</a>
 
 			</div>
 			<div class="col-md-5">

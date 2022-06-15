@@ -1,50 +1,55 @@
-<?php 
+<?php
 session_start(); 
 require '../config.php';
 
     if ($_SERVER['REQUEST_METHOD'] == 'POST'){
+
+        $email   = $_SESSION['email']     ;
         
-        $email = $_SESSION['email'];
+        $travel_form = $_POST['travel_form'];
+        $mode = $_POST['mode'];
+        $reach_in = $_POST['reach_in'];
+        $date_reach_in = $_POST['date_reach_in'];
+        $time_reach_in = $_POST['time_reach_in'];
+        $flight_no = $_POST['flight_no'];
+        $train_no = $_POST['train_no'];
+        $cab = $_POST['cab'];
+        $cab_type = $_POST['cab_type'];
+        $no_acc = $_POST['no_acc'];
+        $date_reach_out = $_POST['date_reach_out'];
+        $time_reach_out = $_POST['time_reach_out'];
+        $reach_out = $_POST['reach_out'];
 
-        $kgpdoa        = $_POST['kgpdoa']      ;
-        $kgptimetocome = $_POST['kgptimetocome']   ;
-        $kgpmodeofT    = $_POST['kgpmodeofT']   ;
-        $kgppickup     = $_POST['kgppickup']      ; 
-        $kgppcount     = $_POST['kgppcount']   ;
-        $kgpcarseater  = $_POST['kgpcarseater']      ; 
-
-        $airdoa        = $_POST['airdoa']      ;
-        $airtimetocome = $_POST['airtimetocome']   ;
-        $airmodeofT    = $_POST['airmodeofT']   ;
-        $airpickup     = $_POST['airpickup']      ; 
-        $airpcount     = $_POST['airpcount']   ;
-        $aircarseater  = $_POST['aircarseater']      ; 
-        
-
-      // Create a connection
-      //$database = 'aam';
-      //$conn = mysqli_connect($DB_HOST, $DB_USER, $DB_PASS, $database);
-      //// Die if connection was not successful
-      //if (!$conn){
-      //    die("Sorry we failed to connect: ". mysqli_connect_error());
-      //}
-      //else{ 
-        $sql = "UPDATE `travel` SET `kgpdoa`        = '$kgpdoa',
-                                    `kgptimetocome` = '$kgptimetocome' ,
-                                    `kgpmodeofT`    = '$kgpmodeofT',
-                                    `kgppickup`     = '$kgppickup',
-                                    `kgppcount`     = '$kgppcount',
-                                    `kgpcarseater`  = '$kgpcarseater',
-                                    `airdoa`        = '$airdoa',
-                                    `airtimetocome` = '$airtimetocome' ,
-                                    `airmodeofT`    = '$airmodeofT',
-                                    `airpickup`     = '$airpickup',
-                                    `airpcount`     = '$airpcount',
-                                    `aircarseater`  = '$aircarseater'
+        $sql = "UPDATE `hc22` SET `travel_form`          = :travel_form,
+                                 `mode`        = :mode ,
+                                 `reach_in`       = :reach_in,
+                                 `date_reach_in`          = :date_reach_in,
+                                 `time_reach_in`        = :time_reach_in,
+                                 `flight_no`        = :flight_no,
+                                 `train_no`         = :train_no,
+                                 `cab`            = :cab,
+                                 `cab_type`          = :cab_type,
+                                 `no_acc`        = :no_acc,
+                                 `date_reach_out`        = :date_reach_out,
+                                 `time_reach_out`         = :time_reach_out,
+                                 `reach_out`            = :reach_out
                                   WHERE `email` = '$email'";
 
-        //$result = mysqli_query($conn, $sql);
         $stmt=$GLOBALS["conn"]->prepare($sql);
+
+        $stmt->bindparam(':travel_form',$travel_form);
+      $stmt->bindparam(':mode',$mode);
+      $stmt->bindparam(':reach_in',$reach_in);
+      $stmt->bindparam(':date_reach_in',$date_reach_in);
+      $stmt->bindparam(':time_reach_in',$time_reach_in);
+      $stmt->bindparam(':flight_no',$flight_no);
+      $stmt->bindparam(':train_no',$train_no);
+      $stmt->bindparam(':cab',$cab);
+      $stmt->bindparam(':cab_type',$cab_type);
+      $stmt->bindparam(':no_acc',$no_acc);
+      $stmt->bindparam(':date_reach_out',$date_reach_out);
+      $stmt->bindparam(':time_reach_out',$time_reach_out);
+      $stmt->bindparam(':reach_out',$reach_out);
         $result = $stmt->execute();
  
         if($result){
@@ -54,7 +59,9 @@ require '../config.php';
             <span aria-hidden="true">×</span>
           </button>
         </div>';
-        header("Location: ../Utility/updatesuccessfully.html");
+
+        echo '<script>alert("updated Successfully")</script>';
+        header("Location: ../Utility/get_update.php");
         }
         else{
             // echo "The record was not inserted successfully because of this error ---> ". mysqli_error($conn);
@@ -67,6 +74,5 @@ require '../config.php';
         header("Location: ../errorpage.html");
         }
       //}
-
     }   
 ?>
