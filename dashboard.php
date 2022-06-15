@@ -5,46 +5,63 @@
     {
       header("Location: ./logout.html");
     }
-        // CREATING SESSION  
-        $name    = $_SESSION['Name']      ;
+    $name    = $_SESSION['name']      ;
         $email   = $_SESSION['email']     ;
+        $dob     = $_SESSION['dob']       ;
+
+      $pro_pic   = $_SESSION['pro_pic'] ;
+      $thumbnail = $_SESSION['thumbnail'];
         $address = $_SESSION['address']   ;
         $city    = $_SESSION['city']      ;
         $state   = $_SESSION['state']     ;
         $country = $_SESSION['country']   ;
         $zipcode = $_SESSION['zipcode']   ;
         $mobile  = $_SESSION['mobile']    ;
-        $dob     = $_SESSION['dob']       ;
 
-        $status      = $_SESSION['status']       ;
-        $certificate = $_SESSION['certificate']  ;
-        $dosedate    = $_SESSION['valid']        ;
-
-          $marital      = $_SESSION['marital']        ;
-        $accompaniments = $_SESSION['accompanyingNo'] ;
-          $gh           = $_SESSION['room']           ;
-          $cost         = $_SESSION['cost']           ;
+        $covi_status      = $_SESSION['covi_status']       ;
+        $covi_certi       = $_SESSION['covi_certi']  ;
+        $covi_dose        = $_SESSION['covi_dose']        ;
+          $marital        = $_SESSION['marital']        ;
+        $accompaniment    = $_SESSION['accompaniment'] ;
+          $gh             = $_SESSION['gh']           ;
+          $cost           = $_SESSION['cost']           ;
+          $serial         = $_SESSION['serial'];
+          $employee       = $_SESSION['employee'];
 
         $industry     = $_SESSION['industry']     ;
         $profession   = $_SESSION['profession']   ;
-        $organisation = $_SESSION['orgName']      ;
+        $organisation = $_SESSION['organisation']      ;
         $designation  = $_SESSION['designation']  ;
-        $waddress     = $_SESSION['work_address'] ;
-        $wcity        = $_SESSION['work_city']    ;
-        $wstate       = $_SESSION['work_state']   ;
-        $wcountry     = $_SESSION['work_country'] ;
-        $wzipcode     = $_SESSION['work_zipcode'] ;
+        $waddress     = $_SESSION['waddress'] ;
+        $wcity        = $_SESSION['wcity']    ;
+        $wstate       = $_SESSION['wstate']   ;
+        $wcountry     = $_SESSION['wcountry'] ;
+        $wzipcode     = $_SESSION['wzipcode'] ;
 
-        $rollno      = $_SESSION['rollNum']         ;
-        $joinyear    = $_SESSION['joinYear']        ;
+        $rollno      = $_SESSION['rollno']         ;
+        $yoj         = $_SESSION['yoj']        ;
         $degree      = $_SESSION['degree']          ;
-        $dept        = $_SESSION['department']      ;
+        $dept        = $_SESSION['dept']      ;
         $hall        = $_SESSION['hall']            ;
-        $yog         = $_SESSION['graduatingYear']  ;
-        $involvement = $_SESSION['involvements']    ;
+        $yog         = $_SESSION['yog']  ;
+        $involvement = $_SESSION['involvement']    ;
         $hobbies     = $_SESSION['hobbies']         ;
 
         $reciept = $_SESSION['reciept'] ;  
+       
+        $travel_form   = $_SESSION['travel_form']      ;
+        $mode          = $_SESSION['mode']      ;
+        $reach_in      = $_SESSION['reach_in']      ;
+        $date_reach_in = $_SESSION['date_reach_in']      ;
+        $time_reach_in = $_SESSION['time_reach_in']      ;
+        $flight_no     = $_SESSION['flight_no']      ; 
+        $train_no      = $_SESSION['train_no']      ;
+        $cab           = $_SESSION['cab']      ;
+        $cab_type      = $_SESSION['cab_type']      ;
+        $no_acc        = $_SESSION['no_acc']      ;
+        $reach_out     = $_SESSION['reach_out']      ;
+        $date_reach_out= $_SESSION['date_reach_out']      ;
+        $time_reach_out= $_SESSION['time_reach_out']      ;
 ?>
 
 <!DOCTYPE html>
@@ -55,142 +72,420 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"/>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
   <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.0.10/css/all.css'>
-  <link rel="stylesheet" href="./css/dashboard.css">
+  <link rel="stylesheet" href="./css/dash.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
 
 </head>
 <body>
-  <div>
-  <?php include('dashboard_navbar.php') ?>
-<!-- partial:index.partial.html -->
-<div class="con">
-  <h1 class="logo"><span>PAYMENT STATUS: <?php if(empty($reciept)) echo "<span style='color:red;'>PENDING</span>"; else echo "<span style='color:green;'>PAID</span>" ?></span></h1>
-  <div class="leftbox">
-    <nav>
-      <a id="profile" class="active"><i class="fa fa-user"></i> Personal Info</a>
-      <a id="payment"><i class="fas fa-briefcase"></i> Work Experience</a>
-      <a id="subscription"><i class="fas fa-hand-peace"></i> Nostalgic Section</a>
-      <a id="privacy"><i class="fas fa-syringe"></i> Covid Info</a>
-      <a id="settings"><i class="fas fa-bed"></i> Accomodation</a>
-    </nav>
-  </div>
-  <div class="rightbox">
-    <div class="profile">
-      <h1>Personal Info</h1>
-      <h2>Full Name</h2>
-      <p><?php echo "$name"?></p>
 
-      <h2>Email</h2>
-      <p><?php echo "$email"?></p>
+<div class="grid">
+<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
 
-      <h2>Address</h2>
-      <p><?php echo "$address"?></p>
-
-      <h2>City</h2>
-      <p><?php echo "$city"?></p>
-
-      <h2>State</h2>
-      <p><?php echo "$state"?></p>
-
-      <h2>Country</h2>
-      <p><?php echo "$country"?></p>
-
-      <h2>Zipcode</h2>
-      <p><?php echo "$zipcode"?></p>
-
-      <h2>Mobile</h2>
-      <p><?php echo "$mobile"?></p>
-
-      <h2>DOB</h2>
-      <p><?php echo "$dob"?></p>
-    </div>
-
-    <div class="payment noshow">
-      <h1>Work Experience</h1>
-      <h2>Industry</h2>
-      <p><?php echo "$industry"?></p>
-
-      <h2>Profession</h2>
-      <p><?php echo "$profession"?></p>
-
-      <h2>Organisation</h2>
-      <p><?php echo "$organisation"?></p>
-
-      <h2>Designation</h2>
-      <p><?php echo "$designation"?></p>
-
-      <h2>Work Address</h2>
-      <p><?php echo "$waddress"?></p>
-
-      <h2>Work City</h2>
-      <p><?php echo "$wcity"?></p>
-
-      <h2>Work State</h2>
-      <p><?php echo "$wstate"?></p>
-
-      <h2>Work Country</h2>
-      <p><?php echo "$wcountry"?></p>
-
-      <h2>Work Zipcode</h2>
-      <p><?php echo "$wzipcode"?></p>
-    </div>
-
-    <div class="subscription noshow">
-      <h1>Nostalgic Section</h1>
-      <h2>Roll No</h2>
-      <p><?php echo "$rollno"?></p>
-
-      <h2>Join Year</h2>
-      <p><?php echo "$joinyear"?></p>
-
-      <h2>Degree</h2>
-      <p><?php echo "$degree"?></p>
-
-      <h2>Department</h2>
-      <p><?php echo "$dept"?></p>
-
-      <h2>Hall</h2>
-      <p><?php echo "$hall"?></p>
-
-      <h2>Year of Graduation</h2>
-      <p><?php echo "$yog"?></p>
-
-      <h2>Involvement</h2>
-      <p><?php echo "$involvement"?></p>
-
-      <h2>Hobbies</h2>
-      <p><?php echo "$hobbies"?></p>
-    </div>
-
-    <div class="privacy noshow">
-      <h1>Covid Info</h1>
-      <h2>Vaccination Status</h2>
-      <p><?php echo "$status"?></p>
-
-      <h2>Able to get vaccinated by 10th March</h2>
-      <p><?php echo "$dosedate"?></p>
-    </div>
- <div class="settings noshow">
-      <h1>Accomodation</h1>
-      <h2>Marital Status</h2>
-      <p><?php echo "$marital"?></p>
-
-      <h2>Accompanying Person(s)</h2>
-      <p><?php echo "$accompaniments"?></p>
-
-      <h2>Guest House</h2>
-      <p><?php echo "$gh"?></p>
-
-      <h2>Total Cost</h2>
-      <p><?php echo "$cost"?></p>
-    </div>
-
+<div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+  aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="navbar-collapse collapse justify-content-end" id="navbarNavDropdown">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item "> 
+        <a class="nav-link" onclick="attendee()">Attendee </a> 
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" onclick="payment()"> Payment </a>
+      </li>
+      <li class="nav-item ">
+        <a class="nav-link" href="utility/logout2.php" data-bs-toggle="dropdown"> Logout </a>	
+      </li>
+    </ul>
   </div>
 </div>
+
+</nav>
+
+  <aside class="sidenav">
+    <div class="sidenav__brand">
+      <a class="sidenav__brand-link" href="homecoming.php">Home<span class="text-light">coming</span></a>
+    </div>
+    <div class="sidenav__profile">
+      <div class="sidenav__profile-avatar"></div>
+      <div class="sidenav__profile-title text-light"><?php echo "$name"?></div>
+    </div>
+    <div class="row row--align-v-center row--align-h-center">
+      <ul class="navList">
+      <br>
+      <li>
+          <div class="navList__subheading row row--align-v-center button" id="personal" onclick="personal()">
+            <span class="navList__subheading-icon"><i class="fa fa-user"></i></span>
+            <span class="navList__subheading-title">Personal Info</span>
+          </div>
+        </li>
+        <li>
+          <div class="navList__subheading row row--align-v-center button" id="travel" onclick="travel()">
+            <span class="navList__subheading-icon"><i class="fas fa-plane"></i></span>
+            <span class="navList__subheading-title">Travel Details</span>
+          </div> 
+        </li>
+        <li>
+          <div class="navList__subheading row row--align-v-center button"id="accomod" onclick="accomod()"  >
+            <span class="navList__subheading-icon"><i class="fas fa-bed"></i></span>
+            <span class="navList__subheading-title">Accomodation</span>
+          </div>
+        </li>  
+
+        <li>
+          <div class="navList__subheading row row--align-v-center button" id="covid" onclick="covid()">
+            <span class="navList__subheading-icon"><i class="fas fa-syringe"></i></span>
+            <span class="navList__subheading-title">Covid Info</span>
+          </div>
+        </li>
+        <li>
+          <div class="navList__subheading row row--align-v-center button" id="work" onclick="work()" >
+            <span class="navList__subheading-icon"><i class="fas fa-briefcase"></i></span>
+            <span class="navList__subheading-title">Work Experience</span>
+          </div> 
+        </li>
+        <li>
+          <div class="navList__subheading row row--align-v-center button" id="nostalg" onclick="nostalg()">
+            <span class="navList__subheading-icon"><i class="fas fa-hand-peace"></i></span>
+            <span class="navList__subheading-title">Nostalgic Section</span>
+          </div>
+        </li> 
+        <!--<li>
+          <div class="navList__subheading row row--align-v-center">
+            <span class="navList__subheading-icon"><i class="far fa-angry"></i></span>
+            <span class="navList__subheading-title">YOY</span>
+          </div>
+        </li> -->  
+      </ul>
+    </div>
+  </aside>
+
+  <main class="main">
+
+    <div class="row" style= "justify-content:right; margin-top:20px; margin-right:40px">
+      <div class="overviewCard col-4">
+        <div class="overviewCard-icon overviewCard-icon--photo">
+           <i class="fas fa-rupee-sign"></i>
+        </div>
+        <div class="overviewCard-description">
+        <h6><span>Payment Status: <?php echo "$cost"?></h6><h6> <?php if(empty($reciept)) echo "<span style='color:red;'>PENDING</span>"; else echo "<span style='color:green;'>PAID</span>" ?></span></h6>
+        <a class = "btn btn-success" style = "color:white" onclick="payment()">Make Payment</a>  
+      </div>
+      </div>
+    </div> <!-- /.main__overview -->
+
+      <?php include './edit/personal.php' ?>
+      <?php include './edit/travel.php' ?>
+      <?php include './edit/covid.php' ?>
+      <?php include './edit/accomodation.php' ?>
+      <?php include './edit/work.php' ?>
+      <?php include './edit/nostalgia.php' ?>
+      <?php include './edit/payment.php' ?>    
+      <?php include './edit/attendee.php' ?> 
+  </main>
+
+  <footer class="footer">
+    <p><span class="footer__copyright">&copy;</span> 2022 Students' Alumni Cell</p>
+  </footer>
 </div>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script  src="./script.js"></script>
 
-<!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script  src="./script.js"></script>
+<script>
+/* Scripts for css grid dashboard */
 
+$(document).ready(() => {
+  addResizeListeners();
+  setSidenavListeners();
+  setUserDropdownListener();
+  setMenuClickListener();
+  setSidenavCloseListener();
+});
+
+// Set constants and grab needed elements
+const sidenavEl = $('.sidenav');
+const gridEl = $('.grid');
+const SIDENAV_ACTIVE_CLASS = 'sidenav--active';
+const GRID_NO_SCROLL_CLASS = 'grid--noscroll';
+
+function toggleClass(el, className) {
+  if (el.hasClass(className)) {
+    el.removeClass(className);
+  } else {
+    el.addClass(className);
+  }
+}
+
+// User avatar dropdown functionality
+function setUserDropdownListener() {
+  const userAvatar = $('.header__avatar');
+
+  userAvatar.on('click', function(e) {
+    const dropdown = $(this).children('.dropdown');
+    toggleClass(dropdown, 'dropdown--active');
+  });
+}
+
+// Sidenav list sliding functionality
+function setSidenavListeners() {
+  const subHeadings = $('.navList__subheading'); console.log('subHeadings: ', subHeadings);
+  const SUBHEADING_OPEN_CLASS = 'navList__subheading--open';
+  const SUBLIST_HIDDEN_CLASS = 'subList--hidden';
+
+  subHeadings.each((i, subHeadingEl) => {
+    $(subHeadingEl).on('click', (e) => {
+      const subListEl = $(subHeadingEl).siblings();
+
+      // Add/remove selected styles to list category heading
+      if (subHeadingEl) {
+        toggleClass($(subHeadingEl), SUBHEADING_OPEN_CLASS);
+      }
+
+      // Reveal/hide the sublist
+      if (subListEl && subListEl.length === 1) {
+        toggleClass($(subListEl), SUBLIST_HIDDEN_CLASS);
+      }
+    });
+  });
+}
+
+function toggleClass(el, className) {
+  if (el.hasClass(className)) {
+    el.removeClass(className);
+  } else {
+    el.addClass(className);
+  }
+}
+
+// If user opens the menu and then expands the viewport from mobile size without closing the menu,
+// make sure scrolling is enabled again and that sidenav active class is removed
+function addResizeListeners() {
+  $(window).resize(function(e) {
+    const width = window.innerWidth; console.log('width: ', width);
+
+    if (width > 750) {
+      sidenavEl.removeClass(SIDENAV_ACTIVE_CLASS);
+      gridEl.removeClass(GRID_NO_SCROLL_CLASS);
+    }
+  });
+}
+
+// Menu open sidenav icon, shown only on mobile
+function setMenuClickListener() {
+  $('.header__menu').on('click', function(e) { console.log('clicked menu icon');
+    toggleClass(sidenavEl, SIDENAV_ACTIVE_CLASS);
+    toggleClass(gridEl, GRID_NO_SCROLL_CLASS);
+  });
+}
+
+// Sidenav close icon
+function setSidenavCloseListener() {
+  $('.sidenav__brand-close').on('click', function(e) {
+    toggleClass(sidenavEl, SIDENAV_ACTIVE_CLASS);
+    toggleClass(gridEl, GRID_NO_SCROLL_CLASS);
+  });
+}
+
+    const prof1 = document.getElementsByClassName('prof1')[0];
+    const prof2 = document.getElementsByClassName('prof2')[0];
+    const prof3 = document.getElementsByClassName('prof3')[0];
+    const prof4 = document.getElementsByClassName('prof4')[0];
+    const prof5 = document.getElementsByClassName('prof5')[0];
+    const prof6 = document.getElementsByClassName('prof6')[0];
+    const prof7 = document.getElementsByClassName('prof7')[0];
+    const prof8 = document.getElementsByClassName('prof8')[0];
+
+
+    function personal() {
+        document.getElementsByClassName('prof1')[0].style.display = "block";
+        document.getElementsByClassName('prof2')[0].style.display = "none";
+        document.getElementsByClassName('prof3')[0].style.display = "none";
+        document.getElementsByClassName('prof4')[0].style.display = "none";
+        document.getElementsByClassName('prof5')[0].style.display = "none";
+        document.getElementsByClassName('prof6')[0].style.display = "none";
+        prof7.style.display = "none";
+        prof8.style.display = "none";
+
+        document.getElementById("personal").style.color = "#4169e1";
+        document.getElementById("work").style.color    = "white";
+        document.getElementById("nostalg").style.color = "white";
+        document.getElementById("covid").style.color   = "white";
+        document.getElementById("accomod").style.color = "white";
+        document.getElementById("travel").style.color  = "white";
+    }
+
+    function travel() {
+        document.getElementsByClassName('prof1')[0].style.display = "none";
+        document.getElementsByClassName('prof2')[0].style.display = "block";
+        document.getElementsByClassName('prof3')[0].style.display = "none";
+        document.getElementsByClassName('prof4')[0].style.display = "none";
+        document.getElementsByClassName('prof5')[0].style.display = "none";
+        document.getElementsByClassName('prof6')[0].style.display = "none";
+        prof7.style.display = "none";
+        prof8.style.display = "none";
+
+        document.getElementById("personal").style.color = "white";
+        document.getElementById("work").style.color     = "white";
+        document.getElementById("nostalg").style.color  = "white";
+        document.getElementById("covid").style.color    = "white";
+        document.getElementById("accomod").style.color  = "white";
+        document.getElementById("travel").style.color   = "#4169e1";
+    }
+
+    function accomod() {
+        prof1.style.display = "none";
+        prof2.style.display = "none";
+        prof3.style.display = "block";
+        prof4.style.display = "none";
+        prof5.style.display = "none";
+        prof6.style.display = "none";
+        prof7.style.display = "none";
+        prof8.style.display = "none";
+
+        document.getElementById("personal").style.color = "white";
+        document.getElementById("work").style.color     = "white";
+        document.getElementById("nostalg").style.color  = "white";
+        document.getElementById("covid").style.color    = "white";
+        document.getElementById("accomod").style.color = "#4169e1";
+        document.getElementById("travel").style.color  = "white";
+    }
+
+    function covid() {
+        prof1.style.display = "none";
+        prof2.style.display = "none";
+        prof3.style.display = "none";
+        prof4.style.display = "block";
+        prof5.style.display = "none";
+        prof6.style.display = "none";
+        prof7.style.display = "none";
+        prof8.style.display = "none";
+
+        document.getElementById("personal").style.color = "white";
+        document.getElementById("work").style.color     = "white";
+        document.getElementById("nostalg").style.color  = "white";
+        document.getElementById("covid").style.color = "#4169e1";
+        document.getElementById("accomod").style.color = "white";
+        document.getElementById("travel").style.color  = "white";
+    }
+
+    function work() {
+        prof1.style.display = "none";
+        prof2.style.display = "none";
+        prof3.style.display = "none";
+        prof4.style.display = "none";
+        prof5.style.display = "block";
+        prof6.style.display = "none";
+        prof7.style.display = "none";
+        prof8.style.display = "none";
+
+        document.getElementById("personal").style.color = "white";
+        document.getElementById("work").style.color = "#4169e1";
+        document.getElementById("nostalg").style.color = "white";
+        document.getElementById("covid").style.color   = "white";
+        document.getElementById("accomod").style.color = "white";
+        document.getElementById("travel").style.color  = "white";
+    }
+
+    function nostalg() {
+        prof1.style.display = "none";
+        prof2.style.display = "none";
+        prof3.style.display = "none";
+        prof4.style.display = "none";
+        prof5.style.display = "none";
+        prof6.style.display = "block";
+        prof7.style.display = "none";
+        prof8.style.display = "none";
+
+        document.getElementById("personal").style.color = "white";
+        document.getElementById("work").style.color     = "white";
+        document.getElementById("nostalg").style.color = "#4169e1";
+        document.getElementById("covid").style.color   = "white";
+        document.getElementById("accomod").style.color = "white";
+        document.getElementById("travel").style.color  = "white";
+    }
+
+    function payment() {
+        prof1.style.display = "none";
+        prof2.style.display = "none";
+        prof3.style.display = "none";
+        prof4.style.display = "none";
+        prof5.style.display = "none";
+        prof6.style.display = "none";
+        prof7.style.display = "block";
+        prof8.style.display = "none";
+
+        document.getElementById("personal").style.color = "white";
+        document.getElementById("work").style.color     = "white";
+        document.getElementById("nostalg").style.color  = "white";
+        document.getElementById("covid").style.color    = "white";
+        document.getElementById("accomod").style.color  = "white";
+        document.getElementById("travel").style.color   = "white";
+    }
+
+    function attendee() {
+        prof1.style.display = "none";
+        prof2.style.display = "none";
+        prof3.style.display = "none";
+        prof4.style.display = "none";
+        prof5.style.display = "none";
+        prof6.style.display = "none";
+        prof7.style.display = "none";
+        prof8.style.display = "block";
+
+        document.getElementById("personal").style.color = "white";
+        document.getElementById("work").style.color     = "white";
+        document.getElementById("nostalg").style.color  = "white";
+        document.getElementById("covid").style.color    = "white";
+        document.getElementById("accomod").style.color  = "white";
+        document.getElementById("travel").style.color   = "white";
+    }
+
+    personal();
+
+    function calc_cost(){
+           let nguest = document.getElementById("accompaniment").value;
+           let choice = document.getElementById("g").value;
+
+           let e = document.getElementById("employee").value;
+           var cost = 0;
+           if(e == 0)
+           { 
+               if(choice === "TGH"){
+                   cost = 1500 + 7000 + 4000*nguest + 1500*nguest;
+               }
+           }
+           else if(e==1){
+               cost =7000 ;
+          }
+           console.log(nguest,choice,e);
+          
+           document.getElementById("cost").value ="Total Cost = (₹) "+cost;
+           console.log(cost);
+       }
+
+    function emp()
+{
+
+  document.getElementById("serial").style.display = "none";
+  document.getElementById("gh").style.display = "none";
+
+  let e = document.getElementById("employee").value;
+  if(e == 0)
+  {
+    document.getElementById("gh").style.display = "block";
+    document.getElementById("serial").style.display = "none";
+  }
+  else if(e==1){
+    document.getElementById("serial").style.display = "block";
+    document.getElementById("gh").style.display = "none";
+  }
+  else{
+    document.getElementById("serial").style.display = "none";
+    document.getElementById("gh").style.display = "none";
+  }
+}
+emp();
+
+</script>
 </body>
 </html>

@@ -1,14 +1,33 @@
-<?php
-    session_start();
-    require '../config.php';
+<?php 
+session_start();
+require '../config.php';
 
     if ($_SERVER['REQUEST_METHOD'] == 'POST'){
-        $reciept = $_POST['reciept'];
 
-        $email = $_SESSION['email'];
-        
-        $sql = "UPDATE `hc22` SET `reciept` = '$reciept' WHERE `email` = '$email'";
+        $email   = $_SESSION['email']     ;
+        $marital       = $_POST['marital'];
+        $accompaniment = $_POST['accompaniment'];
+        $gh            = $_POST['gh'];
+        $serial        = $_POST['serial'];
+        $employee      = $_POST['employee'];
+        $cost      = $_POST['cost'];
+
+        $sql = "UPDATE `hc22` SET `marital`           = :marital,
+                                  `accompaniment`        = :accompaniment ,
+                                  `gh`           = :gh,
+                                  `serial`          = :serial,
+                                  `employee`        = :employee,
+                                  `cost`        = :cost
+                                  WHERE `email` = '$email'";
+
         $stmt=$GLOBALS["conn"]->prepare($sql);
+
+        $stmt->bindparam(':marital',$marital);
+      $stmt->bindparam(':accompaniment',$accompaniment);
+      $stmt->bindparam(':gh',$gh);
+      $stmt->bindparam(':serial',$serial);
+      $stmt->bindparam(':employee',$employee);
+      $stmt->bindparam(':cost',$cost);
         $result = $stmt->execute();
  
         if($result){
@@ -18,6 +37,8 @@
             <span aria-hidden="true">×</span>
           </button>
         </div>';
+
+        echo '<script>alert("updated Successfully")</script>';
         header("Location: ../Utility/get_update.php");
         }
         else{

@@ -12,33 +12,38 @@ include '../config.php';
         $mobile = $_POST['mobile'];
         $dob = $_POST['dob'];
 
-        $status = $_POST['status'];
-        $certificate = $_POST['certificate'];
-        $dosedate = "yes";
+        $pro_pic = $_POST['pro_pic'];
+        //$thumbnail = $_POST['thumbnail'];
+        //$password = $_POST['password'];
+        //$remember_token = $_POST['remember_token'];
+      
+        $covi_status = $_POST['covi_status'];
+        $covi_certi = $_POST['covi_certi'];
+        //$covi_dose = "yes";
 
-        $marital = $_POST['marital'];
-        $accompaniments = $_POST['accompanyingNo'];
-        $gh = $_POST['room'];
+        //$marital = $_POST['marital'];
+        $accompaniment = $_POST['accompaniment'];
+        $gh = $_POST['gh'];
         $cost = $_POST['cost'];
 
         $industry = $_POST['industry'];
         $profession = $_POST['profession'];
-        $organisation = $_POST['orgName'];
+        $organisation = $_POST['organisation'];
         $designation = $_POST['designation'];
-        $waddress = $_POST['work_address'];
-        $wcity = $_POST['work_city'];
-        $wstate = $_POST['work_state'];
-        $wcountry = $_POST['work_country'];
-        $wzipcode = $_POST['work_zipcode'];
+        $waddress = $_POST['waddress'];
+        $wcity = $_POST['wcity'];
+        $wstate = $_POST['wstate'];
+        $wcountry = $_POST['wcountry'];
+        $wzipcode = $_POST['wzipcode'];
 
-        $rollno = $_POST['rollNum'];
-        $joinyear = $_POST['joinYear'];
+        $rollno = $_POST['rollno'];
+        $yoj = $_POST['yoj'];
         $degree = $_POST['degree'];
-        $dept = $_POST['department'];
+        $dept = $_POST['dept'];
         $hall = $_POST['hall'];
-        $yog = $_POST['graduatingYear'];
-        $involvement = $_POST['involvements'];
-        $hobbies = $_POST['hobbies'];
+        $yog = $_POST['yog'];
+        //$involvement = $_POST['involvement'];
+        //$hobbies = $_POST['hobbies'];
         $serial = $_POST['serial'];
         $employee = $_POST['employee'];
 
@@ -54,19 +59,57 @@ include '../config.php';
         return $str;
       }
     
-      $sql = "INSERT INTO `aam` (`Name`,`email`, `address` ,`city`,`state`,`country`,`zipcode`,`mobile`,`dob`,
-                 `status`, `certificate` ,`dosedate`,
-                 `marital`, `accompaniments` ,`gh`,
+      $sql = "INSERT INTO `hc22` (`name`,`email`, `address` ,`city`,`state`,`country`,`zipcode`,`mobile`,`dob`,
+                 `covi_status`, `covi_certi`,
+                 `accompaniment` ,`gh`, `serial`,`employee`,
                  `industry`, `profession` ,`organisation`,`designation`,`waddress`,`wcity`,`wstate`,`wcountry`,`wzipcode`,
-                 `rollno`, `joinyear` ,`degree`,`dept`,`hall`,`yog`,`involvement`,`hobbies`,`cost`, `serial`, `resident`)
-                 VALUES (:Name, :email, :address ,:city,:state,:country,:zipcode,:mobile,:dob,
-                 :status, :certificate ,:dosedate,
-                 :marital, :accompaniments ,:gh,
+                 `rollno`, `yoj` ,`degree`,`dept`,`hall`,`yog`,`cost`)
+                 VALUES (:name, :email, :address ,:city, :state, :country, :zipcode, :mobile, :dob,
+                 :covi_status, :covi_certi,
+                 :accompaniment ,:gh,:serial,:employee,
                  :industry, :profession ,:organisation,:designation,:waddress,:wcity,:wstate,:wcountry,:wzipcode,
-                 :rollno, :joinyear ,:degree,:dept,:hall,:yog,:involvement,:hobbies,:cost,:serial,:employee)";
-        // binding params
+                 :rollno, :yoj ,:degree,:dept,:hall,:yog,:cost)";
+       
+       // binding params
       $stmt=$GLOBALS["conn"]->prepare($sql);
-      $stmt->bindparam(':Name',$name);$stmt->bindparam(':email',$email);$stmt->bindparam(':address',$address);$stmt->bindparam(':city',$city);$stmt->bindparam(':state',$state);$stmt->bindparam(':country',$country);$stmt->bindparam(':zipcode',$zipcode);$stmt->bindparam(':mobile',$mobile);$stmt->bindparam(':dob',$dob);$stmt->bindparam(':status',$status);$stmt->bindparam(':certificate',$certificate);$stmt->bindparam(':dosedate',$dosedate);$stmt->bindparam(':marital',$marital);$stmt->bindparam(':accompaniments',$accompaniments);$stmt->bindparam(':gh',$gh);$stmt->bindparam(':industry',$industry);$stmt->bindparam(':profession',$profession);$stmt->bindparam(':organisation',$organisation);$stmt->bindparam(':designation',$designation);$stmt->bindparam(':waddress',$waddress);$stmt->bindparam(':wcity',$wcity);$stmt->bindparam(':wstate',$wstate);$stmt->bindparam(':wcountry',$wcountry);$stmt->bindparam(':wzipcode',$wzipcode);$stmt->bindparam(':rollno',$rollno);$stmt->bindparam(':joinyear',$joinyear);$stmt->bindparam(':degree',$degree);$stmt->bindparam(':dept',$dept);$stmt->bindparam(':hall',$hall);$stmt->bindparam(':yog',$yog);$stmt->bindparam(':involvement',$involvement);$stmt->bindparam(':hobbies',$hobbies);$stmt->bindparam(':cost',$cost);$stmt->bindparam(':serial',$serial);$stmt->bindparam(':employee',$employee);
+      $stmt->bindparam(':name',$name);
+      $stmt->bindparam(':email',$email);
+      $stmt->bindparam(':address',$address);
+      $stmt->bindparam(':city',$city);
+      $stmt->bindparam(':state',$state);
+      $stmt->bindparam(':country',$country);
+      $stmt->bindparam(':zipcode',$zipcode);
+      $stmt->bindparam(':mobile',$mobile);
+      $stmt->bindparam(':dob',$dob);
+      $stmt->bindparam(':covi_status',$covi_status);
+      $stmt->bindparam(':covi_certi',$covi_certi);
+      //$stmt->bindparam(':covi_dose',$covi_dose);
+      //$stmt->bindparam(':marital',$marital);
+      $stmt->bindparam(':serial',$serial);
+      $stmt->bindparam(':employee',$employee);
+      $stmt->bindparam(':accompaniment',$accompaniment);
+      $stmt->bindparam(':gh',$gh);
+      $stmt->bindparam(':industry',$industry);
+      $stmt->bindparam(':profession',$profession);
+      $stmt->bindparam(':organisation',$organisation);
+      $stmt->bindparam(':designation',$designation);
+      $stmt->bindparam(':waddress',$waddress);
+      $stmt->bindparam(':wcity',$wcity);
+      $stmt->bindparam(':wstate',$wstate);
+      $stmt->bindparam(':wcountry',$wcountry);
+      $stmt->bindparam(':wzipcode',$wzipcode);
+      $stmt->bindparam(':rollno',$rollno);
+      $stmt->bindparam(':yoj',$yoj);
+      $stmt->bindparam(':degree',$degree);
+      $stmt->bindparam(':dept',$dept);
+      $stmt->bindparam(':hall',$hall);
+      $stmt->bindparam(':yog',$yog);
+      //$stmt->bindparam(':involvement',$involvement);
+      //$stmt->bindparam(':hobbies',$hobbies);
+      $stmt->bindparam(':cost',$cost);
+      //$stmt->bindparam(':serial',$serial);
+      //$stmt->bindparam(':employee',$employee);
+       
       //executing
       $result=$stmt->execute();
       if($result){
@@ -77,26 +120,31 @@ include '../config.php';
           </button>
         </div>'; 
 
-           /// insert email in travel table by this we only have to update travel travel
-           ///$sql = "INSERT INTO `travel` (`email`) VALUES (:email)";
-           ///$stmt=$GLOBALS['conn']->prepare($sql);
-           ///$stmt->bindparam(':email',$email);
-           ///$resu = $stmt->execute();
-           ///if($resu){
-               header("Location: ../Utility/get_update.php");
-               //get_update.php C:\xampp\htdocs\sac\get_update.php
-           ///}
-           ///else{
-           /// echo '<div class="alert alert-danger alert-dismissible fade show" role="alert">
-           /// <strong>Error!</strong> We are facing some technical issue and your entry ws not submitted successfully!(travel) We regret the inconvinience caused!
-           /// <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-           ///   <span aria-hidden="true">×</span>
-           /// </button>
-          ////<div>';
-          ///header("Location: ../errorpage.html");
-          /// }
+          // file name, type, size, temporary name 
+          $file_name = $_FILES['pro_pic']['name']; 
+          $file_type = $_FILES['pro_pic']['type']; 
+          $file_tmp_name = $_FILES['pro_pic']['tmp_name']; 
+          $file_size = $_FILES['pro_pic']['size']; 
+       
+          // target directory 
+          $target_dir = "uploads/"; 
+         
+          // uploding file 
+          if(move_uploaded_file($file_tmp_name,$target_dir.$file_name)) 
+          { 
 
-        //header("Location: get_update.php");
+            $q = "update `hc22` SET `pro_pic` = '.$target_dir.$file_name.' WHERE `email` = '$email'"; 
+            $stmt=$GLOBALS["conn"]->prepare($q);
+            $result=$stmt->execute();
+            
+          } 
+          else 
+          { 
+            echo "File can not be uploaded"; 
+          } 
+          
+        header("Location: ../utility/mail.php");
+               
         }
         else{
             // echo "The record was not inserted successfully because of this error ---> ". mysqli_error($conn);

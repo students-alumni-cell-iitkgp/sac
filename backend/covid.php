@@ -1,14 +1,22 @@
-<?php
-    session_start();
-    require '../config.php';
+<?php 
+session_start();
+require '../config.php';
 
     if ($_SERVER['REQUEST_METHOD'] == 'POST'){
-        $reciept = $_POST['reciept'];
 
-        $email = $_SESSION['email'];
-        
-        $sql = "UPDATE `hc22` SET `reciept` = '$reciept' WHERE `email` = '$email'";
+        $email   = $_SESSION['email']     ;
+
+        $covi_status = $_POST['covi_status'];
+        $covi_certi = $_POST['covi_certi'];
+
+        $sql = "UPDATE `hc22` SET `covi_status`       = :covi_status,
+                                  `covi_certi`        = :covi_certi
+                                  WHERE `email` = '$email'";
+
         $stmt=$GLOBALS["conn"]->prepare($sql);
+
+        $stmt->bindparam(':covi_status',$covi_status);
+      $stmt->bindparam(':covi_certi',$covi_certi);
         $result = $stmt->execute();
  
         if($result){
@@ -18,6 +26,8 @@
             <span aria-hidden="true">×</span>
           </button>
         </div>';
+
+        echo '<script>alert("updated Successfully")</script>';
         header("Location: ../Utility/get_update.php");
         }
         else{
