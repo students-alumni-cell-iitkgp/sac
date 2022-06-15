@@ -1,65 +1,87 @@
-<div class="section3">
-    <table class="mb-3 border-light" style="margin-bottom: 2vh !important; color: black" >
-        <th > Fixed charges</th>
-        <tr>
-            <td data-th="">Alumnus/Alumna </td>
-            <td style="text-align: center; padding: 2vh;" data-th="Cost for Alumni">7000</td>
-        </tr>
-        <tr>
-            <td data-th="">Accompanying Person(s) </td>
-            <td style="text-align: center;" data-th="Cost for Alumni">4000</td>
-        </tr>
-    </table>
-    <table class="mb-3 border-light" style="margin-bottom: 2vh !important; color: black">
-        <tr><th> Accommodation charges</th></tr>
-        <tr>
-            <th> Guest House</th>
-            <th style="text-align: center;">Cost per person(₹)</th>
-        </tr>
-        <tr>
-            <td data-th="">Technology Guest House/ Alumni Guest House</td>
-            <td style="text-align: center;" data-th="Cost for Alumni">2250</td>
-            </tr>
-        <!-- <tr>
-            <td data-th="">VGH/ SAM</td>
-            <td style="text-align: center;" data-th="Cost for Alumni">900</td>
-        </tr> -->
-    </table>
-    <div class="form-group">
-        <label for="marital">Marital Status</label>
-        <input class="form-control" type="text" name="marital" id="marital" value = "<?php echo "$marital"?>" maxlength="10">
-    </div>
-    <div class="form-group">
-        <label for="accompanyingNo" >Accompanying Person(s)<span style="color:red;">*</span></label>
-        <input class="form-control" type="number" min="0" id="accompanyingNo" name="accompanyingNo" onchange="calc_cost()" value = "<?php echo "$accompaniments"?>" required>
-        <small class = "text-muted">Kids below 13 years of age won't be charged. It's free of cost for them. Don't add them in the accompanying person(s) list</small>
-    </div>
-    <div class="form-group">
-        <label for="employee">Are you a resident of IIT Kharagpur ? <span style="color:red;">*</span></label>
-        <select  class="form-control form-select" type="list" onchange="calc_cost()"  list="employee" id="employee" name="employee" required>
-            <option value=""></option> 
-            <option value="1">Yes</option> 
-            <option value="0">No</option> 
-        </select>
-    </div>
-    <div class="form-group " id = "serials">
-        <label for="serial">Employee ID <span style="color:red;">*</span></label>
-        <input class="form-control" type="text" name="serial" id="serial" >
-    </div>
-    <div class="form-group" id = "ghouse">
-        <label for="room">Guest House <span style="color:red;">*</span></label>
-        <select  class="form-control form-select" type="list" onchange="calc_cost()"  list="room" id="room" name="room" value = "<?php echo "$gh"?>" required>
-            <option value=""></option> 
-            <option value="Technology Guest House/ Alumni Guest House">Technology Guest House/ Alumni Guest House</option> 
-            <!-- <option value="VGH/ SAM">VGH/ SAM</option> -->
-            <!--<option value="NA">Not Required</option>-->
-        </select>
-    </div>
-    <div class="form-group">
-        <input class="form-control" id="cost" name = "cost" type="text" value = "<?php echo "$cost"?>" readonly>
-    </div>
-    <div class="m-t-lg">
-        <button class="btn btn--form" type = "button" id = "next" onclick="back1()">Back</button>
-        <button class="btn btn--form" type = "button" id = "next" onclick="next2()">Next</button>
-    </div>
+<div class="prof3" id = "prof3" style = "margin: 40px;margin-top:0px; padding:30px">
+<form action="backend\accomodation.php" method = "post" enctype="multipart/form-data" onSubmit="window.location.reload()" >
+
+<table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Fee</th>
+                <th scope="col">Amount</th>
+              </tr>
+            </thead>
+             <tbody>
+               <tr>
+                 <th scope="row">1</th>
+                 <td>Per Alumnus/Alumna</td>
+                 <td>7000</td>
+               </tr>
+               <tr>
+                 <th scope="row">2</th>
+                 <td>Per Accompanying Person(s)</td>
+                 <td>4000</td>
+               </tr>
+             </tbody>
+           </table>
+
+           <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Guest House</th>
+                <th scope="col">Cost per person</th>
+              </tr>
+            </thead>
+             <tbody>
+               <tr>
+                 <th scope="row">1</th>
+                 <td>Technology Guest House</td>
+                 <td>1500</td>
+               </tr>
+             </tbody>
+           </table>
+
+         <div class="row">
+             <div class="form-group mb-3 col-sm-6">
+             <label for="accompaniment">Accompanying Person(s)</label>
+                <input type="number" class="form-control" id="accompaniment" name= "accompaniment" value="0" placeholder= "0" min = "0"value = "<?php echo "$accompaniment"?>"  maxlength="10">
+                <small class = "text-muted">Kids below 13 years of age won't be charged. It's free of cost for them. Don't add them in the accompanying person(s) list</small>
+             </div>
+
+             <div class="form-group mb-3 col-sm-6">
+             <label for="employee">Are you a resident of IIT Kharagpur?<span style="color:red;">*</span></label>
+            <select class="form-control form-select" type = "list" id = "employee" name= "employee" onchange="emp()" required>
+            <option selected value="select">---Select---</option>
+            <option value="0">No</option>
+            <option value="1">Yes</option>
+            </select>
+          </div>
+           </div>
+
+          <div class = "row" id = "gh" style = "justify-content:center">
+          <div class="form-group mb-3 col-sm-6">
+          <label for="gh">Ghest House<span style="color:red;">*</span></label>
+          <select class="form-control form-select" type = "list" id = "g" name= "gh" onchange="calc_cost()">
+            <option selected value="select">---Select---</option>
+            <option value="TGH">Technology Guest House</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="row" id="serial" style = "justify-content:center">
+             <div class="form-group mb-3 col-sm-6">
+             <label for="serial">Employee ID</label>
+                <input type="text" class="form-control" name= "serial" placeholder= "KGP...."  maxlength="50" onchange="calc_cost()">
+             </div>
+        </div>
+
+        <div class = "row" style="justify-content:center">
+        <div class="mb-3 col-sm-4">
+        <input class="form-control" id="cost" name = "cost" type="text" value = "Total cost = &#8377;0" readonly>
+        </div>
+        </div>
+
+    <div class = "row" style="justify-content:center">
+        <div class="col-1"><button id="submit" class="btn btn-primary" type = "submit">Save</button></div>
+        </div>
+</form>
 </div>
