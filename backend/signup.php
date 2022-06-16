@@ -52,6 +52,9 @@ include '../config.php';
       $_SESSION['email'] = $email;
       $_SESSION['password'] = $dob;
       $_SESSION['cost'] = $cost;
+      $_SESSION['name'] = $name;
+      $_SESSION['gh'] = $gh;
+      $_SESSION['accompaniment'] = $accompaniment;
 
       function convert($str){
         $str = str_replace(".","-",$str);
@@ -107,8 +110,6 @@ include '../config.php';
       //$stmt->bindparam(':involvement',$involvement);
       //$stmt->bindparam(':hobbies',$hobbies);
       $stmt->bindparam(':cost',$cost);
-      //$stmt->bindparam(':serial',$serial);
-      //$stmt->bindparam(':employee',$employee);
        
       //executing
       $result=$stmt->execute();
