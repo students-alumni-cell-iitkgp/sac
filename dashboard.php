@@ -108,7 +108,7 @@
       <a class="sidenav__brand-link" href="homecoming.php">Home<span class="text-light">coming</span></a>
     </div>
     <div class="sidenav__profile">
-      <div class="sidenav__profile-avatar"></div>
+    <div class="sidenav__profile-avatar"><img src=<?php echo $pro_pic ?> alt="dp" width="100%" height="100%" style="border-radius:100%" /></div>
       <div class="sidenav__profile-title text-light"><?php echo "$name"?></div>
     </div>
     <div class="row row--align-v-center row--align-h-center">
