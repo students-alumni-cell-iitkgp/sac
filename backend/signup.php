@@ -113,39 +113,45 @@ include '../config.php';
       //executing
       $result=$stmt->execute();
       if($result){
-          echo '<div class="alert alert-success alert-dismissible fade show" role="alert">
-          <strong>Success!</strong> Your entry has been submitted successfully!
-          <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-            <span aria-hidden="true">×</span>
-          </button>
-        </div>'; 
+        echo '<div class="alert alert-success alert-dismissible fade show" role="alert">
+        <strong>Success!</strong> Your entry has been submitted successfully!
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>'; 
 
-          // file name, type, size, temporary name 
-          $file_name = $_FILES['pro_pic']['name']; 
-          $file_type = $_FILES['pro_pic']['type']; 
-          $file_tmp_name = $_FILES['pro_pic']['tmp_name']; 
-          $file_size = $_FILES['pro_pic']['size']; 
+        // file name, type, size, temporary name 
+        $file_name = $_FILES['pro_pic']['name']; 
+        $file_type = $_FILES['pro_pic']['type']; 
+        $ext=explode('.',  $file_name);
+        $file_tmp_name = $_FILES['pro_pic']['tmp_name']; 
+        $file_size = $_FILES['pro_pic']['size']; 
+
+     
+        // target directory 
+        $target_dir = "../uploads/"; 
+        $fetch_dir="./uploads/";
        
-          // target directory 
-          $target_dir = "uploads/"; 
-         
-          // uploding file 
-          if(move_uploaded_file($file_tmp_name,$target_dir.$file_name)) 
-          { 
+        // uploding file 
+        if(move_uploaded_file($file_tmp_name,$target_dir.$mobile.'.'.$ext[1])) 
+        { 
 
-            $q = "update `hc22` SET `pro_pic` = '.$target_dir.$file_name.' WHERE `email` = '$email'"; 
-            $stmt=$GLOBALS["conn"]->prepare($q);
-            $result=$stmt->execute();
-            
-          } 
-          else 
-          { 
-            echo "File can not be uploaded"; 
-          } 
+          $q = "update `hc22` SET `pro_pic` = '$fetch_dir$mobile.$ext[1].' WHERE `email` = '$email'"; 
+          $stmt=$GLOBALS["conn"]->prepare($q);
+          $result=$stmt->execute();
+         
           
-        header("Location: ../utility/mail.php");
-               
-        }
+        } 
+        else 
+        { 
+          echo "File can not be uploaded"; 
+        } 
+        
+      header("Location: ../utility/mail.php");
+    // header("Location: ../utility/get_update.php");
+   
+             
+      }
         else{
             // echo "The record was not inserted successfully because of this error ---> ". mysqli_error($conn);
             echo '<div class="alert alert-danger alert-dismissible fade show" role="alert">
