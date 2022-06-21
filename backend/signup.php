@@ -148,7 +148,7 @@ include '../config.php';
           echo "File can not be uploaded"; 
         } 
         
-      header("Location: ../utility/mail.php");
+      header("Location: ../Utility/mail.php");
     // header("Location: ../utility/get_update.php");
    
              

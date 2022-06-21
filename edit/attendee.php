@@ -155,7 +155,7 @@
     <?php
       $path="connection.php";
       include 'adminPages/config.php';
-      $batch2000=getBatch('2000');$no2000=getBatch('1981');
+      $batch2000=getBatch('2000');$no2000=getBatch('2000');
       $batch2002=getBatch('2002');$no2002=getBatch('2002');
       $batch2005=getBatch('2005');$no2005=getBatch('2005');
       $batch2007=getBatch('2007');$no2007=getBatch('2007');
