@@ -92,7 +92,7 @@
     </div>
   </div>
 
-  <div class="accordion-item">
+  <!--<div class="accordion-item">
     <h2 class="accordion-header" id="headingTwo">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
         Covid Precaution
@@ -119,7 +119,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div>-->
 
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingThree">
@@ -142,12 +142,12 @@
                <tr>
                  <th scope="row">1</th>
                  <td>Per Alumnus/Alumna</td>
-                 <td>7000</td>
+                 <td>8000</td>
                </tr>
                <tr>
                  <th scope="row">2</th>
                  <td>Per Accompanying Person(s)</td>
-                 <td>4000</td>
+                 <td>6000</td>
                </tr>
              </tbody>
            </table>
@@ -164,7 +164,7 @@
                <tr>
                  <th scope="row">1</th>
                  <td>Technology Guest House</td>
-                 <td>1500</td>
+                 <td>1700</td>
                </tr>
              </tbody>
            </table>
@@ -377,7 +377,7 @@ function calc_cost(){
            if(e == 0)
            { 
                if(choice === "TGH"){
-                   cost = 1500 + 7000 + 4000*nguest + 1500*nguest;
+                   cost = 1700 + 8000 + 6000*nguest + 1700*nguest;
                }
            }
            else if(e==1){

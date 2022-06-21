@@ -38,7 +38,7 @@ Team Students’ Alumni Cell
  
    if ( mail($to, $subject, $body, $header)) {
       echo("Success");
-      header("Location: ../utility/get_update.php");
+      header("Location: ../Utility/get_update.php");
    } else {
       echo("Failed");
    }
