@@ -89,7 +89,7 @@ function viewrecord($id){
 
   function getBatch($batch){
     try {
-      $sql="SELECT * FROM `aam`  WHERE `yog`=:batch AND `boolean`='0' ";
+      $sql="SELECT * FROM `hc22`  WHERE `yog`=:batch AND `boolean`='0' ";
           //preparing the sql2 statement for execution
       $stmt=$GLOBALS["pdo"]->prepare($sql);
       $stmt->bindparam(':batch',$batch);
