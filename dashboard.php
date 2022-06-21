@@ -69,6 +69,8 @@
 <head>
   <meta charset="UTF-8">
   <title>Dashboard</title>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script  src="./script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"/>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
   <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.0.10/css/all.css'>
@@ -109,8 +111,17 @@
     </div>
     <div class="sidenav__profile">
     <div class="sidenav__profile-avatar"><img src=<?php echo $pro_pic ?> alt="dp" width="100%" height="100%" style="border-radius:100%" /></div>
-      <div class="sidenav__profile-title text-light"><?php echo "$name"?></div>
+    <div class="sidenav__profile-title text-light"><?php echo "$name"?></div>
     </div>
+    <div class = "row" style = "margin: 10px; padding:10px;background-color:rgba(255, 255, 255, 0.1)">
+     <form action="./backend/photo.php" method = "post" enctype="multipart/form-data" onSubmit="window.location.reload()">
+     <label for="username">Update Photo</label>
+           <input type="file" id="pro_pic" name="pro_pic" accept=".jpg, .jpeg, .png">
+            <div class = "row" style="justify-content:center">
+        <button id="submit" class="btn btn-sm btn-primary" type = "submit">Save</button>
+        </div>
+     </form>
+     </div>
     <div class="row row--align-v-center row--align-h-center">
       <ul class="navList">
       <br>
@@ -133,12 +144,12 @@
           </div>
         </li>  
 
-        <li>
+        <!--<li>
           <div class="navList__subheading row row--align-v-center button" id="covid" onclick="covid()">
             <span class="navList__subheading-icon"><i class="fas fa-syringe"></i></span>
             <span class="navList__subheading-title">Covid Info</span>
           </div>
-        </li>
+        </li>-->
         <li>
           <div class="navList__subheading row row--align-v-center button" id="work" onclick="work()" >
             <span class="navList__subheading-icon"><i class="fas fa-briefcase"></i></span>
@@ -189,8 +200,6 @@
     <p><span class="footer__copyright">&copy;</span> 2022 Students' Alumni Cell</p>
   </footer>
 </div>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script  src="./script.js"></script>
-
 <script>
 /* Scripts for css grid dashboard */
 
@@ -309,7 +318,7 @@ function setSidenavCloseListener() {
         document.getElementById("personal").style.color = "#4169e1";
         document.getElementById("work").style.color    = "white";
         document.getElementById("nostalg").style.color = "white";
-        document.getElementById("covid").style.color   = "white";
+       // document.getElementById("covid").style.color   = "white";
         document.getElementById("accomod").style.color = "white";
         document.getElementById("travel").style.color  = "white";
     }
@@ -327,7 +336,7 @@ function setSidenavCloseListener() {
         document.getElementById("personal").style.color = "white";
         document.getElementById("work").style.color     = "white";
         document.getElementById("nostalg").style.color  = "white";
-        document.getElementById("covid").style.color    = "white";
+       // document.getElementById("covid").style.color    = "white";
         document.getElementById("accomod").style.color  = "white";
         document.getElementById("travel").style.color   = "#4169e1";
     }
@@ -345,7 +354,7 @@ function setSidenavCloseListener() {
         document.getElementById("personal").style.color = "white";
         document.getElementById("work").style.color     = "white";
         document.getElementById("nostalg").style.color  = "white";
-        document.getElementById("covid").style.color    = "white";
+        //document.getElementById("covid").style.color    = "white";
         document.getElementById("accomod").style.color = "#4169e1";
         document.getElementById("travel").style.color  = "white";
     }
@@ -381,7 +390,7 @@ function setSidenavCloseListener() {
         document.getElementById("personal").style.color = "white";
         document.getElementById("work").style.color = "#4169e1";
         document.getElementById("nostalg").style.color = "white";
-        document.getElementById("covid").style.color   = "white";
+       // document.getElementById("covid").style.color   = "white";
         document.getElementById("accomod").style.color = "white";
         document.getElementById("travel").style.color  = "white";
     }
@@ -399,7 +408,7 @@ function setSidenavCloseListener() {
         document.getElementById("personal").style.color = "white";
         document.getElementById("work").style.color     = "white";
         document.getElementById("nostalg").style.color = "#4169e1";
-        document.getElementById("covid").style.color   = "white";
+       // document.getElementById("covid").style.color   = "white";
         document.getElementById("accomod").style.color = "white";
         document.getElementById("travel").style.color  = "white";
     }
@@ -417,7 +426,7 @@ function setSidenavCloseListener() {
         document.getElementById("personal").style.color = "white";
         document.getElementById("work").style.color     = "white";
         document.getElementById("nostalg").style.color  = "white";
-        document.getElementById("covid").style.color    = "white";
+        //document.getElementById("covid").style.color    = "white";
         document.getElementById("accomod").style.color  = "white";
         document.getElementById("travel").style.color   = "white";
     }
@@ -435,7 +444,7 @@ function setSidenavCloseListener() {
         document.getElementById("personal").style.color = "white";
         document.getElementById("work").style.color     = "white";
         document.getElementById("nostalg").style.color  = "white";
-        document.getElementById("covid").style.color    = "white";
+       // document.getElementById("covid").style.color    = "white";
         document.getElementById("accomod").style.color  = "white";
         document.getElementById("travel").style.color   = "white";
     }
@@ -451,7 +460,7 @@ function setSidenavCloseListener() {
            if(e == 0)
            { 
                if(choice === "TGH"){
-                   cost = 1500 + 7000 + 4000*nguest + 1500*nguest;
+                   cost = 1700 + 8000 + 6000*nguest + 1700*nguest;
                }
            }
            else if(e==1){

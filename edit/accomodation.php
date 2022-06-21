@@ -13,12 +13,12 @@
                <tr>
                  <th scope="row">1</th>
                  <td>Per Alumnus/Alumna</td>
-                 <td>7000</td>
+                 <td>8000</td>
                </tr>
                <tr>
                  <th scope="row">2</th>
                  <td>Per Accompanying Person(s)</td>
-                 <td>4000</td>
+                 <td>6000</td>
                </tr>
              </tbody>
            </table>
@@ -35,7 +35,7 @@
                <tr>
                  <th scope="row">1</th>
                  <td>Technology Guest House</td>
-                 <td>1500</td>
+                 <td>1700</td>
                </tr>
              </tbody>
            </table>
