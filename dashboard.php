@@ -3,7 +3,7 @@
     
     if(!isset($_SESSION['email']))
     {
-      header("Location: ./logout.html");
+      header("Location: ./loginpage.php");
     }
     $name    = $_SESSION['name']      ;
         $email   = $_SESSION['email']     ;
@@ -81,7 +81,32 @@
 <body>
 
 <div class="grid">
-<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+
+<header class="header">
+    <i class="fas fa-bars header__menu"></i>
+    <div class="header__search">
+    </div>
+    <div class="header__avatar"  style="background-image:<?php echo $pro_pic ?>">
+      <div class="dropdown">
+        <ul class="dropdown__list">
+          <li class="dropdown__list-item">
+            <span class="dropdown__icon"><i class="far fa-user"></i></span>
+            <a class="dropdown__title" onclick="attendee()">Attendee </a>
+          </li>
+          <li class="dropdown__list-item">
+            <span class="dropdown__icon"><i class="fas fa-clipboard-list"></i></span>
+            <a class="dropdown__title" onclick="payment()"> Payment </a>
+          </li>
+          <li class="dropdown__list-item">
+            <span class="dropdown__icon"><i class="fas fa-sign-out-alt"></i></span>
+            <a class="dropdown__title" href="utility/logout2.php" data-bs-toggle="dropdown"> Logout </a>	
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+<!--<nav class="navbar navbar-brand sticky-top navbar-expand-lg navbar-light bg-light">
 
 <div class="container-fluid">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
@@ -102,18 +127,18 @@
     </ul>
   </div>
 </div>
-
-</nav>
+</nav>-->
 
   <aside class="sidenav">
     <div class="sidenav__brand">
       <a class="sidenav__brand-link" href="homecoming.php">Home<span class="text-light">coming</span></a>
+      <i class="fas fa-times sidenav__brand-close"></i>
     </div>
     <div class="sidenav__profile">
     <div class="sidenav__profile-avatar"><img src=<?php echo $pro_pic ?> alt="dp" width="100%" height="100%" style="border-radius:100%" /></div>
     <div class="sidenav__profile-title text-light"><?php echo "$name"?></div>
     </div>
-    <div class = "row" style = "margin: 10px; padding:10px;background-color:rgba(255, 255, 255, 0.1)">
+    <div class = "row" style = "margin-top: 10px; margin-bottom: 10px;padding:20px;background-color:rgba(255, 255, 255, 0.1)">
      <form action="./backend/photo.php" method = "post" enctype="multipart/form-data" onSubmit="window.location.reload()">
      <label for="username">Update Photo</label>
            <input type="file" id="pro_pic" name="pro_pic" accept=".jpg, .jpeg, .png">
@@ -270,7 +295,7 @@ function toggleClass(el, className) {
 // make sure scrolling is enabled again and that sidenav active class is removed
 function addResizeListeners() {
   $(window).resize(function(e) {
-    const width = window.innerWidth; console.log('width: ', width);
+    const width = window.innerWidth;
 
     if (width > 750) {
       sidenavEl.removeClass(SIDENAV_ACTIVE_CLASS);

@@ -84,7 +84,7 @@
     background-color: white;
     margin: auto;
     width: 94%;
-    max-width: 580px;
+    /*max-width: 580px;*/
     box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     padding-bottom: 2%;
@@ -180,7 +180,7 @@
       <div class="prof8 wrappers section2" >
         <div class="container-fluid" style="margin-top:2.5vw !important;">
           <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-3" style = "padding-top:30px">
               <div class="bord" style = "background-color:#fff; width:103%;padding-bottom:10px;margin-left:-10px;">
                 <div class="bttons"><button class="my-1" id="2000_btn" onclick="show_2000()">2000 <span style="color:red;"><?php echo "(".$no_of_people2000.")" ?></span></button></div>
                 <div class="bttons"><button class="my-1" id="2002_btn" onclick="show_2002()">2002 <span style="color:red;"><?php echo "(".$no_of_people2002.")" ?></span></button></div>
@@ -194,7 +194,7 @@
               <div id="2000" style="text-align:center;">
                 <table class="table">
                     <tr>
-                        <th scope="row">Name</th>
+                        <th scope="row">Names</th>
                     </tr>
                     <?php   while($value=$batch2000->fetch(PDO::FETCH_ASSOC)){?>
                       <tr><td><?php echo  $value['name']; ?></td></tr>
@@ -207,7 +207,7 @@
               <div id="2002" style="text-align:center;">
                 <table class="table">
                     <tr>
-                        <th scope="row">Name</th>
+                        <th scope="row">Names</th>
                     </tr>
                     <?php   while($value=$batch2002->fetch(PDO::FETCH_ASSOC)){?>
                       <tr><td><?php echo  $value['name']; ?></td></tr>
@@ -217,7 +217,7 @@
               <div id="2005" style="text-align:center; ">
                 <table class="table">
                     <tr>
-                        <th scope="row">Name</th>
+                        <th scope="row">Names</th>
                     </tr>
                     <?php   while($value=$batch2005->fetch(PDO::FETCH_ASSOC)){?>
                       <tr><td><?php echo  $value['name']; ?></td></tr>
@@ -227,7 +227,7 @@
               <div id="2007" style="text-align:center; ">
                 <table class="table">
                     <tr>
-                        <th scope="row">Name</th>
+                        <th scope="row">Names</th>
                     </tr>
                     <?php   while($value=$batch2007->fetch(PDO::FETCH_ASSOC)){?>
                       <tr><td><?php echo  $value['name']; ?></td></tr>
@@ -238,7 +238,7 @@
               <div id="2010" style="text-align:center; ">
                 <table class="table">
                     <tr>
-                        <th scope="row">Name</th>
+                        <th scope="row">Names</th>
                     </tr>
                     <?php   while($value=$batch2010->fetch(PDO::FETCH_ASSOC)){?>
                       <tr><td><?php echo  $value['name']; ?></td></tr>
@@ -248,7 +248,7 @@
               <div id="2012" style="text-align:center; ">
                 <table class="table">
                     <tr>
-                        <th scope="row">Name</th>
+                        <th scope="row">Names</th>
                     </tr>
                     <?php   while($value=$batch2012->fetch(PDO::FETCH_ASSOC)){?>
                       <tr><td><?php echo  $value['name']; ?></td></tr>
