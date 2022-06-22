@@ -69,7 +69,7 @@
         <div class="row" id="serial" style = "justify-content:center">
              <div class="form-group mb-3 col-sm-6">
              <label for="serial">Employee ID</label>
-                <input type="text" class="form-control" name= "serial" placeholder= "KGP...."  maxlength="50" onchange="calc_cost()">
+                <input type="text" class="form-control" name= "serial" placeholder= "KGP...."  maxlength="50">
              </div>
         </div>
 
