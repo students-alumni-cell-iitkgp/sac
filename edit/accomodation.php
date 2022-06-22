@@ -41,11 +41,6 @@
            </table>
 
          <div class="row">
-             <div class="form-group mb-3 col-sm-6">
-             <label for="accompaniment">Accompanying Person(s)</label>
-                <input type="number" class="form-control" id="accompaniment" name= "accompaniment" value="0" placeholder= "0" min = "0"value = "<?php echo "$accompaniment"?>"  maxlength="10">
-                <small class = "text-muted">Kids below 13 years of age won't be charged. It's free of cost for them. Don't add them in the accompanying person(s) list</small>
-             </div>
 
              <div class="form-group mb-3 col-sm-6">
              <label for="employee">Are you a resident of IIT Kharagpur?<span style="color:red;">*</span></label>
@@ -55,14 +50,18 @@
             <option value="1">Yes</option>
             </select>
           </div>
+
+          <div class="form-group mb-3 col-sm-6">
+             <label for="accompaniment">Accompanying Person(s)</label>
+                <input type="number" class="form-control" id="accompaniment" name= "accompaniment" value="0" placeholder= "0" min = "0"value = "<?php echo "$accompaniment"?>"  max="20" onchange="calc_cost()">
+                <small class = "text-muted">Kids below 13 years of age won't be charged. It's free of cost for them. Don't add them in the accompanying person(s) list</small>
+             </div>
            </div>
 
           <div class = "row" id = "gh" style = "justify-content:center">
           <div class="form-group mb-3 col-sm-6">
           <label for="gh">Ghest House<span style="color:red;">*</span></label>
-          <select class="form-control form-select" type = "list" id = "g" name= "gh" onchange="calc_cost()">
-            <option selected value="select">---Select---</option>
-            <option value="TGH">Technology Guest House</option>
+            <input class="form-control" type="text" name="gh" id="g" value = "<?php echo "$gh"?>" readonly />
             </select>
           </div>
         </div>
