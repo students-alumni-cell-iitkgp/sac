@@ -18,7 +18,7 @@
                <tr>
                  <th scope="row">2</th>
                  <td>Per Accompanying Person(s)</td>
-                 <td>6000</td>
+                 <td>5000</td>
                </tr>
              </tbody>
            </table>
@@ -35,7 +35,7 @@
                <tr>
                  <th scope="row">1</th>
                  <td>Technology Guest House</td>
-                 <td>1700</td>
+                 <td>2250</td>
                </tr>
              </tbody>
            </table>
