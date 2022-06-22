@@ -485,7 +485,7 @@ function setSidenavCloseListener() {
            if(e == 0)
            { 
                if(choice === "TGH"){
-                   cost = 1700 + 8000 + 6000*nguest + 1700*nguest;
+                   cost = 2250 + 8000 + 5000*nguest + 2250*nguest;
                }
            }
            else if(e==1){
