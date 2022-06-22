@@ -20,7 +20,7 @@ require '../config.php';
         $time_reach_out = $_POST['time_reach_out'];
         $reach_out = $_POST['reach_out'];
 
-        $sql = "UPDATE `hc22` SET `travel_form`          = :travel_form,
+        $sql = "UPDATE `hc` SET `travel_form`          = :travel_form,
                                  `mode`        = :mode ,
                                  `reach_in`       = :reach_in,
                                  `date_reach_in`          = :date_reach_in,

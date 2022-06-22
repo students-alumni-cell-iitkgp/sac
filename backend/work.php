@@ -21,7 +21,7 @@ if(!isset($_SESSION['email']))
         $wcountry = $_POST['wcountry'];
         $wzipcode = $_POST['wzipcode'];
 
-        $sql = "UPDATE `hc22` SET `industry`          = :industry,
+        $sql = "UPDATE `hc` SET `industry`          = :industry,
                                  `profession`        = :profession ,
                                  `organisation`       = :organisation,
                                  `designation`          = :designation,
