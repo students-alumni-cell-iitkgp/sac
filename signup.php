@@ -170,11 +170,6 @@
            </table>
 
            <div class="row">
-             <div class="form-floating mb-3 col-sm-6">
-                <input type="number" class="form-control" id="accompaniment" name= "accompaniment" id="floatingInput" value="0" placeholder= "0" min = "0" maxlength="10">
-                <label for="accompaniment">Accompanying Person(s)</label>
-                <small class = "text-muted">Kids below 13 years of age won't be charged. It's free of cost for them. Don't add them in the accompanying person(s) list</small>
-             </div>
 
              <div class="form-floating mb-3 col-sm-6">
             <select class="form-select" id = "employee" name= "employee" aria-label="Floating label select example" onchange="emp()" required>
@@ -184,14 +179,17 @@
             </select>
              <label for="employee">Are you a resident of IIT Kharagpur?<span style="color:red;">*</span></label>
           </div>
+
+          <div class="form-floating mb-3 col-sm-6">
+                <input type="number" class="form-control" id="accompaniment" name= "accompaniment" value="0" placeholder= "0" min = "0" onchange="calc_cost()" max= "20" maxlength="10">
+                <label for="accompaniment">Accompanying Person(s)</label>
+                <small class = "text-muted">Kids below 13 years of age won't be charged. It's free of cost for them. Don't add them in the accompanying person(s) list</small>
+             </div>
            </div>
 
           <div class = "row" id = "gh" style = "justify-content:center">
           <div class="form-floating mb-3 col-sm-6">
-            <select class="form-select" id = "g" name= "gh" aria-label="Floating label select example" onchange="calc_cost()">
-            <option selected value="select">---Select---</option>
-            <option value="TGH">Technology Guest House</option>
-            </select>
+          <input type="text" class="form-control" name= "gh" id="g" placeholder="TGH" value="TGH" maxlength="100" readonly>
              <label for="gh">Ghest House<span style="color:red;">*</span></label>
           </div>
         </div>
@@ -300,15 +298,84 @@
         </div>
 
         <div class = "row">
+
+        <div class="form-floating mb-3 col-sm-6">
+            <select class="form-select" id = "dept" name= "dept" aria-label="Floating label select example">
+            <option selected value="select">---Select---</option>
+								<option value="AE">Aerospace Engineering</option>
+								<option value="AG">Agricultural & Food Engineering</option>
+								<option value="AR">Architecture & Regional Planning</option>
+								<option value="BT">Biotechnology</option>
+								<option value="CE">Civil Engineering</option>
+								<option value="CH">Chemical Engineering</option>
+								<option value="CS">Computer Science & Engineering</option>
+								<option value="CY">Chemistry</option>
+								<option value="EE">Electrical Engineering</option>
+								<option value="EC">Electronics & Electrical Communication Engineering</option>
+								<option value="GG">Geology & Geophysics</option>
+								<option value="HS">Humanities & Social Sciences</option>
+								<option value="IM">Industrial & Systems Engineering</option>
+								<option value="MA">Mathematics</option>
+								<option value="ME">Mechanical Engineering</option>
+								<option value="MT">Metallurgical & Materials Engineering</option>
+								<option value="MI">Mining Engineering</option>
+								<option value="NA">Ocean Engineering & Naval Architecture</option>
+								<option value="PH">Physics</option>
+								<option value="ATDC">Advanced Techology Development Center</option>
+								<option value="CET">Center for Educational Technology</option>
+								<option value="CYE">Cryogenic Engineering</option>
+								<option value="MS">Materials Science</option>
+								<option value="ORALS">Oceans, Rivers, Atmosphere and Land Sciences</option>
+								<option value="CBE">P K Sinha Centre for Bio Energy</option>
+								<option value="REC">Reliability Engineering Centre</option>
+								<option value="RTC">Rubber Technology Centre</option>
+								<option value="RDC">Rural Development Centre</option>
+								<option value="GSSST">G S Sanyal School of Telecommunications</option>
+								<option value="IT">Information Technology</option>
+								<option value="RCIM">Ranbir and Chitra Gupta School of Infrastructure Design and Management</option>
+								<option value="RMSEE">Rajendra Mishra School of Engineering Entrepreneurship</option>
+								<option value="RGSIPL">Rajiv Gandhi School of Intellectual Property Law</option>
+								<option value="MST">Medical Science & Technology</option>
+								<option value="SB">School of Bioscience</option>
+								<option value="SEST">School of Environment Science and Technology</option>
+								<option value="SES">School of Energy Science</option>
+								<option value="SNST">School of Nano-Science and Technology</option>
+								<option value="SWS">School of Water Resources</option>
+								<option value="VGSOM">Vinod Gupta School of Management</option>
+
+            </select>
+             <label for="dept">Department</label>
+          </div>
+
            <div class="form-floating mb-3 col-sm-6">
-            <input type="text" class="form-control" name= "dept" id="floatingInput" placeholder="Electrical....." maxlength="30">
-            <label for="dept">Department</label>
-           </div>
-  
-           <div class="form-floating mb-3 col-sm-6">
-             <input type="text" class="form-control" name= "hall" id="floatingInput" placeholder="RK..." maxlength="50">
+            <select class="form-select" id = "hall" name= "hall" aria-label="Floating label select example">
+            <option selected value="select">---Select---</option>
+            <option value="SAM">Sir Ashutosh Mukherjee Hall</option>
+								<option value="AZ">Azad  Hall</option>
+								<option value="BCR">B C Roy  Hall</option>
+								<option value="BRAH">B R Ambedkar  Hall</option>
+								<option value="GH">Gokhale  Hall</option>
+								<option value="HJB">Homi Bhabha  Hall</option>
+								<option value="JCB">J C Bose  Hall</option>
+								<option value="LLR">Lala Lajpat Rai  Hall</option>
+								<option value="LBS">Lal Bahadur Shastri Hall</option>
+								<option value="MMM">Madan Mohan Malviya  Hall</option>
+								<option value="MS">Megnad Saha  Hall</option>
+								<option value="MT">Mother Teresa  Hall</option>
+								<option value="NH">Nehru  Hall</option>
+								<option value="PT">Patel  Hall</option>
+								<option value="RK">Radha Krishnan  Hall</option>
+								<option value="RP">Rajendra Prasad  Hall</option>
+								<option value="RLB">Rani Laxmibai  Hall</option>
+								<option value="SN">Sarojini Naidu / Indira Gandhi  Hall</option>
+								<option value="SNVH"> Sister Nivedita Hall </option>
+								<option value="VS">Vidyasagar  Hall</option>
+								<option value="VSRC">Vikram Sarabhai Residential Complex</option>
+								<option value="ZH">Zakir Hussain  Hall</option>
+
+            </select>
              <label for="hall">Hall</label>
-           </div>
+          </div>
         </div>
 
         <div class = "row">
@@ -370,23 +437,23 @@ function checkemailAvailability() {
 
 function calc_cost(){
            let nguest = document.getElementById("accompaniment").value;
-           let choice = document.getElementById("g").value;
+          // let choice = document.getElementById("g").value;
 
            let e = document.getElementById("employee").value;
            var cost = 0;
            if(e == 0)
            { 
-               if(choice === "TGH"){
+               //if(choice === "TGH"){
                    cost = 2250 + 8000 + 5000*nguest + 2250*nguest;
-               }
+               //}
            }
            else if(e==1){
-               cost =7000 ;
+               cost =8000 + 5000*nguest;
           }
-           console.log(nguest,choice,e);
+           //console.log(nguest,choice,e);
           
            document.getElementById("cost").value ="Total Cost = (₹) "+cost;
-           console.log(cost);
+           //console.log(cost);
        }
 
 function emp()

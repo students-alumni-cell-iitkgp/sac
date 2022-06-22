@@ -478,23 +478,21 @@ function setSidenavCloseListener() {
 
     function calc_cost(){
            let nguest = document.getElementById("accompaniment").value;
-           let choice = document.getElementById("g").value;
+           //let choice = document.getElementById("g").value;
 
            let e = document.getElementById("employee").value;
            var cost = 0;
            if(e == 0)
            { 
-               if(choice === "TGH"){
                    cost = 2250 + 8000 + 5000*nguest + 2250*nguest;
-               }
            }
            else if(e==1){
-               cost =7000 ;
+               cost =8000 + 5000*nguest;
           }
-           console.log(nguest,choice,e);
+           //console.log(nguest,choice,e);
           
            document.getElementById("cost").value ="Total Cost = (₹) "+cost;
-           console.log(cost);
+           //console.log(cost);
        }
 
     function emp()
