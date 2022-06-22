@@ -129,7 +129,7 @@ include '../config.php';
 
      
         // target directory 
-        $target_dir = "../uploads/"; 
+        $target_dir = "./uploads/"; 
         $fetch_dir="./uploads/";
        
         // uploding file 
