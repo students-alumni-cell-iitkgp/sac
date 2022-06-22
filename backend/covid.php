@@ -9,7 +9,7 @@ require '../config.php';
         $covi_status = $_POST['covi_status'];
         $covi_certi = $_POST['covi_certi'];
 
-        $sql = "UPDATE `hc22` SET `covi_status`       = :covi_status,
+        $sql = "UPDATE `hc` SET `covi_status`       = :covi_status,
                                   `covi_certi`        = :covi_certi
                                   WHERE `email` = '$email'";
 

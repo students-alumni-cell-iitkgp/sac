@@ -12,7 +12,7 @@ require '../config.php';
         $employee      = $_POST['employee'];
         $cost      = $_POST['cost'];
 
-        $sql = "UPDATE `hc22` SET `marital`           = :marital,
+        $sql = "UPDATE `hc` SET `marital`           = :marital,
                                   `accompaniment`        = :accompaniment ,
                                   `gh`           = :gh,
                                   `serial`          = :serial,

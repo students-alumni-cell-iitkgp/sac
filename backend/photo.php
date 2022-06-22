@@ -24,7 +24,7 @@ include '../config.php';
         if(move_uploaded_file($file_tmp_name,$target_dir.$mobile.'.'.$ext[1])) 
         { 
 
-          $q = "update `hc22` SET `pro_pic` = '$fetch_dir$mobile.$ext[1].' WHERE `email` = '$email'"; 
+          $q = "update `hc` SET `pro_pic` = '$fetch_dir$mobile.$ext[1].' WHERE `email` = '$email'"; 
           $stmt=$GLOBALS["conn"]->prepare($q);
           $result=$stmt->execute();
           
