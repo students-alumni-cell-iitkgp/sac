@@ -147,7 +147,7 @@
                <tr>
                  <th scope="row">2</th>
                  <td>Per Accompanying Person(s)</td>
-                 <td>6000</td>
+                 <td>5000</td>
                </tr>
              </tbody>
            </table>
@@ -164,7 +164,7 @@
                <tr>
                  <th scope="row">1</th>
                  <td>Technology Guest House</td>
-                 <td>1700</td>
+                 <td>2250</td>
                </tr>
              </tbody>
            </table>
@@ -377,7 +377,7 @@ function calc_cost(){
            if(e == 0)
            { 
                if(choice === "TGH"){
-                   cost = 1700 + 8000 + 6000*nguest + 1700*nguest;
+                   cost = 2250 + 8000 + 5000*nguest + 2250*nguest;
                }
            }
            else if(e==1){
