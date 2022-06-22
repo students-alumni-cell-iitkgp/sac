@@ -8,7 +8,7 @@ if(!empty($_POST["email"])) {
     echo "error :you did not enter a valid email.";
   }
   else {
-    $sql ="SELECT COUNT(*) FROM `hc22` WHERE `email` = '$email' ";
+    $sql ="SELECT COUNT(*) FROM `hc` WHERE `email` = '$email' ";
     $stmt=$GLOBALS["conn"]->prepare($sql);
     $results = $stmt->execute();
     $num_rows =  $stmt->fetchColumn();

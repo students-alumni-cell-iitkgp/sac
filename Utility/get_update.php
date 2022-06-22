@@ -10,7 +10,7 @@ include_once('../config.php');
     $email = $_SESSION['email'];
     $dob = $_SESSION['password']; 
 
-    $stmt = $conn->prepare("SELECT * FROM hc22 WHERE `email` = '$email'");
+    $stmt = $conn->prepare("SELECT * FROM hc WHERE `email` = '$email'");
     $stmt->execute();
 
     $users = $stmt->fetchAll();

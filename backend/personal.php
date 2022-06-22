@@ -16,7 +16,7 @@ require '../config.php';
         $mobile = $_POST['mobile'];
         $dob = $_POST['dob'];
 
-        $sql = "UPDATE `hc22` SET `name`          = :name,
+        $sql = "UPDATE `hc` SET `name`          = :name,
                                  `address`        = :address ,
                                  `city`           = :city,
                                  `state`          = :state,
