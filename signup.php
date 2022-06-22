@@ -196,7 +196,7 @@
 
         <div class="row" id="serial" style = "justify-content:center">
              <div class="form-floating mb-3 col-sm-6">
-                <input type="text" class="form-control" name= "serial" placeholder= "20.."  maxlength="50" onchange="calc_cost()">
+                <input type="text" class="form-control" name= "serial" placeholder= "20.."  maxlength="50">
                 <label for="serial">Employee ID</label>
              </div>
         </div>
@@ -476,6 +476,7 @@ function emp()
     document.getElementById("serial").style.display = "none";
     document.getElementById("gh").style.display = "none";
   }
+ calc_cost();
 }
 emp();
 

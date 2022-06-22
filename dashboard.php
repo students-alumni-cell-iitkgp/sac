@@ -515,6 +515,8 @@ function setSidenavCloseListener() {
     document.getElementById("serial").style.display = "none";
     document.getElementById("gh").style.display = "none";
   }
+
+  calc_cost();
 }
 emp();
 
