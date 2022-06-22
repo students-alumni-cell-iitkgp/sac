@@ -15,7 +15,7 @@ require '../config.php';
         $involvement = $_POST['involvement'];
         $hobbies = $_POST['hobbies'];
 
-        $sql = "UPDATE `hc22` SET `rollno`          = :rollno,
+        $sql = "UPDATE `hc` SET `rollno`          = :rollno,
                                  `yoj`        = :yoj ,
                                  `degree`       = :degree,
                                  `dept`          = :dept,

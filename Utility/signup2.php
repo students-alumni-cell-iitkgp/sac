@@ -15,7 +15,7 @@ if ($_SERVER["REQUEST_METHOD"]== "POST") {
     $email = test_input($_POST["name"]);
     $password = test_input($_POST["dob"]);
     
-    $sql = "SELECT `email`,`dob` FROM hc22" ;
+    $sql = "SELECT `email`,`dob` FROM hc" ;
     $stmt=$GLOBALS["conn"]->prepare($sql);
     $stmt->execute();
 
@@ -31,7 +31,7 @@ if ($_SERVER["REQUEST_METHOD"]== "POST") {
             ($user['dob'] === $password)) {
 
                 $check = 0;
-                $stmt2 = $conn->prepare("SELECT `reciept` FROM hc22 WHERE `email` = '$email'");
+                $stmt2 = $conn->prepare("SELECT `reciept` FROM hc WHERE `email` = '$email'");
                 $stmt->execute();
                
                 if(!$user['reciept'])  {       
