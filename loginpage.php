@@ -50,7 +50,7 @@
 
 	<div class="signup">
 		<h2 class="form-title" id="signup">Log in</h2>
-        <form action="utility/signup2.php" method = "post">
+        <form action="Utility/signup2.php" method = "post">
 		    <div class="form-holder">
             <input type="email" class="input" name="name" id="name" placeholder="Email" class="validate" required />
             <input class="form-control input" type="date" placeholder="date of Birth" name="dob" required id="dob">
