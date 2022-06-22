@@ -29,7 +29,7 @@
       <div class="accordion-body">
          <div class = "row">
            <div class="form-floating mb-3 col-sm-6">
-            <input type="text" class="form-control" name= "name" id="floatingInput" placeholder="Name" maxlength="150" required>
+            <input type="text" class="form-control" name= "name" id="name" placeholder="Name" maxlength="150" required>
             <label for="username">Name<span style="color:red;">*</span></label>
            </div>
   
@@ -42,12 +42,12 @@
 
         <div class = "row">
            <div class="form-floating mb-3 col-sm-6">
-            <input type="text" class="form-control" name= "mobile" id="floatingInput" placeholder="99XX......" maxlength="50" required>
+            <input type="text" class="form-control" name= "mobile" id="mobile" placeholder="99XX......" maxlength="50" required>
             <label for="username">Mobile<span style="color:red;">*</span></label>
            </div>
   
            <div class="form-floating mb-3 col-sm-6">
-             <input type="date" class="form-control" name= "dob" id="floatingInput" placeholder="dd-mm-yyyy" required>
+             <input type="date" class="form-control" name= "dob" id="dob" placeholder="dd-mm-yyyy" required>
              <label for="dob">Date of Birth<span style="color:red;">*</span></label>
            </div>
         </div>
@@ -223,19 +223,19 @@
       <div class="accordion-body">
       <div class = "row">
            <div class="form-floating mb-3 col-sm-6">
-            <input type="text" class="form-control" name= "industry" id="floatingInput" placeholder="Google" maxlength="100" required>
+            <input type="text" class="form-control" name= "industry" id="industry" placeholder="Google" maxlength="100" required>
             <label for="rollno">Industry<span style="color:red;">*</span></label>
            </div>
   
            <div class="form-floating mb-3 col-sm-6">
-             <input type="text" class="form-control" name= "profession" id="floatingInput" placeholder="Manger" maxlength="100" required>
+             <input type="text" class="form-control" name= "profession" id="profession" placeholder="Manger" maxlength="100" required>
              <label for="profession">Profession<span style="color:red;">*</span></label>
            </div>
         </div>
 
         <div class = "row">
            <div class="form-floating mb-3 col-sm-6">
-            <input type="text" class="form-control" name= "organisation" id="floatingInput" placeholder="Google" maxlength="100" required>
+            <input type="text" class="form-control" name= "organisation" id="organisation" placeholder="Google" maxlength="100" required>
             <label for="organisation">Organisation Name<span style="color:red;">*</span></label>
            </div>
   
@@ -313,12 +313,12 @@
 
         <div class = "row">
            <div class="form-floating mb-3 col-sm-6">
-            <input type="number" min="1951" max="2020" class="form-control" name= "yoj" id="floatingInput" placeholder="2010" maxlength="10" required>
+            <input type="number" min="1951" max="2020" class="form-control" name= "yoj" id="yoj" placeholder="2010" maxlength="10" required>
             <label for="yoj">Join Year<span style="color:red;">*</span></label>
            </div>
   
            <div class="form-floating mb-3 col-sm-6">
-             <input type="number" min="1951" max="2020" class="form-control" name= "yog" id="floatingInput" placeholder="2010" maxlength="10" required>
+             <input type="number" min="1951" max="2020" class="form-control" name= "yog" id="yog" placeholder="2010" maxlength="10" onfocusout = "next()" required>
              <label for="yog">Year of Graduating<span style="color:red;">*</span></label>
            </div>
         </div>
@@ -412,11 +412,24 @@ function emp()
 }
 emp();
 
+function next(){
+           let name = document.getElementById("name").value;
+           let email = document.getElementById("email").value;
+           let mobile = document.getElementById("mobile").value;
+           let dob = document.getElementById("dob").value;
+           let employee = document.getElementById("employee").value;
+           let industry = document.getElementById("industry").value;
+           let profession = document.getElementById("profession").value;
+           let organisation = document.getElementById("organisation").value;
+           let yoj = document.getElementById("yoj").value;
+           let yog = document.getElementById("yog").value;
 
-$('#dynamic-form-fields input:required').each(function() {
-  if ($(this).val() === '')
-      alert('Please fill all the required fields!');
-});
+          if(!(email.length>0 && name.length>0 && 
+          mobile.length>0 && dob.length>0 && employee.length>0 && industry.length>0 && profession.length>0
+          && organisation.length>0 && yoj.length>0 && yog.length>0)){
+            alert('Please fill all the required fields!');
+           }
+       } 
 </script>
 
   
