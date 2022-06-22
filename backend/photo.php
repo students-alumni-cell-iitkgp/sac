@@ -6,6 +6,7 @@ include '../config.php';
         $pro_pic = $_POST['pro_pic'];
         
         $email = $_SESSION['email'];
+        $mobile = $_SESSION['mobile'];
 
         // file name, type, size, temporary name 
         $file_name = $_FILES['pro_pic']['name']; 

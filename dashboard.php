@@ -86,7 +86,7 @@
     <i class="fas fa-bars header__menu"></i>
     <div class="header__search">
     </div>
-    <div class="header__avatar"  style="background-image:<?php echo $pro_pic ?>">
+    <div class="header__avatar"  style="background-image:url(<?php echo $pro_pic ?>)">
       <div class="dropdown">
         <ul class="dropdown__list">
           <li class="dropdown__list-item">

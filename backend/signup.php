@@ -12,13 +12,13 @@ include '../config.php';
         $mobile = $_POST['mobile'];
         $dob = $_POST['dob'];
 
-        $pro_pic = $_POST['pro_pic'];
+       // $pro_pic = $_POST['pro_pic'];
         //$thumbnail = $_POST['thumbnail'];
         //$password = $_POST['password'];
         //$remember_token = $_POST['remember_token'];
       
-        $covi_status = $_POST['covi_status'];
-        $covi_certi = $_POST['covi_certi'];
+       // $covi_status = $_POST['covi_status'];
+       // $covi_certi = $_POST['covi_certi'];
         //$covi_dose = "yes";
 
         //$marital = $_POST['marital'];
@@ -63,18 +63,17 @@ include '../config.php';
       }
     
       $sql = "INSERT INTO `hc22` (`name`,`email`, `address` ,`city`,`state`,`country`,`zipcode`,`mobile`,`dob`,
-                 `covi_status`, `covi_certi`,
                  `accompaniment` ,`gh`, `serial`,`employee`,
                  `industry`, `profession` ,`organisation`,`designation`,`waddress`,`wcity`,`wstate`,`wcountry`,`wzipcode`,
                  `rollno`, `yoj` ,`degree`,`dept`,`hall`,`yog`,`cost`)
                  VALUES (:name, :email, :address ,:city, :state, :country, :zipcode, :mobile, :dob,
-                 :covi_status, :covi_certi,
                  :accompaniment ,:gh,:serial,:employee,
                  :industry, :profession ,:organisation,:designation,:waddress,:wcity,:wstate,:wcountry,:wzipcode,
-                 :rollno, :yoj ,:degree,:dept,:hall,:yog,:cost)";
+                 :rollno, :yoj,:degree,:dept,:hall,:yog,:cost)";
        
        // binding params
       $stmt=$GLOBALS["conn"]->prepare($sql);
+
       $stmt->bindparam(':name',$name);
       $stmt->bindparam(':email',$email);
       $stmt->bindparam(':address',$address);
@@ -84,8 +83,8 @@ include '../config.php';
       $stmt->bindparam(':zipcode',$zipcode);
       $stmt->bindparam(':mobile',$mobile);
       $stmt->bindparam(':dob',$dob);
-      $stmt->bindparam(':covi_status',$covi_status);
-      $stmt->bindparam(':covi_certi',$covi_certi);
+      //$stmt->bindparam(':covi_status',$covi_status);
+      //$stmt->bindparam(':covi_certi',$covi_certi);
       //$stmt->bindparam(':covi_dose',$covi_dose);
       //$stmt->bindparam(':marital',$marital);
       $stmt->bindparam(':serial',$serial);
