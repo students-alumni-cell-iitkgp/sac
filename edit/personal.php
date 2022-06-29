@@ -31,7 +31,7 @@
     </div>
     <div class = "row">
     <div class="form-group col-sm-6">
-        <label for="passwordRepeat">Country <span style="color:red;">*</span></label>
+        <label for="passwordRepeat">Country<span style="color:red;">*</span></label>
         <input class="form-control" type="text" name="country" id="country" value = "<?php echo "$country"?>" maxlength="50" required />
     </div>
     <div class="form-group col-sm-6">
