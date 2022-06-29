@@ -1,17 +1,18 @@
 <?php 
 
-function insert($name,$email,$accompaniments,$payment,$vaccination,$gh,$yog){
+function insert($name,$email,$accompaniment,$payment,$gh,$yog){
       try{ 
             //defining the sql statement to be executed
             //backticks are used instead of single quotes!!
-            $sql="INSERT INTO `aam`( `Name`, `email`,`accompaniments`, `reciept`, `status`,`gh`,`yog`) VALUES (:name,:email,:accompaniments,:payment,:vaccination,:gh,:yog)";
+            //$sql="INSERT INTO `hc`( `Name`, `email`,`accompaniments`, `reciept`, `status`,`gh`,`yog`) VALUES (:name,:email,:accompaniments,:payment,:vaccination,:gh,:yog)";
+            $sql="INSERT INTO `hc`( `name`, `email`,`accompaniment`, `reciept`,`gh`,`yog`) VALUES (:name,:email,:accompaniment,:payment,:gh,:yog)";
             //preparing the sql statement for execution
             $stmt=$GLOBALS["pdo"]->prepare($sql);
-            $stmt->bindparam(':Name',$name);
+            $stmt->bindparam(':name',$name);
             $stmt->bindparam(':email',$email);
-            $stmt->bindparam(':accompaniments',$accompaniments);
+            $stmt->bindparam(':accompaniment',$accompaniment);
             $stmt->bindparam(':payment',$payment);
-            $stmt->bindparam(':vaccination',$vaccination);
+            //$stmt->bindparam(':vaccination',$vaccination);
             $stmt->bindparam(':gh',$gh);
             $stmt->bindparam(':yog',$yog);
             $stmt->execute();
@@ -26,7 +27,7 @@ function insert($name,$email,$accompaniments,$payment,$vaccination,$gh,$yog){
 
 function view(){
       try {
-        $sql="SELECT * FROM `aam`";
+        $sql="SELECT * FROM `hc`";
         $results=$GLOBALS["pdo"]->query($sql);
         return $results;
       } catch(PDOException $e) {
@@ -37,7 +38,7 @@ function view(){
   }
 function viewrecord($id){
     try {
-      $sql="SELECT * FROM `aam`  WHERE `id`=:id";
+      $sql="SELECT * FROM `hc`  WHERE `id`=:id";
       $stmt=$GLOBALS["pdo"]->prepare($sql);
       $stmt->bindparam(':id',$id);
       $stmt->execute();
@@ -73,7 +74,7 @@ function viewrecord($id){
   function change_boolean($email,$boolean){
     try {
       $bool=($boolean=='1')?'0':'1';
-      $sql2="UPDATE `aam` SET `boolean` = :bool WHERE `email` = :email;";
+      $sql2="UPDATE `hc` SET `boolean` = :bool WHERE `email` = :email;";
           //preparing the sql2 statement for execution
       $stmt2=$GLOBALS["pdo"]->prepare($sql2);
       $stmt2->bindparam(':bool',$bool);

@@ -5,7 +5,7 @@
                 
             <div class="container">
                 <div class="row"> 
-                    <h5 style="font-weight: 800; padding-left: 1vw;">Pay the reqired amount to the given account and upload the reciept</h5>
+                    <h5 style="font-weight: 800; padding-left: 1vw;">Pay the required amount to the given account and upload the receipt</h5>
                     <div class = "col-12"><h2 style = "color: #691313f5;"><?php echo "$cost"?></h2></div>
                     <div class = "col-12"><ul style="margin-left:1vw;">
                         <li>ACCOUNT HOLDER NAME: IIT KGP AAIR EVENTS FUND</li>

@@ -38,7 +38,7 @@ Total no of registrations are: &ensp; <h2><?php echo $total ;?></h2>
     <th>Email</th>
     <th>No of accompanying person(s)</th>
     <th>Payment status</th>
-    <th>Vaccination status</th>
+    <!--<th>Vaccination status</th>-->
     <th>Guest House</th>
     <th>boolean</th>
     <th>yog</th>
@@ -49,11 +49,11 @@ Total no of registrations are: &ensp; <h2><?php echo $total ;?></h2>
 <!-- <?//php foreach($results->fetchAll(PDO::FETCH_ASSOC) as $value){ ?> -->
 <tr>
 
-    <td><?php echo $value['Name']; ?></td>
+    <td><?php echo $value['name']; ?></td>
     <td><?php echo $value['email']; ?></td>
-    <td><?php echo $value['accompaniments']; ?></td>
+    <td><?php echo $value['accompaniment']; ?></td>
     <td><?php echo $value['reciept']; ?></td>
-    <td><?php echo $value['status'] ;?></td>
+    <!--<td><?php /*echo $value['status'] ;*/?></td>-->
     <td><?php echo $value['gh'] ;?></td>
     <td><?php echo $value['boolean'] ;?></td>
     <td><?php echo $value['yog'] ;?></td>

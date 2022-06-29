@@ -15,7 +15,7 @@
     <div class = "row ">
 
     <div class="form-group mb-3 col-sm-6">
-             <label for="employee">Department<span style="color:red;">*</span></label>
+             <label for="employee">Department<span style="color:red;">*</span>: <span style="color:green;font-weight:bold"><?php echo "$dept"?></span></label>
             <select class="form-control form-select" type = "list" id = "dept" name= "dept" value = "<?php echo "$dept"?>" required>
             <option selected value="select">---Select---</option>
             <option value="AE">Aerospace Engineering</option>
@@ -62,7 +62,7 @@
           </div>
 
           <div class="form-group mb-3 col-sm-6">
-             <label for="employee">Hall<span style="color:red;">*</span></label>
+             <label for="employee">Hall<span style="color:red;">*</span>: <span style="color:green;font-weight:bold"><?php echo "$hall"?></span></label>
             <select class="form-control form-select" type = "list" id = "hall" name= "hall" value = "<?php echo "$hall"?>" required>
             <option selected value="select">---Select---</option>
             <option value="SAM">Sir Ashutosh Mukherjee Hall</option>
@@ -70,7 +70,7 @@
 								<option value="BCR">B C Roy  Hall</option>
 								<option value="BRAH">B R Ambedkar  Hall</option>
 								<option value="GH">Gokhale  Hall</option>
-								<option value="HJB">Homi Bhabha  Hall</option>
+								<option value="HJB">Homi J Bhabha  Hall</option>
 								<option value="JCB">J C Bose  Hall</option>
 								<option value="LLR">Lala Lajpat Rai  Hall</option>
 								<option value="LBS">Lal Bahadur Shastri Hall</option>
