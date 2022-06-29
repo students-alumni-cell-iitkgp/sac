@@ -355,7 +355,7 @@
 								<option value="BCR">B C Roy  Hall</option>
 								<option value="BRAH">B R Ambedkar  Hall</option>
 								<option value="GH">Gokhale  Hall</option>
-								<option value="HJB">Homi Bhabha  Hall</option>
+								<option value="HJB">Homi J Bhabha  Hall</option>
 								<option value="JCB">J C Bose  Hall</option>
 								<option value="LLR">Lala Lajpat Rai  Hall</option>
 								<option value="LBS">Lal Bahadur Shastri Hall</option>

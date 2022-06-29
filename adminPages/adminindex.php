@@ -15,7 +15,7 @@
     <form class="mt-5" method="post" action="success.php">
         <div class="mb-3">
             <label for="name" class="form-label">Name</label>
-            <input type="text" class="form-control" id="Name"  name="name" aria-describedby="emailHelp">
+            <input type="text" class="form-control" id="name"  name="name" aria-describedby="emailHelp">
             
         </div>
         <div class="mb-3">
@@ -24,7 +24,7 @@
         </div>
         <div class="mb-3">
             <label for="accompaniments" class="form-label">No. of accompanying person(s)</label>
-            <input type="text" class="form-control" id="accompaniments" name="accompaniments">
+            <input type="text" class="form-control" id="accompaniment" name="accompaniment">
         </div>
         <div class="mb-3">
             <label for="payment" class="form-label">Payment Status</label>
@@ -36,11 +36,11 @@
             <input type="text" class="form-control" id="yog" name="yog" aria-describedby="emailHelp">
             
         </div>
-        <div class="mb-3">
+       <!-- <div class="mb-3">
             <label for="vaccination" class="form-label">Vaccination Status</label>
             <input type="text" class="form-control" id="vaccination" name="vaccination" aria-describedby="emailHelp">
             
-        </div>
+        </div> -->
         <div class="mb-3">
             <label for="gh" class="form-label">Guest House</label>
             <input type="text" class="form-control" id="gh" name="gh" aria-describedby="emailHelp">

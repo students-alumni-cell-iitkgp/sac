@@ -129,7 +129,7 @@ include '../config.php';
 
      
         // target directory 
-        $target_dir = "./uploads/"; 
+        $target_dir = "../uploads/"; 
         $fetch_dir="./uploads/";
        
         // uploding file 
@@ -139,7 +139,6 @@ include '../config.php';
           $q = "update `hc` SET `pro_pic` = '$fetch_dir$mobile.$ext[1].' WHERE `email` = '$email'"; 
           $stmt=$GLOBALS["conn"]->prepare($q);
           $result=$stmt->execute();
-         
           
         } 
         else 
