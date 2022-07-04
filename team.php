@@ -123,64 +123,6 @@
                 <div class="service-card">
                   <div class="card">
                     <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
-                    <img class="card-img-top" src="img\team2022\Anurakt.webp" height=300px; alt="Card image cap">
-                    <!-- <h3>CODEPEN</h3> -->
-                    <div class="card-body">
-                      <h6 class="x">Anurakt Kumar</h6>
-                      <p class="x">(Coordinator, Sponsorship)</p>
-                      <div class='row'>
-                        <div class="col-3">
-                          <a href='https://www.facebook.com/anurakt.kumar.756/' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
-                        </div>
-                        <div class="col-3">
-                          <a href='https://www.linkedin.com/in/anurakt-kumar/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
-                        </div>
-                        <div class="col-3">
-                          <a href='mailto:anurakt2002@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
-                        </div>
-                        <div class="col-3">
-                          <a href='tel:+91-8804901402' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
-                        </div>
-
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-12 col-sm-6 align-items-center">
-                <div class="service-card">
-                  <div class="card">
-                    <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
-                    <img class="card-img-top" src="img\team2022\Ashish.webp" height=300px; alt="Card image cap" style="object-position: left;">
-                    <!-- <h3>CODEPEN</h3> -->
-                    <div class="card-body">
-                      <h6 class="x">Ashish Kumar Shah</h6>
-                      <p class="x">(Coordinator ,Yb & Class Song)</p>
-                      <div class='row'>
-                        <div class="col-3">
-                          <a href='https://www.facebook.com/ashish.shah090' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
-                        </div>
-                        <div class="col-3">
-                          <a href='https://www.linkedin.com/in/ashish-kumar-shah/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
-                        </div>
-                        <div class="col-3">
-                          <a href='mailto:ashishshah0900@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
-                        </div>
-                        <div class="col-3">
-                          <a href='tel:+91-8630679428' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
-                        </div>
-
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-12 col-sm-6 align-items-center">
-                <div class="service-card">
-                  <div class="card">
-                    <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
                     <img class="card-img-top" src="img\team2022\Athul.webp" height=300px; alt="Card image cap">
                     <!-- <h3>CODEPEN</h3> -->
                     <div class="card-body">
@@ -205,17 +147,77 @@
                   </div>
                 </div>
               </div>
+              
             </div>
             <div class="row">
               <div class="col-12 col-sm-6 align-items-center">
                 <div class="service-card">
                   <div class="card">
                     <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
-                    <img class="card-img-top" src="img\team2022\Monish.webp" height=300px; alt="Card image cap" style="object-position: left;">
+                    <img class="card-img-top" src="img\team2022\Ashish.webp" height=300px; alt="Card image cap" style="object-position: left;">
                     <!-- <h3>CODEPEN</h3> -->
                     <div class="card-body">
-                      <h6 class="x">Monish pappula</h6>
-                      <p class="x">(Coordinator , Sponsorship)</p>
+                      <h6 class="x">Ashish Kumar Shah</h6>
+                      <p class="x">(Coordinator, Yearbook & Class Song)</p>
+                      <div class='row'>
+                        <div class="col-3">
+                          <a href='https://www.facebook.com/ashish.shah090' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                        </div>
+                        <div class="col-3">
+                          <a href='https://www.linkedin.com/in/ashish-kumar-shah/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                        </div>
+                        <div class="col-3">
+                          <a href='mailto:ashishshah0900@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                        </div>
+                        <div class="col-3">
+                          <a href='tel:+91-8630679428' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-6 align-items-center">
+                <div class="service-card">
+                  <div class="card">
+                    <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
+                    <img class="card-img-top" src="img\team2022\Anurakt.webp" height=300px; alt="Card image cap">
+                    <!-- <h3>CODEPEN</h3> -->
+                    <div class="card-body">
+                      <h6 class="x">Anurakt Kumar</h6>
+                      <p class="x">(Coordinator, Sponsorship)</p>
+                      <div class='row'>
+                        <div class="col-3">
+                          <a href='https://www.facebook.com/anurakt.kumar.756/' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                        </div>
+                        <div class="col-3">
+                          <a href='https://www.linkedin.com/in/anurakt-kumar/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                        </div>
+                        <div class="col-3">
+                          <a href='mailto:anurakt2002@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                        </div>
+                        <div class="col-3">
+                          <a href='tel:+91-8804901402' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+            <div class="row">
+              <div class="col-12 col-sm-6 align-items-center">
+                <div class="service-card">
+                  <div class="card">
+                    <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
+                    <img class="card-img-top" src="img\team2022\Monish.webp" height=300px; alt="Card image cap">
+                    <!-- <h3>CODEPEN</h3> -->
+                    <div class="card-body">
+                      <h6 class="x">Monish Pappula</h6>
+                      <p class="x">(Coordinator, Sponsorship)</p>
                       <div class='row'>
                         <div class="col-3">
                           <a href='https://www.facebook.com/monish.p.3726' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
