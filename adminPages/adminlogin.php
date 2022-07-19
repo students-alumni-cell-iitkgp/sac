@@ -5,10 +5,10 @@ $path="../connection.php";
 include 'config.php';
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     //$userAdded=adduser($_POST['username'],$_POST['password']);
-    //$username = trim($_POST['username']);
-    //$password = $_POST['password'];
+    $username = trim($_POST['username']);
+    $password = $_POST['password'];
     //adding the user
-    // $result=adduser($username,$password);
+     //$result=adduser($username,$password);
      //if(!$result) {echo 'Error registering'; }
      //else{
      //    header('Location: view.php');
