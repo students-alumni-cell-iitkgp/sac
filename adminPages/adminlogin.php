@@ -8,11 +8,11 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $username = trim($_POST['username']);
     $password = $_POST['password'];
     //adding the user
-     $result=adduser($username,$password);
-     if(!$result) {echo 'Error registering'; }
-     else{
-         header('Location: view.php');
-     }
+     //$result=adduser($username,$password);
+     //if(!$result) {echo 'Error registering'; }
+     //else{
+     //    header('Location: view.php');
+     //}
 
     // authorising the user
 

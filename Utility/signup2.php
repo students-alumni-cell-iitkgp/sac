@@ -34,9 +34,11 @@ if ($_SERVER["REQUEST_METHOD"]== "POST") {
                 $stmt2 = $conn->prepare("SELECT `reciept` FROM hc WHERE `email` = '$email'");
                 $stmt->execute();
                
-                if(!$user['reciept'])  {       
-                    header("Location: get_update.php");
-                }   
+                //if(!$user['reciept'])  {       
+                   // header("Location: get_update.php");
+                   print_r( $_SESSION['email'])  ;
+                   print_r($user);
+                //}   
         }
     }
 
