@@ -35,9 +35,7 @@ if ($_SERVER["REQUEST_METHOD"]== "POST") {
                 $stmt->execute();
                
                 //if(!$user['reciept'])  {       
-                   // header("Location: get_update.php");
-                   print_r( $_SESSION['email'])  ;
-                   print_r($user);
+                   header("Location: get_update.php");
                 //}   
         }
     }
