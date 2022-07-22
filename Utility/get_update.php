@@ -4,15 +4,9 @@ include_once('../config.php');
     
     if(!isset($_SESSION['email']))
     { 
-      print_r("not set");
-      print_r( $_SESSION['email'])  ;
-     // header("Location: ../logout.html");
+        header("Location: ../logout.html");
     }
     
-    print_r("set");
-    print_r( $_SESSION['email'])  ;
-
-
     $email = $_SESSION['email'];
     $dob = $_SESSION['password']; 
 
