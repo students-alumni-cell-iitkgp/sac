@@ -20,7 +20,7 @@ if ($_SERVER["REQUEST_METHOD"]== "POST") {
     $stmt->execute();
 
     $users = $stmt->fetchAll();
-   $_SESSION['email'] = $email;
+    $_SESSION['email'] = $email;
     $_SESSION['password'] = $password;
     //setcookie('email', $email, time() + (86400), "/");
     //setcookie('password', $password, time() + (86400), "/");
@@ -35,7 +35,9 @@ if ($_SERVER["REQUEST_METHOD"]== "POST") {
                 $stmt2 = $conn->prepare("SELECT `reciept` FROM hc WHERE `email` = '$email'");
                 $stmt->execute();
                
-                //print_r(session_id());
+
+                echo`<script>alert('${session_id()}')</script>`;
+                echo`<script>console.log('${session_id()}')</script>`;
                 //if(!$user['reciept'])  {       
                    header("Location: get_update.php");
                 //}   

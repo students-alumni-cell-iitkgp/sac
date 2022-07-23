@@ -4,7 +4,9 @@ include_once('../config.php');
 // $_SESSION['email']
      if(!isset($_SESSION['email']))
      {
-        header("Location: ../logout.html");
+      echo`<script>alert('${session_id()}')</script>`;
+      echo`<script>console.log('${session_id()}')</script>`;
+       // header("Location: ../logout.html");
      }
     //if(!isset($_COOKIE['email']))
     //{
@@ -12,6 +14,7 @@ include_once('../config.php');
     //  header("Location: ../logout.html");
     //}
     else{
+
       $email = $_SESSION['email'];
       $dob =   $_SESSION['password']; 
   
