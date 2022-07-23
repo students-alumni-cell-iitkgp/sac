@@ -8,7 +8,7 @@ include_once('../config.php');
     // }
     if(!isset($_COOKIE['email']))
     {
-      print_r('HI inside !set Cookies');
+      //print_r('HI inside !set Cookies');
       header("Location: ../logout.html");
     }else{
       $email = $_COOKIE['email'];
