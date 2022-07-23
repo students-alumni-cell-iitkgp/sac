@@ -1,5 +1,5 @@
 <?php
-session_start();  
+session_start();
 require '../config.php';
 $database = 'aam';
    
@@ -20,10 +20,10 @@ if ($_SERVER["REQUEST_METHOD"]== "POST") {
     $stmt->execute();
 
     $users = $stmt->fetchAll();
-   // $_SESSION['email'] = $email;
-    //$_SESSION['password'] = $password;
-    setcookie('email', $email, time() + (86400), "/");
-    setcookie('password', $password, time() + (86400), "/");
+   $_SESSION['email'] = $email;
+    $_SESSION['password'] = $password;
+    //setcookie('email', $email, time() + (86400), "/");
+    //setcookie('password', $password, time() + (86400), "/");
     $check = 1;
       
     foreach($users as $user) {
@@ -35,6 +35,7 @@ if ($_SERVER["REQUEST_METHOD"]== "POST") {
                 $stmt2 = $conn->prepare("SELECT `reciept` FROM hc WHERE `email` = '$email'");
                 $stmt->execute();
                
+                //print_r(session_id());
                 //if(!$user['reciept'])  {       
                    header("Location: get_update.php");
                 //}   

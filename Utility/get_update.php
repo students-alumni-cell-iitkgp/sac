@@ -1,18 +1,19 @@
 <?php
-session_start();  
+session_start();
 include_once('../config.php');
 // $_SESSION['email']
-    // if(!isset($_SESSION['email']))
-    // {
-    //   header("Location: ../logout.html");
-    // }
-    if(!isset($_COOKIE['email']))
-    {
-      //print_r('HI inside !set Cookies');
-      header("Location: ../logout.html");
-    }else{
-      $email = $_COOKIE['email'];
-      $dob = $_COOKIE['password']; 
+     if(!isset($_SESSION['email']))
+     {
+        header("Location: ../logout.html");
+     }
+    //if(!isset($_COOKIE['email']))
+    //{
+    //  //print_r('HI inside !set Cookies');
+    //  header("Location: ../logout.html");
+    //}
+    else{
+      $email = $_SESSION['email'];
+      $dob =   $_SESSION['password']; 
   
       $stmt = $conn->prepare("SELECT * FROM hc WHERE `email` = '$email'");
       $stmt->execute();
