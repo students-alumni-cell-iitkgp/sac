@@ -2,11 +2,13 @@
 session_start();
 include_once('../config.php');
 // $_SESSION['email']
-     if(!isset($_SESSION['email']))
+     if(isset($_SESSION['email']))
      {
-      echo`<script>alert('${session_id()}')</script>`;
-      echo`<script>console.log('${session_id()}')</script>`;
+      //echo`<script>alert('${session_id()}')</script>`;
+      //echo`<script>console.log('${session_id()}')</script>`;
        // header("Location: ../logout.html");
+       $id2=session_id();
+      echo "<script>console.log('id1:".$_GET['id'].", id2:". $id2 . "' );</script>";
      }
     //if(!isset($_COOKIE['email']))
     //{

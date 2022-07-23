@@ -36,10 +36,10 @@ if ($_SERVER["REQUEST_METHOD"]== "POST") {
                 $stmt->execute();
                
 
-                echo`<script>alert('${session_id()}')</script>`;
-                echo`<script>console.log('${session_id()}')</script>`;
+                $id=session_id();
+                header("Location: get_update.php?id=$id");
                 //if(!$user['reciept'])  {       
-                   header("Location: get_update.php");
+                  // header("Location: get_update.php");
                 //}   
         }
     }
