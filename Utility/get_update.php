@@ -8,7 +8,7 @@ include_once('../config.php');
       //echo`<script>console.log('${session_id()}')</script>`;
        // header("Location: ../logout.html");
        $id2=session_id();
-      echo "<script>console.log('id1:".$_GET['id'].", id2:". $id2 . "' );</script>";
+      echo "<script>console.log('id1:".$_GET['id'].", id2:". $id2 .", ". $_SESSION['email']."' );</script>";
      }
     //if(!isset($_COOKIE['email']))
     //{
@@ -19,7 +19,7 @@ include_once('../config.php');
 
 
       $id2=session_id();
-      echo "<script>console.log('id1 else:".$_GET['id'].", id2:". $id2 . "' );</script>";
+      echo "<script>console.log('id1: else".$_GET['id'].", id2:". $id2 .", ". $_SESSION['email']."' );</script>";
       $email = $_SESSION['email'];
       $dob =   $_SESSION['password']; 
   
