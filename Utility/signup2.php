@@ -37,7 +37,8 @@ if ($_SERVER["REQUEST_METHOD"]== "POST") {
                
 
                 $id=session_id();
-                header("Location: get_update.php?id=$id");
+                echo "<script>console.log('id1: ". $_SESSION['email']."' );</script>";
+               // header("Location: get_update.php?id=$id");
                 //if(!$user['reciept'])  {       
                   // header("Location: get_update.php");
                 //}   
