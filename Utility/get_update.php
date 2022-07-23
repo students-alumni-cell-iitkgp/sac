@@ -2,7 +2,7 @@
 session_start();
 include_once('../config.php');
 // $_SESSION['email']
-     if(isset($_SESSION['email']))
+     if(!isset($_SESSION['email']))
      {
       //echo`<script>alert('${session_id()}')</script>`;
       //echo`<script>console.log('${session_id()}')</script>`;
@@ -17,6 +17,9 @@ include_once('../config.php');
     //}
     else{
 
+
+      $id2=session_id();
+      echo "<script>console.log('id1 else:".$_GET['id'].", id2:". $id2 . "' );</script>";
       $email = $_SESSION['email'];
       $dob =   $_SESSION['password']; 
   
