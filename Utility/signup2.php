@@ -36,11 +36,11 @@ if ($_SERVER["REQUEST_METHOD"]== "POST") {
                 $stmt->execute();
                
 
-                $id=session_id();
-                echo "<script>console.log('id1: ". $_SESSION['email']."' );</script>";
+                //$id=session_id();
+                //echo "<script>console.log('id1: ". $_SESSION['email']."' );</script>";
                // header("Location: get_update.php?id=$id");
                 //if(!$user['reciept'])  {       
-                  // header("Location: get_update.php");
+                   header("Location: get_update.php");
                 //}   
         }
     }
