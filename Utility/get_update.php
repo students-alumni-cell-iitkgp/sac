@@ -6,9 +6,9 @@ include_once('../config.php');
      {
       //echo`<script>alert('${session_id()}')</script>`;
       //echo`<script>console.log('${session_id()}')</script>`;
-       // header("Location: ../logout.html");
-       $id2=session_id();
-      echo "<script>console.log('id1:".$_GET['id'].", id2:". $id2 .", ". $_SESSION['email']."' );</script>";
+       header("Location: ../logout.html");
+       //$id2=session_id();
+      //echo "<script>console.log('id1:".$_GET['id'].", id2:". $id2 .", ". $_SESSION['email']."' );</script>";
      }
     //if(!isset($_COOKIE['email']))
     //{
@@ -16,10 +16,8 @@ include_once('../config.php');
     //  header("Location: ../logout.html");
     //}
     else{
-
-
-      $id2=session_id();
-      echo "<script>console.log('id1: else".$_GET['id'].", id2:". $id2 .", ". $_SESSION['email']."' );</script>";
+      //$id2=session_id();
+      //echo "<script>console.log('id1: else".$_GET['id'].", id2:". $id2 .", ". $_SESSION['email']."' );</script>";
       $email = $_SESSION['email'];
       $dob =   $_SESSION['password']; 
   
