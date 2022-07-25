@@ -154,7 +154,7 @@
                 <div class="service-card">
                   <div class="card">
                     <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
-                    <img class="card-img-top" src="img\team2022\Ashish.webp" height=300px; alt="Card image cap" style="object-position: left;">
+                    <img class="card-img-top" src="img\team2022\Ashish.png" height=300px; alt="Card image cap" style="object-position: left;">
                     <!-- <h3>CODEPEN</h3> -->
                     <div class="card-body">
                       <h6 class="x">Ashish Kumar Shah</h6>
@@ -241,7 +241,7 @@
                 <div class="service-card">
                   <div class="card">
                     <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
-                    <img class="card-img-top" src="img\team2022\Shreyansh.webp" height=300px; alt="Card image cap">
+                    <img class="card-img-top" src="img\team2022\Shreyansh.jpg" height=300px; alt="Card image cap">
                     <!-- <h3>CODEPEN</h3> -->
                     <div class="card-body">
                       <h6 class="x">Shreyansh Jha</h6>
