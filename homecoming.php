@@ -60,7 +60,7 @@
 				<p class="pt-3 x">
 				We live our day to day lives oblivious to the beauty that surrounds us and by the time we do realise what
 				exactly it is that we've been blessed with, it's generally too late. However when the good ol' days call
-				yet again, nostalgia surrounds us as we walk the hallowed boulevards of our youth. The Annual Alumni Meet 
+				yet again, nostalgia surrounds us as we walk the hallowed boulevards of our youth. The Homecoming 
 				brings to our alumni a chance to reconnect with their Alma Mater. It lets them relive the carefree days of 
 				their college lives as they get a chance to visit all the locations they once frequented.
             </p>
