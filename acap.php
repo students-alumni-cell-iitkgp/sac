@@ -138,11 +138,11 @@
 
                                 <div class="row">
                                     <div id="y" class="col-md-6">
-                                        <strong>Student</strong> - Fill the form specifying your top 3 companies in
+                                        <strong>Student</strong> - <!--Fill the form--> specifying your top 3 companies in
                                         preference
                                         order.<br>
 
-                                        <strong>Alumnus</strong> - Fill the form mentioning the company you are currently
+                                        <strong>Alumnus</strong> - <!--Fill the form--> mentioning the company you are currently
                                         working for and the
                                         company you got placed in via the CDC recruitment procedure.<br>
 
