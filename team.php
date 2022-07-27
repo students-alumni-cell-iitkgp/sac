@@ -329,7 +329,7 @@
                 <div class="service-card">
                   <div class="card">
                     <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
-                    <img class="card-img-top" src="img\team2022\Aditi.webp" height=300px; alt="Card image cap" style="object-position: center;">
+                    <img class="card-img-top" src="img\team2022\Aditi.webp" height=300px; alt="Card image cap" >
                     <!-- <h3>CODEPEN</h3> -->
                     <div class="card-body">
                       <h6 class="x">Aditi Pasi</h6>
@@ -357,7 +357,7 @@
                 <div class="service-card">
                   <div class="card">
                     <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
-                    <img class="card-img-top" src="img\team2022\Chesta.webp" height=300px; alt="Card image cap" style="object-position: center;">
+                    <img class="card-img-top" src="img\team2022\Chesta.jpg" height=300px; alt="Card image cap">
                     <!-- <h3>CODEPEN</h3> -->
                     <div class="card-body">
                       <h6 class="x">Chesta Srivastava</h6>
