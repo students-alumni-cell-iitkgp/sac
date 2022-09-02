@@ -30,7 +30,7 @@
     <div class="_wrapper" style="overflow: hidden; background-color: white;font-family:Palatino Linotype;">
   <div class="LSspons">
   <div class="container" align="center">
-      <div class="s-29 row" style="margin-top:40px;">
+      <div class="s-29 row" style="margin-top:60px;">
         <div class="col-lg-12" style="margin-bottom:20px;">
           <h2>
            Exclusive News Channel Partner
@@ -381,7 +381,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
             integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
             </script>
-    <script type="text/javascript" src="js/sponsors.js" charset="utf-8"></script>
+
     <script type="text/javascript" charset="utf-8">
         
         function LeadershipSummit() {

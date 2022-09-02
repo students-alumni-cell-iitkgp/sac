@@ -30,7 +30,7 @@
   </div> -->
   <div class="alumnimeetSpons">
   <div class="container" align="center">
-      <div class="s-1 row" style="margin-top:40px;">
+      <div class="s-1 row" style="margin-top:60px;">
         <div class="col-lg-12" style="margin-bottom:20px;">
           <h2>
             Major Sponsor
@@ -900,7 +900,18 @@
             integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
             </script>
     <script type="text/javascript" src="js/sponsors.js" charset="utf-8"></script>
-
+    <script type="text/javascript" charset="utf-8">
+        
+        function LeadershipSummit() {
+    
+          gsap.registerPlugin(ScrollTrigger);
+          for (var i = 1; i < 28; i++) {
+            gsap.from(".s-" + i + " h2", { scrollTrigger: ".s-" + i + " h2", x: -300, duration: 1.5, opacity: 0.2 });
+              gsap.from(".s-" + i , { scrollTrigger: ".s-" + i , x: -300, duration: 1.5, opacity: 0.2 });
+          }
+        }
+        LeadershipSummit();
+    </script>
 </body>
 
 </html>

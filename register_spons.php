@@ -7,20 +7,20 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<link rel="stylesheet" href="css/login.css">
+<!-- <link rel="stylesheet" href="css/login.css"> -->
     <title>Registration</title>
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 </head>
       <body>
-                  <nav class="navbar navbar-light "style="background-color: #bbbfca;position: fixed;top: 98px;width: 100%;z-index: 2;">
-                       <ul class="navbar-nav header">
-                         <li class="nav-item active">
-                           <h3 class="navbar-brand" style="margin:0;">Associate With Us </h3>
-                         </li>
+          <nav class="navbar navbar-light "style="background-color: #bbbfca;position: fixed;top: 98px;width: 100%;z-index: 2;">
+                    <ul class="navbar-nav header">
+                    <li class="nav-item active">
+                         <h3 class="navbar-brand" style="margin:0;">Associate With Us </h3>
+                    </li>
 
-                       </ul>
-                       <button type="button" name="login" id="login" class="btn btn-primary" data-toggle="modal" data-target="#loginModal"style="background-color:#00416d;">Login</button>
-                </nav>
+                    </ul>
+                    <button type="button" name="login" id="login" class="btn btn-primary" data-toggle="modal" data-target="#loginModal"style="background-color:#00416d;">Login</button>
+          </nav>
       </body>
  </html>
  <div id="loginModal" class="modal" role="dialog" style="padding-left:5%;">
