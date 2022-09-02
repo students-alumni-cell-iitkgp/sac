@@ -1,4 +1,12 @@
+*{
+  margin: 0 ;
+  padding: 0;
+}
+
 body{
+  overflow-x: hidden;
+}
+/* body{
     font-family: 'Montserrat', sans-serif;
     position:relative;
 
@@ -18,7 +26,7 @@ h2
   font-family: 'Raleway', sans-serif;
   padding: 0.4em 0;
   font-size: 3em;
-}
+} */
 
 @media only screen and (max-width: 775px) {
   .col-sm-12 {
@@ -26,7 +34,7 @@ h2
     padding-top:2%;
   }
 }
-.progress-bar-purple {
+/* .progress-bar-purple {
       background-color: #00416d !important;
 	  height:0.7rem;
-}
+} */
