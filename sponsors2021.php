@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	        <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
         <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
-  <!-- <link rel="stylesheet" href="css/sponsors.css"> -->
+  <link rel="stylesheet" href="css/sponsors.css">
   <style>
     h2{
       font-family: Palatino, "Palatino Linotype";
