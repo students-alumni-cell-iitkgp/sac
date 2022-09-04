@@ -22,6 +22,7 @@
 			margin-left:23px;
 			margin-right: 80px;
 			color: darkblue;
+			font-weight: bold;
 		}
 	</style>
 </head>
@@ -56,8 +57,10 @@
                       </p>
 			        </div>
 			    </div>
-				<a class="btn btn-outline-primary c" align="justify" href="aam18.php" role="button">Visit - 17th Annual Meet</a>
-			    <!--<a class="btn btn-outline-primary c" align="justify" href="loginpage.php" role="button">18th Annual Meet</a>-->
+				<div class = "row">
+				<div class = "col-6"> <a class="btn btn-outline-primary c" href="loginpage.php" role="button">19th Annual Meet</a></div>
+				<div class = "col-6"> <a class="btn btn-outline-primary c" href="aam18.php" role="button">Visit - 17th Annual Meet</a></div>
+				</div>
 				<!--<a class="btn btn-outline-primary c" align="justify" href="./grandreunion/index.php" role="button">18th Annual Meet</a>-->
 			</div>
 			<div class="col-md-5">

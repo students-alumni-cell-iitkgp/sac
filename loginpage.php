@@ -63,7 +63,7 @@ session_start();
         </form>
         <hr>
         <center><h3 style = "color: #FFEFEF">Or Sign up</h3></center>
-        <a class="submit-btn" href="signup.php" role="button"><center>Sign up</center></a>
+        <a class="submit-btn" href="#" role="button"><center>Sign up - Opening Soon</center></a>
 	</div>
 
 
@@ -80,6 +80,7 @@ session_start();
                <h3>
                <div class = "row"><div class = "col-xs-6">Prerit Goyal </div><div class = "col-xs-6 ">8989020473</div></div>
                <div class = "row"><div class = "col-xs-6">Rohan Sachan </div><div class = "col-xs-6 ">6389355293</div></div>
+               <div class = "row"><div class = "col-xs-6">Abhisha Shrivastava </div><div class = "col-xs-6 ">8827031589</div></div>
                <div class = "row"><div class = "col-xs-6">Anjani Kumar </div><div class = "col-xs-6 ">8968628246</div></div>
                <div class = "row"><div class = "col-xs-6">Kajol Sahu   </div><div class = "col-xs-6 ">9479940899</div></div>
                </h3>
