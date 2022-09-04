@@ -67,7 +67,7 @@
         </div>
         <div class="col-sm-12 col-lg-6 col-md-6 mb-3" align="center">
           <a href="https://www.bmw.in/en/index.html" target="_blank">
-            <img class="spons" src="img/spons/2020LS/YKA.png" width="250" height="180px" />
+            <img class="spons" src="img/spons/2020LS/yka.png" width="250" height="180px" />
           </a>
         </div>
         <div class="col-sm-12 col-lg-6 col-md-6" align="center">
