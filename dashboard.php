@@ -5,7 +5,7 @@
     {
       header("Location: ./loginpage.php");
     }
-    $name    = $_SESSION['name']      ;
+        $name    = $_SESSION['name']      ;
         $email   = $_SESSION['email']     ;
         $dob     = $_SESSION['dob']       ;
 
@@ -64,263 +64,565 @@
         $time_reach_out= $_SESSION['time_reach_out']      ;
 ?>
 
+
 <!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>Dashboard</title>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script  src="./script.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"/>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
-  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.0.10/css/all.css'>
-  <link rel="stylesheet" href="./css/dash.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+<html lang="en">
+  <head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-</head>
-<body>
+<link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
+<link rel="icon" type="image/png" href="./assets/img/favicon.png">
 
-<div class="grid">
+<title>
+  
+   19 AAM | Dashboard
+  
+</title>
 
-<header class="header">
-    <i class="fas fa-bars header__menu"></i>
-    <div class="header__search">
-    </div>
-    <div class="header__avatar"  style="background-image:url(<?php echo $pro_pic ?>)">
-      <div class="dropdown">
-        <ul class="dropdown__list">
-          <li class="dropdown__list-item">
-            <span class="dropdown__icon"><i class="far fa-user"></i></span>
-            <a class="dropdown__title" onclick="attendee()">Attendee </a>
-          </li>
-          <li class="dropdown__list-item">
-            <span class="dropdown__icon"><i class="fas fa-clipboard-list"></i></span>
-            <a class="dropdown__title" onclick="payment()"> Payment </a>
-          </li>
-          <li class="dropdown__list-item">
-            <span class="dropdown__icon"><i class="fas fa-sign-out-alt"></i></span>
-            <a class="dropdown__title" href="utility/logout2.php" data-bs-toggle="dropdown"> Logout </a>	
-          </li>
-        </ul>
+<!--     Fonts and icons     -->
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
+
+<!-- Nucleo Icons -->
+<link href="./assets/css/nucleo-icons.css" rel="stylesheet" />
+<link href="./assets/css/nucleo-svg.css" rel="stylesheet" />
+
+<!-- Font Awesome Icons -->
+<script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+
+<!-- Material Icons -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
+
+<!-- CSS Files -->
+
+<link id="pagestyle" href="./assets/css/material-dashboard.css?v=3.0.4" rel="stylesheet" />
+
+  </head>
+
+  <body class="g-sidenav-show  bg-gray-100">
+      
+      <aside class="sidenav navbar navbar-vertical navbar-expand-xs border-0 border-radius-xl my-3 fixed-start ms-3   bg-gradient-dark" id="sidenav-main">
+
+  <div class="sidenav-header">
+    <i class="fas fa-times p-3 cursor-pointer text-white opacity-5 position-absolute end-0 top-0 d-none d-xl-none" aria-hidden="true" id="iconSidenav"></i>
+    <a class="navbar-brand m-0" href="https://sac.iitkgp.ac.in/" target="_blank">
+      <img src="./img/logo/sac_logo.png" class="navbar-brand-img " style = "width:160px" alt="main_logo">
+      <span class="ms-1 font-weight-bold text-white"></span>
+    </a>
+  </div>
+
+
+  <hr class="horizontal light mt-0 mb-2">
+
+  <div class="collapse navbar-collapse  w-auto " id="sidenav-collapse-main">
+    <ul class="navbar-nav">
+      
+    <li class="nav-item mt-3">
+      <h6 class="ps-4 ms-2 text-uppercase text-xs text-white font-weight-bolder opacity-8">Dashboard</h6>
+    </li>
+          
+  
+<li class="nav-item">
+  <a class="nav-link text-white " onclick="personal()">
+    
+      <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+        <i class="material-icons opacity-10">manage_accounts</i>
       </div>
-    </div>
-  </header>
+    
+    <span class="nav-link-text ms-1">Personal Information</span>
+  </a>
+</li>
 
-<!--<nav class="navbar navbar-brand sticky-top navbar-expand-lg navbar-light bg-light">
+  
+<li class="nav-item">
+  <a class="nav-link text-white " onclick="travel()">
+    
+      <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+        <i class="material-icons opacity-10">flight_takeoff</i>
+      </div>
+    
+    <span class="nav-link-text ms-1">Travel Details</span>
+  </a>
+</li>
 
-<div class="container-fluid">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-  aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="navbar-collapse collapse justify-content-end" id="navbarNavDropdown">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item "> 
-        <a class="nav-link" onclick="attendee()">Attendee </a> 
-      </li>
-      <li class="nav-item ">
-        <a class="nav-link" onclick="payment()"> Payment </a>
-      </li>
-      <li class="nav-item ">
-        <a class="nav-link" href="utility/logout2.php" data-bs-toggle="dropdown"> Logout </a>	
-      </li>
+  
+<li class="nav-item">
+  <a class="nav-link text-white " onclick="accomod()">
+    
+      <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+        <i class="material-icons opacity-10">local_hotel</i>
+      </div>
+    
+    <span class="nav-link-text ms-1">Accomodation</span>
+  </a>
+</li>
+
+  
+<li class="nav-item">
+  <a class="nav-link text-white " onclick="work()">
+    
+      <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+        <i class="material-icons opacity-10">work</i>
+      </div>
+    
+    <span class="nav-link-text ms-1">Work Experience</span>
+  </a>
+</li>
+
+  
+<li class="nav-item">
+  <a class="nav-link text-white " onclick="nostalg()">
+    
+      <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+        <i class="material-icons opacity-10">local_fire_department</i>
+      </div>
+    
+    <span class="nav-link-text ms-1">Nostalgic Section</span>
+  </a>
+</li>
+
+  
+<li class="nav-item">
+  <a class="nav-link text-white " onclick="nostalg()">
+    
+      <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+        <i class="material-icons opacity-10">style</i>
+      </div>
+    
+    <span class="nav-link-text ms-1">Yearing of Yore</span>
+  </a>
+</li>
+
+ 
+<li class="nav-item">
+  <a class="nav-link text-white " href="http://alumni.iitkgp.ac.in/AlumniIITKGP/GoThroughCampaign/?camp_id=46&purpose=readmore" target="_blank">
+    
+      <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+        <i class="material-icons opacity-10">apartment</i>
+      </div>
+    
+    <span class="nav-link-text ms-1">Own Your Hall</span>
+  </a>
+</li>
+           
     </ul>
   </div>
-</div>
-</nav>-->
-
-  <aside class="sidenav">
-    <div class="sidenav__brand">
-      <a class="sidenav__brand-link" href="homecoming.php">Home<span class="text-light">coming</span></a>
-      <i class="fas fa-times sidenav__brand-close"></i>
+  
+  <div class="sidenav-footer position-absolute w-100 bottom-0 ">
+    <div class="mx-3">
+      <a class="btn bg-gradient-primary mt-4 w-100" href="https://www.facebook.com/iitkgp.alumnicell" target = "_blank" type="button">Facebook</a>
     </div>
-    <div class="sidenav__profile">
-    <div class="sidenav__profile-avatar"><img src=<?php echo $pro_pic ?> alt="dp" width="100%" height="100%" style="border-radius:100%" /></div>
-    <div class="sidenav__profile-title text-light"><?php echo "$name"?></div>
-    </div>
-    <div class = "row" style = "margin-top: 10px; margin-bottom: 10px;padding:20px;background-color:rgba(255, 255, 255, 0.1)">
-     <form action="./backend/photo.php" method = "post" enctype="multipart/form-data" onSubmit="window.location.reload()">
-     <label for="username">Update Photo</label>
-           <input type="file" id="pro_pic" name="pro_pic" accept=".jpg, .jpeg, .png">
-            <div class = "row" style="justify-content:center">
-        <button id="submit" class="btn btn-sm btn-primary" type = "submit">Save</button>
-        </div>
-     </form>
-     </div>
-    <div class="row row--align-v-center row--align-h-center">
-      <ul class="navList">
-      <br>
-      <li>
-          <div class="navList__subheading row row--align-v-center button" id="personal" onclick="personal()">
-            <span class="navList__subheading-icon"><i class="fa fa-user"></i></span>
-            <span class="navList__subheading-title">Personal Info</span>
-          </div>
-        </li>
-        <li>
-          <div class="navList__subheading row row--align-v-center button" id="travel" onclick="travel()">
-            <span class="navList__subheading-icon"><i class="fas fa-plane"></i></span>
-            <span class="navList__subheading-title">Travel Details</span>
-          </div> 
-        </li>
-        <li>
-          <div class="navList__subheading row row--align-v-center button"id="accomod" onclick="accomod()"  >
-            <span class="navList__subheading-icon"><i class="fas fa-bed"></i></span>
-            <span class="navList__subheading-title">Accomodation</span>
-          </div>
-        </li>  
+    
+  </div>
+  
+</aside>
 
-        <!--<li>
-          <div class="navList__subheading row row--align-v-center button" id="covid" onclick="covid()">
-            <span class="navList__subheading-icon"><i class="fas fa-syringe"></i></span>
-            <span class="navList__subheading-title">Covid Info</span>
+      <main class="main-content border-radius-lg ">
+        <!-- Navbar -->
+
+<nav class="navbar navbar-main navbar-expand-lg px-0 mx-4 shadow-none border-radius-xl" id="navbarBlur" data-scroll="true">
+  <div class="container-fluid py-1 px-3">
+    <nav aria-label="breadcrumb">
+      
+      <a class="navbar-brand m-0" href="https://sac.iitkgp.ac.in/" target="_blank">
+      <img src="./img/logo19.webp" class="navbar-brand-img " style = "width:60px" alt="main_logo">
+      <span class="ms-1 font-weight-bolder ">19th Annual Alumni Meet</span>
+    </a>
+      
+    </nav>
+    <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar">
+      <div class="ms-md-auto pe-md-3 d-flex align-items-center">
+          
+          <div class="input-group input-group-outline">
+            <label class="form-label">Search...</label>
+            <input type="text" class="form-control">
           </div>
-        </li>-->
-        <li>
-          <div class="navList__subheading row row--align-v-center button" id="work" onclick="work()" >
-            <span class="navList__subheading-icon"><i class="fas fa-briefcase"></i></span>
-            <span class="navList__subheading-title">Work Experience</span>
-          </div> 
+          
+      </div>
+      <ul class="navbar-nav  justify-content-end">
+        <li class="nav-item d-flex align-items-center">
+          <a href="" class="nav-link text-body font-weight-bold px-0">
+          <img src=<?php echo $pro_pic ?> alt="dp" width="30px" height="30px" style="border-radius:100%" />       
+            <span class="d-sm-inline d-none"><?php echo "$name"?></span>
+            
+          </a>
         </li>
-        <li>
-          <div class="navList__subheading row row--align-v-center button" id="nostalg" onclick="nostalg()">
-            <span class="navList__subheading-icon"><i class="fas fa-hand-peace"></i></span>
-            <span class="navList__subheading-title">Nostalgic Section</span>
-          </div>
-        </li> 
-        <!--<li>
-          <div class="navList__subheading row row--align-v-center">
-            <span class="navList__subheading-icon"><i class="far fa-angry"></i></span>
-            <span class="navList__subheading-title">YOY</span>
-          </div>
-        </li> -->  
+        <li class="nav-item d-xl-none ps-3 d-flex align-items-center">
+          <a href="javascript:;" class="nav-link text-body p-0" id="iconNavbarSidenav">
+            <div class="sidenav-toggler-inner">
+              <i class="sidenav-toggler-line"></i>
+              <i class="sidenav-toggler-line"></i>
+              <i class="sidenav-toggler-line"></i>
+            </div>
+          </a>
+        </li>
+        <li class="nav-item px-3 d-flex align-items-center">
+          <a href="javascript:;" class="nav-link text-body p-0">
+            <i class="fa fa-users fixed-plugin-button-nav cursor-pointer"></i>
+          </a>
+        </li>
+        <li class="nav-item px-3 d-flex align-items-center">
+          <a onclick="payment()" class="nav-link text-body p-0">
+            <i class="fa fa-inr fixed-plugin-button-nav cursor-pointer"></i>
+          </a>
+        </li>
+        <li class="nav-item dropdown pe-2 d-flex align-items-center">
+          <a href="javascript:;" class="nav-link text-body p-0" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fa fa-sign-out cursor-pointer"></i>
+          </a>
+        </li>
       </ul>
     </div>
-  </aside>
+  </div>
+</nav>
 
-  <main class="main">
+<!-- End Navbar -->
 
-    <div class="row" style= "justify-content:right; margin-top:20px; margin-right:40px">
-      <div class="overviewCard col-4">
-        <div class="overviewCard-icon overviewCard-icon--photo">
-           <i class="fas fa-rupee-sign"></i>
+<div class="row">
+        <div class="col-md-7 mt-4">
+        <?php include './show/personal.php' ?>
+        <?php include './show/travel.php' ?>
+        <?php include './show/accomodation.php' ?>
+        <?php include './show/work.php' ?>
+        <?php include './show/nostalgia.php' ?>
+        <?php include './show/payment.php' ?>
+        <?php include './edit/attendee.php' ?>
+        <?php include './edit/yoy.php' ?>
+        <?php include './edit/personal.php' ?>
+        <?php include './edit/travel.php' ?>
+        <?php include './edit/accomodation.php' ?>
+        <?php include './edit/work.php' ?>
+        <?php include './edit/nostalgia.php' ?>
+        
         </div>
-        <div class="overviewCard-description">
-        <h6><span>Payment Status: <?php echo "$cost"?></h6><h6> <?php if(empty($reciept)) echo "<span style='color:red;'>PENDING</span>"; else echo "<span style='color:green;'>PAID</span>" ?></span></h6>
-        <a class = "btn btn-success" style = "color:white" onclick="payment()">Make Payment</a>  
-      </div>
-      </div>
-    </div> <!-- /.main__overview -->
+        <div class="col-md-5 mt-4">
+        <div class="card h-100">
+        <div class="card-header pb-0 px-3">
+              <div class="row">
+                <div class="col-md-6">
+                  <h5 class="mb-0">Itinerary(Provisional)</h5>
+                </div>
+                <div class="col-md-6 d-flex justify-content-start justify-content-md-end align-items-center">
+                  <i class="material-icons me-2 text-lg">date_range</i>
+                  <small>6th - 8th January 2023</small>
+                </div>
+              </div>
+            </div>
+            <h6 class="mb-0" style="padding: 1.5rem;">Day 1, 06 January, Friday</h6>
+            <div class="card-body p-3">
+              <div class="timeline timeline-one-side">
+                <div class="timeline-block mb-3">
+                  <span class="timeline-step">
+                    <i class="material-icons text-success text-gradient">notifications</i>
+                  </span>
+                  <div class="timeline-content">
+                    <h6 class="text-dark text-sm font-weight-bold mb-0">Breakfast</h6>
+                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">06 JAN, 08:00 AM to 10:00 AM</p>
+                  </div>
+                </div>
+                <div class="timeline-block mb-3">
+                  <span class="timeline-step">
+                    <i class="material-icons text-danger text-gradient">code</i>
+                  </span>
+                  <div class="timeline-content">
+                    <h6 class="text-dark text-sm font-weight-bold mb-0">Registration</h6>
+                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">06 JAN, 09:00 AM to 12:00 AM</p>
+                  </div>
+                </div>
+                <div class="timeline-block mb-3">
+                  <span class="timeline-step">
+                    <i class="material-icons text-info text-gradient">shopping_cart</i>
+                  </span>
+                  <div class="timeline-content">
+                    <h6 class="text-dark text-sm font-weight-bold mb-0">Director's Lunch</h6>
+                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">06 JAN, 12:00 PM to 01:30 PM</p>
+                  </div>
+                </div>
+                <div class="timeline-block mb-3">
+                  <span class="timeline-step">
+                    <i class="material-icons text-warning text-gradient">credit_card</i>
+                  </span>
+                  <div class="timeline-content">
+                    <h6 class="text-dark text-sm font-weight-bold mb-0">Institute Function</h6>
+                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">06 JAN, 01:30 PM to 03:30 PM<</p>
+                  </div>
+                </div>
+                <div class="timeline-block mb-3">
+                  <span class="timeline-step">
+                    <i class="material-icons text-primary text-gradient">key</i>
+                  </span>
+                  <div class="timeline-content">
+                    <h6 class="text-dark text-sm font-weight-bold mb-0">Department Visit</h6>
+                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">06 JAN, 03:30 PM to 05:30 PM<</p>
+                  </div>
+                </div>
+                <div class="timeline-block mb-3">
+                  <span class="timeline-step">
+                    <i class="material-icons text-dark text-gradient">payments</i>
+                  </span>
+                  <div class="timeline-content">
+                    <h6 class="text-dark text-sm font-weight-bold mb-0">Entertainia</h6>
+                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">06 JAN, 05:30 PM to 08:00 PM<</p>
+                  </div>
+                </div>
 
-      <?php include './edit/personal.php' ?>
-      <?php include './edit/travel.php' ?>
-      <?php include './edit/covid.php' ?>
-      <?php include './edit/accomodation.php' ?>
-      <?php include './edit/work.php' ?>
-      <?php include './edit/nostalgia.php' ?>
-      <?php include './edit/payment.php' ?>    
-      <?php include './edit/attendee.php' ?> 
-  </main>
+                <div class="timeline-block mb-3">
+                  <span class="timeline-step">
+                    <i class="material-icons text-success text-gradient">notifications</i>
+                  </span>
+                  <div class="timeline-content">
+                    <h6 class="text-dark text-sm font-weight-bold mb-0">Dinner</h6>
+                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">06 JAN, 08:00 PM to 09:30 PM<</p>
+                  </div>
+                </div>
+                <div class="timeline-block mb-3">
+                  <span class="timeline-step">
+                    <i class="material-icons text-danger text-gradient">code</i>
+                  </span>
+                  <div class="timeline-content">
+                    <h6 class="text-dark text-sm font-weight-bold mb-0">Hall Visit</h6>
+                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">06 JAN, 09:30 PM to 11:30 PM<</p>
+                  </div>
+                </div>
+                <h6 class="mb-0" style="padding: 1.5rem;">Day 2, 07 January, Saturday</h6>
+                <div class="timeline-block mb-3">
+                  <span class="timeline-step">
+                    <i class="material-icons text-info text-gradient">shopping_cart</i>
+                  </span>
+                  <div class="timeline-content">
+                    <h6 class="text-dark text-sm font-weight-bold mb-0">Breakfast</h6>
+                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">07 JAN, 08:00 AM to 09:30 AM</p>
+                  </div>
+                </div>
+                <div class="timeline-block mb-3">
+                  <span class="timeline-step">
+                    <i class="material-icons text-warning text-gradient">credit_card</i>
+                  </span>
+                  <div class="timeline-content">
+                    <h6 class="text-dark text-sm font-weight-bold mb-0">Campus Tour</h6>
+                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">07 JAN, 09:30 AM to 12:00 AM</p>
+                  </div>
+                </div>
+                <div class="timeline-block mb-3">
+                  <span class="timeline-step">
+                    <i class="material-icons text-primary text-gradient">key</i>
+                  </span>
+                  <div class="timeline-content">
+                    <h6 class="text-dark text-sm font-weight-bold mb-0">Classroom Unveiling</h6>
+                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">07 JAN, 12:00 PM to 01:30 PM</p>
+                  </div>
+                </div>
+                <div class="timeline-block">
+                  <span class="timeline-step">
+                    <i class="material-icons text-dark text-gradient">payments</i>
+                  </span>
+                  <div class="timeline-content">
+                    <h6 class="text-dark text-sm font-weight-bold mb-0">Lunch</h6>
+                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">07 JAN, 01:30 PM to 03:00 PM</p>
+                  </div>
+                </div>
 
-  <footer class="footer">
-    <p><span class="footer__copyright">&copy;</span> 2022 Students' Alumni Cell</p>
-  </footer>
+                <div class="timeline-block mb-3">
+                  <span class="timeline-step">
+                    <i class="material-icons text-success text-gradient">notifications</i>
+                  </span>
+                  <div class="timeline-content">
+                    <h6 class="text-dark text-sm font-weight-bold mb-0">Free Time/Networking Snacks</h6>
+                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">07 JAN, 03:00 PM to 05:00 PM</p>
+                  </div>
+                </div>
+                <div class="timeline-block mb-3">
+                  <span class="timeline-step">
+                    <i class="material-icons text-danger text-gradient">code</i>
+                  </span>
+                  <div class="timeline-content">
+                    <h6 class="text-dark text-sm font-weight-bold mb-0">Musical Night</h6>
+                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">07 JAN, 05:00 PM to 06:30 PM</p>
+                  </div>
+                </div>
+                </hr>
+                <div class="timeline-block mb-3">
+                  <span class="timeline-step">
+                    <i class="material-icons text-info text-gradient">shopping_cart</i>
+                  </span>
+                  <div class="timeline-content">
+                    <h6 class="text-dark text-sm font-weight-bold mb-0">Illumination</h6>
+                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">07 JAN, 07:00 PM to 08:00 PM</p>
+                  </div>
+                </div>
+                <div class="timeline-block mb-3">
+                  <span class="timeline-step">
+                    <i class="material-icons text-warning text-gradient">credit_card</i>
+                  </span>
+                  <div class="timeline-content">
+                    <h6 class="text-dark text-sm font-weight-bold mb-0">Gala Dinner with Dj, Bonfire</h6>
+                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">07 JAN, 08:00 PM to 10:00 PM</p>
+                  </div>
+                </div>
+                <h6 class="mb-0" style="padding: 1.5rem;">Day 3, 08 January, Sunday</h6>
+                <div class="timeline-block mb-3">
+                  <span class="timeline-step">
+                    <i class="material-icons text-primary text-gradient">key</i>
+                  </span>
+                  <div class="timeline-content">
+                    <h6 class="text-dark text-sm font-weight-bold mb-0">2.2 Marathon</h6>
+                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">08 JAN, 07:00 AM to 08:15 AM</p>
+                  </div>
+                </div>
+                <div class="timeline-block">
+                  <span class="timeline-step">
+                    <i class="material-icons text-dark text-gradient">payments</i>
+                  </span>
+                  <div class="timeline-content">
+                    <h6 class="text-dark text-sm font-weight-bold mb-0">Breakfast</h6>
+                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">08 JAN, 08:00 AM to 09:30 AM</p>
+                  </div>
+                </div>
+                <div class="timeline-block mb-3">
+                  <span class="timeline-step">
+                    <i class="material-icons text-primary text-gradient">key</i>
+                  </span>
+                  <div class="timeline-content">
+                    <h6 class="text-dark text-sm font-weight-bold mb-0">Closing Ceremony</h6>
+                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">08 JAN, 10:00 AM to 12:00 AM</p>
+                  </div>
+                </div>
+                <div class="timeline-block">
+                  <span class="timeline-step">
+                    <i class="material-icons text-dark text-gradient">payments</i>
+                  </span>
+                  <div class="timeline-content">
+                    <h6 class="text-dark text-sm font-weight-bold mb-0">Lunch</h6>
+                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">08 JAN, 12:00 PM to 02:00 PM</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+
+<div class="row">
+  <div class="col-12">
+    <div id="globe" class="position-absolute end-0 top-10 mt-sm-3 mt-7 me-lg-7">
+      <canvas width="700" height="600" class="w-lg-100 h-lg-100 w-75 h-75 me-lg-0 me-n10 mt-lg-5"></canvas>
+    </div>
+  </div>
 </div>
+
+
+                <footer class="footer py-4  ">
+  <div class="container-fluid">
+    <div class="row align-items-center justify-content-lg-between">
+      <div class="col-lg-6 mb-lg-0 mb-4">
+        <div class="copyright text-center text-sm text-muted text-lg-start">
+          © <script>
+            document.write(new Date().getFullYear())
+          </script>,
+          <a href="" class="font-weight-bold" target="_blank">Students' Alumni Cell</a>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+
+            </div>
+
+         
+       </main>
+    
+
+      
+          <div class="fixed-plugin">
+    <a class="fixed-plugin-button text-dark position-fixed px-3 py-2">
+      <i class="material-icons py-2">settings</i>
+    </a>
+    <div class="card shadow-lg">
+      <div class="card-header pb-0 pt-3">
+        <div class="float-start">
+          
+        </div>
+        <div class="float-end mt-4">
+          <button class="btn btn-link text-dark p-0 fixed-plugin-close-button">
+            <i class="material-icons">clear</i>
+          </button>
+        </div>
+        <!-- End Toggle Button -->
+      </div>
+      <hr class="horizontal dark my-1">
+      <div class="card-body pt-sm-3 pt-0">
+        <!-- Sidebar Backgrounds -->
+        <div>
+          <h6 class="mb-0">Sidebar Colors</h6>
+        </div>
+        <a href="javascript:void(0)" class="switch-trigger background-color">
+          <div class="badge-colors my-2 text-start">
+            <span class="badge filter bg-gradient-primary active" data-color="primary" onclick="sidebarColor(this)"></span>
+            <span class="badge filter bg-gradient-dark" data-color="dark" onclick="sidebarColor(this)"></span>
+            <span class="badge filter bg-gradient-info" data-color="info" onclick="sidebarColor(this)"></span>
+            <span class="badge filter bg-gradient-success" data-color="success" onclick="sidebarColor(this)"></span>
+            <span class="badge filter bg-gradient-warning" data-color="warning" onclick="sidebarColor(this)"></span>
+            <span class="badge filter bg-gradient-danger" data-color="danger" onclick="sidebarColor(this)"></span>
+          </div>
+        </a>
+
+        <!-- Sidenav Type -->
+        
+        <div class="mt-3">
+          <h6 class="mb-0">Sidenav Type</h6>
+          <p class="text-sm">Choose between 2 different sidenav types.</p>
+        </div>
+
+        <div class="d-flex">
+          <button class="btn bg-gradient-dark px-3 mb-2 active" data-class="bg-gradient-dark" onclick="sidebarType(this)">Dark</button>
+          <button class="btn bg-gradient-dark px-3 mb-2 ms-2" data-class="bg-transparent" onclick="sidebarType(this)">Transparent</button>
+          <button class="btn bg-gradient-dark px-3 mb-2 ms-2" data-class="bg-white" onclick="sidebarType(this)">White</button>
+        </div>
+
+        <p class="text-sm d-xl-none d-block mt-2">You can change the sidenav type just on desktop view.</p>
+        
+
+        <!-- Navbar Fixed -->
+        
+        <div class="mt-3 d-flex">
+          <h6 class="mb-0">Navbar Fixed</h6>
+          <div class="form-check form-switch ps-0 ms-auto my-auto">
+            <input class="form-check-input mt-1 ms-auto" type="checkbox" id="navbarFixed" onclick="navbarFixed(this)">
+          </div>
+        </div>
+        
+
+        
+        <hr class="horizontal dark my-3">
+        <div class="mt-2 d-flex">
+          <h6 class="mb-0">Light / Dark</h6>
+          <div class="form-check form-switch ps-0 ms-auto my-auto">
+            <input class="form-check-input mt-1 ms-auto" type="checkbox" id="dark-version" onclick="darkMode(this)">
+          </div>
+        </div>
+        <hr class="horizontal dark my-sm-4">
+          
+        </div>
+      </div>
+    </div>
+</div>
+
+<!--   Core JS Files   -->
+<script src="./assets/js/core/popper.min.js" ></script>
+<script src="./assets/js/core/bootstrap.min.js" ></script>
+<script src="./assets/js/plugins/perfect-scrollbar.min.js" ></script>
+<script src="./assets/js/plugins/smooth-scrollbar.min.js" ></script>
+
 <script>
-/* Scripts for css grid dashboard */
-
-$(document).ready(() => {
-  addResizeListeners();
-  setSidenavListeners();
-  setUserDropdownListener();
-  setMenuClickListener();
-  setSidenavCloseListener();
-});
-
-// Set constants and grab needed elements
-const sidenavEl = $('.sidenav');
-const gridEl = $('.grid');
-const SIDENAV_ACTIVE_CLASS = 'sidenav--active';
-const GRID_NO_SCROLL_CLASS = 'grid--noscroll';
-
-function toggleClass(el, className) {
-  if (el.hasClass(className)) {
-    el.removeClass(className);
-  } else {
-    el.addClass(className);
-  }
-}
-
-// User avatar dropdown functionality
-function setUserDropdownListener() {
-  const userAvatar = $('.header__avatar');
-
-  userAvatar.on('click', function(e) {
-    const dropdown = $(this).children('.dropdown');
-    toggleClass(dropdown, 'dropdown--active');
-  });
-}
-
-// Sidenav list sliding functionality
-function setSidenavListeners() {
-  const subHeadings = $('.navList__subheading'); console.log('subHeadings: ', subHeadings);
-  const SUBHEADING_OPEN_CLASS = 'navList__subheading--open';
-  const SUBLIST_HIDDEN_CLASS = 'subList--hidden';
-
-  subHeadings.each((i, subHeadingEl) => {
-    $(subHeadingEl).on('click', (e) => {
-      const subListEl = $(subHeadingEl).siblings();
-
-      // Add/remove selected styles to list category heading
-      if (subHeadingEl) {
-        toggleClass($(subHeadingEl), SUBHEADING_OPEN_CLASS);
-      }
-
-      // Reveal/hide the sublist
-      if (subListEl && subListEl.length === 1) {
-        toggleClass($(subListEl), SUBLIST_HIDDEN_CLASS);
-      }
-    });
-  });
-}
-
-function toggleClass(el, className) {
-  if (el.hasClass(className)) {
-    el.removeClass(className);
-  } else {
-    el.addClass(className);
-  }
-}
-
-// If user opens the menu and then expands the viewport from mobile size without closing the menu,
-// make sure scrolling is enabled again and that sidenav active class is removed
-function addResizeListeners() {
-  $(window).resize(function(e) {
-    const width = window.innerWidth;
-
-    if (width > 750) {
-      sidenavEl.removeClass(SIDENAV_ACTIVE_CLASS);
-      gridEl.removeClass(GRID_NO_SCROLL_CLASS);
+  var win = navigator.platform.indexOf('Win') > -1;
+  if (win && document.querySelector('#sidenav-scrollbar')) {
+    var options = {
+      damping: '0.5'
     }
-  });
-}
+    Scrollbar.init(document.querySelector('#sidenav-scrollbar'), options);
+  }
 
-// Menu open sidenav icon, shown only on mobile
-function setMenuClickListener() {
-  $('.header__menu').on('click', function(e) { console.log('clicked menu icon');
-    toggleClass(sidenavEl, SIDENAV_ACTIVE_CLASS);
-    toggleClass(gridEl, GRID_NO_SCROLL_CLASS);
-  });
-}
-
-// Sidenav close icon
-function setSidenavCloseListener() {
-  $('.sidenav__brand-close').on('click', function(e) {
-    toggleClass(sidenavEl, SIDENAV_ACTIVE_CLASS);
-    toggleClass(gridEl, GRID_NO_SCROLL_CLASS);
-  });
-}
-
-    const prof1 = document.getElementsByClassName('prof1')[0];
+  const prof1 = document.getElementsByClassName('prof1')[0];
     const prof2 = document.getElementsByClassName('prof2')[0];
     const prof3 = document.getElementsByClassName('prof3')[0];
     const prof4 = document.getElementsByClassName('prof4')[0];
@@ -328,6 +630,11 @@ function setSidenavCloseListener() {
     const prof6 = document.getElementsByClassName('prof6')[0];
     const prof7 = document.getElementsByClassName('prof7')[0];
     const prof8 = document.getElementsByClassName('prof8')[0];
+    const prof9 = document.getElementsByClassName('prof9')[0];
+    const prof10 = document.getElementsByClassName('prof10')[0];
+    const prof11 = document.getElementsByClassName('prof11')[0];
+    const prof12 = document.getElementsByClassName('prof12')[0];
+    const prof13 = document.getElementsByClassName('prof13')[0];
 
 
     function personal() {
@@ -337,15 +644,14 @@ function setSidenavCloseListener() {
         document.getElementsByClassName('prof4')[0].style.display = "none";
         document.getElementsByClassName('prof5')[0].style.display = "none";
         document.getElementsByClassName('prof6')[0].style.display = "none";
-        prof7.style.display = "none";
-        prof8.style.display = "none";
+        document.getElementsByClassName('prof7')[0].style.display = "none";
+        document.getElementsByClassName('prof8')[0].style.display = "none";
+        document.getElementsByClassName('prof9')[0].style.display = "none";
+        document.getElementsByClassName('prof10')[0].style.display = "none";
+        document.getElementsByClassName('prof11')[0].style.display = "none";
+        document.getElementsByClassName('prof12')[0].style.display = "none";
+        document.getElementsByClassName('prof13')[0].style.display = "none";
 
-        document.getElementById("personal").style.color = "#4169e1";
-        document.getElementById("work").style.color    = "white";
-        document.getElementById("nostalg").style.color = "white";
-       // document.getElementById("covid").style.color   = "white";
-        document.getElementById("accomod").style.color = "white";
-        document.getElementById("travel").style.color  = "white";
     }
 
     function travel() {
@@ -357,13 +663,11 @@ function setSidenavCloseListener() {
         document.getElementsByClassName('prof6')[0].style.display = "none";
         prof7.style.display = "none";
         prof8.style.display = "none";
-
-        document.getElementById("personal").style.color = "white";
-        document.getElementById("work").style.color     = "white";
-        document.getElementById("nostalg").style.color  = "white";
-       // document.getElementById("covid").style.color    = "white";
-        document.getElementById("accomod").style.color  = "white";
-        document.getElementById("travel").style.color   = "#4169e1";
+        prof9.style.display = "none";
+        prof10.style.display = "none";
+        prof11.style.display = "none";
+        prof12.style.display = "none";
+        prof13.style.display = "none";
     }
 
     function accomod() {
@@ -375,16 +679,15 @@ function setSidenavCloseListener() {
         prof6.style.display = "none";
         prof7.style.display = "none";
         prof8.style.display = "none";
+        prof9.style.display = "none";
+        prof10.style.display = "none";
+        prof11.style.display = "none";
+        prof12.style.display = "none";
+        prof13.style.display = "none";
 
-        document.getElementById("personal").style.color = "white";
-        document.getElementById("work").style.color     = "white";
-        document.getElementById("nostalg").style.color  = "white";
-        //document.getElementById("covid").style.color    = "white";
-        document.getElementById("accomod").style.color = "#4169e1";
-        document.getElementById("travel").style.color  = "white";
     }
 
-    function covid() {
+    /*function covid() {
         prof1.style.display = "none";
         prof2.style.display = "none";
         prof3.style.display = "none";
@@ -393,16 +696,25 @@ function setSidenavCloseListener() {
         prof6.style.display = "none";
         prof7.style.display = "none";
         prof8.style.display = "none";
-
-        document.getElementById("personal").style.color = "white";
-        document.getElementById("work").style.color     = "white";
-        document.getElementById("nostalg").style.color  = "white";
-        document.getElementById("covid").style.color = "#4169e1";
-        document.getElementById("accomod").style.color = "white";
-        document.getElementById("travel").style.color  = "white";
-    }
+    }*/
 
     function work() {
+        prof1.style.display = "none";
+        prof2.style.display = "none";
+        prof3.style.display = "none";
+        prof4.style.display = "block";
+        prof5.style.display = "none";
+        prof6.style.display = "none";
+        prof7.style.display = "none";
+        prof8.style.display = "none";
+        prof9.style.display = "none";
+        prof10.style.display = "none";
+        prof11.style.display = "none";
+        prof12.style.display = "none";
+        prof13.style.display = "none";
+    }
+
+    function nostalg() {
         prof1.style.display = "none";
         prof2.style.display = "none";
         prof3.style.display = "none";
@@ -411,31 +723,11 @@ function setSidenavCloseListener() {
         prof6.style.display = "none";
         prof7.style.display = "none";
         prof8.style.display = "none";
-
-        document.getElementById("personal").style.color = "white";
-        document.getElementById("work").style.color = "#4169e1";
-        document.getElementById("nostalg").style.color = "white";
-       // document.getElementById("covid").style.color   = "white";
-        document.getElementById("accomod").style.color = "white";
-        document.getElementById("travel").style.color  = "white";
-    }
-
-    function nostalg() {
-        prof1.style.display = "none";
-        prof2.style.display = "none";
-        prof3.style.display = "none";
-        prof4.style.display = "none";
-        prof5.style.display = "none";
-        prof6.style.display = "block";
-        prof7.style.display = "none";
-        prof8.style.display = "none";
-
-        document.getElementById("personal").style.color = "white";
-        document.getElementById("work").style.color     = "white";
-        document.getElementById("nostalg").style.color = "#4169e1";
-       // document.getElementById("covid").style.color   = "white";
-        document.getElementById("accomod").style.color = "white";
-        document.getElementById("travel").style.color  = "white";
+        prof9.style.display = "none";
+        prof10.style.display = "none";
+        prof11.style.display = "none";
+        prof12.style.display = "none";
+        prof13.style.display = "none";
     }
 
     function payment() {
@@ -444,16 +736,14 @@ function setSidenavCloseListener() {
         prof3.style.display = "none";
         prof4.style.display = "none";
         prof5.style.display = "none";
-        prof6.style.display = "none";
-        prof7.style.display = "block";
+        prof6.style.display = "block";
+        prof7.style.display = "none";
         prof8.style.display = "none";
-
-        document.getElementById("personal").style.color = "white";
-        document.getElementById("work").style.color     = "white";
-        document.getElementById("nostalg").style.color  = "white";
-        //document.getElementById("covid").style.color    = "white";
-        document.getElementById("accomod").style.color  = "white";
-        document.getElementById("travel").style.color   = "white";
+        prof9.style.display = "none";
+        prof10.style.display = "none";
+        prof11.style.display = "none";
+        prof12.style.display = "none";
+        prof13.style.display = "none";
     }
 
     function attendee() {
@@ -463,15 +753,109 @@ function setSidenavCloseListener() {
         prof4.style.display = "none";
         prof5.style.display = "none";
         prof6.style.display = "none";
+        prof7.style.display = "block";
+        prof8.style.display = "none";
+        prof9.style.display = "none";
+        prof10.style.display = "none";
+        prof11.style.display = "none";
+        prof12.style.display = "none";
+        prof13.style.display = "none";
+
+    }
+
+    function edit_personal() {
+        prof1.style.display = "none";
+        prof2.style.display = "none";
+        prof3.style.display = "none";
+        prof4.style.display = "none";
+        prof5.style.display = "none";
+        prof6.style.display = "none";
         prof7.style.display = "none";
         prof8.style.display = "block";
+        prof9.style.display = "none";
+        prof10.style.display = "none";
+        prof11.style.display = "none";
+        prof12.style.display = "none";
+        prof13.style.display = "none";
+    }
+    function edit_travel() {
+        prof1.style.display = "none";
+        prof2.style.display = "none";
+        prof3.style.display = "none";
+        prof4.style.display = "none";
+        prof5.style.display = "none";
+        prof6.style.display = "none";
+        prof7.style.display = "none";
+        prof8.style.display = "none";
+        prof9.style.display = "block";
+        prof10.style.display = "none";
+        prof11.style.display = "none";
+        prof12.style.display = "none";
+        prof13.style.display = "none";
+    }
 
-        document.getElementById("personal").style.color = "white";
-        document.getElementById("work").style.color     = "white";
-        document.getElementById("nostalg").style.color  = "white";
-       // document.getElementById("covid").style.color    = "white";
-        document.getElementById("accomod").style.color  = "white";
-        document.getElementById("travel").style.color   = "white";
+    function edit_accomod() {
+        prof1.style.display = "none";
+        prof2.style.display = "none";
+        prof3.style.display = "none";
+        prof4.style.display = "none";
+        prof5.style.display = "none";
+        prof6.style.display = "none";
+        prof7.style.display = "none";
+        prof8.style.display = "none";
+        prof9.style.display = "none";
+        prof10.style.display = "block";
+        prof11.style.display = "none";
+        prof12.style.display = "none";
+        prof13.style.display = "none";
+    }
+
+    function edit_work() {
+        prof1.style.display = "none";
+        prof2.style.display = "none";
+        prof3.style.display = "none";
+        prof4.style.display = "none";
+        prof5.style.display = "none";
+        prof6.style.display = "none";
+        prof7.style.display = "none";
+        prof8.style.display = "none";
+        prof9.style.display = "none";
+        prof10.style.display = "none";
+        prof11.style.display = "block";
+        prof12.style.display = "none";
+        prof13.style.display = "none";
+    }
+
+    function edit_nostalg() {
+        prof1.style.display = "none";
+        prof2.style.display = "none";
+        prof3.style.display = "none";
+        prof4.style.display = "none";
+        prof5.style.display = "none";
+        prof6.style.display = "none";
+        prof7.style.display = "none";
+        prof8.style.display = "none";
+        prof9.style.display = "none";
+        prof10.style.display = "none";
+        prof11.style.display = "none";
+        prof12.style.display = "block";
+        prof13.style.display = "none";
+    }
+
+    function yoy() {
+        prof1.style.display = "none";
+        prof2.style.display = "none";
+        prof3.style.display = "none";
+        prof4.style.display = "none";
+        prof5.style.display = "none";
+        prof6.style.display = "none";
+        prof7.style.display = "none";
+        prof8.style.display = "none";
+        prof9.style.display = "none";
+        prof10.style.display = "none";
+        prof11.style.display = "none";
+        prof12.style.display = "none";
+        prof13.style.display = "block";
     }
 
     personal();
@@ -495,7 +879,7 @@ function setSidenavCloseListener() {
            //console.log(cost);
        }
 
-    function emp()
+function emp()
 {
 
   document.getElementById("serial").style.display = "none";
@@ -519,7 +903,13 @@ function setSidenavCloseListener() {
   calc_cost();
 }
 emp();
-
 </script>
-</body>
+
+
+<!-- Github buttons -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc --><script src="./assets/js/material-dashboard.min.js?v=3.0.4"></script>
+  </body>
+
 </html>

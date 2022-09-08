@@ -45,7 +45,7 @@ if( $query_run = mysqli_query($connection, $query) ){
   <?php include 'navbar.php';?>
   <style type="text/css">
     body {
-      background-color: #666s
+      background-color: #666;
     }
     #intro{
       line-height: 40px;

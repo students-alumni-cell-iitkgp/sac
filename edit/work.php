@@ -1,5 +1,9 @@
-<div class="prof5" id = "prof5" style = "margin: 40px;margin-top:0px; padding:30px">
-<form action="backend\work.php" method = "post" enctype="multipart/form-data" onSubmit="window.location.reload()" >
+<div class="card prof11">
+  <div class="card-header pb-0 px-3">
+    <h6 class="mb-0">Work Details</h6>
+  </div>
+  <div class="card-body pt-4 p-3">
+  <form action="backend\work.php" method = "post" enctype="multipart/form-data" onSubmit="window.location.reload()" >
 
 <div class = "row">
     <div class="form-group col-sm-6">
@@ -57,4 +61,5 @@
         <div class="col-1"><button id="submit" class="btn btn-primary" type = "submit">Save</button></div>
         </div>
 </form>
+  </div>
 </div>
