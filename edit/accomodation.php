@@ -1,5 +1,9 @@
-<div class="prof3" id = "prof3" style = "margin: 40px;margin-top:0px; padding:30px">
-<form action="backend\accomodation.php" method = "post" enctype="multipart/form-data" onSubmit="window.location.reload()" >
+<div class="card prof10">
+  <div class="card-header pb-0 px-3">
+    <h6 class="mb-0">Accomodation</h6>
+  </div>
+  <div class="card-body pt-4 p-3">
+  <form action="backend\accomodation.php" method = "post" enctype="multipart/form-data" onSubmit="window.location.reload()" >
 
 <table class="table table-striped">
             <thead>
@@ -37,8 +41,14 @@
                  <td>Technology Guest House</td>
                  <td>2250</td>
                </tr>
+               <tr>
+                 <th scope="row">2</th>
+                 <td>Sir Ashutosh Mukherjee Hall </td>
+                 <td>5000</td>
+               </tr>
              </tbody>
            </table>
+
 
          <div class="row">
 
@@ -83,4 +93,5 @@
         <div class="col-1"><button id="submit" class="btn btn-primary" type = "submit">Save</button></div>
         </div>
 </form>
+  </div>
 </div>

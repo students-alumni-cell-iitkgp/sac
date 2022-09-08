@@ -1,5 +1,9 @@
-<div class="prof2" id = "prof2" style = "margin: 40px;margin-top:0px; padding:30px">
-<form action="backend\travel.php" method = "post" enctype="multipart/form-data"  >
+<div class="card prof9">
+  <div class="card-header pb-0 px-3">
+    <h6 class="mb-0">Travel Details</h6>
+  </div>
+  <div class="card-body pt-4 p-3">
+  <form action="backend\travel.php" method = "post" enctype="multipart/form-data"  >
 
 <div class = "row">
     <div class="form-group col-12">
@@ -129,4 +133,5 @@
         <div class="col-1"><button id="submit" class="btn btn-primary" type = "submit">Save</button></div>
         </div>
 </form>
+  </div>
 </div>
