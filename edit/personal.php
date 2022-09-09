@@ -1,3 +1,9 @@
+<style>
+    .form-control{
+        padding-left:5px !important;
+    }
+</style>
+
 <div class="card prof8">
   <div class="card-header pb-0 px-3">
     <h6 class="mb-0">Personal Information</h6>
