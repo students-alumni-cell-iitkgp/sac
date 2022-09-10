@@ -16,9 +16,9 @@
              <tbody>
                <tr>
                 <div class="row">
-                  <th scope="row" class="col-1">1</th>
-                  <td class="col-7">Per Alumnus/Alumna</td>
-                  <td class="col-4">8000</td>
+                  <th scope="row">1</th>
+                  <td>Per Alumnus/Alumna</td>
+                  <td>8000</td>
                 </div>
                 
                </tr>
