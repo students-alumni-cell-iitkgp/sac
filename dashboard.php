@@ -278,7 +278,7 @@
 
 <!-- End Navbar -->
 
-<div class="row">
+<div class="row" style="padding-left:1px">
         <div class="col-md-7 mt-4">
         <?php include './show/personal.php' ?>
         <?php include './show/travel.php' ?>
