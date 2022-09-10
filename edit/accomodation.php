@@ -15,9 +15,9 @@
             </thead>
              <tbody>
                <tr>
-                 <th scope="row">1</th>
-                 <td>Per Alumnus/Alumna</td>
-                 <td>8000</td>
+                  <th scope="row">1</th>
+                  <td>Per Alumnus/Alumna</td>
+                  <td>8000</td>
                </tr>
                <tr>
                  <th scope="row">2</th>
