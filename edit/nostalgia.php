@@ -103,7 +103,7 @@
 		   <input class="form-control" type="number" min="1951" max="2020" id="join" name="yoj" maxlength="10" value = "<?php echo "$yoj"?>">
 	   </div>
 	   <div class="form-group col-sm-6">
-		   <label for="yog">Year of Graduating <span style="color:red;">*</span></label>
+		   <label for="yog">Year of Graduation <span style="color:red;">*</span></label>
 		   <input class="form-control" type="number" min="1955" max="2020" id="yog" name="yog" maxlength="10" value = "<?php echo "$yog"?>">
 	   </div>
 	   </div>

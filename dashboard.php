@@ -97,6 +97,20 @@
 
 <link id="pagestyle" href="./assets/css/material-dashboard.css?v=3.0.4" rel="stylesheet" />
 
+<style>
+   .prof8,
+   .prof9,
+   .prof10,
+   .prof11,
+   .prof12,
+   .prof13{
+      display: none;
+   }
+
+input{
+  z-index: 10;
+}
+</style>
   </head>
 
   <body class="g-sidenav-show  bg-gray-100">
@@ -183,7 +197,7 @@
 
   
 <li class="nav-item">
-  <a class="nav-link text-white " onclick="nostalg()">
+  <a class="nav-link text-white " onclick="yoy()">
     
       <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
         <i class="material-icons opacity-10">style</i>
@@ -195,7 +209,7 @@
 
  
 <li class="nav-item">
-  <a class="nav-link text-white " href="http://alumni.iitkgp.ac.in/AlumniIITKGP/GoThroughCampaign/?camp_id=46&purpose=readmore" target="_blank">
+  <a class="nav-link text-white " href="http://alumni.iitkgp.ac.in/giving_back" target="_blank">
     
       <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
         <i class="material-icons opacity-10">apartment</i>
@@ -257,7 +271,7 @@
           </a>
         </li>
         <li class="nav-item px-3 d-flex align-items-center">
-          <a href="javascript:;" class="nav-link text-body p-0">
+          <a onclick="attendee()" class="nav-link text-body p-0">
             <i class="fa fa-users fixed-plugin-button-nav cursor-pointer"></i>
           </a>
         </li>
@@ -267,7 +281,7 @@
           </a>
         </li>
         <li class="nav-item dropdown pe-2 d-flex align-items-center">
-          <a href="javascript:;" class="nav-link text-body p-0" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+          <a href="utility/logout2.php" class="nav-link text-body p-0">
             <i class="fa fa-sign-out cursor-pointer"></i>
           </a>
         </li>
@@ -533,7 +547,7 @@
     
 
       
-          <div class="fixed-plugin">
+       <!--   <div class="fixed-plugin">
     <a class="fixed-plugin-button text-dark position-fixed px-3 py-2">
       <i class="material-icons py-2">settings</i>
     </a>
@@ -547,11 +561,11 @@
             <i class="material-icons">clear</i>
           </button>
         </div>
-        <!-- End Toggle Button -->
+       <!-- End Toggle Button
       </div>
       <hr class="horizontal dark my-1">
       <div class="card-body pt-sm-3 pt-0">
-        <!-- Sidebar Backgrounds -->
+        <!-- Sidebar Backgrounds
         <div>
           <h6 class="mb-0">Sidebar Colors</h6>
         </div>
@@ -566,7 +580,7 @@
           </div>
         </a>
 
-        <!-- Sidenav Type -->
+        <!-- Sidenav Type
         
         <div class="mt-3">
           <h6 class="mb-0">Sidenav Type</h6>
@@ -582,7 +596,7 @@
         <p class="text-sm d-xl-none d-block mt-2">You can change the sidenav type just on desktop view.</p>
         
 
-        <!-- Navbar Fixed -->
+        <!-- Navbar Fixed
         
         <div class="mt-3 d-flex">
           <h6 class="mb-0">Navbar Fixed</h6>
@@ -605,7 +619,7 @@
         </div>
       </div>
     </div>
-</div>
+</div>-->
 
 <!--   Core JS Files   -->
 <script src="./assets/js/core/popper.min.js" ></script>

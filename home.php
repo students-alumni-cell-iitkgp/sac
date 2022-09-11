@@ -162,7 +162,7 @@ if( $query_run = mysqli_query($connection, $query) ){
       <table>
         <tr>
           <th style="height: 400px"><img src="img/vr_dashboard.jpg" style="height:750px"></th>
-          <th id="profile" style="background-color:white;width 40%; height : 230px; margin-top:300px">
+          <th id="profile" style="background-color:white;width: 40%; height : 230px; margin-top:300px">
           <div class="col l5 m12 s12" id="intro">
           <div class="card-panel teal lighten-5 " style="width: 50%;text-align: 60px;">
             <div class="row">

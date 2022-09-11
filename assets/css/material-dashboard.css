@@ -19873,7 +19873,9 @@ label,
 }
 
 .form-control {
-    border: none;
+    /* border: none;*/
+    border-top: white;
+    border-bottom: #125688;
 }
 
 .form-control.is-invalid {
@@ -22803,7 +22805,7 @@ body:not(.dark-version) .sidenav.bg-transparent .collapse .nav-item .nav-link.ac
 }
 
 .table thead th {
-    padding: 0.75rem 1.5rem;
+    /*padding: 0.75rem 1.5rem;*/
     text-transform: capitalize;
     letter-spacing: 0px;
     border-bottom: 1px solid #f0f2f5;

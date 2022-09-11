@@ -68,7 +68,7 @@
 
     <div class = "row">
     <div class="form-group col-sm-6">
-        <label for="cab">Do you need a cab from the above chosen location?<span style="color:red;">*</span>: <span style="color:green;font-weight:bold"><?php echo "$cab"?></span></label>
+        <label for="cab">Do you need a cab from the above location?<span style="color:red;">*</span>: <span style="color:green;font-weight:bold"><?php echo "$cab"?></span></label>
         <div class="input-group mb-3">
             <select  class="form-control form-select" type="list" id="cab" name="cab" value = "<?php echo "$cab"?>" required>
                 <option value="">---Select---</option> 

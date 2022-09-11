@@ -13,7 +13,6 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </head>
 <body>
-
 <div class = "section1">
 <form action="./backend/signup.php" method = "post" enctype="multipart/form-data" onSubmit="window.location.reload()">
 
@@ -158,6 +157,7 @@
                 <th scope="col">#</th>
                 <th scope="col">Guest House</th>
                 <th scope="col">Cost per person</th>
+                <th scope="col">Rooms Available</th>
               </tr>
             </thead>
              <tbody>
@@ -165,6 +165,13 @@
                  <th scope="row">1</th>
                  <td>Technology Guest House</td>
                  <td>2250</td>
+                 <td>80</td>
+               </tr>
+               <tr>
+                 <th scope="row">2</th>
+                 <td>Sir Ashutosh Mukherjee Hall</td>
+                 <td>1800</td>
+                 <td>20</td>
                </tr>
              </tbody>
            </table>
@@ -189,7 +196,11 @@
 
           <div class = "row" id = "gh" style = "justify-content:center">
           <div class="form-floating mb-3 col-sm-6">
-          <input type="text" class="form-control" name= "gh" id="g" placeholder="TGH" value="TGH" maxlength="100" readonly>
+            <select class="form-select" id = "g" name= "gh" aria-label="Floating label select example" onchange="emp()" required>
+            <option selected value="select">---Select---</option>
+            <option value="TGH">Technology Guest House</option>
+            <option value="SAM">Sir Ashutosh Mukherjee Hall</option>
+            </select>
              <label for="gh">Ghest House<span style="color:red;">*</span></label>
           </div>
         </div>

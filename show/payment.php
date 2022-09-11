@@ -22,9 +22,9 @@
                     </div>
                 </div>
 
-                <div class="row m-3 justify-content-md-between justify-content-around">
-            <div class=" col-3">  <button class="btn btn-primary"> <a href="Utility/get_update.php" style="color:inherit" > Skip for now</a></button></div>   
-            <div class="  col-3">  <button type="submit" id="submit" value = "submit" class="btn btn-primary">Submit</button></div>
+               <div class="row m-3 justify-content-md-between justify-content-around">
+               <div class=" col-3">  <button class="btn btn-primary"> <a href="Utility/get_update.php" style="color:inherit" > Skip for now</a></button></div>   
+               <div class="  col-3">  <button type="submit" id="submit" value = "submit" class="btn btn-primary">Submit</button></div>
             </div>
             </div>
         </div>

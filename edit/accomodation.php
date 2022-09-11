@@ -1,3 +1,27 @@
+<?php
+require './config.php';
+$database = 'aam';
+   
+  
+    $s = "SELECT * FROM acco" ;
+    $stmt=$GLOBALS["conn"]->prepare($s);
+    $stmt->execute();
+
+    $avs = $stmt->fetchAll();
+    
+      
+    foreach($avs as $a) {         
+        if(($a['name'] === 'TGH')) {
+             $av_tgh = $a['av'];
+        }
+        else if(($a['name'] === 'SAM')) {
+          $av_sam = $a['av'];
+     }
+    }  
+
+  
+?>
+
 <div class="card prof10">
   <div class="card-header pb-0 px-3">
     <h6 class="mb-0">Accomodation</h6>
@@ -8,7 +32,7 @@
 <table class="table table-striped">
             <thead>
               <tr>
-                <th scope="col">#</th>
+                <th scope="col"></th>
                 <th scope="col">Fee</th>
                 <th scope="col">Amount</th>
               </tr>
@@ -30,9 +54,10 @@
            <table class="table table-striped">
             <thead>
               <tr>
-                <th scope="col">#</th>
+                <th scope="col"></th>
                 <th scope="col">Guest House</th>
                 <th scope="col">Cost per person</th>
+                <th scope="col">Rooms Available</th>
               </tr>
             </thead>
              <tbody>
@@ -40,11 +65,13 @@
                  <th scope="row">1</th>
                  <td>Technology Guest House</td>
                  <td>2250</td>
+                 <td><?php echo "$av_tgh"?></td>
                </tr>
                <tr>
                  <th scope="row">2</th>
                  <td>Sir Ashutosh Mukherjee Hall </td>
-                 <td>5000</td>
+                 <td>1800</td>
+                 <td><?php echo "$av_sam"?></td>
                </tr>
              </tbody>
            </table>
@@ -70,8 +97,11 @@
 
           <div class = "row" id = "gh" style = "justify-content:center">
           <div class="form-group mb-3 col-sm-6">
-          <label for="gh">Ghest House<span style="color:red;">*</span></label>
-            <input class="form-control" type="text" name="gh" id="g" value = "<?php echo "$gh"?>" readonly />
+             <label for="gh">Ghest House<span style="color:red;">*</span></label>
+            <select class="form-control form-select" type = "list" id = "g" name= "gh" onchange="emp()" required>
+            <option selected value="select">---Select---</option>
+            <option value="TGH">Technology Guest House</option>
+            <option value="SAM">Sir Ashutosh Mukherjee Hall</option>
             </select>
           </div>
         </div>
