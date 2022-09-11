@@ -131,7 +131,7 @@ include '../config.php';
    
       // target directory 
       $target_dir = "../uploads/"; 
-      $fetch_dir="./uploads/";
+      $fetch_dir="/uploads/";
      
       // uploding file 
       if(move_uploaded_file($file_tmp_name,$target_dir.$em[0].'.'.$ext[1])) 
