@@ -8,6 +8,7 @@ include '../config.php';
         $email = $_SESSION['email'];
         $mobile = $_SESSION['mobile'];
 
+        $em=explode('@',  $email);
         // file name, type, size, temporary name 
         $file_name = $_FILES['pro_pic']['name']; 
         $file_type = $_FILES['pro_pic']['type']; 
@@ -21,10 +22,10 @@ include '../config.php';
         $fetch_dir="./uploads/";
        
         // uploding file 
-        if(move_uploaded_file($file_tmp_name,$target_dir.$mobile.'.'.$ext[1])) 
+        if(move_uploaded_file($file_tmp_name,$target_dir.$em[0].'.'.$ext[1])) 
         { 
 
-          $q = "update `hc` SET `pro_pic` = '$fetch_dir$mobile.$ext[1].' WHERE `email` = '$email'"; 
+          $q = "update `hc` SET `pro_pic` = '$fetch_dir$em[0].$ext[1].' WHERE `email` = '$email'"; 
           $stmt=$GLOBALS["conn"]->prepare($q);
           $result=$stmt->execute();
           

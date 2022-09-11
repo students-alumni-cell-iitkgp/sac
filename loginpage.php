@@ -63,7 +63,7 @@ session_start();
         </form>
         <hr>
         <center><h3 style = "color: #FFEFEF">Or Sign up</h3></center>
-        <a class="submit-btn" href="#" role="button"><center>Sign up - Opening Soon</center></a>
+        <a class="submit-btn" href="signup.php" role="button"><center>Sign up</center></a>
 	</div>
 
 

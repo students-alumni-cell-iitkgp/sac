@@ -38,6 +38,28 @@ require '../config.php';
           </button>
         </div>';
 
+        if($gh == 'TGH')
+        {
+          $sql = "UPDATE `acco` SET `av` = `av`-1 WHERE `name` = 'TGH'";
+          $stmt=$GLOBALS["conn"]->prepare($sql);
+          $result = $stmt->execute();
+
+          $sql = "UPDATE `acco` SET `av` = `av`+1 WHERE `name` = 'SAM'";
+          $stmt=$GLOBALS["conn"]->prepare($sql);
+          $result = $stmt->execute();
+          
+        }
+        else if($gh == 'SAM')
+        {
+          $sql = "UPDATE `acco` SET `av` = `av`-1 WHERE `name` = 'SAM'";
+          $stmt=$GLOBALS["conn"]->prepare($sql);
+          $result = $stmt->execute();
+
+          $sql = "UPDATE `acco` SET `av` = `av`+1 WHERE `name` = 'TGH'";
+          $stmt=$GLOBALS["conn"]->prepare($sql);
+          $result = $stmt->execute();
+        }
+
         echo '<script>alert("updated Successfully")</script>';
         header("Location: ../Utility/get_update.php");
         }
