@@ -339,7 +339,7 @@ input{
                   </span>
                   <div class="timeline-content">
                     <h6 class="text-dark text-sm font-weight-bold mb-0">Registration</h6>
-                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">06 JAN, 09:00 AM to 12:00 AM</p>
+                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">06 JAN, 09:00 AM to 12:00 PM</p>
                   </div>
                 </div>
                 <div class="timeline-block mb-3">
@@ -357,7 +357,7 @@ input{
                   </span>
                   <div class="timeline-content">
                     <h6 class="text-dark text-sm font-weight-bold mb-0">Institute Function</h6>
-                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">06 JAN, 01:30 PM to 03:30 PM<</p>
+                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">06 JAN, 01:30 PM to 03:30 PM</p>
                   </div>
                 </div>
                 <div class="timeline-block mb-3">
@@ -413,7 +413,7 @@ input{
                   </span>
                   <div class="timeline-content">
                     <h6 class="text-dark text-sm font-weight-bold mb-0">Campus Tour</h6>
-                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">07 JAN, 09:30 AM to 12:00 AM</p>
+                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">07 JAN, 09:30 AM to 12:00 PM</p>
                   </div>
                 </div>
                 <div class="timeline-block mb-3">
@@ -498,7 +498,7 @@ input{
                   </span>
                   <div class="timeline-content">
                     <h6 class="text-dark text-sm font-weight-bold mb-0">Closing Ceremony</h6>
-                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">08 JAN, 10:00 AM to 12:00 AM</p>
+                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">08 JAN, 10:00 AM to 12:00 PM</p>
                   </div>
                 </div>
                 <div class="timeline-block mb-3">
