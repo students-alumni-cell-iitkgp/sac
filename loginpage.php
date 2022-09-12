@@ -26,6 +26,10 @@ session_start();
         font-weight: bold;
         font-size: 18px;
     }
+    label{
+        padding: 2px;
+        margin: top 0.5em;
+    }
     @media (max-width:460px){
         h4{
         font-size: 15px;
@@ -56,7 +60,9 @@ session_start();
 		<h2 class="form-title" id="signup">Log in</h2>
         <form action="Utility/signup2.php" method = "post">
 		    <div class="form-holder">
+            <label for="email">Email</label>
             <input type="email" class="input" name="name" id="name" placeholder="Email" class="validate" required />
+            <label for="dob">Date of Birth</label>
             <input class="form-control input" type="date" placeholder="date of Birth" name="dob" required id="dob">
 		    </div>
 		    <button class="submit-btn">Log in</button>

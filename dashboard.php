@@ -256,9 +256,8 @@ input{
       <ul class="navbar-nav  justify-content-end">
         <li class="nav-item d-flex align-items-center">
           <a href="" class="nav-link text-body font-weight-bold px-0">
-          <img src=<?php echo $pro_pic ?> alt="dp" width="30px" height="30px" style="border-radius:100%" />       
+          <img src="<?php echo $pro_pic ?>" alt="dp" width="30px" height="30px" style="border-radius:100%" />       
             <span class="d-sm-inline d-none"><?php echo "$name"?></span>
-            
           </a>
         </li>
         <li class="nav-item d-xl-none ps-3 d-flex align-items-center">
@@ -281,7 +280,7 @@ input{
           </a>
         </li>
         <li class="nav-item dropdown pe-2 d-flex align-items-center">
-          <a href="utility/logout2.php" class="nav-link text-body p-0">
+          <a href="Utility/logout2.php" class="nav-link text-body p-0">
             <i class="fa fa-sign-out cursor-pointer"></i>
           </a>
         </li>
@@ -327,7 +326,7 @@ input{
               <div class="timeline timeline-one-side">
                 <div class="timeline-block mb-3">
                   <span class="timeline-step">
-                    <i class="material-icons text-success text-gradient">notifications</i>
+                    <i class="material-icons text-success text-gradient">restaurant</i>
                   </span>
                   <div class="timeline-content">
                     <h6 class="text-dark text-sm font-weight-bold mb-0">Breakfast</h6>
@@ -336,7 +335,7 @@ input{
                 </div>
                 <div class="timeline-block mb-3">
                   <span class="timeline-step">
-                    <i class="material-icons text-danger text-gradient">code</i>
+                    <i class="material-icons text-danger text-gradient">how_to_reg</i>
                   </span>
                   <div class="timeline-content">
                     <h6 class="text-dark text-sm font-weight-bold mb-0">Registration</h6>
@@ -345,7 +344,7 @@ input{
                 </div>
                 <div class="timeline-block mb-3">
                   <span class="timeline-step">
-                    <i class="material-icons text-info text-gradient">shopping_cart</i>
+                    <i class="material-icons text-info text-gradient">restaurant</i>
                   </span>
                   <div class="timeline-content">
                     <h6 class="text-dark text-sm font-weight-bold mb-0">Director's Lunch</h6>
@@ -354,7 +353,7 @@ input{
                 </div>
                 <div class="timeline-block mb-3">
                   <span class="timeline-step">
-                    <i class="material-icons text-warning text-gradient">credit_card</i>
+                    <i class="material-icons text-warning text-gradient">school</i>
                   </span>
                   <div class="timeline-content">
                     <h6 class="text-dark text-sm font-weight-bold mb-0">Institute Function</h6>
@@ -363,45 +362,45 @@ input{
                 </div>
                 <div class="timeline-block mb-3">
                   <span class="timeline-step">
-                    <i class="material-icons text-primary text-gradient">key</i>
+                    <i class="material-icons text-primary text-gradient">history_edu</i>
                   </span>
                   <div class="timeline-content">
                     <h6 class="text-dark text-sm font-weight-bold mb-0">Department Visit</h6>
-                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">06 JAN, 03:30 PM to 05:30 PM<</p>
+                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">06 JAN, 03:30 PM to 05:30 PM</p>
                   </div>
                 </div>
                 <div class="timeline-block mb-3">
                   <span class="timeline-step">
-                    <i class="material-icons text-dark text-gradient">payments</i>
+                    <i class="material-icons text-dark text-gradient">lyrics</i>
                   </span>
                   <div class="timeline-content">
                     <h6 class="text-dark text-sm font-weight-bold mb-0">Entertainia</h6>
-                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">06 JAN, 05:30 PM to 08:00 PM<</p>
+                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">06 JAN, 05:30 PM to 08:00 PM</p>
                   </div>
                 </div>
 
                 <div class="timeline-block mb-3">
                   <span class="timeline-step">
-                    <i class="material-icons text-success text-gradient">notifications</i>
+                    <i class="material-icons text-success text-gradient">restaurant</i>
                   </span>
                   <div class="timeline-content">
                     <h6 class="text-dark text-sm font-weight-bold mb-0">Dinner</h6>
-                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">06 JAN, 08:00 PM to 09:30 PM<</p>
+                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">06 JAN, 08:00 PM to 09:30 PM</p>
                   </div>
                 </div>
                 <div class="timeline-block mb-3">
                   <span class="timeline-step">
-                    <i class="material-icons text-danger text-gradient">code</i>
+                    <i class="material-icons text-danger text-gradient">grass</i>
                   </span>
                   <div class="timeline-content">
                     <h6 class="text-dark text-sm font-weight-bold mb-0">Hall Visit</h6>
-                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">06 JAN, 09:30 PM to 11:30 PM<</p>
+                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">06 JAN, 09:30 PM to 11:30 PM</p>
                   </div>
                 </div>
                 <h6 class="mb-0" style="padding: 1.5rem;">Day 2, 07 January, Saturday</h6>
                 <div class="timeline-block mb-3">
                   <span class="timeline-step">
-                    <i class="material-icons text-info text-gradient">shopping_cart</i>
+                    <i class="material-icons text-info text-gradient">restaurant</i>
                   </span>
                   <div class="timeline-content">
                     <h6 class="text-dark text-sm font-weight-bold mb-0">Breakfast</h6>
@@ -410,7 +409,7 @@ input{
                 </div>
                 <div class="timeline-block mb-3">
                   <span class="timeline-step">
-                    <i class="material-icons text-warning text-gradient">credit_card</i>
+                    <i class="material-icons text-warning text-gradient">location_on</i>
                   </span>
                   <div class="timeline-content">
                     <h6 class="text-dark text-sm font-weight-bold mb-0">Campus Tour</h6>
@@ -426,9 +425,9 @@ input{
                     <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">07 JAN, 12:00 PM to 01:30 PM</p>
                   </div>
                 </div>
-                <div class="timeline-block">
+                <div class="timeline-block mb-3">
                   <span class="timeline-step">
-                    <i class="material-icons text-dark text-gradient">payments</i>
+                    <i class="material-icons text-dark text-gradient">restaurant</i>
                   </span>
                   <div class="timeline-content">
                     <h6 class="text-dark text-sm font-weight-bold mb-0">Lunch</h6>
@@ -438,16 +437,17 @@ input{
 
                 <div class="timeline-block mb-3">
                   <span class="timeline-step">
-                    <i class="material-icons text-success text-gradient">notifications</i>
+                    <i class="material-icons text-success text-gradient">coffee</i>
                   </span>
                   <div class="timeline-content">
                     <h6 class="text-dark text-sm font-weight-bold mb-0">Free Time/Networking Snacks</h6>
                     <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">07 JAN, 03:00 PM to 05:00 PM</p>
                   </div>
                 </div>
+
                 <div class="timeline-block mb-3">
                   <span class="timeline-step">
-                    <i class="material-icons text-danger text-gradient">code</i>
+                    <i class="material-icons text-danger text-gradient">music_note</i>
                   </span>
                   <div class="timeline-content">
                     <h6 class="text-dark text-sm font-weight-bold mb-0">Musical Night</h6>
@@ -457,7 +457,7 @@ input{
                 </hr>
                 <div class="timeline-block mb-3">
                   <span class="timeline-step">
-                    <i class="material-icons text-info text-gradient">shopping_cart</i>
+                    <i class="material-icons text-info text-gradient">fireplace</i>
                   </span>
                   <div class="timeline-content">
                     <h6 class="text-dark text-sm font-weight-bold mb-0">Illumination</h6>
@@ -466,7 +466,7 @@ input{
                 </div>
                 <div class="timeline-block mb-3">
                   <span class="timeline-step">
-                    <i class="material-icons text-warning text-gradient">credit_card</i>
+                    <i class="material-icons text-warning text-gradient">dinner_dining</i>
                   </span>
                   <div class="timeline-content">
                     <h6 class="text-dark text-sm font-weight-bold mb-0">Gala Dinner with Dj, Bonfire</h6>
@@ -476,16 +476,16 @@ input{
                 <h6 class="mb-0" style="padding: 1.5rem;">Day 3, 08 January, Sunday</h6>
                 <div class="timeline-block mb-3">
                   <span class="timeline-step">
-                    <i class="material-icons text-primary text-gradient">key</i>
+                    <i class="material-icons text-primary text-gradient">directions_run</i>
                   </span>
                   <div class="timeline-content">
                     <h6 class="text-dark text-sm font-weight-bold mb-0">2.2 Marathon</h6>
                     <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">08 JAN, 07:00 AM to 08:15 AM</p>
                   </div>
                 </div>
-                <div class="timeline-block">
+                <div class="timeline-block mb-3">
                   <span class="timeline-step">
-                    <i class="material-icons text-dark text-gradient">payments</i>
+                    <i class="material-icons text-dark text-gradient">restaurant</i>
                   </span>
                   <div class="timeline-content">
                     <h6 class="text-dark text-sm font-weight-bold mb-0">Breakfast</h6>
@@ -494,16 +494,16 @@ input{
                 </div>
                 <div class="timeline-block mb-3">
                   <span class="timeline-step">
-                    <i class="material-icons text-primary text-gradient">key</i>
+                    <i class="material-icons text-primary text-gradient">volunteer_activism</i>
                   </span>
                   <div class="timeline-content">
                     <h6 class="text-dark text-sm font-weight-bold mb-0">Closing Ceremony</h6>
                     <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">08 JAN, 10:00 AM to 12:00 AM</p>
                   </div>
                 </div>
-                <div class="timeline-block">
+                <div class="timeline-block mb-3">
                   <span class="timeline-step">
-                    <i class="material-icons text-dark text-gradient">payments</i>
+                    <i class="material-icons text-dark text-gradient">restaurant</i>
                   </span>
                   <div class="timeline-content">
                     <h6 class="text-dark text-sm font-weight-bold mb-0">Lunch</h6>
@@ -515,16 +515,8 @@ input{
           </div>
       </div>
 
-<div class="row">
-  <div class="col-12">
-    <div id="globe" class="position-absolute end-0 top-10 mt-sm-3 mt-7 me-lg-7">
-      <canvas width="700" height="600" class="w-lg-100 h-lg-100 w-75 h-75 me-lg-0 me-n10 mt-lg-5"></canvas>
-    </div>
-  </div>
-</div>
 
-
-                <footer class="footer py-4  ">
+  <footer class="footer py-4  ">
   <div class="container-fluid">
     <div class="row align-items-center justify-content-lg-between">
       <div class="col-lg-6 mb-lg-0 mb-4">
@@ -876,20 +868,28 @@ input{
 
     function calc_cost(){
            let nguest = document.getElementById("accompaniment").value;
-           //let choice = document.getElementById("g").value;
+           let choice = document.getElementById("g").value;
 
            let e = document.getElementById("employee").value;
            var cost = 0;
            if(e == 0)
            { 
+               if(choice === "TGH"){
                    cost = 2250 + 8000 + 5000*nguest + 2250*nguest;
+               }
+               else if(choice === "SAM"){
+                   cost = 1800 + 8000 + 5000*nguest + 1800*nguest;
+               }
+               else if(choice === "select"){
+                alert("Please Select Guest House");
+               }
            }
            else if(e==1){
                cost =8000 + 5000*nguest;
           }
            //console.log(nguest,choice,e);
           
-           document.getElementById("cost").value ="Total Cost = (₹) "+cost;
+           document.getElementById("cost").value ="Total Cost = "+cost;
            //console.log(cost);
        }
 
@@ -918,7 +918,6 @@ function emp()
 }
 emp();
 </script>
-
 
 <!-- Github buttons -->
 <script async defer src="https://buttons.github.io/buttons.js"></script>
