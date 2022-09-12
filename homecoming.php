@@ -66,7 +66,7 @@
             </p>
 			</div>
 			</div>
-			<a class="btn btn-outline-primary marleft" href="loginpage.php" role="button">HomeComing</a>
+			<!--<a class="btn btn-outline-primary marleft" href="loginpage.php" role="button">HomeComing</a>-->
 
 			</div>
 			<div class="col-md-5">

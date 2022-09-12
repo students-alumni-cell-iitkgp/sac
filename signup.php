@@ -197,8 +197,8 @@
           <div class = "row" id = "gh" style = "justify-content:center">
           <div class="form-floating mb-3 col-sm-6">
             <select class="form-select" id = "g" name= "gh" aria-label="Floating label select example" onchange="emp()" required>
-            <option selected value="select">---Select---</option>
-            <option value="TGH">Technology Guest House</option>
+            <option value="select">---Select---</option>
+            <option selected value="TGH">Technology Guest House</option>
             <option value="SAM">Sir Ashutosh Mukherjee Hall</option>
             </select>
              <label for="gh">Ghest House<span style="color:red;">*</span></label>
@@ -448,22 +448,28 @@ function checkemailAvailability() {
 
 function calc_cost(){
            let nguest = document.getElementById("accompaniment").value;
-          // let choice = document.getElementById("g").value;
+           let choice = document.getElementById("g").value;
 
            let e = document.getElementById("employee").value;
            var cost = 0;
            if(e == 0)
            { 
-               //if(choice === "TGH"){
+               if(choice === "TGH"){
                    cost = 2250 + 8000 + 5000*nguest + 2250*nguest;
-               //}
+               }
+               else if(choice === "SAM"){
+                   cost = 1800 + 8000 + 5000*nguest + 1800*nguest;
+               }
+               else if(choice === "select"){
+                alert("Please Select Guest House");
+               }
            }
            else if(e==1){
                cost =8000 + 5000*nguest;
           }
            //console.log(nguest,choice,e);
           
-           document.getElementById("cost").value ="Total Cost = (₹) "+cost;
+           document.getElementById("cost").value ="Total Cost = "+cost;
            //console.log(cost);
        }
 

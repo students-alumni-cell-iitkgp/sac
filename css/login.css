@@ -82,7 +82,8 @@ body {
 
 .form-structor .signup .form-holder {
     border-radius: 15px;
-    background-color: #D3DEDC;
+    background-color: #7C99AC;
+    color: #FFEFEF;
     overflow: hidden;
     margin-top: 50px;
     opacity: 1;
@@ -100,6 +101,7 @@ body {
     border-bottom: 1px solid #eee;
     width: 100%;
     font-size: 12px;
+    border-radius: 12px;
 }
 
 .form-structor .signup .form-holder .input:last-child {

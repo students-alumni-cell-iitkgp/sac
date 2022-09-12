@@ -6,7 +6,7 @@
     <form action="./backend/photo.php" method = "post" enctype="multipart/form-data" onSubmit="window.location.reload()">
         <label for="username">Update Photo</label>
           <input type="file" id="pro_pic" name="pro_pic" accept=".jpg, .jpeg, .png">          
-          <button id="submit" class="btn btn-sm btn-primary" type = "submit">Save</button>       
+          <button id="submit" class="btn btn-sm btn-primary" type = "submit" style="margin-top:8px">Save</button>       
      </form>
 
     <ul class="list-group">

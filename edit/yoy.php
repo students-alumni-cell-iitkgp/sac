@@ -14,14 +14,20 @@
 
   <div class = "row">
     <div class="form-group col-12">
-    <label for="yoy_pic">Upload Photo</label>
-    <input type="file" id="yoy_pic" name="yoy_pic" accept=".jpg, .jpeg, .png">          
+    <label for="yoy_pic">Upload Photo<span style="color:red;">*</span> </label>
+    <input type="file" id="yoy_pic" name="yoy_pic" accept=".jpg, .jpeg, .png" required>          
     </div>
   </div>     
 
     <div class = "row" style="justify-content:center">
-        <div class="col-1"><button id="submit" class="btn btn-primary" type = "submit">Save</button></div>
+        <div class="col-1"><button id="submit" onclick = "yoym()" class="btn btn-primary" type = "submit">Save</button></div>
         </div>
 </form>      
   </div>
 </div>
+
+<script>
+function yoym() {
+  alert('Success!\nYour entry has been submitted successfully!\nYou can add more photos and stories from same tab!!.....');
+}
+</script>
