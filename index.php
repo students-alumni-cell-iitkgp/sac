@@ -285,7 +285,7 @@
                                                 <h5 class="card-title">Not satisfied with DRDO performance, govt appoints Samir Kamat as new DRDO chief</h5>
                                                 <p class="card-text">According to an order by the Appointments Committee of Cabinet, “Appointment of Samir V. Kamat, Distinguished Scientist and Director General, Naval Systems & Materials as Secretary, Department of Defence Research and Development and Chairman, DRDO.....<br><br><button type="button"
                                                         class="btn btn-outline-primary"><a
-                                                            href="https://www.thebetterindia.com/277821/iit-alumni-app-for-farmers-increase-income-yield-information-krishi-network/"
+                                                            href="https://www.indiatoday.in/india/story/govt-appoints-samir-kamat-as-new-drdo-chief-1992625-2022-08-26"
                                                             target="_blank"
                                                             style="color:white">More...</a></button></p>
                                             </div>
