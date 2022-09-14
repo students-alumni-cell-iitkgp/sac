@@ -157,21 +157,18 @@
                 <th scope="col">#</th>
                 <th scope="col">Guest House</th>
                 <th scope="col">Cost per person</th>
-                <th scope="col">Rooms Available</th>
               </tr>
             </thead>
              <tbody>
                <tr>
                  <th scope="row">1</th>
                  <td>Technology Guest House</td>
-                 <td>2250</td>
-                 <td>80</td>
+                 <td>2550</td>
                </tr>
                <tr>
                  <th scope="row">2</th>
                  <td>Sir Ashutosh Mukherjee Hall</td>
                  <td>1800</td>
-                 <td>20</td>
                </tr>
              </tbody>
            </table>
@@ -455,7 +452,7 @@ function calc_cost(){
            if(e == 0)
            { 
                if(choice === "TGH"){
-                   cost = 2250 + 8000 + 5000*nguest + 2250*nguest;
+                   cost = 2550 + 8000 + 5000*nguest + 2550*nguest;
                }
                else if(choice === "SAM"){
                    cost = 1800 + 8000 + 5000*nguest + 1800*nguest;
