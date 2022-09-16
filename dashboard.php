@@ -203,7 +203,7 @@ input{
         <i class="material-icons opacity-10">style</i>
       </div>
     
-    <span class="nav-link-text ms-1">Yearing of Yore</span>
+    <span class="nav-link-text ms-1">Yearnings of Yore</span>
   </a>
 </li>
 
@@ -877,7 +877,7 @@ input{
                    cost = 2550 + 8000 + 5000*nguest + 2550*nguest;
                }
                else if(choice === "SAM"){
-                   cost = 1800 + 8000 + 5000*nguest + 1800*nguest;
+                   cost = 900 + 8000 + 5000*nguest + 900*nguest;
                }
                else if(choice === "select"){
                 alert("Please Select Guest House");
