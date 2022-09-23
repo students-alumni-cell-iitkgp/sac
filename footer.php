@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Students' Alumni Cell, IIT Kharagpur</title>
+    <title><b>Students' Alumni Cell, IIT Kharagpur</b></title>
 
     <!-- Bootstrap Scripts CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -41,7 +41,9 @@
     #footer {
         margin-top:0px;
         background-color: #23232b;
-        height: 19rem; 
+        height: 24rem; 
+     
+        
     }
 
 /* 
@@ -55,8 +57,7 @@
     .footer-top-right {
         padding: 1.8rem;
         color: #eef0ef;
-
-    }
+font-size:1.8vw;    }
 
     /* .dots {
         font-size: 2em;
@@ -64,15 +65,16 @@
         bottom: 2.5rem;
     } */
 
-    .bar {
+  /*  .bar {
         font-size: 3em;
         color: white;
         position: absolute;
         top: -2.8rem;
         left: 2rem;
+         }
+*/
 
-
-    }
+   
 	@media(max-width:768px){
 		.icon{
 	font-size:1em;
@@ -82,21 +84,33 @@
     .icon {
         font-size: 2em;
         color: white;
-        position: absolute;
-        top: -1rem;
-
+        position: relative;
+        top:-1em;
+        left:2vw;
     }
 
     #copyright {
         background-color: black;
         text-align: center;
         color: grey;
+        width:100%;
+position:relative;
+bottom:0rem;
+      
     }
 
     .c {
         display:flex;
         justify-content : center;
+        margin:0px;
     }
+
+    .r{
+        display: flex;
+        width:100%;
+       position:absolute;
+    }
+    
     </style>
 
 </head>
@@ -115,13 +129,13 @@
                     <h5>Students' Alumni Cell, IIT Kharagpur</h5>
                     <p>Office of Alumni Affairs & Branding,<br>
                         Indian Institute of Technology, Kharagpur<br>
-                        Pin-721302, West Bengal, India<br><br>
+                        Pin-721302, West Bengal, India<br>
                         <em>Ph: 03222-281860</em> <br>
                         <em>Email: aao@hijli.iitkgp.ac.in</em>
                     <hr>
                 </div>
             </div>
-            <div class='r row'>
+           <div class='r row'>
                 <div class="c col-2">
                     <a href="https://www.facebook.com/iitkgp.alumnicell"  target="_blank"><i class="icon fab fa-facebook"></i></a>
                 </div>
@@ -138,16 +152,27 @@
                     <a href="https://www.linkedin.com/company/sac-iitkgp/mycompany/" target="_blank"><i class="icon fab fa-linkedin"></i></a>
                 </div>
 				<div class='c col-2'>
-                    <a href="https://www.youtube.com/c/StudentsAlumniCellIITKharagpur" target="_blank"><i class="icon fab fa-youtube"></i></a>
+                  <a href="https://www.youtube.com/c/StudentsAlumniCellIITKharagpur" target="_blank"><i class="icon fab fa-youtube"></i></a>
                 </div>
-            </div>
+                <div id='copyright'>
+  		<p>&copy; 2022 Students' Alumni Cell</p>
+</div>
+            </div>  
+
+
+<br><br>
+         
+
+
+
+
+
+
         </div>
         <!-- 	Footer end	 -->
   	</section>
     <!--    Copyright -->
-  	<section id='copyright'>
-  		<p>&copy; 2022 Students' Alumni Cell</p>
-  	</section>
+  
 
 
   </body>
