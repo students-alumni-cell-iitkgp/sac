@@ -124,64 +124,6 @@ height:2em;
 </head>
 
 <body>
-
-<!--
-    <div id='footer'>
-        <div class='container-fluid'>
-            <div class='row'>
-                <div class='col-4 ' style=" padding-top: 1.8rem;   color: white;  height: 12rem;">
-                    <h2> Get Social <br>With Us</h2>
-                </div>
-               
-                <div class='col-6 footer-top-right'>
-                    <h5>Students' Alumni Cell, IIT Kharagpur</h5>
-                    <p>Office of Alumni Affairs & Branding,<br>
-                        Indian Institute of Technology, Kharagpur<br>
-                        Pin-721302, West Bengal, India<br>
-                        <em>Ph: 03222-281860</em> <br>
-                        <em>Email: aao@hijli.iitkgp.ac.in</em>
-                    <hr>
-                </div>
-           
-           <div class='r row'>
-                <div class="c col-2">
-                    <a href="https://www.facebook.com/iitkgp.alumnicell"  target="_blank"><i class="icon fab fa-facebook"></i></a>
-                </div>
-                <div class='c col-2'>
-                    <a href="https://www.instagram.com/sac.iitkgp/?hl=en" target="_blank"><i class="icon fab fa-instagram"></i></a>
-                </div>
-                <div class='c col-2'>
-                    <a href="https://twitter.com/IITKgpAlumni" target="_blank"><i class="icon fab fa-twitter-square"></i></a>
-                </div>
-                <div class='c col-2'>
-                    <a href="https://studentsalumnicell-iitkgp.medium.com/" target="_blank"><i class="icon fab fa-medium"></i></a>
-                </div>
-                <div class='c col-2'>
-                    <a href="https://www.linkedin.com/company/sac-iitkgp/mycompany/" target="_blank"><i class="icon fab fa-linkedin"></i></a>
-                </div>
-				<div class='c col-2'>
-                  <a href="https://www.youtube.com/c/StudentsAlumniCellIITKharagpur" target="_blank"><i class="icon fab fa-youtube"></i></a>
-                </div>
-               
-</div>
-<div id='copyright'>
-  		<p>&copy; 2022 Students' Alumni Cell</p>
-            </div>  
-<br><br>
-         
-
-
-
--->
-<!--
-</div>
-        </div>
-       
-
-
-</div>
--->
-  
 <div id='footer'>
         <div class='container-fluid'>
             <div class='row'>
