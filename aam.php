@@ -10,20 +10,21 @@
      <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@200&display=swap" rel="stylesheet">
   <style type="text/css">
-
+    
    .img{
 	   background-image:url(img/AAM-Web-Cover-Stretched-new-71-72.webp);
 	   background-size:100% 100%;
    }
-    .padding{
-	   padding:5rem 9rem;
+  
+   .padding{
+	padding: 5rem 9rem;
    }
-		.c{
+   .c{
 			margin-left:23px;
 			margin-right: 80px;
 			color: darkblue;
 			font-weight: bold;
-		}
+		}		
 	</style>
 </head>
 
@@ -57,9 +58,11 @@
                       </p>
 			        </div>
 			    </div>
-				<div class = "row">
+				<div class = "row flexx">
+			    
 				<div class = "col-6"> <a class="btn btn-outline-primary c" href="loginpage.php" role="button">19th Annual Meet</a></div>
 				<div class = "col-6"> <a class="btn btn-outline-primary c" href="aam18.php" role="button">Visit - 17th Annual Meet</a></div>
+	
 				</div>
 				<!--<a class="btn btn-outline-primary c" align="justify" href="./grandreunion/index.php" role="button">18th Annual Meet</a>-->
 			</div>
