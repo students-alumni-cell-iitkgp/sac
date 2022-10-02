@@ -53,8 +53,8 @@
 
         <div class = "row" style="justify-content:center">
            <div class="mb-3 col-sm-6">
-           <input type="file" id="pro_pic" name="pro_pic" accept=".jpg, .jpeg, .png">
-            <label for="username">Choose a Photo</label>
+           <input type="file" id="pro_pic" name="pro_pic" accept=".jpg, .jpeg, .png" required>
+            <label for="pro_pic">Choose a Photo<span style="color:red;">*</span></label>
            </div>
         </div>
 
@@ -133,7 +133,7 @@
             <thead>
               <tr>
                 <th scope="col">#</th>
-                <th scope="col">Fee</th>
+                <th scope="col">Registration Fee</th>
                 <th scope="col">Amount</th>
               </tr>
             </thead>
@@ -157,21 +157,18 @@
                 <th scope="col">#</th>
                 <th scope="col">Guest House</th>
                 <th scope="col">Cost per person</th>
-                <th scope="col">Rooms Available</th>
               </tr>
             </thead>
              <tbody>
                <tr>
                  <th scope="row">1</th>
                  <td>Technology Guest House</td>
-                 <td>2250</td>
-                 <td>80</td>
+                 <td>2550</td>
                </tr>
                <tr>
                  <th scope="row">2</th>
                  <td>Sir Ashutosh Mukherjee Hall</td>
-                 <td>1800</td>
-                 <td>20</td>
+                 <td>900</td>
                </tr>
              </tbody>
            </table>
@@ -201,7 +198,7 @@
             <option selected value="TGH">Technology Guest House</option>
             <option value="SAM">Sir Ashutosh Mukherjee Hall</option>
             </select>
-             <label for="gh">Ghest House<span style="color:red;">*</span></label>
+             <label for="gh">Guest House<span style="color:red;">*</span></label>
           </div>
         </div>
 
@@ -455,10 +452,10 @@ function calc_cost(){
            if(e == 0)
            { 
                if(choice === "TGH"){
-                   cost = 2250 + 8000 + 5000*nguest + 2250*nguest;
+                   cost = 2550 + 8000 + 5000*nguest + 2550*nguest;
                }
                else if(choice === "SAM"){
-                   cost = 1800 + 8000 + 5000*nguest + 1800*nguest;
+                   cost = 900 + 8000 + 5000*nguest + 900*nguest;
                }
                else if(choice === "select"){
                 alert("Please Select Guest House");

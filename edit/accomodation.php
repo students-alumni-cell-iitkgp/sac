@@ -33,7 +33,7 @@ $database = 'aam';
             <thead>
               <tr>
                 <th scope="col"></th>
-                <th scope="col">Fee</th>
+                <th scope="col">Registration Fee</th>
                 <th scope="col">Amount</th>
               </tr>
             </thead>
@@ -57,21 +57,18 @@ $database = 'aam';
                 <th scope="col"></th>
                 <th scope="col">Guest House</th>
                 <th scope="col">Cost per person</th>
-                <th scope="col">Rooms Available</th>
               </tr>
             </thead>
              <tbody>
                <tr>
                  <th scope="row">1</th>
                  <td>Technology Guest House</td>
-                 <td>2250</td>
-                 <td><?php echo "$av_tgh"?></td>
+                 <td>2550</td>
                </tr>
                <tr>
                  <th scope="row">2</th>
                  <td>Sir Ashutosh Mukherjee Hall </td>
-                 <td>1800</td>
-                 <td><?php echo "$av_sam"?></td>
+                 <td>900</td>
                </tr>
              </tbody>
            </table>
@@ -97,7 +94,7 @@ $database = 'aam';
 
           <div class = "row" id = "gh" style = "justify-content:center">
           <div class="form-group mb-3 col-sm-6">
-             <label for="gh">Ghest House<span style="color:red;">*</span></label>
+             <label for="gh">Guest House<span style="color:red;">*</span></label>
             <select class="form-control form-select" type = "list" id = "g" name= "gh" onchange="emp()" required>
             <option selected value="select">---Select---</option>
             <option value="TGH">Technology Guest House</option>
