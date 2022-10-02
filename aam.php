@@ -12,7 +12,7 @@
   <style type="text/css">
     
    .img{
-	   background-image:url(img/AAM-Web-Cover-Stretched-new-71-72.webp);
+	   background-image:url(img/aam19.webp);
 	   background-size:100% 100%;
    }
   

@@ -147,7 +147,7 @@ include '../config.php';
         echo "File can not be uploaded"; 
       } 
 
-        if($gh == 'TGH')
+       /* if($gh == 'TGH')
         {
           $sql = "UPDATE `acco` SET `av` = `av`-1 WHERE `name` = 'TGH'";
           $stmt=$GLOBALS["conn"]->prepare($sql);
@@ -158,7 +158,7 @@ include '../config.php';
           $sql = "UPDATE `acco` SET `av` = `av`-1 WHERE `name` = 'SAM'";
           $stmt=$GLOBALS["conn"]->prepare($sql);
           $result = $stmt->execute();
-        }
+        }*/
         
      // header("Location: ../Utility/mail.php");
      header("Location: ../Utility/get_update.php");
