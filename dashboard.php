@@ -115,13 +115,13 @@ input{
 
   <body class="g-sidenav-show  bg-gray-100">
       
-      <aside class="sidenav navbar navbar-vertical navbar-expand-xs border-0 border-radius-xl my-3 fixed-start ms-3   bg-gradient-dark" id="sidenav-main">
+      <aside class="sidenav navbar navbar-vertical navbar-expand-xs border-0 border-radius-xl my-3 fixed-start ms-3   bg-white" id="sidenav-main">
 
   <div class="sidenav-header">
-    <i class="fas fa-times p-3 cursor-pointer text-white opacity-5 position-absolute end-0 top-0 d-none d-xl-none" aria-hidden="true" id="iconSidenav"></i>
+    <i class="fas fa-times p-3 cursor-pointer text-dark opacity-5 position-absolute end-0 top-0 d-none d-xl-none" aria-hidden="true" id="iconSidenav"></i>
     <a class="navbar-brand m-0" href="https://sac.iitkgp.ac.in/" target="_blank">
       <img src="./img/logo/sac_logo.png" class="navbar-brand-img " style = "width:160px" alt="main_logo">
-      <span class="ms-1 font-weight-bold text-white"></span>
+      <span class="ms-1 font-weight-bold text-dark"></span>
     </a>
   </div>
 
@@ -132,14 +132,14 @@ input{
     <ul class="navbar-nav">
       
     <li class="nav-item mt-3">
-      <h6 class="ps-4 ms-2 text-uppercase text-xs text-white font-weight-bolder opacity-8">Dashboard</h6>
+      <h6 class="ps-4 ms-2 text-uppercase text-xs text-dark font-weight-bolder opacity-8">Dashboard</h6>
     </li>
           
   
 <li class="nav-item">
-  <a class="nav-link text-white " onclick="personal()">
+  <a class="nav-link text-dark " onclick="personal()">
     
-      <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+      <div class="text-dark text-center me-2 d-flex align-items-center justify-content-center">
         <i class="material-icons opacity-10">manage_accounts</i>
       </div>
     
@@ -149,9 +149,9 @@ input{
 
   
 <li class="nav-item">
-  <a class="nav-link text-white " onclick="travel()">
+  <a class="nav-link text-dark " onclick="travel()">
     
-      <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+      <div class="text-dark text-center me-2 d-flex align-items-center justify-content-center">
         <i class="material-icons opacity-10">flight_takeoff</i>
       </div>
     
@@ -161,9 +161,9 @@ input{
 
   
 <li class="nav-item">
-  <a class="nav-link text-white " onclick="accomod()">
+  <a class="nav-link text-dark " onclick="accomod()">
     
-      <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+      <div class="text-dark text-center me-2 d-flex align-items-center justify-content-center">
         <i class="material-icons opacity-10">local_hotel</i>
       </div>
     
@@ -173,9 +173,9 @@ input{
 
   
 <li class="nav-item">
-  <a class="nav-link text-white " onclick="work()">
+  <a class="nav-link text-dark " onclick="work()">
     
-      <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+      <div class="text-dark text-center me-2 d-flex align-items-center justify-content-center">
         <i class="material-icons opacity-10">work</i>
       </div>
     
@@ -185,9 +185,9 @@ input{
 
   
 <li class="nav-item">
-  <a class="nav-link text-white " onclick="nostalg()">
+  <a class="nav-link text-dark " onclick="nostalg()">
     
-      <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+      <div class="text-dark text-center me-2 d-flex align-items-center justify-content-center">
         <i class="material-icons opacity-10">local_fire_department</i>
       </div>
     
@@ -197,25 +197,25 @@ input{
 
   
 <li class="nav-item">
-  <a class="nav-link text-white " onclick="yoy()">
+  <a class="nav-link text-dark " onclick="yoy()">
     
-      <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+      <div class="text-dark text-center me-2 d-flex align-items-center justify-content-center">
         <i class="material-icons opacity-10">style</i>
       </div>
     
-    <span class="nav-link-text ms-1">Yearing of Yore</span>
+    <span class="nav-link-text ms-1">Yearnings of Yore</span>
   </a>
 </li>
 
  
 <li class="nav-item">
-  <a class="nav-link text-white " href="http://alumni.iitkgp.ac.in/giving_back" target="_blank">
+  <a class="nav-link text-dark " href="http://alumni.iitkgp.ac.in/giving_back" target="_blank">
     
-      <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+      <div class="text-dark text-center me-2 d-flex align-items-center justify-content-center">
         <i class="material-icons opacity-10">apartment</i>
       </div>
     
-    <span class="nav-link-text ms-1">Own Your Hall</span>
+    <span class="nav-link-text ms-1">Institutional Development <br>Program</span>
   </a>
 </li>
            
@@ -237,10 +237,9 @@ input{
 <nav class="navbar navbar-main navbar-expand-lg px-0 mx-4 shadow-none border-radius-xl" id="navbarBlur" data-scroll="true">
   <div class="container-fluid py-1 px-3">
     <nav aria-label="breadcrumb">
-      
       <a class="navbar-brand m-0" href="https://sac.iitkgp.ac.in/" target="_blank">
-      <img src="./img/logo19.webp" class="navbar-brand-img " style = "width:60px" alt="main_logo">
-      <span class="ms-1 font-weight-bolder ">19th Annual Alumni Meet</span>
+      <img src="./img/logo19.webp" class="navbar-brand-img " style = "width:60px; height: 60px" alt="main_logo">
+      <span class="ms-1" style = "font-weight: 900; font-size:x-large">19th Annual Alumni Meet</span>
     </a>
       
     </nav>
@@ -270,17 +269,17 @@ input{
           </a>
         </li>
         <li class="nav-item px-3 d-flex align-items-center">
-          <a onclick="attendee()" class="nav-link text-body p-0">
+          <a onclick="attendee()" class="nav-link text-body p-0" data-toggle="tooltip" data-placement="bottom" title="Attendee">
             <i class="fa fa-users fixed-plugin-button-nav cursor-pointer"></i>
           </a>
         </li>
         <li class="nav-item px-3 d-flex align-items-center">
-          <a onclick="payment()" class="nav-link text-body p-0">
+          <a onclick="payment()" class="nav-link text-body p-0" data-toggle="tooltip" data-placement="bottom" title="Payment">
             <i class="fa fa-inr fixed-plugin-button-nav cursor-pointer"></i>
           </a>
         </li>
         <li class="nav-item dropdown pe-2 d-flex align-items-center">
-          <a href="Utility/logout2.php" class="nav-link text-body p-0">
+          <a href="Utility/logout2.php" class="nav-link text-body p-0" data-toggle="tooltip" data-placement="bottom" title="Logout">
             <i class="fa fa-sign-out cursor-pointer"></i>
           </a>
         </li>
@@ -875,10 +874,10 @@ input{
            if(e == 0)
            { 
                if(choice === "TGH"){
-                   cost = 2250 + 8000 + 5000*nguest + 2250*nguest;
+                   cost = 2550 + 8000 + 5000*nguest + 2550*nguest;
                }
                else if(choice === "SAM"){
-                   cost = 1800 + 8000 + 5000*nguest + 1800*nguest;
+                   cost = 900 + 8000 + 5000*nguest + 900*nguest;
                }
                else if(choice === "select"){
                 alert("Please Select Guest House");
