@@ -92,28 +92,18 @@
                                         <div class="row">
                                             <div class="col-sm-12 col-lg-6">
                                                 <div class="card" style="height: 100% !important;">
-                                                    <img src="img/yoy/yoy22.webp" class="card-img-top">
+                                                <a href="https://drive.google.com/file/d/1ev5JlYWSK8FgCzsRp3fVH3S1jRcbxXsJ/view?ts=632df1d7" target="_blank"><img src="img/yoy/yoy22.webp" class="card-img-top" ></a>
                                                  
                                                     
 
                                                     <div class="card-body">
-                                                        <h4 class="card-title">Yearnings Of Yore 2022....</h4>
-                                                        <div class="row ">
+                                                        <h4 class="card-title">  <a href="https://drive.google.com/file/d/1ev5JlYWSK8FgCzsRp3fVH3S1jRcbxXsJ/view?ts=632df1d7" target="_blank"  style="color: black">Yearnings Of Yore 2022....</a></h4>
+                                                    <!--    <div class="row ">
                                                           
-                                                        <div class="img-txt ">
-                                                           
-                                                            <a href=""target="_blank" style="color:black"> &nbsp;&nbsp;UG</a> 
 
-                                                            </div>
-                                                            <div class="img-txt">
-                                                            <a href=""target="_blank" style="color:black"> PG</a>
-                                                            </div>
-                                                            <div class="img-txt">
-                                                            <a href=""target="_blank" style="color:black"> RS</a>
-                                                            </div>
                                                         </div>
 
-
+-->
 
                                                     </div>
 
@@ -130,7 +120,7 @@
 
 
 
-                                                        <div class="row ">
+                                                   <!--     <div class="row ">
                                                             <div class="img-txt ">
                                                                <a href=""  target="_blank" style="color:black"> UG</a> 
                                                             </div>
@@ -140,7 +130,7 @@
                                                             <div class="img-txt">
                                                             <a href=""target="_blank" style="color:black"> RS</a>
                                                             </div>
-                                                        </div>
+                                                        </div> -->
                                                     </div>
 
 
@@ -176,7 +166,7 @@
 
 
 
-                                                        <div class="row ">
+                                                    <!--    <div class="row ">
                                                             <div class="img-txt ">
                                                                <a href=""  target="_blank" style="color:black"> UG</a> 
                                                             </div>
@@ -186,7 +176,7 @@
                                                             <div class="img-txt">
                                                             <a href=""target="_blank" style="color:black"> RS</a>
                                                             </div>
-                                                        </div>
+                                                        </div>  -->
 
 
 
@@ -210,7 +200,7 @@
 
 
 
-
+<!--
 
                                                         <div class="row ">
                                                             <div class="img-txt ">
@@ -230,10 +220,11 @@
 
 
 
+-->
 
 
 
-                                                    </div>
+                                                    </div> 
 
                                                 </div>
 
@@ -259,7 +250,7 @@
 
 
 
-                                                        <div class="row ">
+                                                    <!--    <div class="row ">
                                                             <div class="img-txt ">
                                                                <a href=""  target="_blank" style="color:black"> UG</a> 
                                                             </div>
@@ -272,13 +263,13 @@
                                                         </div>
 
 
+-->
 
 
 
 
 
-
-                                                    </div>
+                                                    </div> 
 
                                                 </div>
 
@@ -295,7 +286,7 @@
 
 
 
-                                                        <div class="row ">
+                                                      <!--  <div class="row ">
                                                             <div class="img-txt ">
                                                                <a href=""  target="_blank" style="color:black"> UG</a> 
                                                             </div>
@@ -310,12 +301,14 @@
 
 
 
+-->
 
 
 
 
 
-                                                    </div>
+                                                    </div> 
+
 
                                                 </div>
 
@@ -330,7 +323,7 @@
 
 
 
-
+<!--
                                                         
                                                         <div class="row ">
                                                             <div class="img-txt ">
@@ -343,11 +336,11 @@
                                                             <a href=""target="_blank" style="color:black"> RS</a>
                                                             </div>
                                                         </div>
+-->
 
 
 
-
-                                                    </div>
+                                                    </div>  
 
                                                 </div>
 
@@ -372,7 +365,7 @@
 
 
 
-                                                        <div class="row ">
+                                     <!--                   <div class="row ">
                                                             <div class="img-txt ">
                                                                <a href=""  target="_blank" style="color:black"> UG</a> 
                                                             </div>
@@ -384,7 +377,7 @@
                                                             </div>
                                                         </div>
 
-
+-->
 
 
 
@@ -407,7 +400,7 @@
 
 
 
-                                                        <div class="row ">
+                                                <!--        <div class="row ">
                                                             <div class="img-txt ">
                                                                <a href=""  target="_blank" style="color:black"> UG</a> 
                                                             </div>
@@ -418,7 +411,7 @@
                                                             <a href=""target="_blank" style="color:black"> RS</a>
                                                             </div>
                                                         </div>
-
+-->
 
 
 
@@ -437,7 +430,7 @@
 
 
 
-
+<!--
                                                         <div class="row ">
                                                             <div class="img-txt ">
                                                                <a href=""  target="_blank" style="color:black"> UG</a> 
@@ -450,7 +443,7 @@
                                                             </div>
                                                         </div>
 
-
+-->
 
 
 
