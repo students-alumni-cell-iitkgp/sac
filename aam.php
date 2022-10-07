@@ -58,7 +58,7 @@
                       </p>
 			        </div>
 			    </div>
-				<div class = "row flexx">
+				<div class = "row">
 			    
 				<div class = "col-6"> <a class="btn btn-outline-primary c" href="loginpage.php" role="button">19th Annual Meet</a></div>
 				<div class = "col-6"> <a class="btn btn-outline-primary c" href="aam18.php" role="button">Visit - 17th Annual Meet</a></div>
