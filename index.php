@@ -279,13 +279,13 @@
                                     </div>
                                     <div class="col-sm-12 col-lg-4">
                                         <div class="card" style="height: 100% !important;">
-                                            <img src="img/news&updates/y2.webp" style="height: 300px;"
+                                            <img src="pic1.jpg" style="height: 300px;"
                                                 class="card-img-top">
                                             <div class="card-body">
-                                                <h5 class="card-title">IIT Duo Help 30 Lakh Farmers Get Timely Expert Advice on Crop, Increase Income & Yield</h5>
-                                                <p class="card-text">Krishi Network, an app developed by IIT alumni Ashish Mishra and Siddhant Bhomia, helps farmers with critical information, which enables them to generate higher profits.....<br><br><button type="button"
+                                                <h5 class="card-title">Not satisfied with DRDO performance, govt appoints Samir Kamat as new DRDO chief</h5>
+                                                <p class="card-text">According to an order by the Appointments Committee of Cabinet, “Appointment of Samir V. Kamat, Distinguished Scientist and Director General, Naval Systems & Materials as Secretary, Department of Defence Research and Development and Chairman, DRDO.....<br><br><button type="button"
                                                         class="btn btn-outline-primary"><a
-                                                            href="https://www.thebetterindia.com/277821/iit-alumni-app-for-farmers-increase-income-yield-information-krishi-network/"
+                                                            href="https://www.indiatoday.in/india/story/govt-appoints-samir-kamat-as-new-drdo-chief-1992625-2022-08-26"
                                                             target="_blank"
                                                             style="color:white">More...</a></button></p>
                                             </div>
@@ -293,12 +293,14 @@
                                     </div>
                                     <div class="col-sm-12 col-lg-4">
                                         <div class="card" style="height: 100% !important;">
-                                            <img src="img/news&updates/y3.webp" style="height: 300px;"
+                                            <img src="pic2.jpg" style="height: 300px;"
                                                 class="card-img-top">
                                             <div class="card-body">
-                                                <h5 class="card-title">B2B Agri-Inputs Platform AGRIM Raises $10 Mn</h5>
-                                                <p class="card-text">AGRIM plans to increase stock-keeping units by 10x, to reach 250,000 SKUs across agri-input categories, providing retailers with a vast selection on the platform. AGRIM plans to use this funding for talent acquisition, embedded.....<br><br><button type="button" class="btn btn-outline-primary"><a
-                                                            href="https://techgraph.co/startup/agrim-raises-10-mn-kalaari-axis-bank/"
+                                                <h5 class="card-title">Forbes 30 Under 30 – Alumnus Prof. Srijan Kumar</h5>
+                                                <p class="card-text">Prof. Kumar is an Assistant Professor at the Georgia Institute of Technology. He is a specialist in
+AI, ML, and Data Science. In his attempt to make the internet a safer place he is involved in
+developing Data Science and Machine Learning .....<br><br><button type="button" class="btn btn-outline-primary"><a
+                                                            href="https://kgpchronicle.iitkgp.ac.in/forbes-30-under-30-alumnus-prof-srijan-kumar/"
                                                             target="_blank"
                                                             style="color:white">More...</a></button>
                                                 </p>
