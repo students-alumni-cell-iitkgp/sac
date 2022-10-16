@@ -19,6 +19,7 @@
    .padding{
 	padding: 5rem 9rem;
    }
+
    .c{
 			margin-left:23px;
 			margin-right: 80px;
