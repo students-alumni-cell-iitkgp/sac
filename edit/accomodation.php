@@ -34,7 +34,7 @@ $database = 'aam';
               <tr>
                 <th scope="col"></th>
                 <th scope="col">Registration Fee</th>
-                <th scope="col">Amount</th>
+                <th scope="col">Amount(INR)</th>
               </tr>
             </thead>
              <tbody>
@@ -56,7 +56,7 @@ $database = 'aam';
               <tr>
                 <th scope="col"></th>
                 <th scope="col">Guest House</th>
-                <th scope="col">Cost per person</th>
+                <th scope="col">Cost per person(INR)</th>
               </tr>
             </thead>
              <tbody>
