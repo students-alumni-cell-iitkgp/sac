@@ -97,18 +97,7 @@
                                                     <img src="img\yearbook\yb21.webp" class="h-img">
                                                     <div class="card-body">
                                                         <h4 class="card-title">Yearbook 2021...</h4>
-                                                        <div class="row ">
-                                                            <div class="img-txt ">
-                                                               <a href="https://drive.google.com/file/d/1CiV2B1W2XB6GA5mydYmLg2ke34Fo_Z6T/view?usp=sharing"  target="_blank" style="color:black"> UG</a> 
-                                                            </div>
-                                                            <div class="img-txt">
-                                                            <a href="https://drive.google.com/file/d/1PS8mphnhebo3Nh02-KhH0ex8ifmKihJh/view?usp=sharing"target="_blank" style="color:black"> PG</a>
-                                                            </div>
-                                                            <div class="img-txt">
-                                                            <a href="https://drive.google.com/file/d/1znzxL9NovFMb8_HjflOlC-DQmyjsa8JD/view?usp=sharing"target="_blank" style="color:black"> RS</a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                                                       
                                                 </div>
                                             </div>
                                             <div class="col-sm-12 col-lg-4">
