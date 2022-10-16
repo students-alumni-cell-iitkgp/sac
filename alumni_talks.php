@@ -345,6 +345,46 @@
                     </div>
                   </div>
                 </div>
+                <div class="carousel-item">
+                  <h4 class="x">Speakers from Boston Consulting Group:</h4>
+                  <div class="row">
+                    <div class="col-12 col-sm-4 align-items-center">
+                      <img src="img/guest-lecture/Saumyata.webp" class="image img-responsive img-fluid"
+                        style="width: 20em;">
+                      <h5 class="x">Saumyata Khandelwala</h5>
+                      
+                    </div>
+                    <div class="col-12 col-sm-4 align-items-center">
+                      <img src="img/guest-lecture/Pallav.webp" class="image img-responsive img-fluid"
+                        style="width: 20em;">
+                      <h5 class="x">Pallav Bhutani</h5>
+                     
+                    </div>
+                    <div class="col-12 col-sm-4 align-items-center">
+                      <img src="img/guest-lecture/Divyam.webp" class="image img-responsive img-fluid"
+                        style="width: 20em;">
+                      <h5 class="x">Divyam Sharma</h5>
+                      
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12 col-sm-4 offset-sm-2 align-items-center">
+                      <img src="img/guest-lecture/Anusha.webp" class="image img-responsive img-fluid"
+                        style="width: 20em;">
+                      <h5 class="x">Anusha Sharan</h5>
+                     
+                    </div>
+                    <div class="col-12 col-sm-4 align-items-center">
+                      <img src="img/guest-lecture/Pranjali.webp" class="image img-responsive img-fluid"
+                        style="width: 20em;">
+                      <h5 class="x">Pranjali Rastogi</h5>
+                      
+                    </div>
+                    <div class="col-2 col-sm-2 align-items-center">
+                    </div>
+                  </div>
+                </div>
+
 
                 <div class="carousel-item">
                   <div class="row">
