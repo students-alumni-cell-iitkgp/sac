@@ -41,7 +41,7 @@
 
 
         <a href="http://www.adhunikgroup.com/">
-          <img align="center" id="image0" src="img/spons/2013/0a.png" /></a>
+          <img align="center" id="image0" src="img/spons/2013/0a.webp" /></a>
 
       </div>
     </div>
@@ -60,14 +60,14 @@
       <div class="col-lg-6 col-md-6 col-sm-12" align="center">
 
         <a href="http://www.in.issworld.com/Pages/FrontPage.aspx">
-          <img id="image1" src="img/spons/2013/1a.png" /></a>
+          <img id="image1" src="img/spons/2013/1a.webp" /></a>
 
       </div>
 
       <div class="col-lg-6 col-md-6 col-sm-12" align="center">
 
         <a href="http://www.tetrapak.com/in/pages/default.aspx">
-          <img id="image2" src="img/spons/2013/2a.png" /></a>
+          <img id="image2" src="img/spons/2013/2a.webp" /></a>
 
       </div>
 
@@ -89,28 +89,28 @@
       <div class="col-lg-3 col-md-6 col-sm-12" align="center">
 
         <a href="http://www.airtel.in/forme/home">
-          <img id="image3" src="img/spons/2013/3a.png" /></a>
+          <img id="image3" src="img/spons/2013/3a.webp" /></a>
 
       </div>
 
       <div class="col-lg-3 col-md-6 col-sm-12" align="center">
 
         <a href="http://www.bulforio.com/">
-          <img id="image4" src="img/spons/2013/4a.png" /></a>
+          <img id="image4" src="img/spons/2013/4a.webp" /></a>
 
       </div>
 
       <div  class="col-lg-3 col-md-6 col-sm-12" align="center">
 
         <a href="http://www.coca-colaindia.com/">
-          <img id="image5" src="img/spons/2013/5a.png" /></a>
+          <img id="image5" src="img/spons/2013/5a.webp" /></a>
 
       </div>
 
       <div class="col-lg-3 col-md-6 col-sm-12" align="center">
 
         <a href="http://www.sardamagnets.com/">
-          <img id="image6" src="img/spons/2013/6a.png" /></a>
+          <img id="image6" src="img/spons/2013/6a.webp" /></a>
 
       </div>
 
@@ -121,28 +121,28 @@
       <div  class="col-lg-3 col-md-6 col-sm-12" align="center">
 
         <a href="http://www.ddccis4.org/">
-          <img id="image8" src="img/spons/2013/8a.png" /></a>
+          <img id="image8" src="img/spons/2013/8a.webp" /></a>
 
       </div>
 
       <div  class="col-lg-3 col-md-6 col-sm-12" align="center">
 
         <a href="http://www.wbsedcl.in/irj/go/km/docs/internet/webpage/HomePage.html">
-          <img id="image9" src="img/spons/2013/9a.png" /></a>
+          <img id="image9" src="img/spons/2013/9a.webp" /></a>
 
       </div>
 
       <div  class="col-lg-3 col-md-6 col-sm-12" align="center">
 
         <a href="http://www.itchotels.in/hotels/itcsonar.aspx">
-          <img id="image10" src="img/spons/2013/10a.png" /></a>
+          <img id="image10" src="img/spons/2013/10a.webp" /></a>
 
       </div>
 
       <div class="col-lg-3 col-md-6 col-sm-12" align="center">
 
         <a href="http://www.haymarket.com/home.aspx">
-          <img id="image11" src="img/spons/2013/11a.png" /></a>
+          <img id="image11" src="img/spons/2013/11a.webp" /></a>
 
       </div>
 
@@ -153,28 +153,28 @@
       <div class="col-lg-3 col-md-6 col-sm-12" align="center">
 
         <a href="http://www.signotron.com/">
-          <img id="image12" src="img/spons/2013/12a.png" /></a>
+          <img id="image12" src="img/spons/2013/12a.webp" /></a>
 
       </div>
 
       <div class="col-lg-3 col-md-6 col-sm-12" align="center">
 
         <a href="http://www.nepamills.co.in/">
-          <img id="image13" src="img/spons/2013/13a.png" /></a>
+          <img id="image13" src="img/spons/2013/13a.webp" /></a>
 
       </div>
 
       <div class="col-lg-3 col-md-6 col-sm-12" align="center">
 
         <a href="http://www.rechargeguru.com/do/">
-          <img id="image15" src="img/spons/2013/15a.png" /></a>
+          <img id="image15" src="img/spons/2013/15a.webp" /></a>
 
       </div>
 
       <div class="col-lg-3 col-md-6 col-sm-12" align="center">
 
         <a href="http://www.angesbags.com/home.html">
-          <img id="image16" src="img/spons/2013/16a.png" /></a>
+          <img id="image16" src="img/spons/2013/16a.webp" /></a>
 
       </div>
 
@@ -184,14 +184,14 @@
 
       <div class="col-lg-3 col-md-6 col-sm-12" align="center">
 
-        <a href="http://www.bseindia.com/"><img id="image17" src="img/spons/2013/17a.png" /></a>
+        <a href="http://www.bseindia.com/"><img id="image17" src="img/spons/2013/17a.webp" /></a>
 
       </div>
 
       <div class="col-lg-3 col-md-6 col-sm-12" align="center">
 
         <a href="http://kapsystem.com/">
-          <img id="image18" src="img/spons/2013/18a.png" /></a>
+          <img id="image18" src="img/spons/2013/18a.webp" /></a>
 
       </div>
 

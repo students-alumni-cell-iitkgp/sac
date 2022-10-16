@@ -28,19 +28,19 @@
    <div class="s-1 row">
      <div class="col-lg-6 col-sm-12" align="center" style="margin-bottom:20px;">
        <a href="https://www.iocl.com/" target="_blank">
-         <img src="img/spons/2012/1.jpg" width="200px" height="150px">
+         <img src="img/spons/2012/1.webp" width="200px" height="150px">
        </a>
      </div>
 
      <div class="col-lg-6 col-sm-12" align="center"style="margin-bottom:20px;">
        <a href="http://www.infosys.com/pages/index.aspx" target="_blank">
-         <img src="img/spons/2012/2.jpg" width="250px"height="150px"/>
+         <img src="img/spons/2012/2.webp" width="250px"height="150px"/>
        </a>
      </div> </div>
      <div class="s-3 row">
      <div class="col-sm-12" align="center">
        <a href="http://www.mallcomindia.com/site/index.php" target="_blank">
-         <img src="img/spons/2012/3.jpg" width="200px"height="150px"/>
+         <img src="img/spons/2012/3.webp" width="200px"height="150px"/>
        </a>
      </div>
    </div> </div>
