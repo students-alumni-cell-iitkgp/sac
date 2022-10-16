@@ -33,7 +33,7 @@
 <div class="s-2 row">
 <div  class="col-sm-12"   align="center"style="margin-bottom:20px;">
     <a href="http://www.ulaindia.com" target="_blank">
-    <img class="spons" src="img/spons/2015/cosponsor.png" width="350px" height="150px" />
+    <img class="spons" src="img/spons/2015/cosponsor.webp" width="350px" height="150px" />
     </a>
     </div> </div>
 
@@ -45,7 +45,7 @@
     <div class="s-4 row">
     <div class="col-sm-12"   align="center"style="margin-bottom:20px;">
     <a href="http://www.cselectric.co.in" target="_blank">
-      <img class="spons" src="img/spons/2015/strategic.png" width="230px" height="200px" />
+      <img class="spons" src="img/spons/2015/strategic.webp" width="230px" height="200px" />
     </a> </div> </div>
 
      <div class="s-5 row">
@@ -54,7 +54,7 @@
 <div class="s-6 row">
 <div class="col-sm-12"    align="center"style="margin-bottom:20px;">
     <a href="http://www.hindustantimes.com" target="_blank">
-      <img class="spons" src="img/spons/2015/ht.jpg" />
+      <img class="spons" src="img/spons/2015/ht.webp" />
     </a> </div> </div>
 
       <div class="s-7 row">
@@ -65,7 +65,7 @@
     <div class="s-8 row">
     <div class="col-sm-12"    align="center"style="margin-bottom:20px;">
     <a href="http://www.sesasterlite.com/our-operations/copper.aspx" target="_blank">
-      <img class="spons" src="img/spons/2015/major.png" width="400px" height="100px" />
+      <img class="spons" src="img/spons/2015/major.webp" width="400px" height="100px" />
     </a>
     </div> </div>
     <div class="s-9 row">
@@ -74,7 +74,7 @@
     <div class="row">
     <div  class="col-sm-12"   align="center"style="margin-bottom:20px;">
     <a href="http://www.parkplaza.com" target="_blank">
-      <img class="spons"  src="img/spons/2015/luxuryhotelpartner.png" width="300px" height="200" />
+      <img class="spons"  src="img/spons/2015/luxuryhotelpartner.webp" width="300px" height="200" />
     </a> </div> </div>
 
 <div class="s-10 row">
@@ -84,33 +84,33 @@
   <div class="s-10 row">
   <div class="col-lg-4 col-md-6 col-sm-12 " align="center"style="margin-bottom:20px;">
   <a href="http://www.tessolve.com" target="_blank"><br><br>
-      <img class="spons" src="img/spons/2015/e1.png" width="220" height="" /> </a>
+      <img class="spons" src="img/spons/2015/e1.webp" width="220" height="" /> </a>
   </div>
   <div class="col-lg-4 col-md-6 col-sm-12 " align="center"style="margin-bottom:20px;">
     <a href="http://www.bseindia.com" target="_blank">
-      <img class="spons" src="img/spons/2015/e2.png" width="200" height="" />
+      <img class="spons" src="img/spons/2015/e2.webp" width="200" height="" />
     </a>
   </div>
   <div class="col-lg-4 col-md-6 col-sm-12 "  align="center"style="margin-bottom:20px;">
   <a href="http://www.isaimpex.in" target="_blank"><br><br>
-      <img class="spons" src="img/spons/2015/e6.png" width="220" height="" />
+      <img class="spons" src="img/spons/2015/e6.webp" width="220" height="" />
 
     </a>
   </div>
   <div class="col-lg-4 col-md-6 col-sm-12 " align="center"style="margin-bottom:20px;">
 
     <a href="http://www.irel.gov.in" target="_blank">
-      <img class="spons" src="img/spons/2015/e3.png" width="200px" height="" />
+      <img class="spons" src="img/spons/2015/e3.webp" width="200px" height="" />
     </a>
   </div>
   <div class="col-lg-4 col-md-6 col-sm-12 " align="center"style="margin-bottom:20px;">
     <a href="http://www.wbsetcl.in" target="_blank">
-      <img class="spons" src="img/spons/2015/e5.png" width="200px" height="" />
+      <img class="spons" src="img/spons/2015/e5.webp" width="200px" height="" />
     </a>
   </div>
   <div class="col-lg-4 col-md-6 col-sm-12 " align="center"style="margin-bottom:20px;">
    <a href="http://www.ucil.gov.in/web/index.asp" target="_blank">
-      <img class="spons"    src="img/spons/2015/e4.png" width="200px" height="" />
+      <img class="spons"    src="img/spons/2015/e4.webp" width="200px" height="" />
     </a>
     </div>
   <div class="col-sm-12 "align="center"style="margin-bottom:20px;">
@@ -125,19 +125,19 @@
   <div class="s-11 row">
      <div  class="col-lg-4 col-md-6 col-sm-12 " align="center"style="margin-bottom:20px;">
 	 <a href="http://www.coca-colaindia.com/" target="_blank">
-      <img class="spons" src="img/spons/2015/g8.png" width="200px" height="200px" />
+      <img class="spons" src="img/spons/2015/g8.webp" width="200px" height="200px" />
     </a> </div>
 
   <div  class="col-lg-4 col-md-6 col-sm-12 "  align="center"style="margin-bottom:20px;margin-top:20px;">
 
  <a href="http://www.schneiderpen.de/en/home.php" target="_blank">
-      <img class="spons"   src="img/spons/2015/g13.png" width="350px" height="100px" />
+      <img class="spons"   src="img/spons/2015/g13.webp" width="350px" height="100px" />
     </a>
     </div>
   <div  class="col-lg-4 col-md-6 col-sm-12 "  align="center"style="margin-bottom:20px;">
    <a href="http://nightingale.co.in" target="_blank">
-      <img class="spons" src="img/spons/2015/g10.png" width="230px" height="250px" />
-    </a>
+      <img class="spons" src="img/spons/2015/g10.webp" width="230px" height="250px" />
+</a>
   </div>
      <div class="col-lg-4 col-md-6 col-sm-12 " align="center"style="margin-bottom:20px;">
  <a href="http://www.kwalitymakers.in" target="_blank">
@@ -150,46 +150,46 @@
     </a></div>
    <div class="col-lg-4 col-md-6 col-sm-12 "  align="center"style="margin-bottom:20px;">
    <a href="http://www.siegsms.com" target="_blank">
-      <img class="spons" src="img/spons/2015/g7.png" width="300px" height="" />
+      <img class="spons" src="img/spons/2015/g7.webp" width="300px" height="" />
     </a>
 
   </div>
      <div class="col-lg-4 col-md-6 col-sm-12 " align="center"style="margin-bottom:20px;">
    <a href="http://www.mybakesmiths.com" target="_blank">
-      <img class="spons"   src="img/spons/2015/g2.png" width="200px" height="" />
+      <img class="spons"   src="img/spons/2015/g2.webp" width="200px" height="" />
     </a>
     </div>
   <div class="col-lg-4 col-md-6 col-sm-12 " align="center"style="margin-bottom:20px;">
    <a href="http://www.giftstoindia24x7.com" target="_blank">
-      <img class="spons" src="img/spons/2015/g12.png" width="200px" height="" />
+      <img class="spons" src="img/spons/2015/g12.webp" width="200px" height="" />
     </a>
 
   </div>
   <div class="col-lg-4 col-md-6 col-sm-12 " align="center"style="margin-bottom:20px;">
    <a href="https://www.munkey.in" target="_blank">
-      <img class="spons"   src="img/spons/2015/g4.png" width="200px" height="" />
+      <img class="spons"   src="img/spons/2015/g4.webp" width="200px" height="" />
     </a>
   </div>
      <div  class="col-lg-4 col-md-6 col-sm-12 " align="center"style="margin-bottom:20px;">
 	      <a href="http://goo.gl/t2S0xZ" target="_blank">
-      <img class="spons"   src="img/spons/2015/g15.png" width="300px" height="" />
+      <img class="spons"   src="img/spons/2015/g15.webp" width="300px" height="" />
     </a>
 
     </div>
    <div class="col-lg-4 col-md-6 col-sm-12 "  align="center"style="margin-bottom:20px;">
      <a href="http://www.deuter.com/de/en/" target="_blank">
-      <img class="spons" src="img/spons/2015/g9.png" width="200px" height="" />
+      <img class="spons" src="img/spons/2015/g9.webp" width="200px" height="" />
     </a>
   </div>
    <div  class="col-lg-4 col-md-6 col-sm-12 " align="center"style="margin-bottom:20px;">
 
     <a href="http://www.vanguardworld.com" target="_blank"><br><br><br>
-      <img class="spons" src="img/spons/2015/g3.png" width="200px" height="" />
+      <img class="spons" src="img/spons/2015/g3.webp" width="200px" height="" />
     </a>
    </div>
      <div  class="col-lg-4 col-md-6 col-sm-12 " align="center"style="margin-bottom:20px;">
 	  <a href="http://www.10kya.com" target="_blank">
-      <img class="spons" src="img/spons/2015/g14.png" width="300px" height="" />
+      <img class="spons" src="img/spons/2015/g14.webp" width="300px" height="" />
     </a>
 
     </div>
@@ -201,7 +201,7 @@
    </div>
   <div  class="col-lg-4 col-md-12 col-sm-12 " align="center"style="margin-bottom:20px;">
     <a href="http://www.motaramnamkeen.com"  target="_blank">
-      <img class="spons" src="img/spons/2015/g5.png" width="200px" height="" />
+      <img class="spons" src="img/spons/2015/g5.webp" width="200px" height="" />
     </a>
  </div> </div> <br>
 
@@ -211,12 +211,12 @@
     <div class="s-12 row">
     <div class="col-md-6 col-sm-12 " align="center"style="margin-bottom:20px;">
     <a href="http://www.markmyfest.com" target="_blank">
-      <img class="spons"   src="img/spons/2015/omp1.png" width="275px" height="100px" />
+      <img class="spons"   src="img/spons/2015/omp1.webp" width="275px" height="100px" />
     </a>
     </div>
     <div class="col-md-6 col-sm-12 " align="center"style="margin-bottom:20px;">
     <a href="http://www.letmeknow.in" target="_blank">
-      <img class="spons"   src="img/spons/2015/omp2.png" width="305px" height="100px" />
+      <img class="spons"   src="img/spons/2015/omp2.webp" width="305px" height="100px" />
     </a>
    </div>
    </div> </div> </div> </div>
