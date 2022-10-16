@@ -1,5 +1,7 @@
 <?php
 session_start();  
+
+$ch = isset($_SESSION['check'])? $_SESSION['check']: 0;
 ?>
 
 <!DOCTYPE html>
@@ -19,6 +21,19 @@ session_start();
     FFEFEF
 -->
 <style>
+    
+    #login-error-msg {
+      text-align: center;
+      margin: 0;
+      padding: 5px;
+      font-size: 12px;
+      font-weight: bold;
+      color: #8a0000;
+      border: 1px solid #8a0000;
+      background-color: #e58f8f;
+      opacity: 0;
+    }
+
     h4{
         font-size: 18px;
     }
@@ -58,6 +73,7 @@ session_start();
 
 	<div class="signup">
 		<h2 class="form-title" id="signup">Log in</h2>
+        <p id="login-error-msg">Bad Credentials</p>
         <form action="Utility/signup2.php" method = "post">
 		    <div class="form-holder">
             <label for="email">Email</label>
@@ -68,7 +84,7 @@ session_start();
 		    <button class="submit-btn">Log in</button>
         </form>
         <hr>
-        <center><h3 style = "color: #FFEFEF">Or Sign up</h3></center>
+        <center><h3 style = "color: #FFEFEF"><span text-muted>For new registration</span> Sign up</h3></center>
         <a class="submit-btn" href="signup.php" role="button"><center>Sign up</center></a>
 	</div>
 
@@ -99,6 +115,19 @@ session_start();
 
 const loginBtn = document.getElementById('login');
 const signupBtn = document.getElementById('signup');
+
+var $ch = '<?php echo $ch; ?>';
+
+if($ch == 1)
+{
+    document.getElementById('login-error-msg').style.opacity = 1;
+    <?php
+    session_destroy(); 
+    ?>
+}
+else{
+    document.getElementById('login-error-msg').style.opacity = 0;  
+}
 
 loginBtn.addEventListener('click', (e) => {
     let parent = e.target.parentNode.parentNode;

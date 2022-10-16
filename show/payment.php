@@ -17,7 +17,7 @@
                     </ul></div>
 
                     <div class="col-sm-12 col-md-12">
-                        <label for="reciept">Drive Link for Fee Reciept <span style="color:red;">*</span></label>
+                        <label for="reciept">Drive Link for Fee receipt <span style="color:red;">*</span></label>
                         <input class="form-control" type="text" id="reciept" name="reciept" <?php echo "$reciept"?> required>
                     </div>
                 </div>

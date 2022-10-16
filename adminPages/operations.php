@@ -90,6 +90,15 @@ function viewrecord($id){
 
   function getBatch($batch){
     try {
+
+      if($batch == "other")
+      {
+        $sql="SELECT * FROM `hc`  WHERE `yog`!= '1973' AND `yog`!= '1983' AND `yog`!= '1998' AND `boolean`='0' ";
+        $stmt=$GLOBALS["pdo"]->prepare($sql);
+        $stmt->execute();
+        return $stmt;
+      }
+
       $sql="SELECT * FROM `hc`  WHERE `yog`=:batch AND `boolean`='0' ";
           //preparing the sql2 statement for execution
       $stmt=$GLOBALS["pdo"]->prepare($sql);

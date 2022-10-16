@@ -134,7 +134,7 @@
               <tr>
                 <th scope="col">#</th>
                 <th scope="col">Registration Fee</th>
-                <th scope="col">Amount</th>
+                <th scope="col">Amount(INR)</th>
               </tr>
             </thead>
              <tbody>
@@ -156,7 +156,7 @@
               <tr>
                 <th scope="col">#</th>
                 <th scope="col">Guest House</th>
-                <th scope="col">Cost per person</th>
+                <th scope="col">Cost per person(INR)</th>
               </tr>
             </thead>
              <tbody>
@@ -393,19 +393,19 @@
            </div>
   
            <div class="form-floating mb-3 col-sm-6">
-             <input type="number" min="1951" max="2020" class="form-control" name= "yog" id="yog" placeholder="2010" maxlength="10" onfocusout = "next()" required>
+             <input type="number" min="1951" max="2020" class="form-control" name= "yog" id="yog" placeholder="2010" maxlength="10" required>
              <label for="yog">Year of Graduating<span style="color:red;">*</span></label>
            </div>
-        </div>
-
-        <div class = "row" style="justify-content:center">
-        <div class="col-1"><button id="submit" class="btn btn-primary" type = "submit">Submit</button></div>
         </div>
 
       </div>
     </div>
   </div>
 
+  <div class = "row" style="justify-content:center; color:white; margin: 11px">
+        <div class="col-1"><button id="submit" class="btn btn-light" onclick = "next()" type = "submit">Submit</button></div>
+  </div>
+  
   <!--<div class="accordion-item">
     <h2 class="accordion-header" id="headingSix">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
@@ -505,11 +505,36 @@ function next(){
            let organisation = document.getElementById("organisation").value;
            let yoj = document.getElementById("yoj").value;
            let yog = document.getElementById("yog").value;
+           let pic = document.getElementById("pro_pic").value;
+
+           let str = "";
+           if(!(email.length>0))
+               str = str + "Email, ";
+           if(!(name.length>0))
+           str = str + "Name, ";
+           if(!(mobile.length>0))
+           str = str + "Phone Number, ";
+           if(!(dob.length>0))
+           str = str + "Date of Birth, ";
+           if(!(pic.length>0))
+           str = str + "Photo, ";
+           if(!(employee.length>0))
+           str = str + "Is Residence of KGP,";
+           if(!(industry.length>0))
+           str = str + "Industry, ";
+           if(!(profession.length>0))
+           str = str + "Profession, ";
+           if(!(organisation.length>0))
+           str = str + "Organisation, ";
+           if(!(yoj.length>0))
+           str = str + "Joining Year, ";
+           if(!(yog.length>0))
+           str = str + "Graduting Year";
 
           if(!(email.length>0 && name.length>0 && 
           mobile.length>0 && dob.length>0 && employee.length>0 && industry.length>0 && profession.length>0
-          && organisation.length>0 && yoj.length>0 && yog.length>0)){
-            alert('Please fill all the required fields!');
+          && organisation.length>0 && yoj.length>0 && yog.length>0 && pic.length>0)){
+            alert('Please fill '+str+"!");
            }
        } 
 </script>

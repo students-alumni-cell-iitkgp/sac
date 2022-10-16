@@ -3,12 +3,6 @@
     <h6 class="mb-0">Personal Information</h6>
   </div>
   <div class="card-body pt-4 p-3">
-    <form action="./backend/photo.php" method = "post" enctype="multipart/form-data" onSubmit="window.location.reload()">
-        <label for="username">Update Photo</label>
-          <input type="file" id="pro_pic" name="pro_pic" accept=".jpg, .jpeg, .png">          
-          <button id="submit" class="btn btn-sm btn-primary" type = "submit" style="margin-top:8px">Save</button>       
-     </form>
-
     <ul class="list-group">
       <li class="list-group-item border-0 d-flex p-4 mb-2 bg-gray-100 border-radius-lg">
         <div class="d-flex flex-column" style="width:70%">
@@ -24,6 +18,12 @@
         </div>
       </li>
     </ul>
+
+    <form action="./backend/photo.php" method = "post" enctype="multipart/form-data" onSubmit="window.location.reload()">
+        <label for="username">Update Photo</label>
+          <input type="file" id="pro_pic" name="pro_pic" accept=".jpg, .jpeg, .png">          
+          <button id="submit" class="btn btn-sm btn-primary" type = "submit" style="margin-top:8px">Save</button>       
+     </form>
 
     <div class="ms-auto">
           <a class="btn btn-link text-dark px-3 mb-0" type = "button" onclick="edit_personal()"><i class="material-icons text-sm me-2">edit</i>Edit</a>
