@@ -76,7 +76,7 @@
 						<div class="first"></div>
 						<div class="second"></div>
 						<div class="third">
-							<img src="hc0.webp" class="img-2 x">
+							<img src="./img/homecoming2022/hc0.webp" class="img-2 x">
 
 </div>						
 
@@ -102,20 +102,20 @@
 			<div class="col-md-8 x">
 					<div class="image pt-3 ">
 
-					<img src="hc2.webp" class="img-fluid image__img">
+					<img src="./img/homecoming2022/hc2.webp" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary text-center">
 					</div></div>
 				</div>			
 				<div class="col-md-4 x align-items-center">
 						<div class="image pt-3">
 
-					<img  src="hc1.webp" class="img-fluid image__img">
+					<img  src="./img/homecoming2022/hc1.webp" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary">
 							<div class="image__title"></div>
 							<p class="image__description"></p>	
 				</div></div>
 				<div class="image pt-3">
-					<img  src="hc3.webp" class="img-fluid image__img">
+					<img  src="./img/homecoming2022/hc3.webp" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary">
 							<div class="image__title"></div>
 							<p class="image__description"></p>	
@@ -139,20 +139,20 @@
 			<div class="row d-flex justify-content-center">
 			<div class="col-md-3 x pr-0 pt-2">			
 				<div class="image pt-3 pb-3">
-					<img  src="hc4.webp" class="img-fluid image__img">
+					<img  src="./img/homecoming2022/hc4.webp" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary text-center">
 							<div class="image__title">Gala Dinner</div>
 							<p class="image__description"></p>	
 				</div></div>
 					<div class="image pt-3 pb-3">
-					<img  src="hc5.webp" class="img-fluid image__img"><div class="image__overlay image__overlay--primary">
+					<img  src="./img/homecoming2022/hc5.webp" class="img-fluid image__img"><div class="image__overlay image__overlay--primary">
 							<div class="image__title">Gala Dinner</div>
 							<p class="image__description"></p>	
 				</div></div>			
 			</div>
 			<div class="col-md-9 x pl-1">
 				<div class="image">
-					<img  src="hc6.webp" class="img-fluid image__img">
+					<img  src="./img/homecoming2022/hc6.webp" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary text-center">
 							<div class="image__title">Musical Night</div>
 							<p class="image__description">Taking a trip back to memory lane, Students' alumni cell presented Eastern Technology Music Society that took our alumni back, straight to 
@@ -181,7 +181,7 @@
 			<div class="col-md-4 x align-items-center">
 					
 				<div class="image">
-					<img  src="hc9.webp" class="img-fluid image__img">
+					<img  src="./img/homecoming2022/hc9.webp" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary text-center">
 							<div class="image__title">Campus Tour</div>
 							<p class="image__description more-text">Campus Tour is our way of showing the 2200 acre campus in a nutshell and highlighting all the major developments around.
@@ -189,7 +189,7 @@
 				</div></div>
 				<div class="image pt-3">
 
-					<img  src="hc8.webp" class="img-fluid image__img">
+					<img  src="./img/homecoming2022/hc8.webp" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary text-center">
 							<div class="image__title">Campus Tour</div>
 							<p class="image__description">Remember the place where we took our first picture in the campus</p>	
@@ -198,7 +198,7 @@
 			</div>
 			<div class="col-md-8 x">
 				<div class="image">
-					<img src="hc7.webp" class="img-fluid image__img">
+					<img src="./img/homecoming2022/hc7.webp" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary text-center">
 							<div class="image__title">Campus Tour</div>
 							<p class="image__description"> In the progressive world we live in, there are a lot of changes and yet a lot of constants and it’s a pleasure to see the 
@@ -224,7 +224,7 @@
 			<div class="row d-flex justify-content-center">
 			<div class="col-md-6 x align-items-center">
 					<div class="image">
-					<img  src="hc10.webp" class="img-fluid image__img">
+					<img  src="./img/homecoming2022/hc10.webp" class="img-fluid image__img">
 				      <div class="image__overlay image__overlay--primary text-center">
 							<div class="image__title">Department Visit</div>
 							<p class="image__description">Departments are our own shrine of knowledge filled with
@@ -235,19 +235,19 @@
 			</div>
 			<div class="col-md-6 x">
 									<div class="image">
-					<img  src="hc11.webp" class="img-fluid image__img">
+					<img  src="./img/homecoming2022/hc11.webp" class="img-fluid image__img">
 				      <div class="image__overlay image__overlay--primary text-center">	
 				</div></div>
 			</div>
 			<div class="col-md-6 x">
 									<div class="image pt-3">
-					<img  src="hc12.webp" class="img-fluid image__img">
+					<img  src="./img/homecoming2022/hc12.webp" class="img-fluid image__img">
 				      <div class="image__overlay image__overlay--primary text-center">	
 				</div></div>
 			</div>
 			<div class="col-md-6 x">
 									<div class="image pt-3">
-					<img  src="hc13.webp" class="img-fluid image__img">
+					<img  src="./img/homecoming2022/hc13.webp" class="img-fluid image__img">
 				      <div class="image__overlay image__overlay--primary text-center">	
 				</div></div>
 			</div>
@@ -314,7 +314,7 @@
 			<div class="row d-flex justify-content-center">
 			<div class="col-md-8 x">
 					<div class="image">
-					<img src="hc14.webp" class="img-fluid image__img">
+					<img src="./img/homecoming2022/hc14.webp" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary text-center">
 							<div class="image__title">Illumination</div>
 							<p class="image__description">The Illumination with diyas followed by the release of sky lanterns creates 
