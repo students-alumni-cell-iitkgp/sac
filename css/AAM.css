@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 
+
 body {
     font-family: 'Raleway', sans-serif;
     background: url(../img/aa.webp);
@@ -363,3 +364,40 @@ iframe {
 }
 }
  */
+ /* RESPONSIVE FOR (  max-width is 480px)*/
+
+ @media (max-width: 480px){
+
+    .section-2{
+        margin:auto;
+        padding: 0 0 0 0!important; 
+        
+    }
+    .pt-0{
+        margin:auto;
+        padding: 0 0 0 0!important;
+       
+    }
+    .padding{
+        padding:10px !important;
+        
+    }
+    .img{
+        padding:0;
+        margin:auto;
+    }
+    .col-md-10, .col-12, .trailer{
+        margin:auto !important;
+    }
+    .btn{
+        margin:auto;
+        width:140px; 
+        max-width:140px;
+    }
+    .c{
+        margin:auto;
+        font-size:13px !important;
+        color: darkblue;
+        font-weight:bold;  
+    }		
+ }
