@@ -1,3 +1,30 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -16,18 +43,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/YOY_style.css" />
-    <link rel="stylesheet" href="css/SAM_mobile-style.css"> 
-
-
-
-    
-
-
-
-
-
-
-
+    <link rel="stylesheet" href="css/SAM_mobile-style.css">
 </head>
 <body>
     <?php include 'navbar.php' ?>
@@ -92,18 +108,9 @@
                                         <div class="row">
                                             <div class="col-sm-12 col-lg-6">
                                                 <div class="card" style="height: 100% !important;">
-                                                <a href="https://drive.google.com/file/d/1ev5JlYWSK8FgCzsRp3fVH3S1jRcbxXsJ/view?ts=632df1d7" target="_blank"><img src="img/yoy/yoy22.webp" class="card-img-top" ></a>
-                                                 
-                                                    
-
+                                                ">  <a href="https://drive.google.com/file/d/1ev5JlYWSK8FgCzsRp3fVH3S1jRcbxXsJ/view?ts=632df1d7" target="_blank"  style="color: black">  <img src="img/yoy/yoy22.webp" class="card-img-top"></a>
                                                     <div class="card-body">
-                                                        <h4 class="card-title">  <a href="https://drive.google.com/file/d/1ev5JlYWSK8FgCzsRp3fVH3S1jRcbxXsJ/view?ts=632df1d7" target="_blank"  style="color: black">Yearnings Of Yore 2022....</a></h4>
-                                                    <!--    <div class="row ">
-                                                          
-
-                                                        </div>
-
--->
+                                                        <h4 class="card-title"> <a href="https://drive.google.com/file/d/1ev5JlYWSK8FgCzsRp3fVH3S1jRcbxXsJ/view?ts=632df1d7" target="_blank"  style="color: black">Yearnings Of Yore 2022....</a></h4>
 
                                                     </div>
 
@@ -116,27 +123,6 @@
                                                     <img src="img/yoy/yoy188.webp" class="card-img-top">
                                                     <div class="card-body">
                                                         <h4 class="card-title">Yearnings Of Yore 2018....</h4>
-
-
-
-
-                                                   <!--     <div class="row ">
-                                                            <div class="img-txt ">
-                                                               <a href=""  target="_blank" style="color:black"> UG</a> 
-                                                            </div>
-                                                            <div class="img-txt">
-                                                            <a href=""target="_blank" style="color:black"> PG</a>
-                                                            </div>
-                                                            <div class="img-txt">
-                                                            <a href=""target="_blank" style="color:black"> RS</a>
-                                                            </div>
-                                                        </div> -->
-                                                    </div>
-
-
-
-
-
 
                                                     </div>
 
@@ -161,30 +147,6 @@
                                                     <div class="card-body">
                                                         <h4 class="card-title">Yearnings Of Yore 2017....</h4>
 
-
-
-
-
-
-                                                    <!--    <div class="row ">
-                                                            <div class="img-txt ">
-                                                               <a href=""  target="_blank" style="color:black"> UG</a> 
-                                                            </div>
-                                                            <div class="img-txt">
-                                                            <a href=""target="_blank" style="color:black"> PG</a>
-                                                            </div>
-                                                            <div class="img-txt">
-                                                            <a href=""target="_blank" style="color:black"> RS</a>
-                                                            </div>
-                                                        </div>  -->
-
-
-
-
-
-
-
-
                                                     </div>
 
                                                 </div>
@@ -196,35 +158,7 @@
                                                     <div class="card-body">
                                                         <h4 class="card-title">Yearnings Of Yore 2016....</h4>
 
-
-
-
-
-<!--
-
-                                                        <div class="row ">
-                                                            <div class="img-txt ">
-                                                               <a href=""  target="_blank" style="color:black"> UG</a> 
-                                                            </div>
-                                                            <div class="img-txt">
-                                                            <a href=""target="_blank" style="color:black"> PG</a>
-                                                            </div>
-                                                            <div class="img-txt">
-                                                            <a href=""target="_blank" style="color:black"> RS</a>
-                                                            </div>
-                                                        </div>
-
-
-
-
-
-
-
--->
-
-
-
-                                                    </div> 
+                                                    </div>
 
                                                 </div>
 
@@ -246,30 +180,7 @@
                                                         <h4 class="card-title">Yearnings Of Yore 2015....</h4>
 
 
-
-
-
-
-                                                    <!--    <div class="row ">
-                                                            <div class="img-txt ">
-                                                               <a href=""  target="_blank" style="color:black"> UG</a> 
-                                                            </div>
-                                                            <div class="img-txt">
-                                                            <a href=""target="_blank" style="color:black"> PG</a>
-                                                            </div>
-                                                            <div class="img-txt">
-                                                            <a href=""target="_blank" style="color:black"> RS</a>
-                                                            </div>
-                                                        </div>
-
-
--->
-
-
-
-
-
-                                                    </div> 
+                                                    </div>
 
                                                 </div>
 
@@ -280,35 +191,7 @@
                                                     <div class="card-body">
                                                         <h4 class="card-title">Yearnings Of Yore 2014....</h4>
 
-
-
-
-
-
-
-                                                      <!--  <div class="row ">
-                                                            <div class="img-txt ">
-                                                               <a href=""  target="_blank" style="color:black"> UG</a> 
-                                                            </div>
-                                                            <div class="img-txt">
-                                                            <a href=""target="_blank" style="color:black"> PG</a>
-                                                            </div>
-                                                            <div class="img-txt">
-                                                            <a href=""target="_blank" style="color:black"> RS</a>
-                                                            </div>
-                                                        </div>
-
-
-
-
--->
-
-
-
-
-
-                                                    </div> 
-
+                                                    </div>
 
                                                 </div>
 
@@ -319,28 +202,7 @@
                                                     <div class="card-body">
                                                         <h4 class="card-title">Yearnings Of Yore 2010....</h4>
 
-
-
-
-
-<!--
-                                                        
-                                                        <div class="row ">
-                                                            <div class="img-txt ">
-                                                               <a href=""  target="_blank" style="color:black"> UG</a> 
-                                                            </div>
-                                                            <div class="img-txt">
-                                                            <a href=""target="_blank" style="color:black"> PG</a>
-                                                            </div>
-                                                            <div class="img-txt">
-                                                            <a href=""target="_blank" style="color:black"> RS</a>
-                                                            </div>
-                                                        </div>
--->
-
-
-
-                                                    </div>  
+                                                    </div>
 
                                                 </div>
 
@@ -361,29 +223,6 @@
                                                     <div class="card-body">
                                                         <h4 class="card-title">Yearnings Of Yore 2008....</h4>
 
-
-
-
-
-                                     <!--                   <div class="row ">
-                                                            <div class="img-txt ">
-                                                               <a href=""  target="_blank" style="color:black"> UG</a> 
-                                                            </div>
-                                                            <div class="img-txt">
-                                                            <a href=""target="_blank" style="color:black"> PG</a>
-                                                            </div>
-                                                            <div class="img-txt">
-                                                            <a href=""target="_blank" style="color:black"> RS</a>
-                                                            </div>
-                                                        </div>
-
--->
-
-
-
-
-
-
                                                     </div>
 
                                                 </div>
@@ -395,28 +234,6 @@
                                                     <div class="card-body">
                                                         <h4 class="card-title">Yearnings Of Yore 2006....</h4>
 
-
-
-
-
-
-                                                <!--        <div class="row ">
-                                                            <div class="img-txt ">
-                                                               <a href=""  target="_blank" style="color:black"> UG</a> 
-                                                            </div>
-                                                            <div class="img-txt">
-                                                            <a href=""target="_blank" style="color:black"> PG</a>
-                                                            </div>
-                                                            <div class="img-txt">
-                                                            <a href=""target="_blank" style="color:black"> RS</a>
-                                                            </div>
-                                                        </div>
--->
-
-
-
-
-
                                                     </div>
 
                                                 </div>
@@ -427,25 +244,6 @@
                                                     <img src="img/yoy/2005.webp" class="card-img-top">
                                                     <div class="card-body">
                                                         <h4 class="card-title">Yearnings Of Yore 2005....</h4>
-
-
-
-<!--
-                                                        <div class="row ">
-                                                            <div class="img-txt ">
-                                                               <a href=""  target="_blank" style="color:black"> UG</a> 
-                                                            </div>
-                                                            <div class="img-txt">
-                                                            <a href=""target="_blank" style="color:black"> PG</a>
-                                                            </div>
-                                                            <div class="img-txt">
-                                                            <a href=""target="_blank" style="color:black"> RS</a>
-                                                            </div>
-                                                        </div>
-
--->
-
-
 
 
                                                     </div>
@@ -573,148 +371,7 @@
           });
           
           
-
-
-
-
-
-
-
-
-
-
-
-        $("#one,#two").each(function() {
-            $(this).addClass("progress-bar-purple");
-        });
-        gsap.from('header', {
-            opacity: 0,
-            duration: 1
-        })
-        gsap.from('header h1', {
-            opacity: 0,
-            duration: 2,
-            x: -200
-        })
-        gsap.from('header h6', {
-            opacity: 0,
-            duration: 2,
-            x: -500
-        })
-
-
-        gsap.from('.nav-item', {
-            scrollTrigger: {
-                trigger: '.nav-item',
-                toggleActions: "play none none none"
-            },
-            opacity: 0,
-            duration: 1,
-            x: -200
-        });
-
-
-        gsap.from('.section-1 h1', {
-            scrollTrigger: {
-                trigger: '.section-1 h1',
-                toggleActions: "play none none none"
-            },
-            opacity: 0,
-            duration: 1,
-            x: -200
-        });
-
-        gsap.from('.section-1 p', {
-            scrollTrigger: {
-                trigger: '.section-1 p',
-                toggleActions: "play none none none"
-            },
-            opacity: 0,
-            duration: 2.0,
-        });
-
-        gsap.from('.section-1 img', {
-            scrollTrigger: {
-                trigger: '.section-1 img',
-                toggleActions: "play none none none"
-            },
-            opacity: 0,
-            duration: 1.5,
-            x: 200
-        });
-
-        var img_txt = document.getElementsByClassName("img-txt");
-        var card = document.getElementsByClassName("card");
-
-        for (let i = 0; i < card.length; i++) {
-            gsap.from(card[i], {
-                scrollTrigger: {
-                    trigger: card[i],
-                    toggleActions: "play none none none"
-                },
-                opacity: 0,
-                duration: 1.5,
-                x: -200
-            });
-            $(card[i]).on('mouseenter', function(e) {
-                for (let j = 0; j < 3; j++) {
-                    gsap.to($(img_txt[i * 3 + j]), 1, {
-                        opacity: 1,
-                        ease: Sine.easeInOut
-                    });
-                }
-            });
-            $(card[i]).on('mouseleave', function(e) {
-                for (let j = 0; j < 3; j++) {
-                    gsap.to($(img_txt[i * 3 + j]), 1, {
-                        opacity: 0,
-                        ease: Sine.easeInOut
-                    });
-                }
-            });
-        }
-        for (let i = 0; i < img_txt.length; i++) {
-            $(img_txt[i]).on('mouseenter', function(e) {
-                gsap.to($(img_txt[i]), 0.5, {
-                    y: -8,
-                    ease: Sine.easeInOut
-                });
-            });
-            $(img_txt[i]).on('mouseleave', function(e) {
-                gsap.to($(img_txt[i]), 1, {
-                    y: 0,
-                    ease: Sine.easeInOut
-                });
-            });
-        }
-    </script>
-
-
-
-
-
-
-
-
-<style>
-    .img-txt{
-  margin-right: 10px;
-  margin-left: 10px;
-}
-.img-txt {
-  color: #111;
-}
-    </style>
-
-
-
-
-
-
-
-
-
-   
+        </script>
 
 </body>
 
