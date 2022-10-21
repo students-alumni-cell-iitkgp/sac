@@ -244,8 +244,6 @@
                                                     <img src="img/yoy/2005.webp" class="card-img-top">
                                                     <div class="card-body">
                                                         <h4 class="card-title">Yearnings Of Yore 2005....</h4>
-
-
                                                     </div>
 
                                                 </div>
