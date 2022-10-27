@@ -7686,8 +7686,6 @@ fieldset:disabled .btn {
 .fixed-top {
     position: fixed;
     top: 0;
-    right: 0;
-    left: 0;
     z-index: 1030;
 }
 
@@ -21620,7 +21618,7 @@ body:not(.dark-version) .sidenav.bg-transparent .collapse .nav-item .nav-link.ac
 }
 
 .navbar-main.fixed-top {
-    width: calc(100% - (15.625rem + 1.5rem * 3));
+    width: calc(100% - (15.625rem + 1.5rem * 0.8));
 }
 
 .navbar-main.fixed-top+[class*="container"] {

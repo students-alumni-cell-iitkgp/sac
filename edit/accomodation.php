@@ -51,7 +51,21 @@ $database = 'aam';
              </tbody>
            </table>
 
-           <table class="table table-striped">
+           <div class = "row" style = "justify-content:center">
+           <div class="form-group mb-3 col-sm-6">
+             <label for="accompaniment">Accompanying Person(s)</label>
+                <input type="number" class="form-control" id="accompaniment" name= "accompaniment" value="0" placeholder= "0" min = "0"value = "<?php echo "$accompaniment"?>"  max="20" onchange="calc_cost()">
+                <small class = "text-muted">Kids below 13 years of age won't be charged.</small>
+             </div>
+           </div>
+
+           <div class = "row" style="justify-content:center">
+           <div class="mb-3 col-sm-4">
+           <input class="form-control" id="acp" name = "acp" type="text" value = "Reg Fee = &#8377;0" readonly>
+           </div>
+           </div>
+
+           <table class="table table-striped" style = "margin-bottom: 0 !important">
             <thead>
               <tr>
                 <th scope="col"></th>
@@ -72,9 +86,10 @@ $database = 'aam';
                </tr>
              </tbody>
            </table>
+           <small class = "text-muted">Rooms are on Shared Bases</small>
 
 
-         <div class="row">
+         <div class="row" style="justify-content:center">
 
              <div class="form-group mb-3 col-sm-6">
              <label for="employee">Are you a resident of IIT Kharagpur?<span style="color:red;">*</span></label>
@@ -84,12 +99,6 @@ $database = 'aam';
             <option value="1">Yes</option>
             </select>
           </div>
-
-          <div class="form-group mb-3 col-sm-6">
-             <label for="accompaniment">Accompanying Person(s)</label>
-                <input type="number" class="form-control" id="accompaniment" name= "accompaniment" value="0" placeholder= "0" min = "0"value = "<?php echo "$accompaniment"?>"  max="20" onchange="calc_cost()">
-                <small class = "text-muted">Kids below 13 years of age won't be charged. It's free of cost for them. Don't add them in the accompanying person(s) list</small>
-             </div>
            </div>
 
           <div class = "row" id = "gh" style = "justify-content:center">
