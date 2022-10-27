@@ -151,7 +151,21 @@
              </tbody>
            </table>
 
-           <table class="table table-striped">
+           <div class="row" style = "justify-content:center">
+          <div class="form-floating mb-3 col-sm-6">
+                <input type="number" class="form-control" id="accompaniment" name= "accompaniment" value="0" placeholder= "0" min = "0" onchange="calc_cost()" max= "20" maxlength="10">
+                <label for="accompaniment">Accompanying Person(s)</label>
+                <small class = "text-muted">Kids below 13 years of age won't be charged</small>
+             </div>
+           </div>
+
+           <div class = "row" style="justify-content:center">
+           <div class="mb-3 col-sm-4">
+           <input class="form-control" id="acp" name = "acp" type="text" value = "Reg Fee = &#8377;0" readonly>
+           </div>
+           </div>
+
+           <table class="table table-striped" style = "margin-bottom: 0 !important">
             <thead>
               <tr>
                 <th scope="col">#</th>
@@ -172,9 +186,10 @@
                </tr>
              </tbody>
            </table>
+           <small class = "text-muted">Rooms are on Shared Bases</small>
 
-           <div class="row">
 
+           <div class="row" style = "justify-content:center">
              <div class="form-floating mb-3 col-sm-6">
             <select class="form-select" id = "employee" name= "employee" aria-label="Floating label select example" onchange="emp()" required>
             <option selected value="select">---Select---</option>
@@ -183,19 +198,13 @@
             </select>
              <label for="employee">Are you a resident of IIT Kharagpur?<span style="color:red;">*</span></label>
           </div>
-
-          <div class="form-floating mb-3 col-sm-6">
-                <input type="number" class="form-control" id="accompaniment" name= "accompaniment" value="0" placeholder= "0" min = "0" onchange="calc_cost()" max= "20" maxlength="10">
-                <label for="accompaniment">Accompanying Person(s)</label>
-                <small class = "text-muted">Kids below 13 years of age won't be charged. It's free of cost for them. Don't add them in the accompanying person(s) list</small>
-             </div>
            </div>
 
           <div class = "row" id = "gh" style = "justify-content:center">
           <div class="form-floating mb-3 col-sm-6">
             <select class="form-select" id = "g" name= "gh" aria-label="Floating label select example" onchange="emp()" required>
-            <option value="select">---Select---</option>
-            <option selected value="TGH">Technology Guest House</option>
+            <option selected value="select">---Select---</option>
+            <option value="TGH">Technology Guest House</option>
             <option value="SAM">Sir Ashutosh Mukherjee Hall</option>
             </select>
              <label for="gh">Guest House<span style="color:red;">*</span></label>
@@ -449,6 +458,9 @@ function calc_cost(){
 
            let e = document.getElementById("employee").value;
            var cost = 0;
+           var c = 0;
+           c = 8000 + 5000*nguest;
+
            if(e == 0)
            { 
                if(choice === "TGH"){
@@ -457,15 +469,12 @@ function calc_cost(){
                else if(choice === "SAM"){
                    cost = 900 + 8000 + 5000*nguest + 900*nguest;
                }
-               else if(choice === "select"){
-                alert("Please Select Guest House");
-               }
            }
            else if(e==1){
                cost =8000 + 5000*nguest;
           }
            //console.log(nguest,choice,e);
-          
+           document.getElementById("acp").value ="Total Reg Fee = "+c;
            document.getElementById("cost").value ="Total Cost = "+cost;
            //console.log(cost);
        }

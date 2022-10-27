@@ -107,6 +107,10 @@
       display: none;
    }
 
+   li{
+    cursor: pointer;
+   }
+
 input{
   z-index: 10;
 }
@@ -234,12 +238,12 @@ input{
       <main class="main-content border-radius-lg ">
         <!-- Navbar -->
 
-<nav class="navbar navbar-main navbar-expand-lg px-0 mx-4 shadow-none border-radius-xl" id="navbarBlur" data-scroll="true">
+<nav class="navbar navbar-main navbar-expand-lg fixed-top px-0 shadow-none border-radius-xl" id="navbarBlur" style = "background-color:#DDDDDD"data-scroll="true">
   <div class="container-fluid py-1 px-3">
     <nav aria-label="breadcrumb">
       <a class="navbar-brand m-0" href="https://sac.iitkgp.ac.in/" target="_blank">
-      <img src="./img/logo19.webp" class="navbar-brand-img " style = "width:60px; height: 60px" alt="main_logo">
-      <span class="ms-1" style = "font-weight: 900; font-size:x-large">19th Annual Alumni Meet</span>
+      <img src="./img/logo19.webp" class="navbar-brand-img " style = "width:80px; height: 80px" alt="main_logo">
+      <span class="ms-1" style = "font-weight: bold; color: #D81B60">19th Annual Alumni Meet</span>
     </a>
       
     </nav>
@@ -270,17 +274,17 @@ input{
         </li>
         <li class="nav-item px-3 d-flex align-items-center">
           <a onclick="attendee()" class="nav-link text-body p-0" data-toggle="tooltip" data-placement="bottom" title="Attendee">
-            <i class="fa fa-users fixed-plugin-button-nav cursor-pointer"></i>
+            <i class="fa fa-users fixed-plugin-button-nav cursor-pointer"></i> Attendee
           </a>
         </li>
         <li class="nav-item px-3 d-flex align-items-center">
           <a onclick="payment()" class="nav-link text-body p-0" data-toggle="tooltip" data-placement="bottom" title="Payment">
-            <i class="fa fa-inr fixed-plugin-button-nav cursor-pointer"></i>
+            <i class="fa fa-inr fixed-plugin-button-nav cursor-pointer"></i> Payment
           </a>
         </li>
         <li class="nav-item dropdown pe-2 d-flex align-items-center">
           <a href="Utility/logout2.php" class="nav-link text-body p-0" data-toggle="tooltip" data-placement="bottom" title="Logout">
-            <i class="fa fa-sign-out cursor-pointer"></i>
+            <i class="fa fa-sign-out cursor-pointer"></i> Logout
           </a>
         </li>
       </ul>
@@ -290,7 +294,7 @@ input{
 
 <!-- End Navbar -->
 
-<div class="row" style="padding-left:1px">
+<div class="row" style="padding-left:1px ;margin-top:100px">
         <div class="col-md-7 mt-4">
         <?php include './show/personal.php' ?>
         <?php include './show/travel.php' ?>
@@ -871,6 +875,9 @@ input{
 
            let e = document.getElementById("employee").value;
            var cost = 0;
+           var c = 0;
+           c = 8000 + 5000*nguest;
+
            if(e == 0)
            { 
                if(choice === "TGH"){
@@ -879,15 +886,12 @@ input{
                else if(choice === "SAM"){
                    cost = 900 + 8000 + 5000*nguest + 900*nguest;
                }
-               else if(choice === "select"){
-                alert("Please Select Guest House");
-               }
            }
            else if(e==1){
                cost =8000 + 5000*nguest;
           }
            //console.log(nguest,choice,e);
-          
+           document.getElementById("acp").value ="Total Reg Fee = "+c;
            document.getElementById("cost").value ="Total Cost = "+cost;
            //console.log(cost);
        }
