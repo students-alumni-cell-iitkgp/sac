@@ -51,10 +51,15 @@ $database = 'aam';
              </tbody>
            </table>
 
-           <div class = "row" style = "justify-content:center">
+           <div class = "row">
            <div class="form-group mb-3 col-sm-6">
              <label for="accompaniment">Accompanying Person(s)</label>
-                <input type="number" class="form-control" id="accompaniment" name= "accompaniment" value="0" placeholder= "0" min = "0"value = "<?php echo "$accompaniment"?>"  max="20" onchange="calc_cost()">
+                <input type="number" class="form-control" id="accompaniment" name= "accompaniment" value="0" placeholder= "0" min = "0" value = "<?php echo "$accompaniment"?>"  max="20" onchange="calc_cost()">
+             </div>
+
+             <div class="form-group mb-3 col-sm-6">
+             <label for="acc_kid">Accompanying Kid(s)</label>
+                <input type="number" class="form-control" id="acc_kid" name= "acc_kid" value="0" placeholder= "0" min = "0" value = "<?php echo "$acc_kid"?>"  max="20" >
                 <small class = "text-muted">Kids below 13 years of age won't be charged.</small>
              </div>
            </div>

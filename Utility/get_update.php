@@ -47,6 +47,7 @@ include_once('../config.php');
   
             $marital      = $user['marital']        ;
           $accompaniment = $user['accompaniment'] ;
+          $acc_kid = $user['acc_kid'] ;
             $gh           = $user['gh']           ;
             $cost         = $user['cost']           ;
             $serial = $user['serial'];
@@ -107,6 +108,7 @@ include_once('../config.php');
   
          $_SESSION['marital']        =   $marital      ;
          $_SESSION['accompaniment'] = $accompaniment ;
+         $_SESSION['acc_kid'] = $acc_kid ;
          $_SESSION['gh']           =   $gh           ;
          $_SESSION['cost']           =   $cost         ;
   
