@@ -6,19 +6,19 @@ require '../config.php';
 
         $email   = $_SESSION['email']     ;
         
-        $travel_form = $_POST['travel_form'];
-        $mode = $_POST['mode'];
-        $reach_in = $_POST['reach_in'];
-        $date_reach_in = $_POST['date_reach_in'];
-        $time_reach_in = $_POST['time_reach_in'];
-        $flight_no = $_POST['flight_no'];
-        $train_no = $_POST['train_no'];
-        $cab = $_POST['cab'];
-        $cab_type = $_POST['cab_type'];
-        $no_acc = $_POST['no_acc'];
-        $date_reach_out = $_POST['date_reach_out'];
-        $time_reach_out = $_POST['time_reach_out'];
-        $reach_out = $_POST['reach_out'];
+        $travel_form    = $_POST['travel_form']   != "" ? $_POST['travel_form']    : "null";
+        $mode           = $_POST['mode']          != "" ? $_POST['mode']           : "null"     ;
+        $reach_in       = $_POST['reach_in']      != "" ? $_POST['reach_in']       : "null"     ;
+        $date_reach_in  = $_POST['date_reach_in']  ;
+        $time_reach_in  = $_POST['time_reach_in']  ;
+        $flight_no      = $_POST['flight_no']     != "" ? $_POST['flight_no']      : "null"     ;
+        $train_no       = $_POST['train_no']      != "" ? $_POST['train_no']       : "null"     ;
+        $cab            = $_POST['cab']           != "" ? $_POST['cab']            : "null"     ;
+        $cab_type       = $_POST['cab_type']      != "" ? $_POST['cab_type']       : "null"     ;
+        $no_acc         = $_POST['no_acc']        != "" ? $_POST['no_acc']         : "null"     ;
+        $date_reach_out = $_POST['date_reach_out']    ;
+        $time_reach_out = $_POST['time_reach_out']    ;
+        $reach_out      = $_POST['reach_out']     != "" ? $_POST['reach_out']      : "null"     ;
 
         $sql = "UPDATE `hc` SET `travel_form`     = :travel_form,
                                  `mode`          = :mode ,
