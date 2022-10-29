@@ -7,6 +7,7 @@ require '../config.php';
         $email   = $_SESSION['email']     ;
         $marital       = $_POST['marital'];
         $accompaniment = $_POST['accompaniment'];
+        $acc_kid = $_POST['acc_kid'];
         $gh            = $_POST['gh'];
         $serial        = $_POST['serial'];
         $employee      = $_POST['employee'];
@@ -14,6 +15,7 @@ require '../config.php';
 
         $sql = "UPDATE `hc` SET `marital`           = :marital,
                                   `accompaniment`        = :accompaniment ,
+                                  `acc_kid`        = :acc_kid ,
                                   `gh`           = :gh,
                                   `serial`          = :serial,
                                   `employee`        = :employee,
@@ -24,6 +26,7 @@ require '../config.php';
 
         $stmt->bindparam(':marital',$marital);
       $stmt->bindparam(':accompaniment',$accompaniment);
+      $stmt->bindparam(':acc_kid',$acc_kid);
       $stmt->bindparam(':gh',$gh);
       $stmt->bindparam(':serial',$serial);
       $stmt->bindparam(':employee',$employee);

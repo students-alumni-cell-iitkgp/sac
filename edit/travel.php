@@ -3,7 +3,8 @@
     <h6 class="mb-0">Travel Details</h6>
   </div>
   <div class="card-body pt-4 p-3">
-  <form action="backend\travel.php" method = "post" enctype="multipart/form-data" onSubmit="window.location.reload()">
+
+<form action="backend\tra.php" method = "post" enctype="multipart/form-data" onSubmit="window.location.reload()" >
 
     <div class = "row">
         <div class="form-group col-12">
@@ -11,6 +12,7 @@
             <input class="form-control" type="text" name="travel_form" id="travel_form" value = "<?php echo "$travel_form"?>" maxlength="100" required />
         </div>
     </div>
+
 
     <div class = "row">
         <div class="form-group col-sm-6">

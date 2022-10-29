@@ -1,4 +1,9 @@
 <div class="card prof1">
+
+<div class="div succ" id = "succ" style=" display: flex; justify-content: center; padding: 10px; background-color:#c4f2c4; Border: 1px solid darkgreen; color:darkgreen">
+  <p style = "font-weight: bold">Congratulation you have Registered Successfully</p>
+</div>
+
   <div class="card-header pb-0 px-3">
     <h6 class="mb-0">Personal Information</h6>
   </div>

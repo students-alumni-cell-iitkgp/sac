@@ -23,6 +23,8 @@
         $covi_dose        = $_SESSION['covi_dose']        ;
           $marital        = $_SESSION['marital']        ;
         $accompaniment    = $_SESSION['accompaniment'] ;
+        $acc_kid    = $_SESSION['acc_kid'] ;
+        $acc_tot    = $accompaniment + $acc_kid + 1 ;
           $gh             = $_SESSION['gh']           ;
           $cost           = $_SESSION['cost']           ;
           $serial         = $_SESSION['serial'];
@@ -920,6 +922,10 @@ function emp()
   calc_cost();
 }
 emp();
+
+setTimeout(function() {
+  document.getElementById("succ").style.display = "none"
+          }, 5000);
 </script>
 
 <!-- Github buttons -->
