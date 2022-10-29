@@ -19,7 +19,7 @@
                 <label for="mode">Mode of Travelling<span style="color:red;">*</span>: <span style="color:green;font-weight:bold"><?php echo "$mode"?></span></label> 
                 <div class="input-group mb-3">
                     <select  class="form-control form-select" type="list" id="mode" name="mode" value = "<?php echo "$mode"?>" required>
-                        <option value="">---Select---</option> 
+                        <option selected value="">---Select---</option> 
                         <option value="Airplane">Airplane</option>
                         <option value="Train">Train</option>
                         <option value="Bus" >Bus</option>
@@ -33,7 +33,7 @@
             <label for="reach_in">Where will you be reaching?<span style="color:red;">*</span>: <span style="color:green;font-weight:bold"><?php echo "$reach_in"?></span></label> 
             <div class="input-group mb-3">
                 <select  class="form-control form-select" type="list" id="reach_in" name="reach_in" value = "<?php echo "$reach_in"?>" required>
-                    <option value="">---Select---</option> 
+                    <option selected value="">---Select---</option> 
                     <option value="Netaji Airport">Netaji Airport</option>
                     <option value="Kharagpur Junction">Kharagpur Junction</option>
                     <option value="Hijli Junction" >Hijli Junction</option>
