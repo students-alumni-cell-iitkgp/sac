@@ -89,7 +89,7 @@ function viewrecord($id){
   }
   function change_boolean_pay($email,$boolean){
     try {
-      $bool=($boolean=='2'?'0':($boolean=='1'?'2':'2'));
+      $bool=($boolean==2?0:($boolean==1?2:2));
       $sql2="UPDATE `hc` SET `pay_status` = :bool WHERE `email` = :email;";
           //preparing the sql2 statement for execution
       $stmt2=$GLOBALS["pdo"]->prepare($sql2);
