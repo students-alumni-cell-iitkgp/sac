@@ -73,6 +73,7 @@ include_once('../config.php');
           $hobbies     = $user['hobbies']         ;
   
           $reciept = $user['reciept'] ;  
+          $pay_status=$user['pay_status'];
          
           $travel_form   = $user['travel_form']      ;
           $mode          = $user['mode']      ;
@@ -132,6 +133,7 @@ include_once('../config.php');
          $_SESSION['hobbies']        = $hobbies      ;
   
          $_SESSION['reciept'] = $reciept ;
+         $_SESSION['pay_status']=$pay_status;
          $_SESSION['serial'] = $serial ;
          $_SESSION['employee'] = $employee ;
   
