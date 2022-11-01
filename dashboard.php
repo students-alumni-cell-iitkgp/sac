@@ -1,9 +1,26 @@
 <?php
     session_start();  
+    include_once('./config.php');
     
     if(!isset($_SESSION['email']))
     {
       header("Location: ./loginpage.php");
+    }else{
+      $email = $_SESSION['email'];
+      $dob =   $_SESSION['password']; 
+  
+      $stmt = $conn->prepare("SELECT * FROM hc WHERE `email` = '$email'");
+      $stmt->execute();
+  
+      $users = $stmt->fetchAll();
+      foreach($users as $user) {
+        $pay_status = $user['pay_status'] ;  
+        //adding seession
+        $_SESSION['pay_status']=$pay_status; 
+    
+      } 
+    
+
     }
         $name    = $_SESSION['name']      ;
         $email   = $_SESSION['email']     ;
@@ -50,6 +67,7 @@
         $hobbies     = $_SESSION['hobbies']         ;
 
         $reciept = $_SESSION['reciept'] ;  
+        $pay_status = $_SESSION['pay_status'] ;  
        
         $travel_form   = $_SESSION['travel_form']      ;
         $mode          = $_SESSION['mode']      ;
