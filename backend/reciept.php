@@ -7,7 +7,7 @@
 
         $email = $_SESSION['email'];
         
-        $sql = "UPDATE `hc` SET `reciept` = '$reciept' AND 'pay_status'=1 WHERE `email` = '$email'";
+        $sql = "UPDATE `hc` SET `reciept` = '$reciept' , `pay_status` = 1 WHERE `email` = '$email'";
         $stmt=$GLOBALS["conn"]->prepare($sql);
         $result = $stmt->execute();
         if($result){
