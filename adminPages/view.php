@@ -38,6 +38,7 @@ Total no of registrations are: &ensp; <h2><?php echo $total ;?></h2>
     <th>Email</th>
     <th>No of accompanying person(s)</th>
     <th>Payment status</th>
+    <th>Change Status</th>
     <!--<th>Vaccination status</th>-->
     <th>Guest House</th>
     <th>boolean</th>
@@ -53,6 +54,8 @@ Total no of registrations are: &ensp; <h2><?php echo $total ;?></h2>
     <td><?php echo $value['email']; ?></td>
     <td><?php echo $value['accompaniment']; ?></td>
     <td><?php echo $value['reciept']; ?></td>
+    <td><?php echo $value['pay_status']==0?'Not yet Done':($value['pay_status']==1?'Payment Initiated':($value['pay_status']==2?'Payment Confirmed':'Unknown')) ?></td>
+    <td><a  href="change_display.php?email=<?php echo $value['email']; ?>&boolean=<?php echo $value['pay_status']; ?>&type=pay" class="btn btn-secondary btn-md" style="text-decoration:none;">Change_Pay_Status</a> </td>
     <!--<td><?php /*echo $value['status'] ;*/?></td>-->
     <td><?php echo $value['gh'] ;?></td>
     <td><?php echo $value['boolean'] ;?></td>
@@ -60,7 +63,7 @@ Total no of registrations are: &ensp; <h2><?php echo $total ;?></h2>
     <td>
         <!-- <a href="view_record.php?id=<?php echo $value['id']; ?>" class="btn btn-primary btn-md" style="text-decoration:none;">View Record</a> -->
         <!-- <a href="edit.php?id=<?php echo $value['id']; ?>" class="btn btn-info btn-md" style="text-decoration:none;">Edit</a>  -->
-        <a  href="change_display.php?email=<?php echo $value['email']; ?>&boolean=<?php echo $value['boolean']; ?>" class="btn btn-success btn-md" style="text-decoration:none;">Change_display</a> 
+        <a  href="change_display.php?email=<?php echo $value['email']; ?>&boolean=<?php echo $value['boolean']; ?>&type=show" class="btn btn-success btn-md" style="text-decoration:none;">Change_display</a> 
         <!-- <a  href="change_display.php" class="btn btn-success btn-md" style="text-decoration:none;">get batches</a>  -->
         <!--  if we dont use return then it will delete even if we choose cancel -->
     </td>
