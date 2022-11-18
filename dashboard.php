@@ -346,7 +346,7 @@ input{
                     <i class="material-icons text-info text-gradient">restaurant</i>
                   </span>
                   <div class="timeline-content">
-                    <h6 class="text-dark text-sm font-weight-bold mb-0">Director's Lunch</h6>
+                    <h6 class="text-dark text-sm font-weight-bold mb-0">Lunch</h6>
                     <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">06 JAN, 12:00 PM to 01:30 PM</p>
                   </div>
                 </div>
@@ -374,7 +374,7 @@ input{
                   </span>
                   <div class="timeline-content">
                     <h6 class="text-dark text-sm font-weight-bold mb-0">Entertainia</h6>
-                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">06 JAN, 05:30 PM to 08:00 PM</p>
+                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">06 JAN, 05:30 PM to 08:30 PM</p>
                   </div>
                 </div>
 
@@ -384,7 +384,7 @@ input{
                   </span>
                   <div class="timeline-content">
                     <h6 class="text-dark text-sm font-weight-bold mb-0">Dinner</h6>
-                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">06 JAN, 08:00 PM to 09:30 PM</p>
+                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">06 JAN, 08:30 PM to 10:00 PM</p>
                   </div>
                 </div>
                 <div class="timeline-block mb-3">
@@ -393,7 +393,7 @@ input{
                   </span>
                   <div class="timeline-content">
                     <h6 class="text-dark text-sm font-weight-bold mb-0">Hall Visit</h6>
-                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">06 JAN, 09:30 PM to 11:30 PM</p>
+                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">06 JAN, 10:00 PM to 11:30 PM</p>
                   </div>
                 </div>
                 <h6 class="mb-0" style="padding: 1.5rem;">Day 2, 07 January, Saturday</h6>
@@ -420,7 +420,7 @@ input{
                     <i class="material-icons text-primary text-gradient">key</i>
                   </span>
                   <div class="timeline-content">
-                    <h6 class="text-dark text-sm font-weight-bold mb-0">Classroom Unveiling</h6>
+                    <h6 class="text-dark text-sm font-weight-bold mb-0">Classroom Unveiling and Interactive Session</h6>
                     <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">07 JAN, 12:00 PM to 01:30 PM</p>
                   </div>
                 </div>
@@ -440,7 +440,7 @@ input{
                   </span>
                   <div class="timeline-content">
                     <h6 class="text-dark text-sm font-weight-bold mb-0">Free Time/Networking Snacks</h6>
-                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">07 JAN, 03:00 PM to 05:00 PM</p>
+                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">07 JAN, 03:00 PM to 4:30 PM</p>
                   </div>
                 </div>
 
@@ -449,8 +449,8 @@ input{
                     <i class="material-icons text-danger text-gradient">music_note</i>
                   </span>
                   <div class="timeline-content">
-                    <h6 class="text-dark text-sm font-weight-bold mb-0">Musical Night</h6>
-                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">07 JAN, 05:00 PM to 06:30 PM</p>
+                    <h6 class="text-dark text-sm font-weight-bold mb-0">Entertainia</h6>
+                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">07 JAN, 4:30 PM to 7:00 PM</p>
                   </div>
                 </div>
                 </hr>
