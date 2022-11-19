@@ -164,7 +164,7 @@ height:2em;
 </div>
 
 
-  		<p id='copyright'>&copy; 2022 Students' Alumni Cell</p>
+  		<p id='copyright'>&copy; 2020 Students' Alumni Cell</p>
           </div>
         </div>
        

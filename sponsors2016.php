@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Sponsors</title>
+  <title>Students' Alumni Cell | Sponsors</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <!--FONT AWESOME--><link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"

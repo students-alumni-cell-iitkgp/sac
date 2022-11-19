@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
 
-  <title>Alumni Talks</title>
+  <title>Students' Alumni Cell | Alumni Talks</title>
 
   <!--CSS only-->
   <link rel="stylesheet" href="css/alumni_talks.css">
