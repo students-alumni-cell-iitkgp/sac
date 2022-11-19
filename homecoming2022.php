@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
-  <title>Homecoming</title>
+  <title>Students' Alumni Cell | Homecoming</title>
   <link rel="stylesheet" type="text/css" href="css/homecoming.css">
   <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@200&display=swap" rel="stylesheet">
   <style type="text/css">

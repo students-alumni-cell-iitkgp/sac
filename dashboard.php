@@ -90,13 +90,10 @@
   <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-<link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
-<link rel="icon" type="image/png" href="./assets/img/favicon.png">
-
+<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
 <title>
   
-   19 AAM | Dashboard
+Students' Alumni Cell | Dashboard
   
 </title>
 
@@ -544,9 +541,9 @@ input{
     <div class="row align-items-center justify-content-lg-between">
       <div class="col-lg-6 mb-lg-0 mb-4">
         <div class="copyright text-center text-sm text-muted text-lg-start">
-          © <script>
+          © <!-- <script>
             document.write(new Date().getFullYear())
-          </script>,
+          </script>--> 2020,
           <a href="" class="font-weight-bold" target="_blank">Students' Alumni Cell</a>
         </div>
       </div>

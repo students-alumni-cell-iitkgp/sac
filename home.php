@@ -31,8 +31,8 @@ if( $query_run = mysqli_query($connection, $query) ){
 ?>
 <html>
 <head>
-  <title>Home</title>
-  <link rel="icon" href="img/meet_14.png">
+  <title>Students' Alumni Cell | Home</title>
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="css/materialize.min.css">
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.min.js"></script>
