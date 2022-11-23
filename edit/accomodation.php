@@ -29,11 +29,11 @@ $database = 'aam';
   <div class="card-body pt-4 p-3">
   <form action="backend\accomodation.php" method = "post" enctype="multipart/form-data" onSubmit="window.location.reload()" >
 
-<table class="table table-striped">
+<table class="table table-striped" style = "margin-bottom: 0 !important">
             <thead>
               <tr>
                 <th scope="col"></th>
-                <th scope="col">Registration Fee</th>
+                <th scope="col">Registration Fee<span style="color:red">*</span></th>
                 <th scope="col">Amount(INR)</th>
               </tr>
             </thead>
@@ -50,8 +50,9 @@ $database = 'aam';
                </tr>
              </tbody>
            </table>
+           <small class = "text-muted">Registration Fee includes Food, Transportation and Registration Kit</small>
 
-           <div class = "row">
+           <div class = "row" style = "margin-top: 15px !important">
            <div class="form-group mb-3 col-sm-6">
              <label for="accompaniment">Accompanying Person(s)</label>
                 <input type="number" class="form-control" id="accompaniment" name= "accompaniment" value="0" placeholder= "0" min = "0" value = "<?php echo "$accompaniment"?>"  max="20" onchange="calc_cost()">

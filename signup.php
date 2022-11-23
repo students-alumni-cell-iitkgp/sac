@@ -130,11 +130,11 @@
     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
       <div class="accordion-body">
 
-            <table class="table table-striped">
+            <table class="table table-striped" style = "margin-bottom: 0 !important">
             <thead>
               <tr>
                 <th scope="col">#</th>
-                <th scope="col">Registration Fee</th>
+                <th scope="col">Registration Fee<span style="color:red">*</span></th>
                 <th scope="col">Amount(INR)</th>
               </tr>
             </thead>
@@ -151,8 +151,9 @@
                </tr>
              </tbody>
            </table>
+           <small class = "text-muted">Registration Fee includes Food, Transportation and Registration Kit</small>
 
-           <div class="row">
+           <div class="row" style = "margin-top: 15px !important">
           <div class="form-floating mb-3 col-sm-6">
                 <input type="number" class="form-control" id="accompaniment" name= "accompaniment" value="0" placeholder= "0" min = "0" onchange="calc_cost()" max= "20" maxlength="10">
                 <label for="accompaniment">Accompanying Person(s)</label>
