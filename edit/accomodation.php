@@ -80,13 +80,13 @@ $database = 'aam';
               </tr>
             </thead>
              <tbody>
-               <tr>
+              <!-- <tr>
                  <th scope="row">1</th>
                  <td>Technology Guest House</td>
                  <td>2550</td>
-               </tr>
+               </tr>-->
                <tr>
-                 <th scope="row">2</th>
+                 <th scope="row">1</th>
                  <td>Sir Ashutosh Mukherjee Hall </td>
                  <td>900</td>
                </tr>
@@ -111,9 +111,9 @@ $database = 'aam';
           <div class="form-group mb-3 col-sm-6">
              <label for="gh">Guest House<span style="color:red;">*</span></label>
             <select class="form-control form-select" type = "list" id = "g" name= "gh" onchange="emp()" required>
-            <option selected value="select">---Select---</option>
-            <option value="TGH">Technology Guest House</option>
-            <option value="SAM">Sir Ashutosh Mukherjee Hall</option>
+            <!--<option selected value="select">---Select---</option>
+            <option value="TGH">Technology Guest House</option>-->
+            <option selected value="SAM">Sir Ashutosh Mukherjee Hall</option>
             </select>
           </div>
         </div>

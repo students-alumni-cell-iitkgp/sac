@@ -181,13 +181,13 @@
               </tr>
             </thead>
              <tbody>
-               <tr>
+             <!--  <tr>
                  <th scope="row">1</th>
                  <td>Technology Guest House</td>
                  <td>2550</td>
-               </tr>
+               </tr>-->
                <tr>
-                 <th scope="row">2</th>
+                 <th scope="row">1</th>
                  <td>Sir Ashutosh Mukherjee Hall</td>
                  <td>900</td>
                </tr>
@@ -210,9 +210,9 @@
           <div class = "row" id = "gh" style = "justify-content:center">
           <div class="form-floating mb-3 col-sm-6">
             <select class="form-select" id = "g" name= "gh" aria-label="Floating label select example" onchange="emp()" required>
-            <option selected value="select">---Select---</option>
-            <option value="TGH">Technology Guest House</option>
-            <option value="SAM">Sir Ashutosh Mukherjee Hall</option>
+            <!--<option selected value="select">---Select---</option>
+            <option value="TGH">Technology Guest House</option>-->
+            <option selected value="SAM">Sir Ashutosh Mukherjee Hall</option>
             </select>
              <label for="gh">Guest House<span style="color:red;">*</span></label>
           </div>
