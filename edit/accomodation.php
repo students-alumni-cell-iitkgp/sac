@@ -80,20 +80,30 @@ $database = 'aam';
               </tr>
             </thead>
              <tbody>
-              <!-- <tr>
+              <p></p>
+               <tr>
                  <th scope="row">1</th>
                  <td>Technology Guest House</td>
                  <td>2550</td>
-               </tr>-->
+               </tr>
                <tr>
-                 <th scope="row">1</th>
+                 <th scope="row">2</th>
                  <td>Sir Ashutosh Mukherjee Hall </td>
                  <td>900</td>
                </tr>
              </tbody>
            </table>
            <small class = "text-muted">Rooms are on Shared Bases</small>
-
+           <p id="alert-msg">All the rooms in the Institute Guest Houses have been filled.
+            <br>
+            Please contact with us to get help in booking rooms outside the campus.
+            <br>
+            <span style="color:darkgreen">
+            Athul PM            +91 8972033025
+            <br>
+            Abhisha Shrivastava +91 8827031589 
+            </span>
+           </p>
 
          <div class="row" style="justify-content:center">
 
@@ -111,9 +121,10 @@ $database = 'aam';
           <div class="form-group mb-3 col-sm-6">
              <label for="gh">Guest House<span style="color:red;">*</span></label>
             <select class="form-control form-select" type = "list" id = "g" name= "gh" onchange="emp()" required>
+            <option selected value="NA">Not Available</option>
             <!--<option selected value="select">---Select---</option>
-            <option value="TGH">Technology Guest House</option>-->
-            <option selected value="SAM">Sir Ashutosh Mukherjee Hall</option>
+            <option value="TGH">Technology Guest House</option>
+            <option selected value="SAM">Sir Ashutosh Mukherjee Hall</option>-->
             </select>
           </div>
         </div>

@@ -131,6 +131,17 @@ Students' Alumni Cell | Dashboard
 input{
   z-index: 10;
 }
+#alert-msg {
+      text-align: center;
+      margin-top: 10px;
+      margin-bottom: 15px;
+      padding: 10px;
+      font-size: 16px;
+      font-weight: bold;
+      color: #8a0000;
+      border: 1px solid #8a0000;
+      background-color: #e58f8f;
+    }
 </style>
   </head>
 
@@ -902,6 +913,9 @@ input{
                }
                else if(choice === "SAM"){
                    cost = 900 + 8000 + 5000*nguest + 900*nguest;
+               }
+               else{
+                cost =8000 + 5000*nguest;
                }
            }
            else if(e==1){
