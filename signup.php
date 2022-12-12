@@ -12,6 +12,19 @@
 <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
 <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<style>
+  #alert-msg {
+      text-align: center;
+      margin-top: 10px;
+      margin-bottom: 15px;
+      padding: 10px;
+      font-size: 16px;
+      font-weight: bold;
+      color: #8a0000;
+      border: 1px solid #8a0000;
+      background-color: #e58f8f;
+    }
+</style>
 </head>
 <body>
 <div class = "section1">
@@ -181,19 +194,29 @@
               </tr>
             </thead>
              <tbody>
-             <!--  <tr>
+              <tr>
                  <th scope="row">1</th>
                  <td>Technology Guest House</td>
                  <td>2550</td>
-               </tr>-->
+               </tr>
                <tr>
-                 <th scope="row">1</th>
+                 <th scope="row">2</th>
                  <td>Sir Ashutosh Mukherjee Hall</td>
                  <td>900</td>
                </tr>
              </tbody>
            </table>
            <small class = "text-muted">Rooms are on Shared Bases</small>
+           <p id="alert-msg">All the rooms in the Institute Guest Houses have been filled.
+            <br>
+            Please contact with us to get help in booking rooms outside the campus.
+            <br>
+            <span style="color:darkgreen">
+            Athul PM            +91 8972033025
+            <br>
+            Abhisha Shrivastava +91 8827031589 
+            </span>
+           </p>
 
 
            <div class="row" style = "justify-content:center">
@@ -210,9 +233,10 @@
           <div class = "row" id = "gh" style = "justify-content:center">
           <div class="form-floating mb-3 col-sm-6">
             <select class="form-select" id = "g" name= "gh" aria-label="Floating label select example" onchange="emp()" required>
+            <option selected value="NA">Not Available</option>
             <!--<option selected value="select">---Select---</option>
-            <option value="TGH">Technology Guest House</option>-->
-            <option selected value="SAM">Sir Ashutosh Mukherjee Hall</option>
+            <option value="TGH">Technology Guest House</option>
+            <option selected value="SAM">Sir Ashutosh Mukherjee Hall</option>-->
             </select>
              <label for="gh">Guest House<span style="color:red;">*</span></label>
           </div>
@@ -475,6 +499,9 @@ function calc_cost(){
                }
                else if(choice === "SAM"){
                    cost = 900 + 8000 + 5000*nguest + 900*nguest;
+               }
+               else{
+                cost =8000 + 5000*nguest;
                }
            }
            else if(e==1){
