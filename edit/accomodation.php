@@ -74,14 +74,12 @@ $database = 'aam';
            <table class="table table-striped" style = "margin-bottom: 0 !important">
             <thead>
               <tr>
-                <th scope="col"></th>
+                
                 <th scope="col">Guest House</th>
-                <th scope="col">Cost per person(INR)</th>
               </tr>
             </thead>
              <tbody>
-              <p></p>
-               <tr>
+              <!-- <tr>
                  <th scope="row">1</th>
                  <td>Technology Guest House</td>
                  <td>2550</td>
@@ -90,10 +88,10 @@ $database = 'aam';
                  <th scope="row">2</th>
                  <td>Sir Ashutosh Mukherjee Hall </td>
                  <td>900</td>
-               </tr>
+               </tr>-->
              </tbody>
            </table>
-           <small class = "text-muted">Rooms are on Shared Bases</small>
+           <!--<small class = "text-muted">Rooms are on Shared Bases</small>-->
            <p id="alert-msg">All the rooms in the Institute Guest Houses have been filled.
             <br>
             Please contact with us to get help in booking rooms outside the campus.
