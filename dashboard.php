@@ -373,8 +373,8 @@ input{
                     <i class="material-icons text-dark text-gradient">lyrics</i>
                   </span>
                   <div class="timeline-content">
-                    <h6 class="text-dark text-sm font-weight-bold mb-0">Entertainia</h6>
-                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">06 JAN, 05:30 PM to 08:30 PM</p>
+                    <h6 class="text-dark text-sm font-weight-bold mb-0">Interactive Session</h6>
+                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">06 JAN, 05:30 PM to 08:00 PM</p>
                   </div>
                 </div>
 
@@ -384,7 +384,7 @@ input{
                   </span>
                   <div class="timeline-content">
                     <h6 class="text-dark text-sm font-weight-bold mb-0">Dinner</h6>
-                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">06 JAN, 08:30 PM to 10:00 PM</p>
+                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">06 JAN, 08:00 PM to 10:00 PM</p>
                   </div>
                 </div>
                 <div class="timeline-block mb-3">
