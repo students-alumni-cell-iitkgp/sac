@@ -384,6 +384,30 @@
                     </div>
                   </div>
                 </div>
+                <div class="carousel-item">
+                  <h4 class="x">Co-Founder and CTO, Guardians:</h4>
+                  <div class="row">
+                    <div class="col-12 col-sm-4 align-items-center" >
+                      <!-- <img src="img/guest-lecture/Saumyata.webp" class="image img-responsive img-fluid"
+                        style="width: 20em;">
+                      <h5 class="x">Saumyata Khandelwala</h5> -->
+                      
+                    </div>
+                    <div class="col-12 col-sm-4 align-items-center">
+                      <img src="img/guest-lecture/subham.webp" class="image img-responsive img-fluid"
+                        style="width: 20em;">
+                      <h5 class="x">Shubham Jain</h5>
+                     
+                    </div>
+                    <div class="col-12 col-sm-4 align-items-center">
+                      <!-- <img src="img/guest-lecture/Divyam.webp" class="image img-responsive img-fluid"
+                        style="width: 20em;">
+                      <h5 class="x">Divyam Sharma</h5> -->
+                      
+                    </div>
+                  </div>
+                
+                </div>
 
 
                 <div class="carousel-item">
