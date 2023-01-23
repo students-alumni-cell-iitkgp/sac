@@ -266,6 +266,20 @@
                                     </div> -->
                                     <div class="col-sm-12 col-lg-4">
                                         <div class="card" style="height: 100% !important;">
+                                            <img src="img/atal.png" style="height: 300px;"
+                                                class="card-img-top">
+                                            <div class="card-body">
+                                                <h5 class="card-title">The Yogic Avabodha – Atal</h5>
+                                                <p class="card-text">The spirit of a warrior, the body of iron and a heart of gold, yes we are talking about an explorer of life, Mr. Atal Agarwal, an alumnus of IIT Kharagpur, who graduated in 2017 and became one among the few IITians who represented Indian Institute of Technology (IIT) as an Alum in the prestigious title of Ironman athlete competition.....<br><br><button type="button"
+                                                        class="btn btn-outline-primary"><a
+                                                            href="https://kgpchronicle.iitkgp.ac.in/the-yogic-avabodha-atal/"
+                                                            target="_blank"
+                                                            style="color:white">More...</a></button></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-lg-4">
+                                        <div class="card" style="height: 100% !important;">
                                             <img src="img/news&updates/boult-affinity-final.jpg" style="height: 300px;"
                                                 class="card-img-top">
                                             <div class="card-body">
@@ -291,22 +305,22 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-sm-12 col-lg-4">
+                                    <!-- <div class="col-sm-12 col-lg-4">
                                         <div class="card" style="height: 100% !important;">
                                             <img src="pic2.jpg" style="height: 300px;"
                                                 class="card-img-top">
                                             <div class="card-body">
                                                 <h5 class="card-title">Forbes 30 Under 30 – Alumnus Prof. Srijan Kumar</h5>
                                                 <p class="card-text">Prof. Kumar is an Assistant Professor at the Georgia Institute of Technology. He is a specialist in
-AI, ML, and Data Science. In his attempt to make the internet a safer place he is involved in
-developing Data Science and Machine Learning .....<br><br><button type="button" class="btn btn-outline-primary"><a
+                                                AI, ML, and Data Science. In his attempt to make the internet a safer place he is involved in
+                                                developing Data Science and Machine Learning .....<br><br><button type="button" class="btn btn-outline-primary"><a
                                                             href="https://kgpchronicle.iitkgp.ac.in/forbes-30-under-30-alumnus-prof-srijan-kumar/"
                                                             target="_blank"
                                                             style="color:white">More...</a></button>
                                                 </p>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>
