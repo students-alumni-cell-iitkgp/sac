@@ -85,7 +85,7 @@ body {
     background-color: #7C99AC;
     color: #FFEFEF;
     overflow: hidden;
-    margin-top: 50px;
+    margin-top: 0px;
     opacity: 1;
     visibility: visible;
     -webkit-transition: all 0.3s ease;
@@ -102,6 +102,7 @@ body {
     width: 100%;
     font-size: 12px;
     border-radius: 12px;
+    color: black;
 }
 
 .form-structor .signup .form-holder .input:last-child {

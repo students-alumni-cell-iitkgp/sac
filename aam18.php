@@ -5,14 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <title>Annual Alumni Meet</title>
+  <title>Students' Alumni Cell | Annual Alumni Meet</title>
   <link rel="stylesheet" type="text/css" href="css/AAM.css">
      <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@200&display=swap" rel="stylesheet">
   <style type="text/css">
 
    .img{
-	   background-image:url(img/AAM-Web-Cover-Stretched-new-71-72.webp);
+	   background-image:url(img/aam19.webp);
 	   background-size:100% 100%;
    }
     .padding{

@@ -87,9 +87,34 @@ function viewrecord($id){
       return false;
     }
   }
+  function change_boolean_pay($email,$boolean){
+    try {
+      $bool=($boolean==2?0:($boolean==1?2:2));
+      $sql2="UPDATE `hc` SET `pay_status` = :bool WHERE `email` = :email;";
+          //preparing the sql2 statement for execution
+      $stmt2=$GLOBALS["pdo"]->prepare($sql2);
+      $stmt2->bindparam(':bool',$bool);
+      $stmt2->bindparam(':email',$email);
+      $result=$stmt2->execute();
+      return true;
+  
+    } catch(PDOException $e){
+      echo $e->getmessage();
+      return false;
+    }
+  }
 
   function getBatch($batch){
     try {
+
+      if($batch == "other")
+      {
+        $sql="SELECT * FROM `hc`  WHERE `yog`!= '1973' AND `yog`!= '1983' AND `yog`!= '1998' AND `boolean`='0' ";
+        $stmt=$GLOBALS["pdo"]->prepare($sql);
+        $stmt->execute();
+        return $stmt;
+      }
+
       $sql="SELECT * FROM `hc`  WHERE `yog`=:batch AND `boolean`='0' ";
           //preparing the sql2 statement for execution
       $stmt=$GLOBALS["pdo"]->prepare($sql);

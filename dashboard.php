@@ -1,9 +1,26 @@
 <?php
     session_start();  
+    include_once('./config.php');
     
     if(!isset($_SESSION['email']))
     {
       header("Location: ./loginpage.php");
+    }else{
+      $email = $_SESSION['email'];
+      $dob =   $_SESSION['password']; 
+  
+      $stmt = $conn->prepare("SELECT * FROM hc WHERE `email` = '$email'");
+      $stmt->execute();
+  
+      $users = $stmt->fetchAll();
+      foreach($users as $user) {
+        $pay_status = $user['pay_status'] ;  
+        //adding seession
+        $_SESSION['pay_status']=$pay_status; 
+    
+      } 
+    
+
     }
         $name    = $_SESSION['name']      ;
         $email   = $_SESSION['email']     ;
@@ -23,6 +40,8 @@
         $covi_dose        = $_SESSION['covi_dose']        ;
           $marital        = $_SESSION['marital']        ;
         $accompaniment    = $_SESSION['accompaniment'] ;
+        $acc_kid    = $_SESSION['acc_kid'] ;
+        $acc_tot    = $accompaniment + $acc_kid + 1 ;
           $gh             = $_SESSION['gh']           ;
           $cost           = $_SESSION['cost']           ;
           $serial         = $_SESSION['serial'];
@@ -48,6 +67,7 @@
         $hobbies     = $_SESSION['hobbies']         ;
 
         $reciept = $_SESSION['reciept'] ;  
+        $pay_status = $_SESSION['pay_status'] ;  
        
         $travel_form   = $_SESSION['travel_form']      ;
         $mode          = $_SESSION['mode']      ;
@@ -70,13 +90,10 @@
   <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-<link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
-<link rel="icon" type="image/png" href="./assets/img/favicon.png">
-
+<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
 <title>
   
-   19 AAM | Dashboard
+Students' Alumni Cell | Dashboard
   
 </title>
 
@@ -107,21 +124,36 @@
       display: none;
    }
 
+   li{
+    cursor: pointer;
+   }
+
 input{
   z-index: 10;
 }
+#alert-msg {
+      text-align: center;
+      margin-top: 10px;
+      margin-bottom: 15px;
+      padding: 10px;
+      font-size: 16px;
+      font-weight: bold;
+      color: #8a0000;
+      border: 1px solid #8a0000;
+      background-color: #e58f8f;
+    }
 </style>
   </head>
 
   <body class="g-sidenav-show  bg-gray-100">
       
-      <aside class="sidenav navbar navbar-vertical navbar-expand-xs border-0 border-radius-xl my-3 fixed-start ms-3   bg-gradient-dark" id="sidenav-main">
+      <aside class="sidenav navbar navbar-vertical navbar-expand-xs border-0 border-radius-xl my-3 fixed-start ms-3   bg-white" id="sidenav-main">
 
   <div class="sidenav-header">
-    <i class="fas fa-times p-3 cursor-pointer text-white opacity-5 position-absolute end-0 top-0 d-none d-xl-none" aria-hidden="true" id="iconSidenav"></i>
+    <i class="fas fa-times p-3 cursor-pointer text-dark opacity-5 position-absolute end-0 top-0 d-none d-xl-none" aria-hidden="true" id="iconSidenav"></i>
     <a class="navbar-brand m-0" href="https://sac.iitkgp.ac.in/" target="_blank">
       <img src="./img/logo/sac_logo.png" class="navbar-brand-img " style = "width:160px" alt="main_logo">
-      <span class="ms-1 font-weight-bold text-white"></span>
+      <span class="ms-1 font-weight-bold text-dark"></span>
     </a>
   </div>
 
@@ -132,14 +164,14 @@ input{
     <ul class="navbar-nav">
       
     <li class="nav-item mt-3">
-      <h6 class="ps-4 ms-2 text-uppercase text-xs text-white font-weight-bolder opacity-8">Dashboard</h6>
+      <h6 class="ps-4 ms-2 text-uppercase text-xs text-dark font-weight-bolder opacity-8">Dashboard</h6>
     </li>
           
   
 <li class="nav-item">
-  <a class="nav-link text-white " onclick="personal()">
+  <a class="nav-link text-dark " onclick="personal()">
     
-      <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+      <div class="text-dark text-center me-2 d-flex align-items-center justify-content-center">
         <i class="material-icons opacity-10">manage_accounts</i>
       </div>
     
@@ -149,9 +181,9 @@ input{
 
   
 <li class="nav-item">
-  <a class="nav-link text-white " onclick="travel()">
+  <a class="nav-link text-dark " onclick="travel()">
     
-      <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+      <div class="text-dark text-center me-2 d-flex align-items-center justify-content-center">
         <i class="material-icons opacity-10">flight_takeoff</i>
       </div>
     
@@ -161,9 +193,9 @@ input{
 
   
 <li class="nav-item">
-  <a class="nav-link text-white " onclick="accomod()">
+  <a class="nav-link text-dark " onclick="accomod()">
     
-      <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+      <div class="text-dark text-center me-2 d-flex align-items-center justify-content-center">
         <i class="material-icons opacity-10">local_hotel</i>
       </div>
     
@@ -173,9 +205,9 @@ input{
 
   
 <li class="nav-item">
-  <a class="nav-link text-white " onclick="work()">
+  <a class="nav-link text-dark " onclick="work()">
     
-      <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+      <div class="text-dark text-center me-2 d-flex align-items-center justify-content-center">
         <i class="material-icons opacity-10">work</i>
       </div>
     
@@ -185,9 +217,9 @@ input{
 
   
 <li class="nav-item">
-  <a class="nav-link text-white " onclick="nostalg()">
+  <a class="nav-link text-dark " onclick="nostalg()">
     
-      <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+      <div class="text-dark text-center me-2 d-flex align-items-center justify-content-center">
         <i class="material-icons opacity-10">local_fire_department</i>
       </div>
     
@@ -197,25 +229,25 @@ input{
 
   
 <li class="nav-item">
-  <a class="nav-link text-white " onclick="yoy()">
+  <a class="nav-link text-dark " onclick="yoy()">
     
-      <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+      <div class="text-dark text-center me-2 d-flex align-items-center justify-content-center">
         <i class="material-icons opacity-10">style</i>
       </div>
     
-    <span class="nav-link-text ms-1">Yearing of Yore</span>
+    <span class="nav-link-text ms-1">Yearnings of Yore</span>
   </a>
 </li>
 
  
 <li class="nav-item">
-  <a class="nav-link text-white " href="http://alumni.iitkgp.ac.in/giving_back" target="_blank">
+  <a class="nav-link text-dark " href="http://alumni.iitkgp.ac.in/giving_back" target="_blank">
     
-      <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+      <div class="text-dark text-center me-2 d-flex align-items-center justify-content-center">
         <i class="material-icons opacity-10">apartment</i>
       </div>
     
-    <span class="nav-link-text ms-1">Own Your Hall</span>
+    <span class="nav-link-text ms-1">Institutional Development <br>Program</span>
   </a>
 </li>
            
@@ -234,23 +266,22 @@ input{
       <main class="main-content border-radius-lg ">
         <!-- Navbar -->
 
-<nav class="navbar navbar-main navbar-expand-lg px-0 mx-4 shadow-none border-radius-xl" id="navbarBlur" data-scroll="true">
+<nav class="navbar navbar-main navbar-expand-lg fixed-top px-0 shadow-none border-radius-xl" id="navbarBlur" style = "background-color:#DDDDDD"data-scroll="true">
   <div class="container-fluid py-1 px-3">
     <nav aria-label="breadcrumb">
-      
       <a class="navbar-brand m-0" href="https://sac.iitkgp.ac.in/" target="_blank">
-      <img src="./img/logo19.webp" class="navbar-brand-img " style = "width:60px" alt="main_logo">
-      <span class="ms-1 font-weight-bolder ">19th Annual Alumni Meet</span>
+      <img src="./img/logo19.webp" class="navbar-brand-img " style = "width:80px; height: 80px" alt="main_logo">
+      <span class="ms-1" style = "font-weight: bold; color: #D81B60">19th Annual Alumni Meet</span>
     </a>
       
     </nav>
     <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar">
       <div class="ms-md-auto pe-md-3 d-flex align-items-center">
           
-          <div class="input-group input-group-outline">
+         <!-- <div class="input-group input-group-outline">
             <label class="form-label">Search...</label>
             <input type="text" class="form-control">
-          </div>
+          </div>-->
           
       </div>
       <ul class="navbar-nav  justify-content-end">
@@ -270,18 +301,18 @@ input{
           </a>
         </li>
         <li class="nav-item px-3 d-flex align-items-center">
-          <a onclick="attendee()" class="nav-link text-body p-0">
-            <i class="fa fa-users fixed-plugin-button-nav cursor-pointer"></i>
+          <a onclick="attendee()" class="nav-link text-body p-0" data-toggle="tooltip" data-placement="bottom" title="Attendee">
+            <i class="fa fa-users fixed-plugin-button-nav cursor-pointer"></i> Attendee
           </a>
         </li>
         <li class="nav-item px-3 d-flex align-items-center">
-          <a onclick="payment()" class="nav-link text-body p-0">
-            <i class="fa fa-inr fixed-plugin-button-nav cursor-pointer"></i>
+          <a onclick="payment()" class="nav-link text-body p-0" data-toggle="tooltip" data-placement="bottom" title="Payment">
+            <i class="fa fa-inr fixed-plugin-button-nav cursor-pointer"></i> Payment
           </a>
         </li>
         <li class="nav-item dropdown pe-2 d-flex align-items-center">
-          <a href="Utility/logout2.php" class="nav-link text-body p-0">
-            <i class="fa fa-sign-out cursor-pointer"></i>
+          <a href="Utility/logout2.php" class="nav-link text-body p-0" data-toggle="tooltip" data-placement="bottom" title="Logout">
+            <i class="fa fa-sign-out cursor-pointer"></i> Logout
           </a>
         </li>
       </ul>
@@ -291,7 +322,7 @@ input{
 
 <!-- End Navbar -->
 
-<div class="row" style="padding-left:1px">
+<div class="row" style="padding-left:1px ;margin-top:100px">
         <div class="col-md-7 mt-4">
         <?php include './show/personal.php' ?>
         <?php include './show/travel.php' ?>
@@ -347,7 +378,7 @@ input{
                     <i class="material-icons text-info text-gradient">restaurant</i>
                   </span>
                   <div class="timeline-content">
-                    <h6 class="text-dark text-sm font-weight-bold mb-0">Director's Lunch</h6>
+                    <h6 class="text-dark text-sm font-weight-bold mb-0">Lunch</h6>
                     <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">06 JAN, 12:00 PM to 01:30 PM</p>
                   </div>
                 </div>
@@ -374,7 +405,7 @@ input{
                     <i class="material-icons text-dark text-gradient">lyrics</i>
                   </span>
                   <div class="timeline-content">
-                    <h6 class="text-dark text-sm font-weight-bold mb-0">Entertainia</h6>
+                    <h6 class="text-dark text-sm font-weight-bold mb-0">Interactive Session</h6>
                     <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">06 JAN, 05:30 PM to 08:00 PM</p>
                   </div>
                 </div>
@@ -385,7 +416,7 @@ input{
                   </span>
                   <div class="timeline-content">
                     <h6 class="text-dark text-sm font-weight-bold mb-0">Dinner</h6>
-                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">06 JAN, 08:00 PM to 09:30 PM</p>
+                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">06 JAN, 08:00 PM to 10:00 PM</p>
                   </div>
                 </div>
                 <div class="timeline-block mb-3">
@@ -394,7 +425,7 @@ input{
                   </span>
                   <div class="timeline-content">
                     <h6 class="text-dark text-sm font-weight-bold mb-0">Hall Visit</h6>
-                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">06 JAN, 09:30 PM to 11:30 PM</p>
+                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">06 JAN, 10:00 PM to 11:30 PM</p>
                   </div>
                 </div>
                 <h6 class="mb-0" style="padding: 1.5rem;">Day 2, 07 January, Saturday</h6>
@@ -421,7 +452,7 @@ input{
                     <i class="material-icons text-primary text-gradient">key</i>
                   </span>
                   <div class="timeline-content">
-                    <h6 class="text-dark text-sm font-weight-bold mb-0">Classroom Unveiling</h6>
+                    <h6 class="text-dark text-sm font-weight-bold mb-0">Classroom Unveiling and Interactive Session</h6>
                     <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">07 JAN, 12:00 PM to 01:30 PM</p>
                   </div>
                 </div>
@@ -441,7 +472,7 @@ input{
                   </span>
                   <div class="timeline-content">
                     <h6 class="text-dark text-sm font-weight-bold mb-0">Free Time/Networking Snacks</h6>
-                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">07 JAN, 03:00 PM to 05:00 PM</p>
+                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">07 JAN, 03:00 PM to 4:30 PM</p>
                   </div>
                 </div>
 
@@ -450,8 +481,8 @@ input{
                     <i class="material-icons text-danger text-gradient">music_note</i>
                   </span>
                   <div class="timeline-content">
-                    <h6 class="text-dark text-sm font-weight-bold mb-0">Musical Night</h6>
-                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">07 JAN, 05:00 PM to 06:30 PM</p>
+                    <h6 class="text-dark text-sm font-weight-bold mb-0">Entertainia</h6>
+                    <p class="text-secondary font-weight-bold text-xs mt-1 mb-0">07 JAN, 4:30 PM to 7:00 PM</p>
                   </div>
                 </div>
                 </hr>
@@ -521,9 +552,9 @@ input{
     <div class="row align-items-center justify-content-lg-between">
       <div class="col-lg-6 mb-lg-0 mb-4">
         <div class="copyright text-center text-sm text-muted text-lg-start">
-          © <script>
+          © <!-- <script>
             document.write(new Date().getFullYear())
-          </script>,
+          </script>--> 2020,
           <a href="" class="font-weight-bold" target="_blank">Students' Alumni Cell</a>
         </div>
       </div>
@@ -872,23 +903,26 @@ input{
 
            let e = document.getElementById("employee").value;
            var cost = 0;
+           var c = 0;
+           c = 8000 + 5000*nguest;
+
            if(e == 0)
            { 
                if(choice === "TGH"){
-                   cost = 2250 + 8000 + 5000*nguest + 2250*nguest;
+                   cost = 2550 + 8000 + 5000*nguest + 2550*nguest;
                }
                else if(choice === "SAM"){
-                   cost = 1800 + 8000 + 5000*nguest + 1800*nguest;
+                   cost = 900 + 8000 + 5000*nguest + 900*nguest;
                }
-               else if(choice === "select"){
-                alert("Please Select Guest House");
+               else{
+                cost =8000 + 5000*nguest;
                }
            }
            else if(e==1){
                cost =8000 + 5000*nguest;
           }
            //console.log(nguest,choice,e);
-          
+           document.getElementById("acp").value ="Total Reg Fee = "+c;
            document.getElementById("cost").value ="Total Cost = "+cost;
            //console.log(cost);
        }
@@ -917,6 +951,10 @@ function emp()
   calc_cost();
 }
 emp();
+
+setTimeout(function() {
+  document.getElementById("succ").style.display = "none"
+          }, 5000);
 </script>
 
 <!-- Github buttons -->

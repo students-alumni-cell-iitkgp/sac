@@ -2,15 +2,29 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>Register</title>
+  <title>Students' Alumni Cell | Register</title>
   <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300'>
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:400,700,300'>
 <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <link rel="stylesheet" href="css/signup.css">
+<link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
 <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<style>
+  #alert-msg {
+      text-align: center;
+      margin-top: 10px;
+      margin-bottom: 15px;
+      padding: 10px;
+      font-size: 16px;
+      font-weight: bold;
+      color: #8a0000;
+      border: 1px solid #8a0000;
+      background-color: #e58f8f;
+    }
+</style>
 </head>
 <body>
 <div class = "section1">
@@ -53,8 +67,8 @@
 
         <div class = "row" style="justify-content:center">
            <div class="mb-3 col-sm-6">
-           <input type="file" id="pro_pic" name="pro_pic" accept=".jpg, .jpeg, .png">
-            <label for="username">Choose a Photo</label>
+           <input type="file" id="pro_pic" name="pro_pic" accept=".jpg, .jpeg, .png" required>
+            <label for="pro_pic">Choose a Photo<span style="color:red;">*</span></label>
            </div>
         </div>
 
@@ -129,12 +143,12 @@
     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
       <div class="accordion-body">
 
-            <table class="table table-striped">
+            <table class="table table-striped" style = "margin-bottom: 0 !important">
             <thead>
               <tr>
                 <th scope="col">#</th>
-                <th scope="col">Fee</th>
-                <th scope="col">Amount</th>
+                <th scope="col">Registration Fee<span style="color:red">*</span></th>
+                <th scope="col">Amount(INR)</th>
               </tr>
             </thead>
              <tbody>
@@ -150,34 +164,61 @@
                </tr>
              </tbody>
            </table>
+           <small class = "text-muted">Registration Fee includes Food, Transportation and Registration Kit</small>
 
-           <table class="table table-striped">
+           <div class="row" style = "margin-top: 15px !important">
+          <div class="form-floating mb-3 col-sm-6">
+                <input type="number" class="form-control" id="accompaniment" name= "accompaniment" value="0" placeholder= "0" min = "0" onchange="calc_cost()" max= "20" maxlength="10">
+                <label for="accompaniment">Accompanying Person(s)</label>
+             </div>
+
+             <div class="form-floating mb-3 col-sm-6">
+                <input type="number" class="form-control" id="acc_kid" name= "acc_kid" value="0" placeholder= "0" min = "0" max= "20" maxlength="10">
+                <label for="acc_kid">Accompanying Kid(s)</label>
+                <small class = "text-muted">Kids below 13 years of age won't be charged</small>
+             </div>
+           </div>
+
+           <div class = "row" style="justify-content:center">
+           <div class="mb-3 col-sm-4">
+           <input class="form-control" id="acp" name = "acp" type="text" value = "Reg Fee = &#8377;0" readonly>
+           </div>
+           </div>
+
+           <table class="table table-striped" style = "margin-bottom: 0 !important">
             <thead>
               <tr>
-                <th scope="col">#</th>
                 <th scope="col">Guest House</th>
-                <th scope="col">Cost per person</th>
-                <th scope="col">Rooms Available</th>
+                <!--<th scope="col">Cost per person(INR)</th>-->
               </tr>
             </thead>
-             <tbody>
-               <tr>
+             <!--<tbody>
+              <tr>
                  <th scope="row">1</th>
                  <td>Technology Guest House</td>
-                 <td>2250</td>
-                 <td>80</td>
+                 <td>2550</td>
                </tr>
                <tr>
                  <th scope="row">2</th>
                  <td>Sir Ashutosh Mukherjee Hall</td>
-                 <td>1800</td>
-                 <td>20</td>
+                 <td>900</td>
                </tr>
-             </tbody>
+             </tbody>-->
            </table>
+           <!--<small class = "text-muted">Rooms are on Shared Bases</small>-->
+           <p id="alert-msg">All the rooms in the Institute Guest Houses have been filled.
+            <br>
+            Please contact with us to get help in booking rooms outside the campus.
+            <br>
+            <span style="color:darkgreen">
+            Athul PM            +91 8972033025
+            <br>
+            Abhisha Shrivastava +91 8827031589 
+            </span>
+           </p>
 
-           <div class="row">
 
+           <div class="row" style = "justify-content:center">
              <div class="form-floating mb-3 col-sm-6">
             <select class="form-select" id = "employee" name= "employee" aria-label="Floating label select example" onchange="emp()" required>
             <option selected value="select">---Select---</option>
@@ -186,22 +227,17 @@
             </select>
              <label for="employee">Are you a resident of IIT Kharagpur?<span style="color:red;">*</span></label>
           </div>
-
-          <div class="form-floating mb-3 col-sm-6">
-                <input type="number" class="form-control" id="accompaniment" name= "accompaniment" value="0" placeholder= "0" min = "0" onchange="calc_cost()" max= "20" maxlength="10">
-                <label for="accompaniment">Accompanying Person(s)</label>
-                <small class = "text-muted">Kids below 13 years of age won't be charged. It's free of cost for them. Don't add them in the accompanying person(s) list</small>
-             </div>
            </div>
 
           <div class = "row" id = "gh" style = "justify-content:center">
           <div class="form-floating mb-3 col-sm-6">
             <select class="form-select" id = "g" name= "gh" aria-label="Floating label select example" onchange="emp()" required>
-            <option value="select">---Select---</option>
-            <option selected value="TGH">Technology Guest House</option>
-            <option value="SAM">Sir Ashutosh Mukherjee Hall</option>
+            <option selected value="NA">Not Available</option>
+            <!--<option selected value="select">---Select---</option>
+            <option value="TGH">Technology Guest House</option>
+            <option selected value="SAM">Sir Ashutosh Mukherjee Hall</option>-->
             </select>
-             <label for="gh">Ghest House<span style="color:red;">*</span></label>
+             <label for="gh">Guest House<span style="color:red;">*</span></label>
           </div>
         </div>
 
@@ -396,19 +432,19 @@
            </div>
   
            <div class="form-floating mb-3 col-sm-6">
-             <input type="number" min="1951" max="2020" class="form-control" name= "yog" id="yog" placeholder="2010" maxlength="10" onfocusout = "next()" required>
+             <input type="number" min="1951" max="2020" class="form-control" name= "yog" id="yog" placeholder="2010" maxlength="10" required>
              <label for="yog">Year of Graduating<span style="color:red;">*</span></label>
            </div>
-        </div>
-
-        <div class = "row" style="justify-content:center">
-        <div class="col-1"><button id="submit" class="btn btn-primary" type = "submit">Submit</button></div>
         </div>
 
       </div>
     </div>
   </div>
 
+  <div class = "row" style="justify-content:center; color:white; margin: 11px">
+        <div class="col-1"><button id="submit" class="btn btn-light" onclick = "next()" type = "submit">Submit</button></div>
+  </div>
+  
   <!--<div class="accordion-item">
     <h2 class="accordion-header" id="headingSix">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
@@ -452,23 +488,26 @@ function calc_cost(){
 
            let e = document.getElementById("employee").value;
            var cost = 0;
+           var c = 0;
+           c = 8000 + 5000*nguest;
+
            if(e == 0)
            { 
                if(choice === "TGH"){
-                   cost = 2250 + 8000 + 5000*nguest + 2250*nguest;
+                   cost = 2550 + 8000 + 5000*nguest + 2550*nguest;
                }
                else if(choice === "SAM"){
-                   cost = 1800 + 8000 + 5000*nguest + 1800*nguest;
+                   cost = 900 + 8000 + 5000*nguest + 900*nguest;
                }
-               else if(choice === "select"){
-                alert("Please Select Guest House");
+               else{
+                cost =8000 + 5000*nguest;
                }
            }
            else if(e==1){
                cost =8000 + 5000*nguest;
           }
            //console.log(nguest,choice,e);
-          
+           document.getElementById("acp").value ="Total Reg Fee = "+c;
            document.getElementById("cost").value ="Total Cost = "+cost;
            //console.log(cost);
        }
@@ -508,11 +547,36 @@ function next(){
            let organisation = document.getElementById("organisation").value;
            let yoj = document.getElementById("yoj").value;
            let yog = document.getElementById("yog").value;
+           let pic = document.getElementById("pro_pic").value;
+
+           let str = "";
+           if(!(email.length>0))
+               str = str + "Email, ";
+           if(!(name.length>0))
+           str = str + "Name, ";
+           if(!(mobile.length>0))
+           str = str + "Phone Number, ";
+           if(!(dob.length>0))
+           str = str + "Date of Birth, ";
+           if(!(pic.length>0))
+           str = str + "Photo, ";
+           if(!(employee.length>0))
+           str = str + "Is Residence of KGP,";
+           if(!(industry.length>0))
+           str = str + "Industry, ";
+           if(!(profession.length>0))
+           str = str + "Profession, ";
+           if(!(organisation.length>0))
+           str = str + "Organisation, ";
+           if(!(yoj.length>0))
+           str = str + "Joining Year, ";
+           if(!(yog.length>0))
+           str = str + "Graduting Year";
 
           if(!(email.length>0 && name.length>0 && 
           mobile.length>0 && dob.length>0 && employee.length>0 && industry.length>0 && profession.length>0
-          && organisation.length>0 && yoj.length>0 && yog.length>0)){
-            alert('Please fill all the required fields!');
+          && organisation.length>0 && yoj.length>0 && yog.length>0 && pic.length>0)){
+            alert('Please fill '+str+"!");
            }
        } 
 </script>

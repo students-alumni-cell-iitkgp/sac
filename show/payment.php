@@ -4,7 +4,16 @@
         <div class="wrapper">       
             <div class="container">
                 <div class="row"> 
-                    <h6 class = "col-3"><span>Payment Status: </h6><h6 class = "col-6"> <?php if(empty($reciept)) echo "<span style='color:red;'>PENDING</span>"; else echo "<span style='color:green;'>PAID</span>" ?></span></h6>
+                    <h6 class = "col-3"><span>Payment Status: </h6><h6 class = "col-6">
+                         <?php if(empty($reciept) || $pay_status==0){
+                            echo "<span style='color:red;'>Pending</span>";
+                          }
+                           else if($pay_status==1) {
+                            echo "<span style='color:green;'>Payment Initiated</span>";
+                           } 
+                           else if($pay_status==2){
+                            echo "<span style='color:green;'>Payment Confirmed !</span>";
+                           }?></span></h6>
                     <h5 style="font-weight: 800; padding-left: 1vw;">Pay the required amount to the given account and upload the receipt</h5>
                     <div class = "col-12"><h2 style = "color: #691313f5;"><?php echo "$cost"?></h2></div>
                     <div class = "col-12"><ul style="margin-left:1vw;">
@@ -17,7 +26,7 @@
                     </ul></div>
 
                     <div class="col-sm-12 col-md-12">
-                        <label for="reciept">Drive Link for Fee Reciept <span style="color:red;">*</span></label>
+                        <label for="reciept">Drive Link for Fee receipt <span style="color:red;">*</span></label>
                         <input class="form-control" type="text" id="reciept" name="reciept" <?php echo "$reciept"?> required>
                     </div>
                 </div>

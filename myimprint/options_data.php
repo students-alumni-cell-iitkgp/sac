@@ -11,7 +11,7 @@ if(isset($_POST['vote_slab1']) && isset($_POST['vote_slab2']) && isset($_POST['v
     
     $query = "update vote set option1 = '$vote_slab1', option2 = '$vote_slab2', option3 = '$vote_slab3'  where rollno = '$rollno'";
     if($query_run = mysql_query($query)){
-      echo '<script>alert("Your choices have been recorded.")</script>'
+      echo '<script>alert("Your choices have been recorded.")</script>';
     }
     
   }

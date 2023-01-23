@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Sponsors</title>
+  <title>Students' Alumni Cell | Sponsors</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <!--FONT AWESOME--><link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
@@ -38,7 +38,7 @@
         </div>
         <div class="col-md-12 col-sm-12" align="center">
           <a href="https://www.tataprojects.com/" target="_blank"><br> <br>
-            <img class="spons" src="img/spons/2020LS/mirrornow.jpg" width="200px" height="110px" />
+            <img class="spons" src="img/spons/2020LS/mirrornow.webp" width="200px" height="110px" />
           </a>
         </div>
       </div>
@@ -53,7 +53,7 @@
         </div>
         <div class="col-sm-12"align="center">
           <a href="https://www.nabler.com/" target="_blank">
-            <img class="spons" src="img/spons/2020LS/moglix.jpg" width="350px" height="180px" />
+            <img class="spons" src="img/spons/2020LS/moglix.webp" width="350px" height="180px" />
           </a>
         </div>
       </div>
@@ -67,12 +67,12 @@
         </div>
         <div class="col-sm-12 col-lg-6 col-md-6 mb-3" align="center">
           <a href="https://www.bmw.in/en/index.html" target="_blank">
-            <img class="spons" src="img/spons/2020LS/yka.png" width="250" height="180px" />
+            <img class="spons" src="img/spons/2020LS/yka.webp" width="250" height="180px" />
           </a>
         </div>
         <div class="col-sm-12 col-lg-6 col-md-6" align="center">
           <a href="https://www.bmw.in/en/index.html" target="_blank">
-            <img class="spons" src="img/spons/2020LS/theedutree.png" width="220" height="180px" />
+            <img class="spons" src="img/spons/2020LS/theedutree.webp" width="220" height="180px" />
           </a>
         </div>
       </div>
@@ -88,17 +88,17 @@
         </div>
         <div class="col-sm-12 col-lg-4 col-md-4"align="center">
           <a href="https://www.triumphmotorcycles.in/" target="_blank">
-            <img class="spons" src="img/spons/2020LS/TechieScoops.png" style="position: relative; top:25px;" width="150px" height="100px" />
+            <img class="spons" src="img/spons/2020LS/TechieScoops.webp" style="position: relative; top:25px;" width="150px" height="100px" />
           </a>
         </div>
         <div class="col-sm-12 col-lg-4 col-md-4"align="center">
           <a href="https://www.triumphmotorcycles.in/" target="_blank">
-            <img class="spons" src="img/spons/2020LS/Satyam_What_s up Life.jpeg" style="position: relative; top:25px;" width="150px" height="100px" />
+            <img class="spons" src="img/spons/2020LS/Satyam_What_s up Life.webp" style="position: relative; top:25px;" width="150px" height="100px" />
           </a>
         </div>
         <div class="col-sm-12 col-lg-4 col-md-4"align="center">
           <a href="https://www.triumphmotorcycles.in/" target="_blank">
-            <img class="spons" src="img/spons/2020LS/Dailyhunt_Josh.png" style="position: relative; top:25px;" width="150px" height="100px" />
+            <img class="spons" src="img/spons/2020LS/Dailyhunt_Josh.webp" style="position: relative; top:25px;" width="150px" height="100px" />
           </a>
         </div>
    
@@ -115,7 +115,7 @@
         </div>
         <div class="col-md-12 col-sm-12" align="center">
           <a href="https://www.cc.com/" target="_blank">
-            <img class="spons" src="img/spons/2020LS/cc.png" width="280px" height="180px" />
+            <img class="spons" src="img/spons/2020LS/cc.webp" width="280px" height="180px" />
           </a>
         </div>
        </div> 
@@ -131,22 +131,22 @@
         </div>
         <div class="col-lg-3 col-md-6 col-sm-12 px-2" align="center">
           <a href="https://www.hdfcbank.com/" target="_blank">
-            <img class="spons" src="img/spons/2020LS/Satyam_indiacollegefest _logo.png" width="250px" height="120px" />
+            <img class="spons" src="img/spons/2020LS/Satyam_indiacollegefest _logo.webp" width="250px" height="120px" />
           </a>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-12 px-2" align="center">
           <a href="https://www.hdfcbank.com/" target="_blank">
-            <img class="spons" src="img/spons/2020LS/eat my news.jpg" width="250px" height="120px" />
+            <img class="spons" src="img/spons/2020LS/eat my news.webp" width="250px" height="120px" />
           </a>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-12 px-2" align="center">
           <a href="https://www.hdfcbank.com/" target="_blank">
-            <img class="spons" src="img/spons/2020LS/Knowafest.png" width="250px" height="120px"/>
+            <img class="spons" src="img/spons/2020LS/Knowafest.webp" width="250px" height="120px"/>
           </a>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-12 px-2" align="center">
           <a href="https://www.hdfcbank.com/" target="_blank">
-            <img class="spons" src="img/spons/2020LS/Collegedunia Logo.jpg" width="250px" height="120px" />
+            <img class="spons" src="img/spons/2020LS/Collegedunia Logo.webp" width="250px" height="120px" />
           </a>
         </div>
       </div>
@@ -162,7 +162,7 @@
         </div>
         <div class="col-sm-12"align="center">
           <a href="https://www.maxlifeinsurance.com/" target="_blank">
-            <img class="spons" src="img/spons/2020LS/Youth Incorporated.png" width="280px" height="180px" />
+            <img class="spons" src="img/spons/2020LS/Youth Incorporated.webp" width="280px" height="180px" />
           </a>
         </div>
       </div><br><br>          <hr>
@@ -177,7 +177,7 @@
         </div>
         <div class="col-sm-12"align="center">
           <a href="https://www.jmfl.com/" target="_blank">
-            <img class="spons" src="img/spons/2020LS/jmf.png" width="280px" height="120px" />
+            <img class="spons" src="img/spons/2020LS/jmf.webp" width="280px" height="120px" />
           </a>
         </div>
       </div> -->
@@ -195,22 +195,22 @@
         </div>
         <div class=" col-lg-12 col-md-12 col-sm-12"align="center">
           <a href="https://nationalinsurance.nic.co.in/" target="_blank">
-            <img class="spons" src="img/spons/2020LS/Curriculum Magazine.jpg" width="180px" height="180px" />
+            <img class="spons" src="img/spons/2020LS/Curriculum Magazine.webp" width="180px" height="180px" />
           </a>
         </div>
         <!-- <div class=" col-lg-3 col-md-6 col-sm-12"align="center">
           <a href="https://nationalinsurance.nic.co.in/" target="_blank">
-            <img class="spons" src="img/spons/2020LS/NIC.jpg" width="180px" height="180px" />
+            <img class="spons" src="img/spons/2020LS/NIC.webp" width="180px" height="180px" />
           </a>
         </div>
         <div class=" col-lg-3 col-md-6 col-sm-12"align="center">
           <a href="https://nationalinsurance.nic.co.in/" target="_blank">
-            <img class="spons" src="img/spons/2020LS/NIC.jpg" width="180px" height="180px" />
+            <img class="spons" src="img/spons/2020LS/NIC.webp" width="180px" height="180px" />
           </a>
         </div>
         <div class=" col-lg-3 col-md-6 col-sm-12"align="center">
           <a href="https://nationalinsurance.nic.co.in/" target="_blank">
-            <img class="spons" src="img/spons/2020LS/NIC.jpg" width="180px" height="180px" />
+            <img class="spons" src="img/spons/2020LS/NIC.webp" width="180px" height="180px" />
           </a>
         </div> -->
       </div>
@@ -227,12 +227,12 @@
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12"align="center">
           <a href="http://rupa.co.in/" target="_blank">
-            <img class="spons" src="img/spons/2020LS/Aapka Times.jpg" width="240px" height="170px" />
+            <img class="spons" src="img/spons/2020LS/Aapka Times.webp" width="240px" height="170px" />
           </a>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12"align="center">
           <a href="http://rupa.co.in/" target="_blank">
-            <img class="spons" src="img/spons/2020LS/Du beat logo.jpg" width="240px" height="170px" />
+            <img class="spons" src="img/spons/2020LS/Du beat logo.webp" width="240px" height="170px" />
           </a>
         </div>
       </div><br><br>          <hr>
@@ -247,22 +247,22 @@
         </div>
         <div class="col-lg-3 col-md-6 col-sm-12"align="center">
           <a href="http://www.quickheal.co.in/" target="_blank">
-            <img class="spons" src="img/spons/2020LS/Satyam_CampusKarma.png" width="170px" height="140px" />
+            <img class="spons" src="img/spons/2020LS/Satyam_CampusKarma.webp" width="170px" height="140px" />
           </a>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-12"align="center">
           <a href="http://www.quickheal.co.in/" target="_blank">
-            <img class="spons" src="img/spons/2020LS/India Blooms Logo/IndiaBlooms.png" width="170px" height="140px" />
+            <img class="spons" src="img/spons/2020LS/India Blooms Logo/IndiaBlooms.webp" width="170px" height="140px" />
           </a>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-12"align="center">
           <a href="http://www.quickheal.co.in/" target="_blank">
-            <img class="spons" src="img/spons/2020LS/Copy of Nukkad-01.jpg" width="170px" height="140px" />
+            <img class="spons" src="img/spons/2020LS/Copy of Nukkad-01.webp" width="170px" height="140px" />
           </a>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-12"align="center">
           <a href="http://www.quickheal.co.in/" target="_blank">
-            <img class="spons" src="img/spons/2020LS/Smart Education Magazine_logo.jpg" width="170px" height="140px" />
+            <img class="spons" src="img/spons/2020LS/Smart Education Magazine_logo.webp" width="170px" height="140px" />
           </a>
         </div>
       </div><br><br><br>          <hr>
@@ -278,7 +278,7 @@
         <div class="col-lg-12 col-md-6 col-sm-12" align="center">
           <a href="https://www.brnl.in/" target="_blank">
             <br><br>
-            <img class="spons" src="img/spons/2020LS/NavaBharat.png" width="240" height="170" />
+            <img class="spons" src="img/spons/2020LS/NavaBharat.webp" width="240" height="170" />
           </a>
         </div>
       </div>
@@ -293,7 +293,7 @@
         </div>
         <div class="col-lg-12 col-sm-12"align="center">
           <a href="http://www.himalayawellness.com/" target="_blank">
-            <img class="spons" src="img/spons/2020LS/Oh Kolkata.png" width="240px" height="200px" />
+            <img class="spons" src="img/spons/2020LS/Oh Kolkata.webp" width="240px" height="200px" />
           </a>
         </div>
       </div>
@@ -309,7 +309,7 @@
         </div>
         <div class=" col-lg-12 col-sm-12"align="center">
           <a href="https://www.portronics.com/" target="_blank">
-            <img class="spons" src="img/spons/2020LS/ED Times_Vikas.png" width="240px" height="120px" />
+            <img class="spons" src="img/spons/2020LS/ED Times_Vikas.webp" width="240px" height="120px" />
           </a>
         </div>
       </div>
@@ -325,7 +325,7 @@
         </div>
         <div class="col-lg-12 col-sm-12"align="center">
           <div  align="center"> <a href="#" target="_blank"> <br> <br>
-              <img class="spons" src="img/spons/2020LS/Winzeal.jpg" width="220" height="220" />
+              <img class="spons" src="img/spons/2020LS/Winzeal.webp" width="220" height="220" />
             </a>
           </div>
         </div>
@@ -340,11 +340,11 @@
 
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6" align="center"> <a href="https://www.business-standard.com/" target="_blank"> <br> <br>
-            <img class="spons" src="img/spons/2020LS/BS.png" width="230" height="200" />
+            <img class="spons" src="img/spons/2020LS/BS.webp" width="230" height="200" />
           </a>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6" align="center"> <a href="https://www.thegrapevine.co.in/" target="_blank"> <br> <br>
-            <img class="spons" src="img/spons/2020LS/grapewine.png" width="200" height="200" />
+            <img class="spons" src="img/spons/2020LS/grapewine.webp" width="200" height="200" />
           </a>
         </div>
     
@@ -359,7 +359,7 @@
 
         </div>
         <div class=" col-lg-12 col-md-6 col-sm-12" align="center"> <a href="https://www.theowlprints.com/" target="_blank"> <br> <br>
-            <img class="spons" src="img/spons/2020LS/Big Fm 92.7.png" width="300" height="140" />
+            <img class="spons" src="img/spons/2020LS/Big Fm 92.7.webp" width="300" height="140" />
           </a>
         </div>
       </div>
