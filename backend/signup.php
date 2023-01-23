@@ -23,6 +23,7 @@ include '../config.php';
 
         //$marital = $_POST['marital'];
         $accompaniment = $_POST['accompaniment'];
+        $acc_kid = $_POST['acc_kid'];
         $gh = $_POST['gh'];
         $cost = $_POST['cost'];
 
@@ -63,11 +64,11 @@ include '../config.php';
       }
     
       $sql = "INSERT INTO `hc` (`name`,`email`, `address` ,`city`,`state`,`country`,`zipcode`,`mobile`,`dob`,
-                 `accompaniment` ,`gh`, `serial`,`employee`,
+                 `accompaniment` ,`acc_kid`,`gh`, `serial`,`employee`,
                  `industry`, `profession` ,`organisation`,`designation`,`waddress`,`wcity`,`wstate`,`wcountry`,`wzipcode`,
                  `rollno`, `yoj` ,`degree`,`dept`,`hall`,`yog`,`cost`)
                  VALUES (:name, :email, :address ,:city, :state, :country, :zipcode, :mobile, :dob,
-                 :accompaniment ,:gh,:serial,:employee,
+                 :accompaniment ,:acc_kid,:gh,:serial,:employee,
                  :industry, :profession ,:organisation,:designation,:waddress,:wcity,:wstate,:wcountry,:wzipcode,
                  :rollno, :yoj,:degree,:dept,:hall,:yog,:cost)";
        
@@ -90,6 +91,7 @@ include '../config.php';
       $stmt->bindparam(':serial',$serial);
       $stmt->bindparam(':employee',$employee);
       $stmt->bindparam(':accompaniment',$accompaniment);
+      $stmt->bindparam(':acc_kid',$acc_kid);
       $stmt->bindparam(':gh',$gh);
       $stmt->bindparam(':industry',$industry);
       $stmt->bindparam(':profession',$profession);
@@ -147,7 +149,7 @@ include '../config.php';
         echo "File can not be uploaded"; 
       } 
 
-        if($gh == 'TGH')
+       /* if($gh == 'TGH')
         {
           $sql = "UPDATE `acco` SET `av` = `av`-1 WHERE `name` = 'TGH'";
           $stmt=$GLOBALS["conn"]->prepare($sql);
@@ -158,7 +160,7 @@ include '../config.php';
           $sql = "UPDATE `acco` SET `av` = `av`-1 WHERE `name` = 'SAM'";
           $stmt=$GLOBALS["conn"]->prepare($sql);
           $result = $stmt->execute();
-        }
+        }*/
         
      // header("Location: ../Utility/mail.php");
      header("Location: ../Utility/get_update.php");

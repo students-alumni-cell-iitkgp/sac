@@ -47,6 +47,7 @@ include_once('../config.php');
   
             $marital      = $user['marital']        ;
           $accompaniment = $user['accompaniment'] ;
+          $acc_kid = $user['acc_kid'] ;
             $gh           = $user['gh']           ;
             $cost         = $user['cost']           ;
             $serial = $user['serial'];
@@ -72,6 +73,7 @@ include_once('../config.php');
           $hobbies     = $user['hobbies']         ;
   
           $reciept = $user['reciept'] ;  
+          $pay_status=$user['pay_status'];
          
           $travel_form   = $user['travel_form']      ;
           $mode          = $user['mode']      ;
@@ -107,6 +109,7 @@ include_once('../config.php');
   
          $_SESSION['marital']        =   $marital      ;
          $_SESSION['accompaniment'] = $accompaniment ;
+         $_SESSION['acc_kid'] = $acc_kid ;
          $_SESSION['gh']           =   $gh           ;
          $_SESSION['cost']           =   $cost         ;
   
@@ -130,6 +133,7 @@ include_once('../config.php');
          $_SESSION['hobbies']        = $hobbies      ;
   
          $_SESSION['reciept'] = $reciept ;
+         $_SESSION['pay_status']=$pay_status;
          $_SESSION['serial'] = $serial ;
          $_SESSION['employee'] = $employee ;
   

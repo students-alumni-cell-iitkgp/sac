@@ -24,7 +24,7 @@ if ($_SERVER["REQUEST_METHOD"]== "POST") {
     $_SESSION['password'] = $password;
     //setcookie('email', $email, time() + (86400), "/");
     //setcookie('password', $password, time() + (86400), "/");
-    $check = 1;
+    $_SESSION['check'] = $check = 1;
       
     foreach($users as $user) {
           
@@ -46,10 +46,11 @@ if ($_SERVER["REQUEST_METHOD"]== "POST") {
     }
 
     if($check == 1){
-        echo "<script language='javascript'>";
-        echo "alert('WRONG INFORMATION')";
-        echo "</script>";
 
+        /*echo "<script language='javascript'>";
+        echo "document.getElementById('login-error-msg').style.opacity = 1";
+        echo "</script>";*/
+        
         echo "<script language='javascript'>";
         echo "setTimeout(function() {";
         echo "    window.location.href = '../loginpage.php';";

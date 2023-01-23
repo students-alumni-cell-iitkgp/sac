@@ -29,12 +29,12 @@ $database = 'aam';
   <div class="card-body pt-4 p-3">
   <form action="backend\accomodation.php" method = "post" enctype="multipart/form-data" onSubmit="window.location.reload()" >
 
-<table class="table table-striped">
+<table class="table table-striped" style = "margin-bottom: 0 !important">
             <thead>
               <tr>
                 <th scope="col"></th>
-                <th scope="col">Fee</th>
-                <th scope="col">Amount</th>
+                <th scope="col">Registration Fee<span style="color:red">*</span></th>
+                <th scope="col">Amount(INR)</th>
               </tr>
             </thead>
              <tbody>
@@ -50,34 +50,60 @@ $database = 'aam';
                </tr>
              </tbody>
            </table>
+           <small class = "text-muted">Registration Fee includes Food, Transportation and Registration Kit</small>
 
-           <table class="table table-striped">
+           <div class = "row" style = "margin-top: 15px !important">
+           <div class="form-group mb-3 col-sm-6">
+             <label for="accompaniment">Accompanying Person(s)</label>
+                <input type="number" class="form-control" id="accompaniment" name= "accompaniment" value="0" placeholder= "0" min = "0" value = "<?php echo "$accompaniment"?>"  max="20" onchange="calc_cost()">
+             </div>
+
+             <div class="form-group mb-3 col-sm-6">
+             <label for="acc_kid">Accompanying Kid(s)</label>
+                <input type="number" class="form-control" id="acc_kid" name= "acc_kid" value="0" placeholder= "0" min = "0" value = "<?php echo "$acc_kid"?>"  max="20" >
+                <small class = "text-muted">Kids below 13 years of age won't be charged.</small>
+             </div>
+           </div>
+
+           <div class = "row" style="justify-content:center">
+           <div class="mb-3 col-sm-4">
+           <input class="form-control" id="acp" name = "acp" type="text" value = "Reg Fee = &#8377;0" readonly>
+           </div>
+           </div>
+
+           <table class="table table-striped" style = "margin-bottom: 0 !important">
             <thead>
               <tr>
-                <th scope="col"></th>
+                
                 <th scope="col">Guest House</th>
-                <th scope="col">Cost per person</th>
-                <th scope="col">Rooms Available</th>
               </tr>
             </thead>
              <tbody>
-               <tr>
+              <!-- <tr>
                  <th scope="row">1</th>
                  <td>Technology Guest House</td>
-                 <td>2250</td>
-                 <td><?php echo "$av_tgh"?></td>
+                 <td>2550</td>
                </tr>
                <tr>
                  <th scope="row">2</th>
                  <td>Sir Ashutosh Mukherjee Hall </td>
-                 <td>1800</td>
-                 <td><?php echo "$av_sam"?></td>
-               </tr>
+                 <td>900</td>
+               </tr>-->
              </tbody>
            </table>
+           <!--<small class = "text-muted">Rooms are on Shared Bases</small>-->
+           <p id="alert-msg">All the rooms in the Institute Guest Houses have been filled.
+            <br>
+            Please contact with us to get help in booking rooms outside the campus.
+            <br>
+            <span style="color:darkgreen">
+            Athul PM            +91 8972033025
+            <br>
+            Abhisha Shrivastava +91 8827031589 
+            </span>
+           </p>
 
-
-         <div class="row">
+         <div class="row" style="justify-content:center">
 
              <div class="form-group mb-3 col-sm-6">
              <label for="employee">Are you a resident of IIT Kharagpur?<span style="color:red;">*</span></label>
@@ -87,21 +113,16 @@ $database = 'aam';
             <option value="1">Yes</option>
             </select>
           </div>
-
-          <div class="form-group mb-3 col-sm-6">
-             <label for="accompaniment">Accompanying Person(s)</label>
-                <input type="number" class="form-control" id="accompaniment" name= "accompaniment" value="0" placeholder= "0" min = "0"value = "<?php echo "$accompaniment"?>"  max="20" onchange="calc_cost()">
-                <small class = "text-muted">Kids below 13 years of age won't be charged. It's free of cost for them. Don't add them in the accompanying person(s) list</small>
-             </div>
            </div>
 
           <div class = "row" id = "gh" style = "justify-content:center">
           <div class="form-group mb-3 col-sm-6">
-             <label for="gh">Ghest House<span style="color:red;">*</span></label>
+             <label for="gh">Guest House<span style="color:red;">*</span></label>
             <select class="form-control form-select" type = "list" id = "g" name= "gh" onchange="emp()" required>
-            <option selected value="select">---Select---</option>
+            <option selected value="NA">Not Available</option>
+            <!--<option selected value="select">---Select---</option>
             <option value="TGH">Technology Guest House</option>
-            <option value="SAM">Sir Ashutosh Mukherjee Hall</option>
+            <option selected value="SAM">Sir Ashutosh Mukherjee Hall</option>-->
             </select>
           </div>
         </div>
