@@ -51,6 +51,16 @@ header a {
   background-color: gray;
   border-radius: 2px;
 }
+
+.accordion-button:not(.collapsed){
+  color: #000000 !important;
+  background-color: #ffffff !important;
+  font-size: 24px !important;
+  font-family: revert !important;
+  display: block !important;
+  text-align: center !important;
+}
+
 .dropdown:hover .dropdown-menu {
   display: block;
   margin-top: 0;
@@ -298,3 +308,21 @@ main {
   text-align: center;
   color: grey;
 }
+
+.accordion-button{
+  display: block !important;
+  text-align: center !important;
+  font-size: 1.2rem !important; 
+}
+
+.accordion-button:focus{
+  box-shadow: none !important;
+}
+/* .accordion-button:not(.collapsed){
+  color: #000000;
+  background-color: #ffffff;
+  font-size: 20px;
+  font-family: revert;
+  display: block;
+  text-align: center;
+} */
