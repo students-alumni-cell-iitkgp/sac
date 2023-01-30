@@ -31,7 +31,7 @@
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingOne">
             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              The Head Team 2022
+               Head Team 2022
             </button>
           </h2>
           <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
@@ -439,7 +439,7 @@
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingTwo">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              The Head Team 2021
+               Head Team 2021
             </button>
           </h2>
             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
@@ -754,7 +754,7 @@
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingThree">
             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              The Head Team 2020
+               Head Team 2020
             </button>
           </h2>
           <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
@@ -1101,7 +1101,7 @@
       <div class="accordion-item">
         <h2 class="accordion-header" id="headingFour">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-            The Head Team 2019
+             Head Team 2019
           </button>
         </h2>
         <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
@@ -1488,7 +1488,7 @@
             <div class="row">
             <div div class="col-12 col-sm-4 former-team-text">
             <h4>2018</h4>
-                <ul class='team' style="list-style:none;">
+                <ul class='team'  style="list-style:none;padding-left: 0px;" >
                   <li>Gautam Arya</li>
                   <li>Vasanta Majety</li>
                   <li>Akanksha Malhotra</li>
@@ -1505,7 +1505,7 @@
               </div>
               <div div class="col-12 col-sm-4 former-team-text">
               <h4>2017</h4>
-                  <ul class='team' style="list-style:none;">
+                  <ul class='team' style="list-style:none;padding-left: 0px;">
                     <li>Bharat Chandra</li>
                     <li>Vishal Kumar Singh</li>
                     <li>Anmol Thakkar</li>
@@ -1521,7 +1521,7 @@
               </div>
               <div class="col-12 col-sm-4 former-team-text">
               <h4>2016</h4>
-                <ul class='team' style="list-style:none;">
+                <ul class='team' style="list-style:none;padding-left: 0px;">
                   <li>Mridul Pant</li>
                   <li>Vaibhav Chauhan</li>
                   <li>Afzal Ahmed</li>
@@ -1538,7 +1538,7 @@
               <div class="row">
               <div class="col-12 col-sm-4 former-team-text">
               <h4>2015</h4>
-                <ul class='team' style="list-style:none;">
+                <ul class='team' style="list-style:none;padding-left: 0px;">
                   <li>Pranshu Jain</li>
                   <li>Rohan Gupta</li>
                   <li>Akash Tulsani</li>
@@ -1557,7 +1557,7 @@
            
               <div class="col-12 col-sm-4 former-team-text">
               <h4>2014</h4>
-                  <ul class='team' style="list-style:none;">
+                  <ul class='team' style="list-style:none;padding-left: 0px;">
                     <li>Arpit Gupta</li>
                     <li>Manish Goyal</li>
                     <li>Aditi Shrivastav</li>
@@ -1570,7 +1570,7 @@
               </div>
               <div class="col-12 col-sm-4 former-team-text">
               <h4>2013</h4>
-                <ul class='team' style="list-style:none;">
+                <ul class='team' style="list-style:none;padding-left: 0px;">
                   <li>Aditi Sharma</li>
                   <li>Vedang Deshpande</li>
                   <li>Abhinay Vyas</li>
@@ -1587,9 +1587,9 @@
               </div>
               </div>
               <div class="row">
-              <div class="col-12 col-sm-4 former-team-text">
+              <div class="col-12 col-sm-3 former-team-text">
               <h4>2012</h4>
-                <ul class='team' style="list-style:none;">
+                <ul class='team' style="list-style:none;padding-left: 0px;">
                   <li>Apoorv Jain</li>
                   <li>Utkarsh Jain</li>
                   <li>Akshay Kumar</li>
@@ -1600,9 +1600,9 @@
                   <li>Tanya Mondal</li>
                 </ul>
               </div>
-              <div class="col-12 col-sm-4 former-team-text">
+              <div class="col-12 col-sm-3 former-team-text">
               <h4>2011</h4>
-                  <ul class='team' style="list-style:none;">
+                  <ul class='team' style="list-style:none;padding-left: 0px;">
                     <li>Nikunj Mall</li>
                     <li>Akshat Prakash</li>
                     <li>Aditi Kadmawala</li>
@@ -1614,9 +1614,9 @@
                   </ul>
                 </div>
 
-              <div class="col-12 col-sm-4 former-team-text">
+              <div class="col-12 col-sm-3 former-team-text">
               <h4>2010</h4>
-                <ul class='team'style="list-style:none;">
+                <ul class='team'style="list-style:none;padding-left: 0px;">
                   <li>Drishti Guin </li>
                   <li>Vishnu Rajeev</li>
                   <li> Harshal Maniyar</li>
@@ -1627,11 +1627,9 @@
                   <li> Tarun Trivedi</li>
                 </ul>
               </div>
-</div>
-<div class="row">
-              <div class="col-12 col-sm-4 former-team-text">
+              <div class="col-12 col-sm-3 former-team-text">
               <h4>2009</h4>
-                <ul class='team'style="list-style:none;">
+                <ul class='team'style="list-style:none;padding-left: 0px;">
                   <li>Chirag Fialoke</li>
                   <li>Abhishek Narain</li>
                   <li>Suruchi Prakash</li>
@@ -1641,6 +1639,20 @@
                   <li>Digvijay Singh</li>
                 </ul>
               </div>
+</div>
+<!-- <div class="row">
+              <div class="col-12 col-sm-3 former-team-text">
+              <h4>2009</h4>
+                <ul class='team'style="list-style:none;padding-left: 0px;">
+                  <li>Chirag Fialoke</li>
+                  <li>Abhishek Narain</li>
+                  <li>Suruchi Prakash</li>
+                  <li>Jyotika Gupta</li>
+                  <li>Abhijeet Khanna</li>
+                  <li>Abhigyan Mandal</li>
+                  <li>Digvijay Singh</li>
+                </ul>
+              </div> -->
         
               <!-- <div class="col-12 col-sm-4 former-team-text">
                   <h4>2011</h4>
