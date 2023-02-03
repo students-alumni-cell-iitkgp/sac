@@ -33,6 +33,8 @@
             border-color: #00416d !important;
         }
 
+
+
     </style>
 </head>
 
@@ -92,7 +94,26 @@
                             <div class="carousel-item active">
                                     <div class="container">
                                         <div class="row">
-                                        <div class="col-sm-12 col-lg-4">
+                                            <div class="col-sm-12 col-lg-4">
+                                                <div class="card" style="height: 100% !important;">
+                                                    <img src="img\yearbook\yb22.webp" class="h-img">
+                                                    <div class="card-body">
+                                                        <h4 class="card-title">Yearbook 2022...</h4>
+                                                        <div class="row ">
+                                                            <div class="img-txt ">
+                                                               <a href="https://drive.google.com/file/d/1VDv6ZPSi5InMHslYi5GcgL-m7qRg5uk2/view?usp=sharing"  target="_blank" style="color:black"> UG</a> 
+                                                            </div>
+                                                            <div class="img-txt">
+                                                            <a href="https://drive.google.com/file/d/1bySSeBraeOOGl9JEV3P185tksQAlyc70/view?usp=sharing"target="_blank" style="color:black"> PG</a>
+                                                            </div>
+                                                            <div class="img-txt">
+                                                            <a href="https://drive.google.com/file/d/1Fgs_aHGfoOgXp8sbU72sbSek06PhA1LB/view?usp=sharing"target="_blank" style="color:black"> RS</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12 col-lg-4">
                                                 <div class="card" style="height: 100% !important;">
                                                     <img src="img\yearbook\yb21.webp" class="h-img">
                                                     <div class="card-body">
@@ -130,6 +151,12 @@
                                                     </div>
                                                 </div>
                                             </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item ">
+                                    <div class="container">
+                                        <div class="row">
                                             <div class="col-sm-12 col-lg-4">
                                                 <div class="card" style="height: 100% !important;">
                                                     <img src="img\yearbook\year2019.webp" class="h-img">
@@ -149,12 +176,6 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item ">
-                                    <div class="container">
-                                        <div class="row">
                                             <div class="col-sm-12 col-lg-4">
                                                 <div class="card" style="height: 100% !important;">
                                                     <img src="img\yearbook\year2018.webp" class="card-img-top">
@@ -175,7 +196,7 @@
                                                 </div>
                                             </div>
                                             <div class="col-sm-12 col-lg-4">
-                                                <div class="card" style="height: 100% !important;">
+                                             <div class="card" style="height: 100% !important;">
                                                     <img src="img\yearbook\year2017.webp" class="card-img-top">
                                                     <div class="card-body">
                                                         <h4 class="card-title">YearBook 2017...</h4>
@@ -193,7 +214,13 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-sm-12 col-lg-4">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="container">
+                                        <div class="row justify-content-center">
+                                        <div class="col-sm-12 col-lg-3">
                                                 <div class="card" style="height: 100% !important;">
                                                     <img src="img\yearbook\year2016.webp" class="card-img-top">
                                                     <div class="card-body">
@@ -212,13 +239,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="container">
-                                        <div class="row justify-content-center">
-                                            <div class="col-sm-12 col-lg-4">
+                                            <div class="col-sm-12 col-lg-3">
                                                 <div class="card" style="height: 100% !important;">
                                                     <img src="img\yearbook\year2015.webp" class="card-img-top">
                                                     <div class="card-body">
@@ -237,7 +258,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-sm-12 col-lg-4">
+                                            <div class="col-sm-12 col-lg-3">
                                                 <div class="card" style="height: 100% !important;">
                                                     <img src="img\yearbook\year2014.webp" class="card-img-top">
                                                     <div class="card-body">
@@ -258,7 +279,7 @@
                                                 </div>
 
                                             </div>
-                                            <div class="col-sm-12 col-lg-4">
+                                            <div class="col-sm-12 col-lg-3">
                                                 <div class="card" style="height: 100% !important;">
                                                     <img src="img\yearbook\year2013.webp" class="card-img-top">
                                                     <div class="card-body">
@@ -311,14 +332,18 @@
                             <div class="progress" style="height:0.4rem;">
                                 <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
                             </div>
-                            <div class="row">
-                                <div class="col-md-6 col-xs-12 py-4 px-md-5">
-                                    <iframe class="image" width="100%" height="300px" src="https://www.youtube.com/embed/eVt_KHFRPmY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                    <p class="text-center">Class Song of 2018</p>
+                            <div class="row" >
+                                <div class="col-md-4 col-xs-12 py-4 px-md-5" >
+                                    <iframe class="image" width="100%" height="300px" src="https://www.youtube.com/embed/MKdLSCjaVVk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <p class="text-center">Class Song of 2022</p>
                                 </div>
-                                <div class="col-md-6 col-xs-12 py-4 px-md-5">
+                                <div class="col-md-4 col-xs-12 py-4 px-md-5">
                                     <iframe class="image" width="100%" height="300px" src="https://www.youtube.com/embed/BMbMHIVlyjI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                     <p class="text-center">Class Song of 2019</p>
+                                </div>
+                                <div class="col-md-4 col-xs-12 py-4 px-md-5" >
+                                    <iframe class="image" width="100%" height="300px" src="https://www.youtube.com/embed/eVt_KHFRPmY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                    <p class="text-center">Class Song of 2018</p>
                                 </div>
                             </div>
                         </div>
