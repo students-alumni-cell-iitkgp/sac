@@ -36,7 +36,8 @@
 
 .dropdown-item {
     text-align: center !important;
-    padding-bottom: 20px !important;
+    padding-bottom: 10px !important;
+    padding-top: 10px !important;
 }
 
 .dropdown-content a {

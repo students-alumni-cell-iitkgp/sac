@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <title>Students' Alumni Cell | Annual Alumni Meet</title>
+  <title>Annual Alumni Meet</title>
   <link rel="stylesheet" type="text/css" href="css/AAM.css">
      <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@200&display=swap" rel="stylesheet">
@@ -18,21 +18,13 @@
     .padding{
 	   padding:5rem 9rem;
    }
-   @media only screen and (max-width:500px){
-	.padding{
-	   padding:0 2rem;
-   }
-   .img{
-	  height:350px;
-	  margin-bottom:0px;
-   }
- 
-   .section-2{
-	   margin-top:0;
-	   padding-bottom:4rem;
-   }
-   }
-  </style>
+		.c{
+			margin-left:23px;
+			margin-right: 80px;
+			color: darkblue;
+			font-weight: bold;
+		}
+	</style>
 </head>
 
 
@@ -45,13 +37,6 @@
       
 	<div class="img">
 	</div>
-	<style>
-		.c{
-			margin-left:23px;
-			margin-right: 80px;
-			color: darkblue;
-		}
-	</style>
 	</header>
 </section>
   <section class="section-2 pt-0" style="padding-bottom:10rem;">
@@ -72,8 +57,10 @@
                       </p>
 			        </div>
 			    </div>
-				<a class="btn btn-outline-primary c" align="justify" href="aam.php" role="button">Visit - 18th Annual Meet</a>
-			    <!--<a class="btn btn-outline-primary c" align="justify" href="loginpage.php" role="button">18th Annual Meet</a>-->
+				<div class = "row">
+				<div class = "col-6"> <a class="btn btn-outline-primary c" href="aam.php" role="button">Visit - 18th Annual Meet</a></div>
+				<div class = "col-6"> <a class="btn btn-outline-primary c" href="aam18.php" role="button">Visit - 17th Annual Meet</a></div>
+				</div>
 				<!--<a class="btn btn-outline-primary c" align="justify" href="./grandreunion/index.php" role="button">18th Annual Meet</a>-->
 			</div>
 			<div class="col-md-5">
@@ -83,6 +70,7 @@
 						<div class="first"></div>
 						<div class="second"></div>
 						<div class="third"> 
+                            <!-- change the youtube link -->
 							<iframe src="https://www.youtube.com/embed/BPaRgF4rTRE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 						</div>	
 					</div>
@@ -106,7 +94,7 @@
 				<div class="row d-flex justify-content-center">
 					<div class="col-md-6 x">
 					<div class="image">
-					<img  src="img/day1c/compressed day 1/arena3.webp" class="img-fluid image__img">
+					<img  src="img/aam19/a1.webp" class="img-fluid image__img">
 				      <div class="image__overlay image__overlay--primary text-center">
 							<div class="image__title">Arena</div>
 							<p class="image__description">The Arena is a nostalgia-filled site welcoming the Alumni to share their old memories with us.</p>	
@@ -114,22 +102,22 @@
 			</div>
 			<div class="col-md-3 x align-items-center">
 					<div class="image">
-					<img  src="img/day2c/compressed day 2/arena.webp" class="img-fluid image__img">
+					<img  src="img/aam19/a2.webp" class="img-fluid image__img">
 				      <div class="image__overlay image__overlay--primary text-center">
 					</div></div>
 				<div class="image pt-3">
-					<img  src="img/day2c/compressed day 2/cake_cutting.webp" class="img-fluid image__img">
+					<img  src="img/aam19/a3.webp" class="img-fluid image__img">
 				      <div class="image__overlay image__overlay--primary text-center">
 					  </div></div>
 				
 			</div>
 			<div class="col-md-3 x align-items-center">
 					<div class="image">
-					<img  src="img/day1c/compressed day 1/alumni4.webp" class="img-fluid image__img">
+					<img  src="img/aam19/a4.webp" class="img-fluid image__img">
 				      <div class="image__overlay image__overlay--primary text-center">
 						</div></div>
 				<div class="image pt-3">
-					<img  src="img/day1c/compressed day 1/alumni2.webp" class="img-fluid image__img">
+					<img  src="img/aam19/a5.webp" class="img-fluid image__img">
 				      <div class="image__overlay image__overlay--primary text-center">
 					  </div></div>
 			</div>
@@ -141,12 +129,13 @@
 	</div>
 	</div>	
   </section> 
+
   <section class="section-3 pt-3">
 	<div class="container-fluid p-0">
 	<div style="padding:0 3rem;">
 		<div class="row">
 			<div class="col-md-3 d-flex justify-content-center">
-				<h1 class="gallery-h3 pt-5 text-center text-center">Grand Reunion</h1>
+				<h1 class="gallery-h3 pt-5 text-center text-center">Inauguration Ceremony</h1>
 			</div>		
 			<div class="col-md-9">
 			<div class="container">
@@ -154,11 +143,11 @@
 			<div class="col-md-4 x align-items-center">
 					
 				<div class="image ">
-					<img  src="img/day1c/compressed day 1/awards.webp" class="img-fluid image__img">
+					<img  src="img/aam19/in1.webp" class="img-fluid image__img">
 				      <div class="image__overlay image__overlay--primary text-center">
 								</div></div>
 				<div class="image pt-3">
-					<img  src="img/day1c/compressed day 1/alumni.webp" class="img-fluid image__img">
+					<img  src="img/aam19/in2.webp" class="img-fluid image__img">
 				      <div class="image__overlay image__overlay--primary text-center">
 					  
 							</div></div>
@@ -166,9 +155,9 @@
 			</div>
 			<div class="col-md-8 x">
 				<div class="image">
-				<img  src="img/day3c/compressed day 3/ceremony4.webp" class="img-fluid image__img">
+				<img  src="img/aam19/in3.webp" class="img-fluid image__img">
 				<div class="image__overlay image__overlay--primary text-center">
-				<div class="image__title">Grand Reunion</div>
+				<div class="image__title">Inauguration Ceremony</div>
 							<p class="image__description">The Annual Alumni Meet is a fascinating trip down memory lane
 							that allows our alumni to see old friends again and remember places and stories that were 
 							almost forgotten.
@@ -182,6 +171,7 @@
 	</div>
 	</div>
   </section>
+  
    <section class="section-3 pt-3">
 	<div class="container-fluid p-0">
 	<div style="padding:0 3rem;">
@@ -194,18 +184,18 @@
 			<div class="row d-flex justify-content-center">
 			<div class="col-md-4 x align-items-center">
 					<div class="image">
-					<img  src="img/day2c/compressed day 2/nalanda2.webp" class="img-fluid image__img">
+					<img  src="img/aam19/dv1.webp" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary text-center">
 				</div></div>
 				<div class="image pt-3">
-					<img  src="img/day1c/compressed day 1/alumni.webp" class="img-fluid image__img">
+					<img  src="img/aam19/dv2.webp" class="img-fluid image__img">
 				      <div class="image__overlay image__overlay--primary text-center">
 					</div></div>
 				
 			</div>
 			<div class="col-md-8 x">
 				<div class="image">
-					<img  src="img/day1c/compressed day 1/dept_visit2.webp" class="img-fluid image__img">
+					<img  src="img/aam19/dv3.webp" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary text-center">
 							<div class="image__title">Department Visit</div>
 							<p class="image__description">Departments are our own shrine of knowledge filled with bittersweet 
@@ -221,7 +211,7 @@
 	</div>
 	</div>
   </section>
- <section class="section-3 pt-3">
+ <!--<section class="section-3 pt-3">
 	<div class="container-fluid p-0">
 	<div style="padding:0 3rem;">
 		<div class="row">
@@ -248,55 +238,90 @@
 	</div>
 	</div>
 	</div>
-  </section>
+  </section>-->
+
   <section class="section-3 pt-3">
 	<div class="container-fluid p-0">
 	<div style="padding:0 3rem;">
 		<div class="row">
 			<div class="col-md-3 d-flex justify-content-center">
-				<h1 class="gallery-h3 pt-5 text-center">Hall Visit</h1>
+				<h1 class=" gallery-h3 pt-5 text-center">Hall Visit</h1>
 			</div>		
 			<div class="col-md-9">
 			<div class="container">
 			<div class="row d-flex justify-content-center">
-				<div class="col-md-3 content-overlay x">					
-					<div class="image ">
-					<img  src="img/day1c/compressed day 1/flames.webp" class="img-fluid image__img">
-					<div class="image__overlay image__overlay--primary">
-				</div></div>				
-					<div class="image pt-3">
-					<img  src="img/day1c/compressed day 1/hall_visit2.webp" class="img-fluid image__img">
-					<div class="image__overlay image__overlay--primary">
-				</div></div>
-</div>
-				<div class="col-md-3 content-overlay x">					
-					<div class="image ">
-					<img  src="img/day1c/compressed day 1/flames2.webp" class="img-fluid image__img">
-					<div class="image__overlay image__overlay--primary">
-				</div></div>				
-					<div class="image pt-2">
-					<img  src="img/day1c/compressed day 1/hall_visit4.webp" class="img-fluid image__img">
-					<div class="image__overlay image__overlay--primary">
-				</div></div></div>
-				
-				<div class="col-md-6 content-overlay x">
-										<div class="image">
-
-					<img src="img/day1c/compressed day 1/hall_visit.webp" class="img-fluid image__img">
+            <div class="col-md-8 x">
+				<div class="image">
+					<img  src="img/aam19/hv5.webp" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary text-center">
 							<div class="image__title">Hall Visit</div>
 							<p class="image__description">The place we learnt and lived for the 4 most important years in our life surely has a fragment of our soul inside
-							it and to come back to our hall of residence is nothing less than a reunion of all of our soul.</p>	
+	            						it and to come back to our hall of residence is nothing less than a reunion of all of our soul.</p>	
 				</div></div>
-				</div>
+			</div>
+			<div class="col-md-4 x align-items-center">
+					<div class="image">
+					<img  src="img/aam19/hv1.webp" class="img-fluid image__img">
+					<div class="image__overlay image__overlay--primary text-center">
+				</div></div>
+				<div class="image pt-3">
+					<img  src="img/aam19/hv2.webp" class="img-fluid image__img">
+				      <div class="image__overlay image__overlay--primary text-center">
+					</div></div>
+				
+			</div>
 			
-	</div>
-	</div>
+									
+			</div>
+			</div> 
 	</div>
 	</div>
 	</div>
 	</div>
   </section>
+
+  <section class="section-3 pt-3">
+	<div class="container-fluid p-0">
+	<div style="padding:0 3rem;">
+		<div class="row">
+			<div class="col-md-3 d-flex justify-content-center">
+				<h1 class=" gallery-h3 pt-5 text-center">Campus Tour</h1>
+			</div>		
+			<div class="col-md-9">
+			<div class="container">
+			<div class="row d-flex justify-content-center">
+			<div class="col-md-4 x align-items-center">
+					<div class="image">
+					<img  src="img/aam19/ct1.webp" class="img-fluid image__img">
+					<div class="image__overlay image__overlay--primary text-center">
+				</div></div>
+				<div class="image pt-3">
+					<img  src="img/aam19/ct4.webp" class="img-fluid image__img">
+				      <div class="image__overlay image__overlay--primary text-center">
+					</div></div>
+				
+			</div>
+			<div class="col-md-8 x">
+				<div class="image">
+					<img  src="img/aam19/ct3.webp" class="img-fluid image__img">
+					<div class="image__overlay image__overlay--primary text-center">
+							<div class="image__title">Campus Tour</div>
+							<p class="image__description">In the progressive world we live in, there are a lot of changes and yet a lot of constants 
+							and it’s a pleasure to see the newer developments in harmony with the same old roads.</p>	
+				</div></div>
+			</div>
+									
+			</div>
+			</div> 
+	</div>
+	</div>
+	</div>
+	</div>
+  </section>
+
+
+ 
+  <!-- </section>
     <section class="section-3 pt-3">
 	<div class="container-fluid p-0">
 	<div style="padding:0 3rem;">
@@ -309,7 +334,7 @@
 			<div class="row d-flex justify-content-center">			
 			<div class="col-md-7 content-overlay x">
 				<div class="image">
-					<img  src="img/day2c/compressed day 2/campus_tour.webp" class="img-fluid image__img">
+					<img  src="img/aam19/ct1.webp" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary text-center">
 													<div class="image__title">Campus Tour</div>
 							<p class="image__description">Campus Tour is our way of showing the 2200 acre campus in a nutshell
@@ -319,7 +344,7 @@
 				<div class="col-md-5 content-overlay x">
 									<div class="image">
 
-					<img  src="img/day2c/compressed day 2/campus_tour2.webp" class="img-fluid image__img">
+					<img  src="img/aam19/ct2.webp" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary text-center">
 									<div class="image__title">Campus Tour</div>
 							<p class="image__description"></p>	
@@ -329,7 +354,7 @@
 	<div class="row d-flex justify-content-center pt-3">	
 	<div class="col-md-5 x">
 					<div class="image">
-					<img  src="img/day2c/compressed day 2/nalanda.webp" class="img-fluid image__img">
+					<img  src="img/aam19/ct3.webp" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary text-center text-center">
 								<div class="image__title">Campus Tour</div>
 							<p class="image__description">
@@ -338,7 +363,7 @@
 				</div>
 				<div class="col-md-7 x">
 					<div class="image">
-					<img src="img/day2c/compressed day 2/football.webp" class="img-fluid image__img">
+					<img src="img/aam19/ct4.webp" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary">
 					<div class="image__title">Campus Tour</div>
 							<p class="image__description text-center">In the progressive world we live in, there are a lot of changes and yet a lot of constants 
@@ -350,9 +375,9 @@
 	</div>
 	</div>
 	</div>
-	</section>	
+	</section>	 -->
 	
-	  <section class="section-3 pt-3">
+	<section class="section-3 pt-3">
 	<div class="container-fluid p-0">
 	<div style="padding:0 3rem;">
 		<div class="row">
@@ -364,20 +389,20 @@
 			<div class="row d-flex justify-content-center">
 				<div class="col-md-8 content-overlay x">	
 					<div class="image">
-					<img src="img/day1c/compressed day 1/akash2.webp" class="img-fluid image__img">
+					<img src="img/aam19/e1.webp" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary text-center">
-						<div class="image__title">Stand-Up Comedy</div>
-							<p class="image__description">Smiles can cast the most powerful spell of love and happiness.</p>	
+						<div class="image__title">Entertania</div>
+							<p class="image__description">TRAP: Live in Concert</p>	
 				</div></div>								
 		</div>
 		<div class="col-md-4 content-overlay x">					
 				<div class="image">
-					<img  src="img/day1c/compressed day 1/toat.webp" class="img-fluid image__img">
+					<img  src="img/aam19/e2.webp" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary">
 					
 				</div></div>
 				<div class="image pt-3">
-					<img  src="img/day1c/compressed day 1/toat2.webp" class="img-fluid image__img">
+					<img  src="img/aam19/e3.webp" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary">
 					
 				</div></div></div>
@@ -403,11 +428,11 @@
 			<div class="row d-flex justify-content-center">
 		<div class="col-md-4 content-overlay x">					
 			<div class="image">
-					<img  src="img/day2c/compressed day 2/illu1.webp" class="img-fluid image__img">
+					<img  src="img/aam19/illu1.webp" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary">
 				</div></div>
 				<div class="image pt-3">
-					<img  src="img/day2c/compressed day 2/lantern.webp" class="img-fluid image__img">
+					<img  src="img/aam19/illu2.webp" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary">
 							<div class="image__title">Illumination</div>
 							<p class="image__description"></p>	
@@ -416,7 +441,7 @@
 <div class="col-md-8 content-overlay x">
 										<div class="image">
 
-					<img src="img/day2c/compressed day 2/kgp_arena.webp" class="img-fluid image__img">
+					<img src="img/aam19/illu3.webp" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary text-center">
 				<div class="image__title">Illumination</div>
 							<p class="image__description">The Illumination with diyas followed by the release of sky lanterns 
@@ -424,7 +449,7 @@
 				</div></div>
 				</div>	
 				</div>
-				<div class="row d-flex justify-content-center pt-3">
+				<!--<div class="row d-flex justify-content-center pt-3">
 				<div class="col-md-4 content-overlay x">
 					<div class="image">
 					<img  src="img/day2c/compressed day 2/night1.webp" class="img-fluid image__img">
@@ -447,7 +472,7 @@
 							<div class="image__title">Gala Dinner</div>
 				</div></div>
 				</div>
-	</div>
+	</div>-->
 			
 	</div>
 	</div>
@@ -468,14 +493,14 @@
 			<div class="row d-flex justify-content-center">
 					<div class="col-md-6 content-overlay x">
 					<div class="image">
-					<img  src="img/day3c/compressed day 3/emo.webp" class="img-fluid image__img">
+					<img  src="img/aam19/m1.webp" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary">
 				</div></div>
 				</div>
 				<div class="col-md-6 content-overlay x">
 									<div class="image">
 
-					<img  src="img/day3c/compressed day 3/marathon.webp" class="img-fluid image__img">
+					<img  src="img/aam19/m2.webp" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary text-center">
 							<div class="image__title">2.2 Marathon</div>
 							<p class="image__description">The iconic 2.2 km marathon around the heart of the campus in which all 
@@ -487,7 +512,7 @@
 					<div class="col-md-8 content-overlay">
 										<div class="image">
 
-					<img src="img/day3c/compressed day 3/closing_ceremony.webp" class="img-fluid image__img">
+					<img src="img/aam19/c1.webp" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary">
 							<div class="image__title">Closing Ceremony</div>	
 				</div></div>
@@ -523,29 +548,29 @@
         duration:1.5, 
 		y:50 
          });  
-}  
- $(window).on('load', function() {
-    if ($('#preloader').length) {
-      $('#preloader').delay(100).fadeOut('fast', function() {
-        $(this).remove();
-      });
-    }
-  });
+	}  
+	$(window).on('load', function() {
+		if ($('#preloader').length) {
+		$('#preloader').delay(100).fadeOut('fast', function() {
+			$(this).remove();
+		});
+		}
+	});
 
 
-$(document).ready(function(){ 
-    $(window).scroll(function(){ 
-        if ($(this).scrollTop() > 100) { 
-            $('.back-to-top').fadeIn(); 
-        } else { 
-            $('.back-to-top').fadeOut(); 
-        } 
-    }); 
-    $('.back-to-top').click(function(){ 
-        $("html, body").animate({ scrollTop: 0 }, 600); 
-        return false; 
-    }); 
-});
+	$(document).ready(function(){ 
+	$(window).scroll(function(){ 
+		if ($(this).scrollTop() > 100) { 
+			$('.back-to-top').fadeIn(); 
+		} else { 
+			$('.back-to-top').fadeOut(); 
+		} 
+	}); 
+	$('.back-to-top').click(function(){ 
+		$("html, body").animate({ scrollTop: 0 }, 600); 
+		return false; 
+	}); 
+	});
 
 
 	</script>
