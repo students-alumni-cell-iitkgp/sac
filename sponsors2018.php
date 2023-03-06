@@ -199,7 +199,7 @@
                     </div>
                     <div class="col-sm-12"align="center"style="margin-bottom:20px;">
                         <a href="http://www.polestarbags.com/" target="_blank">
-                        <img class="spons" src="img/spons/2018/Luggage Partner/PoleStar Bags Logo.jpg" width="250px" height="200px"  />
+                        <img class="spons" src="img/spons/2018/Luggage Partner/PoleStar Bags Logo.webp" width="250px" height="200px"  />
                         </a>
                     </div>
                 </div>
@@ -227,7 +227,7 @@
                     </div>
                     <div class="col-sm-12"align="center"style="margin-bottom:20px;">
                         <a href="https://www.inoxmovies.com/" target="_blank">
-                        <img class="spons" src="img/spons/2018/multiplex partner/index.jpeg" width="300px" height="250px"  />
+                        <img class="spons" src="img/spons/2018/multiplex partner/index.webp" width="300px" height="250px"  />
                         </a>
                     </div>
                 </div>
