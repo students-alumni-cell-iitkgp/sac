@@ -35,7 +35,11 @@
     }
   </style>
 </head>
-
+<style>
+  .card-img-top{
+    height: 286px;
+  }
+</style>
 <body>
 <?php include 'navbar.php' ?>
   <header>
@@ -98,7 +102,46 @@
             </div>
             <br>
             <div class="row" style="display:flex;justify-content:center;">
-              <div>
+            
+            <div class="col-sm-4">
+              <div class="service-card">
+                <div class="card content" >
+                  <div class="content-overlay"></div>
+                  <img class="card-img-top" src="img\affinity\hdfc.webp" alt="Card image cap"  >
+                  <div class="content-details fadeIn-bottom">
+                    <p class="content-text" style="text-align: left; font-size:0.83em">
+                      <b>HDFC Bank Diners Club and Diners Black credit cards</b>
+                      <ul style="font-size: 0.8rem; text-align: left;  text-align: justify; text-justify: inter-word;">
+                        <!-- <li>Students’ Alumni Cell came up with the HDFC Bank Diners Club and Diners Black credit cards.</li> -->
+                        <!-- <li>Studying at India's premier Institute of national importance gives a feeling of immense pride, and achieving this milestone is a result of immense hard work and dedication.</li> -->
+                        <li>We believe that your credit card should reflect a sense of pride and belongingness.</li> 
+                        <li>All the final and pre-final year students were eligible for the credit cards.</li>
+                      </ul>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-2">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-md-12 col-12">
+          <div class="panel panel1 text-center">
+            <h1 class="x">Previous Associations</h1>
+            <div class="progress" style="height:0.4rem;">
+              <div id="three" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                aria-valuemax="100" style="height:0.4rem;"></div>
+            </div>
+            <br>
+            <div class="row">
+            <div class="col-sm-4">
                 <div class="service-card">
                   <div class="card content" >
                     <div class="content-overlay"></div>
@@ -143,36 +186,12 @@
                         data-slide="prev" style=" cursor: pointer;"></span></div>
                       <div><span  class="carousel-control-nexti fas fa-chevron-circle-right fa-2x"                      data-target="#carouselExampleControlscurrent"
                         data-slide="next" style=" cursor: pointer;"></span></div>
-                      </div>
-                     
+                      </div>               
                     </div>   
-                    </div>
                   </div>
                 </div>
               </div>
-
-            
-              <br>
-
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section-2">
-    <div class="container text-center">
-      <div class="row">
-        <div class="col-md-12 col-12">
-          <div class="panel panel1 text-center">
-            <h1 class="x">Previous Associations</h1>
-            <div class="progress" style="height:0.4rem;">
-              <div id="three" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
-                aria-valuemax="100" style="height:0.4rem;"></div>
             </div>
-            <br>
-            <div class="row">
               <div class="col-sm-4">
                 <div class="service-card">
                   <div class="card content" >
@@ -213,26 +232,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-sm-4">
-                <div class="service-card">
-                  <div class="card content">
-                    <div class="content-overlay"></div>
-                    <img class="card-img-top" src="img\affinity\a_v2.webp" alt="Card image cap">
-                    <div class="content-details fadeIn-bottom">
-                      <p class="content-text" style="text-align: left; font-size:0.83em">
-                        <b>The benefits of this association include:</b>
-                        <ul style="font-size: 0.8rem; text-align: left;  text-align: justify; text-justify: inter-word;">
-                          <li>Courses with discount coupons.</li>
-                          <li>A chance to get internship for selected enrolled students.</li>
-                          <li>Discounted passes for Annual data Science conference for selected students.</li>
-                        </ul>
-                         <a href='http://www.analyticsvidhya.com/' target='_blank'>CLICK HERE</a>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+              
 
             <div class="row">
               <div class="col-sm-4">
@@ -292,6 +292,26 @@
                   </div>
                 </div>
               </div>
+              <div class="col-sm-4">
+                <div class="service-card">
+                  <div class="card content">
+                    <div class="content-overlay"></div>
+                    <img class="card-img-top" src="img\affinity\a_v2.webp" alt="Card image cap">
+                    <div class="content-details fadeIn-bottom">
+                      <p class="content-text" style="text-align: left; font-size:0.83em">
+                        <b>The benefits of this association include:</b>
+                        <ul style="font-size: 0.8rem; text-align: left;  text-align: justify; text-justify: inter-word;">
+                          <li>Courses with discount coupons.</li>
+                          <li>A chance to get internship for selected enrolled students.</li>
+                          <li>Discounted passes for Annual data Science conference for selected students.</li>
+                        </ul>
+                         <a href='http://www.analyticsvidhya.com/' target='_blank'>CLICK HERE</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
             </div>
 
           </div>
