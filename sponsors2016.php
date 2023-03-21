@@ -62,7 +62,7 @@
       </a>
       </div>
       <div class="col l3 push-l1"><a href="http://www.totalenvironment.in/" target="_blank" >
-        <img class="spons" style="position:relative;top:8px;" src="img/spons/sponsors16/pics/i3.jpg" width="290" height="100" />
+        <img class="spons" style="position:relative;top:8px;" src="img/spons/sponsors16/pics/i3.webp" width="290" height="100" />
       </a>
       </div> </div>
       <br>
@@ -192,7 +192,7 @@
   <div c class="col-sm-12" > <h2 style="text-align:center;">Banking Partner<hr></h2> </div>
 
      <div class="col-sm-12"  align="center"><a href="https://www.sbi.co.in/" target="_blank" >
-        <img class="spons" src="img/spons/sponsors16/pics/sb.jpeg" width="260" height="80" >
+        <img class="spons" src="img/spons/sponsors16/pics/sb.webp" width="260" height="80" >
       </a>
       </div>
 
@@ -349,7 +349,7 @@
      <div class="s-21 row">
 
       <div class="col-lg-4 col-md-6 col-sm-12"> <a href="http://www.faadooengineers.com/" target="_blank">
-         <img class="spons"  src="img/spons/sponsors16/pics/fa.jpeg" width="190" height="80" />
+         <img class="spons"  src="img/spons/sponsors16/pics/fa.webp" width="190" height="80" />
       </a> </div>
 
     <div class="col-lg-4 col-md-6 col-sm-12">

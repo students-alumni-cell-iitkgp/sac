@@ -30,7 +30,7 @@
       <div class="col-lg-4 col-sm-12" align="center" style="margin-bottom:20px;">
        <h4 class="spons_head"> Co Sponsors </h4><hr>
         <a href="http://www.bnpparibas.co.in/en/contact-us/srei-equipment-finance/" target="_blank">
-          <img class="spons"  src="img/spons/2014/cosponsor.jpg" width="300px" height=""/>
+          <img class="spons"  src="img/spons/2014/cosponsor.webp" width="300px" height=""/>
         </a>
       </div>
 
