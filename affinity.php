@@ -107,13 +107,30 @@
               <div class="service-card">
                 <div class="card content" >
                   <div class="content-overlay"></div>
+                  <img class="card-img-top" src="img\affinity\algo_logo.webp" alt="Card image cap"  >
+                  <div class="content-details fadeIn-bottom">
+                    <p class="content-text" style="text-align: left; font-size:0.83em">
+                      <b>Avail the special offers now.</b>
+                      <ul style="font-size: 0.8rem; text-align: left;  text-align: justify; text-justify: inter-word;">
+                        <li>Visit the <a href='https://algozenith.com/home/' target='_blank'>AlgoZenith</a> website</li>
+                        <li>Select Premium and enroll yourself for the course.</li> 
+                        <li>Fill in your details and enter the coupon code: <b>AZ_KGP_SPECIAL</b></li>
+                      </ul>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-4">
+              <div class="service-card">
+                <div class="card content" >
+                  <div class="content-overlay"></div>
                   <img class="card-img-top" src="img\affinity\hdfc.webp" alt="Card image cap"  >
                   <div class="content-details fadeIn-bottom">
                     <p class="content-text" style="text-align: left; font-size:0.83em">
                       <b>HDFC Bank Diners Club and Diners Black credit cards</b>
                       <ul style="font-size: 0.8rem; text-align: left;  text-align: justify; text-justify: inter-word;">
-                        <!-- <li>Students’ Alumni Cell came up with the HDFC Bank Diners Club and Diners Black credit cards.</li> -->
-                        <!-- <li>Studying at India's premier Institute of national importance gives a feeling of immense pride, and achieving this milestone is a result of immense hard work and dedication.</li> -->
                         <li>We believe that your credit card should reflect a sense of pride and belongingness.</li> 
                         <li>All the final and pre-final year students were eligible for the credit cards.</li>
                       </ul>
