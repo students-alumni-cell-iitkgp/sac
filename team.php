@@ -30,7 +30,7 @@
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingOne">
             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-               Head Team 2022
+               Head Team 2023
             </button>
           </h2>
           <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
@@ -49,20 +49,20 @@
                                     <img class="card-img-top" src="img\team2022\Prerit.webp" height=300px; alt="Card image cap">
                                     
                                     <div class="card-body">
-                                      <h6 class="x">Prerit Goyal</h6>
-                                      <p class="x">(General Secretary)</p>
+                                      <h6 class="x">Aryan Grag</h6>
+                                      <p class="x">General Secretary</p>
                                       <div class='row'>
                                         <div class="col-3">
-                                          <a href='https://www.facebook.com/prerit.goyal.3' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                          <a href='https://www.facebook.com/profile.php?id=100073394443471&mibextid=LQQJ4d' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='https://www.linkedin.com/in/prerit-goyal/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                          <a href='https://www.linkedin.com/in/aryan--garg' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='mailto:preritgoyal0203@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                          <a href='mailto:aryangarg1303@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='tel:+91-8989020473' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                          <a href='tel:+91-9915430558' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
                                         </div>
             
                                       </div>
@@ -78,20 +78,20 @@
                                     <img class="card-img-top" src="img\team2022\Rohan.webp" height=300px; alt="Card image cap">
                                     
                                     <div class="card-body">
-                                      <h6 class="x">Rohan Sachan</h6>
-                                      <p class="x">(General Secretary)</p>
+                                      <h6 class="x">Syed Ahmad Hasan</h6>
+                                      <p class="x">General Secretary</p>
                                       <div class='row'>
                                         <div class="col-3">
-                                          <a href='https://www.facebook.com/rohan.sachan.5712' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                          <a href='https://www.facebook.com/profile.php?id=100075514444981' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='https://www.linkedin.com/in/rohan-sachan-/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                          <a href='https://www.linkedin.com/in/syed-ahmad-hasan/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='mailto:rohansachan8@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                          <a href='mailto:syedahmadhasan07@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='tel:+91-6389355293' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                          <a href='tel:+91-9423673760' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
                                         </div>
             
                                       </div>
@@ -108,20 +108,20 @@
                                     <img class="card-img-top" src="img\team2022\Abhisha.webp" height=300px; alt="Card image cap">
                                     
                                     <div class="card-body">
-                                      <h6 class="x">Abhisha Shrivastava</h6>
-                                      <p class="x">(Coordinator, Networking)</p>
+                                      <h6 class="x">Bhuvan Jambhulkar</h6>
+                                      <p class="x">Coordinator, Sponsorship</p>
                                       <div class='row'>
                                         <div class="col-3">
-                                          <a href='https://www.facebook.com/abhishashrivastava3221/' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                          <a href='https://www.facebook.com/bhuvan.jambhulkar.3' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='https://www.linkedin.com/in/abhisha-shrivastava/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                          <a href='https://www.linkedin.com/in/bhuvan-jambhulkar/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='mailto:abhishashrivastava3221@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                          <a href='mailto:bhuvan0310.official@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='tel:+91-8827031589' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                          <a href='tel:+91-9561729840' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
                                         </div>
             
                                       </div>
@@ -136,20 +136,20 @@
                                     <img class="card-img-top" src="img\team2022\Athul.webp" height=300px; alt="Card image cap">
                                     
                                     <div class="card-body">
-                                      <h6 class="x">Athul P M</h6>
-                                      <p class="x">(Coordinator, PR)</p>
+                                      <h6 class="x">Khyati Gupta</h6>
+                                      <p class="x">Coordinator, Sponsorship</p>
                                       <div class='row'>
                                         <div class="col-3">
-                                          <a href='https://www.facebook.com/athul.pm.7' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                          <a href='https://www.facebook.com/profile.php?id=100075525097218&mibextid=ZbWKwL' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='https://www.linkedin.com/in/athulpm/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                          <a href='https://www.linkedin.com/in/khyati--gupta' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='mailto:athulpm645@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                          <a href='mailto:guptakhyati75@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='tel:+91-9605163171' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                          <a href='tel:+91-8239632851' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
                                         </div>
             
                                       </div>
@@ -167,20 +167,20 @@
                                     <img class="card-img-top" src="img\team2022\Ashish.png" height=300px; alt="Card image cap" style="object-position: left;">
                                     
                                     <div class="card-body">
-                                      <h6 class="x">Ashish Kumar Shah</h6>
-                                      <p class="x">(Coordinator, Yearbook & Class Song)</p>
+                                      <h6 class="x">Muskan Turaha</h6>
+                                      <p class="x">Coordinator, Networking and PR</p>
                                       <div class='row'>
                                         <div class="col-3">
-                                          <a href='https://www.facebook.com/ashish.shah090' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                          <a href='https://www.facebook.com/profile.php?id=100075296058773&mibextid=ZbWKwL' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='https://www.linkedin.com/in/ashish-kumar-shah/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                          <a href='https://www.linkedin.com/in/muskan-turaha' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='mailto:ashishshah0900@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                          <a href='mailto:turahamuskan1234@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='tel:+91-8630679428' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                          <a href='tel:+91-9368271624' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
                                         </div>
             
                                       </div>
@@ -195,20 +195,20 @@
                                     <img class="card-img-top" src="img\team2022\Anurakt.webp" height=300px; alt="Card image cap">
                                     
                                     <div class="card-body">
-                                      <h6 class="x">Anurakt Kumar</h6>
-                                      <p class="x">(Coordinator, Sponsorship)</p>
+                                      <h6 class="x">Vivek Unadkat</h6>
+                                      <p class="x">Coordinator, PR and Sponsorship</p>
                                       <div class='row'>
                                         <div class="col-3">
-                                          <a href='https://www.facebook.com/anurakt.kumar.756/' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                          <a href='https://www.facebook.com/vivek.unadkat.106' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='https://www.linkedin.com/in/anurakt-kumar/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                          <a href='https://www.linkedin.com/in/vivek-unadkat/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='mailto:anurakt2002@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                          <a href='mailto:vivekunadkat5@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='tel:+91-8804901402' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                          <a href='tel:+91-7038035355' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
                                         </div>
             
                                       </div>
@@ -226,20 +226,20 @@
                                     <img class="card-img-top" src="img\team2022\Monish.webp" height=300px; alt="Card image cap">
                                     
                                     <div class="card-body">
-                                      <h6 class="x">Monish Pappula</h6>
-                                      <p class="x">(Coordinator, Sponsorship)</p>
+                                      <h6 class="x">Debayan Biswas</h6>
+                                      <p class="x">Web Head</p>
                                       <div class='row'>
                                         <div class="col-3">
-                                          <a href='https://www.facebook.com/monish.p.3726' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                          <a href='https://www.facebook.com/debayan.biswas.9638' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='https://www.linkedin.com/in/monish-pappula//' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                          <a href='https://www.linkedin.com/in/debayan-biswas/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='mailto:monishpappula@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                          <a href='mailto:debayanbiswas1111@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='tel:+91-7995744439' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                          <a href='tel:+91-9330683833' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
                                         </div>
             
                                       </div>
@@ -254,20 +254,20 @@
                                     <img class="card-img-top" src="img\team2022\Shreyansh.jpg" height=300px; alt="Card image cap">
                                     
                                     <div class="card-body">
-                                      <h6 class="x">Shreyansh Jha</h6>
-                                      <p class="x">(Coordinator, Sponsorship)</p>
+                                      <h6 class="x">Puspendra Kumar</h6>
+                                      <p class="x">Web Head</p>
                                       <div class='row'>
                                         <div class="col-3">
-                                          <a href='https://www.facebook.com/jhashreyansh' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                          <a href='https://www.facebook.com/profile.php?id=100075203721913' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='https://www.linkedin.com/in/shreyansh-jha/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                          <a href='https://www.linkedin.com/in/puspendra-kumar/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='mailto:shreyanshjha52@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                          <a href='mailto:pushpukumar77@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='tel:+91-9636777987' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                          <a href='tel:+91-8448677848' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
                                         </div>
             
                                       </div>
@@ -284,20 +284,20 @@
                                     <img class="card-img-top" src="img\team2022\Anjani.webp" height=300px; alt="Card image cap">
                                     
                                     <div class="card-body">
-                                      <h6 class="x">Anjani Kumar</h6>
-                                      <p class="x">(Web Head)</p>
+                                      <h6 class="x">Tushar Mondal</h6>
+                                      <p class="x">Public Relations Head (Design)</p>
                                       <div class='row'>
                                         <div class="col-3">
-                                          <a href='https://www.facebook.com/anjani.kumar.26' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                          <a href='https://www.facebook.com/cristiano.tushar.9/' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='https://www.linkedin.com/in/anjani-kumar-/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                          <a href='https://www.linkedin.com/in/tushar-mondal/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='mailto:anjaniit23@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                          <a href='mailto:tusharmondal192@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='tel:+91-8968628246' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                          <a href='tel:+91-8597543528' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
                                         </div>
             
                                       </div>
@@ -312,20 +312,20 @@
                                     <img class="card-img-top" src="img\team2022\Kajol.webp" height=300px; alt="Card image cap">
                                     
                                     <div class="card-body">
-                                      <h6 class="x">Kajol Sahu</h6>
-                                      <p class="x">(Web Head)</p>
+                                      <h6 class="x">Syed Zeeshan Razvi</h6>
+                                      <p class="x">Public Relations Head (Design)</p>
                                       <div class='row'>
                                         <div class="col-3">
-                                          <a href='https://www.facebook.com/puravi.sahu.9' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                          <a href='https://www.facebook.com/profile.php?id=100075305655459&mibextid=ZbWKwL' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='https://www.linkedin.com/in/kajol-sahu/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                          <a href='https://www.linkedin.com/in/syed-zeeshan-razvi-' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='mailto:kajolsahu238@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                          <a href='mailto:xeeshan1221@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='tel:+91-9479940899' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                          <a href='tel:+91-9541682757' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
                                         </div>
             
                                       </div>
@@ -334,7 +334,7 @@
                                 </div>
                               </div>
                             </div>
-                            <div class="row justify-content-center">
+                            <!-- <div class="row justify-content-center">
                               <div class="col-12 col-sm-6 col-6">
                                 <div class="service-card">
                                   <div class="card">
@@ -391,7 +391,7 @@
                                   </div>
                                 </div>
                               </div>
-                            </div>
+                            </div> -->
                             <div class="row">
                               <div class="col-sm-3 align-items-center">
                               </div>
@@ -403,20 +403,20 @@
                                     <img class="card-img-top" src="img\team2022\Gourav.webp" height=300px; alt="Card image cap">
                                     
                                     <div class="card-body">
-                                      <h6 class="x">Gourav Parashar</h6>
-                                      <p class="x">(Public Relations Head, Videography)</p>
+                                      <h6 class="x">Ananya Singh</h6>
+                                      <p class="x">Public Relations Head (Videography)</p>
                                       <div class='row'>
                                         <div class="col-3">
-                                          <a href='https://www.facebook.com/goo.para.5' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                          <a href='https://www.facebook.com/profile.php?id=100075497561359&mibextid=ZbWKwL' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='https://www.linkedin.com/in/gourav-parashar/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                          <a href='https://www.linkedin.com/in/ananya---singh-' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='mailto:gouravparadiseon@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                          <a href='mailto:ananya.iitkgp21@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='tel:+91-6268959512' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                          <a href='tel:+91-9285433888' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
                                         </div>
             
                                       </div>
