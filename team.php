@@ -46,7 +46,7 @@
                                 <div class="service-card">
                                   <div class="card">
                                     
-                                    <img class="card-img-top" src="img\team2022\Prerit.webp" height=300px; alt="Card image cap">
+                                    <img class="card-img-top" src="img\team2023\aryan.webp" height=300px; alt="Card image cap">
                                     
                                     <div class="card-body">
                                       <h6 class="x">Aryan Grag</h6>
@@ -75,7 +75,7 @@
                                 <div class="service-card">
                                   <div class="card">
                                     
-                                    <img class="card-img-top" src="img\team2022\Rohan.webp" height=300px; alt="Card image cap">
+                                    <img class="card-img-top" src="img\team2023\ahmed.webp" height=300px; alt="Card image cap">
                                     
                                     <div class="card-body">
                                       <h6 class="x">Syed Ahmad Hasan</h6>
@@ -105,7 +105,7 @@
                                 <div class="service-card">
                                   <div class="card">
                                     
-                                    <img class="card-img-top" src="img\team2022\Abhisha.webp" height=300px; alt="Card image cap">
+                                    <img class="card-img-top" src="img\team2023\bhuvan.webp" height=300px; alt="Card image cap">
                                     
                                     <div class="card-body">
                                       <h6 class="x">Bhuvan Jambhulkar</h6>
@@ -133,7 +133,7 @@
                                 <div class="service-card">
                                   <div class="card">
                                     
-                                    <img class="card-img-top" src="img\team2022\Athul.webp" height=300px; alt="Card image cap">
+                                    <img class="card-img-top" src="img\team2023\khyati.webp" height=300px; alt="Card image cap">
                                     
                                     <div class="card-body">
                                       <h6 class="x">Khyati Gupta</h6>
@@ -164,7 +164,7 @@
                                 <div class="service-card">
                                   <div class="card">
                                     
-                                    <img class="card-img-top" src="img\team2022\Ashish.png" height=300px; alt="Card image cap" style="object-position: left;">
+                                    <img class="card-img-top" src="img\team2023\muskan.webp" height=300px; alt="Card image cap" style="object-position: left;">
                                     
                                     <div class="card-body">
                                       <h6 class="x">Muskan Turaha</h6>
@@ -192,7 +192,7 @@
                                 <div class="service-card">
                                   <div class="card">
                                     
-                                    <img class="card-img-top" src="img\team2022\Anurakt.webp" height=300px; alt="Card image cap">
+                                    <img class="card-img-top" src="img\team2023\vivek.webp" height=300px; alt="Card image cap">
                                     
                                     <div class="card-body">
                                       <h6 class="x">Vivek Unadkat</h6>
@@ -223,7 +223,7 @@
                                 <div class="service-card">
                                   <div class="card">
                                     
-                                    <img class="card-img-top" src="img\team2022\Monish.webp" height=300px; alt="Card image cap">
+                                    <img class="card-img-top" src="img\team2023\debayan.webp" height=300px; alt="Card image cap">
                                     
                                     <div class="card-body">
                                       <h6 class="x">Debayan Biswas</h6>
@@ -251,7 +251,7 @@
                                 <div class="service-card">
                                   <div class="card">
                                     
-                                    <img class="card-img-top" src="img\team2022\Shreyansh.jpg" height=300px; alt="Card image cap">
+                                    <img class="card-img-top" src="img\team2023\puspendra.webp" height=300px; alt="Card image cap">
                                     
                                     <div class="card-body">
                                       <h6 class="x">Puspendra Kumar</h6>
@@ -281,7 +281,7 @@
                                 <div class="service-card">
                                   <div class="card">
                                     
-                                    <img class="card-img-top" src="img\team2022\Anjani.webp" height=300px; alt="Card image cap">
+                                    <img class="card-img-top" src="img\team2023\tushar.webp" height=300px; alt="Card image cap">
                                     
                                     <div class="card-body">
                                       <h6 class="x">Tushar Mondal</h6>
@@ -309,7 +309,7 @@
                                 <div class="service-card">
                                   <div class="card">
                                     
-                                    <img class="card-img-top" src="img\team2022\Kajol.webp" height=300px; alt="Card image cap">
+                                    <img class="card-img-top" src="img\team2023\zeeshan.webp" height=300px; alt="Card image cap">
                                     
                                     <div class="card-body">
                                       <h6 class="x">Syed Zeeshan Razvi</h6>
@@ -400,7 +400,7 @@
                                 <div class="service-card last-card">
                                   <div class="card ">
                                     
-                                    <img class="card-img-top" src="img\team2022\Gourav.webp" height=300px; alt="Card image cap">
+                                    <img class="card-img-top" src="img\team2023\ananya.webp" height=300px; alt="Card image cap">
                                     
                                     <div class="card-body">
                                       <h6 class="x">Ananya Singh</h6>
