@@ -460,7 +460,7 @@
                                     
                                     <div class="card-body">
                                       <h6 class="x">Prerit Goyal</h6>
-                                      <p class="x">(General Secretary)</p>
+                                      <p class="x">(Former General Secretary)</p>
                                       <div class='row'>
                                         <div class="col-3">
                                           <a href='https://www.facebook.com/prerit.goyal.3' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
@@ -489,7 +489,7 @@
                                     
                                     <div class="card-body">
                                       <h6 class="x">Rohan Sachan</h6>
-                                      <p class="x">(General Secretary)</p>
+                                      <p class="x">(Former General Secretary)</p>
                                       <div class='row'>
                                         <div class="col-3">
                                           <a href='https://www.facebook.com/rohan.sachan.5712' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
@@ -519,7 +519,7 @@
                                     
                                     <div class="card-body">
                                       <h6 class="x">Abhisha Shrivastava</h6>
-                                      <p class="x">(Coordinator, Networking)</p>
+                                      <p class="x">(Former Coordinator, Networking)</p>
                                       <div class='row'>
                                         <div class="col-3">
                                           <a href='https://www.facebook.com/abhishashrivastava3221/' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
@@ -547,7 +547,7 @@
                                     
                                     <div class="card-body">
                                       <h6 class="x">Athul P M</h6>
-                                      <p class="x">(Coordinator, PR)</p>
+                                      <p class="x">(Former Coordinator, PR)</p>
                                       <div class='row'>
                                         <div class="col-3">
                                           <a href='https://www.facebook.com/athul.pm.7' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
@@ -578,7 +578,7 @@
                                     
                                     <div class="card-body">
                                       <h6 class="x">Ashish Kumar Shah</h6>
-                                      <p class="x">(Coordinator, Yearbook & Class Song)</p>
+                                      <p class="x">(Former Coordinator, Yearbook & Class Song)</p>
                                       <div class='row'>
                                         <div class="col-3">
                                           <a href='https://www.facebook.com/ashish.shah090' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
@@ -606,7 +606,7 @@
                                     
                                     <div class="card-body">
                                       <h6 class="x">Anurakt Kumar</h6>
-                                      <p class="x">(Coordinator, Sponsorship)</p>
+                                      <p class="x">(Former Coordinator, Sponsorship)</p>
                                       <div class='row'>
                                         <div class="col-3">
                                           <a href='https://www.facebook.com/anurakt.kumar.756/' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
@@ -637,7 +637,7 @@
                                     
                                     <div class="card-body">
                                       <h6 class="x">Monish Pappula</h6>
-                                      <p class="x">(Coordinator, Sponsorship)</p>
+                                      <p class="x">(Former Coordinator, Sponsorship)</p>
                                       <div class='row'>
                                         <div class="col-3">
                                           <a href='https://www.facebook.com/monish.p.3726' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
@@ -665,7 +665,7 @@
                                     
                                     <div class="card-body">
                                       <h6 class="x">Shreyansh Jha</h6>
-                                      <p class="x">(Coordinator, Sponsorship)</p>
+                                      <p class="x">(Former Coordinator, Sponsorship)</p>
                                       <div class='row'>
                                         <div class="col-3">
                                           <a href='https://www.facebook.com/jhashreyansh' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
@@ -695,7 +695,7 @@
                                     
                                     <div class="card-body">
                                       <h6 class="x">Anjani Kumar</h6>
-                                      <p class="x">(Web Head)</p>
+                                      <p class="x">(Former Web Head)</p>
                                       <div class='row'>
                                         <div class="col-3">
                                           <a href='https://www.facebook.com/anjani.kumar.26' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
@@ -723,7 +723,7 @@
                                     
                                     <div class="card-body">
                                       <h6 class="x">Kajol Sahu</h6>
-                                      <p class="x">(Web Head)</p>
+                                      <p class="x">(Former Web Head)</p>
                                       <div class='row'>
                                         <div class="col-3">
                                           <a href='https://www.facebook.com/puravi.sahu.9' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
@@ -753,7 +753,7 @@
                                     
                                     <div class="card-body">
                                       <h6 class="x">Aditi Pasi</h6>
-                                      <p class="x">(Public Relations Head, Design)</p>
+                                      <p class="x">(Former Public Relations Head, Design)</p>
                                       <div class='row'>
                                         <div class="col-3">
                                           <a href='https://www.facebook.com/aditi.pasi.73' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
@@ -781,7 +781,7 @@
                                     
                                     <div class="card-body">
                                       <h6 class="x">Chesta Srivastava</h6>
-                                      <p class="x">(Public Relations Head, Design)</p>
+                                      <p class="x">(Former Public Relations Head, Design)</p>
                                       <div class='row'>
                                         <div class="col-3">
                                           <a href='https://www.facebook.com/chesta.srivastava16' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
@@ -814,7 +814,7 @@
                                     
                                     <div class="card-body">
                                       <h6 class="x">Gourav Parashar</h6>
-                                      <p class="x">(Public Relations Head, Videography)</p>
+                                      <p class="x">(Former Public Relations Head, Videography)</p>
                                       <div class='row'>
                                         <div class="col-3">
                                           <a href='https://www.facebook.com/goo.para.5' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
