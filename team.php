@@ -1897,18 +1897,18 @@
             <div div class="col-12 col-sm-4 former-team-text">
             <h4>2019</h4>
                 <ul class='team'  style="list-style:none;padding-left: 0px;" >
-                  <li>Gautam Arya</li>
-                  <li>Vasanta Majety</li>
-                  <li>Akanksha Malhotra</li>
-                  <li>Kumar Shubham</li>
-                  <li>Naman Agarwal</li>
-                  <li>Shruti Joshi</li>
-                  <li>Vaibhav Beriwal</li>
-                  <li> Upamanyu Chatterjee</li>
-                  <li>Md Asif Iqbal</li>
-                  <li>Prateek Kaushal</li>
-                  <li>Sumit Tripathi</li>
-                  <li>Harsh Yadav</li>
+                  
+                  <li>Shishir Shahi</li>
+                  <li>Swaraj Prakash</li>
+                  <li>Avi Singh Raghuwanshi</li>
+                  <li>Atharva Wagle</li>
+                  <li>Eknoor Malhotra</li>
+                  <li>Madhumita Paul</li>
+                  <li>Ayush Jain</li>
+                  <li>Kunal Das</li>
+                  <li>Shubham Kendre</li>
+                  <li>Tanmay Das</li>
+                  <li>Raman Shaw</li>
                 </ul>
               </div>
               <div div class="col-12 col-sm-4 former-team-text">
