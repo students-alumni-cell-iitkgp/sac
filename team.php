@@ -26,12 +26,11 @@
         <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 </head>
   <?php include 'navbar.php' ?>
-
   <div class="accordion" id="accordionExample">
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingOne">
             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-               Head Team 2022
+               Head Team 2023
             </button>
           </h2>
           <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
@@ -46,24 +45,24 @@
                               <div class="col-12 col-sm-6 align-items-center">
                                 <div class="service-card">
                                   <div class="card">
-                                    <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
-                                    <img class="card-img-top" src="img\team2022\Prerit.webp" height=300px; alt="Card image cap">
-                                    <!-- <h3>CODEPEN</h3> -->
+                                    
+                                    <img class="card-img-top" src="img\team2023\aryan.webp" height=300px; alt="Card image cap">
+                                    
                                     <div class="card-body">
-                                      <h6 class="x">Prerit Goyal</h6>
-                                      <p class="x">(General Secretary)</p>
+                                      <h6 class="x">Aryan Grag</h6>
+                                      <p class="x">General Secretary</p>
                                       <div class='row'>
                                         <div class="col-3">
-                                          <a href='https://www.facebook.com/prerit.goyal.3' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                          <a href='https://www.facebook.com/profile.php?id=100073394443471&mibextid=LQQJ4d' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='https://www.linkedin.com/in/prerit-goyal/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                          <a href='https://www.linkedin.com/in/aryan--garg' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='mailto:preritgoyal0203@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                          <a href='mailto:aryangarg1303@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='tel:+91-8989020473' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                          <a href='tel:+91-9915430558' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
                                         </div>
             
                                       </div>
@@ -75,24 +74,24 @@
                               <div class="col-12 col-sm-6 align-items-center">
                                 <div class="service-card">
                                   <div class="card">
-                                    <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
-                                    <img class="card-img-top" src="img\team2022\Rohan.webp" height=300px; alt="Card image cap">
-                                    <!-- <h3>CODEPEN</h3> -->
+                                    
+                                    <img class="card-img-top" src="img\team2023\ahmed.webp" height=300px; alt="Card image cap">
+                                    
                                     <div class="card-body">
-                                      <h6 class="x">Rohan Sachan</h6>
-                                      <p class="x">(General Secretary)</p>
+                                      <h6 class="x">Syed Ahmad Hasan</h6>
+                                      <p class="x">General Secretary</p>
                                       <div class='row'>
                                         <div class="col-3">
-                                          <a href='https://www.facebook.com/rohan.sachan.5712' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                          <a href='https://www.facebook.com/profile.php?id=100075514444981' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='https://www.linkedin.com/in/rohan-sachan-/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                          <a href='https://www.linkedin.com/in/syed-ahmad-hasan/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='mailto:rohansachan8@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                          <a href='mailto:syedahmadhasan07@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='tel:+91-6389355293' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                          <a href='tel:+91-9423673760' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
                                         </div>
             
                                       </div>
@@ -105,24 +104,24 @@
                               <div class="col-12 col-sm-6 align-items-center">
                                 <div class="service-card">
                                   <div class="card">
-                                    <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
-                                    <img class="card-img-top" src="img\team2022\Abhisha.webp" height=300px; alt="Card image cap">
-                                    <!-- <h3>CODEPEN</h3> -->
+                                    
+                                    <img class="card-img-top" src="img\team2023\bhuvan.webp" height=300px; alt="Card image cap">
+                                    
                                     <div class="card-body">
-                                      <h6 class="x">Abhisha Shrivastava</h6>
-                                      <p class="x">(Coordinator, Networking)</p>
+                                      <h6 class="x">Bhuvan Jambhulkar</h6>
+                                      <p class="x">Coordinator, Sponsorship</p>
                                       <div class='row'>
                                         <div class="col-3">
-                                          <a href='https://www.facebook.com/abhishashrivastava3221/' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                          <a href='https://www.facebook.com/bhuvan.jambhulkar.3' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='https://www.linkedin.com/in/abhisha-shrivastava/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                          <a href='https://www.linkedin.com/in/bhuvan-jambhulkar/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='mailto:abhishashrivastava3221@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                          <a href='mailto:bhuvan0310.official@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='tel:+91-8827031589' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                          <a href='tel:+91-9561729840' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
                                         </div>
             
                                       </div>
@@ -133,24 +132,24 @@
                               <div class="col-12 col-sm-6 align-items-center">
                                 <div class="service-card">
                                   <div class="card">
-                                    <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
-                                    <img class="card-img-top" src="img\team2022\Athul.webp" height=300px; alt="Card image cap">
-                                    <!-- <h3>CODEPEN</h3> -->
+                                    
+                                    <img class="card-img-top" src="img\team2023\khyati.webp" height=300px; alt="Card image cap">
+                                    
                                     <div class="card-body">
-                                      <h6 class="x">Athul P M</h6>
-                                      <p class="x">(Coordinator, PR)</p>
+                                      <h6 class="x">Khyati Gupta</h6>
+                                      <p class="x">Coordinator, Sponsorship</p>
                                       <div class='row'>
                                         <div class="col-3">
-                                          <a href='https://www.facebook.com/athul.pm.7' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                          <a href='https://www.facebook.com/profile.php?id=100075525097218&mibextid=ZbWKwL' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='https://www.linkedin.com/in/athulpm/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                          <a href='https://www.linkedin.com/in/khyati--gupta' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='mailto:athulpm645@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                          <a href='mailto:guptakhyati75@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='tel:+91-9605163171' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                          <a href='tel:+91-8239632851' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
                                         </div>
             
                                       </div>
@@ -164,24 +163,24 @@
                               <div class="col-12 col-sm-6 align-items-center">
                                 <div class="service-card">
                                   <div class="card">
-                                    <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
-                                    <img class="card-img-top" src="img\team2022\Ashish.png" height=300px; alt="Card image cap" style="object-position: left;">
-                                    <!-- <h3>CODEPEN</h3> -->
+                                    
+                                    <img class="card-img-top" src="img\team2023\muskan.webp" height=300px; alt="Card image cap" style="object-position: left;">
+                                    
                                     <div class="card-body">
-                                      <h6 class="x">Ashish Kumar Shah</h6>
-                                      <p class="x">(Coordinator, Yearbook & Class Song)</p>
+                                      <h6 class="x">Muskan Turaha</h6>
+                                      <p class="x">Coordinator, Networking and PR</p>
                                       <div class='row'>
                                         <div class="col-3">
-                                          <a href='https://www.facebook.com/ashish.shah090' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                          <a href='https://www.facebook.com/profile.php?id=100075296058773&mibextid=ZbWKwL' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='https://www.linkedin.com/in/ashish-kumar-shah/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                          <a href='https://www.linkedin.com/in/muskan-turaha' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='mailto:ashishshah0900@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                          <a href='mailto:turahamuskan1234@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='tel:+91-8630679428' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                          <a href='tel:+91-9368271624' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
                                         </div>
             
                                       </div>
@@ -192,24 +191,24 @@
                               <div class="col-12 col-sm-6 align-items-center">
                                 <div class="service-card">
                                   <div class="card">
-                                    <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
-                                    <img class="card-img-top" src="img\team2022\Anurakt.webp" height=300px; alt="Card image cap">
-                                    <!-- <h3>CODEPEN</h3> -->
+                                    
+                                    <img class="card-img-top" src="img\team2023\vivek.webp" height=300px; alt="Card image cap">
+                                    
                                     <div class="card-body">
-                                      <h6 class="x">Anurakt Kumar</h6>
-                                      <p class="x">(Coordinator, Sponsorship)</p>
+                                      <h6 class="x">Vivek Unadkat</h6>
+                                      <p class="x">Coordinator, PR and Sponsorship</p>
                                       <div class='row'>
                                         <div class="col-3">
-                                          <a href='https://www.facebook.com/anurakt.kumar.756/' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                          <a href='https://www.facebook.com/vivek.unadkat.106' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='https://www.linkedin.com/in/anurakt-kumar/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                          <a href='https://www.linkedin.com/in/vivek-unadkat/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='mailto:anurakt2002@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                          <a href='mailto:vivekunadkat5@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='tel:+91-8804901402' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                          <a href='tel:+91-7038035355' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
                                         </div>
             
                                       </div>
@@ -223,24 +222,24 @@
                               <div class="col-12 col-sm-6 align-items-center">
                                 <div class="service-card">
                                   <div class="card">
-                                    <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
-                                    <img class="card-img-top" src="img\team2022\Monish.webp" height=300px; alt="Card image cap">
-                                    <!-- <h3>CODEPEN</h3> -->
+                                    
+                                    <img class="card-img-top" src="img\team2023\debayan.webp" height=300px; alt="Card image cap">
+                                    
                                     <div class="card-body">
-                                      <h6 class="x">Monish Pappula</h6>
-                                      <p class="x">(Coordinator, Sponsorship)</p>
+                                      <h6 class="x">Debayan Biswas</h6>
+                                      <p class="x">Web Head</p>
                                       <div class='row'>
                                         <div class="col-3">
-                                          <a href='https://www.facebook.com/monish.p.3726' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                          <a href='https://www.facebook.com/debayan.biswas.9638' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='https://www.linkedin.com/in/monish-pappula//' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                          <a href='https://www.linkedin.com/in/debayan-biswas/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='mailto:monishpappula@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                          <a href='mailto:debayanbiswas1111@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='tel:+91-7995744439' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                          <a href='tel:+91-9330683833' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
                                         </div>
             
                                       </div>
@@ -251,24 +250,24 @@
                               <div class="col-12 col-sm-6 align-items-center">
                                 <div class="service-card">
                                   <div class="card">
-                                    <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
-                                    <img class="card-img-top" src="img\team2022\Shreyansh.jpg" height=300px; alt="Card image cap">
-                                    <!-- <h3>CODEPEN</h3> -->
+                                    
+                                    <img class="card-img-top" src="img\team2023\puspendra.webp" height=300px; alt="Card image cap">
+                                    
                                     <div class="card-body">
-                                      <h6 class="x">Shreyansh Jha</h6>
-                                      <p class="x">(Coordinator, Sponsorship)</p>
+                                      <h6 class="x">Puspendra Kumar</h6>
+                                      <p class="x">Web Head</p>
                                       <div class='row'>
                                         <div class="col-3">
-                                          <a href='https://www.facebook.com/jhashreyansh' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                          <a href='https://www.facebook.com/profile.php?id=100075203721913' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='https://www.linkedin.com/in/shreyansh-jha/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                          <a href='https://www.linkedin.com/in/puspendra-kumar/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='mailto:shreyanshjha52@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                          <a href='mailto:pushpukumar77@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='tel:+91-9636777987' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                          <a href='tel:+91-8448677848' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
                                         </div>
             
                                       </div>
@@ -281,24 +280,24 @@
                               <div class="col-12 col-sm-6 align-items-center">
                                 <div class="service-card">
                                   <div class="card">
-                                    <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
-                                    <img class="card-img-top" src="img\team2022\Anjani.webp" height=300px; alt="Card image cap">
-                                    <!-- <h3>CODEPEN</h3> -->
+                                    
+                                    <img class="card-img-top" src="img\team2023\tushar.webp" height=300px; alt="Card image cap">
+                                    
                                     <div class="card-body">
-                                      <h6 class="x">Anjani Kumar</h6>
-                                      <p class="x">(Web Head)</p>
+                                      <h6 class="x">Tushar Mondal</h6>
+                                      <p class="x">Public Relations Head (Design)</p>
                                       <div class='row'>
                                         <div class="col-3">
-                                          <a href='https://www.facebook.com/anjani.kumar.26' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                          <a href='https://www.facebook.com/cristiano.tushar.9/' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='https://www.linkedin.com/in/anjani-kumar-/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                          <a href='https://www.linkedin.com/in/tushar-mondal/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='mailto:anjaniit23@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                          <a href='mailto:tusharmondal192@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='tel:+91-8968628246' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                          <a href='tel:+91-8597543528' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
                                         </div>
             
                                       </div>
@@ -309,24 +308,24 @@
                               <div class="col-12 col-sm-6 align-items-center">
                                 <div class="service-card">
                                   <div class="card">
-                                    <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
-                                    <img class="card-img-top" src="img\team2022\Kajol.webp" height=300px; alt="Card image cap">
-                                    <!-- <h3>CODEPEN</h3> -->
+                                    
+                                    <img class="card-img-top" src="img\team2023\zeeshan.webp" height=300px; alt="Card image cap">
+                                    
                                     <div class="card-body">
-                                      <h6 class="x">Kajol Sahu</h6>
-                                      <p class="x">(Web Head)</p>
+                                      <h6 class="x">Syed Zeeshan Razvi</h6>
+                                      <p class="x">Public Relations Head (Design)</p>
                                       <div class='row'>
                                         <div class="col-3">
-                                          <a href='https://www.facebook.com/puravi.sahu.9' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                          <a href='https://www.facebook.com/profile.php?id=100075305655459&mibextid=ZbWKwL' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='https://www.linkedin.com/in/kajol-sahu/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                          <a href='https://www.linkedin.com/in/syed-zeeshan-razvi-' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='mailto:kajolsahu238@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                          <a href='mailto:xeeshan1221@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
                                         </div>
                                         <div class="col-3">
-                                          <a href='tel:+91-9479940899' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                          <a href='tel:+91-9541682757' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
                                         </div>
             
                                       </div>
@@ -335,13 +334,13 @@
                                 </div>
                               </div>
                             </div>
-                            <div class="row justify-content-center">
+                            <!-- <div class="row justify-content-center">
                               <div class="col-12 col-sm-6 col-6">
                                 <div class="service-card">
                                   <div class="card">
-                                    <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
+                                    
                                     <img class="card-img-top" src="img\team2022\Aditi.webp" height=300px; alt="Card image cap" >
-                                    <!-- <h3>CODEPEN</h3> -->
+                                    
                                     <div class="card-body">
                                       <h6 class="x">Aditi Pasi</h6>
                                       <p class="x">(Public Relations Head, Design)</p>
@@ -367,12 +366,422 @@
                               <div class="col-12 col-sm-6 col-6">
                                 <div class="service-card">
                                   <div class="card">
-                                    <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
+                                    
                                     <img class="card-img-top" src="img\team2022\Chesta.jpg" height=300px; alt="Card image cap">
-                                    <!-- <h3>CODEPEN</h3> -->
+                                    
                                     <div class="card-body">
                                       <h6 class="x">Chesta Srivastava</h6>
                                       <p class="x">(Public Relations Head, Design)</p>
+                                      <div class='row'>
+                                        <div class="col-3">
+                                          <a href='https://www.facebook.com/chesta.srivastava16' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                        </div>
+                                        <div class="col-3">
+                                          <a href='https://www.linkedin.com/in/chesta-srivastava/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                        </div>
+                                        <div class="col-3">
+                                          <a href='mailto:ksirvastava559@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                        </div>
+                                        <div class="col-3">
+                                          <a href='tel:+91-9336977405' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                        </div>
+            
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div> -->
+                            <div class="row">
+                              <div class="col-sm-3 align-items-center">
+                              </div>
+            
+                              <div class="col-12 col-sm-6 col-6">
+                                <div class="service-card last-card">
+                                  <div class="card ">
+                                    
+                                    <img class="card-img-top" src="img\team2023\ananya.webp" height=300px; alt="Card image cap">
+                                    
+                                    <div class="card-body">
+                                      <h6 class="x">Ananya Singh</h6>
+                                      <p class="x">Public Relations Head (Videography)</p>
+                                      <div class='row'>
+                                        <div class="col-3">
+                                          <a href='https://www.facebook.com/profile.php?id=100075497561359&mibextid=ZbWKwL' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                        </div>
+                                        <div class="col-3">
+                                          <a href='https://www.linkedin.com/in/ananya---singh-' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                        </div>
+                                        <div class="col-3">
+                                          <a href='mailto:ananya.iitkgp21@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                        </div>
+                                        <div class="col-3">
+                                          <a href='tel:+91-9285433888' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                        </div>
+            
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-sm-3 align-items-center">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                </section>  
+            </div>
+          </div>
+        </div>
+
+  
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+               Head Team 2022
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse " aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <section class="section-2">
+                    <div class="container text-center">
+                      <div class="row">
+                        <div class="col-md-12 col-12">
+                          <div class="panel text-center">                           
+                            <br>
+                            <div class="row">
+                              <div class="col-12 col-sm-6 align-items-center">
+                                <div class="service-card">
+                                  <div class="card">
+                                    
+                                    <img class="card-img-top" src="img\team2022\Prerit.webp" height=300px; alt="Card image cap">
+                                    
+                                    <div class="card-body">
+                                      <h6 class="x">Prerit Goyal</h6>
+                                      <p class="x">(Former General Secretary)</p>
+                                      <div class='row'>
+                                        <div class="col-3">
+                                          <a href='https://www.facebook.com/prerit.goyal.3' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                        </div>
+                                        <div class="col-3">
+                                          <a href='https://www.linkedin.com/in/prerit-goyal/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                        </div>
+                                        <div class="col-3">
+                                          <a href='mailto:preritgoyal0203@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                        </div>
+                                        <div class="col-3">
+                                          <a href='tel:+91-8989020473' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                        </div>
+            
+                                      </div>
+            
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-12 col-sm-6 align-items-center">
+                                <div class="service-card">
+                                  <div class="card">
+                                    
+                                    <img class="card-img-top" src="img\team2022\Rohan.webp" height=300px; alt="Card image cap">
+                                    
+                                    <div class="card-body">
+                                      <h6 class="x">Rohan Sachan</h6>
+                                      <p class="x">(Former General Secretary)</p>
+                                      <div class='row'>
+                                        <div class="col-3">
+                                          <a href='https://www.facebook.com/rohan.sachan.5712' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                        </div>
+                                        <div class="col-3">
+                                          <a href='https://www.linkedin.com/in/rohan-sachan-/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                        </div>
+                                        <div class="col-3">
+                                          <a href='mailto:rohansachan8@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                        </div>
+                                        <div class="col-3">
+                                          <a href='tel:+91-6389355293' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                        </div>
+            
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-12 col-sm-6 align-items-center">
+                                <div class="service-card">
+                                  <div class="card">
+                                    
+                                    <img class="card-img-top" src="img\team2022\Abhisha.webp" height=300px; alt="Card image cap">
+                                    
+                                    <div class="card-body">
+                                      <h6 class="x">Abhisha Shrivastava</h6>
+                                      <p class="x">(Former Coordinator, Networking)</p>
+                                      <div class='row'>
+                                        <div class="col-3">
+                                          <a href='https://www.facebook.com/abhishashrivastava3221/' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                        </div>
+                                        <div class="col-3">
+                                          <a href='https://www.linkedin.com/in/abhisha-shrivastava/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                        </div>
+                                        <div class="col-3">
+                                          <a href='mailto:abhishashrivastava3221@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                        </div>
+                                        <div class="col-3">
+                                          <a href='tel:+91-8827031589' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                        </div>
+            
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-12 col-sm-6 align-items-center">
+                                <div class="service-card">
+                                  <div class="card">
+                                    
+                                    <img class="card-img-top" src="img\team2022\Athul.webp" height=300px; alt="Card image cap">
+                                    
+                                    <div class="card-body">
+                                      <h6 class="x">Athul P M</h6>
+                                      <p class="x">(Former Coordinator, PR)</p>
+                                      <div class='row'>
+                                        <div class="col-3">
+                                          <a href='https://www.facebook.com/athul.pm.7' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                        </div>
+                                        <div class="col-3">
+                                          <a href='https://www.linkedin.com/in/athulpm/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                        </div>
+                                        <div class="col-3">
+                                          <a href='mailto:athulpm645@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                        </div>
+                                        <div class="col-3">
+                                          <a href='tel:+91-9605163171' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                        </div>
+            
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              
+                            </div>
+                            <div class="row">
+                              <div class="col-12 col-sm-6 align-items-center">
+                                <div class="service-card">
+                                  <div class="card">
+                                    
+                                    <img class="card-img-top" src="img\team2022\Ashish.png" height=300px; alt="Card image cap" style="object-position: left;">
+                                    
+                                    <div class="card-body">
+                                      <h6 class="x">Ashish Kumar Shah</h6>
+                                      <p class="x">(Former Coordinator, Yearbook & Class Song)</p>
+                                      <div class='row'>
+                                        <div class="col-3">
+                                          <a href='https://www.facebook.com/ashish.shah090' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                        </div>
+                                        <div class="col-3">
+                                          <a href='https://www.linkedin.com/in/ashish-kumar-shah/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                        </div>
+                                        <div class="col-3">
+                                          <a href='mailto:ashishshah0900@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                        </div>
+                                        <div class="col-3">
+                                          <a href='tel:+91-8630679428' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                        </div>
+            
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-12 col-sm-6 align-items-center">
+                                <div class="service-card">
+                                  <div class="card">
+                                    
+                                    <img class="card-img-top" src="img\team2022\Anurakt.webp" height=300px; alt="Card image cap">
+                                    
+                                    <div class="card-body">
+                                      <h6 class="x">Anurakt Kumar</h6>
+                                      <p class="x">(Former Coordinator, Sponsorship)</p>
+                                      <div class='row'>
+                                        <div class="col-3">
+                                          <a href='https://www.facebook.com/anurakt.kumar.756/' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                        </div>
+                                        <div class="col-3">
+                                          <a href='https://www.linkedin.com/in/anurakt-kumar/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                        </div>
+                                        <div class="col-3">
+                                          <a href='mailto:anurakt2002@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                        </div>
+                                        <div class="col-3">
+                                          <a href='tel:+91-8804901402' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                        </div>
+            
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              
+                            </div>
+                            <div class="row">
+                              <div class="col-12 col-sm-6 align-items-center">
+                                <div class="service-card">
+                                  <div class="card">
+                                    
+                                    <img class="card-img-top" src="img\team2022\Monish.webp" height=300px; alt="Card image cap">
+                                    
+                                    <div class="card-body">
+                                      <h6 class="x">Monish Pappula</h6>
+                                      <p class="x">(Former Coordinator, Sponsorship)</p>
+                                      <div class='row'>
+                                        <div class="col-3">
+                                          <a href='https://www.facebook.com/monish.p.3726' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                        </div>
+                                        <div class="col-3">
+                                          <a href='https://www.linkedin.com/in/monish-pappula//' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                        </div>
+                                        <div class="col-3">
+                                          <a href='mailto:monishpappula@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                        </div>
+                                        <div class="col-3">
+                                          <a href='tel:+91-7995744439' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                        </div>
+            
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-12 col-sm-6 align-items-center">
+                                <div class="service-card">
+                                  <div class="card">
+                                    
+                                    <img class="card-img-top" src="img\team2022\Shreyansh.jpg" height=300px; alt="Card image cap">
+                                    
+                                    <div class="card-body">
+                                      <h6 class="x">Shreyansh Jha</h6>
+                                      <p class="x">(Former Coordinator, Sponsorship)</p>
+                                      <div class='row'>
+                                        <div class="col-3">
+                                          <a href='https://www.facebook.com/jhashreyansh' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                        </div>
+                                        <div class="col-3">
+                                          <a href='https://www.linkedin.com/in/shreyansh-jha/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                        </div>
+                                        <div class="col-3">
+                                          <a href='mailto:shreyanshjha52@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                        </div>
+                                        <div class="col-3">
+                                          <a href='tel:+91-9636777987' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                        </div>
+            
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row">
+                              <div class="col-12 col-sm-6 align-items-center">
+                                <div class="service-card">
+                                  <div class="card">
+                                    
+                                    <img class="card-img-top" src="img\team2022\Anjani.webp" height=300px; alt="Card image cap">
+                                    
+                                    <div class="card-body">
+                                      <h6 class="x">Anjani Kumar</h6>
+                                      <p class="x">(Former Web Head)</p>
+                                      <div class='row'>
+                                        <div class="col-3">
+                                          <a href='https://www.facebook.com/anjani.kumar.26' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                        </div>
+                                        <div class="col-3">
+                                          <a href='https://www.linkedin.com/in/anjani-kumar-/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                        </div>
+                                        <div class="col-3">
+                                          <a href='mailto:anjaniit23@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                        </div>
+                                        <div class="col-3">
+                                          <a href='tel:+91-8968628246' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                        </div>
+            
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-12 col-sm-6 align-items-center">
+                                <div class="service-card">
+                                  <div class="card">
+                                    
+                                    <img class="card-img-top" src="img\team2022\Kajol.webp" height=300px; alt="Card image cap">
+                                    
+                                    <div class="card-body">
+                                      <h6 class="x">Kajol Sahu</h6>
+                                      <p class="x">(Former Web Head)</p>
+                                      <div class='row'>
+                                        <div class="col-3">
+                                          <a href='https://www.facebook.com/puravi.sahu.9' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                        </div>
+                                        <div class="col-3">
+                                          <a href='https://www.linkedin.com/in/kajol-sahu/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                        </div>
+                                        <div class="col-3">
+                                          <a href='mailto:kajolsahu238@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                        </div>
+                                        <div class="col-3">
+                                          <a href='tel:+91-9479940899' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                        </div>
+            
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="row justify-content-center">
+                              <div class="col-12 col-sm-6 col-6">
+                                <div class="service-card">
+                                  <div class="card">
+                                    
+                                    <img class="card-img-top" src="img\team2022\Aditi.webp" height=300px; alt="Card image cap" >
+                                    
+                                    <div class="card-body">
+                                      <h6 class="x">Aditi Pasi</h6>
+                                      <p class="x">(Former Public Relations Head, Design)</p>
+                                      <div class='row'>
+                                        <div class="col-3">
+                                          <a href='https://www.facebook.com/aditi.pasi.73' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                        </div>
+                                        <div class="col-3">
+                                          <a href='https://www.linkedin.com/in/aditi-pasi/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                        </div>
+                                        <div class="col-3">
+                                          <a href='mailto:aditipasi03102001@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                        </div>
+                                        <div class="col-3">
+                                          <a href='tel:+91-8839335663' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                        </div>
+            
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-12 col-sm-6 col-6">
+                                <div class="service-card">
+                                  <div class="card">
+                                    
+                                    <img class="card-img-top" src="img\team2022\Chesta.jpg" height=300px; alt="Card image cap">
+                                    
+                                    <div class="card-body">
+                                      <h6 class="x">Chesta Srivastava</h6>
+                                      <p class="x">(Former Public Relations Head, Design)</p>
                                       <div class='row'>
                                         <div class="col-3">
                                           <a href='https://www.facebook.com/chesta.srivastava16' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
@@ -400,12 +809,12 @@
                               <div class="col-12 col-sm-6 col-6">
                                 <div class="service-card last-card">
                                   <div class="card ">
-                                    <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
+                                    
                                     <img class="card-img-top" src="img\team2022\Gourav.webp" height=300px; alt="Card image cap">
-                                    <!-- <h3>CODEPEN</h3> -->
+                                    
                                     <div class="card-body">
                                       <h6 class="x">Gourav Parashar</h6>
-                                      <p class="x">(Public Relations Head, Videography)</p>
+                                      <p class="x">(Former Public Relations Head, Videography)</p>
                                       <div class='row'>
                                         <div class="col-3">
                                           <a href='https://www.facebook.com/goo.para.5' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
@@ -435,14 +844,13 @@
                 </section>  
             </div>
           </div>
-        </div>
         <div class="accordion-item">
-          <h2 class="accordion-header" id="headingTwo">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                Head Team 2021
             </button>
           </h2>
-            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                     <section class="section-2">
                         <div class="container text-center">
@@ -454,9 +862,9 @@
                                 <div class="col-12 col-sm-6 align-items-center">
                                     <div class="service-card">
                                     <div class="card">
-                                        <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
+                                        
                                         <img class="card-img-top" src="img\team2021\Tarun.webp" height=300px; alt="Card image cap">
-                                        <!-- <h3>CODEPEN</h3> -->
+                                        
                                         <div class="card-body">
                                         <h6 class="x">Tarun Majety</h6>
                                         <p class="x">(Former General Secretary)</p>
@@ -483,9 +891,9 @@
                                 <div class="col-12 col-sm-6 align-items-center">
                                     <div class="service-card">
                                     <div class="card">
-                                        <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
+                                        
                                         <img class="card-img-top" src="img\team2021\Vikas.webp" height=300px; alt="Card image cap">
-                                        <!-- <h3>CODEPEN</h3> -->
+                                        
                                         <div class="card-body">
                                         <h6 class="x">Vikas Ahlawat</h6>
                                         <p class="x">(Former General Secretary)</p>
@@ -513,9 +921,9 @@
                                 <div class="col-12 col-sm-6 align-items-center">
                                     <div class="service-card">
                                     <div class="card">
-                                        <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
+                                        
                                         <img class="card-img-top" src="img\team2021\Satyam.webp" height=300px; alt="Card image cap">
-                                        <!-- <h3>CODEPEN</h3> -->
+                                        
                                         <div class="card-body">
                                         <h6 class="x">Satyam Jha</h6>
                                         <p class="x">(Fomer Coordinator)</p>
@@ -541,9 +949,9 @@
                                 <div class="col-12 col-sm-6 align-items-center">
                                     <div class="service-card">
                                     <div class="card">
-                                        <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
+                                        
                                         <img class="card-img-top" src="img\team2021\Shikha.webp" height=300px; alt="Card image cap">
-                                        <!-- <h3>CODEPEN</h3> -->
+                                        
                                         <div class="card-body">
                                         <h6 class="x">Shikha Bagaria</h6>
                                         <p class="x">(Former Coordinator)</p>
@@ -572,9 +980,9 @@
                                 <div class="col-12 col-sm-6 align-items-center">
                                     <div class="service-card">
                                     <div class="card">
-                                        <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
+                                        
                                         <img class="card-img-top" src="img\team2021\Namya.webp" height=300px; alt="Card image cap" style="object-position: left;">
-                                        <!-- <h3>CODEPEN</h3> -->
+                                        
                                         <div class="card-body">
                                         <h6 class="x">Namya Swarnker</h6>
                                         <p class="x">(Former Coordinator)</p>
@@ -600,9 +1008,9 @@
                                 <div class="col-12 col-sm-6 align-items-center">
                                     <div class="service-card">
                                     <div class="card">
-                                        <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
+                                        
                                         <img class="card-img-top" src="img\team2021\Brahmjot.webp" height=300px; alt="Card image cap">
-                                        <!-- <h3>CODEPEN</h3> -->
+                                        
                                         <div class="card-body">
                                         <h6 class="x">Brahmjot Singh</h6>
                                         <p class="x">(Former Coordinator)</p>
@@ -631,9 +1039,9 @@
                                 <div class="col-12 col-sm-6 align-items-center">
                                     <div class="service-card">
                                     <div class="card">
-                                        <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
+                                        
                                         <img class="card-img-top" src="img\team2021\Aryan.webp" height=300px; alt="Card image cap">
-                                        <!-- <h3>CODEPEN</h3> -->
+                                        
                                         <div class="card-body">
                                         <h6 class="x">Aryan Raj Lohani</h6>
                                         <p class="x">(Former Web Head)</p>
@@ -659,9 +1067,9 @@
                                 <div class="col-12 col-sm-6 align-items-center">
                                     <div class="service-card">
                                     <div class="card">
-                                        <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
+                                        
                                         <img class="card-img-top" src="img\team2021\Tanwir.webp" height=300px; alt="Card image cap">
-                                        <!-- <h3>CODEPEN</h3> -->
+                                        
                                         <div class="card-body">
                                         <h6 class="x">Tanwir Singh</h6>
                                         <p class="x">(Former Web Head)</p>
@@ -689,9 +1097,9 @@
                                 <div class="col-12 col-sm-6 align-items-center">
                                     <div class="service-card">
                                     <div class="card">
-                                        <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
+                                        
                                         <img class="card-img-top" src="img\team2021\Sumanth.webp" height=300px; alt="Card image cap">
-                                        <!-- <h3>CODEPEN</h3> -->
+                                        
                                         <div class="card-body">
                                         <h6 class="x">D Sumanth</h6>
                                         <p class="x">(Former PR Head)</p>
@@ -717,9 +1125,9 @@
                                 <div class="col-12 col-sm-6 align-items-center">
                                     <div class="service-card">
                                     <div class="card">
-                                        <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
+                                        
                                         <img class="card-img-top" src="img\team2021\Viraj.webp" height=300px; alt="Card image cap">
-                                        <!-- <h3>CODEPEN</h3> -->
+                                        
                                         <div class="card-body">
                                         <h6 class="x">Viraj Madke</h6>
                                         <p class="x">(Former PR Head)</p>
@@ -752,12 +1160,12 @@
             </div>
         </div>
         <div class="accordion-item">
-          <h2 class="accordion-header" id="headingThree">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          <h2 class="accordion-header" id="headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                Head Team 2020
             </button>
           </h2>
-          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
             <div class="accordion-body">
                 <section class="section-2">
                     <div class="container text-center">
@@ -769,9 +1177,9 @@
                               <div class="col-12 col-sm-6 align-items-center">
                                 <div class="service-card">
                                   <div class="card">
-                                    <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
+                                    
                                     <img class="card-img-top" src="img\team2020\jena.jpg" height=300px; alt="Card image cap">
-                                    <!-- <h3>CODEPEN</h3> -->
+                                    
                                     <div class="card-body">
                                       <h6 class="x">Subhadra Jena</h6>
                                       <p class="x">(Former General Secretary)</p>
@@ -798,9 +1206,9 @@
                               <div class="col-12 col-sm-6 align-items-center">
                                 <div class="service-card">
                                   <div class="card">
-                                    <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
+                                    
                                     <img class="card-img-top" src="img\team2020\akash.png" height=300px; alt="Card image cap">
-                                    <!-- <h3>CODEPEN</h3> -->
+                                    
                                     <div class="card-body">
                                       <h6 class="x">Akash Srivastava</h6>
                                       <p class="x">(Former General Secretary)</p>
@@ -828,9 +1236,9 @@
                               <div class="col-12 col-sm-6 align-items-center">
                                 <div class="service-card">
                                   <div class="card">
-                                    <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
+                                    
                                     <img class="card-img-top" src="img\team2020\mayank.jpg" height=300px; alt="Card image cap">
-                                    <!-- <h3>CODEPEN</h3> -->
+                                    
                                     <div class="card-body">
                                       <h6 class="x">Mayank Arora</h6>
                                       <p class="x">(Former Coordinator)</p>
@@ -856,9 +1264,9 @@
                               <div class="col-12 col-sm-6 align-items-center">
                                 <div class="service-card">
                                   <div class="card">
-                                    <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
+                                    
                                     <img class="card-img-top" src="img\team2020\nitika.jpg" height=300px; alt="Card image cap">
-                                    <!-- <h3>CODEPEN</h3> -->
+                                    
                                     <div class="card-body">
                                       <h6 class="x">Nitika Shrof</h6>
                                       <p class="x">(Former Coordinator)</p>
@@ -887,9 +1295,9 @@
                               <div class="col-12 col-sm-6 align-items-center">
                                 <div class="service-card">
                                   <div class="card">
-                                    <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
+                                    
                                     <img class="card-img-top" src="img\team2020\sanjay.jpg" height=300px; alt="Card image cap" style="object-position: left;">
-                                    <!-- <h3>CODEPEN</h3> -->
+                                    
                                     <div class="card-body">
                                       <h6 class="x">Sanjay Motwani</h6>
                                       <p class="x">(Former Coordinator)</p>
@@ -915,9 +1323,9 @@
                               <div class="col-12 col-sm-6 align-items-center">
                                 <div class="service-card">
                                   <div class="card">
-                                    <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
+                                    
                                     <img class="card-img-top" src="img\team2020\vishav_.jpg" height=300px; alt="Card image cap">
-                                    <!-- <h3>CODEPEN</h3> -->
+                                    
                                     <div class="card-body">
                                       <h6 class="x">Visahw Kashyap</h6>
                                       <p class="x">(Former Coordinator)</p>
@@ -946,9 +1354,9 @@
                               <div class="col-12 col-sm-6 align-items-center">
                                 <div class="service-card">
                                   <div class="card">
-                                    <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
+                                    
                                     <img class="card-img-top" src="img\team2020\anuja.jpg" height=300px; alt="Card image cap">
-                                    <!-- <h3>CODEPEN</h3> -->
+                                    
                                     <div class="card-body">
                                       <h6 class="x">Anuja Raj Verma</h6>
                                       <p class="x">(Former Web Head)</p>
@@ -974,9 +1382,9 @@
                               <div class="col-12 col-sm-6 align-items-center">
                                 <div class="service-card">
                                   <div class="card">
-                                    <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
+                                    
                                     <img class="card-img-top" src="img\team2020\yukta.png" height=300px; alt="Card image cap">
-                                    <!-- <h3>CODEPEN</h3> -->
+                                    
                                     <div class="card-body">
                                       <h6 class="x">Yukta Bagdi</h6>
                                       <p class="x">(Former Coordinator)</p>
@@ -1004,9 +1412,9 @@
                               <div class="col-12 col-sm-6 align-items-center">
                                 <div class="service-card">
                                   <div class="card">
-                                    <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
+                                    
                                     <img class="card-img-top" src="img\team2020\prasang.jpg" height=300px; alt="Card image cap">
-                                    <!-- <h3>CODEPEN</h3> -->
+                                    
                                     <div class="card-body">
                                       <h6 class="x">Prasang Kumar</h6>
                                       <p class="x">(Former PR Head)</p>
@@ -1032,9 +1440,9 @@
                               <div class="col-12 col-sm-6 align-items-center">
                                 <div class="service-card">
                                   <div class="card">
-                                    <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
+                                    
                                     <img class="card-img-top" src="img\team2020\ritish.png" height=300px; alt="Card image cap">
-                                    <!-- <h3>CODEPEN</h3> -->
+                                    
                                     <div class="card-body">
                                       <h6 class="x">Ritish Dutt</h6>
                                       <p class="x">(Former PR Head)</p>
@@ -1062,9 +1470,9 @@
                               <div class="col-12 col-sm-6 col-6">
                                 <div class="service-card">
                                   <div class="card">
-                                    <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
+                                    
                                     <img class="card-img-top" src="img\team2020\nischay.jpg" height=300px; alt="Card image cap" >
-                                    <!-- <h3>CODEPEN</h3> -->
+                                    
                                     <div class="card-body">
                                       <h6 class="x">Nischay Gothwal</h6>
                                       <p class="x">(Former PR Head)</p>
@@ -1098,7 +1506,7 @@
         </div>
       
 
-      <div class="accordion-item">
+      <!-- <div class="accordion-item">
         <h2 class="accordion-header" id="headingFour">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
              Head Team 2019
@@ -1115,9 +1523,9 @@
                           <div class="col-12 col-sm-6 align-items-center">
                             <div class="service-card">
                               <div class="card">
-                                <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
+                                
                                 <img class="card-img-top" src="img\team\acellteam19\shishir.jpg" height=300px; alt="Card image cap">
-                                <!-- <h3>CODEPEN</h3> -->
+                                
                                 <div class="card-body">
                                   <h6 class="x">Shishir Shahi</h6>
                                   <p class="x">(Former General Secretary)</p>
@@ -1144,9 +1552,9 @@
                           <div class="col-12 col-sm-6 align-items-center">
                             <div class="service-card">
                               <div class="card">
-                                <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
+                                
                                 <img class="card-img-top" src="img\team\acellteam19\swaraj.jpg" height=300px; alt="Card image cap">
-                                <!-- <h3>CODEPEN</h3> -->
+                                
                                 <div class="card-body">
                                   <h6 class="x">Swaraj Prakash</h6>
                                   <p class="x">(Former General Secretary)</p>
@@ -1174,9 +1582,9 @@
                           <div class="col-12 col-sm-6 align-items-center">
                             <div class="service-card">
                               <div class="card">
-                                <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
+                                
                                 <img class="card-img-top" src="img\team\acellteam19\avi.jpg" height=300px; alt="Card image cap">
-                                <!-- <h3>CODEPEN</h3> -->
+                                
                                 <div class="card-body">
                                   <h6 class="x">Avi Singh Raghuwanshi</h6>
                                   <p class="x">(Former Coordinator)</p>
@@ -1202,9 +1610,9 @@
                           <div class="col-12 col-sm-6 align-items-center">
                             <div class="service-card">
                               <div class="card">
-                                <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
+                                
                                 <img class="card-img-top" src="img\team\acellteam19\atharva.jpg" height=300px; alt="Card image cap">
-                                <!-- <h3>CODEPEN</h3> -->
+                                
                                 <div class="card-body">
                                   <h6 class="x">Atharva Wagle</h6>
                                   <p class="x">(Former Coordinator)</p>
@@ -1233,9 +1641,9 @@
                           <div class="col-12 col-sm-6 align-items-center">
                             <div class="service-card">
                               <div class="card">
-                                <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
+                                
                                 <img class="card-img-top" src="img\team\acellteam19\eknoor.jpg" height=300px; alt="Card image cap" style="object-position: left;">
-                                <!-- <h3>CODEPEN</h3> -->
+                                
                                 <div class="card-body">
                                   <h6 class="x">Eknoor Malhotra</h6>
                                   <p class="x">(Former Coordinator)</p>
@@ -1261,9 +1669,9 @@
                           <div class="col-12 col-sm-6 align-items-center">
                             <div class="service-card">
                               <div class="card">
-                                <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
+                                
                                 <img class="card-img-top" src="img\team\acellteam19\madhumita.jpg" height=300px; alt="Card image cap">
-                                <!-- <h3>CODEPEN</h3> -->
+                                
                                 <div class="card-body">
                                   <h6 class="x">Madhumita Paul</h6>
                                   <p class="x">(Former Coordinator)</p>
@@ -1292,9 +1700,9 @@
                           <div class="col-12 col-sm-6 align-items-center">
                             <div class="service-card">
                               <div class="card">
-                                <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
+                                
                                 <img class="card-img-top" src="img\team\acellteam19\ayush.jpg" height=300px; alt="Card image cap">
-                                <!-- <h3>CODEPEN</h3> -->
+                                
                                 <div class="card-body">
                                   <h6 class="x">Ayush Jain</h6>
                                   <p class="x">(Former Web Head)</p>
@@ -1320,9 +1728,9 @@
                           <div class="col-12 col-sm-6 align-items-center">
                             <div class="service-card">
                               <div class="card">
-                                <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
+                                
                                 <img class="card-img-top" src="img\team\acellteam19\kunal.jpg" height=300px; alt="Card image cap">
-                                <!-- <h3>CODEPEN</h3> -->
+                                
                                 <div class="card-body">
                                   <h6 class="x">Kunal Das </h6>
                                   <p class="x">(Former Web Head)</p>
@@ -1350,9 +1758,9 @@
                           <div class="col-12 col-sm-6 align-items-center">
                             <div class="service-card">
                               <div class="card">
-                                <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
+                                
                                 <img class="card-img-top" src="img\team\acellteam19\shubham.jpg" height=300px; alt="Card image cap">
-                                <!-- <h3>CODEPEN</h3> -->
+                                
                                 <div class="card-body">
                                   <h6 class="x">Shubham Kendre</h6>
                                   <p class="x">(Former PR Head)</p>
@@ -1378,9 +1786,9 @@
                           <div class="col-12 col-sm-6 align-items-center">
                             <div class="service-card">
                               <div class="card">
-                                <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
+                                
                                 <img class="card-img-top" src="img\team\acellteam19\tanmay.jpg" height=300px; alt="Card image cap">
-                                <!-- <h3>CODEPEN</h3> -->
+                                
                                 <div class="card-body">
                                   <h6 class="x">Tanmay Das</h6>
                                   <p class="x">(Former PR Head)</p>
@@ -1408,9 +1816,9 @@
                           <div class="col-12 col-sm-6 col-6">
                             <div class="service-card">
                               <div class="card">
-                                <!-- <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
+                                
                                 <img class="card-img-top" src="img\team\acellteam19\raman.jpg" height=300px; alt="Card image cap" >
-                                <!-- <h3>CODEPEN</h3> -->
+                                
                                 <div class="card-body">
                                   <h6 class="x">Raman Shaw</h6>
                                   <p class="x">(Former PR Head)</p>
@@ -1432,13 +1840,13 @@
                                 </div>
                               </div>
                             </div>
-                          </div>
+                          </div> -->
                           <!-- <div class="col-12 col-sm-6 col-6">
                             <div class="service-card">
                               <div class="card">
                                  <i class="fab fa-codepen" style='font-size:10rem;'></i> -->
                                  <!-- <img class="card-img-top" src="img\team\acellteam18\harsh.jpg" height=300px; alt="Card image cap"> -->
-                                <!-- <h3>CODEPEN</h3> -->
+                                
                                 <!-- <div class="card-body">
                                   <h6 class="x">Harsh Yadav</h6>
                                   <p class="x">(Former PR Head)</p>
@@ -1487,6 +1895,23 @@
             <br>
             <div class="row">
             <div div class="col-12 col-sm-4 former-team-text">
+            <h4>2019</h4>
+                <ul class='team'  style="list-style:none;padding-left: 0px;" >
+                  
+                  <li>Shishir Shahi</li>
+                  <li>Swaraj Prakash</li>
+                  <li>Avi Singh Raghuwanshi</li>
+                  <li>Atharva Wagle</li>
+                  <li>Eknoor Malhotra</li>
+                  <li>Madhumita Paul</li>
+                  <li>Ayush Jain</li>
+                  <li>Kunal Das</li>
+                  <li>Shubham Kendre</li>
+                  <li>Tanmay Das</li>
+                  <li>Raman Shaw</li>
+                </ul>
+              </div>
+              <div div class="col-12 col-sm-4 former-team-text">
             <h4>2018</h4>
                 <ul class='team'  style="list-style:none;padding-left: 0px;" >
                   <li>Gautam Arya</li>
@@ -1519,6 +1944,11 @@
                     <li>Aman Kumar Aggarwal</li>
                   </ul>
               </div>
+              
+              
+              
+</div>
+              <div class="row">
               <div class="col-12 col-sm-4 former-team-text">
               <h4>2016</h4>
                 <ul class='team' style="list-style:none;padding-left: 0px;">
@@ -1534,8 +1964,6 @@
                   <li>Utsav Agarwal</li>
                 </ul>
               </div>
-</div>
-              <div class="row">
               <div class="col-12 col-sm-4 former-team-text">
               <h4>2015</h4>
                 <ul class='team' style="list-style:none;padding-left: 0px;">
@@ -1568,6 +1996,9 @@
                     <li>Satyajit Kumar</li>
                   </ul>
               </div>
+              
+              </div>
+              <div class="row">
               <div class="col-12 col-sm-4 former-team-text">
               <h4>2013</h4>
                 <ul class='team' style="list-style:none;padding-left: 0px;">
@@ -1585,9 +2016,7 @@
                   <li>Uday Shankar Das</li>
                 </ul>
               </div>
-              </div>
-              <div class="row">
-              <div class="col-12 col-sm-3 former-team-text">
+              <div class="col-12 col-sm-4 former-team-text">
               <h4>2012</h4>
                 <ul class='team' style="list-style:none;padding-left: 0px;">
                   <li>Apoorv Jain</li>
@@ -1600,7 +2029,7 @@
                   <li>Tanya Mondal</li>
                 </ul>
               </div>
-              <div class="col-12 col-sm-3 former-team-text">
+              <div class="col-12 col-sm-4 former-team-text">
               <h4>2011</h4>
                   <ul class='team' style="list-style:none;padding-left: 0px;">
                     <li>Nikunj Mall</li>
@@ -1614,7 +2043,10 @@
                   </ul>
                 </div>
 
-              <div class="col-12 col-sm-3 former-team-text">
+              
+</div>
+  <div class="row">
+  <div class="col-12 col-sm-4 former-team-text">
               <h4>2010</h4>
                 <ul class='team'style="list-style:none;padding-left: 0px;">
                   <li>Drishti Guin </li>
@@ -1639,7 +2071,7 @@
                   <li>Digvijay Singh</li>
                 </ul>
               </div>
-</div>
+  </div>
 <!-- <div class="row">
               <div class="col-12 col-sm-3 former-team-text">
               <h4>2009</h4>
