@@ -271,7 +271,7 @@ input{
     <nav aria-label="breadcrumb">
       <a class="navbar-brand m-0" href="https://sac.iitkgp.ac.in/" target="_blank">
       <img src="./img/logo19.webp" class="navbar-brand-img " style = "width:80px; height: 80px" alt="main_logo">
-      <span class="ms-1" style = "font-weight: bold; color: #D81B60">19th Annual Alumni Meet</span>
+      <span class="ms-1" style = "font-weight: bold; color: #D81B60">20th Annual Alumni Meet</span>
     </a>
       
     </nav>
