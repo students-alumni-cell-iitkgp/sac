@@ -119,10 +119,10 @@ $database = 'aam';
           <div class="form-group mb-3 col-sm-6">
              <label for="gh">Guest House<span style="color:red;">*</span></label>
             <select class="form-control form-select" type = "list" id = "g" name= "gh" onchange="emp()" required>
-            <option selected value="NA">Not Available</option>
-            <!--<option selected value="select">---Select---</option>
+            <!-- <option selected value="NA">Available</option> -->
+            <option selected value="select">---Select---</option>
             <option value="TGH">Technology Guest House</option>
-            <option selected value="SAM">Sir Ashutosh Mukherjee Hall</option>-->
+            <option value="SAM">Sir Ashutosh Mukherjee Hall</option>
             </select>
           </div>
         </div>
