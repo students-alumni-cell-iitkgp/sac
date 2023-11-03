@@ -211,9 +211,9 @@
             Please contact with us to get help in booking rooms outside the campus.
             <br>
             <span style="color:darkgreen">
-            Athul PM            +91 8972033025
+            Syed Ahmad Hasan +91 9423673760
             <br>
-            Abhisha Shrivastava +91 8827031589 
+            Muskan Turaha +91 9368271624 
             </span>
            </p>
 
@@ -232,10 +232,10 @@
           <div class = "row" id = "gh" style = "justify-content:center">
           <div class="form-floating mb-3 col-sm-6">
             <select class="form-select" id = "g" name= "gh" aria-label="Floating label select example" onchange="emp()" required>
-            <option selected value="NA">Not Available</option>
-            <!--<option selected value="select">---Select---</option>
+            <!-- <option selected value="NA">Available</option> -->
+            <option selected value="select">---Select---</option>
             <option value="TGH">Technology Guest House</option>
-            <option selected value="SAM">Sir Ashutosh Mukherjee Hall</option>-->
+            <option value="SAM">Sir Ashutosh Mukherjee Hall</option>
             </select>
              <label for="gh">Guest House<span style="color:red;">*</span></label>
           </div>
