@@ -49,7 +49,7 @@
                                     <img class="card-img-top" src="img\team2023\aryan.webp" height=300px; alt="Card image cap">
                                     
                                     <div class="card-body">
-                                      <h6 class="x">Aryan Grag</h6>
+                                      <h6 class="x">Aryan Garg</h6>
                                       <p class="x">General Secretary</p>
                                       <div class='row'>
                                         <div class="col-3">
