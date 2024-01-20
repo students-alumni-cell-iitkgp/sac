@@ -492,6 +492,66 @@
 
                         </div>
 
+                        <div class="carousel-item">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-12 col-lg-4">
+                                        <div class="card" style="height: 100% !important;">
+                                            <img src="img/news&updates/Alumina.jpg" style="height: 300px;"
+                                                class="card-img-top">
+                                            <div class="card-body">
+                                                <h5 class="card-title">IIT Kharagpur develops cutting-edge technology to reduce Red Mud by Alumina refining</h5>
+                                                <p class="card-text">IIT Kharagpur and Vedanta Aluminium have developed a process to significantly reduce the generation of bauxite residue, commonly known as red mud, in the alumina refining process. The patented process...<br><br><button type="button" class="btn btn-outline-primary"><a
+                                                            href="https://kgpchronicle.iitkgp.ac.in/iit-kharagpur-develops-cutting-edge-technology-to-reduce-red-mud-by-alumina-refining/"
+                                                            target="_blank"
+                                                            style="color:white">More...</a></button></p>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-12 col-lg-4">
+                                        <div class="card" style="height: 100% !important;">
+                                            <img src="img/news&updates/grp_photo.jpg" style="height: 300px;"
+                                                class="card-img-top">
+                                            <div class="card-body">
+                                                <h5 class="card-title">'Our classes were held where freedom fighters were locked up,' says Narasimhan Venkatesan Patel, Alumnus of the First Batch at IIT KGP</h5>
+                                                <p class="card-text">Mr. Narasimhan Venkatesan Patel, Former Member of the Railway Board and an Electrical Engineering Alumnus (1951-55) of IIT Kharagpur, shares some interesting anecdotes about the faculty...<br><br><button type="button" class="btn btn-outline-primary"><a
+                                                            href="https://kgpchronicle.iitkgp.ac.in/our-classes-were-held-where-freedom-fighters-were-locked-up-says-narasimhan-venkatesan-patel-alumnus-of-the-first-batch-at-iit-kgp/"
+                                                            target="_blank"
+                                                            style="color:white">More...</a></button></p>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-12 col-lg-4">
+                                        <div class="card" style="height: 100% !important;">
+                                            <img src="img/news&updates/mou.jpg" style="height: 300px;"
+                                                class="card-img-top">
+                                            <div class="card-body">
+                                                <h5 class="card-title">IIT Kharagpur Signs MoU with Uneverse Mobilty, a Kolkata based Startup, for the Development & Commercialization of Sodium Ion Batteries in India</h5>
+                                                <p class="card-text">Indian Institute of Technology Kharagpur signed a Memorandum of Understanding (MoU) with Uneverse Mobility Pvt Ltd, a Kolkata based startup focusing on next generation battery technology...<br><br><button
+                                                        type="button" class="btn btn-outline-primary"><a
+                                                            href="https://kgpchronicle.iitkgp.ac.in/iit-kharagpur-signs-mou-with-uneverse-mobilty-a-kolkata-based-startup-for-the-development-commercialization-of-sodium-ion-batteries-in-india/"
+                                                            target="_blank"
+                                                            style="color:white">More...</a></button></p>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
                     </div>
                     <span  class="carousel-control-previ fas fa-chevron-circle-left fa-2x" data-target="#inam"
                     data-slide="prev"></span>
