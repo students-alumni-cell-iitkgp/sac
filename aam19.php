@@ -15,6 +15,13 @@
 			background-size: 100% 100%;
 		}
 
+		.aam {
+			text-align: center;
+			font-weight: 500;
+			font-family: 'Raleway', sans-serif;
+			letter-spacing: 3px;
+		}
+
 		.padding {
 			padding: 5rem 9rem;
 		}
@@ -81,6 +88,7 @@
 			</div>
 		</div>
 	</section>
+	<h1 class="aam">19th ANNUAL ALUMNI MEET</h1>
 	<section class="section-3 pt-3">
 		<div class="container-fluid p-0">
 			<div style="padding:0 3rem;">
