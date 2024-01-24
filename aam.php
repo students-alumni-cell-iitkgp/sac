@@ -11,7 +11,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@200&display=swap" rel="stylesheet">
 	<style type="text/css">
 		.img {
-			background-image: url(aam19.webp);
+			background-image: url('img/AAM-Web-Cover-Stretched-new-71-72.webp');
 			background-size: 100% 100%;
 		}
 

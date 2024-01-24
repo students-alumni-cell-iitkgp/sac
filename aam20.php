@@ -11,12 +11,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@200&display=swap" rel="stylesheet">
     <style type="text/css">
         .img {
-            background-image: url('img/aam20/illu/DSC_0447.JPG');
+            background-image: url('img/aam20/aam20_webp.jpg');
             background-size: 100% 100%;
         }
 
         .padding {
             padding: 5rem 9rem;
+        }
+
+        .aam {
+            text-align: center;
+            font-weight: 500;
+            font-family: 'Raleway', sans-serif;
+            letter-spacing: 3px;
         }
 
         .c {
@@ -81,14 +88,13 @@
             </div>
         </div>
     </section>
+    <h1 class="aam">20th ANNUAL ALUMNI MEET</h1>
     <section class="section-3 pt-3">
         <div class="container-fluid p-0">
             <div style="padding:0 3rem;">
                 <div class="row">
-
                     <div class="col-md-3 d-flex justify-content-center">
                         <h1 class="gallery-h3 pt-5 text-center">Arena</h1>
-
                     </div>
                     <div class="col-md-9">
                         <div class="container">
