@@ -295,7 +295,7 @@
                 </div>
                 <div class="col-sm-12" align="center">
                     <a href="https://www.easemytrip.com/?utm_source=google&utm_medium=cpc&utm_campaign=788997081&utm_content=39319940377&utm_term=easemytrip&utm_campaign=788997081&utm_source=g_c&utm_medium=cpc&utm_term=e_easemytrip&adgroupid=39319940377&gclid=CjwKCAiA_vKeBhAdEiwAFb_nrXua8YQNZJUzveY4zQH43MmSxHI_b32d55D5SVngqknpnBRPL6oKgxoCYUIQAvD_BwE" target="_blank">
-                        <img class="spons" src="img/spons/2023/EaseMyTripBooking.webp" width="270" height="170px" />
+                        <img class="spons" src="img/spons/2023/EasemytripBooking.webp" width="270" height="170px" />
                     </a>
                 </div>
             </div>
