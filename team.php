@@ -25,6 +25,74 @@
   <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
   <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 </head>
+<<<<<<< HEAD
+  <?php include 'navbar.php' ?>
+  <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <!-- Navigator Buttons -->
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+               Head Team 2023
+            </button>
+          </h2>
+
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+               Head Team 2022
+            </button>
+          </h2>
+
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+               Head Team 2021
+            </button>
+          </h2>
+
+          <h2 class="accordion-header" id="headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+               Head Team 2020
+            </button>
+          </h2>
+
+
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <section class="section-2">
+                    <div class="container text-center">
+                      <div class="row">
+                        <div class="col-md-12 col-12">
+                          <div class="panel text-center">                           
+                            <br>
+                            <div class="row">
+                              <div class="col-12 col-sm-6 align-items-center">
+                                <div class="service-card">
+                                  <div class="card">
+                                    
+                                    <img class="card-img-top" src="img\team2023\aryan.webp" height=300px; alt="Card image cap">
+                                    
+                                    <div class="card-body">
+                                      <h6 class="x">Aryan Garg</h6>
+                                      <p class="x">General Secretary</p>
+                                      <div class='row'>
+                                        <div class="col-3">
+                                          <a href='https://www.facebook.com/profile.php?id=100073394443471&mibextid=LQQJ4d' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                        </div>
+                                        <div class="col-3">
+                                          <a href='https://www.linkedin.com/in/aryan--garg' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                        </div>
+                                        <div class="col-3">
+                                          <a href='mailto:aryangarg1303@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                        </div>
+                                        <div class="col-3">
+                                          <a href='tel:+91-9915430558' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                        </div>
+            
+                                      </div>
+            
+                                    </div>
+                                  </div>
+                                </div>
+=======
 <?php include 'navbar.php' ?>
 <div class="accordion" id="accordionExample">
   <div class="accordion-item">
@@ -54,6 +122,7 @@
                             <div class='row'>
                               <div class="col-3">
                                 <a href='https://www.facebook.com/profile.php?id=100073394443471&mibextid=LQQJ4d' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+>>>>>>> 5e81fa9c10df0830e425d1fbc0253f949ae40548
                               </div>
                               <div class="col-3">
                                 <a href='https://www.linkedin.com/in/aryan--garg' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
@@ -396,6 +465,48 @@
                     <div class="col-sm-3 align-items-center">
                     </div>
 
+<<<<<<< HEAD
+  
+        <div class="accordion-item">
+   
+          <div id="collapseTwo" class="accordion-collapse collapse " aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <section class="section-2">
+                    <div class="container text-center">
+                      <div class="row">
+                        <div class="col-md-12 col-12">
+                          <div class="panel text-center">                           
+                            <br>
+                            <div class="row">
+                              <div class="col-12 col-sm-6 align-items-center">
+                                <div class="service-card">
+                                  <div class="card">
+                                    
+                                    <img class="card-img-top" src="img\team2022\Prerit.webp" height=300px; alt="Card image cap">
+                                    
+                                    <div class="card-body">
+                                      <h6 class="x">Prerit Goyal</h6>
+                                      <p class="x">(Former General Secretary)</p>
+                                      <div class='row'>
+                                        <div class="col-3">
+                                          <a href='https://www.facebook.com/prerit.goyal.3' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                        </div>
+                                        <div class="col-3">
+                                          <a href='https://www.linkedin.com/in/prerit-goyal/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                        </div>
+                                        <div class="col-3">
+                                          <a href='mailto:preritgoyal0203@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                        </div>
+                                        <div class="col-3">
+                                          <a href='tel:+91-8989020473' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                        </div>
+            
+                                      </div>
+            
+                                    </div>
+                                  </div>
+                                </div>
+=======
                     <div class="col-12 col-sm-6 col-6">
                       <div class="service-card last-card">
                         <div class="card ">
@@ -408,6 +519,7 @@
                             <div class='row'>
                               <div class="col-3">
                                 <a href='https://www.facebook.com/profile.php?id=100075497561359&mibextid=ZbWKwL' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+>>>>>>> 5e81fa9c10df0830e425d1fbc0253f949ae40548
                               </div>
                               <div class="col-3">
                                 <a href='https://www.linkedin.com/in/ananya---singh-' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
@@ -424,12 +536,369 @@
                         </div>
                       </div>
                     </div>
+<<<<<<< HEAD
+                </section>  
+            </div>
+          </div>
+        <div class="accordion-item">
+       
+          </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <section class="section-2">
+                        <div class="container text-center">
+                        <div class="row">
+                            <div class="col-md-12 col-12">
+                            <div class="panel text-center">
+                                <br>
+                                <div class="row">
+                                <div class="col-12 col-sm-6 align-items-center">
+                                    <div class="service-card">
+                                    <div class="card">
+                                        
+                                        <img class="card-img-top" src="img\team2021\Tarun.webp" height=300px; alt="Card image cap">
+                                        
+                                        <div class="card-body">
+                                        <h6 class="x">Tarun Majety</h6>
+                                        <p class="x">(Former General Secretary)</p>
+                                        <div class='row'>
+                                            <div class="col-3">
+                                            <a href='https://www.facebook.com/tarun.majety.18' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                            </div>
+                                            <div class="col-3">
+                                            <a href='https://www.linkedin.com/in/grumpyhuman18/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                            </div>
+                                            <div class="col-3">
+                                            <a href='#' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                            </div>
+                                            <div class="col-3">
+                                            <a href='#' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                            </div>
+                
+                                        </div>
+                
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 align-items-center">
+                                    <div class="service-card">
+                                    <div class="card">
+                                        
+                                        <img class="card-img-top" src="img\team2021\Vikas.webp" height=300px; alt="Card image cap">
+                                        
+                                        <div class="card-body">
+                                        <h6 class="x">Vikas Ahlawat</h6>
+                                        <p class="x">(Former General Secretary)</p>
+                                        <div class='row'>
+                                            <div class="col-3">
+                                            <a href='https://www.facebook.com/vikas.ahlawat.09' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                            </div>
+                                            <div class="col-3">
+                                            <a href='https://www.linkedin.com/in/vikas-ahlawat-/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                            </div>
+                                            <div class="col-3">
+                                            <a href='#' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                            </div>
+                                            <div class="col-3">
+                                            <a href='#' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                            </div>
+                
+                                        </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="row">
+                                <div class="col-12 col-sm-6 align-items-center">
+                                    <div class="service-card">
+                                    <div class="card">
+                                        
+                                        <img class="card-img-top" src="img\team2021\Satyam.webp" height=300px; alt="Card image cap">
+                                        
+                                        <div class="card-body">
+                                        <h6 class="x">Satyam Jha</h6>
+                                        <p class="x">(Fomer Coordinator)</p>
+                                        <div class='row'>
+                                            <div class="col-3">
+                                            <a href='https://www.facebook.com/ranny.cunninghamp' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                            </div>
+                                            <div class="col-3">
+                                            <a href='https://www.linkedin.com/in/satyamjha-/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                            </div>
+                                            <div class="col-3">
+                                            <a href='#' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                            </div>
+                                            <div class="col-3">
+                                            <a href='#' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                            </div>
+                
+                                        </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 align-items-center">
+                                    <div class="service-card">
+                                    <div class="card">
+                                        
+                                        <img class="card-img-top" src="img\team2021\Shikha.webp" height=300px; alt="Card image cap">
+                                        
+                                        <div class="card-body">
+                                        <h6 class="x">Shikha Bagaria</h6>
+                                        <p class="x">(Former Coordinator)</p>
+                                        <div class='row'>
+                                            <div class="col-3">
+                                            <a href='https://www.facebook.com/shikhabagaria11' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                            </div>
+                                            <div class="col-3">
+                                            <a href='https://www.linkedin.com/in/shikha-bagaria/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                            </div>
+                                            <div class="col-3">
+                                            <a href='#' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                            </div>
+                                            <div class="col-3">
+                                            <a href='#' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                            </div>
+                
+                                        </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                
+                                </div>
+                                <div class="row">
+                                <div class="col-12 col-sm-6 align-items-center">
+                                    <div class="service-card">
+                                    <div class="card">
+                                        
+                                        <img class="card-img-top" src="img\team2021\Namya.webp" height=300px; alt="Card image cap" style="object-position: left;">
+                                        
+                                        <div class="card-body">
+                                        <h6 class="x">Namya Swarnker</h6>
+                                        <p class="x">(Former Coordinator)</p>
+                                        <div class='row'>
+                                            <div class="col-3">
+                                            <a href='https://www.facebook.com/namya.swarnkar' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                            </div>
+                                            <div class="col-3">
+                                            <a href='https://www.linkedin.com/in/namya-swarnkar/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                            </div>
+                                            <div class="col-3">
+                                            <a href='#' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                            </div>
+                                            <div class="col-3">
+                                            <a href='#' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                            </div>
+                
+                                        </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 align-items-center">
+                                    <div class="service-card">
+                                    <div class="card">
+                                        
+                                        <img class="card-img-top" src="img\team2021\Brahmjot.webp" height=300px; alt="Card image cap">
+                                        
+                                        <div class="card-body">
+                                        <h6 class="x">Brahmjot Singh</h6>
+                                        <p class="x">(Former Coordinator)</p>
+                                        <div class='row'>
+                                            <div class="col-3">
+                                            <a href='https://www.facebook.com/brahmjot.singh.7165' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                            </div>
+                                            <div class="col-3">
+                                            <a href='https://www.linkedin.com/in/brahmjot-singh/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                            </div>
+                                            <div class="col-3">
+                                            <a href='#' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                            </div>
+                                            <div class="col-3">
+                                            <a href='#' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                            </div>
+                
+                                        </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                
+                                </div>
+                                <div class="row">
+                                <div class="col-12 col-sm-6 align-items-center">
+                                    <div class="service-card">
+                                    <div class="card">
+                                        
+                                        <img class="card-img-top" src="img\team2021\Aryan.webp" height=300px; alt="Card image cap">
+                                        
+                                        <div class="card-body">
+                                        <h6 class="x">Aryan Raj Lohani</h6>
+                                        <p class="x">(Former Web Head)</p>
+                                        <div class='row'>
+                                            <div class="col-3">
+                                            <a href='https://www.facebook.com/aryan.lohani.9' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                            </div>
+                                            <div class="col-3">
+                                            <a href='https://www.linkedin.com/in/aryan-raj-lohani-2002/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                            </div>
+                                            <div class="col-3">
+                                            <a href='#' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                            </div>
+                                            <div class="col-3">
+                                            <a href='#' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                            </div>
+                
+                                        </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 align-items-center">
+                                    <div class="service-card">
+                                    <div class="card">
+                                        
+                                        <img class="card-img-top" src="img\team2021\Tanwir.webp" height=300px; alt="Card image cap">
+                                        
+                                        <div class="card-body">
+                                        <h6 class="x">Tanwir Singh</h6>
+                                        <p class="x">(Former Web Head)</p>
+                                        <div class='row'>
+                                            <div class="col-3">
+                                            <a href='https://www.facebook.com/tanwir.singh.77' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                            </div>
+                                            <div class="col-3">
+                                            <a href='https://www.linkedin.com/in/tanwir-singh/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                            </div>
+                                            <div class="col-3">
+                                            <a href='#' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                            </div>
+                                            <div class="col-3">
+                                            <a href='#' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                            </div>
+                
+                                        </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="row">
+                                <div class="col-12 col-sm-6 align-items-center">
+                                    <div class="service-card">
+                                    <div class="card">
+                                        
+                                        <img class="card-img-top" src="img\team2021\Sumanth.webp" height=300px; alt="Card image cap">
+                                        
+                                        <div class="card-body">
+                                        <h6 class="x">D Sumanth</h6>
+                                        <p class="x">(Former PR Head)</p>
+                                        <div class='row'>
+                                            <div class="col-3">
+                                            <a href='https://www.facebook.com/sumanth.marshall.999' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                            </div>
+                                            <div class="col-3">
+                                            <a href='https://www.linkedin.com/in/sumanth-d/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                            </div>
+                                            <div class="col-3">
+                                            <a href='#' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                            </div>
+                                            <div class="col-3">
+                                            <a href='#' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                            </div>
+                
+                                        </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 align-items-center">
+                                    <div class="service-card">
+                                    <div class="card">
+                                        
+                                        <img class="card-img-top" src="img\team2021\Viraj.webp" height=300px; alt="Card image cap">
+                                        
+                                        <div class="card-body">
+                                        <h6 class="x">Viraj Madke</h6>
+                                        <p class="x">(Former PR Head)</p>
+                                        <div class='row'>
+                                            <div class="col-3">
+                                            <a href='https://www.facebook.com/viraj.madke' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                            </div>
+                                            <div class="col-3">
+                                            <a href='https://www.linkedin.com/in/viraj-madke/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                            </div>
+                                            <div class="col-3">
+                                            <a href='#' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                            </div>
+                                            <div class="col-3">
+                                            <a href='#' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                            </div>
+                
+                                        </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        </div>
+                    </section> 
+=======
                     <div class="col-sm-3 align-items-center">
                     </div>
                   </div>
+>>>>>>> 5e81fa9c10df0830e425d1fbc0253f949ae40548
                 </div>
               </div>
             </div>
+<<<<<<< HEAD
+        </div>
+        <div class="accordion-item">
+      
+          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <section class="section-2">
+                    <div class="container text-center">
+                      <div class="row">
+                        <div class="col-md-12 col-12">
+                          <div class="panel text-center">
+                            <br>
+                            <div class="row">
+                              <div class="col-12 col-sm-6 align-items-center">
+                                <div class="service-card">
+                                  <div class="card">
+                                    
+                                    <img class="card-img-top" src="img\team2020\jena.jpg" height=300px; alt="Card image cap">
+                                    
+                                    <div class="card-body">
+                                      <h6 class="x">Subhadra Jena</h6>
+                                      <p class="x">(Former General Secretary)</p>
+                                      <div class='row'>
+                                        <div class="col-3">
+                                          <a href='https://www.facebook.com/subhadra.jena99' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                        </div>
+                                        <div class="col-3">
+                                          <a href='https://www.linkedin.com/in/subhadra-jena/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                        </div>
+                                        <div class="col-3">
+                                          <a href='#' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                        </div>
+                                        <div class="col-3">
+                                          <a href='#' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                        </div>
+            
+                                      </div>
+            
+                                    </div>
+                                  </div>
+                                </div>
+=======
           </div>
         </section>
       </div>
@@ -464,6 +933,7 @@
                             <div class='row'>
                               <div class="col-3">
                                 <a href='https://www.facebook.com/prerit.goyal.3' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+>>>>>>> 5e81fa9c10df0830e425d1fbc0253f949ae40548
                               </div>
                               <div class="col-3">
                                 <a href='https://www.linkedin.com/in/prerit-goyal/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
