@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@200&display=swap" rel="stylesheet">
     <style type="text/css">
         .img {
-            background-image: url('img/aam20/aam20_webp.webp');
+            background-image: url('img/aam20/aam20_webp.jpg');
             background-size: 100% 100%;
         }
 
@@ -101,7 +101,7 @@
                             <div class="row d-flex justify-content-center">
                                 <div class="col-md-6 x">
                                     <div class="image">
-                                        <img src="img/aam20/Arena/IMG_2767.webp" class="img-fluid image__img">
+                                        <img src="img/aam20/Arena/IMG_2767.JPG" class="img-fluid image__img">
                                         <div class="image__overlay image__overlay--primary text-center">
                                             <div class="image__title">Arena</div>
                                             <p class="image__description">The Arena is a nostalgia-filled site welcoming the Alumni to share their old memories with us.</p>
@@ -110,12 +110,12 @@
                                 </div>
                                 <div class="col-md-3 x align-items-center">
                                     <div class="image">
-                                        <img src="img/aam20/Arena/DSC_0222.webp" class="img-fluid image__img">
+                                        <img src="img/aam20/Arena/DSC_0222.JPG" class="img-fluid image__img">
                                         <div class="image__overlay image__overlay--primary text-center">
                                         </div>
                                     </div>
                                     <div class="image pt-3">
-                                        <img src="img/aam20/Arena/IMG_2758.webp" class="img-fluid image__img">
+                                        <img src="img/aam20/Arena/IMG_2758.JPG" class="img-fluid image__img">
                                         <div class="image__overlay image__overlay--primary text-center">
                                         </div>
                                     </div>
@@ -123,12 +123,12 @@
                                 </div>
                                 <div class="col-md-3 x align-items-center">
                                     <div class="image">
-                                        <img src="img/aam20/Arena/DSC_0051.webp" class="img-fluid image__img">
+                                        <img src="img/aam20/Arena/DSC_0051.JPG" class="img-fluid image__img">
                                         <div class="image__overlay image__overlay--primary text-center">
                                         </div>
                                     </div>
                                     <div class="image pt-3">
-                                        <img src="img/aam20/Arena/DSC_0061.webp" class="img-fluid image__img">
+                                        <img src="img/aam20/Arena/DSC_0061.JPG" class="img-fluid image__img">
                                         <div class="image__overlay image__overlay--primary text-center">
                                         </div>
                                     </div>
@@ -155,12 +155,12 @@
                                 <div class="col-md-4 x align-items-center">
 
                                     <div class="image ">
-                                        <img src="img/aam20/inaug/1974.webp" class="img-fluid image__img">
+                                        <img src="img/aam20/inaug/1974.JPG" class="img-fluid image__img">
                                         <div class="image__overlay image__overlay--primary text-center">
                                         </div>
                                     </div>
                                     <div class="image pt-3">
-                                        <img src="img/aam20/inaug/1984.webp" class="img-fluid image__img">
+                                        <img src="img/aam20/inaug/1984.JPG" class="img-fluid image__img">
                                         <div class="image__overlay image__overlay--primary text-center">
 
                                         </div>
@@ -169,7 +169,7 @@
                                 </div>
                                 <div class="col-md-8 x">
                                     <div class="image">
-                                        <img src="img/aam20/inaug/1999.webp" class="img-fluid image__img">
+                                        <img src="img/aam20/inaug/1999.JPG" class="img-fluid image__img">
                                         <div class="image__overlay image__overlay--primary text-center">
                                             <div class="image__title">Inauguration Ceremony</div>
                                             <p class="image__description">The Annual Alumni Meet is a fascinating trip down memory lane
@@ -199,12 +199,12 @@
                             <div class="row d-flex justify-content-center">
                                 <div class="col-md-4 x align-items-center">
                                     <div class="image">
-                                        <img src="img/aam20/dept/IMG_2614.webp" class="img-fluid image__img">
+                                        <img src="img/aam20/dept/IMG_2614.JPG" class="img-fluid image__img">
                                         <div class="image__overlay image__overlay--primary text-center">
                                         </div>
                                     </div>
                                     <div class="image pt-3">
-                                        <img src="img/aam20/dept/DSC_0576.webp" class="img-fluid image__img">
+                                        <img src="img/aam20/dept/DSC_0576.JPG" class="img-fluid image__img">
                                         <div class="image__overlay image__overlay--primary text-center">
                                         </div>
                                     </div>
@@ -212,7 +212,7 @@
                                 </div>
                                 <div class="col-md-8 x">
                                     <div class="image">
-                                        <img src="img/aam20/dept/DSC_0493.webp" class="img-fluid image__img">
+                                        <img src="img/aam20/dept/DSC_0493.JPG" class="img-fluid image__img">
                                         <div class="image__overlay image__overlay--primary text-center">
                                             <div class="image__title">Department Visit</div>
                                             <p class="image__description">Departments are our own shrine of knowledge filled with bittersweet
@@ -270,7 +270,7 @@
                             <div class="row d-flex justify-content-center">
                                 <div class="col-md-8 x">
                                     <div class="image">
-                                        <img src="img/aam20/hv/DSC_0072.webp" class="img-fluid image__img">
+                                        <img src="img/aam20/hv/DSC_0072.JPG" class="img-fluid image__img">
                                         <div class="image__overlay image__overlay--primary text-center">
                                             <div class="image__title">Hall Visit</div>
                                             <p class="image__description">The place we learnt and lived for the 4 most important years in our life surely has a fragment of our soul inside
@@ -280,12 +280,12 @@
                                 </div>
                                 <div class="col-md-4 x align-items-center">
                                     <div class="image">
-                                        <img src="img/aam20/hv/IMG_2745.webp" class="img-fluid image__img">
+                                        <img src="img/aam20/hv/IMG_2745.JPG" class="img-fluid image__img">
                                         <div class="image__overlay image__overlay--primary text-center">
                                         </div>
                                     </div>
                                     <div class="image pt-3">
-                                        <img src="img/aam20/hv/DSC_0007.webp" class="img-fluid image__img">
+                                        <img src="img/aam20/hv/DSC_0007.JPG" class="img-fluid image__img">
                                         <div class="image__overlay image__overlay--primary text-center">
                                         </div>
                                     </div>
@@ -313,12 +313,12 @@
                             <div class="row d-flex justify-content-center">
                                 <div class="col-md-4 x align-items-center">
                                     <div class="image">
-                                        <img src="img/aam20/campus tour/DSC_0074.webp" class="img-fluid image__img">
+                                        <img src="img/aam20/campus tour/DSC_0074.JPG" class="img-fluid image__img">
                                         <div class="image__overlay image__overlay--primary text-center">
                                         </div>
                                     </div>
                                     <div class="image pt-3">
-                                        <img src="img/aam20/campus tour/IMG_2888.webp" class="img-fluid image__img">
+                                        <img src="img/aam20/campus tour/IMG_2888.JPG" class="img-fluid image__img">
                                         <div class="image__overlay image__overlay--primary text-center">
                                         </div>
                                     </div>
@@ -326,7 +326,7 @@
                                 </div>
                                 <div class="col-md-8 x">
                                     <div class="image">
-                                        <img src="img/aam20/campus tour/IMG_2908.webp" class="img-fluid image__img">
+                                        <img src="img/aam20/campus tour/IMG_2908.JPG" class="img-fluid image__img">
                                         <div class="image__overlay image__overlay--primary text-center">
                                             <div class="image__title">Campus Tour</div>
                                             <p class="image__description">In the progressive world we live in, there are a lot of changes and yet a lot of constants
@@ -413,7 +413,7 @@
                             <div class="row d-flex justify-content-center">
                                 <div class="col-md-8 content-overlay x">
                                     <div class="image">
-                                        <img src="img/aam20/entertania/DSC_0413.webp" class="img-fluid image__img">
+                                        <img src="img/aam20/entertania/DSC_0413.JPG" class="img-fluid image__img">
                                         <div class="image__overlay image__overlay--primary text-center">
                                             <div class="image__title">Entertania</div>
                                             <p class="image__description">TRAP: Live in Concert</p>
@@ -422,13 +422,13 @@
                                 </div>
                                 <div class="col-md-4 content-overlay x">
                                     <div class="image">
-                                        <img src="img/aam20/entertania/DSC_0350.webp" class="img-fluid image__img">
+                                        <img src="img/aam20/entertania/DSC_0350.JPG" class="img-fluid image__img">
                                         <div class="image__overlay image__overlay--primary">
 
                                         </div>
                                     </div>
                                     <div class="image pt-3">
-                                        <img src="img/aam20/entertania/IMG_3363.webp" class="img-fluid image__img">
+                                        <img src="img/aam20/entertania/IMG_3363.JPG" class="img-fluid image__img">
                                         <div class="image__overlay image__overlay--primary">
 
                                         </div>
@@ -456,12 +456,12 @@
                             <div class="row d-flex justify-content-center">
                                 <div class="col-md-4 content-overlay x">
                                     <div class="image">
-                                        <img src="img/aam20/illu/IMG_3540.webp" class="img-fluid image__img">
+                                        <img src="img/aam20/illu/IMG_3540.JPG" class="img-fluid image__img">
                                         <div class="image__overlay image__overlay--primary">
                                         </div>
                                     </div>
                                     <div class="image pt-3">
-                                        <img src="img/aam20/illu/DSC_0447.webp" class="img-fluid image__img">
+                                        <img src="img/aam20/illu/DSC_0447.JPG" class="img-fluid image__img">
                                         <div class="image__overlay image__overlay--primary">
                                             <div class="image__title">Illumination</div>
                                             <p class="image__description"></p>
@@ -471,7 +471,7 @@
                                 <div class="col-md-8 content-overlay x">
                                     <div class="image">
 
-                                        <img src="img/aam20/illu/IMG_3464.webp" class="img-fluid image__img">
+                                        <img src="img/aam20/illu/IMG_3464.JPG" class="img-fluid image__img">
                                         <div class="image__overlay image__overlay--primary text-center">
                                             <div class="image__title">Illumination</div>
                                             <p class="image__description">The Illumination with diyas followed by the release of sky lanterns
@@ -524,7 +524,7 @@
                             <div class="row d-flex justify-content-center">
                                 <div class="col-md-6 content-overlay x">
                                     <div class="image">
-                                        <img src="img/aam20/2.2/IMG_3814.webp" class="img-fluid image__img">
+                                        <img src="img/aam20/2.2/IMG_3814.JPG" class="img-fluid image__img">
                                         <div class="image__overlay image__overlay--primary">
                                         </div>
                                     </div>
@@ -532,7 +532,7 @@
                                 <div class="col-md-6 content-overlay x">
                                     <div class="image">
 
-                                        <img src="img/aam20/2.2/IMG_3827.webp" class="img-fluid image__img">
+                                        <img src="img/aam20/2.2/IMG_3827.JPG" class="img-fluid image__img">
                                         <div class="image__overlay image__overlay--primary text-center">
                                             <div class="image__title">2.2 Marathon</div>
                                             <p class="image__description">The iconic 2.2 km marathon around the heart of the campus in which all
@@ -545,7 +545,7 @@
                                 <div class="col-md-8 content-overlay">
                                     <div class="image">
 
-                                        <img src="img/aam20/closing cermony/IMG_3909.webp" class="img-fluid image__img">
+                                        <img src="img/aam20/closing cermony/IMG_3909.JPG" class="img-fluid image__img">
                                         <div class="image__overlay image__overlay--primary">
                                             <div class="image__title">Closing Ceremony</div>
                                         </div>
