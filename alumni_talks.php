@@ -11,18 +11,16 @@
 
   <!--CSS only-->
   <link rel="stylesheet" href="css/alumni_talks.css">
-	 <!--FONT AWESOME-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
-    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
+  <!--FONT AWESOME-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
+  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
 </head>
 
 <body>
-<?php include 'navbar.php' ?>
+  <?php include 'navbar.php' ?>
   <div class="header" style="background-image: url(img/talks.webp);background-size: 100% 100%;background-position: center">
     <div class="container text-center">
       <div class="row">
@@ -32,16 +30,15 @@
         </div>
       </div>
     </div>
-</div>
+  </div>
   <section class="section-2">
     <div class="container text-center">
       <div class="row">
         <div class="col-md-12 col-12">
           <div class="panel text-center">
-            <h1 class ="x">ABOUT</h1>
+            <h1 class="x">ABOUT</h1>
             <div class="progress" style="height:0.4rem;">
-              <div class="progress-bar" id= "one" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
-                aria-valuemax="100" style="height:0.4rem;"></div>
+              <div class="progress-bar" id="one" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
 
             </div>
             <p class="pt-3 x" style="opacity: 1" align="justify">
@@ -58,7 +55,72 @@
       </div>
     </div>
   </section>
+  <section class="section-2">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-md-12 col-12">
+          <div class="panel panel1 text-center">
+            <h1 class="x">Alumni Talks</h1>
+            <div class="progress" style="height:0.4rem;">
+              <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
+            </div>
+            <br>
+            <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <h4 class="x">Navigating Career Transitions</h4>
+                  <div class="row">
+                    <div class="col-12 col-sm-4 align-items-center">
+                      <img src="AlumniTalks2024/3.webp" class="image img-responsive img-fluid" style="width: 20em;height:18em;">
+                      <h5 class="x">Commander VK Jaitly</h5>
+                      <h6 class="x">(Advisor,Mentor and Director Triggero, Successmantra)</h6>
+                    </div>
+                    <div class="col-12 col-sm-4 align-items-center">
+                      <img src="AlumniTalks2024/1..webp" class="image img-responsive img-fluid" style="width: 20em;height:18em;">
+                      <h5 class="x">Mr. Kiranchandra Vasant Sule</h5>
+                      <h6 class="x">(Ex Refinary Engineer in Singapore)</h6>
+                    </div>
+                    <div class="col-12 col-sm-4 align-items-center">
+                      <img src="AlumniTalks2024/2.webp" class="image img-responsive img-fluid" style="width: 20em;height:18em;">
+                      <h5 class="x">Mr. Sanjay Shirgaonkar</h5>
+                      <h6 class="x">(Independent Director ACROW INDIA LTD)</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <h4 class="x">Campus Hero Webinar</h4>
+                  <div class="row">
+                    <div class="col-12 col-sm-4 align-items-center">
 
+
+                    </div>
+                    <div class="col-12 col-sm-4 align-items-center">
+                      <img src="AlumniTalks2024/4.webp" class="image img-responsive img-fluid" style="width: 20em;">
+                      <h5 class="x">Abhishek Kumar</h5>
+                      <h6 class="x">Data Scientist, KIE Square Analytics</h6>
+                    </div>
+                    <div class="col-12 col-sm-4 align-items-center">
+                    </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon prev1" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon next1" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section> 
   <!--<section class="section-2">
     <div class="container text-center">
       <div class="row">
@@ -155,8 +217,7 @@
           <div class="panel panel1 text-center">
             <h1 class="x">Alumni Talks</h1>
             <div class="progress" style="height:0.4rem;">
-              <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
-                aria-valuemax="100" style="height:0.4rem;"></div>
+              <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
             </div>
             <br>
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -169,55 +230,47 @@
                   <h4 class="x">Pursuit for Higher Education</h4>
                   <div class="row">
                     <div class="col-12 col-sm-3 align-items-center">
-                      <img src="img/AlumniTalk/LakshyaJain.webp" class="image img-responsive img-fluid"
-                        style="width: 20em;">
+                      <img src="img/AlumniTalk/LakshyaJain.webp" class="image img-responsive img-fluid" style="width: 20em;">
                       <h5 class="x">Lakshya Jain</h5>
                       <h6 class="x">Mech. Enginner-Tesla</h6>
                     </div>
-					<div class="col-12 col-sm-3 align-items-center">
-                      <img src="img/AlumniTalk/VishalKumar.webp" class="image img-responsive img-fluid"
-                        style="width: 20em;">
+                    <div class="col-12 col-sm-3 align-items-center">
+                      <img src="img/AlumniTalk/VishalKumar.webp" class="image img-responsive img-fluid" style="width: 20em;">
                       <h5 class="x">Vishal Kumar</h5>
                       <h6 class="x">Founder LearningWhileTraveling</h6>
                     </div>
                     <div class="col-12 col-sm-3 align-items-center">
-                      <img src="img/AlumniTalk/SnehaBiswas.webp" class="image img-responsive img-fluid"
-                        style="width: 20em;">
+                      <img src="img/AlumniTalk/SnehaBiswas.webp" class="image img-responsive img-fluid" style="width: 20em;">
                       <h5 class="x">Sneha Biswas</h5>
                       <h6 class="x">Founder & CEO Early Step Academy</h6>
                     </div>
                     <div class="col-12 col-sm-3 align-items-center">
-                      <img src="img/AlumniTalk/AnupamSahai.webp" class="image img-responsive img-fluid"
-                        style="width: 20em;">
+                      <img src="img/AlumniTalk/AnupamSahai.webp" class="image img-responsive img-fluid" style="width: 20em;">
                       <h5 class="x">Anupam Sahai</h5>
                       <h6 class="x">VP & CTO,Unisys</h6>
                     </div>
                   </div>
                 </div>
                 <div class="carousel-item">
-				  <h4 class="x">Analytics</h4>
+                  <h4 class="x">Analytics</h4>
                   <div class="row">
                     <div class="col-12 col-sm-3 align-items-center">
-                      <img src="img/AlumniTalk/ManuveeranSinghSandhu.webp" class="image img-responsive img-fluid"
-                        style="width: 20em;">
+                      <img src="img/AlumniTalk/ManuveeranSinghSandhu.webp" class="image img-responsive img-fluid" style="width: 20em;">
                       <h5 class="x">Manuveeran Singh Sandhu</h5>
                       <h6 class="x">Data Engineer JPMorgan Chase & Co.</h6>
                     </div>
-					<div class="col-12 col-sm-3 align-items-center">
-                      <img src="img/AlumniTalk/RituTak.webp" class="image img-responsive img-fluid"
-                        style="width: 20em;">
+                    <div class="col-12 col-sm-3 align-items-center">
+                      <img src="img/AlumniTalk/RituTak.webp" class="image img-responsive img-fluid" style="width: 20em;">
                       <h5 class="x">Ritu Tak</h5>
                       <h6 class="x">Vice President JPMorgan Chase & Co.</h6>
                     </div>
                     <div class="col-12 col-sm-3 align-items-center">
-                      <img src="img/AlumniTalk/HarsheelSinghSoin.webp" class="image img-responsive img-fluid"
-                        style="width: 20em;">
+                      <img src="img/AlumniTalk/HarsheelSinghSoin.webp" class="image img-responsive img-fluid" style="width: 20em;">
                       <h5 class="x">Harsheel Singh Soin</h5>
                       <h6 class="x">Data Scientist Audible,Inc.</h6>
                     </div>
                     <div class="col-12 col-sm-3 align-items-center">
-                      <img src="img/AlumniTalk/RujutaKulkarni.webp" class="image img-responsive img-fluid"
-                        style="width: 20em;">
+                      <img src="img/AlumniTalk/RujutaKulkarni.webp" class="image img-responsive img-fluid" style="width: 20em;">
                       <h5 class="x">Rujuta Kulkarni</h5>
                       <h6 class="x">Data Engineer Facebook</h6>
                     </div>
@@ -245,8 +298,7 @@
           <div class="panel panel1 text-center">
             <h1 class="x">Alumni Talks</h1>
             <div class="progress" style="height:0.4rem;">
-              <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
-                aria-valuemax="100" style="height:0.4rem;"></div>
+              <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
             </div>
             <br>
             <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
@@ -256,89 +308,77 @@
               </ol>
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <h4 class="x">Speakers from Deffered MBA</h4>
-                    <div class="row">
-                      <div class="col-12 col-sm-4 align-items-center">
-                        <img src="img/AlumniTalk/Tanay.webp" class="image img-responsive img-fluid"
-                          style="width: 20em;height:18em;">
-                        <h5 class="x">Tanay Jagni</h5>
-                        <h6 class="x">(Business Analyst)</h6>
-                      </div>
-                      <div class="col-12 col-sm-4 align-items-center">
-                        <img src="img/AlumniTalk/Tiyasha.webp" class="image img-responsive img-fluid"
-                          style="width: 20em;height:18em;">
-                        <h5 class="x">Tiyasha Mitra</h5>
-                        <h6 class="x">(Business Analyst)</h6>
-                      </div>
-                      <div class="col-12 col-sm-4 align-items-center">
-                        <img src="img/AlumniTalk/Vasanta.webp" class="image img-responsive img-fluid"
-                          style="width: 20em;height:18em;">
-                        <h5 class="x">Vasanta Majety</h5>
-                        <h6 class="x">(Business Analyst)</h6>
-                      </div>
+                  <h4 class="x">Speakers from Deffered MBA</h4>
+                  <div class="row">
+                    <div class="col-12 col-sm-4 align-items-center">
+                      <img src="img/AlumniTalk/Tanay.webp" class="image img-responsive img-fluid" style="width: 20em;height:18em;">
+                      <h5 class="x">Tanay Jagni</h5>
+                      <h6 class="x">(Business Analyst)</h6>
                     </div>
-                  </div>    
-                  <div class="carousel-item">
-                    <h4 class="x">Speakers from Product Management</h4>
-                    <div class="row">
-                      <div class="col-lg-6 col-sm-6 align-items-center">
-                        <img src="img/AlumniTalk/Stuti.webp" class="image img-responsive img-fluid"
-                          style="width: 20em;height:18em;">
-                        <h5 class="x">Ms. Stuti Modi</h5>
-                        <h6 class="x">(Product Manager)</h6>
-                      </div>
-                      <div class="col-lg-6 col-sm-6 align-items-center">
-                        <img src="img/AlumniTalk/Nyahrit.webp" class="image img-responsive img-fluid"
-                          style="width: 20em;height:18em;">
-                        <h5 class="x">Mr. Nayrhit</h5>
-                        <h6 class="x">(Product Manager)</h6>
-                      </div>
-                      <div class="col-lg-6 col-sm-6 align-items-center">
-                        <img src="img/AlumniTalk/Asad.webp" class="image img-responsive img-fluid"
-                          style="width: 20em;height:18em;">
-                        <h5 class="x">Mr.Asad Abrar</h5>
-                        <h6 class="x">(Product Manager)</h6>
-                      </div>
-                      <div class="col-lg-6 col-sm-6 align-items-center">
-                        <img src="img/AlumniTalk/Lavneesh.webp" class="image img-responsive img-fluid"
-                          style="width: 20em;height:18em;">
-                        <h5 class="x">Mr. Lavneesh Nyol</h5>
-                        <h6 class="x">(Product Manager)</h6>
-                      </div>
+                    <div class="col-12 col-sm-4 align-items-center">
+                      <img src="img/AlumniTalk/Tiyasha.webp" class="image img-responsive img-fluid" style="width: 20em;height:18em;">
+                      <h5 class="x">Tiyasha Mitra</h5>
+                      <h6 class="x">(Business Analyst)</h6>
                     </div>
-                  </div> 
+                    <div class="col-12 col-sm-4 align-items-center">
+                      <img src="img/AlumniTalk/Vasanta.webp" class="image img-responsive img-fluid" style="width: 20em;height:18em;">
+                      <h5 class="x">Vasanta Majety</h5>
+                      <h6 class="x">(Business Analyst)</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <h4 class="x">Speakers from Product Management</h4>
+                  <div class="row">
+                    <div class="col-lg-6 col-sm-6 align-items-center">
+                      <img src="img/AlumniTalk/Stuti.webp" class="image img-responsive img-fluid" style="width: 20em;height:18em;">
+                      <h5 class="x">Ms. Stuti Modi</h5>
+                      <h6 class="x">(Product Manager)</h6>
+                    </div>
+                    <div class="col-lg-6 col-sm-6 align-items-center">
+                      <img src="img/AlumniTalk/Nyahrit.webp" class="image img-responsive img-fluid" style="width: 20em;height:18em;">
+                      <h5 class="x">Mr. Nayrhit</h5>
+                      <h6 class="x">(Product Manager)</h6>
+                    </div>
+                    <div class="col-lg-6 col-sm-6 align-items-center">
+                      <img src="img/AlumniTalk/Asad.webp" class="image img-responsive img-fluid" style="width: 20em;height:18em;">
+                      <h5 class="x">Mr.Asad Abrar</h5>
+                      <h6 class="x">(Product Manager)</h6>
+                    </div>
+                    <div class="col-lg-6 col-sm-6 align-items-center">
+                      <img src="img/AlumniTalk/Lavneesh.webp" class="image img-responsive img-fluid" style="width: 20em;height:18em;">
+                      <h5 class="x">Mr. Lavneesh Nyol</h5>
+                      <h6 class="x">(Product Manager)</h6>
+                    </div>
+                  </div>
+                </div>
                 <div class="carousel-item">
                   <h4 class="x">Speakers from McKinsey & Company:</h4>
                   <div class="row">
                     <div class="col-12 col-sm-4 align-items-center">
-                      <img src="img/guest-lecture/aditya_agarwal.webp" class="image img-responsive img-fluid"
-                        style="width: 20em;">
+                      <img src="img/guest-lecture/aditya_agarwal.webp" class="image img-responsive img-fluid" style="width: 20em;">
                       <h5 class="x">Aditya Agarwal</h5>
                       <h6 class="x">(Associate)</h6>
                     </div>
                     <div class="col-12 col-sm-4 align-items-center">
-                      <img src="img/guest-lecture/abhishek_narain.webp" class="image img-responsive img-fluid"
-                        style="width: 20em;">
+                      <img src="img/guest-lecture/abhishek_narain.webp" class="image img-responsive img-fluid" style="width: 20em;">
                       <h5 class="x">Abhishek Narain</h5>
                       <h6 class="x">(Associate)</h6>
                     </div>
                     <div class="col-12 col-sm-4 align-items-center">
-                      <img src="img/guest-lecture/jitesh_khanna.webp" class="image img-responsive img-fluid"
-                        style="width: 20em;">
+                      <img src="img/guest-lecture/jitesh_khanna.webp" class="image img-responsive img-fluid" style="width: 20em;">
                       <h5 class="x">Jitesh Khanna</h5>
                       <h6 class="x">(Associate Partner)</h6>
                     </div>
                   </div>
                   <div class="row">
                     <div class="col-12 col-sm-4 offset-sm-2 align-items-center">
-                      <img src="img/guest-lecture/amit_gupta.webp" class="image img-responsive img-fluid"
-                        style="width: 20em;">
+                      <img src="img/guest-lecture/amit_gupta.webp" class="image img-responsive img-fluid" style="width: 20em;">
                       <h5 class="x">Amit Gupta</h5>
                       <h6 class="x">(Associate Partner)</h6>
                     </div>
                     <div class="col-12 col-sm-4 align-items-center">
-                      <img src="img/guest-lecture/kanakvi_aggarwal.webp" class="image img-responsive img-fluid"
-                        style="width: 20em;">
+                      <img src="img/guest-lecture/kanakvi_aggarwal.webp" class="image img-responsive img-fluid" style="width: 20em;">
                       <h5 class="x">kanakvi Aggarwal</h5>
                       <h6 class="x">(Business Analyst)</h6>
                     </div>
@@ -350,36 +390,31 @@
                   <h4 class="x">Speakers from Boston Consulting Group:</h4>
                   <div class="row">
                     <div class="col-12 col-sm-4 align-items-center">
-                      <img src="img/guest-lecture/Saumyata.webp" class="image img-responsive img-fluid"
-                        style="width: 20em;">
+                      <img src="img/guest-lecture/Saumyata.webp" class="image img-responsive img-fluid" style="width: 20em;">
                       <h5 class="x">Saumyata Khandelwala</h5>
-                      
+
                     </div>
                     <div class="col-12 col-sm-4 align-items-center">
-                      <img src="img/guest-lecture/Pallav.webp" class="image img-responsive img-fluid"
-                        style="width: 20em;">
+                      <img src="img/guest-lecture/Pallav.webp" class="image img-responsive img-fluid" style="width: 20em;">
                       <h5 class="x">Pallav Bhutani</h5>
-                     
+
                     </div>
                     <div class="col-12 col-sm-4 align-items-center">
-                      <img src="img/guest-lecture/Divyam.webp" class="image img-responsive img-fluid"
-                        style="width: 20em;">
+                      <img src="img/guest-lecture/Divyam.webp" class="image img-responsive img-fluid" style="width: 20em;">
                       <h5 class="x">Divyam Sharma</h5>
-                      
+
                     </div>
                   </div>
                   <div class="row">
                     <div class="col-12 col-sm-4 offset-sm-2 align-items-center">
-                      <img src="img/guest-lecture/Anusha.webp" class="image img-responsive img-fluid"
-                        style="width: 20em;">
+                      <img src="img/guest-lecture/Anusha.webp" class="image img-responsive img-fluid" style="width: 20em;">
                       <h5 class="x">Anusha Sharan</h5>
-                     
+
                     </div>
                     <div class="col-12 col-sm-4 align-items-center">
-                      <img src="img/guest-lecture/Pranjali.webp" class="image img-responsive img-fluid"
-                        style="width: 20em;">
+                      <img src="img/guest-lecture/Pranjali.webp" class="image img-responsive img-fluid" style="width: 20em;">
                       <h5 class="x">Pranjali Rastogi</h5>
-                      
+
                     </div>
                     <div class="col-2 col-sm-2 align-items-center">
                     </div>
@@ -388,49 +423,44 @@
                 <div class="carousel-item">
                   <h4 class="x">Co-Founder and CTO, Guardians:</h4>
                   <div class="row">
-                    <div class="col-12 col-sm-4 align-items-center" >
+                    <div class="col-12 col-sm-4 align-items-center">
                       <!-- <img src="img/guest-lecture/Saumyata.webp" class="image img-responsive img-fluid"
                         style="width: 20em;">
                       <h5 class="x">Saumyata Khandelwala</h5> -->
-                      
+
                     </div>
                     <div class="col-12 col-sm-4 align-items-center">
-                      <img src="img/guest-lecture/subham.webp" class="image img-responsive img-fluid"
-                        style="width: 20em;">
+                      <img src="img/guest-lecture/subham.webp" class="image img-responsive img-fluid" style="width: 20em;">
                       <h5 class="x">Shubham Jain</h5>
-                     
+
                     </div>
                     <div class="col-12 col-sm-4 align-items-center">
                       <!-- <img src="img/guest-lecture/Divyam.webp" class="image img-responsive img-fluid"
                         style="width: 20em;">
                       <h5 class="x">Divyam Sharma</h5> -->
-                      
+
                     </div>
                   </div>
-                
+
                 </div>
 
 
                 <div class="carousel-item">
                   <div class="row">
                     <div class="col-12 col-sm-6 align-items-center">
-                      <img class="image" src="img/guest-lecture/talk_MCK/a.webp" class="image img-responsive img-fluid"
-                        style="width: 100%; padding: 5%;">
+                      <img class="image" src="img/guest-lecture/talk_MCK/a.webp" class="image img-responsive img-fluid" style="width: 100%; padding: 5%;">
                     </div>
                     <div class="col-12 col-sm-6">
-                      <img class="image" src="img/guest-lecture/talk_MCK/b.webp" class="image img-responsive  img-fluid"
-                        style="width: 100%; padding: 5%;">
+                      <img class="image" src="img/guest-lecture/talk_MCK/b.webp" class="image img-responsive  img-fluid" style="width: 100%; padding: 5%;">
                     </div>
                   </div>
                   <div class="row">
                     <div class="col-12 col-sm-6 align-items-center">
-                      <img class="image" src="img/guest-lecture/talk_MCK/c.webp" class="image img-responsive img-fluid"
-                        style="width: 100%; padding: 5%;">
+                      <img class="image" src="img/guest-lecture/talk_MCK/c.webp" class="image img-responsive img-fluid" style="width: 100%; padding: 5%;">
                     </div>
                     <br>
                     <div class="col-12 col-sm-6 align-items-center">
-                      <img class="image" src="img/guest-lecture/talk_MCK/d.webp" class="image img-responsive img-fluid"
-                      style="width: 100%; padding: 5%;">
+                      <img class="image" src="img/guest-lecture/talk_MCK/d.webp" class="image img-responsive img-fluid" style="width: 100%; padding: 5%;">
                     </div>
                   </div>
                   <br>
@@ -458,8 +488,7 @@
           <div class="panel panel2 text-center">
             <h1 class="x">Guest Lectures</h1>
             <div class="progress" style="height:0.4rem;">
-              <div id="three" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
-                aria-valuemax="100" style="height:0.4rem;"></div>
+              <div id="three" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
             </div>
             <br>
             <div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel">
@@ -495,16 +524,13 @@
                   <br>
                   <div class="row">
                     <div class="col-12 col-sm-4 align-items-center">
-                      <img class="image" src="img/guest-lecture/Mr_Veerendra_Jaitly/a.webp" class="image img-fluid"
-                        style="width: 100%; padding: 5%;">
+                      <img class="image" src="img/guest-lecture/Mr_Veerendra_Jaitly/a.webp" class="image img-fluid" style="width: 100%; padding: 5%;">
                     </div>
                     <div class="col-12 col-sm-4">
-                      <img class="image" src="img/guest-lecture/Mr_Veerendra_Jaitly/b.webp" class="image img-fluid"
-                        style="width: 100%; padding: 5%;">
+                      <img class="image" src="img/guest-lecture/Mr_Veerendra_Jaitly/b.webp" class="image img-fluid" style="width: 100%; padding: 5%;">
                     </div>
                     <div class="col-12 col-sm-4">
-                      <img class="image" src="img/guest-lecture/Mr_Veerendra_Jaitly/c.webp" class="image img-fluid"
-                        style="width: 100%; padding: 5%;">
+                      <img class="image" src="img/guest-lecture/Mr_Veerendra_Jaitly/c.webp" class="image img-fluid" style="width: 100%; padding: 5%;">
                     </div>
                   </div>
                   <br>
@@ -532,8 +558,7 @@
           <div class="panel text-center">
             <h1 class="x">Tips from Top</h1>
             <div class="progress" style="height:0.4rem;">
-              <div id="four" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
-                aria-valuemax="100" style="height:0.4rem;"></div>
+              <div id="four" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
             </div>
             <br>
             <div class="row">
@@ -565,8 +590,7 @@
           <div class="panel text-center">
             <h1 class="x">Kgp & Beyond</h1>
             <div class="progress" style="height:0.4rem;">
-              <div id="five" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
-                aria-valuemax="100" style="height:0.4rem;"></div>
+              <div id="five" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
             </div>
             <br>
             <div class="row">
@@ -592,77 +616,56 @@
           <div class="panel text-center">
             <h1 class="x">Videos</h1>
             <div class="progress" style="height:0.4rem;">
-              <div id="six" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
-                aria-valuemax="100" style="height:0.4rem;"></div>
+              <div id="six" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
             </div>
             <br>
             <!---->
-            <div class="row" style = "padding: 10px;">
+            <div class="row" style="padding: 10px;">
 
               <div class="col-12 col-sm-4 align-items-center iframe-container">
-              <iframe class="image" width="100%" src="https://drive.google.com/file/d/1Qtk0vtIcwo8Hd3vYCbPkCxIPDdTyzcm3/preview?usp=sharing" frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen></iframe>
+                <iframe class="image" width="100%" src="https://drive.google.com/file/d/1Qtk0vtIcwo8Hd3vYCbPkCxIPDdTyzcm3/preview?usp=sharing" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
 
               <div class="col-12 col-sm-4 align-items-center iframe-container">
-                <iframe class="image" width="100%" src="https://youtube.com/embed/JVKgACVJfxI" frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen></iframe>
+                <iframe class="image" width="100%" src="https://youtube.com/embed/JVKgACVJfxI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
 
               <div class="col-12 col-sm-4 align-items-center iframe-container">
-                  <iframe class="image" width="100%" src="https://www.youtube.com/embed/kfCtl0tazKE" frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen></iframe>
+                <iframe class="image" width="100%" src="https://www.youtube.com/embed/kfCtl0tazKE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
             </div>
 
-            <div class="row" style = "padding: 10px;">
+            <div class="row" style="padding: 10px;">
 
-             <div class="col-12 col-sm-4 align-items-center iframe-container">
-             <iframe class="image" width="100%" src="https://drive.google.com/file/d/1H8wHV_sxPbIb8GZkmHULTXkVEtzeLtmN/preview?usp=sharing" frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen></iframe>
-             </div>
-             
-             <div class="col-12 col-sm-4 align-items-center iframe-container">
-             <iframe class="image" width="100%" src="https://www.youtube.com/embed/OpQI9aVbPeQ" frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen></iframe>
-             </div>
-             
-             <div class="col-12 col-sm-4 align-items-center iframe-container">
-             <iframe class="image" width="100%" src="https://www.youtube.com/embed/v8xICuf_yAs" frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen></iframe>
-             </div>
-             </div>
+              <div class="col-12 col-sm-4 align-items-center iframe-container">
+                <iframe class="image" width="100%" src="https://drive.google.com/file/d/1H8wHV_sxPbIb8GZkmHULTXkVEtzeLtmN/preview?usp=sharing" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
 
-            <div class="row" style = "padding: 10px;">
-			        <div class="col-12 col-sm-3 align-items-center iframe-container">
-              <iframe class="image" width="100%" src="https://www.youtube.com/embed/D96tjgVG1kQ" frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen></iframe>
+              <div class="col-12 col-sm-4 align-items-center iframe-container">
+                <iframe class="image" width="100%" src="https://www.youtube.com/embed/OpQI9aVbPeQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+
+              <div class="col-12 col-sm-4 align-items-center iframe-container">
+                <iframe class="image" width="100%" src="https://www.youtube.com/embed/v8xICuf_yAs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </div>
+
+            <div class="row" style="padding: 10px;">
+              <div class="col-12 col-sm-3 align-items-center iframe-container">
+                <iframe class="image" width="100%" src="https://www.youtube.com/embed/D96tjgVG1kQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
 
               <div class="col-12 col-sm-3 align-items-center iframe-container">
-                <iframe class="image" width="100%" src="https://www.youtube.com/embed/-xeGNz5P5F4" frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen></iframe>
+                <iframe class="image" width="100%" src="https://www.youtube.com/embed/-xeGNz5P5F4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
 
               <div class="col-12 col-sm-3 align-items-center iframe-container">
 
-                <iframe class="image" width="100%" src="https://www.youtube.com/embed/oDPfzLblZ1c" frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen></iframe>
+                <iframe class="image" width="100%" src="https://www.youtube.com/embed/oDPfzLblZ1c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
 
               <div class="col-12 col-sm-3 align-items-center iframe-container">
-                <iframe class="image" width="100%" src="https://www.youtube.com/embed/_mZLjVCMrrc" frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen></iframe>
+                <iframe class="image" width="100%" src="https://www.youtube.com/embed/_mZLjVCMrrc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
               </div>
 
             </div>
@@ -673,21 +676,31 @@
   </section>
   </main>
 
- 
-	<!-- <?php include 'preloader.php' ?> -->
-    <?php include 'footer.php' ?>
 
-	  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
+  <!-- <?php include 'preloader.php' ?> -->
+  <?php include 'footer.php' ?>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
   <script>
-  	$( "#one,#two,#three,#four,#five,#six").each(function( ) {
-   $(this).addClass("progress-bar-purple");
-});
-    gsap.from('header', { opacity: 0, duration: 1 })
-    gsap.from('header h1', { opacity: 0, duration: 2, x: -200 })
-    gsap.from('header h6', { opacity: 0, duration: 2, x: -500 })
+    $("#one,#two,#three,#four,#five,#six").each(function() {
+      $(this).addClass("progress-bar-purple");
+    });
+    gsap.from('header', {
+      opacity: 0,
+      duration: 1
+    })
+    gsap.from('header h1', {
+      opacity: 0,
+      duration: 2,
+      x: -200
+    })
+    gsap.from('header h6', {
+      opacity: 0,
+      duration: 2,
+      x: -500
+    })
 
     gsap.registerPlugin(ScrollTrigger);
 
@@ -769,4 +782,5 @@
     });
   </script>
 </body>
+
 </html>
