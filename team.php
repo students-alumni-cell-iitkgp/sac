@@ -14,7 +14,8 @@
   <!--FONT AWESOME-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="./flogo.ico" type="image/x-icon" />
+
   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300'>
   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:400,700,300'>
   <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
@@ -400,7 +401,7 @@
                       <div class="service-card last-card">
                         <div class="card ">
 
-                          <img class="card-img-top" src="img\team2023\ananya.webp" height=300px; alt="Card image cap">
+                          <img class="card-img-top" src="./ananya.webp" height=300px; alt="Card image cap">
 
                           <div class="card-body">
                             <h6 class="x">Ananya Singh</h6>
