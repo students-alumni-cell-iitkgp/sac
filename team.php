@@ -224,7 +224,7 @@
                         <div class="service-card">
                           <div class="card">
 
-                            <img class="card-img-top" src="img\team2024\Prakash.jpg" height=300px; alt="Card image cap">
+                            <img class="card-img-top" src="img\team2024\Prakash.JPG" height=300px; alt="Card image cap">
 
                             <div class="card-body">
                               <h6 class="x">Bhukya Prakash</h6>
