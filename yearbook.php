@@ -106,7 +106,7 @@
                                                         <h4 class="card-title">Yearbook 2023...</h4>
                                                         <div class="row ">
                                                             <div class="img-txt ">
-                                                               <a href="https://drive.google.com/file/d/1frdQF8pVENhUxYCyGhTREkpUrCFA065X/view?usp=sharing"  target="_blank" style="color:black"> UG</a> 
+                                                               <a href="https://drive.google.com/file/d/11kLKdt3w43L-sP9JtaRE2VCxCvIjG4-t/view"  target="_blank" style="color:black"> UG</a> 
                                                             </div>
                                                             <div class="img-txt">
                                                             <a href="https://drive.google.com/file/d/11r-DqsC8tAXcdDyiRJDpBNHCVyYxaaHE/view?usp=sharing"target="_blank" style="color:black"> PG</a>
