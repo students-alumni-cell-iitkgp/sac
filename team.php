@@ -110,7 +110,7 @@
 
                             <div class="card-body">
                               <h6 class="x">Pradyumna Sakinala</h6>
-                              <p class="x">Coordinator,Sponsorship</p>
+                              <p class="x">Coordinator, Sponsorship</p>
                               <div class='row'>
                                 <div class="col-3">
                                   <a href='https://www.facebook.com/pradyumna.sakinala/' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
@@ -138,7 +138,7 @@
 
                             <div class="card-body">
                               <h6 class="x">Akshat Verma</h6>
-                              <p class="x">Coordinator,Sponsorship</p>
+                              <p class="x">Coordinator, Sponsorship</p>
                               <div class='row'>
                                 <div class="col-3">
                                   <a href='https://www.facebook.com/profile.php?id=100050080189979' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
@@ -310,7 +310,7 @@
                         <div class="service-card">
                           <div class="card">
 
-                            <img class="card-img-top" src="img\team2024\Omkar.jpeg" height=300px; alt="Card image cap">
+                            <img class="card-img-top" src="img\team2024\Omkar.jpg" height=300px; alt="Card image cap">
 
                             <div class="card-body">
                               <h6 class="x">Omkar Sai</h6>
