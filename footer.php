@@ -133,7 +133,7 @@ height:2em;
                
                 <div class='col-6 footer-top-right'>
                     <h5>Students' Alumni Cell, IIT Kharagpur</h5>
-                    <p>Office of Alumni Affairs & Branding,<br>
+                    <p>Office of Alumni Affairs<br>
                         Indian Institute of Technology, Kharagpur<br>
                         Pin-721302, West Bengal, India<br>
                         <em>Ph: 03222-281860</em> <br>
@@ -164,7 +164,7 @@ height:2em;
 </div>
 
 
-  		<p id='copyright'>&copy; 2020 Students' Alumni Cell</p>
+  		<p id='copyright'>&copy; 2024 Students' Alumni Cell</p>
           </div>
         </div>
        
