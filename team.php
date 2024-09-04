@@ -2232,7 +2232,7 @@
       opacity: 0,
       duration: 1.5,
     });
-
+    
   }
   gsap.utils.toArray('#panel').forEach((panel, i) => {
     ScrollTrigger.create({
