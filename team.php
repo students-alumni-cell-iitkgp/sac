@@ -14,7 +14,8 @@
   <!--FONT AWESOME-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="./flogo.ico" type="image/x-icon" />
+
   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300'>
   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:400,700,300'>
   <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
@@ -26,14 +27,359 @@
   <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 </head>
 <?php include 'navbar.php' ?>
-<div class="accordion" id="accordionExample">
+<div class="accordion" id="headingOne">
+<div class="accordion-item">
+      <h2 class="accordion-header" id="headingFour">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          Head Team 2024
+        </button>
+      </h2>
+      <div id="collapseFour" class="accordion-collapse collapse show" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <section class="section-2">
+            <div class="container text-center">
+              <div class="row">
+                <div class="col-md-12 col-12">
+                  <div class="panel text-center">
+                    <br>
+                    <div class="row">
+                      <div class="col-12 col-sm-6 align-items-center">
+                        <div class="service-card">
+                          <div class="card">
+
+                            <img class="card-img-top" src="img\team2024\Suhani.jpg" height=300px; alt="Card image cap">
+
+                            <div class="card-body">
+                              <h6 class="x">Suhani Mandliya</h6>
+                              <p class="x">General Secretary</p>
+                              <div class='row'>
+                                <div class="col-3">
+                                  <a href='https://www.facebook.com/profile.php?id=100087824162231' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='https://www.linkedin.com/in/suhanimandliya/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='mailto:suhanimandliya@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='tel:+918989674193' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                </div>
+
+                              </div>
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-sm-6 align-items-center">
+                        <div class="service-card">
+                          <div class="card">
+
+                            <img class="card-img-top" src="img\team2024\Amish.jpg" height=300px; alt="Card image cap">
+
+                            <div class="card-body">
+                              <h6 class="x">Amish Bhatnagar</h6>
+                              <p class="x">General Secretary</p>
+                              <div class='row'>
+                                <div class="col-3">
+                                  <a href='https://www.facebook.com/profile.php?id=100088507508165' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='https://www.linkedin.com/in/amishbhatnagar/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='mailto:amishbhatnagarsac@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='tel:+919911034435' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                </div>
+
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-12 col-sm-6 align-items-center">
+                        <div class="service-card">
+                          <div class="card">
+
+                            <img class="card-img-top" src="img\team2024\Pradyumna.jpg" height=300px; alt="Card image cap">
+
+                            <div class="card-body">
+                              <h6 class="x">Pradyumna Sakinala</h6>
+                              <p class="x">Coordinator, Sponsorship</p>
+                              <div class='row'>
+                                <div class="col-3">
+                                  <a href='https://www.facebook.com/pradyumna.sakinala/' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='https://www.linkedin.com/in/pradyumna-sakinala-1a5461253/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='mailto:pradyumnasakinala@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='tel:+916304842933' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                </div>
+
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-sm-6 align-items-center">
+                        <div class="service-card">
+                          <div class="card">
+
+                            <img class="card-img-top" src="img\team2024\Akshat.jpg" height=300px; alt="Card image cap">
+
+                            <div class="card-body">
+                              <h6 class="x">Akshat Verma</h6>
+                              <p class="x">Coordinator, Sponsorship</p>
+                              <div class='row'>
+                                <div class="col-3">
+                                  <a href='https://www.facebook.com/profile.php?id=100050080189979' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='https://www.linkedin.com/in/akshatvermaa' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='mailto:akshatver1231@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='tel:+918534850801' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                </div>
+
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                    <div class="row">
+                      <div class="col-12 col-sm-6 align-items-center">
+                        <div class="service-card">
+                          <div class="card">
+
+                            <img class="card-img-top" src="img\team2024\Yash.jpg" height=300px; alt="Card image cap" style="object-position: left;">
+
+                            <div class="card-body">
+                              <h6 class="x">Yash Gupta</h6>
+                              <p class="x">Coordinator, Networking and Public Relations</p>
+                              <div class='row'>
+                                <div class="col-3">
+                                  <a href='https://www.facebook.com/profile.php?id=100087711060123&mibextid=ZbWKwL' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='https://www.linkedin.com/in/yashgupta180603?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='mailto:yash.gupta.18.06.03@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='tel:+917440222443' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                </div>
+
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-sm-6 align-items-center">
+                        <div class="service-card">
+                          <div class="card">
+
+                            <img class="card-img-top" src="img\team2024\Shrirang.jpg" height=300px; alt="Card image cap">
+
+                            <div class="card-body">
+                              <h6 class="x">Shrirang Elkunchwar</h6>
+                              <p class="x">Web Head</p>
+                              <div class='row'>
+                                <div class="col-3">
+                                  <a href='https://www.facebook.com/profile.php?id=100087886400004' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='https://www.linkedin.com/in/shrirang-elkunchwar-b17171250/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='mailto:shrirangelk221@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='tel:+918275802112' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                </div>
+
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                    <div class="row">
+                      <div class="col-12 col-sm-6 align-items-center">
+                        <div class="service-card">
+                          <div class="card">
+
+                            <img class="card-img-top" src="img\team2024\Prakash.JPG" height=300px; alt="Card image cap">
+
+                            <div class="card-body">
+                              <h6 class="x">Bhukya Prakash</h6>
+                              <p class="x">Web Head</p>
+                              <div class='row'>
+                                <div class="col-3">
+                                  <a href='https://www.facebook.com/prakash.bhukya.7543/' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='https://www.linkedin.com/in/prakashbhukya/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='mailto:prakashbhukya224@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='tel:+917989129646' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                </div>
+
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-sm-6 align-items-center">
+                        <div class="service-card">
+                          <div class="card">
+
+                            <img class="card-img-top" src="img\team2024\Soumya.jpeg" height=300px; alt="Card image cap">
+
+                            <div class="card-body">
+                              <h6 class="x">Soumya Ranjan Jena</h6>
+                              <p class="x">Public Relations Head (Design)</p>
+                              <div class='row'>
+                                <div class="col-3">
+                                  <a href='https://www.facebook.com/profile.php?id=100085501555543' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='https://www.linkedin.com/in/soumya-ranjan-jena-338a8a276' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='mailto:soumyaranjanj53@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='tel:+919777173535' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                </div>
+
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-12 col-sm-6 align-items-center">
+                        <div class="service-card">
+                          <div class="card">
+
+                            <img class="card-img-top" src="img\team2024\Veda.png" height=300px; alt="Card image cap">
+
+                            <div class="card-body">
+                              <h6 class="x">Beemagani Veda</h6>
+                              <p class="x">Public Relations Head (Design)</p>
+                              <div class='row'>
+                                <div class="col-3">
+                                  <a href='https://www.facebook.com/profile.php?id=100087168686973' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='https://www.linkedin.com/in/veda-beemagani-328b5525a/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='mailto:' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='tel:+91' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                </div>
+
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-sm-6 align-items-center">
+                        <div class="service-card">
+                          <div class="card">
+
+                            <img class="card-img-top" src="img\team2024\Omkar.jpg" height=300px; alt="Card image cap">
+
+                            <div class="card-body">
+                              <h6 class="x">Omkar Sai</h6>
+                              <p class="x">Public Relations Head (Videography)</p>
+                              <div class='row'>
+                                <div class="col-3">
+                                  <a href='https://www.facebook.com/profile.php?id=100088073732742' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='https://www.linkedin.com/in/omkarsai/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='mailto:omkarrrsaiii@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='tel:+918008343781' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                </div>
+
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- <div class="row justify-content-center">
+                      <div class="col-12 col-sm-6 col-6">
+                        <div class="service-card">
+                          <div class="card">
+
+                            <img class="card-img-top" src="img\team2020\nischay.jpg" height=300px; alt="Card image cap">
+
+                            <div class="card-body">
+                              <h6 class="x">Nischay Gothwal</h6>
+                              <p class="x">(Former PR Head)</p>
+                              <div class='row'>
+                                <div class="col-3">
+                                  <a href='https://www.facebook.com/nischay.gothwal' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='https://www.linkedin.com/in/nischay-gothwal/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='#' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='#' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                </div>
+
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
   <div class="accordion-item">
-    <h2 class="accordion-header" id="headingOne">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+    <h2 class="accordion-header" id="heading">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
         Head Team 2023
       </button>
     </h2>
-    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
       <div class="accordion-body">
         <section class="section-2">
           <div class="container text-center">
@@ -50,7 +396,7 @@
 
                           <div class="card-body">
                             <h6 class="x">Aryan Garg</h6>
-                            <p class="x">General Secretary</p>
+                            <p class="x">(Former General Secretary)</p>
                             <div class='row'>
                               <div class="col-3">
                                 <a href='https://www.facebook.com/profile.php?id=100073394443471&mibextid=LQQJ4d' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
@@ -79,7 +425,7 @@
 
                           <div class="card-body">
                             <h6 class="x">Syed Ahmad Hasan</h6>
-                            <p class="x">General Secretary</p>
+                            <p class="x">(Former General Secretary)</p>
                             <div class='row'>
                               <div class="col-3">
                                 <a href='https://www.facebook.com/profile.php?id=100075514444981' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
@@ -109,7 +455,7 @@
 
                           <div class="card-body">
                             <h6 class="x">Bhuvan Jambhulkar</h6>
-                            <p class="x">Coordinator, Sponsorship</p>
+                            <p class="x">(Former Coordinator, Sponsorship)</p>
                             <div class='row'>
                               <div class="col-3">
                                 <a href='https://www.facebook.com/bhuvan.jambhulkar.3' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
@@ -137,7 +483,7 @@
 
                           <div class="card-body">
                             <h6 class="x">Khyati Gupta</h6>
-                            <p class="x">Coordinator, Sponsorship</p>
+                            <p class="x">(Former Coordinator, Sponsorship)</p>
                             <div class='row'>
                               <div class="col-3">
                                 <a href='https://www.facebook.com/profile.php?id=100075525097218&mibextid=ZbWKwL' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
@@ -168,7 +514,7 @@
 
                           <div class="card-body">
                             <h6 class="x">Muskan Turaha</h6>
-                            <p class="x">Coordinator, Networking and PR</p>
+                            <p class="x">(Former Coordinator, Networking and PR)</p>
                             <div class='row'>
                               <div class="col-3">
                                 <a href='https://www.facebook.com/profile.php?id=100075296058773&mibextid=ZbWKwL' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
@@ -196,7 +542,7 @@
 
                           <div class="card-body">
                             <h6 class="x">Vivek Unadkat</h6>
-                            <p class="x">Coordinator, PR and Sponsorship</p>
+                            <p class="x">(Former Coordinator, PR and Sponsorship)</p>
                             <div class='row'>
                               <div class="col-3">
                                 <a href='https://www.facebook.com/vivek.unadkat.106' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
@@ -227,7 +573,7 @@
 
                           <div class="card-body">
                             <h6 class="x">Debayan Biswas</h6>
-                            <p class="x">Web Head</p>
+                            <p class="x">(Former Web Head)</p>
                             <div class='row'>
                               <div class="col-3">
                                 <a href='https://www.facebook.com/debayan.biswas.9638' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
@@ -255,7 +601,7 @@
 
                           <div class="card-body">
                             <h6 class="x">Puspendra Kumar</h6>
-                            <p class="x">Web Head</p>
+                            <p class="x">(Former Web Head)</p>
                             <div class='row'>
                               <div class="col-3">
                                 <a href='https://www.facebook.com/profile.php?id=100075203721913' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
@@ -285,7 +631,7 @@
 
                           <div class="card-body">
                             <h6 class="x">Tushar Mondal</h6>
-                            <p class="x">Public Relations Head (Design)</p>
+                            <p class="x">(Former Public Relations Head (Design))</p>
                             <div class='row'>
                               <div class="col-3">
                                 <a href='https://www.facebook.com/cristiano.tushar.9/' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
@@ -313,7 +659,7 @@
 
                           <div class="card-body">
                             <h6 class="x">Syed Zeeshan Razvi</h6>
-                            <p class="x">Public Relations Head (Design)</p>
+                            <p class="x">(Former Public Relations Head (Design))</p>
                             <div class='row'>
                               <div class="col-3">
                                 <a href='https://www.facebook.com/profile.php?id=100075305655459&mibextid=ZbWKwL' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
@@ -400,11 +746,11 @@
                       <div class="service-card last-card">
                         <div class="card ">
 
-                          <img class="card-img-top" src="img\team2023\ananya.webp" height=300px; alt="Card image cap">
+                          <img class="card-img-top" src="./ananya.webp" height=300px; alt="Card image cap">
 
                           <div class="card-body">
                             <h6 class="x">Ananya Singh</h6>
-                            <p class="x">Public Relations Head (Videography)</p>
+                            <p class="x">(Former Public Relations Head (Videography))</p>
                             <div class='row'>
                               <div class="col-3">
                                 <a href='https://www.facebook.com/profile.php?id=100075497561359&mibextid=ZbWKwL' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
@@ -1159,7 +1505,7 @@
         </div>
       </div>
     </div>
-    <div class="accordion-item">
+    <!-- <div class="accordion-item">
       <h2 class="accordion-header" id="headingFour">
         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
           Head Team 2020
@@ -1503,7 +1849,7 @@
           </section>
         </div>
       </div>
-    </div>
+    </div> -->
 
 
     <!-- <div class="accordion-item">
@@ -1894,6 +2240,23 @@
           </div>
           <br>
           <div class="row">
+          <div div class="col-12 col-sm-4 former-team-text">
+              <h4>2020</h4>
+              <ul class='team' style="list-style:none;padding-left: 0px;">
+
+                <li>Subhadra Jena</li>
+                <li>Akash Srivastava</li>
+                <li>Mayank Arora</li>
+                <li>Nititka Shrof</li>
+                <li>Sanjay Motwani</li>
+                <li>Visahw Kashyap</li>
+                <li>Anuja Raj Verma</li>
+                <li>Yukta Bagdi</li>
+                <li>Prasang Kumar</li>
+                <li>Rititsh Dutt</li>
+                <li>Nischay Gothwal</li>
+              </ul>
+            </div>
             <div div class="col-12 col-sm-4 former-team-text">
               <h4>2019</h4>
               <ul class='team' style="list-style:none;padding-left: 0px;">
@@ -1928,7 +2291,10 @@
                 <li>Harsh Yadav</li>
               </ul>
             </div>
-            <div div class="col-12 col-sm-4 former-team-text">
+           
+          </div>
+          <div class="row">
+          <div div class="col-12 col-sm-4 former-team-text">
               <h4>2017</h4>
               <ul class='team' style="list-style:none;padding-left: 0px;">
                 <li>Bharat Chandra</li>
@@ -1944,11 +2310,6 @@
                 <li>Aman Kumar Aggarwal</li>
               </ul>
             </div>
-
-
-
-          </div>
-          <div class="row">
             <div class="col-12 col-sm-4 former-team-text">
               <h4>2016</h4>
               <ul class='team' style="list-style:none;padding-left: 0px;">
@@ -1981,9 +2342,9 @@
               </ul>
             </div>
 
-
-
-            <div class="col-12 col-sm-4 former-team-text">
+          </div>
+          <div class="row">
+          <div class="col-12 col-sm-4 former-team-text">
               <h4>2014</h4>
               <ul class='team' style="list-style:none;padding-left: 0px;">
                 <li>Arpit Gupta</li>
@@ -1996,9 +2357,6 @@
                 <li>Satyajit Kumar</li>
               </ul>
             </div>
-
-          </div>
-          <div class="row">
             <div class="col-12 col-sm-4 former-team-text">
               <h4>2013</h4>
               <ul class='team' style="list-style:none;padding-left: 0px;">
@@ -2029,7 +2387,12 @@
                 <li>Tanya Mondal</li>
               </ul>
             </div>
-            <div class="col-12 col-sm-4 former-team-text">
+            
+
+
+          </div>
+          <div class="row">
+          <div class="col-12 col-sm-4 former-team-text">
               <h4>2011</h4>
               <ul class='team' style="list-style:none;padding-left: 0px;">
                 <li>Nikunj Mall</li>
@@ -2042,10 +2405,6 @@
                 <li>Siddarth Mall</li>
               </ul>
             </div>
-
-
-          </div>
-          <div class="row">
             <div class="col-12 col-sm-4 former-team-text">
               <h4>2010</h4>
               <ul class='team' style="list-style:none;padding-left: 0px;">
