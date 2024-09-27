@@ -71,6 +71,70 @@
                 <div class="row">
                     <div class="col-md-12 col-12">
                         <div class="panel text-center">
+                            <h1 class="x">Alvida 2024</h1>
+                            <div class="progress" style="height:0.4rem;">
+                                <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
+                                    aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
+                            </div>
+                            <br>
+                            <!-- Photo Grid -->
+                            <div class="row">
+                                <div class="col-12 col-sm-3">
+                                    <a href="" class="venobox" data-gall="gallery-item">
+                                        <img src="img/Alvida/Alvida_2024/IMG_3002.webp" class="image" style="width:100%">
+                                    </a>
+                                </div>
+                                <div class="col-12 col-sm-3">
+                                    <a href="img/Alvida/Alvida_2022/al11.webp" class="venobox" data-gall="gallery-item">
+                                        <img src="img/Alvida/Alvida_2024/IMG_9790.webp" class="image" style="width:100%">
+                                    </a>
+                                </div>
+                                <div class="col-12 col-sm-3">
+                                    <a href="img/Alvida/Alvida_2022/al5.webp" class="venobox" data-gall="gallery-item">
+                                        <img src="img/Alvida/Alvida_2024/DSC_0297.webp" class="image" style="width:100%">
+                                    </a>
+                                </div>
+                                <div class="col-12 col-sm-3">
+                                    <a href="img/Alvida/Alvida_2022/al2.webp" class="venobox" data-gall="gallery-item">
+                                        <img src="img/Alvida/Alvida_2024/IMG_9884.webp" class="image" style="width:100%">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-sm-6">
+                                    <a href="img/Alvida/Alvida_2022/al1.webp" class="venobox" data-gall="gallery-item">
+                                        <img src="img/Alvida/Alvida_2024/DSC_0011.webp" class="image" style="width:100%">
+                                    </a>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <a href="img/Alvida/Alvida_2022/al4.webp" class="venobox" data-gall="gallery-item">
+                                        <img src="img/Alvida/Alvida_2024/IMG_3044.webp" class="image" style="width:100%">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-sm-6">
+                                    <a href="img/Alvida/Alvida_2024/DSC_0343.webp" class="venobox" data-gall="gallery-item">
+                                        <img src="img/Alvida/Alvida_2024/IMG_9942.webp" class="image" style="width:100%">
+                                    </a>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <a href="img/Alvida/Alvida_2022/al9.webp" class="venobox" data-gall="gallery-item">
+                                        <img src="img/Alvida/Alvida_2024/DSC_0343.webp" class="image" style="width:100%">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-2">
+            <div class="container-fluid text-center">
+                <div class="row">
+                    <div class="col-md-12 col-12">
+                        <div class="panel text-center">
                             <h1 class="x">Alvida 2022</h1>
                             <div class="progress" style="height:0.4rem;">
                                 <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"

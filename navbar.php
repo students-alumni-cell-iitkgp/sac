@@ -34,7 +34,7 @@
 								<li><a class="dropdown-item" href="homecoming2022.php"> Homecoming </a></li>
 								<li><a class="dropdown-item" href="leadershipsummit.php"> Leadership Summit </a></li>
 								<li><a class="dropdown-item" href="phonathon.php"> Phonathon </a></li>
-								<li><a class="dropdown-item" href="sam.php"> Students' Alumni Meet </a></li>
+								<li><a class="dropdown-item" href="sam.php"> Student Alumni Meet </a></li>
 							</ul>
 						</div>
 
