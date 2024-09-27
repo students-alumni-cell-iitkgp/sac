@@ -27,7 +27,7 @@
 <body>
     <?php include 'navbar.php' ?>
     <!--<div class = "header" style="background-image: url(img/indexslider/alvida.webp);">-->
-    <div class = "header" style="background-image: url(img/Alvida/Alvida_2022/Alvida.webp);">
+    <div class = "header" style="background-image: url(img//Alvida/Alvida_2024/alvida_cover.webp);">
         <div class="container text-center">
             <div class="row">
                 <div class="col-md-7 col-sm-12  text-white">
