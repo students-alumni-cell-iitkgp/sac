@@ -78,6 +78,80 @@
         </div>
       </div>
     </section>
+
+    <section class="section-2">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-md-12 col-12">
+            <div class="panel text-center">
+              <h1>SAM'24 HYDERABAD</h1>
+              <div class="progress" style="height:0.4rem;">
+                <div id="three" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                  aria-valuemax="100" style="height:0.4rem;"></div>
+              </div>
+              <br>
+              <!-- Photo Grid -->
+              <div id="gallery_row" class="row">
+                <div id="gallery_row" class="column">
+                  <img class="image" src="./SAM images/SAM'24-HYD/DSC_0050.webp" style="width:100%">
+                  <img class="image" src="./SAM images/SAM'24-HYD/DSC_0126.webp" style="width:100%">
+                </div>
+                <div id="gallery_row" class="column">
+                  <img class="image" src="./SAM images/SAM'24-HYD/DSC_0201.webp" style="width:100%; height: 165px;">
+                  <img class="image" src="./SAM images/SAM'24-HYD/DSC_0508.webp" style="width:100%;">
+                </div>
+                <div id="gallery_row" class="column">
+                  <img class="image" src="./SAM images/SAM'24-HYD/DSC_1014.webp" style="width:100%; height: 165px;">
+                  <img class="image" src="./SAM images/SAM'24-HYD/IMG_6896.webp" style="width:100%; height: 170px;">
+                </div>
+                <div id="gallery_row" class="column">
+                  <img class="image" src="./SAM images/SAM'24-HYD/IMG_6932.webp" style="width:100%; height: 342 px;">
+                  <img class="image" src="./SAM images/SAM'24-HYD/IMG_8785.webp" style="width:100%; height: 170px;">
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-2">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-md-12 col-12">
+            <div class="panel text-center">
+              <h1>SAM'24 PUNE</h1>
+              <div class="progress" style="height:0.4rem;">
+                <div id="three" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
+                  aria-valuemax="100" style="height:0.4rem;"></div>
+              </div>
+              <br>
+              <!-- Photo Grid -->
+              <div id="gallery_row" class="row">
+                <div id="gallery_row" class="column">
+                  <img class="image" src="./SAM images/SAM'24-PUNE/IMG_7297.webp" style="width:100%">
+                  <img class="image" src="./SAM images/SAM'24-PUNE/IMG_7311.webp" style="width:100%">
+                </div>
+                <div id="gallery_row" class="column">
+                  <img class="image" src="./SAM images/SAM'24-PUNE/IMG_7332.webp" style="width:100%; height: 165px;">
+                  <img class="image" src="./SAM images/SAM'24-PUNE/IMG_7338.webp" style="width:100%;">
+                </div>
+                <div id="gallery_row" class="column">
+                  <img class="image" src="./SAM images/SAM'24-PUNE/IMG_7354.webp" style="width:100%; height: 165px;">
+                  <img class="image" src="./SAM images/SAM'24-PUNE/IMG_7356.webp" style="width:100%; height: 170px;">
+                </div>
+                <div id="gallery_row" class="column">
+                  <img class="image" src="./SAM images/SAM'24-PUNE/IMG_7393.webp" style="width:100%; height: 342 px;">
+                  <img class="image" src="./SAM images/SAM'24-PUNE/WhatsApp Image 2024-05-31 at 12.54.36(1).webp" style="width:100%; height: 170px;">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="section-2">
       <div class="container text-center">
         <div class="row">
