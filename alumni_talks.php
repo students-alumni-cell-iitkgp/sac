@@ -54,6 +54,132 @@
         </div>
       </div>
     </div>
+
+    <!-- Alumni Talks 2024, BCG and VP Conclave -->
+
+    <section class="section-2">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-md-12 col-12">
+          <div class="panel panel1 text-center">
+            <h1 class="x">Alumni Talks</h1>
+            <div class="progress" style="height:0.4rem;">
+              <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
+            </div>
+            <br>
+            <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <h4 class="x">BCG Talks</h4>
+                  <div class="row">
+                    <div class="col-12 col-sm-2 align-items-center">
+                      <img src="AlumniTalks24/bcg01.jpeg" class="image img-responsive img-fluid" style="width: 20em;height:18em;">
+                      <h5 class="x">Nikita Kishore</h5>
+                      <h6 class="x">(Senior Associate, BCG)</h6>
+                    </div>
+                    <div class="col-12 col-sm-2 align-items-center">
+                      <img src="AlumniTalks24/bcg02.jpeg" class="image img-responsive img-fluid" style="width: 20em;height:18em;">
+                      <h5 class="x">Devaki Nandana</h5>
+                      <h6 class="x">(Associate, BCG)</h6>
+                    </div>
+                    <div class="col-12 col-sm-2 align-items-center">
+                      <img src="AlumniTalks24/bcg03.jpeg" class="image img-responsive img-fluid" style="width: 20em;height:18em;">
+                      <h5 class="x">Mehul Gupta</h5>
+                      <h6 class="x">(Associate, BCG)</h6>
+                    </div>
+                    <div class="col-12 col-sm-2 align-items-center">
+                      <img src="AlumniTalks24/bcg04.jpeg" class="image img-responsive img-fluid" style="width: 20em;height:18em;">
+                      <h5 class="x">Pranav Gupta</h5>
+                      <h6 class="x">(Associate, BCG)</h6>
+                    </div>
+                    <div class="col-12 col-sm-2 align-items-center">
+                      <img src="AlumniTalks24/bcg05.jpeg" class="image img-responsive img-fluid" style="width: 20em;height:18em;">
+                      <h5 class="x">Ruthu S Sanketh</h5>
+                      <h6 class="x">(Associate, BCG)</h6>
+                    </div>
+                    <div class="col-12 col-sm-2 align-items-center">
+                      <img src="AlumniTalks24/bcg06.jpeg" class="image img-responsive img-fluid" style="width: 20em;height:18em;">
+                      <h5 class="x">Aryansh Singh</h5>
+                      <h6 class="x">(Associate, BCG)</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <h4 class="x">The Leadership Journey</h4>
+                  <div class="row">
+                    <div class="col-12 col-sm-1 align-items-center">
+
+                    </div>
+                    <div class="col-12 col-sm-2 align-items-center">
+                      <img src="AlumniTalks24/01.png" class="image img-responsive img-fluid" style="width: 20em; height:18em;">
+                      <h5 class="x">Mr. Arun Jain</h5>
+                      <h6 class="x">(Business Adviory, LLC)</h6>
+                    </div>
+                    <div class="col-12 col-sm-2 align-items-center">
+                      <img src="AlumniTalks24/02.png" class="image img-responsive img-fluid" style="width: 20em; height:18em;">
+                      <h5 class="x">Mr. Sanket Kumar</h5>
+                      <h6 class="x">(Water Foundation Trust)</h6>
+                    </div>
+                    <div class="col-12 col-sm-2 align-items-center">
+                      <img src="AlumniTalks24/03.png" class="image img-responsive img-fluid" style="width: 20em; height:18em;">
+                      <h5 class="x">Mr. Pradip Fatehpuria</h5>
+                      <h6 class="x">(Co-founder & CTO at Trumio Inc)</h6>
+                    </div>
+                    <div class="col-12 col-sm-2 align-items-center">
+                      <img src="AlumniTalks24/04.png" class="image img-responsive img-fluid" style="width: 20em; height:18em;">
+                      <h5 class="x">Mr. Ronnie Ray</h5>
+                      <h6 class="x">(Co-founder & CEO, TrumioInc)</h6>
+                    </div>
+                    <div class="col-12 col-sm-2  align-items-center">
+                      <img src="AlumniTalks24/05.png" class="image img-responsive img-fluid" style="width: 20em; height:18em;">
+                      <h5 class="x">Mr. Brahmjot Singh</h5>
+                      <h6 class="x">(Consultant, Nation with Namo)</h6>
+                    </div>
+                    <div class="col-12 col-sm-1 align-items-center">
+
+                    </div>
+                  </div>
+                </div>
+                <!-- <div class="carousel-item">
+                  <h4 class="x">Campus Hero Webinar</h4>
+                  <div class="row">
+                    <div class="col-12 col-sm-4 align-items-center">
+
+
+                    </div>
+                    <div class="col-12 col-sm-4 align-items-center">
+                      <img src="AlumniTalks2024/4.webp" class="image img-responsive img-fluid" style="width: 20em;">
+                      <h5 class="x">Abhishek Kumar</h5>
+                      <h6 class="x">Data Scientist, KIE Square Analytics</h6>
+                    </div>
+                    <div class="col-12 col-sm-4 align-items-center">
+                    </div>
+                  </div>
+                </div> -->
+                <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon prev1" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon next1" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section> 
+
+  <!-- #############################  2024 Talks over -->
+
+
+
+  <!-- alumni talks -->
   </section>
   <section class="section-2">
     <div class="container text-center">
