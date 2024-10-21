@@ -27,6 +27,7 @@
 
         body {
             width: 100%;
+            height:auto;
             font-family: 'Poppins', sans-serif;
         }
 
@@ -36,6 +37,8 @@
             color: #bbb;
             font-size: 1rem;
             position: relative;
+            /* bottom: 0; */
+            height:auto;
         }
 
         #footer h5 {
@@ -205,8 +208,10 @@
             <!-- <div class="divider"></div> -->
             <!-- Copyright positioned at the bottom -->
         </div>
+
     </div>
     <p class="copyright">&copy; 2024 Students' Alumni Cell</p>
+
 
 
     <!-- Back to Top Button -->
