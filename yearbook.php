@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="css\yearbook.css">
     <link rel="stylesheet" href="css/SAM_mobile-style.css">
     <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
-    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./flogo.ico" type="image/x-icon" />
+
     <!-- CSS only -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
@@ -88,12 +89,35 @@
                 </div>
                 <br>
                 <div class="row">
+                
                     <div class="col-sm-12">
                         <div id="inam" class="carousel slide" data-ride="carousel" data-interval="false">
                             <div class="carousel-inner">
-                            <div class="carousel-item active">
+                                <div class="carousel-item active">
+                                
                                     <div class="container">
+
                                         <div class="row">
+                                        
+                                            <div class="col-sm-12 col-lg-4">
+                                                <div class="card" style="height: 100% !important;">
+                                                    <img src="img\yearbook\yb23.webp" class="h-img">
+                                                    <div class="card-body">
+                                                        <h4 class="card-title">Yearbook 2023...</h4>
+                                                        <div class="row ">
+                                                            <div class="img-txt ">
+                                                               <a href="https://drive.google.com/file/d/11kLKdt3w43L-sP9JtaRE2VCxCvIjG4-t/view"  target="_blank" style="color:black"> UG</a> 
+                                                            </div>
+                                                            <div class="img-txt">
+                                                            <a href="https://drive.google.com/file/d/11r-DqsC8tAXcdDyiRJDpBNHCVyYxaaHE/view?usp=sharing"target="_blank" style="color:black"> PG</a>
+                                                            </div>
+                                                            <div class="img-txt">
+                                                            <a href="https://drive.google.com/file/d/1R8w67KQpKHouNd2K0uoA2d03DAVPhrYr/view?usp=sharing"target="_blank" style="color:black"> RS</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                             <div class="col-sm-12 col-lg-4">
                                                 <div class="card" style="height: 100% !important;">
                                                     <img src="img\yearbook\yb22.webp" class="h-img">
@@ -132,6 +156,13 @@
                                                     </div>
                                                 </div>
                                             </div>
+                                        
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item ">
+                                    <div class="container">
+                                        <div class="row">
                                             <div class="col-sm-12 col-lg-4">
                                                 <div class="card" style="height: 100% !important;">
                                                     <img src="img\yearbook\year2020.webp" class="h-img">
@@ -151,12 +182,6 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item ">
-                                    <div class="container">
-                                        <div class="row">
                                             <div class="col-sm-12 col-lg-4">
                                                 <div class="card" style="height: 100% !important;">
                                                     <img src="img\yearbook\year2019.webp" class="h-img">
@@ -195,12 +220,19 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-sm-12 col-lg-4">
+                                      
+                                    </div>
+                                </div>
+                                    </div>
+                                <div class="carousel-item">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-sm-12 col-lg-3">
                                              <div class="card" style="height: 100% !important;">
                                                     <img src="img\yearbook\year2017.webp" class="card-img-top">
                                                     <div class="card-body">
                                                         <h4 class="card-title">YearBook 2017...</h4>
-                                                        <div class="row ">
+                                                        <div class="row">
                                                             <div class="img-txt ">
                                                                <a href="https://drive.google.com/file/d/0ByPZPiiPCG8_aFFtN1VRRU5lb00/view?usp=sharing&resourcekey=0-wity-gekXThY6oNZ4Iya4A"target="_blank" style="color:black"> UG</a>
                                                             </div>
@@ -214,13 +246,8 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="container">
-                                        <div class="row justify-content-center">
-                                        <div class="col-sm-12 col-lg-3">
+                                            
+                                            <div class="col-sm-12 col-lg-3">
                                                 <div class="card" style="height: 100% !important;">
                                                     <img src="img\yearbook\year2016.webp" class="card-img-top">
                                                     <div class="card-body">
@@ -279,33 +306,18 @@
                                                 </div>
 
                                             </div>
-                                            <div class="col-sm-12 col-lg-3">
-                                                <div class="card" style="height: 100% !important;">
-                                                    <img src="img\yearbook\year2013.webp" class="card-img-top">
-                                                    <div class="card-body">
-                                                        <h4 class="card-title">YearBook 2013...</h4>
-                                                        <div class="row ">
-                                                            <div class="img-txt ">
-                                                                <h6>UG</h6>
-                                                            </div>
-                                                            <div class="img-txt">
-                                                                <h6>PG</h6>
-                                                            </div>
-                                                            <div class="img-txt">
-                                                                <h6>RS</h6>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-
+                                 
+                                   
                                         </div>
 
                                     </div>
 
-
                                 </div>
+
+
+                            </div>
+
+                        
                             </div>
                             <a href="#inam" class="carousel-control-prev" data-slide="prev">
                                 <span class="carousel-control-prev-icon bg-dark"></span>

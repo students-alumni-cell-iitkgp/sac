@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>Students' Alumni Cell | Affinity Programme</title>
+  <link rel="shortcut icon" href="./flogo.ico" type="image/x-icon" />
 
-  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
 
   <!--CSS only-->
   <link rel="stylesheet" href="css/affinity.css">
@@ -89,62 +89,7 @@
     </div>
   </section> -->
 
-  <section class="section-2">
-  <!-- <a id="currentAssociations"></a> -->
-    <div class="container text-center">
-      <div class="row">
-        <div class="col-md-12 col-12">
-          <div class="panel panel1 text-center">
-            <h1 class="x">Current Associations</h1>
-            <div class="progress" style="height:0.4rem;">
-              <div id="three" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0"
-                aria-valuemax="100" style="height:0.4rem;"></div>
-            </div>
-            <br>
-            <div class="row" style="display:flex;justify-content:center;">
-            
-            <div class="col-sm-4">
-              <div class="service-card">
-                <div class="card content" >
-                  <div class="content-overlay"></div>
-                  <img class="card-img-top" src="img\affinity\algo_logo.webp" alt="Card image cap"  >
-                  <div class="content-details fadeIn-bottom">
-                    <p class="content-text" style="text-align: left; font-size:0.83em">
-                      <b>Avail the special offers now.</b>
-                      <ul style="font-size: 0.8rem; text-align: left;  text-align: justify; text-justify: inter-word;">
-                        <li>Visit the <a href='https://algozenith.com/home/' target='_blank'>AlgoZenith</a> website</li>
-                        <li>Select Premium and enroll yourself for the course.</li> 
-                        <li>Fill in your details and enter the coupon code: <b>AZ_KGP_SPECIAL</b></li>
-                      </ul>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-sm-4">
-              <div class="service-card">
-                <div class="card content" >
-                  <div class="content-overlay"></div>
-                  <img class="card-img-top" src="img\affinity\hdfc.webp" alt="Card image cap"  >
-                  <div class="content-details fadeIn-bottom">
-                    <p class="content-text" style="text-align: left; font-size:0.83em">
-                      <b>HDFC Bank Diners Club and Diners Black credit cards</b>
-                      <ul style="font-size: 0.8rem; text-align: left;  text-align: justify; text-justify: inter-word;">
-                        <li>We believe that your credit card should reflect a sense of pride and belongingness.</li> 
-                        <li>All the final and pre-final year students were eligible for the credit cards.</li>
-                      </ul>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <br>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  
 
   <section class="section-2">
     <div class="container text-center">
@@ -162,7 +107,69 @@
                 <div class="service-card">
                   <div class="card content" >
                     <div class="content-overlay"></div>
-                    <img class="card-img-top" src="img\affinity\boult.jpeg" alt="Card image cap" style='height:18em;'>
+                    <img class="card-img-top" src="img\affinity\nextleap1.jpeg" alt="Card image cap" >
+                    <!-- <img class="card-img-top" src="img\affinity\Galaxy_buds.jpg" alt="Card image cap"> -->
+                    <div class="content-details fadeIn-bottom">
+                      <p class="content-text" style="text-align: left; font-size:0.83em">
+                        <b>Accelerate your career with Nextleap..</b>
+                        <ul style="font-size: 0.8rem; text-align: left;  text-align: justify; text-justify: inter-word;">
+                          <li style="text-align: justify; text-justify: inter-word;">All students of IIT Kharagpur graduating in 2024/2025 or Alumni who graduated in 2021-2023 are eligible</li>
+                          <li>Last date of enrollment is 30th April 2024.</li>
+                          <li>Flat 67% discount on Product Manager Fellowship (Rs. <strike>39999</strike> Rs. 12999)</li>
+                        </ul>
+                           Go to Nextleap <a href="https://nextleap.app/">Clickhere</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="service-card">
+                  <div class="card content" >
+                    <div class="content-overlay"></div>
+                    <img class="card-img-top" src="img\affinity\goibibo2.jpg" alt="Card image cap" >
+                    <!-- <img class="card-img-top" src="img\affinity\Galaxy_buds.jpg" alt="Card image cap"> -->
+                    <div class="content-details fadeIn-bottom">
+                      <p class="content-text" style="text-align: left; font-size:0.83em">
+                        <b>Goibibo special offers for kgpians..</b>
+                        <ul style="font-size: 0.8rem; text-align: left;  text-align: justify; text-justify: inter-word;">
+                          <li style="text-align: justify; text-justify: inter-word;">Bookings are valid till 31st August 2024/li>
+                          <li>Flights-Flat Rs. 700 off</li>
+                          <li>Hotels- Flat Rs. 1000 off on a minimum booking of Rs. 1500 off</li>
+                          <li>Click on the given link to verify yourself as IIT Kharagpur Student to avail of the code : <a href="https://www.myunidays.com/IN/en-IN/partners/goibiboiit/micro">Verify</a></li>
+                        </ul>
+                          
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="service-card">
+                  <div class="card content" >
+                    <div class="content-overlay"></div>
+                    <img class="card-img-top" src="img\affinity\algo_logo.webp" alt="Card image cap" >
+                    <!-- <img class="card-img-top" src="img\affinity\Galaxy_buds.jpg" alt="Card image cap"> -->
+                    <div class="content-details fadeIn-bottom">
+                      <p class="content-text" style="text-align: left; font-size:0.83em">
+                        <b>Avail the special offers now.</b>
+                        <ul style="font-size: 0.8rem; text-align: left;  text-align: justify; text-justify: inter-word;">
+                          <li style="text-align: justify; text-justify: inter-word;">vist the <a href="https://maang.in/">Algozenith</a> website</li>
+                          <li>Select Premium and enroll yourself for the course.</li>
+                          <li>Fill in your details and enter the coupon code: AZ_KGP_SPECIAL</li>
+                          
+                        </ul>
+                          
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <div class="col-sm-4">
+                <div class="service-card">
+                  <div class="card content" >
+                    <div class="content-overlay"></div>
+                    <img class="card-img-top" src="img\affinity\boult.jpeg" alt="Card image cap" >
                     <!-- <img class="card-img-top" src="img\affinity\Galaxy_buds.jpg" alt="Card image cap"> -->
                     <div class="content-details fadeIn-bottom">
                     <div id="carouselExampleControlscurrent" class="carousel slide" data-ride="carousel">
@@ -213,7 +220,7 @@
                 <div class="service-card">
                   <div class="card content" >
                     <div class="content-overlay"></div>
-                    <img class="card-img-top" src="img\affinity\headspace.webp" alt="Card image cap" style='height:18em;'>
+                    <img class="card-img-top" src="img\affinity\headspace.webp" alt="Card image cap" >
                     <!-- <img class="card-img-top" src="img\affinity\Galaxy_buds.jpg" alt="Card image cap"> -->
                     <div class="content-details fadeIn-bottom">
                       <p class="content-text" style="text-align: left; font-size:0.83em">
@@ -229,6 +236,7 @@
                   </div>
                 </div>
               </div>
+              
               <div class="col-sm-4">
                 <div class="service-card">
                   <div class="card content">
@@ -251,7 +259,7 @@
               </div>
               
 
-            <div class="row">
+           
               <div class="col-sm-4">
                 <div class="service-card">
                    <div class="card content" >
@@ -272,7 +280,7 @@
                            </div>
                       </div>
                   </div>
-               </div>
+              </div>
               <div class="col-sm-4">
                 <div class="service-card">
                   <div class="card content" >
@@ -292,7 +300,7 @@
                   </div>
                 </div>
               </div>
-              <br>
+              
               <div class="col-sm-4">
                 <div class="service-card">
                   <div class="card content" >
