@@ -532,7 +532,7 @@
                     start: "top center"
                 },
                 opacity: 0,
-                duration: 1.5,
+                duration: 0.5,
             });
 
         }

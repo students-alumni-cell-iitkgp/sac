@@ -162,7 +162,7 @@
 <body>
 
     <!-- Footer -->
-    <div id="footer">
+    <div id="footer" style="height:100%">
         <div class="container">
             <div class="footer-content">
                 <!-- Social Media Section -->

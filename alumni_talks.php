@@ -144,11 +144,11 @@
                     </div> -->
                   </div>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                <a class="carousel-control-prev" style="justify-content: flex-start;" href="#carouselExampleIndicators2" role="button" data-slide="prev">
                   <span class="carousel-control-prev-icon prev1" aria-hidden="true"></span>
                   <span class="sr-only">Previous</span>
                 </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                <a class="carousel-control-next" style="justify-content: flex-end;" href="#carouselExampleIndicators2" role="button" data-slide="next">
                   <span class="carousel-control-next-icon next1" aria-hidden="true"></span>
                   <span class="sr-only">Next</span>
                 </a>
@@ -217,11 +217,11 @@
                     </div>
                   </div>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                <a class="carousel-control-prev" style="justify-content: flex-start;" href="#carouselExampleIndicators2" role="button" data-slide="prev">
                   <span class="carousel-control-prev-icon prev1" aria-hidden="true"></span>
                   <span class="sr-only">Previous</span>
                 </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                <a class="carousel-control-next" style="justify-content: flex-end;" href="#carouselExampleIndicators2" role="button" data-slide="next">
                   <span class="carousel-control-next-icon next1" aria-hidden="true"></span>
                   <span class="sr-only">Next</span>
                 </a>
@@ -387,11 +387,11 @@
                   </div>
                 </div>
               </div>
-              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <a class="carousel-control-prev" style="justify-content: flex-start;" href="#carouselExampleIndicators" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon prev1" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
               </a>
-              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <a class="carousel-control-next" style="justify-content: flex-end;" href="#carouselExampleIndicators" role="button" data-slide="next">
                 <span class="carousel-control-next-icon next1" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
               </a>
@@ -577,11 +577,11 @@
                   <h5 class="x"></h5>
                 </div>
               </div>
-              <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+              <a class="carousel-control-prev" style="justify-content: flex-start;" href="#carouselExampleIndicators2" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon prev1" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
               </a>
-              <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+              <a class="carousel-control-next" style="justify-content: flex-end;" href="#carouselExampleIndicators2" role="button" data-slide="next">
                 <span class="carousel-control-next-icon next1" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
               </a>
@@ -647,12 +647,12 @@
                   <h5 class="x"></h5>
                 </div>
               </div>
-              <a class="carousel-control-prev" href="#carouselExampleIndicators3" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <a class="carousel-control-prev" style="justify-content: flex-start;" href="#carouselExampleIndicators3" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon prev1" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
               </a>
-              <a class="carousel-control-next" href="#carouselExampleIndicators3" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <a class="carousel-control-next" style="justify-content: flex-end;" href="#carouselExampleIndicators3" role="button" data-slide="next">
+                <span class="carousel-control-next-icon next1" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
               </a>
             </div>
