@@ -12,7 +12,7 @@ $ch = isset($_SESSION['check'])? $_SESSION['check']: 0;
   <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.min.css'>
   <link rel="stylesheet" href="css/login.css">
-  <link rel="shortcut icon" href="./flogo.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="..\img\favicon_io\Logo2.2.ico" type="image/x-icon" />
 
 </head>
 <body>

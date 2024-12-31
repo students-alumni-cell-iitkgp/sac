@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <title>Students' Alumni Cell | Myimprint</title>
-  <link rel="shortcut icon" href="./flogo.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="..\img\favicon_io\Logo2.2.ico" type="image/x-icon" />
 
   <link rel="stylesheet" type="text/css" href="css/imprint.css">
    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
