@@ -9,7 +9,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <!-- <link rel="stylesheet" href="css/login.css"> -->
     <title>Registration</title>
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="..\img\favicon_io\Logo2.2.ico" type="image/x-icon">
 </head>
       <body>
           <nav class="navbar navbar-light "style="background-color: #bbbfca;position: fixed;top: 98px;width: 100%;z-index: 2;">
