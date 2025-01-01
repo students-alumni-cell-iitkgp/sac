@@ -14,7 +14,7 @@
   <!--FONT AWESOME-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-  <link rel="shortcut icon" href="./flogo.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="..\img\favicon_io\Logo2.2.ico" type="image/x-icon" />
 
   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300'>
   <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:400,700,300'>
@@ -43,11 +43,11 @@
                   <div class="panel text-center">
                     <br>
                     <div class="row">
-                      <div class="col-12 col-sm-6 align-items-center">
-                        <div class="service-card">
-                          <div class="card">
+                      <div class="col-12 col-sm-6 align-items-center" style="width: 100%;">
+                        <div class="service-card" style="height: 90%;width:100%;position:relative;left:0;">
+                          <div class="card" style="height: 100%;">
 
-                            <img class="card-img-top" src="img\team2024\Suhani.jpg" height=300px; alt="Card image cap">
+                            <img class="card-img-top" src="img\team2024\Suhani.jpg" height=70%; alt="Card image cap">
 
                             <div class="card-body">
                               <h6 class="x">Suhani Mandliya</h6>
@@ -72,13 +72,13 @@
                           </div>
                         </div>
                       </div>
-                      <div class="col-12 col-sm-6 align-items-center">
-                        <div class="service-card">
-                          <div class="card">
+                      <div class="col-12 col-sm-6 align-items-center" style="width: 100%;">
+                        <div class="service-card" style="height:90%;width:100%;position:relative;left:0;">
+                          <div class="card" style="height: 100%;">
 
-                            <img class="card-img-top" src="img\team2024\Amish.jpg" height=300px; alt="Card image cap">
+                            <img class="card-img-top" src="img\team2024\Amish.jpg" height=70%; alt="Card image cap">
 
-                            <div class="card-body">
+                            <div class="card-body" style="height:30%;">
                               <h6 class="x">Amish Bhatnagar</h6>
                               <p class="x">General Secretary</p>
                               <div class='row'>
@@ -102,11 +102,11 @@
                       </div>
                     </div>
                     <div class="row">
-                      <div class="col-12 col-sm-6 align-items-center">
-                        <div class="service-card">
-                          <div class="card">
+                      <div class="col-12 col-sm-6 align-items-center" style="width: 100%;">
+                        <div class="service-card" style="height: 90%;width:100%;position:relative;left:0;">
+                          <div class="card" style="height: 100%;">
 
-                            <img class="card-img-top" src="img\team2024\Pradyumna.jpg" height=300px; alt="Card image cap">
+                            <img class="card-img-top" src="img\team2024\Pradyumna.jpg" height=70%; alt="Card image cap">
 
                             <div class="card-body">
                               <h6 class="x">Pradyumna Sakinala</h6>
@@ -130,11 +130,11 @@
                           </div>
                         </div>
                       </div>
-                      <div class="col-12 col-sm-6 align-items-center">
-                        <div class="service-card">
-                          <div class="card">
+                      <div class="col-12 col-sm-6 align-items-center" style="width: 100%;">
+                        <div class="service-card" style="height: 90%;width:100%;position:relative;left:0;">
+                          <div class="card" style="height: 100%;">
 
-                            <img class="card-img-top" src="img\team2024\Akshat.jpg" height=300px; alt="Card image cap">
+                            <img class="card-img-top" src="img\team2024\Akshat.jpg" height=70%; alt="Card image cap">
 
                             <div class="card-body">
                               <h6 class="x">Akshat Verma</h6>
@@ -161,11 +161,11 @@
 
                     </div>
                     <div class="row">
-                      <div class="col-12 col-sm-6 align-items-center">
-                        <div class="service-card">
-                          <div class="card">
+                      <div class="col-12 col-sm-6 align-items-center" style="width: 100%;">
+                        <div class="service-card" style="height: 90%;width:100%;position:relative;left:0;">
+                          <div class="card" style="height: 100%;">
 
-                            <img class="card-img-top" src="img\team2024\Yash.jpg" height=300px; alt="Card image cap" style="object-position: left;">
+                            <img class="card-img-top" src="img\team2024\Yash.jpg" height=70%; alt="Card image cap" style="object-position: left;">
 
                             <div class="card-body">
                               <h6 class="x">Yash Gupta</h6>
@@ -189,11 +189,11 @@
                           </div>
                         </div>
                       </div>
-                      <div class="col-12 col-sm-6 align-items-center">
-                        <div class="service-card">
-                          <div class="card">
+                      <div class="col-12 col-sm-6 align-items-center" style="width: 100%;">
+                        <div class="service-card" style="height: 90%;width:100%;position:relative;left:0;">
+                          <div class="card" style="height: 100%;">
 
-                            <img class="card-img-top" src="img\team2024\Shrirang.jpg" height=300px; alt="Card image cap">
+                            <img class="card-img-top" src="img\team2024\Shrirang.jpg" height=70%; alt="Card image cap">
 
                             <div class="card-body">
                               <h6 class="x">Shrirang Elkunchwar</h6>
@@ -220,11 +220,11 @@
 
                     </div>
                     <div class="row">
-                      <div class="col-12 col-sm-6 align-items-center">
-                        <div class="service-card">
-                          <div class="card">
+                      <div class="col-12 col-sm-6 align-items-center" style="width: 100%;">
+                        <div class="service-card" style="height: 90%; width:100%;position:relative;left:0;">
+                          <div class="card" style="height: 100%;">
 
-                            <img class="card-img-top" src="img\team2024\Prakash.JPG" height=300px; alt="Card image cap">
+                            <img class="card-img-top" src="img\team2024\Prakash.JPG" height=70%; alt="Card image cap">
 
                             <div class="card-body">
                               <h6 class="x">Bhukya Prakash</h6>
@@ -248,11 +248,11 @@
                           </div>
                         </div>
                       </div>
-                      <div class="col-12 col-sm-6 align-items-center">
-                        <div class="service-card">
-                          <div class="card">
+                      <div class="col-12 col-sm-6 align-items-center" style="width: 100%;">
+                        <div class="service-card" style="height: 90%;width:100%;position:relative;left:0;">
+                          <div class="card" style="height: 100%;">
 
-                            <img class="card-img-top" src="img\team2024\Soumya.jpeg" height=300px; alt="Card image cap">
+                            <img class="card-img-top" src="img\team2024\Soumya.jpeg" height=70%; alt="Card image cap">
 
                             <div class="card-body">
                               <h6 class="x">Soumya Ranjan Jena</h6>
@@ -278,11 +278,11 @@
                       </div>
                     </div>
                     <div class="row">
-                      <div class="col-12 col-sm-6 align-items-center">
-                        <div class="service-card">
-                          <div class="card">
+                      <div class="col-12 col-sm-6 align-items-center" style="width: 100%;">
+                        <div class="service-card" style="height: 90%;width:100%;position:relative;left:0;">
+                          <div class="card" style="height: 100%;">
 
-                            <img class="card-img-top" src="img\team2024\Veda.png" height=300px; alt="Card image cap">
+                            <img class="card-img-top" src="img\team2024\Veda.png" height=70%; alt="Card image cap">
 
                             <div class="card-body">
                               <h6 class="x">Beemagani Veda</h6>
@@ -306,11 +306,11 @@
                           </div>
                         </div>
                       </div>
-                      <div class="col-12 col-sm-6 align-items-center">
-                        <div class="service-card">
-                          <div class="card">
+                      <div class="col-12 col-sm-6 align-items-center" style="width: 100%;">
+                        <div class="service-card" style="height: 90%;width:100%;position:relative;left:0;">
+                          <div class="card" style="height: 100%;">
 
-                            <img class="card-img-top" src="img\team2024\Omkar.jpg" height=300px; alt="Card image cap">
+                            <img class="card-img-top" src="img\team2024\Omkar.jpg" height=70%; alt="Card image cap">
 
                             <div class="card-body">
                               <h6 class="x">Omkar Sai</h6>
