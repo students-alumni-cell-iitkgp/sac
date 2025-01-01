@@ -36,7 +36,8 @@
             width: 31vw !important;
             padding-right: 0px;
             margin-top: 10px;
-            }
+                    } 
+                }
             @media only screen and (max-width: 600px) {
             .normal {
             height: 200px;

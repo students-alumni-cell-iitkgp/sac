@@ -64,6 +64,7 @@
 					<li class="nav-item dropdown">
 						<a class="nav-link" href="#" data-bs-toggle="dropdown"> Sponsors </a>
 						<ul class="dropdown-menu">
+						    <li><a class="dropdown-item" href="sponsors2025.php"> 2025 </a></li>
 							<li><a class="dropdown-item" href="sponsors2023.php"> 2023 </a></li>
 							<li><a class="dropdown-item" href="sponsors2021.php"> 2021 </a></li>
 							<li><a class="dropdown-item" href="sponsors.php"> 2020 </a></li>
