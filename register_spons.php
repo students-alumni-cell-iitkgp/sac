@@ -10,6 +10,13 @@
 <!-- <link rel="stylesheet" href="css/login.css"> -->
     <title>Registration</title>
     <link rel="shortcut icon" href="..\img\favicon_io\Logo2.2.ico" type="image/x-icon">
+    <style>
+     @media (max-width:426px){
+          .navbar-light{
+               width: 100vw;
+          }
+     }
+    </style>
 </head>
       <body>
           <nav class="navbar navbar-light "style="background-color: #bbbfca;position: fixed;top: 98px;width: 100%;z-index: 2;">
