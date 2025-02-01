@@ -12,7 +12,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@200&display=swap" rel="stylesheet">
 	<style type="text/css">
 		.img {
-			background-image: url('img/AAM-Web-Cover-Stretched-new-71-72.webp');
+			background-image: url('webcover21.jpg');
 			background-size: 100% 100%;
 		}
 
@@ -97,7 +97,7 @@
 							<div class="row d-flex justify-content-center">
 								<div class="col-md-6 x">
 									<div class="image">
-										<img src="img/aam21/a1.webp" class="img-fluid image__img">
+										<img src="img/aam21/arena/arena01.webp" class="img-fluid image__img">
 										<div class="image__overlay image__overlay--primary text-center">
 											<div class="image__title">Arena</div>
 											<p class="image__description">The Arena is a nostalgia-filled site welcoming the Alumni to share their old memories with us.</p>
@@ -106,12 +106,12 @@
 								</div>
 								<div class="col-md-3 x align-items-center">
 									<div class="image">
-										<img src="img/aam21/a2.webp" class="img-fluid image__img">
+										<img src="img/aam21/arena/arena02.webp" class="img-fluid image__img">
 										<div class="image__overlay image__overlay--primary text-center">
 										</div>
 									</div>
 									<div class="image pt-3">
-										<img src="img/aam21/a3.webp" class="img-fluid image__img">
+										<img src="img/aam21/arena/arena03.webp" class="img-fluid image__img">
 										<div class="image__overlay image__overlay--primary text-center">
 										</div>
 									</div>
@@ -119,12 +119,12 @@
 								</div>
 								<div class="col-md-3 x align-items-center">
 									<div class="image">
-										<img src="img/aam21/a4.webp" class="img-fluid image__img">
+										<img src="img/aam21/arena/arena04.webp" class="img-fluid image__img">
 										<div class="image__overlay image__overlay--primary text-center">
 										</div>
 									</div>
 									<div class="image pt-3">
-										<img src="img/aam21/a5.webp" class="img-fluid image__img">
+										<img src="img/aam21/arena/arena06.webp" class="img-fluid image__img">
 										<div class="image__overlay image__overlay--primary text-center">
 										</div>
 									</div>
