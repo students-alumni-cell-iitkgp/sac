@@ -1,7 +1,7 @@
 <html>
 <head>
   <title></title>
-  <link rel="icon" href="img/meet_14.png">
+  <link rel="icon" href="..\img\favicon_io\Logo2.2.ico">
   <link rel="stylesheet" href="css/materialize.min.css">
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.min.js"></script>

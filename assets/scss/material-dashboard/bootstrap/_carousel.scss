@@ -55,7 +55,6 @@
 
 /* rtl:end:ignore */
 
-
 //
 // Alternate transitions
 //
@@ -82,7 +81,6 @@
   }
 }
 
-
 //
 // Left/right controls for nav
 //
@@ -96,7 +94,7 @@
   // Use flex for alignment (1-3)
   display: flex; // 1. allow flex styles
   align-items: center; // 2. vertically center contents
-  justify-content: center; // 3. horizontally center contents
+  // justify-content: center; // 3. horizontally center contents
   width: $carousel-control-width;
   padding: 0;
   color: $carousel-control-color;
@@ -117,11 +115,21 @@
 }
 .carousel-control-prev {
   left: 0;
-  background-image: if($enable-gradients, linear-gradient(90deg, rgba($black, .25), rgba($black, .001)), null);
+  justify-content: flex-start;
+  background-image: if(
+    $enable-gradients,
+    linear-gradient(90deg, rgba($black, 0.25), rgba($black, 0.001)),
+    null
+  );
 }
 .carousel-control-next {
   right: 0;
-  background-image: if($enable-gradients, linear-gradient(270deg, rgba($black, .25), rgba($black, .001)), null);
+  justify-content: flex-end;
+  background-image: if(
+    $enable-gradients,
+    linear-gradient(270deg, rgba($black, 0.25), rgba($black, 0.001)),
+    null
+  );
 }
 
 // Icons for within
@@ -195,16 +203,15 @@
   }
 }
 
-
 // Optional captions
 //
 //
 
 .carousel-caption {
   position: absolute;
-  right: (100% - $carousel-caption-width) * .5;
+  right: (100% - $carousel-caption-width) * 0.5;
   bottom: $carousel-caption-spacer;
-  left: (100% - $carousel-caption-width) * .5;
+  left: (100% - $carousel-caption-width) * 0.5;
   padding-top: $carousel-caption-padding-y;
   padding-bottom: $carousel-caption-padding-y;
   color: $carousel-caption-color;

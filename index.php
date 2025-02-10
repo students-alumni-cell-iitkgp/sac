@@ -2,7 +2,7 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./flogo.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="..\img\favicon_io\Logo2.2.ico" type="image/x-icon" />
     <title>Students' Alumni Cell</title>
 
 
@@ -101,7 +101,7 @@
         </ol>
         <div class="carousel-inner" style="width:100%; height:100%">
             <div class="carousel-item active">
-                <div class="carousel-image" style="background-image:url('WebCover 20.jpg');background-size:100% 100%"></div>
+                <div class="carousel-image" style="background-image:url('webcover21.jpg');background-size:100% 100%"></div>
 
                 <!--</div>
              <div class="carousel-item" style>

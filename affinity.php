@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>Students' Alumni Cell | Affinity Programme</title>
-  <link rel="shortcut icon" href="./flogo.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="..\img\favicon_io\Logo2.2.ico" type="image/x-icon" />
 
 
   <!--CSS only-->
