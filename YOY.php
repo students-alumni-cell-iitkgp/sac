@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Students' Alumni Cell | Yearnings of Yore</title>
-    <link rel="shortcut icon" href="./flogo.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="..\img\favicon_io\Logo2.2.ico" type="image/x-icon" />
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
@@ -80,7 +80,17 @@
                             <div class="carousel-item active">
                                     <div class="container">
                                         <div class="row">
-                                            <div class="col-sm-12 col-lg-6">
+                                            <div class="col-sm-12 col-lg-4">
+                                                <div class="card" style="height: 100% !important;">  <a href="https://drive.google.com/file/d/15XJOLBqc5UH2lPEmoBe1BzO2czOqtUqZ/view?usp=sharing" target="_blank"  style="color: black">  <img src="img/yoy/YOY2025.webp" class="card-img-top"></a>
+                                                    <div class="card-body">
+                                                        <h4 class="card-title"> <a href="https://drive.google.com/file/d/15XJOLBqc5UH2lPEmoBe1BzO2czOqtUqZ/view?usp=sharing" target="_blank"  style="color: black">Yearnings Of Yore 2025....</a></h4>
+
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+                                            <div class="col-sm-12 col-lg-4">
                                                 <div class="card" style="height: 100% !important;">  <a href="https://drive.google.com/file/d/19uqf_cA5LmSar7CuXX_CLqAUipBUJFpj/view" target="_blank"  style="color: black">  <img src="img/yoy/yoy23.webp" class="card-img-top"></a>
                                                     <div class="card-body">
                                                         <h4 class="card-title"> <a href="https://drive.google.com/file/d/1ev5JlYWSK8FgCzsRp3fVH3S1jRcbxXsJ/view?ts=632df1d7" target="_blank"  style="color: black">Yearnings Of Yore 2023....</a></h4>
@@ -91,7 +101,7 @@
 
                                             </div>
                                             
-                                            <div class="col-sm-12 col-lg-6">
+                                            <div class="col-sm-12 col-lg-4">
                                                 <div class="card" style="height: 100% !important; ">  <a href="https://drive.google.com/file/d/1ev5JlYWSK8FgCzsRp3fVH3S1jRcbxXsJ/view?ts=632df1d7" target="_blank"  style="color: black">  <img src="img/yoy/yoy22.webp" class="card-img-top"></a>
                                                     <div class="card-body">
                                                         <h4 class="card-title"> <a href="https://drive.google.com/file/d/1ev5JlYWSK8FgCzsRp3fVH3S1jRcbxXsJ/view?ts=632df1d7" target="_blank"  style="color: black">Yearnings Of Yore 2022....</a></h4>

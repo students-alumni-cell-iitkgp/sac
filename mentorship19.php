@@ -1,7 +1,7 @@
 <html>
     <head>
         <title>Students' Alumni Cell | SAMP</title>
-        <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="..\img\favicon_io\Logo2.2.ico" type="image/x-icon">
         <link rel="stylesheet" href="css/materialize.min.css">
         <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
         <script src="js/materialize.min.js"></script>
