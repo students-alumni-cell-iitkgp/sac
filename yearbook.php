@@ -209,7 +209,7 @@
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                     allowfullscreen>
                                 >
-                                <h2 class="text-center">Yearbook <?php echo $slide['year']; ?>....</h2>
+                                <h2 class="text-center" style="font-size: 20px;">Yearbook <?php echo $slide['year']; ?>....</h2>
                                 <div class="row ">
                                     <div class="img-txt ">
                                         <a href="<?php echo $slide['ug_link'] ?>" target="_blank" style="color:black">UG</a>
