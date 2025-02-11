@@ -146,7 +146,7 @@
                             </div>
                             <p class="pt-4" style="opacity: 1" align="justify">
                                 The Students' Alumni Cell, IIT Kharagpur is a voluntary student body working under the
-                                aegis of the Dean, Alumni Affairs. It strives to bridge
+                                aegis of the Dean, Outreach. It strives to bridge
                                 the gap between IIT Kharagpur and its esteemed alumni community.
 
                                 The Students' Alumni Cell continuously endeavours to strengthen the relations of the
