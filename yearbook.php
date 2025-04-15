@@ -82,6 +82,12 @@
             border-radius: 10px;
         }
 
+        .swiper-pagination {
+            position: relative;
+            top: 40px;
+            transform: translate(0, 10px);
+        }
+
         .swiper-button-next,
         .swiper-button-prev {
             color: #fff;
@@ -109,9 +115,19 @@
         }
 
         @media screen and (max-width: 426px) {
-            .swiper-slide {
-                width: 162px;
+            .swiper-wrapper {
+                width: 100%;
+
             }
+
+            .swiper {
+                width: 90%;
+            }
+
+            .swiper-slider {
+                width: 100%;
+            }
+
         }
     </style>
 </head>
@@ -193,7 +209,7 @@
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                     allowfullscreen>
                                 >
-                                <h2 class="text-center">Yearbook <?php echo $slide['year']; ?>....</h2>
+                                <h2 class="text-center" style="font-size: 20px;">Yearbook <?php echo $slide['year']; ?>....</h2>
                                 <div class="row ">
                                     <div class="img-txt ">
                                         <a href="<?php echo $slide['ug_link'] ?>" target="_blank" style="color:black">UG</a>
@@ -208,11 +224,12 @@
                             </div>
                         <?php endforeach; ?>
                     </div>
+                    <div class="swiper-pagination"></div>
                     <!-- Navigation Buttons -->
                     <div class="swiper-button-next"></div>
                     <div class="swiper-button-prev"></div>
                 </div>
-                <!-- <div class="row">
+                <!-- <div class="row" id="yearbook">
 
                     <div class="col-sm-12">
                         <div id="inam" class="carousel slide" data-ride="carousel" data-interval="false">
@@ -532,11 +549,35 @@
             slidesPerView: 3, // Show 3 slides at a time
             spaceBetween: 16, // Space between slides
             centeredSlides: true, // Center the active slide
-            loop: false, // Enable looping
+            breakpoints: {
+                
+                320: {
+                    slidesPerView: 2,
+                    spaceBetween: 20
+                },
+                
+                425: {
+                    slidesPerView: 1,
+                    spaceBetween: 30
+                },
+                768:{
+                    slidesPerView: 2,
+                    spaceBetween: 30,
+                },
+                1024:{
+                    slidesPerView:3,
+                    spaceBetween:16,
+                }
+                
+                
+            },
+            
+            loop: true, // Enable looping
             navigation: {
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
             },
+
             effect: 'coverflow', // Enable the coverflow effect
             coverflowEffect: {
                 rotate: -28, // Degree of rotation for slides
