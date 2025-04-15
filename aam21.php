@@ -20,12 +20,19 @@
 			padding: 5rem 9rem;
 		}
 
+
 		.c {
 			margin-left: 23px;
 			margin-right: 80px;
 			color: darkblue;
 			font-weight: bold;
 		}
+		.aam {
+      text-align: center;
+      font-weight: 500;
+      font-family: 'Raleway', sans-serif;
+      letter-spacing: 3px;
+    }
 	</style>
 </head>
 
@@ -83,6 +90,7 @@
 			</div>
 		</div>
 	</section>
+	<h1 class="aam">21th ANNUAL ALUMNI MEET</h1>
 	<section class="section-3 pt-3">
 		<div class="container-fluid p-0">
 			<div style="padding:0 3rem;">
@@ -500,9 +508,6 @@
 										<img src="img/aam21/2.2/marathon04.webp" class="img-fluid image__img">
 										<div class="image__overlay image__overlay--primary text-center">
 											<div class="image__title">2.2 Marathon</div>
-											<p class="image__description">The iconic 2.2 km marathon around the heart of the campus in which all
-												students and alumni are invited to run together to foster the spirit of good health and harmony.</p>
-										</div>
 									</div>
 								</div>
 							</div>

@@ -66,6 +66,73 @@
             </div>
         </section>
 
+        <!-- //Alvida 2025  -->
+        <section class="section-2">
+            <div class="container-fluid text-center">
+                <div class="row">
+                    <div class="col-md-12 col-12">
+                        <div class="panel text-center">
+                            <h1 class="x">Alvida 2025</h1>
+                            <div class="progress" style="height:0.4rem;">
+                                <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
+                                    aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
+                            </div>
+                            <br>
+                            <!-- Photo Grid -->
+                            <div class="row">
+                                <div class="col-12 col-sm-3">
+                                    <a href="" class="venobox" data-gall="gallery-item">
+                                        <img src="img/Alvida/Alvida_2025/Alvida01.webp" class="image" style="width:100%">
+                                    </a>
+                                </div>
+                                <div class="col-12 col-sm-3">
+                                    <a href="img/Alvida/Alvida_2025/Alvida03.webp" class="venobox" data-gall="gallery-item">
+                                        <img src="img/Alvida/Alvida_2025/Alvida03.webp" class="image" style="width:100%">
+                                    </a>
+                                </div>
+                                <div class="col-12 col-sm-3">
+                                    <a href="img/Alvida/Alvida_2025/Alvida04.webp" class="venobox" data-gall="gallery-item">
+                                        <img src="img/Alvida/Alvida_2025/Alvida04.webp" class="image" style="width:100%">
+                                    </a>
+                                </div>
+                                <div class="col-12 col-sm-3">
+                                    <a href="img/Alvida/Alvida_2025/Alvida02.webp" class="venobox" data-gall="gallery-item">
+                                        <img src="img/Alvida/Alvida_2025/Alvida02.webp" class="image" style="width:100%">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-sm-6">
+                                    <a href="img/Alvida/Alvida_2025/Alvida05.webp" class="venobox" data-gall="gallery-item">
+                                        <img src="img/Alvida/Alvida_2025/Alvida05.webp" class="image" style="width:100%">
+                                    </a>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <a href="img/Alvida/Alvida_2025/Alvida06.webp" class="venobox" data-gall="gallery-item">
+                                        <img src="img/Alvida/Alvida_2025/Alvida06.webp" class="image" style="width:100%">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-sm-6">
+                                    <a href="img/Alvida/Alvida_2025/Alvida07.webp" class="venobox" data-gall="gallery-item">
+                                        <img src="img/Alvida/Alvida_2025/Alvida07.webp" class="image" style="width:100%">
+                                    </a>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <a href="img/Alvida/Alvida_2025/Alvida08.webp" class="venobox" data-gall="gallery-item">
+                                        <img src="img/Alvida/Alvida_2025/Alvida08.webp" class="image" style="width:100%">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
         <section class="section-2">
             <div class="container-fluid text-center">
                 <div class="row">
