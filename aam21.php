@@ -475,8 +475,7 @@
 										<img src="img/aam21/2.2/marathon02.webp" class="img-fluid image__img">
 										<div class="image__overlay image__overlay--primary text-center">
 											<div class="image__title">2.2 Marathon</div>
-											<p class="image__description">The iconic 2.2 km marathon around the heart of the campus in which all
-												students and alumni are invited to run together to foster the spirit of good health and harmony.</p>
+											<p class="image__description">The iconic 2.2 km marathon around the heart of the campus in which all students and alumni are invited to run together to foster the spirit of good health and harmony.</p>
 										</div>
 									</div>
 								</div>
