@@ -28,13 +28,399 @@
 </head>
 <?php include 'navbar.php' ?>
 <div class="accordion" id="headingOne">
+
+<!-- Head Team 2025 -->
+
+<div class="accordion-item">
+      <h2 class="accordion-header" id="headingFour">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+          Head Team 2025
+        </button>
+      </h2>
+      <div id="collapseFour" class="accordion-collapse collapse show" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+        
+        <div class="accordion-body">
+          <section class="section-2">
+            <div class="container text-center">
+              <div class="row">
+                <div class="col-md-12 col-12">
+                  <div class="panel text-center">
+                    <br>
+                    <div class="row">
+                      <div class="col-12 col-sm-6 align-items-center">
+                        <div class="service-card">
+                          <div class="card">
+
+                            <img class="card-img-top" src="img\team2024\Suhani.jpg" height=300px; alt="Card image cap">
+
+                            <div class="card-body">
+                              <h6 class="x">Rajas Sangekar</h6>
+                              <p class="x">General Secretary</p>
+                              <div class='row'>
+                                <div class="col-3">
+                                  <a href='https://www.facebook.com/share/1BoKtLC7K6/?mibextid=wwXIfr' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='https://www.linkedin.com/in/rajas-sangekar-ba86a4280/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='mailto:rajassangekar1855@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='tel:+919975261910' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                </div>
+
+                              </div>
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-sm-6 align-items-center">
+                        <div class="service-card">
+                          <div class="card">
+
+                            <img class="card-img-top" src="img\team2024\Amish.jpg" height=300px; alt="Card image cap">
+
+                            <div class="card-body">
+                              <h6 class="x">Aditi Singh</h6>
+                              <p class="x">General Secretary</p>
+                              <div class='row'>
+                                <div class="col-3">
+                                  <a href='https://www.facebook.com/profile.php?id=100088507508165' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='https://www.linkedin.com/in/aditi-singh-4901362a6/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='mailto:aditisingh10@kgpian.iitkgp.ac.in' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='tel:+918815395895' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                </div>
+
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-12 col-sm-6 align-items-center">
+                        <div class="service-card">
+                          <div class="card">
+
+                            <img class="card-img-top" src="img\team2024\Pradyumna.jpg" height=300px; alt="Card image cap">
+
+                            <div class="card-body">
+                              <h6 class="x">Varun Nikam</h6>
+                              <p class="x">Coordinator, Sponsorship</p>
+                              <div class='row'>
+                                <div class="col-3">
+                                  <a href='https://www.facebook.com/pradyumna.sakinala/' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='https://www.linkedin.com/in/varunsnikam/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='mailto:varunsniitkgp27@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='tel:+917558304939' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                </div>
+
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-sm-6 align-items-center">
+                        <div class="service-card">
+                          <div class="card">
+
+                            <img class="card-img-top" src="img\team2024\Akshat.jpg" height=300px; alt="Card image cap">
+
+                            <div class="card-body">
+                              <h6 class="x">Sruthi Killi</h6>
+                              <p class="x">Coordinator, Sponsorship</p>
+                              <div class='row'>
+                                <div class="col-3">
+                                  <a href='https://www.facebook.com/profile.php?id=100050080189979' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='https://www.linkedin.com/in/sruthi-killi-0495692aa/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='mailto:killisruthi@kgpian.iitkgp.ac.in' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='tel:+916301649289' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                </div>
+
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                    <div class="row">
+                      <div class="col-12 col-sm-6 align-items-center">
+                        <div class="service-card">
+                          <div class="card">
+
+                            <img class="card-img-top" src="img\team2024\Pradyumna.jpg" height=300px; alt="Card image cap">
+
+                            <div class="card-body">
+                              <h6 class="x">Anshu Sirigineedi</h6>
+                              <p class="x">Coordinator, Sponsorship and Public Relations</p>
+                              <div class='row'>
+                                <div class="col-3">
+                                  <a href='https://www.facebook.com/pradyumna.sakinala/' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='https://www.linkedin.com/in/anshu-sirigineedi-73098b2a7/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='mailto:anshus2706@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='tel:+919347143833' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                </div>
+
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-sm-6 align-items-center">
+                        <div class="service-card">
+                          <div class="card">
+
+                            <img class="card-img-top" src="img\team2024\Akshat.jpg" height=300px; alt="Card image cap">
+
+                            <div class="card-body">
+                              <h6 class="x">Soumya Kanta Das</h6>
+                              <p class="x">Coordinator, Networking and Public Relations</p>
+                              <div class='row'>
+                                <div class="col-3">
+                                  <a href='https://www.facebook.com/profile.php?id=100050080189979' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='https://www.linkedin.com/in/soumya-kanta-das-9975932a8/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='mailto:soumyakantadas2005@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='tel:+917849085554' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                </div>
+
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                    <div class="row">
+                      <div class="col-12 col-sm-6 align-items-center">
+                        <div class="service-card">
+                          <div class="card">
+
+                            <img class="card-img-top" src="img\team2024\Yash.jpg" height=300px; alt="Card image cap" style="object-position: left;">
+
+                            <div class="card-body">
+                              <h6 class="x">Nirmal Patidar</h6>
+                              <p class="x">Web Head</p>
+                              <div class='row'>
+                                <div class="col-3">
+                                  <a href='https://www.facebook.com/nirml2512' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='https://www.linkedin.com/in/nirmal2512/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='mailto:nirmalpatidar2533@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='tel:+919165905280' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                </div>
+
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-sm-6 align-items-center">
+                        <div class="service-card">
+                          <div class="card">
+
+                            <img class="card-img-top" src="img\team2024\Shrirang.jpg" height=300px; alt="Card image cap">
+
+                            <div class="card-body">
+                              <h6 class="x">Rupesh Sahoo</h6>
+                              <p class="x">Web Head</p>
+                              <div class='row'>
+                                <div class="col-3">
+                                  <a href='https://www.facebook.com/profile.php?id=100087886400004' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='https://www.linkedin.com/in/rupesh-sahoo-384285306/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='mailto:sahoosanjita809@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='tel:+919078260658' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                </div>
+
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                    <div class="row">
+                      <div class="col-12 col-sm-6 align-items-center">
+                        <div class="service-card">
+                          <div class="card">
+
+                            <img class="card-img-top" src="img\team2024\Prakash.JPG" height=300px; alt="Card image cap">
+
+                            <div class="card-body">
+                              <h6 class="x">Rohith Kumar</h6>
+                              <p class="x">Public Relations Head (Design)</p>
+                              <div class='row'>
+                                <div class="col-3">
+                                  <a href='https://www.facebook.com/prakash.bhukya.7543/' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href=https://www.linkedin.com/in/rohith-kumar-336213339/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='mailto:Rohith.allaka@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='tel:+919550227979' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                </div>
+
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-sm-6 align-items-center">
+                        <div class="service-card">
+                          <div class="card">
+
+                            <img class="card-img-top" src="img\team2024\Soumya.jpeg" height=300px; alt="Card image cap">
+
+                            <div class="card-body">
+                              <h6 class="x">Srinu Meda</h6>
+                              <p class="x">Public Relations Head (Design)</p>
+                              <div class='row'>
+                                <div class="col-3">
+                                  <a href='https://www.facebook.com/profile.php?id=100085501555543' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='https://www.linkedin.com/in/srinu-meda-3953ba220/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='mailto:srinumeda0516@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='tel:+916300707680' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                </div>
+
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                       <div class="col-sm-3 align-items-center">
+                    </div>
+                      <div class="col-12 col-sm-6 align-items-center">
+                        <div class="service-card">
+                          <div class="card">
+
+                            <img class="card-img-top" src="img\team2024\Veda.png" height=300px; alt="Card image cap">
+
+                            <div class="card-body">
+                              <h6 class="x">Srujan Shyam Perumalla</h6>
+                              <p class="x">Public Relations Head (Videography)</p>
+                              <div class='row'>
+                                <div class="col-3">
+                                  <a href='https://www.facebook.com/profile.php?id=100087168686973' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='https://www.linkedin.com/in/srujan-shyam-perumalla-7aabb127b/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='mailto:srujanshyamp@gmail.com' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='tel:+918885506813' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                </div>
+
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- <div class="row justify-content-center">
+                      <div class="col-12 col-sm-6 col-6">
+                        <div class="service-card">
+                          <div class="card">
+
+                            <img class="card-img-top" src="img\team2020\nischay.jpg" height=300px; alt="Card image cap">
+
+                            <div class="card-body">
+                              <h6 class="x">Nischay Gothwal</h6>
+                              <p class="x">(Former PR Head)</p>
+                              <div class='row'>
+                                <div class="col-3">
+                                  <a href='https://www.facebook.com/nischay.gothwal' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='https://www.linkedin.com/in/nischay-gothwal/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='#' class='contact-link' target="_blank"><i class="contact-icon fas fa-envelope"></i></a>
+                                </div>
+                                <div class="col-3">
+                                  <a href='#' class='contact-link'><i class="contact-icon fas fa-phone"></i></a>
+                                </div>
+
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+
+
+
+<!-- Head Team 2024 -->
 <div class="accordion-item">
       <h2 class="accordion-header" id="headingFour">
         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
           Head Team 2024
         </button>
       </h2>
-      <div id="collapseFour" class="accordion-collapse collapse show" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+      <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
         <div class="accordion-body">
           <section class="section-2">
             <div class="container text-center">
@@ -2244,16 +2630,16 @@
               <h4>2020</h4>
               <ul class='team' style="list-style:none;padding-left: 0px;">
 
-                <li>Subhadra Jena</li>
                 <li>Akash Srivastava</li>
+                <li>Subhadra Jena</li>
                 <li>Mayank Arora</li>
-                <li>Nititka Shrof</li>
+                <li>Nitika Shroff</li>
                 <li>Sanjay Motwani</li>
-                <li>Visahw Kashyap</li>
+                <li>Vishaw Kashyap</li>
                 <li>Anuja Raj Verma</li>
                 <li>Yukta Bagdi</li>
                 <li>Prasang Kumar</li>
-                <li>Rititsh Dutt</li>
+                <li>Ritish Dutt</li>
                 <li>Nischay Gothwal</li>
               </ul>
             </div>
