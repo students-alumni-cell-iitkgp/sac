@@ -51,7 +51,7 @@
                         <div class="service-card">
                           <div class="card">
 
-                            <img class="card-img-top" src="img\team2024\Suhani.jpg" height=300px; alt="Card image cap">
+                            <img class="card-img-top" src="img\team2025\rajas.jpeg" height=300px; alt="Card image cap">
 
                             <div class="card-body">
                               <h6 class="x">Rajas Sangekar</h6>
@@ -80,14 +80,14 @@
                         <div class="service-card">
                           <div class="card">
 
-                            <img class="card-img-top" src="img\team2024\Amish.jpg" height=300px; alt="Card image cap">
+                            <img class="card-img-top" src="img\team2025\aditi.jpg" height=300px; alt="Card image cap">
 
                             <div class="card-body">
                               <h6 class="x">Aditi Singh</h6>
                               <p class="x">General Secretary</p>
                               <div class='row'>
                                 <div class="col-3">
-                                  <a href='https://www.facebook.com/profile.php?id=100088507508165' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                  <a href='https://www.facebook.com/profile.php?id=100069848537122' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
                                 </div>
                                 <div class="col-3">
                                   <a href='https://www.linkedin.com/in/aditi-singh-4901362a6/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
@@ -110,14 +110,14 @@
                         <div class="service-card">
                           <div class="card">
 
-                            <img class="card-img-top" src="img\team2024\Pradyumna.jpg" height=300px; alt="Card image cap">
+                            <img class="card-img-top" src="img\team2025\varun.png" height=300px; alt="Card image cap">
 
                             <div class="card-body">
                               <h6 class="x">Varun Nikam</h6>
                               <p class="x">Coordinator, Sponsorship</p>
                               <div class='row'>
                                 <div class="col-3">
-                                  <a href='https://www.facebook.com/pradyumna.sakinala/' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                  <a href='https://www.facebook.com/profile.php?id=61552390014027' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
                                 </div>
                                 <div class="col-3">
                                   <a href='https://www.linkedin.com/in/varunsnikam/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
@@ -138,14 +138,14 @@
                         <div class="service-card">
                           <div class="card">
 
-                            <img class="card-img-top" src="img\team2024\Akshat.jpg" height=300px; alt="Card image cap">
+                            <img class="card-img-top" src="img\team2025\sruthi.png" height=300px; alt="Card image cap">
 
                             <div class="card-body">
                               <h6 class="x">Sruthi Killi</h6>
                               <p class="x">Coordinator, Sponsorship</p>
                               <div class='row'>
                                 <div class="col-3">
-                                  <a href='https://www.facebook.com/profile.php?id=100050080189979' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                  <a href='https://www.facebook.com/profile.php?id=61552238520779' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
                                 </div>
                                 <div class="col-3">
                                   <a href='https://www.linkedin.com/in/sruthi-killi-0495692aa/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
@@ -169,14 +169,14 @@
                         <div class="service-card">
                           <div class="card">
 
-                            <img class="card-img-top" src="img\team2024\Pradyumna.jpg" height=300px; alt="Card image cap">
+                            <img class="card-img-top" src="img\team2025\anshu.jpg" height=300px; alt="Card image cap">
 
                             <div class="card-body">
                               <h6 class="x">Anshu Sirigineedi</h6>
                               <p class="x">Coordinator, Sponsorship and Public Relations</p>
                               <div class='row'>
                                 <div class="col-3">
-                                  <a href='https://www.facebook.com/pradyumna.sakinala/' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                  <a href='https://www.facebook.com/profile.php?id=61555018897993' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
                                 </div>
                                 <div class="col-3">
                                   <a href='https://www.linkedin.com/in/anshu-sirigineedi-73098b2a7/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
@@ -197,14 +197,14 @@
                         <div class="service-card">
                           <div class="card">
 
-                            <img class="card-img-top" src="img\team2024\Akshat.jpg" height=300px; alt="Card image cap">
+                            <img class="card-img-top" src="img\team2025\soumya.jpg" height=300px; alt="Card image cap">
 
                             <div class="card-body">
                               <h6 class="x">Soumya Kanta Das</h6>
                               <p class="x">Coordinator, Networking and Public Relations</p>
                               <div class='row'>
                                 <div class="col-3">
-                                  <a href='https://www.facebook.com/profile.php?id=100050080189979' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                  <a href='https://www.facebook.com/profile.php?id=61552393645644' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
                                 </div>
                                 <div class="col-3">
                                   <a href='https://www.linkedin.com/in/soumya-kanta-das-9975932a8/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
@@ -228,7 +228,7 @@
                         <div class="service-card">
                           <div class="card">
 
-                            <img class="card-img-top" src="img\team2024\Yash.jpg" height=300px; alt="Card image cap" style="object-position: left;">
+                            <img class="card-img-top" src="img\team2025\nirmal.jpg" height=300px; alt="Card image cap" style="object-position: left;">
 
                             <div class="card-body">
                               <h6 class="x">Nirmal Patidar</h6>
@@ -256,14 +256,14 @@
                         <div class="service-card">
                           <div class="card">
 
-                            <img class="card-img-top" src="img\team2024\Shrirang.jpg" height=300px; alt="Card image cap">
+                            <img class="card-img-top" src="img\team2025\rupesh.jpg" height=300px; alt="Card image cap">
 
                             <div class="card-body">
                               <h6 class="x">Rupesh Sahoo</h6>
                               <p class="x">Web Head</p>
                               <div class='row'>
                                 <div class="col-3">
-                                  <a href='https://www.facebook.com/profile.php?id=100087886400004' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                  <a href='https://www.facebook.com/' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
                                 </div>
                                 <div class="col-3">
                                   <a href='https://www.linkedin.com/in/rupesh-sahoo-384285306/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
@@ -287,14 +287,14 @@
                         <div class="service-card">
                           <div class="card">
 
-                            <img class="card-img-top" src="img\team2024\Prakash.JPG" height=300px; alt="Card image cap">
+                            <img class="card-img-top" src="img\team2025\rohith.JPG" height=300px; alt="Card image cap">
 
                             <div class="card-body">
                               <h6 class="x">Rohith Kumar</h6>
                               <p class="x">Public Relations Head (Design)</p>
                               <div class='row'>
                                 <div class="col-3">
-                                  <a href='https://www.facebook.com/prakash.bhukya.7543/' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                  <a href='https://www.facebook.com/profile.php?id=61564309301770' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
                                 </div>
                                 <div class="col-3">
                                   <a href=https://www.linkedin.com/in/rohith-kumar-336213339/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
@@ -315,14 +315,14 @@
                         <div class="service-card">
                           <div class="card">
 
-                            <img class="card-img-top" src="img\team2024\Soumya.jpeg" height=300px; alt="Card image cap">
+                            <img class="card-img-top" src="img\team2025\srinu.png" height=300px; alt="Card image cap">
 
                             <div class="card-body">
                               <h6 class="x">Srinu Meda</h6>
                               <p class="x">Public Relations Head (Design)</p>
                               <div class='row'>
                                 <div class="col-3">
-                                  <a href='https://www.facebook.com/profile.php?id=100085501555543' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                  <a href='https://www.facebook.com/profile.php?id=100081013013472' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
                                 </div>
                                 <div class="col-3">
                                   <a href='https://www.linkedin.com/in/srinu-meda-3953ba220/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
@@ -347,14 +347,14 @@
                         <div class="service-card">
                           <div class="card">
 
-                            <img class="card-img-top" src="img\team2024\Veda.png" height=300px; alt="Card image cap">
+                            <img class="card-img-top" src="img\team2025\srujan.jpg" height=300px; alt="Card image cap">
 
                             <div class="card-body">
                               <h6 class="x">Srujan Shyam Perumalla</h6>
                               <p class="x">Public Relations Head (Videography)</p>
                               <div class='row'>
                                 <div class="col-3">
-                                  <a href='https://www.facebook.com/profile.php?id=100087168686973' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
+                                  <a href='https://www.facebook.com/profile.php?id=61557064743623' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
                                 </div>
                                 <div class="col-3">
                                   <a href='https://www.linkedin.com/in/srujan-shyam-perumalla-7aabb127b/' class='contact-link' target="_blank"><i class="contact-icon fab fa-linkedin-in"></i></a>
