@@ -80,7 +80,7 @@
                         <div class="service-card">
                           <div class="card">
 
-                            <img class="card-img-top" src="img\team2025\aditi.jpg" height=300px; alt="Card image cap">
+                            <img class="card-img-top" src="img\team2025\aditi.png" height=300px; alt="Card image cap">
 
                             <div class="card-body">
                               <h6 class="x">Aditi Singh</h6>
@@ -138,7 +138,7 @@
                         <div class="service-card">
                           <div class="card">
 
-                            <img class="card-img-top" src="img\team2025\sruthi.png" height=300px; alt="Card image cap">
+                            <img class="card-img-top" src="img\team2025\sruthi2.png" height=300px; alt="Card image cap">
 
                             <div class="card-body">
                               <h6 class="x">Sruthi Killi</h6>
@@ -228,7 +228,7 @@
                         <div class="service-card">
                           <div class="card">
 
-                            <img class="card-img-top" src="img\team2025\nirmal.jpg" height=300px; alt="Card image cap" style="object-position: left;">
+                            <img class="card-img-top" src="img\team2025\nirmal3.png" height=300px; alt="Card image cap" style="object-position: left;">
 
                             <div class="card-body">
                               <h6 class="x">Nirmal Patidar</h6>
@@ -256,7 +256,7 @@
                         <div class="service-card">
                           <div class="card">
 
-                            <img class="card-img-top" src="img\team2025\rupesh.jpg" height=300px; alt="Card image cap">
+                            <img class="card-img-top" src="img\team2025\rupesh.png" height=300px; alt="Card image cap">
 
                             <div class="card-body">
                               <h6 class="x">Rupesh Sahoo</h6>
@@ -347,7 +347,7 @@
                         <div class="service-card">
                           <div class="card">
 
-                            <img class="card-img-top" src="img\team2025\srujan.jpg" height=300px; alt="Card image cap">
+                            <img class="card-img-top" src="img\team2025\srujan.png" height=300px; alt="Card image cap">
 
                             <div class="card-body">
                               <h6 class="x">Srujan Shyam Perumalla</h6>
