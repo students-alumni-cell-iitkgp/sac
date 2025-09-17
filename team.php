@@ -173,7 +173,7 @@
 
                             <div class="card-body">
                               <h6 class="x">Anshu Sirigineedi</h6>
-                              <p class="x">Coordinator, Sponsorship and Public Relations</p>
+                              <p class="x">Coordinator, Public Relations and Sponsorship</p>
                               <div class='row'>
                                 <div class="col-3">
                                   <a href='https://www.facebook.com/profile.php?id=61555018897993' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
