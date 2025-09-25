@@ -1,19 +1,19 @@
  <?php 
   include $path;
   //testing
-  // $DB_HOST="localhost";
-  // $database="admin";
-  // $DB_USER="root";
-  // $DB_PASS="";
-  // $charset="utf8mb4";
+  $DB_HOST="localhost";
+  $database="admin";
+  $DB_USER="root";
+  $DB_PASS="";
+  $charset="utf8mb4";
   //main
 
   $DB_NAME = "aam";
-   $charset="utf8mb4";
+  $charset="utf8mb4";
 
   
   $dsn="mysql:host=$DB_HOST;dbname=$DB_NAME;charset=$charset";
-  try { 
+  try {
     
     $pdo= new PDO($dsn,$DB_USER,$DB_PASS);
     $pdo->setAttribute(PDO::ATTR_ERRMODE ,PDO::ERRMODE_EXCEPTION);
