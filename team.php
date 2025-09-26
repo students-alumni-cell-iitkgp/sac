@@ -228,7 +228,7 @@
                         <div class="service-card">
                           <div class="card">
 
-                            <img class="card-img-top" src="img\team2025\nirmal1.png" height=300px; alt="Card image cap" style="object-position: left;">
+                            <img class="card-img-top" src="img\team2025\nirmal1.png" height=300px; alt="Card image cap"ls>
 
                             <div class="card-body">
                               <h6 class="x">Nirmal Patidar</h6>
