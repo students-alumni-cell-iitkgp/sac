@@ -437,7 +437,7 @@
 
                             <div class="card-body">
                               <h6 class="x">Suhani Mandliya</h6>
-                              <p class="x">General Secretary</p>
+                              <p class="x">(Former General Secretary)</p>
                               <div class='row'>
                                 <div class="col-3">
                                   <a href='https://www.facebook.com/profile.php?id=100087824162231' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
@@ -466,7 +466,7 @@
 
                             <div class="card-body">
                               <h6 class="x">Amish Bhatnagar</h6>
-                              <p class="x">General Secretary</p>
+                              <p class="x">(Former General Secretary)</p>
                               <div class='row'>
                                 <div class="col-3">
                                   <a href='https://www.facebook.com/profile.php?id=100088507508165' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
@@ -496,7 +496,7 @@
 
                             <div class="card-body">
                               <h6 class="x">Pradyumna Sakinala</h6>
-                              <p class="x">Coordinator, Sponsorship</p>
+                              <p class="x">(Former Coordinator, Sponsorship)</p>
                               <div class='row'>
                                 <div class="col-3">
                                   <a href='https://www.facebook.com/pradyumna.sakinala/' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
@@ -524,7 +524,7 @@
 
                             <div class="card-body">
                               <h6 class="x">Akshat Verma</h6>
-                              <p class="x">Coordinator, Sponsorship</p>
+                              <p class="x">(Former Coordinator, Sponsorship)</p>
                               <div class='row'>
                                 <div class="col-3">
                                   <a href='https://www.facebook.com/profile.php?id=100050080189979' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
@@ -555,7 +555,7 @@
 
                             <div class="card-body">
                               <h6 class="x">Yash Gupta</h6>
-                              <p class="x">Coordinator, Networking and Public Relations</p>
+                              <p class="x">(Former Coordinator, Networking and Public Relations)</p>
                               <div class='row'>
                                 <div class="col-3">
                                   <a href='https://www.facebook.com/profile.php?id=100087711060123&mibextid=ZbWKwL' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
@@ -583,7 +583,7 @@
 
                             <div class="card-body">
                               <h6 class="x">Shrirang Elkunchwar</h6>
-                              <p class="x">Web Head</p>
+                              <p class="x">(Former Web Head)</p>
                               <div class='row'>
                                 <div class="col-3">
                                   <a href='https://www.facebook.com/profile.php?id=100087886400004' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
@@ -614,7 +614,7 @@
 
                             <div class="card-body">
                               <h6 class="x">Bhukya Prakash</h6>
-                              <p class="x">Web Head</p>
+                              <p class="x">(Former Web Head)</p>
                               <div class='row'>
                                 <div class="col-3">
                                   <a href='https://www.facebook.com/prakash.bhukya.7543/' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
@@ -642,7 +642,7 @@
 
                             <div class="card-body">
                               <h6 class="x">Soumya Ranjan Jena</h6>
-                              <p class="x">Public Relations Head (Design)</p>
+                              <p class="x">(Former Public Relations Head (Design))</p>
                               <div class='row'>
                                 <div class="col-3">
                                   <a href='https://www.facebook.com/profile.php?id=100085501555543' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
@@ -672,7 +672,7 @@
 
                             <div class="card-body">
                               <h6 class="x">Beemagani Veda</h6>
-                              <p class="x">Public Relations Head (Design)</p>
+                              <p class="x">(Former Public Relations Head (Design))</p>
                               <div class='row'>
                                 <div class="col-3">
                                   <a href='https://www.facebook.com/profile.php?id=100087168686973' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
@@ -700,7 +700,7 @@
 
                             <div class="card-body">
                               <h6 class="x">Omkar Sai</h6>
-                              <p class="x">Public Relations Head (Videography)</p>
+                              <p class="x">(Former Public Relations Head (Videography))</p>
                               <div class='row'>
                                 <div class="col-3">
                                   <a href='https://www.facebook.com/profile.php?id=100088073732742' class='contact-link' target="_blank"><i class="contact-icon fab fa-facebook"></i></a>
