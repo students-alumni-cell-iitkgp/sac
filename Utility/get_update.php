@@ -21,10 +21,10 @@ include_once('../config.php');
       $email = $_SESSION['email'];
       $dob =   $_SESSION['password']; 
   
-      $stmt = $conn->prepare("SELECT * FROM hc WHERE `email` = '$email'");
+      $stmt = $conn->prepare("SELECT * FROM AAM WHERE `email` = '$email'");
       $stmt->execute();
   
-      $users = $stmt->fetchAll();
+      $users = $stmt->get_result()->fetch_all(MYSQLI_ASSOC);
       foreach($users as $user) {
   
           $name    = $user['name']      ;

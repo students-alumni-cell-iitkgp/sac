@@ -1,65 +1,116 @@
 <?php
-include 'db.php';
+    include 'db.php';
 
-$stmt1 = $conn->prepare("SELECT count(*) FROM guests");
-$stmt1->execute();
-$count = $stmt1->get_result();
-$row = $count->fetch_row();
-$count = $row[0];
+    require __DIR__ . '/../../../vendor/autoload.php';
 
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    // Collect form data
-    $name = $_POST['name'] ?? '';
-    $mobile = $_POST['mobile'] ?? '';
-    $roll = $_POST['roll'] ?? '';
-    $batch = $_POST['batch'] ?? '';
-    $screenshot = $_FILES['screenshot'] ?? null;
+    session_start();
 
-    if (!$name || !$mobile || !$roll || !$batch || !$screenshot) {
-        echo "<script>alert('Please fill all the fields');</script>";
-        exit;
-    } else {
-        if (getUser($roll)) {
-            echo "<script>alert('Sorry sir, you have already registered!');</script>";
-            
+    $stmt1 = $conn->prepare("SELECT count(*) FROM guests");
+    $stmt1->execute();
+    $count = $stmt1->get_result();
+    $row   = $count->fetch_row();
+    $count = $row[0];
+
+    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+        // Collect form data
+        $name       = $_POST['name'] ?? '';
+        $mobile     = $_POST['mobile'] ?? '';
+        $roll       = $_POST['roll'] ?? '';
+        $batch      = $_POST['batch'] ?? '';
+        $screenshot = $_FILES['screenshot'] ?? null;
+
+        if ($screenshot && $screenshot['error'] === UPLOAD_ERR_OK) {
+            $uploadDir = __DIR__ . '/uploads/';
+            if (! is_dir($uploadDir)) {
+                mkdir($uploadDir, 0777, true);
+            }
+            $filePath = $uploadDir . basename($screenshot['name']);
+            move_uploaded_file($screenshot['tmp_name'], $filePath);
+            $uploadMsg = "Screenshot uploaded successfully.";
+        } else {
+            $uploadMsg = "No screenshot uploaded.";
+        }
+
+        $client = new Google_Client();
+        $client->setAuthConfig('credential.json');
+        $client->addScope(Google_Service_Drive::DRIVE_FILE);
+        $client->setAccessType('offline');
+        $client->setRedirectUri('http://localhost/new_sac/sac/adminPages/AAM_portal_2026/portal.php');
+
+        // Redirect for OAuth
+        if (! isset($_SESSION['access_token']) || $_SESSION['access_token'] === null) {
+            $authUrl = $client->createAuthUrl();
+            header('Location: ' . filter_var($authUrl, FILTER_SANITIZE_URL));
+            exit();
+        } else {
+            $client->setAccessToken($_SESSION['access_token']);
+        }
+
+        $service = new Google_Service_Drive($client);
+
+        // Upload file
+        $fileMetadata = new Google_Service_Drive_DriveFile([
+            'name' => 'my_image.jpg',
+        ]);
+        // Use correct variable
+        $content = file_get_contents($filePath);
+
+    // Unique file name
+        $fileMetadata = new Google_Service_Drive_DriveFile([
+            'name' => basename($screenshot['name']),
+        ]);
+        $file = $service->files->create($fileMetadata, [
+            'data'       => $content,
+            'mimeType'   => mime_content_type($filePath),
+            'uploadType' => 'multipart',
+            'fields'     => 'id',
+        ]);
+
+    // Make it shareable
+        $permission = new Google_Service_Drive_Permission([
+            'type' => 'anyone',
+            'role' => 'reader',
+        ]);
+        $service->permissions->create($file->id, $permission);
+
+    // Public link
+        $link = "https://drive.google.com/uc?id=" . $file->id . "&export=view";
+
+        if (! $name || ! $mobile || ! $roll || ! $batch || ! $screenshot) {
+            echo "<script>alert('Please fill all the fields');</script>";
             exit;
         } else {
-            $stmt = $conn->prepare("INSERT INTO guests (naam, phoneNo, roll, batch) VALUES (?, ?, ?, ?)");
-            $stmt->bind_param("ssss", $name, $mobile, $roll, $batch);
-            if ($stmt->execute()) {
-                echo "<script>alert('Registration successful!');</script>";
-                // Get updated count after successful insert
-                $count++;
-                echo "<script>document.querySelector('h3').innerText='Total registered Alumni: $count';</script>";
+            if (getUser($roll)) {
+                echo "<script>alert('Sorry sir, you have already registered!');</script>";
+
+                exit;
             } else {
-                echo "<script>alert('Error: " . $stmt->error . "');</script>";
+                $stmt = $conn->prepare("INSERT INTO guests (naam, phoneNo, roll, batch,link) VALUES (?, ?, ?, ?,?)");
+                $stmt->bind_param("sssss", $name, $mobile, $roll, $batch, $link);
+                if ($stmt->execute()) {
+                    echo "<script>alert('Registration successful!');</script>";
+                    // Get updated count after successful insert
+                    $count++;
+                    echo "<script>document.querySelector('h3').innerText='Total registered Alumni: $count';</script>";
+                } else {
+                    echo "<script>alert('Error: " . $stmt->error . "');</script>";
+                }
             }
         }
     }
-}
 
-function getUser($roll) {
-    global $conn; // Make sure $conn is your database connection from db.php
-    $stmt=$conn->prepare("SELECT * FROM guests where roll=?");
-    $stmt->bind_param("s",$roll);
-    $stmt->execute();
-    $result = $stmt->get_result();
-    return $result->num_rows > 0; // Returns true if roll exists, false otherwise
-     
-}
-    
+    function getUser($roll)
+    {
+        global $conn; // Make sure $conn is your database connection from db.php
+        $stmt = $conn->prepare("SELECT * FROM guests where roll=?");
+        $stmt->bind_param("s", $roll);
+        $stmt->execute();
+        $result = $stmt->get_result();
+        return $result->num_rows > 0; // Returns true if roll exists, false otherwise
+
+    }
+
     // Example: Handle file upload (save to 'uploads/' directory)
-    // if ($screenshot && $screenshot['error'] === UPLOAD_ERR_OK) {
-    //     $uploadDir = __DIR__ . '/uploads/';
-    //     if (!is_dir($uploadDir)) {
-    //         mkdir($uploadDir, 0777, true);
-    //     }
-    //     $filePath = $uploadDir . basename($screenshot['name']);
-    //     move_uploaded_file($screenshot['tmp_name'], $filePath);
-    //     $uploadMsg = "Screenshot uploaded successfully.";
-    // } else {
-    //     $uploadMsg = "No screenshot uploaded.";
-    // }
 
     // You can process/store the other fields as needed
 
@@ -190,7 +241,7 @@ function getUser($roll) {
 
                 <button type="submit">Submit</button>
             </form>
-            <?php if (!empty($uploadMsg)) { echo "<p>$uploadMsg</p>"; } ?>
+            <?php if (! empty($uploadMsg)) {echo "<p>$uploadMsg</p>";}?>
         </div>
     </div>
     <script>

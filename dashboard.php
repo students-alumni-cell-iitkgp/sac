@@ -9,10 +9,10 @@
       $email = $_SESSION['email'];
       $dob =   $_SESSION['password']; 
   
-      $stmt = $conn->prepare("SELECT * FROM hc WHERE `email` = '$email'");
+      $stmt = $conn->prepare("SELECT * FROM AAM WHERE `email` = '$email'");
       $stmt->execute();
   
-      $users = $stmt->fetchAll();
+      $users = $stmt->get_result()->fetch_all(MYSQLI_ASSOC);
       foreach($users as $user) {
         $pay_status = $user['pay_status'] ;  
         //adding seession
@@ -329,14 +329,14 @@ input{
         <?php include './show/accomodation.php' ?>
         <?php include './show/work.php' ?>
         <?php include './show/nostalgia.php' ?>
-        <?php include './show/payment.php' ?>
+       
         <?php include './edit/attendee.php' ?>
         <?php include './edit/yoy.php' ?>
-        <?php include './edit/personal.php' ?>
+        <!-- <?php include './edit/personal.php' ?>
         <?php include './edit/travel.php' ?>
         <?php include './edit/accomodation.php' ?>
         <?php include './edit/work.php' ?>
-        <?php include './edit/nostalgia.php' ?>
+        <?php include './edit/nostalgia.php' ?> -->
         
         </div>
         <div class="col-md-5 mt-4">

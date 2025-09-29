@@ -1,5 +1,5 @@
 <?php 
-include_once('../config.php');
+include('../config.php');
 
 if(!empty($_POST["email"])) {
   $email= $_POST["email"];
