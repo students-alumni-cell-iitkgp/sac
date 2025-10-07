@@ -1,29 +1,5 @@
 <?php
 //    
-<<<<<<< HEAD
-   include ("credentials.php");
-
-   // Create connection
-   $conn = new mysqli($servername, $username, $password, $dbname, $port);
-
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
-// echo "Connected successfully";
-  
-//     include ("connection.php");
-
-//     try {
-    
-//     $conn = new PDO("mysql:host=$DB_HOST; dbname=$DB_NAME",$DB_USER, $DB_PASS);
-//     $conn->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
-//     }
-//     catch(PDOException $e) {
-//     echo "Connection failed: " . $e->getMessage();
-//    }
-
-=======
 //    include ("credentials.php");
 //
 //    // Create connection
@@ -46,4 +22,3 @@ if ($conn->connect_error) {
    }
 
 ?>
->>>>>>> 431f2d860032359773f62f6cb1c59bb9a861d1c7

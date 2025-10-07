@@ -25,19 +25,6 @@
       background-color: #e58f8f;
     }
 </style>
-<<<<<<< HEAD
-<?php
-    include 'config.php'; // your DB connection
-
-    // Fetch total availability from all guesthouses
-    $query    = "SELECT av  FROM acco";
-    $result   = $conn->query($query);
-    $row      = $result->fetch_assoc();
-    $av = $row['av']; // total rooms available
-?>
-
-=======
->>>>>>> 431f2d860032359773f62f6cb1c59bb9a861d1c7
 </head>
 <body>
 <div class = "section1">
@@ -58,11 +45,7 @@
             <input type="text" class="form-control" name= "name" id="name" placeholder="Name" maxlength="150" required>
             <label for="username">Name<span style="color:red;">*</span></label>
            </div>
-<<<<<<< HEAD
-
-=======
   
->>>>>>> 431f2d860032359773f62f6cb1c59bb9a861d1c7
            <div class="form-floating mb-3 col-sm-6">
              <input type="email" class="form-control" name= "email" id="email" placeholder="name@example.com" onBlur="checkemailAvailability()" maxlength="100" required>
              <label for="email">Email address<span style="color:red;">*</span></label>
@@ -75,11 +58,7 @@
             <input type="text" class="form-control" name= "mobile" id="mobile" placeholder="99XX......" maxlength="50" required>
             <label for="username">Mobile<span style="color:red;">*</span></label>
            </div>
-<<<<<<< HEAD
-
-=======
   
->>>>>>> 431f2d860032359773f62f6cb1c59bb9a861d1c7
            <div class="form-floating mb-3 col-sm-6">
              <input type="date" class="form-control" name= "dob" id="dob" placeholder="dd-mm-yyyy" required>
              <label for="dob">Date of Birth<span style="color:red;">*</span></label>
@@ -105,11 +84,7 @@
             <input type="text" class="form-control" name= "city" id="floatingInput" placeholder="Kharagpur" maxlength="50">
             <label for="city">City</label>
            </div>
-<<<<<<< HEAD
-
-=======
   
->>>>>>> 431f2d860032359773f62f6cb1c59bb9a861d1c7
            <div class="form-floating mb-3 col-sm-6">
              <input type="text" class="form-control" name= "state" id="floatingInput" placeholder="West Bengal" maxlength="50">
              <label for="state">State</label>
@@ -120,11 +95,7 @@
             <input type="text" class="form-control" name= "country" id="floatingInput" placeholder="India" maxlength="50">
             <label for="country">Country</label>
            </div>
-<<<<<<< HEAD
-
-=======
   
->>>>>>> 431f2d860032359773f62f6cb1c59bb9a861d1c7
            <div class="form-floating mb-3 col-sm-6">
              <input type="text" class="form-control" name= "zipcode" id="floatingInput" placeholder="38....." maxlength="20">
              <label for="zipcode">Zip Code</label>
@@ -197,11 +168,7 @@
 
            <div class="row" style = "margin-top: 15px !important">
           <div class="form-floating mb-3 col-sm-6">
-<<<<<<< HEAD
-                <input type="number" class="form-control" id="accompaniment" name= "accompaniment" value="0" placeholder= "0" min = "0" onkeypress="calc_cost()" max= "20" maxlength="10">
-=======
                 <input type="number" class="form-control" id="accompaniment" name= "accompaniment" value="0" placeholder= "0" min = "0" onchange="calc_cost()" max= "20" maxlength="10">
->>>>>>> 431f2d860032359773f62f6cb1c59bb9a861d1c7
                 <label for="accompaniment">Accompanying Person(s)</label>
              </div>
 
@@ -214,20 +181,6 @@
 
            <div class = "row" style="justify-content:center">
            <div class="mb-3 col-sm-4">
-<<<<<<< HEAD
-           <input class="form-control" id="acp" name = "acp" type="text"  readonly>
-           
-           </div>
-           </div>
-
-           <!-- <table class="table table-striped" style = "margin-bottom: 0 !important">
-            <thead>
-              <tr>
-                <th scope="col">Guest House</th>
-                <th scope="col">Cost per person(INR)</th>-->
-              <!-- </tr>
-            </thead> -->
-=======
            <input class="form-control" id="acp" name = "acp" type="text" value = "Reg Fee = &#8377;0" readonly>
            </div>
            </div>
@@ -239,7 +192,6 @@
                 <!--<th scope="col">Cost per person(INR)</th>-->
               </tr>
             </thead>
->>>>>>> 431f2d860032359773f62f6cb1c59bb9a861d1c7
              <!--<tbody>
               <tr>
                  <th scope="row">1</th>
@@ -252,50 +204,21 @@
                  <td>900</td>
                </tr>
              </tbody>-->
-<<<<<<< HEAD
-           <!-- </table> -->
-           <!--<small class = "text-muted">Rooms are on Shared Bases</small>-->
-           <!-- <p id="alert-msg">All the rooms in the Institute Guest Houses have been filled.
-=======
            </table>
            <!--<small class = "text-muted">Rooms are on Shared Bases</small>-->
            <p id="alert-msg">All the rooms in the Institute Guest Houses have been filled.
->>>>>>> 431f2d860032359773f62f6cb1c59bb9a861d1c7
             <br>
             Please contact with us to get help in booking rooms outside the campus.
             <br>
             <span style="color:darkgreen">
             Syed Ahmad Hasan +91 9423673760
             <br>
-<<<<<<< HEAD
-            Muskan Turaha +91 9368271624
-            </span>
-           </p> -->
-
-           <?php if ($av == 0): ?>
-            <p id="alert-msg">
-            All the rooms in the Institute Guest Houses have been filled. <br>
-    Please contact us to get help in booking rooms outside the campus.
-    <br>
-    <span style="color:darkgreen">
-        Rupesh Sahoo +91 9078260658
-        <br>
-        Nirmal Patidar +91 9368271624
-    </span>
-</p>
-<?php endif; ?>
-
-
-
-           <!--<div class="row" style = "justify-content:center">
-=======
             Muskan Turaha +91 9368271624 
             </span>
            </p>
 
 
            <div class="row" style = "justify-content:center">
->>>>>>> 431f2d860032359773f62f6cb1c59bb9a861d1c7
              <div class="form-floating mb-3 col-sm-6">
             <select class="form-select" id = "employee" name= "employee" aria-label="Floating label select example" onchange="emp()" required>
             <option selected value="select">---Select---</option>
@@ -304,32 +227,19 @@
             </select>
              <label for="employee">Are you a resident of IIT Kharagpur?<span style="color:red;">*</span></label>
           </div>
-<<<<<<< HEAD
-           </div>-->
-
-          <!-- <div class = "row" id = "gh" style = "justify-content:center">
-          <div class="form-floating mb-3 col-sm-6">
-            <select class="form-select" id = "g" name= "gh" aria-label="Floating label select example" onchange="emp()" required>
-            <option selected value="NA">Available</option>
-=======
            </div>
 
           <div class = "row" id = "gh" style = "justify-content:center">
           <div class="form-floating mb-3 col-sm-6">
             <select class="form-select" id = "g" name= "gh" aria-label="Floating label select example" onchange="emp()" required>
             <!-- <option selected value="NA">Available</option> -->
->>>>>>> 431f2d860032359773f62f6cb1c59bb9a861d1c7
             <option selected value="select">---Select---</option>
             <option value="TGH">Technology Guest House</option>
             <option value="SAM">Sir Ashutosh Mukherjee Hall</option>
             </select>
              <label for="gh">Guest House<span style="color:red;">*</span></label>
           </div>
-<<<<<<< HEAD
-        </div> -->
-=======
         </div>
->>>>>>> 431f2d860032359773f62f6cb1c59bb9a861d1c7
 
         <div class="row" id="serial" style = "justify-content:center">
              <div class="form-floating mb-3 col-sm-6">
@@ -337,17 +247,10 @@
                 <label for="serial">Employee ID</label>
              </div>
         </div>
-<<<<<<< HEAD
-        <!--Total cost-->
-        <div class = "row" style="justify-content:center">
-        <div class="mb-3 col-sm-4">
-        <input class="form-control" id="cost" name = "cost" type="text" readonly>
-=======
 
         <div class = "row" style="justify-content:center">
         <div class="mb-3 col-sm-4">
         <input class="form-control" id="cost" name = "cost" type="text" value = "Total cost = &#8377;0" readonly>
->>>>>>> 431f2d860032359773f62f6cb1c59bb9a861d1c7
         </div>
         </div>
 
@@ -368,11 +271,7 @@
             <input type="text" class="form-control" name= "industry" id="industry" placeholder="Google" maxlength="100" required>
             <label for="rollno">Industry<span style="color:red;">*</span></label>
            </div>
-<<<<<<< HEAD
-
-=======
   
->>>>>>> 431f2d860032359773f62f6cb1c59bb9a861d1c7
            <div class="form-floating mb-3 col-sm-6">
              <input type="text" class="form-control" name= "profession" id="profession" placeholder="Manger" maxlength="100" required>
              <label for="profession">Profession<span style="color:red;">*</span></label>
@@ -384,11 +283,7 @@
             <input type="text" class="form-control" name= "organisation" id="organisation" placeholder="Google" maxlength="100" required>
             <label for="organisation">Organisation Name<span style="color:red;">*</span></label>
            </div>
-<<<<<<< HEAD
-
-=======
   
->>>>>>> 431f2d860032359773f62f6cb1c59bb9a861d1c7
            <div class="form-floating mb-3 col-sm-6">
              <input type="text" class="form-control" name= "designation" id="floatingInput" placeholder="USA" maxlength="100">
              <label for="designation">Designation</label>
@@ -407,11 +302,7 @@
             <input type="text" class="form-control" name= "wcity" id="floatingInput" placeholder="Kolkata" maxlength="50">
             <label for="wcity">City</label>
            </div>
-<<<<<<< HEAD
-
-=======
   
->>>>>>> 431f2d860032359773f62f6cb1c59bb9a861d1c7
            <div class="form-floating mb-3 col-sm-6">
              <input type="text" class="form-control" name= "wstate" id="floatingInput" placeholder="West..." maxlength="50">
              <label for="wstate">State</label>
@@ -423,11 +314,7 @@
             <input type="text" class="form-control" name= "wcountry" id="floatingInput" placeholder="India" maxlength="50">
             <label for="wcountry">Country</label>
            </div>
-<<<<<<< HEAD
-
-=======
   
->>>>>>> 431f2d860032359773f62f6cb1c59bb9a861d1c7
            <div class="form-floating mb-3 col-sm-6">
              <input type="text" class="form-control" name= "wzipcode" id="floatingInput" placeholder="$7...." maxlength="20">
              <label for="wzipcode">Zip Code</label>
@@ -450,11 +337,7 @@
             <input type="text" class="form-control" name= "rollno" id="floatingInput" placeholder="17XY...." maxlength="20">
             <label for="rollno">Roll Number</label>
            </div>
-<<<<<<< HEAD
-
-=======
   
->>>>>>> 431f2d860032359773f62f6cb1c59bb9a861d1c7
            <div class="form-floating mb-3 col-sm-6">
              <input type="text" class="form-control" name= "degree" id="floatingInput" placeholder="B. Tech" maxlength="30">
              <label for="degree">Degree</label>
@@ -547,11 +430,7 @@
             <input type="number" min="1951" max="2020" class="form-control" name= "yoj" id="yoj" placeholder="2010" maxlength="10" required>
             <label for="yoj">Join Year<span style="color:red;">*</span></label>
            </div>
-<<<<<<< HEAD
-
-=======
   
->>>>>>> 431f2d860032359773f62f6cb1c59bb9a861d1c7
            <div class="form-floating mb-3 col-sm-6">
              <input type="number" min="1951" max="2020" class="form-control" name= "yog" id="yog" placeholder="2010" maxlength="10" required>
              <label for="yog">Year of Graduating<span style="color:red;">*</span></label>
@@ -561,16 +440,12 @@
       </div>
     </div>
   </div>
-<<<<<<< HEAD
-  <div class="accordion-item">
-=======
 
   <div class = "row" style="justify-content:center; color:white; margin: 11px">
         <div class="col-1"><button id="submit" class="btn btn-light" onclick = "next()" type = "submit">Submit</button></div>
   </div>
   
   <!--<div class="accordion-item">
->>>>>>> 431f2d860032359773f62f6cb1c59bb9a861d1c7
     <h2 class="accordion-header" id="headingSix">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
         Payment
@@ -578,25 +453,11 @@
     </h2>
     <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-<<<<<<< HEAD
-         
-
-      </div>
-    </div>
-  </div>
-
-  <div class = "row" style="justify-content:center; color:white; margin: 11px">
-        <div class="col-1"><button id="submit" class="btn btn-light" onclick = "next()" type = "submit">Submit</button></div>
-  </div>
-
-  
-=======
      /*******************TO BE Added */
 
     </div>
     </div>
   </div>-->
->>>>>>> 431f2d860032359773f62f6cb1c59bb9a861d1c7
 </div>
 </form>
 </div>
@@ -622,44 +483,14 @@ function checkemailAvailability() {
 }
 
 function calc_cost(){
-<<<<<<< HEAD
-           let nguest = parseInt(document.getElementById("accompaniment").value,10)||0;
-          //  let choice = document.getElementById("g").value;
-          
-          //  let e = document.getElementById("employee").value;
-=======
            let nguest = document.getElementById("accompaniment").value;
            let choice = document.getElementById("g").value;
 
            let e = document.getElementById("employee").value;
->>>>>>> 431f2d860032359773f62f6cb1c59bb9a861d1c7
            var cost = 0;
            var c = 0;
            c = 8000 + 5000*nguest;
 
-<<<<<<< HEAD
-          //  if(e == 0)
-          //  {
-          //      if(choice === "TGH"){
-          //          cost = 2550 + 8000 + 5000*nguest + 2550*nguest;
-          //      }
-          //      else if(choice === "SAM"){
-          //          cost = 900 + 8000 + 5000*nguest + 900*nguest;
-          //      }
-          //      else{
-          //       cost =8000 + 5000*nguest;
-          //      }
-          //  }
-          //  else if(e==1){
-          //      cost =8000 + 5000*nguest;
-          // }
-          cost=c+(2500*((nguest)+1));
-           //console.log(nguest,choice,e);
-           document.getElementById("acp").value ="Total Reg Fee = "+c;
-           document.getElementById("cost").value ="Total Cost = "+cost;
-
-           console.log(document.getElementById("cost"));
-=======
            if(e == 0)
            { 
                if(choice === "TGH"){
@@ -679,7 +510,6 @@ function calc_cost(){
            document.getElementById("acp").value ="Total Reg Fee = "+c;
            document.getElementById("cost").value ="Total Cost = "+cost;
            //console.log(cost);
->>>>>>> 431f2d860032359773f62f6cb1c59bb9a861d1c7
        }
 
 function emp()
@@ -743,25 +573,14 @@ function next(){
            if(!(yog.length>0))
            str = str + "Graduting Year";
 
-<<<<<<< HEAD
-          if(!(email.length>0 && name.length>0 &&
-=======
           if(!(email.length>0 && name.length>0 && 
->>>>>>> 431f2d860032359773f62f6cb1c59bb9a861d1c7
           mobile.length>0 && dob.length>0 && employee.length>0 && industry.length>0 && profession.length>0
           && organisation.length>0 && yoj.length>0 && yog.length>0 && pic.length>0)){
             alert('Please fill '+str+"!");
            }
-<<<<<<< HEAD
-       }
-</script>
-
-
-=======
        } 
 </script>
 
   
->>>>>>> 431f2d860032359773f62f6cb1c59bb9a861d1c7
 </body>
 </html>

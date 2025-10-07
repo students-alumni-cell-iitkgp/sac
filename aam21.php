@@ -48,32 +48,6 @@
 			</div>
 		</header>
 	</section>
-<<<<<<< HEAD
-	<section class="section-1 pt-0">
-	<!--add a button to redirect to AAM Portal-->
-	<div style="text-align: center; padding: 2rem 0;">
-		<a href="loginpage.php" style="text-decoration: none;">
-			<button style="
-				background-color: #007bff;
-				color: white;
-				padding: 15px 40px;
-				font-size: 18px;
-				font-weight: bold;
-				border: none;
-				border-radius: 5px;
-				cursor: pointer;
-				opacity: 1;
-				transition: background-color 0.3s ease;
-			"
-			onmouseover="this.style.backgroundColor='#0056b3'"
-			onmouseout="this.style.backgroundColor='#007bff'">
-				AAM Portal
-			</button>
-		</a>
-	</div>
-    </section>
-=======
->>>>>>> 431f2d860032359773f62f6cb1c59bb9a861d1c7
 	<section class="section-2 pt-0" style="padding-bottom:10rem;">
 		<div class="padding">
 			<div class="row">
