@@ -1,0 +1,71 @@
+.info
+{
+	padding: 20px !important;
+		
+}
+
+._wrapper{
+	background-color: #F4F4F4;
+	padding-bottom: 30px;
+}
+
+.subhead
+{
+	text-align: center;
+}
+
+.parallax-container {
+    height: "500px";
+    z-index: 2;
+}
+
+._about{
+	height: 750px;
+}
+
+.card-content{
+	padding-bottom: 5px;
+	border-bottom: 1px solid black;
+}
+
+.card-action{
+	padding-top: 10px !important;
+}
+
+.subheading
+{
+	border: 4px solid;
+	padding: 12px;
+	font-size:34px;
+}
+
+.heading{
+	padding-top: 30px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+._footer{
+	
+	position: relative;
+	bottom: 0px;
+	width: 100%;
+}
+
+._textcolor li a{
+	color: black !important;
+}
+
+.nav-wrapper a{
+	color: black !important;
+}
+
+/*._card{
+	width: 100%;
+	height: 50%;
+}*/
+
+.text_align{
+
+	text-align: justify;
+}

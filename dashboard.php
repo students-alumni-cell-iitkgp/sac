@@ -13,12 +13,12 @@
       $stmt->execute();
   
       $users = $stmt->get_result()->fetch_all(MYSQLI_ASSOC);
-      foreach($users as $user) {
-        $pay_status = $user['pay_status'] ;  
-        //adding seession
-        $_SESSION['pay_status']=$pay_status; 
+      // foreach($users as $user) {
+      //   $pay_status = $user['pay_status'] ;  
+      //   //adding seession
+      //   $_SESSION['pay_status']=$pay_status; 
     
-      } 
+      // } 
     
 
     }
@@ -74,7 +74,7 @@
         $reach_in      = $_SESSION['reach_in']      ;
         $date_reach_in = $_SESSION['date_reach_in']      ;
         $time_reach_in = $_SESSION['time_reach_in']      ;
-        $flight_no     = $_SESSION['flight_no']      ; 
+        $flight_no     = $_SESSION['flight_no']      ;
         $train_no      = $_SESSION['train_no']      ;
         $cab           = $_SESSION['cab']      ;
         $cab_type      = $_SESSION['cab_type']      ;
@@ -880,7 +880,7 @@ input{
     }
 
     function yoy() {
-        prof1.style.display = "none";
+        prof1.style.display = "block";
         prof2.style.display = "none";
         prof3.style.display = "none";
         prof4.style.display = "none";

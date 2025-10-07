@@ -1,9 +1,9 @@
 <?php
-$servername = "127.0.0.1";
+$servername = "10.145.128.28";
 $username = "root";
-$password = "Sac@123";
-$dbname = "Registration";
-$port = 4000; // the host port mapped to MySQL container
+$password = "sac@2025";
+$dbname = "sacdb";
+$port = 3306; // the host port mapped to MySQL container
 
 
 ?>

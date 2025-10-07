@@ -1,0 +1,358 @@
+@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+/* 
+* {
+  box-sizing: border-box;
+} */
+*{
+	margin:0;
+	padding:0;
+
+}
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	width:100%;
+}
+
+.container-fluid{
+	padding-right: 0;
+	padding-left: 0;
+}
+header,
+section {
+  overflow-x: hidden;
+}
+
+:root {
+  --Sniglet-font: "Sniglet", cursive;
+  --Rubik: "Rubik", cursive;
+  --Patua: "Patua One", cursive;
+  --Lobster: "lobster", cursive;
+  --light-black: #2e2c2caf;
+  --bggradient: linear-gradient(to bottom, #3fcef1, #e9e3e3);
+  --light-gray: rgba(255, 255, 255, 0.877);
+}
+
+header a {
+  font-family: var(--Sniglet-font);
+  font-size: 0.9em;
+  color: whitesmoke;
+}
+.navbar{
+  font-size: 1.1rem;
+}
+.nav-link{
+  padding-right: 20px !important;
+  padding-left: 20px !important;
+}
+.navbar-brand img{
+  height: 4.5rem;
+  width: 11rem;
+}
+.nav-item:hover .nav-link{
+  background-color: gray;
+  border-radius:  2px;
+}
+.dropdown:hover .dropdown-menu {   
+  display: block;
+  margin-top: 0; 
+}
+.dropdown-item{
+  text-align: center !important;
+  padding-bottom: 20px !important;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+header .nav-item:last-child {
+  padding-right: 10.5em;
+}
+
+header .nav-item {
+  padding: 0.9em;
+}
+
+header .navbar-brand {
+  padding-left: 8rem;
+}
+
+header .nav-link:hover {
+  color: black;
+}
+
+header .row .col-md-7 {
+  padding: 22vmin 1vmin;
+  padding-bottom: 35vmin;
+}
+
+header .row .col-md-5 {
+  padding: 4.2vmin 1vmin;
+}
+
+header .row .col-md-5 img {
+  width: 90%;
+}
+
+header {
+  background: #ff512f;
+  /* fallback for old browsers */
+  background: url(../img/yoy_slide.webp);
+  background-size:100% 100%;
+  background-position: center;
+}
+
+header .container .col-md-7 {
+	font-family: 'Raleway', sans-serif;
+}
+
+header .container .col-md-7 h6 {
+  padding: 1vmin;
+  letter-spacing: 3px;
+}
+
+header .container .col-md-7 h1 {
+  font-size: 8.5vmin;
+  font-weight: bolder;
+  padding: 0.1em 0em;
+}
+
+header .container .col-md-7 p {
+  padding: 1vmin 5vmin;
+}
+
+.primary-btn {
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+.progress-bar-purple {
+  background-color: #00416d !important;
+	height:0.7rem;
+}
+
+
+
+
+.section-1 {
+	padding: 5vmin 0vmin;
+  }
+  
+  .section-1 .row .col-md-12:last-child {
+	position: relative;
+  }
+
+/*element.style {
+}
+.section-1 .row .col-md-12 .panel*/
+  
+  .section-1 .row .col-md-12 .panel {
+	top: 7vmin;
+	left: -18vmin;
+	background: white;
+	border-radius: 3px;
+	text-align: left;
+	padding: 5vmin 5vmin 5vmin 5vmin;
+	box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+	font-family: var(--Rubik);
+  z-index: 1;
+  background-color: whitesmoke;
+  }
+  
+  .section-1 .row .col-md-12 .panel h1 {
+	font-weight: bold;
+	font-family: 'Raleway', sans-serif;
+	padding: 0.4em 0;
+	font-size: 3em;
+  }
+  
+  .section-1 .row .col-md-12 .panel p {
+	font-size: 0.9em;
+	color: rgba(0, 0, 0, 0.5);
+  }
+
+  
+  
+  .row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+	.section-3 .card {
+		padding : 6px;
+		margin : 8px;
+	}
+	.section-3 .card img{
+        height: 340px;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+	.section-3 .card {
+		padding : 4px;
+		margin : 4px;
+	}
+	.section-3 .card img{
+        height: 280px;
+    }
+  } 
+
+  .section-3 {
+   padding: 10vmin 0vmin;
+   } 
+
+  #footer{
+    background-color: #23232b;
+    height: 18rem;
+    overflow: hidden;
+  }
+  
+  .footer-top-left{
+    height:12rem;
+    background-image: linear-gradient(to bottom right, #283949, #342b2d);
+    color:white;
+    padding-top:1.8rem;
+  }
+  
+  .footer-top-right{
+    padding:1.8rem;
+    color:#eef0ef;
+  
+  }
+  
+  .dots{
+    font-size: 2em;
+    position:relative;
+    bottom:2.5rem;
+  }
+  
+  .bar{
+    font-size:3em;
+    color:white;
+    position:absolute;
+    top:-2.8rem;
+    left:2rem;
+  
+  
+  }
+  
+  .icon{
+    font-size: 2em;
+    color:white;
+    position:absolute;
+    top:-1rem;
+    
+  }
+  #copyright{
+    background-color: black;
+    text-align:center;
+    color:grey;
+  }
+
+  svg {
+    height: 200px;
+  }
+
+.section-3 h1{
+    font-weight: bold;
+	font-family: 'Raleway', sans-serif;
+	padding: 0.4em 0;
+    font-size: 3em;
+    color: black;
+}
+.section-3 .card{
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+/* 
+.section-3 .card:before{
+    position: absolute;
+    content: '';
+    width: 150%;
+    height: 220%;
+    background: rgba(65, 61, 63, 0.7);
+    top: -50%;
+    left: -100%;
+    z-index: 1;
+    transform: rotate(25deg);
+    transform-origin: center top 0;
+    transition: .5s;
+} */
+
+.section-3 .card:hover:before{
+    left: 10%;
+}
+
+.section-3 .card img{
+    width: 100%;
+    height: 450px;
+}
+
+.section-3 .card-text{
+    width: 100%;
+    padding: 0 20px;
+    position: absolute;
+    top: -100%;
+    color: #fff;
+    left: 0;
+    z-index: 2;
+    transition: 0.7s;
+}
+
+.section-3 .card:hover .card-text{
+    top: 80px;
+}
