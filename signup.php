@@ -751,7 +751,6 @@ function next(){
           mobile.length>0 && dob.length>0 && employee.length>0 && industry.length>0 && profession.length>0
           && organisation.length>0 && yoj.length>0 && yog.length>0 && pic.length>0)){
             alert('Please fill '+str+"!");
-<<<<<<< Updated upstream
            }
 <<<<<<< HEAD
        }
@@ -759,9 +758,6 @@ function next(){
 
 
 =======
-=======
-          }
->>>>>>> Stashed changes
        } 
 </script>
 
