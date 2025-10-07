@@ -26,7 +26,10 @@
 			color: darkblue;
 			font-weight: bold;
 		}
+<<<<<<< HEAD
 		
+=======
+>>>>>>> 431f2d860032359773f62f6cb1c59bb9a861d1c7
 	</style>
 </head>
 
@@ -34,7 +37,11 @@
 
 <body>
 	<section class="section-1 pb-5">
+<<<<<<< HEAD
 		<?php include 'navbar.php'?>
+=======
+		<?php include 'navbar.php' ?>
+>>>>>>> 431f2d860032359773f62f6cb1c59bb9a861d1c7
 		<header>
 			<div class="header"></div>
 
@@ -42,6 +49,7 @@
 			</div>
 		</header>
 	</section>
+<<<<<<< HEAD
 
 
 	<section class="section-2 pt-0" style="padding-bottom:10rem;">
@@ -50,6 +58,12 @@
 		<div class="padding">
 			<div class="row">
 
+=======
+	<section class="section-2 pt-0" style="padding-bottom:10rem;">
+		<div class="padding">
+			<div class="row">
+
+>>>>>>> 431f2d860032359773f62f6cb1c59bb9a861d1c7
 				<div class="col-md-7 col-11">
 					<h1 class="one justify-content-left">ABOUT US</h1>
 
@@ -67,11 +81,18 @@
 					<div class="row">
 
 						<div class="col-6"> <a class="btn btn-outline-primary c" href="aam19.php" role="button">Visit - 19th Annual Meet</a></div>
+<<<<<<< HEAD
 						<div class="col-6"> <a class="btn btn-outline-primary c" href="aam18.php" role="button">Visit - 18th Annual Meet</a></div>
 						
 
 					</div>
 					<!-- <a class="btn btn-outline-primary c" align="justify" href="./grandreunion/index.php" role="button">18th Annual Meet</a> -->
+=======
+						<div class="col-6"> <a class="btn btn-outline-primary c" href="aam18.php" role="button">Visit - 17th Annual Meet</a></div>
+
+					</div>
+					<!--<a class="btn btn-outline-primary c" align="justify" href="./grandreunion/index.php" role="button">18th Annual Meet</a>-->
+>>>>>>> 431f2d860032359773f62f6cb1c59bb9a861d1c7
 				</div>
 				<div class="col-md-5">
 					<div class="container" style="margin-left:0.5rem;">
@@ -235,21 +256,37 @@
 		<div class="row">
 			<div class="col-md-3 d-flex justify-content-center">
 				<h1 class="gallery-h3 pt-5 text-center">Musical Night</h1>
+<<<<<<< HEAD
 			</div>
 			<div class="col-md-9">
 			<div class="container">
 			<div class="row d-flex justify-content-center">
 				<div class="col-md-6 content-overlay x">
+=======
+			</div>		
+			<div class="col-md-9">
+			<div class="container">
+			<div class="row d-flex justify-content-center">
+				<div class="col-md-6 content-overlay x">	
+>>>>>>> 431f2d860032359773f62f6cb1c59bb9a861d1c7
 				<div class="image">
 					<img  src="img/yellow-diary.jfif" class="img-fluid image__img">
 				</div>
 				</div>
+<<<<<<< HEAD
 				<div class="col-md-6 content-overlay x">
+=======
+				<div class="col-md-6 content-overlay x">	
+>>>>>>> 431f2d860032359773f62f6cb1c59bb9a861d1c7
 				<div class="image">
 					<img  src="img/day2c/compressed day 2/yellow-diary.webp" class="img-fluid image__img">
 				</div>
 				</div>
+<<<<<<< HEAD
 
+=======
+									
+>>>>>>> 431f2d860032359773f62f6cb1c59bb9a861d1c7
 	</div>
 	</div>
 	</div>
@@ -378,15 +415,24 @@
 		<div class="row">
 			<div class="col-md-3 d-flex justify-content-center">
 				<h1 class="gallery-h3 pt-5 text-center">Entertania</h1>
+<<<<<<< HEAD
 			</div>
 			<div class="col-md-9">
 			<div class="container">
 			<div class="row d-flex justify-content-center">
 				<div class="col-md-8 content-overlay x">
+=======
+			</div>		
+			<div class="col-md-9">
+			<div class="container">
+			<div class="row d-flex justify-content-center">
+				<div class="col-md-8 content-overlay x">	
+>>>>>>> 431f2d860032359773f62f6cb1c59bb9a861d1c7
 					<div class="image">
 					<img src="img/day1c/compressed day 1/akash2.webp" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary text-center">
 						<div class="image__title">Stand-Up Comedy</div>
+<<<<<<< HEAD
 							<p class="image__description">Smiles can cast the most powerful spell of love and happiness.</p>
 				</div></div>
 		</div>
@@ -395,15 +441,33 @@
 					<img  src="img/day1c/compressed day 1/toat.webp" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary">
 
+=======
+							<p class="image__description">Smiles can cast the most powerful spell of love and happiness.</p>	
+				</div></div>								
+		</div>
+		<div class="col-md-4 content-overlay x">					
+				<div class="image">
+					<img  src="img/day1c/compressed day 1/toat.webp" class="img-fluid image__img">
+					<div class="image__overlay image__overlay--primary">
+					
+>>>>>>> 431f2d860032359773f62f6cb1c59bb9a861d1c7
 				</div></div>
 				<div class="image pt-3">
 					<img  src="img/day1c/compressed day 1/toat2.webp" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary">
+<<<<<<< HEAD
 
 				</div></div></div>
 
 				</div>
 
+=======
+					
+				</div></div></div>
+				
+				</div>
+			
+>>>>>>> 431f2d860032359773f62f6cb1c59bb9a861d1c7
 	</div>
 	</div>
 	</div>
@@ -514,7 +578,11 @@
 
 					<img src="img/day3c/compressed day 3/closing_ceremony.webp" class="img-fluid image__img">
 					<div class="image__overlay image__overlay--primary">
+<<<<<<< HEAD
 							<div class="image__title">Closing Ceremony</div>
+=======
+							<div class="image__title">Closing Ceremony</div>	
+>>>>>>> 431f2d860032359773f62f6cb1c59bb9a861d1c7
 				</div></div>
 				</div>
 			</div>-->
@@ -526,8 +594,13 @@
 		</div>
 	</section>
 
+<<<<<<< HEAD
 	<?php include 'footer.php'?>
 	<!-- <? //php include'preloader.php'
+=======
+	<?php include 'footer.php' ?>
+	<!-- <? //php include'preloader.php' 
+>>>>>>> 431f2d860032359773f62f6cb1c59bb9a861d1c7
 			?> -->
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

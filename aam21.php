@@ -48,6 +48,7 @@
 			</div>
 		</header>
 	</section>
+<<<<<<< HEAD
 	<section class="section-1 pt-0">
 	<!--add a button to redirect to AAM Portal-->
 	<div style="text-align: center; padding: 2rem 0;">
@@ -71,6 +72,8 @@
 		</a>
 	</div>
     </section>
+=======
+>>>>>>> 431f2d860032359773f62f6cb1c59bb9a861d1c7
 	<section class="section-2 pt-0" style="padding-bottom:10rem;">
 		<div class="padding">
 			<div class="row">
