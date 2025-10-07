@@ -1,0 +1,395 @@
+@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+
+/* 
+* {
+  box-sizing: border-box;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+}
+
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+header,
+section {
+    overflow-x: hidden;
+}
+
+:root {
+    --Sniglet-font: "Sniglet", cursive;
+    --Rubik: "Rubik", cursive;
+    --Patua: "Patua One", cursive;
+    --Lobster: "lobster", cursive;
+    --light-black: #2e2c2caf;
+    --bggradient: linear-gradient(to bottom, #3fcef1, #e9e3e3);
+    --light-gray: rgba(255, 255, 255, 0.877);
+}
+
+header a {
+    font-family: var(--Sniglet-font);
+    font-size: 0.9em;
+    color: whitesmoke;
+}
+
+.navbar {
+    font-size: 1.1rem;
+}
+
+.nav-link {
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+}
+
+.navbar-brand img {
+    height: 4.5rem;
+    width: 11rem;
+}
+
+.nav-item:hover .nav-link {
+    background-color: gray;
+    border-radius: 2px;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+.dropdown-item {
+    text-align: center !important;
+    padding-bottom: 20px !important;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+header .nav-item:last-child {
+    padding-right: 10.5em;
+}
+
+header .nav-item {
+    padding: 0.9em;
+}
+
+header .navbar-brand {
+    padding-left: 8rem;
+}
+
+header .nav-link:hover {
+    color: black;
+}
+
+header .row .col-md-7 {
+    padding: 22vmin 1vmin;
+    padding-bottom: 35vmin;
+}
+
+header .row .col-md-5 {
+    padding: 4.2vmin 1vmin;
+}
+
+header .row .col-md-5 img {
+    width: 90%;
+}
+
+header {
+    background: #ff512f;
+    /* fallback for old browsers */
+    background: url(../img/dak.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+header .container .col-md-7 {
+    font-family: 'Raleway', sans-serif;
+}
+
+header .container .col-md-7 h6 {
+    padding: 1vmin;
+    letter-spacing: 3px;
+}
+
+header .container .col-md-7 h1 {
+    font-size: 8.5vmin;
+    font-weight: bolder;
+    padding: 0.1em 0em;
+}
+
+header .container .col-md-7 p {
+    padding: 1vmin 5vmin;
+}
+
+.primary-btn {
+    border-radius: 30px;
+    font-weight: bold;
+}
+
+.progress-bar-purple {
+    background-color: #00416d !important;
+    height: 0.7rem;
+}
+
+main {
+    background: white;
+}
+
+.section-1 {
+    padding: 0vmin 0vmin;
+}
+
+.section-1 .row .col-md-12 .pray img {
+    opacity: 0.8;
+    width: 100%;
+    border-radius: 0.2em;
+}
+
+.section-1 .row .col-md-12:last-child {
+    position: relative;
+}
+
+.section-1 .row .col-md-12 .panel {
+    top: 7vmin;
+    left: -18vmin;
+    background: white;
+    border-radius: 3px;
+    text-align: left;
+    padding: 5vmin 5vmin 5vmin 5vmin;
+    box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+    font-family: var(--Rubik);
+    z-index: 1;
+    background-color: whitesmoke;
+}
+
+.section-1 .row .col-md-12 .panel h1 {
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    padding: 0.4em 0;
+    font-size: 3em;
+}
+
+.section-1 .row .col-md-12 .panel p {
+    font-size: 0.9em;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.section-1 .row .col-md-12 .panel {
+    top: 7vmin;
+    left: -18vmin;
+    background: white;
+    border-radius: 3px;
+    text-align: left;
+    padding: 5vmin 5vmin 5vmin 5vmin;
+    box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+    font-family: var(--Rubik);
+    z-index: 1;
+    background-color: whitesmoke;
+}
+
+.section-1 .row .col-md-12 .panel h1 {
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    padding: 0.4em 0;
+    font-size: 3em;
+}
+
+.section-1 .row .col-md-12 .panel p {
+    font-size: 0.9em;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#y {
+    font-size: 0.9em;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#btn1:hover~#btn2 {
+    color: #0d47a1 !important;
+    background-color: white !important;
+    border: 1px solid #0275d8;
+}
+
+.cover {
+    width: 100%;
+    height: 32vmin;
+    background: url("../assets/pexels-photo-452738.jpeg");
+    background-position: -24rem -19rem;
+    background-size: 150%;
+    position: relative;
+    padding-bottom: 5vmin;
+}
+
+.cover .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    padding-bottom: 5vmin;
+}
+
+.cover .content {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    padding-top: 7vmin;
+}
+
+.cover .content>h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 6vmin;
+    color: whitesmoke;
+}
+
+.cover .content>p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2vmin;
+    color: #e5e5e5;
+}
+
+.numbers .rect {
+    position: relative;
+    z-index: 1;
+    background: white;
+    width: 25rem;
+    height: 10rem;
+    padding-top: 1.5vmin;
+    margin: 1rem;
+    border-radius: 0.5em;
+    box-shadow: 1px 2px 50px 0px #00416d;
+}
+
+.numbers {
+    margin-top: -15vmin;
+}
+
+.numbers .rect h1 {
+    font-size: 5rem;
+    color: #00416d;
+}
+
+.numbers .rect>p {
+    font-family: 'Raleway', sans-serif;
+}
+
+.mod-img {
+    display: inline-block;
+    padding-right: 0;
+    max-height: 400px;
+}
+
+.modal-content {
+    display: inline-block;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    padding: 2%;
+    border: 0;
+}
+
+.modal-dialog {
+    width: 80%;
+    max-width: 50%;
+    height: 90%;
+}
+
+.modal-header {
+    font-family: 'Raleway', sans-serif;
+}
+
+.modal-body {
+    font-family: 'Raleway', sans-serif;
+}
+
+@keyframes fadeleft {
+    0% {
+        left: -80%;
+    }
+    100% {
+        left: 0%;
+    }
+}
+
+.modal {
+    animation: fadeleft 1s ease-out;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    appearance: textfield;
+}
+
+#extrafield2 {
+    display: none;
+}
+
+#extrafield3 {
+    display: none;
+}
+
+#f1 {
+    display: none;
+}
+
+.progress-bar-purple {
+    background-color: #00416d !important;
+    height: 0.7rem;
+}
+
+.progress-bar-purple {
+    background-color: #00416d !important;
+    height: 0.7rem;
+}
+
+@media only screen and (max-width: 768px) {
+    header .navbar-brand {
+        padding-left: 1rem;
+    }
+    header {
+        height: 90vh;
+    }
+    .section-1 .row .col-md-6 .panel {
+        position: initial;
+        width: initial;
+        height: initial;
+    }
+}

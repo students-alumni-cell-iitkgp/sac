@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+:root {
+    --Sniglet-font: "Sniglet", cursive;
+    --Rubik: "Rubik", cursive;
+    --Patua: "Patua One", cursive;
+    --Lobster: "lobster", cursive;
+    --light-black: #2e2c2caf;
+    --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
+    --light-gray: rgba(255, 255, 255, 0.877);
+}
+
+main {
+    background: var(--bggradient);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    background-color: white;
+}
+
+body {
+    background-color: 9ab3f5;
+}
+
+.navbar-nav .nav-item .nav-link .dropdown-menu li {
+    transition: .5s;
+}
+
+.navbar-nav .nav-item .nav-link .dropdown-menu li:checked {
+    background: #fff;
+}
+
+.navbar-nav .nav-item .dropdown-menu li:nth-child(2n) {
+    background: #f7f7f7;
+}
+
+.navbar-nav .nav-item .dropdown-menu li:hover {
+    border: 1px solid black;
+}
+
+.navbar .nav-item:hover .dropdown-menu {
+    display: block;
+}
+
+.navbar-brand img {
+    width: 149.3px;
+    height: 70px;
+}
+
+.img {
+    width: 100%;
+    height: 70vh;
+    background: url(../img/imprint_poster.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.progress-bar-purple {
+    background-color: #00416d !important;
+    height: 0.7rem;
+}
+
+.section-1 {
+    padding: 5vmin 0vmin;
+}
+
+.section-1 .panel {
+    top: 7vmin;
+    left: -18vmin;
+    background: white;
+    border-radius: 3px;
+    text-align: left;
+    padding: 5vmin 5vmin 5vmin 5vmin;
+    box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+    font-family: var(--Rubik);
+    z-index: 1;
+}
+
+.section-1 .panel h1 {
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    padding: 0.4em 0;
+    font-size: 3em;
+}
+
+.section-1 .panel p {
+    font-size: 0.9em;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.section-2 {
+    padding: 5vmin 0vmin;
+    background-color: transparent;
+}
+
+.section-2 .row .col-md-12 .panel {
+    background: white;
+    border-radius: 3px;
+    text-align: left;
+    padding: 5vmin 5vmin 5vmin 5vmin;
+    box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+    font-family: var(--Rubik);
+    z-index: 999;
+}
+
+.section-2 .row .col-md-12 .panel h1 {
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    padding: 0.4em 0;
+    font-size: 3em;
+    margin: 0;
+}
+
+.section-2 .fa-chevron-circle-right,
+.section-2 .fa-chevron-circle-left {
+    color: black;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.815);
+    z-index: 9999;
+    transition: all 1.5s ease;
+}
+
+.row {
+    display: -ms-flexbox;
+    /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap;
+    /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+
+/* Create four equal columns that sits next to each other */
+
+.column {
+    -ms-flex: 25%;
+    /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+
+@media screen and (max-width: 800px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 600px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+    .img {
+        height: 220px;
+        padding-bottom: 20px;
+    }
+}
+
+#footer {
+    background-color: #23232b;
+    height: 18rem;
+}
+
+.footer-top-left {
+    height: 12rem;
+    background-image: linear-gradient(to bottom right, #283949, #342b2d);
+    color: white;
+    padding-top: 1.8rem;
+}
+
+.footer-top-right {
+    padding: 1.8rem;
+    color: #eef0ef;
+}
+
+.dots {
+    font-size: 2em;
+    position: relative;
+    bottom: 2.5rem;
+}
+
+.bar {
+    font-size: 3em;
+    color: white;
+    position: absolute;
+    top: -2.8rem;
+    left: 2rem;
+}
+
+.icon {
+    font-size: 2em;
+    color: white;
+    position: absolute;
+    top: -1rem;
+}
+
+#copyright {
+    background-color: black;
+    text-align: center;
+    color: grey;
+}

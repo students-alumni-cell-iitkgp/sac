@@ -9,6 +9,18 @@
       $email = $_SESSION['email'];
       $dob =   $_SESSION['password']; 
   
+<<<<<<< HEAD
+      $stmt = $conn->prepare("SELECT * FROM AAM WHERE `email` = '$email'");
+      $stmt->execute();
+  
+      $users = $stmt->get_result()->fetch_all(MYSQLI_ASSOC);
+      // foreach($users as $user) {
+      //   $pay_status = $user['pay_status'] ;  
+      //   //adding seession
+      //   $_SESSION['pay_status']=$pay_status; 
+    
+      // } 
+=======
       $stmt = $conn->prepare("SELECT * FROM hc WHERE `email` = '$email'");
       $stmt->execute();
   
@@ -19,6 +31,7 @@
         $_SESSION['pay_status']=$pay_status; 
     
       } 
+>>>>>>> 431f2d860032359773f62f6cb1c59bb9a861d1c7
     
 
     }
@@ -74,7 +87,11 @@
         $reach_in      = $_SESSION['reach_in']      ;
         $date_reach_in = $_SESSION['date_reach_in']      ;
         $time_reach_in = $_SESSION['time_reach_in']      ;
+<<<<<<< HEAD
+        $flight_no     = $_SESSION['flight_no']      ;
+=======
         $flight_no     = $_SESSION['flight_no']      ; 
+>>>>>>> 431f2d860032359773f62f6cb1c59bb9a861d1c7
         $train_no      = $_SESSION['train_no']      ;
         $cab           = $_SESSION['cab']      ;
         $cab_type      = $_SESSION['cab_type']      ;
@@ -329,6 +346,16 @@ input{
         <?php include './show/accomodation.php' ?>
         <?php include './show/work.php' ?>
         <?php include './show/nostalgia.php' ?>
+<<<<<<< HEAD
+       
+        <?php include './edit/attendee.php' ?>
+        <?php include './edit/yoy.php' ?>
+        <!-- <?php include './edit/personal.php' ?>
+        <?php include './edit/travel.php' ?>
+        <?php include './edit/accomodation.php' ?>
+        <?php include './edit/work.php' ?>
+        <?php include './edit/nostalgia.php' ?> -->
+=======
         <?php include './show/payment.php' ?>
         <?php include './edit/attendee.php' ?>
         <?php include './edit/yoy.php' ?>
@@ -337,6 +364,7 @@ input{
         <?php include './edit/accomodation.php' ?>
         <?php include './edit/work.php' ?>
         <?php include './edit/nostalgia.php' ?>
+>>>>>>> 431f2d860032359773f62f6cb1c59bb9a861d1c7
         
         </div>
         <div class="col-md-5 mt-4">
@@ -880,7 +908,11 @@ input{
     }
 
     function yoy() {
+<<<<<<< HEAD
+        prof1.style.display = "block";
+=======
         prof1.style.display = "none";
+>>>>>>> 431f2d860032359773f62f6cb1c59bb9a861d1c7
         prof2.style.display = "none";
         prof3.style.display = "none";
         prof4.style.display = "none";

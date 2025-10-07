@@ -1,5 +1,9 @@
 <?php 
+<<<<<<< HEAD
+include('../config.php');
+=======
 include_once('../config.php');
+>>>>>>> 431f2d860032359773f62f6cb1c59bb9a861d1c7
 
 if(!empty($_POST["email"])) {
   $email= $_POST["email"];
