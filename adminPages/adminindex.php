@@ -1,11 +1,11 @@
  
 
-<!-- i have used fetch(PDO::FETCH_ASSOC) instead i have used fetch() in while loop for view.php -->
+<!-- i have used fetch(PDO::FETCH_ASSOC) instead i hae used fetch() in while loop for view.php -->
 
 
 <?php   
     $title="index"; 
-    include 'includeAdmin/header.php';
+    include 'includeAdmin/header.php'; 
     include 'includeAdmin/authUser.php';
     //include 'includeAdmin/authUser.php';
     $path="../connection.php"; 
