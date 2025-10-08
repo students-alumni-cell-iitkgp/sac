@@ -5,23 +5,38 @@ $path="../connection.php";
 include 'config.php';
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     //$userAdded=adduser($_POST['username'],$_POST['password']);
-    $username = trim($_POST['username']);
-    $password = $_POST['password'];
-    //adding the user
-     //$result=adduser($username,$password);
-     //if(!$result) {echo 'Error registering'; }
-     //else{
-     //    header('Location: view.php');
-     //}
+    // $username = trim($_POST['username']);
+    // $password = $_POST['password'];
+    // //adding the user
+    //  //$result=adduser($username,$password);
+    //  //if(!$result) {echo 'Error registering'; }
+    //  //else{
+    //  //    header('Location: view.php');
+    //  //}
 
-    // authorising the user
+    // // authorising the user
 
-    $result = getuser($username, $password);
-    if (!$result) {
-        echo "<div class='text-center text-danger'>Username or Password Incorrect. Please try again</div>";
+    // $result = getuser($username, $password);
+    // if (!$result) {
+    //     echo "<div class='text-center text-danger'>Username or Password Incorrect. Please try again</div>";
+    // } else {
+    //     $_SESSION['userid'] = $result['username'];
+    //     header('Location: view.php');
+    // }
+
+
+    $username = mysqli_real_escape_string($conn, $_POST['username']);
+    $password = mysqli_real_escape_string($conn, $_POST['password']);
+
+    $query = "SELECT * FROM admin WHERE username='$username' AND password='$password'";
+    $result = mysqli_query($conn, $query);
+
+    if (mysqli_num_rows($result) > 0) {
+        $_SESSION['admin_logged_in'] = true;
+        header('Location: adminindex.php');
+        exit;
     } else {
-        $_SESSION['userid'] = $result['username'];
-        header('Location: view.php');
+        echo "Invalid credentials!";
     }
 }
 
