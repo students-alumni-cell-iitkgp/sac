@@ -26,9 +26,9 @@
 
   //nirmal
   $servername = "localhost";
-  $username = "root";
-  $password = "";
-  $dbname = "aam";
+  $username = "sac_aam";
+  $password = "sac@aam22";
+  $dbname = "sac_aam22";
   
   // Create connection
   $conn = new mysqli($servername, $username, $password, $dbname);
