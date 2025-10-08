@@ -1,6 +1,16 @@
 <?php
 session_start();
-include 'connection.php';
+$host = 'localhost';
+$dbname = 'sac_aam22';
+$user = 'sac_aam';
+$pass = 'sac@aam22';
+
+$connection = new mysqli($host, $user, $pass, $dbname);
+
+if ($connection->connect_error) {
+    die("Database connection failed: " . $connection->connect_error);
+}
+
 
 if (!isset($_SESSION["email"])) {
     echo "No registration found!";
