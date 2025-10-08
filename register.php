@@ -82,7 +82,19 @@ session_start();
 
 
 
-include 'connection.php';
+// Database connection (replace connection.php)
+$host = 'localhost';
+$dbname = 'sac_aam22';
+$user = 'sac_aam';
+$pass = 'sac@aam22';
+
+$connection = new mysqli($host, $user, $pass, $dbname);
+
+// Check connection
+if ($connection->connect_error) {
+    die("Connection failed: " . $connection->connect_error);
+}
+
 
 
 $name = $_POST['name'] ?? '';
