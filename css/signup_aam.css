@@ -1,0 +1,133 @@
+html,
+body {
+    position: relative;
+    min-height: 100vh;
+    font-family: 'Raleway', sans-serif;
+    background: url(../img/aa.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -88;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Fira Sans", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 20px;
+}
+
+.section1 {
+    background-color: #61A5C2;
+    border-radius: 5px;
+    width: 1020px;
+    position: relative;
+    overflow: hidden;
+}
+
+.accordion-button {
+    background-color: #2C7DA0;
+}
+
+@media screen and (max-width: 1150px) {
+    .section1 {
+        width: 900px;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .section1 {
+        width: 840px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .section1 {
+        width: 780px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .section1 {
+        width: 740px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .section1 {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .section1 {
+        width: 580px;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .section1 {
+        width: 540px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .section1 {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .section1 {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .section1 {
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .section1 {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .section1 {
+        width: 360px;
+    }
+}
+
+@media screen and (max-width: 365px) {
+    .section1 {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 305px) {
+    .section1 {
+        width: 270px;
+    }
+}
+
+.accordion-button:not(.collapsed) {
+    color: #435560;
+    background-color: #A9D6E5;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+
+.form-floating>label {
+    position: absolute;
+    color: hsl(203, 87%, 3%);
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding: 1rem 1.5rem;
+    pointer-events: none;
+    border: 1px solid transparent;
+    transform-origin: 0 0;
+    transition: opacity .1s e1ase-in-out, transform .1s ease-in-out;
+}
