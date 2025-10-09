@@ -1,162 +1,162 @@
 <?php
-
+// register.php
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
+
 session_start();
-// session_start();
 
-// $email = $_POST["email"];
-// $password = $_POST["password"];
-// $password = hash('sha256', $password);
-// $name = $_POST["Name"];
-// $address = $_POST["address"];
-// $city = $_POST["city"];
-// $state = $_POST["state"];
-// $country = $_POST["country"];
-// $zipCode = $_POST["zipCode"];
-// $mobile = $_POST["mobile"];
-// $dob = $_POST["dob"];
-// $marital = $_POST["marital"];
-// $industry = $_POST["industry"];
-// $profession = $_POST["profession"];
-// $orgName = $_POST["orgName"];
-// $designation = $_POST["designation"];
-// $work_city = $_POST["work_city"];
-// $work_state = $_POST["work_state"];
-// $work_country = $_POST["work_country"];
-// $work_zipCode = $_POST["work_zipCode"];
-// $work_address = $_POST["work_address"];
-// $rollNum = $_POST["rollNum"];
-// $joinYear = $_POST["joinYear"];
-// $degree = $_POST["degree"];
-// $department = $_POST["department"];
-// $hall = $_POST["hall"];
-// $graduatingYear = $_POST["graduatingYear"];
-// $accompanyingNo = $_POST["accompanyingNo"];
-// $hobbies=$_POST["hobbies"];
-// $involvements=$_POST["involvements"];
-// date_default_timezone_set('Asia/Kolkata');
-// $time=date("Y-m-d H:i:s"); 
-// /*
-// echo "$email : email<br>";
-// echo "$password : password<br>";
-// echo "$name : name<br>";
-// echo "$address : address<br>";
-// echo "$city : city<br>";
-// echo "$state : state<br>";
-// echo "$country : country<br>";
-// echo "$zipCode : zipCode<br>";
-// echo "$mobile : mobile<br>";
-// echo "$dob : dob<br>";
-// echo "$marital : marital<br>";
-// echo "$industry : industry<br>";
-// echo "$profession : profession<br>";
-// echo "$orgName : orgName<br>";
-// echo "$designation : designation<br>";
-// echo "$work_city : work_city<br>";
-// echo "$work_state : work_state<br>";
-// echo "$work_country : work_country<br>";
-// echo "$work_zipCode : work_zipCode<br>";
-// echo "$work_address : work_address<br>";
-// echo "$rollNum : rollNum<br>";
-// echo "$joinYear : joinYear<br>";
-// echo "$degree : degree<br>";
-// echo "$department : department<br>";
-// echo "$hall : hall<br>";
-// echo "$graduatingYear : graduatingYear<br>";
-// */
-
-
-// include 'connection.php';
-// $sql = "INSERT INTO users (email,Time, Name, password, address, city, state, country, zipCode, mobile, dob, marital, industry, profession, orgName, designation, work_city, work_state, work_country, work_zipCode, work_address, rollNum, joinYear, degree, department, hall, graduatingYear, accompanyingNo,hobbies,involvements)
-//         VALUES ('$email','$time', '$name', '$password', '$address', '$city', '$state', '$country', '$zipCode', '$mobile', '$dob', '$marital', '$industry', '$profession', '$orgName', '$designation', '$work_city', '$work_state', '$work_country', '$work_zipCode', '$work_address', '$rollNum', '$joinYear', '$degree', '$department', '$hall', '$graduatingYear', '$accompanyingNo','$hobbies', '$involvements')";
-// $_SESSION["email"] = $email;
-// if ($connection->query($sql)) {
-//   $connection->close();
-//  echo '1';
-//   exit;
-// } else {
-//   echo "Error: " . $connection->error;
-// }
+// include your mysqli connection (should set $connection = new mysqli(...))
+include 'connection.php'; // ensure this path is correct on server
 
 
 
-// Database connection (replace connection.php)
-$host = 'localhost';
-$dbname = 'sac_aam22';
-$user = 'sac_aam';
-$pass = 'sac@aam22';
-
-$connection = new mysqli($host, $user, $pass, $dbname);
-
-// Check connection
-if ($connection->connect_error) {
-    die("Connection failed: " . $connection->connect_error);
+if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
+    // If someone opens register.php directly, redirect back to signup
+    header('Location: signup.php');
+    exit;
 }
 
-
-
-$name = $_POST['name'] ?? '';
-$email = $_POST['email'] ?? '';
-$mobile = $_POST['mobile'] ?? '';
-$dob = $_POST['dob'] ?? null;
-if ($dob) {
-    $dobObj = DateTime::createFromFormat('d-m-Y', $dob);
-    $dob_mysql = $dobObj ? $dobObj->format('Y-m-d') : '1900-01-01';
-} else {
-    $dob_mysql = '1900-01-01';
+// Helper to normalize date inputs: accept Y-m-d (HTML date) or d-m-Y (if user typed)
+function normalize_date_for_mysql($raw) {
+    $raw = trim((string)$raw);
+    if ($raw === '') return null;
+    // try Y-m-d first
+    $d = DateTime::createFromFormat('Y-m-d', $raw);
+    if ($d && $d->format('Y-m-d') === $raw) return $d->format('Y-m-d');
+    // try d-m-Y
+    $d = DateTime::createFromFormat('d-m-Y', $raw);
+    if ($d) return $d->format('Y-m-d');
+    // try other parse
+    $d = date_create($raw);
+    if ($d) return $d->format('Y-m-d');
+    // fallback default for dob requirement per your earlier request:
+    return '1900-01-01';
 }
 
+// get and sanitize POSTs (use null coalescing)
+$name = trim($_POST['name'] ?? '');
+$email = trim($_POST['email'] ?? '');
+$mobile = trim($_POST['mobile'] ?? '');
+$dob_raw = $_POST['dob'] ?? '';
+$dob_mysql = normalize_date_for_mysql($dob_raw); // will default '1900-01-01' if empty/invalid
 
+$address = trim($_POST['address'] ?? '');
+$city = trim($_POST['city'] ?? '');
+$state = trim($_POST['state'] ?? '');
+$country = trim($_POST['country'] ?? '');
+$zipcode = trim($_POST['zipcode'] ?? '');
+$accompaniment = intval($_POST['accompaniment'] ?? 0);
+$acc_kid = intval($_POST['acc_kid'] ?? 0);
+$foodPreference = trim($_POST['foodPreference'] ?? '');
+$cost = trim($_POST['cost'] ?? '');
+$industry = trim($_POST['industry'] ?? '');
+$profession = trim($_POST['profession'] ?? '');
+$organisation = trim($_POST['organisation'] ?? '');
+$designation = trim($_POST['designation'] ?? '');
+$waddress = trim($_POST['waddress'] ?? '');
+$wcity = trim($_POST['wcity'] ?? '');
+$wstate = trim($_POST['wstate'] ?? '');
+$wcountry = trim($_POST['wcountry'] ?? '');
+$wzipcode = trim($_POST['wzipcode'] ?? '');
+$serial = trim($_POST['serial'] ?? '');
+$rollno = trim($_POST['rollno'] ?? '');
+$degree = trim($_POST['degree'] ?? '');
+$dept = trim($_POST['dept'] ?? '');
+$hall = trim($_POST['hall'] ?? '');
+$yoj = intval($_POST['yoj'] ?? 0);
+$yog = intval($_POST['yog'] ?? 0);
 
-$address = $_POST['address'] ?? '';
-$city = $_POST['city'] ?? '';
-$state = $_POST['state'] ?? '';
-$country = $_POST['country'] ?? '';
-$zipcode = $_POST['zipcode'] ?? '';
-$accompaniment = $_POST['accompaniment'] ?? 0;
-$acc_kid = $_POST['acc_kid'] ?? 0;
-$cost = $_POST['cost'] ?? '';
-$industry = $_POST['industry'] ?? '';
-$profession = $_POST['profession'] ?? '';
-$organisation = $_POST['organisation'] ?? '';
-$designation = $_POST['designation'] ?? '';
-$waddress = $_POST['waddress'] ?? '';
-$wcity = $_POST['wcity'] ?? '';
-$wstate = $_POST['wstate'] ?? '';
-$wcountry = $_POST['wcountry'] ?? '';
-$wzipcode = $_POST['wzipcode'] ?? '';
-$rollno = $_POST['rollno'] ?? '';
-$degree = $_POST['degree'] ?? '';
-$dept = $_POST['dept'] ?? '';
-$hall = $_POST['hall'] ?? '';
-$yoj = $_POST['yoj'] ?? 0;
-$yog = $_POST['yog'] ?? 0;
+// Travel section
+$dateOfArr_raw = $_POST['dateOfArr'] ?? '';
+$dateOfDep_raw = $_POST['dateOfDep'] ?? '';
+$timeOfArr_raw = $_POST['timeOfArr'] ?? '';
+$timeOfDep_raw = $_POST['timeOfDep'] ?? '';
+$stayDays = trim($_POST['stayDays'] ?? '');
 
-// $dob_sql = is_null($dob) ? "NULL" : "'$dob'";
+$dateOfArr = null;
+$dateOfDep = null;
+$timeOfArr = null;
+$timeOfDep = null;
 
+if (!empty($dateOfArr_raw)) {
+    $tmp = normalize_date_for_mysql($dateOfArr_raw);
+    $dateOfArr = $tmp === null ? null : $tmp;
+}
+if (!empty($dateOfDep_raw)) {
+    $tmp = normalize_date_for_mysql($dateOfDep_raw);
+    $dateOfDep = $tmp === null ? null : $tmp;
+}
 
-$sql = "INSERT INTO AAM (
+// time inputs should be in HH:MM or HH:MM:SS; accept as-is or null
+$timeOfArr = trim($timeOfArr_raw) ?: null;
+$timeOfDep = trim($timeOfDep_raw) ?: null;
+
+// Basic validation
+if (empty($email)) {
+    echo "Email is required.";
+    exit;
+}
+
+// Check duplicate email using prepared statement
+$checkStmt = $connection->prepare("SELECT email FROM AAM WHERE email = ? LIMIT 1");
+$checkStmt->bind_param('s', $email);
+$checkStmt->execute();
+$checkStmt->store_result();
+if ($checkStmt->num_rows > 0) {
+    echo "Email already registered!";
+    $checkStmt->close();
+    exit;
+}
+$checkStmt->close();
+
+// Prepare insert - match columns added in DB
+$insert_sql = "INSERT INTO AAM (
     name, email, mobile, dob, address, city, state, country, zipcode,
-    accompaniment, acc_kid, cost, industry, profession, organisation, designation,
-    waddress, wcity, wstate, wcountry, wzipcode, rollno, degree, dept, hall, yoj, yog
-) VALUES (
-    '$name', '$email', '$mobile', '$dob_mysql', '$address', '$city', '$state', '$country', '$zipcode',
-    '$accompaniment', '$acc_kid', '$cost', '$industry', '$profession', '$organisation', '$designation',
-    '$waddress', '$wcity', '$wstate', '$wcountry', '$wzipcode', '$rollno', '$degree', '$dept', '$hall', '$yoj', '$yog'
-)";
+    accompaniment, acc_kid, foodPreference, cost, industry, profession, organisation, designation,
+    waddress, wcity, wstate, wcountry, wzipcode, serial, rollno, degree, dept, hall, yoj, yog,
+    dateOfArr, dateOfDep, timeOfArr, timeOfDep, stayDays
+) VALUES (" . implode(',', array_fill(0, 34, '?')) . ")";
 
+$stmt = $connection->prepare($insert_sql);
+if (!$stmt) {
+    echo "Prepare failed: " . $connection->error;
+    exit;
+}
 
-if ($connection->query($sql)) {
-    $_SESSION["email"] = $email;
+// type string: 9s, 2i, 16s, 2i, 5s  (total 34)
+$types = str_repeat('s',9) . 'ii' . str_repeat('s',16) . 'ii' . str_repeat('s',5);
+
+// Bind params in the same order as the columns above
+$bind_params = [
+    $name, $email, $mobile, $dob_mysql, $address, $city, $state, $country, $zipcode,
+    $accompaniment, $acc_kid,
+    $foodPreference, $cost, $industry, $profession, $organisation, $designation,
+    $waddress, $wcity, $wstate, $wcountry, $wzipcode, $serial, $rollno, $degree, $dept, $hall, $yoj, $yog,
+    $dateOfArr, $dateOfDep, $timeOfArr, $timeOfDep, $stayDays
+];
+
+// mysqli::bind_param requires variables passed by reference
+$refs = [];
+foreach ($bind_params as $key => $value) {
+    $refs[$key] = &$bind_params[$key];
+}
+
+// call bind_param dynamically
+array_unshift($refs, $types); // prepend types
+call_user_func_array([$stmt, 'bind_param'], $refs);
+
+$executed = $stmt->execute();
+
+if ($executed) {
+    $_SESSION['email'] = $email;
+    $stmt->close();
     $connection->close();
-    header("Location: confirmation.php"); // redirect to confirmation page
+    header("Location: confirmation.php");
     exit;
 } else {
-    echo "Error: " . $connection->error;
+    echo "Database error: " . $stmt->error;
+    $stmt->close();
+    $connection->close();
+    exit;
 }
-
-
-
-?>

@@ -24,7 +24,7 @@ require '../config.php';
 
         $stmt=$GLOBALS["conn"]->prepare($sql);
 
-        $stmt->bindparam(':marital',$marital);
+      $stmt->bindparam(':marital',$marital);
       $stmt->bindparam(':accompaniment',$accompaniment);
       $stmt->bindparam(':acc_kid',$acc_kid);
       $stmt->bindparam(':gh',$gh);

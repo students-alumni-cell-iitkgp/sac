@@ -1,6 +1,5 @@
 <?php
-ob_start(); 
 session_start();
 session_destroy();
-header('location:reunion.php');
-?>
+header("Location: login_aam.php");
+exit;

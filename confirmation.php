@@ -1,9 +1,15 @@
 <?php
 session_start();
 $host = 'localhost';
+
+// on server only
 $dbname = 'sac_aam22';
 $user = 'sac_aam';
 $pass = 'sac@aam22';
+
+// $dbname = 'aam';
+// $user = 'root';
+// $pass = '';
 
 $connection = new mysqli($host, $user, $pass, $dbname);
 
@@ -66,7 +72,24 @@ h2 { color: #198754; }
         <tr><th>Join Year</th><td><?php echo htmlspecialchars($user['yoj']); ?></td></tr>
         <tr><th>Graduation Year</th><td><?php echo htmlspecialchars($user['yog']); ?></td></tr>
         <tr><th>Accompanying Persons</th><td><?php echo htmlspecialchars($user['accompaniment']); ?></td></tr>
+
+
+        <tr><th>Food Preference</th><td><?php echo htmlspecialchars($user['foodPreference']); ?></td></tr>
+        <tr><th>Date of Arrival</th><td><?php echo htmlspecialchars($user['dateOfArr']); ?></td></tr>
+        <tr><th>Time of Arrival</th><td><?php echo htmlspecialchars($user['timeOfArr']); ?></td></tr>
+        <tr><th>Date of Departure</th><td><?php echo htmlspecialchars($user['dateOfDep']); ?></td></tr>
+        <tr><th>Time of Departure</th><td><?php echo htmlspecialchars($user['timeOfDep']); ?></td></tr>
+        <tr><th>Stay Days</th><td><?php echo htmlspecialchars($user['stayDays']); ?></td></tr>
+        <tr><th>Employee ID (Serial)</th><td><?php echo htmlspecialchars($user['serial']); ?></td></tr>
+
+        <!-- Add this wherever you want the button on the registration page -->
+        
     </table>
+    <div class="text-center mt-3 button">
+        <a href="profile_aam.php" class="btn btn-primary">
+            Go to Your Profile
+        </a>
+    </div>
 <!-- 
     <div class="text-center mt-4">
         <button class="btn btn-success" onclick="window.print()">Print Registration</button>
