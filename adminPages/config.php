@@ -28,8 +28,8 @@
   $servername = "localhost";
   //on server only
   $dbname = 'sac_aam22';
-  $user = 'sac_aam';
-  $pass = 'sac@aam22';
+  $username = 'sac_aam';
+  $password = 'sac@aam22';
 
   // $dbname = 'aam';
   // $username = 'root';
