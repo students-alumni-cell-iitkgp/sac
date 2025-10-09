@@ -7,7 +7,18 @@ error_reporting(E_ALL);
 session_start();
 
 // include your mysqli connection (should set $connection = new mysqli(...))
-include 'connection.php'; // ensure this path is correct on server
+$servername = "localhost";
+$dbname = 'sac_aam22';
+$username = 'sac_aam';
+$password = 'sac@aam22';
+
+// Create connection
+$connection = new mysqli($servername, $username, $password, $dbname);
+
+// Check connection
+if ($connection->connect_error) {
+    die("Connection failed: " . $connection->connect_error);
+}
 
 
 
@@ -160,3 +171,4 @@ if ($executed) {
     $connection->close();
     exit;
 }
+
