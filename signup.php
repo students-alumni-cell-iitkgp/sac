@@ -15,6 +15,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 
   <style>
+    
     #alert-msg {
         text-align: center;
         margin-top: 10px;
@@ -26,6 +27,17 @@
         border: 1px solid #8a0000;
         background-color: #e58f8f;
       }
+
+      .heading-main{
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+        background-color: #61A5C2;
+        padding: 30px;
+      }
+
+      
   </style>
 
 <?php
@@ -42,6 +54,25 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 // DB config
 include 'adminPages/config.php';
+
+
+
+function normalize_date_for_mysql($raw) {
+    $raw = trim((string)$raw);
+    if ($raw === '') return null;
+    // try Y-m-d first
+    $d = DateTime::createFromFormat('Y-m-d', $raw);
+    if ($d && $d->format('Y-m-d') === $raw) return $d->format('Y-m-d');
+    // try d-m-Y
+    $d = DateTime::createFromFormat('d-m-Y', $raw);
+    if ($d) return $d->format('Y-m-d');
+    // try other parse
+    $d = date_create($raw);
+    if ($d) return $d->format('Y-m-d');
+    // fallback default for dob requirement per your earlier request:
+    return '1900-01-01';
+}
+
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $name = $_POST['name'];
@@ -72,6 +103,39 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $yoj = $_POST['yoj'] ?? 0;
     $yog = $_POST['yog'] ?? 0;
 
+
+
+    $dateOfArr_raw = $_POST['dateOfArr'] ?? '';
+    $dateOfDep_raw = $_POST['dateOfDep'] ?? '';
+    $timeOfArr_raw = $_POST['timeOfArr'] ?? '';
+    $timeOfDep_raw = $_POST['timeOfDep'] ?? '';
+    $stayDays = trim($_POST['stayDays'] ?? '');
+
+    $dateOfArr = null;
+    $dateOfDep = null;
+    $timeOfArr = null;
+    $timeOfDep = null;
+
+    if (!empty($dateOfArr_raw)) {
+        $tmp = normalize_date_for_mysql($dateOfArr_raw);
+        $dateOfArr = $tmp === null ? null : $tmp;
+    }
+    if (!empty($dateOfDep_raw)) {
+        $tmp = normalize_date_for_mysql($dateOfDep_raw);
+        $dateOfDep = $tmp === null ? null : $tmp;
+    }
+
+    // time inputs should be in HH:MM or HH:MM:SS; accept as-is or null
+    $timeOfArr = trim($timeOfArr_raw) ?: null;
+    $timeOfDep = trim($timeOfDep_raw) ?: null;
+
+    if (empty($email)) {
+        echo "Email is required.";
+        exit;
+    }
+
+
+
     // Check for duplicate email
     $check = "SELECT * FROM AAM WHERE email = '$email'";
     $res = $conn->query($check);
@@ -82,13 +146,16 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     // Insert into database
     $sql = "INSERT INTO AAM (
-        name, email, mobile, dob, address, city, state, country, zipcode,
-        accompaniment, acc_kid, cost, industry, profession, organisation, designation,
-        waddress, wcity, wstate, wcountry, wzipcode, rollno, degree, dept, hall, yoj, yog
+        name, email, mobile, dob, gh address, city, state, country, zipcode,
+        accompaniment, acc_kid, foodPreference, cost, industry, profession, organisation, designation,
+        waddress, wcity, wstate, wcountry, wzipcode, serial, rollno, degree, dept, hall, yoj, yog,
+        dateOfArr, dateOfDep, timeOfArr, timeOfDep, stayDays, payment
     ) VALUES (
-        '$name', '$email', '$mobile', '$dob', '$address', '$city', '$state', '$country', '$zipcode',
-        '$accompaniment', '$acc_kid', '$cost', '$industry', '$profession', '$organisation', '$designation',
-        '$waddress', '$wcity', '$wstate', '$wcountry', '$wzipcode', '$rollno', '$degree', '$dept', '$hall', '$yoj', '$yog'
+        $name, $email, $mobile, $dob_mysql, $gh, $address, $city, $state, $country, $zipcode,
+        $accompaniment, $acc_kid,
+        $foodPreference, $cost, $industry, $profession, $organisation, $designation,
+        $waddress, $wcity, $wstate, $wcountry, $wzipcode, $serial, $rollno, $degree, $dept, $hall, $yoj, $yog,
+        $dateOfArr, $dateOfDep, $timeOfArr, $timeOfDep, $stayDays, $payment
     )";
 
     if ($conn->query($sql) === TRUE) {
@@ -96,6 +163,12 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     } else {
         echo "Database error: " . $conn->error;
     }
+}
+
+$gh_stmt = $conn->query("SELECT * FROM acco");
+$guestHouses = [];
+while($row = $gh_stmt->fetch_assoc()) {
+    $guestHouses[] = $row;
 }
 
 // Fetch total availability from all guesthouses
@@ -109,8 +182,19 @@ $conn->close();
 
 </head>
 <body>
+<!-- <div class="heading-main">
+    <h2 class="accordion-header" id="headingOne" >
+        Registration for <br> 22nd Annual Alumni Meet
+    </h2>
+</div> -->
 <div class="section1">
+  <div class="heading-main">
+    <h2 class="accordion-header" id="headingOne" >
+        Registration for 22nd Annual Alumni Meet
+    </h2>
+</div>
 <form action="register.php" method="POST" enctype="multipart/form-data">
+
 
 <div class="accordion" id="accordionExample">
 
@@ -181,10 +265,36 @@ $conn->close();
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingThree">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-        Accommodation
+        Accommodation and Food
       </button>
     </h2>
+
+    
+    
     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+        <div class="row" style="justify-content:center; margin-top: 15px;">
+          <div class="form-floating mb-3 col-sm-6">
+              <select class="form-select" name="foodPreference" required>
+                <option selected value="select">---Select---</option>
+                <option value="VEG">Vegetarian</option>
+                <option value="NONVEG">Non-Vegetarian</option>
+                <option value="JAINS">Jains</option>
+              </select>
+              <label>Food Preference</label>
+            </div>
+        </div>
+        <!-- Guest House Selection -->
+      <div class="mb-3">
+          <label for="gh">Select Guest House</label>
+          <select class="form-select" name="gh" id="gh" required>
+              <option value="">-- Select Guest House --</option>
+              <?php foreach($guestHouses as $ghouse): ?>
+                  <option value="<?= htmlspecialchars($ghouse['name']); ?>">
+                      <?= htmlspecialchars($ghouse['name']); ?> (<?= $ghouse['av']; ?> rooms available)
+                  </option>
+              <?php endforeach; ?>
+          </select>
+      </div>
       <div class="accordion-body">
            <table class="table table-striped" style="margin-bottom: 0 !important">
             <thead>
@@ -430,6 +540,56 @@ $conn->close();
              <label>Year of Graduating<span style="color:red;">*</span></label>
            </div>
         </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Travel Section -->
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingSix">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+        Traveling Details
+      </button>
+    </h2>
+    <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <div class="row">
+           <div class="form-floating mb-3 col-sm-6">
+             <input type="date" class="form-control" name="dateOfArr" placeholder="dd-mm-yyyy" required>
+             <label>Date of Arrival at KGP<span style="color:red;">*</span></label>
+           </div>
+           <div class="form-floating mb-3 col-sm-6">
+             <input type="date" class="form-control" name="dateOfDep" placeholder="dd-mm-yyyy" required>
+             <label>Date of Departure from KGP<span style="color:red;">*</span></label>
+           </div>
+        </div>
+
+        <div class="row">
+           <div class="form-floating mb-3 col-sm-6">
+             <input type="time" class="form-control" name="timeOfArr" placeholder="dd-mm-yyyy" required>
+             <label>Time of Arrival at KGP<span style="color:red;">*</span></label>
+           </div>
+           <div class="form-floating mb-3 col-sm-6">
+             <input type="time" class="form-control" name="timeOfDep" placeholder="dd-mm-yyyy" required>
+             <label>Time of Departure from KGP<span style="color:red;">*</span></label>
+           </div>
+        </div>
+
+        <div class="row">
+      
+
+           <div class="form-floating mb-3 col-sm-6">
+            <select class="form-select" name="stayDays" required>
+            <option selected value="select">---Select---</option>
+            <option value="firstDay">First Night only @ 15000 INR</option>
+            <option value="TwoDays">Two Nights @ 20000 INR</option>
+            <option value="SecondDay">Second Night only @ 15000 INR</option>
+            </select>
+             <label>Which Day(s) do you plan to stay</label>
+          </div>
+        </div>
+
 
       </div>
     </div>
