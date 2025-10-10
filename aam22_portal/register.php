@@ -1,9 +1,17 @@
 <?php
 // register.php
+
+
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+
+require 'PHPMailer/src/Exception.php';
+require 'PHPMailer/src/PHPMailer.php';
+require 'PHPMailer/src/SMTP.php';
 session_start();
 
 // DB connection
@@ -126,13 +134,64 @@ foreach ($bind_params as $key => $value) {
 array_unshift($refs, $types);
 call_user_func_array([$stmt, 'bind_param'], $refs);
 
+
+
+
 // Execute
 if ($stmt->execute()) {
+
     $_SESSION['email'] = $email;
+
+
+    $mail = new PHPMailer(true);
+try {
+    $mail = new PHPMailer(true);
+
+    // SMTP settings
+    $mail->isSMTP();
+    $mail->Host       = 'smtp.gmail.com';
+    $mail->SMTPAuth   = true;
+    $mail->Username   = 'n.patidar.2512@gmail.com'; // your email
+    $mail->Password   = 'xblyfjidragnvvlm';    // app password, not Gmail login
+    $mail->SMTPSecure = 'tls';
+    $mail->Port       = 587;
+
+    // Recipient
+    $mail->setFrom('n.patidar.2512@gmail.com', 'Annual Alumni Meet');
+    $mail->addAddress($email, $name); // user's email and name
+
+    // Content
+    $mail->isHTML(true);
+    $mail->Subject = 'Registration Successful | Annual Alumni Meet 2026';
+    $mail->Body    = "Hi <b>$name</b>,<br>Your registration is successful for 22nd Annual Alumni Meet 2026. The Office of Alumni Affair, IIT Kharagpur will soon contact you about the futhure process.<br><br>Thank you for registering!<br> <br>Students' Alumni Cell, IIT Kharagpur";
+    $mail->AltBody = "Hi $name, Your registration is successful. Thank you!";
+
+    $mail->send();
+    // Optional: You can set a flag for "mail sent successfully" if needed
+} catch (Exception $e) {
+    // Optional: log error
+    // error_log("Mailer Error: " . $mail->ErrorInfo);
+    echo "Mailer Error: {$mail->ErrorInfo}";
+}
+
     $stmt->close();
     $connection->close();
     header("Location: confirmation.php");
     exit;
 } else {
-    die("Database error: " . $stmt->error);
+    echo "Database error: " . $stmt->error;
+    $stmt->close();
+    $connection->close();
+    exit;
 }
+
+
+//     $_SESSION['email'] = $email;
+//     exec("node nodemailer.js " . escapeshellarg($email) . " " . escapeshellarg($name));
+//     $stmt->close();
+//     $connection->close();
+//     header("Location: confirmation.php");
+//     exit;
+// } else {
+//     die("Database error: " . $stmt->error);
+// }
