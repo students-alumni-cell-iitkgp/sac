@@ -1,7 +1,9 @@
 <?php
 session_start();
 include 'header_aam.php'; // include your header
-include 'config.php';
+// include 'config.php';
+
+include 'test.php'; //db connection on my pc
 
 // Check if user is logged in
 if (!isset($_SESSION['email'])) {
@@ -10,7 +12,7 @@ if (!isset($_SESSION['email'])) {
     exit;
 }
 
-$result = $conn->query("SELECT name, hall, dept, yog FROM AAM ORDER BY yog DESC");
+$result = $connection->query("SELECT name, hall, dept, yog FROM AAM ORDER BY yog DESC");
 ?>
 
 <!DOCTYPE html>
@@ -20,17 +22,26 @@ $result = $conn->query("SELECT name, hall, dept, yog FROM AAM ORDER BY yog DESC"
     <title>Registered Alumni | Alumni Meet</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
     <style>
-        body { background: url(./../img/aa.webp) no-repeat center center fixed;
+        body { background: url(./aa.webp) no-repeat center center fixed;
     			background-size: cover;
     			min-height: 100vh;}
-        .table-container { margin-top: 50px; }
-        .blueDark{ background-color: #01497C; color: white;}
+                .container{
+                    width: 100%;
+                    text-align: center;
+                    margin-top: 50px;
+                }
+        .table-container { margin-top: 10px;
+            margin-left: 100px;
+            margin-right: 100px;
+        background-color: #E3F2FD; }
+        .blueDark{ background-color: #1565C0; color: white;}
     </style>
 </head>
 <body>
 
-<div class="container table-container">
-    <h2 class="mb-4">Registered Alumni Attending AAM</h2>
+<div class="container">
+    <h2 class="mb-4">Registered Alumni Attending 22nd AAM 2026</h2>
+    <div class="table-container">
     <div class="table-responsive">
         <table class="table table-striped table-bordered">
             <thead class="table blueDark">
@@ -43,7 +54,7 @@ $result = $conn->query("SELECT name, hall, dept, yog FROM AAM ORDER BY yog DESC"
             </thead>
             <tbody>
                 <?php
-                $res = $conn->query("SELECT name, hall, dept, yog FROM AAM ORDER BY yog DESC");
+                $res = $connection->query("SELECT name, hall, dept, yog FROM AAM ORDER BY yog DESC");
                 while ($row = $res->fetch_assoc()) {
                     echo "<tr>
                         <td>".htmlspecialchars($row['name'])."</td>
@@ -56,6 +67,7 @@ $result = $conn->query("SELECT name, hall, dept, yog FROM AAM ORDER BY yog DESC"
                 ?>
             </tbody>
         </table>
+        </div>
     </div>
 </div>
 

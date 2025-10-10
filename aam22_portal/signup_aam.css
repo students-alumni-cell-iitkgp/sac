@@ -3,7 +3,6 @@ body {
     position: relative;
     min-height: 100vh;
     font-family: 'Raleway', sans-serif;
-    background: url(../img/aa.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;

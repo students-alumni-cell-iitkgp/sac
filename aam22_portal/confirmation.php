@@ -1,7 +1,10 @@
 <?php
 session_start();
 
-include 'config.php';
+
+include 'test.php'; //db connection on my pc
+// include 'config.php';
+
 
 
 if (!isset($_SESSION["email"])) {
@@ -11,7 +14,7 @@ if (!isset($_SESSION["email"])) {
 
 $email = $_SESSION["email"];
 $sql = "SELECT * FROM AAM WHERE email='$email' LIMIT 1";
-$result = $conn->query($sql);
+$result = $connection->query($sql);
 
 if ($result->num_rows > 0) {
     $user = $result->fetch_assoc();
@@ -20,7 +23,7 @@ if ($result->num_rows > 0) {
     exit;
 }
 
-$conn->close();
+$connection->close();
 ?>
 
 <!DOCTYPE html>
@@ -35,7 +38,7 @@ body {
      background-color: #A9D6E5; 
      position: relative;
     min-height: 100vh;
-    background: url(./../img/aa.webp);
+    background: url(./aa.webp);
     background-size: cover;
     background-repeat: no-repeat;
   background-attachment: fixed;

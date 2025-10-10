@@ -14,7 +14,7 @@ include 'header_aam.php'; // include your updated header
     font-size: 18px; /* increase to desired size */
 }
         body {
-					background: url(./../img/aa.webp) no-repeat center center fixed;
+					background: url(./aa.webp) no-repeat center center fixed;
     			background-size: cover;
     			min-height: 100vh;
 			 }
@@ -28,23 +28,33 @@ include 'header_aam.php'; // include your updated header
             font-size: 2.5rem;
             font-weight: bold;
         }
+        .justCenter{
+            margin-top: 20px;
+            text-align: center;
+        }
+        .instiLogo{
+            width: 120px;
+        }
         .event-card img { height: 150px; object-fit: cover; }
         .alumni-photo { width: 100%; height: 200px; object-fit: cover; border-radius: 8px; }
-        .card-header{background-color: #01497C};
+        .card-header{background-color: #1E88E5};
     </style>
 </head>
 <body>
 
+    <div class="container justCenter">
+            <img class="instiLogo" src="./../img/logo/kgp_blue.png" alt="">
+        </div>
 <div class="hero">
-    Welcome to 22nd Annual Alumni Meet 2025
+    Welcome to 22nd Annual Alumni Meet 2026
 </div>
 
 <div class="text-center my-4">
-    <span class="">If you have already registered of 22md Annual Alumni Meet then Go for Login, else Register First</span>
+    <span class="">If you have already registered of 22md Annual Alumni Meet then Go for Login, else first Register than Login</span>
     <br>
     <br>
-    <a href="login_aam.php" class="btn btn-lg mx-4 px-10" style="background-color: #014F86; color: white;">Login for AAM</a>
-    <a href="register.php" class="btn btn-lg mx-4 px-10" style="background-color: #014F86; color: white;">Register for AAM</a>
+    <a href="login_aam.php" class="btn btn-lg mx-4 px-10" style="background-color: #1976D2; color: white;">Login for 22nd AAM 2026</a>
+    <a href="signup.php" class="btn btn-lg mx-4 px-10" style="background-color: #1976D2; color: white;">Register for 22nd AAM 2026</a>
 </div>
 
 <div class="container mr-10 ml-10">

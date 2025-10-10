@@ -7,7 +7,8 @@ error_reporting(E_ALL);
 session_start();
 
 // DB connection
-include 'config.php';
+include 'test.php'; //db connection on my pc
+// include 'config.php';
 
 // Redirect if accessed directly
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
@@ -67,7 +68,7 @@ $timeOfArr = trim($_POST['timeOfArr'] ?? '');
 $timeOfDep = trim($_POST['timeOfDep'] ?? '');
 
 // Check duplicate email
-$checkStmt = $conn->prepare("SELECT id FROM AAM WHERE email=? LIMIT 1");
+$checkStmt = $connection->prepare("SELECT id FROM AAM WHERE email=? LIMIT 1");
 $checkStmt->bind_param('s', $email);
 $checkStmt->execute();
 $checkStmt->store_result();
@@ -98,9 +99,9 @@ $insert_sql = "INSERT INTO AAM (
     dateOfArr, dateOfDep, timeOfArr, timeOfDep, social_links
 ) VALUES (" . implode(',', array_fill(0, 33, '?')) . ")";
 
-$stmt = $conn->prepare($insert_sql);
+$stmt = $connection->prepare($insert_sql);
 if (!$stmt) {
-    die("Prepare failed: " . $conn->error);
+    die("Prepare failed: " . $connection->error);
 }
 
 // Bind types: s = string, i = integer, d = double
@@ -129,7 +130,7 @@ call_user_func_array([$stmt, 'bind_param'], $refs);
 if ($stmt->execute()) {
     $_SESSION['email'] = $email;
     $stmt->close();
-    $conn->close();
+    $connection->close();
     header("Location: confirmation.php");
     exit;
 } else {
