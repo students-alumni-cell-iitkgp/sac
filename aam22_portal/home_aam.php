@@ -38,6 +38,8 @@ include 'header_aam.php'; // include your updated header
         .event-card img { height: 150px; object-fit: cover; }
         .alumni-photo { width: 100%; height: 200px; object-fit: cover; border-radius: 8px; }
         .card-header{background-color: #1E88E5};
+
+        
     </style>
 </head>
 <body>
@@ -49,7 +51,7 @@ include 'header_aam.php'; // include your updated header
     Welcome to 22nd Annual Alumni Meet 2026
 </div>
 
-<div class="text-center my-4">
+<div class="headr text-center my-4">
     <span class="">If you have already registered of 22md Annual Alumni Meet then Go for Login, else first Register than Login</span>
     <br>
     <br>

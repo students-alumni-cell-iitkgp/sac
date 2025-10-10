@@ -37,6 +37,7 @@ $isLoggedIn = isset($_SESSION['email']);
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item"><a class="nav-link" href="home_aam.php">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="team_aam.php">Team</a></li>
 
                 <?php if ($isLoggedIn): ?>
                     <li class="nav-item"><a class="nav-link" href="profile_aam.php">Profile</a></li>

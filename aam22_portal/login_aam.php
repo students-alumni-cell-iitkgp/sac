@@ -63,9 +63,12 @@ body {
     color: #012A4A;
 }
 .btn-color{
+    margin-top: 10px;
     background-color: #014F86;
 
 }
+
+
 
 /* Mobile specific adjustments */
 @media (max-width: 576px) {
@@ -105,7 +108,7 @@ body {
             <label>Date of Birth</label>
             <input type="date" name="dob" class="form-control" required>
         </div>
-        <button class="btn text-white btn-color w-100">Login</button>
+        <button class="btn text-white btn-color w-100" >Login</button>
     </form>
 </div>
 </body>
