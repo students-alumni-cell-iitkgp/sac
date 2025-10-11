@@ -10,7 +10,7 @@
   <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="shortcut icon" href="..\img\favicon_io\Logo2.2.ico" type="image/x-icon">
-  <link rel="stylesheet" href="./signup_aam.css">
+  <link rel="stylesheet" href="./signupa.css">
   <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 
@@ -30,7 +30,7 @@
         font-weight: bold;
         color: #8a0000;
         border: 1px solid #8a0000;
-        background-color: #e58f8f;
+        background-color: #64B5F6;
       }
 
       .heading-main{
@@ -38,7 +38,7 @@
         justify-items: center;
         align-items: center;
         text-align: center;
-        background-color: #89C2D9;
+        background-color: #42A5F5;
         padding: 30px;
       }
 
