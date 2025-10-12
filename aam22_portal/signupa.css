@@ -3,7 +3,6 @@ body {
     position: relative;
     min-height: 100vh;
     font-family: 'Raleway', sans-serif;
-    background: url(../img/aa.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -18,7 +17,7 @@ body {
 }
 
 .section1 {
-    background-color: #61A5C2;
+    background-color: #64B5F6;
     border-radius: 5px;
     width: 1020px;
     position: relative;
@@ -26,7 +25,7 @@ body {
 }
 
 .accordion-button {
-    background-color: #2C7DA0;
+    background-color: #1976D2;
 }
 
 @media screen and (max-width: 1150px) {
@@ -115,7 +114,7 @@ body {
 
 .accordion-button:not(.collapsed) {
     color: #435560;
-    background-color: #A9D6E5;
+    background-color: #1E88E5;
     box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
 }
 
