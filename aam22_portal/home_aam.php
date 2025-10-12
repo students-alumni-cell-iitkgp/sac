@@ -53,6 +53,10 @@ include 'header_aam.php'; // include your updated header
 </div>
 
 <div class="headr text-center my-4">
+    <a href="./../aam21.php" class="btn btn-lg mx-4 px-10 mb-6" style="background-color: #1976D2; color: white;">Glimpses of earlier Annual Alumni Meet (AAM)
+</a>
+<br>
+<br>
     <span class="">If you have already registered of 22md Annual Alumni Meet then Go for Login, else first Register than Login</span>
     <br>
     <br>
