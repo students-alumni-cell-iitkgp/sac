@@ -10,7 +10,11 @@ if (!isset($_SESSION['admin_logged_in'])) {
 }
 
 // Select only the fields you need
-$result = $connection->query("SELECT id, name, email, mobile, yog, payment FROM AAM");
+// $result = $connection->query("SELECT id, name, email, mobile, yog, payment FROM AAM");
+
+$stmt = $connection->prepare("SELECT id, name, email, mobile, yog, payment FROM AAM");
+$stmt->execute();
+$result = $stmt->get_result();
 ?>
 
 <!DOCTYPE html>
