@@ -38,9 +38,6 @@ include 'header_aam.php'; // include your updated header
         .event-card img { height: 150px; object-fit: cover; }
         .alumni-photo { width: 100%; height: 200px; object-fit: cover; border-radius: 8px; }
         .card-header{background-color: #1E88E5};
-        .card-body{
-            background-color: red;
-        }
         
 
         
