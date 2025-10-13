@@ -57,7 +57,8 @@ body {
     text-align: center;
 }
 .instiLogo{
-    width: 120px;
+    width: 80px;
+    margin: 10px;
 }
 .blueHead{
     color: #012A4A;
@@ -85,6 +86,7 @@ body {
     <div class="justCenter">    
         <div class="justCenter container">
             <img class="instiLogo" src="./../img/logo/kgp_blue.png" alt="">
+            <img class="instiLogo" src="./palJubLogo.png" alt="">
         </div>
 
         <h2 class=" blueHead text-bold">Welcome to 22nd Annual Alumni Meet 2026</h2>
