@@ -14,7 +14,8 @@ include 'header_aam.php'; // include your updated header
                 background: url(./aa2.webp) no-repeat center center fixed;
                 background-size: cover;
                 min-height: 100vh;
-                backdrop-filter: blur(6px);
+                backdrop-filter: blur(10px);
+
                 font-family: 'Segoe UI', sans-serif;
             }
 

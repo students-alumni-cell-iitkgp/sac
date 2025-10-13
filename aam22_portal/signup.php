@@ -10,7 +10,7 @@
   <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="shortcut icon" href="..\img\favicon_io\Logo2.2.ico" type="image/x-icon">
-  <link rel="stylesheet" href="./signup.css">
+  <link rel="stylesheet" href="./signups.css">
   <style>
     .palLogo{
       test-align: right;
@@ -21,12 +21,10 @@
 
   <style>
     /* ===== GLOBAL ===== */
-body.bodyBG {
-  background: url('./../img/aa.webp') no-repeat center center fixed;
+body {
+  background: url('./aa2.webp') no-repeat center center fixed;
   background-size: cover;
-  min-height: 100vh;
-  backdrop-filter: blur(5px);
-
+  /* min-height: 100vh; */
   color: #012a4a;
   font-family: 'Segoe UI', sans-serif;
 }
@@ -303,7 +301,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 ?>
 
 </head>
-<body class="bodyBG">
+<body>
 <!-- <div class="heading-main">
     <h2 class="accordion-header" id="headingOne" >
         Registration for <br> 22nd Annual Alumni Meet

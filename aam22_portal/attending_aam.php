@@ -18,7 +18,7 @@ $result = $connection->query("SELECT name, hall, dept, yog FROM AAM ORDER BY yog
 <head>
     <meta charset="UTF-8">
     <title>Registered Alumni | Alumni Meet</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"> -->
     <style>
         body { 
             background: url(./aa2.webp) no-repeat center center fixed;
@@ -42,16 +42,18 @@ $result = $connection->query("SELECT name, hall, dept, yog FROM AAM ORDER BY yog
             text-shadow: 1px 1px 2px rgba(255,255,255,0.5);
         }
 
-        .alumni-grid {
+        .alumni-grid-1 {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            /* grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); */
             gap: 20px;
             padding: 0 15px;
         }
 
         .alumni-card {
-            background-color: #BBDEFB;
-            border-radius: 50px;
+            background-color:  #BBDEFB;
+            /* backdrop-filter: blur(20px); */
+
+            border-radius: 20px;
             padding: 15px 15px;
             text-align: center;
             box-shadow: 0 8px 20px rgba(0,0,0,0.2);
@@ -75,10 +77,26 @@ $result = $connection->query("SELECT name, hall, dept, yog FROM AAM ORDER BY yog
             color: #333;
             margin-bottom: 5px;
         }
+        @media (min-width: 766px) {
 
-        @media (max-width: 576px) {
+            .alumni-grid-1 {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            }
+        }
+
+        @media (max-width: 766px) {
             h2 {
                 font-size: 1.5rem;
+            }
+
+
+            .alumni-grid-1 {
+                display: grid;
+                /* grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); */
+                grid-template-columns: 1fr; /* single column */
+                gap: 20px;
+                padding: 0 15px;
             }
 
             .alumni-card {
@@ -92,7 +110,7 @@ $result = $connection->query("SELECT name, hall, dept, yog FROM AAM ORDER BY yog
 <div class="container">
     <h2>Registered Alumni Attending 22nd AAM 2026</h2>
 
-    <div class="alumni-grid">
+    <div class="alumni-grid-1">
         <?php while ($row = $result->fetch_assoc()): ?>
             <div class="alumni-card">
                 <div class="alumni-name"><?= htmlspecialchars($row['name']) ?></div>

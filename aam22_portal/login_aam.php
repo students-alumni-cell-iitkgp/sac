@@ -32,7 +32,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 body {
     background: url(./aa2.webp) no-repeat center center fixed;
     background-size: cover;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(15px);
 
 	min-height: 100vh;
     margin: 0;

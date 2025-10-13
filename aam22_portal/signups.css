@@ -1,11 +1,9 @@
 html,
 body {
+    width: 100vw;
     position: relative;
+    backdrop-filter: blur(8px);
     min-height: 100vh;
-    font-family: 'Raleway', sans-serif;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     z-index: -88;
     display: flex;
     align-items: center;
@@ -13,7 +11,7 @@ body {
     font-family: "Fira Sans", Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    margin: 20px;
+    margin: 0px;
 }
 
 .section1 {
