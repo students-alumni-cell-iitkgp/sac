@@ -383,10 +383,38 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             <input type="text" class="form-control" name="rollno" placeholder="17XY...." maxlength="20">
             <label>Roll Number</label>
            </div>
-           <div class="form-floating mb-3 col-sm-6">
+
+           <!-- <div class="form-floating mb-3 col-sm-6">
              <input type="text" class="form-control" name="degree" placeholder="B. Tech" maxlength="30">
              <label>Degree</label>
-           </div>
+           </div> 
+            -->
+           <div class="form-floating mb-3 col-sm-6">
+            <select class="form-select" name="degree" id="degree" required>
+              <option value="" selected disabled>Select Degree</option>
+              <option value="BTech">BTech</option>
+              <option value="DualDegree">Dual Tech</option>
+              <option value="BArch">BArch</option>
+              <option value="BSc">BSc</option>
+              <option value="MTech">MTech</option>
+              <option value="MSc(Integrated)">MSc (Integrated)</option>
+              <option value="MSc(Two years)">MSc (Two years)</option>
+              <option value="MCP">MCP</option>
+              <option value="MRP">MRP</option>
+              <option value="MBA">MBA</option>
+              <option value="LLB">LLB</option>
+              <option value="MMST">MMST</option>
+              <option value="DIIT">DIIT</option>
+              <option value="PGDST">PGDST</option>
+              <option value="PGDBA">PGDBA</option>
+              <option value="EMBA">EMBA</option>
+              <option value="LLM">LLM</option>
+              <option value="MS">MS</option>
+              <option value="MS">MS</option>
+              <option value="Other">Other</option>
+            </select>
+            <label for="degree">Degree</label>
+          </div>
         </div>
 
         <div class="row">

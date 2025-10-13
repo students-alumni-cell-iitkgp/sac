@@ -11,8 +11,8 @@ include 'header_aam.php'; // include your updated header
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
     <style>
 			.notes-text {
-    font-size: 18px; /* increase to desired size */
-}
+                font-size: 18px; /* increase to desired size */
+            }
         body {
 					background: url(./aa.webp) no-repeat center center fixed;
     			background-size: cover;
@@ -38,6 +38,7 @@ include 'header_aam.php'; // include your updated header
         .event-card img { height: 150px; object-fit: cover; }
         .alumni-photo { width: 100%; height: 200px; object-fit: cover; border-radius: 8px; }
         .card-header{background-color: #1E88E5};
+        
 
         
     </style>
@@ -52,6 +53,10 @@ include 'header_aam.php'; // include your updated header
 </div>
 
 <div class="headr text-center my-4">
+    <a href="./../aam21.php" class="btn btn-lg mx-4 px-10 mb-6" style="background-color: #1976D2; color: white;">Glimpses of earlier Annual Alumni Meet (AAM)
+</a>
+<br>
+<br>
     <span class="">If you have already registered of 22md Annual Alumni Meet then Go for Login, else first Register than Login</span>
     <br>
     <br>
@@ -124,19 +129,23 @@ include 'header_aam.php'; // include your updated header
         </div>
     </div>
 
-        <div class="container my-4 text-center">
-    <h4 class="mb-3" style="font-size: 1.6rem;">Bank Details for Depositing Registration Fees (FCRA Approved)</h4>
-    <div class="card p-3 mx-auto" style="display: inline-block; font-size: 1.2rem; background-color: rgba(255,255,255,0.1); border: none;">
-        <ul class="list-unstyled mb-0">
-            <li><strong>Bank Name:</strong> SBI</li>
-            <li><strong>Account Name:</strong> IIT Kharagpur Alumni Fund</li>
-            <li><strong>Account Number:</strong> 37711582715</li>
-            <li><strong>IFSC:</strong> SBIN0000202</li>
-            <li><strong>MICR:</strong> 721002103</li>
-            <li><strong>SWIFT Code:</strong> SBININBB339</li>
-        </ul>
+    
+    <div class="card shadow-sm mt-5 mb-5">
+        <div class="card-header text-white">
+            <h4 class="mb-0">Bank Details for Depositing Registration Fees (FCRA Approved)</h4>
+        </div>
+
+        <div class="card-body">
+            <ul class="notes-text">
+                    <li><strong>Bank Name:</strong> SBI</li>
+                    <li><strong>Account Name:</strong> IIT Kharagpur Alumni Fund</li>
+                    <li><strong>Account Number:</strong> 37711582715</li>
+                    <li><strong>IFSC:</strong> SBIN0000202</li>
+                    <li><strong>MICR:</strong> 721002103</li>
+                    <li><strong>SWIFT Code:</strong> SBININBB339</li>
+            </ul>
+        </div>
     </div>
-</section>
 
 
 </div>
