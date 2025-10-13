@@ -74,7 +74,7 @@ $result = $stmt->get_result();
                     <p>Phone: <?php echo htmlspecialchars($row['mobile']); ?></p>
                     <p>Year of Graduation: <?php echo htmlspecialchars($row['yog']); ?></p>
                     <p>Payment: 
-                        <span class="badge bg-<?php echo $row['payment'] === 'Paid' ? 'success' : 'warning'; ?>">
+                        <span class="badge bg-<?php echo $row['payment'] === 'PAID(Verified)' ? 'success' : 'warning'; ?>">
                             <?php echo htmlspecialchars($row['payment']); ?>
                         </span>
                     </p>
