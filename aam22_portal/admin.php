@@ -9,81 +9,127 @@ if (!isset($_SESSION['admin_logged_in'])) {
     exit;
 }
 
-// Select only the fields you need
-// $result = $connection->query("SELECT id, name, email, mobile, yog, payment FROM AAM");
-
 $stmt = $connection->prepare("SELECT id, name, email, mobile, yog, payment FROM AAM");
 $stmt->execute();
 $result = $stmt->get_result();
 ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>Admin Dashboard - AAM</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <style>
         body {
-            background: url(./aa.webp) no-repeat center center fixed;
+            background: url(./aa2.webp) no-repeat center center fixed;
             background-size: cover;
             min-height: 100vh;
+            backdrop-filter: blur(5px);
+
+            font-family: 'Arial', sans-serif;
+            padding: 20px;
         }
-        .card {
-            border: none;
-            background-color: #90CAF9;
-            padding: 15px;
-            font-size: 0.9rem;
-            border-radius: 10px;
-            transition: transform 0.2s;
+
+        h2 {
+            text-align: center;
+            color: #fff;
+            text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+            margin-bottom: 30px;
         }
-        .card:hover {
-            background-color: #61A5C2;
-            transform: scale(1.03);
+
+        .logout-btn {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 25px;
         }
-        .card h5 {
-            font-size: 1.1rem;
+
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 0 15px;
+        }
+
+        .alumni-card {
+            background: #BBDEFB;
+            border-radius: 20px;
+            padding: 15px 10px;
+            text-align: center;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .alumni-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+        }
+
+        .alumni-card h5 {
+            color: #1976D2;
             margin-bottom: 10px;
+            font-weight: bold;
         }
-        .card p {
-            margin-bottom: 4px;
+
+        .alumni-card p {
+            margin-bottom: 6px;
+            color: #333;
+            font-size: 0.95rem;
         }
+
         .badge {
-            font-size: 0.8rem;
+            font-size: 0.85rem;
+            padding: 5px 8px;
+            border-radius: 20px;
         }
-        .btn-sm {
-            text: white;
-            font-size: 0.75rem;
-            padding: 4px 8px;
-        }
+
         .btn-color {
+            background-color: #1976D2;
+            color: white;
+            border-radius: 25px;
+            font-weight: bold;
+            margin-top: 10px;
+            transition: background 0.3s;
+        }
+
+        .btn-color:hover {
             background-color: #1565C0;
         }
-        
+
+        @media (max-width: 576px) {
+            .alumni-card {
+                padding: 20px 15px;
+            }
+        }
     </style>
 </head>
 <body>
-<div class="container mt-4">
-    <h2 class="text-center mb-4 text-black text-bold">Admin Dashboard</h2>
-    <a href="logout_admin.php" class="btn btn-danger mb-3">Logout</a>
-    <div class="row g-3">
+
+<div class="container">
+    <h2>Admin Dashboard</h2>
+    <div class="logout-btn">
+        <a href="logout_admin.php" class="btn btn-danger">Logout</a>
+    </div>
+
+    <div class="dashboard-grid">
         <?php while ($row = $result->fetch_assoc()): ?>
-            <div class="col-md-3 col-sm-6"> <!-- smaller width -->
-                <div class="card shadow-sm">
-                    <h5><?php echo htmlspecialchars($row['name']); ?></h5>
-                    <p>Email: <?php echo htmlspecialchars($row['email']); ?></p>
-                    <p>Phone: <?php echo htmlspecialchars($row['mobile']); ?></p>
-                    <p>Year of Graduation: <?php echo htmlspecialchars($row['yog']); ?></p>
-                    <p>Payment: 
-                        <span class="badge bg-<?php echo $row['payment'] === 'PAID(Verified)' ? 'success' : 'warning'; ?>">
-                            <?php echo htmlspecialchars($row['payment']); ?>
-                        </span>
-                    </p>
-                    <!-- View Profile Button -->
-                    <a href="view_user.php?id=<?php echo $row['id']; ?>" class="btn btn-color btn-sm mt-2 w-100 text-white">View Profile</a>
-                </div>
+            <div class="alumni-card">
+                <h5><?= htmlspecialchars($row['name']) ?></h5>
+                <p>Email: <?= htmlspecialchars($row['email']) ?></p>
+                <p>Phone: <?= htmlspecialchars($row['mobile']) ?></p>
+                <p>Year of Graduation: <?= htmlspecialchars($row['yog']) ?></p>
+                <p>Payment: 
+                    <span class="badge bg-<?= $row['payment'] === 'PAID(Verified)' ? 'success' : 'warning' ?>">
+                        <?= htmlspecialchars($row['payment']) ?>
+                    </span>
+                </p>
+                <a href="view_user.php?id=<?= $row['id'] ?>" class="btn btn-color w-100">View Profile</a>
             </div>
         <?php endwhile; ?>
     </div>
 </div>
+
+<?php $connection->close(); ?>
+
 </body>
 </html>

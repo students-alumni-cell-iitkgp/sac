@@ -1,17 +1,15 @@
 <?php
 session_start();
-include 'header_aam.php'; // include your header
-// include 'config.php';
-
-include 'test.php'; //db connection on my pc
+include 'header_aam.php';
+include 'test.php'; // DB connection
 
 // Check if user is logged in
 if (!isset($_SESSION['email'])) {
-    // Redirect to login page
     header("Location: login_aam.php");
     exit;
 }
 
+// Fetch alumni
 $result = $connection->query("SELECT name, hall, dept, yog FROM AAM ORDER BY yog DESC");
 ?>
 
@@ -22,58 +20,91 @@ $result = $connection->query("SELECT name, hall, dept, yog FROM AAM ORDER BY yog
     <title>Registered Alumni | Alumni Meet</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
     <style>
-        body { background: url(./aa.webp) no-repeat center center fixed;
-    			background-size: cover;
-    			min-height: 100vh;
+        body { 
+            background: url(./aa2.webp) no-repeat center center fixed;
+            background-size: cover;
+            min-height: 100vh;
+            backdrop-filter: blur(5px);
+            font-family: 'Arial', sans-serif;
+        }
 
-                backdrop-filter: blur(5px);
+        .container {
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
 
+        h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #012A4A;
+            font-weight: bold;
+            text-shadow: 1px 1px 2px rgba(255,255,255,0.5);
+        }
+
+        .alumni-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            padding: 0 15px;
+        }
+
+        .alumni-card {
+            background-color: #BBDEFB;
+            border-radius: 50px;
+            padding: 15px 15px;
+            text-align: center;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .alumni-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+        }
+
+        .alumni-name {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #1565C0;
+            margin-bottom: 10px;
+        }
+
+        .alumni-info {
+            font-size: 0.95rem;
+            color: #333;
+            margin-bottom: 5px;
+        }
+
+        @media (max-width: 576px) {
+            h2 {
+                font-size: 1.5rem;
             }
-                .container{
-                    width: 100%;
-                    text-align: center;
-                    margin-top: 50px;
-                }
-        .table-container { margin-top: 10px;
-            margin-left: 100px;
-            margin-right: 100px;
-        background-color: #E3F2FD; }
-        .blueDark{ background-color: #1565C0; color: white;}
+
+            .alumni-card {
+                padding: 20px 15px;
+            }
+        }
     </style>
 </head>
 <body>
 
 <div class="container">
-    <h2 class="mb-4">Registered Alumni Attending 22nd AAM 2026</h2>
-    <div class="table-container">
-    <div class="table-responsive">
-        <table class="table table-striped table-bordered">
-            <thead class="table blueDark">
-                <tr>
-                    <th>Name</th>
-                    <th>Hall</th>
-                    <th>Department</th>
-                    <th>Batch (Year of Graduation)</th>
-                </tr>
-            </thead>
-            <tbody>
-                <?php
-                $res = $connection->query("SELECT name, hall, dept, yog FROM AAM ORDER BY yog DESC");
-                while ($row = $res->fetch_assoc()) {
-                    echo "<tr>
-                        <td>".htmlspecialchars($row['name'])."</td>
-                        <td>".htmlspecialchars($row['hall'])."</td>
-                        <td>".htmlspecialchars($row['dept'])."</td>
-                        <td>".htmlspecialchars($row['yog'])."</td>
-                    </tr>";
-                }
-                $conn->close();
-                ?>
-            </tbody>
-        </table>
-        </div>
+    <h2>Registered Alumni Attending 22nd AAM 2026</h2>
+
+    <div class="alumni-grid">
+        <?php while ($row = $result->fetch_assoc()): ?>
+            <div class="alumni-card">
+                <div class="alumni-name"><?= htmlspecialchars($row['name']) ?></div>
+                <div class="alumni-info"><strong>Hall:</strong> <?= htmlspecialchars($row['hall']) ?></div>
+                <div class="alumni-info"><strong>Dept:</strong> <?= htmlspecialchars($row['dept']) ?></div>
+                <div class="alumni-info"><strong>Batch:</strong> <?= htmlspecialchars($row['yog']) ?></div>
+            </div>
+        <?php endwhile; ?>
     </div>
 </div>
+
+<?php $connection->close(); ?>
 
 </body>
 </html>

@@ -26,86 +26,140 @@ $connection->close();
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Profile | Alumni Meet</title>
+<title>Profile | Annual Alumni Meet</title>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <style>
-body {
-    background: url(./aa.webp) no-repeat center center fixed;
-    background-size: cover;
-    min-height: 100vh;
-    backdrop-filter: blur(5px);
+    body {
+        background: url(./aa2.webp) no-repeat center center fixed;
+        background-size: cover;
+        min-height: 100vh;
+        backdrop-filter: blur(6px);
+        font-family: 'Segoe UI', sans-serif;
+        color: #012A4A;
+    }
 
-    font-family: 'Segoe UI', sans-serif;
-}
-.container { margin-top: 40px; margin-bottom: 40px; }
-h2 { text-align: center; margin-bottom: 30px; color: #012A4A; font-weight: bold; }
+    /* === PAGE CONTAINER === */
+    .container {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        max-width: 1000px;
+    }
 
-/* Card Styling */
-.card {
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 20px;
-    background-color: #90CAF9;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
-    transition: transform 0.2s;
-}
-.card:hover { transform: translateY(-3px); }
-.card-header {
-    font-weight: bold;
-    background-color: #1976D2;
-    color: white;
-    font-size: 1.2rem;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
+    /* === PAGE HEADING === */
+    h2 {
+        text-align: center;
+        margin-bottom: 30px;
+        color: #012A4A;
+        font-weight: bold;
+        text-shadow: 1px 1px 2px rgba(255,255,255,0.5);
+    }
 
-/* Input styling */
-.form-control[readonly] {
-    background-color: #E1F7FA;
-    border: none;
-    font-weight: 500;
-    color: #012A4A;
-}
-
-/* Accompanying cards */
-.acc-card {
-    background-color: #61A5C2;
-    color: white;
-    border-radius: 8px;
-    padding: 10px;
-    text-align: center;
-    margin-bottom: 10px;
-    transition: transform 0.2s;
-}
-.acc-card:hover { transform: scale(1.05); }
-.badge { font-size: 0.85rem; }
-
-/* Payment status */
-.payment-status {
-    font-weight: bold;
-    font-size: 1.1rem;
-    padding: 8px;
-    text-align: center;
-    border-radius: 8px;
-}
-.payment-pending { background-color: #f8d7da; color: #842029; }
-.payment-complete { background-color: #d1e7dd; color: #0f5132; }
-
-/* Mobile single-column override */
-@media (max-width: 767px) {
+    /* === CARD / BUBBLE DESIGN === */
     .card {
-        width: 100% !important;
-        margin-left: 0 !important;
-        margin-right: 0 !important;
+        margin: 20px auto;
+        background: rgba(255, 255, 255, 0.3);
+        backdrop-filter: blur(10px);
+        border-radius: 25px;
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+        border: 1px solid rgba(255, 255, 255, 0.4);
+        transition: transform 0.25s ease, box-shadow 0.25s ease;
     }
-    .row > [class*="col-md-6"], 
-    .row > [class*="col-md-4"] {
-        flex: 0 0 100% !important;
-        max-width: 100% !important;
-        margin-bottom: 15px;
+    .card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
     }
-}
+
+    .card-header {
+        font-weight: bold;
+        background: rgba(1, 79, 134, 0.85);
+        color: white;
+        font-size: 1.2rem;
+        padding: 15px;
+        border-top-left-radius: 23px;
+        border-top-right-radius: 23px;
+        text-align: center;
+    }
+
+    /* === INPUT FIELDS === */
+    .form-control[readonly] {
+        background: rgba(255, 255, 255, 0.5);
+        border: none;
+        font-weight: 500;
+        color: #012A4A;
+        border-radius: 12px;
+        box-shadow: inset 0 0 6px rgba(255,255,255,0.5);
+    }
+
+    /* === ACCOMPANYING PERSON CARDS === */
+    .acc-card {
+        background: rgba(1, 79, 134, 0.8);
+        color: white;
+        border-radius: 15px;
+        padding: 10px;
+        text-align: center;
+        margin-bottom: 10px;
+        transition: transform 0.2s, background 0.3s;
+    }
+    .acc-card:hover {
+        transform: scale(1.05);
+        background: rgba(1, 79, 134, 1);
+    }
+    .badge {
+        background: rgba(255, 255, 255, 0.85);
+        color: #012A4A;
+        font-size: 0.8rem;
+    }
+
+    /* === PAYMENT STATUS BOX === */
+    .payment-status {
+        font-weight: bold;
+        font-size: 1.1rem;
+        padding: 10px;
+        text-align: center;
+        border-radius: 12px;
+        margin-top: 5px;
+    }
+    .payment-pending {
+        background-color: rgba(248, 215, 218, 0.8);
+        color: #842029;
+    }
+    .payment-complete {
+        background-color: rgba(209, 231, 221, 0.8);
+        color: #0f5132;
+    }
+
+    /* === LOGOUT BUTTON === */
+    .btn-danger {
+        display: block;
+        margin: 20px auto;
+        border-radius: 25px;
+        font-weight: 600;
+        background-color: #d62828;
+        border: none;
+        transition: all 0.3s ease;
+    }
+    .btn-danger:hover {
+        background-color: #a4161a;
+        transform: scale(1.05);
+    }
+
+    /* === MOBILE RESPONSIVE === */
+    @media (max-width: 767px) {
+        .card {
+          
+            width: 100% !important;
+            margin: 15px 0;
+            border-radius: 20px;
+            padding: 10px;
+        }
+        .card-header {
+            font-size: 1rem;
+            padding: 12px;
+        }
+        .form-control[readonly] {
+            font-size: 0.95rem;
+        }
+    }
 </style>
 </head>
 <body>

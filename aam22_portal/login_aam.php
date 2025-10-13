@@ -30,7 +30,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <style>
 /* === Background === */
 body {
-    background: url(./aa.webp) no-repeat center center fixed;
+    background: url(./aa2.webp) no-repeat center center fixed;
     background-size: cover;
     backdrop-filter: blur(5px);
 
@@ -66,16 +66,16 @@ body {
 
 /* === Input Fields === */
 .form-control {
-    background: #2196F3;
+    background: #BBDEFB;
     border: none;
     border-radius: 30px;
     padding: 12px 20px;
-    color: white;
+    color: black;
     font-size: 15px;
 }
 
 .form-control::placeholder {
-    color: #e0e0e0;
+    color: black;
 }
 
 .form-control:focus {
@@ -85,8 +85,8 @@ body {
 
 /* === Button === */
 .btn-login {
-    background: white;
-    color: #0D47A1;
+    background: #1976D2;
+    color: white;
     border: none;
     border-radius: 30px;
     padding: 12px;
@@ -96,7 +96,7 @@ body {
 }
 
 .btn-login:hover {
-    background: #f5f5f5;
+    background: #0D47A1;
 }
 
 /* === Extra Links === */
@@ -119,7 +119,7 @@ body {
     text-align: center;
 }
 .instiLogo{
-    width: 80px;
+    height: 85px;
     margin: 10px;
 }
 </style>
@@ -128,7 +128,7 @@ body {
     <div class="login-box">
         <div class="justCenter container">
                 <img class="instiLogo" src="./../img/logo/kgp_blue.png" alt="">
-                <img class="instiLogo" src="./palJubLogo.png" alt="">
+                <img class="instiLogo" src="./img/palJubLogo.png" alt="">
         </div>
         <h2 class="color-black">Login to Your Profile</h2>
 
