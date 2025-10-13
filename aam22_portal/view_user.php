@@ -184,8 +184,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                 <div class="col-md-6 mb-3">
                     <label class="form-label">Payment Status</label>
                     <select name="payment_status" class="form-select" required>
-                        <option value="Pending" <?= $user['payment'] === 'Pending' ? 'selected' : ''; ?>>Pending</option>
-                        <option value="Paid" <?= $user['payment'] === 'Paid' ? 'selected' : ''; ?>>Paid</option>
+                        <option value="PENDING" <?= $user['payment'] === 'PENDING' ? 'selected' : ''; ?>>Pending</option>
+                        <option value="PAID(Verified)" <?= $user['payment'] === 'PAID(Verified)' ? 'selected' : ''; ?>>Paid(Verified)</option>
                     </select>
                 </div>
                 <div class="col-md-6 mb-3">
