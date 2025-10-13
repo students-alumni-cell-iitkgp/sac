@@ -12,6 +12,20 @@ $isLoggedIn = isset($_SESSION['email']);
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <style>
+
+    /* Bubble-style hover effect */
+    .navbar-nav .nav-item .nav-link {
+        padding-left-right: 60px;
+        transition: all 0.3s ease;
+        position: relative;
+    }
+
+    .navbar-nav .nav-item .nav-link:hover {
+        transform: scale(1.15); /* slightly grow */
+        box-shadow: 0 8px 20px rgba(0, 123, 255, 0.4); /* soft glowing shadow */
+        border-radius: 50px; /* make pill-shaped if not already */
+        background-color: #42A5F5; /* optional subtle color change */
+    }
     @media (max-width:426px) {
         .container-fluid { width: 100vw; }
     }
@@ -23,6 +37,8 @@ $isLoggedIn = isset($_SESSION['email']);
     .nav-item{
         margin: 10px;
     }
+
+    /* Keep existing styles as is */
 </style>
 </head>
 <body>

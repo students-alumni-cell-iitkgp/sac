@@ -10,7 +10,7 @@
   <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="shortcut icon" href="..\img\favicon_io\Logo2.2.ico" type="image/x-icon">
-  <!-- <link rel="stylesheet" href="./signupa.css"> -->
+  <link rel="stylesheet" href="./signups.css">
   <style>
     .palLogo{
       test-align: right;
@@ -21,12 +21,10 @@
 
   <style>
     /* ===== GLOBAL ===== */
-body.bodyBG {
-  background: url('./../img/aa.webp') no-repeat center center fixed;
+body {
+  background: url('./aa2a.webp') no-repeat center center fixed;
   background-size: cover;
-  min-height: 100vh;
-  backdrop-filter: blur(5px);
-
+  /* min-height: 100vh; */
   color: #012a4a;
   font-family: 'Segoe UI', sans-serif;
 }
@@ -55,17 +53,8 @@ body.bodyBG {
 .instiLogo {
   display: inline-block;
   margin: 0 10px;
+  height: 85px;
 }
-
-.instiLogo img {
-  width: 80px;
-  height: auto;
-}
-
-.palLogo {
-  width: 90px;
-}
-
 /* ===== ACCORDION ===== */
 .accordion-button {
   background-color: #014f86;
@@ -160,7 +149,7 @@ body.bodyBG {
 .card-header {
   background-color: #014f86 !important;
   color: #ffffff;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 1.1rem;
 }
 
@@ -199,11 +188,6 @@ body.bodyBG {
   .heading-main h2 {
     font-size: 1.3rem;
   }
-
-  .instiLogo img {
-    width: 60px;
-  }
-
   .accordion-button {
     font-size: 0.95rem;
   }
@@ -317,7 +301,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 ?>
 
 </head>
-<body class="bodyBG">
+<body>
 <!-- <div class="heading-main">
     <h2 class="accordion-header" id="headingOne" >
         Registration for <br> 22nd Annual Alumni Meet
@@ -325,12 +309,10 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 </div> -->
 <div class="section1">
   <div class="heading-main">
-      <div class="instiLogo">
+      <div class="">
             <img class="instiLogo" src="./../img/logo/kgp_blue.png" alt="">
+            <img class="instiLogo" src="./img/palJubLogo.png" alt="">
         </div>
-        <div class="instiLogo">
-                <img class="instiLogo palLogo" src="./palJubLogo.png" alt="">
-            </div>
     <h2 class="accordion-header" id="headingOne" >
         Registration for 22nd Annual Alumni Meet
     </h2>
@@ -636,22 +618,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     
     
     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-      <div class="card shadow-sm mt-5 mb-5">
-        <div class="card-header text-white">
-            <h4 class="mb-0">Bank Details for Depositing Registration Fees (FCRA Approved)</h4>
-        </div>
-
-        <div class="card-body">
-            <ul class="notes-text">
-                    <li><strong>Bank Name:</strong> SBI</li>
-                    <li><strong>Account Name:</strong> IIT Kharagpur Alumni Fund</li>
-                    <li><strong>Account Number:</strong> 37711582715</li>
-                    <li><strong>IFSC:</strong> SBIN0000202</li>
-                    <li><strong>MICR:</strong> 721002103</li>
-                    <li><strong>SWIFT Code:</strong> SBININBB339</li>
-            </ul>
-        </div>
-    </div>
+      
         
       <div class="accordion-body">
            <table class="table table-striped" style="margin-bottom: 0 !important">
@@ -712,6 +679,24 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
               <label>Food Preference<span style="color:red;">*</span></label>
             </div>
         </div>
+
+
+        <div class="card shadow-sm mt-5 mb-5">
+        <div class="card-header text-white">
+            <h4 class="mb-0">Bank Details for Depositing Registration Fees</h4>
+        </div>
+
+        <div class="card-body">
+            <ul class="notes-text">
+                    <li><strong>Bank Name:</strong> SBI</li>
+                    <li><strong>Account Name:</strong> IIT Kharagpur Alumni Fund</li>
+                    <li><strong>Account Number:</strong> 37711582715</li>
+                    <li><strong>IFSC:</strong> SBIN0000202</li>
+                    <li><strong>MICR:</strong> 721002103</li>
+                    <li><strong>SWIFT Code:</strong> SBININBB339</li>
+            </ul>
+        </div>
+    </div>
 
         
 
