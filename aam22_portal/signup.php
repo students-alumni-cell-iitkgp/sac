@@ -10,44 +10,215 @@
   <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="shortcut icon" href="..\img\favicon_io\Logo2.2.ico" type="image/x-icon">
-  <link rel="stylesheet" href="./signupa.css">
+  <!-- <link rel="stylesheet" href="./signupa.css"> -->
+  <style>
+    .palLogo{
+      test-align: right;
+    }
+  </style>
   <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 
   <style>
-    body{
-      background: url(./aa.webp) no-repeat center center fixed;
-    	background-size: cover;
-    	min-height: 100vh;
-    }
-    
-    #alert-msg {
-        text-align: center;
-        margin-top: 10px;
-        margin-bottom: 15px;
-        padding: 10px;
-        font-size: 16px;
-        font-weight: bold;
-        color: #8a0000;
-        border: 1px solid #8a0000;
-        background-color: #64B5F6;
-      }
+    /* ===== GLOBAL ===== */
+body.bodyBG {
+  background: url('./../img/aa.webp') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  backdrop-filter: blur(5px);
 
-      .heading-main{
-        display: flex;
-        justify-items: center;
-        align-items: center;
-        text-align: center;
-        background-color: #42A5F5;
-        padding: 30px;
-      }
+  color: #012a4a;
+  font-family: 'Segoe UI', sans-serif;
+}
 
-      .instiLogo{
-        margin-right: 30px;
-          width: 50px;
-      }
+.section1 {
+  /* background: rgba(255, 255, 255, 0.9); */
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 900px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
 
-      
+/* ===== HEADING ===== */
+.heading-main {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.heading-main h2 {
+  color: #014f86;
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+.instiLogo {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.instiLogo img {
+  width: 80px;
+  height: auto;
+}
+
+.palLogo {
+  width: 90px;
+}
+
+/* ===== ACCORDION ===== */
+.accordion-button {
+  background-color: #014f86;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: 0.3s ease;
+}
+
+.accordion-button:hover {
+  background-color: #013a63;
+  color: #fff;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #012a4a;
+  color: #fff;
+  box-shadow: none;
+}
+
+.accordion-item {
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.accordion-body {
+  background: #f8f9fa;
+  border-radius: 0 0 10px 10px;
+}
+
+/* ===== FORM ===== */
+.form-control, .form-select {
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+}
+
+.form-floating > label {
+  color: #495057;
+}
+
+.form-control:focus, .form-select:focus {
+  border-color: #014f86;
+  box-shadow: 0 0 0 0.2rem rgba(1, 79, 134, 0.25);
+}
+
+/* ===== TABLES ===== */
+.table {
+  border-collapse: collapse;
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  font-size: 0.95rem;
+}
+
+.table thead {
+  background-color: #014f86;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.table th, .table td {
+  padding: 12px 15px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f2f6fa;
+}
+
+.table-bordered th, .table-bordered td {
+  border: 1px solid #dee2e6;
+}
+
+.table-responsive {
+  border-radius: 8px;
+  overflow-x: auto;
+}
+
+/* ===== CARDS ===== */
+.card {
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  background-color: #014f86 !important;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+/* ===== NOTES / LISTS ===== */
+.notes-text li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+/* ===== BUTTONS ===== */
+.btn {
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-light {
+  background-color: #014f86;
+  color: white;
+  border: none;
+}
+
+.btn-light:hover {
+  background-color: #012a4a;
+  color: white;
+  transform: scale(1.02);
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .section1 {
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .heading-main h2 {
+    font-size: 1.3rem;
+  }
+
+  .instiLogo img {
+    width: 60px;
+  }
+
+  .accordion-button {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .table th, .table td {
+    padding: 8px;
+    font-size: 0.85rem;
+  }
+
+  .form-floating {
+    margin-bottom: 15px !important;
+  }
+}
   </style>
 <?php
 // DB config
@@ -157,6 +328,9 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
       <div class="instiLogo">
             <img class="instiLogo" src="./../img/logo/kgp_blue.png" alt="">
         </div>
+        <div class="instiLogo">
+                <img class="instiLogo palLogo" src="./palJubLogo.png" alt="">
+            </div>
     <h2 class="accordion-header" id="headingOne" >
         Registration for 22nd Annual Alumni Meet
     </h2>
@@ -230,145 +404,78 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
            <div class="form-floating mb-3 col-sm-6">
              <input type="text" class="form-control" name="zipcode" placeholder="38....." maxlength="20">
              <label>Zip Code</label>
-           </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- Accommodation -->
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingThree">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-        Accommodation and Food
-      </button>
-    </h2>
+
 
     
+      <!-- Work Details -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFour">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            Work Details
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+          <div class="row">
+               <div class="form-floating mb-3 col-sm-6">
+                 <input type="text" class="form-control" name="profession" placeholder="Manager" maxlength="100" required>
+                 <label>Current Position<span style="color:red;">*</span></label>
+               </div>
+               <div class="form-floating mb-3 col-sm-6">
+                 <input type="text" class="form-control" name="designation" placeholder="USA" maxlength="100">
+                 <label>Current Designation</label>
+               </div>
+              </div>
+              
+              <div class="row">
+              <div class="form-floating mb-3 col-sm-6">
+               <input type="text" class="form-control" name="organisation" placeholder="Google" maxlength="100" required>
+               <label>Organisation Name<span style="color:red;">*</span></label>
+              </div>
+               
+            </div>
     
-    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-        <div class="row" style="justify-content:center; margin-top: 15px;">
-          <div class="form-floating mb-3 col-sm-6">
-              <select class="form-select" name="foodPreference" required>
-                <option selected value="select">---Select---</option>
-                <option value="VEG">Vegetarian</option>
-                <option value="NONVEG">Non-Vegetarian</option>
-                <option value="VEGAN">Vegan</option>
-                <option value="OTHER">Other</option>
-              </select>
-              <label>Food Preference</label>
+            <div class="row">
+               <div class="form-floating mb-3 col-12">
+                <input type="text" class="form-control" name="waddress" placeholder="1035,HN ..." maxlength="200">
+                <label>Address</label>
+               </div>
+            </div>
+    
+            <div class="row">
+               <div class="form-floating mb-3 col-sm-6">
+                <input type="text" class="form-control" name="wcity" placeholder="Kolkata" maxlength="50">
+                <label>City</label>
+               </div>
+               <div class="form-floating mb-3 col-sm-6">
+                 <input type="text" class="form-control" name="wstate" placeholder="West..." maxlength="50">
+                 <label>State</label>
+               </div>
+            </div>
+    
+            <div class="row">
+               <div class="form-floating mb-3 col-sm-6">
+                <input type="text" class="form-control" name="wcountry" placeholder="India" maxlength="50">
+                <label>Country</label>
+               </div>
+               <div class="form-floating mb-3 col-sm-6">
+                 <input type="text" class="form-control" name="wzipcode" placeholder="$7...." maxlength="20">
+                 <label>Zip Code</label>
+               </div>
             </div>
         </div>
-      <div class="accordion-body">
-           <table class="table table-striped" style="margin-bottom: 0 !important">
-            <thead>
-              <tr>
-                <th>#</th>
-                <th>Registration Fee<span style="color:red">*</span></th>
-                <th>Amount(INR)</th>
-              </tr>
-            </thead>
-             <tbody>
-               <tr>
-                 <th>1</th>
-                 <td>Per Alumnus/Alumna</td>
-                 <td>15000</td>
-               </tr>
-               <tr>
-                 <th>2</th>
-                 <td>Per Accompanying Person(s)</td>
-                 <td>7000</td>
-               </tr>
-             </tbody>
-           </table>
-           <small class="text-muted">Registration Fee includes Food, Transportation and Registration Kit</small>
-
-           <div class="row" style="margin-top: 15px">
-          <div class="form-floating mb-3 col-sm-6">
-                <input type="number" class="form-control" id="accompaniment" name="accompaniment" value="0" min="0" max="20" oninput="calc_cost()">
-                <label>Accompanying Person(s)</label>
-             </div>
-
-             <div class="form-floating mb-3 col-sm-6">
-                <input type="number" class="form-control" id="acc_kid" name="acc_kid" value="0" min="0" max="20">
-                <label>Accompanying Kid(s)</label>
-                <small class="text-muted">Kids below 10 years of age won't be charged</small>
-             </div>
-           </div>
-
-           <div class="row" style="justify-content:center">
-           <div class="mb-3 col-sm-4">
-           <input class="form-control" id="acp" name="acp" type="text" readonly>
-           </div>
-           </div>
-
-           <!-- Dynamic accompanying persons name fields -->
-          <div id="accompNamesContainer" class="mt-3"></div>
-
+        </div>
       </div>
-    </div>
-  </div>
 
-  <!-- Work Details -->
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingFour">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-        Work Details
-      </button>
-    </h2>
-    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-      <div class="row">
-           <div class="form-floating mb-3 col-sm-6">
-             <input type="text" class="form-control" name="profession" placeholder="Manager" maxlength="100" required>
-             <label>Current Position<span style="color:red;">*</span></label>
-           </div>
-           <div class="form-floating mb-3 col-sm-6">
-             <input type="text" class="form-control" name="designation" placeholder="USA" maxlength="100">
-             <label>Current Designation</label>
-           </div>
-          </div>
-          
-          <div class="row">
-          <div class="form-floating mb-3 col-sm-6">
-           <input type="text" class="form-control" name="organisation" placeholder="Google" maxlength="100" required>
-           <label>Organisation Name<span style="color:red;">*</span></label>
-          </div>
-           
-        </div>
 
-        <div class="row">
-           <div class="form-floating mb-3 col-12">
-            <input type="text" class="form-control" name="waddress" placeholder="1035,HN ..." maxlength="200">
-            <label>Address</label>
-           </div>
-        </div>
 
-        <div class="row">
-           <div class="form-floating mb-3 col-sm-6">
-            <input type="text" class="form-control" name="wcity" placeholder="Kolkata" maxlength="50">
-            <label>City</label>
-           </div>
-           <div class="form-floating mb-3 col-sm-6">
-             <input type="text" class="form-control" name="wstate" placeholder="West..." maxlength="50">
-             <label>State</label>
-           </div>
-        </div>
-
-        <div class="row">
-           <div class="form-floating mb-3 col-sm-6">
-            <input type="text" class="form-control" name="wcountry" placeholder="India" maxlength="50">
-            <label>Country</label>
-           </div>
-           <div class="form-floating mb-3 col-sm-6">
-             <input type="text" class="form-control" name="wzipcode" placeholder="$7...." maxlength="20">
-             <label>Zip Code</label>
-           </div>
-        </div>
-    </div>
-    </div>
-  </div>
-
+      
   <!-- Nostalgic Section -->
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingFive">
@@ -413,7 +520,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
               <option value="MS">MS</option>
               <option value="Other">Other</option>
             </select>
-            <label for="degree">Degree</label>
+            <label for="degree">Degree<span style="color:red;">*</span></label>
           </div>
         </div>
 
@@ -511,6 +618,182 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
       </div>
     </div>
   </div>
+
+
+
+
+
+
+
+  <!-- Accompany And Food -->
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Accompanying and Food
+      </button>
+    </h2>
+
+    
+    
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="card shadow-sm mt-5 mb-5">
+        <div class="card-header text-white">
+            <h4 class="mb-0">Bank Details for Depositing Registration Fees (FCRA Approved)</h4>
+        </div>
+
+        <div class="card-body">
+            <ul class="notes-text">
+                    <li><strong>Bank Name:</strong> SBI</li>
+                    <li><strong>Account Name:</strong> IIT Kharagpur Alumni Fund</li>
+                    <li><strong>Account Number:</strong> 37711582715</li>
+                    <li><strong>IFSC:</strong> SBIN0000202</li>
+                    <li><strong>MICR:</strong> 721002103</li>
+                    <li><strong>SWIFT Code:</strong> SBININBB339</li>
+            </ul>
+        </div>
+    </div>
+        
+      <div class="accordion-body">
+           <table class="table table-striped" style="margin-bottom: 0 !important">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Registration Fee<span style="color:red">*</span></th>
+                <th>Amount(INR)</th>
+              </tr>
+            </thead>
+             <tbody>
+               <tr>
+                 <th>1</th>
+                 <td>Per Alumnus/Alumna</td>
+                 <td>15000</td>
+               </tr>
+               <tr>
+                 <th>2</th>
+                 <td>Per Accompanying Person(s)</td>
+                 <td>7000</td>
+               </tr>
+             </tbody>
+           </table>
+           <small class="text-muted">Registration Fee includes Food, Transportation and Registration Kit</small>
+
+           <div class="row" style="margin-top: 15px">
+          <div class="form-floating mb-3 col-sm-6">
+                <input type="number" class="form-control" id="accompaniment" name="accompaniment" value="0" min="0" max="20" oninput="calc_cost()">
+                <label>Accompanying Person(s)</label>
+             </div>
+
+             <div class="form-floating mb-3 col-sm-6">
+                <input type="number" class="form-control" id="acc_kid" name="acc_kid" value="0" min="0" max="20">
+                <label>Accompanying Kid(s)</label>
+                <small class="text-muted">Kids below 10 years of age won't be charged</small>
+             </div>
+           </div>
+
+           <div class="row" style="justify-content:center">
+           <div class="mb-3 col-sm-4">
+           <input class="form-control" id="acp" name="acp" type="text" placeholder="Total Reg Fee = 15000 INR" readonly>
+           </div>
+           </div>
+
+
+           
+           <!-- Dynamic accompanying persons name fields -->
+           <div id="accompNamesContainer" class="mt-3"></div>
+           <div class="row" style="justify-content:center; margin-top: 15px;">
+          <div class="form-floating mb-3 col-sm-6">
+              <select class="form-select" name="foodPreference" required>
+                <option selected value="select">---Select---</option>
+                <option value="VEG">Vegetarian</option>
+                <option value="NONVEG">Non-Vegetarian</option>
+                <option value="VEGAN">Vegan</option>
+                <option value="OTHER">Other</option>
+              </select>
+              <label>Food Preference<span style="color:red;">*</span></label>
+            </div>
+        </div>
+
+        
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Accommodation -->
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingSeven">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+        Accommodation
+      </button>
+    </h2>
+
+
+    
+    
+    
+    <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+
+
+      <div class="container my-1">
+        <h4 class="mb-3">Guest House Tariff Details (Without GST)</h4>
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped">
+                    <thead class="table card-header text-white">
+                        <tr>
+                            <th scope="col">SL No</th>
+                            <th scope="col">Accommodation Type</th>
+                            <th scope="col">INR</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>TGH</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>SAM</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Alumni Guest House</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Atal Bihari Vajpayee Hall of Residence</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                        <td>Savitribai Phule Hall of Residence</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>  
+        </div>  
+
+      <div class="accordion-body">
+          <div class="card-body">
+            <ul class="notes-text">
+                <li>Like every year, the highest preference for on-campus accommodation will be given to the 50th-year senior participants. Due to the limited availability of rooms in TGH, preference will also be given to senior-most alumni, persons with disabilities (PWD), those with medical conditions requiring special facilities, and alumni accompanied by their families.</li>
+                        <br>
+                <li>In view of the increased number of participants, we shall have to offer you accommodation in campus TGH on sharing basis.</li>
+                        <br>
+                <li>Registration fee(s) will include the musical night/entertainment/events, registration kit, three days food in the arena, and local transport. Accommodation and other incidental charges to be borne by the individuals directly to the facility providers.</li>
+                        <br>
+                <li>The details of the room allocation will be shared a week before the Event.</li>
+            </ul>
+          </div>
+
+      </div>
+    </div>
+  </div>
+
 
   <!-- Travel Section -->
   <div class="accordion-item">

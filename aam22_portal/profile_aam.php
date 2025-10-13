@@ -33,6 +33,8 @@ body {
     background: url(./aa.webp) no-repeat center center fixed;
     background-size: cover;
     min-height: 100vh;
+    backdrop-filter: blur(5px);
+
     font-family: 'Segoe UI', sans-serif;
 }
 .container { margin-top: 40px; margin-bottom: 40px; }

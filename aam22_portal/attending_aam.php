@@ -24,7 +24,11 @@ $result = $connection->query("SELECT name, hall, dept, yog FROM AAM ORDER BY yog
     <style>
         body { background: url(./aa.webp) no-repeat center center fixed;
     			background-size: cover;
-    			min-height: 100vh;}
+    			min-height: 100vh;
+
+                backdrop-filter: blur(5px);
+
+            }
                 .container{
                     width: 100%;
                     text-align: center;
