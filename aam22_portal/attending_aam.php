@@ -50,14 +50,20 @@ $result = $connection->query("SELECT name, hall, dept, yog FROM AAM ORDER BY yog
         }
 
         .alumni-card {
-            background-color:  #BBDEFB;
-            /* backdrop-filter: blur(20px); */
+            background: rgba(255, 255, 255, 0.5);
+            border: none;
+            font-weight: 500;
+            color: #012A4A;
+            border-radius: 12px;
+            box-shadow: inset 0 0 6px rgba(255,255,255,0.5);
+            /* background-color:  #BBDEFB; */
+            backdrop-filter: blur(20px);
 
             border-radius: 20px;
             padding: 15px 15px;
             text-align: center;
             box-shadow: 0 8px 20px rgba(0,0,0,0.2);
-            transition: transform 0.3s, box-shadow 0.3s;
+            transition: transform 0.3s, box-shadow 0.3s; 
         }
 
         .alumni-card:hover {
