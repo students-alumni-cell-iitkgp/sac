@@ -11,7 +11,7 @@ include 'header_aam.php'; // include your updated header
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
     <style>
             body {
-                background: url(./aa2.webp) no-repeat center center fixed;
+                background: url(./aa2a.webp) no-repeat center center fixed;
                 background-size: cover;
                 min-height: 100vh;
                 backdrop-filter: blur(10px);

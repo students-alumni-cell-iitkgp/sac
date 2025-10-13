@@ -30,7 +30,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <style>
 /* === Background === */
 body {
-    background: url(./aa2.webp) no-repeat center center fixed;
+    background: url(./aa2a.webp) no-repeat center center fixed;
     background-size: cover;
     backdrop-filter: blur(15px);
 

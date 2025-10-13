@@ -53,7 +53,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <style>
         body {
             min-height: 100vh;
-            background: url(./aa2.webp) no-repeat center center fixed;
+            background: url(./aa2a.webp) no-repeat center center fixed;
             background-size: cover;
         backdrop-filter: blur(6px);
 
