@@ -10,7 +10,7 @@
   <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="shortcut icon" href="..\img\favicon_io\Logo2.2.ico" type="image/x-icon">
-  <link rel="stylesheet" href="./signupa.css">
+  <!-- <link rel="stylesheet" href="./signupa.css"> -->
   <style>
     .palLogo{
       test-align: right;
@@ -20,40 +20,205 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 
   <style>
-    body{
-      background: url(./aa.webp) no-repeat center center fixed;
-    	background-size: cover;
-    	min-height: 100vh;
-    }
-    .card-header{background-color: #1E88E5};
-    
-    #alert-msg {
-        text-align: center;
-        margin-top: 10px;
-        margin-bottom: 15px;
-        padding: 10px;
-        font-size: 16px;
-        font-weight: bold;
-        color: #8a0000;
-        border: 1px solid #8a0000;
-        background-color: #64B5F6;
-      }
+    /* ===== GLOBAL ===== */
+body.bodyBG {
+  background: url('./../img/aa.webp') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  backdrop-filter: blur(5px);
 
-      .heading-main{
-        display: flex;
-        justify-items: center;
-        align-items: center;
-        text-align: center;
-        background-color: #42A5F5;
-        padding: 30px;
-      }
+  color: #012a4a;
+  font-family: 'Segoe UI', sans-serif;
+}
 
-      .instiLogo{
-        margin-right: 30px;
-          width: 50px;
-      }
+.section1 {
+  /* background: rgba(255, 255, 255, 0.9); */
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 900px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
 
-      
+/* ===== HEADING ===== */
+.heading-main {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.heading-main h2 {
+  color: #014f86;
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+.instiLogo {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.instiLogo img {
+  width: 80px;
+  height: auto;
+}
+
+.palLogo {
+  width: 90px;
+}
+
+/* ===== ACCORDION ===== */
+.accordion-button {
+  background-color: #014f86;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: 0.3s ease;
+}
+
+.accordion-button:hover {
+  background-color: #013a63;
+  color: #fff;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #012a4a;
+  color: #fff;
+  box-shadow: none;
+}
+
+.accordion-item {
+  border: none;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.accordion-body {
+  background: #f8f9fa;
+  border-radius: 0 0 10px 10px;
+}
+
+/* ===== FORM ===== */
+.form-control, .form-select {
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+}
+
+.form-floating > label {
+  color: #495057;
+}
+
+.form-control:focus, .form-select:focus {
+  border-color: #014f86;
+  box-shadow: 0 0 0 0.2rem rgba(1, 79, 134, 0.25);
+}
+
+/* ===== TABLES ===== */
+.table {
+  border-collapse: collapse;
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  font-size: 0.95rem;
+}
+
+.table thead {
+  background-color: #014f86;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.table th, .table td {
+  padding: 12px 15px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f2f6fa;
+}
+
+.table-bordered th, .table-bordered td {
+  border: 1px solid #dee2e6;
+}
+
+.table-responsive {
+  border-radius: 8px;
+  overflow-x: auto;
+}
+
+/* ===== CARDS ===== */
+.card {
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  background-color: #014f86 !important;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+/* ===== NOTES / LISTS ===== */
+.notes-text li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+/* ===== BUTTONS ===== */
+.btn {
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-light {
+  background-color: #014f86;
+  color: white;
+  border: none;
+}
+
+.btn-light:hover {
+  background-color: #012a4a;
+  color: white;
+  transform: scale(1.02);
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .section1 {
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .heading-main h2 {
+    font-size: 1.3rem;
+  }
+
+  .instiLogo img {
+    width: 60px;
+  }
+
+  .accordion-button {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .table th, .table td {
+    padding: 8px;
+    font-size: 0.85rem;
+  }
+
+  .form-floating {
+    margin-bottom: 15px !important;
+  }
+}
   </style>
 <?php
 // DB config

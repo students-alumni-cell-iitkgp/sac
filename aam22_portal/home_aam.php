@@ -17,6 +17,8 @@ include 'header_aam.php'; // include your updated header
 					background: url(./aa.webp) no-repeat center center fixed;
     			background-size: cover;
     			min-height: 100vh;
+    backdrop-filter: blur(5px);
+
 			 }
         .hero {
             background: url('img/home_banner.jpg') center/cover no-repeat;
@@ -38,6 +40,20 @@ include 'header_aam.php'; // include your updated header
         }
         .event-card img { height: 150px; object-fit: cover; }
         .alumni-photo { width: 100%; height: 200px; object-fit: cover; border-radius: 8px; }
+        .mainImg{
+            min-width: 70vw;
+            width: 1400px;
+            max-width: 90vw;
+            border-radius: 30px;
+        }
+        .dateDiv{
+            font-size: 1.5rem;
+            color: #0D47A1;
+            font-weight: bold;
+        }
+        .headr{
+            /* border: solid red 2px; */
+        }
         
         
 
@@ -53,6 +69,9 @@ include 'header_aam.php'; // include your updated header
 <div class="hero">
     Welcome to 22nd Annual Alumni Meet 2026
 </div>
+<div class="headr text-center dateDiv">
+    <span> 9<sup>th</sup> to 11<sup>th</sup> Jan 2026</span>
+</div>
 
 <div class="headr text-center my-4">
     <a href="./../aam21.php" class="btn btn-lg mx-4 px-10 mb-6" style="background-color: #1976D2; color: white;">Glimpses of earlier Annual Alumni Meet (AAM)
@@ -65,6 +84,12 @@ include 'header_aam.php'; // include your updated header
     <a href="login_aam.php" class="btn btn-lg mx-4 px-10" style="background-color: #1976D2; color: white;">Login for 22nd AAM 2026</a>
     <a href="signup.php" class="btn btn-lg mx-4 px-10" style="background-color: #1976D2; color: white;">Register for 22nd AAM 2026</a>
 </div>
+
+<div class="headr text-center my-4">
+    <img class="mainImg" src="./img/home_aampic01.png" alt="">
+</div>
+
+
 
 
 </div>
