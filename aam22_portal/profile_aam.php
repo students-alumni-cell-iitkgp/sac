@@ -1,6 +1,6 @@
 <?php
 session_start();
-include 'config.php';
+include 'test.php';
 include 'header_aam.php';
 
 if(!isset($_SESSION['email'])){
