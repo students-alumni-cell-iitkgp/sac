@@ -6,7 +6,8 @@ include 'header_aam.php'; // include your updated header
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Home | 22nd Annual Alumni Meet</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
     <style>
@@ -146,7 +147,7 @@ include 'header_aam.php'; // include your updated header
             <img class="instiLogo" src="./img/palJubLogo.png" alt="">
         </div>
 <div class='hero'>
-    <div class="">
+    <div class="text-center">
         Welcome to 22nd Annual Alumni Meet 2026
     </div>
     <div class="text-center dateDiv">
