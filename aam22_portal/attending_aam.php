@@ -10,6 +10,7 @@ if (!isset($_SESSION['email'])) {
 
 // Fetch distinct filter options from DB
 $yearsQuery = $connection->query("SELECT DISTINCT yog FROM AAM ORDER BY yog DESC");
+
 $deptsQuery = $connection->query("SELECT DISTINCT dept FROM AAM ORDER BY dept ASC");
 $hallsQuery = $connection->query("SELECT DISTINCT hall FROM AAM ORDER BY hall ASC");
 
