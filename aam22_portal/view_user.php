@@ -203,7 +203,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             <p><b>Departure Time:</b> <?= htmlspecialchars($user['timeOfDep']); ?></p>
             <p><b>Social Links:</b> <?= htmlspecialchars($user['social_links']); ?></p>
             <p><b>Payment Status:</b> 
-                <span class="<?= $user['payment'] === 'Paid' ? 'badge-paid' : 'badge-pending'; ?>">
+                <span class="<?= $user['payment'] === 'PAID(Verified)' ? 'badge-paid' : 'badge-pending'; ?>">
                     <?= htmlspecialchars($user['payment']); ?>
                 </span>
             </p>
