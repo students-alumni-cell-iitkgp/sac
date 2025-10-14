@@ -782,7 +782,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
           <li>In view of the increased number of participants, we will have to offer accommodation in the campus TGH on a sharing basis, except for families.</li>
           <li>Registration fee(s) will include the musical night/entertainment/events, registration kit, three days’ food in the arena, and local transport. Accommodation and other incidental charges are to be borne by individuals and must be paid directly to the facility providers.</li>
           <li>The details of room allocation will be shared a week before the event.</li>
-          <li>Kindly complete your registration at the earliest to avail a better guest room.</li>
+          <li>Kindly complete your registration and payment at the earliest to avail a better guest room.</li>
         </ul>
       </div>
     </div>
