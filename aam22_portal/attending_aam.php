@@ -8,25 +8,58 @@ if (!isset($_SESSION['email'])) {
     exit;
 }
 
-// Fetch all distinct years of graduation for dropdown
-$yearsResult = $connection->query("SELECT DISTINCT yog FROM AAM ORDER BY yog DESC");
+// Fetch distinct filter options from DB
+$yearsQuery = $connection->query("SELECT DISTINCT yog FROM AAM ORDER BY yog DESC");
+
+$deptsQuery = $connection->query("SELECT DISTINCT dept FROM AAM ORDER BY dept ASC");
+$hallsQuery = $connection->query("SELECT DISTINCT hall FROM AAM ORDER BY hall ASC");
+
 $years = [];
-while ($row = $yearsResult->fetch_assoc()) {
-    $years[] = $row['yog'];
+$depts = [];
+$halls = [];
+
+while ($r = $yearsQuery->fetch_assoc()) $years[] = $r['yog'];
+while ($r = $deptsQuery->fetch_assoc()) if (!empty($r['dept'])) $depts[] = $r['dept'];
+while ($r = $hallsQuery->fetch_assoc()) if (!empty($r['hall'])) $halls[] = $r['hall'];
+
+// Get filters from GET parameters
+$selectedYear = $_GET['yog'] ?? '';
+$selectedDept = $_GET['dept'] ?? '';
+$selectedHall = $_GET['hall'] ?? '';
+
+// Build dynamic SQL with filters
+$query = "SELECT name, hall, dept, yog FROM AAM WHERE 1=1";
+$params = [];
+$types = '';
+
+if (!empty($selectedYear)) {
+    $query .= " AND yog = ?";
+    $params[] = $selectedYear;
+    $types .= 's';
 }
 
-// Get selected filter year
-$selectedYear = isset($_GET['yog']) && $_GET['yog'] !== '' ? $_GET['yog'] : null;
-
-// Fetch alumni based on selected year
-if ($selectedYear) {
-    $stmt = $connection->prepare("SELECT name, hall, dept, yog FROM AAM WHERE yog = ? ORDER BY name ASC");
-    $stmt->bind_param("s", $selectedYear);
-    $stmt->execute();
-    $result = $stmt->get_result();
-} else {
-    $result = $connection->query("SELECT name, hall, dept, yog FROM AAM ORDER BY yog DESC");
+if (!empty($selectedDept)) {
+    $query .= " AND dept = ?";
+    $params[] = $selectedDept;
+    $types .= 's';
 }
+
+if (!empty($selectedHall)) {
+    $query .= " AND hall = ?";
+    $params[] = $selectedHall;
+    $types .= 's';
+}
+
+$query .= " ORDER BY yog DESC, name ASC";
+
+$stmt = $connection->prepare($query);
+
+if (!empty($params)) {
+    $stmt->bind_param($types, ...$params);
+}
+
+$stmt->execute();
+$result = $stmt->get_result();
 ?>
 
 <!DOCTYPE html>
@@ -57,17 +90,21 @@ h2 {
     text-shadow: 1px 1px 2px rgba(255,255,255,0.5);
 }
 
-/* Filter dropdown */
+/* Filter section */
 .filter-form {
     text-align: center;
     margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .filter-form select {
     padding: 8px 14px;
     border-radius: 8px;
     border: 1px solid #90CAF9;
-    background-color: #E3F2FD;
+    background-color: rgba(227, 242, 253, 0.8);
     color: #012A4A;
     font-weight: 500;
     font-size: 1rem;
@@ -77,8 +114,25 @@ h2 {
 
 .filter-form select:hover {
     background-color: #BBDEFB;
+    cursor: pointer;
 }
 
+.filter-form button {
+    background-color: #1565C0;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.filter-form button:hover {
+    background-color: #0D47A1;
+}
+
+/* Cards */
 .alumni-grid-1 {
     display: grid;
     gap: 20px;
@@ -144,8 +198,7 @@ h2 {
     <h2>Registered Alumni Attending 22nd AAM 2026</h2>
 
     <form action="" method="get" class="filter-form">
-        <label for="yog"><strong>Filter by Year of Graduation:</strong></label>
-        <select name="yog" id="yog" onchange="this.form.submit()">
+        <select name="yog" onchange="this.form.submit()">
             <option value="">All Years</option>
             <?php foreach ($years as $year): ?>
                 <option value="<?= htmlspecialchars($year) ?>" <?= ($selectedYear == $year) ? 'selected' : '' ?>>
@@ -153,6 +206,28 @@ h2 {
                 </option>
             <?php endforeach; ?>
         </select>
+
+        <select name="dept" onchange="this.form.submit()">
+            <option value="">All Departments</option>
+            <?php foreach ($depts as $dept): ?>
+                <option value="<?= htmlspecialchars($dept) ?>" <?= ($selectedDept == $dept) ? 'selected' : '' ?>>
+                    <?= htmlspecialchars($dept) ?>
+                </option>
+            <?php endforeach; ?>
+        </select>
+
+        <select name="hall" onchange="this.form.submit()">
+            <option value="">All Halls</option>
+            <?php foreach ($halls as $hall): ?>
+                <option value="<?= htmlspecialchars($hall) ?>" <?= ($selectedHall == $hall) ? 'selected' : '' ?>>
+                    <?= htmlspecialchars($hall) ?>
+                </option>
+            <?php endforeach; ?>
+        </select>
+
+        <?php if ($selectedYear || $selectedDept || $selectedHall): ?>
+            <button type="button" onclick="window.location='<?= basename($_SERVER['PHP_SELF']); ?>'">Reset</button>
+        <?php endif; ?>
     </form>
 
     <div class="alumni-grid-1">
@@ -166,7 +241,7 @@ h2 {
                 </div>
             <?php endwhile; ?>
         <?php else: ?>
-            <p style="text-align:center; font-weight:500; color:#012A4A;">No alumni found for this year.</p>
+            <p style="text-align:center; font-weight:500; color:#012A4A;">No alumni found for the selected filters.</p>
         <?php endif; ?>
     </div>
 </div>
