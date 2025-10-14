@@ -37,7 +37,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             background: url(./aa2a.webp) no-repeat center center fixed;
             background-size: cover;
             min-height: 100vh;
-            backdrop-filter: blur(5px);
+            backdrop-filter: blur(15px);
             display: flex;
             justify-content: center;
             align-items: center;

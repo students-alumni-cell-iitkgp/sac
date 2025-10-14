@@ -24,7 +24,7 @@ $result = $connection->query("SELECT name, hall, dept, yog FROM AAM ORDER BY yog
             background: url(./aa2a.webp) no-repeat center center fixed;
             background-size: cover;
             min-height: 100vh;
-            backdrop-filter: blur(5px);
+            backdrop-filter: blur(15px);
             font-family: 'Arial', sans-serif;
         }
 
