@@ -1,11 +1,6 @@
 <?php
 session_start();
-
-
-include 'test.php'; //db connection on my pc
-// include 'config.php';
-
-
+include 'test.php';
 
 if (!isset($_SESSION["email"])) {
     echo "No registration found!";
@@ -29,73 +24,125 @@ $connection->close();
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Registration Successful</title>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <!-- <link rel="stylesheet" href="css/signup_aam.css"> -->
+<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Registration Successful | AAM 2026</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 <style>
-body {
-     background-color: #A9D6E5; 
-     position: relative;
-    min-height: 100vh;
-    background: url(./aa2a.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-  background-attachment: fixed;
-  z-index: -88;
+    body {
+        background: url(./aa2a.webp) no-repeat center center fixed;
+        background-size: cover;
+        min-height: 100vh;
+        font-family: "Segoe UI", sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #012a4a;
     }
-.container { margin-top: 50px; max-width: 1000px; background: #f1f2f6; padding: 30px; border-radius: 10px; box-shadow: 0px 0px 10px rgba(0,0,0,0.1); }
-h2 { color: #198754; }
-.table td, .table th { vertical-align: middle; }
+
+    .success-card {
+        background: rgba(255, 255, 255, 0.3);
+        backdrop-filter: blur(12px);
+        border-radius: 25px;
+        padding: 40px 30px;
+        max-width: 600px;
+        width: 90%;
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+        text-align: center;
+        animation: fadeIn 0.6s ease;
+    }
+
+    .success-card h2 {
+        color: #014f86;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    .success-message {
+        font-size: 1.05rem;
+        background: rgba(255,255,255,0.5);
+        border-radius: 20px;
+        padding: 20px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        margin-bottom: 25px;
+        line-height: 1.6;
+    }
+
+    .details {
+        background: rgba(255,255,255,0.35);
+        padding: 15px;
+        border-radius: 15px;
+        margin-bottom: 25px;
+    }
+
+    .details table {
+        width: 100%;
+        border-collapse: collapse;
+        color: #012a4a;
+    }
+
+    .details th {
+        text-align: left;
+        width: 40%;
+        font-weight: 600;
+        padding: 8px;
+    }
+
+    .details td {
+        text-align: right;
+        padding: 8px;
+        color: #014f86;
+        font-weight: 500;
+    }
+
+    .btn-bubble {
+        border: none;
+        background-color: #014f86;
+        color: white;
+        font-weight: 600;
+        padding: 10px 25px;
+        border-radius: 30px;
+        transition: all 0.3s ease;
+    }
+
+    .btn-bubble:hover {
+        background-color: #012a4a;
+        transform: scale(1.05);
+        box-shadow: 0 0 15px rgba(1, 79, 134, 0.4);
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
+    @media (max-width: 768px) {
+        .success-card { padding: 30px 20px; }
+        .success-message { font-size: 0.95rem; }
+        .details th, .details td { font-size: 0.9rem; }
+    }
 </style>
 </head>
 <body>
 
-<div class="container">
+<div class="success-card">
     <h2>Registration Successful!</h2>
-    <p>Thank you, <strong><?php echo htmlspecialchars($user['name']); ?></strong>for registering for the 22nd Annual Alumni Meet at IIT Kharagpur.
-We are delighted to have you join us for this special occasion celebrating the KGP spirit and lifelong connections.
-Your registration has been successfully received.
-For further details regarding the program schedule, accommodation, registration fee payment, and logistics, please log in to the <a href="login_aam.php" class="btn btn-primary">
-Annual Alumni Meet Portal.</a>
-For any queries, you may also write to us at alumni@iitkgp.ac.in</p>
-
-    <table class="table table-bordered">
-        <tr><th>Email</th><td><?php echo htmlspecialchars($user['email']); ?></td></tr>
-        <tr><th>Name</th><td><?php echo htmlspecialchars($user['name']); ?></td></tr>
-        <tr><th>Mobile</th><td><?php echo htmlspecialchars($user['mobile']); ?></td></tr>
-        <tr><th>Date of Birth</th><td><?php echo htmlspecialchars($user['dob']); ?></td></tr>
-
-        <tr><th>Profession</th><td><?php echo htmlspecialchars($user['profession']); ?></td></tr>
-        <tr><th>Organisation</th><td><?php echo htmlspecialchars($user['organisation']); ?></td></tr>
-        <tr><th>Designation</th><td><?php echo htmlspecialchars($user['designation']); ?></td></tr>
-
-        <tr><th>Department</th><td><?php echo htmlspecialchars($user['dept']); ?></td></tr>
-        <tr><th>Hall</th><td><?php echo htmlspecialchars($user['hall']); ?></td></tr>
-        <tr><th>Join Year</th><td><?php echo htmlspecialchars($user['yoj']); ?></td></tr>
-        <tr><th>Graduation Year</th><td><?php echo htmlspecialchars($user['yog']); ?></td></tr>
-        <tr><th>Accompanying Persons</th><td><?php echo htmlspecialchars($user['accompaniment']); ?></td></tr>
-
-
-        <tr><th>Food Preference</th><td><?php echo htmlspecialchars($user['foodPreference']); ?></td></tr>
-        <tr><th>Date of Arrival</th><td><?php echo htmlspecialchars($user['dateOfArr']); ?></td></tr>
-        <tr><th>Time of Arrival</th><td><?php echo htmlspecialchars($user['timeOfArr']); ?></td></tr>
-        <tr><th>Date of Departure</th><td><?php echo htmlspecialchars($user['dateOfDep']); ?></td></tr>
-        <tr><th>Time of Departure</th><td><?php echo htmlspecialchars($user['timeOfDep']); ?></td></tr>
-
-        <!-- Add this wherever you want the button on the registration page -->
-        
-    </table>
-    <div class="text-center mt-3 button">
-        <a href="profile_aam.php" class="btn btn-primary">
-            Go to Your Profile
-        </a>
+    <div class="success-message">
+        Thank you, <strong><?php echo htmlspecialchars($user['name']); ?></strong>!  
+        Your registration for the <strong>22<sup>nd</sup> Annual Alumni Meet 2026</strong> has been successfully completed.  
+        We’re thrilled to have you join us to relive the KGP spirit and reconnect with your batchmates.  
+        <br><br>
+        For schedule, accommodation, and updates please log in to your profile anytime.
     </div>
-<!-- 
-    <div class="text-center mt-4">
-        <button class="btn btn-success" onclick="window.print()">Print Registration</button>
-        <a href="signup.php" class="btn btn-primary">Register Another</a>
-    </div> -->
+
+    <div class="details">
+        <table>
+            <tr><th>Email</th><td><?php echo htmlspecialchars($user['email']); ?></td></tr>
+            <tr><th>Mobile</th><td><?php echo htmlspecialchars($user['mobile']); ?></td></tr>
+            <tr><th>Date of Birth</th><td><?php echo htmlspecialchars($user['dob']); ?></td></tr>
+        </table>
+    </div>
+
+    <a href="profile_aam.php" class="btn-bubble">Go to Your Profile</a>
 </div>
 
 </body>

@@ -145,7 +145,7 @@ body {
                 <input type="text" name="mobile" class="form-control" placeholder="Mobile" required>
             </div>
             <div class="mb-3">
-                <input type="date" name="dob" class="form-control" required>
+                <input type="date" name="dob" class="form-control" placeholder="DD/MM/YYYY" required>
             </div>
 
             <button class="btn-login" type="submit">Login</button>
