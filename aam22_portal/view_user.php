@@ -47,7 +47,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>User Profile - Admin</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <style>
@@ -70,9 +71,16 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
         .profile-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-template-columns: repeat(3, 1fr); /* 3 columns for desktop */
             gap: 20px;
             padding: 0 15px;
+        }
+
+        /* For mobile screens: single column */
+        @media (max-width: 768px) {
+            .profile-grid {
+                grid-template-columns: 1fr; /* 1 column for mobile */
+            }
         }
 
         .section-card {
@@ -195,7 +203,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             <p><b>Departure Time:</b> <?= htmlspecialchars($user['timeOfDep']); ?></p>
             <p><b>Social Links:</b> <?= htmlspecialchars($user['social_links']); ?></p>
             <p><b>Payment Status:</b> 
-                <span class="<?= $user['payment'] === 'Paid' ? 'badge-paid' : 'badge-pending'; ?>">
+                <span class="<?= $user['payment'] === 'PAID(Verified)' ? 'badge-paid' : 'badge-pending'; ?>">
                     <?= htmlspecialchars($user['payment']); ?>
                 </span>
             </p>
