@@ -357,7 +357,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         <div class="row">
            <div class="form-floating mb-3 col-sm-12">
             <input type="text" class="form-control" name="social_links" placeholder="www.facebook/xyz.com" maxlength="150">
-            <label>Social Media Link(Facebook, LinkedIn, etc..)<span style="color:red;"></span></label>
+            <label>Social Media Link(Facebook, LinkedIn, etc..)</label>
            </div>
         </div>
 
@@ -586,15 +586,13 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
         <div class="row">
            <div class="form-floating mb-3 col-sm-6">
-            <input type="number" min="1951" max="2020" class="form-control" name="yoj" placeholder="2010" required>
+            <input type="number" min="1951" max="2020" class="form-control" name="yoj" placeholder="1971" required>
             <label>Join Year<span style="color:red;">*</span></label>
            </div class="form-floating mb-3 col-sm-6"> 
-             <label>Year of Graduating<span style="color:red;">*</span></label>
-             <select class="form-floating mb-3 col-sm-6 form-control" name="yog" required>
-               <option selected value="1976">1976</option>
-               <option value="1986">1986</option>
-               <option value="2001">2001</option>
-              </select>
+            <div class="form-floating mb-3 col-sm-6">
+              <input type="number" min="1951" max="2020" class="form-control" name="yog" placeholder="1976" required>
+              <label>Year of Graduating<span style="color:red;">*</span></label>
+           </div class="form-floating mb-3 col-sm-6"> 
         </div>
 
       </div>
@@ -682,20 +680,35 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
 
         <div class="card shadow-sm mt-5 mb-5">
-        <div class="card-header text-white">
-            <h4 class="mb-0">Bank Details for Depositing Registration Fees</h4>
-        </div>
+        <div class="card mb-4 shadow-lg border-0" style="border-radius: 20px;">
+  <div class="card-header text-white" style="background-color:#014F86; border-radius: 20px 20px 0 0;">
+    <h4 class="mb-0">Bank Details for Depositing Registration Fees</h4>
+  </div>
 
-        <div class="card-body">
-            <ul class="notes-text">
-                    <li><strong>Bank Name:</strong> SBI</li>
-                    <li><strong>Account Name:</strong> IIT Kharagpur Alumni Fund</li>
-                    <li><strong>Account Number:</strong> 37711582715</li>
-                    <li><strong>IFSC:</strong> SBIN0000202</li>
-                    <li><strong>MICR:</strong> 721002103</li>
-                    <li><strong>SWIFT Code:</strong> SBININBB339</li>
-            </ul>
-        </div>
+  <div class="card-body">
+    <div class="row align-items-center">
+      
+      <!-- Left: Bank details -->
+      <div class="col-md-8">
+        <ul class="notes-text" style="font-size: 1rem;">
+          <li><strong>Bank Name:</strong> SBI</li>
+          <li><strong>Account Name:</strong> IIT Kharagpur Alumni Fund</li>
+          <li><strong>Account Number:</strong> 37711582715</li>
+          <li><strong>IFSC:</strong> SBIN0000202</li>
+          <li><strong>MICR:</strong> 721002103</li>
+          <li><strong>SWIFT Code:</strong> SBININBB339</li>
+        </ul>
+      </div>
+
+      <!-- Right: QR code -->
+      <div class="col-md-4 text-center">
+        <img src="./img/qrBank.jpg" alt="QR Code" class="img-fluid rounded" 
+             style="max-width: 180px; border: 2px solid #014F86; padding: 5px; background: white;">
+        <p class="mt-2 text-muted" style="font-size: 0.9rem;">Scan to Pay</p>
+      </div>
+    </div>
+  </div>
+</div>
     </div>
 
         
@@ -720,62 +733,59 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
 
 
-      <div class="container my-1">
-        <h4 class="mb-3">Guest House Tariff Details (Without GST)</h4>
-            <div class="table-responsive">
-                <table class="table table-bordered table-striped">
-                    <thead class="table card-header text-white">
-                        <tr>
-                            <th scope="col">SL No</th>
-                            <th scope="col">Accommodation Type</th>
-                            <th scope="col">INR</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>1</td>
-                            <td>TGH</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>SAM</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>Alumni Guest House</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>4</td>
-                            <td>Atal Bihari Vajpayee Hall of Residence</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>5</td>
-                        <td>Savitribai Phule Hall of Residence</td>
-                        <td></td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>  
-        </div>  
-
-      <div class="accordion-body">
-          <div class="card-body">
-            <ul class="notes-text">
-                <li>Like every year, the highest preference for on-campus accommodation will be given to the 50th-year senior participants. Due to the limited availability of rooms in TGH, preference will also be given to senior-most alumni, persons with disabilities (PWD), those with medical conditions requiring special facilities, and alumni accompanied by their families.</li>
-                        <br>
-                <li>In view of the increased number of participants, we shall have to offer you accommodation in campus TGH on sharing basis.</li>
-                        <br>
-                <li>Registration fee(s) will include the musical night/entertainment/events, registration kit, three days food in the arena, and local transport. Accommodation and other incidental charges to be borne by the individuals directly to the facility providers.</li>
-                        <br>
-                <li>The details of the room allocation will be shared a week before the Event.</li>
-            </ul>
-          </div>
-
+    <div class="container my-1">
+      <h4 class="mb-3">Guest House Tariff Details (Without GST)</h4>
+      
+      <div class="table-responsive">
+        <table class="table table-bordered table-striped">
+          <thead class="table card-header text-white">
+            <tr>
+              <th scope="col">SL No</th>
+              <th scope="col">Accommodation / Type</th>
+              <th scope="col">INR</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>TGH (D/B)</td>
+              <td>2100</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>SAM (D/B)</td>
+              <td>600</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Alumni Guest House (D/B)</td>
+              <td>2100</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Atal Bihari Vajpayee Hall of Residence (Single)</td>
+              <td>250</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>Savitribai Phule Hall of Residence (Single)</td>
+              <td>250</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
+
+      <div class="mt-3" style="font-size: 0.95rem; color:#012A4A;">
+        <strong>Note:</strong>
+        <ul>
+          <li>Like every year, the highest preference for on-campus accommodation will be given to the 50th-year senior participants. Due to the limited availability of rooms in TGH, preference will also be given to senior-most alumni, persons with disabilities (PWD), those with medical conditions requiring special facilities, and alumni accompanied by their families. Rest of the rooms will be allocated on a first-come-first-serve basis.</li>
+          <li>In view of the increased number of participants, we will have to offer accommodation in the campus TGH on a sharing basis, except for families.</li>
+          <li>Registration fee(s) will include the musical night/entertainment/events, registration kit, three days’ food in the arena, and local transport. Accommodation and other incidental charges are to be borne by individuals and must be paid directly to the facility providers.</li>
+          <li>The details of room allocation will be shared a week before the event.</li>
+          <li>Kindly complete your registration and payment at the earliest to avail a better guest room.</li>
+        </ul>
+      </div>
+    </div>
     </div>
   </div>
 
