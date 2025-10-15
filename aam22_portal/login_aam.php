@@ -50,9 +50,9 @@ body {
 /* === Glassmorphism Login Box === */
 .login-box {
     /* background: #90CAF9; */
-    backdrop-filter: blur(12px);
+    backdrop-filter: blur(100px);
     border-radius: 15px;
-    padding: 40px 35px;
+    padding: 10px 35px 30px 35px;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
     width: 380px;
     max-width: 90%;
@@ -123,14 +123,33 @@ body {
     height: 85px;
     margin: 10px;
 }
+
+.logoContainer{
+    /* background: rgba(255, 255, 255, 0.35);
+        */
+    background-color: white;
+    border-radius: 25px;
+    border: 2px solid #012A4A;
+    padding: 15px;
+    margin: 2px auto;
+    width: 80%;
+}
+
+@media (max-width: 768px) {
+.logoContainer{
+    width: 100%;
+}
+}
 </style>
 </head>
 <body>
     <div class="login-box">
-        <div class="justCenter container">
-                <img class="instiLogo" src="./../img/logo/kgp_blue.png" alt="">
-                <img class="instiLogo" src="./img/palJubLogo.png" alt="">
-        </div>
+        <div class="logoContainer text-center my-4">
+            <div class="container">
+                    <img class="instiLogo" src="./../img/logo/kgp_blue.png" alt="">
+                    <img class="instiLogo" src="./img/palJubLogo.png" alt="">
+            </div>
+        </div> 
         <h2 class="color-black">Login</h2>
 
         <?php if(isset($error)): ?>

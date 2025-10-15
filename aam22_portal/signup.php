@@ -203,6 +203,9 @@ body {
   .accordion-button {
     font-size: 0.95rem;
   }
+  .logoContainer{
+    width: 80%;
+}
 }
 
 @media (max-width: 576px) {

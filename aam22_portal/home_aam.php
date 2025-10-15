@@ -10,233 +10,256 @@ include 'header_aam.php'; // include your updated header
 
     <title>Home | 22nd Annual Alumni Meet</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
-    <style>
-            body {
-                background: url(./aa2a.webp) no-repeat center center fixed;
-                background-size: cover;
-                min-height: 100vh;
-                backdrop-filter: blur(25px);
 
-                font-family: 'Segoe UI', sans-serif;
-            }
+<style>
 
-            /* ===== HERO SECTION ===== */
-            .hero {
-                display: flex;
-                flex-direction: column;
-                background: rgba(255, 255, 255, 0.3);
-                backdrop-filter: blur(15px);
-                border-radius: 20px;
-                height: 120px;
-                margin: 30px auto;
-                width: 80%;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                color: #012a4a;
-                font-size: 2rem;
-                font-weight: 700;
-                box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
-                text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.7);
-            }
+body {
+    background: url(./aa2a.webp) no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    backdrop-filter: blur(25px);
 
-            /* ===== LOGO SECTION ===== */
-            .justCenter {
-                margin-top: 30px;
-                text-align: center;
-            }
+    font-family: 'Segoe UI', sans-serif;
+}
 
-            .instiLogo {
-                margin: 10px;
-                height: 100px;
-                transition: transform 0.3s ease;
-            }
+/* ===== HERO SECTION ===== */
+.hero {
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    height: 120px;
+    margin: 30px auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #012a4a;
+    font-size: 2rem;
+    font-weight: 700;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.7);
+}
 
-            .instiLogo:hover {
-                transform: scale(1.1);
-            }
+/* ===== LOGO SECTION ===== */
+.justCenter {
+    margin-top: 30px;
+    text-align: center;
+}
 
-            /* ===== DATE & HEADER ===== */
-            .dateDiv {
-                font-size: 25px;
-                color: #014f86;
-                font-weight: 600;
-                text-align: center;
-                margin-top: 10px;
-            }
+.instiLogo {
+    margin: 10px;
+    height: 100px;
+    transition: transform 0.3s ease;
+}
 
-            /* ===== BUTTONS ===== */
-            .btn {
-                border-radius: 30px;
-                font-size: 22px;
-                font-weight: 600;
-                padding: 10px 35px;
-                transition: all 0.3s ease;
-                background-color: #014f86 !important;
-                border: none;
-            }
+.instiLogo:hover {
+    transform: scale(1.1);
+}
 
-            .btn:hover {
-                background-color: #012a4a !important;
-                transform: scale(1.1);
-                color: #fff;
-            }
+/* ===== DATE & HEADER ===== */
+.dateDiv {
+    font-size: 25px;
+    color: #014f86;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+}
 
-            /* ===== MAIN IMAGE CARD ===== */
-            .mainImg {
-                min-width: 50vw;
-                width: 100%;
-                max-width: 90vw;
-                border-radius: 30px;
-                box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
-                border: 3px solid rgba(255, 255, 255, 0.5);
-            }
+/* ===== BUTTONS ===== */
+.btn {
+    border-radius: 30px;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 10px 35px;
+    transition: all 0.3s ease;
+    background-color: #014f86 !important;
+    border: none;
+}
 
-            /* ===== CONTENT BLOCK (CENTER) ===== */
-            .headr {
-                background: rgba(255, 255, 255, 0.35);
-                backdrop-filter: blur(12px);
-                border-radius: 25px;
-                padding: 15px;
-                margin: 20px auto;
-                width: 85%;
-                box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-            }
+.btn:hover {
+    background-color: #012a4a !important;
+    transform: scale(1.1);
+    color: #fff;
+}
 
-            /* ===== NOTES TEXT ===== */
-            .notes-text {
-                font-size: 25px;
-                font-weight: 600;
-                /* color: #012a4a; */
-                color: #012A4A;
-            }
+/* ===== MAIN IMAGE CARD ===== */
+.mainImg {
+    min-width: 50vw;
+    width: 100%;
+    max-width: 90vw;
+    border-radius: 30px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    border: 3px solid rgba(255, 255, 255, 0.5);
+}
 
-            /* ===== RESPONSIVE ===== */
-            @media (max-width: 768px) {
-                .hero {
-                    width: 90%;
-                    font-size: 1.5rem;
-                    height: auto;
-                    padding: 20px;
-                }
+/* ===== CONTENT BLOCK (CENTER) ===== */
+.headr {
+    background: rgba(255, 255, 255, 0.35);
+    backdrop-filter: blur(12px);
+    border-radius: 25px;
+    padding: 15px;
+    margin: 20px auto;
+    width: 85%;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
 
-                .headr {
-                    width: 90%;
-                    padding: 20px;
-                }
+/* ===== NOTES TEXT ===== */
+.notes-text {
+    font-size: 25px;
+    font-weight: 600;
+    /* color: #012a4a; */
+    color: #012A4A;
+}
 
-                .instiLogo {
-                    height: 60px;
-                }
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+    .hero {
+        width: 90%;
+        font-size: 1.5rem;
+        height: auto;
+        padding: 20px;
+    }
 
-                .btn {
-                    width: 90%;
-                    margin-bottom: 15px;
-                }
+    .headr {
+        width: 90%;
+        padding: 20px;
+    }
 
-                .mainImg {
-                    border-radius: 20px;
-                }
-            }
-            .itenary-grid {
-                display: grid;
-                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-                gap: 20px;
-                justify-items: center;
-            }
+    .instiLogo {
+        height: 60px;
+    }
 
-            .itenary-img {
-                width: 100%;
-                max-width: 600px;
-                border-radius: 20px;
-                box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-                transition: transform 0.3s ease;
-            }
+    .btn {
+        width: 90%;
+        margin-bottom: 15px;
+    }
 
-            .itenary-img:hover {
-                transform: scale(1.1);
-            }
-            .logoContainer{
-                /* background: rgba(255, 255, 255, 0.35);
-                 */
-                background-color: white;
-                border-radius: 25px;
-                border: 2px solid #012A4A;
-                padding: 15px;
-                margin: 20px auto;
-                width: 18%;
-            }
+    .mainImg {
+        border-radius: 20px;
+    }
+}
+.itenary-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
 
-            /* Contact Section */
-            .contact-section {
-                background: rgba(255, 255, 255, 0.35);
-                backdrop-filter: blur(10px);
-                border-radius: 25px;
-                padding: 40px 20px;
-                box-shadow: 0 8px 20px rgba(0,0,0,0.1);
-                color: #012a4a;
-                width: 85%;
-                margin: auto;
-            }
+.itenary-img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease;
+}
 
-            .contact-grid {
-                display: grid;
-                grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-                gap: 30px;
-                justify-items: center;
-                align-items: start;
-            }
+.itenary-img:hover {
+    transform: scale(1.1);
+}
+.logoContainer{
+    /* background: rgba(255, 255, 255, 0.35);
+        */
+    background-color: white;
+    border-radius: 25px;
+    border: 2px solid #012A4A;
+    padding: 15px;
+    margin: 20px auto;
+    width: 18%;
+}
 
-            .contact-card {
-                background: rgba(255, 255, 255, 0.5);
-                border-radius: 20px;
-                padding: 20px;
-                width: 100%;
-                max-width: 350px;
-                min-width: 350px;
-                box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-                transition: transform 0.3s ease, box-shadow 0.3s ease;
-            }
+/* Contact Section */
+.contact-section {
+    background: rgba(255, 255, 255, 0.35);
+    backdrop-filter: blur(10px);
+    border-radius: 25px;
+    padding: 40px 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    color: #012a4a;
+    width: 85%;
+    margin: auto;
+}
 
-            .contact-card:hover {
-                transform: translateY(-5px);
-                box-shadow: 0 10px 25px rgba(0,0,0,0.15);
-            }
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 30px;
+    justify-items: center;
+    align-items: start;
+}
 
-            .contact-name {
-                font-weight: 700;
-                color: #012a4a;
-            }
+.contact-card {
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    padding: 20px;
+    width: 100%;
+    max-width: 350px;
+    min-width: 350px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
-            .contact-role {
-                color: #01497c;
-                font-size: 0.95rem;
-                margin-bottom: 10px;
-            }
+.contact-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
 
-            .contact-link {
-                color: #014f86;
-                text-decoration: none;
-                transition: color 0.3s ease;
-            }
+.contact-name {
+    font-weight: 700;
+    color: #012a4a;
+}
 
-            .contact-link:hover {
-                color: #012a4a;
-                text-decoration: underline;
-            }
+.contact-role {
+    color: #01497c;
+    font-size: 0.95rem;
+    margin-bottom: 10px;
+}
 
-            @media (max-width: 768px) {
-                .contact-section {
-                    width: 90%;
-                    padding: 25px 15px;
-                }
-                .logoContainer{
-                    width: 60%;
-                }
-            }
+.contact-link {
+    color: #014f86;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
 
-        
-    </style>
+.contact-link:hover {
+    color: #012a4a;
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .contact-section {
+        width: 90%;
+        padding: 25px 15px;
+    }
+    .logoContainer{
+        width: 60%;
+    }
+}
+
+#countdown h2 {
+    color: #012a4a;
+}
+
+#balloon {
+    font-size: 4rem;
+    position: fixed;
+    left: 50%;
+    top: 100%; /* start off screen */
+    transform: translateX(-50%);
+    transition: top 2s ease-out;
+    z-index: 1000;
+}
+
+/* Balloon blast animation */
+@keyframes blast {
+    0% { transform: scale(1) rotate(0deg); opacity: 1; }
+    50% { transform: scale(1.5) rotate(45deg); opacity: 0.8; }
+    100% { transform: scale(0) rotate(90deg); opacity: 0; }
+}
+</style>
+
+
 </head>
 <body>
 <div class="logoContainer text-center my-4">
@@ -256,13 +279,14 @@ include 'header_aam.php'; // include your updated header
     </div>
 </div>
 
+
 <div class="headr text-center my-4">
     <a href="./../aam21.php" class="btn btn-lg mx-4 px-10 mb-6" style="background-color: #1976D2; color: white;">Glimpses of earlier Annual Alumni Meets
 </a>
 <br>
 <br>
     <!-- <span class="notes-text">Join the fun! Register first, then log in to continue!</span> -->
-    <span class="notes-text">Please register for the 22nd Annual Alumni Meet to relive old memories and celebrate with your batchmates!</span>
+    <span class="notes-text">Please register for the 22<sup>nd</sup> Annual Alumni Meet to relive old memories and celebrate with your batchmates!</span>
     <br>
     <br>
     <a href="signup.php" class="btn btn-lg mx-4 px-10" style="background-color: #1976D2; color: white;">Register</a>
@@ -281,6 +305,7 @@ include 'header_aam.php'; // include your updated header
         <img src="./img/itenary3.png" alt="Itinerary Day 3" class="itenary-img">
     </div>
 </div>
+
 
 <!-- ===== CONTACT SECTION ===== -->
 
@@ -317,6 +342,8 @@ include 'header_aam.php'; // include your updated header
 
 
 </div>
+
+
 
 </body>
 </html>
