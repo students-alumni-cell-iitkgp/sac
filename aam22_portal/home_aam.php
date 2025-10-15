@@ -290,3 +290,7 @@ include 'header_aam.php'; // include your updated header
 
 </body>
 </html>
+
+<?php
+include 'footer_aam.php'; // include your updated header
+?>

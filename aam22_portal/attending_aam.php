@@ -252,3 +252,7 @@ h2 {
 
 </body>
 </html>
+
+<?php
+include 'footer_aam.php'; // include your updated header
+?>
