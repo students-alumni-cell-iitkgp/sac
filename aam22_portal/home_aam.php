@@ -15,7 +15,7 @@ include 'header_aam.php'; // include your updated header
                 background: url(./aa2a.webp) no-repeat center center fixed;
                 background-size: cover;
                 min-height: 100vh;
-                backdrop-filter: blur(10px);
+                backdrop-filter: blur(25px);
 
                 font-family: 'Segoe UI', sans-serif;
             }
@@ -96,7 +96,7 @@ include 'header_aam.php'; // include your updated header
                 background: rgba(255, 255, 255, 0.35);
                 backdrop-filter: blur(12px);
                 border-radius: 25px;
-                padding: 30px;
+                padding: 15px;
                 margin: 20px auto;
                 width: 85%;
                 box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
@@ -138,20 +138,20 @@ include 'header_aam.php'; // include your updated header
             .itenary-grid {
                 display: grid;
                 grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-                gap: 10px;
+                gap: 20px;
                 justify-items: center;
             }
 
             .itenary-img {
-                width: 120%;
-                max-width: 350px;
+                width: 100%;
+                max-width: 600px;
                 border-radius: 20px;
                 box-shadow: 0 8px 20px rgba(0,0,0,0.15);
                 transition: transform 0.3s ease;
             }
 
             .itenary-img:hover {
-                transform: scale(1.05);
+                transform: scale(1.1);
             }
 
             /* Contact Section */

@@ -28,7 +28,7 @@ $result = $stmt->get_result();
             background: url(./aa2a.webp) no-repeat center center fixed;
             background-size: cover;
             min-height: 100vh;
-            backdrop-filter: blur(5px);
+            backdrop-filter: blur(25px);
 
             font-family: 'Arial', sans-serif;
             padding: 20px;
@@ -55,7 +55,7 @@ $result = $stmt->get_result();
         }
 
         .alumni-card {
-            background: #BBDEFB;
+            background: rgba(255, 255, 255, 0.3);
             border-radius: 20px;
             padding: 15px 10px;
             text-align: center;

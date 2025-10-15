@@ -35,7 +35,7 @@ $connection->close();
         background: url(./aa2a.webp) no-repeat center center fixed;
         background-size: cover;
         min-height: 100vh;
-        backdrop-filter: blur(6px);
+        backdrop-filter: blur(20px);
         font-family: 'Segoe UI', sans-serif;
         color: #012A4A;
     }
@@ -217,7 +217,7 @@ $connection->close();
       <?php if (!empty($acc_details)): ?>
         <div class="row g-2">
           <?php foreach ($acc_details as $acc): ?>
-            <div class="col-12">
+            <div class="col-4">
               <div class="acc-card">
                 <h6><?= htmlspecialchars($acc['name'] ?? ''); ?></h6>
                 <?php if (!empty($acc['relation'])): ?>
