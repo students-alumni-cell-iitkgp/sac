@@ -29,7 +29,7 @@ $connection->close();
 <head>
 <meta charset="UTF-8">
 <title>Profile | Annual Alumni Meet</title>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"> -->
 <style>
     body {
         background: url(./aa2a.webp) no-repeat center center fixed;
@@ -80,8 +80,7 @@ $connection->close();
         color: white;
         font-size: 1.2rem;
         padding: 15px;
-        border-top-left-radius: 50px;
-        border-top-right-radius: 50px;
+        border-radius: 200px !important;
         text-align: center;
     }
 
@@ -238,6 +237,7 @@ $connection->close();
     </div>
 
     <div class="row mt-3">
+      <div class="col-md-12 mb-3"><label>Medical Restrictions</label><input class="form-control" value="<?= htmlspecialchars($user['medical']); ?>" readonly></div>
       <div class="col-md-6 mb-3"><label>Food Preference</label><input class="form-control" value="<?= htmlspecialchars($user['foodPreference']); ?>" readonly></div>
     <div class="col-6 mt-2">
         <label>Payment Status</label>
@@ -258,6 +258,7 @@ $connection->close();
   <div class="card-header">Travel Details</div>
   <div class="card-body">
     <div class="row">
+      <div class="col-md-12 mb-3"><label>Mode of Arrival at Kharagpur</label><input class="form-control" value="<?= htmlspecialchars($user['arrivalMode']); ?>" readonly></div>
       <div class="col-md-6 mb-3"><label>Date of Arrival</label><input class="form-control" value="<?= htmlspecialchars($user['dateOfArr']); ?>" readonly></div>
       <div class="col-md-6 mb-3"><label>Time of Arrival</label><input class="form-control" value="<?= htmlspecialchars($user['timeOfArr']); ?>" readonly></div>
       <div class="col-md-6 mb-3"><label>Date of Departure</label><input class="form-control" value="<?= htmlspecialchars($user['dateOfDep']); ?>" readonly></div>

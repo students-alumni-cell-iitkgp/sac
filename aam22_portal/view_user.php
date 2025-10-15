@@ -169,6 +169,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             <p><b>Accompaniment Relation:</b> <?= htmlspecialchars($user['acc_relation']); ?></p>
             <p><b>Accompaniment Name:</b> <?= htmlspecialchars($user['acc_name']); ?></p>
             <p><b>Food Preference:</b> <?= htmlspecialchars($user['foodPreference']); ?></p>
+            <p><b>Medical Restrictions:</b> <?= htmlspecialchars($user['medical']); ?></p>
             <p><b>Cost:</b> <?= htmlspecialchars($user['cost']); ?></p>
             <p><b>Payment Status:</b> 
                 <span class="<?= $user['payment'] === 'PAID(Verified)' ? 'badge-paid' : 'badge-pending'; ?>">
@@ -206,6 +207,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         <!-- Travel & Social -->
         <div class="section-card">
             <h5>Travel Details</h5>
+            <p><b>Mode of Arrival at Kharagpur:</b> <?= htmlspecialchars($user['arrivalMode']); ?></p>
             <p><b>Arrival Date:</b> <?= htmlspecialchars($user['dateOfArr']); ?></p>
             <p><b>Departure Date:</b> <?= htmlspecialchars($user['dateOfDep']); ?></p>
             <p><b>Arrival Time:</b> <?= htmlspecialchars($user['timeOfArr']); ?></p>

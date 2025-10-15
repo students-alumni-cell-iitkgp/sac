@@ -249,6 +249,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $accRelation = $_POST['acc_relation'] ?? '';
 
     $foodPreference = $_POST['foodPreference'] ?? '';
+    $medical = $_POST['medical'] ?? '';
     $cost = $_POST['acp'] ?? 0;
     $profession = $_POST['profession'] ?? '';
     $designation = $_POST['designation'] ?? '';
@@ -264,6 +265,9 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $dateOfDep = $_POST['dateOfDep'] ?? null;
     $timeOfArr = $_POST['timeOfArr'] ?? null;
     $timeOfDep = $_POST['timeOfDep'] ?? null;
+    $arrivalMode = $_POST['arrivalMode'] ?? '';
+
+
 
     $payment = $_POST['payment'] ?? 0;
 
@@ -282,7 +286,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
       exit;
     }
     $stmtCheck = $conn->prepare("SELECT id FROM AAM WHERE mobile=?");
-    $stmtCheck->bind_param("s",$email);
+    $stmtCheck->bind_param("s",$mobile);
     $stmtCheck->execute();
     $stmtCheck->store_result();
     if ($stmtCheck->num_rows > 0) {
@@ -293,18 +297,18 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     // Insert using prepared statement
     $sql = "INSERT INTO AAM 
     (`name`, `email`, `mobile`, `dob`, `idtype`, `idnumber` `address`, `city`, `state`, `country`, `zipcode`,
-    `acc_relation`, `acc_name`, `foodPreference`, `cost`, `profession`, `organisation`, `designation`,
+    `acc_relation`, `acc_name`, `foodPreference`, `medical`, `cost`, `profession`, `organisation`, `designation`,
     `waddress`, `wcity`, `wstate`, `wcountry`, `wzipcode`,`positionHolding`, `course`, `degree`, `dept`, `hall`, `yoj`, `yog`,
-    `dateOfArr`, `dateOfDep`, `timeOfArr`, `timeOfDep`, `social_links`, `payment`)
-    VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
+    `dateOfArr`, `dateOfDep`, `timeOfArr`, `timeOfDep`, `arrivalMode`, `social_links`, `payment`)
+    VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
 
     $stmt = $conn->prepare($sql);
     $stmt->bind_param(
         "ssssssssiissdsssssssssssiisssssi",
         $name, $email, $mobile, $dob, $idtype, $idnumber, $address, $city, $state, $country, $zipcode,
-        $accRelation, $accName, $foodPreference, $cost, $profession, $organisation, $designation,
+        $accRelation, $accName, $foodPreference, $medical, $cost, $profession, $organisation, $designation,
         $waddress, $wcity, $wstate, $wcountry, $wzipcode, $positionHolding , $course, $degree, $dept, $hall, $yoj, $yog,
-        $dateOfArr, $dateOfDep, $timeOfArr, $timeOfDep, $social_links_json, $payment
+        $dateOfArr, $dateOfDep, $timeOfArr, $timeOfDep, $arrivalMode, $social_links_json, $payment
     );
 
     if ($stmt->execute()) {
@@ -710,10 +714,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
 
            
-           <!-- Dynamic accompanying persons name fields -->
-           <div id="accompNamesContainer" class="mt-3"></div>
-            <div id="kidsContainer" class="mt-3"></div>
-           <div class="row" style="justify-content:center; margin-top: 15px;">
+        <div class="row">
           <div class="form-floating mb-3 col-sm-6">
               <select class="form-select" name="foodPreference" required>
                 <option selected value="select">---Select---</option>
@@ -723,6 +724,10 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                 <option value="OTHER">Other</option>
               </select>
               <label>Food Preference<span style="color:red;">*</span></label>
+            </div>
+            <div class="form-floating mb-3 col-sm-6">
+                <input type="text" class="form-control" id="medical" name="medical" placeholder="Medical Restrictions">
+                <label>Medical Restrictions </label>
             </div>
         </div>
 
@@ -808,6 +813,12 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     </h2>
     <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
       <div class="accordion-body">
+        <div class="row">
+          <div class="form-floating mb-3 col-sm-12">
+              <input type="text" class="form-control" id="arrivalMode" name="arrivalMode" placeholder="by Road, by Train, etc">
+              <label>Mode of Arrival at Kharagpur</label>
+          </div>
+        </div>
         <div class="row">
            <div class="form-floating mb-3 col-sm-6">
              <input type="date" class="form-control" name="dateOfArr" placeholder="dd-mm-yyyy" required>

@@ -59,6 +59,7 @@ $yog = intval($_POST['yog'] ?? 0);
 
 
 $foodPreference = trim($_POST['foodPreference'] ?? '');
+$medical = trim($_POST['medical'] ?? '');
 $cost = floatval($_POST['acp'] ?? 0);
 $profession = trim($_POST['profession'] ?? '');
 $organisation = trim($_POST['organisation'] ?? '');
@@ -76,6 +77,7 @@ $dateOfArr = normalize_date_for_mysql($_POST['dateOfArr'] ?? '');
 $dateOfDep = normalize_date_for_mysql($_POST['dateOfDep'] ?? '');
 $timeOfArr = trim($_POST['timeOfArr'] ?? '');
 $timeOfDep = trim($_POST['timeOfDep'] ?? '');
+$arrivalMode = trim($_POST['arrivalMode'] ?? '');
 
 // Check duplicate email
 $checkStmt = $connection->prepare("SELECT id FROM AAM WHERE email=? LIMIT 1");
@@ -84,6 +86,15 @@ $checkStmt->execute();
 $checkStmt->store_result();
 if ($checkStmt->num_rows > 0) {
     echo "<script>alert('Email already registered!'); window.history.back();</script>";
+    exit;
+}
+
+$checkStmt = $connection->prepare("SELECT id FROM AAM WHERE mobile=? LIMIT 1");
+$checkStmt->bind_param('s', $mobile);
+$checkStmt->execute();
+$checkStmt->store_result();
+if ($checkStmt->num_rows > 0) {
+    echo "<script>alert('Mobile number already registered!'); window.history.back();</script>";
     exit;
 }
 $checkStmt->close();
@@ -96,10 +107,10 @@ if (empty($social_links)) $social_links = 'N/A';
 
 // Prepare insert - match columns in DB exactly
 $insert_sql = "INSERT INTO AAM (
-    name, email, mobile, dob, idtype, idnumber, address, city, state, country, zipcode, acc_relation, acc_name, foodPreference, cost, profession, organisation, designation,
+    name, email, mobile, dob, idtype, idnumber, address, city, state, country, zipcode, acc_relation, acc_name, foodPreference, medical, cost, profession, organisation, designation,
     waddress, wcity, wstate, wcountry, wzipcode, positionHolding, course, degree, dept, hall, yoj, yog,
-    dateOfArr, dateOfDep, timeOfArr, timeOfDep, social_links
-) VALUES (" . implode(',', array_fill(0, 35, '?')) . ")";
+    dateOfArr, dateOfDep, timeOfArr, timeOfDep, arrivalMode, social_links
+) VALUES (" . implode(',', array_fill(0, 37, '?')) . ")";
 
 $stmt = $connection->prepare($insert_sql);
 if (!$stmt) {
@@ -109,22 +120,22 @@ if (!$stmt) {
 // Bind types: s = string, i = integer, d = double
 $types = str_repeat('s', 11)   // name to zipcode
        . str_repeat('s', 2)     // acc_relation, acc_name
-       . 's'                     // foodPreference
+       . str_repeat('s', 2)      // foodPreference
        . 'd'                     // cost
        . str_repeat('s', 3)     // profession, organisation, designation
        . str_repeat('s', 5)     // waddress to wzipcode
        . str_repeat('s', 5)     // positionHolding, course, degree, dept, hall
        . 'ii'                   // yoj, yog
-       . str_repeat('s', 4)     // dateOfArr, dateOfDep, timeOfArr, timeOfDep
+       . str_repeat('s', 5)     // dateOfArr, dateOfDep, timeOfArr, timeOfDep
        . 's';                   // social_links
 
 // Prepare bind params in order
 $bind_params = [
     $name, $email, $mobile, $dob_mysql, $idtype, $idnumber, $address, $city, $state, $country, $zipcode,
     $accRelation, $accName,
-    $foodPreference, $cost, $profession, $organisation, $designation,
+    $foodPreference, $medical, $cost, $profession, $organisation, $designation,
     $waddress, $wcity, $wstate, $wcountry, $wzipcode, $positionHolding, $course, $degree, $dept, $hall, $yoj, $yog,
-$dateOfArr, $dateOfDep, $timeOfArr, $timeOfDep, $social_links_json,
+$dateOfArr, $dateOfDep, $timeOfArr, $timeOfDep, $arrivalMode, $social_links_json,
 ];
 
 // mysqli::bind_param requires references
