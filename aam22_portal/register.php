@@ -45,7 +45,7 @@ $zipcode = trim($_POST['zipcode'] ?? '');
 $accompaniment = intval($_POST['accompaniment'] ?? 0);
 $acc_kid = intval($_POST['acc_kid'] ?? 0);
 $foodPreference = trim($_POST['foodPreference'] ?? '');
-$cost = floatval($_POST['cost'] ?? 0);
+$cost = floatval($_POST['acp'] ?? 0);
 $profession = trim($_POST['profession'] ?? '');
 $organisation = trim($_POST['organisation'] ?? '');
 $designation = trim($_POST['designation'] ?? '');
@@ -79,13 +79,34 @@ if ($checkStmt->num_rows > 0) {
 }
 $checkStmt->close();
 
-// Collect accompanying persons
+// Collect accompanying persons   
 $acc_details = [];
-for ($i = 1; $i <= $accompaniment; $i++) {
-    $p_name = trim($_POST["acc_person_$i"] ?? '');
-    $p_relation = trim($_POST["acc_relation_$i"] ?? '');
-    if ($p_name) $acc_details[] = ['name'=>$p_name,'relation'=>$p_relation];
-}
+
+    // Add accompanying persons
+    for ($i = 1; $i <= ($accompaniment ?? 0); $i++) {
+        $nameAcc = $_POST["acc_person_$i"] ?? '';
+        $relationAcc = $_POST["acc_relation_$i"] ?? '';
+        if (!empty($nameAcc)) {
+            $acc_details[] = [
+                'name' => $nameAcc,
+                'relation' => $relationAcc
+            ];
+        }
+    }
+
+    // Add kids
+    for ($i = 1; $i <= ($acc_kid ?? 0); $i++) {
+        $kidName = $_POST["kid_name_$i"] ?? '';
+        $kidAge = $_POST["kid_age_$i"] ?? '';
+        if (!empty($kidName)) {
+            $acc_details[] = [
+                'name' => $kidName,
+                'relation' => $kidAge
+            ];
+        }
+    }
+
+// Encode JSON
 $acc_details_json = json_encode($acc_details, JSON_UNESCAPED_UNICODE);
 $social_links_json = json_encode($social_links, JSON_UNESCAPED_UNICODE);
 

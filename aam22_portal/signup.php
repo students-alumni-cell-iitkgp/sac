@@ -226,7 +226,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $acc_kid = $_POST['acc_kid'] ?? 0;
 
     $foodPreference = $_POST['foodPreference'] ?? '';
-    $cost = $_POST['cost'] ?? 0;
+    $cost = $_POST['acp'] ?? 0;
     $profession = $_POST['profession'] ?? '';
     $designation = $_POST['designation'] ?? '';
     $organisation = $_POST['organisation'] ?? '';
@@ -254,13 +254,35 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $conn = $connection;
 
     // Collect all accompanying person names/relations into array
-    $accomp = [];
-    for ($i = 1; $i <= $accompaniment; $i++) {
+    $acc_details = [];
+
+    // Add accompanying persons
+    for ($i = 1; $i <= ($accompaniment ?? 0); $i++) {
         $nameAcc = $_POST["acc_person_$i"] ?? '';
         $relationAcc = $_POST["acc_relation_$i"] ?? '';
-        if($nameAcc) $accomp[] = ['name'=>$nameAcc,'relation'=>$relationAcc];
+        if (!empty($nameAcc)) {
+            $acc_details[] = [
+                'name' => $nameAcc,
+                'relation' => $relationAcc
+            ];
+        }
     }
-    $acc_details_json = json_encode($accomp, JSON_UNESCAPED_UNICODE);
+
+    // Add kids
+    for ($i = 1; $i <= ($acc_kid ?? 0); $i++) {
+        $kidName = $_POST["kid_name_$i"] ?? '';
+        $kidAge = $_POST["kid_age_$i"] ?? '';
+        if (!empty($kidName)) {
+            $acc_details[] = [
+                'name' => $kidName,
+                'relation' => $kidAge
+            ];
+        }
+    }
+
+// Encode JSON
+$acc_details_json = json_encode($acc_details, JSON_UNESCAPED_UNICODE);
+
     $social_links_json = json_encode($social_links, JSON_UNESCAPED_UNICODE);
 
     // Check for duplicate email
@@ -657,7 +679,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
            <div class="row" style="justify-content:center">
            <div class="mb-3 col-sm-4">
-           <input class="form-control" id="acp" name="acp" type="text" placeholder="Total Reg Fee = 15000 INR" readonly>
+           Total Reg Fee : <input class="form-control" id="acp" name="acp" type="text" placeholder="15000" readonly>
            </div>
            </div>
 
@@ -665,6 +687,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
            
            <!-- Dynamic accompanying persons name fields -->
            <div id="accompNamesContainer" class="mt-3"></div>
+            <div id="kidsContainer" class="mt-3"></div>
            <div class="row" style="justify-content:center; margin-top: 15px;">
           <div class="form-floating mb-3 col-sm-6">
               <select class="form-select" name="foodPreference" required>
@@ -782,7 +805,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
           <li>In view of the increased number of participants, we will have to offer accommodation in the campus TGH on a sharing basis, except for families.</li>
           <li>Registration fee(s) will include the musical night/entertainment/events, registration kit, three days’ food in the arena, and local transport. Accommodation and other incidental charges are to be borne by individuals and must be paid directly to the facility providers.</li>
           <li>The details of room allocation will be shared a week before the event.</li>
-          <li>Kindly complete your registration and payment at the earliest to avail a better guest room.</li>
+          <li><b>Kindly complete your registration and payment at the earliest to avail a better guest room.</b></li>
         </ul>
       </div>
     </div>
@@ -849,43 +872,94 @@ function checkemailAvailability() {
     });
 }
 
-function calc_cost(){
-    let nguest = parseInt(document.getElementById("accompaniment").value,10)||0;
-    let c = 15000 + 7000*nguest;
-    document.getElementById("acp").value ="Total Reg Fee = "+c;
-    generateAccompanimentFields(nguest);
-}
 
 function generateAccompanimentFields(count) {
-    let container = document.getElementById('accompNamesContainer');
-    container.innerHTML = ''; // Clear previous fields
-
-    if (count > 0) {
-        let title = document.createElement('h5');
-        title.textContent = "Accompanying Person(s) Details:";
-        title.classList.add("mb-3", "text-primary");
-        container.appendChild(title);
-    }
-
-    for (let i = 1; i <= count; i++) {
-        let row = document.createElement('div');
-        row.classList.add('row', 'mb-3');
-
-        row.innerHTML = `
-            <div class="form-floating mb-3 col-md-6">
-                <input type="text" class="form-control" name="acc_person_${i}" placeholder="Name of Accompanying Person ${i}" required>
-                <label>Name of Accompanying Person ${i}</label>
-            </div>
-
-            <div class="form-floating mb-3 col-md-6">
-                <input type="text" class="form-control" name="acc_relation_${i}" placeholder="Relationship (e.g. Wife, Son, Friend)" required>
-                <label>Relationship</label>
-            </div>
-        `;
-
-        container.appendChild(row);
-    }
+  let container = document.getElementById('accompNamesContainer');
+  container.innerHTML = ''; // Clear previous fields
+  
+  if (count > 0) {
+    let title = document.createElement('h5');
+    title.textContent = "Accompanying Person(s) Details:";
+    title.classList.add("mb-3", "text-primary");
+    container.appendChild(title);
+  }
+  
+  for (let i = 1; i <= count; i++) {
+    let row = document.createElement('div');
+    row.classList.add('row', 'mb-3');
+    
+    row.innerHTML = `
+    <div class="form-floating mb-3 col-md-6">
+    <input type="text" class="form-control" name="acc_person_${i}" placeholder="Name of Accompanying Person ${i}" required>
+    <label>Name of Accompanying Person ${i}</label>
+    </div>
+    
+    <div class="form-floating mb-3 col-md-6">
+    <input type="text" class="form-control" name="acc_relation_${i}" placeholder="Relationship (e.g. Wife, Son, Friend)" required>
+    <label>Relationship</label>
+    </div>
+    `;
+    
+    container.appendChild(row);
+  }
 }
+
+
+// function calc_cost(){
+//     let nguest = parseInt(document.getElementById("accompaniment").value,10)||0;
+//     let c = 15000 + 7000 * nguest;
+//     generateAccompanimentFields(nguest);
+    
+//     let total = c; // define baseCost from your PHP variable
+//     document.querySelectorAll('.kid-age').forEach(input => {
+//       const age = parseInt(input.value);
+//       if (age > 11) total += 7000;
+//     });
+//     document.getElementById("acp").value ="Total Reg Fee = " + total;
+// }
+
+
+function calc_cost() {
+  let baseCost = 15000;
+  let numAdults = parseInt(document.getElementById("accompaniment").value) || 0;
+  let numKids = parseInt(document.getElementById("acc_kid").value) || 0;
+  let totalCost = baseCost + (numAdults * 7000);
+  generateAccompanimentFields(numAdults);
+
+  // Check for kids over 11 years old
+  let kidsContainer = document.getElementById("kidsContainer");
+  let kidAgeInputs = kidsContainer.querySelectorAll("input[name^='kid_age_']");
+  kidAgeInputs.forEach(input => {
+    let age = parseInt(input.value) || 0;
+    if (age > 10) {
+      totalCost += 7000;
+    }
+  });
+
+  document.getElementById("acp").value = `${totalCost}`;
+}
+
+
+document.getElementById("acc_kid").addEventListener("input", function() {
+  const kidsContainer = document.getElementById("kidsContainer");
+  kidsContainer.innerHTML = "";
+  const numKids = parseInt(this.value) || 0;
+
+  for (let i = 1; i <= numKids; i++) {
+    kidsContainer.innerHTML += `
+      <div class="row mb-2">
+        <div class="col-sm-6">
+          <input type="text" class="form-control" name="kid_name_${i}" placeholder="Kid ${i} Name">
+        </div>
+        <div class="col-sm-6">
+          <input type="number" class="form-control" name="kid_age_${i}" placeholder="Age" min="0" oninput="calc_cost()">
+        </div>
+      </div>
+    `;
+  }
+  calc_cost();
+});
+
 
 
 </script>
