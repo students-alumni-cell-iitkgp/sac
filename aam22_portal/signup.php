@@ -177,6 +177,16 @@ body {
   color: white;
   transform: scale(1.02);
 }
+.logoContainer{
+    /* background: rgba(255, 255, 255, 0.35);
+      */
+    background-color: white;
+    border-radius: 25px;
+    border: 2px solid #012A4A;
+    padding: 15px;
+    margin: 20px auto;
+    width: 30%;
+}
 
 /* ===== RESPONSIVE ===== */
 @media (max-width: 768px) {
@@ -184,13 +194,18 @@ body {
     margin: 20px;
     padding: 20px;
   }
-
+    .logoContainer{
+      width: 60%;
+  }
   .heading-main h2 {
     font-size: 1.3rem;
   }
   .accordion-button {
     font-size: 0.95rem;
   }
+  .logoContainer{
+    width: 80%;
+}
 }
 
 @media (max-width: 576px) {
@@ -214,6 +229,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $email = $_POST['email'];
     $mobile = $_POST['mobile'];
     $dob = $_POST['dob'] ?? null;
+    $idtype = $_POST['idtype'] ?? '';
+    $idnumber = $_POST['idnumber'] ?? null;
     $social_links = $_POST['social_links'] ?? '';
 
     $address = $_POST['address'] ?? '';
@@ -221,11 +238,21 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $state = $_POST['state'] ?? '';
     $country = $_POST['country'] ?? '';
     $zipcode = $_POST['zipcode'] ?? '';
+    
+    $postionHolding = $_POST['positionHolding'] ?? '';
+    $course = $_POST['course'] ?? '';
+    $degree = $_POST['degree'] ?? '';
+    $dept = $_POST['dept'] ?? '';
+    $hall = $_POST['hall'] ?? '';
+    $yoj = $_POST['yoj'] ?? 0;
+    $yog = $_POST['yog'] ?? 0;
 
-    $accompaniment = $_POST['accompaniment'] ?? 0;
-    $acc_kid = $_POST['acc_kid'] ?? 0;
+
+    $accName = $_POST['acc_name'] ?? '';
+    $accRelation = $_POST['acc_relation'] ?? '';
 
     $foodPreference = $_POST['foodPreference'] ?? '';
+    $medical = $_POST['medical'] ?? '';
     $cost = $_POST['acp'] ?? 0;
     $profession = $_POST['profession'] ?? '';
     $designation = $_POST['designation'] ?? '';
@@ -237,51 +264,18 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $wcountry = $_POST['wcountry'] ?? '';
     $wzipcode = $_POST['wzipcode'] ?? '';
 
-    $rollno = $_POST['rollno'] ?? '';
-    $degree = $_POST['degree'] ?? '';
-    $dept = $_POST['dept'] ?? '';
-    $hall = $_POST['hall'] ?? '';
-    $yoj = $_POST['yoj'] ?? 0;
-    $yog = $_POST['yog'] ?? 0;
-
     $dateOfArr = $_POST['dateOfArr'] ?? null;
     $dateOfDep = $_POST['dateOfDep'] ?? null;
     $timeOfArr = $_POST['timeOfArr'] ?? null;
     $timeOfDep = $_POST['timeOfDep'] ?? null;
+    $arrivalMode = $_POST['arrivalMode'] ?? '';
+
+
 
     $payment = $_POST['payment'] ?? 0;
 
     $conn = $connection;
 
-    // Collect all accompanying person names/relations into array
-    $acc_details = [];
-
-    // Add accompanying persons
-    for ($i = 1; $i <= ($accompaniment ?? 0); $i++) {
-        $nameAcc = $_POST["acc_person_$i"] ?? '';
-        $relationAcc = $_POST["acc_relation_$i"] ?? '';
-        if (!empty($nameAcc)) {
-            $acc_details[] = [
-                'name' => $nameAcc,
-                'relation' => $relationAcc
-            ];
-        }
-    }
-
-    // Add kids
-    for ($i = 1; $i <= ($acc_kid ?? 0); $i++) {
-        $kidName = $_POST["kid_name_$i"] ?? '';
-        $kidAge = $_POST["kid_age_$i"] ?? '';
-        if (!empty($kidName)) {
-            $acc_details[] = [
-                'name' => $kidName,
-                'relation' => $kidAge
-            ];
-        }
-    }
-
-// Encode JSON
-$acc_details_json = json_encode($acc_details, JSON_UNESCAPED_UNICODE);
 
     $social_links_json = json_encode($social_links, JSON_UNESCAPED_UNICODE);
 
@@ -291,25 +285,33 @@ $acc_details_json = json_encode($acc_details, JSON_UNESCAPED_UNICODE);
     $stmtCheck->execute();
     $stmtCheck->store_result();
     if ($stmtCheck->num_rows > 0) {
-        echo "<script>alert('Email already registered!'); window.history.back();</script>";
-        exit;
+      echo "<script>alert('Email already registered!'); window.history.back();</script>";
+      exit;
+    }
+    $stmtCheck = $conn->prepare("SELECT id FROM AAM WHERE mobile=?");
+    $stmtCheck->bind_param("s",$mobile);
+    $stmtCheck->execute();
+    $stmtCheck->store_result();
+    if ($stmtCheck->num_rows > 0) {
+      echo "<script>alert('Mobile Number already registered!'); window.history.back();</script>";
+      exit;
     }
 
     // Insert using prepared statement
     $sql = "INSERT INTO AAM 
-    (`name`, `email`, `mobile`, `dob`, `address`, `city`, `state`, `country`, `zipcode`,
-    `accompaniment`, `acc_kid`, `acc_details`, `foodPreference`, `cost`, `profession`, `organisation`, `designation`,
-    `waddress`, `wcity`, `wstate`, `wcountry`, `wzipcode`, `rollno`, `degree`, `dept`, `hall`, `yoj`, `yog`,
-    `dateOfArr`, `dateOfDep`, `timeOfArr`, `timeOfDep`, `social_links`, `payment`)
-    VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
+    (`name`, `email`, `mobile`, `dob`, `idtype`, `idnumber` `address`, `city`, `state`, `country`, `zipcode`,
+    `acc_relation`, `acc_name`, `foodPreference`, `medical`, `cost`, `profession`, `organisation`, `designation`,
+    `waddress`, `wcity`, `wstate`, `wcountry`, `wzipcode`,`positionHolding`, `course`, `degree`, `dept`, `hall`, `yoj`, `yog`,
+    `dateOfArr`, `dateOfDep`, `timeOfArr`, `timeOfDep`, `arrivalMode`, `social_links`, `payment`)
+    VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
 
     $stmt = $conn->prepare($sql);
     $stmt->bind_param(
         "ssssssssiissdsssssssssssiisssssi",
-        $name, $email, $mobile, $dob, $address, $city, $state, $country, $zipcode,
-        $accompaniment, $acc_kid, $acc_details_json, $foodPreference, $cost, $profession, $organisation, $designation,
-        $waddress, $wcity, $wstate, $wcountry, $wzipcode, $rollno, $degree, $dept, $hall, $yoj, $yog,
-        $dateOfArr, $dateOfDep, $timeOfArr, $timeOfDep, $social_links_json, $payment
+        $name, $email, $mobile, $dob, $idtype, $idnumber, $address, $city, $state, $country, $zipcode,
+        $accRelation, $accName, $foodPreference, $medical, $cost, $profession, $organisation, $designation,
+        $waddress, $wcity, $wstate, $wcountry, $wzipcode, $positionHolding , $course, $degree, $dept, $hall, $yoj, $yog,
+        $dateOfArr, $dateOfDep, $timeOfArr, $timeOfDep, $arrivalMode, $social_links_json, $payment
     );
 
     if ($stmt->execute()) {
@@ -331,12 +333,14 @@ $acc_details_json = json_encode($acc_details, JSON_UNESCAPED_UNICODE);
 </div> -->
 <div class="section1">
   <div class="heading-main">
-      <div class="">
-            <img class="instiLogo" src="./../img/logo/kgp_blue.png" alt="">
-            <img class="instiLogo" src="./img/palJubLogo.png" alt="">
-        </div>
+      <div class="logoContainer text-center my-4">
+          <div class="container">
+                  <img class="instiLogo" src="./../img/logo/kgp_blue.png" alt="">
+                  <img class="instiLogo" src="./img/palJubLogo.png" alt="">
+          </div>
+      </div> 
     <h2 class="accordion-header" id="headingOne" >
-        Registration for 22nd Annual Alumni Meet
+        Registration for 22<sup>nd</sup> Annual Alumni Meet
     </h2>
 </div>
 <form action="register.php" method="POST" enctype="multipart/form-data">
@@ -356,7 +360,7 @@ $acc_details_json = json_encode($acc_details, JSON_UNESCAPED_UNICODE);
          <div class="row">
            <div class="form-floating mb-3 col-sm-6">
             <input type="text" class="form-control" name="name" placeholder="Name" maxlength="150" required>
-            <label>Name<span style="color:red;">*</span></label>
+            <label>Name(Same as IIT KGP records)<span style="color:red;">*</span></label>
            </div>
            <div class="form-floating mb-3 col-sm-6">
              <input type="email" class="form-control" name="email" placeholder="name@example.com" onBlur="checkemailAvailability()" maxlength="100" required>
@@ -377,6 +381,24 @@ $acc_details_json = json_encode($acc_details, JSON_UNESCAPED_UNICODE);
         </div>
 
         <div class="row">
+          <div class="form-floating mb-3 col-sm-6">
+                <select name="idtype"  class="form-select" type='text' required>
+                <option selected value="select">---Select---</option>
+                <option value="Aadhar Number">Aadhar Number</option>
+                <option value="Passport Number">Passport Number</option>
+                <option value="PANcard">PANcard</option>
+                <option value="Driving license">Driving license</option>
+                <option value="OCI Card">OCI Card</option>
+                </select>
+                <label>Identification Type(Aadhar, Passport, etc)<span style="color:red;">*</span></label>
+          </div>
+           <div class="form-floating mb-3 col-sm-6">
+             <input type="text" class="form-control" name="idnumber" placeholder="1111222233334444" maxlength="100" required>
+             <label>Identification Number<span style="color:red;">*</span></label>
+           </div>
+        </div>
+
+        <div class="row">
            <div class="form-floating mb-3 col-sm-12">
             <input type="text" class="form-control" name="social_links" placeholder="www.facebook/xyz.com" maxlength="150">
             <label>Social Media Link(Facebook, LinkedIn, etc..)</label>
@@ -385,29 +407,29 @@ $acc_details_json = json_encode($acc_details, JSON_UNESCAPED_UNICODE);
 
         <div class="row">
            <div class="form-floating mb-3 col-12">
-            <input type="text" class="form-control" name="address" placeholder="XYZ....." maxlength="200">
-            <label>Address</label>
+            <input type="text" class="form-control" name="address" placeholder="XYZ....." maxlength="200" required>
+            <label>Address<span style="color:red;">*</span></label>
            </div>
         </div>
 
         <div class="row">
            <div class="form-floating mb-3 col-sm-6">
-            <input type="text" class="form-control" name="city" placeholder="Kharagpur" maxlength="50">
-            <label>City</label>
+            <input type="text" class="form-control" name="city" placeholder="Kharagpur" maxlength="50" required>
+            <label>City<span style="color:red;">*</span></label>
            </div>
            <div class="form-floating mb-3 col-sm-6">
-             <input type="text" class="form-control" name="state" placeholder="West Bengal" maxlength="50">
-             <label>State</label>
+             <input type="text" class="form-control" name="state" placeholder="West Bengal" maxlength="50" required>
+             <label>State<span style="color:red;">*</span></label>
            </div>
         </div>
         <div class="row">
            <div class="form-floating mb-3 col-sm-6">
-            <input type="text" class="form-control" name="country" placeholder="India" maxlength="50">
-            <label>Country</label>
+            <input type="text" class="form-control" name="country" placeholder="India" maxlength="50" required>
+            <label>Country<span style="color:red;">*</span></label>
            </div>
            <div class="form-floating mb-3 col-sm-6">
-             <input type="text" class="form-control" name="zipcode" placeholder="38....." maxlength="20">
-             <label>Zip Code</label>
+             <input type="text" class="form-control" name="zipcode" placeholder="38....." maxlength="20" required>
+             <label>Zip Code<span style="color:red;">*</span></label>
             </div>
           </div>
         </div>
@@ -490,9 +512,16 @@ $acc_details_json = json_encode($acc_details, JSON_UNESCAPED_UNICODE);
     <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
       <div class="accordion-body">
         <div class="row">
+           <div class="form-floating mb-3 col-sm-12">
+            <input name="positionHolding"  type="text" class="form-control" placeholder="Captain of football team GC" maxlength=100">
+            <label>Any Position Holding in KGP(Eg. HP, Captain, etc)</label>
+           </div>
+        </div>
+
+        <div class="row">
            <div class="form-floating mb-3 col-sm-6">
-            <input type="text" class="form-control" name="rollno" placeholder="17XY...." maxlength="20">
-            <label>Roll Number</label>
+            <input name="course" type="text" class="form-control" placeholder="Academic Course Name" maxlength="20" required>
+            <label>Academic Course Name <span style="color:red;">*</span></label>
            </div>
 
            <!-- <div class="form-floating mb-3 col-sm-6">
@@ -664,17 +693,20 @@ $acc_details_json = json_encode($acc_details, JSON_UNESCAPED_UNICODE);
            </table>
            <small class="text-muted">Registration Fee includes Food, Transportation and Registration Kit</small>
 
-           <div class="row" style="margin-top: 15px">
-          <div class="form-floating mb-3 col-sm-6">
-                <input type="number" class="form-control" id="accompaniment" name="accompaniment" value="0" min="0" max="20" oninput="calc_cost()">
-                <label>Accompanying Person(s)</label>
-             </div>
+          <div class="row" style="margin-top: 15px">
+            <div class="form-floating mb-3 col-sm-6">
+                <select class="form-select" name="acc_relation" id="acc_relation" oninput="calc_cost()" required>
+                <option selected value="Nil">Nil</option>
+                <option value="Spouse">Spouse</option>
+                <option value="Other">Other</option>
+                </select>
+                <label>Accompanying Person Relation<span style="color:red;">*</span></label>
+            </div>
 
-             <div class="form-floating mb-3 col-sm-6">
-                <input type="number" class="form-control" id="acc_kid" name="acc_kid" value="0" min="0" max="20">
-                <label>Accompanying Kid(s)</label>
-                <small class="text-muted">Kids below 10 years of age won't be charged</small>
-             </div>
+            <div class="form-floating mb-3 col-sm-6">
+                <input type="text" class="form-control" id="acc" name="acc_name" oninput="calc_cost()" placeholder="Name">
+                <label>Accompanying Person Name</label>
+            </div>
            </div>
 
            <div class="row" style="justify-content:center">
@@ -685,10 +717,7 @@ $acc_details_json = json_encode($acc_details, JSON_UNESCAPED_UNICODE);
 
 
            
-           <!-- Dynamic accompanying persons name fields -->
-           <div id="accompNamesContainer" class="mt-3"></div>
-            <div id="kidsContainer" class="mt-3"></div>
-           <div class="row" style="justify-content:center; margin-top: 15px;">
+        <div class="row">
           <div class="form-floating mb-3 col-sm-6">
               <select class="form-select" name="foodPreference" required>
                 <option selected value="select">---Select---</option>
@@ -698,6 +727,10 @@ $acc_details_json = json_encode($acc_details, JSON_UNESCAPED_UNICODE);
                 <option value="OTHER">Other</option>
               </select>
               <label>Food Preference<span style="color:red;">*</span></label>
+            </div>
+            <div class="form-floating mb-3 col-sm-6">
+                <input type="text" class="form-control" id="medical" name="medical" placeholder="Medical Restrictions">
+                <label>Medical Restrictions </label>
             </div>
         </div>
 
@@ -757,46 +790,7 @@ $acc_details_json = json_encode($acc_details, JSON_UNESCAPED_UNICODE);
 
 
     <div class="container my-1">
-      <h4 class="mb-3">Guest House Tariff Details (Without GST)</h4>
-      
-      <div class="table-responsive">
-        <table class="table table-bordered table-striped">
-          <thead class="table card-header text-white">
-            <tr>
-              <th scope="col">SL No</th>
-              <th scope="col">Accommodation / Type</th>
-              <th scope="col">INR</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>1</td>
-              <td>TGH (D/B)</td>
-              <td>2100</td>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td>SAM (D/B)</td>
-              <td>600</td>
-            </tr>
-            <tr>
-              <td>3</td>
-              <td>Alumni Guest House (D/B)</td>
-              <td>2100</td>
-            </tr>
-            <tr>
-              <td>4</td>
-              <td>Atal Bihari Vajpayee Hall of Residence (Single)</td>
-              <td>250</td>
-            </tr>
-            <tr>
-              <td>5</td>
-              <td>Savitribai Phule Hall of Residence (Single)</td>
-              <td>250</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+
 
       <div class="mt-3" style="font-size: 0.95rem; color:#012A4A;">
         <strong>Note:</strong>
@@ -822,6 +816,12 @@ $acc_details_json = json_encode($acc_details, JSON_UNESCAPED_UNICODE);
     </h2>
     <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
       <div class="accordion-body">
+        <div class="row">
+          <div class="form-floating mb-3 col-sm-12">
+              <input type="text" class="form-control" id="arrivalMode" name="arrivalMode" placeholder="by Road, by Train, etc">
+              <label>Mode of Arrival at Kharagpur</label>
+          </div>
+        </div>
         <div class="row">
            <div class="form-floating mb-3 col-sm-6">
              <input type="date" class="form-control" name="dateOfArr" placeholder="dd-mm-yyyy" required>
@@ -872,95 +872,18 @@ function checkemailAvailability() {
     });
 }
 
-
-function generateAccompanimentFields(count) {
-  let container = document.getElementById('accompNamesContainer');
-  container.innerHTML = ''; // Clear previous fields
-  
-  if (count > 0) {
-    let title = document.createElement('h5');
-    title.textContent = "Accompanying Person(s) Details:";
-    title.classList.add("mb-3", "text-primary");
-    container.appendChild(title);
-  }
-  
-  for (let i = 1; i <= count; i++) {
-    let row = document.createElement('div');
-    row.classList.add('row', 'mb-3');
-    
-    row.innerHTML = `
-    <div class="form-floating mb-3 col-md-6">
-    <input type="text" class="form-control" name="acc_person_${i}" placeholder="Name of Accompanying Person ${i}" required>
-    <label>Name of Accompanying Person ${i}</label>
-    </div>
-    
-    <div class="form-floating mb-3 col-md-6">
-    <input type="text" class="form-control" name="acc_relation_${i}" placeholder="Relationship (e.g. Wife, Son, Friend)" required>
-    <label>Relationship</label>
-    </div>
-    `;
-    
-    container.appendChild(row);
-  }
-}
-
-
-// function calc_cost(){
-//     let nguest = parseInt(document.getElementById("accompaniment").value,10)||0;
-//     let c = 15000 + 7000 * nguest;
-//     generateAccompanimentFields(nguest);
-    
-//     let total = c; // define baseCost from your PHP variable
-//     document.querySelectorAll('.kid-age').forEach(input => {
-//       const age = parseInt(input.value);
-//       if (age > 11) total += 7000;
-//     });
-//     document.getElementById("acp").value ="Total Reg Fee = " + total;
-// }
-
-
 function calc_cost() {
-  let baseCost = 15000;
-  let numAdults = parseInt(document.getElementById("accompaniment").value) || 0;
-  let numKids = parseInt(document.getElementById("acc_kid").value) || 0;
-  let totalCost = baseCost + (numAdults * 7000);
-  generateAccompanimentFields(numAdults);
+  let totalCost = 15000;
+  let relation = document.getElementById("acc_relation").value;
 
-  // Check for kids over 11 years old
-  let kidsContainer = document.getElementById("kidsContainer");
-  let kidAgeInputs = kidsContainer.querySelectorAll("input[name^='kid_age_']");
-  kidAgeInputs.forEach(input => {
-    let age = parseInt(input.value) || 0;
-    if (age > 10) {
-      totalCost += 7000;
-    }
-  });
-
-  document.getElementById("acp").value = `${totalCost}`;
-}
-
-
-document.getElementById("acc_kid").addEventListener("input", function() {
-  const kidsContainer = document.getElementById("kidsContainer");
-  kidsContainer.innerHTML = "";
-  const numKids = parseInt(this.value) || 0;
-
-  for (let i = 1; i <= numKids; i++) {
-    kidsContainer.innerHTML += `
-      <div class="row mb-2">
-        <div class="col-sm-6">
-          <input type="text" class="form-control" name="kid_name_${i}" placeholder="Kid ${i} Name">
-        </div>
-        <div class="col-sm-6">
-          <input type="number" class="form-control" name="kid_age_${i}" placeholder="Age" min="0" oninput="calc_cost()">
-        </div>
-      </div>
-    `;
+  if (relation === "Nil" || relation === "") {
+    totalCost = 15000;
+  } else {
+    totalCost += 7000; // add extra cost for accompanying guest
   }
-  calc_cost();
-});
 
-
+  document.getElementById("acp").value = totalCost;
+}
 
 </script>
 

@@ -157,6 +157,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             <p><b>Email:</b> <?= htmlspecialchars($user['email']); ?></p>
             <p><b>Mobile:</b> <?= htmlspecialchars($user['mobile']); ?></p>
             <p><b>DOB:</b> <?= htmlspecialchars($user['dob']); ?></p>
+            <p><b>ID Type:</b> <?= htmlspecialchars($user['idtype']); ?></p>
+            <p><b>ID Number:</b> <?= htmlspecialchars($user['idnumber']); ?></p>
             <p><b>Social Links:</b> <?= htmlspecialchars($user['social_links']); ?></p>
             <p><b>Address:</b> <?= htmlspecialchars($user['address']); ?>, <?= htmlspecialchars($user['city']); ?>, <?= htmlspecialchars($user['state']); ?>, <?= htmlspecialchars($user['country']); ?> - <?= htmlspecialchars($user['zipcode']); ?></p>
         </div>
@@ -164,10 +166,10 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         <!-- Accompaniment & Food Preferences -->
         <div class="section-card">
             <h5>Accompaniment & Food Preferences</h5>
-            <p><b>Accompaniment:</b> <?= htmlspecialchars($user['accompaniment']); ?></p>
-            <p><b>Kids:</b> <?= htmlspecialchars($user['acc_kid']); ?></p>
-            <p><b>Accompaniment Details:</b> <?= htmlspecialchars($user['acc_details']); ?></p>
+            <p><b>Accompaniment Relation:</b> <?= htmlspecialchars($user['acc_relation']); ?></p>
+            <p><b>Accompaniment Name:</b> <?= htmlspecialchars($user['acc_name']); ?></p>
             <p><b>Food Preference:</b> <?= htmlspecialchars($user['foodPreference']); ?></p>
+            <p><b>Medical Restrictions:</b> <?= htmlspecialchars($user['medical']); ?></p>
             <p><b>Cost:</b> <?= htmlspecialchars($user['cost']); ?></p>
             <p><b>Payment Status:</b> 
                 <span class="<?= $user['payment'] === 'PAID(Verified)' ? 'badge-paid' : 'badge-pending'; ?>">
@@ -193,7 +195,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         <!-- Academic Details -->
         <div class="section-card">
             <h5>Academic Details</h5>
-            <p><b>Roll No:</b> <?= htmlspecialchars($user['rollno']); ?></p>
+            <p><b>Position Holding:</b> <?= htmlspecialchars($user['positionHolding']); ?></p>
+            <p><b>Course:</b> <?= htmlspecialchars($user['course']); ?></p>
             <p><b>Degree:</b> <?= htmlspecialchars($user['degree']); ?></p>
             <p><b>Department:</b> <?= htmlspecialchars($user['dept']); ?></p>
             <p><b>Hall:</b> <?= htmlspecialchars($user['hall']); ?></p>
@@ -204,6 +207,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         <!-- Travel & Social -->
         <div class="section-card">
             <h5>Travel Details</h5>
+            <p><b>Mode of Arrival at Kharagpur:</b> <?= htmlspecialchars($user['arrivalMode']); ?></p>
             <p><b>Arrival Date:</b> <?= htmlspecialchars($user['dateOfArr']); ?></p>
             <p><b>Departure Date:</b> <?= htmlspecialchars($user['dateOfDep']); ?></p>
             <p><b>Arrival Time:</b> <?= htmlspecialchars($user['timeOfArr']); ?></p>
