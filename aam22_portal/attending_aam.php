@@ -73,6 +73,7 @@ body {
     background-size: cover;
     min-height: 100vh;
     backdrop-filter: blur(15px);
+    
     font-family: 'Arial', sans-serif;
 }
 
@@ -140,7 +141,8 @@ h2 {
 }
 
 .alumni-card {
-    background: rgba(255, 255, 255, 0.5);
+    
+    background: rgba(255, 255, 255, 0.4);
     border: none;
     font-weight: 500;
     color: #012A4A;
@@ -250,3 +252,7 @@ h2 {
 
 </body>
 </html>
+
+<?php
+include 'footer_aam.php'; // include your updated header
+?>

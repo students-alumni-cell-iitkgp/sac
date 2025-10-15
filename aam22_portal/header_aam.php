@@ -23,6 +23,13 @@ $isLoggedIn = isset($_SESSION['email']);
     .nav-item{
         margin: 10px;
     }
+    .nav-logout:hover{
+        color: red;
+    }
+    .sac{
+        font-size: 2rem;
+        font-weight: 600;
+    }
 </style>
 </head>
 <body>
@@ -31,10 +38,10 @@ $isLoggedIn = isset($_SESSION['email']);
         <a class="navbar-brand" href="./../index.php"><img src="../img/latestlogo.webp" alt="Logo"></a>
 
         <?php if ($isLoggedIn): ?>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
         <?php endif; ?>
 
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
@@ -44,8 +51,9 @@ $isLoggedIn = isset($_SESSION['email']);
                     <li class="nav-item"><a class="nav-link" href="home_aam.php">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="profile_aam.php">Profile</a></li>
                     <li class="nav-item"><a class="nav-link" href="attending_aam.php">Registered Alumni</a></li>
-                    <li class="nav-item"><a class="nav-link text-red" href="logout.php">Logout</a></li>
+                    <li class="nav-item"><a class="nav-link nav-logout text-red" href="logout.php">Logout</a></li>
                 <?php else: ?>
+                    <!-- <li class="sac"> Students' Alumni Cell </li> -->
                 <?php endif; ?>
             </ul>
         </div>

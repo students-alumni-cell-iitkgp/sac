@@ -56,7 +56,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             min-height: 100vh;
             background: url(./aa2a.webp) no-repeat center center fixed;
             background-size: cover;
-        backdrop-filter: blur(6px);
+            backdrop-filter: blur(25px);
 
             font-family: 'Arial', sans-serif;
             padding-top: 40px;
@@ -84,7 +84,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         }
 
         .section-card {
-            background: #90CAF9;
+            background: rgba(255, 255, 255, 0.3);
             border-radius: 20px;
             padding: 25px 20px;
             box-shadow: 0 8px 20px rgba(0,0,0,0.2);
@@ -157,25 +157,32 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             <p><b>Email:</b> <?= htmlspecialchars($user['email']); ?></p>
             <p><b>Mobile:</b> <?= htmlspecialchars($user['mobile']); ?></p>
             <p><b>DOB:</b> <?= htmlspecialchars($user['dob']); ?></p>
+            <p><b>Social Links:</b> <?= htmlspecialchars($user['social_links']); ?></p>
             <p><b>Address:</b> <?= htmlspecialchars($user['address']); ?>, <?= htmlspecialchars($user['city']); ?>, <?= htmlspecialchars($user['state']); ?>, <?= htmlspecialchars($user['country']); ?> - <?= htmlspecialchars($user['zipcode']); ?></p>
         </div>
 
-        <!-- Accompaniment & Preferences -->
+        <!-- Accompaniment & Food Preferences -->
         <div class="section-card">
-            <h5>Accompaniment & Preferences</h5>
+            <h5>Accompaniment & Food Preferences</h5>
             <p><b>Accompaniment:</b> <?= htmlspecialchars($user['accompaniment']); ?></p>
             <p><b>Kids:</b> <?= htmlspecialchars($user['acc_kid']); ?></p>
             <p><b>Accompaniment Details:</b> <?= htmlspecialchars($user['acc_details']); ?></p>
             <p><b>Food Preference:</b> <?= htmlspecialchars($user['foodPreference']); ?></p>
             <p><b>Cost:</b> <?= htmlspecialchars($user['cost']); ?></p>
-            <p><b>Profession:</b> <?= htmlspecialchars($user['profession']); ?></p>
-            <p><b>Organisation:</b> <?= htmlspecialchars($user['organisation']); ?></p>
-            <p><b>Designation:</b> <?= htmlspecialchars($user['designation']); ?></p>
+            <p><b>Payment Status:</b> 
+                <span class="<?= $user['payment'] === 'PAID(Verified)' ? 'badge-paid' : 'badge-pending'; ?>">
+                    <?= htmlspecialchars($user['payment']); ?>
+                </span>
+            </p>
+            
         </div>
 
         <!-- Work Details -->
         <div class="section-card">
             <h5>Work Details</h5>
+            <p><b>Profession:</b> <?= htmlspecialchars($user['profession']); ?></p>
+            <p><b>Organisation:</b> <?= htmlspecialchars($user['organisation']); ?></p>
+            <p><b>Designation:</b> <?= htmlspecialchars($user['designation']); ?></p>
             <p><b>Address:</b> <?= htmlspecialchars($user['waddress']); ?></p>
             <p><b>City:</b> <?= htmlspecialchars($user['wcity']); ?></p>
             <p><b>State:</b> <?= htmlspecialchars($user['wstate']); ?></p>
@@ -196,17 +203,13 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
         <!-- Travel & Social -->
         <div class="section-card">
-            <h5>Travel & Social</h5>
+            <h5>Travel Details</h5>
             <p><b>Arrival Date:</b> <?= htmlspecialchars($user['dateOfArr']); ?></p>
             <p><b>Departure Date:</b> <?= htmlspecialchars($user['dateOfDep']); ?></p>
             <p><b>Arrival Time:</b> <?= htmlspecialchars($user['timeOfArr']); ?></p>
             <p><b>Departure Time:</b> <?= htmlspecialchars($user['timeOfDep']); ?></p>
-            <p><b>Social Links:</b> <?= htmlspecialchars($user['social_links']); ?></p>
-            <p><b>Payment Status:</b> 
-                <span class="<?= $user['payment'] === 'PAID(Verified)' ? 'badge-paid' : 'badge-pending'; ?>">
-                    <?= htmlspecialchars($user['payment']); ?>
-                </span>
-            </p>
+
+            
         </div>
 
         <!-- Payment Update Form -->
