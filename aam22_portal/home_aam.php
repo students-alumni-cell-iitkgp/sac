@@ -269,14 +269,14 @@ include 'header_aam.php'; // include your updated header
             <h5 class="contact-name">Rajas Sangekar</h5>
             <p class="contact-role">General Secretary, Students' Alumni Cell</p>
             <p><strong>Phone:</strong> <a href="tel:+919975261910" class="contact-link">+91 99752 61910</a></p>
-            <p><strong>Email:</strong> <a href="mailto:absharma@iitkgp.ac.in" class="contact-link">rajassangekar1855@gmail.com</a></p>
+            <p><strong>Email:</strong> <a href="mailto:rajassangekar1855@gmail.com" class="contact-link">rajassangekar1855@gmail.com</a></p>
         </div>
 
         <div class="contact-card">
             <h5 class="contact-name">Nirmal Patidar</h5>
             <p class="contact-role">Web Head, Students' Alumni Cell</p>
             <p><strong>Phone:</strong> <a href="tel:+919165905280" class="contact-link">+91 91659 05280</a></p>
-            <p><strong>Email:</strong> <a href="mailto:nksingh@iitkgp.ac.in" class="contact-link">nirmalpatidar2533@gmail.com</a></p>
+            <p><strong>Email:</strong> <a href="mailto:nirmalpatidar2533@gmail.com" class="contact-link">nirmalpatidar2533@gmail.com</a></p>
         </div>
     </div>
 </div>

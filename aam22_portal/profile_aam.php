@@ -22,6 +22,8 @@ if (!empty($user['acc_details'])) {
 }
 $connection->close();
 ?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -185,41 +187,6 @@ $connection->close();
   </div>
 </div>
 
-<!-- Accommodation & Food -->
-<div class="card">
-  <div class="card-header">Accommodation & Food</div>
-  <div class="card-body">
-    <label>Accompanying Person(s)</label>
-    <?php if (!empty($acc_details)): ?>
-      <div class="row g-2">
-        <?php foreach ($acc_details as $acc): ?>
-          <div class="col-12">
-            <div class="acc-card">
-              <h6><?= htmlspecialchars($acc['name'] ?? ''); ?></h6>
-              <?php if (!empty($acc['relation'])): ?>
-                <span class="badge bg-light text-dark"><?= htmlspecialchars($acc['relation']); ?></span>
-              <?php endif; ?>
-            </div>
-          </div>
-        <?php endforeach; ?>
-      </div>
-    <?php else: ?>
-      <input class="form-control" value="No accompanying persons" readonly>
-    <?php endif; ?>
-
-    <div class="row mt-3">
-      <div class="col-md-6 mb-3"><label>Accompanying Kid(s)</label><input class="form-control" value="<?= htmlspecialchars($user['acc_kid']); ?>" readonly></div>
-      <div class="col-md-6 mb-3"><label>Food Preference</label><input class="form-control" value="<?= htmlspecialchars($user['foodPreference']); ?>" readonly></div>
-      <div class="col-12 mt-2">
-        <label>Payment Status</label>
-        <div class="payment-status <?= ($user['payment'] === 'Pending') ? 'payment-pending' : 'payment-complete'; ?>">
-            <?= htmlspecialchars($user['payment']); ?>
-        </div>
-      </div>
-      
-    </div>
-  </div>
-</div>
 
 <!-- Work Details -->
 <div class="card">
@@ -237,6 +204,47 @@ $connection->close();
     </div>
   </div>
 </div>
+
+
+<!-- Accommodation & Food -->
+
+
+<!-- Accommodation & Food -->
+<div class="card">
+  <div class="card-header">Accompanying & Food</div>
+  <div class="card-body">
+    <label>Accompanying Person(s) and Kid(s)</label>
+      <?php if (!empty($acc_details)): ?>
+        <div class="row g-2">
+          <?php foreach ($acc_details as $acc): ?>
+            <div class="col-12">
+              <div class="acc-card">
+                <h6><?= htmlspecialchars($acc['name'] ?? ''); ?></h6>
+                <?php if (!empty($acc['relation'])): ?>
+                  <span class="badge bg-light text-dark"><?= htmlspecialchars($acc['relation']); ?></span>
+                <?php endif; ?>
+              </div>
+            </div>
+          <?php endforeach; ?>
+        </div>
+      <?php else: ?>
+        <input class="form-control" value="No accompanying persons" readonly>
+      <?php endif; ?>
+
+    <div class="row mt-3">
+      <div class="col-md-6 mb-3"><label>Food Preference</label><input class="form-control" value="<?= htmlspecialchars($user['foodPreference']); ?>" readonly></div>
+      <div class="col-12 mt-2">
+        <label>Payment Status</label>
+        <div class="payment-status <?= ($user['payment'] === 'PENDING') ? 'payment-pending' : 'payment-complete'; ?>">
+            <?= htmlspecialchars($user['payment']); ?>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+
 
 <!-- Academic Details -->
 <div class="card">
