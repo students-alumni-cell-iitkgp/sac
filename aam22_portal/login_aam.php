@@ -131,7 +131,7 @@ body {
                 <img class="instiLogo" src="./../img/logo/kgp_blue.png" alt="">
                 <img class="instiLogo" src="./img/palJubLogo.png" alt="">
         </div>
-        <h2 class="color-black">Login to Your Profile</h2>
+        <h2 class="color-black">Login</h2>
 
         <?php if(isset($error)): ?>
             <div class="alert alert-danger py-2"><?= htmlspecialchars($error) ?></div>

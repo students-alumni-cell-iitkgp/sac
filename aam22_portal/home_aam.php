@@ -25,7 +25,7 @@ include 'header_aam.php'; // include your updated header
                 display: flex;
                 flex-direction: column;
                 background: rgba(255, 255, 255, 0.3);
-                backdrop-filter: blur(10px);
+                backdrop-filter: blur(15px);
                 border-radius: 20px;
                 height: 120px;
                 margin: 30px auto;
@@ -48,7 +48,7 @@ include 'header_aam.php'; // include your updated header
 
             .instiLogo {
                 margin: 10px;
-                height: 90px;
+                height: 100px;
                 transition: transform 0.3s ease;
             }
 
@@ -58,7 +58,7 @@ include 'header_aam.php'; // include your updated header
 
             /* ===== DATE & HEADER ===== */
             .dateDiv {
-                font-size: 1.4rem;
+                font-size: 25px;
                 color: #014f86;
                 font-weight: 600;
                 text-align: center;
@@ -68,8 +68,9 @@ include 'header_aam.php'; // include your updated header
             /* ===== BUTTONS ===== */
             .btn {
                 border-radius: 30px;
+                font-size: 22px;
                 font-weight: 600;
-                padding: 10px 25px;
+                padding: 10px 35px;
                 transition: all 0.3s ease;
                 background-color: #014f86 !important;
                 border: none;
@@ -77,7 +78,7 @@ include 'header_aam.php'; // include your updated header
 
             .btn:hover {
                 background-color: #012a4a !important;
-                transform: scale(1.05);
+                transform: scale(1.1);
                 color: #fff;
             }
 
@@ -104,8 +105,10 @@ include 'header_aam.php'; // include your updated header
 
             /* ===== NOTES TEXT ===== */
             .notes-text {
-                font-size: 18px;
-                color: #012a4a;
+                font-size: 25px;
+                font-weight: 600;
+                /* color: #012a4a; */
+                color: #012A4A;
             }
 
             /* ===== RESPONSIVE ===== */
@@ -153,6 +156,16 @@ include 'header_aam.php'; // include your updated header
             .itenary-img:hover {
                 transform: scale(1.1);
             }
+            .logoContainer{
+                /* background: rgba(255, 255, 255, 0.35);
+                 */
+                background-color: white;
+                border-radius: 25px;
+                border: 2px solid #012A4A;
+                padding: 15px;
+                margin: 20px auto;
+                width: 18%;
+            }
 
             /* Contact Section */
             .contact-section {
@@ -168,7 +181,7 @@ include 'header_aam.php'; // include your updated header
 
             .contact-grid {
                 display: grid;
-                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
                 gap: 30px;
                 justify-items: center;
                 align-items: start;
@@ -180,6 +193,7 @@ include 'header_aam.php'; // include your updated header
                 padding: 20px;
                 width: 100%;
                 max-width: 350px;
+                min-width: 350px;
                 box-shadow: 0 4px 15px rgba(0,0,0,0.1);
                 transition: transform 0.3s ease, box-shadow 0.3s ease;
             }
@@ -216,36 +230,43 @@ include 'header_aam.php'; // include your updated header
                     width: 90%;
                     padding: 25px 15px;
                 }
+                .logoContainer{
+                    width: 60%;
+                }
             }
 
         
     </style>
 </head>
 <body>
-
-    <div class="container justCenter">
+<div class="logoContainer text-center my-4">
+    <div class="container">
             <img class="instiLogo" src="./../img/logo/kgp_blue.png" alt="">
             <img class="instiLogo" src="./img/palJubLogo.png" alt="">
-        </div>
+    </div>
+</div> 
+
+
 <div class='hero'>
     <div class="text-center">
-        Welcome to 22nd Annual Alumni Meet 2026
+        Welcome to the 22<sup>nd</sup> Annual Alumni Meet 2026
     </div>
     <div class="text-center dateDiv">
-        <span> 9<sup>th</sup> to 11<sup>th</sup> Jan 2026</span>
+        <span> 9<sup>th</sup> to 11<sup>th</sup> January 2026</span>
     </div>
 </div>
 
 <div class="headr text-center my-4">
-    <a href="./../aam21.php" class="btn btn-lg mx-4 px-10 mb-6" style="background-color: #1976D2; color: white;">Glimpses of earlier Annual Alumni Meet (AAM)
+    <a href="./../aam21.php" class="btn btn-lg mx-4 px-10 mb-6" style="background-color: #1976D2; color: white;">Glimpses of earlier Annual Alumni Meets
 </a>
 <br>
 <br>
-    <span class="">If you have already registered for 22nd Annual Alumni Meet, then Go for Login else Register first than Login</span>
+    <!-- <span class="notes-text">Join the fun! Register first, then log in to continue!</span> -->
+    <span class="notes-text">Please register for the 22nd Annual Alumni Meet to relive old memories and celebrate with your batchmates!</span>
     <br>
     <br>
-    <a href="login_aam.php" class="btn btn-lg mx-4 px-10" style="background-color: #1976D2; color: white;">Login for 22nd AAM 2026</a>
-    <a href="signup.php" class="btn btn-lg mx-4 px-10" style="background-color: #1976D2; color: white;">Register for 22nd AAM 2026</a>
+    <a href="signup.php" class="btn btn-lg mx-4 px-10" style="background-color: #1976D2; color: white;">Register</a>
+    <a href="login_aam.php" class="btn btn-lg mx-4 px-10" style="background-color: #1976D2; color: white;">Login</a>
 </div>
 
 <div class="headr text-center my-4">
@@ -262,14 +283,23 @@ include 'header_aam.php'; // include your updated header
 </div>
 
 <!-- ===== CONTACT SECTION ===== -->
+
+
 <div class="headr text-center my-5 contact-section">
-    <h3 class="mb-4" style="color:#012a4a; font-weight:700;">For any Query Contact</h3>
+    <h3 class="mb-4" style="color:#012a4a; font-weight:700;">Got a query? Feel free to contact us!</h3>
     <div class="contact-grid">
         <div class="contact-card">
             <h5 class="contact-name">Rajas Sangekar</h5>
             <p class="contact-role">General Secretary, Students' Alumni Cell</p>
             <p><strong>Phone:</strong> <a href="tel:+919975261910" class="contact-link">+91 99752 61910</a></p>
             <p><strong>Email:</strong> <a href="mailto:rajassangekar1855@gmail.com" class="contact-link">rajassangekar1855@gmail.com</a></p>
+        </div>
+
+        <div class="contact-card">
+            <h5 class="contact-name">Nirmal Patidar</h5>
+            <p class="contact-role">Web Head, Students' Alumni Cell</p>
+            <p><strong>Phone:</strong> <a href="tel:+919165905280" class="contact-link">+91 91659 05280</a></p>
+            <p><strong>Email:</strong> <a href="mailto:nirmalpatidar2533@gmail.com" class="contact-link">nirmalpatidar2533@gmail.com</a></p>
         </div>
 
         <div class="contact-card">
