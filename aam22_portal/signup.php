@@ -224,7 +224,12 @@ body {
 // include 'adminPages/config.php';
 include 'test.php'; //db connection on my pc
 
+
+session_start();
+
+
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
+
     $name = $_POST['name'];
     $email = $_POST['email'];
     $mobile = $_POST['mobile'];
@@ -331,6 +336,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         Registration for <br> 22nd Annual Alumni Meet
     </h2>
 </div> -->
+
 <div class="section1">
   <div class="heading-main">
       <div class="logoContainer text-center my-4">
@@ -345,8 +351,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 </div>
 <form action="register.php" method="POST" enctype="multipart/form-data">
 
-
 <div class="accordion" id="accordionExample">
+  
 
   <!-- Personal Details -->
   <div class="accordion-item">
