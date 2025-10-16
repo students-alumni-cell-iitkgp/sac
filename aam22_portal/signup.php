@@ -159,6 +159,8 @@ body {
   line-height: 1.6;
 }
 
+
+
 /* ===== BUTTONS ===== */
 .btn {
   border-radius: 8px;
@@ -639,7 +641,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         <div class="row">
            <div class="form-floating mb-3 col-sm-12">
             <input name="positionHolding"  type="text" class="form-control" placeholder="Captain of football team GC" maxlength=100">
-            <label>Any Position Held in KGP(Eg. HP, Captain, VP, GSec, Secy, etc)</label>
+            <label>Any Position Held in KGP (Eg. HP, Captain, VP, GSec, Secy, etc)</label>
            </div>
         </div>
 
@@ -694,13 +696,14 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                </tr>
                <tr>
                  <th>2</th>
-                 <td>Per Accompanying Person(s)</td>
+                 <td>Per Accompanying Person</td>
                  <td>7000</td>
                </tr>
              </tbody>
            </table>
            <small class="text-muted">Registration Fee includes Food, Transportation and Registration Kit</small>
-           <small class="text-muted bold">Registration Fee includes Food, Transportation and Registration Kit</small>
+           <br>
+           <small class="text-muted">Kids below the age of 10 years, accompanying a participant, have no registration fee.</small>
 
           <div class="row" style="margin-top: 15px">
             <div class="form-floating mb-3 col-sm-6">
@@ -805,26 +808,30 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         <strong>Accomodation Policy:</strong>
         <ul>
           <li>
-            Like every year, the highest preference for on-campus accommodation will be given to the 50th-year senior participants. 
-            Additionally, preference will be given to senior-most alumni, persons with disabilities (PWD), those with medical conditions 
-            requiring special facilities, and alumni accompanied by their families. The remaining rooms will be allotted on a first-come, first-served basis.
+            <p style="text-align: justify; line-height: 1.6; margin-bottom:10px;">
+              Like every year, the highest preference for on-campus accommodation will be given to the 50th-year senior participants. Additionally, preference will be given to senior-most alumni, persons with disabilities (PWD), those with medical conditions requiring special facilities, and alumni accompanied by their families. The remaining rooms will be allotted on a first-come, first-served basis.
+            </p>
           </li>
           <li>
-            In view of the increased number of participants, we will have to offer accommodation inside the campus on a sharing basis, 
-            except for families.
+            <p style="text-align: justify; line-height: 1.6; margin-bottom:10px;">
+              In view of the increased number of participants, we will have to offer accommodation inside the campus on a sharing basis, except for families.
+            </p>
           </li>
           <li>
-            The Registration fee(s) will include the musical night/entertainment/events, registration kit, three days’ food in the arena, 
-            and local transport. Accommodation and other charges are to be borne by individuals and must be paid directly to the facility providers.
+            <p style="text-align: justify; line-height: 1.6; margin-bottom:10px;">
+              The Registration fee(s) will include the musical night/entertainment/events, registration kit, three days’ food in the arena, and local transport. Accommodation and other charges are to be borne by individuals and must be paid directly to the facility providers.
+            </p>
           </li>
           <li>
-            The details of room allocation will be shared a week prior to the event.
+            <p style="text-align: justify; line-height: 1.6; margin-bottom:10px;">
+              The details of room allocation will be shared a week prior to the event.
+            </p>
           </li>
-          <li><b>
-            Participants are requested to complete registration and payment at the earliest to avail better accommodation options. 
-            Please share the transaction details with the Office of Alumni Affairs 
-            (<a href="mailto:alumni@hijli.iitkgp.ac.in">alumni@hijli.iitkgp.ac.in</a>) for confirmation.
-          </li><b>
+          <li>
+            <p style="text-align: justify; line-height: 1.6; margin-bottom:10px;" class="bold">
+              <b>Participants are requested to complete registration and payment at the earliest to avail better accommodation options. Please share the transaction details with the Office of Alumni Affairs (<a href="mailto:alumni@hijli.iitkgp.ac.in">alumni@hijli.iitkgp.ac.in</a>)) for confirmation.</b>
+            </p>
+          </li>
         
         </ul>
       </div>
