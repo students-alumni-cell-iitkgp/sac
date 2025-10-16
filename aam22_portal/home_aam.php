@@ -227,6 +227,58 @@ body {
     text-decoration: underline;
 }
 
+.countdown-container {
+    backdrop-filter: blur(12px);
+    padding: 15px;
+    margin: 20px auto;
+    width: 85%;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+
+}
+
+.countdown-bg {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 20px;
+  /* filter: brightness(70%); */
+}
+
+.mainCount {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;  
+  gap: 10px;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 20px;
+}
+
+.days1 {
+  font-size: 5rem;        /* big number */
+  font-weight: 900;
+  color: #012A4A;         /* gold/yellow */
+  animation: pop 1s ease-in-out infinite alternate;
+    text-shadow: 2px 2px 6px white;
+    
+}
+
+.daysTogo {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #01497C;
+  margin: 10px;
+}
+
+@keyframes pop {
+  0% { opacity: 0.5; transform: scale(1); }
+  100% { opacity: 1; transform: scale(1.4); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translate(-50%, -60%); }
+  to { opacity: 1; transform: translate(-50%, -50%); }
+}
+
 @media (max-width: 768px) {
     .contact-section {
         width: 90%;
@@ -235,27 +287,18 @@ body {
     .logoContainer{
         width: 60%;
     }
-}
+    .countdown-container {
+        font-size: 10px !important;
+        display: hidden;
+    }
 
-#countdown h2 {
-    color: #012a4a;
-}
-
-#balloon {
-    font-size: 4rem;
-    position: fixed;
-    left: 50%;
-    top: 100%; /* start off screen */
-    transform: translateX(-50%);
-    transition: top 2s ease-out;
-    z-index: 1000;
-}
-
-/* Balloon blast animation */
-@keyframes blast {
-    0% { transform: scale(1) rotate(0deg); opacity: 1; }
-    50% { transform: scale(1.5) rotate(45deg); opacity: 0.8; }
-    100% { transform: scale(0) rotate(90deg); opacity: 0; }
+    .countdown-overlay {
+        display: none;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        font-size: 3px !important;
+    }
 }
 </style>
 
@@ -268,7 +311,12 @@ body {
             <img class="instiLogo" src="./img/palJubLogo.png" alt="">
     </div>
 </div> 
-
+<div class="mainCount">
+    <div class="mainCount">
+        <span id="days1" class="days1"> </span>
+        <p class="daysTogo">Days to Go</p>
+    </div>
+</div>
 
 <div class='hero'>
     <div class="text-center">
@@ -294,11 +342,18 @@ body {
 </div>
 
 <div class="headr text-center my-4">
-    <img class="mainImg" src="./img/home_aampic01.png" alt="">
+        <img src="./img/home_aampic01.png" alt="Alumni Meet Banner" class="countdown-bg">
+
+        <div class="countdown-overlay">
+            <!-- <h2>Countdown to 22<sup>nd</sup> Annual Alumni Meet</h2> -->
+            <div class="countdown-timer">
+            <span id="days"></span> Days to Go 🎉
+            </div>
+        </div>
 </div>
 
 <div class="headr text-center my-5">
-    <h3 class="mb-4" style="color:#012a4a; font-weight:700;">Tentative Itinerary of 22nd Annual Alumni Meet [9th to 11th January 2026]</h3>
+    <h3 class="mb-4" style="color:#012a4a; font-weight:700;">Tentative Itinerary of 22<sup>nd</sup> Annual Alumni Meet ( 9<sup>th</sup> to 11<sup>th</sup> January 2026 )</h3>
     <div class="itenary-grid">
         <img src="./img/itenary1.png" alt="Itinerary Day 1" class="itenary-img">
         <img src="./img/itenary2.png" alt="Itinerary Day 2" class="itenary-img">
@@ -346,6 +401,28 @@ body {
 
 
 </body>
+
+<script>
+  const targetDate = new Date("January 9, 2026 00:00:00").getTime();
+  const countdown1 = document.getElementById("days1");
+
+  function updateCountdown() {
+    const now = new Date().getTime();
+    const diff = targetDate - now;
+
+    if (diff <= 0) {
+      countdown1.innerHTML = "It’s Time! 🎊";
+      return;
+    }
+
+    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+    countdown1.textContent = days;
+  }
+
+  updateCountdown();
+  setInterval(updateCountdown, 1000 * 60 * 60); // Update every hour
+
+</script>
 </html>
 
 <?php

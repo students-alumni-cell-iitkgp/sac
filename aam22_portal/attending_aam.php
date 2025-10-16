@@ -197,7 +197,7 @@ h2 {
 <body>
 
 <div class="container">
-    <h2>Registered Alumni Attending 22nd AAM 2026</h2>
+    <h2>Welcoming Our Enthusiastic Alumni to the 22<sup>nd</sup> Annual Alumni Meet 2026</h2>
 
     <form action="" method="get" class="filter-form">
         <select name="yog" onchange="this.form.submit()">
