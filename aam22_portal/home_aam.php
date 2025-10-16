@@ -60,11 +60,11 @@ body {
 
 /* ===== DATE & HEADER ===== */
 .dateDiv {
-    font-size: 25px;
-    color: #014f86;
+    font-size: 39px;
     font-weight: 600;
     text-align: center;
     margin-top: 10px;
+    color: #ff5400;
 }
 
 /* ===== BUTTONS ===== */
@@ -258,7 +258,7 @@ body {
   font-weight: 900;
   color: #012A4A;         /* gold/yellow */
   animation: pop 1s ease-in-out infinite alternate;
-    text-shadow: 2px 2px 6px white;
+  text-shadow: 2px 2px 6px white;
     
 }
 
@@ -270,8 +270,8 @@ body {
 }
 
 @keyframes pop {
-  0% { opacity: 0.5; transform: scale(1); }
-  100% { opacity: 1; transform: scale(1.4); }
+  0% { opacity: 1; transform: scale(1); color: #033270}
+  100% { opacity: 1; transform: scale(1.4); color: #ff5400}
 }
 
 @keyframes fadeIn {
@@ -343,13 +343,6 @@ body {
 
 <div class="headr text-center my-4">
         <img src="./img/home_aampic01.png" alt="Alumni Meet Banner" class="countdown-bg">
-
-        <div class="countdown-overlay">
-            <!-- <h2>Countdown to 22<sup>nd</sup> Annual Alumni Meet</h2> -->
-            <div class="countdown-timer">
-            <span id="days"></span> Days to Go 🎉
-            </div>
-        </div>
 </div>
 
 <div class="headr text-center my-5">
@@ -376,17 +369,17 @@ body {
         </div>
 
         <div class="contact-card">
-            <h5 class="contact-name">Nirmal Patidar</h5>
-            <p class="contact-role">Web Head, Students' Alumni Cell</p>
-            <p><strong>Phone:</strong> <a href="tel:+919165905280" class="contact-link">+91 91659 05280</a></p>
-            <p><strong>Email:</strong> <a href="mailto:nirmalpatidar2533@gmail.com" class="contact-link">nirmalpatidar2533@gmail.com</a></p>
+            <h5 class="contact-name">Soumya Kanta Das</h5>
+            <p class="contact-role">Coordinator, Students' Alumni Cell</p>
+            <p><strong>Phone:</strong> <a href="tel:+917849085554" class="contact-link">+91 78490 85554</a></p>
+            <p><strong>Email:</strong> <a href="mailto:soumyakantadas2005@gmail.com" class="contact-link">soumyakantadas2005@gmail.com</a></p>
         </div>
 
         <div class="contact-card">
-            <h5 class="contact-name">Nirmal Patidar</h5>
-            <p class="contact-role">Web Head, Students' Alumni Cell</p>
-            <p><strong>Phone:</strong> <a href="tel:+919165905280" class="contact-link">+91 91659 05280</a></p>
-            <p><strong>Email:</strong> <a href="mailto:nirmalpatidar2533@gmail.com" class="contact-link">nirmalpatidar2533@gmail.com</a></p>
+            <h5 class="contact-name">Anamika Das</h5>
+            <p class="contact-role">Office of Alumni Affairs</p>
+            <p><strong>Phone:</strong> <a href="tel:+919836107544" class="contact-link">+91 98361 07544</a></p>
+            <p><strong>Email:</strong> <a href="mailto:alumni@hijli.iitkgp.ac.in" class="contact-link">alumni@hijli.iitkgp.ac.in</a></p>
         </div>
     </div>
 </div>
