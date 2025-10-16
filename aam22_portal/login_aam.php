@@ -2,6 +2,9 @@
 session_start();
 include 'test.php'; // DB connection
 
+
+$ip = $_SERVER['REMOTE_ADDR'];
+
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $email = $_POST['email'];
     $mobile = $_POST['mobile'];
@@ -11,6 +14,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $stmt->bind_param("sss", $email, $mobile, $dob);
     $stmt->execute();
     $result = $stmt->get_result();
+    
+    $ins = $connection->prepare("INSERT INTO login_log (ip, email) VALUES (?, ?)");
+    $ins->bind_param('ss', $ip, $email);
+    $ins->execute();
+    $ins->close();
 
     if ($result->num_rows === 1) {
         $_SESSION['email'] = $email;
@@ -21,20 +29,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 
 
-    $ip = $_SERVER['REMOTE_ADDR'];
-    $email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
 
-    // validate email format
-    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        die("Invalid email address.");
-    }
-
-    // After successful login
-    $ins = $connection->prepare("INSERT INTO login_log (ip, email) VALUES (?, ?)");
-    $ins->bind_param('ss', $ip, $email);
-    $ins->execute();
-    $ins->close();
 }
+
+
+    
+
 
 
 

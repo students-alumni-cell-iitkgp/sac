@@ -183,8 +183,8 @@ body {
 
 .contact-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 50px;
     justify-items: center;
     align-items: start;
 }
@@ -195,7 +195,7 @@ body {
     padding: 20px;
     width: 100%;
     max-width: 350px;
-    min-width: 350px;
+    min-width: 200px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -362,6 +362,10 @@ body {
     .contact-section {
         width: 90%;
         padding: 25px 15px;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    }
+    .contact-grid {
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     }
     .logoContainer{
         width: 60%;
@@ -483,10 +487,19 @@ body {
 
         <div class="contact-card">
             <h5 class="contact-name">Anamika Das</h5>
-            <p class="contact-role">Office of Alumni Affairs</p>
+            <p class="contact-role">Office of Alumni Affairs, IIT Kharagpur</p>
             <p><strong>Phone:</strong> <a href="tel:+919836107544" class="contact-link">+91 98361 07544</a></p>
             <p><strong>Email:</strong> <a href="mailto:alumni@hijli.iitkgp.ac.in" class="contact-link">alumni@hijli.iitkgp.ac.in</a></p>
         </div>
+
+        <div class="contact-card">
+            <h5 class="contact-name">Nirmla Patidar</h5>
+            <p class="contact-role">Web Head, Students' Alumni Cell</p>
+            <p><strong>Phone:</strong> <a href="tel:+919165905280" class="contact-link">+91 91659 05280</a></p>
+            <p><strong>Email:</strong> <a href="mailto:nirmalpatidar2533@gmail.com" class="contact-link">nirmalpatidar2533@gmail.com</a></p>
+        </div>
+
+
     </div>
 </div>
 
