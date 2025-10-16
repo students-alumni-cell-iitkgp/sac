@@ -714,7 +714,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
             <div class="form-floating mb-3 col-sm-6">
                 <input type="text" class="form-control" id="acc_name" name="acc_name" oninput="calc_cost()" placeholder="Name">
-                <label>Accompanying Adult Name</label>
+                <label>Accompanying Adult Name </label>
             </div>
            </div>
 
@@ -802,13 +802,30 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
 
       <div class="mt-3" style="font-size: 0.95rem; color:#012A4A;">
-        <strong>Note:</strong>
+        <strong>Accomodation Policy:</strong>
         <ul>
-          <li>Like every year, the highest preference for on-campus accommodation will be given to the 50th-year senior participants. Due to the limited availability of rooms in TGH, preference will also be given to senior-most alumni, persons with disabilities (PWD), those with medical conditions requiring special facilities, and alumni accompanied by their families. Rest of the rooms will be allocated on a first-come-first-serve basis.</li>
-          <li>In view of the increased number of participants, we will have to offer accommodation in the campus TGH on a sharing basis, except for families.</li>
-          <li>Registration fee(s) will include the musical night/entertainment/events, registration kit, three days’ food in the arena, and local transport. Accommodation and other incidental charges are to be borne by individuals and must be paid directly to the facility providers.</li>
-          <li>The details of room allocation will be shared a week before the event.</li>
-          <li><b>Kindly complete your registration and payment at the earliest to avail a better guest room.</b></li>
+          <li>
+            Like every year, the highest preference for on-campus accommodation will be given to the 50th-year senior participants. 
+            Additionally, preference will be given to senior-most alumni, persons with disabilities (PWD), those with medical conditions 
+            requiring special facilities, and alumni accompanied by their families. The remaining rooms will be allotted on a first-come, first-served basis.
+          </li>
+          <li>
+            In view of the increased number of participants, we will have to offer accommodation inside the campus on a sharing basis, 
+            except for families.
+          </li>
+          <li>
+            The Registration fee(s) will include the musical night/entertainment/events, registration kit, three days’ food in the arena, 
+            and local transport. Accommodation and other charges are to be borne by individuals and must be paid directly to the facility providers.
+          </li>
+          <li>
+            The details of room allocation will be shared a week prior to the event.
+          </li>
+          <li><b>
+            Participants are requested to complete registration and payment at the earliest to avail better accommodation options. 
+            Please share the transaction details with the Office of Alumni Affairs 
+            (<a href="mailto:alumni@hijli.iitkgp.ac.in">alumni@hijli.iitkgp.ac.in</a>) for confirmation.
+          </li><b>
+        
         </ul>
       </div>
     </div>
@@ -856,8 +873,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         <div class="mt-3" style="font-size: 0.95rem; color:#012A4A;">
         <strong>Note:</strong>
         <ul>
-          <li>Like every year, the highest preference for on-campus accommodation will be given to the 50th-year senior participants. Due to the limited availability of rooms in TGH, preference will also be given to senior-most alumni, persons with disabilities (PWD), those with medical conditions requiring special facilities, and alumni accompanied by their families. Rest of the rooms will be allocated on a first-come-first-serve basis.</li>
-          <li><b>Kindly complete your registration and payment at the earliest to avail a better guest room.</b></li>
+          <li><b>Local transportation will be arranged for all participants on a group-wise basis.</b></li>
         </ul>
       </div>
 
