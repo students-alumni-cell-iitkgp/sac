@@ -60,17 +60,11 @@ body {
 
 /* ===== DATE & HEADER ===== */
 .dateDiv {
-    font-size: 35px;
+    font-size: 39px;
     font-weight: 600;
     text-align: center;
     margin-top: 10px;
     color: #ff5400;
-    animation: glow 2s ease-in-out infinite alternate;
-}
-
-@keyframes glow {
-  from { color: #ff5400;}
-  to { color: #3d0e61;}
 }
 
 /* ===== BUTTONS ===== */
