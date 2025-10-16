@@ -227,6 +227,60 @@ body {
     text-decoration: underline;
 }
 
+.countdown-container {
+    backdrop-filter: blur(12px);
+    /* border-radius: 25px; */
+    padding: 15px;
+    margin: 20px auto;
+    width: 85%;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    /* position: relative;
+    width: 100%;
+    max-width: 900px;
+    margin: 30px auto;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2); */
+}
+
+.countdown-bg {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 20px;
+  /* filter: brightness(70%); */
+}
+
+.countdown-overlay {
+
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  animation: fadeIn 1.5s ease-in;
+}
+
+.countdown-overlay h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+}
+
+.countdown-timer {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #ffeb3b;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translate(-50%, -60%); }
+  to { opacity: 1; transform: translate(-50%, -50%); }
+}
+
 @media (max-width: 768px) {
     .contact-section {
         width: 90%;
@@ -235,27 +289,6 @@ body {
     .logoContainer{
         width: 60%;
     }
-}
-
-#countdown h2 {
-    color: #012a4a;
-}
-
-#balloon {
-    font-size: 4rem;
-    position: fixed;
-    left: 50%;
-    top: 100%; /* start off screen */
-    transform: translateX(-50%);
-    transition: top 2s ease-out;
-    z-index: 1000;
-}
-
-/* Balloon blast animation */
-@keyframes blast {
-    0% { transform: scale(1) rotate(0deg); opacity: 1; }
-    50% { transform: scale(1.5) rotate(45deg); opacity: 0.8; }
-    100% { transform: scale(0) rotate(90deg); opacity: 0; }
 }
 </style>
 
@@ -268,6 +301,18 @@ body {
             <img class="instiLogo" src="./img/palJubLogo.png" alt="">
     </div>
 </div> 
+
+
+<div class="countdown-container">
+  <img src="./img/home_aampic01.png" alt="Alumni Meet Banner" class="countdown-bg">
+
+  <div class="countdown-overlay">
+    <h2>Countdown to 22<sup>nd</sup> Annual Alumni Meet</h2>
+    <div class="countdown-timer">
+      <span id="days"></span> Days To Go 🎉
+    </div>
+  </div>
+</div>
 
 
 <div class='hero'>
@@ -294,11 +339,18 @@ body {
 </div>
 
 <div class="headr text-center my-4">
-    <img class="mainImg" src="./img/home_aampic01.png" alt="">
+        <img src="./img/home_aampic01.png" alt="Alumni Meet Banner" class="countdown-bg">
+
+        <div class="countdown-overlay">
+            <h2>Countdown to 22<sup>nd</sup> Annual Alumni Meet</h2>
+            <div class="countdown-timer">
+            <span id="days">0</span> Days Remaining 🎉
+            </div>
+        </div>
 </div>
 
 <div class="headr text-center my-5">
-    <h3 class="mb-4" style="color:#012a4a; font-weight:700;">Tentative Itinerary of 22nd Annual Alumni Meet [9th to 11th January 2026]</h3>
+    <h3 class="mb-4" style="color:#012a4a; font-weight:700;">Tentative Itinerary of 22<sup>nd</sup> Annual Alumni Meet ( 9<sup>th</sup> to 11<sup>th</sup> January 2026 )</h3>
     <div class="itenary-grid">
         <img src="./img/itenary1.png" alt="Itinerary Day 1" class="itenary-img">
         <img src="./img/itenary2.png" alt="Itinerary Day 2" class="itenary-img">
@@ -346,6 +398,20 @@ body {
 
 
 </body>
+
+<script>
+  const eventDate = new Date("January 9, 2026 00:00:00").getTime();
+
+  const timer = setInterval(function () {
+    const now = new Date().getTime();
+    const diff = eventDate - now;
+    const days = Math.max(0, Math.floor(diff / (1000 * 60 * 60 * 24)));
+    days = 10;
+    document.getElementById("days").textContent = days;
+
+    if (diff <= 0) clearInterval(timer);
+  }, 1000 * 60 * 60);
+</script>
 </html>
 
 <?php
