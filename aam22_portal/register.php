@@ -19,34 +19,34 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
 }
 
 
-// $ip = $_SERVER['REMOTE_ADDR'];
-// // allow e.g. max 5 submissions per IP per hour
-// $limit = 3;
-// $window = 60*60; // seconds
+$ip = $_SERVER['REMOTE_ADDR'];
+// allow e.g. max 5 submissions per IP per hour
+$limit = 3;
+$window = 60*60; // seconds
 
-// $sql = "SELECT COUNT(*) FROM submission_log WHERE ip = ? AND created_at >= (NOW() - INTERVAL 1 HOUR)";
-// $stmt = $connection->prepare($sql);
-// $stmt->bind_param('s', $ip);
-// $stmt->execute();
-// $stmt->bind_result($count);
-// $stmt->fetch();
-// $stmt->close();
-
-
+$sql = "SELECT COUNT(*) FROM submission_log WHERE ip = ? AND created_at >= (NOW() - INTERVAL 1 HOUR)";
+$stmt = $connection->prepare($sql);
+$stmt->bind_param('s', $ip);
+$stmt->execute();
+$stmt->bind_result($count);
+$stmt->fetch();
+$stmt->close();
 
 
-// if ($count >= $limit) {
-//     // Too many attempts
-//     http_response_code(429);
-//     echo "Too many submissions. Please try later.";
-//     exit;
-// }
 
-// // After successful validation but before final commit (or on every attempt) insert record
-// $ins = $connection->prepare("INSERT INTO submission_log (ip) VALUES (?)");
-// $ins->bind_param('s', $ip);
-// $ins->execute();
-// $ins->close();
+
+if ($count >= $limit) {
+    // Too many attempts
+    http_response_code(429);
+    echo "Too many submissions. Please try later.";
+    exit;
+}
+
+// After successful validation but before final commit (or on every attempt) insert record
+$ins = $connection->prepare("INSERT INTO submission_log (ip) VALUES (?)");
+$ins->bind_param('s', $ip);
+$ins->execute();
+$ins->close();
 
 
 
