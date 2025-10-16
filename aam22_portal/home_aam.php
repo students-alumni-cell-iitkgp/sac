@@ -271,13 +271,92 @@ body {
 
 @keyframes pop {
   0% { opacity: 1; transform: scale(1); color: #033270}
-  100% { opacity: 1; transform: scale(1.4); color: #ff5400}
+  100% { opacity: 1; transform: scale(1.4); color: #03327h}
 }
 
 @keyframes fadeIn {
   from { opacity: 0; transform: translate(-50%, -60%); }
   to { opacity: 1; transform: translate(-50%, -50%); }
 }
+
+
+
+
+.invite-section {
+  color: black;
+  text-align: center;
+  padding: 60px 20px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+  margin: 50px auto;
+  max-width: 750px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.invite-section h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.invite-section p {
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+}
+
+.invite-btn {
+  background: #ffb703;
+  border: none;
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 12px 30px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.invite-btn:hover {
+  background: #ffd166;
+  transform: scale(1.05);
+}
+
+.social-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 20px;
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+.fadeIn {
+  animation: fadeInButtons 0.5s forwards;
+}
+
+@keyframes fadeInButtons {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.share-btn {
+  padding: 12px 25px;
+  border-radius: 30px;
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.share-btn:hover {
+  transform: scale(1.1);
+}
+
+/* Button Colors */
+.fb { background: #4267B2; }
+.wa { background: #25D366; }
+.ig { background: linear-gradient(45deg, #F58529, #DD2A7B, #8134AF); }
+.copy { background: #ffb703; color: #000; }
 
 @media (max-width: 768px) {
     .contact-section {
@@ -290,6 +369,9 @@ body {
     .countdown-container {
         font-size: 10px !important;
         display: hidden;
+    }
+    .dateDiv {
+        font-size: 25px;
     }
 
     .countdown-overlay {
@@ -341,6 +423,11 @@ body {
     <a href="login_aam.php" class="btn btn-lg mx-4 px-10" style="background-color: #1976D2; color: white;">Login</a>
 </div>
 
+
+
+
+
+
 <div class="headr text-center my-4">
         <img src="./img/home_aampic01.png" alt="Alumni Meet Banner" class="countdown-bg">
 </div>
@@ -352,6 +439,25 @@ body {
         <img src="./img/itenary2.png" alt="Itinerary Day 2" class="itenary-img">
         <img src="./img/itenary3.png" alt="Itinerary Day 3" class="itenary-img">
     </div>
+</div>
+
+
+<!-- Invite Friends Section -->
+<div class=" headr invite-section">
+  <h2>Invite Your Friends!</h2>
+  <p>Reunite and relive the memories!  
+     Invite your batchmates to join the <strong>22<sup>nd</sup> Annual Alumni Meet</strong>.</p>
+
+  <button id="invite-btn" class="invite-btn">Invite Friends</button>
+
+  <div class="social-buttons" id="social-buttons" style="display:none;">
+    <a href="#" class="share-btn fb" id="share-facebook" title="Share on Facebook">Facebook</a>
+    <a href="#" class="share-btn wa" id="share-whatsapp" title="Share on WhatsApp">WhatsApp</a>
+    <a href="#" class="share-btn ig" id="share-instagram" title="Share on Instagram">Instagram</a>
+    <button class="share-btn copy" id="copy-link" title="Copy Link">Copy Link</button>
+  </div>
+
+  <p id="copy-msg" style="display:none; color:#fff; margin-top:10px;">✅ Link copied to clipboard!</p>
 </div>
 
 
@@ -415,6 +521,46 @@ body {
   updateCountdown();
   setInterval(updateCountdown, 1000 * 60 * 60); // Update every hour
 
+
+
+const shareUrl = window.location.href;
+const shareText = "Join me at the 22nd Annual Alumni Meet at IIT Kharagpur! Don’t miss the fun!";
+
+// Show share options
+document.getElementById("invite-btn").onclick = () => {
+  const socialButtons = document.getElementById("social-buttons");
+  socialButtons.style.display = "flex";
+  socialButtons.classList.add("fadeIn");
+  document.getElementById("invite-btn").style.display = "none";
+};
+
+// Facebook
+document.getElementById("share-facebook").onclick = (e) => {
+  e.preventDefault();
+  window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}`, "_blank");
+};
+
+// WhatsApp
+document.getElementById("share-whatsapp").onclick = (e) => {
+  e.preventDefault();
+  window.open(`https://wa.me/?text=${encodeURIComponent(shareText + " " + shareUrl)}`, "_blank");
+};
+
+// Instagram
+document.getElementById("share-instagram").onclick = (e) => {
+  e.preventDefault();
+  alert("Instagram doesn’t support direct link sharing — copy the link and share it in your story or bio!");
+};
+
+// Copy link
+document.getElementById("copy-link").onclick = () => {
+  navigator.clipboard.writeText(shareText + " " + shareUrl)
+    .then(() => {
+      const msg = document.getElementById("copy-msg");
+      msg.style.display = "block";
+      setTimeout(() => msg.style.display = "none", 2000);
+    });
+};
 </script>
 </html>
 
