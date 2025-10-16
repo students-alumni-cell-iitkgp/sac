@@ -19,7 +19,27 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     } else {
         $error = "Invalid credentials! Please try again.";
     }
+
+
+    $ip = $_SERVER['REMOTE_ADDR'];
+    $email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
+
+    // validate email format
+    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        die("Invalid email address.");
+    }
+
+    // After successful login
+    $ins = $connection->prepare("INSERT INTO login_log (ip, email) VALUES (?, ?)");
+    $ins->bind_param('ss', $ip, $email);
+    $ins->execute();
+    $ins->close();
 }
+
+
+
+
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
