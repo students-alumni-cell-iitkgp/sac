@@ -346,7 +346,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
           </div>
       </div> 
     <h2 class="accordion-header" id="headingOne" >
-        Registration for 22<sup>nd</sup> Annual Alumni Meet
+        Registration for the 22<sup>nd</sup> Annual Alumni Meet 2026
     </h2>
 </div>
 <form action="register.php" method="POST" enctype="multipart/form-data">
@@ -366,7 +366,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
          <div class="row">
            <div class="form-floating mb-3 col-sm-6">
             <input type="text" class="form-control" name="name" placeholder="Name" maxlength="150" required>
-            <label>Name(Same as IIT KGP records)<span style="color:red;">*</span></label>
+            <label>Name (as per records)<span style="color:red;">*</span></label>
            </div>
            <div class="form-floating mb-3 col-sm-6">
              <input type="email" class="form-control" name="email" placeholder="name@example.com" onBlur="checkemailAvailability()" maxlength="100" required>
@@ -378,7 +378,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         <div class="row">
            <div class="form-floating mb-3 col-sm-6">
             <input type="text" class="form-control" name="mobile" placeholder="99XX......" maxlength="50" required>
-            <label>Mobile<span style="color:red;">*</span></label>
+            <label>Cell Number<span style="color:red;">*</span></label>
            </div>
            <div class="form-floating mb-3 col-sm-6">
              <input type="date" class="form-control" name="dob" placeholder="dd-mm-yyyy" required>
@@ -390,24 +390,24 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
           <div class="form-floating mb-3 col-sm-6">
                 <select name="idtype"  class="form-select" type='text' required>
                 <option selected value="select">---Select---</option>
-                <option value="Aadhar Number">Aadhar Number</option>
-                <option value="Passport Number">Passport Number</option>
-                <option value="PANcard">PANcard</option>
-                <option value="Driving license">Driving license</option>
+                <option value="Aadhar Number">Aadhar Card</option>
+                <option value="Passport Number">Passport</option>
+                <option value="PANcard">PAN Card</option>
+                <option value="Driving license">Driving License</option>
                 <option value="OCI Card">OCI Card</option>
                 </select>
-                <label>Identification Type(Aadhar, Passport, etc)<span style="color:red;">*</span></label>
+                <label>ID Type (Aadhar, Passport, etc.. )<span style="color:red;">*</span></label>
           </div>
            <div class="form-floating mb-3 col-sm-6">
              <input type="text" class="form-control" name="idnumber" placeholder="1111222233334444" maxlength="100" required>
-             <label>Identification Number<span style="color:red;">*</span></label>
+             <label>ID Number<span style="color:red;">*</span></label>
            </div>
         </div>
 
         <div class="row">
            <div class="form-floating mb-3 col-sm-12">
             <input type="text" class="form-control" name="social_links" placeholder="www.facebook/xyz.com" maxlength="150">
-            <label>Social Media Link(Facebook, LinkedIn, etc..)</label>
+            <label>Social Media Link (Facebook, LinkedIn, etc.. )</label>
            </div>
         </div>
 
@@ -512,17 +512,12 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingFive">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-        Nostalgic Section
+        IIT Affilliation 
       </button>
     </h2>
     <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-        <div class="row">
-           <div class="form-floating mb-3 col-sm-12">
-            <input name="positionHolding"  type="text" class="form-control" placeholder="Captain of football team GC" maxlength=100">
-            <label>Any Position Holding in KGP(Eg. HP, Captain, etc)</label>
-           </div>
-        </div>
+        
 
         <div class="row">
            <div class="form-floating mb-3 col-sm-6">
@@ -608,7 +603,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             <option value="SWS">School of Water Resources</option>
             <option value="VGSOM">Vinod Gupta School of Management</option>
             </select>
-             <label>Department<span style="color:red;">*</span></label>
+             <label>Department (Mention the first Degree)<span style="color:red;">*</span></label>
           </div>
 
            <div class="form-floating mb-3 col-sm-6">
@@ -642,13 +637,20 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         </div>
 
         <div class="row">
+           <div class="form-floating mb-3 col-sm-12">
+            <input name="positionHolding"  type="text" class="form-control" placeholder="Captain of football team GC" maxlength=100">
+            <label>Any Position Held in KGP(Eg. HP, Captain, VP, GSec, Secy, etc)</label>
+           </div>
+        </div>
+
+        <div class="row">
            <div class="form-floating mb-3 col-sm-6">
-            <input type="number" min="1951" max="2020" class="form-control" name="yoj" placeholder="1971" required>
+            <input type="number" min="1951" max="2025" class="form-control" name="yoj" placeholder="1971" required>
             <label>Join Year<span style="color:red;">*</span></label>
            </div class="form-floating mb-3 col-sm-6"> 
             <div class="form-floating mb-3 col-sm-6">
               <input type="number" min="1951" max="2020" class="form-control" name="yog" placeholder="1976" required>
-              <label>Year of Graduating<span style="color:red;">*</span></label>
+              <label>Year of Graduation<span style="color:red;">*</span></label>
            </div class="form-floating mb-3 col-sm-6"> 
         </div>
 
@@ -666,7 +668,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingThree">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-        Accompanying and Food
+        Companion
       </button>
     </h2>
 
@@ -698,20 +700,21 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
              </tbody>
            </table>
            <small class="text-muted">Registration Fee includes Food, Transportation and Registration Kit</small>
+           <small class="text-muted bold">Registration Fee includes Food, Transportation and Registration Kit</small>
 
           <div class="row" style="margin-top: 15px">
             <div class="form-floating mb-3 col-sm-6">
                 <select class="form-select" name="acc_relation" id="acc_relation" oninput="calc_cost()" required>
-                <option selected value="Nil">Nil</option>
+                <option selected value="Non">Non</option>
                 <option value="Spouse">Spouse</option>
                 <option value="Other">Other</option>
                 </select>
-                <label>Accompanying Person Relation<span style="color:red;">*</span></label>
+                <label>Accompanying Adult Relation<span style="color:red;">*</span></label>
             </div>
 
             <div class="form-floating mb-3 col-sm-6">
-                <input type="text" class="form-control" id="acc" name="acc_name" oninput="calc_cost()" placeholder="Name">
-                <label>Accompanying Person Name</label>
+                <input type="text" class="form-control" id="acc_name" name="acc_name" oninput="calc_cost()" placeholder="Name">
+                <label>Accompanying Adult Name</label>
             </div>
            </div>
 
@@ -720,25 +723,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
            Total Reg Fee : <input class="form-control" id="acp" name="acp" type="text" placeholder="15000" readonly>
            </div>
            </div>
-
-
-           
-        <div class="row">
-          <div class="form-floating mb-3 col-sm-6">
-              <select class="form-select" name="foodPreference" required>
-                <option selected value="select">---Select---</option>
-                <option value="VEG">Vegetarian</option>
-                <option value="NONVEG">Non-Vegetarian</option>
-                <option value="VEGAN">Vegan</option>
-                <option value="OTHER">Other</option>
-              </select>
-              <label>Food Preference<span style="color:red;">*</span></label>
-            </div>
-            <div class="form-floating mb-3 col-sm-6">
-                <input type="text" class="form-control" id="medical" name="medical" placeholder="Medical Restrictions">
-                <label>Medical Restrictions </label>
-            </div>
-        </div>
 
 
         <div class="card shadow-sm mt-5 mb-5">
@@ -784,18 +768,37 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingSeven">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-        Accommodation
+        Accommodation and Food
       </button>
     </h2>
 
 
-    
-    
-    
-    <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
 
 
-    <div class="container my-1">
+    
+    
+    
+<div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+
+
+    <div class="container my-3">
+
+        <div class="row">
+          <div class="form-floating mb-3 col-sm-6">
+              <select class="form-select" name="foodPreference" required>
+                <option selected value="select">---Select---</option>
+                <option value="VEG">Vegetarian</option>
+                <option value="NONVEG">Non-Vegetarian</option>
+                <option value="VEGAN">Vegan</option>
+                <option value="OTHER">Other</option>
+              </select>
+              <label>Food Preference<span style="color:red;">*</span></label>
+            </div>
+            <div class="form-floating mb-3 col-sm-6">
+                <input type="text" class="form-control" id="medical" name="medical" placeholder="Health Restrictions">
+                <label>Health Restrictions</label>
+            </div>
+        </div>
 
 
       <div class="mt-3" style="font-size: 0.95rem; color:#012A4A;">
@@ -817,7 +820,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingSix">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-        Traveling Details
+        Travel
       </button>
     </h2>
     <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
@@ -850,6 +853,14 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
            </div>
         </div>
 
+        <div class="mt-3" style="font-size: 0.95rem; color:#012A4A;">
+        <strong>Note:</strong>
+        <ul>
+          <li>Like every year, the highest preference for on-campus accommodation will be given to the 50th-year senior participants. Due to the limited availability of rooms in TGH, preference will also be given to senior-most alumni, persons with disabilities (PWD), those with medical conditions requiring special facilities, and alumni accompanied by their families. Rest of the rooms will be allocated on a first-come-first-serve basis.</li>
+          <li><b>Kindly complete your registration and payment at the earliest to avail a better guest room.</b></li>
+        </ul>
+      </div>
+
 
       </div>
     </div>
@@ -881,12 +892,19 @@ function checkemailAvailability() {
 function calc_cost() {
   let totalCost = 15000;
   let relation = document.getElementById("acc_relation").value;
+  let name = document.getElementById("acc_name").value;
 
-  if (relation === "Nil" || relation === "") {
+  if (relation === "Non" || relation === "") {
     totalCost = 15000;
+    if(name == ""){
+      
+    }else{
+      totalCost += 7000;
+    }
   } else {
-    totalCost += 7000; // add extra cost for accompanying guest
+    totalCost += 7000;
   }
+
 
   document.getElementById("acp").value = totalCost;
 }
