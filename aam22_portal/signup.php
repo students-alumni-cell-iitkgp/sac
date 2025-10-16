@@ -554,7 +554,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
               <option value="MS">MS</option>
               <option value="Other">Other</option>
             </select>
-            <label for="degree">Degree<span style="color:red;">*</span></label>
+            <label for="degree">Degree (Mention the first Degree)<span style="color:red;">*</span></label>
           </div>
         </div>
 
@@ -603,7 +603,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             <option value="SWS">School of Water Resources</option>
             <option value="VGSOM">Vinod Gupta School of Management</option>
             </select>
-             <label>Department (Mention the first Degree)<span style="color:red;">*</span></label>
+             <label>Department<span style="color:red;">*</span></label>
           </div>
 
            <div class="form-floating mb-3 col-sm-6">
