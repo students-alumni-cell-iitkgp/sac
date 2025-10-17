@@ -36,6 +36,9 @@ include 'header_aam.php'; // include your updated header
     <div class="text-center">
         Welcome to the 22<sup>nd</sup> Annual Alumni Meet 2026
     </div>
+    <div class="text-center">
+        Batch of 1976 | 1986 | 2001
+    </div>
     <div class="text-center dateDiv">
         <span> 9<sup>th</sup> to 11<sup>th</sup> January 2026</span>
     </div>
