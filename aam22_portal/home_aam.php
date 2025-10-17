@@ -81,7 +81,7 @@ include 'header_aam.php'; // include your updated header
 <!-- Invite Friends Section -->
 <div class="invite-section">
   <h2>Get Your Batchmate to Register!</h2>
-  <p>Reunite and relive the memories!  
+  <p style="font-size:20px;">Reunite and relive the memories!  
      Invite your batchmates to join the <strong>22<sup>nd</sup> Annual Alumni Meet</strong>.</p>
 
   <button id="invite-btn" class="invite-btn">Share</button>
