@@ -117,8 +117,6 @@
 							<li><a class="dropdown-item" href="sponsors2012.php"> 2012 </a></li>
 						</ul>
 					</li>
-					<div class="btnAam"><li class="aamBtn"> <a class="nav-btn aamBtn" href="index.php">22nd AAM</a> </li></div>
-					
 				</ul>
 			</div>
 		</div>

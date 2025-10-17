@@ -187,7 +187,7 @@ body {
     border: 2px solid #012A4A;
     padding: 15px;
     margin: 20px auto;
-    width: 30%;
+    width: 300px;
 }
 
 /* ===== RESPONSIVE ===== */
@@ -670,7 +670,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingThree">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-        Companion
+        Payment Details
       </button>
     </h2>
 
