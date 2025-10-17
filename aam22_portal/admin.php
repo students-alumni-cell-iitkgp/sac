@@ -8,10 +8,20 @@ if (!isset($_SESSION['admin_logged_in'])) {
     header("Location: admin_login.php");
     exit;
 }
+$filter = isset($_GET['filter']) ? $_GET['filter'] : '';
 
-$stmt = $connection->prepare("SELECT id, name, email, mobile, yog, payment FROM AAM");
+if ($filter == 'PENDING' || $filter == 'PAID(Verified)') {
+    $stmt = $connection->prepare("SELECT id, name, email, mobile, yog, payment FROM AAM WHERE payment = ?");
+    $stmt->bind_param("s", $filter);
+} else {
+    $stmt = $connection->prepare("SELECT id, name, email, mobile, yog, payment FROM AAM");
+}
+
 $stmt->execute();
 $result = $stmt->get_result();
+$count = $result->num_rows;
+
+
 ?>
 
 <!DOCTYPE html>
@@ -36,15 +46,36 @@ $result = $stmt->get_result();
 
         h2 {
             text-align: center;
-            color: #fff;
-            text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: black;
+            text-shadow: 1px 1px 5px rgba(255, 255, 255, 0.5);
             margin-bottom: 30px;
+        }
+        h3 {
+            text-align: center;
+            font-size: 1.7rem;
+            font-weight: bold;
+            color: black;
+        }
+
+        .btn{
+            background-color: #1976D2;
+            color: white;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .btn:hover{
+            background-color: blue;
+            color: white;
         }
 
         .logout-btn {
             display: flex;
             justify-content: center;
             margin-bottom: 25px;
+            gap: 20px;
         }
 
         .dashboard-grid {
@@ -103,6 +134,13 @@ $result = $stmt->get_result();
             .alumni-card {
                 padding: 20px 15px;
             }
+            .logout-btn{
+                display: flex;
+                flex-direction: column;
+                width: 70%;
+                margin: auto;
+                gap: 10px;
+            }
         }
     </style>
 </head>
@@ -111,8 +149,23 @@ $result = $stmt->get_result();
 <div class="container">
     <h2>Admin Dashboard</h2>
     <div class="logout-btn">
-        <a href="logout_admin.php" class="btn btn-danger">Logout</a>
+        <a href="home_aam.php" class="btn">Home</a>
+        <a href="logout_admin.php" class="btn">Logout</a>
+        <a href="export_csv.php" class="btn">Download AAM csv</a>
+        <a href="export_transactions.php" class="btn">Download Transactions csv</a>
     </div>
+    <h3>Total Registrations: <?php echo $count; ?></h3>
+    
+<div class="logout-btn">
+    <form method="GET" action="">
+    <label for="filter" style="font-weight:bold;">Filter by Payment:</label>
+    <select name="filter" id="filter" onchange="this.form.submit()">
+        <option value="">-- All Payments --</option>
+        <option value="Paid" <?php if(isset($_GET['filter']) && $_GET['filter']=='Paid') echo 'selected'; ?>>Paid</option>
+        <option value="Unpaid" <?php if(isset($_GET['filter']) && $_GET['filter']=='Unpaid') echo 'selected'; ?>>Unpaid</option>
+    </select>
+    </form>
+</div>
 
     <div class="dashboard-grid">
         <?php while ($row = $result->fetch_assoc()): ?>

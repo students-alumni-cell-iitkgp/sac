@@ -840,7 +840,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
           </li>
         </ul>
         <p>
-         Kindly note that the current accommodation rate for a double-bedded room at the Technology Guest House is INR 2100 (inclusive of GST).
+         Kindly note that the current accommodation rate per day for a double-bedded room at the Technology Guest House is INR 2100 (inclusive of GST).
         </p>
       </div>
     </div>

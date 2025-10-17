@@ -195,8 +195,8 @@ $connection->close();
   <div class="card-header">Academic Details</div>
   <div class="card-body">
     <div class="row">
-      <div class="col-md-12 mb-3"><label>Position Holding</label><input class="form-control" value="<?= htmlspecialchars($user['positionHolding']); ?>" readonly></div>
-      <div class="col-md-8 mb-3"><label>Course</label><input class="form-control" value="<?= htmlspecialchars($user['course']); ?>" readonly></div>
+      <div class="col-md-12 mb-3"><label>Position Held in KGP</label><input class="form-control" value="<?= htmlspecialchars($user['positionHolding']); ?>" readonly></div>
+      <div class="col-md-8 mb-3"><label>Course Name</label><input class="form-control" value="<?= htmlspecialchars($user['course']); ?>" readonly></div>
       <div class="col-md-4 mb-3"><label>Degree</label><input class="form-control" value="<?= htmlspecialchars($user['degree']); ?>" readonly></div>
       <div class="col-md-3 mb-3"><label>Department</label><input class="form-control" value="<?= htmlspecialchars($user['dept']); ?>" readonly></div>
       <div class="col-md-3 mb-3"><label>Hall</label><input class="form-control" value="<?= htmlspecialchars($user['hall']); ?>" readonly></div>
@@ -237,7 +237,7 @@ $connection->close();
     </div>
 
     <div class="row mt-3">
-      <div class="col-md-12 mb-3"><label>Medical Restrictions</label><input class="form-control" value="<?= htmlspecialchars($user['medical']); ?>" readonly></div>
+      <div class="col-md-12 mb-3"><label>Health Restrictions</label><input class="form-control" value="<?= htmlspecialchars($user['medical']); ?>" readonly></div>
       <div class="col-md-6 mb-3"><label>Food Preference</label><input class="form-control" value="<?= htmlspecialchars($user['foodPreference']); ?>" readonly></div>
     <div class="col-6 mt-2">
         <label>Payment Status</label>
