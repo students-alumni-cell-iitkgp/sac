@@ -187,7 +187,7 @@ body {
     border: 2px solid #012A4A;
     padding: 15px;
     margin: 20px auto;
-    width: 30%;
+    width: 300px;
 }
 
 /* ===== RESPONSIVE ===== */
@@ -670,7 +670,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
   <div class="accordion-item">
     <h2 class="accordion-header" id="headingThree">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-        Companion
+        Payment Details
       </button>
     </h2>
 
@@ -701,9 +701,9 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                </tr>
              </tbody>
            </table>
-           <small class="text-muted">Registration Fee includes Food, Transportation and Registration Kit</small>
+           <small class="text-muted"><b>Registration Fee includes Food, Transportation, Registration Kit, etc.</b></small>
            <br>
-           <small class="text-muted">Kids below the age of 10 years, accompanying a participant, have no registration fee.</small>
+           <small class="text-muted"><b>Kids below the age of 10 years, accompanying a participant, have no registration fee.</b></small>
 
           <div class="row" style="margin-top: 15px">
             <div class="form-floating mb-3 col-sm-6">
@@ -722,9 +722,9 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
            </div>
 
            <div class="row" style="justify-content:center">
-           <div class="mb-3 col-sm-4">
-           Total Reg Fee : <input class="form-control" id="acp" name="acp" type="text" placeholder="15000" readonly>
-           </div>
+            <div class="mb-3 col-sm-4">
+            Total Reg Fee : <input class="form-control" id="acp" name="acp" type="text" placeholder="15000" readonly>
+            </div>
            </div>
 
 
@@ -805,35 +805,43 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
 
       <div class="mt-3" style="font-size: 0.95rem; color:#012A4A;">
-        <strong>Accomodation Policy:</strong>
+        <strong>Accommodation:</strong>
+        <p>We would be delighted to accommodate you on campus. However, please note that campus accommodation is limited, and we are expecting a higher turnout this Platinum Jubilee year. Therefore, most accommodations will be on a shared basis. We seek your kind understanding and cooperation in this regard.</p>
+
+      </div>
+
+      <div class="mt-3" style="font-size: 0.95rem; color:#012A4A;">
+        <strong>Accommodation Policy:</strong>
         <ul>
-          <li>
-            <p style="text-align: justify; line-height: 1.6; margin-bottom:10px;">
-              Like every year, the highest preference for on-campus accommodation will be given to the 50th-year senior participants. Additionally, preference will be given to senior-most alumni, persons with disabilities (PWD), those with medical conditions requiring special facilities, and alumni accompanied by their families. The remaining rooms will be allotted on a first-come, first-served basis.
-            </p>
-          </li>
-          <li>
-            <p style="text-align: justify; line-height: 1.6; margin-bottom:10px;">
-              In view of the increased number of participants, we will have to offer accommodation inside the campus on a sharing basis, except for families.
-            </p>
-          </li>
-          <li>
-            <p style="text-align: justify; line-height: 1.6; margin-bottom:10px;">
-              The Registration fee(s) will include the musical night/entertainment/events, registration kit, three days’ food in the arena, and local transport. Accommodation and other charges are to be borne by individuals and must be paid directly to the facility providers.
-            </p>
-          </li>
           <li>
             <p style="text-align: justify; line-height: 1.6; margin-bottom:10px;">
               The details of room allocation will be shared a week prior to the event.
             </p>
           </li>
           <li>
-            <p style="text-align: justify; line-height: 1.6; margin-bottom:10px;" class="bold">
-              <b>Participants are requested to complete registration and payment at the earliest to avail better accommodation options. Please share the transaction details with the Office of Alumni Affairs (<a href="mailto:alumni@hijli.iitkgp.ac.in">alumni@hijli.iitkgp.ac.in</a>)) for confirmation.</b>
+            <p style="text-align: justify; line-height: 1.6; margin-bottom:10px;">
+              In view of the increased number of participants, we will have to offer accommodation inside the campus on a sharing basis.
             </p>
           </li>
-        
+          <li>
+            <p style="text-align: justify; line-height: 1.6; margin-bottom:10px;">
+              ⁠In case of an overwhelming response, participants may be accommodated in nearby hotels. Further details will be shared later.
+            </p>
+          </li>
+          <li>
+            <p style="text-align: justify; line-height: 1.6; margin-bottom:10px;">
+              The Registration fee(s) will include the musical night/entertainment/events, registration kit, three days’ food in the arena, and local campus transportation. Technology Guest House charges including accommodation are to be borne by individuals and must be paid directly to the facility providers.
+            </p>
+          </li>
+          <li>
+            <p style="text-align: justify; line-height: 1.6; margin-bottom:10px;" class="bold">
+              Participants are requested to complete registration and the payment at the earliest and share the transaction details with the Office of Alumni Affairs (<a href="mailto:alumni@hijli.iitkgp.ac.in">alumni@hijli.iitkgp.ac.in</a>) for confirmation.
+            </p>
+          </li>
         </ul>
+        <p>
+         Kindly note that the current accommodation rate for a double-bedded room at the Technology Guest House is INR 2100 (inclusive of GST).
+        </p>
       </div>
     </div>
     </div>
@@ -878,9 +886,9 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         </div>
 
         <div class="mt-3" style="font-size: 0.95rem; color:#012A4A;">
-        <strong>Note:</strong>
+        <strong>Travel:</strong>
         <ul>
-          <li><b>Local transportation will be arranged for all participants on a group-wise basis during the Annual Alumni Meet.</b></li>
+          <li>Local transportation will be arranged for all participants on a group-wise basis during the period of the Annual Alumni Meet.</li>
         </ul>
       </div>
 

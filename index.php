@@ -88,7 +88,7 @@
 
 
 <body>
-    <?php include 'navbarNew.php' ?>
+    <?php include 'navbar.php' ?>
     <div id="carouselExampleIndicators" style="width:100%; height:100%" class="carousel slide hero-carousel" data-ride="carousel">
         <ol class="carousel-indicators">
             <!--<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
