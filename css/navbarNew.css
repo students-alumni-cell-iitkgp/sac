@@ -1,0 +1,91 @@
+.navbar {
+    font-size: 1.1rem;
+}
+
+.nav-link {
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+}
+
+.navbar-brand img {
+    height: 4.5rem;
+    /* width: 7rem; */
+}
+
+.nav-item:hover .nav-link {
+    background-color: gray;
+    border-radius: 2px;
+}
+
+.dropdown-menu {
+    display: none;
+    transition: all 2s ease-in;
+}
+
+.aamBtn{
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    background-color: gray;
+    border-radius: 2px;
+    background-color: #1679AB;
+    color: white;   
+    border-radius: 30px !important;
+}
+.aamBtn:hover{
+    background-color: #074173;
+    color: white;
+    border-radius: 30px !important;
+}
+
+
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    animation-name: delay;
+    animation-duration: 1.2s;
+    transition: 2s ease-in;
+}
+
+.dropdown:hover {
+    transition: 2s ease-in;
+    transition-delay: 2s;
+}
+
+.dropdown-item {
+    text-align: center !important;
+    padding-bottom: 10px !important;
+    padding-top: 10px !important;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.xyz {
+    padding-bottom: 10px;
+}
+
+@keyframes delay {
+    0% {
+        opacity: 0;
+    }
+    30% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
