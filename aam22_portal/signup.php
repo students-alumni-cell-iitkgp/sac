@@ -880,7 +880,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         <div class="mt-3" style="font-size: 0.95rem; color:#012A4A;">
         <strong>Note:</strong>
         <ul>
-          <li><b>Local transportation will be arranged for all participants on a group-wise basis.</b></li>
+          <li><b>Local transportation will be arranged for all participants on a group-wise basis during the Annual Alumni Meet.</b></li>
         </ul>
       </div>
 
