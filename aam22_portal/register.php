@@ -91,7 +91,7 @@ $yog = intval($_POST['yog'] ?? 0);
 
 $foodPreference = trim($_POST['foodPreference'] ?? '');
 $medical = trim($_POST['medical'] ?? '');
-$cost = floatval($_POST['acp'] ?? 0);
+$cost = floatval($_POST['acp'] ?? 15000);
 $profession = trim($_POST['profession'] ?? '');
 $organisation = trim($_POST['organisation'] ?? '');
 $designation = trim($_POST['designation'] ?? '');
