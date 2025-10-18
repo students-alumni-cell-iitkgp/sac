@@ -91,7 +91,7 @@ $yog = intval($_POST['yog'] ?? 0);
 
 $foodPreference = trim($_POST['foodPreference'] ?? '');
 $medical = trim($_POST['medical'] ?? '');
-$cost = floatval($_POST['acp'] ?? 15000);
+$cost = floatval($_POST['acp'] ?? 0);
 $profession = trim($_POST['profession'] ?? '');
 $organisation = trim($_POST['organisation'] ?? '');
 $designation = trim($_POST['designation'] ?? '');
@@ -109,6 +109,11 @@ $dateOfDep = normalize_date_for_mysql($_POST['dateOfDep'] ?? '');
 $timeOfArr = trim($_POST['timeOfArr'] ?? '');
 $timeOfDep = trim($_POST['timeOfDep'] ?? '');
 $arrivalMode = trim($_POST['arrivalMode'] ?? '');
+
+
+if ($cost == 0.00 || $cost == "0.00" || $cost == 0) {
+    $cost = 15000.00;
+}
 
 // Check duplicate email
 $checkStmt = $connection->prepare("SELECT id FROM AAM WHERE email=? LIMIT 1");

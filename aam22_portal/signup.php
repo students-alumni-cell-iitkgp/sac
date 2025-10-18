@@ -260,7 +260,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     $foodPreference = $_POST['foodPreference'] ?? '';
     $medical = $_POST['medical'] ?? '';
-    $cost = $_POST['acp'] ?? 15000;
+    $cost = $_POST['acp'] ?? 0;
     $profession = $_POST['profession'] ?? '';
     $designation = $_POST['designation'] ?? '';
     $organisation = $_POST['organisation'] ?? '';
