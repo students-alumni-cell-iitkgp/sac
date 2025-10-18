@@ -110,6 +110,11 @@ $timeOfArr = trim($_POST['timeOfArr'] ?? '');
 $timeOfDep = trim($_POST['timeOfDep'] ?? '');
 $arrivalMode = trim($_POST['arrivalMode'] ?? '');
 
+
+if ($cost == 0.00 || $cost == "0.00" || $cost == 0) {
+    $cost = 15000.00;
+}
+
 // Check duplicate email
 $checkStmt = $connection->prepare("SELECT id FROM AAM WHERE email=? LIMIT 1");
 $checkStmt->bind_param('s', $email);
