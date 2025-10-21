@@ -754,6 +754,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         <img src="./img/qrBank.jpg" alt="QR Code" class="img-fluid rounded" 
              style="max-width: 180px; border: 2px solid #014F86; padding: 5px; background: white;">
         <p class="mt-2 text-muted" style="font-size: 0.9rem;">Scan to Pay</p>
+        <small class="text-muted"><b>This QR Code is for Indian UPI Payments only.</b></small>
       </div>
     </div>
   </div>
