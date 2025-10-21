@@ -63,9 +63,10 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         }
 
         h2 {
+            font-size: 40px;
             text-align: center;
-            color: #fff;
-            text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+            color: black;
+            font-weight: 700;
             margin-bottom: 30px;
         }
 
@@ -74,6 +75,23 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             grid-template-columns: repeat(3, 1fr); /* 3 columns for desktop */
             gap: 20px;
             padding: 0 15px;
+        }
+        .logout-btn {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 25px;
+            gap: 20px;
+        }
+        .btn{
+            background-color: #1976D2;
+            color: white;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .btn:hover{
+            background-color: blue;
+            color: white;
         }
 
         /* For mobile screens: single column */
@@ -142,12 +160,30 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                 padding: 20px 15px;
             }
         }
+
+        @media (max-width: 576px) {
+            .alumni-card {
+                padding: 20px 15px;
+            }
+            .logout-btn{
+                display: flex;
+                flex-direction: column;
+                width: 70%;
+                margin: auto;
+                gap: 10px;
+            }
+        }
     </style>
 </head>
 <body>
 
 <div class="container mb-5">
     <h2>User Profile</h2>
+
+    <div class="logout-btn">
+        <a href="admin.php" class="btn">Admin Page</a>
+        <a href="logout_admin.php" class="btn">Logout</a>
+    </div>
 
     <div class="profile-grid">
         <!-- Personal Details -->
@@ -166,11 +202,11 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         <!-- Accompaniment & Food Preferences -->
         <div class="section-card">
             <h5>Accompaniment & Food Preferences</h5>
-            <p><b>Accompaniment Relation:</b> <?= htmlspecialchars($user['acc_relation']); ?></p>
-            <p><b>Accompaniment Name:</b> <?= htmlspecialchars($user['acc_name']); ?></p>
+            <p><b>Accompaniment Person Relation:</b> <?= htmlspecialchars($user['acc_relation']); ?></p>
+            <p><b>Accompaniment Person Name:</b> <?= htmlspecialchars($user['acc_name']); ?></p>
             <p><b>Food Preference:</b> <?= htmlspecialchars($user['foodPreference']); ?></p>
-            <p><b>Medical Restrictions:</b> <?= htmlspecialchars($user['medical']); ?></p>
-            <p><b>Cost:</b> <?= htmlspecialchars($user['cost']); ?></p>
+            <p><b>Health Restrictions:</b> <?= htmlspecialchars($user['medical']); ?></p>
+            <p><b>Total Fee:</b> <?= htmlspecialchars($user['cost']); ?></p>
             <p><b>Payment Status:</b> 
                 <span class="<?= $user['payment'] === 'PAID(Verified)' ? 'badge-paid' : 'badge-pending'; ?>">
                     <?= htmlspecialchars($user['payment']); ?>
@@ -195,7 +231,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         <!-- Academic Details -->
         <div class="section-card">
             <h5>Academic Details</h5>
-            <p><b>Position Holding:</b> <?= htmlspecialchars($user['positionHolding']); ?></p>
+            <p><b>Position Held in KGP:</b> <?= htmlspecialchars($user['positionHolding']); ?></p>
             <p><b>Course:</b> <?= htmlspecialchars($user['course']); ?></p>
             <p><b>Degree:</b> <?= htmlspecialchars($user['degree']); ?></p>
             <p><b>Department:</b> <?= htmlspecialchars($user['dept']); ?></p>
