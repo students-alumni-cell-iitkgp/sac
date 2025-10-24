@@ -90,7 +90,7 @@
 			</div>
 		</div>
 	</section>
-	<h1 class="aam">21th ANNUAL ALUMNI MEET</h1>
+	<h1 class="aam">21st ANNUAL ALUMNI MEET</h1>
 	<section class="section-3 pt-3">
 		<div class="container-fluid p-0">
 			<div style="padding:0 3rem;">
