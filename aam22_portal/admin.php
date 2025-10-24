@@ -161,8 +161,8 @@ $count = $result->num_rows;
     <label for="filter" style="font-weight:bold;">Filter by Payment:</label>
     <select name="filter" id="filter" onchange="this.form.submit()">
         <option value="">-- All Payments --</option>
-        <option value="Paid" <?php if(isset($_GET['filter']) && $_GET['filter']=='Paid') echo 'selected'; ?>>Paid</option>
-        <option value="Unpaid" <?php if(isset($_GET['filter']) && $_GET['filter']=='Unpaid') echo 'selected'; ?>>Unpaid</option>
+        <option value="PAID(Verified)" <?php if(isset($_GET['filter']) && $_GET['filter']=='PAID(Verified)') echo 'selected'; ?>>Paid</option>
+        <option value="PENDING" <?php if(isset($_GET['filter']) && $_GET['filter']=='PENDING') echo 'selected'; ?>>Unpaid</option>
     </select>
     </form>
 </div>

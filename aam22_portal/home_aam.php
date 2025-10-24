@@ -10,7 +10,7 @@ include 'header_aam.php'; // include your updated header
 
     <title>Home | 22nd Annual Alumni Meet</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/home_aam.css">
+    <link rel="stylesheet" href="./css/home_aam1.css">
 
 <style>
 
@@ -87,10 +87,10 @@ include 'header_aam.php'; // include your updated header
   <button id="invite-btn" class="invite-btn">Share</button>
 
   <div class="social-buttons" id="social-buttons" style="display:none;">
-    <a href="#" class="share-btn fb" id="share-facebook" title="Share on Facebook">Facebook</a>
-    <a href="#" class="share-btn wa" id="share-whatsapp" title="Share on WhatsApp">WhatsApp</a>
-    <a href="#" class="share-btn ig" id="share-instagram" title="Share on Instagram">Instagram</a>
-    <button class="share-btn copy" id="copy-link" title="Copy Link">Copy Link</button>
+    <a href="#" class="share-btnS social-icons fb" id="share-facebook" title="Share on Facebook"><img src="./img/fbIcon.png" alt="Facebook" /></a>
+    <a href="#" class="share-btnS social-icons wa" id="share-whatsapp" title="Share on WhatsApp"><img src="./img/wtspIcon.png" alt="Whatsapp" /></a>
+    <a href="#" class="share-btnS social-icons ig" id="share-instagram" title="Share on Instagram"><img src="./img/instaIcon.png" alt="Instagram" /></a>
+    <a class="share-btnS social-icons copy" id="copy-link" title="Copy Link"><img src="./img/copyIcon.png" alt="Copy Link" /></a>
   </div>
 
   <p id="copy-msg" style="display:none; color:#fff; margin-top:10px;">✅ Link copied to clipboard!</p>

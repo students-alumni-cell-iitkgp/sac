@@ -428,24 +428,22 @@ body {
   to { opacity: 1; transform: translateY(0); }
 }
 
-.share-btn {
-  padding: 12px 25px;
-  border-radius: 30px;
+.share-btnS {
+  background: rgba(0, 234, 255, 0.292);
+  padding: 12px 12px;
+  border-radius: 40px;
+  /* border-radius: 40px;
   color: white;
   font-weight: 600;
-  text-decoration: none;
+  text-decoration: none; */
   transition: transform 0.2s ease, background-color 0.3s ease;
 }
 
-.share-btn:hover {
-  transform: scale(1.1);
+.share-btnS:hover {
+  transform: scale(1.2);
 }
 
-/* Button Colors */
-.fb { background: #4267B2; }
-.wa { background: #25D366; }
-.ig { background: linear-gradient(45deg, #F58529, #DD2A7B, #8134AF); }
-.copy { background: #ffb703; color: #000; }
+
 
 @media (max-width: 1100px) {
   .flexdiv{
