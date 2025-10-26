@@ -55,6 +55,95 @@
       </div>
     </div>
 
+    <!--Alumni Talks 2025 -->
+
+    <section class="section-2">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-md-12 col-12">
+          <div class="panel panel1 text-center">
+            <h1 class="x">Alumni Talks</h1>
+            <div class="progress" style="height:0.4rem;">
+              <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
+            </div>
+            <br>
+            <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <h4 class="x">From College Corridor to the World of Entrepreneurship</h4>
+                  <div class="row">
+                    <div class="col-12 col-sm-4 align-items-center">
+
+
+                    </div>
+                    <div class="col-12 col-sm-4 align-items-center">
+                      <img src="AlumniTalks25\01.jpg" class="image img-responsive img-fluid" style="width: 20em;height:18em;">
+                      <h5 class="x">Mr. Rajiv Agarwal</h5>
+                      <h6 class="x">Founder & CEO, Eduverse Group</h6>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <h4 class="x">Exploring Artificial Intelligence:Talk & Hands-On Workshop</h4>
+                  <div class="row">
+                     
+                    <div class="col-12 col-sm-6 align-items-center">
+                      <img src="AlumniTalks25\02.jpg" class="image img-responsive img-fluid" style="width: 20em; height:18em;">
+                      <h5 class="x">Ms. Tannistha Maity</h5>
+                      <h6 class="x">Chief Instructor, Live AI</h6>
+                    </div>
+                    <div class="col-12 col-sm-6 align-items-center">
+                      <img src="AlumniTalks25\03.jpg" class="image img-responsive img-fluid" style="width: 20em; height:18em;">
+                      <h5 class="x">Mr. Vishal Kumar</h5>
+                      <h6 class="x">Founder, LWT <br>Partner, Live AI</h6>
+                    </div>
+                    
+                    <!-- <div class="col-12 col-sm-1 align-items-center">
+
+                    </div> -->
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <h2 class="x"><strong>THE STORYPRENEUER'S PLAYBOOK Launch</strong></h2>
+                  <h4 class="x">Storytelling for campus and career:<br>Excelling placements or Embarking on Entrepreneurship</h4>
+                  <div class="row">
+                     
+                    <div class="col-12 col-sm-6 align-items-center">
+                      <img src="AlumniTalks25\04.jpeg" class="image img-responsive img-fluid" style="width: 20em; height:18em;">
+                      <h5 class="x">Mr. Prateek Roy Chowdhury </h5>
+                      <h6 class="x">Recruitment Lead, Accenture S&C</h6>
+                    </div>
+                    <div class="col-12 col-sm-6 align-items-center">
+                      <img src="AlumniTalks25\05.jpeg" class="image img-responsive img-fluid" style="width: 20em; height:18em;">
+                      <h5 class="x">Mr. Nitin Babel</h5>
+                      <h6 class="x">Co-founder, Niki.ai<br>Director, Consumer Product-Zeno Health</h6>
+                    </div>
+                    
+                    <!-- <div class="col-12 col-sm-1 align-items-center">
+
+                    </div> -->
+                  </div>
+                </div>
+              
+                <a class="carousel-control-prev" style="justify-content: flex-start;" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon prev1" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" style="justify-content: flex-end;" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon next1" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  
     <!-- Alumni Talks 2024, BCG and VP Conclave -->
 
     <section class="section-2">
