@@ -72,7 +72,7 @@
 
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-pause="hover">
       <div class="carousel-inner">
-      <div class="carousel-item active">
+      <div class="carousel-item">
         <section class="section-2">
             <div class="container text-center">
               <div class="row">
@@ -329,6 +329,29 @@
                 </div>
           </section>
         </div>
+        <div class="carousel-item active"> 
+            <div class="container leadership-slide featured-slide text-center">
+              <h1 class="fs-title">Leadership Summit</h1>
+
+              
+              <div class="fs-divider"></div>
+
+              <h4 class="fs-sub"><i>Speaker of 2025 Leadership Summit</i></h4>
+
+              <div class="fs-speaker">
+                <img src="img/leadership_speakers/sundararamanramamurthy.webp"
+                    alt="Sundararaman Ramamurthy"
+                    class="speaker-img">
+                <p class="speaker-name">Sundararaman Ramamurthy</p>
+                <p class="speaker-role">CEO, Bombay Stock Exchange</p>
+                <a href="https://www.linkedin.com/in/..." target="_blank">
+                  <i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i>
+                </a>
+              </div>
+            </div>
+          </section>
+        </div>
+            
         
       </div>
       <a class="carousel-control-prev " href="#carouselExampleControls" role="button" data-slide="prev">

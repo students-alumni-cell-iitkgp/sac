@@ -403,3 +403,55 @@ main{
       width: 0;
     }
 }
+ /* ===============================
+   Leadership / Featured Slide Styles
+    =============================== */
+
+.featured-slide {
+  text-align: center;
+  padding: 2.2rem 1rem 3rem 1rem;
+  background: transparent;
+}
+
+/* Title */
+.featured-slide .fs-title {
+  font-size: 2.6rem;
+  font-weight: 700;
+  color: #1d3557;
+  margin: 0 0 0.6rem 0;
+}
+
+/* Divider (the horizontal line under title) */
+.featured-slide .fs-divider {
+  width: 60%;                  /* change width as needed */
+  height: 6px;                 /* thickness */
+  margin: 0.3rem auto 0.9rem auto;
+  background: #1d4b66;         /* line color */
+  border-radius: 4px;
+  box-shadow: 0 2px 0 rgba(0,0,0,0.05) inset;
+}
+
+/* Subtitle */
+.featured-slide .fs-sub {
+  font-size: 1.05rem;
+  color: #555;
+  margin: 0 0 1.4rem 0;
+  font-weight: 500;
+}
+
+/* Speaker card */
+.featured-slide .fs-speaker { max-width: 360px; margin: 0 auto; }
+.featured-slide .speaker-img {
+  width: 260px; height: 260px; object-fit: cover; border-radius: 6px;
+  display: block; margin: 0 auto 12px; box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
+.featured-slide .speaker-name { font-size: 1.25rem; font-weight: 600; margin-bottom: .2rem; }
+.featured-slide .speaker-role { color: #555; margin: 0; }
+
+/* responsive */
+@media (max-width: 767px) {
+  .featured-slide { padding: 1.2rem 0.6rem 2rem 0.6rem; }
+  .featured-slide .fs-title { font-size: 1.9rem; }
+  .featured-slide .fs-divider { width: 80%; height: 5px; margin-bottom: 1rem; }
+  .featured-slide .speaker-img { width: 180px; height: 180px; }
+}
