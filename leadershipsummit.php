@@ -56,7 +56,7 @@
             <div class="panel text-left">
               <h1 class="text-center">The Summit</h1>
               <div class="progress" style="height:0.4rem;">
-                <div id="one" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
+                <div id="one" class="progress-bar" role="progressbar" style="width: 100%; height:0.4rem;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" ></div>
               </div>
               <p class="pt-4" style="opacity: 1" align="justify">
                 <strong>Leadership Summit</strong>, organized
@@ -72,7 +72,7 @@
 
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-pause="hover">
       <div class="carousel-inner">
-      <div class="carousel-item">
+       <div class="carousel-item">
         <section class="section-2">
             <div class="container text-center">
               <div class="row">
@@ -157,9 +157,9 @@
                 </div>
           </section>
         </div>
-
+       </div>
         <div class="carousel-item">
-        <section class="section-2">
+          <section class="section-2">
             <div class="container text-center">
               <div class="row">
                 <div class="col-md-12 col-12">
@@ -241,11 +241,13 @@
                     </div>
                   </div>
                 </div>
+              </div>
+            </div>
           </section>
         </div>
 
         <div class="carousel-item">
-        <section class="section-2">
+          <section class="section-2">
             <div class="container text-center">
               <div class="row">
                 <div class="col-md-12 col-12">
@@ -330,6 +332,7 @@
           </section>
         </div>
         <div class="carousel-item active"> 
+          <section class="section-2">
             <div class="container leadership-slide featured-slide text-center">
               <h1 class="fs-title">Leadership Summit</h1>
 
@@ -339,7 +342,7 @@
               <h4 class="fs-sub"><i>Speaker of 2025 Leadership Summit</i></h4>
 
               <div class="fs-speaker">
-                <img src="img/leadership_speakers/sundararamanramamurthy.webp"
+                <img src="img\leadership_speakers\sundararamanramamurthy.webp"
                     alt="Sundararaman Ramamurthy"
                     class="speaker-img">
                 <p class="speaker-name">Sundararaman Ramamurthy</p>
