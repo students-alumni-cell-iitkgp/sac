@@ -349,7 +349,7 @@
                     class="speaker-img">
                 <p class="speaker-name">Sundararaman Ramamurthy</p>
                 <p class="speaker-role">CEO, Bombay Stock Exchange</p>
-                <a href="https://www.linkedin.com/in/..." target="_blank">
+                <a href="https://www.linkedin.com/in/sundararaman-r-152b7011?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
                   <i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i>
                 </a>
               </div>
