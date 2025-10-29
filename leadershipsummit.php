@@ -72,8 +72,8 @@
 
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-pause="hover">
       <div class="carousel-inner">
-       <div class="carousel-item">
-        <section class="section-2">
+        <div class="carousel-item">
+          <section class="section-2">
             <div class="container text-center">
               <div class="row">
                 <div class="col-md-12 col-12">
@@ -155,9 +155,11 @@
                     </div>
                   </div>
                 </div>
+              </div>
+            </div>
           </section>
+          
         </div>
-       </div>
         <div class="carousel-item">
           <section class="section-2">
             <div class="container text-center">
@@ -166,7 +168,7 @@
                   <div class="panel text-center">
                     <h1 class="x">Past Speakers</h1>
                     <div class="progress" style="height:0.4rem;">
-                      <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
+                      <div id="two" class="progress-bar" role="progressbar" style="width: 100%; height:0.4rem;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" ></div>
                     </div>
                     <br>
                     <h4><i>Day 2 speakers of 2020 Leadership Summit</i></h4>
