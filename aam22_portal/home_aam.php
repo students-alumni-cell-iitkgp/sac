@@ -10,7 +10,7 @@ include 'header_aam.php'; // include your updated header
 
     <title>Home | 22nd Annual Alumni Meet</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/home_aam1.css">
+    <link rel="stylesheet" href="./css/home_aam.css">
 
 <style>
 
@@ -62,6 +62,9 @@ include 'header_aam.php'; // include your updated header
 
 
 
+<div class="headr text-center my-4">
+        <img src="./img/webcoverOld.jpg" alt="Alumni Meet Webcover 2026 - Batches of 1976 | 1986 | 2001" class="countdown-bg">
+</div>
 
 <div class="headr text-center my-4">
         <img src="./img/home_aampic01.png" alt="Alumni Meet Banner" class="countdown-bg">

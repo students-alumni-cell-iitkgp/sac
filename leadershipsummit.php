@@ -56,7 +56,7 @@
             <div class="panel text-left">
               <h1 class="text-center">The Summit</h1>
               <div class="progress" style="height:0.4rem;">
-                <div id="one" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
+                <div id="one" class="progress-bar" role="progressbar" style="width: 100%; height:0.4rem;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" ></div>
               </div>
               <p class="pt-4" style="opacity: 1" align="justify">
                 <strong>Leadership Summit</strong>, organized
@@ -69,11 +69,35 @@
         </div>
       </div>
     </section>
-
+    
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-pause="hover">
       <div class="carousel-inner">
-      <div class="carousel-item active">
-        <section class="section-2">
+         <!--ikkada add cheyu -->
+        <div class="carousel-item active">  <!-- make this active if you want it first -->
+          <section class="section-2">
+            <div class="container leadership-slide featured-slide text-center">
+              <h1 class="fs-title">Leadership Summit</h1>
+
+              <!-- Divider line under title -->
+              <div class="fs-divider"></div>
+
+              <h4 class="fs-sub"><i>Speaker of 2025 Leadership Summit</i></h4>
+
+              <div class="fs-speaker">
+                <img src="img/leadership_speakers/sundararamanramamurthy.webp"
+                    alt="Sundararaman Ramamurthy"
+                    class="speaker-img">
+                <p class="speaker-name">Sundararaman Ramamurthy</p>
+                <p class="speaker-role">CEO, Bombay Stock Exchange</p>
+                <a href="https://www.linkedin.com/in/sundararaman-r-152b7011?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+                  <i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i>
+                </a>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="carousel-item">
+          <section class="section-2">
             <div class="container text-center">
               <div class="row">
                 <div class="col-md-12 col-12">
@@ -155,18 +179,20 @@
                     </div>
                   </div>
                 </div>
+              </div>
+            </div>
           </section>
+          
         </div>
-
         <div class="carousel-item">
-        <section class="section-2">
+          <section class="section-2">
             <div class="container text-center">
               <div class="row">
                 <div class="col-md-12 col-12">
                   <div class="panel text-center">
                     <h1 class="x">Past Speakers</h1>
                     <div class="progress" style="height:0.4rem;">
-                      <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
+                      <div id="two" class="progress-bar" role="progressbar" style="width: 100%; height:0.4rem;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" ></div>
                     </div>
                     <br>
                     <h4><i>Day 2 speakers of 2020 Leadership Summit</i></h4>
@@ -241,11 +267,13 @@
                     </div>
                   </div>
                 </div>
+              </div>
+            </div>
           </section>
         </div>
 
         <div class="carousel-item">
-        <section class="section-2">
+          <section class="section-2">
             <div class="container text-center">
               <div class="row">
                 <div class="col-md-12 col-12">
@@ -329,6 +357,8 @@
                 </div>
           </section>
         </div>
+        
+            
         
       </div>
       <a class="carousel-control-prev " href="#carouselExampleControls" role="button" data-slide="prev">
