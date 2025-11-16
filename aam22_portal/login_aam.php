@@ -184,6 +184,7 @@ body {
                 <input type="text" name="mobile" class="form-control" placeholder="Mobile" required>
             </div>
             <div class="mb-3">
+                <label for="dob" class="form-label">Date of Birth</label>
                 <input type="date" name="dob" class="form-control" placeholder="DD/MM/YYYY" required>
             </div>
 
