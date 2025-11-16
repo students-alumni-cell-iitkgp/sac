@@ -22,7 +22,7 @@ $ip = $_SERVER['REMOTE_ADDR'];
 $email = filter_var($_POST['email'], FILTER_SANITIZE_EMAIL);
 
 // limit: max 5 submissions per IP per hour
-$limit = 5;
+$limit = 15;
 
 // check how many times this IP has submitted in the last hour
 $sql = "SELECT COUNT(*) FROM submission_log WHERE ip = ? AND created_at >= (NOW() - INTERVAL 1 HOUR)";
