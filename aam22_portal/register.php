@@ -9,7 +9,7 @@ session_start();
 
 
 // DB connection
-include 'test.php'; //db connection on my pc
+// include 'test.php'; //db connection on my pc
 // include 'config.php';
 
 // Redirect if accessed directly
