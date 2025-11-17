@@ -2,7 +2,7 @@ html,
 body {
     width: 100vw;
     position: relative;
-    backdrop-filter: blur(8px);
+    backdrop-filter: blur(30px);
     min-height: 100vh;
     z-index: -88;
     display: flex;
