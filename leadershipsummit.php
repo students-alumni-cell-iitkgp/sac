@@ -69,34 +69,32 @@
         </div>
       </div>
     </section>
+
+    <section class="section-2">
+      <div class="container leadership-card text-center">
+        <h1 class="fs-title">Leadership Summit 2025</h1>
+        <div class="fs-divider"></div>
+        <h4 class="fs-sub"><i>Speaker of Leadership Summit 2025</i></h4>
+
+        <div class="speaker-card">
+          <img src="img/leadership_speakers/sundararamanramamurthy.webp"
+              alt="Sundararaman Ramamurthy"
+              class="speaker-photo">
+          <h3 class="speaker-name">Sundararaman Ramamurthy</h3>
+          <p class="speaker-role">CEO, Bombay Stock Exchange</p>
+          <a href="https://www.linkedin.com/in/sundararaman-r-152b7011?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            target="_blank"
+            class="speaker-link">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+    </section>
     
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-pause="hover">
       <div class="carousel-inner">
-         <!--ikkada add cheyu -->
-        <div class="carousel-item active">  <!-- make this active if you want it first -->
-          <section class="section-2">
-            <div class="container leadership-slide featured-slide text-center">
-              <h1 class="fs-title">Leadership Summit</h1>
-
-              <!-- Divider line under title -->
-              <div class="fs-divider"></div>
-
-              <h4 class="fs-sub"><i>Speaker of 2025 Leadership Summit</i></h4>
-
-              <div class="fs-speaker">
-                <img src="img/leadership_speakers/sundararamanramamurthy.webp"
-                    alt="Sundararaman Ramamurthy"
-                    class="speaker-img">
-                <p class="speaker-name">Sundararaman Ramamurthy</p>
-                <p class="speaker-role">CEO, Bombay Stock Exchange</p>
-                <a href="https://www.linkedin.com/in/sundararaman-r-152b7011?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
-                  <i class="icon1 fab fa-linkedin" aria-hidden="true" id="l-icon"></i>
-                </a>
-              </div>
-            </div>
-          </section>
-        </div>
-        <div class="carousel-item">
+        
+        <div class="carousel-item active">
           <section class="section-2">
             <div class="container text-center">
               <div class="row">
