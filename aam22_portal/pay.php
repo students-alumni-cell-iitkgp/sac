@@ -16,53 +16,46 @@ if (!isset($_SESSION['rzp_order_id'], $_SESSION['rzp_amount'], $_SESSION['email'
 
 <script>
 var options = {
-    "key": "rzp_test_RvN91s2LLwyZUS", // YOUR TEST KEY ID
-    "amount": <?= (int)$_SESSION['rzp_amount']; ?>, // integer (paise)
-    "currency": "INR",
-    "name": "Annual Alumni Meet",
-    "description": "Registration Fee",
-    "order_id": "<?= $_SESSION['rzp_order_id']; ?>",
+    key: "rzp_test_RvN91s2LLwyZUS", // TEST KEY ID
+    amount: <?= (int)$_SESSION['rzp_amount']; ?>, // paise (integer)
+    currency: "INR",
+    name: "Annual Alumni Meet",
+    description: "Registration Fee",
+    order_id: "<?= $_SESSION['rzp_order_id']; ?>",
 
-    "prefill": {
-        "email": "<?= $_SESSION['email']; ?>"
+    prefill: {
+        email: "<?= $_SESSION['email']; ?>"
     },
 
-    "handler": function (response) {
+    handler: function (response) {
         fetch("verify_payment.php", {
             method: "POST",
-            headers: {
-                "Content-Type": "application/json"
-            },
+            headers: { "Content-Type": "application/json" },
             body: JSON.stringify(response)
         })
         .then(res => res.json())
         .then(data => {
-            if (data.status === "success") {
-                alert("Payment successful!");
-                window.location.href = "profile_aam.php";
-            } else {
-                alert("Payment verification failed.");
-                window.location.href = "profile_aam.php";
+            if (data.redirect) {
+                window.location.href = data.redirect;
             }
-        })
-        .catch(() => {
-            alert("Verification error.");
-            window.location.href = "profile_aam.php";
         });
     },
 
-    "theme": {
-        "color": "#014f86"
+    theme: {
+        color: "#014f86"
     }
 };
 
 var rzp = new Razorpay(options);
 
-/* Handle payment failure */
-rzp.on('payment.failed', function (response){
-    console.error(response.error);
-    alert("Payment failed or cancelled.");
-    window.location.href = "profile_aam.php";
+rzp.on('payment.failed', function () {
+    fetch("verify_payment.php", { method: "POST" })
+    .then(res => res.json())
+    .then(data => {
+        if (data.redirect) {
+            window.location.href = data.redirect;
+        }
+    });
 });
 
 rzp.open();
