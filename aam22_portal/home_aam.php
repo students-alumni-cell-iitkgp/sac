@@ -54,8 +54,9 @@ include 'header_aam.php'; // include your updated header
     <span class="notes-text">Please register for the 22<sup>nd</sup> Annual Alumni Meet to relive old memories and celebrate with your batchmates!</span>
     <br>
     <br>
-    <a href="signup.php" class="btn btn-lg mx-4 px-10" style="background-color: #1976D2; color: white;">Register</a>
-    <a href="login_aam.php" class="btn btn-lg mx-4 px-10" style="background-color: #1976D2; color: white;">Login</a>
+    <span class="red notes-text"> Website is under maintenance! Please check back later.</span>
+    <!-- <a href=".php" class="btn btn-lg mx-4 px-10" style="background-color: #1976D2; color: white;">Register</a>
+    <a href=".php" class="btn btn-lg mx-4 px-10" style="background-color: #1976D2; color: white;">Login</a> -->
 </div>
 
 

@@ -335,11 +335,22 @@ $connection->close();
         <input class="form-control" value="<?= htmlspecialchars($user['foodPreference']); ?>" readonly>
       </div>
       <div class="col-6 mt-2">
-        <label>Payment Status</label>
+      <label>Payment Status</label>
+
         <div class="payment-status <?= ($user['payment'] === 'PENDING') ? 'payment-pending' : 'payment-complete'; ?>">
             <?= htmlspecialchars($user['payment']); ?>
         </div>
+
+        <?php if ($user['payment'] === 'PENDING'): ?>
+            <a href="create_order.php" class="btn-save mt-2 d-inline-block text-center">
+                Pay Now
+            </a>
+        <?php endif; ?>
+
+
       </div>
+
+
     </div>
   </div>
 </div>
