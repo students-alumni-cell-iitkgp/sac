@@ -33,7 +33,7 @@ if (!$userRow) {
 }
 
 /* ---------- PAYMENT STATUS CHECK ---------- */
-if ($userRow['payment'] !== 'pending') {
+if ($userRow['payment'] !== 'PENDING') {
     header("Location: profile_aam.php");
     exit;
 }

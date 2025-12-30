@@ -341,7 +341,7 @@ $connection->close();
             <?= htmlspecialchars($user['payment']); ?>
         </div>
 
-        <?php if ($user['payment'] === 'pending'): ?>
+        <?php if ($user['payment'] === 'PENDING'): ?>
             <a href="create_order.php" class="btn-save mt-2 d-inline-block text-center">
                 Pay Now
             </a>
