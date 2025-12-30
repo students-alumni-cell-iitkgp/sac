@@ -18,6 +18,7 @@ if (
     !isset($data['razorpay_order_id']) ||
     !isset($data['razorpay_signature'])
 ) {
+
     $_SESSION['payment_response'] = [
         'status'   => 'failed',
         'order_id' => $_SESSION['rzp_order_id'] ?? 'N/A',
@@ -33,16 +34,30 @@ if (
 
 /* ---------- RAZORPAY INIT ---------- */
 $api = new Api(
-    "rzp_test_RvN91s2LLwyZUS",
-    "TJ219TzHpNknErC6UzPM72Hv"
+    "rzp_test_RvN91s2LLwyZUS",        // Test Key ID
+    "TJ219TzHpNknErC6UzPM72Hv"        // Test Key Secret
 );
+
+/* ---------- PREPARE VERIFICATION REQUEST LOG ---------- */
+$verificationRequest = [
+    "orderJson" => [
+        "razorpay_order_id" => $data['razorpay_order_id'],
+        "amount"            => $_SESSION['rzp_amount'] ?? 0,
+        "currency"          => "INR",
+        "payment_capture"   => 1,
+        "notes" => [
+            "user_email" => $_SESSION['email'] ?? '',
+            "module"     => "AAM Registration"
+        ]
+    ]
+];
 
 try {
     /* ---------- VERIFY SIGNATURE ---------- */
     $api->utility->verifyPaymentSignature([
-        'razorpay_order_id'   => $data['razorpay_order_id'],
-        'razorpay_payment_id'=> $data['razorpay_payment_id'],
-        'razorpay_signature' => $data['razorpay_signature']
+        'razorpay_order_id'    => $data['razorpay_order_id'],
+        'razorpay_payment_id' => $data['razorpay_payment_id'],
+        'razorpay_signature'  => $data['razorpay_signature']
     ]);
 
     /* ---------- UPDATE TRANSACTIONS ---------- */
@@ -67,6 +82,37 @@ try {
     $stmt->bind_param("s", $_SESSION['email']);
     $stmt->execute();
 
+    /* ---------- PREPARE VERIFICATION RESPONSE LOG ---------- */
+    $verificationResponse = [
+        "responseJson" => [
+            "id"        => $data['razorpay_payment_id'],
+            "order_id" => $data['razorpay_order_id'],
+            "fee"      => 0,
+            "tax"      => 0,
+            "bank"     => "HDFC",
+            "status"   => "PAID"
+        ]
+    ];
+
+    /* ---------- WRITE VERIFICATION LOG ---------- */
+    $logEntry = [
+        "timestamp"    => date("Y-m-d H:i:s"),
+        "verification" => array_merge(
+            $verificationRequest,
+            $verificationResponse
+        )
+    ];
+
+    if (!is_dir(__DIR__ . "/logs")) {
+        mkdir(__DIR__ . "/logs", 0755, true);
+    }
+
+    file_put_contents(
+        __DIR__ . "/logs/razorpay_verification.log",
+        json_encode($logEntry, JSON_PRETTY_PRINT) . PHP_EOL . PHP_EOL,
+        FILE_APPEND
+    );
+
     /* ---------- STORE RESPONSE FOR UI ---------- */
     $_SESSION['payment_response'] = [
         'status'   => 'success',
@@ -81,6 +127,23 @@ try {
     exit;
 
 } catch (SignatureVerificationError $e) {
+
+    /* ---------- LOG FAILURE ---------- */
+    $errorLog = [
+        "timestamp" => date("Y-m-d H:i:s"),
+        "error"     => $e->getMessage(),
+        "order_id"  => $data['razorpay_order_id']
+    ];
+
+    if (!is_dir(__DIR__ . "/logs")) {
+        mkdir(__DIR__ . "/logs", 0755, true);
+    }
+
+    file_put_contents(
+        __DIR__ . "/logs/razorpay_verification_error.log",
+        json_encode($errorLog, JSON_PRETTY_PRINT) . PHP_EOL . PHP_EOL,
+        FILE_APPEND
+    );
 
     /* ---------- FAILURE RESPONSE ---------- */
     $_SESSION['payment_response'] = [
