@@ -342,8 +342,8 @@ $connection->close();
         </div>
 
         <?php if ($user['payment'] === 'PENDING'): ?>
-            <a href="create_order.php" class="btn-save mt-2 d-inline-block text-center">
-                Pay Now
+            <a href="payment_review.php" class="btn-save mt-2 d-inline-block text-center">
+                Pay Registration Fee
             </a>
         <?php endif; ?>
 
