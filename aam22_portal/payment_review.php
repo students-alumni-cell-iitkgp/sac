@@ -50,7 +50,7 @@ $amount = (float)$user['cost'];
             background: #fff;
             padding: 30px;
             border-radius: 12px;
-            width: 420px;
+            width: 500px;
             box-shadow: 0 10px 25px rgba(0,0,0,0.15);
         }
         .card h2 {
@@ -76,7 +76,8 @@ $amount = (float)$user['cost'];
         }
         .btn {
             display: block;
-            width: 100%;
+            width: 90%;
+            margin: 0 auto;
             padding: 12px;
             background: #014f86;
             color: white;
@@ -122,7 +123,7 @@ $amount = (float)$user['cost'];
         Amount Payable: ₹<?= number_format($amount, 2) ?>
     </div>
 
-    <a href="create_order.php" class="btn">Proceed to Pay</a>
+    <a href="create_payment_link.php" class="btn">Proceed to Pay</a>
 
     <div class="note">
         You will be redirected to a secure payment page.
@@ -131,3 +132,6 @@ $amount = (float)$user['cost'];
 
 </body>
 </html>
+
+
+
