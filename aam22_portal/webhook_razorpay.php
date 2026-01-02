@@ -56,15 +56,30 @@ if ($event === 'payment.captured') {
     $stmt->execute();
 
     /* Update AAM table */
+    /* ---------- FETCH USER EMAIL ---------- */
     $stmt = $connection->prepare("
-        UPDATE AAM
-        SET payment = 'PAID(Verified)'
-        WHERE email = (
-            SELECT user_email FROM transactions WHERE razorpay_order_id = ?
-        )
+    SELECT user_email 
+    FROM transactions 
+    WHERE razorpay_order_id = ?
+    LIMIT 1
     ");
     $stmt->bind_param("s", $orderId);
     $stmt->execute();
+    $result = $stmt->get_result()->fetch_assoc();
+
+    if ($result && !empty($result['user_email'])) {
+
+    $userEmail = $result['user_email'];
+
+    /* ---------- UPDATE AAM TABLE ---------- */
+    $stmt = $connection->prepare("
+        UPDATE AAM
+        SET payment = 'PAID(Verified)'
+        WHERE email = ?
+    ");
+    $stmt->bind_param("s", $userEmail);
+    $stmt->execute();
+    }
 }
 
 /* ---------- PAYMENT FAILED ---------- */
