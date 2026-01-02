@@ -10,90 +10,64 @@ use Razorpay\Api\Errors\SignatureVerificationError;
 
 /* ---------- CONFIG ---------- */
 $WEBHOOK_SECRET = "S@C_Razorpay@Webhook@2025"; // SAME as dashboard
-/* ===============================
-   DEBUG LOG (DO NOT REMOVE)
-   =============================== */
-file_put_contents(
-    __DIR__ . '/logs/webhook.log',
-    date('Y-m-d H:i:s') . " WEBHOOK HIT\n",
-    FILE_APPEND
-);
 
-/* ===============================
-   READ PAYLOAD
-   =============================== */
-$payload   = file_get_contents('php://input');
-$headers   = getallheaders();
-$signature = $headers['X-Razorpay-Signature'] ?? '';
 
-/* ===============================
-   VERIFY SIGNATURE
-   =============================== */
+/* ---------- READ PAYLOAD ---------- */
+$payload = file_get_contents('php://input');
+$headers = getallheaders();
+
+$razorpaySignature = $headers['X-Razorpay-Signature'] ?? '';
+
+/* ---------- VERIFY SIGNATURE ---------- */
 try {
-    Api::verifyWebhookSignature($payload, $signature, $WEBHOOK_SECRET);
-} catch (SignatureVerificationError $e) {
+    $api = new Api('dummy', 'dummy'); // keys not needed for verification
 
-    file_put_contents(
-        __DIR__ . '/logs/webhook.log',
-        date('Y-m-d H:i:s') . " SIGNATURE FAILED\n",
-        FILE_APPEND
+    $api->utility->verifyWebhookSignature(
+        $payload,
+        $razorpaySignature,
+        $WEBHOOK_SECRET
     );
-
+} catch (SignatureVerificationError $e) {
     http_response_code(400);
     exit('Invalid signature');
 }
 
-/* ===============================
-   PARSE EVENT
-   =============================== */
+/* ---------- PARSE EVENT ---------- */
 $data  = json_decode($payload, true);
 $event = $data['event'] ?? '';
 
-file_put_contents(
-    __DIR__ . '/logs/webhook.log',
-    date('Y-m-d H:i:s') . " EVENT: $event\n",
-    FILE_APPEND
-);
+/* ---------- HANDLE EVENTS ---------- */
 
-/* ===============================
-   PAYMENT CAPTURED
-   =============================== */
 if ($event === 'payment.captured') {
 
-    $payment   = $data['payload']['payment']['entity'];
+    $payment = $data['payload']['payment']['entity'];
+
     $paymentId = $payment['id'];
     $orderId   = $payment['order_id'];
+    $amount    = $payment['amount']; // in paise
 
-    // 1️⃣ Update TRANSACTIONS (idempotent)
+    /* Update transactions */
     $stmt = $connection->prepare("
         UPDATE transactions
         SET razorpay_payment_id = ?, payment_status = 'PAID(Verified)'
         WHERE razorpay_order_id = ?
-        AND payment_status != 'PAID(Verified)'
     ");
     $stmt->bind_param("ss", $paymentId, $orderId);
     $stmt->execute();
 
-    // 2️⃣ Update AAM USING JOIN (CRITICAL FIX)
+    /* Update AAM table */
     $stmt = $connection->prepare("
-        UPDATE AAM a
-        INNER JOIN transactions t ON t.user_email = a.email
-        SET a.payment = 'PAID(Verified)'
-        WHERE t.razorpay_order_id = ?
+        UPDATE AAM
+        SET payment = 'PAID(Verified)'
+        WHERE email = (
+            SELECT user_email FROM transactions WHERE razorpay_order_id = ?
+        )
     ");
     $stmt->bind_param("s", $orderId);
     $stmt->execute();
-
-    file_put_contents(
-        __DIR__ . '/logs/webhook.log',
-        date('Y-m-d H:i:s') . " UPDATED ORDER: $orderId\n",
-        FILE_APPEND
-    );
 }
 
-/* ===============================
-   PAYMENT FAILED (OPTIONAL)
-   =============================== */
+/* ---------- PAYMENT FAILED ---------- */
 if ($event === 'payment.failed') {
 
     $payment = $data['payload']['payment']['entity'];
@@ -106,13 +80,7 @@ if ($event === 'payment.failed') {
     ");
     $stmt->bind_param("s", $orderId);
     $stmt->execute();
-
-    file_put_contents(
-        __DIR__ . '/logs/webhook.log',
-        date('Y-m-d H:i:s') . " PAYMENT FAILED: $orderId\n",
-        FILE_APPEND
-    );
 }
 
+echo 'OK';
 http_response_code(200);
-echo "OK";
