@@ -154,6 +154,9 @@ body {
     margin: 2px auto;
     width: 80%;
 }
+.black{
+    color: black;
+}
 
 @media (max-width: 768px) {
 .logoContainer{
@@ -184,7 +187,7 @@ body {
                 <input type="text" name="mobile" class="form-control" placeholder="Mobile" required>
             </div>
             <div class="mb-3">
-                <label for="dob" class="form-label">Date of Birth</label>
+                <label for="dob" class="form-label black">Date of Birth</label>
                 <input type="date" name="dob" class="form-control" placeholder="DD/MM/YYYY" required>
             </div>
 
