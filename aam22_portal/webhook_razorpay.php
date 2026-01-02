@@ -9,7 +9,7 @@ use Razorpay\Api\Api;
 use Razorpay\Api\Errors\SignatureVerificationError;
 
 /* ---------- CONFIG ---------- */
-$WEBHOOK_SECRET = "S@C_WebHook_Razoepay_AAM22"; // SAME as dashboard
+$WEBHOOK_SECRET = "S@C_WebHook_Razorpay_AAM22"; // SAME as dashboard
 
 /* ---------- READ PAYLOAD ---------- */
 $payload = file_get_contents('php://input');

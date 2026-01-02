@@ -181,6 +181,7 @@ $amountInr = number_format($data['amount'] / 100, 2);
 
             <input type="hidden" name="name" value="Annual Alumni Meet">
             <input type="hidden" name="description" value="AAM Registration Fee">
+
             <input type="hidden" name="image" value="https://cdn.razorpay.com/logos/BUVwvgaqVByGp2_large.jpg"/>
 
             <input type="hidden" name="prefill[name]" value="<?= htmlspecialchars($data['name']); ?>">
