@@ -369,7 +369,7 @@ $connection->close();
       <!-- Pay Button -->
       <?php if ($user['payment'] === 'PENDING'): ?>
       <div class="col-12 text-center mt-3">
-        <a href="create_payment_link.php" class="btn-save d-inline-block">
+        <a href="create_order.php" class="btn-save d-inline-block">
           Pay Registration Fee
         </a>
       </div>
