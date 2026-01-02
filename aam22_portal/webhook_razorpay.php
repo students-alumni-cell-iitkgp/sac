@@ -16,6 +16,13 @@ $WEBHOOK_SECRET = "S@C_Razorpay@Webhook@2025"; // SAME as dashboard
 $payload = file_get_contents('php://input');
 $headers = getallheaders();
 
+file_put_contents(
+    __DIR__ . '/logs/razorpay_webhook.log',
+    "==== " . date('Y-m-d H:i:s') . " ====\n" .
+    $payload . "\n\n",
+    FILE_APPEND
+);
+
 $razorpaySignature = $headers['X-Razorpay-Signature'] ?? '';
 
 /* ---------- VERIFY SIGNATURE ---------- */
