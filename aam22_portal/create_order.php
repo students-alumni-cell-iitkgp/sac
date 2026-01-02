@@ -5,27 +5,65 @@ include 'test.php';
 
 use Razorpay\Api\Api;
 
+if (!isset($_SESSION['email'])) {
+    header("Location: login_aam.php");
+    exit;
+}
+
 $email = $_SESSION['email'];
 
-/* Fetch amount */
-$stmt = $connection->prepare("SELECT cost FROM AAM WHERE email=?");
+/* Fetch user */
+$stmt = $connection->prepare("
+    SELECT name, email, mobile, cost 
+    FROM AAM WHERE email=?
+");
 $stmt->bind_param("s", $email);
 $stmt->execute();
-$row = $stmt->get_result()->fetch_assoc();
+$user = $stmt->get_result()->fetch_assoc();
 
-$amount = (int)($row['cost'] * 100);
+if (!$user) {
+    die("User not found");
+}
 
+/* Amount in paise */
+$amount = (int) round($user['cost'] * 100);
+
+/* Razorpay init */
+// $api = new Api("rzp_test_XXXXXXXX", "XXXXXXXXXXXX");
 $api = new Api("rzp_test_RyWze7Pal9awaf", "cLFBBarWVqZ0dBjoPaIbxGqy");
 
+/* Create order */
 $order = $api->order->create([
     'amount' => $amount,
     'currency' => 'INR',
+    'receipt' => uniqid('AAM_'),
     'payment_capture' => 1
 ]);
 
-$_SESSION['rzp_order_id'] = $order['id'];
-$_SESSION['rzp_amount']  = $amount;
+/* Store order in DB */
+$stmt = $connection->prepare("
+    INSERT INTO transactions
+    (user_email, user_name, mobile, transaction_id, razorpay_order_id, payment_status)
+    VALUES (?, ?, ?, ?, ?, 'PENDING')
+");
+$stmt->bind_param(
+    "sssss",
+    $user['email'],
+    $user['name'],
+    $user['mobile'],
+    $order['receipt'],
+    $order['id']
+);
+$stmt->execute();
 
-/* REDIRECT TO HOSTED CHECKOUT */
-header("Location: https://api.razorpay.com/v1/checkout/embedded?order_id=" . $order['id']);
+/* Store for checkout page */
+$_SESSION['rzp_order'] = [
+    'order_id' => $order['id'],
+    'amount'   => $amount,
+    'name'     => $user['name'],
+    'email'    => $user['email'],
+    'mobile'   => $user['mobile']
+];
+
+header("Location: hosted_checkout.php");
 exit;
