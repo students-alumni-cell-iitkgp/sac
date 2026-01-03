@@ -1,54 +1,27 @@
 <?php
-require __DIR__ . '/vendor/autoload.php';
 include 'test.php';
 
-use Razorpay\Api\Api;
-use Razorpay\Api\Errors\SignatureVerificationError;
+/* Razorpay sends at least order_id */
+$orderId = $_POST['razorpay_order_id'] ?? null;
 
-/* ---------- READ POST DATA ---------- */
-$paymentId = $_POST['razorpay_payment_id'] ?? null;
-$orderId   = $_POST['razorpay_order_id'] ?? null;
-$signature = $_POST['razorpay_signature'] ?? null;
-
-$status  = 'FAILED';
-$message = 'Payment failed or cancelled.';
+$status  = 'PROCESSING';
+$message = 'Payment received. Confirmation in progress.';
 $amount  = 0;
 
-/* ---------- VERIFY IF DATA PRESENT ---------- */
-if ($paymentId && $orderId && $signature) {
+if ($orderId) {
+    /* Fetch amount from transactions */
+    $stmt = $connection->prepare("
+        SELECT amount FROM transactions
+        WHERE razorpay_order_id = ?
+        ORDER BY created_at DESC
+        LIMIT 1
+    ");
+    $stmt->bind_param("s", $orderId);
+    $stmt->execute();
+    $row = $stmt->get_result()->fetch_assoc();
 
-    try {
-        $api = new Api(
-            'rzp_test_RvN91s2LLwyZUS',
-            'TJ219TzHpNknErC6UzPM72Hv'
-        );
-
-        $api->utility->verifyPaymentSignature([
-            'razorpay_order_id'   => $orderId,
-            'razorpay_payment_id'=> $paymentId,
-            'razorpay_signature' => $signature
-        ]);
-
-        $status  = 'SUCCESS';
-        $message = 'Payment completed successfully.';
-
-        /* Fetch amount ONLY for display */
-        $stmt = $connection->prepare("
-            SELECT cost FROM AAM
-            WHERE email = (
-                SELECT user_email FROM transactions WHERE razorpay_order_id = ?
-            )
-        ");
-        $stmt->bind_param("s", $orderId);
-        $stmt->execute();
-        $row = $stmt->get_result()->fetch_assoc();
-
-        if ($row) {
-            $amount = (float)$row['cost'];
-        }
-
-    } catch (SignatureVerificationError $e) {
-        $message = 'Payment verification failed.';
+    if ($row) {
+        $amount = $row['amount'] / 100;
     }
 }
 ?>
@@ -75,8 +48,7 @@ if ($paymentId && $orderId && $signature) {
             text-align:center;
             box-shadow:0 10px 25px rgba(0,0,0,0.15);
         }
-        .success { color:#0f5132; }
-        .failed { color:#842029; }
+        .processing { color:#856404; }
         .btn {
             display:inline-block;
             margin-top:20px;
@@ -91,9 +63,7 @@ if ($paymentId && $orderId && $signature) {
 <body>
 
 <div class="box">
-    <h2 class="<?= $status === 'SUCCESS' ? 'success' : 'failed'; ?>">
-        <?= $status; ?>
-    </h2>
+    <h2 class="processing">PAYMENT RECEIVED</h2>
 
     <p><b>Order Number:</b><br><?= htmlspecialchars($orderId ?? 'N/A'); ?></p>
     <p><b>Amount:</b><br>₹<?= number_format($amount, 2); ?></p>
