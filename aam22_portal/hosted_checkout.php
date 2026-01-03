@@ -179,7 +179,7 @@ $amountInr = number_format($data['amount'] / 100, 2);
             <input type="hidden" name="currency" value="INR">
             <input type="hidden" name="order_id" value="<?= $data['order_id']; ?>">
 
-            <input type="hidden" name="name" value="Annual Alumni Meet">
+            <input type="hidden" name="name" value="IIT KHARAGPUR ALUMNI EVENT FUND">
             <input type="hidden" name="description" value="AAM Registration Fee">
 
             <input type="hidden" name="image" value="https://cdn.razorpay.com/logos/BUVwvgaqVByGp2_large.jpg"/>
