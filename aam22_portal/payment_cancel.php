@@ -17,7 +17,6 @@ $amountInr = $amount > 0 ? number_format($amount / 100, 2) : '0.00';
 <title>Payment Cancelled</title>
 <style>
     body {
-        background: #f8f9fa;
         font-family: Arial, sans-serif;
         background: url(./aa2a.webp) no-repeat center center fixed;
         background-size: cover;
