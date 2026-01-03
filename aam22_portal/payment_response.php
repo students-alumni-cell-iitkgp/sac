@@ -16,11 +16,19 @@ if ($paymentId) {
 
     // Optional: fetch amount for display
     $stmt = $connection->prepare("
-        SELECT amount FROM transactions
-        WHERE razorpay_order_id = ?
-        ORDER BY created_at DESC
+        SELECT A.cost
+        FROM AAM A
+        JOIN transactions T ON T.user_email = A.email
+        WHERE T.razorpay_order_id = ?
+        ORDER BY T.id DESC
         LIMIT 1
     ");
+    $stmt->bind_param("s", $orderId);
+    
+    $stmt->execute();
+    $row = $stmt->get_result()->fetch_assoc();
+
+    $amount = $row ? (float)$row['cost'] : 0;
     $stmt->bind_param("s", $orderId);
     $stmt->execute();
     $row = $stmt->get_result()->fetch_assoc();
