@@ -74,9 +74,9 @@ include 'header_aam.php'; // include your updated header
 <div class="headr text-center my-5">
     <h3 class="mb-4" style="color:#012a4a; font-weight:700;">Tentative Itinerary of 22<sup>nd</sup> Annual Alumni Meet ( 9<sup>th</sup> to 11<sup>th</sup> January 2026 )</h3>
     <div class="itenary-grid">
-        <img src="./img/itenary1.png" alt="Itinerary Day 1" class="itenary-img">
-        <img src="./img/itenary2.png" alt="Itinerary Day 2" class="itenary-img">
-        <img src="./img/itenary3.png" alt="Itinerary Day 3" class="itenary-img">
+        <img src="./img/itenary_1.jpg" alt="Itinerary Day 1" class="itenary-img">
+        <img src="./img/itenary_2.jpg" alt="Itinerary Day 2" class="itenary-img">
+        <img src="./img/itenary_3.jpg" alt="Itinerary Day 3" class="itenary-img">
     </div>
 </div>
 
