@@ -55,8 +55,8 @@ include 'header_aam.php'; // include your updated header
     <br>
     <br>
     <span class="red notes-text"> Website is under maintenance! Please check back later.</span>
-    <!-- <a href=".php" class="btn btn-lg mx-4 px-10" style="background-color: #1976D2; color: white;">Register</a>
-    <a href=".php" class="btn btn-lg mx-4 px-10" style="background-color: #1976D2; color: white;">Login</a> -->
+    <a href="signup.php" class="btn btn-lg mx-4 px-10" style="background-color: #1976D2; color: white;">Register</a>
+    <a href="login_aam.php" class="btn btn-lg mx-4 px-10" style="background-color: #1976D2; color: white;">Login</a>
 </div>
 
 

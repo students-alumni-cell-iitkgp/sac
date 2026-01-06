@@ -7,29 +7,36 @@ if (!isset($_SESSION['admin_logged_in'])) {
     header("Location: admin_login.php");
     exit();
 }
+include 'test.php'; // must define $connection
 
-include 'test.php'; // must define $connection or $conn
-
-/* Handle search */
 $search = '';
 if (isset($_GET['search'])) {
     $search = trim($_GET['search']);
 }
 
 if ($search !== '') {
+    // 🔍 SEARCH MODE → show BOTH PROVIDED & NOT_PROVIDED
     $like = "%" . $search . "%";
     $stmt = $connection->prepare(
-        "SELECT * FROM AAM 
-         WHERE name LIKE ? 
-            OR email LIKE ? 
+        "SELECT * FROM AAM
+         WHERE name LIKE ?
+            OR email LIKE ?
             OR mobile LIKE ?
          ORDER BY name DESC"
     );
     $stmt->bind_param("sss", $like, $like, $like);
     $stmt->execute();
     $result = $stmt->get_result();
+
 } else {
-    $result = $connection->query("SELECT * FROM AAM ORDER BY name DESC");
+    // 🚫 DEFAULT MODE → ONLY NOT_PROVIDED
+    $stmt = $connection->prepare(
+        "SELECT * FROM AAM
+         WHERE regkit = 'NOT_PROVIDED'
+         ORDER BY name DESC"
+    );
+    $stmt->execute();
+    $result = $stmt->get_result();
 }
 
 if (!$result) {
