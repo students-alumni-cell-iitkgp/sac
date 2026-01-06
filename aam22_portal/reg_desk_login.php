@@ -14,11 +14,11 @@ $REG_DESK_USERS = [
     ],
     [
         'username' => 'naksh1972',
-        'password' => password_hash('naksh1972', PASSWORD_DEFAULT)
+        'password' => password_hash('N@k$h2512#1972', PASSWORD_DEFAULT)
     ],
     [
         'username' => 'n@ksh#1972',
-        'password' => password_hash('n@ksh#1972', PASSWORD_DEFAULT)
+        'password' => password_hash('N@ksh@aam#sac1972', PASSWORD_DEFAULT)
     ],
     [
         'username' => 'admin4',
