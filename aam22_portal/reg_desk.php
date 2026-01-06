@@ -3,8 +3,8 @@ error_reporting(E_ALL);
 ini_set('display_errors', 1);
 session_start();
 
-if (!isset($_SESSION['admin_logged_in'])) {
-    header("Location: admin_login.php");
+if (!isset($_SESSION['reg_desk_logged_in'])) {
+    header("Location: reg_desk_login.php");
     exit();
 }
 include 'test.php'; // must define $connection

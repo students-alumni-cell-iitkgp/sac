@@ -41,8 +41,8 @@ if (isset($_POST['login'])) {
             $user['username'] === $username &&
             password_verify($password, $user['password'])
         ) {
-            $_SESSION['admin_logged_in'] = true;
-            $_SESSION['admin_username'] = $username;
+            $_SESSION['reg_desk_logged_in'] = true;
+            $_SESSION['reg_desk_user'] = $username;
             header("Location: reg_desk.php");
             exit();
         }
