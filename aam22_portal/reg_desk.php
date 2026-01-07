@@ -32,7 +32,7 @@ if ($search !== '') {
     // 🚫 DEFAULT MODE → ONLY NOT_PROVIDED
     $stmt = $connection->prepare(
         "SELECT * FROM AAM
-         WHERE regkit = 'NOT_PROVIDED'
+         WHERE reg_kit_status = 'NOT_PROVIDED'
          ORDER BY name DESC"
     );
     $stmt->execute();
