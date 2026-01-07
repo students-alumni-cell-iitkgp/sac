@@ -158,8 +158,6 @@ if (!$result) {
 <table>
     <tr>
         <th>Name</th>
-        <th>Email</th>
-        <th>Phone</th>
         <th>Hall</th>
         <th>Dept</th>
         <th>Year</th>
@@ -176,8 +174,6 @@ if ($result->num_rows === 0) {
 ?>
     <tr>
         <td><?= htmlspecialchars($row['name'] ?? '') ?></td>
-        <td><?= htmlspecialchars($row['email'] ?? '') ?></td>
-        <td><?= htmlspecialchars($row['mobile'] ?? '') ?></td>
         <td><?= htmlspecialchars($row['hall'] ?? '') ?></td>
         <td><?= htmlspecialchars($row['dept'] ?? '') ?></td>
         <td><?= htmlspecialchars($row['yog'] ?? '') ?></td>
@@ -186,8 +182,8 @@ if ($result->num_rows === 0) {
             <?= htmlspecialchars($row['payment'] ?? 'PENDING') ?>
         </td>
 
-        <td class="<?= ($row['regkit'] ?? '') === 'PROVIDED' ? 'paid' : 'pending' ?>">
-            <?= htmlspecialchars($row['regkit'] ?? 'NOT_PROVIDED') ?>
+        <td class="<?= ($row['reg_kit_status'] ?? '') === 'FULL_REG_KIT_WITH_ID' ? 'paid' : 'pending' ?>">
+            <?= htmlspecialchars($row['reg_kit_status'] ?? 'NOT_PROVIDED') ?>
         </td>
 
         <td>

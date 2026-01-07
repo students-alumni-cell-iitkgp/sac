@@ -8,167 +8,185 @@ if (!isset($_SESSION['reg_desk_logged_in'])) {
     exit();
 }
 
-include 'test.php'; // must define $conn
+include 'test.php';
 
-/* Validate ID */
+/* ---------- VALIDATE ID ---------- */
 if (!isset($_GET['id']) || !is_numeric($_GET['id'])) {
     die("Invalid Request");
 }
-
 $id = intval($_GET['id']);
 
-/* Update Reg Kit Status */
-if (isset($_POST['provide_kit'])) {
-    $update = $connection->prepare("UPDATE AAM SET regkit='PROVIDED' WHERE id=?");
-    $update->bind_param("i", $id);
-    $update->execute();
-}
-
-/* Fetch Single Alumni */
-$stmt = $connection->prepare("SELECT * FROM AAM WHERE id=?");
+/* ---------- FETCH ALUMNI ---------- */
+$stmt = $connection->prepare("SELECT * FROM AAM WHERE id = ?");
 $stmt->bind_param("i", $id);
 $stmt->execute();
-$result = $stmt->get_result();
+$data = $stmt->get_result()->fetch_assoc();
 
-if ($result->num_rows === 0) {
+if (!$data) {
     die("Record not found");
 }
 
-$data = $result->fetch_assoc();
+$isPaid = ($data['payment'] === 'PAID(Verified)');
 
-$isProvided = ($data['regkit'] === 'PROVIDED');
-$isPaid = ($data['payment'] === 'PAID(Verifed)');
+/* ---------- HANDLE REG KIT UPDATE ---------- */
+if (isset($_POST['update_regkit'])) {
+    $regKitStatus = $_POST['reg_kit_status'];
+
+    $stmt = $connection->prepare(
+        "UPDATE AAM SET reg_kit_status = ? WHERE id = ?"
+    );
+    $stmt->bind_param("si", $regKitStatus, $id);
+    $stmt->execute();
+}
+
+/* ---------- HANDLE PAYMENT UPDATE ---------- */
+if (isset($_POST['record_payment']) && !$isPaid) {
+
+    $txnRef   = trim($_POST['transaction']);
+    $payMode  = trim($_POST['payment_mode']);
+    $remarks  = trim($_POST['remarks']);
+    $amount   = $data['cost'];
+
+    /* Insert into regTransactions */
+    $stmt = $connection->prepare("
+        INSERT INTO regTransactions
+        (name, email, mobile, transaction, payment_mode, remarks, amount)
+        VALUES (?, ?, ?, ?, ?, ?, ?)
+    ");
+    $stmt->bind_param(
+        "ssssssd",
+        $data['name'],
+        $data['email'],
+        $data['mobile'],
+        $txnRef,
+        $payMode,
+        $remarks,
+        $amount
+    );
+    $stmt->execute();
+
+    /* Update AAM payment */
+    $stmt = $connection->prepare(
+        "UPDATE AAM SET payment = 'PAID(Verified)' WHERE id = ?"
+    );
+    $stmt->bind_param("i", $id);
+    $stmt->execute();
+
+    header("Location: reg_kit_view.php?id=".$id);
+    exit;
+}
 ?>
 
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Reg Kit View</title>
+<title>Registration Desk View</title>
 
-    <style>
-        body {
-            background: url(./aa2a.webp) no-repeat center center fixed;
-            background-size: cover;
-            backdrop-filter: blur(15px);
-
-            min-height: 100vh;
-            margin: 0;
-            padding: 0;
-            height: 100vh;
-            /* background: linear-gradient(135deg, #2196F3, #90CAF9); */
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-family: 'Poppins', sans-serif;
-            color: white;
-        }
-
-        .container {
-            width: 55%;
-            margin: 40px auto;
-            padding: 25px;
-            border-radius: 10px;
-            color: #fff;
-            background: <?= $isProvided ? '#28a745' : '#dc3545' ?>;
-            box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
-        }
-
-        h2 {
-            text-align: center;
-            margin-bottom: 25px;
-        }
-
-        .row {
-            padding: 10px;
-            margin-bottom: 8px;
-            border-radius: 6px;
-            background: rgba(255,255,255,0.2);
-        }
-
-        .label {
-            font-weight: bold;
-            display: inline-block;
-            width: 180px;
-        }
-
-        .badge {
-            padding: 6px 12px;
-            border-radius: 14px;
-            font-size: 14px;
-            font-weight: bold;
-        }
-
-        .paid {
-            background: #155724;
-            color: #fff;
-        }
-
-        .pending {
-            background: #721c24;
-            color: #fff;
-        }
-
-        .btn {
-            display: block;
-            margin: 25px auto 0;
-            padding: 12px 20px;
-            font-size: 16px;
-            border: none;
-            border-radius: 6px;
-            cursor: pointer;
-            color: #fff;
-            background: <?= $isProvided ? '#155724' : '#0069d9' ?>;
-        }
-
-        .btn:disabled {
-            background: #333;
-            cursor: not-allowed;
-        }
-
-        .back {
-            display: block;
-            margin-top: 20px;
-            text-align: center;
-            color: #fff;
-            text-decoration: underline;
-        }
-    </style>
+<style>
+body {
+    background: url(./aa2a.webp) no-repeat center center fixed;
+    background-size: cover;
+    backdrop-filter: blur(18px);
+    min-height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+    color: #fff;
+}
+.container {
+    width: 60%;
+    margin: 40px auto;
+    padding: 25px;
+    border-radius: 14px;
+    background: rgba(0,0,0,0.65);
+}
+.row {
+    padding: 10px;
+    margin-bottom: 8px;
+    background: rgba(255,255,255,0.15);
+    border-radius: 6px;
+}
+.label { font-weight: bold; width: 200px; display: inline-block; }
+.badge { padding: 6px 12px; border-radius: 14px; }
+.paid { background: #28a745; }
+.pending { background: #dc3545; }
+.btn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: #007bff;
+    border: none;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.btn-success { background: #28a745; }
+.back { display:block; text-align:center; margin-top:20px; color:#fff; }
+input, select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+}
+</style>
 </head>
 
 <body>
 
 <div class="container">
-    <h2>Alumni Registration Details</h2>
 
-    <div class="row"><span class="label">Name:</span> <?= htmlspecialchars($data['name'] ?? '') ?></div>
-    <div class="row"><span class="label">Email:</span> <?= htmlspecialchars($data['email'] ?? '') ?></div>
-    <div class="row"><span class="label">Phone:</span> <?= htmlspecialchars($data['mobile'] ?? '') ?></div>
-    <div class="row"><span class="label">Hall:</span> <?= htmlspecialchars($data['hall'] ?? '') ?></div>
-    <div class="row"><span class="label">Department:</span> <?= htmlspecialchars($data['dept'] ?? '') ?></div>
-    <div class="row"><span class="label">Passing Year:</span> <?= htmlspecialchars($data['yog'] ?? '') ?></div>
+<h2 style="text-align:center">Alumni Registration Details</h2>
 
-    <div class="row">
-        <span class="label">Payment Status:</span>
-        <span class="badge <?= $isPaid ? 'paid' : 'pending' ?>">
-            <?= htmlspecialchars($data['payment'] ?? 'PENDING') ?>
-        </span>
-    </div>
+<div class="row"><span class="label">Name:</span> <?= htmlspecialchars($data['name']) ?></div>
+<div class="row"><span class="label">Hall:</span> <?= htmlspecialchars($data['hall']) ?></div>
+<div class="row"><span class="label">Department:</span> <?= htmlspecialchars($data['dept']) ?></div>
+<div class="row"><span class="label">Passing Year:</span> <?= htmlspecialchars($data['yog']) ?></div>
 
-    <div class="row">
-        <span class="label">Reg Kit Status:</span>
-        <span class="badge <?= $isProvided ? 'paid' : 'pending' ?>">
-            <?= htmlspecialchars($data['regkit'] ?? 'NOT_PROVIDED') ?>
-        </span>
-    </div>
-
-    <form method="post">
-        <button class="btn" name="provide_kit" <?= $isProvided ? 'disabled' : '' ?>>
-            <?= $isProvided ? 'Reg Kit Already Provided' : 'Mark Reg Kit as Provided' ?>
-        </button>
-    </form>
-
-    <a class="back" href="reg_desk.php">← Back to Registration Desk</a>
+<div class="row">
+    <span class="label">Payment Status:</span>
+    <span class="badge <?= $isPaid ? 'paid' : 'pending' ?>">
+        <?= $data['payment'] ?>
+    </span>
 </div>
 
+<div class="row">
+    <span class="label">Reg Kit Status:</span>
+    <span class="badge <?= $data['reg_kit_status'] ? 'paid' : 'pending' ?>">
+        <?= $data['reg_kit_status'] ?? 'NOT ISSUED' ?>
+    </span>
+</div>
+
+<!-- REG KIT UPDATE -->
+<form method="post">
+    <h3>Update Registration Kit</h3>
+    <select name="reg_kit_status" required>
+        <option value="">-- Select --</option>
+        <option value="FULL_REG_KIT_WITH_ID">Full Reg Kit (With ID)</option>
+        <option value="REG_KIT_WITHOUT_ID">Reg Kit (Without ID)</option>
+        <option value="NOT_ATTENDING">Not Attending AAM</option>
+    </select>
+    <button class="btn btn-success" name="update_regkit">Update Reg Kit</button>
+</form>
+
+<!-- PAYMENT SECTION -->
+<?php if (!$isPaid): ?>
+<form method="post">
+    <h3>Record Payment</h3>
+    <div class="row"><input name="transaction" placeholder="Transaction Reference" required></div>
+    <div class="row">
+        <select name="payment_mode" required>
+            <option value="">Payment Mode</option>
+            <option>Cash</option>
+            <option>UPI</option>
+            <option>Card</option>
+            <option>Netbanking</option>
+        </select>
+    </div>
+    <div class="row"><input name="remarks" placeholder="Remarks"></div>
+    <div class="row"><b>Amount:</b> ₹<?= number_format($data['cost'],2) ?></div>
+    <button class="btn btn-success" name="record_payment">Mark Payment as Paid</button>
+</form>
+<?php endif; ?>
+
+<a class="back" href="reg_desk.php">← Back to Registration Desk</a>
+
+</div>
 </body>
 </html>
