@@ -3,9 +3,9 @@ error_reporting(E_ALL);
 ini_set('display_errors', 1);
 session_start();
 
-/* Reg desk auth only */
-if (!isset($_SESSION['reg_desk_logged_in'])) {
-    header("Location: reg_desk_login.php");
+/* Accommodation desk auth only */
+if (!isset($_SESSION['accom_logged_in'])) {
+    header("Location: accom_login.php");
     exit();
 }
 
@@ -32,10 +32,9 @@ if ($search !== '') {
     $stmt->execute();
     $result = $stmt->get_result();
 } else {
-    // DEFAULT MODE → only NOT_PROVIDED
+    // DEFAULT MODE → show all (accommodation needs full list)
     $stmt = $connection->prepare(
         "SELECT * FROM AAM
-         WHERE reg_kit_status = 'NOT_PROVIDED'
          ORDER BY name DESC"
     );
     $stmt->execute();
@@ -50,7 +49,7 @@ if (!$result) {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Registration Desk</title>
+    <title>Accommodation Desk</title>
 
     <style>
         body {
@@ -141,7 +140,7 @@ if (!$result) {
 
 <body>
 
-<h2>Alumni Registration Desk</h2>
+<h2>Accommodation Desk</h2>
 
 <!-- Search -->
 <div class="search-box">
@@ -162,15 +161,15 @@ if (!$result) {
         <th>Hall</th>
         <th>Dept</th>
         <th>Year</th>
-        <th>Payment</th>
-        <th>Reg Kit</th>
+        <th>Guest House</th>
+        <th>Room No</th>
         <th>Check In</th>
         <th>Action</th>
     </tr>
 
 <?php
 if ($result->num_rows === 0) {
-    echo "<tr><td colspan='10'>No records found</td></tr>";
+    echo "<tr><td colspan='8'>No records found</td></tr>";
 } else {
     while ($row = $result->fetch_assoc()) {
 ?>
@@ -180,20 +179,15 @@ if ($result->num_rows === 0) {
         <td><?= htmlspecialchars($row['dept'] ?? '') ?></td>
         <td><?= htmlspecialchars($row['yog'] ?? '') ?></td>
 
-        <td class="<?= ($row['payment'] ?? '') === 'PAID(Verified)' ? 'paid' : 'pending' ?>">
-            <?= htmlspecialchars($row['payment'] ?? 'PENDING') ?>
-        </td>
-
-        <td class="<?= ($row['reg_kit_status'] ?? '') === 'FULL_REG_KIT_WITH_ID' ? 'paid' : 'pending' ?>">
-            <?= htmlspecialchars($row['reg_kit_status'] ?? 'NOT_PROVIDED') ?>
-        </td>
+        <td><?= htmlspecialchars($row['guest_house'] ?? '-') ?></td>
+        <td><?= htmlspecialchars($row['room_no'] ?? '-') ?></td>
 
         <td class="<?= ($row['check_in'] ?? 'NO') === 'YES' ? 'paid' : 'pending' ?>">
             <?= htmlspecialchars($row['check_in'] ?? 'NO') ?>
         </td>
 
         <td>
-            <a class="btn" href="reg_kit_view.php?id=<?= $row['id'] ?>">View</a>
+            <a class="btn" href="accom_view.php?id=<?= $row['id'] ?>">View</a>
         </td>
     </tr>
 <?php
