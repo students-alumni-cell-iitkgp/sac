@@ -25,12 +25,7 @@ include 'header_aam.php'; // include your updated header
             <img class="instiLogo" src="./img/palJubLogo.png" alt="">
     </div>
 </div> 
-<div class="mainCount">
-    <div class="mainCount">
-        <span id="days1" class="days1"> </span>
-        <p class="daysTogo">Days to Go</p>
-    </div>
-</div>
+
 
 <div class='hero'>
     <div class="text-center">
@@ -180,25 +175,6 @@ include 'header_aam.php'; // include your updated header
 </body>
 
 <script>
-  const targetDate = new Date("January 9, 2026 00:00:00").getTime();
-  const countdown1 = document.getElementById("days1");
-
-  function updateCountdown() {
-    const now = new Date().getTime();
-    const diff = targetDate - now;
-
-    if (diff <= 0) {
-      countdown1.innerHTML = "It’s Time! 🎊";
-      return;
-    }
-
-    const days = Math.floor(diff / (1000 * 60 * 60 * 24)) + 1;
-    countdown1.textContent = days;
-
-  }
-
-  updateCountdown();
-  setInterval(updateCountdown, 1000 * 60 * 60); // Update every hour
 
 
 
