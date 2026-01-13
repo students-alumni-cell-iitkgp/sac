@@ -30,7 +30,8 @@ $amount = (int) round($user['cost'] * 100);
 
 /* Razorpay init */
 // $api = new Api("rzp_test_XXXXXXXX", "XXXXXXXXXXXX");
-$api = new Api("rzp_test_RyWze7Pal9awaf", "cLFBBarWVqZ0dBjoPaIbxGqy");
+// $api = new Api("rzp_test_RyWze7Pal9awaf", "cLFBBarWVqZ0dBjoPaIbxGqy");
+$api = new Api("rzp_live_S3KzqCgIMzDQeX", "3us0N7AxZOiL5VlaK5XXaKDy");
 
 /* Create order */
 $order = $api->order->create([
