@@ -174,7 +174,7 @@ $amountInr = number_format($data['amount'] / 100, 2);
         <!-- HOSTED CHECKOUT FORM -->
         <form method="POST" action="https://api.razorpay.com/v1/checkout/embedded">
 
-            <input type="hidden" name="key_id" value="rzp_test_RyWze7Pal9awaf">
+            <input type="hidden" name="key_id" value="rzp_live_S3KzqCgIMzDQeX">
             <input type="hidden" name="amount" value="<?= $data['amount']; ?>">
             <input type="hidden" name="currency" value="INR">
             <input type="hidden" name="order_id" value="<?= $data['order_id']; ?>">
