@@ -334,12 +334,47 @@ $connection->close();
         <label>Food Preference</label>
         <input class="form-control" value="<?= htmlspecialchars($user['foodPreference']); ?>" readonly>
       </div>
-      <div class="col-6 mt-2">
+
+
+
+    </div>
+  </div>
+</div>
+
+
+<!-- Payment Details -->
+<div class="card">
+  <div class="card-header">Payment Details</div>
+  <div class="card-body">
+    <div class="row">
+
+      <!-- Amount -->
+      <div class="col-md-6 mb-3">
+        <label>Registration Fee</label>
+        <input 
+          class="form-control" 
+          value="₹ <?= number_format((float)$user['cost'], 2); ?>" 
+          readonly
+        >
+      </div>
+
+      <!-- Payment Status -->
+      <div class="col-md-6 mb-3">
         <label>Payment Status</label>
         <div class="payment-status <?= ($user['payment'] === 'PENDING') ? 'payment-pending' : 'payment-complete'; ?>">
-            <?= htmlspecialchars($user['payment']); ?>
+          <?= htmlspecialchars($user['payment']); ?>
         </div>
       </div>
+
+      <!-- Pay Button -->
+      <?php if ($user['payment'] === 'PENDING'): ?>
+      <div class="col-12 text-center mt-3">
+        <a href="create_order.php" class="btn-save d-inline-block">
+          Pay Registration Fee
+        </a>
+      </div>
+      <?php endif; ?>
+
     </div>
   </div>
 </div>

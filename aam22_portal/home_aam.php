@@ -25,12 +25,7 @@ include 'header_aam.php'; // include your updated header
             <img class="instiLogo" src="./img/palJubLogo.png" alt="">
     </div>
 </div> 
-<div class="mainCount">
-    <div class="mainCount">
-        <span id="days1" class="days1"> </span>
-        <p class="daysTogo">Days to Go</p>
-    </div>
-</div>
+
 
 <div class='hero'>
     <div class="text-center">
@@ -54,6 +49,7 @@ include 'header_aam.php'; // include your updated header
     <span class="notes-text">Please register for the 22<sup>nd</sup> Annual Alumni Meet to relive old memories and celebrate with your batchmates!</span>
     <br>
     <br>
+    <!-- <span class="red notes-text"> Website is under maintenance! Please check back later.</span> -->
     <a href="signup.php" class="btn btn-lg mx-4 px-10" style="background-color: #1976D2; color: white;">Register</a>
     <a href="login_aam.php" class="btn btn-lg mx-4 px-10" style="background-color: #1976D2; color: white;">Login</a>
 </div>
@@ -73,9 +69,9 @@ include 'header_aam.php'; // include your updated header
 <div class="headr text-center my-5">
     <h3 class="mb-4" style="color:#012a4a; font-weight:700;">Tentative Itinerary of 22<sup>nd</sup> Annual Alumni Meet ( 9<sup>th</sup> to 11<sup>th</sup> January 2026 )</h3>
     <div class="itenary-grid">
-        <img src="./img/itenary1.png" alt="Itinerary Day 1" class="itenary-img">
-        <img src="./img/itenary2.png" alt="Itinerary Day 2" class="itenary-img">
-        <img src="./img/itenary3.png" alt="Itinerary Day 3" class="itenary-img">
+        <img src="./img/itenary_1.jpg" alt="Itinerary Day 1" class="itenary-img">
+        <img src="./img/itenary_2.jpg" alt="Itinerary Day 2" class="itenary-img">
+        <img src="./img/itenary_3.jpg" alt="Itinerary Day 3" class="itenary-img">
     </div>
 </div>
 
@@ -179,25 +175,6 @@ include 'header_aam.php'; // include your updated header
 </body>
 
 <script>
-  const targetDate = new Date("January 9, 2026 00:00:00").getTime();
-  const countdown1 = document.getElementById("days1");
-
-  function updateCountdown() {
-    const now = new Date().getTime();
-    const diff = targetDate - now;
-
-    if (diff <= 0) {
-      countdown1.innerHTML = "It’s Time! 🎊";
-      return;
-    }
-
-    const days = Math.floor(diff / (1000 * 60 * 60 * 24)) + 1;
-    countdown1.textContent = days;
-
-  }
-
-  updateCountdown();
-  setInterval(updateCountdown, 1000 * 60 * 60); // Update every hour
 
 
 
