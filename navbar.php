@@ -118,7 +118,7 @@
 							<li><a class="dropdown-item" href="sponsors2012.php"> 2012 </a></li>
 						</ul>
 					</li>
-					<div class="btnAam"><li class="aamBtn"> <a class="nav-btn aamBtn" href="./aam22_portal/home_aam.php">AAM Registration</a> </li></div>
+					<!-- <div class="btnAam"><li class="aamBtn"> <a class="nav-btn aamBtn" href="./aam22_portal/home_aam.php">AAM Registration</a> </li></div> -->
 					
 				</ul>
 			</div>

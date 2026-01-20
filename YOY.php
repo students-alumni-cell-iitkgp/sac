@@ -41,8 +41,9 @@
                         <div class="panel text-center">
                             <h1 class="text-center">Yearnings of Yore</h1>
                             <div class="progress" style="height:0.4rem;">
-                                <div id="one" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
-                                    aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
+                                <div id="one" class="progress-bar" role="progressbar" style="width: 100%"
+                                    aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;">
+                                </div>
                             </div>
                             <p class="pt-4">
                                 Yearnings of Yore is a magical treasury of memoirs and photographs, which provides us an
@@ -66,8 +67,8 @@
                     <div class="col-lg-2"></div>
                     <div class="col-sm-12 col-lg-8">
                         <div class="progress" style="height:0.4rem;">
-                            <div id="two" class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
-                                aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
+                            <div id="two" class="progress-bar" role="progressbar" style="width: 100%"
+                                aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="height:0.4rem;"></div>
                         </div>
                     </div>
                 </div>
@@ -77,13 +78,20 @@
                         <div id="inam" class="carousel slide" data-ride="carousel" data-interval="false">
                             <div class="carousel-inner">
 
-                            <div class="carousel-item active">
+                                <div class="carousel-item active">
                                     <div class="container">
                                         <div class="row">
+
                                             <div class="col-sm-12 col-lg-4">
-                                                <div class="card" style="height: 100% !important;">  <a href="https://drive.google.com/file/d/15XJOLBqc5UH2lPEmoBe1BzO2czOqtUqZ/view?usp=sharing" target="_blank"  style="color: black">  <img src="img/yoy/YOY2025.webp" class="card-img-top"></a>
+                                                <div class="card" style="height: 100% !important;"> <a
+                                                        href="https://drive.google.com/file/d/1Ib9PzF_ttWVSwzMOlGlwZ7OfTxI5CUqM/view?usp=sharing"
+                                                        target="_blank" style="color: black"> <img
+                                                            src="img\yoy\YOY2026.jpg" class="card-img-top"></a>
                                                     <div class="card-body">
-                                                        <h4 class="card-title"> <a href="https://drive.google.com/file/d/15XJOLBqc5UH2lPEmoBe1BzO2czOqtUqZ/view?usp=sharing" target="_blank"  style="color: black">Yearnings Of Yore 2025....</a></h4>
+                                                        <h4 class="card-title"> <a
+                                                                href="https://drive.google.com/file/d/1Ib9PzF_ttWVSwzMOlGlwZ7OfTxI5CUqM/view?usp=sharing"
+                                                                target="_blank" style="color: black">Yearnings Of Yore
+                                                                2026....</a></h4>
 
                                                     </div>
 
@@ -91,26 +99,39 @@
 
                                             </div>
                                             <div class="col-sm-12 col-lg-4">
-                                                <div class="card" style="height: 100% !important;">  <a href="https://drive.google.com/file/d/19uqf_cA5LmSar7CuXX_CLqAUipBUJFpj/view" target="_blank"  style="color: black">  <img src="img/yoy/yoy23.webp" class="card-img-top"></a>
+                                                <div class="card" style="height: 100% !important;"> <a
+                                                        href="https://drive.google.com/file/d/15XJOLBqc5UH2lPEmoBe1BzO2czOqtUqZ/view?usp=sharing"
+                                                        target="_blank" style="color: black"> <img
+                                                            src="img/yoy/YOY2025.webp" class="card-img-top"></a>
                                                     <div class="card-body">
-                                                        <h4 class="card-title"> <a href="https://drive.google.com/file/d/1ev5JlYWSK8FgCzsRp3fVH3S1jRcbxXsJ/view?ts=632df1d7" target="_blank"  style="color: black">Yearnings Of Yore 2023....</a></h4>
+                                                        <h4 class="card-title"> <a
+                                                                href="https://drive.google.com/file/d/15XJOLBqc5UH2lPEmoBe1BzO2czOqtUqZ/view?usp=sharing"
+                                                                target="_blank" style="color: black">Yearnings Of Yore
+                                                                2025....</a></h4>
 
                                                     </div>
 
                                                 </div>
 
                                             </div>
-                                            
                                             <div class="col-sm-12 col-lg-4">
-                                                <div class="card" style="height: 100% !important; ">  <a href="https://drive.google.com/file/d/1ev5JlYWSK8FgCzsRp3fVH3S1jRcbxXsJ/view?ts=632df1d7" target="_blank"  style="color: black">  <img src="img/yoy/yoy22.webp" class="card-img-top"></a>
+                                                <div class="card" style="height: 100% !important;"> <a
+                                                        href="https://drive.google.com/file/d/19uqf_cA5LmSar7CuXX_CLqAUipBUJFpj/view"
+                                                        target="_blank" style="color: black"> <img
+                                                            src="img/yoy/yoy23.webp" class="card-img-top"></a>
                                                     <div class="card-body">
-                                                        <h4 class="card-title"> <a href="https://drive.google.com/file/d/1ev5JlYWSK8FgCzsRp3fVH3S1jRcbxXsJ/view?ts=632df1d7" target="_blank"  style="color: black">Yearnings Of Yore 2022....</a></h4>
+                                                        <h4 class="card-title"> <a
+                                                                href="https://drive.google.com/file/d/1ev5JlYWSK8FgCzsRp3fVH3S1jRcbxXsJ/view?ts=632df1d7"
+                                                                target="_blank" style="color: black">Yearnings Of Yore
+                                                                2023....</a></h4>
 
                                                     </div>
 
                                                 </div>
 
                                             </div>
+
+
 
                                         </div>
 
@@ -123,7 +144,23 @@
                                 <div class="carousel-item">
                                     <div class="container">
                                         <div class="row">
-                                            
+                                            <div class="col-sm-12 col-lg-4">
+                                                <div class="card" style="height: 100% !important; "> <a
+                                                        href="https://drive.google.com/file/d/1ev5JlYWSK8FgCzsRp3fVH3S1jRcbxXsJ/view?ts=632df1d7"
+                                                        target="_blank" style="color: black"> <img
+                                                            src="img/yoy/yoy22.webp" class="card-img-top"></a>
+                                                    <div class="card-body">
+                                                        <h4 class="card-title"> <a
+                                                                href="https://drive.google.com/file/d/1ev5JlYWSK8FgCzsRp3fVH3S1jRcbxXsJ/view?ts=632df1d7"
+                                                                target="_blank" style="color: black">Yearnings Of Yore
+                                                                2022....</a></h4>
+
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+
                                             <div class="col-sm-12 col-lg-4">
                                                 <div class="card" style="height: 100% !important;">
                                                     <img src="img/yoy/yoy188.webp" class="card-img-top">
@@ -146,6 +183,17 @@
                                                 </div>
 
                                             </div>
+
+
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="container">
+                                        <div class="row">
                                             <div class="col-sm-12 col-lg-4">
                                                 <div class="card" style="height: 100% !important;">
                                                     <img src="img/yoy/2016.jpg" class="card-img-top">
@@ -157,16 +205,6 @@
                                                 </div>
 
                                             </div>
-
-                                        </div>
-
-                                    </div>
-
-
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="container">
-                                        <div class="row">
                                             <div class="col-sm-12 col-lg-4">
                                                 <div class="card" style="height: 100% !important;">
                                                     <img src="img/yoy/2015.webp" class="card-img-top">
@@ -190,6 +228,17 @@
                                                 </div>
 
                                             </div>
+
+
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="container">
+                                        <div class="row">
                                             <div class="col-sm-12 col-lg-4">
                                                 <div class="card" style="height: 100% !important;">
                                                     <img src="img/yoy/2010.jpg" class="card-img-top">
@@ -201,16 +250,6 @@
                                                 </div>
 
                                             </div>
-
-                                        </div>
-
-                                    </div>
-
-
-                                </div>
-                                <div class="carousel-item">
-                                    <div class="container">
-                                        <div class="row">
                                             <div class="col-sm-12 col-lg-4">
                                                 <div class="card" style="height: 100% !important;">
                                                     <img src="img/yoy/2008.jpg" class="card-img-top">
@@ -233,6 +272,27 @@
                                                 </div>
 
                                             </div>
+
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-sm-12 col-lg-4">
+                                                <!-- <div class="card" style="height: 100% !important;">
+                                                    <img src="img/yoy/2008.jpg" class="card-img-top">
+                                                    <div class="card-body">
+                                                        <h4 class="card-title">Yearnings Of Yore 2008....</h4>
+
+                                                    </div>
+
+                                                </div> -->
+
+                                            </div>
                                             <div class="col-sm-12 col-lg-4">
                                                 <div class="card" style="height: 100% !important;">
                                                     <img src="img/yoy/2005.webp" class="card-img-top">
@@ -243,6 +303,16 @@
                                                 </div>
 
                                             </div>
+                                            <div class="col-sm-12 col-lg-4">
+                                                <!-- <div class="card" style="height: 100% !important;">
+                                                    <img src="img/yoy/2005.webp" class="card-img-top">
+                                                    <div class="card-body">
+                                                        <h4 class="card-title">Yearnings Of Yore 2005....</h4>
+                                                    </div>
+
+                                                </div> -->
+
+                                            </div>
 
                                         </div>
 
@@ -251,13 +321,13 @@
                                 </div>
                             </div>
                             <a class="carousel-control-prev" href="#inam" data-slide="prev">
-                        <i class="fas fa-chevron-circle-left fa-2x" style="color:black"></i>
-                        <span class="carousel-control-prev-icon" style="visibility:hidden"></span>
-                    </a>
-                    <a class="carousel-control-next" href="#inam" data-slide="next" style="padding-left:20px">
-                        <i class="fas fa-chevron-circle-right fa-2x" style="color:black"></i>
-                        <span class="carousel-control-next-icon" style="visibility:hidden"></span>
-                    </a>
+                                <i class="fas fa-chevron-circle-left fa-2x" style="color:black"></i>
+                                <span class="carousel-control-prev-icon" style="visibility:hidden"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#inam" data-slide="next" style="padding-left:20px">
+                                <i class="fas fa-chevron-circle-right fa-2x" style="color:black"></i>
+                                <span class="carousel-control-next-icon" style="visibility:hidden"></span>
+                            </a>
                         </div>
 
                     </div>
@@ -270,100 +340,100 @@
 
 
     <?php include 'footer.php' ?>
-	 <!-- <?php include 'preloader.php' ?> -->
+    <!-- <?php include 'preloader.php' ?> -->
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
     <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js"></script>
     <script>
-        $(function() { 
-         $("#one,#two").addClass("progress-bar-purple");
-      });
-          gsap.from('header', { opacity: 0, duration: 1 })
-          gsap.from('header h1', { opacity: 0, duration: 2, x: -200 })
-          gsap.from('header h6', { opacity: 0, duration: 2, x: -500 })
-      
-      
-          gsap.from('.nav-item', {
+        $(function () {
+            $("#one,#two").addClass("progress-bar-purple");
+        });
+        gsap.from('header', { opacity: 0, duration: 1 })
+        gsap.from('header h1', { opacity: 0, duration: 2, x: -200 })
+        gsap.from('header h6', { opacity: 0, duration: 2, x: -500 })
+
+
+        gsap.from('.nav-item', {
             scrollTrigger: {
-              trigger: '.nav-item',
-              toggleActions: "play none none none"
+                trigger: '.nav-item',
+                toggleActions: "play none none none"
             },
             opacity: 0,
             duration: 1,
             x: -200
-          });
-      
-      
-          gsap.from('.section-1 h1', {
+        });
+
+
+        gsap.from('.section-1 h1', {
             scrollTrigger: {
-              trigger: '.section-1 h1',
-              toggleActions: "play none none none"
+                trigger: '.section-1 h1',
+                toggleActions: "play none none none"
             },
             opacity: 0,
             duration: 1,
             x: -200
-          });
-      
-          gsap.from('.section-1 p', {
+        });
+
+        gsap.from('.section-1 p', {
             scrollTrigger: {
-              trigger: '.section-1 p',
-              toggleActions: "play none none none"
+                trigger: '.section-1 p',
+                toggleActions: "play none none none"
             },
             opacity: 0,
             duration: 2.0,
-          });
-      
-          gsap.from('.section-1 img', {
+        });
+
+        gsap.from('.section-1 img', {
             scrollTrigger: {
-              trigger: '.section-1 img',
-              toggleActions: "play none none none"
+                trigger: '.section-1 img',
+                toggleActions: "play none none none"
             },
             opacity: 0,
             duration: 1.5,
             x: 200
-          });
-      
-          var arr = document.getElementsByClassName("x");
-          for (var i = 0; i < arr.length; i++) {
-      
+        });
+
+        var arr = document.getElementsByClassName("x");
+        for (var i = 0; i < arr.length; i++) {
+
             gsap.from(arr[i], {
-              scrollTrigger: {
-                trigger: arr[i],
-                toggleActions: "play none none none"
-              },
-              opacity: 0,
-              duration: 1.5,
-              x: -200
+                scrollTrigger: {
+                    trigger: arr[i],
+                    toggleActions: "play none none none"
+                },
+                opacity: 0,
+                duration: 1.5,
+                x: -200
             });
-      
-          }
-          var img_arr = document.getElementsByClassName("image");
-          for (var i = 0; i < img_arr.length; i++) {
-      
+
+        }
+        var img_arr = document.getElementsByClassName("image");
+        for (var i = 0; i < img_arr.length; i++) {
+
             gsap.from(img_arr[i], {
-              scrollTrigger: {
-                trigger: img_arr[i],
-                toggleActions: "play none none none",
-                start: "top center"
-              },
-              opacity: 0,
-              duration: 1.5,
+                scrollTrigger: {
+                    trigger: img_arr[i],
+                    toggleActions: "play none none none",
+                    start: "top center"
+                },
+                opacity: 0,
+                duration: 1.5,
             });
-      
-          }
-      
-          gsap.registerPlugin(ScrollTrigger);
-      
-          gsap.utils.toArray('#panel').forEach((panel, i) => {
+
+        }
+
+        gsap.registerPlugin(ScrollTrigger);
+
+        gsap.utils.toArray('#panel').forEach((panel, i) => {
             ScrollTrigger.create({
-              trigger: panel,
-              start: "top top",
-              pin: true,
-              pinSpacing: false
+                trigger: panel,
+                start: "top top",
+                pin: true,
+                pinSpacing: false
             });
-          });
-          
-          
-        </script>
+        });
+
+
+    </script>
 
 </body>
 
