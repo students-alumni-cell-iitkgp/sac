@@ -9,6 +9,43 @@ if(!isset($_SESSION['email'])){
 }
 
 $email = $_SESSION['email'];
+
+/* ---------- HANDLE UPDATE (POST) ---------- */
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    // Only these fields are editable now:
+    $medical     = trim($_POST['medical'] ?? '');
+    $arrivalMode = trim($_POST['arrivalMode'] ?? '');
+    $dateOfArr   = trim($_POST['dateOfArr'] ?? '');
+    $timeOfArr   = trim($_POST['timeOfArr'] ?? '');
+    $dateOfDep   = trim($_POST['dateOfDep'] ?? '');
+    $timeOfDep   = trim($_POST['timeOfDep'] ?? '');
+
+    $update = $connection->prepare("
+        UPDATE AAM 
+        SET 
+            medical = ?,
+            arrivalMode = ?, 
+            dateOfArr = ?, 
+            timeOfArr = ?, 
+            dateOfDep = ?, 
+            timeOfDep = ?
+        WHERE email = ?
+    ");
+    $update->bind_param(
+        "sssssss",
+        $medical,
+        $arrivalMode,
+        $dateOfArr,
+        $timeOfArr,
+        $dateOfDep,
+        $timeOfDep,
+        $email
+    );
+    $update->execute();
+    $update->close();
+}
+
+/* ---------- FETCH LATEST USER DATA ---------- */
 $stmt = $connection->prepare("SELECT * FROM AAM WHERE email=?");
 $stmt->bind_param("s", $email);
 $stmt->execute();
@@ -35,19 +72,17 @@ $connection->close();
         background: url(./aa2a.webp) no-repeat center center fixed;
         background-size: cover;
         min-height: 100vh;
-        backdrop-filter: blur(20px);
+        backdrop-filter: blur(25px);
         font-family: 'Segoe UI', sans-serif;
         color: #012A4A;
     }
 
-    /* === PAGE CONTAINER === */
     .container {
         margin-top: 40px;
         margin-bottom: 40px;
         max-width: 1000px;
     }
 
-    /* === PAGE HEADING === */
     h2 {
         text-align: center;
         margin-bottom: 30px;
@@ -56,7 +91,6 @@ $connection->close();
         text-shadow: 1px 1px 2px rgba(255,255,255,0.5);
     }
 
-    /* === CARD / BUBBLE DESIGN === */
     .card {
         margin: 20px auto;
         background: rgba(255, 255, 255, 0.3);
@@ -84,7 +118,6 @@ $connection->close();
         text-align: center;
     }
 
-    /* === INPUT FIELDS === */
     .form-control[readonly] {
         background: rgba(255, 255, 255, 0.5);
         border: none;
@@ -94,7 +127,10 @@ $connection->close();
         box-shadow: inset 0 0 6px rgba(255,255,255,0.5);
     }
 
-    /* === ACCOMPANYING PERSON CARDS === */
+    .form-control {
+        border-radius: 12px;
+    }
+
     .acc-card {
         background: rgba(1, 79, 134, 0.8);
         color: white;
@@ -114,7 +150,6 @@ $connection->close();
         font-size: 0.8rem;
     }
 
-    /* === PAYMENT STATUS BOX === */
     .payment-status {
         font-weight: bold;
         font-size: 1.1rem;
@@ -131,25 +166,50 @@ $connection->close();
         color: #0f5132;
     }
 
-    /* === LOGOUT BUTTON === */
     .btn-danger {
+        width: 200px;
         display: block;
-        margin: 20px auto;
+        margin: 5px auto;
         border-radius: 25px;
         font-weight: 600;
         background-color: #d62828;
         border: none;
         transition: all 0.3s ease;
+        padding: 8px 20px;
+        text-align: center;
     }
     .btn-danger:hover {
         background-color: #a4161a;
         transform: scale(1.05);
     }
 
-    /* === MOBILE RESPONSIVE === */
+    .btn-save {
+        width: 200px;
+        display: block;
+        margin: 5px auto;
+        border-radius: 25px;
+        font-weight: 600;
+        border: none;
+        transition: all 0.3s ease;
+        background-color: #014f86;
+        color: #fff;
+        padding: 8px 20px;
+        text-align: center;
+    }
+    .btn-save:hover {
+        background-color: #013a63;
+        transform: scale(1.03);
+    }
+    .button-row {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
     @media (max-width: 767px) {
         .card {
-          
             width: 100% !important;
             margin: 15px 0;
             border-radius: 20px;
@@ -162,13 +222,24 @@ $connection->close();
         .form-control[readonly] {
             font-size: 0.95rem;
         }
+        .button-row {
+            display: block;
+            justify-content: center;
+            gap: 0px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
     }
 </style>
 </head>
 <body>
 <div class="container">
 
-<!-- Personal Details -->
+<!-- <h2>Your Profile</h2> -->
+
+<form method="post">
+
+<!-- Personal Details (all read-only) -->
 <div class="card">
   <div class="card-header">Personal Details</div>
   <div class="card-body">
@@ -188,9 +259,7 @@ $connection->close();
   </div>
 </div>
 
-
-
-<!-- Academic Details -->
+<!-- Academic Details (all read-only) -->
 <div class="card">
   <div class="card-header">Academic Details</div>
   <div class="card-body">
@@ -206,28 +275,48 @@ $connection->close();
   </div>
 </div>
 
-<!-- Work Details -->
+<!-- Work Details (NOW READ-ONLY) -->
 <div class="card">
   <div class="card-header">Work Details</div>
   <div class="card-body">
     <div class="row">
-      <div class="col-md-6 mb-3"><label>Profession</label><input class="form-control" value="<?= htmlspecialchars($user['profession']); ?>" readonly></div>
-      <div class="col-md-6 mb-3"><label>Designation</label><input class="form-control" value="<?= htmlspecialchars($user['designation']); ?>" readonly></div>
-      <div class="col-12 mb-3"><label>Organisation</label><input class="form-control" value="<?= htmlspecialchars($user['organisation']); ?>" readonly></div>
-      <div class="col-12 mb-3"><label>Work Address</label><input class="form-control" value="<?= htmlspecialchars($user['waddress']); ?>" readonly></div>
-      <div class="col-md-4 mb-3"><label>City</label><input class="form-control" value="<?= htmlspecialchars($user['wcity']); ?>" readonly></div>
-      <div class="col-md-4 mb-3"><label>State</label><input class="form-control" value="<?= htmlspecialchars($user['wstate']); ?>" readonly></div>
-      <div class="col-md-4 mb-3"><label>Country</label><input class="form-control" value="<?= htmlspecialchars($user['wcountry']); ?>" readonly></div>
-      <div class="col-12 mb-3"><label>Zip Code</label><input class="form-control" value="<?= htmlspecialchars($user['wzipcode']); ?>" readonly></div>
+      <div class="col-md-6 mb-3">
+        <label>Profession</label>
+        <input class="form-control" value="<?= htmlspecialchars($user['profession']); ?>" readonly>
+      </div>
+      <div class="col-md-6 mb-3">
+        <label>Designation</label>
+        <input class="form-control" value="<?= htmlspecialchars($user['designation']); ?>" readonly>
+      </div>
+      <div class="col-12 mb-3">
+        <label>Organisation</label>
+        <input class="form-control" value="<?= htmlspecialchars($user['organisation']); ?>" readonly>
+      </div>
+      <div class="col-12 mb-3">
+        <label>Work Address</label>
+        <input class="form-control" value="<?= htmlspecialchars($user['waddress']); ?>" readonly>
+      </div>
+      <div class="col-md-4 mb-3">
+        <label>City</label>
+        <input class="form-control" value="<?= htmlspecialchars($user['wcity']); ?>" readonly>
+      </div>
+      <div class="col-md-4 mb-3">
+        <label>State</label>
+        <input class="form-control" value="<?= htmlspecialchars($user['wstate']); ?>" readonly>
+      </div>
+      <div class="col-md-4 mb-3">
+        <label>Country</label>
+        <input class="form-control" value="<?= htmlspecialchars($user['wcountry']); ?>" readonly>
+      </div>
+      <div class="col-12 mb-3">
+        <label>Zip Code</label>
+        <input class="form-control" value="<?= htmlspecialchars($user['wzipcode']); ?>" readonly>
+      </div>
     </div>
   </div>
 </div>
 
-
-<!-- Accommodation & Food -->
-
-
-<!-- Accommodation & Food -->
+<!-- Accommodation & Food (only Health Restrictions editable) -->
 <div class="card">
   <div class="card-header">Accompanying & Food</div>
   <div class="card-body">
@@ -237,36 +326,95 @@ $connection->close();
     </div>
 
     <div class="row mt-3">
-      <div class="col-md-12 mb-3"><label>Health Restrictions</label><input class="form-control" value="<?= htmlspecialchars($user['medical']); ?>" readonly></div>
-      <div class="col-md-6 mb-3"><label>Food Preference</label><input class="form-control" value="<?= htmlspecialchars($user['foodPreference']); ?>" readonly></div>
-    <div class="col-6 mt-2">
-        <label>Payment Status</label>
-        <div class="payment-status <?= ($user['payment'] === 'PENDING') ? 'payment-pending' : 'payment-complete'; ?>">
-            <?= htmlspecialchars($user['payment']); ?>
-        </div>
+      <div class="col-md-12 mb-3">
+        <label>Health Restrictions</label>
+        <input name="medical" class="form-control" value="<?= htmlspecialchars($user['medical']); ?>">
       </div>
-      
+      <div class="col-md-6 mb-3">
+        <label>Food Preference</label>
+        <input class="form-control" value="<?= htmlspecialchars($user['foodPreference']); ?>" readonly>
+      </div>
+
+
+
     </div>
   </div>
 </div>
 
 
+<!-- Payment Details -->
+<div class="card">
+  <div class="card-header">Payment Details</div>
+  <div class="card-body">
+    <div class="row">
 
+      <!-- Amount -->
+      <div class="col-md-6 mb-3">
+        <label>Registration Fee</label>
+        <input 
+          class="form-control" 
+          value="₹ <?= number_format((float)$user['cost'], 2); ?>" 
+          readonly
+        >
+      </div>
 
-<!-- Travel Details -->
+      <!-- Payment Status -->
+      <div class="col-md-6 mb-3">
+        <label>Payment Status</label>
+        <div class="payment-status <?= ($user['payment'] === 'PENDING') ? 'payment-pending' : 'payment-complete'; ?>">
+          <?= htmlspecialchars($user['payment']); ?>
+        </div>
+      </div>
+
+      <!-- Pay Button -->
+      <?php if ($user['payment'] === 'PENDING'): ?>
+      <div class="col-12 text-center mt-3">
+        <a href="create_order.php" class="btn-save d-inline-block">
+          Pay Registration Fee
+        </a>
+      </div>
+      <?php endif; ?>
+
+    </div>
+  </div>
+</div>
+
+<!-- Travel Details (EDITABLE) -->
 <div class="card">
   <div class="card-header">Travel Details</div>
   <div class="card-body">
     <div class="row">
-      <div class="col-md-12 mb-3"><label>Mode of Arrival at Kharagpur</label><input class="form-control" value="<?= htmlspecialchars($user['arrivalMode']); ?>" readonly></div>
-      <div class="col-md-6 mb-3"><label>Date of Arrival</label><input class="form-control" value="<?= htmlspecialchars($user['dateOfArr']); ?>" readonly></div>
-      <div class="col-md-6 mb-3"><label>Time of Arrival</label><input class="form-control" value="<?= htmlspecialchars($user['timeOfArr']); ?>" readonly></div>
-      <div class="col-md-6 mb-3"><label>Date of Departure</label><input class="form-control" value="<?= htmlspecialchars($user['dateOfDep']); ?>" readonly></div>
-      <div class="col-md-6 mb-3"><label>Time of Departure</label><input class="form-control" value="<?= htmlspecialchars($user['timeOfDep']); ?>" readonly></div>
+      <div class="col-md-12 mb-3">
+        <label>Mode of Arrival at Kharagpur</label>
+        <input name="arrivalMode" class="form-control" value="<?= htmlspecialchars($user['arrivalMode']); ?>">
+      </div>
+      <div class="col-md-6 mb-3">
+        <label>Date of Arrival</label>
+        <input name="dateOfArr" type="date" class="form-control" value="<?= htmlspecialchars($user['dateOfArr']); ?>">
+      </div>
+      <div class="col-md-6 mb-3">
+        <label>Time of Arrival</label>
+        <input name="timeOfArr" type="time" class="form-control" value="<?= htmlspecialchars($user['timeOfArr']); ?>">
+      </div>
+      <div class="col-md-6 mb-3">
+        <label>Date of Departure</label>
+        <input name="dateOfDep" type="date" class="form-control" value="<?= htmlspecialchars($user['dateOfDep']); ?>">
+      </div>
+      <div class="col-md-6 mb-3">
+        <label>Time of Departure</label>
+        <input name="timeOfDep" type="time" class="form-control" value="<?= htmlspecialchars($user['timeOfDep']); ?>">
+      </div>
     </div>
   </div>
-  <a href="logout.php" class="btn btn-danger mt-3 w-20">Logout</a>
+
+  <div class="button-row">
+    <button type="submit" class="btn-save">Save Changes</button>
+    <a href="logout.php" class="btn btn-danger">Logout</a>
+  </div>
+
 </div>
+
+</form>
 
 </div>
 </body>

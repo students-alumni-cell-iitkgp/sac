@@ -39,7 +39,7 @@
         }
 
         .hero-carousel .carousel-item .carousel-image {
-            background-size: 100% 100%;
+            /* background-size: 100% 100%; */
         }
 
         .carousel-control-nexti,
@@ -50,7 +50,7 @@
             font-size: 2rem;
             color: rgba(0, 0, 0, 0.74);
             position: absolute;
-            top: 30%;
+            top: 0;
             left: 2%;
             opacity: 0.6;
 
@@ -99,9 +99,10 @@
             <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>-->
         </ol>
-        <div class="carousel-inner" style="width:100%; height:100%">
+        <div class="carousel-container"><img src="./img/aam22/webcoverOld.jpg" alt="Alumni Meet Banner" style="width:100vw; height:40vh"></div>
+        <!-- <div class="carousel-inner" style="width:100vw; height:40vh">
             <div class="carousel-item active">
-                <div class="carousel-image" style="background-image:url('webcover21.jpg');background-size:100% 100%"></div>
+                <div class="carousel-image" style="background-image:url('./img/aam22/webcoverOld.jpg');background-size:100% 50%"></div> -->
 
                 <!--</div>
              <div class="carousel-item" style>
@@ -122,7 +123,7 @@
             <div class="carousel-item">
                 <div class="carousel-image" style="background-image:url('img/indexslider/homecoming.webp')"></div>
             </div> -->
-            </div>
+            <!-- </div> -->
             <!-- <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
@@ -131,7 +132,7 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
         </a> -->
-        </div>
+        <!-- </div> -->
     </div>
     <main>
         <section class="section-1 justify-content-center" style="display:flex;overflow:hidden">

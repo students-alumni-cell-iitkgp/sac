@@ -68,14 +68,28 @@ $result = $stmt->get_result();
 <meta charset="UTF-8">
 <title>Registered Alumni | Alumni Meet</title>
 <style>
-body { 
+body {
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    color: #012A4A;
+    position: relative;
+    overflow-x: hidden;
+}
+
+/* Blurred background layer */
+body::before {
+    content: "";
+    position: fixed;      /* sticks to viewport */
+    inset: 0;             /* top:0; right:0; bottom:0; left:0; */
     background: url(./aa2a.webp) no-repeat center center fixed;
     background-size: cover;
-    min-height: 100vh;
-    backdrop-filter: blur(15px);
-    
-    font-family: 'Arial', sans-serif;
+    filter: blur(24px);   /* real blur here */
+    transform: scale(1.05); /* avoid edges when blurred */
+    z-index: -1;          /* sits behind all content */
+    pointer-events: none; /* don't block clicks */
 }
+
 
 .container {
     padding: 20px;

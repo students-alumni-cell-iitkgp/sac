@@ -41,12 +41,14 @@
 <body>
 	<section class="section-1 pb-5">
 		<?php include 'navbar.php' ?>
-		<header>
+		<!-- <header>
 			<div class="header"></div>
 
 			<div class="img">
 			</div>
-		</header>
+		</header> -->
+        <div class="carousel-container"><img src="./img/aam22/webcoverOld.jpg" alt="Alumni Meet Banner" style="width:100vw; height:40vh"></div>
+
 	</section>
 	<section class="section-2 pt-0" style="padding-bottom:10rem;">
 		<div class="padding">

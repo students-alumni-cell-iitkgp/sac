@@ -103,6 +103,7 @@
 					<li class="nav-item dropdown">
 						<a class="nav-link" href="#" data-bs-toggle="dropdown"> Sponsors </a>
 						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="sponsors2026.php"> 2026 </a></li>
 							<li><a class="dropdown-item" href="sponsors2025.php"> 2025 </a></li>
 							<li><a class="dropdown-item" href="sponsors2023.php"> 2023 </a></li>
 							<li><a class="dropdown-item" href="sponsors2021.php"> 2021 </a></li>
@@ -117,7 +118,7 @@
 							<li><a class="dropdown-item" href="sponsors2012.php"> 2012 </a></li>
 						</ul>
 					</li>
-					<div class="btnAam"><li class="aamBtn"> <a class="nav-btn aamBtn" href="./aam22_portal/home_aam.php">AAM Registration</a> </li></div>
+					<!-- <div class="btnAam"><li class="aamBtn"> <a class="nav-btn aamBtn" href="./aam22_portal/home_aam.php">AAM Registration</a> </li></div> -->
 					
 				</ul>
 			</div>
