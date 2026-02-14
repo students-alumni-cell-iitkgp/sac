@@ -81,7 +81,7 @@ if ($orderId !== 'N/A') {
 
     <p><?= $message ?></p>
 
-    <a class="btn" href="profile_aam.php">Go to Profile</a>
+    <!-- <a class="btn" href="profile_aam.php">Go to Profile</a> -->
 </div>
 
 </body>
