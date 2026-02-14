@@ -47,7 +47,7 @@
 			<div class="img">
 			</div>
 		</header> -->
-        <div class="carousel-container"><img src="./img/aam22/webcoverOld.jpg" alt="Alumni Meet Banner" style="width:100vw; height:40vh"></div>
+        <div class="carousel-container"><img src="webcover21.jpg" alt="Alumni Meet Banner" style="width:100vw; height:40vh"></div>
 
 	</section>
 	<section class="section-2 pt-0" style="padding-bottom:10rem;">
