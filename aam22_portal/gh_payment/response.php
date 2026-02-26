@@ -1,5 +1,5 @@
 <?php
-include 'config.php';
+include 'test.php';
 
 use Razorpay\Api\Errors\SignatureVerificationError;
 
