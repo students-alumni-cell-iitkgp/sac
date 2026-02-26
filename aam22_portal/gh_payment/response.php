@@ -77,6 +77,7 @@ $message = $isSuccess
     <style>
         body {
             background: url(./aa2a.webp) no-repeat center center fixed;
+            background-color:#90CAF9;
             background-size: cover;
             backdrop-filter: blur(15px);
             font-family: Arial, sans-serif;
