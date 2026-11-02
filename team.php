@@ -29,15 +29,133 @@
 <?php include 'navbar.php' ?>
 <div class="accordion" id="headingOne">
 
+<!-- Head Team 2026 -->
+<div class="accordion-item">
+  <h2 class="accordion-header" id="headingTeam2026">
+    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTeam2026" aria-expanded="true" aria-controls="collapseTeam2026">
+      Head Team 2026
+    </button>
+  </h2>
+  <div id="collapseTeam2026" class="accordion-collapse collapse show" aria-labelledby="headingTeam2026" data-bs-parent="#headingOne">
+    <div class="accordion-body">
+      <section class="section-2">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-md-12 col-12">
+              <div class="panel text-center">
+                <br>
+                    <div class="row">
+                      <div class="col-12 col-sm-6 align-items-center">
+                        <div class="service-card">
+                          <div class="card">
+                            <img class="card-img-top" src="img/team2026/201830.jpg" height="300px" alt="Monika Raj">
+                            <div class="card-body">
+                              <h6 class="x">Monika Raj</h6>
+                              <p class="x">General Secretary</p>
+                              <div class="row">
+                                  <div class="col-3"><a href="https://www.facebook.com/share/194e6zwegd/" class="contact-link" target="_blank" rel="noopener noreferrer" aria-label="Facebook for Monika Raj"><i class="contact-icon fab fa-facebook"></i></a></div>
+                                  <div class="col-3"><a href="https://www.linkedin.com/in/monika-raj-b73aa8312" class="contact-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn for Monika Raj"><i class="contact-icon fab fa-linkedin-in"></i></a></div>
+                                  <div class="col-3"><a href="mailto:rajmonika180@gmail.com" class="contact-link"  aria-label="Email for Monika Raj"><i class="contact-icon fas fa-envelope"></i></a></div>
+                                  <div class="col-3"><a href="tel:+917368026505" class="contact-link"  aria-label="Phone for Monika Raj"><i class="contact-icon fas fa-phone"></i></a></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-sm-6 align-items-center">
+                        <div class="service-card">
+                          <div class="card">
+                            <img class="card-img-top" src="img/team2026/201815.jpg" height="300px" alt="Mohit Yadav">
+                            <div class="card-body">
+                              <h6 class="x">Mohit Yadav</h6>
+                              <p class="x">General Secretary</p>
+                              <div class="row">
+                                  <div class="col-3"><a href="https://www.facebook.com/profile.php?id=61579899090882" class="contact-link" target="_blank" rel="noopener noreferrer" aria-label="Facebook for Mohit Yadav"><i class="contact-icon fab fa-facebook"></i></a></div>
+                                  <div class="col-3"><a href="https://www.linkedin.com/in/mohit-yadav-b8504432b" class="contact-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn for Mohit Yadav"><i class="contact-icon fab fa-linkedin-in"></i></a></div>
+                                  <div class="col-3"><a href="mailto:Mohitqwerty.ydv@gmail.com" class="contact-link"  aria-label="Email for Mohit Yadav"><i class="contact-icon fas fa-envelope"></i></a></div>
+                                  <div class="col-3"><a href="tel:+916267600938" class="contact-link"  aria-label="Phone for Mohit Yadav"><i class="contact-icon fas fa-phone"></i></a></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-12 col-sm-6 align-items-center">
+                        <div class="service-card">
+                          <div class="card">
+                            <img class="card-img-top" src="img/team2026/201845.jpg" height="300px" alt="Boddeti Veera Ganesh">
+                            <div class="card-body">
+                              <h6 class="x">Boddeti Veera Ganesh</h6>
+                              <p class="x">Web Head</p>
+                              <div class="row">
+                                  <div class="col-3"><a href="https://www.facebook.com/share/1F272E7FE8/" class="contact-link" target="_blank" rel="noopener noreferrer" aria-label="Facebook for Boddeti Veera Ganesh"><i class="contact-icon fab fa-facebook"></i></a></div>
+                                  <div class="col-3"><a href="https://www.linkedin.com/in/boddeti-veera-ganesh-205ba0321FB" class="contact-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn for Boddeti Veera Ganesh"><i class="contact-icon fab fa-linkedin-in"></i></a></div>
+                                  <div class="col-3"><a href="mailto:ganeshboddeti05@gmail.com" class="contact-link"  aria-label="Email for Boddeti Veera Ganesh"><i class="contact-icon fas fa-envelope"></i></a></div>
+                                  <div class="col-3"><a href="tel:+919550050427" class="contact-link"  aria-label="Phone for Boddeti Veera Ganesh"><i class="contact-icon fas fa-phone"></i></a></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-sm-6 align-items-center">
+                        <div class="service-card">
+                          <div class="card">
+                            <img class="card-img-top" src="img/team2026/201842.jpg" height="300px" alt="Thilak R">
+                            <div class="card-body">
+                              <h6 class="x">Thilak R</h6>
+                              <p class="x">Web Head</p>
+                              <div class="row">
+                                  <div class="col-3"><a href="https://www.facebook.com/share/18bwJGgTHf/" class="contact-link" target="_blank" rel="noopener noreferrer" aria-label="Facebook for Thilak R"><i class="contact-icon fab fa-facebook"></i></a></div>
+                                  <div class="col-3"><a href="https://www.linkedin.com/in/thilak-r-047996333" class="contact-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn for Thilak R"><i class="contact-icon fab fa-linkedin-in"></i></a></div>
+                                  <div class="col-3"><a href="mailto:thilak.rk06@gmail.com" class="contact-link"  aria-label="Email for Thilak R"><i class="contact-icon fas fa-envelope"></i></a></div>
+                                  <div class="col-3"><a href="tel:+918951256626" class="contact-link"  aria-label="Phone for Thilak R"><i class="contact-icon fas fa-phone"></i></a></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row justify-content-center">
+                      <div class="col-12 col-sm-6 align-items-center">
+                        <div class="service-card" style="left:0;margin-left:auto;margin-right:auto;">
+                          <div class="card">
+                            <div class="card-img-top" style="height:300px;overflow:hidden;">
+                              <img class="card-img-top" src="img/team2026/201863.jpg" height="300px" style="object-position:50% 49%;transform:scale(1.55);" alt="Chenelli Sai Bhargav">
+                            </div>
+                            <div class="card-body">
+                              <h6 class="x">Chenelli Sai Bhargav</h6>
+                              <p class="x">Coordinator</p>
+                              <div class="row">
+                                  <div class="col-3"><a href="https://www.facebook.com/saibhargav.chennelli" class="contact-link" target="_blank" rel="noopener noreferrer" aria-label="Facebook for Chenelli Sai Bhargav"><i class="contact-icon fab fa-facebook"></i></a></div>
+                                  <div class="col-3"><a href="https://www.linkedin.com/in/saibhargav-chenelli-7aa994325/?isSelfProfile" class="contact-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn for Chenelli Sai Bhargav"><i class="contact-icon fab fa-linkedin-in"></i></a></div>
+                                  <div class="col-3"><a href="mailto:saibhargavchennelli@gmail.com" class="contact-link"  aria-label="Email for Chenelli Sai Bhargav"><i class="contact-icon fas fa-envelope"></i></a></div>
+                                  <div class="col-3"><a href="tel:+917330817420" class="contact-link" title="+91 7330817420" aria-label="Phone for Chenelli Sai Bhargav: +91 7330817420"><i class="contact-icon fas fa-phone"></i></a></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
+<!-- End Head Team 2026 -->
+
 <!-- Head Team 2025 -->
 
 <div class="accordion-item">
       <h2 class="accordion-header" id="headingFour">
-        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
           Head Team 2025
         </button>
       </h2>
-      <div id="collapseFive" class="accordion-collapse collapse show" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+      <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
         
         <div class="accordion-body">
           <section class="section-2">
