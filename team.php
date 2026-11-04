@@ -48,23 +48,6 @@
                       <div class="col-12 col-sm-6 align-items-center">
                         <div class="service-card">
                           <div class="card">
-                            <img class="card-img-top" src="img/team2026/201830.jpg" height="300px" alt="Monika Raj">
-                            <div class="card-body">
-                              <h6 class="x">Monika Raj</h6>
-                              <p class="x">General Secretary</p>
-                              <div class="row">
-                                  <div class="col-3"><a href="https://www.facebook.com/share/194e6zwegd/" class="contact-link" target="_blank" rel="noopener noreferrer" aria-label="Facebook for Monika Raj"><i class="contact-icon fab fa-facebook"></i></a></div>
-                                  <div class="col-3"><a href="https://www.linkedin.com/in/monika-raj-b73aa8312" class="contact-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn for Monika Raj"><i class="contact-icon fab fa-linkedin-in"></i></a></div>
-                                  <div class="col-3"><a href="mailto:rajmonika180@gmail.com" class="contact-link"  aria-label="Email for Monika Raj"><i class="contact-icon fas fa-envelope"></i></a></div>
-                                  <div class="col-3"><a href="tel:+917368026505" class="contact-link"  aria-label="Phone for Monika Raj"><i class="contact-icon fas fa-phone"></i></a></div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-12 col-sm-6 align-items-center">
-                        <div class="service-card">
-                          <div class="card">
                             <img class="card-img-top" src="img/team2026/201815.jpg" height="300px" alt="Mohit Yadav">
                             <div class="card-body">
                               <h6 class="x">Mohit Yadav</h6>
@@ -74,6 +57,23 @@
                                   <div class="col-3"><a href="https://www.linkedin.com/in/mohit-yadav-b8504432b" class="contact-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn for Mohit Yadav"><i class="contact-icon fab fa-linkedin-in"></i></a></div>
                                   <div class="col-3"><a href="mailto:Mohitqwerty.ydv@gmail.com" class="contact-link"  aria-label="Email for Mohit Yadav"><i class="contact-icon fas fa-envelope"></i></a></div>
                                   <div class="col-3"><a href="tel:+916267600938" class="contact-link"  aria-label="Phone for Mohit Yadav"><i class="contact-icon fas fa-phone"></i></a></div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-sm-6 align-items-center">
+                        <div class="service-card">
+                          <div class="card">
+                            <img class="card-img-top" src="img/team2026/201830.jpg" height="300px" alt="Monika Raj">
+                            <div class="card-body">
+                              <h6 class="x">Monika Raj</h6>
+                              <p class="x">General Secretary</p>
+                              <div class="row">
+                                  <div class="col-3"><a href="https://www.facebook.com/share/194e6zwegd/" class="contact-link" target="_blank" rel="noopener noreferrer" aria-label="Facebook for Monika Raj"><i class="contact-icon fab fa-facebook"></i></a></div>
+                                  <div class="col-3"><a href="https://www.linkedin.com/in/monika-raj-b73aa8312" class="contact-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn for Monika Raj"><i class="contact-icon fab fa-linkedin-in"></i></a></div>
+                                  <div class="col-3"><a href="mailto:rajmonika180@gmail.com" class="contact-link"  aria-label="Email for Monika Raj"><i class="contact-icon fas fa-envelope"></i></a></div>
+                                  <div class="col-3"><a href="tel:+917368026505" class="contact-link"  aria-label="Phone for Monika Raj"><i class="contact-icon fas fa-phone"></i></a></div>
                               </div>
                             </div>
                           </div>
