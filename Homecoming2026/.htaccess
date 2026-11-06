@@ -1,0 +1,11 @@
+RewriteEngine On
+RewriteBase /Homecoming2026/
+
+# 1. Redirect direct requests for index.php or index to /Homecoming2026/
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /Homecoming2026/index(\.php)?\ [NC]
+RewriteRule ^index(\.php)?$ /Homecoming2026/ [R=301,L]
+
+# 2. Hide .php extension for all pages (e.g., /about opens about.php)
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
